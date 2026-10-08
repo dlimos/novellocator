@@ -72,6 +72,11 @@ function renderDetail(){
   button.addEventListener('click',()=>selectPlace(i));locations.appendChild(button);
  });
  renderLocation();
+ if(chapter.unlocatedPlaces?.length){
+  const section=document.createElement('section');section.className='unlocated-places';
+  section.innerHTML=`<h3>${esc(t('Locations without verified coordinates'))}</h3>${chapter.unlocatedPlaces.map(item=>`<details class="location-evidence"><summary>${esc(item.name)}</summary><p>${esc(item.text)}</p><p><strong>${esc(t('Original text (English)'))}</strong></p><blockquote lang="en">${esc(item.quote)}</blockquote><a href="${esc(item.url)}" target="_blank" rel="noopener noreferrer">${esc(t('Read the source'))}</a></details>`).join('')}`;
+  document.getElementById('selected-location').parentElement.appendChild(section);
+ }
 }
 function renderLocation(){
  const chapter=chapters[current],place=literaryPlaces[chapter.places[selectedPlace]];
@@ -82,6 +87,8 @@ function renderLocation(){
  const coordinateText=place.coords.map(n=>n.toFixed(decimals)).join(', ');
  document.getElementById('selected-location').innerHTML=`<p class="location-address">${esc(place.area)}</p><p class="location-scene">${esc(chapter.placeText[selectedPlace])}</p><p class="today"><strong>${esc(place.status)}.</strong> ${esc(place.note)}</p><details class="location-evidence"><summary>${t('Posizione e fonti')}</summary><p>${esc(place.method)}</p><p class="coordinates">WGS84 · ${coordinateText}<br>${t('Verifica delle fonti')}: ${esc(new Date(place.checked+"T12:00:00").toLocaleDateString(locale,{day:"numeric",month:"long",year:"numeric"}))}</p><a href="${esc(narrativeSource.url)}" target="_blank" rel="noopener noreferrer">${esc(narrativeSource.label)}</a><br><a href="${esc(place.positionSource.url)}" target="_blank" rel="noopener noreferrer">${esc(place.positionSource.label)}</a>${place.additionalSource?`<br><a href="${esc(place.additionalSource.url)}" target="_blank" rel="noopener noreferrer">${esc(place.additionalSource.label)}</a>`:''}</details>`;
  document.getElementById('selected-location').innerHTML+=`<div class="street-view-action"><a class="street-view-link" id="street-view-link" href="${esc(streetViewUrl(place))}" target="_blank" rel="noopener noreferrer" aria-label="${esc(t('Apri Street View in una nuova finestra')+': '+place.name)}">Google Street View <span aria-hidden="true">↗</span></a><p class="street-view-note">${esc(t('Google mostra il panorama disponibile più vicino: può essere spostato rispetto al punto e dipende dalla copertura.'))}</p></div>`;
+ const quote=chapter.placeQuotes?.[chapter.places[selectedPlace]];
+ if(quote){const evidence=document.createElement('div');evidence.className='original-excerpt';evidence.innerHTML=`<p><strong>${esc(t('Original text (English)'))}</strong></p><blockquote lang="en">${esc(quote)}</blockquote>`;document.getElementById('selected-location').appendChild(evidence);}
  document.getElementById('street-view-link').onclick=openStreetView;
 }
 function selectPlace(index){
@@ -104,8 +111,9 @@ function showMapError(message){const notice=document.getElementById('map-error')
 function navigate(target){if(!viewReady)return;return view.goTo(target,{animate:!reduced,duration:800}).catch(error=>{if(error.name!=='AbortError')console.error('Spostamento della mappa non riuscito',error)})}
 function overview(){
  if(!viewReady||!ExtentClass)return;
- const points=chapters[current].places.map(id=>literaryPlaces[id]);
- if(!points.length){navigate(book.initialView);return;}
+ const chapter=chapters[current];
+ const points=(chapter.overviewPlaces??chapter.places).map(id=>literaryPlaces[id]);
+ if(!points.length){navigate(chapter.initialView||book.initialView);return;}
  if(points.length===1){navigate({center:[points[0].coords[1],points[0].coords[0]],zoom:points[0].zoom});return}
  const longitudes=points.map(p=>p.coords[1]),latitudes=points.map(p=>p.coords[0]);
  const xmin=Math.min(...longitudes),xmax=Math.max(...longitudes),ymin=Math.min(...latitudes),ymax=Math.max(...latitudes);

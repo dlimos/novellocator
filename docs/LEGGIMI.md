@@ -1,8 +1,8 @@
-# Atlante letterario · Joyce, Proust e Tolstoj
+# Atlante letterario · Joyce, Proust, Tolstoj e Melville
 
 Sito statico con inglese predefinito e traduzioni in italiano, francese e spagnolo. Ulisse comprende 18 mappe e 115 luoghi; Alla ricerca del tempo perduto comprende sette mappe e 23 luoghi. HTML, CSS e JavaScript condivisi; cartografia Esri ArcGIS Maps SDK for JavaScript 5.1, cinque sfondi: OpenStreetMap (predefinito), Ortofoto Esri (World Imagery), Stradale, Topografica e Grigio chiaro. Richiede Internet per cartografia e caratteri.
 
-Aprire `index.html` per il catalogo dei romanzi e scegliere Joyce, Proust o Tolstoj. `ulisse.html` mantiene compatibili i vecchi collegamenti; Proust usa `atlas.html?book=proust`; Tolstoj usa `atlas.html?book=war-and-peace`. I promessi sposi, Delitto e castigo e La signora Dalloway sono proposte per il futuro: le loro mappe non sono ancora disponibili. Per ospitarlo su un servizio di hosting statico, caricare insieme i file di questa cartella. Nessuna compilazione è necessaria.
+Aprire `index.html` per il catalogo dei romanzi e scegliere Joyce, Proust, Tolstoj o Melville. `ulisse.html` mantiene compatibili i vecchi collegamenti; Proust usa `atlas.html?book=proust`; Tolstoj usa `atlas.html?book=war-and-peace`; Melville usa `atlas.html?book=moby-dick`. I promessi sposi, Delitto e castigo e La signora Dalloway sono proposte per il futuro: le loro mappe non sono ancora disponibili. Per ospitarlo su un servizio di hosting statico, caricare insieme i file di questa cartella. Nessuna compilazione è necessaria.
 
 ## Come leggere la precisione
 
@@ -108,3 +108,11 @@ Fonti principali, oltre ai collegamenti geografici di ogni scheda:
 - Itinerario del Museo di Borodino riprodotto da Nash Ural: https://nashural.ru/russia/dostoprimechatelnosti-muzeya-zapovednika-borodinskoe-pole-batareya-raevskogo/
 
 `tests/fixtures/war-and-peace-sources.json` conserva gli identificatori geografici, le coordinate consultate e brevi estratti del testo inglese per verificare i riferimenti alle scene. I controlli automatici coprono tutte le sezioni e lingue, i CSV, i collegamenti Street View e il passaggio all’epilogo senza punti. Non verificano il rendering WebGL reale né attestano un’accuratezza metrica dei siti storici.
+
+## Moby-Dick
+
+135 capitoli e un epilogo, con 276 luoghi, 595 riferimenti capitolo–luogo e 21 riferimenti privi di coordinate. Le citazioni sono verificate sul testo inglese integrale di Project Gutenberg e restano in inglese anche nelle interfacce italiana, francese e spagnola. Le posizioni hanno fonti geografiche separate. Le citazioni non indicano necessariamente tappe del Pequod: distinguere ambientazioni, ricordi, rotta prevista e allusioni.
+
+Water Street indica Liverpool, secondo l’edizione critica della Melville Electronic Library. La Seamen’s Bethel è il modello della cappella immaginaria; il pulpito attuale è una replica del 1961. Tranque, Arsacidi, locande immaginarie e naufragio finale non hanno punti inventati. Una vista regionale senza punti correnti è solo contestuale. I CSV includono anche i riferimenti senza coordinate. La selezione è ampia, ma non pretende di esaurire ogni toponimo del romanzo.
+
+Dati: `data/moby-dick.js`, traduzioni: `data/moby-dick-i18n.js`. Il motore comune supporta citazioni (`placeQuotes`), ruoli geografici (`placeRoles`), punti prioritari nella panoramica (`overviewPlaces`), vista contestuale (`initialView`) e riferimenti non geolocalizzati (`unlocatedPlaces`).

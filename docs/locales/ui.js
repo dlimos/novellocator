@@ -124,7 +124,19 @@ window.atlasLocaleData={
       "Explore the places of Joyce’s Ulysses, Proust’s In Search of Lost Time and Tolstoy’s War and Peace.": "Esplora i luoghi dell’Ulisse di Joyce, di Alla ricerca del tempo perduto di Proust e di Guerra e pace di Tolstoj.",
       "04 · ALESSANDRO MANZONI": "04 · ALESSANDRO MANZONI",
       "05 · FYODOR DOSTOEVSKY": "05 · FËDOR DOSTOEVSKIJ",
-      "06 · VIRGINIA WOOLF": "06 · VIRGINIA WOOLF"
+      "06 · VIRGINIA WOOLF": "06 · VIRGINIA WOOLF",
+      "Locations without verified coordinates": "Luoghi senza coordinate verificate",
+      "Original text (English)": "Testo originale (inglese)",
+      "Read the source": "Leggi la fonte",
+      "Explore Moby-Dick by Herman Melville": "Esplora Moby-Dick di Herman Melville",
+      "Moby-Dick": "Moby-Dick",
+      "ATLANTIC / INDIAN OCEAN / PACIFIC": "ATLANTICO / OCEANO INDIANO / PACIFICO",
+      "135 chapters and an epilogue: the voyage, recalled journeys and a world of geographical allusions.": "135 capitoli e un epilogo: il viaggio, i ricordi e un mondo di allusioni geografiche.",
+      "Ulysses, In Search of Lost Time, War and Peace and Moby-Dick are available. The other titles are proposals for expanding the catalogue. Card illustrations are decorative.": "Ulisse, Alla ricerca del tempo perduto, Guerra e pace e Moby-Dick sono disponibili. Gli altri titoli sono proposte per ampliare il catalogo. Le illustrazioni delle schede sono decorative.",
+      "Explore the places of Joyce’s Ulysses, Proust’s In Search of Lost Time, Tolstoy’s War and Peace and Melville’s Moby-Dick.": "Esplora i luoghi dell’Ulisse di Joyce, di Alla ricerca del tempo perduto di Proust, di Guerra e pace di Tolstoj e di Moby-Dick di Melville.",
+      "05 · ALESSANDRO MANZONI": "05 · ALESSANDRO MANZONI",
+      "06 · FYODOR DOSTOEVSKY": "06 · FËDOR DOSTOEVSKIJ",
+      "07 · VIRGINIA WOOLF": "07 · VIRGINIA WOOLF"
     },
     "en": {
       "Atlante letterario": "Literary Atlas",
@@ -231,7 +243,19 @@ window.atlasLocaleData={
       "Explore the places of Joyce’s Ulysses, Proust’s In Search of Lost Time and Tolstoy’s War and Peace.": "Explore the places of Joyce’s Ulysses, Proust’s In Search of Lost Time and Tolstoy’s War and Peace.",
       "04 · ALESSANDRO MANZONI": "04 · ALESSANDRO MANZONI",
       "05 · FYODOR DOSTOEVSKY": "05 · FYODOR DOSTOEVSKY",
-      "06 · VIRGINIA WOOLF": "06 · VIRGINIA WOOLF"
+      "06 · VIRGINIA WOOLF": "06 · VIRGINIA WOOLF",
+      "Locations without verified coordinates": "Locations without verified coordinates",
+      "Original text (English)": "Original text (English)",
+      "Read the source": "Read the source",
+      "Explore Moby-Dick by Herman Melville": "Explore Moby-Dick by Herman Melville",
+      "Moby-Dick": "Moby-Dick",
+      "ATLANTIC / INDIAN OCEAN / PACIFIC": "ATLANTIC / INDIAN OCEAN / PACIFIC",
+      "135 chapters and an epilogue: the voyage, recalled journeys and a world of geographical allusions.": "135 chapters and an epilogue: the voyage, recalled journeys and a world of geographical allusions.",
+      "Ulysses, In Search of Lost Time, War and Peace and Moby-Dick are available. The other titles are proposals for expanding the catalogue. Card illustrations are decorative.": "Ulysses, In Search of Lost Time, War and Peace and Moby-Dick are available. The other titles are proposals for expanding the catalogue. Card illustrations are decorative.",
+      "Explore the places of Joyce’s Ulysses, Proust’s In Search of Lost Time, Tolstoy’s War and Peace and Melville’s Moby-Dick.": "Explore the places of Joyce’s Ulysses, Proust’s In Search of Lost Time, Tolstoy’s War and Peace and Melville’s Moby-Dick.",
+      "05 · ALESSANDRO MANZONI": "05 · ALESSANDRO MANZONI",
+      "06 · FYODOR DOSTOEVSKY": "06 · FYODOR DOSTOEVSKY",
+      "07 · VIRGINIA WOOLF": "07 · VIRGINIA WOOLF"
     },
     "fr": {
       "Atlante letterario": "Atlas littéraire",
@@ -338,7 +362,19 @@ window.atlasLocaleData={
       "Explore the places of Joyce’s Ulysses, Proust’s In Search of Lost Time and Tolstoy’s War and Peace.": "Explorez les lieux d’Ulysse de Joyce, d’À la recherche du temps perdu de Proust et de Guerre et Paix de Tolstoï.",
       "04 · ALESSANDRO MANZONI": "04 · ALESSANDRO MANZONI",
       "05 · FYODOR DOSTOEVSKY": "05 · FIODOR DOSTOÏEVSKI",
-      "06 · VIRGINIA WOOLF": "06 · VIRGINIA WOOLF"
+      "06 · VIRGINIA WOOLF": "06 · VIRGINIA WOOLF",
+      "Locations without verified coordinates": "Lieux sans coordonnées vérifiées",
+      "Original text (English)": "Texte original (anglais)",
+      "Read the source": "Lire la source",
+      "Explore Moby-Dick by Herman Melville": "Explorer Moby-Dick de Herman Melville",
+      "Moby-Dick": "Moby-Dick",
+      "ATLANTIC / INDIAN OCEAN / PACIFIC": "ATLANTIQUE / OCÉAN INDIEN / PACIFIQUE",
+      "135 chapters and an epilogue: the voyage, recalled journeys and a world of geographical allusions.": "135 chapitres et un épilogue : le voyage, les souvenirs et un monde d’allusions géographiques.",
+      "Ulysses, In Search of Lost Time, War and Peace and Moby-Dick are available. The other titles are proposals for expanding the catalogue. Card illustrations are decorative.": "Ulysse, À la recherche du temps perdu, Guerre et Paix et Moby-Dick sont disponibles. Les autres titres sont des propositions pour enrichir le catalogue. Les illustrations des fiches sont décoratives.",
+      "Explore the places of Joyce’s Ulysses, Proust’s In Search of Lost Time, Tolstoy’s War and Peace and Melville’s Moby-Dick.": "Explorez les lieux d’Ulysse de Joyce, d’À la recherche du temps perdu de Proust, de Guerre et Paix de Tolstoï et de Moby-Dick de Melville.",
+      "05 · ALESSANDRO MANZONI": "05 · ALESSANDRO MANZONI",
+      "06 · FYODOR DOSTOEVSKY": "06 · FIODOR DOSTOÏEVSKI",
+      "07 · VIRGINIA WOOLF": "07 · VIRGINIA WOOLF"
     },
     "es": {
       "Atlante letterario": "Atlas literario",
@@ -445,7 +481,19 @@ window.atlasLocaleData={
       "Explore the places of Joyce’s Ulysses, Proust’s In Search of Lost Time and Tolstoy’s War and Peace.": "Explora los lugares de Ulises de Joyce, En busca del tiempo perdido de Proust y Guerra y paz de Tolstói.",
       "04 · ALESSANDRO MANZONI": "04 · ALESSANDRO MANZONI",
       "05 · FYODOR DOSTOEVSKY": "05 · FIÓDOR DOSTOYEVSKI",
-      "06 · VIRGINIA WOOLF": "06 · VIRGINIA WOOLF"
+      "06 · VIRGINIA WOOLF": "06 · VIRGINIA WOOLF",
+      "Locations without verified coordinates": "Lugares sin coordenadas verificadas",
+      "Original text (English)": "Texto original (inglés)",
+      "Read the source": "Leer la fuente",
+      "Explore Moby-Dick by Herman Melville": "Explora Moby-Dick de Herman Melville",
+      "Moby-Dick": "Moby-Dick",
+      "ATLANTIC / INDIAN OCEAN / PACIFIC": "ATLÁNTICO / OCÉANO ÍNDICO / PACÍFICO",
+      "135 chapters and an epilogue: the voyage, recalled journeys and a world of geographical allusions.": "135 capítulos y un epílogo: el viaje, los recuerdos y un mundo de alusiones geográficas.",
+      "Ulysses, In Search of Lost Time, War and Peace and Moby-Dick are available. The other titles are proposals for expanding the catalogue. Card illustrations are decorative.": "Ulises, En busca del tiempo perdido, Guerra y paz y Moby-Dick están disponibles. Los demás títulos son propuestas para ampliar el catálogo. Las ilustraciones de las fichas son decorativas.",
+      "Explore the places of Joyce’s Ulysses, Proust’s In Search of Lost Time, Tolstoy’s War and Peace and Melville’s Moby-Dick.": "Explora los lugares de Ulises de Joyce, de En busca del tiempo perdido de Proust, de Guerra y paz de Tolstói y de Moby-Dick de Melville.",
+      "05 · ALESSANDRO MANZONI": "05 · ALESSANDRO MANZONI",
+      "06 · FYODOR DOSTOEVSKY": "06 · FIÓDOR DOSTOYEVSKI",
+      "07 · VIRGINIA WOOLF": "07 · VIRGINIA WOOLF"
     }
   }
 };

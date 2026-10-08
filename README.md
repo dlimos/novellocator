@@ -7,6 +7,7 @@ Explore the places behind the stories. A literary atlas with a shared HTML, CSS 
 - **Ulysses** by James Joyce: 18 episodes and 115 distinct places.
 - **In Search of Lost Time** by Marcel Proust: seven volumes, 23 distinct places and 33 scene records.
 - **War and Peace** by Leo Tolstoy: 15 books and two epilogues, 62 distinct places and 91 scene records. Sixteen sections have maps; the Second Epilogue is philosophical.
+- **Moby-Dick** by Herman Melville: 135 chapters and an epilogue, 276 geographic records, 595 chapter references and 21 unlocated references. 110 sections contain mapped places; other sections have contextual regional views.
 - English is the default language; Italian, French and Spanish are available.
 - Esri ArcGIS Maps SDK for JavaScript, five basemaps and external Google Street View links.
 
@@ -48,3 +49,11 @@ Edit the corresponding `docs/data/<book>.js` and `docs/data/<book>-i18n.js` file
 Keep hosting passwords, database connection strings and deployment profiles outside Git. Examples may use placeholders. Configure deployment secrets in the selected provider or GitHub Secrets when deployment is introduced.
 
 External source documents, temporary research downloads and the previous hosting-service configuration are not bundled here. Source links and attributions remain with the website. No open-source license is assigned by this repository; third-party maps, fonts and referenced datasets retain their respective terms.
+
+## Moby-Dick
+
+135 individual chapters and the epilogue; 276 geographic records, 595 chapter–place references and 21 unlocated references. Sources are checked against the complete English Project Gutenberg text, with short original excerpts, separate coordinate citations and four language interfaces. Markers distinguish settings, recalled journeys, planned routes and allusions. The regional map overview prioritizes settings; references elsewhere remain selectable. Unknown settings have contextual regional views, not ship positions.
+
+Water Street is identified as Liverpool using the Melville Electronic Library critical edition. Seamen’s Bethel is a documented model, not an exact fictional interior. Tranque and the Arsacides remain unlocated because of conflicting geographic clues. No point is invented for the Pequod’s wreck or Ishmael’s rescue. CSV exports contain mapped and unlocated references. The source fixture records coordinates, identifiers, English excerpts and chapter anchors; it is not independent proof of literary identification.
+
+The generic chapter schema also supports `placeQuotes`, `placeRoles`, `overviewPlaces`, `initialView` and `unlocatedPlaces`. Omitting these fields preserves existing book behavior.
