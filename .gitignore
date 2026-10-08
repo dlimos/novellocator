@@ -1,0 +1,36 @@
+# Dependencies and build output
+node_modules/
+bin/
+obj/
+dist/
+coverage/
+# Local configuration and deployment credentials
+.env
+.env.*
+!.env.example
+**/appsettings.*.json
+!**/appsettings.example.json
+*.publishSettings
+*.pubxml
+*.pubxml.user
+*.pfx
+*.p12
+*.pem
+*.key
+*.user
+*.suo
+.vs/
+.vscode/
+.openai/
+# Archives, runtime data and scratch files
+*.zip
+*.log
+*.bak
+*.db
+*.db-shm
+*.db-wal
+*.mdf
+*.ldf
+work/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,12 @@
+{
+  "name": "novellocator",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Explore the places behind the stories: a multilingual literary atlas.",
+  "scripts": {
+    "test": "node tests/run.cjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

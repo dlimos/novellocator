@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Literary Atlas</title>
+  <meta name="description" content="Explore the places of classic novels.">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231b302e'/%3E%3Cpath d='M8 8v12a8 8 0 0016 0V8' fill='none' stroke='%23edd37c' stroke-width='3'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="https://js.arcgis.com/5.1/esri/themes/light/main.css">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="basemaps.js"></script>
+
+  <script defer src="locales/ui.js"></script>
+  <script defer src="i18n.js"></script>
+  <script defer src="load-book.js"></script>
+</head>
+<body>
+  <header class="masthead"><a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">a.</span>Literary Atlas</a><span class="edition">THE PLACES OF NOVELS</span><div class="language-picker"><label for="language-select">Language</label><select id="language-select" aria-label="Language"></select></div></header>
+  <main>
+    <section class="introduction" aria-labelledby="title"><div><p class="eyebrow" id="book-author"></p><h1 id="title"></h1></div><a class="catalogue-back" href="index.html">← All novels</a></section>
+    <section class="workspace" id="atlas-workspace" aria-label="Literary Atlas">
+      <aside class="sidebar"><div class="sidebar-title"><h2 id="chapter-list-title"></h2><span id="chapter-count"></span></div><p class="help" id="chapter-help"></p><nav id="places" aria-label="Chapters of the novel"></nav><div class="sidebar-note" id="book-note"><span aria-hidden="true">✦</span><p id="book-note-text"></p></div></aside>
+      <div class="map-column"><div class="basemap-toolbar"><label for="basemap-select">Basemap</label><select id="basemap-select" disabled></select><span id="basemap-description"></span></div><div class="map-wrap"><div id="map" role="region" aria-label="Interactive map of the novel’s places"></div><div class="map-attribution"><a href="https://www.esri.com/" target="_blank" rel="noopener noreferrer">Powered by Esri</a> · <a id="osm-credit" href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer" hidden>© OpenStreetMap contributors</a> <span id="basemap-credits"></span></div><div class="map-caption"><span class="map-dot"></span><span id="map-heading"></span></div><div class="map-zoom" aria-label="Map zoom"><button id="zoom-in" type="button" aria-label="Zoom in" disabled>+</button><button id="zoom-out" type="button" aria-label="Zoom out" disabled>−</button></div><button class="overview" id="overview" type="button" disabled>All places</button><div class="map-error" id="map-error" role="status" hidden>The map is unavailable. You can still explore the place records.</div></div><div class="map-legend"><span>● Building or historical site</span><span>◆ Street, area or uncertain position</span>Each place’s record explains its positional precision.</div><article class="detail" id="detail" aria-live="polite" aria-atomic="true"></article></div>
+    </section>
+    <footer><p>An atlas for reading with your eyes on the city.</p><details><summary>Sources and map notes</summary><div class="source-notes" id="book-sources"></div></details></footer>
+  </main>
+</body>
+</html>

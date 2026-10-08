@@ -1,0 +1,1207 @@
+{
+  "promenade": {
+    "query": "Promenade Marcel Proust Cabourg",
+    "url": "https://data.geopf.fr/geocodage/search?q=Promenade%20Marcel%20Proust%20Cabourg&index=address&limit=3",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.119779,
+            49.293405
+          ]
+        },
+        "properties": {
+          "label": "Promenade Marcel Proust 14390 Cabourg",
+          "score": 0.9509290909090908,
+          "id": "14117_0531",
+          "banId": "600df61a-b73b-44b6-8251-97b293afed32",
+          "name": "Promenade Marcel Proust",
+          "postcode": "14390",
+          "citycode": "14117",
+          "x": 473068.59,
+          "y": 6914904.45,
+          "city": "Cabourg",
+          "context": "14, Calvados, Normandie",
+          "type": "street",
+          "importance": 0.46022,
+          "depcode": "14",
+          "street": "Promenade Marcel Proust",
+          "_type": "address"
+        }
+      }
+    ]
+  },
+  "conti": {
+    "query": "Quai de Conti Paris",
+    "url": "https://data.geopf.fr/geocodage/search?q=Quai%20de%20Conti%20Paris&index=address&limit=3",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.338725,
+            48.856627
+          ]
+        },
+        "properties": {
+          "label": "Quai de Conti 75006 Paris",
+          "score": 0.9646172727272727,
+          "id": "75106_2296",
+          "banId": "4b23c99a-0c42-4765-a0c8-ed334a63b546",
+          "name": "Quai de Conti",
+          "postcode": "75006",
+          "citycode": "75106",
+          "x": 651480.37,
+          "y": 6862046.46,
+          "city": "Paris",
+          "district": "Paris 6e Arrondissement",
+          "context": "75, Paris, Île-de-France",
+          "type": "street",
+          "importance": 0.61079,
+          "depcode": "75",
+          "street": "Quai de Conti",
+          "_type": "address"
+        }
+      }
+    ]
+  },
+  "invalides": {
+    "url": "https://data.geopf.fr/geocodage/search?q=Pont%20des%20Invalides&index=poi&limit=3",
+    "query": "Pont des Invalides",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.310378,
+            48.863923
+          ]
+        },
+        "properties": {
+          "name": [
+            "Pont des Invalides"
+          ],
+          "toponym": "Pont des Invalides",
+          "category": [
+            "pont",
+            "construction",
+            "construction linéaire"
+          ],
+          "postcode": [
+            "75008"
+          ],
+          "citycode": [
+            "75108",
+            "75056"
+          ],
+          "depcode": [
+            "75"
+          ],
+          "city": [
+            "Paris 8e Arrondissement",
+            "Paris"
+          ],
+          "extrafields": {
+            "cleabs": "CONSLINE0000002003964970"
+          },
+          "classification": 7,
+          "territory": "METROPOLE",
+          "score": 0.8545454545454545,
+          "_type": "poi"
+        }
+      }
+    ]
+  },
+  "montalivet": {
+    "query": "Rue de Montalivet Paris",
+    "url": "https://data.geopf.fr/geocodage/search?q=Rue%20de%20Montalivet%20Paris&index=address&limit=3",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.318781,
+            48.870978
+          ]
+        },
+        "properties": {
+          "label": "Rue Montalivet 75008 Paris",
+          "score": 0.7634706611570248,
+          "id": "75108_6454",
+          "banId": "47e61343-dca9-4125-94e5-987b74c08d1d",
+          "name": "Rue Montalivet",
+          "postcode": "75008",
+          "citycode": "75108",
+          "x": 650030.83,
+          "y": 6863654.61,
+          "city": "Paris",
+          "district": "Paris 8e Arrondissement",
+          "context": "75, Paris, Île-de-France",
+          "type": "street",
+          "importance": 0.62545,
+          "depcode": "75",
+          "street": "Rue Montalivet",
+          "_type": "address"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -1.145245,
+            45.376142
+          ]
+        },
+        "properties": {
+          "label": "Rue Jean Parès 33930 Vendays-Montalivet",
+          "score": 0.38449397129186597,
+          "id": "33540_0191",
+          "banId": "0346bf9f-a37b-4b8b-a742-b37f715225f5",
+          "name": "Rue Jean Parès",
+          "postcode": "33930",
+          "citycode": "33540",
+          "x": 375699.29,
+          "y": 6483707.52,
+          "city": "Vendays-Montalivet",
+          "context": "33, Gironde, Nouvelle-Aquitaine",
+          "type": "street",
+          "importance": 0.43996,
+          "depcode": "33",
+          "street": "Rue Jean Parès",
+          "_type": "address"
+        }
+      }
+    ]
+  },
+  "concorde": {
+    "query": "Pont de la Concorde Paris",
+    "url": "https://data.geopf.fr/geocodage/search?q=Pont%20de%20la%20Concorde%20Paris&index=poi&limit=3",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.319592,
+            48.863382
+          ]
+        },
+        "properties": {
+          "name": [
+            "Pont de la Concorde"
+          ],
+          "toponym": "Pont de la Concorde",
+          "category": [
+            "pont",
+            "construction",
+            "construction surfacique"
+          ],
+          "postcode": [
+            "75008",
+            "75007"
+          ],
+          "citycode": [
+            "75108",
+            "75056",
+            "75107"
+          ],
+          "depcode": [
+            "75"
+          ],
+          "city": [
+            "Paris 8e Arrondissement",
+            "Paris",
+            "Paris 7e Arrondissement"
+          ],
+          "extrafields": {
+            "cleabs": "CONSSURF0000000233532538"
+          },
+          "classification": 7,
+          "territory": "METROPOLE",
+          "score": 0.44545454545454544,
+          "_type": "poi"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            1.58158,
+            50.523413
+          ]
+        },
+        "properties": {
+          "name": [
+            "Résidence le Concorde"
+          ],
+          "toponym": "Résidence le Concorde",
+          "category": [
+            "quartier",
+            "zone d'habitation"
+          ],
+          "postcode": [
+            "62520"
+          ],
+          "citycode": [
+            "62826"
+          ],
+          "depcode": [
+            "62"
+          ],
+          "city": [
+            "Le Touquet-Paris-Plage"
+          ],
+          "extrafields": {
+            "cleabs": "PAIHABIT0000000320389105"
+          },
+          "classification": 7,
+          "territory": "METROPOLE",
+          "score": 0.3242424242424242,
+          "_type": "poi"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.319934,
+            48.866216
+          ]
+        },
+        "properties": {
+          "name": [
+            "Parking Concorde"
+          ],
+          "toponym": "Parking Concorde",
+          "category": [
+            "parking",
+            "transport",
+            "équipement de transport"
+          ],
+          "postcode": [
+            "75008"
+          ],
+          "citycode": [
+            "75108",
+            "75056"
+          ],
+          "depcode": [
+            "75"
+          ],
+          "city": [
+            "Paris 8e Arrondissement",
+            "Paris"
+          ],
+          "extrafields": {
+            "cleabs": "EQ_RESEA0000000130202084"
+          },
+          "classification": 7,
+          "territory": "METROPOLE",
+          "score": 0.3038461538461538,
+          "_type": "poi"
+        }
+      }
+    ]
+  },
+  "church": {
+    "url": "https://data.geopf.fr/geocodage/search?q=Eglise%20Saint%20Jacques%20Illiers%20Combray&index=poi&limit=3",
+    "query": "Eglise Saint Jacques Illiers Combray",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            1.244769,
+            48.299413
+          ]
+        },
+        "properties": {
+          "name": [
+            "Église Saint-Jacques"
+          ],
+          "toponym": "Église Saint-Jacques",
+          "category": [
+            "culte chrétien",
+            "zone d'activité ou d'intérêt"
+          ],
+          "postcode": [
+            "28120"
+          ],
+          "citycode": [
+            "28196"
+          ],
+          "depcode": [
+            "28"
+          ],
+          "city": [
+            "Illiers-Combray"
+          ],
+          "extrafields": {
+            "cleabs": "SURFACTI0000000219771942"
+          },
+          "classification": 4,
+          "territory": "METROPOLE",
+          "score": 0.7620842572062083,
+          "_type": "poi"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            1.245356,
+            48.29925
+          ]
+        },
+        "properties": {
+          "name": [
+            "Parking Saint-Jacques"
+          ],
+          "toponym": "Parking Saint-Jacques",
+          "category": [
+            "parking",
+            "transport",
+            "équipement de transport"
+          ],
+          "postcode": [
+            "28120"
+          ],
+          "citycode": [
+            "28196"
+          ],
+          "depcode": [
+            "28"
+          ],
+          "city": [
+            "Illiers-Combray"
+          ],
+          "extrafields": {
+            "cleabs": "EQ_RESEA0000000219771945"
+          },
+          "classification": 7,
+          "territory": "METROPOLE",
+          "score": 0.5306818181818181,
+          "_type": "poi"
+        }
+      }
+    ]
+  },
+  "leonie": {
+    "query": "4 Rue du Docteur Proust 28120 Illiers-Combray",
+    "url": "https://data.geopf.fr/geocodage/search?q=4%20Rue%20du%20Docteur%20Proust%2028120%20Illiers-Combray&index=address&limit=3",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            1.243452,
+            48.29985
+          ]
+        },
+        "properties": {
+          "label": "4 Rue du Docteur Proust 28120 Illiers-Combray",
+          "score": 0.9544181818181817,
+          "housenumber": "4",
+          "id": "28196_0110_00004",
+          "banId": "f65845b1-bea1-4d91-b5c9-4ba507448818",
+          "name": "4 Rue du Docteur Proust",
+          "postcode": "28120",
+          "citycode": "28196",
+          "x": 569749.4,
+          "y": 6801395.77,
+          "city": "Illiers-Combray",
+          "context": "28, Eure-et-Loir, Centre-Val de Loire",
+          "type": "housenumber",
+          "importance": 0.4986,
+          "depcode": "28",
+          "street": "Rue du Docteur Proust",
+          "_type": "address"
+        }
+      }
+    ]
+  },
+  "foch": {
+    "query": "Avenue Foch Paris",
+    "url": "https://data.geopf.fr/geocodage/search?q=Avenue%20Foch%20Paris&index=address&limit=3",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.284781,
+            48.872684
+          ]
+        },
+        "properties": {
+          "label": "Avenue Foch 75116 Paris",
+          "score": 0.9792472727272726,
+          "id": "75116_3696",
+          "banId": "62fd74c8-5f23-463e-927b-e00bf9d48e5c",
+          "name": "Avenue Foch",
+          "postcode": "75116",
+          "citycode": "75116",
+          "x": 647538.62,
+          "y": 6863866.35,
+          "city": "Paris",
+          "district": "Paris 16e Arrondissement",
+          "context": "75, Paris, Île-de-France",
+          "type": "street",
+          "importance": 0.77172,
+          "depcode": "75",
+          "street": "Avenue Foch",
+          "_type": "address"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.278369,
+            48.873197
+          ]
+        },
+        "properties": {
+          "label": "Square de l'Avenue Foch 75116 Paris",
+          "score": 0.7014290909090908,
+          "id": "75116_0603",
+          "banId": "9099e385-268e-4583-98b2-88f9a7e925f3",
+          "name": "Square de l'Avenue Foch",
+          "postcode": "75116",
+          "citycode": "75116",
+          "x": 647068.84,
+          "y": 6863927.67,
+          "city": "Paris",
+          "district": "Paris 16e Arrondissement",
+          "context": "75, Paris, Île-de-France",
+          "type": "street",
+          "importance": 0.71572,
+          "depcode": "75",
+          "street": "Square de l'Avenue Foch",
+          "_type": "address"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.194992,
+            48.969955
+          ]
+        },
+        "properties": {
+          "label": "Avenue Foch 95240 Cormeilles-en-Parisis",
+          "score": 0.57,
+          "id": "95176_0500",
+          "banId": "bead31ae-159c-41b6-939d-af547d320bee",
+          "name": "Avenue Foch",
+          "postcode": "95240",
+          "citycode": "95176",
+          "x": 641063.08,
+          "y": 6874745.88,
+          "city": "Cormeilles-en-Parisis",
+          "context": "95, Val-d'Oise, Île-de-France",
+          "type": "street",
+          "importance": 0.645,
+          "depcode": "95",
+          "street": "Avenue Foch",
+          "_type": "address"
+        }
+      }
+    ]
+  },
+  "faubourg": {
+    "url": "https://data.geopf.fr/geocodage/search?q=Rue%20du%20Faubourg%20Saint%20Honore%2075008%20Paris&index=address&limit=3",
+    "query": "Rue du Faubourg Saint Honore 75008 Paris",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.311581,
+            48.872667
+          ]
+        },
+        "properties": {
+          "label": "Rue du Faubourg Saint-Honoré 75008 Paris",
+          "score": 0.9761936363636362,
+          "id": "75108_3518",
+          "banId": "1e922078-9bf2-4595-adb8-857267f35b7f",
+          "name": "Rue du Faubourg Saint-Honoré",
+          "postcode": "75008",
+          "citycode": "75108",
+          "x": 649504.34,
+          "y": 6863846.99,
+          "city": "Paris",
+          "district": "Paris 8e Arrondissement",
+          "context": "75, Paris, Île-de-France",
+          "type": "street",
+          "importance": 0.73813,
+          "depcode": "75",
+          "street": "Rue du Faubourg Saint-Honoré",
+          "_type": "address"
+        }
+      }
+    ]
+  },
+  "loir": {
+    "query": "49 Rue Saint Hilaire 28120 Illiers Combray",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            1.23967,
+            48.299678
+          ]
+        },
+        "properties": {
+          "label": "49 Rue Saint-hilaire 28120 Illiers-Combray",
+          "score": 0.9632963549713357,
+          "housenumber": "49",
+          "id": "28196_0265_00049",
+          "banId": "4f1c1328-4c7a-46ac-b213-b8986d9b4bec",
+          "name": "49 Rue Saint-hilaire",
+          "postcode": "28120",
+          "citycode": "28196",
+          "x": 569468.58,
+          "y": 6801382.9,
+          "city": "Illiers-Combray",
+          "context": "28, Eure-et-Loir, Centre-Val de Loire",
+          "type": "housenumber",
+          "importance": 0.55979,
+          "depcode": "28",
+          "street": "Rue Saint-hilaire",
+          "distance": 764,
+          "_type": "address"
+        }
+      }
+    ],
+    "url": "https://data.geopf.fr/geocodage/search?q=49%20Rue%20Saint%20Hilaire%2028120%20Illiers%20Combray&index=address&lat=48.30&lon=1.25&limit=3"
+  },
+  "opera": {
+    "query": "8 Rue Scribe 75009 Paris",
+    "url": "https://data.geopf.fr/geocodage/search?q=8%20Rue%20Scribe%2075009%20Paris&index=address&limit=3",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.331232,
+            48.872666
+          ]
+        },
+        "properties": {
+          "label": "8 Rue Scribe 75009 Paris",
+          "score": 0.9658909090909091,
+          "housenumber": "8",
+          "id": "75109_8887_00008",
+          "banId": "5d717465-d465-4c45-adf8-2a7967fdb947",
+          "name": "8 Rue Scribe",
+          "postcode": "75009",
+          "citycode": "75109",
+          "x": 650945.71,
+          "y": 6863834.49,
+          "city": "Paris",
+          "district": "Paris 9e Arrondissement",
+          "context": "75, Paris, Île-de-France",
+          "type": "housenumber",
+          "importance": 0.6248,
+          "depcode": "75",
+          "street": "Rue Scribe",
+          "_type": "address"
+        }
+      }
+    ]
+  },
+  "garden": {
+    "query": "Rue de Tansonville 28120 Illiers Combray",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            1.238873,
+            48.298984
+          ]
+        },
+        "properties": {
+          "label": "Rue de Tansonville 28120 Illiers-Combray",
+          "score": 0.9560770118810155,
+          "id": "28196_0279",
+          "banId": "4d179510-583e-47fa-997a-84519481f410",
+          "name": "Rue de Tansonville",
+          "postcode": "28120",
+          "citycode": "28196",
+          "x": 569407.77,
+          "y": 6801307.1,
+          "city": "Illiers-Combray",
+          "context": "28, Eure-et-Loir, Centre-Val de Loire",
+          "type": "street",
+          "importance": 0.47306,
+          "depcode": "28",
+          "street": "Rue de Tansonville",
+          "distance": 582,
+          "_type": "address"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            1.237255,
+            48.278465
+          ]
+        },
+        "properties": {
+          "label": "Tansonville 28120 Illiers-Combray",
+          "score": 0.7368205368306028,
+          "id": "28196_esbhrp",
+          "banId": "d7b0f5c0-bff7-49bb-b79b-7546f36a9cfd",
+          "name": "Tansonville",
+          "postcode": "28120",
+          "citycode": "28196",
+          "x": 569236.91,
+          "y": 6799029.79,
+          "city": "Illiers-Combray",
+          "context": "28, Eure-et-Loir, Centre-Val de Loire",
+          "type": "street",
+          "importance": 0.45868,
+          "depcode": "28",
+          "street": "Tansonville",
+          "distance": 1903,
+          "_type": "address"
+        }
+      }
+    ],
+    "url": "https://data.geopf.fr/geocodage/search?q=Rue%20de%20Tansonville%2028120%20Illiers%20Combray&index=address&lat=48.295&lon=1.244&limit=3"
+  },
+  "perouse": {
+    "query": "Rue La Perouse Paris",
+    "url": "https://data.geopf.fr/geocodage/search?q=Rue%20La%20Perouse%20Paris&index=address&limit=3",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.293728,
+            48.87031
+          ]
+        },
+        "properties": {
+          "label": "Rue la Pérouse 75116 Paris",
+          "score": 0.97642,
+          "id": "75116_5336",
+          "banId": "a695a630-0cd6-46da-ad72-841a3a45356c",
+          "name": "Rue la Pérouse",
+          "postcode": "75116",
+          "citycode": "75116",
+          "x": 648192.51,
+          "y": 6863596.48,
+          "city": "Paris",
+          "district": "Paris 16e Arrondissement",
+          "context": "75, Paris, Île-de-France",
+          "type": "street",
+          "importance": 0.74062,
+          "depcode": "75",
+          "street": "Rue la Pérouse",
+          "_type": "address"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            1.588474,
+            50.530529
+          ]
+        },
+        "properties": {
+          "label": "Avenue de la Pérouse 62520 Le Touquet-Paris-Plage",
+          "score": 0.47322181818181813,
+          "id": "62826_0660",
+          "banId": "e31a4d5e-467e-4f7b-a556-3f88b9d5506e",
+          "name": "Avenue de la Pérouse",
+          "postcode": "62520",
+          "citycode": "62826",
+          "x": 599766.69,
+          "y": 7049037.01,
+          "city": "Le Touquet-Paris-Plage",
+          "context": "62, Pas-de-Calais, Hauts-de-France",
+          "type": "street",
+          "importance": 0.52544,
+          "depcode": "62",
+          "street": "Avenue de la Pérouse",
+          "_type": "address"
+        }
+      }
+    ]
+  },
+  "orleans": {
+    "query": "Quai d Orleans Paris",
+    "url": "https://data.geopf.fr/geocodage/search?q=Quai%20d%20Orleans%20Paris&index=address&limit=3",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.35449,
+            48.851767
+          ]
+        },
+        "properties": {
+          "label": "Quai d'Orléans 75004 Paris",
+          "score": 0.9647854545454545,
+          "id": "75104_6936",
+          "banId": "77b4a47a-6a79-43b9-9707-36b94f60867a",
+          "name": "Quai d'Orléans",
+          "postcode": "75004",
+          "citycode": "75104",
+          "x": 652632.65,
+          "y": 6861496.5,
+          "city": "Paris",
+          "district": "Paris 4e Arrondissement",
+          "context": "75, Paris, Île-de-France",
+          "type": "street",
+          "importance": 0.61264,
+          "depcode": "75",
+          "street": "Quai d'Orléans",
+          "_type": "address"
+        }
+      }
+    ]
+  },
+  "boulevards": {
+    "query": "Boulevard des Italiens Paris",
+    "url": "https://data.geopf.fr/geocodage/search?q=Boulevard%20des%20Italiens%20Paris&index=address&limit=3",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.336341,
+            48.871518
+          ]
+        },
+        "properties": {
+          "label": "Boulevard des Italiens 75009 Paris",
+          "score": 0.9655545454545454,
+          "id": "75109_4758",
+          "banId": "0b48578d-4ee4-42e7-afbb-dd6dad4e647e",
+          "name": "Boulevard des Italiens",
+          "postcode": "75009",
+          "citycode": "75109",
+          "x": 651319.37,
+          "y": 6863703.68,
+          "city": "Paris",
+          "district": "Paris 9e Arrondissement",
+          "context": "75, Paris, Île-de-France",
+          "type": "street",
+          "importance": 0.6211,
+          "depcode": "75",
+          "street": "Boulevard des Italiens",
+          "_type": "address"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.337375,
+            48.871348
+          ]
+        },
+        "properties": {
+          "label": "Boulevard des Italiens 75002 Paris",
+          "score": 0.9624627272727271,
+          "id": "75102_4758",
+          "banId": "3b104cfb-dadf-4507-90b3-d9df75a6ecbe",
+          "name": "Boulevard des Italiens",
+          "postcode": "75002",
+          "citycode": "75102",
+          "x": 651395.06,
+          "y": 6863684.14,
+          "city": "Paris",
+          "district": "Paris 2e Arrondissement",
+          "context": "75, Paris, Île-de-France",
+          "type": "street",
+          "importance": 0.58709,
+          "depcode": "75",
+          "street": "Boulevard des Italiens",
+          "_type": "address"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.33583,
+            48.871819
+          ]
+        },
+        "properties": {
+          "label": "Rue des Italiens 75009 Paris",
+          "score": 0.54618,
+          "id": "75109_4759",
+          "banId": "17f61ce1-3a32-44c4-977e-c364fa7fa987",
+          "name": "Rue des Italiens",
+          "postcode": "75009",
+          "citycode": "75109",
+          "x": 651282.17,
+          "y": 6863737.47,
+          "city": "Paris",
+          "district": "Paris 9e Arrondissement",
+          "context": "75, Paris, Île-de-France",
+          "type": "street",
+          "importance": 0.60798,
+          "depcode": "75",
+          "street": "Rue des Italiens",
+          "_type": "address"
+        }
+      }
+    ]
+  },
+  "bonaparte": {
+    "query": "1 Rue Bonaparte 75006 Paris",
+    "url": "https://data.geopf.fr/geocodage/search?q=1%20Rue%20Bonaparte%2075006%20Paris&index=address&limit=3",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.335289,
+            48.857471
+          ]
+        },
+        "properties": {
+          "label": "1 Rue Bonaparte 75006 Paris",
+          "score": 0.9723936363636363,
+          "housenumber": "1",
+          "id": "75106_1087_00001",
+          "banId": "14834074-7b5f-4b65-9f25-154754737f71",
+          "name": "1 Rue Bonaparte",
+          "postcode": "75006",
+          "citycode": "75106",
+          "x": 651229.06,
+          "y": 6862142.42,
+          "city": "Paris",
+          "district": "Paris 6e Arrondissement",
+          "context": "75, Paris, Île-de-France",
+          "type": "housenumber",
+          "importance": 0.69633,
+          "depcode": "75",
+          "street": "Rue Bonaparte",
+          "_type": "address"
+        }
+      }
+    ]
+  },
+  "boulogne": {
+    "query": "Bois de Boulogne",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.250802,
+            48.862802
+          ]
+        },
+        "properties": {
+          "name": [
+            "Bois de Boulogne"
+          ],
+          "toponym": "Bois de Boulogne",
+          "category": [
+            "bois",
+            "élément topographique ou forestier",
+            "lieu-dit non habité"
+          ],
+          "postcode": [
+            "75016",
+            "75116"
+          ],
+          "citycode": [
+            "75116",
+            "75056"
+          ],
+          "depcode": [
+            "75"
+          ],
+          "city": [
+            "Paris 16e Arrondissement",
+            "Paris"
+          ],
+          "extrafields": {
+            "cleabs": "PAIE_NAT0000000000139972"
+          },
+          "classification": 7,
+          "territory": "METROPOLE",
+          "score": 0.8637904021756387,
+          "_type": "poi"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.253707,
+            48.859564
+          ]
+        },
+        "properties": {
+          "name": [
+            "Direction des Parcs Jardins et Espaces Verts-Bois de Boulogne"
+          ],
+          "toponym": "Direction des Parcs Jardins et Espaces Verts-Bois de Boulogne",
+          "category": [
+            "divers public ou administratif",
+            "zone d'activité ou d'intérêt"
+          ],
+          "postcode": [
+            "75016",
+            "75116"
+          ],
+          "citycode": [
+            "75116",
+            "75056"
+          ],
+          "depcode": [
+            "75"
+          ],
+          "city": [
+            "Paris 16e Arrondissement",
+            "Paris"
+          ],
+          "extrafields": {
+            "cleabs": "SURFACTI0000000000143043"
+          },
+          "classification": 9,
+          "territory": "METROPOLE",
+          "score": 0.7771284196573638,
+          "_type": "poi"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.236515,
+            48.869931
+          ]
+        },
+        "properties": {
+          "name": [
+            "Camping Indigo Paris Bois de Boulogne"
+          ],
+          "toponym": "Camping Indigo Paris Bois de Boulogne",
+          "category": [
+            "camping",
+            "zone d'activité ou d'intérêt"
+          ],
+          "postcode": [
+            "75016",
+            "75116"
+          ],
+          "citycode": [
+            "75116",
+            "75056"
+          ],
+          "depcode": [
+            "75"
+          ],
+          "city": [
+            "Paris 16e Arrondissement",
+            "Paris"
+          ],
+          "extrafields": {
+            "cleabs": "SURFACTI0000000202002765"
+          },
+          "classification": 9,
+          "territory": "METROPOLE",
+          "score": 0.7767259612578944,
+          "_type": "poi"
+        }
+      }
+    ],
+    "url": "https://data.geopf.fr/geocodage/search?q=Bois%20de%20Boulogne&index=poi&lat=48.86&lon=2.25&limit=3"
+  },
+  "trocadero": {
+    "url": "https://data.geopf.fr/geocodage/search?q=Place%20du%20Trocadero%20et%20du%2011%20Novembre%2075116%20Paris&index=address&limit=3",
+    "query": "Place du Trocadero et du 11 Novembre 75116 Paris",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.288344,
+            48.862664
+          ]
+        },
+        "properties": {
+          "label": "Place du Trocadéro et du 11 Novembre 75116 Paris",
+          "score": 0.9735290909090909,
+          "id": "75116_9452",
+          "banId": "f8d09c2b-467b-482f-8451-13bcaa1ed5ad",
+          "name": "Place du Trocadéro et du 11 Novembre",
+          "postcode": "75116",
+          "citycode": "75116",
+          "x": 647789.92,
+          "y": 6862749.85,
+          "city": "Paris",
+          "district": "Paris 16e Arrondissement",
+          "context": "75, Paris, Île-de-France",
+          "type": "street",
+          "importance": 0.70882,
+          "depcode": "75",
+          "street": "Place du Trocadéro et du 11 Novembre",
+          "_type": "address"
+        }
+      }
+    ]
+  },
+  "acacias": {
+    "url": "https://data.geopf.fr/geocodage/search?q=Avenue%20de%20Longchamp%20Bois%20de%20Boulogne&index=address&limit=3",
+    "query": "Avenue de Longchamp Bois de Boulogne",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.234432,
+            48.850596
+          ]
+        },
+        "properties": {
+          "label": "Allée de Longchamp 92100 Boulogne-Billancourt",
+          "score": 0.45386484230055657,
+          "id": "92012_5171",
+          "banId": "b4a4e481-947d-4f27-b3d5-fe65d95b723b",
+          "name": "Allée de Longchamp",
+          "postcode": "92100",
+          "citycode": "92012",
+          "x": 643821.82,
+          "y": 6861445.01,
+          "city": "Boulogne-Billancourt",
+          "context": "92, Hauts-de-Seine, Île-de-France",
+          "type": "street",
+          "importance": 0.58435,
+          "depcode": "92",
+          "street": "Allée de Longchamp",
+          "_type": "address"
+        }
+      }
+    ]
+  },
+  "champs": {
+    "url": "https://data.geopf.fr/geocodage/search?q=1%20Avenue%20Gabriel%2075008%20Paris&limit=1",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.318928,
+            48.867426
+          ]
+        },
+        "properties": {
+          "label": "1 Avenue Gabriel 75008 Paris",
+          "score": 0.9679872727272727,
+          "housenumber": "1",
+          "id": "75108_3896_00001",
+          "banId": "9f8a0909-0912-4a69-aa65-c0c11f590aff",
+          "name": "1 Avenue Gabriel",
+          "postcode": "75008",
+          "citycode": "75108",
+          "x": 650038.2,
+          "y": 6863259.56,
+          "city": "Paris",
+          "district": "Paris 8e Arrondissement",
+          "context": "75, Paris, Île-de-France",
+          "type": "housenumber",
+          "importance": 0.64786,
+          "depcode": "75",
+          "street": "Avenue Gabriel",
+          "_type": "address"
+        }
+      }
+    ],
+    "query": "1 Avenue Gabriel 75008 Paris"
+  },
+  "hotel": {
+    "query": "Grand Hotel Cabourg",
+    "url": "https://data.geopf.fr/geocodage/search?q=Grand%20Hotel%20Cabourg&index=poi&limit=3",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.115781,
+            49.293945
+          ]
+        },
+        "properties": {
+          "name": [
+            "Grand Hôtel"
+          ],
+          "toponym": "Grand Hôtel",
+          "category": [
+            "lieu-dit habité",
+            "zone d'habitation"
+          ],
+          "postcode": [
+            "14390"
+          ],
+          "citycode": [
+            "14117"
+          ],
+          "depcode": [
+            "14"
+          ],
+          "city": [
+            "Cabourg"
+          ],
+          "extrafields": {
+            "cleabs": "PAIHABIT0000002203938972"
+          },
+          "classification": 7,
+          "territory": "METROPOLE",
+          "score": 0.65,
+          "_type": "poi"
+        }
+      }
+    ]
+  }
+}

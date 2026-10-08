@@ -1,0 +1,899 @@
+{
+  "book": {
+    "id": "proust",
+    "title": "In Search of Lost Time",
+    "author": "Marcel Proust",
+    "year": "1913–1927",
+    "unit": "volume",
+    "hashPrefix": "volume",
+    "titleSize": "long",
+    "description": "Explore Proust’s seven volumes, from the models of Combray and Balbec to Paris, Venice and Padua.",
+    "sidebarTitle": "The seven volumes",
+    "help": "Choose a volume to explore its places.",
+    "sidebarNote": "Real places, fictional settings and documented models. Each record explains what its marker can locate.",
+    "initialView": {
+      "center": [
+        2.34,
+        48.86
+      ],
+      "zoom": 11
+    },
+    "footerHtml": "<p>Seven volumes, with real settings and documented models distinguished in every record. Streets and areas have representative markers; fictional houses, railway stations and private interiors without a verified position remain unlocated.</p><p><a href=\"https://fr.wikisource.org/wiki/%C3%80_la_recherche_du_temps_perdu\" target=\"_blank\" rel=\"noopener noreferrer\">Proust · original volumes</a></p><p><a href=\"proust-places-en.csv\" download>Download location records (CSV)</a></p>",
+    "links": [
+      {
+        "label": "Proust · original volumes",
+        "url": "https://fr.wikisource.org/wiki/%C3%80_la_recherche_du_temps_perdu"
+      }
+    ]
+  },
+  "chapters": [
+    {
+      "id": 1,
+      "title": "Swann’s Way",
+      "time": "Published 1913",
+      "setting": "Combray / Paris",
+      "people": "Narrator · Swann · Odette · Gilberte",
+      "text": "The remembered house and childhood walks lead to Swann’s love for Odette and the narrator’s meetings with Gilberte in Paris. The map separates real streets from the models of fictional Combray.",
+      "places": [
+        "leonie",
+        "church",
+        "garden",
+        "orleans",
+        "perouse",
+        "montalivet",
+        "champs",
+        "concorde",
+        "boulogne"
+      ],
+      "placeText": [
+        "Combray · memory and childhood; real model in Illiers",
+        "Saint-Hilaire dominates Combray’s remembered townscape. Saint-Jacques is shown as one documented inspiration.",
+        "Swann’s park and Gilberte belong to the childhood walks; the real garden is shown as a model.",
+        "Swann’s earlier Paris home is on quai d’Orléans. The house number is not established.",
+        "Swann accompanies Odette to her home on rue La Pérouse. The marker identifies the street.",
+        "The Verdurins’ earlier salon is on rue Montalivet, an address recalled explicitly in The Prisoner.",
+        "The narrator hopes to meet Gilberte in the gardens and shares her games.",
+        "With Françoise, the narrator goes to the bridge to look at the frozen Seine.",
+        "Odette’s promenades and the closing return to the Bois connect desire with the loss of the past."
+      ],
+      "note": "The map shows documented real places and models. Combray, Balbec, Doncières and the Raspelière are fictional constructions. No continuous route or exact private address is inferred where the evidence does not support it.",
+      "links": [
+        {
+          "label": "Original French text · part 1",
+          "url": "https://www.gutenberg.org/cache/epub/2650/pg2650-images.html"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "In the Shadow of Young Girls in Flower",
+      "time": "Published 1919",
+      "setting": "Paris / Balbec",
+      "people": "Narrator · Gilberte · grandmother · Albertine",
+      "text": "Parisian affection and artistic expectations give way to the first stay at Balbec. The hotel, the sea and the group of young girls reshape the narrator’s sense of beauty.",
+      "places": [
+        "champs",
+        "hotel",
+        "promenade"
+      ],
+      "placeText": [
+        "Games, affection and disappointment continue the narrator’s relationship with Gilberte.",
+        "The Balbec hotel frames the stay by the sea and the narrator’s encounters. Cabourg is its documented model.",
+        "The young girls and Albertine appear on Balbec’s seafront. The Cabourg promenade is shown as a model, without an exact encounter point."
+      ],
+      "note": "The map shows documented real places and models. Combray, Balbec, Doncières and the Raspelière are fictional constructions. No continuous route or exact private address is inferred where the evidence does not support it.",
+      "links": [
+        {
+          "label": "Original French text · part 1",
+          "url": "https://www.gutenberg.org/cache/epub/2998/pg2998-images.html"
+        },
+        {
+          "label": "Original French text · part 2",
+          "url": "https://www.gutenberg.org/cache/epub/2999/pg2999-images.html"
+        },
+        {
+          "label": "Original French text · part 3",
+          "url": "https://www.gutenberg.org/cache/epub/3000/pg3000-images.html"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "The Guermantes Way",
+      "time": "Published 1920–1921",
+      "setting": "Paris / fictional Doncières",
+      "people": "Narrator · Oriane · Saint-Loup · grandmother",
+      "text": "The fascination with aristocratic society grows around the Guermantes home and the theatre. The grandmother’s illness turns familiar Paris into the setting of loss. Doncières has no single verified real-world position in this atlas.",
+      "places": [
+        "faubourg",
+        "opera",
+        "champs"
+      ],
+      "placeText": [
+        "The family’s apartment and the Guermantes household are fictional private interiors; the street is only an orientation reference.",
+        "The theatre and the Opéra offer a view of the Guermantes world as well as artistic experience.",
+        "An outing with his grandmother precedes her grave illness; Carnavalet identifies the gardens as this episode’s setting."
+      ],
+      "note": "The map shows documented real places and models. Combray, Balbec, Doncières and the Raspelière are fictional constructions. No continuous route or exact private address is inferred where the evidence does not support it.",
+      "links": [
+        {
+          "label": "Original French text · part 1",
+          "url": "https://www.gutenberg.org/cache/epub/8946/pg8946-images.html"
+        },
+        {
+          "label": "Original French text · part 2",
+          "url": "https://www.gutenberg.org/cache/epub/12999/pg12999-images.html"
+        },
+        {
+          "label": "Original French text · part 3",
+          "url": "https://www.gutenberg.org/cache/epub/13743/pg13743-images.html"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Sodom and Gomorrah",
+      "time": "Published 1921–1922",
+      "setting": "Paris / Balbec / fictional Raspelière",
+      "people": "Narrator · Charlus · Morel · Albertine · Verdurins",
+      "text": "The discovery of concealed relationships is followed by a second stay at Balbec, memories of the grandmother and visits to the Verdurins. The little railway and its fictional stations are described but are not forced onto an unverified modern route.",
+      "places": [
+        "faubourg",
+        "hotel",
+        "promenade"
+      ],
+      "placeText": [
+        "The family’s apartment and the Guermantes household are fictional private interiors; the street is only an orientation reference.",
+        "The second Balbec stay awakens the painful memory of the grandmother.",
+        "The young girls and Albertine appear on Balbec’s seafront. The Cabourg promenade is shown as a model, without an exact encounter point."
+      ],
+      "note": "The map shows documented real places and models. Combray, Balbec, Doncières and the Raspelière are fictional constructions. No continuous route or exact private address is inferred where the evidence does not support it.",
+      "links": [
+        {
+          "label": "Original French text · part 1",
+          "url": "https://www.gutenberg.org/cache/epub/15288/pg15288-images.html"
+        },
+        {
+          "label": "Original French text · part 2",
+          "url": "https://www.gutenberg.org/cache/epub/15075/pg15075-images.html"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "The Prisoner",
+      "time": "Published 1923",
+      "setting": "Paris · apartment, Bois and Verdurin salon",
+      "people": "Narrator · Albertine · Charlus · Morel",
+      "text": "Life with Albertine centres on a Paris apartment, jealousy and restricted freedom. The outings and the musical evening at the Verdurins provide identifiable public references around fictional interiors.",
+      "places": [
+        "faubourg",
+        "boulogne",
+        "bonaparte",
+        "conti"
+      ],
+      "placeText": [
+        "The family’s apartment and the Guermantes household are fictional private interiors; the street is only an orientation reference.",
+        "Rare outings with Albertine interrupt her confinement in the apartment.",
+        "The narrator stops his carriage and joins Brichot near the quay end of rue Bonaparte.",
+        "The Verdurin salon hosts the musical evening organised by Charlus and the break with Morel."
+      ],
+      "note": "The map shows documented real places and models. Combray, Balbec, Doncières and the Raspelière are fictional constructions. No continuous route or exact private address is inferred where the evidence does not support it.",
+      "links": [
+        {
+          "label": "Original French text · part 1",
+          "url": "https://www.gutenberg.org/cache/epub/60720/pg60720-images.html"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "The Fugitive · Albertine Gone",
+      "time": "Published 1925",
+      "setting": "Paris / Venice / Padua",
+      "people": "Narrator · Albertine’s memory · mother",
+      "text": "Grief and the gradual transformation of memory lead from Paris to Venice with the narrator’s mother. The Venetian streets, art and a clearly narrated visit to Giotto’s chapel in Padua expand this volume’s geography.",
+      "places": [
+        "boulogne",
+        "sanmarco",
+        "canal",
+        "schiavoni",
+        "scrovegni"
+      ],
+      "placeText": [
+        "The narrator returns to the Bois after Albertine’s death, revisiting the landscape of their outings.",
+        "The campanile seen from the lodging and the nearby Piazzetta shape the mornings in Venice; the marker locates the basilica complex.",
+        "The narrator meets his mother on the Piazzetta, then they go up the Grand Canal in a gondola.",
+        "Carpaccio’s paintings unexpectedly revive a painful memory of Albertine.",
+        "Before leaving Venice, the narrator goes to Padua and enters Giotto’s chapel after crossing the Arena garden."
+      ],
+      "note": "The map shows documented real places and models. Combray, Balbec, Doncières and the Raspelière are fictional constructions. No continuous route or exact private address is inferred where the evidence does not support it.",
+      "links": [
+        {
+          "label": "Original French text · part 1",
+          "url": "https://www.gutenberg.org/cache/epub/64427/pg64427-images.html"
+        },
+        {
+          "label": "Original French text · part 2",
+          "url": "https://www.gutenberg.org/cache/epub/64428/pg64428-images.html"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Time Regained",
+      "time": "Published 1927",
+      "setting": "Tansonville / wartime and postwar Paris",
+      "people": "Narrator · Gilberte · Charlus · Guermantes",
+      "text": "Tansonville and the transformed Paris of the war lead to the final reception and the discovery of a literary vocation. The uneven paving recalls Venice, but the reception’s fictional courtyard is not given an invented precise address.",
+      "places": [
+        "garden",
+        "trocadero",
+        "invalides",
+        "boulevards",
+        "champs",
+        "foch"
+      ],
+      "placeText": [
+        "The stay with Gilberte revisits Tansonville and changes the narrator’s understanding of the two childhood ways. The marker remains the documented garden model.",
+        "The old Trocadéro towers appear against the sunset during the wartime walk.",
+        "From the Pont des Invalides the narrator wanders towards the Grands Boulevards.",
+        "The wartime boulevards are crowded with soldiers and the altered nightlife of Paris. This is a district reference, not an exact stop.",
+        "The later encounter with the diminished Charlus returns the reader to the Champs-Élysées.",
+        "The final reception belongs to the new Princess de Guermantes’s residence on avenue du Bois. The courtyard itself remains unmapped."
+      ],
+      "note": "The map shows documented real places and models. Combray, Balbec, Doncières and the Raspelière are fictional constructions. No continuous route or exact private address is inferred where the evidence does not support it.",
+      "links": [
+        {
+          "label": "Original French text · part 1",
+          "url": "https://www.gutenberg.org/cache/epub/74090/pg74090-images.html"
+        },
+        {
+          "label": "Original French text · part 2",
+          "url": "https://www.gutenberg.org/cache/epub/74091/pg74091-images.html"
+        }
+      ]
+    }
+  ],
+  "places": {
+    "leonie": {
+      "name": "Aunt Léonie’s house · Amiot house",
+      "area": "4 rue du Docteur Proust · Illiers-Combray",
+      "coords": [
+        48.29985,
+        1.243452
+      ],
+      "zoom": 16,
+      "kind": "uncertain",
+      "status": "Documented model · fictional setting",
+      "note": "The Amiot family house is the documented model for the aunt’s house in Combray. The historical street address locates the house; the museum now welcomes visitors at 4 place Lemoine. Combray is a literary reconstruction.",
+      "method": "Official BAN address point returned by IGN. This identifies the postal address, not an interior room or a surveyed entrance. Decimal digits do not express a measured error margin.",
+      "checked": "2026-10-08",
+      "coordinateDecimals": 6,
+      "narrativeSource": {
+        "label": "Proust · original French text",
+        "url": "https://www.gutenberg.org/cache/epub/2650/pg2650-images.html"
+      },
+      "positionSource": {
+        "label": "IGN Géoplateforme · position record",
+        "url": "https://data.geopf.fr/geocodage/search?q=4%20Rue%20du%20Docteur%20Proust%2028120%20Illiers-Combray&index=address&limit=3",
+        "recordId": "28196_0110_00004"
+      },
+      "additionalSource": {
+        "label": "Museum or local authority · literary identification",
+        "url": "https://www.amisdeproust.fr/maison-de-tante-leonie"
+      }
+    },
+    "church": {
+      "name": "Saint-Hilaire · model: Saint-Jacques",
+      "area": "Place de l’Église · Illiers-Combray",
+      "coords": [
+        48.299413,
+        1.244769
+      ],
+      "zoom": 16,
+      "kind": "uncertain",
+      "status": "Documented model · fictional setting",
+      "note": "Saint-Jacques is a documented inspiration for Saint-Hilaire. Proust combines architectural memories; the fictional church is not a literal description of this building.",
+      "method": "IGN BD TOPO named-place record. The coordinate is a representative point of the feature, not an entrance or the exact position of a character.",
+      "checked": "2026-10-08",
+      "coordinateDecimals": 6,
+      "narrativeSource": {
+        "label": "Proust · original French text",
+        "url": "https://www.gutenberg.org/cache/epub/2650/pg2650-images.html"
+      },
+      "positionSource": {
+        "label": "IGN Géoplateforme · position record",
+        "url": "https://data.geopf.fr/geocodage/search?q=Eglise%20Saint%20Jacques%20Illiers%20Combray&index=poi&limit=3",
+        "recordId": "SURFACTI0000000219771942"
+      },
+      "additionalSource": {
+        "label": "Museum or local authority · literary identification",
+        "url": "https://www.tourisme28.com/experiences/illiers-combray-le-berceau-litteraire-de-marcel-proust/"
+      }
+    },
+    "garden": {
+      "name": "Tansonville park · model: Pré Catelan",
+      "area": "Route de Tansonville · Illiers-Combray",
+      "coords": [
+        48.2973271,
+        1.2404251
+      ],
+      "zoom": 16,
+      "kind": "uncertain",
+      "status": "Documented model · fictional setting",
+      "note": "The garden created by Jules Amiot inspired Swann’s park. This marker locates the real garden, not a verified position of Swann’s fictional house or its hawthorn hedge.",
+      "method": "Coordinate published by Eure-et-Loir Tourisme on Cirkwi, reproduced unchanged. It is the garden’s tourist point, not a surveyed scene location.",
+      "checked": "2026-10-08",
+      "coordinateDecimals": 6,
+      "narrativeSource": {
+        "label": "Proust · original French text",
+        "url": "https://www.gutenberg.org/cache/epub/2650/pg2650-images.html"
+      },
+      "positionSource": {
+        "label": "Eure-et-Loir Tourisme · published garden coordinate",
+        "url": "https://www.cirkwi.com/fr/point-interet/3250342-le-pre-catelan"
+      },
+      "additionalSource": {
+        "label": "Museum or local authority · literary identification",
+        "url": "https://www.tourisme28.com/experiences/illiers-combray-le-berceau-litteraire-de-marcel-proust/"
+      }
+    },
+    "hotel": {
+      "name": "Balbec Grand Hotel · model: Cabourg",
+      "area": "Grand Hôtel · Cabourg",
+      "coords": [
+        49.293945,
+        -0.115781
+      ],
+      "zoom": 16,
+      "kind": "uncertain",
+      "status": "Documented model · fictional setting",
+      "note": "Cabourg’s Grand Hôtel is a documented model for the Balbec hotel. The fictional resort combines several Norman places. No room number or precise window of the narrator is asserted.",
+      "method": "IGN BD TOPO named-place record. The coordinate is a representative point of the feature, not an entrance or the exact position of a character.",
+      "checked": "2026-10-08",
+      "coordinateDecimals": 6,
+      "narrativeSource": {
+        "label": "Proust · original French text",
+        "url": "https://www.gutenberg.org/cache/epub/2999/pg2999-images.html"
+      },
+      "positionSource": {
+        "label": "IGN Géoplateforme · position record",
+        "url": "https://data.geopf.fr/geocodage/search?q=Grand%20Hotel%20Cabourg&index=poi&limit=3",
+        "recordId": "PAIHABIT0000002203938972"
+      },
+      "additionalSource": {
+        "label": "Museum or local authority · literary identification",
+        "url": "https://villadutempsretrouve.com/le-concept/"
+      }
+    },
+    "promenade": {
+      "name": "Balbec seafront · model: Cabourg promenade",
+      "area": "Promenade Marcel Proust · Cabourg",
+      "coords": [
+        49.293405,
+        -0.119779
+      ],
+      "zoom": 16,
+      "kind": "uncertain",
+      "status": "Documented model · fictional setting",
+      "note": "The Cabourg seafront helps explain the model of Balbec. The marker is BAN’s representative point for today’s promenade; it does not identify where Albertine’s group first appeared.",
+      "method": "IGN/BAN representative point for the named street. The novel gives no verified house number here; the marker must not be read as the position of a particular house.",
+      "checked": "2026-10-08",
+      "coordinateDecimals": 6,
+      "narrativeSource": {
+        "label": "Proust · original French text",
+        "url": "https://www.gutenberg.org/cache/epub/3000/pg3000-images.html"
+      },
+      "positionSource": {
+        "label": "IGN Géoplateforme · position record",
+        "url": "https://data.geopf.fr/geocodage/search?q=Promenade%20Marcel%20Proust%20Cabourg&index=address&limit=3",
+        "recordId": "14117_0531"
+      },
+      "additionalSource": {
+        "label": "Museum or local authority · literary identification",
+        "url": "https://villadutempsretrouve.com/le-concept/"
+      }
+    },
+    "champs": {
+      "name": "Champs-Élysées gardens",
+      "area": "Gardens between Concorde and Rond-Point · Paris",
+      "coords": [
+        48.867426,
+        2.318928
+      ],
+      "zoom": 13,
+      "kind": "area",
+      "status": "Named real area · representative point",
+      "note": "The gardens are an explicit setting. The address point at 1 avenue Gabriel serves only as an orientation anchor on their northern edge. Neither Gilberte’s meeting place nor the public lavatory is located precisely.",
+      "method": "Official BAN address point returned by IGN. This identifies the postal address, not an interior room or a surveyed entrance. Decimal digits do not express a measured error margin.",
+      "checked": "2026-10-08",
+      "coordinateDecimals": 6,
+      "narrativeSource": {
+        "label": "Proust · original French text",
+        "url": "https://www.gutenberg.org/cache/epub/2650/pg2650-images.html"
+      },
+      "positionSource": {
+        "label": "IGN Géoplateforme · position record",
+        "url": "https://data.geopf.fr/geocodage/search?q=1%20Avenue%20Gabriel%2075008%20Paris&limit=1",
+        "recordId": "75108_3896_00001"
+      },
+      "additionalSource": {
+        "label": "Museum or local authority · literary identification",
+        "url": "https://www.carnavalet.paris.fr/sites/default/files/2022-03/dossier_pedagogique_proust_et_paris_vdef.pdf"
+      }
+    },
+    "concorde": {
+      "name": "Pont de la Concorde",
+      "area": "Seine · Paris",
+      "coords": [
+        48.863382,
+        2.319592
+      ],
+      "zoom": 16,
+      "kind": "building",
+      "status": "Identified real building",
+      "note": "The text names the bridge during an outing to see the frozen Seine. The record locates the bridge as a whole.",
+      "method": "IGN BD TOPO named-place record. The coordinate is a representative point of the feature, not an entrance or the exact position of a character.",
+      "checked": "2026-10-08",
+      "coordinateDecimals": 6,
+      "narrativeSource": {
+        "label": "Proust · original French text",
+        "url": "https://www.gutenberg.org/cache/epub/2650/pg2650-images.html"
+      },
+      "positionSource": {
+        "label": "IGN Géoplateforme · position record",
+        "url": "https://data.geopf.fr/geocodage/search?q=Pont%20de%20la%20Concorde%20Paris&index=poi&limit=3",
+        "recordId": "CONSSURF0000000233532538"
+      },
+      "additionalSource": {
+        "label": "Museum or local authority · literary identification",
+        "url": "https://www.carnavalet.paris.fr/sites/default/files/2022-03/dossier_pedagogique_proust_et_paris_vdef.pdf"
+      }
+    },
+    "orleans": {
+      "name": "Quai d’Orléans",
+      "area": "Île Saint-Louis · Paris",
+      "coords": [
+        48.851767,
+        2.35449
+      ],
+      "zoom": 16,
+      "kind": "street",
+      "status": "Named street · no verified house number",
+      "note": "A real street supports the fictional address. The novel’s house is not assigned to an existing numbered building.",
+      "method": "IGN/BAN representative point for the named street. The novel gives no verified house number here; the marker must not be read as the position of a particular house.",
+      "checked": "2026-10-08",
+      "coordinateDecimals": 6,
+      "narrativeSource": {
+        "label": "Proust · original French text",
+        "url": "https://www.gutenberg.org/cache/epub/2650/pg2650-images.html"
+      },
+      "positionSource": {
+        "label": "IGN Géoplateforme · position record",
+        "url": "https://data.geopf.fr/geocodage/search?q=Quai%20d%20Orleans%20Paris&index=address&limit=3",
+        "recordId": "75104_6936"
+      },
+      "additionalSource": {
+        "label": "Museum or local authority · literary identification",
+        "url": "https://www.carnavalet.paris.fr/sites/default/files/2022-03/dossier_pedagogique_proust_et_paris_vdef.pdf"
+      }
+    },
+    "perouse": {
+      "name": "Rue La Pérouse",
+      "area": "Near the Arc de Triomphe · Paris",
+      "coords": [
+        48.87031,
+        2.293728
+      ],
+      "zoom": 16,
+      "kind": "street",
+      "status": "Named street · no verified house number",
+      "note": "A real street supports the fictional address. The novel’s house is not assigned to an existing numbered building.",
+      "method": "IGN/BAN representative point for the named street. The novel gives no verified house number here; the marker must not be read as the position of a particular house.",
+      "checked": "2026-10-08",
+      "coordinateDecimals": 6,
+      "narrativeSource": {
+        "label": "Proust · original French text",
+        "url": "https://www.gutenberg.org/cache/epub/2650/pg2650-images.html"
+      },
+      "positionSource": {
+        "label": "IGN Géoplateforme · position record",
+        "url": "https://data.geopf.fr/geocodage/search?q=Rue%20La%20Perouse%20Paris&index=address&limit=3",
+        "recordId": "75116_5336"
+      },
+      "additionalSource": {
+        "label": "Museum or local authority · literary identification",
+        "url": "https://www.carnavalet.paris.fr/sites/default/files/2022-03/dossier_pedagogique_proust_et_paris_vdef.pdf"
+      }
+    },
+    "montalivet": {
+      "name": "Rue Montalivet",
+      "area": "Paris · 8e",
+      "coords": [
+        48.870978,
+        2.318781
+      ],
+      "zoom": 16,
+      "kind": "street",
+      "status": "Named street · no verified house number",
+      "note": "A real street supports the fictional address. The novel’s house is not assigned to an existing numbered building.",
+      "method": "IGN/BAN representative point for the named street. The novel gives no verified house number here; the marker must not be read as the position of a particular house.",
+      "checked": "2026-10-08",
+      "coordinateDecimals": 6,
+      "narrativeSource": {
+        "label": "Proust · original French text",
+        "url": "https://www.gutenberg.org/cache/epub/60720/pg60720-images.html"
+      },
+      "positionSource": {
+        "label": "IGN Géoplateforme · position record",
+        "url": "https://data.geopf.fr/geocodage/search?q=Rue%20de%20Montalivet%20Paris&index=address&limit=3",
+        "recordId": "75108_6454"
+      },
+      "additionalSource": {
+        "label": "Museum or local authority · literary identification",
+        "url": "https://www.carnavalet.paris.fr/sites/default/files/2022-03/dossier_pedagogique_proust_et_paris_vdef.pdf"
+      }
+    },
+    "boulogne": {
+      "name": "Bois de Boulogne",
+      "area": "Paris · 16e",
+      "coords": [
+        48.862802,
+        2.250802
+      ],
+      "zoom": 13,
+      "kind": "area",
+      "status": "Named real area · representative point",
+      "note": "The park is named repeatedly. The marker represents the whole wooded area and does not plot a specific walk. The Allée des Acacias is identified by the City of Paris with today’s avenue de Longchamp, not rue des Acacias.",
+      "method": "IGN BD TOPO named-place record. The coordinate is a representative point of the feature, not an entrance or the exact position of a character.",
+      "checked": "2026-10-08",
+      "coordinateDecimals": 6,
+      "narrativeSource": {
+        "label": "Proust · original French text",
+        "url": "https://www.gutenberg.org/cache/epub/2650/pg2650-images.html"
+      },
+      "positionSource": {
+        "label": "IGN Géoplateforme · position record",
+        "url": "https://data.geopf.fr/geocodage/search?q=Bois%20de%20Boulogne&index=poi&lat=48.86&lon=2.25&limit=3",
+        "recordId": "PAIE_NAT0000000000139972"
+      },
+      "additionalSource": {
+        "label": "Museum or local authority · literary identification",
+        "url": "https://www.carnavalet.paris.fr/sites/default/files/2022-03/dossier_pedagogique_proust_et_paris_vdef.pdf"
+      }
+    },
+    "opera": {
+      "name": "Palais Garnier",
+      "area": "8 rue Scribe · Paris",
+      "coords": [
+        48.872666,
+        2.331232
+      ],
+      "zoom": 16,
+      "kind": "building",
+      "status": "Identified real building",
+      "note": "The Opéra is part of the narrator’s education in art and society. The street-address point locates the building; it does not identify the Guermantes box or any particular seat.",
+      "method": "Official BAN address point returned by IGN. This identifies the postal address, not an interior room or a surveyed entrance. Decimal digits do not express a measured error margin.",
+      "checked": "2026-10-08",
+      "coordinateDecimals": 6,
+      "narrativeSource": {
+        "label": "Proust · original French text",
+        "url": "https://www.gutenberg.org/cache/epub/8946/pg8946-images.html"
+      },
+      "positionSource": {
+        "label": "IGN Géoplateforme · position record",
+        "url": "https://data.geopf.fr/geocodage/search?q=8%20Rue%20Scribe%2075009%20Paris&index=address&limit=3",
+        "recordId": "75109_8887_00008"
+      },
+      "additionalSource": {
+        "label": "Museum or local authority · literary identification",
+        "url": "https://www.carnavalet.paris.fr/sites/default/files/2022-03/dossier_pedagogique_proust_et_paris_vdef.pdf"
+      }
+    },
+    "conti": {
+      "name": "Quai de Conti",
+      "area": "Paris · 6e",
+      "coords": [
+        48.856627,
+        2.338725
+      ],
+      "zoom": 16,
+      "kind": "street",
+      "status": "Named street · no verified house number",
+      "note": "The Verdurins’ later salon is placed on this quay. Their Hôtel des Ambassadeurs de Venise is fictional; the marker does not identify it with the Institut de France or the Monnaie.",
+      "method": "IGN/BAN representative point for the named street. The novel gives no verified house number here; the marker must not be read as the position of a particular house.",
+      "checked": "2026-10-08",
+      "coordinateDecimals": 6,
+      "narrativeSource": {
+        "label": "Proust · original French text",
+        "url": "https://www.gutenberg.org/cache/epub/60720/pg60720-images.html"
+      },
+      "positionSource": {
+        "label": "IGN Géoplateforme · position record",
+        "url": "https://data.geopf.fr/geocodage/search?q=Quai%20de%20Conti%20Paris&index=address&limit=3",
+        "recordId": "75106_2296"
+      },
+      "additionalSource": {
+        "label": "Museum or local authority · literary identification",
+        "url": "https://www.carnavalet.paris.fr/sites/default/files/2022-03/dossier_pedagogique_proust_et_paris_vdef.pdf"
+      }
+    },
+    "bonaparte": {
+      "name": "Rue Bonaparte · quay end",
+      "area": "Rue Bonaparte / Quai Malaquais · Paris",
+      "coords": [
+        48.857471,
+        2.335289
+      ],
+      "zoom": 13,
+      "kind": "area",
+      "status": "Named real area · representative point",
+      "note": "The narrator meets Brichot at the corner of rue Bonaparte while approaching the Verdurins. The BAN point for number 1 anchors this junction; it is not an exact tram stop or the Verdurin house.",
+      "method": "Official BAN address point returned by IGN. This identifies the postal address, not an interior room or a surveyed entrance. Decimal digits do not express a measured error margin.",
+      "checked": "2026-10-08",
+      "coordinateDecimals": 6,
+      "narrativeSource": {
+        "label": "Proust · original French text",
+        "url": "https://www.gutenberg.org/cache/epub/60720/pg60720-images.html"
+      },
+      "positionSource": {
+        "label": "IGN Géoplateforme · position record",
+        "url": "https://data.geopf.fr/geocodage/search?q=1%20Rue%20Bonaparte%2075006%20Paris&index=address&limit=3",
+        "recordId": "75106_1087_00001"
+      },
+      "additionalSource": {
+        "label": "Museum or local authority · literary identification",
+        "url": "https://www.carnavalet.paris.fr/sites/default/files/2022-03/dossier_pedagogique_proust_et_paris_vdef.pdf"
+      }
+    },
+    "invalides": {
+      "name": "Pont des Invalides",
+      "area": "Seine · Paris",
+      "coords": [
+        48.863923,
+        2.310378
+      ],
+      "zoom": 16,
+      "kind": "building",
+      "status": "Identified real building",
+      "note": "The bridge is explicitly named in the wartime Paris walk. The point represents the bridge, not a reconstructed position of the narrator.",
+      "method": "IGN BD TOPO named-place record. The coordinate is a representative point of the feature, not an entrance or the exact position of a character.",
+      "checked": "2026-10-08",
+      "coordinateDecimals": 6,
+      "narrativeSource": {
+        "label": "Proust · original French text",
+        "url": "https://www.gutenberg.org/cache/epub/74090/pg74090-images.html"
+      },
+      "positionSource": {
+        "label": "IGN Géoplateforme · position record",
+        "url": "https://data.geopf.fr/geocodage/search?q=Pont%20des%20Invalides&index=poi&limit=3",
+        "recordId": "CONSLINE0000002003964970"
+      },
+      "additionalSource": {
+        "label": "Museum or local authority · literary identification",
+        "url": "https://www.carnavalet.paris.fr/sites/default/files/2022-03/dossier_pedagogique_proust_et_paris_vdef.pdf"
+      }
+    },
+    "trocadero": {
+      "name": "Trocadéro · historical palace area",
+      "area": "Place du Trocadéro et du 11 Novembre · Paris",
+      "coords": [
+        48.862664,
+        2.288344
+      ],
+      "zoom": 13,
+      "kind": "area",
+      "status": "Named real area · representative point",
+      "note": "The old Trocadéro towers are seen in the text. The 1878 palace was replaced by the Palais de Chaillot in 1937. This marker orients the district, not the vanished towers themselves.",
+      "method": "Official BAN address point returned by IGN. This identifies the postal address, not an interior room or a surveyed entrance. Decimal digits do not express a measured error margin.",
+      "checked": "2026-10-08",
+      "coordinateDecimals": 6,
+      "narrativeSource": {
+        "label": "Proust · original French text",
+        "url": "https://www.gutenberg.org/cache/epub/74090/pg74090-images.html"
+      },
+      "positionSource": {
+        "label": "IGN Géoplateforme · position record",
+        "url": "https://data.geopf.fr/geocodage/search?q=Place%20du%20Trocadero%20et%20du%2011%20Novembre%2075116%20Paris&index=address&limit=3",
+        "recordId": "75116_9452"
+      },
+      "additionalSource": {
+        "label": "Museum or local authority · literary identification",
+        "url": "https://www.carnavalet.paris.fr/sites/default/files/2022-03/dossier_pedagogique_proust_et_paris_vdef.pdf"
+      }
+    },
+    "boulevards": {
+      "name": "Grands Boulevards · Boulevard des Italiens reference",
+      "area": "Boulevard des Italiens · Paris",
+      "coords": [
+        48.871518,
+        2.336341
+      ],
+      "zoom": 13,
+      "kind": "area",
+      "status": "Named real area · representative point",
+      "note": "The wartime walk reaches the Grands Boulevards. Boulevard des Italiens is only a geographic reference within that larger district, not a verified stop in the walk.",
+      "method": "IGN/BAN representative point for the named street. The novel gives no verified house number here; the marker must not be read as the position of a particular house.",
+      "checked": "2026-10-08",
+      "coordinateDecimals": 6,
+      "narrativeSource": {
+        "label": "Proust · original French text",
+        "url": "https://www.gutenberg.org/cache/epub/74090/pg74090-images.html"
+      },
+      "positionSource": {
+        "label": "IGN Géoplateforme · position record",
+        "url": "https://data.geopf.fr/geocodage/search?q=Boulevard%20des%20Italiens%20Paris&index=address&limit=3",
+        "recordId": "75109_4758"
+      },
+      "additionalSource": {
+        "label": "Museum or local authority · literary identification",
+        "url": "https://www.carnavalet.paris.fr/sites/default/files/2022-03/dossier_pedagogique_proust_et_paris_vdef.pdf"
+      }
+    },
+    "foch": {
+      "name": "Avenue du Bois · today Avenue Foch",
+      "area": "Avenue Foch · Paris",
+      "coords": [
+        48.872684,
+        2.284781
+      ],
+      "zoom": 16,
+      "kind": "street",
+      "status": "Named street · no verified house number",
+      "note": "The new Princess de Guermantes lives on avenue du Bois. The museum compares the fictional residence with the former Palais Rose. The map locates the avenue, without assigning the reception’s courtyard to a real parcel.",
+      "method": "IGN/BAN representative point for the named street. The novel gives no verified house number here; the marker must not be read as the position of a particular house.",
+      "checked": "2026-10-08",
+      "coordinateDecimals": 6,
+      "narrativeSource": {
+        "label": "Proust · original French text",
+        "url": "https://www.gutenberg.org/cache/epub/74091/pg74091-images.html"
+      },
+      "positionSource": {
+        "label": "IGN Géoplateforme · position record",
+        "url": "https://data.geopf.fr/geocodage/search?q=Avenue%20Foch%20Paris&index=address&limit=3",
+        "recordId": "75116_3696"
+      },
+      "additionalSource": {
+        "label": "Museum or local authority · literary identification",
+        "url": "https://www.carnavalet.paris.fr/sites/default/files/2022-03/dossier_pedagogique_proust_et_paris_vdef.pdf"
+      }
+    },
+    "faubourg": {
+      "name": "Guermantes in Paris · Faubourg Saint-Honoré reference",
+      "area": "Rue du Faubourg Saint-Honoré · Paris",
+      "coords": [
+        48.872667,
+        2.311581
+      ],
+      "zoom": 13,
+      "kind": "area",
+      "status": "Named real area · representative point",
+      "note": "The aristocratic faubourgs are rearranged in the novel. Carnavalet situates the Guermantes home in the Faubourg Saint-Honoré setting. This representative street point does not claim to locate their fictional house.",
+      "method": "IGN/BAN representative point for the named street. The novel gives no verified house number here; the marker must not be read as the position of a particular house.",
+      "checked": "2026-10-08",
+      "coordinateDecimals": 6,
+      "narrativeSource": {
+        "label": "Proust · original French text",
+        "url": "https://www.gutenberg.org/cache/epub/8946/pg8946-images.html"
+      },
+      "positionSource": {
+        "label": "IGN Géoplateforme · position record",
+        "url": "https://data.geopf.fr/geocodage/search?q=Rue%20du%20Faubourg%20Saint%20Honore%2075008%20Paris&index=address&limit=3",
+        "recordId": "75108_3518"
+      },
+      "additionalSource": {
+        "label": "Museum or local authority · literary identification",
+        "url": "https://www.carnavalet.paris.fr/sites/default/files/2022-03/dossier_pedagogique_proust_et_paris_vdef.pdf"
+      }
+    },
+    "sanmarco": {
+      "name": "San Marco basilica",
+      "area": "San Marco · Venezia",
+      "coords": [
+        45.43455,
+        12.3395
+      ],
+      "coordinateDecimals": 6,
+      "zoom": 17,
+      "kind": "building",
+      "status": "Identified real building",
+      "note": "San Marco belongs to the explicitly named Venetian setting. The coordinate locates the basilica building, not the baptistery, campanile or nearby Piazzetta as separate points.",
+      "method": "Published geographic coordinates converted from degrees, minutes and seconds to WGS84. This secondary position source identifies the monument or area; it does not locate a particular painting, room or step.",
+      "checked": "2026-10-08",
+      "narrativeSource": {
+        "label": "Proust · original French text",
+        "url": "https://www.gutenberg.org/cache/epub/64428/pg64428-images.html"
+      },
+      "positionSource": {
+        "label": "Published geographic coordinate · Wikipedia (secondary source)",
+        "url": "https://it.wikipedia.org/wiki/Basilica_di_San_Marco"
+      },
+      "additionalSource": {
+        "label": "Institution’s official website",
+        "url": "https://www.basilicasanmarco.it/"
+      }
+    },
+    "canal": {
+      "name": "Grand Canal",
+      "area": "Venezia",
+      "coords": [
+        45.436667,
+        12.332778
+      ],
+      "coordinateDecimals": 6,
+      "zoom": 15,
+      "kind": "area",
+      "status": "Named real area · representative point",
+      "note": "The narrator and his mother travel along the canal in a gondola. The marker is a representative coordinate for a long waterway. The novel’s unnamed hotel and exact landing are not identified.",
+      "method": "Published geographic coordinates converted from degrees, minutes and seconds to WGS84. This secondary position source identifies the monument or area; it does not locate a particular painting, room or step.",
+      "checked": "2026-10-08",
+      "narrativeSource": {
+        "label": "Proust · original French text",
+        "url": "https://www.gutenberg.org/cache/epub/64428/pg64428-images.html"
+      },
+      "positionSource": {
+        "label": "Published geographic coordinate · Wikipedia (secondary source)",
+        "url": "https://it.wikipedia.org/wiki/Canal_Grande"
+      },
+      "additionalSource": {
+        "label": "Institution’s official website",
+        "url": "https://www.veneziaunica.it/"
+      }
+    },
+    "schiavoni": {
+      "name": "Scuola di San Giorgio degli Schiavoni",
+      "area": "Castello · Venezia",
+      "coords": [
+        45.436264,
+        12.345978
+      ],
+      "coordinateDecimals": 6,
+      "zoom": 17,
+      "kind": "building",
+      "status": "Identified real building",
+      "note": "The visit and Carpaccio’s paintings are explicitly named. The coordinate identifies the Scuola building; no location within the painting gallery is inferred.",
+      "method": "Published geographic coordinates converted from degrees, minutes and seconds to WGS84. This secondary position source identifies the monument or area; it does not locate a particular painting, room or step.",
+      "checked": "2026-10-08",
+      "narrativeSource": {
+        "label": "Proust · original French text",
+        "url": "https://www.gutenberg.org/cache/epub/64428/pg64428-images.html"
+      },
+      "positionSource": {
+        "label": "Published geographic coordinate · Wikipedia (secondary source)",
+        "url": "https://it.wikipedia.org/wiki/Scuola_di_San_Giorgio_degli_Schiavoni"
+      },
+      "additionalSource": {
+        "label": "Institution’s official website",
+        "url": "https://www.scuoladalmatavenezia.com/"
+      }
+    },
+    "scrovegni": {
+      "name": "Cappella degli Scrovegni",
+      "area": "Piazza Eremitani · Padova",
+      "coords": [
+        45.411817,
+        11.879536
+      ],
+      "coordinateDecimals": 6,
+      "zoom": 17,
+      "kind": "building",
+      "status": "Identified real building",
+      "note": "The narrator explicitly visits Padua and Giotto’s chapel before leaving Venice. The point locates the chapel, without tracing an unverified route through the Arena garden.",
+      "method": "Published geographic coordinates converted from degrees, minutes and seconds to WGS84. This secondary position source identifies the monument or area; it does not locate a particular painting, room or step.",
+      "checked": "2026-10-08",
+      "narrativeSource": {
+        "label": "Proust · original French text",
+        "url": "https://www.gutenberg.org/cache/epub/64428/pg64428-images.html"
+      },
+      "positionSource": {
+        "label": "Published geographic coordinate · Wikipedia (secondary source)",
+        "url": "https://it.wikipedia.org/wiki/Cappella_degli_Scrovegni"
+      },
+      "additionalSource": {
+        "label": "Institution’s official website",
+        "url": "https://www.cappelladegliscrovegni.it/"
+      }
+    }
+  }
+}

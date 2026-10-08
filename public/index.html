@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Literary Atlas · The places of novels</title>
+  <meta name="description" content="Explore the places of classic novels, beginning with Joyce’s Ulysses and Proust’s In Search of Lost Time.">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231b302e'/%3E%3Cpath d='M8 8v12a8 8 0 0016 0V8' fill='none' stroke='%23edd37c' stroke-width='3'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="locales/ui.js"></script>
+  <script defer src="i18n.js"></script>
+</head>
+<body class="library-page">
+  <header class="masthead"><a class="brand" href="index.html" aria-current="page"><span class="brand-mark" aria-hidden="true">a.</span>Literary Atlas</a><span class="edition">THE PLACES OF NOVELS</span><div class="language-picker"><label for="language-select">Language</label><select id="language-select" aria-label="Language"></select></div></header>
+  <main>
+    <section class="catalogue-intro" aria-labelledby="catalogue-title"><p class="eyebrow">THE CATALOGUE</p><h1 id="catalogue-title">Every book,<br>a world to explore<span class="title-dot">.</span></h1><p>Choose a novel and discover the places in its story.</p></section>
+    <section class="book-grid" aria-label="Novels in the atlas">
+      <a class="book-card available-book" href="ulisse.html" aria-label="Explore Ulysses by James Joyce">
+        <div class="book-art art-dublin" aria-hidden="true"><svg viewBox="0 0 400 220"><path class="art-river" d="M-20 160 C70 185 145 98 210 130 S330 185 420 102"/><path d="M80 0v225M142 0v220M225 0v220M300 0v220M0 50h400M0 90h400M0 190h400"/><circle cx="220" cy="135" r="8"/><circle cx="145" cy="112" r="5"/><circle cx="80" cy="168" r="5"/><circle cx="300" cy="92" r="5"/></svg><span>DUBLIN</span></div>
+        <div class="book-copy"><div class="book-meta"><span>01 · JAMES JOYCE</span><span class="book-status">Available</span></div><h2>Ulysses</h2><p>Stephen, Leopold and Molly. Explore Dublin through the novel’s eighteen episodes.</p><span class="book-action">Explore the maps <span aria-hidden="true">↗</span></span></div>
+      </a>
+      <a class="book-card available-book" href="atlas.html?book=proust" aria-label="Explore In Search of Lost Time by Marcel Proust"><div class="book-art art-proust" aria-hidden="true"><svg viewBox="0 0 400 220"><path class="art-river" d="M-20 160 Q100 180 190 100 T420 130"/><path d="M35 30h330M35 75h330M35 120h330M35 190h330M80 10v200M165 10v200M260 10v200M330 10v200"/><circle cx="80" cy="158" r="7"/><circle cx="190" cy="100" r="7"/><circle cx="330" cy="125" r="7"/></svg><span>FRANCE / VENICE / PADUA</span></div><div class="book-copy"><div class="book-meta"><span>02 · MARCEL PROUST</span><span class="book-status">Available</span></div><h2>In Search of Lost Time</h2><p>Seven volumes, from Combray and Balbec to Paris, Venice and Padua.</p><span class="book-action">Explore the maps <span aria-hidden="true">↗</span></span></div></a>
+      <article class="book-card future-book"><div class="book-art art-lombardy" aria-hidden="true"><svg viewBox="0 0 400 220"><path d="M0 145 65 70 115 123 180 40 250 132 315 65 400 145M0 180h400M0 193h400M0 206h400"/></svg><span>LOMBARDY</span></div><div class="book-copy"><div class="book-meta"><span>03 · ALESSANDRO MANZONI</span><span class="book-status">Proposed</span></div><h2>The Betrothed</h2><p>From Lecco to Milan, the places of Renzo and Lucia.</p><span class="book-unavailable">Maps not yet available</span></div></article>
+      <article class="book-card future-book"><div class="book-art art-petersburg" aria-hidden="true"><svg viewBox="0 0 400 220"><path class="art-river" d="M-20 160 420 65"/><path d="M50 0v220M105 0v220M165 0v220M230 0v220M295 0v220M350 0v220M0 45h400M0 90h400M0 145h400M0 190h400"/></svg><span>SAINT PETERSBURG</span></div><div class="book-copy"><div class="book-meta"><span>04 · FYODOR DOSTOEVSKY</span><span class="book-status">Proposed</span></div><h2>Crime and Punishment</h2><p>The streets and courtyards of Raskolnikov’s city.</p><span class="book-unavailable">Maps not yet available</span></div></article>
+      <article class="book-card future-book"><div class="book-art art-london" aria-hidden="true"><svg viewBox="0 0 400 220"><path class="art-river" d="M-20 165 Q80 75 160 145 T420 130"/><path d="M40 0 120 220M150 0 215 220M270 0 290 220M355 0 345 220M0 55 400 85M0 110 400 145M0 200 400 185"/></svg><span>LONDON</span></div><div class="book-copy"><div class="book-meta"><span>05 · VIRGINIA WOOLF</span><span class="book-status">Proposed</span></div><h2>Mrs Dalloway</h2><p>A walk through Clarissa and Septimus’s London.</p><span class="book-unavailable">Maps not yet available</span></div></article>
+    </section>
+    <p class="catalogue-note">Ulysses and In Search of Lost Time are available. The other titles are proposals for expanding the catalogue. Card illustrations are decorative.</p>
+    <footer class="catalogue-footer"><p>Literary Atlas · The places of novels</p></footer>
+  </main>
+  <script>if(/^#episodio-(?:[1-9]|1[0-8])$/.test(location.hash)) location.replace('ulisse.html'+location.hash);</script>
+</body>
+</html>
