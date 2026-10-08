@@ -1,4 +1,4 @@
-const fs=require('fs'),vm=require('vm'),assert=require('assert/strict');const root='public/';
+const fs=require('fs'),vm=require('vm'),assert=require('assert/strict');const root='docs/';
 const localeCtx={window:{}};vm.runInNewContext(fs.readFileSync(root+'locales/ui.js','utf8'),localeCtx);const messages=localeCtx.window.atlasLocaleData.messages;
 for(const book of ['ulisse','proust'])for(const lang of ['en','it','fr','es']){
  const elements={};const el=()=>({children:[],appendChild(x){this.children.push(x)},setAttribute(){},addEventListener(){},scrollIntoView(){}});

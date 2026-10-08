@@ -1,5 +1,5 @@
 const fs=require('fs'),vm=require('vm'),assert=require('assert/strict');
-const root='public/';const raw=JSON.parse(fs.readFileSync('tests/fixtures/proust-data.json','utf8'));
+const root='docs/';const raw=JSON.parse(fs.readFileSync('tests/fixtures/proust-data.json','utf8'));
 const geo=JSON.parse(fs.readFileSync('tests/fixtures/proust-geocoding.json','utf8').replace(/^\uFEFF/,''));
 assert.equal(raw.chapters.length,7);assert.equal(Object.keys(raw.places).length,23);
 const used=new Set();for(const c of raw.chapters){assert.equal(c.places.length,c.placeText.length);assert.ok(c.links.length);assert.ok(c.places.length);for(const id of c.places){assert.ok(raw.places[id]);used.add(id)}}assert.equal(used.size,23);

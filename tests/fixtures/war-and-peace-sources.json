@@ -1,0 +1,1374 @@
+{
+  "places": {
+    "petersburg": {
+      "title": "Saint Petersburg",
+      "language": "en",
+      "qid": "Q656",
+      "coords": [
+        59.9375,
+        30.30861111
+      ],
+      "url": "https://en.wikipedia.org/wiki/Saint_Petersburg"
+    },
+    "kremenchuk": {
+      "title": "Kremenchuk",
+      "language": "en",
+      "qid": "Q156724",
+      "coords": [
+        49.06305556,
+        33.40388889
+      ],
+      "url": "https://en.wikipedia.org/wiki/Kremenchuk"
+    },
+    "kyiv": {
+      "title": "Kyiv",
+      "language": "en",
+      "qid": "Q1899",
+      "coords": [
+        50.45,
+        30.52333333
+      ],
+      "url": "https://en.wikipedia.org/wiki/Kyiv"
+    },
+    "troitsa": {
+      "title": "Trinity Lavra of St. Sergius",
+      "language": "en",
+      "qid": "Q211962",
+      "coords": [
+        56.31035,
+        38.1312
+      ],
+      "url": "https://en.wikipedia.org/wiki/Trinity_Lavra_of_St._Sergius"
+    },
+    "kolotsky": {
+      "title": "Колоцкий монастырь",
+      "language": "ru",
+      "qid": "Q4228614",
+      "coords": [
+        55.50056,
+        35.66222
+      ],
+      "url": "https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BB%D0%BE%D1%86%D0%BA%D0%B8%D0%B9_%D0%BC%D0%BE%D0%BD%D0%B0%D1%81%D1%82%D1%8B%D1%80%D1%8C"
+    },
+    "moscow": {
+      "title": "Moscow",
+      "language": "en",
+      "qid": "Q649",
+      "coords": [
+        55.75583333,
+        37.61777778
+      ],
+      "url": "https://en.wikipedia.org/wiki/Moscow"
+    },
+    "povarskaya": {
+      "title": "Povarskaya Street",
+      "language": "en",
+      "qid": "Q4366349",
+      "coords": [
+        55.75566668,
+        37.59083334
+      ],
+      "url": "https://en.wikipedia.org/wiki/Povarskaya_Street"
+    },
+    "bald-hills": {
+      "title": "Yasnaya Polyana",
+      "language": "en",
+      "qid": "Q749556",
+      "coords": [
+        54.07611111,
+        37.52611111
+      ],
+      "url": "https://en.wikipedia.org/wiki/Yasnaya_Polyana"
+    },
+    "otradnoe": {
+      "title": "Никольское-Вяземское",
+      "language": "ru",
+      "qid": "Q4320942",
+      "coords": [
+        53.308518,
+        36.823041
+      ],
+      "url": "https://ru.wikipedia.org/wiki/%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D1%8C%D1%81%D0%BA%D0%BE%D0%B5-%D0%92%D1%8F%D0%B7%D0%B5%D0%BC%D1%81%D0%BA%D0%BE%D0%B5"
+    },
+    "braunau": {
+      "title": "Braunau am Inn",
+      "language": "en",
+      "qid": "Q131128",
+      "coords": [
+        48.25833333,
+        13.03527778
+      ],
+      "url": "https://en.wikipedia.org/wiki/Braunau_am_Inn"
+    },
+    "enns": {
+      "title": "Enns (town)",
+      "language": "en",
+      "qid": "Q260089",
+      "coords": [
+        48.21666667,
+        14.475
+      ],
+      "url": "https://en.wikipedia.org/wiki/Enns_(town)"
+    },
+    "krems": {
+      "title": "Krems an der Donau",
+      "language": "en",
+      "qid": "Q131266",
+      "coords": [
+        48.416666666667,
+        15.616666666667
+      ],
+      "url": "https://www.wikidata.org/wiki/Q131266"
+    },
+    "brno": {
+      "title": "Brno",
+      "language": "en",
+      "qid": "Q14960",
+      "coords": [
+        49.1925,
+        16.60833333
+      ],
+      "url": "https://en.wikipedia.org/wiki/Brno"
+    },
+    "vienna": {
+      "title": "Vienna",
+      "language": "en",
+      "qid": "Q1741",
+      "coords": [
+        48.2083,
+        16.3725
+      ],
+      "url": "https://en.wikipedia.org/wiki/Vienna"
+    },
+    "hollabrunn": {
+      "title": "Hollabrunn",
+      "language": "en",
+      "qid": "Q624352",
+      "coords": [
+        48.56666667,
+        16.1
+      ],
+      "url": "https://en.wikipedia.org/wiki/Hollabrunn"
+    },
+    "schongrabern": {
+      "title": "Battle of Schöngrabern",
+      "language": "en",
+      "qid": "Q948810",
+      "coords": [
+        48.59258333,
+        16.06561111
+      ],
+      "url": "https://www.wikidata.org/wiki/Q948810"
+    },
+    "znojmo": {
+      "title": "Znojmo",
+      "language": "en",
+      "qid": "Q214956",
+      "coords": [
+        48.85555556,
+        16.04888889
+      ],
+      "url": "https://en.wikipedia.org/wiki/Znojmo"
+    },
+    "olomouc": {
+      "title": "Olomouc",
+      "language": "en",
+      "qid": "Q81137",
+      "coords": [
+        49.59388889,
+        17.25083333
+      ],
+      "url": "https://en.wikipedia.org/wiki/Olomouc"
+    },
+    "austerlitz": {
+      "title": "Slavkov u Brna",
+      "language": "en",
+      "qid": "Q193724",
+      "coords": [
+        49.15333333,
+        16.87638889
+      ],
+      "url": "https://en.wikipedia.org/wiki/Slavkov_u_Brna"
+    },
+    "sokolnice": {
+      "title": "Sokolnice",
+      "language": "en",
+      "qid": "Q476519",
+      "coords": [
+        49.11388889,
+        16.72166667
+      ],
+      "url": "https://en.wikipedia.org/wiki/Sokolnice"
+    },
+    "slapanice": {
+      "title": "Šlapanice",
+      "language": "en",
+      "qid": "Q371321",
+      "coords": [
+        49.16861111,
+        16.72722222
+      ],
+      "url": "https://en.wikipedia.org/wiki/%C5%A0lapanice"
+    },
+    "torzhok": {
+      "title": "Torzhok",
+      "language": "en",
+      "qid": "Q196678",
+      "coords": [
+        57.03333333,
+        34.96666667
+      ],
+      "url": "https://en.wikipedia.org/wiki/Torzhok"
+    },
+    "bartenstein": {
+      "title": "Bartoszyce",
+      "language": "en",
+      "qid": "Q809585",
+      "coords": [
+        54.25,
+        20.8
+      ],
+      "url": "https://en.wikipedia.org/wiki/Bartoszyce"
+    },
+    "tilsit": {
+      "title": "Sovetsk, Kaliningrad Oblast",
+      "language": "en",
+      "qid": "Q5647",
+      "coords": [
+        55.08083333333333,
+        21.886388888888888
+      ],
+      "url": "https://www.wikidata.org/wiki/Q5647"
+    },
+    "kaunas": {
+      "title": "Kaunas",
+      "language": "en",
+      "qid": "Q4115712",
+      "coords": [
+        54.89722222,
+        23.88611111
+      ],
+      "url": "https://en.wikipedia.org/wiki/Kaunas"
+    },
+    "vilnius": {
+      "title": "Vilnius",
+      "language": "en",
+      "qid": "Q216",
+      "coords": [
+        54.68722222,
+        25.28
+      ],
+      "url": "https://en.wikipedia.org/wiki/Vilnius"
+    },
+    "drissa": {
+      "title": "Vyerkhnyadzvinsk",
+      "language": "en",
+      "qid": "Q954610",
+      "coords": [
+        55.766666666667,
+        27.933333333333
+      ],
+      "url": "https://www.wikidata.org/wiki/Q954610"
+    },
+    "vitebsk": {
+      "title": "Vitebsk",
+      "language": "en",
+      "qid": "Q102217",
+      "coords": [
+        55.19166667,
+        30.20555556
+      ],
+      "url": "https://en.wikipedia.org/wiki/Vitebsk"
+    },
+    "ostrovno": {
+      "title": "Astrowna",
+      "language": "en",
+      "qid": "Q3646499",
+      "coords": [
+        55.13777777777778,
+        29.8575
+      ],
+      "url": "https://www.wikidata.org/wiki/Q3646499"
+    },
+    "smolensk": {
+      "title": "Smolensk",
+      "language": "en",
+      "qid": "Q2337",
+      "coords": [
+        54.78277778,
+        32.04527778
+      ],
+      "url": "https://en.wikipedia.org/wiki/Smolensk"
+    },
+    "mozhaysk": {
+      "title": "Mozhaysk",
+      "language": "en",
+      "qid": "Q159139",
+      "coords": [
+        55.51666667,
+        36.03333333
+      ],
+      "url": "https://en.wikipedia.org/wiki/Mozhaysk"
+    },
+    "mytishchi": {
+      "title": "Mytishchi",
+      "language": "en",
+      "qid": "Q23185",
+      "coords": [
+        55.91666667,
+        37.76666667
+      ],
+      "url": "https://en.wikipedia.org/wiki/Mytishchi"
+    },
+    "yaroslavl": {
+      "title": "Yaroslavl",
+      "language": "en",
+      "qid": "Q2423",
+      "coords": [
+        57.6264,
+        39.8933
+      ],
+      "url": "https://en.wikipedia.org/wiki/Yaroslavl"
+    },
+    "voronezh": {
+      "title": "Voronezh",
+      "language": "en",
+      "qid": "Q3426",
+      "coords": [
+        51.67166667,
+        39.21055556
+      ],
+      "url": "https://en.wikipedia.org/wiki/Voronezh"
+    },
+    "maloyaroslavets": {
+      "title": "Maloyaroslavets",
+      "language": "en",
+      "qid": "Q158005",
+      "coords": [
+        55.01666667,
+        36.46666667
+      ],
+      "url": "https://en.wikipedia.org/wiki/Maloyaroslavets"
+    },
+    "vyazma": {
+      "title": "Vyazma",
+      "language": "en",
+      "qid": "Q102307",
+      "coords": [
+        55.2107,
+        34.2912
+      ],
+      "url": "https://en.wikipedia.org/wiki/Vyazma"
+    },
+    "krasny": {
+      "title": "Krasny, Krasninsky District, Smolensk Oblast",
+      "language": "en",
+      "qid": "Q658905",
+      "coords": [
+        54.56,
+        31.43
+      ],
+      "url": "https://en.wikipedia.org/wiki/Krasny%2C_Krasninsky_District%2C_Smolensk_Oblast"
+    },
+    "orsha": {
+      "title": "Orsha",
+      "language": "en",
+      "qid": "Q208609",
+      "coords": [
+        54.50916667,
+        30.42583333
+      ],
+      "url": "https://en.wikipedia.org/wiki/Orsha"
+    },
+    "orel": {
+      "title": "Oryol",
+      "language": "en",
+      "qid": "Q3118",
+      "coords": [
+        52.96861111,
+        36.06944444
+      ],
+      "url": "https://en.wikipedia.org/wiki/Oryol"
+    },
+    "sokolniki": {
+      "title": "Sokolniki Park",
+      "language": "en",
+      "qid": "Q2375145",
+      "coords": [
+        55.80055556,
+        37.66972222
+      ],
+      "url": "https://en.wikipedia.org/wiki/Sokolniki_Park"
+    },
+    "prace": {
+      "title": "Prace",
+      "language": "cs",
+      "qid": "Q968141",
+      "coords": [
+        49.14108467,
+        16.76540471
+      ],
+      "url": "https://cs.wikipedia.org/wiki/Prace"
+    },
+    "kobylnice": {
+      "title": "Kobylnice (okres Brno-venkov)",
+      "language": "cs",
+      "qid": "Q1778044",
+      "coords": [
+        49.13805842,
+        16.73183642
+      ],
+      "url": "https://cs.wikipedia.org/wiki/Kobylnice_(okres_Brno-venkov)"
+    },
+    "pratzen": {
+      "title": "Mohyla míru",
+      "language": "cs",
+      "qid": "Q11823400",
+      "coords": [
+        49.1282,
+        16.7625
+      ],
+      "url": "https://cs.wikipedia.org/wiki/Mohyla_m%C3%ADru"
+    },
+    "tauride": {
+      "title": "Tauride Garden",
+      "language": "en",
+      "qid": "Q2855965",
+      "coords": [
+        59.94583333,
+        30.37388889
+      ],
+      "url": "https://en.wikipedia.org/wiki/Tauride_Garden"
+    },
+    "arbat": {
+      "title": "Arbat Street",
+      "language": "en",
+      "qid": "Q269373",
+      "coords": [
+        55.749166666667,
+        37.590555555556
+      ],
+      "url": "https://www.wikidata.org/wiki/Q269373"
+    },
+    "arbat-square": {
+      "title": "Arbatskaya Square",
+      "language": "en",
+      "qid": "Q2424832",
+      "coords": [
+        55.751944444444,
+        37.601111111111
+      ],
+      "url": "https://www.wikidata.org/wiki/Q2424832"
+    },
+    "vozdvizhenka": {
+      "title": "Vozdvizhenka Street",
+      "language": "en",
+      "qid": "Q4471691",
+      "coords": [
+        55.75277778,
+        37.60555556
+      ],
+      "url": "https://en.wikipedia.org/wiki/Vozdvizhenka_Street"
+    },
+    "patriarch": {
+      "title": "Patriarch Ponds",
+      "language": "en",
+      "qid": "Q962445",
+      "coords": [
+        55.763883,
+        37.59212
+      ],
+      "url": "https://en.wikipedia.org/wiki/Patriarch_Ponds"
+    },
+    "sivtsev": {
+      "title": "Sivtsev Vrazhek Lane",
+      "language": "en",
+      "qid": "Q4351154",
+      "coords": [
+        55.7475,
+        37.59388889
+      ],
+      "url": "https://en.wikipedia.org/wiki/Sivtsev_Vrazhek_Lane"
+    },
+    "borodino": {
+      "title": "Бородино (деревня, Можайский муниципальный округ)",
+      "language": "ru",
+      "qid": "Q894049",
+      "coords": [
+        55.52694,
+        35.82111
+      ],
+      "url": "https://ru.wikipedia.org/wiki/%D0%91%D0%BE%D1%80%D0%BE%D0%B4%D0%B8%D0%BD%D0%BE_(%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BD%D1%8F%2C_%D0%9C%D0%BE%D0%B6%D0%B0%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D0%BC%D1%83%D0%BD%D0%B8%D1%86%D0%B8%D0%BF%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%BE%D0%BA%D1%80%D1%83%D0%B3)"
+    },
+    "semyonovskoe": {
+      "title": "Семёновское (деревня, Можайский муниципальный округ)",
+      "language": "ru",
+      "qid": "Q4415998",
+      "coords": [
+        55.50861,
+        35.83278
+      ],
+      "url": "https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D0%BC%D1%91%D0%BD%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B5_(%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BD%D1%8F%2C_%D0%9C%D0%BE%D0%B6%D0%B0%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D0%BC%D1%83%D0%BD%D0%B8%D1%86%D0%B8%D0%BF%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%BE%D0%BA%D1%80%D1%83%D0%B3)"
+    },
+    "utitsa": {
+      "title": "Утицы",
+      "language": "ru",
+      "qid": "Q15617489",
+      "coords": [
+        55.48611,
+        35.83056
+      ],
+      "url": "https://ru.wikipedia.org/wiki/%D0%A3%D1%82%D0%B8%D1%86%D1%8B"
+    },
+    "vorontsovo": {
+      "title": "Воронцово (усадьба)",
+      "language": "ru",
+      "qid": "Q4125817",
+      "coords": [
+        55.6665,
+        37.5326
+      ],
+      "url": "https://ru.wikipedia.org/wiki/%D0%92%D0%BE%D1%80%D0%BE%D0%BD%D1%86%D0%BE%D0%B2%D0%BE_(%D1%83%D1%81%D0%B0%D0%B4%D1%8C%D0%B1%D0%B0)"
+    },
+    "fili": {
+      "title": "Кутузовская изба",
+      "language": "ru",
+      "qid": "Q19844002",
+      "coords": [
+        55.73972,
+        37.5231417
+      ],
+      "url": "https://ru.wikipedia.org/wiki/%D0%9A%D1%83%D1%82%D1%83%D0%B7%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D0%B8%D0%B7%D0%B1%D0%B0"
+    },
+    "poklonnaya": {
+      "title": "Poklonnaya Hill",
+      "language": "en",
+      "qid": "Q2370140",
+      "coords": [
+        55.73166667,
+        37.50666667
+      ],
+      "url": "https://www.wikidata.org/wiki/Q2370140"
+    },
+    "kremlin": {
+      "title": "Kremlin",
+      "language": "en",
+      "qid": "Q133274",
+      "coords": [
+        55.75166667,
+        37.61777778
+      ],
+      "url": "https://en.wikipedia.org/wiki/Kremlin"
+    },
+    "devichye": {
+      "title": "Девичье поле",
+      "language": "ru",
+      "qid": "Q4156392",
+      "coords": [
+        55.73277778,
+        37.57
+      ],
+      "url": "https://www.wikidata.org/wiki/Q4156392"
+    },
+    "novodevichy": {
+      "title": "Novodevichy Convent",
+      "language": "en",
+      "qid": "Q270725",
+      "coords": [
+        55.72611111,
+        37.55611111
+      ],
+      "url": "https://en.wikipedia.org/wiki/Novodevichy_Convent"
+    },
+    "tarutino": {
+      "title": "Тарутино (Калужская область)",
+      "language": "ru",
+      "qid": "Q4452204",
+      "coords": [
+        55.12222,
+        36.94056
+      ],
+      "url": "https://ru.wikipedia.org/wiki/%D0%A2%D0%B0%D1%80%D1%83%D1%82%D0%B8%D0%BD%D0%BE_(%D0%9A%D0%B0%D0%BB%D1%83%D0%B6%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C)"
+    },
+    "berezina": {
+      "title": "Battle of Berezina",
+      "language": "en",
+      "qid": "Q555839",
+      "coords": [
+        54.324788888889,
+        28.354530555556
+      ],
+      "url": "https://www.wikidata.org/wiki/Q555839"
+    },
+    "shevardino": {
+      "coords": [
+        55.49924083333334,
+        35.79673195
+      ],
+      "polygon": [
+        [
+          55.4993567,
+          35.7961341
+        ],
+        [
+          55.4995507,
+          35.7965718
+        ],
+        [
+          55.4993688,
+          35.7970665
+        ],
+        [
+          55.4992018,
+          35.7970713
+        ],
+        [
+          55.4989754,
+          35.7970618
+        ],
+        [
+          55.4989916,
+          35.7964862
+        ]
+      ],
+      "url": "https://www.openstreetmap.org/way/263822780"
+    },
+    "raevsky": {
+      "coords": [
+        55.518518,
+        35.827608
+      ],
+      "url": "https://nashural.ru/russia/dostoprimechatelnosti-muzeya-zapovednika-borodinskoe-pole-batareya-raevskogo/"
+    }
+  },
+  "scenes": [
+    {
+      "book": 1,
+      "place": "petersburg",
+      "chapter": 1,
+      "anchor": "link2HCH0001",
+      "cue": "Petersburg",
+      "excerpt": "days. She was, as she said, suffering from la grippe; grippe being then a new word in St. Petersburg, used only by the elite. All her invitations without exception, written in French, and delivered by a scarlet-liveried footman that morning, ran as follows: \"If you have nothing better to do, Count (or Prince)"
+    },
+    {
+      "book": 1,
+      "place": "povarskaya",
+      "chapter": 10,
+      "anchor": "link2HCH0010",
+      "cue": "Povarsk",
+      "excerpt": "oming and going continually, bringing visitors to the Countess Rostóva's big house on the Povarskáya, so well known to all Moscow. The countess herself and her handsome eldest daughter were in the drawing room with the visitors who came to congratulate, and who constantly succeeded one another in relays. The "
+    },
+    {
+      "book": 1,
+      "place": "moscow",
+      "chapter": 18,
+      "anchor": "link2HCH0018",
+      "cue": "Moscow",
+      "excerpt": " plainness of speech. Márya Dmítrievna was known to the Imperial family as well as to all Moscow and Petersburg, and both cities wondered at her, laughed privately at her rudenesses, and told good stories about her, while none the less all without exception respected and feared her. In the count's room, which"
+    },
+    {
+      "book": 1,
+      "place": "bald-hills",
+      "chapter": 25,
+      "anchor": "link2HCH0025",
+      "cue": "Bald Hills",
+      "excerpt": "At Bald Hills, Prince Nicholas Andréevich Bolkónski's estate, the arrival of young Prince Andrew and his wife was daily expected, but this expectation did not upset the regular routine of life in the old prince's household."
+    },
+    {
+      "book": 2,
+      "place": "braunau",
+      "chapter": 1,
+      "anchor": "link2HCH0029",
+      "cue": "Braunau",
+      "excerpt": ", and yet other regiments freshly arriving from Russia were settling near the fortress of Braunau and burdening the inhabitants on whom they were quartered. Braunau was the headquarters of the commander in chief, Kutúzov. On October 11, 1805, one of the infantry regiments that had just reached Braunau had hal"
+    },
+    {
+      "book": 2,
+      "place": "enns",
+      "chapter": 6,
+      "anchor": "link2HCH0034",
+      "cue": "Enns",
+      "excerpt": " Braunau) and Traun (near Linz). On October 23 the Russian troops were crossing the river Enns. At midday the Russian baggage train, the artillery, and columns of troops were defiling through the town of Enns on both sides of the bridge. It was a warm, rainy, autumnal day. The wide expanse that opened out bef"
+    },
+    {
+      "book": 2,
+      "place": "krems",
+      "chapter": 9,
+      "anchor": "link2HCH0037",
+      "cue": "Krems",
+      "excerpt": "trusted them to the humanity of the enemy; and though the big hospitals and the houses in Krems converted into military hospitals could no longer accommodate all the sick and wounded, yet the stand made at Krems and the victory over Mortier raised the spirits of the army considerably. Throughout the whole arm"
+    },
+    {
+      "book": 2,
+      "place": "brno",
+      "chapter": 9,
+      "anchor": "link2HCH0037",
+      "cue": "Brunn",
+      "excerpt": "o the Austrian court, now no longer at Vienna (which was threatened by the French) but at Brünn. Despite his apparently delicate build Prince Andrew could endure physical fatigue far better than many very muscular men, and on the night of the battle, having arrived at Krems excited but not weary, with dispatc"
+    },
+    {
+      "book": 2,
+      "place": "vienna",
+      "chapter": 10,
+      "anchor": "link2HCH0038",
+      "cue": "Vienna",
+      "excerpt": "ch other previously in Petersburg, but had become more intimate when Prince Andrew was in Vienna with Kutúzov. Just as Prince Andrew was a young man who gave promise of rising high in the military profession, so to an even greater extent Bilíbin gave promise of rising in his diplomatic career. He still a youn"
+    },
+    {
+      "book": 2,
+      "place": "znojmo",
+      "chapter": 14,
+      "anchor": "link2HCH0042",
+      "cue": "Znaim",
+      "excerpt": "e spy reported, having crossed the Vienna bridge, were advancing by forced marches toward Znaim, which lay sixty-six miles off on the line of Kutúzov's retreat. If he reached Znaim before the French, there would be great hope of saving the army; to let the French forestall him at Znaim meant the exposure of h"
+    },
+    {
+      "book": 2,
+      "place": "hollabrunn",
+      "chapter": 14,
+      "anchor": "link2HCH0042",
+      "cue": "Hollabrunn",
+      "excerpt": "third of his men as stragglers by the way, Bagratión came out on the Vienna-Znaim road at Hollabrünn a few hours ahead of the French who were approaching Hollabrünn from Vienna. Kutúzov with his transport had still to march for some days before he could reach Znaim. Hence Bagratión with his four thousand hung"
+    },
+    {
+      "book": 2,
+      "place": "schongrabern",
+      "chapter": 16,
+      "anchor": "link2HCH0044",
+      "cue": "Schon Grabern",
+      "excerpt": " out from this battery. Just facing it, on the crest of the opposite hill, the village of Schön Grabern could be seen, and in three places to left and right the French troops amid the smoke of their campfires, the greater part of whom were evidently in the village itself and behind the hill. To the left from "
+    },
+    {
+      "book": 3,
+      "place": "petersburg",
+      "chapter": 1,
+      "anchor": "link2HCH0050",
+      "cue": "Petersburg",
+      "excerpt": "erred the status of Councilor of State, and insisted on the young man accompanying him to Petersburg and staying at his house. With apparent absent-mindedness, yet with unhesitating assurance that he was doing the right thing, Prince Vasíli did everything to get Pierre to marry his daughter. Had he thought ou"
+    },
+    {
+      "book": 3,
+      "place": "bald-hills",
+      "chapter": 3,
+      "anchor": "link2HCH0052",
+      "cue": "Bald Hills",
+      "excerpt": " she said to Mademoiselle Bourienne: \"Heaven knows what a fright might do.\" In general at Bald Hills the little princess lived in constant fear, and with a sense of antipathy to the old prince which she did not realize because the fear was so much the stronger feeling. The prince reciprocated this antipathy, "
+    },
+    {
+      "book": 3,
+      "place": "olomouc",
+      "chapter": 7,
+      "anchor": "link2HCH0056",
+      "cue": "Olmutz",
+      "excerpt": "On the twelfth of November, Kutúzov's active army, in camp before Olmütz, was preparing to be reviewed next day by the two Emperors—the Russian and the Austrian. The Guards, just arrived from Russia, spent the night ten miles from Olmütz and next morning were to come straight to the re"
+    },
+    {
+      "book": 3,
+      "place": "austerlitz",
+      "chapter": 12,
+      "anchor": "link2HCH0061",
+      "cue": "dispositions",
+      "excerpt": "an and Austrian, to report and explain, and to his headquarters where he had dictated the dispositions in German, and now, much exhausted, he arrived at Kutúzov's. He was evidently so busy that he even forgot to be polite to the commander in chief. He interrupted him, talked rapidly and indistinctly, without "
+    },
+    {
+      "book": 3,
+      "place": "kobylnice",
+      "chapter": 12,
+      "anchor": "link2HCH0061",
+      "cue": "Kobelnitz",
+      "excerpt": " heading which he also read out: \"Dispositions for an attack on the enemy position behind Kobelnitz and Sokolnitz, November 30, 1805.\" The dispositions were very complicated and difficult. They began as follows: \"As the enemy's left wing rests on wooded hills and his right extends along Kobelnitz and Sokolnit"
+    },
+    {
+      "book": 3,
+      "place": "sokolnice",
+      "chapter": 12,
+      "anchor": "link2HCH0061",
+      "cue": "Sokolnitz",
+      "excerpt": " he also read out: \"Dispositions for an attack on the enemy position behind Kobelnitz and Sokolnitz, November 30, 1805.\" The dispositions were very complicated and difficult. They began as follows: \"As the enemy's left wing rests on wooded hills and his right extends along Kobelnitz and Sokolnitz behind the p"
+    },
+    {
+      "book": 3,
+      "place": "slapanice",
+      "chapter": 14,
+      "anchor": "link2HCH0063",
+      "cue": "Schlappanitz",
+      "excerpt": " the morning. The fog lay unbroken like a sea down below, but higher up at the village of Schlappanitz where Napoleon stood with his marshals around him, it was quite light. Above him was a clear blue sky, and the sun's vast orb quivered like a huge hollow, crimson float on the surface of that milky sea of mi"
+    },
+    {
+      "book": 3,
+      "place": "prace",
+      "chapter": 14,
+      "anchor": "link2HCH0063",
+      "cue": "Pratzen",
+      "excerpt": "ch had gone down into the valley. The fourth column, with which Kutúzov was, stood on the Pratzen Heights. Below, where the fight was beginning, there was still thick fog; on the higher ground it was clearing, but nothing could be seen of what was going on in front. Whether all the enemy forces were, as we su"
+    },
+    {
+      "book": 3,
+      "place": "pratzen",
+      "chapter": 16,
+      "anchor": "link2HCH0065",
+      "cue": "standard",
+      "excerpt": "ing tears of shame and anger choking him, had already leapt from his horse and run to the standard. \"Forward, lads!\" he shouted in a voice piercing as a child's. \"Here it is!\" thought he, seizing the staff of the standard and hearing with pleasure the whistle of bullets evidently aimed at him. Several soldier"
+    },
+    {
+      "book": 4,
+      "place": "moscow",
+      "chapter": 1,
+      "anchor": "link2HCH0069",
+      "cue": "Moscow",
+      "excerpt": " Denísov was going home to Vorónezh and Rostóv persuaded him to travel with him as far as Moscow and to stay with him there. Meeting a comrade at the last post station but one before Moscow, Denísov had drunk three bottles of wine with him and, despite the jolting ruts across the snow-covered road, did not on"
+    },
+    {
+      "book": 4,
+      "place": "sokolniki",
+      "chapter": 4,
+      "anchor": "link2HCH0072",
+      "cue": "Sokolniki",
+      "excerpt": " club till late, listening to the gypsies and other singers. \"Well then, till tomorrow at Sokólniki,\" said Dólokhov, as he took leave of Rostóv in the club porch. \"And do you feel quite calm?\" Rostóv asked. Dólokhov paused. \"Well, you see, I'll tell you the whole secret of dueling in two words. If you are goi"
+    },
+    {
+      "book": 4,
+      "place": "bald-hills",
+      "chapter": 8,
+      "anchor": "link2HCH0076",
+      "cue": "Bald Hills",
+      "excerpt": "ho was present. (Mary Bogdánovna was a midwife from the neighboring town, who had been at Bald Hills for the last fortnight.) \"Oh yes,\" assented Princess Mary, \"perhaps that's it. I'll go. Courage, my angel.\" She kissed Lise and was about to leave the room. \"Oh, no, no!\" And besides the pallor and the physica"
+    },
+    {
+      "book": 5,
+      "place": "torzhok",
+      "chapter": 1,
+      "anchor": "link2HCH0085",
+      "cue": "Torzhok",
+      "excerpt": "After his interview with his wife Pierre left for Petersburg. At the Torzhók post station, either there were no horses or the postmaster would not supply them. Pierre was obliged to wait. Without undressing, he lay down on the leather sofa in front of a round table, put his big feet in th"
+    },
+    {
+      "book": 5,
+      "place": "petersburg",
+      "chapter": 3,
+      "anchor": "link2HCH0087",
+      "cue": "Petersburg",
+      "excerpt": "On reaching Petersburg Pierre did not let anyone know of his arrival, he went nowhere and spent whole days in reading Thomas à Kempis, whose book had been sent him by someone unknown. One thing he continually realized as he read tha"
+    },
+    {
+      "book": 5,
+      "place": "bald-hills",
+      "chapter": 13,
+      "anchor": "link2HCH0097",
+      "cue": "Bald Hills",
+      "excerpt": "getting dusk when Prince Andrew and Pierre drove up to the front entrance of the house at Bald Hills. As they approached the house, Prince Andrew with a smile drew Pierre's attention to a commotion going on at the back porch. A woman, bent with age, with a wallet on her back, and a short, long-haired, young m"
+    },
+    {
+      "book": 5,
+      "place": "bartenstein",
+      "chapter": 15,
+      "anchor": "link2HCH0099",
+      "cue": "Bartenstein",
+      "excerpt": " retreats and advances and battles at Pultúsk and Preussisch-Eylau, was concentrated near Bartenstein. It was awaiting the Emperor's arrival and the beginning of a new campaign. The Pávlograd regiment, belonging to that part of the army which had served in the 1805 campaign, had been recruiting up to strength"
+    },
+    {
+      "book": 5,
+      "place": "tilsit",
+      "chapter": 19,
+      "anchor": "link2HCH0103",
+      "cue": "Tilsit",
+      "excerpt": "ned to the regiment and told the commander the state of Denísov's affairs, Rostóv rode to Tilsit with the letter to the Emperor. On the thirteenth of June the French and Russian Emperors arrived in Tilsit. Borís Drubetskóy had asked the important personage on whom he was in attendance, to include him in the s"
+    },
+    {
+      "book": 6,
+      "place": "bald-hills",
+      "chapter": 1,
+      "anchor": "link2HCH0107",
+      "cue": "Bald Hills",
+      "excerpt": "to the children of the peasants and household serfs. Prince Andrew spent half his time at Bald Hills with his father and his son, who was still in the care of nurses. The other half he spent in \"Boguchárovo Cloister,\" as his father called Prince Andrew's estate. Despite the indifference to the affairs of the "
+    },
+    {
+      "book": 6,
+      "place": "otradnoe",
+      "chapter": 2,
+      "anchor": "link2HCH0108",
+      "cue": "Otradnoe",
+      "excerpt": "o speak to the Marshal, was driving up the avenue in the grounds of the Rostóvs' house at Otrádnoe. He heard merry girlish cries behind some trees on the right and saw a group of girls running to cross the path of his calèche . Ahead of the rest and nearer to him ran a dark-haired, remarkably slim, pretty gir"
+    },
+    {
+      "book": 6,
+      "place": "petersburg",
+      "chapter": 14,
+      "anchor": "link2HCH0120",
+      "cue": "Petersburg",
+      "excerpt": "ress, who was a friend and relation of the countess and piloted the provincial Rostóvs in Petersburg high society, was to accompany them to the ball. They were to call for her at her house in the Taurida Gardens at ten o'clock, but it was already five minutes to ten, and the girls were not yet dressed. Natásh"
+    },
+    {
+      "book": 6,
+      "place": "tauride",
+      "chapter": 18,
+      "anchor": "link2HCH0124",
+      "cue": "Taurida",
+      "excerpt": "to it. At the appointed hour, however, he entered the modest house Speránski owned in the Taurida Gardens. In the parqueted dining room this small house, remarkable for its extreme cleanliness (suggesting that of a monastery), Prince Andrew, who was rather late, found the friendly gathering of Speránski's int"
+    },
+    {
+      "book": 7,
+      "place": "otradnoe",
+      "chapter": 3,
+      "anchor": "link2HCH0135",
+      "cue": "Otradnoe",
+      "excerpt": "o listen,\" his bass boomed out after a minute's pause. \"He says she's moved them into the Otrádnoe enclosure. They were howling there.\" (This meant that the she-wolf, about whom they both knew, had moved with her cubs to the Otrádnoe copse, a small place a mile and a half from the house.) \"We ought to go, don"
+    },
+    {
+      "book": 8,
+      "place": "moscow",
+      "chapter": 1,
+      "anchor": "link2HCH0146",
+      "cue": "Moscow",
+      "excerpt": " him about it. Pierre felt that she was right, and to avoid compromising her went away to Moscow. In Moscow as soon as he entered his huge house in which the faded and fading princesses still lived, with its enormous retinue; as soon as, driving through the town, he saw the Iberian shrine with innumerable tap"
+    },
+    {
+      "book": 8,
+      "place": "vozdvizhenka",
+      "chapter": 7,
+      "anchor": "link2HCH0152",
+      "cue": "Vozdvizhenka",
+      "excerpt": "re is no reason for them not to like me....\" They drove up to the gloomy old house on the Vozdvízhenka and entered the vestibule. \"Well, the Lord have mercy on us!\" said the count, half in jest, half in earnest; but Natásha noticed that her father was flurried on entering the anteroom and inquired timidly and"
+    },
+    {
+      "book": 8,
+      "place": "arbat",
+      "chapter": 17,
+      "anchor": "link2HCH0162",
+      "cue": "Arbat",
+      "excerpt": "lagá and of the sturdy young fellow seated on the box was all that could be heard. On the Arbát Square the troyka caught against a carriage; something cracked, shouts were heard, and the troyka flew along the Arbát Street. After taking a turn along the Podnovínski Boulevard, Balagá began to rein in, and turni"
+    },
+    {
+      "book": 8,
+      "place": "arbat-square",
+      "chapter": 22,
+      "anchor": "link2HCH0167",
+      "cue": "Arbat Square",
+      "excerpt": " compared with the heights to which his soul had just been raised. At the entrance to the Arbát Square an immense expanse of dark starry sky presented itself to his eyes. Almost in the center of it, above the Prechístenka Boulevard, surrounded and sprinkled on all sides by stars but distinguished from them al"
+    },
+    {
+      "book": 9,
+      "place": "kaunas",
+      "chapter": 2,
+      "anchor": "link2HCH0169",
+      "cue": "Kovno",
+      "excerpt": "bridges to the farther side, turned sharply to the left, and galloped in the direction of Kóvno, preceded by enraptured, mounted chasseurs of the Guard who, breathless with delight, galloped ahead to clear a path for him through the troops. On reaching the broad river Víliya, he stopped near a regiment of Pol"
+    },
+    {
+      "book": 9,
+      "place": "vilnius",
+      "chapter": 3,
+      "anchor": "link2HCH0170",
+      "cue": "Vilna",
+      "excerpt": "The Emperor of Russia had, meanwhile, been in Vílna for more than a month, reviewing troops and holding maneuvers. Nothing was ready for the war that everyone expected and to prepare for which the Emperor had come from Petersburg. There was no general plan of action"
+    },
+    {
+      "book": 9,
+      "place": "drissa",
+      "chapter": 8,
+      "anchor": "link2HCH0175",
+      "cue": "Drissa",
+      "excerpt": " to Barclay de Tolly. Before joining the Western Army which was then, in May, encamped at Drissa, Prince Andrew visited Bald Hills which was directly on his way, being only two miles off the Smolénsk highroad. During the last three years there had been so many changes in his life, he had thought, felt, and se"
+    },
+    {
+      "book": 9,
+      "place": "vitebsk",
+      "chapter": 14,
+      "anchor": "link2HCH0181",
+      "cue": "Vitebsk",
+      "excerpt": "rmine the distance of that firing, Count Ostermann-Tolstóy's adjutant came galloping from Vítebsk with orders to advance at a trot along the road. The squadron overtook and passed the infantry and the battery—which had also quickened their pace—rode down a hill, and passing through an empty and deserted villa"
+    },
+    {
+      "book": 9,
+      "place": "ostrovno",
+      "chapter": 14,
+      "anchor": "link2HCH0181",
+      "cue": "Ostrovna",
+      "excerpt": "et asleep, when the quartermaster appeared with an order to move on to the little town of Ostróvna. Still laughing and talking, the officers began hurriedly getting ready and again boiled some muddy water in the samovar. But Rostóv went off to his squadron without waiting for tea. Day was breaking, the rain h"
+    },
+    {
+      "book": 9,
+      "place": "moscow",
+      "chapter": 16,
+      "anchor": "link2HCH0183",
+      "cue": "Moscow",
+      "excerpt": "ews of Natásha's illness, the countess, though not quite well yet and still weak, went to Moscow with Pétya and the rest of the household, and the whole family moved from Márya Dmítrievna's house to their own and settled down in town. Natásha's illness was so serious that, fortunately for her and for her pare"
+    },
+    {
+      "book": 9,
+      "place": "kremlin",
+      "chapter": 21,
+      "anchor": "link2HCH0188",
+      "cue": "Kremlin",
+      "excerpt": "t and the more his attention was diverted by the ever-increasing crowds moving toward the Krémlin, the less he remembered to walk with the sedateness and deliberation of a man. As he approached the Krémlin he even began to avoid being crushed and resolutely stuck out his elbows in a menacing way. But within t"
+    },
+    {
+      "book": 10,
+      "place": "bald-hills",
+      "chapter": 2,
+      "anchor": "link2HCH0192",
+      "cue": "Bald Hills",
+      "excerpt": " the war. In this letter Prince Andrew pointed out to his father the danger of staying at Bald Hills, so near the theater of war and on the army's direct line of march, and advised him to move to Moscow. At dinner that day, on Dessalles' mentioning that the French were said to have already entered Vítebsk, th"
+    },
+    {
+      "book": 10,
+      "place": "smolensk",
+      "chapter": 4,
+      "anchor": "link2HCH0194",
+      "cue": "Smolensk",
+      "excerpt": "Bald Hills, Prince Nicholas Bolkónski's estate, lay forty miles east from Smolénsk and two miles from the main road to Moscow. The same evening that the prince gave his instructions to Alpátych, Dessalles, having asked to see Princess Mary, told her that, as the prince was not very well and wa"
+    },
+    {
+      "book": 10,
+      "place": "vorontsovo",
+      "chapter": 18,
+      "anchor": "link2HCH0208",
+      "cue": "Vorontsovo",
+      "excerpt": "t he did not go to see them. To distract his thoughts he drove that day to the village of Vorontsóvo to see the great balloon Leppich was constructing to destroy the foe, and a trial balloon that was to go up next day. The balloon was not yet ready, but Pierre learned that it was being constructed by the Empe"
+    },
+    {
+      "book": 10,
+      "place": "mozhaysk",
+      "chapter": 18,
+      "anchor": "link2HCH0208",
+      "cue": "Mozhaysk",
+      "excerpt": "d do anything, and was known to all Moscow—that he would leave that night for the army at Mozháysk, and that his saddle horses should be sent there. This could not all be arranged that day, so on Evstáfey's representation Pierre had to put off his departure till next day to allow time for the relay horses to "
+    },
+    {
+      "book": 10,
+      "place": "borodino",
+      "chapter": 21,
+      "anchor": "link2HCH0211",
+      "cue": "Borodino",
+      "excerpt": " with a white church some five hundred paces in front of the knoll and below it. This was Borodinó. Below the village the road crossed the river by a bridge and, winding down and up, rose higher and higher to the village of Valúevo visible about four miles away, where Napoleon was then stationed. Beyond Valúe"
+    },
+    {
+      "book": 10,
+      "place": "shevardino",
+      "chapter": 29,
+      "anchor": "link2HCH0219",
+      "cue": "Shevardino",
+      "excerpt": "esty.\" Napoleon nodded and walked away. At half-past five Napoleon rode to the village of Shevárdino. It was growing light, the sky was clearing, only a single cloud lay in the east. The abandoned campfires were burning themselves out in the faint morning light. On the right a single deep report of a cannon r"
+    },
+    {
+      "book": 10,
+      "place": "raevsky",
+      "chapter": 31,
+      "anchor": "link2HCH0221",
+      "cue": "battery",
+      "excerpt": "Where is that?\" \"Come along with me to our knoll. We can get a view from there and in our battery it is still bearable,\" said the adjutant. \"Will you come?\" \"Yes, I'll come with you,\" replied Pierre, looking round for his groom. It was only now that he noticed wounded men staggering along or being carried on "
+    },
+    {
+      "book": 10,
+      "place": "semyonovskoe",
+      "chapter": 23,
+      "anchor": "link2HCH0213",
+      "cue": "Semenovsk",
+      "excerpt": "able to him than any other spot on the plain of Borodinó. They then crossed the hollow to Semënovsk, where the soldiers were dragging away the last logs from the huts and barns. Then they rode downhill and uphill, across a ryefield trodden and beaten down as if by hail, following a track freshly made by the a"
+    },
+    {
+      "book": 10,
+      "place": "utitsa",
+      "chapter": 33,
+      "anchor": "link2HCH0223",
+      "cue": "Utitsa",
+      "excerpt": "ation made by the Russians with Uvárov's cavalry at midday, and on the other side, beyond Utítsa, Poniatowski's collision with Túchkov; but these two were detached and feeble actions in comparison with what took place in the center of the battlefield. On the field between Borodinó and the flèches , beside the"
+    },
+    {
+      "book": 11,
+      "place": "fili",
+      "chapter": 4,
+      "anchor": "link2HCH0233",
+      "cue": "Fili",
+      "excerpt": "nsider his game lost. Admitting the view of Barclay and others that a defensive battle at Filí was impossible, but imbued with Russian patriotism and the love of Moscow, he proposed to move troops from the right to the left flank during the night and attack the French right flank the following day. Opinions w"
+    },
+    {
+      "book": 11,
+      "place": "poklonnaya",
+      "chapter": 19,
+      "anchor": "link2HCH0248",
+      "cue": "Poklon",
+      "excerpt": " in the morning of the second of September, Napoleon was standing among his troops on the Poklónny Hill looking at the panorama spread out before him. From the twenty-sixth of August to the second of September, that is from the battle of Borodinó to the entry of the French into Moscow, during the whole of tha"
+    },
+    {
+      "book": 11,
+      "place": "povarskaya",
+      "chapter": 13,
+      "anchor": "link2HCH0242",
+      "cue": "Povarsk",
+      "excerpt": " of the townsfolk to turn into the yards and to draw up at the entrances of the houses in Povarskáya Street. Natásha was evidently pleased to be dealing with new people outside the ordinary routine of her life. She and Mávra Kuzmínichna tried to get as many of the wounded as possible into their yard. \"Your Pa"
+    },
+    {
+      "book": 11,
+      "place": "patriarch",
+      "chapter": 18,
+      "anchor": "link2HCH0247",
+      "cue": "Patriarch's",
+      "excerpt": "to him the most necessary. He hired the first cab he met and told the driver to go to the Patriarch's Ponds, where the widow Bazdéev's house was. Continually turning round to look at the rows of loaded carts that were making their way from all sides out of Moscow, and balancing his bulky body so as not to sli"
+    },
+    {
+      "book": 11,
+      "place": "arbat",
+      "chapter": 26,
+      "anchor": "link2HCH0255",
+      "cue": "Arbat",
+      "excerpt": " rode the King of Naples himself accompanied by a numerous suite. About the middle of the Arbát Street, near the Church of the Miraculous Icon of St. Nicholas, Murat halted to await news from the advanced detachment as to the condition in which they had found the citadel, le Kremlin . Around Murat gathered a "
+    },
+    {
+      "book": 11,
+      "place": "vozdvizhenka",
+      "chapter": 26,
+      "anchor": "link2HCH0255",
+      "cue": "Vozdvizhenka",
+      "excerpt": "om the column following Murat and advanced up the Arbát. When they reached the end of the Vozdvízhenka Street they halted and drew in the Square. Several French officers superintended the placing of the guns and looked at the Krémlin through field glasses. The bells in the Krémlin were ringing for vespers, an"
+    },
+    {
+      "book": 11,
+      "place": "kremlin",
+      "chapter": 33,
+      "anchor": "link2HCH0262",
+      "cue": "Kremlin",
+      "excerpt": "d the Arbát more than four hours previously on his way from the Dorogomílov suburb to the Krémlin, and was now sitting in a very gloomy frame of mind in a royal study in the Krémlin, giving detailed and exact orders as to measures to be taken immediately to extinguish the fire, to prevent looting, and to reas"
+    },
+    {
+      "book": 11,
+      "place": "mytishchi",
+      "chapter": 30,
+      "anchor": "link2HCH0259",
+      "cue": "Mytishchi",
+      "excerpt": " the retreating troops, with many different feelings. The Rostóv party spent the night at Mytíshchi, fourteen miles from Moscow. They had started so late on the first of September, the road had been so blocked by vehicles and troops, so many things had been forgotten for which servants were sent back, that th"
+    },
+    {
+      "book": 12,
+      "place": "petersburg",
+      "chapter": 1,
+      "anchor": "link2HCH0264",
+      "cue": "Petersburg",
+      "excerpt": "In Petersburg at that time a complicated struggle was being carried on with greater heat than ever in the highest circles, between the parties of Rumyántsev, the French, Márya Fëdorovna, the Tsarévich, and others, drowned a"
+    },
+    {
+      "book": 12,
+      "place": "voronezh",
+      "chapter": 4,
+      "anchor": "link2HCH0267",
+      "cue": "Voronezh",
+      "excerpt": "years' time. As he looked at the matter in this way, he learned that he was being sent to Vorónezh to buy remounts for his division, not only without regret at being prevented from taking part in the coming battle, but with the greatest pleasure—which he did not conceal and which his comrades fully understood"
+    },
+    {
+      "book": 12,
+      "place": "yaroslavl",
+      "chapter": 14,
+      "anchor": "link2HCH0277",
+      "cue": "Yaroslavl",
+      "excerpt": "When Princess Mary heard from Nicholas that her brother was with the Rostóvs at Yaroslávl she at once prepared to go there, in spite of her aunt's efforts to dissuade her—and not merely to go herself but to take her nephew with her. Whether it were difficult or easy, possible or impossible, she did "
+    },
+    {
+      "book": 12,
+      "place": "devichye",
+      "chapter": 10,
+      "anchor": "link2HCH0273",
+      "cue": "Virgin",
+      "excerpt": " An hour later a squad of soldiers arrived and Pierre with thirteen others was led to the Virgin's Field. It was a fine day, sunny after rain, and the air was unusually pure. The smoke did not hang low as on the day when Pierre had been taken from the guardhouse on the Zúbovski rampart, but rose through the p"
+    },
+    {
+      "book": 12,
+      "place": "novodevichy",
+      "chapter": 10,
+      "anchor": "link2HCH0273",
+      "cue": "New Convent",
+      "excerpt": " white in the distance with its towers and the belfry of Iván the Great. The domes of the New Convent of the Virgin glittered brightly and its bells were ringing particularly clearly. These bells reminded Pierre that it was Sunday and the feast of the Nativity of the Virgin. But there seemed to be no one to c"
+    },
+    {
+      "book": 13,
+      "place": "tarutino",
+      "chapter": 1,
+      "anchor": "link2HCH0280",
+      "cue": "Tarutino",
+      "excerpt": " 1812 was the movement of the Russian army from the Ryazána to the Kalúga road and to the Tarútino camp—the so-called flank march across the Krásnaya Pakhrá River. They ascribe the glory of that achievement of genius to different men and dispute as to whom the honor is due. Even foreign historians, including "
+    },
+    {
+      "book": 13,
+      "place": "moscow",
+      "chapter": 8,
+      "anchor": "link2HCH0287",
+      "cue": "Moscow",
+      "excerpt": "Napoleon enters Moscow after the brilliant victory de la Moskowa ; there can be no doubt about the victory for the battlefield remains in the hands of the French. The Russians retreat and abandon their ancient capital. Moscow, abounding"
+    },
+    {
+      "book": 13,
+      "place": "kremlin",
+      "chapter": 9,
+      "anchor": "link2HCH0288",
+      "cue": "Kremlin",
+      "excerpt": "ged Murat to find Kutúzov. Then he gave careful directions about the fortification of the Krémlin, and drew up a brilliant plan for a future campaign over the whole map of Russia. With regard to diplomatic questions, Napoleon summoned Captain Yákovlev, who had been robbed and was in rags and did not know how "
+    },
+    {
+      "book": 13,
+      "place": "novodevichy",
+      "chapter": 12,
+      "anchor": "link2HCH0291",
+      "cue": "New Convent",
+      "excerpt": "day he got up early, went out of the shed at dawn, and saw the cupolas and crosses of the New Convent of the Virgin still dark at first, the hoarfrost on the dusty grass, the Sparrow Hills, and the wooded banks above the winding river vanishing in the purple distance, when he felt the contact of the fresh air"
+    },
+    {
+      "book": 13,
+      "place": "maloyaroslavets",
+      "chapter": 15,
+      "anchor": "link2HCH0294",
+      "cue": "Malo-Yaroslavets",
+      "excerpt": "a word has been said. It was Dokhtúrov again whom they sent to Formínsk and from there to Málo-Yaroslávets, the place where the last battle with the French was fought and where the obvious disintegration of the French army began; and we are told of many geniuses and heroes of that period of the campaign, but "
+    },
+    {
+      "book": 14,
+      "place": "vyazma",
+      "chapter": 16,
+      "anchor": "link2HCH0314",
+      "cue": "Vyazma",
+      "excerpt": "light and disintegration of the French army went on essentially as before. From Moscow to Vyázma the French army of seventy-three thousand men not reckoning the Guards (who did nothing during the whole war but pillage) was reduced to thirty-six thousand, though not more than five thousand had fallen in battle"
+    },
+    {
+      "book": 14,
+      "place": "smolensk",
+      "chapter": 16,
+      "anchor": "link2HCH0314",
+      "cue": "Smolensk",
+      "excerpt": "ench army melted away and perished at the same rate from Moscow to Vyázma, from Vyázma to Smolénsk, from Smolénsk to the Berëzina, and from the Berëzina to Vílna—independently of the greater or lesser intensity of the cold, the pursuit, the barring of the way, or any other particular conditions. Beyond Vyázma"
+    },
+    {
+      "book": 14,
+      "place": "krasny",
+      "chapter": 17,
+      "anchor": "link2HCH0315",
+      "cue": "Krasnoe",
+      "excerpt": "ten track, neither to the right nor to the left but along the old—the worst—road, through Krásnoe and Orshá. Expecting the enemy from behind and not in front, the French separated in their flight and spread out over a distance of twenty-four hours. In front of them all fled the Emperor, then the kings, then t"
+    },
+    {
+      "book": 14,
+      "place": "orsha",
+      "chapter": 17,
+      "anchor": "link2HCH0315",
+      "cue": "Orsha",
+      "excerpt": "either to the right nor to the left but along the old—the worst—road, through Krásnoe and Orshá. Expecting the enemy from behind and not in front, the French separated in their flight and spread out over a distance of twenty-four hours. In front of them all fled the Emperor, then the kings, then the dukes. Th"
+    },
+    {
+      "book": 14,
+      "place": "berezina",
+      "chapter": 17,
+      "anchor": "link2HCH0315",
+      "cue": "Berezina",
+      "excerpt": " along the road to Vílna, still playing at blindman's buff with the pursuing army. At the Berëzina they again became disorganized, many were drowned and many surrendered, but those who got across the river fled farther. Their supreme chief donned a fur coat and, having seated himself in a sleigh, galloped on "
+    },
+    {
+      "book": 14,
+      "place": "vilnius",
+      "chapter": 17,
+      "anchor": "link2HCH0315",
+      "cue": "Vilna",
+      "excerpt": "eper at night by stealth at a wooded spot. From Orshá they fled farther along the road to Vílna, still playing at blindman's buff with the pursuing army. At the Berëzina they again became disorganized, many were drowned and many surrendered, but those who got across the river fled farther. Their supreme chief"
+    },
+    {
+      "book": 15,
+      "place": "krasny",
+      "chapter": 6,
+      "anchor": "link2HCH0323",
+      "cue": "Krasnoe",
+      "excerpt": "The fifth of November was the first day of what is called the battle of Krásnoe. Toward evening—after much disputing and many mistakes made by generals who did not go to their proper places, and after adjutants had been sent about with counterorders—when it had become plain that the enemy wa"
+    },
+    {
+      "book": 15,
+      "place": "berezina",
+      "chapter": 10,
+      "anchor": "link2HCH0327",
+      "cue": "Berezina",
+      "excerpt": "y melted away at the uniform rate of a mathematical progression; and that crossing of the Berëzina about which so much has been written was only one intermediate stage in its destruction, and not at all the decisive episode of the campaign. If so much has been and still is written about the Berëzina, on the F"
+    },
+    {
+      "book": 15,
+      "place": "vilnius",
+      "chapter": 10,
+      "anchor": "link2HCH0327",
+      "cue": "Vilna",
+      "excerpt": "dy and of the necessity of physical rest. On the twenty-ninth of November Kutúzov entered Vílna—his \"dear Vílna\" as he called it. Twice during his career Kutúzov had been governor of Vílna. In that wealthy town, which had not been injured, he found old friends and associations, besides the comforts of life of"
+    },
+    {
+      "book": 15,
+      "place": "orel",
+      "chapter": 12,
+      "anchor": "link2HCH0329",
+      "cue": "Orel",
+      "excerpt": "n he had suffered as prisoner until after they were over. After his liberation he reached Orël, and on the third day there, when preparing to go to Kiev, he fell ill and was laid up for three months. He had what the doctors termed \"bilious fever.\" But despite the fact that the doctors treated him, bled him, a"
+    },
+    {
+      "book": 15,
+      "place": "moscow",
+      "chapter": 15,
+      "anchor": "link2HCH0332",
+      "cue": "Moscow",
+      "excerpt": "At the end of January Pierre went to Moscow and stayed in an annex of his house which had not been burned. He called on Count Rostopchín and on some acquaintances who were back in Moscow, and he intended to leave for Petersburg two days later. Everybody was"
+    },
+    {
+      "book": 15,
+      "place": "vozdvizhenka",
+      "chapter": 15,
+      "anchor": "link2HCH0332",
+      "cue": "Vozdvizhenka",
+      "excerpt": "ner that Princess Mary was in Moscow and living in her house—which had not been burned—in Vozdvízhenka Street, he drove that same evening to see her. On his way to the house Pierre kept thinking of Prince Andrew, of their friendship, of his various meetings with him, and especially of the last one at Borodinó"
+    },
+    {
+      "book": 16,
+      "place": "sivtsev",
+      "chapter": 5,
+      "anchor": "link2HCH0342",
+      "cue": "Sivtsev",
+      "excerpt": "form of which he was so fond, and moved with his mother and Sónya to a small house on the Sívtsev Vrazhók. Natásha and Pierre were living in Petersburg at the time and had no clear idea of Nicholas' circumstances. Having borrowed money from his brother-in-law, Nicholas tried to hide his wretched condition fro"
+    },
+    {
+      "book": 16,
+      "place": "bald-hills",
+      "chapter": 7,
+      "anchor": "link2HCH0344",
+      "cue": "Bald Hills",
+      "excerpt": "In the winter of 1813 Nicholas married Princess Mary and moved to Bald Hills with his wife, his mother, and Sónya. Within four years he had paid off all his remaining debts without selling any of his wife's property, and having received a small inheritance on the death of a cousin he p"
+    },
+    {
+      "book": 16,
+      "place": "petersburg",
+      "chapter": 13,
+      "anchor": "link2HCH0350",
+      "cue": "Petersburg",
+      "excerpt": "uffbox with the count's portrait on the lid which Pierre had had done by a miniaturist in Petersburg. The countess had long wished for such a box, but as she did not want to cry just then she glanced indifferently at the portrait and gave her attention chiefly to the box for cards. \"Thank you, my dear, you ha"
+    },
+    {
+      "book": 7,
+      "place": "kremenchuk",
+      "chapter": 1,
+      "anchor": "link2HCH0133",
+      "cue": "Kremenchug",
+      "excerpt": " escorted him as far as the first post station. During the first half of the journey—from Kremenchúg to Kiev—all Rostóv's thoughts, as is usual in such cases, were behind him, with the squadron; but when he had gone more than halfway he began to forget his three roans and Dozhoyvéyko, his quartermaster, and t"
+    },
+    {
+      "book": 7,
+      "place": "kyiv",
+      "chapter": 1,
+      "anchor": "link2HCH0133",
+      "cue": "Kiev",
+      "excerpt": "as far as the first post station. During the first half of the journey—from Kremenchúg to Kiev—all Rostóv's thoughts, as is usual in such cases, were behind him, with the squadron; but when he had gone more than halfway he began to forget his three roans and Dozhoyvéyko, his quartermaster, and to wonder anxio"
+    },
+    {
+      "book": 10,
+      "place": "kolotsky",
+      "chapter": 21,
+      "anchor": "link2HCH0211",
+      "cue": "Kolocha",
+      "excerpt": "stance in that birch and fir forest to the right of the road, the cross and belfry of the Kolochá Monastery gleamed in the sun. Here and there over the whole of that blue expanse, to right and left of the forest and the road, smoking campfires could be seen and indefinite masses of troops—ours and the enemy's"
+    },
+    {
+      "book": 12,
+      "place": "troitsa",
+      "chapter": 8,
+      "anchor": "link2HCH0271",
+      "cue": "Troitsa",
+      "excerpt": "Sónya's letter written from Tróitsa, which had come as an answer to Nicholas' prayer, was prompted by this: the thought of getting Nicholas married to an heiress occupied the old countess' mind more and more. She knew that Sónya was the chief obsta"
+    }
+  ]
+}

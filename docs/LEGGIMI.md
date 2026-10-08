@@ -1,8 +1,8 @@
-# Atlante letterario · Joyce e Proust
+# Atlante letterario · Joyce, Proust e Tolstoj
 
 Sito statico con inglese predefinito e traduzioni in italiano, francese e spagnolo. Ulisse comprende 18 mappe e 115 luoghi; Alla ricerca del tempo perduto comprende sette mappe e 23 luoghi. HTML, CSS e JavaScript condivisi; cartografia Esri ArcGIS Maps SDK for JavaScript 5.1, cinque sfondi: OpenStreetMap (predefinito), Ortofoto Esri (World Imagery), Stradale, Topografica e Grigio chiaro. Richiede Internet per cartografia e caratteri.
 
-Aprire `index.html` per il catalogo dei romanzi e scegliere Joyce o Proust. `ulisse.html` mantiene compatibili i vecchi collegamenti; Proust usa `atlas.html?book=proust`. I promessi sposi, Delitto e castigo e La signora Dalloway sono proposte per il futuro: le loro mappe non sono ancora disponibili. Per ospitarlo su un servizio di hosting statico, caricare insieme i file di questa cartella. Nessuna compilazione è necessaria.
+Aprire `index.html` per il catalogo dei romanzi e scegliere Joyce, Proust o Tolstoj. `ulisse.html` mantiene compatibili i vecchi collegamenti; Proust usa `atlas.html?book=proust`; Tolstoj usa `atlas.html?book=war-and-peace`. I promessi sposi, Delitto e castigo e La signora Dalloway sono proposte per il futuro: le loro mappe non sono ancora disponibili. Per ospitarlo su un servizio di hosting statico, caricare insieme i file di questa cartella. Nessuna compilazione è necessaria.
 
 ## Come leggere la precisione
 
@@ -79,3 +79,32 @@ Entrambi i romanzi aprono lo sfondo OpenStreetMap vettoriale pubblico fornito da
 Servizio: https://basemaps.arcgis.com/arcgis/rest/services/OpenStreetMap_v2/VectorTileServer
 
 Sono stati verificati senza credenziali i metadati del servizio e lo stile. I controlli automatici verificano creazione del layer, predefinito, cambio sfondo, attribuzioni e ripristino in caso di errore. La verifica visiva nel browser resta da effettuare.
+
+## Guerra e pace
+
+Il terzo romanzo usa lo stesso motore, con `data/war-and-peace.js` e `data/war-and-peace-i18n.js`. La suddivisione segue la traduzione Maude: quindici libri e due epiloghi. Le sezioni narrative hanno sedici mappe, con 62 luoghi distinti e 91 schede di scena. Il secondo epilogo contiene una scheda filosofica senza luoghi; selezionarlo cancella i punti della sezione precedente e ripristina l’inquadratura generale.
+
+Inglese, italiano, francese e spagnolo comprendono introduzioni, scene, classificazioni, metodi e limiti delle posizioni. I quattro file `war-and-peace-places-<lingua>.csv` esportano le schede e le rispettive fonti. I collegamenti al testo narrativo sono specifici per scena: lo stesso luogo può avere fonti diverse in libri diversi.
+
+La precisione riguarda ciò che è effettivamente identificabile:
+
+- Le coordinate pubblicate da Wikipedia e Wikidata identificano città, strade e complessi. Le città sono aree, non indirizzi di case private o confini di accampamenti. I decimali non costituiscono una misura dell’accuratezza storica.
+- Jasnaja Poljana e Nikol’skoe-Vjazemskoe sono modelli letterari documentati di Lysye Gory e Otradnoe. I punti indicano le tenute reali, non la posizione narrativa delle tenute immaginarie. Bogučarovo, gli interni e i percorsi della caccia restano senza coordinate esatte.
+- La ridotta di Ševardino usa la media dei sei vertici distinti della fortificazione cartografata in OpenStreetMap, geometria 263822780. È un punto rappresentativo del sito, non un rilievo della posizione di Napoleone. Attribuzione: © OpenStreetMap contributors, ODbL.
+- La batteria di Raevskij usa il punto GPS pubblicato in un itinerario del Museo di Borodino, riprodotto da Nash Ural. Non individua la posizione esatta di Pierre.
+- Il Monumento della Pace indica le alture del Pratzen, ma è posteriore alla battaglia. L’izba di Fili è una ricostruzione del 1887. Poklonnaja è un’area storica profondamente modificata.
+- Novodevičij è un edificio visibile nei capitoli della prigionia; l’esecuzione avviene in un giardino vicino, non dentro il convento. Devič’e Pole è un riferimento di area, non la posizione della fossa.
+- La Beresina usa il riferimento geografico dell’area dell’attraversamento presso Studenka, non le coordinate della foce del fiume. Enns, Prace, Kobylnice e i villaggi di Borodino sono disambiguati nei dati di controllo.
+
+Le descrizioni distinguono scene, riferimenti storici, luoghi ricordati e monumenti visibili. La numerazione guida la lettura e non afferma di ricostruire un percorso GPS. La selezione non include ogni toponimo del romanzo. Fonti consultate l’8 ottobre 2026.
+
+Fonti principali, oltre ai collegamenti geografici di ogni scheda:
+
+- Tolstoj, testo completo nella traduzione Maude: https://www.gutenberg.org/files/2600/2600-h/2600-h.htm
+- Museo di Jasnaja Poljana, modello della tenuta dei Bolkonskij: https://ypmuseum.ru/object/park-kliny?lang=en
+- Museo di Jasnaja Poljana, Nikol’skoe-Vjazemskoe: https://www.ypmuseum.ru/filials/nikolsko-vyasemskoe
+- Museo della regione di Brno, Monumento della Pace: https://mohylamiru.muzeumbrnenska.cz/cz/
+- Museo Panorama di Borodino, izba di Kutuzov: https://1812panorama.ru/en/node/721
+- Itinerario del Museo di Borodino riprodotto da Nash Ural: https://nashural.ru/russia/dostoprimechatelnosti-muzeya-zapovednika-borodinskoe-pole-batareya-raevskogo/
+
+`tests/fixtures/war-and-peace-sources.json` conserva gli identificatori geografici, le coordinate consultate e brevi estratti del testo inglese per verificare i riferimenti alle scene. I controlli automatici coprono tutte le sezioni e lingue, i CSV, i collegamenti Street View e il passaggio all’epilogo senza punti. Non verificano il rendering WebGL reale né attestano un’accuratezza metrica dei siti storici.

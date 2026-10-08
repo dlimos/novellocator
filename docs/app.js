@@ -26,7 +26,7 @@ document.getElementById('title').className=book.titleSize==='long'?'long-book-ti
 document.getElementById('book-author').textContent=book.author.toUpperCase()+' · '+book.year;
 document.querySelector('meta[name="description"]').content=book.description;
 document.getElementById('chapter-list-title').textContent=book.sidebarTitle||'Capitoli';
-document.getElementById('chapter-count').textContent=chapters.length+' '+t('mappe');
+document.getElementById('chapter-count').textContent=chapters.filter(chapter=>chapter.places.length).length+' '+t('mappe');
 document.getElementById('chapter-help').textContent=book.help||t('Scegli un capitolo per esplorarne i luoghi.');
 document.getElementById('book-note-text').textContent=book.sidebarNote||'';
 document.getElementById('atlas-workspace').setAttribute('aria-label',t('Atlante')+': '+book.title);
@@ -75,10 +75,12 @@ function renderDetail(){
 }
 function renderLocation(){
  const chapter=chapters[current],place=literaryPlaces[chapter.places[selectedPlace]];
+ if(!place){document.getElementById('selected-location').innerHTML='<p class="episode-note">'+esc(chapter.emptyMessage||chapter.text)+'</p>';return;}
+ const narrativeSource=chapter.placeSources?.[chapter.places[selectedPlace]]||place.narrativeSource;
  Array.from(document.getElementById('episode-locations').children).forEach((button,i)=>button.setAttribute('aria-pressed',String(i===selectedPlace)));
  const decimals=Number.isInteger(place.coordinateDecimals)&&place.coordinateDecimals>=0&&place.coordinateDecimals<=8?place.coordinateDecimals:place.positionSource.recordId||place.positionSource.councilRecord?6:4;
  const coordinateText=place.coords.map(n=>n.toFixed(decimals)).join(', ');
- document.getElementById('selected-location').innerHTML=`<p class="location-address">${esc(place.area)}</p><p class="location-scene">${esc(chapter.placeText[selectedPlace])}</p><p class="today"><strong>${esc(place.status)}.</strong> ${esc(place.note)}</p><details class="location-evidence"><summary>${t('Posizione e fonti')}</summary><p>${esc(place.method)}</p><p class="coordinates">WGS84 · ${coordinateText}<br>${t('Verifica delle fonti')}: ${esc(new Date(place.checked+"T12:00:00").toLocaleDateString(locale,{day:"numeric",month:"long",year:"numeric"}))}</p><a href="${esc(place.narrativeSource.url)}" target="_blank" rel="noopener noreferrer">${esc(place.narrativeSource.label)}</a><br><a href="${esc(place.positionSource.url)}" target="_blank" rel="noopener noreferrer">${esc(place.positionSource.label)}</a>${place.additionalSource?`<br><a href="${esc(place.additionalSource.url)}" target="_blank" rel="noopener noreferrer">${esc(place.additionalSource.label)}</a>`:''}</details>`;
+ document.getElementById('selected-location').innerHTML=`<p class="location-address">${esc(place.area)}</p><p class="location-scene">${esc(chapter.placeText[selectedPlace])}</p><p class="today"><strong>${esc(place.status)}.</strong> ${esc(place.note)}</p><details class="location-evidence"><summary>${t('Posizione e fonti')}</summary><p>${esc(place.method)}</p><p class="coordinates">WGS84 · ${coordinateText}<br>${t('Verifica delle fonti')}: ${esc(new Date(place.checked+"T12:00:00").toLocaleDateString(locale,{day:"numeric",month:"long",year:"numeric"}))}</p><a href="${esc(narrativeSource.url)}" target="_blank" rel="noopener noreferrer">${esc(narrativeSource.label)}</a><br><a href="${esc(place.positionSource.url)}" target="_blank" rel="noopener noreferrer">${esc(place.positionSource.label)}</a>${place.additionalSource?`<br><a href="${esc(place.additionalSource.url)}" target="_blank" rel="noopener noreferrer">${esc(place.additionalSource.label)}</a>`:''}</details>`;
  document.getElementById('selected-location').innerHTML+=`<div class="street-view-action"><a class="street-view-link" id="street-view-link" href="${esc(streetViewUrl(place))}" target="_blank" rel="noopener noreferrer" aria-label="${esc(t('Apri Street View in una nuova finestra')+': '+place.name)}">Google Street View <span aria-hidden="true">↗</span></a><p class="street-view-note">${esc(t('Google mostra il panorama disponibile più vicino: può essere spostato rispetto al punto e dipende dalla copertura.'))}</p></div>`;
  document.getElementById('street-view-link').onclick=openStreetView;
 }
@@ -103,7 +105,7 @@ function navigate(target){if(!viewReady)return;return view.goTo(target,{animate:
 function overview(){
  if(!viewReady||!ExtentClass)return;
  const points=chapters[current].places.map(id=>literaryPlaces[id]);
- if(!points.length)return;
+ if(!points.length){navigate(book.initialView);return;}
  if(points.length===1){navigate({center:[points[0].coords[1],points[0].coords[0]],zoom:points[0].zoom});return}
  const longitudes=points.map(p=>p.coords[1]),latitudes=points.map(p=>p.coords[0]);
  const xmin=Math.min(...longitudes),xmax=Math.max(...longitudes),ymin=Math.min(...latitudes),ymax=Math.max(...latitudes);

@@ -1,4 +1,4 @@
-const fs=require('fs'),vm=require('vm'),assert=require('assert/strict');const root='public/';const els={};const el=()=>({children:[],appendChild(x){this.children.push(x)},setAttribute(){},addEventListener(){},scrollIntoView(){}});
+const fs=require('fs'),vm=require('vm'),assert=require('assert/strict');const root='docs/';const els={};const el=()=>({children:[],appendChild(x){this.children.push(x)},setAttribute(){},addEventListener(){},scrollIntoView(){}});
 const ctx={console,URLSearchParams,window:{location:{hash:'',search:''},innerWidth:1200,matchMedia:()=>({matches:true}),addEventListener(){}},document:{getElementById:id=>els[id]??(els[id]=el()),createElement:el,querySelector:()=>({})}};vm.createContext(ctx);
 for(const p of ['data/ulisse.js','basemaps.js'])vm.runInContext(fs.readFileSync(root+p,'utf8'),ctx);
 vm.runInContext(fs.readFileSync(root+'app.js','utf8').replace(/initializeMap\(\);\s*$/,''),ctx);

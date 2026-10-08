@@ -1,5 +1,5 @@
 const fs=require('fs'),vm=require('vm'),assert=require('assert/strict');
-const root='public/';
+const root='docs/';
 const original=require('./fixtures/ulisse-data.json');
 for(const lang of ['en','it','fr','es']){
  const elements={};let startup,assigned,saved;

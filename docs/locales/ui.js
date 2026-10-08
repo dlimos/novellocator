@@ -114,7 +114,17 @@ window.atlasLocaleData={
       "Sfondo cartografico": "Sfondo cartografico",
       "Strade e dettagli OpenStreetMap, con cartografia vettoriale Esri.": "Strade e dettagli OpenStreetMap, con cartografia vettoriale Esri.",
       "La cartografia non si è caricata. Prova un altro sfondo o verifica la connessione.": "La cartografia non si è caricata. Prova un altro sfondo o verifica la connessione.",
-      "Questo sfondo non è disponibile. È stato mantenuto lo sfondo precedente.": "Questo sfondo non è disponibile. È stato mantenuto lo sfondo precedente."
+      "Questo sfondo non è disponibile. È stato mantenuto lo sfondo precedente.": "Questo sfondo non è disponibile. È stato mantenuto lo sfondo precedente.",
+      "War and Peace": "Guerra e pace",
+      "Explore War and Peace by Leo Tolstoy": "Esplora Guerra e pace di Lev Tolstoj",
+      "03 · LEO TOLSTOY": "03 · LEV TOLSTOJ",
+      "RUSSIA / AUSTRIA / MORAVIA": "RUSSIA / AUSTRIA / MORAVIA",
+      "From family life in Russia to Austerlitz, Borodino and the retreat of 1812.": "Dalla vita familiare in Russia ad Austerlitz, Borodino e alla ritirata del 1812.",
+      "Ulysses, In Search of Lost Time and War and Peace are available. The other titles are proposals for expanding the catalogue. Card illustrations are decorative.": "Ulisse, Alla ricerca del tempo perduto e Guerra e pace sono disponibili. Gli altri titoli sono proposte per ampliare il catalogo. Le illustrazioni delle schede sono decorative.",
+      "Explore the places of Joyce’s Ulysses, Proust’s In Search of Lost Time and Tolstoy’s War and Peace.": "Esplora i luoghi dell’Ulisse di Joyce, di Alla ricerca del tempo perduto di Proust e di Guerra e pace di Tolstoj.",
+      "04 · ALESSANDRO MANZONI": "04 · ALESSANDRO MANZONI",
+      "05 · FYODOR DOSTOEVSKY": "05 · FËDOR DOSTOEVSKIJ",
+      "06 · VIRGINIA WOOLF": "06 · VIRGINIA WOOLF"
     },
     "en": {
       "Atlante letterario": "Literary Atlas",
@@ -211,7 +221,17 @@ window.atlasLocaleData={
       "Sfondo cartografico": "Basemap",
       "Strade e dettagli OpenStreetMap, con cartografia vettoriale Esri.": "OpenStreetMap streets and details, with Esri vector cartography.",
       "La cartografia non si è caricata. Prova un altro sfondo o verifica la connessione.": "The basemap did not load. Try another basemap or check your connection.",
-      "Questo sfondo non è disponibile. È stato mantenuto lo sfondo precedente.": "This basemap is unavailable. The previous basemap has been kept."
+      "Questo sfondo non è disponibile. È stato mantenuto lo sfondo precedente.": "This basemap is unavailable. The previous basemap has been kept.",
+      "War and Peace": "War and Peace",
+      "Explore War and Peace by Leo Tolstoy": "Explore War and Peace by Leo Tolstoy",
+      "03 · LEO TOLSTOY": "03 · LEO TOLSTOY",
+      "RUSSIA / AUSTRIA / MORAVIA": "RUSSIA / AUSTRIA / MORAVIA",
+      "From family life in Russia to Austerlitz, Borodino and the retreat of 1812.": "From family life in Russia to Austerlitz, Borodino and the retreat of 1812.",
+      "Ulysses, In Search of Lost Time and War and Peace are available. The other titles are proposals for expanding the catalogue. Card illustrations are decorative.": "Ulysses, In Search of Lost Time and War and Peace are available. The other titles are proposals for expanding the catalogue. Card illustrations are decorative.",
+      "Explore the places of Joyce’s Ulysses, Proust’s In Search of Lost Time and Tolstoy’s War and Peace.": "Explore the places of Joyce’s Ulysses, Proust’s In Search of Lost Time and Tolstoy’s War and Peace.",
+      "04 · ALESSANDRO MANZONI": "04 · ALESSANDRO MANZONI",
+      "05 · FYODOR DOSTOEVSKY": "05 · FYODOR DOSTOEVSKY",
+      "06 · VIRGINIA WOOLF": "06 · VIRGINIA WOOLF"
     },
     "fr": {
       "Atlante letterario": "Atlas littéraire",
@@ -308,7 +328,17 @@ window.atlasLocaleData={
       "Sfondo cartografico": "Fond de carte",
       "Strade e dettagli OpenStreetMap, con cartografia vettoriale Esri.": "Rues et détails OpenStreetMap, avec cartographie vectorielle Esri.",
       "La cartografia non si è caricata. Prova un altro sfondo o verifica la connessione.": "Le fond de carte ne s’est pas chargé. Essayez un autre fond ou vérifiez la connexion.",
-      "Questo sfondo non è disponibile. È stato mantenuto lo sfondo precedente.": "Ce fond est indisponible. Le fond précédent a été conservé."
+      "Questo sfondo non è disponibile. È stato mantenuto lo sfondo precedente.": "Ce fond est indisponible. Le fond précédent a été conservé.",
+      "War and Peace": "Guerre et Paix",
+      "Explore War and Peace by Leo Tolstoy": "Explorer Guerre et Paix de Léon Tolstoï",
+      "03 · LEO TOLSTOY": "03 · LÉON TOLSTOÏ",
+      "RUSSIA / AUSTRIA / MORAVIA": "RUSSIE / AUTRICHE / MORAVIE",
+      "From family life in Russia to Austerlitz, Borodino and the retreat of 1812.": "De la vie familiale en Russie à Austerlitz, Borodino et la retraite de 1812.",
+      "Ulysses, In Search of Lost Time and War and Peace are available. The other titles are proposals for expanding the catalogue. Card illustrations are decorative.": "Ulysse, À la recherche du temps perdu et Guerre et Paix sont disponibles. Les autres titres sont des propositions pour élargir le catalogue. Les illustrations des fiches sont décoratives.",
+      "Explore the places of Joyce’s Ulysses, Proust’s In Search of Lost Time and Tolstoy’s War and Peace.": "Explorez les lieux d’Ulysse de Joyce, d’À la recherche du temps perdu de Proust et de Guerre et Paix de Tolstoï.",
+      "04 · ALESSANDRO MANZONI": "04 · ALESSANDRO MANZONI",
+      "05 · FYODOR DOSTOEVSKY": "05 · FIODOR DOSTOÏEVSKI",
+      "06 · VIRGINIA WOOLF": "06 · VIRGINIA WOOLF"
     },
     "es": {
       "Atlante letterario": "Atlas literario",
@@ -405,7 +435,17 @@ window.atlasLocaleData={
       "Sfondo cartografico": "Mapa base",
       "Strade e dettagli OpenStreetMap, con cartografia vettoriale Esri.": "Calles y detalles OpenStreetMap, con cartografía vectorial Esri.",
       "La cartografia non si è caricata. Prova un altro sfondo o verifica la connessione.": "El mapa base no se ha cargado. Prueba otro fondo o comprueba la conexión.",
-      "Questo sfondo non è disponibile. È stato mantenuto lo sfondo precedente.": "Este mapa base no está disponible. Se ha mantenido el fondo anterior."
+      "Questo sfondo non è disponibile. È stato mantenuto lo sfondo precedente.": "Este mapa base no está disponible. Se ha mantenido el fondo anterior.",
+      "War and Peace": "Guerra y paz",
+      "Explore War and Peace by Leo Tolstoy": "Explorar Guerra y paz de León Tolstói",
+      "03 · LEO TOLSTOY": "03 · LEÓN TOLSTÓI",
+      "RUSSIA / AUSTRIA / MORAVIA": "RUSIA / AUSTRIA / MORAVIA",
+      "From family life in Russia to Austerlitz, Borodino and the retreat of 1812.": "De la vida familiar en Rusia a Austerlitz, Borodinó y la retirada de 1812.",
+      "Ulysses, In Search of Lost Time and War and Peace are available. The other titles are proposals for expanding the catalogue. Card illustrations are decorative.": "Ulises, En busca del tiempo perdido y Guerra y paz están disponibles. Los otros títulos son propuestas para ampliar el catálogo. Las ilustraciones de las fichas son decorativas.",
+      "Explore the places of Joyce’s Ulysses, Proust’s In Search of Lost Time and Tolstoy’s War and Peace.": "Explora los lugares de Ulises de Joyce, En busca del tiempo perdido de Proust y Guerra y paz de Tolstói.",
+      "04 · ALESSANDRO MANZONI": "04 · ALESSANDRO MANZONI",
+      "05 · FYODOR DOSTOEVSKY": "05 · FIÓDOR DOSTOYEVSKI",
+      "06 · VIRGINIA WOOLF": "06 · VIRGINIA WOOLF"
     }
   }
 };
