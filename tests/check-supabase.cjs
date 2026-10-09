@@ -30,11 +30,11 @@ async function main(){
  if(!live){assert.ok(calls.some(url=>url.includes('offset=1000')),'all translation pages loaded');ctx.fetch=async()=>({ok:false,status:403});await assert.rejects(ctx.window.atlasSupabaseData.loadBook('ulisse'),/HTTP 403/);
   const sqlPaste=JSON.parse(JSON.stringify(bundle));for(const row of sqlPaste.tables.content_translations){row.source_text=row.source_text.replaceAll('\n','\r\n');row.translated_text=row.translated_text.replaceAll('\n','\r\n');}
   assert.deepEqual(JSON.parse(JSON.stringify(ctx.window.atlasContent.reconstruct(sqlPaste,'ulisse').dictionary)),raw('ulisse-i18n.js','atlasTranslations'),'Windows SQL paste line endings');
-  for(const mode of ['success','offline','missing']){
-   const scripts=[],notices=[],detail={};const context={URLSearchParams,console:{error(){}},window:{location:{search:'?book=ulisse'},atlasSupabase:{enabled:true},atlasI18n:{locale:'it',t:x=>x,localizeData:x=>x},atlasSupabaseData:{loadBook:async()=>{if(mode==='success')return{data:{book:{}},dictionary:{it:{}}};const error=new Error('test');if(mode==='missing')error.code='BOOK_UNAVAILABLE';throw error;}}},document:{head:{appendChild:s=>scripts.push(s)},createElement:()=>({setAttribute(){}}),getElementById:id=>id==='detail'?detail:{before:node=>notices.push(node)}}};
+  for(const mode of ['success','offline','missing','disabled']){
+   const scripts=[],detail={setAttribute(){}};const context={URLSearchParams,console:{error(){}},window:{location:{search:'?book=ulisse'},atlasSupabase:{enabled:mode!=='disabled'},atlasI18n:{locale:'it',t:x=>x,localizeData:x=>x},atlasSupabaseData:{loadBook:async()=>{if(mode==='success')return{data:{book:{}},dictionary:{it:{}}};const error=new Error('test');if(mode==='missing')error.code='BOOK_UNAVAILABLE';throw error;}}},document:{head:{appendChild:s=>scripts.push(s)},createElement:()=>({setAttribute(){}}),getElementById:()=>detail}};
    vm.runInNewContext(fs.readFileSync('docs/load-book.js','utf8'),context);await new Promise(resolve=>setImmediate(resolve));
    if(mode==='success'){assert.equal(scripts.length,1);assert.equal(scripts[0].src,'app.js');assert.equal(context.window.atlasDataSource,'supabase');}
-   if(mode==='offline'){assert.equal(scripts[0].src,'data/ulisse.js');assert.equal(notices.length,1);assert.match(notices[0].textContent,/versione salvata/);}
+   if(mode==='offline'||mode==='disabled'){assert.equal(scripts.length,0);assert.match(detail.textContent,/Riprova più tardi/);}
    if(mode==='missing'){assert.equal(scripts.length,0);assert.match(detail.textContent,/non è ancora disponibile/);}
   }
  }

@@ -1,6 +1,6 @@
 # Database di Novel Locator
 
-Schema PostgreSQL/Supabase, importazione dei contenuti esistenti e permessi per la futura login. La pagina `atlas.html` legge i romanzi pubblicati dal progetto Supabase configurato in `docs/supabase-config.js`. I file di `docs/data/` restano la copia di riserva e la fonte dell'importazione iniziale. Il catalogo della home resta statico.
+Schema PostgreSQL/Supabase, importazione dei contenuti esistenti e permessi per la futura login. La pagina `atlas.html` legge i romanzi pubblicati dal progetto Supabase configurato in `docs/supabase-config.js`. I file di `docs/data/` restano solo sul disco locale, come fonte dell’importazione iniziale, esclusi da Git. Anche i JSON di `tests/fixtures/` sono esclusi da Git. Il catalogo della home resta statico.
 
 ## Collegamento del sito
 
@@ -8,9 +8,9 @@ Schema PostgreSQL/Supabase, importazione dei contenuti esistenti e permessi per 
 
 `docs/supabase-data.js` interroga le nove tabelle tramite REST in HTTPS, filtrando il romanzo e paginando con ordinamento stabile. Non usa credenziali amministrative. `docs/content-adapter.js` ricostruisce il formato già usato dalla mappa: viene generato da `scripts/database/content.ts`, lo stesso codice usato dagli strumenti di importazione/esportazione. Dopo aver modificato questo sorgente eseguire `npm run build:browser` e includere il file generato nel commit.
 
-Se la connessione fallisce entro 20 secondi, il loader usa la copia statica e mostra un avviso in EN/IT/FR/ES. Un libro non pubblicato o inesistente non attiva la copia di riserva. `window.atlasDataSource` indica `supabase` o `static` nella console del browser. Gli aggiornamenti del database sono letti al caricamento della pagina; non è una sincronizzazione in tempo reale.
+Se la connessione fallisce entro 20 secondi, il loader mostra un errore in EN/IT/FR/ES. Non carica file dati locali. `window.atlasDataSource` indica `supabase` quando il caricamento riesce. Gli aggiornamenti del database sono letti al caricamento della pagina; non è una sincronizzazione in tempo reale.
 
-`npm run test:supabase` verifica paginazione, ricostruzione completa, traduzioni, ritorni a capo del copia-incolla su Windows e avvio/fallback del loader. `npm run test:supabase -- --live` confronta, in sola lettura, i quattro romanzi presenti nel progetto con i dati versionati. Le coordinate sono confrontate entro 1e-12 gradi per la serializzazione PostgreSQL dei numeri in virgola mobile.
+`npm run test:supabase` verifica paginazione, ricostruzione completa, traduzioni, ritorni a capo del copia-incolla su Windows e avvio/errori del loader. `npm run test:supabase -- --live` confronta, in sola lettura, i quattro romanzi presenti nel progetto con i dati versionati. Le coordinate sono confrontate entro 1e-12 gradi per la serializzazione PostgreSQL dei numeri in virgola mobile.
 
 ## Modello
 
@@ -60,6 +60,8 @@ npm run db:prepare
 npm run db:export
 npm test
 ```
+
+Gli strumenti e i test dei contenuti richiedono le copie locali di `docs/data/` e dei JSON in `tests/fixtures/`: dopo un nuovo clone, ripristinarle dal proprio backup locale. Il sito pubblicato non le richiede.
 
 `db:prepare` legge gli otto file dati/traduzioni in `docs/data/`, normalizza i contenuti e verifica che siano ricostruibili senza differenze. Genera:
 

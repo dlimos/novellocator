@@ -28,6 +28,5 @@ for(const lang of ['en','it','fr','es']){
  elements['language-select'].value=lang==='fr'?'en':'fr';elements['language-select'].listeners.change();const dest=new URL(assigned);assert.equal(dest.searchParams.get('book'),'war-and-peace');assert.equal(dest.hash,'#book-17');assert.equal(dest.searchParams.get('basemap'),'osm');
  const messages=ctx.window.atlasLocaleData.messages[lang];assert.ok(messages['Explore War and Peace by Leo Tolstoy']);assert.equal(messages['War and Peace'],d.book.title);
 }
-const scripts=[];const loaderCtx={URLSearchParams,window:{location:{search:'?book=war-and-peace'},atlasI18n:{localizeData:x=>x,t:x=>x}},document:{createElement:()=>({}),head:{appendChild:s=>scripts.push(s)},getElementById:()=>({})}};vm.runInNewContext(fs.readFileSync(root+'load-book.js','utf8'),loaderCtx);assert.equal(scripts[0].src,'data/war-and-peace.js');scripts[0].onload();assert.equal(scripts[1].src,'data/war-and-peace-i18n.js');scripts[1].onload();assert.equal(scripts[2].src,'app.js');
 assert.ok(fs.readFileSync(root+'index.html','utf8').includes('href="atlas.html?book=war-and-peace"'));
 console.log('PASS: War and Peace, 17 sections / 16 maps / 62 sourced places / 91 chapter references; disambiguated geographic records, 4 languages, scene-specific sources, CSV, Street View and empty epilogue clear/reset.');

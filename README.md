@@ -11,20 +11,22 @@ Explore the places behind the stories. A literary atlas with a shared HTML, CSS 
 - English is the default language; Italian, French and Spanish are available.
 - Esri ArcGIS Maps SDK for JavaScript, five basemaps and external Google Street View links.
 
-The website is hosted as static files on GitHub Pages and now loads published books from Supabase's read API. Configuration is in `docs/supabase-config.js`; only the publishable key belongs there. Static datasets remain available as a fallback with a visible notice. The home catalogue is static; login and an editorial interface are not implemented yet. PostgreSQL migrations and TypeScript import/export tools are under `database/` and `scripts/database/`. See [database/README.md](database/README.md).
+The website is hosted as static files on GitHub Pages and now loads published books from Supabase's read API. Configuration is in `docs/supabase-config.js`; only the publishable key belongs there. Novel datasets in `docs/data/` and research JSON files in `tests/fixtures/` are kept locally and excluded from Git. The public site depends on Supabase; an outage displays a translated error. The home catalogue is static; login and an editorial interface are not implemented yet. PostgreSQL migrations and TypeScript import/export tools are under `database/` and `scripts/database/`. See [database/README.md](database/README.md).
 
 ## Files
 
 - `docs/`: complete website and GitHub Pages source directory.
-- `docs/data/`: book datasets and translated content.
+- `docs/data/`: local-only book datasets and translated content, excluded from Git.
 - `docs/locales/ui.js`: interface translations.
 - `docs/LEGGIMI.md`: detailed Italian documentation, coordinate methodology and references.
 - `tests/`: automated integrity and interface checks using Node.js and browser mocks.
-- `tests/fixtures/`: reference snapshots for coordinate and translation comparisons. These are test inputs, not the editable website datasets.
+- `tests/fixtures/`: local-only JSON reference snapshots for coordinate and translation comparisons.
 
 ## Run and check
 
 The committed website files need no build step or package installation. Open `docs/index.html` or serve the `docs/` directory with a static web server. Internet access is required for Supabase, mapping services and web fonts. After changing `scripts/database/content.ts`, run `npm run build:browser` and commit the generated `docs/content-adapter.js`.
+
+The import/export tools and content checks require the local `docs/data/` and `tests/fixtures/*.json` copies. Restore these from your local backup after a fresh clone. Hosting the committed website files does not require them.
 
 With Node.js 20 or later, install development dependencies and run:
 

@@ -1,6 +1,6 @@
 # Mappa dei file di Novel Locator
 
-Il sito è scritto in HTML, CSS e JavaScript e viene ospitato su GitHub Pages dalla cartella `docs/`. La pagina della mappa legge i dati pubblicati da Supabase; i file JavaScript dei romanzi restano come copia di riserva. Il repository contiene lo schema PostgreSQL e gli strumenti TypeScript di importazione e ricostruzione. La login non è ancora implementata. I CSV sono esportazioni scaricabili e non alimentano la mappa; il catalogo della home è statico.
+Il sito è scritto in HTML, CSS e JavaScript e viene ospitato su GitHub Pages dalla cartella `docs/`. La pagina della mappa legge i dati pubblicati da Supabase; i file JavaScript dei romanzi restano solo in locale, esclusi da Git insieme ai JSON di `tests/fixtures/`. Il repository contiene lo schema PostgreSQL e gli strumenti TypeScript di importazione e ricostruzione. La login non è ancora implementata. I CSV sono esportazioni scaricabili e non alimentano la mappa; il catalogo della home è statico.
 
 ## Struttura
 
@@ -19,7 +19,7 @@ novellocator/
 │   ├── i18n.js                    Gestione delle lingue
 │   ├── locales/
 │   │   └── ui.js                  Traduzioni dell'interfaccia
-│   ├── data/
+│   ├── data/                      Solo locale, esclusa da Git
 │   │   ├── ulisse.js              Dati di Ulisse
 │   │   ├── ulisse-i18n.js         Traduzioni dei contenuti di Ulisse
 │   │   ├── proust.js              Dati di Alla ricerca del tempo perduto
@@ -108,7 +108,7 @@ Cambiare un CSV non modifica la mappa. Quando si cambiano i dati di un romanzo, 
 
 ## Controlli automatici
 
-`tests/run.cjs` esegue i dodici controlli seguenti. `npm test` aggiunge il controllo TypeScript e `tests/check-database.ts`, che esegue le migrazioni, l'importazione e le policy in PostgreSQL/PGlite. Richiedono Node.js 20 o successivo e `npm ci`. I controlli dell'interfaccia usano simulazioni del browser e di ArcGIS: non verificano il rendering reale WebGL o la disponibilità dei servizi cartografici.
+`tests/run.cjs` esegue i controlli dell’interfaccia e del caricamento Supabase. I test dei contenuti richiedono le copie locali dei dati e dei JSON di riferimento, da ripristinare dopo un nuovo clone. `npm test` aggiunge il controllo TypeScript e `tests/check-database.ts`, che esegue le migrazioni, l'importazione e le policy in PostgreSQL/PGlite. Richiedono Node.js 20 o successivo e `npm ci`. I controlli dell'interfaccia usano simulazioni del browser e di ArcGIS: non verificano il rendering reale WebGL o la disponibilità dei servizi cartografici.
 
 | File | Cosa verifica |
 | --- | --- |
@@ -150,10 +150,8 @@ flowchart TD
     F --> S[supabase-data.js: REST paginata]
     S --> DB[(Supabase: romanzi pubblicati)]
     DB --> R[content-adapter.js: ricostruzione]
-    R --> I
-    F -->|errore di connessione o database disattivato| G[data/romanzo.js: copia di riserva]
-    G --> H[data/romanzo-i18n.js: traduzioni]
-    H --> I[i18n.js: applica le traduzioni]
+    F -->|errore di connessione| ERR[Messaggio nella lingua scelta]
+    R --> I[i18n.js: applica le traduzioni]
     I --> J[app.js: mappa e interazioni]
     D --> J
     J --> K[Servizi cartografici Esri]

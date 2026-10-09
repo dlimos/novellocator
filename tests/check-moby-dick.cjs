@@ -32,6 +32,5 @@ for(const lang of ['en','it','fr','es']){
  const csv=fs.readFileSync(root+'moby-dick-places-'+lang+'.csv','utf8');let quoted=false,rows=0;for(let i=0;i<csv.length;i++){if(csv[i]==='"'){if(quoted&&csv[i+1]==='"')i++;else quoted=!quoted;}else if(!quoted&&csv[i]==='\n')rows++;}assert.equal(rows,57);assert.equal(quoted,false);assert.ok(csv.includes(d.chapters[0].title));assert.ok(d.book.footerHtml.includes('moby-dick-places-'+lang+'.csv'));
  assert.ok(ctx.window.atlasLocaleData.messages[lang]['Explore Moby-Dick by Herman Melville']);
 }
-const scripts=[];const loaderCtx={URLSearchParams,window:{location:{search:'?book=moby-dick'},atlasI18n:{localizeData:x=>x,t:x=>x}},document:{createElement:()=>({}),head:{appendChild:s=>scripts.push(s)},getElementById:()=>({})}};vm.runInNewContext(fs.readFileSync(root+'load-book.js','utf8'),loaderCtx);assert.equal(scripts[0].src,'data/moby-dick.js');scripts[0].onload();assert.equal(scripts[1].src,'data/moby-dick-i18n.js');scripts[1].onload();assert.equal(scripts[2].src,'app.js');
 assert.ok(fs.readFileSync(root+'index.html','utf8').includes('href="atlas.html?book=moby-dick"'));
 console.log('PASS: Moby-Dick, 135 chapters + epilogue; 21 narrated settings, 42 action references, 14 unlocated settings; four languages, CSV, quoted sources, disambiguation, contextual overview and empty-section reset.');
