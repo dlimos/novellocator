@@ -136,7 +136,18 @@ window.atlasLocaleData={
       "Explore the places of Joyce’s Ulysses, Proust’s In Search of Lost Time, Tolstoy’s War and Peace and Melville’s Moby-Dick.": "Esplora i luoghi dell’Ulisse di Joyce, di Alla ricerca del tempo perduto di Proust, di Guerra e pace di Tolstoj e di Moby-Dick di Melville.",
       "05 · ALESSANDRO MANZONI": "05 · ALESSANDRO MANZONI",
       "06 · FYODOR DOSTOEVSKY": "06 · FËDOR DOSTOEVSKIJ",
-      "07 · VIRGINIA WOOLF": "07 · VIRGINIA WOOLF"
+      "07 · VIRGINIA WOOLF": "07 · VIRGINIA WOOLF",
+      "Original text": "Testo originale",
+      "Public-domain translation": "Traduzione di pubblico dominio",
+      "Edition and rights": "Edizione e diritti",
+      "Text from this section": "Testo di questa sezione",
+      "Passage from the novel": "Passaggio del romanzo",
+      "English": "inglese",
+      "French": "francese",
+      "Russian": "russo",
+      "Italian": "italiano",
+      "Spanish": "spagnolo",
+      "135 chapters and an epilogue: follow the voyage and the settings of narrated events.": "135 capitoli e un epilogo: segui il viaggio e le ambientazioni degli eventi narrati."
     },
     "en": {
       "Atlante letterario": "Literary Atlas",
@@ -255,7 +266,18 @@ window.atlasLocaleData={
       "Explore the places of Joyce’s Ulysses, Proust’s In Search of Lost Time, Tolstoy’s War and Peace and Melville’s Moby-Dick.": "Explore the places of Joyce’s Ulysses, Proust’s In Search of Lost Time, Tolstoy’s War and Peace and Melville’s Moby-Dick.",
       "05 · ALESSANDRO MANZONI": "05 · ALESSANDRO MANZONI",
       "06 · FYODOR DOSTOEVSKY": "06 · FYODOR DOSTOEVSKY",
-      "07 · VIRGINIA WOOLF": "07 · VIRGINIA WOOLF"
+      "07 · VIRGINIA WOOLF": "07 · VIRGINIA WOOLF",
+      "Original text": "Original text",
+      "Public-domain translation": "Public-domain translation",
+      "Edition and rights": "Edition and rights",
+      "Text from this section": "Text from this section",
+      "Passage from the novel": "Passage from the novel",
+      "English": "English",
+      "French": "French",
+      "Russian": "Russian",
+      "Italian": "Italian",
+      "Spanish": "Spanish",
+      "135 chapters and an epilogue: follow the voyage and the settings of narrated events.": "135 chapters and an epilogue: follow the voyage and the settings of narrated events."
     },
     "fr": {
       "Atlante letterario": "Atlas littéraire",
@@ -374,7 +396,18 @@ window.atlasLocaleData={
       "Explore the places of Joyce’s Ulysses, Proust’s In Search of Lost Time, Tolstoy’s War and Peace and Melville’s Moby-Dick.": "Explorez les lieux d’Ulysse de Joyce, d’À la recherche du temps perdu de Proust, de Guerre et Paix de Tolstoï et de Moby-Dick de Melville.",
       "05 · ALESSANDRO MANZONI": "05 · ALESSANDRO MANZONI",
       "06 · FYODOR DOSTOEVSKY": "06 · FIODOR DOSTOÏEVSKI",
-      "07 · VIRGINIA WOOLF": "07 · VIRGINIA WOOLF"
+      "07 · VIRGINIA WOOLF": "07 · VIRGINIA WOOLF",
+      "Original text": "Texte original",
+      "Public-domain translation": "Traduction du domaine public",
+      "Edition and rights": "Édition et droits",
+      "Text from this section": "Texte de cette section",
+      "Passage from the novel": "Passage du roman",
+      "English": "anglais",
+      "French": "français",
+      "Russian": "russe",
+      "Italian": "italien",
+      "Spanish": "espagnol",
+      "135 chapters and an epilogue: follow the voyage and the settings of narrated events.": "135 chapitres et un épilogue : suivez le voyage et les lieux des événements racontés."
     },
     "es": {
       "Atlante letterario": "Atlas literario",
@@ -493,7 +526,18 @@ window.atlasLocaleData={
       "Explore the places of Joyce’s Ulysses, Proust’s In Search of Lost Time, Tolstoy’s War and Peace and Melville’s Moby-Dick.": "Explora los lugares de Ulises de Joyce, de En busca del tiempo perdido de Proust, de Guerra y paz de Tolstói y de Moby-Dick de Melville.",
       "05 · ALESSANDRO MANZONI": "05 · ALESSANDRO MANZONI",
       "06 · FYODOR DOSTOEVSKY": "06 · FIÓDOR DOSTOYEVSKI",
-      "07 · VIRGINIA WOOLF": "07 · VIRGINIA WOOLF"
+      "07 · VIRGINIA WOOLF": "07 · VIRGINIA WOOLF",
+      "Original text": "Texto original",
+      "Public-domain translation": "Traducción de dominio público",
+      "Edition and rights": "Edición y derechos",
+      "Text from this section": "Texto de esta sección",
+      "Passage from the novel": "Pasaje de la novela",
+      "English": "inglés",
+      "French": "francés",
+      "Russian": "ruso",
+      "Italian": "italiano",
+      "Spanish": "español",
+      "135 chapters and an epilogue: follow the voyage and the settings of narrated events.": "135 capítulos y un epílogo: sigue el viaje y los escenarios de los sucesos narrados."
     }
   }
 };

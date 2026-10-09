@@ -16,7 +16,7 @@
   }
  }
  function localizeData(value,key){
-  if(typeof value==='string')return ['english','id','hashPrefix','url','kind','checked'].includes(key)?value:(window.atlasTranslations?.[locale]?.[value]??value);
+  if(typeof value==='string')return ['english','id','hashPrefix','url','kind','checked','quote','language','attribution','rightsUrl','type'].includes(key)?value:(window.atlasTranslations?.[locale]?.[value]??value);
   if(Array.isArray(value))return value.map(item=>localizeData(item));
   if(value&&typeof value==='object')return Object.fromEntries(Object.entries(value).map(([k,item])=>[k,localizeData(item,k)]));
   return value;

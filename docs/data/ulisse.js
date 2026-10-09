@@ -44,7 +44,42 @@ window.atlasData={
       "placeText": [
         "Stephen, Mulligan and Haines in the tower.",
         "Mulligan goes swimming at the end of the episode."
-      ]
+      ],
+      "excerpts": {
+        "original": {
+          "quote": "Stately, plump Buck Mulligan came from the stairhead, bearing a bowl of lather on which a mirror and a razor lay crossed. A yellow dressinggown, ungirdled, was sustained gently behind him on the mild morning air. He held the bowl aloft and intoned:",
+          "language": "en",
+          "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0001",
+          "attribution": "James Joyce · Ulysses · 1922",
+          "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+          "type": "original"
+        },
+        "translations": {}
+      },
+      "placeExcerpts": {
+        "tower": {
+          "original": {
+            "quote": "He pointed his finger in friendly jest and went over to the parapet, laughing to himself. Stephen Dedalus stepped up, followed him wearily halfway and sat down on the edge of the gunrest, watching him still as he propped his mirror on the parapet, dipped the brush in the bowl and lathered cheeks and neck.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0001",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "forty": {
+          "original": {
+            "quote": "He capered before them down towards the fortyfoot hole, fluttering his winglike hands, leaping nimbly, Mercury’s hat quivering in the fresh wind that bore back to them his brief birdsweet cries.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0001",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        }
+      }
     },
     {
       "id": 2,
@@ -59,7 +94,31 @@ window.atlasData={
       "text": "Stephen teaches the boys and speaks with headmaster Deasy, who gives him a letter to have published. Thoughts of history, money and authority weave through the lesson.",
       "placeText": [
         "Stephen teaches and speaks with Deasy. This location remains imprecise."
-      ]
+      ],
+      "excerpts": {
+        "original": {
+          "quote": "The boy’s blank face asked the blank window.",
+          "language": "en",
+          "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0002",
+          "attribution": "James Joyce · Ulysses · 1922",
+          "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+          "type": "original"
+        },
+        "translations": {}
+      },
+      "placeExcerpts": {
+        "school": {
+          "original": {
+            "quote": "—Mr Deasy told me to write them out all again, he said, and show them to you, sir.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0002",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        }
+      }
     },
     {
       "id": 3,
@@ -79,7 +138,53 @@ window.atlasData={
         "The walk follows the historical coast towards the north-east.",
         "Stephen stops near the boulder pier."
       ],
-      "note": "Land reclamation has altered the 1904 coastline. The walking areas do not define a route measured against present-day imagery."
+      "note": "Land reclamation has altered the 1904 coastline. The walking areas do not define a route measured against present-day imagery.",
+      "excerpts": {
+        "original": {
+          "quote": "Ineluctable modality of the visible: at least that if no more, thought through my eyes. Signatures of all things I am here to read, seaspawn and seawrack, the nearing tide, that rusty boot. Snotgreen, bluesilver, rust: coloured signs. Limits of the diaphane. But he adds: in bodies. Then he was aware of them bodies before of them coloured. How? By knocking his sconce against them, sure. Go easy. Bald he was and a millionaire, maestro di color che sanno. Limit of the diaphane in. Why in? Diaphane, adiaphane. If you can put your five fingers through it it is a gate, if not a door. Shut your eyes and see.",
+          "language": "en",
+          "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0003",
+          "attribution": "James Joyce · Ulysses · 1922",
+          "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+          "type": "original"
+        },
+        "translations": {}
+      },
+      "placeExcerpts": {
+        "leahy": {
+          "original": {
+            "quote": "They came down the steps from Leahy’s terrace prudently, Frauenzimmer: and down the shelving shore flabbily, their splayed feet sinking in the silted sand. Like me, like Algy, coming down to our mighty mother. Number one swung lourdily her midwife’s bag, the other’s gamp poked in the beach. From the liberties, out for the day. Mrs Florence MacCabe, relict of the late Patk MacCabe, deeply lamented, of Bride Street. One of her sisterhood lugged me squealing into life. Creation from nothing. What has she in the bag? A misbirth with a trailing navelcord, hushed in ruddy wool. The cords of all link back, […]",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0003",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "strand": {
+          "original": {
+            "quote": "Stephen closed his eyes to hear his boots crush crackling wrack and shells. You are walking through it howsomever. I am, a stride at a time. A very short space of time through very short times of space. Five, six: the nacheinander. Exactly: and that is the ineluctable modality of the audible. Open your eyes. No. Jesus! If I fell over a cliff that beetles o’er his base, fell through the nebeneinander ineluctably! I am getting on nicely in the dark. My ash sword hangs at my side. Tap with it: they do. My two feet in his boots are at the ends of his legs, nebeneinander. Sounds solid: made by the mallet of Los […]",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0003",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "boulders": {
+          "original": {
+            "quote": "His feet marched in sudden proud rhythm over the sand furrows, along by the boulders of the south wall. He stared at them proudly, piled stone mammoth skulls. Gold light on sea, on sand, on boulders. The sun is there, the slender trees, the lemon houses.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0003",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        }
+      }
     },
     {
       "id": 4,
@@ -102,7 +207,75 @@ window.atlasData={
         "He passes the school.",
         "He buys the kidney and returns home.",
         "The bells accompany the episode’s ending."
-      ]
+      ],
+      "excerpts": {
+        "original": {
+          "quote": "Mr Leopold Bloom ate with relish the inner organs of beasts and fowls. He liked thick giblet soup, nutty gizzards, a stuffed roast heart, liverslices fried with crustcrumbs, fried hencods’ roes. Most of all he liked grilled mutton kidneys which gave to his palate a fine tang of faintly scented urine.",
+          "language": "en",
+          "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0004",
+          "attribution": "James Joyce · Ulysses · 1922",
+          "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+          "type": "original"
+        },
+        "translations": {}
+      },
+      "placeExcerpts": {
+        "eccles": {
+          "original": {
+            "quote": "Grey horror seared his flesh. Folding the page into his pocket he turned into Eccles street, hurrying homeward. Cold oils slid along his veins, chilling his blood: age crusting him with a salt cloak. Well, I am here now. Yes, I am here now. Morning mouth bad images. Got up wrong side of the bed. Must begin again those Sandow’s exercises. On the hands down. Blotchy brown brick houses. Number eighty still unlet. Why is that? Valuation is only twentyeight. Towers, Battersby, North, MacArthur: parlour windows plastered with bills. Plasters on a sore eye. To smell the gentle smoke of tea, fume of the pan, sizzling […]",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0004",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "orourke": {
+          "original": {
+            "quote": "He approached Larry O’Rourke’s. From the cellar grating floated up the flabby gush of porter. Through the open doorway the bar squirted out whiffs of ginger, teadust, biscuitmush. Good house, however: just the end of the city traffic. For instance M’Auley’s down there: n. g. as position. Of course if they ran a tramline along the North Circular from the cattlemarket to the quays value would go up like a shot.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0004",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "josephschool": {
+          "original": {
+            "quote": "How much would that tot to off the porter in the month? Say ten barrels of stuff. Say he got ten per cent off. O more. Fifteen. He passed Saint Joseph’s National school. Brats’ clamour. Windows open. Fresh air helps memory. Or a lilt. Ahbeesee defeegee kelomen opeecue rustyouvee doubleyou. Boys are they? Yes. Inishturk. Inishark. Inishboffin. At their joggerfry. Mine. Slieve Bloom.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0004",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "dlugacz": {
+          "original": {
+            "quote": "He listened to her licking lap. Ham and eggs, no. No good eggs with this drouth. Want pure fresh water. Thursday: not a good day either for a mutton kidney at Buckley’s. Fried with butter, a shake of pepper. Better a pork kidney at Dlugacz’s. While the kettle is boiling. She lapped slower, then licking the saucer clean. Why are their tongues so rough? To lap better, all porous holes. Nothing she can eat? He glanced round him. No.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0004",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "george": {
+          "original": {
+            "quote": "He crossed to the bright side, avoiding the loose cellarflap of number seventyfive. The sun was nearing the steeple of George’s church. Be a warm day I fancy. Specially in these black clothes feel it more. Black conducts, reflects, (refracts is it?), the heat. But I couldn’t go in that light suit. Make a picnic of it. His eyelids sank quietly often as he walked in happy warmth. Boland’s breadvan delivering with trays our daily but she prefers yesterday’s loaves turnovers crisp crowns hot. Makes you feel young. Somewhere in the east: early morning: set off at dawn. Travel round in front of the sun, steal a day’s […]",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0004",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        }
+      }
     },
     {
       "id": 5,
@@ -138,7 +311,119 @@ window.atlasData={
         "The pub Bantam Lyons heads back to.",
         "He heads towards the baths; the destination is debated."
       ],
-      "note": "Connections along streets not named by Joyce follow Gunn and Hart’s topographic reconstruction. Arrival at the baths is not narrated in this episode."
+      "note": "Connections along streets not named by Joyce follow Gunn and Hart’s topographic reconstruction. Arrival at the baths is not narrated in this episode.",
+      "excerpts": {
+        "original": {
+          "quote": "By lorries along sir John Rogerson’s quay Mr Bloom walked soberly, past Windmill lane, Leask’s the linseed crusher, the postal telegraph office. Could have given that address too. And past the sailors’ home. He turned from the morning noises of the quayside and walked through Lime street. By Brady’s cottages a boy for the skins lolled, his bucket of offal linked, smoking a chewed fagbutt. A smaller girl with scars of eczema on her forehead eyed him, listlessly holding her battered caskhoop. Tell him if he smokes he won’t grow. O let him! His life isn’t such a bed of roses. Waiting outside pubs to bring da home. […]",
+          "language": "en",
+          "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0005",
+          "attribution": "James Joyce · Ulysses · 1922",
+          "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+          "type": "original"
+        },
+        "translations": {}
+      },
+      "placeExcerpts": {
+        "quay": {
+          "original": {
+            "quote": "By lorries along sir John Rogerson’s quay Mr Bloom walked soberly, past Windmill lane, Leask’s the linseed crusher, the postal telegraph office. Could have given that address too. And past the sailors’ home. He turned from the morning noises of the quayside and walked through Lime street. By Brady’s cottages a boy for the skins lolled, his bucket of offal linked, smoking a chewed fagbutt. A smaller girl with scars of eczema on her forehead eyed him, listlessly holding her battered caskhoop. Tell him if he smokes he won’t grow. O let him! His life isn’t such a bed of roses. Waiting outside pubs to bring da home. […]",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0005",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "lime": {
+          "original": {
+            "quote": "By lorries along sir John Rogerson’s quay Mr Bloom walked soberly, past Windmill lane, Leask’s the linseed crusher, the postal telegraph office. Could have given that address too. And past the sailors’ home. He turned from the morning noises of the quayside and walked through Lime street. By Brady’s cottages a boy for the skins lolled, his bucket of offal linked, smoking a chewed fagbutt. A smaller girl with scars of eczema on her forehead eyed him, listlessly holding her battered caskhoop. Tell him if he smokes he won’t grow. O let him! His life isn’t such a bed of roses. Waiting outside pubs to bring da home. […]",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0005",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "post": {
+          "original": {
+            "quote": "He turned away and sauntered across the road. How did she walk with her sausages? Like that something. As he walked he took the folded Freeman from his sidepocket, unfolded it, rolled it lengthwise in a baton and tapped it at each sauntering step against his trouserleg. Careless air: just drop in to see. Per second per second. Per second for every second it means. From the curbstone he darted a keen glance through the door of the postoffice. Too late box. Post here. No-one. In.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0005",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "pearse": {
+          "original": {
+            "quote": "Mr Bloom, strolling towards Brunswick street, smiled. My missus has just got an. Reedy freckled soprano. Cheeseparing nose. Nice enough in its way: for a little ballad. No guts in it. You and me, don’t you know: in the same boat. Softsoaping. Give you the needle that would. Can’t he hear the difference? Think he’s that way inclined a bit. Against my grain somehow. Thought that Belfast would fetch him. I hope that smallpox up there doesn’t get worse. Suppose she wouldn’t let herself be vaccinated again. Your wife and my wife.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0005",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "cumberland": {
+          "original": {
+            "quote": "He turned into Cumberland street and, going on some paces, halted in the lee of the station wall. No-one. Meade’s timberyard. Piled balks. Ruins and tenements. With careful tread he passed over a hopscotch court with its forgotten pickeystone. Not a sinner. Near the timberyard a squatted child at marbles, alone, shooting the taw with a cunnythumb. A wise tabby, a blinking sphinx, watched from her warm sill. Pity to disturb them. Mohammed cut a piece out of his mantle not to wake her. Open it. And once I played marbles when I went to that old dame’s school. She liked mignonette. Mrs Ellis’s. And Mr? He opened the letter within the newspaper.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0005",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "andrew": {
+          "original": {
+            "quote": "He had reached the open backdoor of All Hallows. Stepping into the porch he doffed his hat, took the card from his pocket and tucked it again behind the leather headband. Damn it. I might have tried to work M’Coy for a pass to Mullingar.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0005",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "sweny": {
+          "original": {
+            "quote": "He stood up. Hello. Were those two buttons of my waistcoat open all the time? Women enjoy it. Never tell you. But we. Excuse, miss, there’s a (whh!) just a (whh!) fluff. Or their skirt behind, placket unhooked. Glimpses of the moon. Annoyed if you don’t. Why didn’t you tell me before. Still like you better untidy. Good job it wasn’t farther south. He passed, discreetly buttoning, down the aisle and out through the main door into the light. He stood a moment unseeing by the cold black marble bowl while before him and behind two worshippers dipped furtive hands in the low tide of holy water. Trams: a car of […]",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0005",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "conway": {
+          "original": {
+            "quote": "—I was with Bob Doran, he’s on one of his periodical bends, and what do you call him Bantam Lyons. Just down there in Conway’s we were.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0005",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "baths": {
+          "original": {
+            "quote": "He walked cheerfully towards the mosque of the baths. Remind you of a mosque, redbaked bricks, the minarets. College sports today I see. He eyed the horseshoe poster over the gate of college park: cyclist doubled up like a cod in a pot. Damn bad ad. Now if they had made it round like a wheel. Then the spokes: sports, sports, sports: and the hub big: college. Something to catch the eye.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0005",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        }
+      }
     },
     {
       "id": 6,
@@ -194,7 +479,108 @@ window.atlasData={
         "A monument encountered in the grounds.",
         "Hynes and Power head towards Parnell’s grave."
       ],
-      "note": "City stops precede the references inside the cemetery. Paddy Dignam’s fictional grave is not presented as an existing burial."
+      "note": "City stops precede the references inside the cemetery. Paddy Dignam’s fictional grave is not presented as an existing burial.",
+      "excerpts": {
+        "original": {
+          "quote": "Martin Cunningham, first, poked his silkhatted head into the creaking carriage and, entering deftly, seated himself. Mr Power stepped in after him, curving his height with care.",
+          "language": "en",
+          "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0006",
+          "attribution": "James Joyce · Ulysses · 1922",
+          "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+          "type": "original"
+        },
+        "translations": {}
+      },
+      "placeExcerpts": {
+        "triton": {
+          "original": {
+            "quote": "They waited still, their knees jogging, till they had turned and were passing along the tramtracks. Tritonville road. Quicker. The wheels rattled rolling over the cobbled causeway and the crazy glasses shook rattling in the doorframes.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0006",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "irishtown": {
+          "original": {
+            "quote": "—Irishtown, Martin Cunningham said. Ringsend. Brunswick street.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0006",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "ringsend": {
+          "original": {
+            "quote": "—Irishtown, Martin Cunningham said. Ringsend. Brunswick street.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0006",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "rotunda": {
+          "original": {
+            "quote": "White horses with white frontlet plumes came round the Rotunda corner, galloping. A tiny coffin flashed by. In a hurry to bury. A mourning coach. Unmarried. Black for the married. Piebald for bachelors. Dun for a nun.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0006",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "blessington": {
+          "original": {
+            "quote": "The carriage rattled swiftly along Blessington street. Over the stones.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0006",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "cemetery": {
+          "original": {
+            "quote": "—Yes, Mr Bloom said, and another thing I often thought, is to have municipal funeral trams like they have in Milan, you know. Run the line out to the cemetery gates and have special trams, hearse and carriage and all. Don’t you see what I mean?",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0006",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "chapel": {
+          "original": {
+            "quote": "They halted about the door of the mortuary chapel. Mr Bloom stood behind the boy with the wreath looking down at his sleekcombed hair and at the slender furrowed neck inside his brandnew collar. Poor boy! Was he there when the father? Both unconscious. Lighten up at the last moment and recognise for the last time. All he might have done. I owe three shillings to O’Grady. Would he understand? The mutes bore the coffin into the chapel. Which end is his head?",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0006",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "parnell": {
+          "original": {
+            "quote": "Dead side of the street this. Dull business by day, land agents, temperance hotel, Falconer’s railway guide, civil service college, Gill’s, catholic club, the industrious blind. Why? Some reason. Sun or wind. At night too. Chummies and slaveys. Under the patronage of the late Father Mathew. Foundation stone for Parnell. Breakdown. Heart.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0006",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        }
+      }
     },
     {
       "id": 7,
@@ -215,7 +601,53 @@ window.atlasData={
         "Bloom tries to arrange the advertisement; Stephen brings Deasy’s letter.",
         "Bloom looks for Keyes at the auction rooms.",
         "The group heads to the pub at the chapter’s end."
-      ]
+      ],
+      "excerpts": {
+        "original": {
+          "quote": "Before Nelson’s pillar trams slowed, shunted, changed trolley, started for Blackrock, Kingstown and Dalkey, Clonskea, Rathgar and Terenure, Palmerston Park and upper Rathmines, Sandymount Green, Rathmines, Ringsend and Sandymount Tower, Harold’s Cross. The hoarse Dublin United Tramway Company’s timekeeper bawled them off:",
+          "language": "en",
+          "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0007",
+          "attribution": "James Joyce · Ulysses · 1922",
+          "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+          "type": "original"
+        },
+        "translations": {}
+      },
+      "placeExcerpts": {
+        "gpo": {
+          "original": {
+            "quote": "Under the porch of the general post office shoeblacks called and polished. Parked in North Prince’s street His Majesty’s vermilion mailcars, bearing on their sides the royal initials, E. R., received loudly flung sacks of letters, postcards, lettercards, parcels, insured and paid, for local, provincial, British and overseas delivery.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0007",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "newspaper": {
+          "original": {
+            "quote": "Red Murray’s long shears sliced out the advertisement from the newspaper in four clean strokes. Scissors and paste.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0007",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "mooney": {
+          "original": {
+            "quote": "—That it be and hereby is resolutely resolved. All that are in favour say ay, Lenehan announced. The contrary no. I declare it carried. To which particular boosing shed...? My casting vote is: Mooney’s!",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0007",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        }
+      }
     },
     {
       "id": 8,
@@ -254,7 +686,152 @@ window.atlasData={
         "Reference along Molesworth Street.",
         "Bloom arrives outside the library.",
         "He turns towards the museum to avoid Boylan."
-      ]
+      ],
+      "excerpts": {
+        "original": {
+          "quote": "Pineapple rock, lemon platt, butter scotch. A sugarsticky girl shovelling scoopfuls of creams for a christian brother. Some school treat. Bad for their tummies. Lozenge and comfit manufacturer to His Majesty the King. God. Save. Our. Sitting on his throne sucking red jujubes white.",
+          "language": "en",
+          "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0008",
+          "attribution": "James Joyce · Ulysses · 1922",
+          "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+          "type": "original"
+        },
+        "translations": {}
+      },
+      "placeExcerpts": {
+        "oconnell": {
+          "original": {
+            "quote": "Pineapple rock, lemon platt, butter scotch. A sugarsticky girl shovelling scoopfuls of creams for a christian brother. Some school treat. Bad for their tummies. Lozenge and comfit manufacturer to His Majesty the King. God. Save. Our. Sitting on his throne sucking red jujubes white.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0008",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "ocbridge": {
+          "original": {
+            "quote": "As he set foot on O’Connell bridge a puffball of smoke plumed up from the parapet. Brewery barge with export stout. England. Sea air sours it, I heard. Be interesting some day get a pass through Hancock to see the brewery. Regular world in itself. Vats of porter wonderful. Rats get in too. Drink themselves bloated as big as a collie floating. Dead drunk on the porter. Drink till they puke again like christians. Imagine drinking that! Rats: vats. Well, of course, if we knew all the things.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0008",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "moore": {
+          "original": {
+            "quote": "He crossed under Tommy Moore’s roguish finger. They did right to put him up over a urinal: meeting of the waters. Ought to be places for women. Running into cakeshops. Settle my hat straight. There is not in this wide world a vallee. Great song of Julia Morkan’s. Kept her voice up to the very last. Pupil of Michael Balfe’s, wasn’t she?",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0008",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "provost": {
+          "original": {
+            "quote": "Provost’s house. The reverend Dr Salmon: tinned salmon. Well tinned in there. Like a mortuary chapel. Wouldn’t live in it if they paid me. Hope they have liver and bacon today. Nature abhors a vacuum.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0008",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "adam": {
+          "original": {
+            "quote": "Mr Bloom, quickbreathing, slowlier walking passed Adam court.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0008",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "burton": {
+          "original": {
+            "quote": "He stood at Fleet street crossing. Luncheon interval. A sixpenny at Rowe’s? Must look up that ad in the national library. An eightpenny in the Burton. Better. On my way.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0008",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "davy": {
+          "original": {
+            "quote": "He backed towards the door. Get a light snack in Davy Byrne’s. Stopgap. Keep me going. Had a good breakfast.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0008",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "dawson": {
+          "original": {
+            "quote": "Mr Bloom walked towards Dawson street, his tongue brushing his teeth smooth. Something green it would have to be: spinach, say. Then with those Röntgen rays searchlight you could.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0008",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "molesworth": {
+          "original": {
+            "quote": "—You’re in Dawson street, Mr Bloom said. Molesworth street is opposite. Do you want to cross? There’s nothing in the way.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0008",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "freemasons": {
+          "original": {
+            "quote": "Sir Frederick Falkiner going into the freemasons’ hall. Solemn as Troy. After his good lunch in Earlsfort terrace. Old legal cronies cracking a magnum. Tales of the bench and assizes and annals of the bluecoat school. I sentenced him to ten years. I suppose he’d turn up his nose at that stuff I drank. Vintage wine for them, the year marked on a dusty bottle. Has his own ideas of justice in the recorder’s court. Wellmeaning old man. Police chargesheets crammed with cases get their percentage manufacturing crime. Sends them to the rightabout. The devil on moneylenders. Gave Reuben J a great strawcalling. Now he’s […]",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0008",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "library": {
+          "original": {
+            "quote": "He stood at Fleet street crossing. Luncheon interval. A sixpenny at Rowe’s? Must look up that ad in the national library. An eightpenny in the Burton. Better. On my way.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0008",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "museum": {
+          "original": {
+            "quote": "His downcast eyes followed the silent veining of the oaken slab. Beauty: it curves: curves are beauty. Shapely goddesses, Venus, Juno: curves the world admires. Can see them library museum standing in the round hall, naked goddesses. Aids to digestion. They don’t care what man looks. All to see. Never speaking. I mean to say to fellows like Flynn. Suppose she did Pygmalion and Galatea what would she say first? Mortal! Put you in your proper place. Quaffing nectar at mess with gods golden dishes, all ambrosial. Not like a tanner lunch we have, boiled mutton, carrots and turnips, bottle of Allsop. Nectar imagine it […]",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0008",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        }
+      }
     },
     {
       "id": 9,
@@ -269,7 +846,31 @@ window.atlasData={
       "text": "At the library Stephen presents his interpretation of Shakespeare and Hamlet. The literary discussion also involves identity, fatherhood and his place in Dublin’s cultural world.",
       "placeText": [
         "The library is the discussion’s centre; Bloom passes through the same setting."
-      ]
+      ],
+      "excerpts": {
+        "original": {
+          "quote": "Urbane, to comfort them, the quaker librarian purred:",
+          "language": "en",
+          "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0009",
+          "attribution": "James Joyce · Ulysses · 1922",
+          "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+          "type": "original"
+        },
+        "translations": {}
+      },
+      "placeExcerpts": {
+        "library": {
+          "original": {
+            "quote": "One day in the national library we had a discussion. Shakes. After. His lub back: I followed. I gall his kibe.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0009",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        }
+      }
     },
     {
       "id": 10,
@@ -351,7 +952,339 @@ window.atlasData={
         "§19 · Reference on the viceregal procession’s route.",
         "§19 · Reference on the viceregal procession’s route."
       ],
-      "note": "The § labels mark chapter sections, not a single walk. The Dedalus home (§4) is omitted: identification with St Peter’s Terrace is an inference. River scenes involving the leaflet are moving narrative references, not buildings. The selection covers stops in 18 sections, with varying precision."
+      "note": "The § labels mark chapter sections, not a single walk. The Dedalus home (§4) is omitted: identification with St Peter’s Terrace is an inference. River scenes involving the leaflet are moving narrative references, not buildings. The selection covers stops in 18 sections, with varying precision.",
+      "excerpts": {
+        "original": {
+          "quote": "The superior, the very reverend John Conmee S. J. reset his smooth watch in his interior pocket as he came down the presbytery steps. Five to three. Just nice time to walk to Artane. What was that boy’s name again? Dignam. Yes. Vere dignum et iustum est. Brother Swan was the person to see. Mr Cunningham’s letter. Yes. Oblige him, if possible. Good practical catholic: useful at mission time.",
+          "language": "en",
+          "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0010",
+          "attribution": "James Joyce · Ulysses · 1922",
+          "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+          "type": "original"
+        },
+        "translations": {}
+      },
+      "placeExcerpts": {
+        "gardiner": {
+          "original": {
+            "quote": "The superior, the very reverend John Conmee S. J. reset his smooth watch in his interior pocket as he came down the presbytery steps. Five to three. Just nice time to walk to Artane. What was that boy’s name again? Dignam. Yes. Vere dignum et iustum est. Brother Swan was the person to see. Mr Cunningham’s letter. Yes. Oblige him, if possible. Good practical catholic: useful at mission time.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0010",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "aldborough": {
+          "original": {
+            "quote": "Near Aldborough house Father Conmee thought of that spendthrift nobleman. And now it was an office or something.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0010",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "newcomen": {
+          "original": {
+            "quote": "On Newcomen bridge the very reverend John Conmee S. J. of saint Francis Xavier’s church, upper Gardiner street, stepped on to an outward bound tram.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0010",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "annesley": {
+          "original": {
+            "quote": "At Annesley bridge the tram halted and, when it was about to go, an old woman rose suddenly from her place to alight. The conductor pulled the bellstrap to stay the car for her. She passed out with her basket and a marketnet: and Father Conmee saw the conductor help her and net and basket down: and Father Conmee thought that, as she had nearly passed the end of the penny fare, she was one of those good souls who had always to be told twice bless you, my child, that they have been absolved, pray for me. But they had so many worries in life, so many cares, poor creatures.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0010",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "howth": {
+          "original": {
+            "quote": "At the Howth road stop Father Conmee alighted, was saluted by the conductor and saluted in his turn.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0010",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "kelleher": {
+          "original": {
+            "quote": "Father Conmee passed H. J. O’Neill’s funeral establishment where Corny Kelleher totted figures in the daybook while he chewed a blade of hay. A constable on his beat saluted Father Conmee and Father Conmee saluted the constable. In Youkstetter’s, the porkbutcher’s, Father Conmee observed pig’s puddings, white and black and red, lie neatly curled in tubes.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0010",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "eccles": {
+          "original": {
+            "quote": "Corny Kelleher sped a silent jet of hayjuice arching from his mouth while a generous white arm from a window in Eccles street flung forth a coin.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0010",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "grafton": {
+          "original": {
+            "quote": "The blond girl in Thornton’s bedded the wicker basket with rustling fibre. Blazes Boylan handed her the bottle swathed in pink tissue paper and a small jar.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0010",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "trinitygate": {
+          "original": {
+            "quote": "Two carfuls of tourists passed slowly, their women sitting fore, gripping the handrests. Palefaces. Men’s arms frankly round their stunted forms. They looked from Trinity to the blind columned porch of the bank of Ireland where pigeons roocoocooed.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0010",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "dunne": {
+          "original": {
+            "quote": "Miss Dunne hid the Capel street library copy of The Woman in White far back in her drawer and rolled a sheet of gaudy notepaper into her typewriter.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0010",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "abbey": {
+          "original": {
+            "quote": "—Yes, sir, Ned Lambert said heartily. We are standing in the historic council chamber of saint Mary’s abbey where silken Thomas proclaimed himself a rebel in 1534. This is the most historic spot in all Dublin. O’Madden Burke is going to write something about it one of these days. The old bank of Ireland was over the way till the time of the union and the original jews’ temple was here too before they built their synagogue over in Adelaide road. You were never here before, Jack, were you?",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0010",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "crampton": {
+          "original": {
+            "quote": "He followed M’Coy out across the tiny square of Crampton court.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0010",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "merchants": {
+          "original": {
+            "quote": "A darkbacked figure under Merchants’ arch scanned books on the hawker’s cart.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0010",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "dillon": {
+          "original": {
+            "quote": "The lacquey by the door of Dillon’s auctionrooms shook his handbell twice again and viewed himself in the chalked mirror of the cabinet.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0010",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "kernan": {
+          "original": {
+            "quote": "From the sundial towards James’s gate walked Mr Kernan, pleased with the order he had booked for Pulbrook Robertson, boldly along James’s street, past Shackleton’s offices. Got round him all right. How do you do, Mr Crimmins? First rate, sir. I was afraid you might be up in your other establishment in Pimlico. How are things going? Just keeping alive. Lovely weather we’re having. Yes, indeed. Good for the country. Those farmers are always grumbling. I’ll just take a thimbleful of your best gin, Mr Crimmins. A small gin, sir. Yes, sir. Terrible affair that General Slocum explosion. Terrible, terrible! A thousand […]",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0010",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "watling": {
+          "original": {
+            "quote": "Mr Kernan turned and walked down the slope of Watling street by the corner of Guinness’s visitors’ waitingroom. Outside the Dublin Distillers Company’s stores an outside car without fare or jarvey stood, the reins knotted to the wheel. Damn dangerous thing. Some Tipperary bosthoon endangering the lives of the citizens. Runaway horse.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0010",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "bloody": {
+          "original": {
+            "quote": "The cavalcade passed out by the lower gate of Phoenix park saluted by obsequious policemen and proceeded past Kingsbridge along the northern quays. The viceroy was most cordially greeted on his way through the metropolis. At Bloody bridge Mr Thomas Kernan beyond the river greeted him vainly from afar. Between Queen’s and Whitworth bridges lord Dudley’s viceregal carriages passed and were unsaluted by Mr Dudley White, B. L., M. A., who stood on Arran quay outside Mrs M. E. White’s, the pawnbroker’s, at the corner of Arran street west stroking his nose with his forefinger, undecided whether he should arrive at […]",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0010",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "bedford": {
+          "original": {
+            "quote": "Stephen went down Bedford row, the handle of the ash clacking against his shoulderblade. In Clohissey’s window a faded 1860 print of Heenan boxing Sayers held his eye. Staring backers with square hats stood round the roped prizering. The heavyweights in tight loincloths proposed gently each to other his bulbous fists. And they are throbbing: heroes’ hearts.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0010",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "reddy": {
+          "original": {
+            "quote": "They clasped hands loudly outside Reddy and Daughter’s. Father Cowley brushed his moustache often downward with a scooping hand.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0010",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "bread": {
+          "original": {
+            "quote": "—We call it D.B.C. because they have damn bad cakes. O, but you missed Dedalus on Hamlet.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0010",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "merrion": {
+          "original": {
+            "quote": "Almidano Artifoni walked past Holles street, past Sewell’s yard. Behind him Cashel Boyle O’Connor Fitzmaurice Tisdall Farrell, with stickumbrelladustcoat dangling, shunned the lamp before Mr Law Smith’s house and, crossing, walked along Merrion square. Distantly behind him a blind stripling tapped his way by the wall of College park.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0010",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "mangan": {
+          "original": {
+            "quote": "Master Patrick Aloysius Dignam came out of Mangan’s, late Fehrenbach’s, carrying a pound and a half of porksteaks.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0010",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "viceregal": {
+          "original": {
+            "quote": "The gates of the drive opened wide to give egress to the viceregal cavalcade.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0010",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "kingsbridge": {
+          "original": {
+            "quote": "The cavalcade passed out by the lower gate of Phoenix park saluted by obsequious policemen and proceeded past Kingsbridge along the northern quays. The viceroy was most cordially greeted on his way through the metropolis. At Bloody bridge Mr Thomas Kernan beyond the river greeted him vainly from afar. Between Queen’s and Whitworth bridges lord Dudley’s viceregal carriages passed and were unsaluted by Mr Dudley White, B. L., M. A., who stood on Arran quay outside Mrs M. E. White’s, the pawnbroker’s, at the corner of Arran street west stroking his nose with his forefinger, undecided whether he should arrive at […]",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0010",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "fourcourts": {
+          "original": {
+            "quote": "The cavalcade passed out by the lower gate of Phoenix park saluted by obsequious policemen and proceeded past Kingsbridge along the northern quays. The viceroy was most cordially greeted on his way through the metropolis. At Bloody bridge Mr Thomas Kernan beyond the river greeted him vainly from afar. Between Queen’s and Whitworth bridges lord Dudley’s viceregal carriages passed and were unsaluted by Mr Dudley White, B. L., M. A., who stood on Arran quay outside Mrs M. E. White’s, the pawnbroker’s, at the corner of Arran street west stroking his nose with his forefinger, undecided whether he should arrive at […]",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0010",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "ormond": {
+          "original": {
+            "quote": "—Mr Boylan! Hello! That gentleman from Sport was in looking for you. Mr Lenehan, yes. He said he’ll be in the Ormond at four. No, sir. Yes, sir. I’ll ring them up after five.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0010",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "grattan": {
+          "original": {
+            "quote": "The cavalcade passed out by the lower gate of Phoenix park saluted by obsequious policemen and proceeded past Kingsbridge along the northern quays. The viceroy was most cordially greeted on his way through the metropolis. At Bloody bridge Mr Thomas Kernan beyond the river greeted him vainly from afar. Between Queen’s and Whitworth bridges lord Dudley’s viceregal carriages passed and were unsaluted by Mr Dudley White, B. L., M. A., who stood on Arran quay outside Mrs M. E. White’s, the pawnbroker’s, at the corner of Arran street west stroking his nose with his forefinger, undecided whether he should arrive at […]",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0010",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "cityhall": {
+          "original": {
+            "quote": "On the steps of the City hall Councillor Nannetti, descending, hailed Alderman Cowley and Councillor Abraham Lyon ascending.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0010",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "nassau": {
+          "original": {
+            "quote": "Master Dignam walked along Nassau street, shifted the porksteaks to his other hand. His collar sprang up again and he tugged it down. The blooming stud was too small for the buttonhole of the shirt, blooming end to it. He met schoolboys with satchels. I’m not going tomorrow either, stay away till Monday. He met other schoolboys. Do they notice I’m in mourning? Uncle Barney said he’d get it into the paper tonight. Then they’ll all see it in the paper and read my name printed and pa’s name.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0010",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        }
+      }
     },
     {
       "id": 11,
@@ -375,7 +1308,53 @@ window.atlasData={
         "He crosses Essex Bridge.",
         "The hotel, dining room and music."
       ],
-      "note": "The text reverses the order of some shops along the quays. The points follow the locations without turning the verbal sequence into a verified route."
+      "note": "The text reverses the order of some shops along the quays. The points follow the locations without turning the verbal sequence into a verified route.",
+      "excerpts": {
+        "original": {
+          "quote": "Bronze by gold heard the hoofirons, steelyringing.",
+          "language": "en",
+          "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0011",
+          "attribution": "James Joyce · Ulysses · 1922",
+          "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+          "type": "original"
+        },
+        "translations": {}
+      },
+      "placeExcerpts": {
+        "wine": {
+          "original": {
+            "quote": "Bloowho went by by Moulang’s pipes bearing in his breast the sweets of sin, by Wine’s antiques, in memory bearing sweet sinful words, by Carroll’s dusky battered plate, for Raoul.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0011",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "grattan": {
+          "original": {
+            "quote": "In came Lenehan. Round him peered Lenehan. Mr Bloom reached Essex bridge. Yes, Mr Bloom crossed bridge of Yessex. To Martha I must write. Buy paper. Daly’s. Girl there civil. Bloom. Old Bloom. Blue bloom is on the rye.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0011",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "ormond": {
+          "original": {
+            "quote": "Bronze by gold, miss Douce’s head by miss Kennedy’s head, over the crossblind of the Ormond bar heard the viceregal hoofs go by, ringing steel.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0011",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        }
+      }
     },
     {
       "id": 12,
@@ -394,7 +1373,31 @@ window.atlasData={
         "The narrator meets Joe Hynes.",
         "The courthouse in the pub’s neighbourhood.",
         "The argument with the Citizen and Bloom’s departure."
-      ]
+      ],
+      "excerpts": {
+        "original": {
+          "quote": "I was just passing the time of day with old Troy of the D. M. P. at the corner of Arbour hill there and be damned but a bloody sweep came along and he near drove his gear into my eye. I turned around to let him have the weight of my tongue when who should I see dodging along Stony Batter only Joe Hynes.",
+          "language": "en",
+          "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0012",
+          "attribution": "James Joyce · Ulysses · 1922",
+          "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+          "type": "original"
+        },
+        "translations": {}
+      },
+      "placeExcerpts": {
+        "kiernan": {
+          "original": {
+            "quote": "—Come around to Barney Kiernan’s, says Joe. I want to see the citizen.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0012",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        }
+      }
     },
     {
       "id": 13,
@@ -414,7 +1417,53 @@ window.atlasData={
         "The area of the lamp and shore access.",
         "Voices from the church service enter the scene."
       ],
-      "note": "The visit to Dignam’s widow precedes the beach scene; it is not added as a stop narrated here."
+      "note": "The visit to Dignam’s widow precedes the beach scene; it is not added as a stop narrated here.",
+      "excerpts": {
+        "original": {
+          "quote": "The summer evening had begun to fold the world in its mysterious embrace. Far away in the west the sun was setting and the last glow of all too fleeting day lingered lovingly on sea and strand, on the proud promontory of dear old Howth guarding as ever the waters of the bay, on the weedgrown rocks along Sandymount shore and, last but not least, on the quiet church whence there streamed forth at times upon the stillness the voice of prayer to her who is in her pure radiance a beacon ever to the stormtossed heart of man, Mary, star of the sea.",
+          "language": "en",
+          "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0013",
+          "attribution": "James Joyce · Ulysses · 1922",
+          "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+          "type": "original"
+        },
+        "translations": {}
+      },
+      "placeExcerpts": {
+        "nausicaa": {
+          "original": {
+            "quote": "The summer evening had begun to fold the world in its mysterious embrace. Far away in the west the sun was setting and the last glow of all too fleeting day lingered lovingly on sea and strand, on the proud promontory of dear old Howth guarding as ever the waters of the bay, on the weedgrown rocks along Sandymount shore and, last but not least, on the quiet church whence there streamed forth at times upon the stillness the voice of prayer to her who is in her pure radiance a beacon ever to the stormtossed heart of man, Mary, star of the sea.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0013",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "leahy": {
+          "original": {
+            "quote": "A last lonely candle wandered up the sky from Mirus bazaar in search of funds for Mercer’s hospital and broke, drooping, and shed a cluster of violet but one white stars. They floated, fell: they faded. The shepherd’s hour: the hour of folding: hour of tryst. From house to house, giving his everwelcome double knock, went the nine o’clock postman, the glowworm’s lamp at his belt gleaming here and there through the laurel hedges. And among the five young trees a hoisted lintstock lit the lamp at Leahy’s terrace. By screens of lighted windows, by equal gardens a shrill voice went crying, wailing: Evening Telegraph, […]",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0013",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "star": {
+          "original": {
+            "quote": "The summer evening had begun to fold the world in its mysterious embrace. Far away in the west the sun was setting and the last glow of all too fleeting day lingered lovingly on sea and strand, on the proud promontory of dear old Howth guarding as ever the waters of the bay, on the weedgrown rocks along Sandymount shore and, last but not least, on the quiet church whence there streamed forth at times upon the stillness the voice of prayer to her who is in her pure radiance a beacon ever to the stormtossed heart of man, Mary, star of the sea.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0013",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        }
+      }
     },
     {
       "id": 14,
@@ -434,7 +1483,53 @@ window.atlasData={
         "The group moves to the pub.",
         "Stephen and Lynch head to the station; Bloom follows."
       ],
-      "note": "The rail journey towards Nighttown falls between chapters; the Circe map shows the stations and explicitly identifies the reconstruction."
+      "note": "The rail journey towards Nighttown falls between chapters; the Circe map shows the stations and explicitly identifies the reconstruction.",
+      "excerpts": {
+        "original": {
+          "quote": "Deshil Holles Eamus. Deshil Holles Eamus. Deshil Holles Eamus.",
+          "language": "en",
+          "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0014",
+          "attribution": "James Joyce · Ulysses · 1922",
+          "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+          "type": "original"
+        },
+        "translations": {}
+      },
+      "placeExcerpts": {
+        "hospital": {
+          "original": {
+            "quote": "Deshil Holles Eamus. Deshil Holles Eamus. Deshil Holles Eamus.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0014",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "burke": {
+          "original": {
+            "quote": "Burke’s! outflings my lord Stephen, giving the cry, and a tag and bobtail of all them after, cockerel, jackanapes, welsher, pilldoctor, punctual Bloom at heels with a universal grabbing at headgear, ashplants, bilbos, Panama hats and scabbards, Zermatt alpenstocks and what not. A dedale of lusty youth, noble every student there. Nurse Callan taken aback in the hallway cannot stay them nor smiling surgeon coming downstairs with news of placentation ended, a full pound if a milligramme. They hark him on. The door! It is open? Ha! They are out, tumultuously, off for a minute’s race, all bravely legging it, Burke’s […]",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0014",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "denzille": {
+          "original": {
+            "quote": "All off for a buster, armstrong, hollering down the street. Bonafides. Where you slep las nigh? Timothy of the battered naggin. Like ole Billyo. Any brollies or gumboots in the fambly? Where the Henry Nevil’s sawbones and ole clo? Sorra one o’ me knows. Hurrah there, Dix! Forward to the ribbon counter. Where’s Punch? All serene. Jay, look at the drunken minister coming out of the maternity hospal! Benedicat vos omnipotens Deus, Pater et Filius. A make, mister. The Denzille lane boys. Hell, blast ye! Scoot. Righto, Isaacs, shove em out of the bleeding limelight. Yous join uz, dear sir? No hentrusion in life. Lou […]",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0014",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        }
+      }
     },
     {
       "id": 15,
@@ -460,7 +1555,75 @@ window.atlasData={
         "Bella’s house and the long visionary sequence.",
         "The fight with the soldiers and Stephen’s fall."
       ],
-      "note": "Circe mixes actions and hallucinations. Urban geographical references are shown, without assigning coordinates to imaginary spaces."
+      "note": "Circe mixes actions and hallucinations. Urban geographical references are shown, without assigning coordinates to imaginary spaces.",
+      "excerpts": {
+        "original": {
+          "quote": "(The Mabbot street entrance of nighttown, before which stretches an uncobbled tramsiding set with skeleton tracks, red and green will-o’-the-wisps and danger signals. Rows of grimy houses with gaping doors. Rare lamps with faint rainbow fans. Round Rabaiotti’s halted ice gondola stunted men and women squabble. They grab wafers between which are wedged lumps of coral and copper snow. Sucking, they scatter slowly. Children. The swancomb of the gondola, highreared, forges on through the murk, white and blue under a lighthouse. Whistles call and answer.)",
+          "language": "en",
+          "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0015",
+          "attribution": "James Joyce · Ulysses · 1922",
+          "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+          "type": "original"
+        },
+        "translations": {}
+      },
+      "placeExcerpts": {
+        "station": {
+          "original": {
+            "quote": "BLOOM: Wildgoose chase this. Disorderly houses. Lord knows where they are gone. Drunks cover distance double quick. Nice mixup. Scene at Westland row. Then jump in first class with third ticket. Then too far. Train with engine behind. Might have taken me to Malahide or a siding for the night or collision. Second drink does it. Once is a dose. What am I following him for? Still, he’s the best of that lot. If I hadn’t heard about Mrs Beaufoy Purefoy I wouldn’t have gone and wouldn’t have met. Kismet. He’ll lose that cash. Relieving office here. Good biz for cheapjacks, organs. What do ye lack? Soon got, soon gone. […]",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0015",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "talbot": {
+          "original": {
+            "quote": "BLOOM: Aurora borealis or a steel foundry? Ah, the brigade, of course. South side anyhow. Big blaze. Might be his house. Beggar’s bush. We’re safe. (He hums cheerfully.) London’s burning, London’s burning! On fire, on fire! (He catches sight of the navvy lurching through the crowd at the farther side of Talbot street.) I’ll miss him. Run. Quick. Better cross here.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0015",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "nighttown": {
+          "original": {
+            "quote": "(The Mabbot street entrance of nighttown, before which stretches an uncobbled tramsiding set with skeleton tracks, red and green will-o’-the-wisps and danger signals. Rows of grimy houses with gaping doors. Rare lamps with faint rainbow fans. Round Rabaiotti’s halted ice gondola stunted men and women squabble. They grab wafers between which are wedged lumps of coral and copper snow. Sucking, they scatter slowly. Children. The swancomb of the gondola, highreared, forges on through the murk, white and blue under a lighthouse. Whistles call and answer.)",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0015",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "bella": {
+          "original": {
+            "quote": "(The door opens. Bella Cohen, a massive whoremistress, enters. She is dressed in a threequarter ivory gown, fringed round the hem with tasselled selvedge, and cools herself flirting a black horn fan like Minnie Hauck in Carmen. On her left hand are wedding and keeper rings. Her eyes are deeply carboned. She has a sprouting moustache. Her olive face is heavy, slightly sweated and fullnosed with orangetainted nostrils. She has large pendant beryl eardrops.)",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0015",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "beaver": {
+          "original": {
+            "quote": "THE GAFFER: (Crouches, his voice twisted in his snout.) And when Cairns came down from the scaffolding in Beaver street what was he after doing it into only into the bucket of porter that was there waiting on the shavings for Derwan’s plasterers.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0015",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        }
+      }
     },
     {
       "id": 16,
@@ -481,7 +1644,53 @@ window.atlasData={
         "They pass along Montgomery Street.",
         "They return along Amiens Street.",
         "The stop at the cabmen’s shelter."
-      ]
+      ],
+      "excerpts": {
+        "original": {
+          "quote": "Preparatory to anything else Mr Bloom brushed off the greater bulk of the shavings and handed Stephen the hat and ashplant and bucked him up generally in orthodox Samaritan fashion which he very badly needed. His (Stephen’s) mind was not exactly what you would call wandering but a bit unsteady and on his expressed desire for some beverage to drink Mr Bloom in view of the hour it was and there being no pump of Vartry water available for their ablutions let alone drinking purposes hit upon an expedient by suggesting, off the reel, the propriety of the cabman’s shelter, as it was called, hardly a stonesthrow away […]",
+          "language": "en",
+          "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0016",
+          "attribution": "James Joyce · Ulysses · 1922",
+          "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+          "type": "original"
+        },
+        "translations": {}
+      },
+      "placeExcerpts": {
+        "beaver": {
+          "original": {
+            "quote": "Preparatory to anything else Mr Bloom brushed off the greater bulk of the shavings and handed Stephen the hat and ashplant and bucked him up generally in orthodox Samaritan fashion which he very badly needed. His (Stephen’s) mind was not exactly what you would call wandering but a bit unsteady and on his expressed desire for some beverage to drink Mr Bloom in view of the hour it was and there being no pump of Vartry water available for their ablutions let alone drinking purposes hit upon an expedient by suggesting, off the reel, the propriety of the cabman’s shelter, as it was called, hardly a stonesthrow away […]",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0016",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "foley": {
+          "original": {
+            "quote": "Preparatory to anything else Mr Bloom brushed off the greater bulk of the shavings and handed Stephen the hat and ashplant and bucked him up generally in orthodox Samaritan fashion which he very badly needed. His (Stephen’s) mind was not exactly what you would call wandering but a bit unsteady and on his expressed desire for some beverage to drink Mr Bloom in view of the hour it was and there being no pump of Vartry water available for their ablutions let alone drinking purposes hit upon an expedient by suggesting, off the reel, the propriety of the cabman’s shelter, as it was called, hardly a stonesthrow away […]",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0016",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "shelter": {
+          "original": {
+            "quote": "Preparatory to anything else Mr Bloom brushed off the greater bulk of the shavings and handed Stephen the hat and ashplant and bucked him up generally in orthodox Samaritan fashion which he very badly needed. His (Stephen’s) mind was not exactly what you would call wandering but a bit unsteady and on his expressed desire for some beverage to drink Mr Bloom in view of the hour it was and there being no pump of Vartry water available for their ablutions let alone drinking purposes hit upon an expedient by suggesting, off the reel, the propriety of the cabman’s shelter, as it was called, hardly a stonesthrow away […]",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0016",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        }
+      }
     },
     {
       "id": 17,
@@ -512,7 +1721,86 @@ window.atlasData={
         "Reference on the night-time return, reconstructed in map 32.",
         "Reference on the night-time return, reconstructed in map 32.",
         "Cocoa, conversation and farewell; Bloom returns to bed."
-      ]
+      ],
+      "excerpts": {
+        "original": {
+          "quote": "What parallel courses did Bloom and Stephen follow returning?",
+          "language": "en",
+          "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0017",
+          "attribution": "James Joyce · Ulysses · 1922",
+          "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+          "type": "original"
+        },
+        "translations": {}
+      },
+      "placeExcerpts": {
+        "shelter": {
+          "original": {
+            "quote": "Reminiscences of coincidences, truth stranger than fiction, preindicative of the result of the Gold Cup flat handicap, the official and definitive result of which he had read in the Evening Telegraph, late pink edition, in the cabman’s shelter, at Butt bridge.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0017",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "beresford": {
+          "original": {
+            "quote": "Starting united both at normal walking pace from Beresford place they followed in the order named Lower and Middle Gardiner streets and Mountjoy square, west: then, at reduced pace, each bearing left, Gardiner’s place by an inadvertence as far as the farther corner of Temple street: then, at reduced pace with interruptions of halt, bearing right, Temple street, north, as far as Hardwicke place. Approaching, disparate, at relaxed walking pace they crossed both the circus before George’s church diametrically, the chord in any circle being less than the arc which it subtends.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0017",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "middlegardiner": {
+          "original": {
+            "quote": "Starting united both at normal walking pace from Beresford place they followed in the order named Lower and Middle Gardiner streets and Mountjoy square, west: then, at reduced pace, each bearing left, Gardiner’s place by an inadvertence as far as the farther corner of Temple street: then, at reduced pace with interruptions of halt, bearing right, Temple street, north, as far as Hardwicke place. Approaching, disparate, at relaxed walking pace they crossed both the circus before George’s church diametrically, the chord in any circle being less than the arc which it subtends.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0017",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "temple": {
+          "original": {
+            "quote": "Starting united both at normal walking pace from Beresford place they followed in the order named Lower and Middle Gardiner streets and Mountjoy square, west: then, at reduced pace, each bearing left, Gardiner’s place by an inadvertence as far as the farther corner of Temple street: then, at reduced pace with interruptions of halt, bearing right, Temple street, north, as far as Hardwicke place. Approaching, disparate, at relaxed walking pace they crossed both the circus before George’s church diametrically, the chord in any circle being less than the arc which it subtends.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0017",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "george": {
+          "original": {
+            "quote": "Starting united both at normal walking pace from Beresford place they followed in the order named Lower and Middle Gardiner streets and Mountjoy square, west: then, at reduced pace, each bearing left, Gardiner’s place by an inadvertence as far as the farther corner of Temple street: then, at reduced pace with interruptions of halt, bearing right, Temple street, north, as far as Hardwicke place. Approaching, disparate, at relaxed walking pace they crossed both the circus before George’s church diametrically, the chord in any circle being less than the arc which it subtends.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0017",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        },
+        "eccles": {
+          "original": {
+            "quote": "At the housesteps of the 4th of the equidifferent uneven numbers, number 7 Eccles street, he inserted his hand mechanically into the back pocket of his trousers to obtain his latchkey.",
+            "language": "en",
+            "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0017",
+            "attribution": "James Joyce · Ulysses · 1922",
+            "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+            "type": "original"
+          },
+          "translations": {}
+        }
+      }
     },
     {
       "id": 18,
@@ -527,7 +1815,19 @@ window.atlasData={
       "text": "In the bedroom Molly thinks of the past, her desires and her relationship with Bloom. Her monologue closes the novel: geography expands through memory while her body stays at home.",
       "placeText": [
         "The present scene remains in Molly’s bedroom. Howth and Gibraltar belong to her memories and are not mapped as journeys made that night."
-      ]
+      ],
+      "excerpts": {
+        "original": {
+          "quote": "Yes because he never did a thing like that before as ask to get his breakfast in bed with a couple of eggs since the City Arms hotel when he used to be pretending to be laid up with a sick voice doing his highness to make himself interesting for that old faggot Mrs Riordan that he thought he had a great leg of and she never left us a farthing all for masses for herself and her soul greatest miser ever was actually afraid to lay out 4d for her methylated spirit telling me all her ailments she had too much old chat in her about politics and earthquakes and the end of the world let us have a bit of fun first God […]",
+          "language": "en",
+          "url": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm#link2HCH0018",
+          "attribution": "James Joyce · Ulysses · 1922",
+          "rightsUrl": "https://www.gutenberg.org/ebooks/4300",
+          "type": "original"
+        },
+        "translations": {}
+      },
+      "placeExcerpts": {}
     }
   ],
   "places": {

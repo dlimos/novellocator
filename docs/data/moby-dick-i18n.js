@@ -352,7 +352,15 @@ window.atlasTranslations={
     "South America": "America meridionale",
     "New Zealand": "Nuova Zelanda",
     "New Guinea": "Nuova Guinea",
-    "Galápagos Islands": "Isole Galápagos"
+    "Galápagos Islands": "Isole Galápagos",
+    "Markers show settings of narrated events, including embedded stories. Offshore passages use regional landmarks; the ship’s exact position is not asserted.": "I punti mostrano i luoghi degli eventi narrati, compresi i racconti inseriti. I passaggi al largo usano riferimenti regionali; non viene affermata la posizione esatta della nave.",
+    "Read the chapter alongside its narrated settings. Geographical comparisons, origins and planned destinations are excluded from the map.": "Leggi il capitolo insieme alle sue ambientazioni narrative. Paragoni geografici, provenienze e destinazioni soltanto previste sono esclusi dalla mappa.",
+    "Choose a chapter to explore where its narrated events take place.": "Scegli un capitolo per esplorare dove si svolgono gli eventi narrati.",
+    "The map follows the action, including recalled events. Allusions and planned routes are omitted. No exact wreck or rescue point is invented.": "La mappa segue l’azione, compresi gli eventi ricordati. Allusioni e rotte previste sono omesse. Non vengono inventati punti esatti di naufragio o salvataggio.",
+    "Download chapter–setting records (CSV)": "Scarica i riferimenti capitolo–ambientazione (CSV)",
+    "<p>23 settings · 44 chapter references · 14 settings without verified coordinates.</p><p>The map follows the action, including recalled events. Allusions and planned routes are omitted. No exact wreck or rescue point is invented.</p><p><a href=\"moby-dick-places-en.csv\" download>Download chapter–setting records (CSV)</a></p>": "<p>23 ambientazioni · 44 riferimenti nei capitoli · 14 ambientazioni senza coordinate verificate.</p><p>La mappa segue l’azione, compresi gli eventi ricordati. Allusioni e rotte previste sono omesse. Non vengono inventati punti esatti di naufragio o salvataggio.</p><p><a href=\"moby-dick-places-it.csv\" download>Scarica i riferimenti capitolo–ambientazione (CSV)</a></p>",
+    "This marker identifies the named area or landmark. Offshore scenes have no exact ship coordinate; private interiors and encounter points remain unverified.": "Il punto identifica l’area o il riferimento geografico citato. Le scene al largo non hanno coordinate esatte della nave; interni privati e punti d’incontro restano non verificati.",
+    "<p>21 settings · 42 chapter references · 14 settings without verified coordinates.</p><p>The map follows the action, including recalled events. Allusions and planned routes are omitted. No exact wreck or rescue point is invented.</p><p><a href=\"moby-dick-places-en.csv\" download>Download chapter–setting records (CSV)</a></p>": "<p>21 ambientazioni · 42 riferimenti nei capitoli · 14 ambientazioni senza coordinate verificate.</p><p>La mappa segue l’azione, compresi gli eventi ricordati. Allusioni e rotte previste sono omesse. Non vengono inventati punti esatti di naufragio o salvataggio.</p><p><a href=\"moby-dick-places-it.csv\" download>Scarica i riferimenti capitolo–ambientazione (CSV)</a></p>"
   },
   "fr": {
     "Geographical reference / allusion": "Référence géographique / allusion",
@@ -707,7 +715,15 @@ window.atlasTranslations={
     "South America": "Amérique du Sud",
     "New Zealand": "Nouvelle-Zélande",
     "New Guinea": "Nouvelle-Guinée",
-    "Galápagos Islands": "Îles Galápagos"
+    "Galápagos Islands": "Îles Galápagos",
+    "Markers show settings of narrated events, including embedded stories. Offshore passages use regional landmarks; the ship’s exact position is not asserted.": "Les points montrent les lieux des événements racontés, y compris les récits enchâssés. Les passages au large utilisent des repères régionaux ; la position exacte du navire n’est pas affirmée.",
+    "Read the chapter alongside its narrated settings. Geographical comparisons, origins and planned destinations are excluded from the map.": "Lisez le chapitre avec ses cadres narratifs. Les comparaisons géographiques, origines et destinations seulement prévues sont exclues de la carte.",
+    "Choose a chapter to explore where its narrated events take place.": "Choisissez un chapitre pour explorer les lieux des événements racontés.",
+    "The map follows the action, including recalled events. Allusions and planned routes are omitted. No exact wreck or rescue point is invented.": "La carte suit l’action, y compris les événements remémorés. Les allusions et itinéraires prévus sont omis. Aucun point exact de naufrage ou de sauvetage n’est inventé.",
+    "Download chapter–setting records (CSV)": "Télécharger les références chapitre–lieu (CSV)",
+    "<p>23 settings · 44 chapter references · 14 settings without verified coordinates.</p><p>The map follows the action, including recalled events. Allusions and planned routes are omitted. No exact wreck or rescue point is invented.</p><p><a href=\"moby-dick-places-en.csv\" download>Download chapter–setting records (CSV)</a></p>": "<p>23 lieux du récit · 44 références dans les chapitres · 14 lieux sans coordonnées vérifiées.</p><p>La carte suit l’action, y compris les événements remémorés. Les allusions et itinéraires prévus sont omis. Aucun point exact de naufrage ou de sauvetage n’est inventé.</p><p><a href=\"moby-dick-places-fr.csv\" download>Télécharger les références chapitre–lieu (CSV)</a></p>",
+    "This marker identifies the named area or landmark. Offshore scenes have no exact ship coordinate; private interiors and encounter points remain unverified.": "Ce point identifie la zone ou le repère géographique nommé. Les scènes au large n’ont pas de coordonnées exactes du navire ; les intérieurs privés et points de rencontre restent non vérifiés.",
+    "<p>21 settings · 42 chapter references · 14 settings without verified coordinates.</p><p>The map follows the action, including recalled events. Allusions and planned routes are omitted. No exact wreck or rescue point is invented.</p><p><a href=\"moby-dick-places-en.csv\" download>Download chapter–setting records (CSV)</a></p>": "<p>21 lieux du récit · 42 références dans les chapitres · 14 lieux sans coordonnées vérifiées.</p><p>La carte suit l’action, y compris les événements remémorés. Les allusions et itinéraires prévus sont omis. Aucun point exact de naufrage ou de sauvetage n’est inventé.</p><p><a href=\"moby-dick-places-fr.csv\" download>Télécharger les références chapitre–lieu (CSV)</a></p>"
   },
   "es": {
     "Geographical reference / allusion": "Referencia geográfica / alusión",
@@ -1062,6 +1078,14 @@ window.atlasTranslations={
     "South America": "América del Sur",
     "New Zealand": "Nueva Zelanda",
     "New Guinea": "Nueva Guinea",
-    "Galápagos Islands": "Islas Galápagos"
+    "Galápagos Islands": "Islas Galápagos",
+    "Markers show settings of narrated events, including embedded stories. Offshore passages use regional landmarks; the ship’s exact position is not asserted.": "Los puntos muestran los lugares de los sucesos narrados, incluidos los relatos intercalados. Los pasos en alta mar usan referencias regionales; no se afirma la posición exacta del barco.",
+    "Read the chapter alongside its narrated settings. Geographical comparisons, origins and planned destinations are excluded from the map.": "Lee el capítulo junto a sus escenarios narrativos. Las comparaciones geográficas, procedencias y destinos solo previstos se excluyen del mapa.",
+    "Choose a chapter to explore where its narrated events take place.": "Elige un capítulo para explorar dónde suceden los hechos narrados.",
+    "The map follows the action, including recalled events. Allusions and planned routes are omitted. No exact wreck or rescue point is invented.": "El mapa sigue la acción, incluidos los sucesos recordados. Se omiten las alusiones y rutas previstas. No se inventa ningún punto exacto de naufragio ni rescate.",
+    "Download chapter–setting records (CSV)": "Descargar las referencias capítulo–escenario (CSV)",
+    "<p>23 settings · 44 chapter references · 14 settings without verified coordinates.</p><p>The map follows the action, including recalled events. Allusions and planned routes are omitted. No exact wreck or rescue point is invented.</p><p><a href=\"moby-dick-places-en.csv\" download>Download chapter–setting records (CSV)</a></p>": "<p>23 escenarios · 44 referencias en los capítulos · 14 escenarios sin coordenadas verificadas.</p><p>El mapa sigue la acción, incluidos los sucesos recordados. Se omiten las alusiones y rutas previstas. No se inventa ningún punto exacto de naufragio ni rescate.</p><p><a href=\"moby-dick-places-es.csv\" download>Descargar las referencias capítulo–escenario (CSV)</a></p>",
+    "This marker identifies the named area or landmark. Offshore scenes have no exact ship coordinate; private interiors and encounter points remain unverified.": "El punto identifica la zona o referencia geográfica nombrada. Las escenas en alta mar no tienen coordenadas exactas del barco; los interiores privados y puntos de encuentro siguen sin verificarse.",
+    "<p>21 settings · 42 chapter references · 14 settings without verified coordinates.</p><p>The map follows the action, including recalled events. Allusions and planned routes are omitted. No exact wreck or rescue point is invented.</p><p><a href=\"moby-dick-places-en.csv\" download>Download chapter–setting records (CSV)</a></p>": "<p>21 escenarios · 42 referencias en los capítulos · 14 escenarios sin coordenadas verificadas.</p><p>El mapa sigue la acción, incluidos los sucesos recordados. Se omiten las alusiones y rutas previstas. No se inventa ningún punto exacto de naufragio ni rescate.</p><p><a href=\"moby-dick-places-es.csv\" download>Descargar las referencias capítulo–escenario (CSV)</a></p>"
   }
 };

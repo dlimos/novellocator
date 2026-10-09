@@ -20,3 +20,6 @@
 .art-melville{background:#234a61;color:#dce9dd}
 .original-excerpt blockquote,.unlocated-places blockquote{margin:12px 0;padding:12px 16px;border-left:2px solid #b99b54;font-size:.9rem;line-height:1.6;overflow-wrap:anywhere}
 .unlocated-places{margin-top:24px}.unlocated-places .location-evidence{margin-top:12px}
+
+.original-excerpt{margin-top:16px}.original-excerpt>summary{cursor:pointer;font-weight:600}.excerpt-credit{font-size:.8rem;line-height:1.5;overflow-wrap:anywhere}
+.section-excerpt{grid-column:1/-1}

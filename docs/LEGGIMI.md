@@ -111,8 +111,14 @@ Fonti principali, oltre ai collegamenti geografici di ogni scheda:
 
 ## Moby-Dick
 
-135 capitoli e un epilogo, con 276 luoghi, 595 riferimenti capitolo–luogo e 21 riferimenti privi di coordinate. Le citazioni sono verificate sul testo inglese integrale di Project Gutenberg e restano in inglese anche nelle interfacce italiana, francese e spagnola. Le posizioni hanno fonti geografiche separate. Le citazioni non indicano necessariamente tappe del Pequod: distinguere ambientazioni, ricordi, rotta prevista e allusioni.
+135 capitoli e un epilogo, con 21 ambientazioni, 42 riferimenti capitolo–ambientazione e 14 ambientazioni prive di coordinate. Le citazioni sono verificate sul testo inglese integrale di Project Gutenberg e restano in inglese anche nelle interfacce italiana, francese e spagnola. Le posizioni hanno fonti geografiche separate. Le mappe includono solo ambientazioni degli eventi narrati e dei racconti inseriti. Allusioni, provenienze e destinazioni soltanto previste sono escluse.
 
 Water Street indica Liverpool, secondo l’edizione critica della Melville Electronic Library. La Seamen’s Bethel è il modello della cappella immaginaria; il pulpito attuale è una replica del 1961. Tranque, Arsacidi, locande immaginarie e naufragio finale non hanno punti inventati. Una vista regionale senza punti correnti è solo contestuale. I CSV includono anche i riferimenti senza coordinate. La selezione è ampia, ma non pretende di esaurire ogni toponimo del romanzo.
 
 Dati: `data/moby-dick.js`, traduzioni: `data/moby-dick-i18n.js`. Il motore comune supporta citazioni (`placeQuotes`), ruoli geografici (`placeRoles`), punti prioritari nella panoramica (`overviewPlaces`), vista contestuale (`initialView`) e riferimenti non geolocalizzati (`unlocatedPlaces`).
+
+## Estratti letterari
+
+Ogni sezione di Ulisse, Proust e Guerra e pace include un estratto originale, rispettivamente in inglese, francese e russo. 219 riferimenti capitolo–luogo hanno anche un passaggio della relativa sezione o un ricordo con fonte esplicita: 128 originali e 91 estratti dalla traduzione storica Maude. I passaggi della sezione sono distinti da quelli del luogo; una citazione non identifica l’indirizzo reale di un modello letterario.
+
+Traduzioni storiche di pubblico dominio disponibili: Scott Moncrieff per i primi sei volumi di Proust; Maude (inglese) e Bienstock (francese) per Tolstoj. Compaiono accanto all’originale quando corrispondono alla lingua scelta. Il pannello della sezione conserva l’originale quando manca una traduzione verificata nella lingua scelta. I passaggi relativi ai luoghi di Tolstoj sono etichettati separatamente come traduzioni inglesi Maude in tutte le interfacce; l’originale russo resta nel pannello della sezione. Sono esclusi revisioni moderne, traduttori non identificati e note editoriali. Ogni citazione riporta fonte, attribuzione e informazioni sull’edizione. Le suddivisioni russe e della traduzione Maude differiscono: i riferimenti restano distinti.

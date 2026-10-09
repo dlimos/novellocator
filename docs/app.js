@@ -60,9 +60,18 @@ function selectChapter(index,move=true,updateHash=true){
  if(updateHash)window.location.hash=`${book.hashPrefix}-${chapter.id}`;
  if(window.innerWidth<=700)list.children[current].scrollIntoView({behavior:reduced?'instant':'smooth',block:'nearest',inline:'center'});
 }
+function renderExcerpts(excerpts,heading){
+ if(!excerpts)return '';
+ const languageNames={en:'English',fr:'French',ru:'Russian',it:'Italian',es:'Spanish'};
+ const records=excerpts.original?[excerpts.original]:[];const translated=excerpts.translations?.[locale]||(!excerpts.original?excerpts.translations?.en:null);
+ if(translated&&translated.language!==excerpts.original?.language)records.push(translated);
+ if(!records.length)return '';
+ return `<details class="original-excerpt"><summary>${esc(t(heading))}</summary>${records.map(item=>`<p><strong>${esc(t(item.type==='translation'?'Public-domain translation':'Original text'))} · ${esc(t(languageNames[item.language]||item.language))}</strong></p><blockquote lang="${esc(item.language)}">${esc(item.quote)}</blockquote><p class="excerpt-credit">${esc(item.attribution)}<br><a href="${esc(item.url)}" target="_blank" rel="noopener noreferrer">${esc(t('Read the source'))}</a> · <a href="${esc(item.rightsUrl)}" target="_blank" rel="noopener noreferrer">${esc(t('Edition and rights'))}</a></p>`).join('')}</details>`;
+}
 function renderDetail(){
  const chapter=chapters[current];
  document.getElementById('detail').innerHTML=`<div><p class="detail-eyebrow">${esc(book.unit.toUpperCase())} ${number(chapter.id)} ${t('DI')} ${chapters.length}${chapter.english&&chapter.english!==chapter.title?` · ${esc(chapter.english)}`:''}</p><h2>${esc(chapter.title)}</h2><div class="tags"><span class="tag">${esc(chapter.time)}</span><span class="tag">${esc(chapter.people)}</span></div><div class="detail-nav"><button type="button" id="previous" aria-label="${esc(t('Sezione precedente'))}" ${current===0?'disabled':''}>${t('Precedente')}</button><button type="button" id="next" aria-label="${esc(t('Sezione successiva'))}" ${current===chapters.length-1?'disabled':''}>${t('Successivo')}</button></div><p class="episode-source">${(chapter.links||book.links).map(link=>`<a class="source-link" href="${esc(link.url)}" target="_blank" rel="noopener noreferrer">${esc(link.label)}</a>`).join("<br>")}</p></div><div class="detail-text"><p>${esc(chapter.text)}</p><h3 class="locations-heading">${t('Luoghi')} <span>${chapter.places.length}</span></h3><div class="location-buttons" id="episode-locations" aria-label="${t('Luoghi')}"></div><div id="selected-location" aria-live="polite"></div>${chapter.note?`<p class="episode-note">${esc(chapter.note)}</p>`:''}</div>`;
+ if(chapter.excerpts){const excerpt=document.createElement('div');excerpt.className='section-excerpt';excerpt.innerHTML=renderExcerpts(chapter.excerpts,'Text from this section');document.getElementById('detail').appendChild(excerpt);}
  document.getElementById('previous').onclick=()=>selectChapter(current-1);
  document.getElementById('next').onclick=()=>selectChapter(current+1);
  const locations=document.getElementById('episode-locations');
@@ -89,6 +98,8 @@ function renderLocation(){
  document.getElementById('selected-location').innerHTML+=`<div class="street-view-action"><a class="street-view-link" id="street-view-link" href="${esc(streetViewUrl(place))}" target="_blank" rel="noopener noreferrer" aria-label="${esc(t('Apri Street View in una nuova finestra')+': '+place.name)}">Google Street View <span aria-hidden="true">↗</span></a><p class="street-view-note">${esc(t('Google mostra il panorama disponibile più vicino: può essere spostato rispetto al punto e dipende dalla copertura.'))}</p></div>`;
  const quote=chapter.placeQuotes?.[chapter.places[selectedPlace]];
  if(quote){const evidence=document.createElement('div');evidence.className='original-excerpt';evidence.innerHTML=`<p><strong>${esc(t('Original text (English)'))}</strong></p><blockquote lang="en">${esc(quote)}</blockquote>`;document.getElementById('selected-location').appendChild(evidence);}
+ const excerpt=chapter.placeExcerpts?.[chapter.places[selectedPlace]];
+ if(excerpt){const evidence=document.createElement('div');evidence.innerHTML=renderExcerpts(excerpt,'Passage from the novel');document.getElementById('selected-location').appendChild(evidence);}
  document.getElementById('street-view-link').onclick=openStreetView;
 }
 function selectPlace(index){
