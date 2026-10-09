@@ -11,6 +11,8 @@ novellocator/
 │   ├── atlas.html                 Pagina comune della mappa
 │   ├── app.js                     Motore dell'atlante
 │   ├── style.css                  Aspetto e impaginazione
+│   ├── literary.css               Tema ispirato alla tipografia dei libri ottocenteschi
+│   ├── images/                    Dipinti storici della home e relative fonti
 │   ├── basemaps.js                Elenco degli sfondi cartografici
 │   ├── load-book.js               Caricamento del romanzo richiesto
 │   ├── supabase-config.js         URL e chiave pubblica del progetto

@@ -169,7 +169,13 @@ window.atlasLocaleData={
       "Fullscreen": "Schermo intero",
       "Exit fullscreen": "Esci da schermo intero",
       "Close details": "Chiudi dettagli",
-      "Choose section": "Scegli la sezione"
+      "Choose section": "Scegli la sezione",
+      "Image credits": "Crediti delle immagini",
+      "Historical artworks chosen to evoke each novel’s setting.": "Opere storiche scelte per evocare l’ambientazione di ciascun romanzo.",
+      "Dublin and the River Liffey, by James Malton": "Dublino e il fiume Liffey, di James Malton",
+      "A seaside garden in Normandy, by Claude Monet": "Un giardino sul mare in Normandia, di Claude Monet",
+      "Napoleon at Borodino, by Vasily Vereshchagin": "Napoleone a Borodino, di Vasilij Vereščagin",
+      "Whaling ships at sea, by J. M. W. Turner": "Baleniere in mare, di J. M. W. Turner"
     },
     "en": {
       "Atlante letterario": "Literary Atlas",
@@ -321,7 +327,13 @@ window.atlasLocaleData={
       "Fullscreen": "Fullscreen",
       "Exit fullscreen": "Exit fullscreen",
       "Close details": "Close details",
-      "Choose section": "Choose section"
+      "Choose section": "Choose section",
+      "Image credits": "Image credits",
+      "Historical artworks chosen to evoke each novel’s setting.": "Historical artworks chosen to evoke each novel’s setting.",
+      "Dublin and the River Liffey, by James Malton": "Dublin and the River Liffey, by James Malton",
+      "A seaside garden in Normandy, by Claude Monet": "A seaside garden in Normandy, by Claude Monet",
+      "Napoleon at Borodino, by Vasily Vereshchagin": "Napoleon at Borodino, by Vasily Vereshchagin",
+      "Whaling ships at sea, by J. M. W. Turner": "Whaling ships at sea, by J. M. W. Turner"
     },
     "fr": {
       "Atlante letterario": "Atlas littéraire",
@@ -473,7 +485,13 @@ window.atlasLocaleData={
       "Fullscreen": "Plein écran",
       "Exit fullscreen": "Quitter le plein écran",
       "Close details": "Fermer les détails",
-      "Choose section": "Choisir la section"
+      "Choose section": "Choisir la section",
+      "Image credits": "Crédits des images",
+      "Historical artworks chosen to evoke each novel’s setting.": "Œuvres historiques choisies pour évoquer le cadre de chaque roman.",
+      "Dublin and the River Liffey, by James Malton": "Dublin et la rivière Liffey, par James Malton",
+      "A seaside garden in Normandy, by Claude Monet": "Un jardin en bord de mer en Normandie, par Claude Monet",
+      "Napoleon at Borodino, by Vasily Vereshchagin": "Napoléon à Borodino, par Vassili Verechtchaguine",
+      "Whaling ships at sea, by J. M. W. Turner": "Baleiniers en mer, par J. M. W. Turner"
     },
     "es": {
       "Atlante letterario": "Atlas literario",
@@ -625,7 +643,13 @@ window.atlasLocaleData={
       "Fullscreen": "Pantalla completa",
       "Exit fullscreen": "Salir de pantalla completa",
       "Close details": "Cerrar detalles",
-      "Choose section": "Elegir la sección"
+      "Choose section": "Elegir la sección",
+      "Image credits": "Créditos de las imágenes",
+      "Historical artworks chosen to evoke each novel’s setting.": "Obras históricas elegidas para evocar el escenario de cada novela.",
+      "Dublin and the River Liffey, by James Malton": "Dublín y el río Liffey, de James Malton",
+      "A seaside garden in Normandy, by Claude Monet": "Un jardín junto al mar en Normandía, de Claude Monet",
+      "Napoleon at Borodino, by Vasily Vereshchagin": "Napoleón en Borodinó, de Vasili Vereshchaguin",
+      "Whaling ships at sea, by J. M. W. Turner": "Barcos balleneros en el mar, de J. M. W. Turner"
     }
   }
 };

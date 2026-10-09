@@ -11,8 +11,8 @@
   const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);
   const nodes=[];while(walker.nextNode())nodes.push(walker.currentNode);
   for(const node of nodes){if(node.parentElement?.closest('script,style,.esri-view'))continue;const key=node.textContent.trim();if(key)node.textContent=node.textContent.replace(key,t(key));}
-  for(const element of root.querySelectorAll('[aria-label],[title],meta[name="description"]')){
-   for(const attr of ['aria-label','title','content'])if(element.hasAttribute(attr))element.setAttribute(attr,t(element.getAttribute(attr)));
+  for(const element of root.querySelectorAll('[aria-label],[title],[alt],meta[name="description"]')){
+   for(const attr of ['aria-label','title','alt','content'])if(element.hasAttribute(attr))element.setAttribute(attr,t(element.getAttribute(attr)));
   }
  }
  function localizeData(value,key){
