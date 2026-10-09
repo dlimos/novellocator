@@ -22,7 +22,7 @@ html[data-book="moby-dick"]{
 html[data-book="gatsby"]{
  --ink:#193c40;--muted:#536867;--paper:#f1ebdc;--line:#c9b47c;--accent:#8b6927;
  --panel:#fffaf0;--wash:#faf3e5;--heading-font:'DM Sans',Arial,sans-serif;
- --ornament:'◇';--book-art:url('images/gatsby.jpg');
+ --ornament:'◇';--book-art:url('images/gatsby-new-york-1920.jpg');
 }
 html[data-book] body{background:radial-gradient(ellipse at 50% 0,var(--wash),transparent 80%),var(--paper)}
 html[data-book] .masthead{border-bottom:3px double var(--line)}

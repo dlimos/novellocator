@@ -39,8 +39,8 @@ function translations(value,key){if(Array.isArray(value)){for(const x of value)t
 translations(data);
 assert.equal(dictionary.it['The Great Gatsby'],'Il grande Gatsby');assert.equal(dictionary.fr['The Great Gatsby'],'Gatsby le Magnifique');assert.equal(dictionary.es['The Great Gatsby'],'El gran Gatsby');
 const home=fs.readFileSync('docs/index.html','utf8'),theme=fs.readFileSync('docs/book-themes.css','utf8');
-assert.match(home,/href="atlas\.html\?book=gatsby"/);assert.match(home,/images\/gatsby\.jpg/);assert.match(theme,/html\[data-book="gatsby"\]/);
-assert.ok(fs.statSync('docs/images/gatsby.jpg').size>10_000);
+assert.match(home,/href="atlas\.html\?book=gatsby"/);assert.match(home,/images\/gatsby-new-york-1920\.jpg/);assert.match(theme,/html\[data-book="gatsby"\]/);
+assert.ok(fs.statSync('docs/images/gatsby-new-york-1920.jpg').size>10_000);
 for(const file of ['docs/data/gatsby.js','docs/data/gatsby-i18n.js','docs/data/gatsby-original.json','docs/data/gatsby-audit.json','database/generated/gatsby/sql-editor/01-import.sql'])assert.equal(cp.spawnSync('git',['check-ignore','-q',file]).status,0,file+' must remain local');
 assert.equal(cp.spawnSync('git',['ls-files','docs/data/gatsby*'],{encoding:'utf8'}).stdout.trim(),'');
 console.log('PASS: Gatsby original quotations in nine chapters, action/mention distinctions, fictional-site uncertainty, geocoder disambiguation, four complete description languages and local-only data.');
