@@ -12,3 +12,7 @@ These historical artworks evoke the novels' settings. They are not presented as 
 Source descriptions and reuse labels checked on 9 October 2026. The downloaded Commons previews are 960 pixels wide, except the Malton image, whose available original is 551 pixels wide. The page crops the images through CSS only; original downloaded files are retained.
 
 The choice of Turner's whaling scene is also informed by the Met's [Turner's Whaling Pictures exhibition](https://www.metmuseum.org/exhibitions/listings/2016/turner-whaling-pictures), which discusses the connections with Melville's novel. Monet's Normandy seaside garden is used as an atmospheric reference for Proust's coastal settings, without claiming that it depicts Balbec.
+
+## The Great Gatsby
+
+Alfred Stieglitz, *The Flatiron Building*, 1903 (photogravure, Getty collection). [Source and public-domain declaration](https://commons.wikimedia.org/wiki/File:Alfred_Stieglitz_-_The_Flatiron_Building_-_Google_Art_Project.jpg). Author died 1946; published before 1931. A historical image evoking Manhattan; the Flatiron is not added as a location in the novel. Local file: `gatsby.jpg`, 960 × 1906 pixels.

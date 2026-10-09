@@ -14,6 +14,13 @@ async function main(){
   const imported:Bundle={formatVersion:1,tables:{...bundle.tables}};
   for(const table of tables){const result=await db.query<Row>('select * from public.'+table);assert.equal(result.rows.length,bundle.tables[table].length,table+' idempotent import');imported.tables[table]=result.rows;}
   for(const input of inputs){const rebuilt=reconstruct(imported,input.id);assert.deepEqual(rebuilt.data,input.data,input.id+' exact dataset round trip through PostgreSQL');assert.deepEqual(rebuilt.dictionary,input.dictionary,input.id+' all translations preserved');}
+  // Importing a single additional book preserves every existing book.
+  const added=normalize(inputs.filter(input=>input.id==='gatsby'));
+  assert.equal(added.tables.books.length,1);for(const table of tables)for(const row of added.tables[table])assert.equal(table==='books'?row.id:row.book_id,'gatsby');
+  await db.exec("update public.books set title='Existing title preserved' where id='ulisse'");
+  for(const chunk of seedSqlChunks(added)){assert.ok(Buffer.byteLength(chunk,'utf8')<=250_000);await db.exec(chunk);}
+  assert.equal((await db.query<Row>("select title from public.books where id='ulisse'")).rows[0].title,'Existing title preserved');
+  assert.equal((await db.query("select * from public.sections where book_id='gatsby'")).rows.length,9);await db.exec(sql);
   // Geographical updates affect exported coordinates without changing sources.
   await db.exec("update public.places set latitude=53.3 where book_id='ulisse' and id='tower'");
   const changed=await db.query<Row>('select * from public.places');const exportBundle={...imported,tables:{...imported.tables,places:changed.rows}};assert.equal(reconstruct(exportBundle,'ulisse').data.places.tower.coords[0],53.3);await db.exec(sql);
@@ -34,7 +41,7 @@ async function main(){
   await db.exec("insert into public.sections(book_id,id,ordinal,title) values ('draft',1,0,'Fantasy chapter');insert into public.section_maps values ('draft',1,'fantasy',true)");
   await assert.rejects(db.exec("insert into public.section_maps values ('ulisse',1,'fantasy',true)"));
   async function identity(role:'anon'|'authenticated',uid=''){await db.exec('reset role');await db.query("select set_config('request.jwt.claim.sub',$1,false)",[uid]);await db.exec('set role '+role);}
-  await identity('anon');assert.equal((await db.query('select * from public.books')).rows.length,4);assert.equal((await db.query("select * from public.places where book_id='draft'")).rows.length,0);for(const table of ['book_maps','section_maps','map_layers','place_positions']){assert.equal((await db.query('select * from public.'+table)).rows.length,0);await assert.rejects(db.exec('delete from public.'+table));}
+  await identity('anon');assert.equal((await db.query('select * from public.books')).rows.length,inputs.length);assert.equal((await db.query("select * from public.places where book_id='draft'")).rows.length,0);for(const table of ['book_maps','section_maps','map_layers','place_positions']){assert.equal((await db.query('select * from public.'+table)).rows.length,0);await assert.rejects(db.exec('delete from public.'+table));}
   await assert.rejects(db.exec("update public.books set title='Hacked' where id='ulisse'"));await assert.rejects(db.exec('select * from public.editorial_memberships'));await assert.rejects(db.exec('select * from public.favorite_places'));
   await identity('authenticated',users.reader);assert.equal((await db.query("update public.books set title='Hacked' where id='ulisse' returning id")).rows.length,0);
   await assert.rejects(db.exec("insert into public.editorial_memberships values ('"+users.reader+"','admin')"));
@@ -42,11 +49,11 @@ async function main(){
   await assert.rejects(db.query("insert into public.favorite_places(user_id,book_id,place_id) values ($1,'ulisse','tower')",[users.other]));
   await assert.rejects(db.query("insert into public.favorite_places(user_id,book_id,place_id) values ($1,'draft','hidden')",[users.reader]));
   await identity('authenticated',users.other);assert.equal((await db.query('select * from public.favorite_places')).rows.length,0);assert.equal((await db.query('delete from public.favorite_places returning *')).rows.length,0);
-  await identity('authenticated',users.editor);assert.equal((await db.query('select * from public.books')).rows.length,5);assert.equal((await db.query("update public.books set title='Edited' where id='ulisse' returning id")).rows.length,1);assert.equal((await db.query("delete from public.books where id='draft' returning id")).rows.length,0);assert.equal((await db.query('select * from public.place_positions')).rows.length,1);assert.equal((await db.query("update public.map_layers set default_visible=false where book_id='draft' returning id")).rows.length,1);
+  await identity('authenticated',users.editor);assert.equal((await db.query('select * from public.books')).rows.length,inputs.length+1);assert.equal((await db.query("update public.books set title='Edited' where id='ulisse' returning id")).rows.length,1);assert.equal((await db.query("delete from public.books where id='draft' returning id")).rows.length,0);assert.equal((await db.query('select * from public.place_positions')).rows.length,1);assert.equal((await db.query("update public.map_layers set default_visible=false where book_id='draft' returning id")).rows.length,1);
   await assert.rejects(db.query("insert into public.editorial_memberships values ($1,'admin')",[users.other]));
   await identity('authenticated',users.admin);await db.query("insert into public.editorial_memberships values ($1,'editor')",[users.other]);assert.equal((await db.query("delete from public.books where id='draft' returning id")).rows.length,1);
   await identity('authenticated',users.reader);assert.equal((await db.query('delete from public.favorite_places returning *')).rows.length,1);
-  console.log('PASS: PostgreSQL/PGlite migrations, exact import/export of four novels, fantasy webmap/section/layers with local coordinates, constraints and anonymous/reader/editor/admin RLS.');
+  console.log('PASS: PostgreSQL/PGlite migrations, exact import/export of five novels, fantasy webmap/section/layers with local coordinates, constraints and anonymous/reader/editor/admin RLS.');
  }finally{await db.close();}
 }
 main().catch(error=>{console.error(error instanceof Error?error.message:String(error));process.exitCode=1});

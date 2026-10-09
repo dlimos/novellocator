@@ -12,7 +12,7 @@ function setup(book,lang){
  return{ctx,elements,document,events,resizeCallbacks,focus:()=>focused,run:s=>vm.runInContext(s,ctx)};
 }
 (async()=>{
- for(const book of ['ulisse','proust','war-and-peace','moby-dick'])for(const lang of ['en','it','fr','es']){
+ for(const book of ['ulisse','proust','war-and-peace','moby-dick','gatsby'])for(const lang of ['en','it','fr','es']){
   const {ctx,elements,document,events,resizeCallbacks,focus,run}=setup(book,lang),data=ctx.window.atlasData,t=ctx.window.atlasI18n.t;
   const chapter=data.chapters.findIndex(c=>c.places.length&&c.citations.length);run('selectChapter('+chapter+',false,false)');
   run("hits=[{type:'graphic',graphic:{attributes:{chapterId:activeChapter().id,placeIndex:0,category:'action'}}}]");await run('selectMapPoint({})');assert.equal(elements['map-place-popup'].hidden,true,'embedded map uses the existing detail panel');
@@ -39,5 +39,5 @@ function setup(book,lang){
   delete elements['map-stage'].requestFullscreen;await elements['map-fullscreen'].events.click();assert.equal(run('mapIsFullscreen()'),true);run('selectAllPlaces(false,false)');run("hits=[{type:'graphic',graphic:{attributes:{chapterId:'all',citationIndex:0,category:'mentioned'}}}]");await run('selectMapPoint({})');assert.equal(elements['map-place-popup'].hidden,false);assert.match(elements['map-popup-content'].innerHTML,/section-link/);run('selectChapter(0,false,false)');assert.equal(elements['map-place-popup'].hidden,true);await elements['map-fullscreen'].events.click();
  }
  const html=fs.readFileSync('docs/atlas.html','utf8');assert.match(html,/id="map-stage"/);assert.match(html,/id="map-fullscreen"/);assert.match(html,/role="dialog" aria-modal="false" aria-labelledby="map-popup-title" hidden/);
- console.log('PASS: fullscreen and popups in four novels/languages; mobile visible-area centering, dynamic content/rotation and padding reset; section picker, global view, native/fallback fullscreen, Escape, focus and references.');
+ console.log('PASS: fullscreen and popups in five novels/languages; mobile visible-area centering, dynamic content/rotation and padding reset; section picker, global view, native/fallback fullscreen, Escape, focus and references.');
 })().catch(error=>{console.error(error);process.exit(1)});

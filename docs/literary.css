@@ -43,3 +43,5 @@ h1,.detail h2,.book-copy h2,.map-place-popup h2{font-family:'EB Garamond',Georgi
 .art-credits ul{padding-left:20px}.art-credits li{margin:7px 0}.art-credits a{text-underline-offset:3px}
 @media(max-width:700px){.library-page .masthead{height:76px;padding:0 5%}.brand{font-size:21px}.catalogue-intro{padding:35px 0 30px;margin-bottom:26px}.catalogue-intro h1{font-size:49px;letter-spacing:-.8px}.catalogue-intro>p:last-child{font-size:19px}.book-grid{grid-template-columns:1fr;gap:25px}.book-art{height:auto;aspect-ratio:1.6}.book-copy{padding:21px 23px}.book-copy h2{font-size:37px}.book-meta{flex-direction:row}.catalogue-footer details{text-align:left;margin-top:14px}.detail-text p{font-size:17px}}
 @media(prefers-reduced-motion:reduce){.book-card{transition:none}}
+/* Gatsby's historical Manhattan photograph is tall; keep the building in the crop. */
+.art-gatsby img{object-position:center 36%}

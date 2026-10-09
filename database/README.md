@@ -12,7 +12,7 @@ I CSV di `docs/*.csv` sono copie locali escluse da Git. Il sito genera i downloa
 
 Se la connessione fallisce entro 20 secondi, il loader mostra un errore in EN/IT/FR/ES. Non carica file dati locali. `window.atlasDataSource` indica `supabase` quando il caricamento riesce. Gli aggiornamenti del database sono letti al caricamento della pagina; non è una sincronizzazione in tempo reale.
 
-`npm run test:supabase` verifica paginazione, ricostruzione completa, traduzioni, ritorni a capo del copia-incolla su Windows e avvio/errori del loader. `npm run test:supabase -- --live` confronta, in sola lettura, i quattro romanzi presenti nel progetto con i dati versionati. Le coordinate sono confrontate entro 1e-12 gradi per la serializzazione PostgreSQL dei numeri in virgola mobile.
+`npm run test:supabase` verifica paginazione, ricostruzione completa, traduzioni, ritorni a capo del copia-incolla su Windows e avvio/errori del loader. `npm run test:supabase -- --live` confronta, in sola lettura, i romanzi pubblicati nel progetto con le copie locali (anche Gatsby dopo la sua importazione). Le coordinate sono confrontate entro 1e-12 gradi per la serializzazione PostgreSQL dei numeri in virgola mobile.
 
 ## Modello
 
@@ -65,16 +65,18 @@ npm test
 
 Gli strumenti e i test dei contenuti richiedono le copie locali di `docs/data/` e dei JSON in `tests/fixtures/`: dopo un nuovo clone, ripristinarle dal proprio backup locale. Il sito pubblicato non le richiede.
 
-`db:prepare` legge gli otto file dati/traduzioni in `docs/data/`, normalizza i contenuti e verifica che siano ricostruibili senza differenze. Genera:
+`db:prepare` legge i file dati/traduzioni dei romanzi in `docs/data/`, normalizza i contenuti e verifica che siano ricostruibili senza differenze. Genera:
 
 - `database/generated/content.sql`: importazione SQL in transazione, con upsert a blocchi.
 - `database/generated/sql-editor/`: file numerati da massimo 250 kB per il SQL Editor, guida `IMPORTA.md` e query finale `verifica.sql`.
 - `database/generated/content.json`: rappresentazione delle righe normalizzate per esportazione e revisione.
 - `database/generated/report.json`: conteggi e risultato della verifica.
 
-La cartella `generated/` è esclusa da Git: si rigenera dai dati versionati. Le migrazioni, gli script e i test sono invece versionati.
+La cartella `generated/` è esclusa da Git: si rigenera dalle copie locali dei dati. Le migrazioni, gli script e i test sono invece versionati.
 
-`db:export` ricostruisce i quattro dataset e i quattro dizionari nel formato usato dal sito, nella cartella `database/generated/site-data/`. Non sovrascrive `docs/data/`. In questa fase legge il file di righe preparato localmente; non interroga Supabase. Il test verifica separatamente la ricostruzione dopo un'importazione reale in PostgreSQL tramite PGlite.
+`db:export` ricostruisce i dataset e i dizionari di tutti i romanzi nel formato usato dal sito, nella cartella `database/generated/site-data/`. Non sovrascrive `docs/data/`. In questa fase legge il file di righe preparato localmente; non interroga Supabase. Il test verifica separatamente la ricostruzione dopo un'importazione reale in PostgreSQL tramite PGlite.
+
+Per importare un solo romanzo aggiunto al catalogo, usa `npm run db:prepare -- --book=gatsby`. I file sono generati in `database/generated/gatsby/sql-editor/`: esegui `01-import.sql`, poi `02-import.sql` e infine `verifica.sql`. La guida `IMPORTA.md` elenca i conteggi attesi filtrati per Gatsby. Non occorre rieseguire le migrazioni o importare gli altri libri. Completa l’importazione prima del push della home. Il comando senza filtro continua a preparare tutti i contenuti.
 
 ## Contenuti importati
 
@@ -84,6 +86,7 @@ La cartella `generated/` è esclusa da Git: si rigenera dai dati versionati. Le 
 | Alla ricerca del tempo perduto | 7 | 90 | 264 |
 | Guerra e pace | 17 | 91 | 227 |
 | Moby-Dick | 136 | 276 | 595 |
+| Il grande Gatsby (nuovo import locale) | 9 | 88 | 132 |
 | Totale | 178 | 627 | 1.401 |
 
 Sono conservati 1.498 estratti originali/traduzioni, 8.466 voci dei dizionari descrittivi, 1.032 fonti e 14 ambientazioni senza coordinate. I 627 luoghi non sono un conteggio geografico unico tra romanzi. Gli estratti comprendono sia quelli dei luoghi sia quelli generali archiviati.
@@ -147,6 +150,6 @@ La migrazione `003_book_maps.sql` predispone la cartografia per romanzo senza at
 
 Le coordinate X/Y non possono essere associate a una mappa con un sistema diverso e non vengono convertite automaticamente in WGS84. I luoghi immaginari lasciano vuote entrambe le coordinate terrestri in `places`, usando invece `place_positions`. Le coordinate dei romanzi già presenti restano valide e inalterate. Lo stesso luogo può comparire su una mappa generale e su una regionale, con posizioni e fonti distinte.
 
-Questa è una predisposizione del database: il visualizzatore fantasy e l'esportazione delle nuove configurazioni non sono ancora implementati. L'esportatore attuale resta dedicato ai quattro dataset geografici e rifiuta luoghi senza coordinate WGS84, anziché produrre marker terrestri errati. Il futuro visualizzatore dovrà applicare webmap/layer e coordinate specifiche; Street View e ortofoto terrestri saranno disponibili solo quando pertinenti. Login, fonti, traduzioni, categorie azione/citato e capitoli mantengono lo stesso modello.
+Questa è una predisposizione del database: il visualizzatore fantasy e l'esportazione delle nuove configurazioni non sono ancora implementati. L'esportatore attuale resta dedicato ai dataset geografici e rifiuta luoghi senza coordinate WGS84, anziché produrre marker terrestri errati. Il futuro visualizzatore dovrà applicare webmap/layer e coordinate specifiche; Street View e ortofoto terrestri saranno disponibili solo quando pertinenti. Login, fonti, traduzioni, categorie azione/citato e capitoli mantengono lo stesso modello.
 
 I nuovi oggetti cartografici ereditano gli stessi permessi editoriali e la visibilità del romanzo. I test eseguono una webmap fantasy fittizia senza chiamare Esri, verificano coordinate locali oltre i limiti WGS84, collegamenti ai capitoli e layer, vincoli tra romanzi e invisibilità delle bozze. Non è stata creata una mappa di Tolkien né importata alcuna sua opera.

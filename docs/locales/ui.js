@@ -175,7 +175,13 @@ window.atlasLocaleData={
       "Dublin and the River Liffey, by James Malton": "Dublino e il fiume Liffey, di James Malton",
       "A seaside garden in Normandy, by Claude Monet": "Un giardino sul mare in Normandia, di Claude Monet",
       "Napoleon at Borodino, by Vasily Vereshchagin": "Napoleone a Borodino, di Vasilij Vereščagin",
-      "Whaling ships at sea, by J. M. W. Turner": "Baleniere in mare, di J. M. W. Turner"
+      "Whaling ships at sea, by J. M. W. Turner": "Baleniere in mare, di J. M. W. Turner",
+      "The Great Gatsby": "Il grande Gatsby",
+      "Explore The Great Gatsby by F. Scott Fitzgerald": "Esplora Il grande Gatsby di F. Scott Fitzgerald",
+      "The Flatiron Building in New York, by Alfred Stieglitz": "Il Flatiron Building a New York, di Alfred Stieglitz",
+      "LONG ISLAND / NEW YORK": "LONG ISLAND / NEW YORK",
+      "Nine chapters, from the shores of Long Island to the streets of Jazz Age Manhattan.": "Nove capitoli, dalle rive di Long Island alle strade di Manhattan nell’età del jazz.",
+      "Explore the places of Ulysses, In Search of Lost Time, War and Peace, Moby-Dick and The Great Gatsby.": "Esplora i luoghi di Ulisse, Alla ricerca del tempo perduto, Guerra e pace, Moby-Dick e Il grande Gatsby."
     },
     "en": {
       "Atlante letterario": "Literary Atlas",
@@ -333,7 +339,13 @@ window.atlasLocaleData={
       "Dublin and the River Liffey, by James Malton": "Dublin and the River Liffey, by James Malton",
       "A seaside garden in Normandy, by Claude Monet": "A seaside garden in Normandy, by Claude Monet",
       "Napoleon at Borodino, by Vasily Vereshchagin": "Napoleon at Borodino, by Vasily Vereshchagin",
-      "Whaling ships at sea, by J. M. W. Turner": "Whaling ships at sea, by J. M. W. Turner"
+      "Whaling ships at sea, by J. M. W. Turner": "Whaling ships at sea, by J. M. W. Turner",
+      "The Great Gatsby": "The Great Gatsby",
+      "Explore The Great Gatsby by F. Scott Fitzgerald": "Explore The Great Gatsby by F. Scott Fitzgerald",
+      "The Flatiron Building in New York, by Alfred Stieglitz": "The Flatiron Building in New York, by Alfred Stieglitz",
+      "LONG ISLAND / NEW YORK": "LONG ISLAND / NEW YORK",
+      "Nine chapters, from the shores of Long Island to the streets of Jazz Age Manhattan.": "Nine chapters, from the shores of Long Island to the streets of Jazz Age Manhattan.",
+      "Explore the places of Ulysses, In Search of Lost Time, War and Peace, Moby-Dick and The Great Gatsby.": "Explore the places of Ulysses, In Search of Lost Time, War and Peace, Moby-Dick and The Great Gatsby."
     },
     "fr": {
       "Atlante letterario": "Atlas littéraire",
@@ -491,7 +503,13 @@ window.atlasLocaleData={
       "Dublin and the River Liffey, by James Malton": "Dublin et la rivière Liffey, par James Malton",
       "A seaside garden in Normandy, by Claude Monet": "Un jardin en bord de mer en Normandie, par Claude Monet",
       "Napoleon at Borodino, by Vasily Vereshchagin": "Napoléon à Borodino, par Vassili Verechtchaguine",
-      "Whaling ships at sea, by J. M. W. Turner": "Baleiniers en mer, par J. M. W. Turner"
+      "Whaling ships at sea, by J. M. W. Turner": "Baleiniers en mer, par J. M. W. Turner",
+      "The Great Gatsby": "Gatsby le Magnifique",
+      "Explore The Great Gatsby by F. Scott Fitzgerald": "Explorer Gatsby le Magnifique de F. Scott Fitzgerald",
+      "The Flatiron Building in New York, by Alfred Stieglitz": "Le Flatiron Building à New York, d’Alfred Stieglitz",
+      "LONG ISLAND / NEW YORK": "LONG ISLAND / NEW YORK",
+      "Nine chapters, from the shores of Long Island to the streets of Jazz Age Manhattan.": "Neuf chapitres, des rivages de Long Island aux rues de Manhattan à l’âge du jazz.",
+      "Explore the places of Ulysses, In Search of Lost Time, War and Peace, Moby-Dick and The Great Gatsby.": "Explorez les lieux d’Ulysse, À la recherche du temps perdu, Guerre et Paix, Moby-Dick et Gatsby le Magnifique."
     },
     "es": {
       "Atlante letterario": "Atlas literario",
@@ -649,7 +667,13 @@ window.atlasLocaleData={
       "Dublin and the River Liffey, by James Malton": "Dublín y el río Liffey, de James Malton",
       "A seaside garden in Normandy, by Claude Monet": "Un jardín junto al mar en Normandía, de Claude Monet",
       "Napoleon at Borodino, by Vasily Vereshchagin": "Napoleón en Borodinó, de Vasili Vereshchaguin",
-      "Whaling ships at sea, by J. M. W. Turner": "Barcos balleneros en el mar, de J. M. W. Turner"
+      "Whaling ships at sea, by J. M. W. Turner": "Barcos balleneros en el mar, de J. M. W. Turner",
+      "The Great Gatsby": "El gran Gatsby",
+      "Explore The Great Gatsby by F. Scott Fitzgerald": "Explorar El gran Gatsby de F. Scott Fitzgerald",
+      "The Flatiron Building in New York, by Alfred Stieglitz": "El Flatiron Building de Nueva York, de Alfred Stieglitz",
+      "LONG ISLAND / NEW YORK": "LONG ISLAND / NUEVA YORK",
+      "Nine chapters, from the shores of Long Island to the streets of Jazz Age Manhattan.": "Nueve capítulos, desde las orillas de Long Island hasta las calles de Manhattan en la era del jazz.",
+      "Explore the places of Ulysses, In Search of Lost Time, War and Peace, Moby-Dick and The Great Gatsby.": "Explora los lugares de Ulises, En busca del tiempo perdido, Guerra y paz, Moby-Dick y El gran Gatsby."
     }
   }
 };

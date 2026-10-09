@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import vm from 'node:vm';
 import {createHash} from 'node:crypto';
-export const bookIds=['ulisse','proust','war-and-peace','moby-dick'] as const;
+export const bookIds=['ulisse','proust','war-and-peace','moby-dick','gatsby'] as const;
 import {tables,type Obj,type Row,type Bundle,type Dataset,type Dictionary,type Source,type Passage,type Excerpt} from './content.js';
 export {tables,reconstruct,type Row,type Bundle,type Dataset,type Dictionary} from './content.js';
 export function loadScript(file:string,key:string):unknown {
@@ -10,7 +10,7 @@ export function loadScript(file:string,key:string):unknown {
  if(!context.window[key])throw new Error(`Missing ${key}: ${file}`);
  return JSON.parse(JSON.stringify(context.window[key]));
 }
-export function loadInputs(root:string){return bookIds.map(id=>({id,data:loadScript(path.join(root,'docs/data',id+'.js'),'atlasData') as Dataset,dictionary:loadScript(path.join(root,'docs/data',id+'-i18n.js'),'atlasTranslations') as Dictionary}));}
+export function loadInputs(root:string,ids:readonly string[]=bookIds){return ids.map(id=>({id,data:loadScript(path.join(root,'docs/data',id+'.js'),'atlasData') as Dataset,dictionary:loadScript(path.join(root,'docs/data',id+'-i18n.js'),'atlasTranslations') as Dictionary}));}
 function without(value:Obj,keys:string[]):Obj{return Object.fromEntries(Object.entries(value).filter(([key])=>!keys.includes(key)));}
 function canonical(value:unknown):string{if(Array.isArray(value))return '['+value.map(canonical).join(',')+']';if(value&&typeof value==='object')return '{'+Object.entries(value).sort(([a],[b])=>a.localeCompare(b)).map(([key,v])=>JSON.stringify(key)+':'+canonical(v)).join(',')+'}';return JSON.stringify(value);}
 const hash=(value:string)=>createHash('sha256').update(value).digest('hex');

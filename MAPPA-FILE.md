@@ -13,7 +13,7 @@ novellocator/
 │   ├── style.css                  Aspetto e impaginazione
 │   ├── literary.css               Tema ispirato alla tipografia dei libri ottocenteschi
 │   ├── book-themes.css            Vesti grafiche dei romanzi, selezionate dall’ID del libro
-│   ├── images/                    Dipinti storici della home e relative fonti
+│   ├── images/                    Opere storiche della home e relative fonti
 │   ├── basemaps.js                Elenco degli sfondi cartografici
 │   ├── load-book.js               Caricamento del romanzo richiesto
 │   ├── supabase-config.js         URL e chiave pubblica del progetto
@@ -31,7 +31,11 @@ novellocator/
 │   │   ├── war-and-peace.js       Dati di Guerra e pace
 │   │   ├── war-and-peace-i18n.js  Traduzioni dei contenuti di Tolstoj
 │   │   ├── moby-dick.js           Dati di Moby-Dick
-│   │   └── moby-dick-i18n.js      Traduzioni dei contenuti di Melville
+│   │   ├── moby-dick-i18n.js      Traduzioni dei contenuti di Melville
+│   │   ├── gatsby.js             Capitoli, ambientazioni, luoghi citati e citazioni di Gatsby
+│   │   ├── gatsby-i18n.js        Descrizioni di Gatsby in EN/IT/FR/ES
+│   │   ├── gatsby-original.json  Nove capitoli inglesi originali, solo locali
+│   │   └── gatsby-audit.json     Evidenze testuali e risposte geografiche, solo locali
 │   ├── *.csv                      Copie locali, escluse da Git
 │   └── LEGGIMI.md                 Documentazione italiana e metodo geografico
 ├── tests/
@@ -179,3 +183,5 @@ flowchart TD
 | Cambiare ciò che finisce nel repository | `.gitignore` |
 
 La cartella `work/` esterna a questo repository contiene script e materiali temporanei di ricerca: non viene pubblicata e non è necessaria per consultare il sito.
+
+Per preparare gli script di un solo romanzo: `npm run db:prepare -- --book=gatsby`. La sottocartella locale `database/generated/gatsby/sql-editor/` contiene i blocchi numerati, la guida di importazione e le query di verifica. Non viene pubblicata su GitHub.

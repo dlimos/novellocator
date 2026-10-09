@@ -8,10 +8,13 @@ Explore the places behind the stories. A literary atlas with a shared HTML, CSS 
 - **In Search of Lost Time** by Marcel Proust: seven volumes, 23 distinct places and 33 scene records.
 - **War and Peace** by Leo Tolstoy: 15 books and two epilogues, 62 distinct places and 91 scene records. Sixteen sections have maps; the Second Epilogue is philosophical.
 - **Moby-Dick** by Herman Melville: 135 chapters and an epilogue, 21 narrative settings, 42 chapter references and 14 unlocated settings. 30 sections contain mapped places; other sections have contextual regional views.
+- **The Great Gatsby** by F. Scott Fitzgerald: nine chapters, 88 mapped places, 50 action references and 82 geographical mentions. Fictional buildings and ambiguous locations retain original-text evidence without guessed coordinates. Descriptions use four languages; excerpts retain the original English. Its Art Déco theme uses dark teal, ivory and gold.
 - English is the default language; Italian, French and Spanish are available.
 - Esri ArcGIS Maps SDK for JavaScript, five basemaps and external Google Street View links.
 
 The website is hosted as static files on GitHub Pages and now loads published books from Supabase's read API. Configuration is in `docs/supabase-config.js`; only the publishable key belongs there. Novel datasets in `docs/data/` and research JSON files in `tests/fixtures/` are kept locally and excluded from Git. The public site depends on Supabase; an outage displays a translated error. The home catalogue is static; login and an editorial interface are not implemented yet. PostgreSQL migrations and TypeScript import/export tools are under `database/` and `scripts/database/`. See [database/README.md](database/README.md).
+
+For a new book, run `npm run db:prepare -- --book=gatsby` to prepare only that book. Run the numbered local scripts in `database/generated/gatsby/sql-editor/` in Supabase before publishing the home card. The scripts, original English text and audit files remain local and ignored by Git. Gatsby's location evidence comes from the nine original-English chapters of the Standard Ebooks edition, with geographical models supported by Preservation Long Island and NYC Parks and real-site addresses checked separately. Reference coordinates locate regions and streets as extents; they do not establish fictional house addresses or exact character positions.
 
 ## Files
 
