@@ -10,6 +10,7 @@ novellocator/
 │   ├── index.html                 Catalogo dei romanzi
 │   ├── atlas.html                 Pagina comune della mappa
 │   ├── app.js                     Motore dell'atlante
+│   ├── fictional-map.js           Motore riutilizzabile per mappe illustrate (prototipo)
 │   ├── style.css                  Aspetto e impaginazione
 │   ├── literary.css               Tema ispirato alla tipografia dei libri ottocenteschi
 │   ├── book-themes.css            Vesti grafiche dei romanzi, selezionate dall’ID del libro
