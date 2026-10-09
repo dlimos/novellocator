@@ -32,5 +32,6 @@ coverage/
 *.mdf
 *.ldf
 work/
+database/generated/
 .DS_Store
 Thumbs.db

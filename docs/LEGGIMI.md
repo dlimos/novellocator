@@ -2,7 +2,7 @@
 
 Sito statico con inglese predefinito e traduzioni in italiano, francese e spagnolo. Ulisse comprende 18 mappe e 115 luoghi; Alla ricerca del tempo perduto comprende sette mappe e 23 luoghi. HTML, CSS e JavaScript condivisi; cartografia Esri ArcGIS Maps SDK for JavaScript 5.1, cinque sfondi: OpenStreetMap (predefinito), Ortofoto Esri (World Imagery), Stradale, Topografica e Grigio chiaro. Richiede Internet per cartografia e caratteri.
 
-Aprire `index.html` per il catalogo dei romanzi e scegliere Joyce, Proust, Tolstoj o Melville. `ulisse.html` mantiene compatibili i vecchi collegamenti; Proust usa `atlas.html?book=proust`; Tolstoj usa `atlas.html?book=war-and-peace`; Melville usa `atlas.html?book=moby-dick`. I promessi sposi, Delitto e castigo e La signora Dalloway sono proposte per il futuro: le loro mappe non sono ancora disponibili. Per ospitarlo su un servizio di hosting statico, caricare insieme i file di questa cartella. Nessuna compilazione è necessaria.
+Aprire `index.html` per il catalogo dei romanzi e scegliere Joyce, Proust, Tolstoj o Melville. Ulisse usa `atlas.html?book=ulisse`; Proust usa `atlas.html?book=proust`; Tolstoj usa `atlas.html?book=war-and-peace`; Melville usa `atlas.html?book=moby-dick`. I promessi sposi, Delitto e castigo e La signora Dalloway sono proposte per il futuro: le loro mappe non sono ancora disponibili. Per ospitarlo su un servizio di hosting statico, caricare insieme i file di questa cartella. Nessuna compilazione è necessaria.
 
 ## Come leggere la precisione
 
@@ -26,7 +26,7 @@ La selezione non è un inventario completo di tutti i toponimi del romanzo. I co
 
 ## Un motore per tutti i romanzi
 
-`atlas.html` è il modello comune; `app.js` gestisce capitoli, schede, punti e navigazione senza riferimenti a Joyce o Dublino. `basemaps.js` definisce gli sfondi condivisi. `load-book.js` sceglie il dataset dal parametro `book` dell’indirizzo: `atlas.html?book=ulisse`. `ulisse.html` mantiene compatibili i vecchi collegamenti, compresi quelli ai singoli episodi.
+`atlas.html` è il modello comune; `app.js` gestisce capitoli, schede, punti e navigazione senza riferimenti a Joyce o Dublino. `basemaps.js` definisce gli sfondi condivisi. `load-book.js` sceglie il romanzo dal parametro `book` dell’indirizzo: `atlas.html?book=ulisse`. Il sito legge i dati da Supabase usando `supabase-config.js`, `supabase-data.js` e `content-adapter.js`. Se la connessione fallisce, mostra la copia salvata e un avviso nella lingua scelta. Tutti i romanzi usano direttamente la pagina comune `atlas.html`. Non occorre ripetere l'importazione già completata per attivare questo collegamento: basta pubblicare i file aggiornati del sito.
 
 Per aggiungere un romanzo, creare `data/<identificativo>.js` con `window.atlasData={book,chapters,places}` usando la struttura di `data/ulisse.js`. Metadati, centro iniziale, fonti, note, nomi delle sezioni e prefisso dei link sono dati. Il catalogo va aggiornato con il collegamento al nuovo titolo. `book.footerHtml` è contenuto HTML redazionale fidato: non inserire contenuti inviati dai visitatori.
 

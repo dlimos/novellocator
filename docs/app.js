@@ -11,6 +11,20 @@ const mapStage=document.getElementById('map-stage'),fullscreenButton=document.ge
 const chapterPicker=document.getElementById('map-chapter-picker'),chapterToggle=document.getElementById('map-chapter-toggle'),chapterMenu=document.getElementById('map-chapter-menu');
 let expandedFallback=false,fullscreenBusy=false,previousBodyOverflow='';
 const mapIsFullscreen=()=>document.fullscreenElement===mapStage||expandedFallback;
+const defaultMapPadding={top:55,bottom:35,left:20,right:20};
+function updatePopupPadding(recenter=false){
+ if(!view)return;
+ const padding={...defaultMapPadding},popup=document.getElementById('map-place-popup');
+ if(mapIsFullscreen()&&!popup.hidden&&window.innerWidth<=700){
+  const mapBounds=document.getElementById('map').getBoundingClientRect?.(),popupBounds=popup.getBoundingClientRect?.();
+  if(mapBounds?.height>0&&popupBounds?.height>0){
+   padding.bottom=Math.max(padding.bottom,Math.ceil(mapBounds.bottom-popupBounds.top+16));
+   padding.bottom=Math.min(padding.bottom,Math.max(defaultMapPadding.bottom,mapBounds.height-padding.top-80));
+  }
+ }
+ const changed=Object.keys(padding).some(key=>view.padding?.[key]!==padding[key]);
+ if(changed){view.padding=padding;if(recenter&&!popup.hidden)centerSelectedPlace(false);}
+}
 function closeChapterMenu(returnFocus=false){chapterMenu.hidden=true;chapterToggle.setAttribute('aria-expanded','false');if(returnFocus)chapterToggle.focus?.();}
 function openChapterMenu(focus=false){
  if(!mapIsFullscreen())return;
@@ -24,7 +38,7 @@ function updateChapterMenu(){
  chapterToggle.setAttribute('aria-label',t('Choose section')+': '+document.getElementById('map-heading').textContent);
  closeChapterMenu();
 }
-function closeMapPopup(returnFocus=false){document.getElementById('map-place-popup').hidden=true;if(returnFocus)document.getElementById('map').focus?.();}
+function closeMapPopup(returnFocus=false){document.getElementById('map-place-popup').hidden=true;updatePopupPadding();if(returnFocus)document.getElementById('map').focus?.();}
 function syncFullscreen(){
  const expanded=mapIsFullscreen();mapStage.classList?.toggle('map-expanded',expanded);
  fullscreenButton.textContent=t(expanded?'Exit fullscreen':'Fullscreen');fullscreenButton.setAttribute('aria-label',fullscreenButton.textContent);fullscreenButton.setAttribute('aria-pressed',String(expanded));
@@ -42,7 +56,7 @@ async function toggleMapFullscreen(){
   }
  }finally{fullscreenBusy=false;syncFullscreen();}
 }
-function showMapPopup(focus=false){
+function showMapPopup(focus=false,recenter=true){
  if(!mapIsFullscreen())return;
  const citation=activeCitations()[selectedCitation],id=citation?.placeId||activeChapter().places[selectedPlace],place=allLiteraryPlaces[id];
  if(!place){closeMapPopup();return;}
@@ -55,6 +69,7 @@ function showMapPopup(focus=false){
  const referenceButtons=source.querySelectorAll?.('.section-link')||[];
  content.querySelectorAll?.('.section-link').forEach((button,index)=>{button.onclick=()=>{referenceButtons[index]?.click();showMapPopup(true);};});
  popup.hidden=false;
+ updatePopupPadding(recenter);
  if(focus)document.getElementById('map-popup-close').focus?.();
 }
 let BasemapClass=null, VectorTileLayerClass=null, activeBasemap=basemaps.find(b=>b.id===new URLSearchParams(window.location.search).get("basemap"))?.id||basemaps[0].id;
@@ -174,7 +189,6 @@ function renderDetail(){
  const chapter=activeChapter();
  const eyebrow=current<0?esc(t('Whole novel'))+' · '+new Set([...globalPlaceIds,...globalCitations.map(reference=>reference.placeId)]).size+' '+esc(t('mapped places')):esc(book.unit.toUpperCase())+' '+number(chapter.id)+' '+t('DI')+' '+chapters.length+(chapter.english&&chapter.english!==chapter.title?' · '+esc(chapter.english):'');
  document.getElementById('detail').innerHTML=`<div><p class="detail-eyebrow">${eyebrow}</p><h2>${esc(chapter.title)}</h2><div class="tags"><span class="tag">${esc(chapter.time)}</span><span class="tag">${esc(chapter.people)}</span></div><div class="detail-nav"><button type="button" id="previous" aria-label="${esc(t('Sezione precedente'))}" ${current===0?'disabled':''}>${t('Precedente')}</button><button type="button" id="next" aria-label="${esc(t('Sezione successiva'))}" ${current===chapters.length-1?'disabled':''}>${t('Successivo')}</button></div><p class="episode-source">${(chapter.links||book.links).map(link=>`<a class="source-link" href="${esc(link.url)}" target="_blank" rel="noopener noreferrer">${esc(link.label)}</a>`).join("<br>")}</p></div><div class="detail-text"><p>${esc(chapter.text)}</p><h3 class="locations-heading">${t('Luoghi')} <span>${chapter.places.length}</span></h3><div class="location-buttons" id="episode-locations" aria-label="${t('Luoghi')}"></div><div id="selected-location" aria-live="polite"></div>${chapter.note?`<p class="episode-note">${esc(chapter.note)}</p>`:''}</div>`;
- if(chapter.excerpts){const excerpt=document.createElement('div');excerpt.className='section-excerpt';excerpt.innerHTML=renderExcerpts(chapter.excerpts,'Text from this section');document.getElementById('detail').appendChild(excerpt);}
  document.getElementById('previous').onclick=()=>selectChapter(current-1);
  document.getElementById('next').onclick=()=>selectChapter(current+1);
  document.getElementById('previous').hidden=current<0;document.getElementById('next').hidden=current<0;
@@ -211,12 +225,17 @@ function renderLocation(){
  document.getElementById('street-view-link').onclick=openStreetView;
  if(!document.getElementById('map-place-popup').hidden)showMapPopup();
 }
-function selectPlace(index){
+function centerSelectedPlace(zoomToPlace=true){
+ if(!viewReady)return;
+ const id=activeCitations()[selectedCitation]?.placeId||activeChapter().places[selectedPlace],place=allLiteraryPlaces[id];
+ if(place)navigate({center:[place.coords[1],place.coords[0]],...(zoomToPlace?{zoom:place.zoom}:{})});
+}
+function selectPlace(index,move=true){
  const chapter=activeChapter();if(!Number.isInteger(index)||index<0||index>=chapter.places.length)return;
  selectedPlace=index;selectedCitation=-1;renderLocation();drawMarkers();
- if(viewReady){const place=literaryPlaces[chapter.places[selectedPlace]];navigate({center:[place.coords[1],place.coords[0]],zoom:place.zoom})}
+ if(move)centerSelectedPlace();
 }
-function selectCitation(index){const citation=activeCitations()[index];if(!citation||!Number.isInteger(index))return;selectedCitation=index;renderLocation();drawMarkers();if(viewReady){const place=allLiteraryPlaces[citation.placeId];navigate({center:[place.coords[1],place.coords[0]],zoom:place.zoom})}}
+function selectCitation(index,move=true){const citation=activeCitations()[index];if(!citation||!Number.isInteger(index))return;selectedCitation=index;renderLocation();drawMarkers();if(move)centerSelectedPlace();}
 function drawMarkers(){
  if(!markerLayer||!GraphicClass)return;markerLayer.removeAll();citedMarkerLayer?.removeAll();markerLayer.visible=visibleLayers.action;if(citedMarkerLayer)citedMarkerLayer.visible=visibleLayers.mentioned;
  activeChapter().places.forEach((id,index)=>{
@@ -257,6 +276,12 @@ document.getElementById('layer-markers').addEventListener('change',event=>setLay
 fullscreenButton.addEventListener('click',toggleMapFullscreen);
 document.getElementById('map-popup-close').addEventListener('click',()=>closeMapPopup(true));
 document.addEventListener?.('fullscreenchange',syncFullscreen);
+window.addEventListener('resize',()=>updatePopupPadding(true));
+if(typeof ResizeObserver!=='undefined'){
+ const popupResizeObserver=new ResizeObserver(()=>updatePopupPadding(true));
+ popupResizeObserver.observe(document.getElementById('map-place-popup'));
+ popupResizeObserver.observe(document.getElementById('map'));
+}
 document.addEventListener?.('keydown',event=>{
  if(event.key==='Escape'){closeMapPopup();if(expandedFallback)toggleMapFullscreen();}
  if(event.key==='Tab'&&expandedFallback){
@@ -274,8 +299,8 @@ async function selectMapPoint(event){
   const result=hit.results.find(r=>r.type==='graphic'&&r.graphic.attributes?.chapterId===chapterId&&visibleLayers[r.graphic.attributes.category]&&(Number.isInteger(r.graphic.attributes.placeIndex)||Number.isInteger(r.graphic.attributes.citationIndex)));
   if(!result){closeMapPopup();return;}
   const attributes=result.graphic.attributes;
-  if(Number.isInteger(attributes.citationIndex))selectCitation(attributes.citationIndex);else selectPlace(attributes.placeIndex);
-  showMapPopup(true);
+  if(Number.isInteger(attributes.citationIndex))selectCitation(attributes.citationIndex,false);else selectPlace(attributes.placeIndex,false);
+  showMapPopup(true,false);centerSelectedPlace();
  }catch(error){if(error.name!=='AbortError')console.error('Selezione del luogo non disponibile',error)}
 }
 async function initializeMap(){
@@ -288,7 +313,7 @@ async function initializeMap(){
   const basemap=createBasemap(activeBasemap);
   const map=new ArcGISMap({basemap,layers:[markerLayer,citedMarkerLayer]});
   // Credits and zoom use HTML to avoid legacy DefaultUI2D components.
-  view=new MapView({container:'map',map,center:book.initialView.center,zoom:book.initialView.zoom,ui:{components:[]},constraints:{minZoom:1,maxZoom:19},navigation:{mouseWheelZoomEnabled:false},popupEnabled:false,padding:{top:55,bottom:35,left:20,right:20}});
+  view=new MapView({container:'map',map,center:book.initialView.center,zoom:book.initialView.zoom,ui:{components:[]},constraints:{minZoom:1,maxZoom:19},navigation:{mouseWheelZoomEnabled:false},popupEnabled:false,padding:{...defaultMapPadding}});
   drawMarkers();await view.when();viewReady=true;
   ['overview','zoom-in','zoom-out'].forEach(id=>document.getElementById(id).disabled=false);
   document.getElementById('map-error').hidden=true;overview();

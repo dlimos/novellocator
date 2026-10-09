@@ -11,7 +11,7 @@ Explore the places behind the stories. A literary atlas with a shared HTML, CSS 
 - English is the default language; Italian, French and Spanish are available.
 - Esri ArcGIS Maps SDK for JavaScript, five basemaps and external Google Street View links.
 
-The current application is a static website. Database, user authentication and the editorial administration interface have not been implemented. The website is in `docs/`, ready for GitHub Pages when repository settings support and enable that source.
+The website is hosted as static files on GitHub Pages and now loads published books from Supabase's read API. Configuration is in `docs/supabase-config.js`; only the publishable key belongs there. Static datasets remain available as a fallback with a visible notice. The home catalogue is static; login and an editorial interface are not implemented yet. PostgreSQL migrations and TypeScript import/export tools are under `database/` and `scripts/database/`. See [database/README.md](database/README.md).
 
 ## Files
 
@@ -24,15 +24,16 @@ The current application is a static website. Database, user authentication and t
 
 ## Run and check
 
-The website needs no build step or package installation. Open `docs/index.html` or serve the `docs/` directory with a static web server. Internet access is required for mapping services and web fonts.
+The committed website files need no build step or package installation. Open `docs/index.html` or serve the `docs/` directory with a static web server. Internet access is required for Supabase, mapping services and web fonts. After changing `scripts/database/content.ts`, run `npm run build:browser` and commit the generated `docs/content-adapter.js`.
 
-With Node.js 20 or later, run:
+With Node.js 20 or later, install development dependencies and run:
 
 ```sh
+npm ci
 npm test
 ```
 
-The tests check chapter navigation, coordinate consistency with source records, all four languages, basemap state and Street View links. They use mocks and **do not verify actual WebGL rendering or mapping-service availability in a browser**.
+The site tests check chapter navigation, coordinate consistency, all four languages, basemaps and Street View using browser mocks; they **do not verify actual WebGL rendering or mapping-service availability**. The database test executes migrations and imports in PostgreSQL/PGlite, checks exact reconstruction and tests RLS access for anonymous visitors, readers, editors and administrators. `npm run db:prepare` generates local import files; `npm run db:export` generates review copies of the browser datasets.
 
 ## Known limitations
 

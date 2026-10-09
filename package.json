@@ -4,9 +4,21 @@
   "private": true,
   "description": "Explore the places behind the stories: a multilingual literary atlas.",
   "scripts": {
-    "test": "node tests/run.cjs"
+    "test": "node tests/run.cjs && npm run typecheck && npm run test:database",
+    "typecheck": "tsc --noEmit",
+    "build:browser": "tsx scripts/database/build-browser.ts",
+    "db:prepare": "tsx scripts/database/prepare.ts",
+    "db:export": "tsx scripts/database/export.ts",
+    "test:database": "tsx tests/check-database.ts",
+    "test:supabase": "node tests/check-supabase.cjs"
   },
   "engines": {
     "node": ">=20"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "^0.5.8",
+    "@types/node": "^26.6.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
   }
 }

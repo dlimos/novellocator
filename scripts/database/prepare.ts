@@ -1,0 +1,20 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import assert from 'node:assert/strict';
+import {loadInputs,normalize,reconstruct,seedSql,seedSqlChunks,tables} from './model.js';
+const root=process.cwd(),out=path.join(root,'database/generated');
+const inputs=loadInputs(root),bundle=normalize(inputs);
+for(const input of inputs){const rebuilt=reconstruct(bundle,input.id);assert.deepEqual(rebuilt.data,input.data);assert.deepEqual(rebuilt.dictionary,input.dictionary);}
+fs.mkdirSync(out,{recursive:true});
+fs.writeFileSync(path.join(out,'content.json'),JSON.stringify(bundle,null,2)+'\n');
+fs.writeFileSync(path.join(out,'content.sql'),seedSql(bundle));
+const chunkDir=path.join(out,'sql-editor');fs.mkdirSync(chunkDir,{recursive:true});
+for(const file of fs.readdirSync(chunkDir))if(/^\d+-import\.sql$/.test(file))fs.unlinkSync(path.join(chunkDir,file));
+const chunks=seedSqlChunks(bundle).map((sql,index)=>{const file=String(index+1).padStart(2,'0')+'-import.sql';fs.writeFileSync(path.join(chunkDir,file),sql);return {file,bytes:Buffer.byteLength(sql,'utf8')};});
+fs.writeFileSync(path.join(chunkDir,'verifica.sql'),'select\n'+tables.map(table=>`  (select count(*) from public.${table}) as ${table}`).join(',\n')+';\n');
+const fileLink=(file:string)=>'<'+path.join(chunkDir,file).replaceAll('\\','/')+'>';
+fs.writeFileSync(path.join(chunkDir,'IMPORTA.md'),'# Importazione nel SQL Editor di Supabase\n\nLe migrazioni sono già state eseguite: non occorre ripeterle. Il file completo content.sql è troppo grande per il SQL Editor.\n\nApri ogni file sotto, copia tutto il testo in una nuova query e premi Run. Attendi il successo prima di passare al successivo. Esegui i blocchi in ordine, uno alla volta. Ogni blocco è una transazione completa; in caso di errore puoi ripetere quel blocco. Non dividere manualmente le query.\n\n'+chunks.map((chunk,index)=>`${index+1}. [${chunk.file}](${fileLink(chunk.file)}) — ${Math.ceil(chunk.bytes/1000)} kB`).join('\n')+'\n\nDopo l’ultimo blocco, esegui [verifica.sql]('+fileLink('verifica.sql')+'). I conteggi attesi sono:\n\n| Tabella | Righe |\n| --- | ---: |\n'+tables.map(table=>`| ${table} | ${bundle.tables[table].length} |`).join('\n')+'\n\nQuesti file importano i dati; il collegamento del sito a Supabase è un passaggio successivo.\n');
+const report={formatVersion:1,books:inputs.map(input=>({id:input.id,sections:input.data.chapters.length,places:bundle.tables.places.filter(p=>p.book_id===input.id).length,references:bundle.tables.place_references.filter(p=>p.book_id===input.id).length})),rows:Object.fromEntries(tables.map(t=>[t,bundle.tables[t].length])),roundTrip:'Exact: four datasets and every translation dictionary preserved'};
+fs.writeFileSync(path.join(out,'report.json'),JSON.stringify(report,null,2)+'\n');
+console.log(JSON.stringify(report,null,2));
+console.log(`Prepared content.sql and ${chunks.length} SQL Editor chunks (maximum 250 kB). No remote database was contacted.`);

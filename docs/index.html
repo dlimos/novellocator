@@ -14,7 +14,7 @@
   <main>
     <section class="catalogue-intro" aria-labelledby="catalogue-title"><p class="eyebrow">THE CATALOGUE</p><h1 id="catalogue-title">Every book,<br>a world to explore<span class="title-dot">.</span></h1><p>Choose a novel and discover the places in its story.</p></section>
     <section class="book-grid" aria-label="Novels in the atlas">
-      <a class="book-card available-book" href="ulisse.html" aria-label="Explore Ulysses by James Joyce">
+      <a class="book-card available-book" href="atlas.html?book=ulisse" aria-label="Explore Ulysses by James Joyce">
         <div class="book-art art-dublin" aria-hidden="true"><svg viewBox="0 0 400 220"><path class="art-river" d="M-20 160 C70 185 145 98 210 130 S330 185 420 102"/><path d="M80 0v225M142 0v220M225 0v220M300 0v220M0 50h400M0 90h400M0 190h400"/><circle cx="220" cy="135" r="8"/><circle cx="145" cy="112" r="5"/><circle cx="80" cy="168" r="5"/><circle cx="300" cy="92" r="5"/></svg><span>DUBLIN</span></div>
         <div class="book-copy"><div class="book-meta"><span>01 · JAMES JOYCE</span><span class="book-status">Available</span></div><h2>Ulysses</h2><p>Stephen, Leopold and Molly. Explore Dublin through the novel’s eighteen episodes.</p><span class="book-action">Explore the maps <span aria-hidden="true">↗</span></span></div>
       </a>
@@ -28,6 +28,6 @@
     <p class="catalogue-note">Ulysses, In Search of Lost Time, War and Peace and Moby-Dick are available. The other titles are proposals for expanding the catalogue. Card illustrations are decorative.</p>
     <footer class="catalogue-footer"><p>Literary Atlas · The places of novels</p></footer>
   </main>
-  <script>if(/^#episodio-(?:[1-9]|1[0-8])$/.test(location.hash)) location.replace('ulisse.html'+location.hash);</script>
+  <script>if(/^#episodio-(?:[1-9]|1[0-8])$/.test(location.hash)){const target=new URL('atlas.html',location.href);target.search=location.search;target.searchParams.set('book','ulisse');target.hash=location.hash;location.replace(target.href);}</script>
 </body>
 </html>
