@@ -1,0 +1,97 @@
+/* One atlas, different bindings. Marker/category colours stay in style.css. */
+html[data-book]{--panel:#fffaf0;--heading-font:'EB Garamond',Georgia,serif;--ornament:'❦';--wash:#fffaf0;--book-art:none}
+html[data-book="ulisse"]{
+ --ink:#203f36;--muted:#56685d;--paper:#eeeede;--line:#c2c9b4;--accent:#987239;
+ --panel:#fafaf0;--wash:#f7f7ea;--heading-font:'Libre Caslon Display',Georgia,serif;
+ --ornament:'✦';--book-art:url('images/ulisse.jpg');
+}
+html[data-book="proust"]{
+ --ink:#503c51;--muted:#766373;--paper:#f3edf0;--line:#d5c3ce;--accent:#977846;
+ --panel:#fffafa;--wash:#fff9f7;--ornament:'❦';--book-art:url('images/proust.jpg');
+}
+html[data-book="war-and-peace"]{
+ --ink:#4b2928;--muted:#79635b;--paper:#f0e9dc;--line:#cfc0a7;--accent:#936d35;
+ --panel:#fff9ed;--wash:#faf3e6;--heading-font:Georgia,'Times New Roman',serif;
+ --ornament:'✧';--book-art:url('images/war-and-peace.jpg');
+}
+html[data-book="moby-dick"]{
+ --ink:#203e50;--muted:#526976;--paper:#eaf0f0;--line:#bdcdd1;--accent:#95713f;
+ --panel:#f8fbfa;--wash:#f5fafa;--heading-font:Georgia,'Times New Roman',serif;
+ --ornament:'✦';--book-art:url('images/moby-dick.jpg');
+}
+html[data-book] body{background:radial-gradient(ellipse at 50% 0,var(--wash),transparent 80%),var(--paper)}
+html[data-book] .masthead{border-bottom:3px double var(--line)}
+html[data-book] .brand-mark{border-color:var(--accent);color:var(--ink)}
+html[data-book] .introduction{
+ position:relative;isolation:isolate;overflow:hidden;min-height:180px;
+ margin:26px 0 24px;padding:31px 28px;background:var(--panel);
+ border-top:1px solid var(--line);border-bottom:3px double var(--line);
+}
+html[data-book] .introduction::after{
+ content:'';position:absolute;z-index:-1;inset:0 0 0 auto;width:46%;
+ background-image:var(--book-art);background-size:cover;background-position:center 55%;
+ opacity:.22;mask-image:linear-gradient(90deg,transparent,#000 55%);
+ -webkit-mask-image:linear-gradient(90deg,transparent,#000 55%);pointer-events:none;
+}
+html[data-book] .introduction>div{min-width:0}
+html[data-book] .introduction #title{font-family:var(--heading-font);font-size:clamp(45px,5.2vw,82px);line-height:1.1;overflow-wrap:anywhere}
+html[data-book] .introduction #title.long-book-title{font-size:clamp(35px,4.1vw,64px)}
+html[data-book] #book-author{font-family:'DM Sans',Arial,sans-serif;letter-spacing:2.5px;font-size:12px;color:var(--muted)}
+html[data-book] .catalogue-back{align-self:flex-start;flex:none;font-family:'DM Sans',Arial,sans-serif;font-size:12px;background:var(--panel);padding:8px 10px;border:1px solid var(--line);text-decoration:none}
+html[data-book] .catalogue-back:hover{border-color:var(--ink)}
+html[data-book] .workspace{background:var(--panel);border:1px solid var(--line);border-radius:0;box-shadow:0 4px 0 color-mix(in srgb,var(--line) 35%,transparent)}
+html[data-book] .sidebar{background:var(--panel)}
+html[data-book] .sidebar-title h2{font-family:var(--heading-font);font-size:25px;font-weight:400}
+html[data-book] .sidebar-title{border-bottom:1px solid var(--line);padding-bottom:17px;margin-bottom:15px}
+html[data-book] .place-button{border-top-color:var(--line)}
+html[data-book] .place-button:hover{background:var(--paper)}
+html[data-book] .place-button[aria-pressed="true"]{background:var(--ink);color:white;border-left-color:var(--accent)}
+html[data-book] .place-number{color:var(--muted)}
+html[data-book] .place-button[aria-pressed="true"] .place-number{color:#e7d29f}
+html[data-book] .place-button[aria-pressed="true"] small{color:#e2e4dd}
+html[data-book] .layer-toc,html[data-book] .all-places-button,html[data-book] .section-link{background:var(--panel);border-color:var(--line);border-radius:0}
+html[data-book] .all-places-button[aria-pressed="true"]{background:var(--ink);color:white}
+html[data-book] .section-link:hover{background:var(--paper)}
+html[data-book] .basemap-toolbar{background:var(--paper)}
+html[data-book] .map-legend{background:var(--panel);border-bottom:1px solid var(--line)}
+html[data-book] .detail{background:var(--panel)}
+html[data-book] .detail h2,html[data-book] .map-place-popup h2{font-family:var(--heading-font)}
+html[data-book] .detail-eyebrow::before{content:var(--ornament);color:var(--accent);margin-right:9px;font-size:17px}
+html[data-book] .tags .tag{background:var(--paper);color:var(--muted);border:1px solid var(--line)}
+html[data-book] .original-excerpt blockquote,html[data-book] .unlocated-places blockquote{background:var(--paper);border-left-color:var(--accent);font-size:17px;line-height:1.7}
+html[data-book] .source-link{color:var(--muted)}
+html[data-book] .street-view-link{background:var(--panel);border-radius:0}
+html[data-book] .street-view-link:hover{background:var(--paper)}
+html[data-book] .map-place-popup,html[data-book] .map-place-popup>header{background:var(--panel)}
+html[data-book] .map-place-popup{border-radius:0;border-top:3px solid var(--accent)}
+html[data-book] .map-chapter-menu,html[data-book] .map-chapter-menu>button,html[data-book] .map-caption>button{background:var(--panel)}
+html[data-book] .map-chapter-menu>button:hover{background:var(--paper)}
+html[data-book] .map-chapter-menu>button[aria-current="true"]{background:var(--ink);color:white}
+html[data-book] footer{border-top:3px double var(--line);padding-top:17px;font-size:15px;line-height:1.6}
+/* Joyce: crisp Edwardian typography and green cloth binding. */
+html[data-book="ulisse"] .introduction{border-top:4px solid var(--ink)}
+html[data-book="ulisse"] .detail-eyebrow{font-family:'DM Sans',Arial,sans-serif;letter-spacing:2px}
+/* Proust: rose paper, flowing headings and fine gilt rules. */
+html[data-book="proust"] .introduction #title{font-style:italic}
+html[data-book="proust"] .introduction{border-top:3px double var(--accent)}
+html[data-book="proust"] .detail h2{font-style:italic}
+html[data-book="proust"] .original-excerpt blockquote{font-style:italic}
+/* Tolstoy: sober type, burgundy binding and a formal title page. */
+html[data-book="war-and-peace"] .introduction{border-top:4px solid var(--ink)}
+html[data-book="war-and-peace"] .introduction #title{font-variant:small-caps;letter-spacing:.025em}
+html[data-book="war-and-peace"] .sidebar-title h2{font-variant:small-caps}
+/* Melville: maritime blue, canvas paper and ship-log rules. */
+html[data-book="moby-dick"] .introduction{border-top:4px double var(--ink);border-bottom:4px double var(--ink)}
+html[data-book="moby-dick"] .introduction #title{letter-spacing:.025em;text-transform:uppercase;font-size:clamp(42px,4.8vw,75px)}
+html[data-book="moby-dick"] .detail-eyebrow{font-family:'DM Sans',Arial,sans-serif;letter-spacing:2px}
+@media(max-width:700px){
+ html[data-book] .introduction{min-height:0;display:flex;flex-direction:column;align-items:flex-start;gap:17px;padding:23px 20px;margin:20px 0}
+ html[data-book] .introduction::after{width:65%;opacity:.13}
+ html[data-book] .introduction #title{font-size:48px}
+ html[data-book] .introduction #title.long-book-title{font-size:36px}
+ html[data-book="moby-dick"] .introduction #title{font-size:43px}
+ html[data-book] #book-author{font-size:11px;letter-spacing:1.5px}
+ html[data-book] .sidebar-title{padding-bottom:12px;margin-bottom:10px}
+ html[data-book] .place-button{border-color:var(--line)}
+ html[data-book] .original-excerpt blockquote,html[data-book] .unlocated-places blockquote{font-size:16px}
+}

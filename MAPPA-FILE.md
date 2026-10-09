@@ -12,6 +12,7 @@ novellocator/
 │   ├── app.js                     Motore dell'atlante
 │   ├── style.css                  Aspetto e impaginazione
 │   ├── literary.css               Tema ispirato alla tipografia dei libri ottocenteschi
+│   ├── book-themes.css            Vesti grafiche dei romanzi, selezionate dall’ID del libro
 │   ├── images/                    Dipinti storici della home e relative fonti
 │   ├── basemaps.js                Elenco degli sfondi cartografici
 │   ├── load-book.js               Caricamento del romanzo richiesto

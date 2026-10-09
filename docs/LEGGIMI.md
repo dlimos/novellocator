@@ -1,5 +1,7 @@
 # Atlante letterario · Joyce, Proust, Tolstoj e Melville
 
+La grafica comune è in `style.css` e `literary.css`. `book-themes.css` distingue Joyce (verde edoardiano), Proust (rosa e prugna), Tolstoj (carta avorio e bordeaux) e Melville (blu marino). `load-book.js` imposta `data-book` sull’elemento HTML usando l’ID stabile del romanzo. Colori, caratteri e dettagli delle schede cambiano senza duplicare la pagina o il motore; la simbologia geografica mantiene le categorie comuni. Un nuovo romanzo senza tema specifico usa lo stile letterario predefinito. Le immagini di fondo del titolo provengono dalle stesse opere storiche della home, con fonti in `images/CREDITS.md`.
+
 I CSV menzionati in questo documento sono ora copie locali escluse da Git. Sul sito i link di download generano un CSV dai dati caricati da Supabase, nella lingua corrente, tramite `csv-export.js`. Non richiedono file CSV pubblicati. Le copie locali restano necessarie per i controlli storici dei contenuti dopo un nuovo clone.
 
 Sito statico con inglese predefinito e traduzioni in italiano, francese e spagnolo. Ulisse comprende 18 mappe e 115 luoghi; Alla ricerca del tempo perduto comprende sette mappe e 23 luoghi. HTML, CSS e JavaScript condivisi; cartografia Esri ArcGIS Maps SDK for JavaScript 5.1, cinque sfondi: OpenStreetMap (predefinito), Ortofoto Esri (World Imagery), Stradale, Topografica e Grigio chiaro. Richiede Internet per cartografia e caratteri.
