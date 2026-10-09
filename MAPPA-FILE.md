@@ -16,6 +16,7 @@ novellocator/
 │   ├── supabase-config.js         URL e chiave pubblica del progetto
 │   ├── supabase-data.js           Lettura REST paginata delle tabelle
 │   ├── content-adapter.js         Ricostruzione dei dati, generata da TypeScript
+│   ├── csv-export.js              Genera download CSV dai dati caricati da Supabase
 │   ├── i18n.js                    Gestione delle lingue
 │   ├── locales/
 │   │   └── ui.js                  Traduzioni dell'interfaccia
@@ -28,7 +29,7 @@ novellocator/
 │   │   ├── war-and-peace-i18n.js  Traduzioni dei contenuti di Tolstoj
 │   │   ├── moby-dick.js           Dati di Moby-Dick
 │   │   └── moby-dick-i18n.js      Traduzioni dei contenuti di Melville
-│   ├── *.csv                      Esportazioni dei luoghi nelle quattro lingue
+│   ├── *.csv                      Copie locali, escluse da Git
 │   └── LEGGIMI.md                 Documentazione italiana e metodo geografico
 ├── tests/
 │   ├── run.cjs                    Esegue tutti i controlli
@@ -139,6 +140,8 @@ I file di `tests/fixtures/` sono riferimenti usati dai controlli, non i dati car
 | `original-citations.json` | Riferimenti geografici aggiunti, passi originali, coordinate e registrazione delle sezioni analizzate. |
 
 ## Come vengono caricati i file
+
+I file CSV elencati sopra sono conservati solo in locale e non pubblicati. I link del sito generano un file al clic tramite `docs/csv-export.js`, usando i contenuti caricati da Supabase e la lingua corrente. Per eseguire i test storici dopo un nuovo clone occorre ripristinare dal backup locale anche questi CSV.
 
 ```mermaid
 flowchart TD

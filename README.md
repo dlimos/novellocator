@@ -15,6 +15,8 @@ The website is hosted as static files on GitHub Pages and now loads published bo
 
 ## Files
 
+CSV data exports in `docs/*.csv` are also kept only locally and excluded from Git. Download links generate UTF-8 CSV files directly from the loaded Supabase content via `docs/csv-export.js`, in the current language. Content checks require the local CSV copies as well as the datasets and research snapshots after a fresh clone.
+
 - `docs/`: complete website and GitHub Pages source directory.
 - `docs/data/`: local-only book datasets and translated content, excluded from Git.
 - `docs/locales/ui.js`: interface translations.

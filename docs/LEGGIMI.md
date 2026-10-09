@@ -1,5 +1,7 @@
 # Atlante letterario · Joyce, Proust, Tolstoj e Melville
 
+I CSV menzionati in questo documento sono ora copie locali escluse da Git. Sul sito i link di download generano un CSV dai dati caricati da Supabase, nella lingua corrente, tramite `csv-export.js`. Non richiedono file CSV pubblicati. Le copie locali restano necessarie per i controlli storici dei contenuti dopo un nuovo clone.
+
 Sito statico con inglese predefinito e traduzioni in italiano, francese e spagnolo. Ulisse comprende 18 mappe e 115 luoghi; Alla ricerca del tempo perduto comprende sette mappe e 23 luoghi. HTML, CSS e JavaScript condivisi; cartografia Esri ArcGIS Maps SDK for JavaScript 5.1, cinque sfondi: OpenStreetMap (predefinito), Ortofoto Esri (World Imagery), Stradale, Topografica e Grigio chiaro. Richiede Internet per cartografia e caratteri.
 
 Aprire `index.html` per il catalogo dei romanzi e scegliere Joyce, Proust, Tolstoj o Melville. Ulisse usa `atlas.html?book=ulisse`; Proust usa `atlas.html?book=proust`; Tolstoj usa `atlas.html?book=war-and-peace`; Melville usa `atlas.html?book=moby-dick`. I promessi sposi, Delitto e castigo e La signora Dalloway sono proposte per il futuro: le loro mappe non sono ancora disponibili. Per ospitarlo su un servizio di hosting statico, caricare insieme i file di questa cartella. Nessuna compilazione è necessaria.

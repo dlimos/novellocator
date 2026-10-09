@@ -115,9 +115,10 @@ document.getElementById('chapter-count').textContent=chapters.filter(chapter=>ch
 document.getElementById('chapter-help').textContent=book.help||t('Scegli un capitolo per esplorarne i luoghi.');
 document.getElementById('book-note-text').textContent=book.sidebarNote||'';
 document.getElementById('atlas-workspace').setAttribute('aria-label',t('Atlante')+': '+book.title);
-// footerHtml is authored in the local dataset, never supplied by visitors.
+// Source links are curated editorial content from the book metadata.
 document.getElementById('book-sources').innerHTML=book.footerHtml||'';
 if(book.citationCsvPrefix){const paragraph=document.createElement('p'),link=document.createElement('a');link.href=book.citationCsvPrefix+'-'+locale+'.csv';link.download='';link.textContent=t('Download cited places (CSV)');paragraph.appendChild(link);document.getElementById('book-sources').appendChild(paragraph);}
+window.atlasCsv?.bind(document.getElementById('book-sources'),window.atlasData,locale);
 basemaps.forEach(item=>{const option=document.createElement('option');option.value=item.id;option.textContent=t(item.label);basemapSelect.appendChild(option)});
 basemapSelect.value=activeBasemap;
 document.getElementById('basemap-description').textContent=t(basemaps.find(b=>b.id===activeBasemap).description);

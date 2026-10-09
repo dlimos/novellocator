@@ -4,6 +4,8 @@ Schema PostgreSQL/Supabase, importazione dei contenuti esistenti e permessi per 
 
 ## Collegamento del sito
 
+I CSV di `docs/*.csv` sono copie locali escluse da Git. Il sito genera i download con `docs/csv-export.js` dai dati già letti da Supabase, includendo luoghi, sezioni, citazioni originali, coordinate e fonti, nella lingua scelta. Non richiede esportazioni statiche pubblicate. I test dei contenuti preesistenti richiedono anche le copie CSV locali.
+
 `docs/supabase-config.js` contiene URL, chiave pubblica publishable e `enabled`. È un file pubblico: non inserire password, chiavi secret o service_role. La Data API deve essere attiva e le migrazioni devono concedere SELECT al ruolo anon, con RLS per leggere solo libri pubblicati.
 
 `docs/supabase-data.js` interroga le nove tabelle tramite REST in HTTPS, filtrando il romanzo e paginando con ordinamento stabile. Non usa credenziali amministrative. `docs/content-adapter.js` ricostruisce il formato già usato dalla mappa: viene generato da `scripts/database/content.ts`, lo stesso codice usato dagli strumenti di importazione/esportazione. Dopo aver modificato questo sorgente eseguire `npm run build:browser` e includere il file generato nel commit.

@@ -35,6 +35,7 @@ work/
 database/generated/
 # Local novel datasets and research snapshots; published content is in Supabase.
 docs/data/
+docs/*.csv
 tests/fixtures/*.json
 .DS_Store
 Thumbs.db
