@@ -177,6 +177,30 @@ window.atlasCatalogue={
         "title": "Snow in New York",
         "year": "1902"
       }
+    },
+    {
+      "id": "orwell1984",
+      "title": "1984",
+      "author": "GEORGE ORWELL",
+      "description": "Twenty-four chapters and the Newspeak appendix: London, memories, dreams and the geography of propaganda.",
+      "ariaLabel": "Explore 1984 by George Orwell",
+      "setting": "LONDON / OCEANIA",
+      "mapType": "geographic",
+      "theme": "winter-city",
+      "originalLanguage": "en",
+      "cover": {
+        "src": "images/orwell1984-monet-westminster.jpg",
+        "alt": "The Thames below Westminster by Claude Monet, about 1871",
+        "width": 960,
+        "height": 619,
+        "position": "center 55%"
+      },
+      "credit": {
+        "artist": "Claude Monet",
+        "url": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_The_Thames_below_Westminster.jpg",
+        "title": "The Thames below Westminster",
+        "year": "c. 1871"
+      }
     }
   ],
   "defaultBook": "ulisse",

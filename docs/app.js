@@ -213,7 +213,7 @@ function renderDetail(){
 }
 function renderLocation(){
  const chapter=activeChapter(),citation=activeCitations()[selectedCitation],id=citation?.placeId||chapter.places[selectedPlace],place=allLiteraryPlaces[id],category=citation?'mentioned':placeCategory(id);
- if(!place){document.getElementById('selected-location').innerHTML='<p class="episode-note">'+esc(chapter.emptyMessage||chapter.text)+'</p>'+renderExcerpts(chapter.excerpt,'Passage from the novel');return;}
+ if(!place){document.getElementById('selected-location').innerHTML='<p class="episode-note">'+esc(chapter.emptyMessage||chapter.text)+'</p>'+renderExcerpts(chapter.excerpts||chapter.excerpt,'Passage from the novel');return;}
  const narrativeSource=citation?{label:citation.excerpt.original.attribution,url:citation.excerpt.original.url}:chapter.placeSources?.[id]||place.narrativeSource;
  Array.from(document.getElementById('episode-locations').children).forEach((button,i)=>button.setAttribute('aria-pressed',String(i===selectedPlace&&selectedCitation<0)));
  Array.from(document.getElementById('citation-locations')?.children||[]).forEach((button,i)=>button.setAttribute('aria-pressed',String(i===selectedCitation)));
@@ -268,8 +268,10 @@ function overview(includeCitations=false){
 
  if(!viewReady||!ExtentClass)return;
  const chapter=activeChapter();
- let points=(chapter.overviewPlaces??chapter.places).filter(id=>visibleLayers[placeCategory(id)]).map(id=>literaryPlaces[id]);
- if(visibleLayers.mentioned&&(includeCitations||current<0||!points.length))points.push(...activeCitations().map(reference=>allLiteraryPlaces[reference.placeId]));
+ const includeMentions=includeCitations||current<0;
+ const overviewIds=includeMentions?chapter.places:(chapter.overviewPlaces??chapter.places);
+ let points=overviewIds.filter(id=>visibleLayers[placeCategory(id)]&&(includeMentions||placeCategory(id)==='action')).map(id=>literaryPlaces[id]);
+ if(visibleLayers.mentioned&&includeMentions)points.push(...activeCitations().map(reference=>allLiteraryPlaces[reference.placeId]));
  if(!points.length){navigate(chapter.initialView||book.initialView);return;}
  if(points.length===1){navigate({center:[points[0].coords[1],points[0].coords[0]],zoom:points[0].zoom});return}
  const longitudes=points.map(p=>p.coords[1]),latitudes=points.map(p=>p.coords[0]);

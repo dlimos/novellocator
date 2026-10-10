@@ -1,6 +1,6 @@
 # Catalogue artwork
 
-Catalogue covers must use existing paintings or photographs sourced from the web, with documented reuse rights. AI-generated covers are not used.
+Catalogue covers for new books must reproduce existing paintings connected to the novel through its setting, period, themes or explicit references, with documented reuse rights. Record that connection alongside the artwork title, artist, date and source below. Photographs and AI-generated covers are not used for new books.
 
 These historical artworks evoke the novels' settings. They are not presented as original illustrations commissioned for the books. The images are stored locally; no image service is required when visiting the catalogue.
 
@@ -25,3 +25,7 @@ Henri Rousseau, *Tropical Forest with Monkeys*, 1910, oil on canvas, National Ga
 # The Catcher in the Rye
 
 Robert Henri, **Snow in New York**, 1902. National Gallery of Art, Chester Dale Collection, 1954.4.3. [Official work and public-domain download](https://www.nga.gov/artworks/42929-snow-new-york). Local asset: `holden-henri-snow.jpg`. Painting downloaded from the NGA IIIF service; the 1902 city scene is used to evoke winter New York, not as a dated illustration of the 1951 novel. No modification to the painting; display uses CSS cropping.
+
+## 1984
+
+Claude Monet, *The Thames below Westminster*, about 1871, oil on canvas, National Gallery, London, NG6399. [Museum catalogue](https://www.nationalgallery.org.uk/paintings/claude-monet-the-thames-below-westminster) and [Wikimedia Commons reproduction and rights](https://commons.wikimedia.org/wiki/File:Claude_Monet_-_The_Thames_below_Westminster.jpg). Commons identifies the painting and its faithful reproduction as public domain / PD-Art / Public Domain Mark 1.0. Downloaded the 960 × 619 preview on 11 October 2026; local file: `orwell1984-monet-westminster.jpg`. The foggy London cityscape connects to the novel’s London setting and its monumental skyline. It predates the novel and is an atmospheric geographical reference, not an illustration of Oceania or evidence of a fictional address. Original preview retained; display cropping uses CSS.

@@ -201,4 +201,12 @@
     "Snow in New York by Robert Henri, 1902": "Nieve en Nueva York de Robert Henri, 1902"
   }
 };
+const orwellMessages={
+  "1984": ["1984","1984","1984","1984"],
+  "Twenty-four chapters and the Newspeak appendix: London, memories, dreams and the geography of propaganda.": ["Twenty-four chapters and the Newspeak appendix: London, memories, dreams and the geography of propaganda.","Ventiquattro capitoli e l’appendice sulla Neolingua: Londra, ricordi, sogni e geografia della propaganda.","Vingt-quatre chapitres et l’appendice sur la novlangue : Londres, souvenirs, rêves et géographie de la propagande.","Veinticuatro capítulos y el apéndice sobre la neolengua: Londres, recuerdos, sueños y geografía de la propaganda."],
+  "Explore 1984 by George Orwell": ["Explore 1984 by George Orwell","Esplora 1984 di George Orwell","Explorez 1984 de George Orwell","Explora 1984 de George Orwell"],
+  "LONDON / OCEANIA": ["LONDON / OCEANIA","LONDRA / OCEANIA","LONDRES / OCÉANIA","LONDRES / OCEANÍA"],
+  "The Thames below Westminster by Claude Monet, about 1871": ["The Thames below Westminster by Claude Monet, about 1871","Il Tamigi sotto Westminster di Claude Monet, circa 1871","La Tamise sous Westminster de Claude Monet, vers 1871","El Támesis bajo Westminster de Claude Monet, hacia 1871"]
+};
+for(const [key,values] of Object.entries(orwellMessages))['en','it','fr','es'].forEach((language,index)=>translations[language][key]=values[index]);
 for(const [language,messages] of Object.entries(translations))Object.assign(window.atlasLocaleData.messages[language],messages);})();

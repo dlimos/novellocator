@@ -4,13 +4,15 @@ Explore the places behind the stories. A literary atlas with a shared HTML, CSS 
 
 ## Current scope
 
+Editorial rule for every book: each location, including mentions and unlocated settings, must have an authentic quotation from the novel supporting its connection to the relevant chapter. Preserve the original language, chapter and source attribution; paraphrases do not count as quotations. Record missing evidence as pending rather than inventing text or treating incomplete coverage as finished. For protected works, complete quotation extraction requires a user-provided text or suitable permission to reproduce the excerpts.
+
 - **Ulysses** by James Joyce: 18 episodes and 115 distinct places.
 - **In Search of Lost Time** by Marcel Proust: seven volumes, 23 distinct places and 33 scene records.
 - **War and Peace** by Leo Tolstoy: 15 books and two epilogues, 62 distinct places and 91 scene records. Sixteen sections have maps; the Second Epilogue is philosophical.
 - **Moby-Dick** by Herman Melville: 135 chapters and an epilogue, 21 narrative settings, 42 chapter references and 14 unlocated settings. 30 sections contain mapped places; other sections have contextual regional views.
 - **The Great Gatsby** by F. Scott Fitzgerald: nine chapters, 88 mapped places, 50 action references and 82 geographical mentions. Fictional buildings and ambiguous locations retain original-text evidence without guessed coordinates. Descriptions use four languages; excerpts retain the original English. Its Art Déco theme uses dark teal, ivory and gold.
 - English is the default language; Italian, French and Spanish are available.
-- **The Catcher in the Rye** by J. D. Salinger: 26 original chapters, 52 mapped geographical places, 82 chapter references and 35 unlocated setting records. Action includes narrated memories and is distinguished from mentions and proposals. Original English checked locally; scene descriptions are original paraphrases in four languages, without republishing copyrighted passages or editorial translations. Robert Henri’s public-domain *Snow in New York* (1902) supplies the cover, with a reusable winter-city theme.
+- **The Catcher in the Rye** by J. D. Salinger: 26 original chapters, 52 mapped geographical places, 82 chapter references and 35 unlocated setting records. Action includes narrated memories and is distinguished from mentions and proposals. Original English checked locally; scene descriptions are original paraphrases in four languages. Five brief original quotations are prepared locally; quotation coverage for every location is pending a user-provided text. Editorial translations and extended passages are not reproduced. Robert Henri’s public-domain *Snow in New York* (1902) supplies the cover, with a reusable winter-city theme.
 - Esri ArcGIS Maps SDK for JavaScript, five basemaps and external Google Street View links.
 
 The website is hosted as static files on GitHub Pages and now loads published books from Supabase's read API. Configuration is in `docs/supabase-config.js`; only the publishable key belongs there. Novel datasets in `docs/data/` and research JSON files in `tests/fixtures/` are kept locally and excluded from Git. The public site depends on Supabase; an outage displays a translated error. The home catalogue is rendered from public editorial metadata in `docs/content/books.js`; login and an editorial interface are not implemented yet. PostgreSQL migrations and TypeScript import/export tools are under `database/` and `scripts/database/`. See [database/README.md](database/README.md).
@@ -55,6 +57,10 @@ War and Peace follows the 15-book structure of the Maude translation hosted by P
 
 ## Editing content
 
+For every work, find the complete original-language text and verify its edition and coverage of all volumes, chapters, prologues and epilogues. Analyze the entire text section by section for action settings, geographical mentions, memories, journeys and fictional or unlocated places. Record the source, edition, sections reviewed and findings, including sections with no locations. Extracts, summaries and existing indexes do not replace this analysis; if the complete text is unavailable, document the gap and keep the analysis pending. Also search the web for specialist sites, critical editions, academic studies, literary atlases and author or book institutions. Compare their findings with the original, verify suggested locations against the text, and record relevant URLs, uncertainties and disagreements. Keep textual evidence, critical interpretations and coordinate sources distinct.
+
+For every new book, preview images must reproduce existing paintings connected to the novel through its setting, period, themes or explicit references. Document the connection, artwork title, artist, date, source and reuse rights in `docs/images/CREDITS.md`; configure the image, alt text and credits in `docs/content/books.js`. Photographs and generated images are not used for new book previews. Every chapter–location association, including action settings, mentions and unlocated settings, must have an authentic original-language quotation with its section and source/edition. Translations and paraphrases may accompany but cannot replace the original. Missing quotations remain pending, and the book addition is not complete until every location is supported. These project-wide instructions are also recorded in `AGENTS.md`.
+
 Edit the corresponding `docs/data/<book>.js` and `docs/data/<book>-i18n.js` files. Keep stable identifiers and source links; update all supported translations and affected CSV exports. See the detailed documentation for adding books or languages. Changes to audited coordinates should be supported by source evidence and reviewed against the test reference snapshots. A chapter can supply `placeSources` for scene-specific references and an empty `places` array with `emptyMessage` when there is no narrative geography to map.
 
 ## Credentials and future hosting
@@ -62,6 +68,10 @@ Edit the corresponding `docs/data/<book>.js` and `docs/data/<book>-i18n.js` file
 Keep hosting passwords, database connection strings and deployment profiles outside Git. Examples may use placeholders. Configure deployment secrets in the selected provider or GitHub Secrets when deployment is introduced.
 
 External source documents, temporary research downloads and the previous hosting-service configuration are not bundled here. Source links and attributions remain with the website. No open-source license is assigned by this repository; third-party maps, fonts and referenced datasets retain their respective terms.
+
+## 1984
+
+**1984** by George Orwell includes all 24 chapters and the Newspeak appendix, 58 mapped geographical references and 305 sourced section–place associations, including 203 records without coordinates. English quotations use the Gutenberg Canada transcription of the 1949 Secker & Warburg / Saunders edition. Four description languages, eight CSV exports and a public-domain Monet painting are configured. See [research and section coverage](docs/research/orwell1984.md). All three import scripts were executed in Supabase on 11 October 2026; the book is published in the database. Live anonymous API verification reconstructed the complete dataset and all four dictionaries exactly. Deployment of the updated website files remains pending.
 
 ## Moby-Dick
 
