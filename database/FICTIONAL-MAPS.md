@@ -32,3 +32,5 @@ Non sono stati generati script di importazione per questa bozza. Il PDF e i dati
 ### Vista temporale e limiti del disegno
 
 Il prototipo locale di Macondo usa tre illustrazioni con la stessa inquadratura e una barra temporale. `initialExtent` conserva la vista durante i cambi; `getExtent()` permette di salvarla. `lockFrame: true` imposta lo zoom minimo alla vista completa e limita il centro in base alla porzione visibile del disegno. Il limite si aggiorna al ridimensionamento, anche a schermo intero. Le coordinate e le fasi sono interpretative; dati e immagini del prototipo restano locali.
+
+`fillFrame: true` usa un limite di zoom calcolato sull’intera finestra, comprese le aree sotto i controlli, senza bande esterne. `contentExtent` indica il rettangolo narrativo da mostrare inizialmente e con Reset. Macondo aggiunge un margine generico di foresta in SVG, con gli originali centrali intatti e una traslazione identica di tutti i marker. Il margine è decorativo e non ha record narrativi.

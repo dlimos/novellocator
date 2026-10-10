@@ -75,5 +75,15 @@ const places = [{ id: 'house', x: 120, y: 230, kind: 'site', role: 'action' }, {
   assert.equal(view.constraints.minScale,400);
   assert.notEqual(locked.getExtent(),view.extent);
   locked.destroy(); assert.equal(frameRemoved,1);
+  const fill=await create({container:{},image:'data:image/png;base64,abc',width:1600,height:1000,places,load,lockFrame:true,fillFrame:true,padding:{left:15,right:15,top:55,bottom:160},contentExtent:{xmin:400,ymin:250,xmax:1200,ymax:750}});
+  assert.equal(view.extent.xmin,400);
+  assert.equal(view.constraints.minScale,100*1000/530);
+  view.width=400;view.height=900;view.center={x:-100,y:-100};frameCallback();
+  assert.equal(view.constraints.minScale,100*1000/900);
+  assert.equal(view.center.x,200);assert.equal(view.center.y,502.5);
+  view.center={x:3000,y:3000};frameCallback();
+  assert.equal(view.center.x,1400);assert.equal(view.center.y,602.5);
+  await fill.reset();assert.equal(view.targets.at(-1).xmin,400);
+  fill.destroy();assert.equal(frameRemoved,2);
   console.log('Illustrated maps: coordinate transforms, symbols, layers, selection and disposal OK (mock SDK).');
 })().catch(error => { console.error(error); process.exitCode = 1; });

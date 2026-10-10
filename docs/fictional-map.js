@@ -36,7 +36,7 @@
     ]);
   }
   async function create({ container, image, width, height, places, onSelect = () => {}, load = loadSDK,
-    initialExtent = null, lockFrame = false, padding = { top: 15, right: 15, bottom: 15, left: 15 } }) {
+    initialExtent = null, contentExtent = null, lockFrame = false, fillFrame = false, padding = { top: 15, right: 15, bottom: 15, left: 15 } }) {
     const positions = places.map(p => ({ place: p, geometry: point(p, width, height), symbol: symbol(p) }));
     if (new Set(places.map(p => p.id)).size !== places.length) throw new TypeError('Duplicate place id.');
     const [Map, MapView, MediaLayer, ImageElement, Georeference, Extent, GraphicsLayer, Graphic, reactiveUtils] = await load();
@@ -47,6 +47,7 @@
     let view, clickHandle, frameHandle, disposed = false, selectedId = null;
     try {
       const extent = new Extent({ xmin: 0, ymin: 0, xmax: width, ymax: height, spatialReference: { wkid: 3857 } });
+      const homeExtent = contentExtent ? new Extent(contentExtent) : extent;
       const background = new MediaLayer({ source: [new ImageElement({ image: imageURL,
         georeference: new Georeference({ extent }) })], title: 'Illustrated map' });
       const layers = Object.fromEntries(Object.keys(colors).map(role => [role,
@@ -62,7 +63,7 @@
           attributes: { id: item.place.id } }));
       }
       const map = new Map({ basemap: null, layers: [background, layers.action, layers.mentioned] });
-      view = new MapView({ container, map, extent: initialExtent ?? extent, spatialReference: { wkid: 3857 },
+      view = new MapView({ container, map, extent: initialExtent ?? homeExtent, spatialReference: { wkid: 3857 },
         ui: { components: [] }, popupEnabled: false, background: { color: '#eee1bd' },
         constraints: { geometry: extent, rotationEnabled: false }, padding });
       await view.when();
@@ -72,11 +73,15 @@
           if (disposed || !view.center || !(view.resolution > 0) || !(view.scale > 0)) return;
           const usableWidth = Math.max(1, view.width - padding.left - padding.right);
           const usableHeight = Math.max(1, view.height - padding.top - padding.bottom);
-          const fitResolution = Math.max(width / usableWidth, height / usableHeight);
+          const fitResolution = fillFrame ? Math.min(width / Math.max(1, view.width), height / Math.max(1, view.height)) : Math.max(width / usableWidth, height / usableHeight);
           // In MapView, minScale is the zoom-out limit; maxScale limits zoom-in.
           view.constraints.minScale = fitResolution * view.scale / view.resolution;
           if (view.scale > view.constraints.minScale) view.scale = view.constraints.minScale;
-          const center = boundedCenter(view.center, view.resolution * usableWidth, view.resolution * usableHeight, width, height);
+          const resolution = Math.min(view.resolution, fitResolution);
+          const offsetX = fillFrame ? resolution * (padding.right - padding.left) / 2 : 0;
+          const offsetY = fillFrame ? resolution * (padding.top - padding.bottom) / 2 : 0;
+          const center = boundedCenter({x:view.center.x+offsetX,y:view.center.y+offsetY}, resolution * (fillFrame ? view.width : usableWidth), resolution * (fillFrame ? view.height : usableHeight), width, height);
+          center.x -= offsetX; center.y -= offsetY;
           if (Math.abs(center.x - view.center.x) > 1e-7 || Math.abs(center.y - view.center.y) > 1e-7)
             view.center = { type: 'point', ...center, spatialReference: { wkid: 3857 } };
         };
@@ -102,7 +107,7 @@
           await view.goTo({ center: graphic.geometry }, { animate: false });
           return true;
         },
-        reset() { return view.goTo(extent, { animate: false }); },
+        reset() { return view.goTo(homeExtent, { animate: false }); },
         getExtent() { return view.extent.clone(); },
         zoom(factor) { if (!Number.isFinite(factor) || factor <= 0) throw new RangeError('Invalid zoom factor.'); return view.goTo(view.extent.clone().expand(factor), { animate: false }); },
         destroy() { if (disposed) return; disposed = true; clickHandle?.remove(); frameHandle?.remove(); view.destroy(); releaseImage(); }
