@@ -181,7 +181,7 @@ window.atlasLocaleData={
       "LONG ISLAND / NEW YORK": "LONG ISLAND / NEW YORK",
       "Nine chapters, from the shores of Long Island to the streets of Jazz Age Manhattan.": "Nove capitoli, dalle rive di Long Island alle strade di Manhattan nell’età del jazz.",
       "Explore the places of Ulysses, In Search of Lost Time, War and Peace, Moby-Dick and The Great Gatsby.": "Esplora i luoghi di Ulisse, Alla ricerca del tempo perduto, Guerra e pace, Moby-Dick e Il grande Gatsby.",
-      "Lower Manhattan from the air, circa 1920 · Bain News Service": "Lower Manhattan vista dall’alto, circa 1920 · Bain News Service"
+      "New York by George Bellows, 1911": "New York di George Bellows, 1911"
     },
     "en": {
       "Atlante letterario": "Literary Atlas",
@@ -345,7 +345,7 @@ window.atlasLocaleData={
       "LONG ISLAND / NEW YORK": "LONG ISLAND / NEW YORK",
       "Nine chapters, from the shores of Long Island to the streets of Jazz Age Manhattan.": "Nine chapters, from the shores of Long Island to the streets of Jazz Age Manhattan.",
       "Explore the places of Ulysses, In Search of Lost Time, War and Peace, Moby-Dick and The Great Gatsby.": "Explore the places of Ulysses, In Search of Lost Time, War and Peace, Moby-Dick and The Great Gatsby.",
-      "Lower Manhattan from the air, circa 1920 · Bain News Service": "Lower Manhattan from the air, circa 1920 · Bain News Service"
+      "New York by George Bellows, 1911": "New York by George Bellows, 1911"
     },
     "fr": {
       "Atlante letterario": "Atlas littéraire",
@@ -509,7 +509,7 @@ window.atlasLocaleData={
       "LONG ISLAND / NEW YORK": "LONG ISLAND / NEW YORK",
       "Nine chapters, from the shores of Long Island to the streets of Jazz Age Manhattan.": "Neuf chapitres, des rivages de Long Island aux rues de Manhattan à l’âge du jazz.",
       "Explore the places of Ulysses, In Search of Lost Time, War and Peace, Moby-Dick and The Great Gatsby.": "Explorez les lieux d’Ulysse, À la recherche du temps perdu, Guerre et Paix, Moby-Dick et Gatsby le Magnifique.",
-      "Lower Manhattan from the air, circa 1920 · Bain News Service": "Lower Manhattan vue du ciel, vers 1920 · Bain News Service"
+      "New York by George Bellows, 1911": "New York de George Bellows, 1911"
     },
     "es": {
       "Atlante letterario": "Atlas literario",
@@ -673,7 +673,7 @@ window.atlasLocaleData={
       "LONG ISLAND / NEW YORK": "LONG ISLAND / NUEVA YORK",
       "Nine chapters, from the shores of Long Island to the streets of Jazz Age Manhattan.": "Nueve capítulos, desde las orillas de Long Island hasta las calles de Manhattan en la era del jazz.",
       "Explore the places of Ulysses, In Search of Lost Time, War and Peace, Moby-Dick and The Great Gatsby.": "Explora los lugares de Ulises, En busca del tiempo perdido, Guerra y paz, Moby-Dick y El gran Gatsby.",
-      "Lower Manhattan from the air, circa 1920 · Bain News Service": "Lower Manhattan desde el aire, hacia 1920 · Bain News Service"
+      "New York by George Bellows, 1911": "Nueva York de George Bellows, 1911"
     }
   }
 };

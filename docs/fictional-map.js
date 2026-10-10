@@ -106,9 +106,12 @@
           }
           if(disposed)return;
           geographicMode=enabled;background.visible=!enabled;map.basemap=enabled?geographicBasemap:null;
-          view.constraints.geometry=enabled?null:extent;view.constraints.minScale=0;view.constraints.maxScale=0;
-          view.constraints.lods=enabled?geographicLayer?.tileInfo?.lods||null:null;
-          view.constraints.minZoom=enabled?1:-1;view.constraints.maxZoom=enabled?19:-1;
+          // Replace all constraints together so the illustrated frame cannot
+          // clamp navigation while the geographic basemap is being attached.
+          view.constraints={geometry:enabled?null:extent,rotationEnabled:false,snapToZoom:false,
+            lods:enabled?geographicLayer?.tileInfo?.lods||null:null,
+            minScale:enabled?295828763.7957775:0,maxScale:enabled?1128.497176:0,
+            minZoom:-1,maxZoom:-1};
           if(!enabled)await view.goTo(homeExtent,{animate:false});
         },
         async whenImageReady(){if(view.whenLayerView && reactiveUtils?.whenOnce){const layerView=await view.whenLayerView(background);await reactiveUtils.whenOnce(()=>!layerView.updating);}},

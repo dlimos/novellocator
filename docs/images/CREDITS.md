@@ -17,7 +17,7 @@ The choice of Turner's whaling scene is also informed by the Met's [Turner's Wha
 
 ## The Great Gatsby
 
-Bain News Service (publisher), *N.Y.C. from Army plane*, dated 1919–1920. Historical aerial photograph of Battery Place and Lower Manhattan, George Grantham Bain Collection, Library of Congress, item 2014711601. [Catalogue](https://www.loc.gov/item/2014711601/), [image](https://cdn.loc.gov/service/pnp/ggbain/31400/31446v.jpg), [rights information](https://www.loc.gov/rr/print/res/274_bain.html), [public-domain declaration](https://commons.wikimedia.org/wiki/File:N.Y.C._from_Army_plane_LCCN2014711601.jpg). No known restrictions on publication; Commons marks the image public domain. Local image: `gatsby-new-york-1920.jpg`, 1024 × 735 pixels. The catalogue supplies a date range; it is not described as an exact 1922 photograph. Cropping uses CSS only.
+George Bellows, *New York*, 1911, oil on canvas, National Gallery of Art, Washington, Collection of Mr. and Mrs. Paul Mellon, accession 1986.72.1. [Museum catalogue and public-domain declaration](https://www.nga.gov/artworks/69392-new-york). Downloaded from the museum’s [IIIF image service](https://api.nga.gov/iiif/6bea4e79-1320-4c0a-96b1-d5aa2f149dfe/full/!1200,1200/0/default.jpg). Local file: `gatsby-bellows-new-york.jpg`. The painting evokes metropolitan New York; its date precedes the novel’s 1922 setting. Cropping uses CSS only. Rights checked on 10 October 2026.
 
 ## One Hundred Years of Solitude
 

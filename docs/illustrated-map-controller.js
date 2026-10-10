@@ -17,6 +17,11 @@ class IllustratedMapController {
   const p=anchors?.[id]||Object.values(this.config.anchors).map(a=>a.positions[id]).find(Boolean);
   return p?{x:p.x*this.config.width,y:p.y*this.config.height}:null;
  }
+ geographicView(place){
+  // A view created without tiled layers may have no effective LODs.
+  // Scale works in that view even when setting a zoom level is ignored.
+  return {center:[place.coords[1],place.coords[0]],scale:591657527.591555/2**place.zoom};
+ }
  paintPreview(){
   this.image.src=this.config.epochs[this.epoch].image;
   for(const pin of Array.from(this.drawing.querySelectorAll('button')))pin.remove();
@@ -41,7 +46,7 @@ class IllustratedMapController {
      const changed=!this.geographic||this.geographicTarget!==this.selected;
      await this.renderer.setGeographic(true,this.config.basemapURL);this.geographic=true;if(token!==this.sequence)return;
      this.geographicTarget=this.selected;this.back.hidden=false;this.preview.hidden=true;this.onMode(true);this.draw();
-     if(changed)await this.renderer.view.goTo({center:[real.coords[1],real.coords[0]],zoom:real.zoom},{animate:false});
+     if(changed)await this.renderer.view.goTo(this.geographicView(real),{animate:false});
     }else{
      const leaving=this.geographic;this.geographic=false;this.geographicTarget=null;this.back.hidden=true;this.onMode(false);
      if(leaving)await this.renderer.setGeographic(false);
@@ -65,7 +70,7 @@ class IllustratedMapController {
   if(!this.geographic)return this.renderer.reset();
   const points=(this.chapter?.places||[]).filter(id=>this.visible[this.chapter.placeCategories?.[id]||'action']).map(id=>this.config.geographicPlaces?.[id]).filter(Boolean);
   if(points.length>1){const lat=points.map(p=>p.coords[0]),lon=points.map(p=>p.coords[1]);return this.renderer.view.goTo(new this.renderer.Extent({xmin:Math.min(...lon),xmax:Math.max(...lon),ymin:Math.min(...lat),ymax:Math.max(...lat),spatialReference:{wkid:4326}}).expand(1.3),{animate:false});}
-  const p=points[0]||this.config.geographicPlaces?.[this.selected];return this.renderer.view.goTo({center:[p.coords[1],p.coords[0]],zoom:p.zoom},{animate:false});
+  const p=points[0]||this.config.geographicPlaces?.[this.selected];return this.renderer.view.goTo(this.geographicView(p),{animate:false});
  }
  zoom(factor){return this.renderer?.zoom(factor);}
  async focus(id){await this.queue;if(id!==this.selected||!this.renderer)return;const real=this.geographic&&this.config.geographicPlaces?.[id];if(real)return this.renderer.view.goTo({center:[real.coords[1],real.coords[0]]},{animate:false});const p=this.position(id);if(p)return this.renderer.view.goTo({center:FictionalMap.point(p,this.config.width,this.config.height)},{animate:false});}
