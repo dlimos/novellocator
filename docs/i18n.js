@@ -33,7 +33,7 @@
    location.assign(url.href);
   });
   for(const a of document.querySelectorAll('a[href]')){
-   const href=a.getAttribute('href');if(!/^(index|atlas)\.html(?:[?#]|$)/.test(href))continue;
+   const href=a.getAttribute('href');if(!/^(index|atlas|illustrated)\.html(?:[?#]|$)/.test(href))continue;
    const target=new URL(href,location.href);target.searchParams.set('lang',locale);a.href=target.href;
   }
  }

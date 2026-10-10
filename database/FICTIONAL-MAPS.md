@@ -1,36 +1,21 @@
-# Mappe immaginarie: primo prototipo
+# Atlanti illustrati
 
-`docs/fictional-map.js` è un renderer riutilizzabile per immagini SVG/raster e luoghi con coordinate del disegno. Non è ancora collegato al caricatore Supabase di `atlas.html`. I romanzi geografici continuano a usare il percorso esistente.
+La home include Cent’anni di solitudine e apre `docs/illustrated.html?book=macondo`. I romanzi geografici continuano a usare `atlas.html`.
 
-L'esempio Macondo è nella cartella locale `../macondo/` esterna al repository. Non è un nuovo titolo del catalogo pubblico. La prima bozza di quattro luoghi basata sull'estratto dell'editore è stata sostituita da una mappa di lettura evocativa: 47 voci selezionate da passaggi distribuiti nel PDF spagnolo fornito dall'utente, con 29 posizioni illustrative, ambienti della casa e luoghi esterni non collocati. L'estrazione copre tutte le 334 pagine; l'inventario è una prima analisi spaziale, non un censimento esaustivo di ogni scena. Nessun luogo è incluso soltanto per un legame biografico con l'autore.
+## Contenuti e caricamento
 
-## Contratto del renderer
+`illustrated-atlas.js` è un’interfaccia generica per mappe immaginarie; testi, lingue, epoche, immagini e ancoraggi arrivano dai dati. `illustrated-data.js` carica `book_maps.metadata.illustratedAtlas` tramite la Data API e la publishable key. Le policy di lettura esistenti ammettono solo libri pubblicati. I dati di questo primo atlante sono un documento JSONB versionato nel database, non ancora suddivisi fra tutte le tabelle editoriali; il contratto consente una successiva normalizzazione senza cambiare le schede.
 
-`FictionalMap.create({ container, image, width, height, places, onSelect })` riceve:
+Con file:// il caricatore usa esclusivamente `docs/data/macondo-local.js`, escluso da Git. Online non c’è fallback locale: una mancata importazione produce un messaggio esplicito. Dataset e SQL di reinserimento sono in `database/generated/macondo/`, esclusi da Git. Il PDF completo resta fuori dal repository e non viene distribuito; la pagina mostra brevi estratti originali spagnoli e riferimenti di pagina.
 
-- `image`: stringa SVG controllata dall'applicazione, Blob immagine oppure URL immagine HTTPS/data; non markup inviato dagli utenti;
-- `width`, `height`: dimensioni del disegno;
-- `places`: record `{ id, x, y, kind, role, label? }`, con origine in alto a sinistra; `label` opzionale aggiunge un numero/testo al marker;
-- `kind`: `site` (cerchio) oppure `area` (rombo);
-- `role`: `action` (verde) oppure `mentioned` (terracotta).
+Macondo contiene 47 voci, 29 luoghi illustrabili nell’intero inventario e tre fasi editoriali. Le immagini continuano ciascuna scena ai bordi; non usano una cornice comune. Gli ancoraggi dei marker sono calibrati separatamente: 3 nel primo villaggio, 24 nell’espansione e 19 nel declino. I luoghi senza una posizione nel disegno restano consultabili senza inventare coordinate. Le fasi e la geografia interna sono interpretative, non una planimetria o date storiche certe.
 
-Il risultato espone `select`, `setVisible`, `reset`, `zoom`, `destroy`. L'interfaccia chiamante gestisce testi, lingue e schede, anche a schermo intero. Non si aggiungono basemap terrestri, Street View o scale metriche. Il riferimento 3857 è solo un canvas tecnico per Esri: i numeri rappresentano pixel e non coordinate geografiche. Il cambio dell'origine Y avviene nel renderer; il database conserva i valori originali.
+## Renderer
 
-Esri MediaLayer carica l'immagine da Blob URL o URL immagine; due GraphicsLayer contengono i marker. La selezione evidenzia il punto con un contorno dorato. Il prototipo non usa servizi ArcGIS Online ospitati e non richiede una chiave. La pagina contiene un'anteprima illustrata selezionabile se SDK, immagine o WebGL non si caricano. Il test del renderer usa costruttori simulati; non certifica il rendering WebGL su un dispositivo reale.
+`FictionalMap.create({container,image,width,height,places,onSelect,contentExtent,initialExtent,lockFrame,fillFrame,padding})` usa MediaLayer e due GraphicsLayer. Le posizioni sono pixel del disegno con origine in alto a sinistra; il wkid 3857 serve solo come canvas, non indica coordinate terrestri. Cerchi per edifici/siti e rombi per strade/aree; verde per azione e terracotta per citazioni. Macondo al momento mostra solo luoghi di azione.
 
-## Passaggio al catalogo
+`contentExtent` definisce la vista iniziale e Reset; `initialExtent` conserva la vista nel cambio d’epoca. `lockFrame` limita il trascinamento; `fillFrame` calcola il limite di zoom su tutta la finestra per evitare bande esterne, aggiornandolo al ridimensionamento. `getExtent()`, `select()`, `setVisible()`, `zoom()`, `reset()` e `destroy()` gestiscono il ciclo di vita. Se Esri/WebGL non si avvia rimane una vista statica con marker selezionabili.
 
-Lo schema `003_book_maps.sql` prevede già `book_maps`, `section_maps`, `map_layers`, `place_positions`, e posizioni cartesiane. Per la produzione occorrerà:
+## Verifica
 
-1. Analizzare l'originale completo e registrare fonti, fasi temporali, relazioni documentate e collocazioni editoriali separatamente.
-2. Preparare il disegno definitivo e verificarne i diritti. Per mappe del mondo immaginario non si devono ricavare false longitudini/latitudini.
-3. Estendere il caricatore e l'adapter dei contenuti: oggi il percorso geografico rifiuta esplicitamente i luoghi privi di coordinate terrestri.
-4. Importare il libro e le mappe tramite script SQL locali, pubblicando il titolo solo dopo verifica.
-
-Non sono stati generati script di importazione per questa bozza. Il PDF e i dati restano fuori dal repository; le schede citano brevi estratti e pagine del documento locale. L'illustrazione generata con IA riunisce diverse epoche: i due punti del fiume sono posizioni successive, scuola/caserma sono un sito solo, le due case di Rebeca sono distinte. Gli ambienti interni non diventano finti punti separati. I luoghi oltre Macondo non vengono collocati dentro il paese; le eventuali coordinate terrestri vanno verificate separatamente.
-
-### Vista temporale e limiti del disegno
-
-Il prototipo locale di Macondo usa tre illustrazioni con la stessa inquadratura e una barra temporale. `initialExtent` conserva la vista durante i cambi; `getExtent()` permette di salvarla. `lockFrame: true` imposta lo zoom minimo alla vista completa e limita il centro in base alla porzione visibile del disegno. Il limite si aggiorna al ridimensionamento, anche a schermo intero. Le coordinate e le fasi sono interpretative; dati e immagini del prototipo restano locali.
-
-`fillFrame: true` usa un limite di zoom calcolato sull’intera finestra, comprese le aree sotto i controlli, senza bande esterne. `contentExtent` indica il rettangolo narrativo da mostrare inizialmente e con Reset. Il prototipo di Macondo usa ora tre panorami PNG ampliati separatamente con ImageGen, continuando strade, fiumi e ferrovia. La cornice SVG comune è stata sostituita. Gli ancoraggi dei marker sono calibrati per ciascuna immagine, perché la generazione non garantisce una registrazione pixel per pixel. Le estensioni sono interpretative e non aggiungono record narrativi.
+Test automatici: API pubblica e validazione dati, lingue, epoche, marker, fonti, navigazione e limiti della mappa con SDK/DOM simulati. Importazione Supabase completata: 47 voci e 3 epoche; lettura anonima verificata con la publishable key. I test simulati non certificano il rendering WebGL su tutti i dispositivi.
