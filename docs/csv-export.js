@@ -15,7 +15,7 @@
     const q=ref.excerpt?.original;
     rows.push([chapter.id,chapter.title,p.name,p.area,labels[ref.category==='mentioned'?1:0],p.coords?.[0],p.coords?.[1],p.kind,ref.scene||'',q?.language,q?.quote||chapter.placeQuotes?.[ref.placeId]||'',q?.url||chapter.placeSources?.[ref.placeId]?.url||p.narrativeSource?.url,p.positionSource?.url,p.method,p.note,p.checked]);
    }
-   if(kind!=='citations')for(const p of chapter.unlocatedPlaces||[])rows.push([chapter.id,chapter.title,p.name,'',labels[0],'','','',p.text,'',p.quote,p.url,'','','','']);
+   if(kind!=='citations')for(const p of chapter.unlocatedPlaces||[])rows.push([chapter.id,chapter.title,p.name,'',labels[p.category==='mentioned'?1:0],'','','',p.text,'',p.quote,p.url,'','','','']);
   }
   return '\ufeff'+rows.map(row=>row.map(value=>'"'+String(value??'').replaceAll('"','""')+'"').join(',')).join('\r\n')+'\r\n';
  }

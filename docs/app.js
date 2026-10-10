@@ -207,7 +207,7 @@ function renderDetail(){
  renderLocation();
  if(chapter.unlocatedPlaces?.length){
   const section=document.createElement('section');section.className='unlocated-places';
-  section.innerHTML=`<h3>${esc(t('Locations without verified coordinates'))}</h3>${chapter.unlocatedPlaces.map(item=>`<details class="location-evidence"><summary>${esc(item.name)}</summary><p>${esc(item.text)}</p><p><strong>${esc(t('Original text'))} · ${esc(t(item.language==='es'?'Spanish':'English'))}</strong></p><blockquote lang="${item.language||'en'}">${esc(item.quote)}</blockquote>${item.url?`<a href="${esc(item.url)}" target="_blank" rel="noopener noreferrer">${esc(t('Read the source'))}</a>`:""}</details>`).join('')}`;
+  section.innerHTML=`<h3>${esc(t('Locations without verified coordinates'))}</h3>${chapter.unlocatedPlaces.map(item=>`<details class="location-evidence"><summary>${esc(item.name)}</summary><p>${esc(item.text)}</p>${item.quote?`<p><strong>${esc(t('Original text'))} · ${esc(t(item.language==='es'?'Spanish':'English'))}</strong></p><blockquote lang="${item.language||'en'}">${esc(item.quote)}</blockquote>`:''}${item.url?`<a href="${esc(item.url)}" target="_blank" rel="noopener noreferrer">${esc(t('Read the source'))}</a>`:""}</details>`).join('')}`;
   document.getElementById('selected-location').parentElement.appendChild(section);
  }
 }

@@ -53,7 +53,7 @@ async function main(){
   await assert.rejects(db.query("insert into public.editorial_memberships values ($1,'admin')",[users.other]));
   await identity('authenticated',users.admin);await db.query("insert into public.editorial_memberships values ($1,'editor')",[users.other]);assert.equal((await db.query("delete from public.books where id='draft' returning id")).rows.length,1);
   await identity('authenticated',users.reader);assert.equal((await db.query('delete from public.favorite_places returning *')).rows.length,1);
-  console.log('PASS: PostgreSQL/PGlite migrations, exact import/export of five novels, fantasy webmap/section/layers with local coordinates, constraints and anonymous/reader/editor/admin RLS.');
+  console.log('PASS: PostgreSQL/PGlite migrations, exact import/export of '+inputs.length+' novels, fantasy webmap/section/layers with local coordinates, constraints and anonymous/reader/editor/admin RLS.');
  }finally{await db.close();}
 }
 main().catch(error=>{console.error(error instanceof Error?error.message:String(error));process.exitCode=1});

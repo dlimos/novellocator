@@ -1,5 +1,5 @@
 const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
-const ids=['ulisse','proust','war-and-peace','moby-dick','gatsby'];
+const ids=['ulisse','proust','war-and-peace','moby-dick','gatsby','holden'];
 const live=process.argv.includes('--live');
 const bundle=live?null:JSON.parse(require('node:child_process').execFileSync(process.execPath,['node_modules/tsx/dist/cli.mjs','-e',"import {loadInputs,normalize} from './scripts/database/model.ts'; console.log(JSON.stringify(normalize(loadInputs(process.cwd()))))"],{encoding:'utf8',maxBuffer:30_000_000}));
 const calls=[];
@@ -38,6 +38,6 @@ async function main(){
    if(mode==='missing'){assert.equal(scripts.length,0);assert.match(detail.textContent,/non è ancora disponibile/);}
   }
  }
- console.log('PASS: '+(live?'live Supabase anonymous API (coordinate tolerance 1e-12 degrees)':'paginated Supabase API with smaller server cap')+', complete datasets and translations for five novels; unpublished/missing books blocked.');
+ console.log('PASS: '+(live?'live Supabase anonymous API (coordinate tolerance 1e-12 degrees)':'paginated Supabase API with smaller server cap')+', complete datasets and translations for six novels; unpublished/missing books blocked.');
 }
 main().catch(error=>{console.error(error.message);process.exitCode=1});

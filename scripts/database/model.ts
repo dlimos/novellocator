@@ -2,7 +2,8 @@ import fs from 'node:fs';
 import path from 'node:path';
 import vm from 'node:vm';
 import {createHash} from 'node:crypto';
-export const bookIds=['ulisse','proust','war-and-peace','moby-dick','gatsby'] as const;
+const catalogue=loadScript(path.resolve('docs/content/books.js'),'atlasCatalogue') as {books:{id:string;mapType:string;originalLanguage?:string}[]};
+export const bookIds=catalogue.books.filter(book=>book.mapType==='geographic').map(book=>book.id);
 import {tables,type Obj,type Row,type Bundle,type Dataset,type Dictionary,type Source,type Passage,type Excerpt} from './content.js';
 export {tables,reconstruct,type Row,type Bundle,type Dataset,type Dictionary} from './content.js';
 export function loadScript(file:string,key:string):unknown {
@@ -19,7 +20,7 @@ export function normalize(inputs:ReturnType<typeof loadInputs>):Bundle {
  const bundle:Bundle={formatVersion:1,tables:{books:[],sections:[],places:[],sources:[],place_descriptions:[],place_references:[],excerpts:[],unlocated_settings:[],content_translations:[]}};
  for(const {id,data,dictionary} of inputs){
   if(data.book.id!==id)throw new Error(`Book ID mismatch: ${id}`);
-  const originalLanguage=id==='proust'?'fr':id==='war-and-peace'?'ru':'en';
+  const originalLanguage=catalogue.books.find(book=>book.id===id)?.originalLanguage||data.book.originalLanguage||'en';
   bundle.tables.books.push({id,title:data.book.title,author:data.book.author,original_language:originalLanguage,publication_status:'published',metadata:without(data.book,['id','title','author'])});
   const sourceIds=new Set<string>();
   function source(src?:Source):string|null {

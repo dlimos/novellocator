@@ -1,4 +1,4 @@
-// Public editorial metadata only. Narrative datasets remain in Supabase.
+// Public editorial metadata: cover art and reusable presentation profiles.
 window.atlasCatalogue={
   "books": [
     {
@@ -23,7 +23,8 @@ window.atlasCatalogue={
         "title": "Four Courts and River Liffey",
         "year": "1799"
       },
-      "legacyHashPrefix": "episodio"
+      "legacyHashPrefix": "episodio",
+      "originalLanguage": "en"
     },
     {
       "id": "proust",
@@ -46,7 +47,8 @@ window.atlasCatalogue={
         "url": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Jardin_%C3%A0_Sainte-Adresse.jpg",
         "title": "Jardin à Sainte-Adresse",
         "year": "1867"
-      }
+      },
+      "originalLanguage": "fr"
     },
     {
       "id": "war-and-peace",
@@ -69,7 +71,8 @@ window.atlasCatalogue={
         "url": "https://commons.wikimedia.org/wiki/File:Vereshchagin_Napoleon_near_Borodino.jpg",
         "title": "Napoleon near Borodino",
         "year": "1897"
-      }
+      },
+      "originalLanguage": "ru"
     },
     {
       "id": "moby-dick",
@@ -92,7 +95,8 @@ window.atlasCatalogue={
         "url": "https://commons.wikimedia.org/wiki/File:Whalers_MET_DP169567.jpg",
         "title": "Whalers",
         "year": "1845"
-      }
+      },
+      "originalLanguage": "en"
     },
     {
       "id": "gatsby",
@@ -115,7 +119,8 @@ window.atlasCatalogue={
         "url": "https://www.nga.gov/artworks/69392-new-york",
         "title": "New York",
         "year": "1911"
-      }
+      },
+      "originalLanguage": "en"
     },
     {
       "id": "macondo",
@@ -131,7 +136,11 @@ window.atlasCatalogue={
         "alt": "Tropical Forest with Monkeys by Henri Rousseau, 1910",
         "width": 1200,
         "height": 959,
-        "position": "center"
+        "position": "center",
+        "banner": {
+          "opacity": 0.44,
+          "mobileOpacity": 0.3
+        }
       },
       "credit": {
         "artist": "Henri Rousseau",
@@ -140,6 +149,34 @@ window.atlasCatalogue={
         "year": "1910"
       },
       "originalLanguage": "es"
+    },
+    {
+      "id": "holden",
+      "title": "The Catcher in the Rye",
+      "author": "J. D. SALINGER",
+      "description": "Twenty-six chapters through winter New York: real settings, memories and imagined destinations.",
+      "ariaLabel": "Explore The Catcher in the Rye by J. D. Salinger",
+      "setting": "NEW YORK",
+      "mapType": "geographic",
+      "theme": "winter-city",
+      "originalLanguage": "en",
+      "cover": {
+        "src": "images/holden-henri-snow.jpg",
+        "alt": "Snow in New York by Robert Henri, 1902",
+        "width": 962,
+        "height": 1200,
+        "position": "center 65%",
+        "banner": {
+          "opacity": 0.4,
+          "mobileOpacity": 0.28
+        }
+      },
+      "credit": {
+        "artist": "Robert Henri",
+        "url": "https://www.nga.gov/artworks/42929-snow-new-york",
+        "title": "Snow in New York",
+        "year": "1902"
+      }
     }
   ],
   "defaultBook": "ulisse",
