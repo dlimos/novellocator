@@ -1,5 +1,6 @@
 const {locale,t}=window.atlasI18n??{locale:"it",t:key=>key};
 const {book,chapters,places:literaryPlaces}=window.atlasData;
+const isIllustrated=book.mapType==='illustrated';let illustratedMap=null;
 const basemaps=window.atlasBasemaps;
 let view=null, markerLayer=null, citedMarkerLayer=null, GraphicClass=null, ExtentClass=null;
 let current=0, selectedPlace=0, selectedCitation=-1, viewReady=false;
@@ -80,6 +81,7 @@ const globalPlaceIds=[...new Set(chapters.flatMap(chapter=>chapter.places))];
 const globalChapter={id:'all',title:t('All places'),places:globalPlaceIds,placeText:[],placeSources:{},placeExcerpts:{},placeQuotes:{},links:book.links||[],text:t('Explore every mapped location in the novel. Select a place to see the sections in which it appears.'),time:t('Whole novel'),people:t('Global view')};
 for(const id of globalPlaceIds){const chapter=chapters.find(section=>section.places.includes(id));globalChapter.placeText.push(chapter.placeText[chapter.places.indexOf(id)]);globalChapter.placeSources[id]=chapter.placeSources?.[id];globalChapter.placeExcerpts[id]=chapter.placeExcerpts?.[id];globalChapter.placeQuotes[id]=chapter.placeQuotes?.[id];}
 const activeChapter=()=>current<0?globalChapter:chapters[current];
+if(isIllustrated){globalChapter.placeKinds=Object.fromEntries(globalPlaceIds.map(id=>[id,literaryPlaces[id].kind]));globalChapter.placeNames=Object.fromEntries(globalPlaceIds.map(id=>[id,literaryPlaces[id].name]));}
 const globalCitations=[...new Map(chapters.flatMap(chapter=>chapter.citations||[]).map(reference=>[reference.placeId,reference])).values()];
 const activeCitations=()=>current<0?globalCitations:chapters[current].citations||[];
 function placeCategory(id){if(current>=0)return chapters[current].placeCategories?.[id]||'action';return chapters.some(chapter=>chapter.places.includes(id)&&chapter.placeCategories?.[id]!=='mentioned')?'action':'mentioned';}
@@ -118,7 +120,8 @@ document.getElementById('atlas-workspace').setAttribute('aria-label',t('Atlante'
 // Source links are curated editorial content from the book metadata.
 document.getElementById('book-sources').innerHTML=book.footerHtml||'';
 if(book.citationCsvPrefix){const paragraph=document.createElement('p'),link=document.createElement('a');link.href=book.citationCsvPrefix+'-'+locale+'.csv';link.download='';link.textContent=t('Download cited places (CSV)');paragraph.appendChild(link);document.getElementById('book-sources').appendChild(paragraph);}
-window.atlasCsv?.bind(document.getElementById('book-sources'),window.atlasData,locale);
+if(!isIllustrated)window.atlasCsv?.bind(document.getElementById('book-sources'),window.atlasData,locale);
+if(isIllustrated)document.querySelector('.basemap-toolbar').hidden=true;
 basemaps.forEach(item=>{const option=document.createElement('option');option.value=item.id;option.textContent=t(item.label);basemapSelect.appendChild(option)});
 basemapSelect.value=activeBasemap;
 document.getElementById('basemap-description').textContent=t(basemaps.find(b=>b.id===activeBasemap).description);
@@ -184,7 +187,7 @@ function renderExcerpts(excerpts,heading){
  const records=[];
  for(const item of [excerpts.original,excerpts.translations?.en,excerpts.translations?.[locale]])if(item&&!records.some(record=>record.language===item.language))records.push(item);
  if(!records.length)return '';
- return `<details class="original-excerpt"><summary>${esc(t(heading))} · ${records.map(item=>esc(t(languageNames[item.language]||item.language))).join(' / ')}</summary>${records.map(item=>`<p><strong>${esc(t(item.type==='translation'?'Public-domain translation':'Original text'))} · ${esc(t(languageNames[item.language]||item.language))}</strong></p><blockquote lang="${esc(item.language)}">${esc(item.quote)}</blockquote><p class="excerpt-credit">${esc(item.attribution)}<br><a href="${esc(item.url)}" target="_blank" rel="noopener noreferrer">${esc(t('Read the source'))}</a> · <a href="${esc(item.rightsUrl)}" target="_blank" rel="noopener noreferrer">${esc(t('Edition and rights'))}</a></p>`).join('')}</details>`;
+ return `<details class="original-excerpt"><summary>${esc(t(heading))} · ${records.map(item=>esc(t(languageNames[item.language]||item.language))).join(' / ')}</summary>${records.map(item=>`<p><strong>${esc(t(item.type==='translation'?'Public-domain translation':'Original text'))} · ${esc(t(languageNames[item.language]||item.language))}</strong></p><blockquote lang="${esc(item.language)}">${esc(item.quote)}</blockquote><p class="excerpt-credit">${esc(item.attribution)}<br>${item.url?`<a href="${esc(item.url)}" target="_blank" rel="noopener noreferrer">${esc(t('Read the source'))}</a>`:""}${item.rightsUrl?` · <a href="${esc(item.rightsUrl)}" target="_blank" rel="noopener noreferrer">${esc(t('Edition and rights'))}</a>`:""}</p>`).join('')}</details>`;
 }
 function renderDetail(){
  const chapter=activeChapter();
@@ -204,7 +207,7 @@ function renderDetail(){
  renderLocation();
  if(chapter.unlocatedPlaces?.length){
   const section=document.createElement('section');section.className='unlocated-places';
-  section.innerHTML=`<h3>${esc(t('Locations without verified coordinates'))}</h3>${chapter.unlocatedPlaces.map(item=>`<details class="location-evidence"><summary>${esc(item.name)}</summary><p>${esc(item.text)}</p><p><strong>${esc(t('Original text (English)'))}</strong></p><blockquote lang="en">${esc(item.quote)}</blockquote><a href="${esc(item.url)}" target="_blank" rel="noopener noreferrer">${esc(t('Read the source'))}</a></details>`).join('')}`;
+  section.innerHTML=`<h3>${esc(t('Locations without verified coordinates'))}</h3>${chapter.unlocatedPlaces.map(item=>`<details class="location-evidence"><summary>${esc(item.name)}</summary><p>${esc(item.text)}</p><p><strong>${esc(t('Original text'))} · ${esc(t(item.language==='es'?'Spanish':'English'))}</strong></p><blockquote lang="${item.language||'en'}">${esc(item.quote)}</blockquote>${item.url?`<a href="${esc(item.url)}" target="_blank" rel="noopener noreferrer">${esc(t('Read the source'))}</a>`:""}</details>`).join('')}`;
   document.getElementById('selected-location').parentElement.appendChild(section);
  }
 }
@@ -215,18 +218,24 @@ function renderLocation(){
  Array.from(document.getElementById('episode-locations').children).forEach((button,i)=>button.setAttribute('aria-pressed',String(i===selectedPlace&&selectedCitation<0)));
  Array.from(document.getElementById('citation-locations')?.children||[]).forEach((button,i)=>button.setAttribute('aria-pressed',String(i===selectedCitation)));
  const decimals=Number.isInteger(place.coordinateDecimals)&&place.coordinateDecimals>=0&&place.coordinateDecimals<=8?place.coordinateDecimals:place.positionSource.recordId||place.positionSource.councilRecord?6:4;
- const coordinateText=place.coords.map(n=>n.toFixed(decimals)).join(', ');
+ const coordinateText=isIllustrated?'':place.coords.map(n=>n.toFixed(decimals)).join(', ');
+ if(isIllustrated){
+  document.getElementById('selected-location').innerHTML=`<p class="category-badge category-${category}">${esc(t(category==='action'?'Action locations':'Mentioned locations'))}</p><p class="location-scene">${esc(chapter.placeText[selectedPlace])}</p><p class="today">${esc(place.note)}</p><details class="location-evidence"><summary>${t('Posizione e fonti')}</summary><p>${esc(place.method)}</p><p>${esc(narrativeSource?.label||'')}</p></details>`;
+ }else{
  document.getElementById('selected-location').innerHTML=`<p class="category-badge category-${category}">${esc(t(category==='action'?'Action locations':'Mentioned locations'))}</p><p class="location-address">${esc(place.area)}</p><p class="location-scene">${esc(citation?t('A geographical reference in the original text. Read the passage for its context.'):chapter.placeText[selectedPlace])}</p><p class="today"><strong>${esc(place.status)}.</strong> ${esc(place.note)}</p><details class="location-evidence"><summary>${t('Posizione e fonti')}</summary><p>${esc(place.method)}</p><p class="coordinates">WGS84 · ${coordinateText}<br>${t('Verifica delle fonti')}: ${esc(new Date(place.checked+"T12:00:00").toLocaleDateString(locale,{day:"numeric",month:"long",year:"numeric"}))}</p><a href="${esc(narrativeSource.url)}" target="_blank" rel="noopener noreferrer">${esc(narrativeSource.label)}</a><br><a href="${esc(place.positionSource.url)}" target="_blank" rel="noopener noreferrer">${esc(place.positionSource.label)}</a>${place.additionalSource?`<br><a href="${esc(place.additionalSource.url)}" target="_blank" rel="noopener noreferrer">${esc(place.additionalSource.label)}</a>`:''}</details>`;
  document.getElementById('selected-location').innerHTML+=`<div class="street-view-action"><a class="street-view-link" id="street-view-link" href="${esc(streetViewUrl(place))}" target="_blank" rel="noopener noreferrer" aria-label="${esc(t('Apri Street View in una nuova finestra')+': '+place.name)}">Google Street View <span aria-hidden="true">↗</span></a><p class="street-view-note">${esc(t('Google mostra il panorama disponibile più vicino: può essere spostato rispetto al punto e dipende dalla copertura.'))}</p></div>`;
+ }
  const quote=!citation&&chapter.placeQuotes?.[id];
  if(quote){const evidence=document.createElement('div');evidence.className='original-excerpt';evidence.innerHTML=`<p><strong>${esc(t('Original text (English)'))}</strong></p><blockquote lang="en">${esc(quote)}</blockquote>`;document.getElementById('selected-location').appendChild(evidence);}
  const excerpt=citation?.excerpt||chapter.placeExcerpts?.[id];
  if(excerpt){const evidence=document.createElement('div');evidence.innerHTML=renderExcerpts(excerpt,'Passage from the novel');document.getElementById('selected-location').appendChild(evidence);}
  if(current<0){const references=document.createElement('div');references.className='global-references';const heading=document.createElement('h3');heading.textContent=t('Appears in');references.appendChild(heading);chapters.forEach((section,index)=>{const placeIndex=section.places.indexOf(id),citationIndex=(section.citations||[]).findIndex(reference=>reference.placeId===id);if(placeIndex<0&&citationIndex<0)return;const button=document.createElement('button');button.type='button';button.className='section-link';button.textContent=number(section.id)+' · '+section.title+' · '+t(placeIndex>=0&&section.placeCategories?.[id]!=='mentioned'?'Action locations':'Mentioned locations');button.addEventListener('click',()=>{selectChapter(index,false);if(placeIndex>=0)selectPlace(placeIndex);else selectCitation(citationIndex)});references.appendChild(button)});document.getElementById('selected-location').appendChild(references);}
- document.getElementById('street-view-link').onclick=openStreetView;
+ if(!isIllustrated)document.getElementById('street-view-link').onclick=openStreetView;
  if(!document.getElementById('map-place-popup').hidden)showMapPopup();
 }
 function centerSelectedPlace(zoomToPlace=true){
+ if(isIllustrated){const id=activeCitations()[selectedCitation]?.placeId||activeChapter().places[selectedPlace];return illustratedMap?.focus(id);}
+
  if(!viewReady)return;
  const id=activeCitations()[selectedCitation]?.placeId||activeChapter().places[selectedPlace],place=allLiteraryPlaces[id];
  if(place)navigate({center:[place.coords[1],place.coords[0]],...(zoomToPlace?{zoom:place.zoom}:{})});
@@ -238,6 +247,8 @@ function selectPlace(index,move=true){
 }
 function selectCitation(index,move=true){const citation=activeCitations()[index];if(!citation||!Number.isInteger(index))return;selectedCitation=index;renderLocation();drawMarkers();if(move)centerSelectedPlace();}
 function drawMarkers(){
+ if(isIllustrated){const id=activeCitations()[selectedCitation]?.placeId||activeChapter().places[selectedPlace];illustratedMap?.update(activeChapter(),visibleLayers,id);return;}
+
  if(!markerLayer||!GraphicClass)return;markerLayer.removeAll();citedMarkerLayer?.removeAll();markerLayer.visible=visibleLayers.action;if(citedMarkerLayer)citedMarkerLayer.visible=visibleLayers.mentioned;
  activeChapter().places.forEach((id,index)=>{
   const place=literaryPlaces[id],active=(index===selectedPlace&&selectedCitation<0)||(current<0&&activeCitations()[selectedCitation]?.placeId===id),category=placeCategory(id),layer=category==='mentioned'&&citedMarkerLayer?citedMarkerLayer:markerLayer;
@@ -252,6 +263,8 @@ function drawMarkers(){
 function showMapError(message){const notice=document.getElementById('map-error');notice.textContent=t(message);notice.hidden=false}
 function navigate(target){if(!viewReady)return;return view.goTo(target,{animate:!reduced,duration:800}).catch(error=>{if(error.name!=='AbortError')console.error('Spostamento della mappa non riuscito',error)})}
 function overview(includeCitations=false){
+ if(isIllustrated)return illustratedMap?.fit();
+
  if(!viewReady||!ExtentClass)return;
  const chapter=activeChapter();
  let points=(chapter.overviewPlaces??chapter.places).filter(id=>visibleLayers[placeCategory(id)]).map(id=>literaryPlaces[id]);
@@ -305,6 +318,13 @@ async function selectMapPoint(event){
  }catch(error){if(error.name!=='AbortError')console.error('Selezione del luogo non disponibile',error)}
 }
 async function initializeMap(){
+ if(isIllustrated){
+  illustratedMap=new IllustratedMapController(book.illustration,document.getElementById('map'),id=>{const index=activeChapter().places.indexOf(id);if(index<0)return;selectPlace(index,false);showMapPopup(true);centerSelectedPlace(false)});
+  await illustratedMap.update(activeChapter(),visibleLayers,activeChapter().places[selectedPlace]);
+  try{const nativeView=await illustratedMap.initialize();view=nativeView;viewReady=true;['overview','zoom-in','zoom-out'].forEach(id=>document.getElementById(id).disabled=false);document.getElementById('map-error').hidden=true;}catch(error){showMapError('The interactive map is unavailable. The illustrated map remains visible.');console.error(error)}
+  return;
+ }
+
  let stage='sdk';
  try{
   await import('https://js.arcgis.com/5.1/index.js');
@@ -345,6 +365,6 @@ async function switchBasemap(id){
 }
 basemapSelect.addEventListener('change',()=>switchBasemap(basemapSelect.value));
 document.getElementById('overview').addEventListener('click',()=>overview(true));
-document.getElementById('zoom-in').addEventListener('click',()=>navigate({zoom:Math.min(19,view.zoom+1)}));
-document.getElementById('zoom-out').addEventListener('click',()=>navigate({zoom:Math.max(1,view.zoom-1)}));
+document.getElementById('zoom-in').addEventListener('click',()=>isIllustrated?illustratedMap?.zoom(.7):navigate({zoom:Math.min(19,view.zoom+1)}));
+document.getElementById('zoom-out').addEventListener('click',()=>isIllustrated?illustratedMap?.zoom(1.4):navigate({zoom:Math.max(1,view.zoom-1)}));
 initializeMap();

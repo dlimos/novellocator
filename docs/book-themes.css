@@ -113,3 +113,9 @@ html[data-book="moby-dick"] .detail-eyebrow{font-family:'DM Sans',Arial,sans-ser
  html[data-book] .place-button{border-color:var(--line)}
  html[data-book] .original-excerpt blockquote,html[data-book] .unlocated-places blockquote{font-size:16px}
 }
+
+/* Illustrated atlases use the same workspace, chapter controls and detail panels. */
+.basemap-toolbar[hidden]{display:none!important}.illustrated-preview{position:absolute;inset:0;z-index:1;overflow:hidden;display:flex;align-items:center;justify-content:center;pointer-events:none}.illustrated-preview[hidden]{display:none}.illustrated-drawing{position:relative;flex-shrink:0}.illustrated-drawing img{width:100%;height:100%;display:block}.illustrated-fallback-pin{position:absolute;transform:translate(-50%,-50%);width:28px;height:28px;border:2px solid white;border-radius:50%;color:white;font:bold 12px Arial;pointer-events:auto;padding:0;cursor:pointer}.illustrated-fallback-pin.selected{outline:3px solid #e8c565;outline-offset:2px}html[data-book=macondo]{--book-accent:#19665c}
+
+.illustrated-fallback-pin.area{border-radius:2px;transform:translate(-50%,-50%) rotate(45deg)}
+.illustrated-fallback-pin.area span{display:block;transform:rotate(-45deg)}

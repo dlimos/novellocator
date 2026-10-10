@@ -11,7 +11,7 @@ assert.throws(() => symbol({ kind: 'area', role: 'unknown' }), TypeError);
 let frameCallback, frameRemoved=0;
 let view, map, handler, failImage = false, destroyed = 0, removed = 0;
 class Props { constructor(props) { Object.assign(this, props); } }
-class FakeMap extends Props { constructor(props) { super(props); map = this; } }
+class FakeMap extends Props { constructor(props) { super(props); map = this;this.add=(layer,index)=>this.layers.splice(index,0,layer);this.remove=layer=>this.layers.splice(this.layers.indexOf(layer),1); } }
 class Extent extends Props { clone() { return new Extent({ ...this }); } expand(factor) { this.factor = factor; return this; } }
 class View extends Props {
   constructor(props) { super(props); view = this; this.targets = []; this.width=830; this.height=530; this.resolution=1; this.scale=100; this.center={x:0,y:0}; }
@@ -85,5 +85,9 @@ const places = [{ id: 'house', x: 120, y: 230, kind: 'site', role: 'action' }, {
   assert.equal(view.center.x,1400);assert.equal(view.center.y,602.5);
   await fill.reset();assert.equal(view.targets.at(-1).xmin,400);
   fill.destroy();assert.equal(frameRemoved,2);
+  const relative=await create({container:{},image:'images/macondo/first.png',width:1600,height:1000,places,load});
+  assert.equal(map.layers[0].source[0].image,'images/macondo/first.png');
+  const persistentView=relative.view;await relative.setImage('images/macondo/next.png');
+  assert.equal(relative.view,persistentView);assert.equal(map.layers[0].source[0].image,'images/macondo/next.png');assert.equal(map.layers.length,3);relative.destroy();
   console.log('Illustrated maps: coordinate transforms, symbols, layers, selection and disposal OK (mock SDK).');
 })().catch(error => { console.error(error); process.exitCode = 1; });

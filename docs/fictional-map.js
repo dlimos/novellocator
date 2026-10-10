@@ -41,14 +41,14 @@
     if (new Set(places.map(p => p.id)).size !== places.length) throw new TypeError('Duplicate place id.');
     const [Map, MapView, MediaLayer, ImageElement, Georeference, Extent, GraphicsLayer, Graphic, reactiveUtils] = await load();
     // SVG source, an image Blob or a trusted HTTPS/data image URL can be supplied.
-    const isURL = typeof image === 'string' && /^(https:\/\/|data:image\/)/i.test(image);
+    const isURL = typeof image === 'string' && /^(https:\/\/|file:\/\/|data:image\/|images\/|\.\.?\/)/i.test(image);
     const imageURL = isURL ? image : URL.createObjectURL(image instanceof Blob ? image : new Blob([image], { type: 'image/svg+xml' }));
     const releaseImage = () => { if (!isURL) URL.revokeObjectURL(imageURL); };
     let view, clickHandle, frameHandle, disposed = false, selectedId = null;
     try {
       const extent = new Extent({ xmin: 0, ymin: 0, xmax: width, ymax: height, spatialReference: { wkid: 3857 } });
       const homeExtent = contentExtent ? new Extent(contentExtent) : extent;
-      const background = new MediaLayer({ source: [new ImageElement({ image: imageURL,
+      let background = new MediaLayer({ source: [new ImageElement({ image: imageURL,
         georeference: new Georeference({ extent }) })], title: 'Illustrated map' });
       const layers = Object.fromEntries(Object.keys(colors).map(role => [role,
         new GraphicsLayer({ id: role, title: role })]));
@@ -71,6 +71,7 @@
       if (lockFrame) {
         const enforceFrame = () => {
           if (disposed || !view.center || !(view.resolution > 0) || !(view.scale > 0)) return;
+          const padding = view.padding || {top:0,right:0,bottom:0,left:0};
           const usableWidth = Math.max(1, view.width - padding.left - padding.right);
           const usableHeight = Math.max(1, view.height - padding.top - padding.bottom);
           const fitResolution = fillFrame ? Math.min(width / Math.max(1, view.width), height / Math.max(1, view.height)) : Math.max(width / usableWidth, height / usableHeight);
@@ -85,7 +86,7 @@
           if (Math.abs(center.x - view.center.x) > 1e-7 || Math.abs(center.y - view.center.y) > 1e-7)
             view.center = { type: 'point', ...center, spatialReference: { wkid: 3857 } };
         };
-        frameHandle = reactiveUtils.watch(() => [view.center?.x, view.center?.y, view.resolution, view.width, view.height], enforceFrame);
+        frameHandle = reactiveUtils.watch(() => [view.center?.x, view.center?.y, view.resolution, view.width, view.height, view.padding?.top, view.padding?.right, view.padding?.bottom, view.padding?.left], enforceFrame);
         enforceFrame();
       }
       clickHandle = view.on('click', async event => {
@@ -96,6 +97,18 @@
         } catch (error) { if (!disposed) console.warn('Illustrated map hit test failed', error); }
       });
       return {
+        view, layers, Graphic, Extent,
+        async whenImageReady(){if(view.whenLayerView && reactiveUtils?.whenOnce){const layerView=await view.whenLayerView(background);await reactiveUtils.whenOnce(()=>!layerView.updating);}},
+        async setImage(nextImage) {
+          if (disposed) return;
+          if (typeof nextImage !== 'string' || !/^(https:\/\/|file:\/\/|data:image\/|images\/|\.\.?\/)/i.test(nextImage)) throw new TypeError('Invalid image URL.');
+          const next = new MediaLayer({source:[new ImageElement({image:nextImage,georeference:new Georeference({extent})})],title:'Illustrated map'});
+          try { await next.load(); if(disposed){next.destroy?.();return;} map.add(next,0);
+            if(view.whenLayerView && reactiveUtils?.whenOnce){const layerView=await view.whenLayerView(next);await reactiveUtils.whenOnce(()=>!layerView.updating);}
+            if(disposed){map.remove(next);next.destroy?.();return;}
+            const previous=background;background=next;map.remove(previous);previous.destroy?.();
+          }catch(error){map.remove(next);next.destroy?.();throw error;}
+        },
         setVisible(role, visible) { if (!layers[role]) throw new TypeError('Unknown layer.'); layers[role].visible = Boolean(visible); },
         async select(id) {
           const graphic = graphics.get(id);
