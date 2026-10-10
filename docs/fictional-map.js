@@ -21,24 +21,30 @@
     return { type: 'simple-marker', style: place.kind === 'site' ? 'circle' : 'diamond',
       color: colors[place.role], size: 18, outline: { color: '#fff8e8', width: 2 } };
   }
+  function boundedCenter(center, visibleWidth, visibleHeight, width, height) {
+    const clamp = (value, visible, size) => visible >= size ? size / 2 : Math.max(visible / 2, Math.min(size - visible / 2, value));
+    return { x: clamp(center.x, visibleWidth, width), y: clamp(center.y, visibleHeight, height) };
+  }
   async function loadSDK() {
     await import('https://js.arcgis.com/5.1/index.js');
     return globalThis.$arcgis.import([
       '@arcgis/core/Map.js', '@arcgis/core/views/MapView.js',
       '@arcgis/core/layers/MediaLayer.js', '@arcgis/core/layers/support/ImageElement.js',
       '@arcgis/core/layers/support/ExtentAndRotationGeoreference.js',
-      '@arcgis/core/geometry/Extent.js', '@arcgis/core/layers/GraphicsLayer.js', '@arcgis/core/Graphic.js'
+      '@arcgis/core/geometry/Extent.js', '@arcgis/core/layers/GraphicsLayer.js', '@arcgis/core/Graphic.js',
+      '@arcgis/core/core/reactiveUtils.js'
     ]);
   }
-  async function create({ container, image, width, height, places, onSelect = () => {}, load = loadSDK }) {
+  async function create({ container, image, width, height, places, onSelect = () => {}, load = loadSDK,
+    initialExtent = null, lockFrame = false, padding = { top: 15, right: 15, bottom: 15, left: 15 } }) {
     const positions = places.map(p => ({ place: p, geometry: point(p, width, height), symbol: symbol(p) }));
     if (new Set(places.map(p => p.id)).size !== places.length) throw new TypeError('Duplicate place id.');
-    const [Map, MapView, MediaLayer, ImageElement, Georeference, Extent, GraphicsLayer, Graphic] = await load();
+    const [Map, MapView, MediaLayer, ImageElement, Georeference, Extent, GraphicsLayer, Graphic, reactiveUtils] = await load();
     // SVG source, an image Blob or a trusted HTTPS/data image URL can be supplied.
     const isURL = typeof image === 'string' && /^(https:\/\/|data:image\/)/i.test(image);
     const imageURL = isURL ? image : URL.createObjectURL(image instanceof Blob ? image : new Blob([image], { type: 'image/svg+xml' }));
     const releaseImage = () => { if (!isURL) URL.revokeObjectURL(imageURL); };
-    let view, clickHandle, disposed = false, selectedId = null;
+    let view, clickHandle, frameHandle, disposed = false, selectedId = null;
     try {
       const extent = new Extent({ xmin: 0, ymin: 0, xmax: width, ymax: height, spatialReference: { wkid: 3857 } });
       const background = new MediaLayer({ source: [new ImageElement({ image: imageURL,
@@ -56,11 +62,27 @@
           attributes: { id: item.place.id } }));
       }
       const map = new Map({ basemap: null, layers: [background, layers.action, layers.mentioned] });
-      view = new MapView({ container, map, extent, spatialReference: { wkid: 3857 },
+      view = new MapView({ container, map, extent: initialExtent ?? extent, spatialReference: { wkid: 3857 },
         ui: { components: [] }, popupEnabled: false, background: { color: '#eee1bd' },
-        constraints: { geometry: extent, rotationEnabled: false }, padding: { top: 15, right: 15, bottom: 15, left: 15 } });
+        constraints: { geometry: extent, rotationEnabled: false }, padding });
       await view.when();
       await background.load();
+      if (lockFrame) {
+        const enforceFrame = () => {
+          if (disposed || !view.center || !(view.resolution > 0) || !(view.scale > 0)) return;
+          const usableWidth = Math.max(1, view.width - padding.left - padding.right);
+          const usableHeight = Math.max(1, view.height - padding.top - padding.bottom);
+          const fitResolution = Math.max(width / usableWidth, height / usableHeight);
+          // In MapView, minScale is the zoom-out limit; maxScale limits zoom-in.
+          view.constraints.minScale = fitResolution * view.scale / view.resolution;
+          if (view.scale > view.constraints.minScale) view.scale = view.constraints.minScale;
+          const center = boundedCenter(view.center, view.resolution * usableWidth, view.resolution * usableHeight, width, height);
+          if (Math.abs(center.x - view.center.x) > 1e-7 || Math.abs(center.y - view.center.y) > 1e-7)
+            view.center = { type: 'point', ...center, spatialReference: { wkid: 3857 } };
+        };
+        frameHandle = reactiveUtils.watch(() => [view.center?.x, view.center?.y, view.resolution, view.width, view.height], enforceFrame);
+        enforceFrame();
+      }
       clickHandle = view.on('click', async event => {
         try {
           const result = await view.hitTest(event, { include: [layers.action, layers.mentioned] });
@@ -81,11 +103,12 @@
           return true;
         },
         reset() { return view.goTo(extent, { animate: false }); },
+        getExtent() { return view.extent.clone(); },
         zoom(factor) { if (!Number.isFinite(factor) || factor <= 0) throw new RangeError('Invalid zoom factor.'); return view.goTo(view.extent.clone().expand(factor), { animate: false }); },
-        destroy() { if (disposed) return; disposed = true; clickHandle?.remove(); view.destroy(); releaseImage(); }
+        destroy() { if (disposed) return; disposed = true; clickHandle?.remove(); frameHandle?.remove(); view.destroy(); releaseImage(); }
       };
-    } catch (error) { disposed = true; clickHandle?.remove(); view?.destroy(); releaseImage(); throw error; }
+    } catch (error) { disposed = true; clickHandle?.remove(); frameHandle?.remove(); view?.destroy(); releaseImage(); throw error; }
   }
   const MapConstructor = globalThis.Map;
-  return { create, point, symbol, colors };
+  return { create, point, symbol, colors, boundedCenter };
 });

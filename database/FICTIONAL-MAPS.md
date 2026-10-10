@@ -28,3 +28,7 @@ Lo schema `003_book_maps.sql` prevede già `book_maps`, `section_maps`, `map_lay
 4. Importare il libro e le mappe tramite script SQL locali, pubblicando il titolo solo dopo verifica.
 
 Non sono stati generati script di importazione per questa bozza. Il PDF e i dati restano fuori dal repository; le schede citano brevi estratti e pagine del documento locale. L'illustrazione generata con IA riunisce diverse epoche: i due punti del fiume sono posizioni successive, scuola/caserma sono un sito solo, le due case di Rebeca sono distinte. Gli ambienti interni non diventano finti punti separati. I luoghi oltre Macondo non vengono collocati dentro il paese; le eventuali coordinate terrestri vanno verificate separatamente.
+
+### Vista temporale e limiti del disegno
+
+Il prototipo locale di Macondo usa tre illustrazioni con la stessa inquadratura e una barra temporale. `initialExtent` conserva la vista durante i cambi; `getExtent()` permette di salvarla. `lockFrame: true` imposta lo zoom minimo alla vista completa e limita il centro in base alla porzione visibile del disegno. Il limite si aggiorna al ridimensionamento, anche a schermo intero. Le coordinate e le fasi sono interpretative; dati e immagini del prototipo restano locali.
