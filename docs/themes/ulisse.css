@@ -1,0 +1,7 @@
+/* Dublin: green cloth, brass rules and the typography of an Edwardian city atlas. */
+html[data-book="ulisse"]{--ink:#203f36;--muted:#52665c;--paper:#eeeede;--line:#bdc7b4;--accent:#87652f;--panel:#fafaf0;--wash:#f7f7ea;--heading-font:'Libre Caslon Display',Georgia,serif;--ornament:'✦'}
+html[data-book="ulisse"] .introduction{border-top:5px solid var(--ink);border-bottom:4px double var(--accent)}
+html[data-book="ulisse"] .introduction #title{letter-spacing:-.025em}
+html[data-book="ulisse"] .sidebar-title{border-bottom:3px double var(--line)}
+html[data-book="ulisse"] .detail-eyebrow{font-family:'DM Sans',Arial,sans-serif;letter-spacing:.13em}
+html[data-book="ulisse"] .original-excerpt blockquote{border-left:3px double var(--accent)}

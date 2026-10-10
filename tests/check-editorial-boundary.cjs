@@ -10,6 +10,8 @@ for(const file of [...common,'locales/ui.js']){
 }
 for(const book of books){
  assert.ok(fs.existsSync('docs/'+book.cover.src));
+ assert.equal(book.stylesheet,`themes/${book.id}.css`);
+ assert.ok(fs.existsSync('docs/'+book.stylesheet),book.id+' dedicated CSS');
  for(const lang of ['en','it','fr','es'])for(const field of [book.title,book.description,book.ariaLabel,book.cover.alt]){
   const messages=ctx.window.atlasLocaleData.messages[lang];
   const alias=Object.entries(ctx.window.atlasLocaleData.messages.en).find(([,value])=>value===field)?.[0];
@@ -20,9 +22,11 @@ const extra={...books[0],id:'new-fictional-world',title:'<A new world>',mapType:
 const html=ctx.window.atlasCatalogueView.render([extra]);
 assert.ok(html.cards.includes('book=new-fictional-world'));
 assert.ok(html.cards.includes('&lt;A new world&gt;'));
-const attributes={},properties={};ctx.window.document={documentElement:{setAttribute:(key,value)=>attributes[key]=value,style:{setProperty:(key,value)=>properties[key]=value}}};
+const attributes={},properties={},stylesheets=[];ctx.window.document={getElementById:id=>stylesheets.find(link=>link.id===id),createElement:()=>({remove(){stylesheets.splice(stylesheets.indexOf(this),1)}}),head:{appendChild:link=>stylesheets.push(link)},documentElement:{setAttribute:(key,value)=>attributes[key]=value,style:{setProperty:(key,value)=>properties[key]=value}}};
 vm.runInNewContext(read('book-presentation.js'),ctx);ctx.window.atlasPresentation.apply(extra);
 assert.equal(attributes['data-theme'],'rose');assert.ok(properties['--book-art'].includes(extra.cover.src));
+for(const book of books){ctx.window.atlasPresentation.apply(book);assert.equal(stylesheets.length,1);assert.equal(stylesheets[0].href,book.stylesheet);assert.equal(stylesheets[0].rel,'stylesheet');}
+ctx.window.atlasPresentation.apply({...extra,stylesheet:undefined});assert.equal(stylesheets.length,0);
 (async()=>{
  let loads=0;const scripts=[];
  const context={URLSearchParams,console,window:{location:{search:'?book='+extra.id},atlasCatalogue:{books:[extra]},atlasI18n:{locale:'en',localizeData:x=>x,t:x=>x},IllustratedData:{load:async id=>{assert.equal(id,extra.id);loads++;return{}}},IllustratedAdapter:{adapt:()=>({book:{id:extra.id}})}},document:{getElementById:()=>({}),createElement:()=>({}),head:{appendChild:s=>scripts.push(s)}}};

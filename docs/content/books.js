@@ -1,4 +1,4 @@
-// Public editorial metadata: cover art and reusable presentation profiles.
+// Public editorial metadata: cover art, presentation profiles and dedicated CSS.
 window.atlasCatalogue={
   "books": [
     {
@@ -10,6 +10,7 @@ window.atlasCatalogue={
       "setting": "DUBLIN",
       "mapType": "geographic",
       "theme": "edwardian",
+      "stylesheet": "themes/ulisse.css",
       "cover": {
         "src": "images/ulisse.jpg",
         "alt": "Dublin and the River Liffey, by James Malton",
@@ -35,6 +36,7 @@ window.atlasCatalogue={
       "setting": "FRANCE / VENICE / PADUA",
       "mapType": "geographic",
       "theme": "rose",
+      "stylesheet": "themes/proust.css",
       "cover": {
         "src": "images/proust.jpg",
         "alt": "A seaside garden in Normandy, by Claude Monet",
@@ -59,6 +61,7 @@ window.atlasCatalogue={
       "setting": "RUSSIA / AUSTRIA / MORAVIA",
       "mapType": "geographic",
       "theme": "formal",
+      "stylesheet": "themes/war-and-peace.css",
       "cover": {
         "src": "images/war-and-peace.jpg",
         "alt": "Napoleon at Borodino, by Vasily Vereshchagin",
@@ -83,6 +86,7 @@ window.atlasCatalogue={
       "setting": "ATLANTIC / INDIAN OCEAN / PACIFIC",
       "mapType": "geographic",
       "theme": "maritime",
+      "stylesheet": "themes/moby-dick.css",
       "cover": {
         "src": "images/moby-dick.jpg",
         "alt": "Whaling ships at sea, by J. M. W. Turner",
@@ -107,6 +111,7 @@ window.atlasCatalogue={
       "setting": "LONG ISLAND / NEW YORK",
       "mapType": "geographic",
       "theme": "deco",
+      "stylesheet": "themes/gatsby.css",
       "cover": {
         "src": "images/gatsby-bellows-new-york.jpg",
         "alt": "New York by George Bellows, 1911",
@@ -131,6 +136,7 @@ window.atlasCatalogue={
       "setting": "MACONDO",
       "mapType": "illustrated",
       "theme": "tropical",
+      "stylesheet": "themes/macondo.css",
       "cover": {
         "src": "images/macondo-rousseau.jpg",
         "alt": "Tropical Forest with Monkeys by Henri Rousseau, 1910",
@@ -159,6 +165,7 @@ window.atlasCatalogue={
       "setting": "NEW YORK",
       "mapType": "geographic",
       "theme": "winter-city",
+      "stylesheet": "themes/holden.css",
       "originalLanguage": "en",
       "cover": {
         "src": "images/holden-henri-snow.jpg",
@@ -186,7 +193,8 @@ window.atlasCatalogue={
       "ariaLabel": "Explore 1984 by George Orwell",
       "setting": "LONDON / OCEANIA",
       "mapType": "geographic",
-      "theme": "winter-city",
+      "theme": "dystopian",
+      "stylesheet": "themes/orwell1984.css",
       "originalLanguage": "en",
       "cover": {
         "src": "images/orwell1984-monet-westminster.jpg",

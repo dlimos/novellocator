@@ -26,6 +26,7 @@ For the Salinger addition, run the two numbered SQL files in `database/generated
 CSV data exports in `docs/*.csv` are also kept only locally and excluded from Git. Download links generate UTF-8 CSV files directly from the loaded Supabase content via `docs/csv-export.js`, in the current language. Content checks require the local CSV copies as well as the datasets and research snapshots after a fresh clone.
 
 - `docs/`: complete website and GitHub Pages source directory.
+- `docs/themes/`: dedicated CSS for every novel, selected by its catalogue `stylesheet` field. Each binding reflects the book's atmosphere through colours, typography and decorative rules; map category colours remain consistent.
 - `docs/data/`: local-only book datasets and translated content, excluded from Git.
 - `docs/content/`: public catalogue metadata and editorial translations; book-specific names stay here.
 - `docs/locales/ui.js`: shared interface translations.

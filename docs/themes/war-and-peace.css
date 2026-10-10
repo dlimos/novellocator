@@ -1,0 +1,7 @@
+/* Imperial Russia: burgundy binding, parchment and a formal historical title page. */
+html[data-book="war-and-peace"]{--ink:#4b2928;--muted:#705b52;--paper:#f0e9dc;--line:#cbb99c;--accent:#85602e;--panel:#fff9ed;--wash:#faf3e6;--heading-font:Georgia,'Times New Roman',serif;--ornament:'✧'}
+html[data-book="war-and-peace"] .introduction{border-top:6px solid var(--ink);border-bottom:5px double var(--accent)}
+html[data-book="war-and-peace"] .introduction #title{font-variant:small-caps;letter-spacing:.025em}
+html[data-book="war-and-peace"] .sidebar-title h2{font-variant:small-caps}
+html[data-book="war-and-peace"] .workspace{border-top:3px solid var(--ink)}
+html[data-book="war-and-peace"] .original-excerpt blockquote{border-left:4px double var(--ink)}
