@@ -12,6 +12,8 @@ Macondo contiene 47 voci, 29 luoghi illustrabili nell’intero inventario e tre 
 
 La navigazione comprende 20 capitoli. Il PDF fornito contiene un’intestazione aggiuntiva a pagina 56, nel mezzo di un dialogo: i segmenti IV e V sono quindi riuniti nel quarto capitolo, mantenendo i riferimenti alle pagine della fonte. Le occorrenze dei luoghi sono associate ai capitoli attraverso questi riferimenti. I capitoli 1–3 mostrano il primo villaggio, 4–15 l’espansione e 16–20 il declino. Non c’è un cursore delle epoche. La vista globale mostra tutti i 29 luoghi sulla fase di espansione; per gli ancoraggi mancanti in una fase viene usata la posizione interpretativa disponibile in un’altra.
 
+L’interfaccia pubblica cita autore, titolo originale e capitolo, senza riferimenti al PDF o alla sua paginazione. Ogni luogo mantiene disponibile il proprio estratto spagnolo anche nelle ricorrenze successive; il credito indica il capitolo effettivo dell’estratto e non quello della selezione corrente. Nei capitoli senza marker viene mostrato un estratto di un luogo non posizionato, oppure il breve passaggio iniziale conservato in `emptyChapterExcerpts`. I dati di tracciabilità restano locali e nel database. Il reinserimento comprende anche `10-citazioni-capitoli.sql`.
+
 ## Renderer
 
 `FictionalMap.create({container,image,width,height,places,onSelect,contentExtent,initialExtent,lockFrame,fillFrame,padding})` usa MediaLayer e due GraphicsLayer. Le posizioni sono pixel del disegno con origine in alto a sinistra; il wkid 3857 serve solo come canvas, non indica coordinate terrestri. Cerchi per edifici/siti e rombi per strade/aree; verde per azione e terracotta per citazioni. Macondo al momento mostra solo luoghi di azione.

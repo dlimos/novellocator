@@ -134,7 +134,7 @@ function createBasemap(id){
 chapters.forEach((chapter,i)=>{
  const button=document.createElement('button');
  button.type='button';button.className='place-button';button.setAttribute('aria-pressed','false');
- button.innerHTML=`<span class="place-number">${number(chapter.id)}</span><span class="place-copy"><strong>${esc(chapter.title)}</strong><small>${esc(chapter.setting)}</small></span>`;
+ button.innerHTML=`<span class="place-number">${number(chapter.id)}</span><span class="place-copy"><strong>${esc(chapter.title)}</strong>${chapter.setting?`<small>${esc(chapter.setting)}</small>`:''}</span>`;
  button.addEventListener('click',()=>selectChapter(i));list.appendChild(button);
 });
 const allSectionsButton=document.createElement('button');allSectionsButton.type='button';allSectionsButton.textContent=t('All places');allSectionsButton.addEventListener('click',()=>{selectAllPlaces();chapterToggle.focus?.();});chapterMenu.appendChild(allSectionsButton);
@@ -213,7 +213,7 @@ function renderDetail(){
 }
 function renderLocation(){
  const chapter=activeChapter(),citation=activeCitations()[selectedCitation],id=citation?.placeId||chapter.places[selectedPlace],place=allLiteraryPlaces[id],category=citation?'mentioned':placeCategory(id);
- if(!place){document.getElementById('selected-location').innerHTML='<p class="episode-note">'+esc(chapter.emptyMessage||chapter.text)+'</p>';return;}
+ if(!place){document.getElementById('selected-location').innerHTML='<p class="episode-note">'+esc(chapter.emptyMessage||chapter.text)+'</p>'+renderExcerpts(chapter.excerpt,'Passage from the novel');return;}
  const narrativeSource=citation?{label:citation.excerpt.original.attribution,url:citation.excerpt.original.url}:chapter.placeSources?.[id]||place.narrativeSource;
  Array.from(document.getElementById('episode-locations').children).forEach((button,i)=>button.setAttribute('aria-pressed',String(i===selectedPlace&&selectedCitation<0)));
  Array.from(document.getElementById('citation-locations')?.children||[]).forEach((button,i)=>button.setAttribute('aria-pressed',String(i===selectedCitation)));
