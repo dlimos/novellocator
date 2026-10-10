@@ -45,5 +45,3 @@
   }
   root.IllustratedData={load,validate};
 })(typeof window==='object'?window:globalThis);
-
-window.atlasIllustratedBooks=['macondo'];

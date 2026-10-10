@@ -1,28 +1,28 @@
 /* One atlas, different bindings. Marker/category colours stay in style.css. */
 html[data-book]{--panel:#fffaf0;--heading-font:'EB Garamond',Georgia,serif;--ornament:'❦';--wash:#fffaf0;--book-art:none}
-html[data-book="ulisse"]{
+html[data-theme="edwardian"]{
  --ink:#203f36;--muted:#56685d;--paper:#eeeede;--line:#c2c9b4;--accent:#987239;
  --panel:#fafaf0;--wash:#f7f7ea;--heading-font:'Libre Caslon Display',Georgia,serif;
- --ornament:'✦';--book-art:url('images/ulisse.jpg');
+ --ornament:'✦';
 }
-html[data-book="proust"]{
+html[data-theme="rose"]{
  --ink:#503c51;--muted:#766373;--paper:#f3edf0;--line:#d5c3ce;--accent:#977846;
- --panel:#fffafa;--wash:#fff9f7;--ornament:'❦';--book-art:url('images/proust.jpg');
+ --panel:#fffafa;--wash:#fff9f7;--ornament:'❦';
 }
-html[data-book="war-and-peace"]{
+html[data-theme="formal"]{
  --ink:#4b2928;--muted:#79635b;--paper:#f0e9dc;--line:#cfc0a7;--accent:#936d35;
  --panel:#fff9ed;--wash:#faf3e6;--heading-font:Georgia,'Times New Roman',serif;
- --ornament:'✧';--book-art:url('images/war-and-peace.jpg');
+ --ornament:'✧';
 }
-html[data-book="moby-dick"]{
+html[data-theme="maritime"]{
  --ink:#203e50;--muted:#526976;--paper:#eaf0f0;--line:#bdcdd1;--accent:#95713f;
  --panel:#f8fbfa;--wash:#f5fafa;--heading-font:Georgia,'Times New Roman',serif;
- --ornament:'✦';--book-art:url('images/moby-dick.jpg');
+ --ornament:'✦';
 }
-html[data-book="gatsby"]{
+html[data-theme="deco"]{
  --ink:#193c40;--muted:#536867;--paper:#f1ebdc;--line:#c9b47c;--accent:#8b6927;
  --panel:#fffaf0;--wash:#faf3e5;--heading-font:'DM Sans',Arial,sans-serif;
- --ornament:'◇';--book-art:url('images/gatsby-new-york-1920.jpg');
+ --ornament:'◇';
 }
 html[data-book] body{background:radial-gradient(ellipse at 50% 0,var(--wash),transparent 80%),var(--paper)}
 html[data-book] .masthead{border-bottom:3px double var(--line)}
@@ -63,18 +63,18 @@ html[data-book] .detail{background:var(--panel)}
 html[data-book] .detail h2,html[data-book] .map-place-popup h2{font-family:var(--heading-font)}
 html[data-book] .detail-eyebrow::before{content:var(--ornament);color:var(--accent);margin-right:9px;font-size:17px}
 /* Jazz Age binding: geometric gold rules and a dark, high-contrast title panel. */
-html[data-book="gatsby"] .introduction{
+html[data-theme="deco"] .introduction{
  background:#132e32;color:#fff7e7;border:1px solid #a68a48;
  border-top:5px double #cfb875;border-bottom:5px double #cfb875;
  box-shadow:inset 0 0 0 8px #132e32,inset 0 0 0 9px #a68a48;
 }
-html[data-book="gatsby"] .introduction::after{opacity:.32;mask-image:linear-gradient(90deg,transparent,#000);-webkit-mask-image:linear-gradient(90deg,transparent,#000);background-position:center 30%}
-html[data-book="gatsby"] .introduction #title{color:#fff7e7;text-transform:uppercase;font-weight:400;font-size:clamp(35px,4.4vw,65px);letter-spacing:.07em;line-height:1.18}
-html[data-book="gatsby"] #book-author{color:#ead59f;letter-spacing:.25em}
-html[data-book="gatsby"] .introduction .catalogue-back{color:#fff7e7;background:#193c40;border-color:#cfb875}
-html[data-book="gatsby"] .sidebar-title{border-bottom:3px double var(--line)}
-html[data-book="gatsby"] .sidebar-title h2{letter-spacing:.07em;text-transform:uppercase;font-size:20px}
-html[data-book="gatsby"] .detail h2{font-weight:500;letter-spacing:.025em}
+html[data-theme="deco"] .introduction::after{opacity:.32;mask-image:linear-gradient(90deg,transparent,#000);-webkit-mask-image:linear-gradient(90deg,transparent,#000);background-position:center 30%}
+html[data-theme="deco"] .introduction #title{color:#fff7e7;text-transform:uppercase;font-weight:400;font-size:clamp(35px,4.4vw,65px);letter-spacing:.07em;line-height:1.18}
+html[data-theme="deco"] #book-author{color:#ead59f;letter-spacing:.25em}
+html[data-theme="deco"] .introduction .catalogue-back{color:#fff7e7;background:#193c40;border-color:#cfb875}
+html[data-theme="deco"] .sidebar-title{border-bottom:3px double var(--line)}
+html[data-theme="deco"] .sidebar-title h2{letter-spacing:.07em;text-transform:uppercase;font-size:20px}
+html[data-theme="deco"] .detail h2{font-weight:500;letter-spacing:.025em}
 html[data-book] .tags .tag{background:var(--paper);color:var(--muted);border:1px solid var(--line)}
 html[data-book] .original-excerpt blockquote,html[data-book] .unlocated-places blockquote{background:var(--paper);border-left-color:var(--accent);font-size:17px;line-height:1.7}
 html[data-book] .source-link{color:var(--muted)}
@@ -86,28 +86,28 @@ html[data-book] .map-chapter-menu,html[data-book] .map-chapter-menu>button,html[
 html[data-book] .map-chapter-menu>button:hover{background:var(--paper)}
 html[data-book] .map-chapter-menu>button[aria-current="true"]{background:var(--ink);color:white}
 html[data-book] footer{border-top:3px double var(--line);padding-top:17px;font-size:15px;line-height:1.6}
-/* Joyce: crisp Edwardian typography and green cloth binding. */
-html[data-book="ulisse"] .introduction{border-top:4px solid var(--ink)}
-html[data-book="ulisse"] .detail-eyebrow{font-family:'DM Sans',Arial,sans-serif;letter-spacing:2px}
-/* Proust: rose paper, flowing headings and fine gilt rules. */
-html[data-book="proust"] .introduction #title{font-style:italic}
-html[data-book="proust"] .introduction{border-top:3px double var(--accent)}
-html[data-book="proust"] .detail h2{font-style:italic}
-html[data-book="proust"] .original-excerpt blockquote{font-style:italic}
-/* Tolstoy: sober type, burgundy binding and a formal title page. */
-html[data-book="war-and-peace"] .introduction{border-top:4px solid var(--ink)}
-html[data-book="war-and-peace"] .introduction #title{font-variant:small-caps;letter-spacing:.025em}
-html[data-book="war-and-peace"] .sidebar-title h2{font-variant:small-caps}
-/* Melville: maritime blue, canvas paper and ship-log rules. */
-html[data-book="moby-dick"] .introduction{border-top:4px double var(--ink);border-bottom:4px double var(--ink)}
-html[data-book="moby-dick"] .introduction #title{letter-spacing:.025em;text-transform:uppercase;font-size:clamp(42px,4.8vw,75px)}
-html[data-book="moby-dick"] .detail-eyebrow{font-family:'DM Sans',Arial,sans-serif;letter-spacing:2px}
+/* Edwardian: crisp Edwardian typography and green cloth binding. */
+html[data-theme="edwardian"] .introduction{border-top:4px solid var(--ink)}
+html[data-theme="edwardian"] .detail-eyebrow{font-family:'DM Sans',Arial,sans-serif;letter-spacing:2px}
+/* Rose: rose paper, flowing headings and fine gilt rules. */
+html[data-theme="rose"] .introduction #title{font-style:italic}
+html[data-theme="rose"] .introduction{border-top:3px double var(--accent)}
+html[data-theme="rose"] .detail h2{font-style:italic}
+html[data-theme="rose"] .original-excerpt blockquote{font-style:italic}
+/* Formal: sober type, burgundy binding and a formal title page. */
+html[data-theme="formal"] .introduction{border-top:4px solid var(--ink)}
+html[data-theme="formal"] .introduction #title{font-variant:small-caps;letter-spacing:.025em}
+html[data-theme="formal"] .sidebar-title h2{font-variant:small-caps}
+/* Maritime: maritime blue, canvas paper and ship-log rules. */
+html[data-theme="maritime"] .introduction{border-top:4px double var(--ink);border-bottom:4px double var(--ink)}
+html[data-theme="maritime"] .introduction #title{letter-spacing:.025em;text-transform:uppercase;font-size:clamp(42px,4.8vw,75px)}
+html[data-theme="maritime"] .detail-eyebrow{font-family:'DM Sans',Arial,sans-serif;letter-spacing:2px}
 @media(max-width:700px){
  html[data-book] .introduction{min-height:0;display:flex;flex-direction:column;align-items:flex-start;gap:17px;padding:23px 20px;margin:20px 0}
  html[data-book] .introduction::after{width:65%;opacity:.13}
  html[data-book] .introduction #title{font-size:48px}
  html[data-book] .introduction #title.long-book-title{font-size:36px}
- html[data-book="moby-dick"] .introduction #title{font-size:43px}
+ html[data-theme="maritime"] .introduction #title{font-size:43px}
  html[data-book] #book-author{font-size:11px;letter-spacing:1.5px}
  html[data-book] .sidebar-title{padding-bottom:12px;margin-bottom:10px}
  html[data-book] .place-button{border-color:var(--line)}
@@ -115,7 +115,7 @@ html[data-book="moby-dick"] .detail-eyebrow{font-family:'DM Sans',Arial,sans-ser
 }
 
 /* Illustrated atlases use the same workspace, chapter controls and detail panels. */
-.basemap-toolbar[hidden]{display:none!important}.illustrated-preview{position:absolute;inset:0;z-index:1;overflow:hidden;display:flex;align-items:center;justify-content:center;pointer-events:none}.illustrated-preview[hidden]{display:none}.illustrated-drawing{position:relative;flex-shrink:0}.illustrated-drawing img{width:100%;height:100%;display:block}.illustrated-fallback-pin{position:absolute;transform:translate(-50%,-50%);width:28px;height:28px;border:2px solid white;border-radius:50%;color:white;font:bold 12px Arial;pointer-events:auto;padding:0;cursor:pointer}.illustrated-fallback-pin.selected{outline:3px solid #e8c565;outline-offset:2px}html[data-book=macondo]{--book-accent:#19665c}
+.basemap-toolbar[hidden]{display:none!important}.illustrated-preview{position:absolute;inset:0;z-index:1;overflow:hidden;display:flex;align-items:center;justify-content:center;pointer-events:none}.illustrated-preview[hidden]{display:none}.illustrated-drawing{position:relative;flex-shrink:0}.illustrated-drawing img{width:100%;height:100%;display:block}.illustrated-fallback-pin{position:absolute;transform:translate(-50%,-50%);width:28px;height:28px;border:2px solid white;border-radius:50%;color:white;font:bold 12px Arial;pointer-events:auto;padding:0;cursor:pointer}.illustrated-fallback-pin.selected{outline:3px solid #e8c565;outline-offset:2px}
 
 .illustrated-fallback-pin.area{border-radius:2px;transform:translate(-50%,-50%) rotate(45deg)}
 .illustrated-fallback-pin.area span{display:block;transform:rotate(-45deg)}

@@ -7,7 +7,7 @@ for(const lang of ['en','it','fr','es']){
  const nodes=['Every book,','a world to explore','Literary Atlas'].map(text=>({textContent:text,parentElement:{closest(){return null}}}));
  const ctx={console,URL,URLSearchParams,NodeFilter:{SHOW_TEXT:4},location:{hash:'#episodio-18',search:'?book=ulisse'+(lang==='en'?'':'&lang='+lang)+'&basemap=gray-vector&place=0',href:'https://example.com/atlas.html?book=ulisse&lang='+lang+'#episodio-18',assign(url){assigned=url}},localStorage:{getItem(){return saved},setItem(k,v){saved=v}},window:{innerWidth:1100,matchMedia:()=>({matches:true}),addEventListener(){}},document:{readyState:'loading',documentElement:{},body:{querySelectorAll:()=>[]},head:{querySelectorAll:()=>[]},addEventListener(k,f){startup=f},createTreeWalker(){let i=-1;return{nextNode(){return ++i<nodes.length},get currentNode(){return nodes[i]}}},querySelectorAll:()=>[],getElementById:id=>elements[id]??(elements[id]=element()),querySelector:()=>({}),createElement:element}};
  ctx.window.location=ctx.location;vm.createContext(ctx);
- for(const name of ['locales/ui.js','i18n.js','data/ulisse.js','data/ulisse-i18n.js','basemaps.js'])vm.runInContext(fs.readFileSync(root+name,'utf8'),ctx);
+ for(const name of ['locales/ui.js','content/book-translations.js','i18n.js','data/ulisse.js','data/ulisse-i18n.js','basemaps.js'])vm.runInContext(fs.readFileSync(root+name,'utf8'),ctx);
  assert.equal(ctx.window.atlasI18n.locale,lang);assert.equal(ctx.document.documentElement.lang,lang);
  const english=JSON.parse(JSON.stringify(ctx.window.atlasData));
  ctx.window.atlasData=ctx.window.atlasI18n.localizeData(ctx.window.atlasData);

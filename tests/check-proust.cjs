@@ -14,7 +14,7 @@ for(const lang of ['en','it','fr','es']){
  const element=()=>({children:[],attributes:{},listeners:{},appendChild(x){this.children.push(x)},setAttribute(k,v){this.attributes[k]=v},addEventListener(k,f){this.listeners[k]=f},scrollIntoView(){}});
  const location={hash:'#volume-6',search:'?book=proust'+(lang==='en'?'':'&lang='+lang),href:'https://example.com/atlas.html?book=proust&lang='+lang+'#volume-6',assign(url){assigned=url}};
  const ctx={console,URL,URLSearchParams,NodeFilter:{SHOW_TEXT:4},location,localStorage:{getItem(){},setItem(){}},window:{location,innerWidth:1100,matchMedia:()=>({matches:true}),addEventListener(){}},document:{readyState:'loading',documentElement:{},body:{querySelectorAll:()=>[]},head:{querySelectorAll:()=>[]},addEventListener(k,f){startup=f},createTreeWalker:()=>({nextNode:()=>false}),querySelectorAll:()=>[],getElementById:id=>elements[id]??(elements[id]=element()),querySelector:()=>({}),createElement:element}};
- vm.createContext(ctx);for(const name of ['locales/ui.js','i18n.js','data/proust.js','data/proust-i18n.js','basemaps.js'])vm.runInContext(fs.readFileSync(root+name,'utf8'),ctx);
+ vm.createContext(ctx);for(const name of ['locales/ui.js','content/book-translations.js','i18n.js','data/proust.js','data/proust-i18n.js','basemaps.js'])vm.runInContext(fs.readFileSync(root+name,'utf8'),ctx);
  assert.equal(ctx.window.atlasI18n.locale,lang);assert.equal(ctx.document.documentElement.lang,lang);
  ctx.window.atlasData=ctx.window.atlasI18n.localizeData(ctx.window.atlasData);const d=ctx.window.atlasData;
  assert.equal(d.book.title,{en:'In Search of Lost Time',it:'Alla ricerca del tempo perduto',fr:'À la recherche du temps perdu',es:'En busca del tiempo perdido'}[lang]);

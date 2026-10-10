@@ -13,7 +13,7 @@ for(const lang of ['en','it','fr','es']){
  const el=()=>({children:[],attributes:{},listeners:{},appendChild(x){this.children.push(x)},setAttribute(k,v){this.attributes[k]=v},addEventListener(k,f){this.listeners[k]=f},scrollIntoView(){}});
  const location={hash:'#book-17',search:'?book=war-and-peace&lang='+lang,href:'https://example.com/atlas.html?book=war-and-peace&lang='+lang+'#book-17',assign(url){assigned=url}};
  const ctx={console,URL,URLSearchParams,NodeFilter:{SHOW_TEXT:4},location,localStorage:{getItem(){},setItem(){}},window:{location,innerWidth:1100,matchMedia:()=>({matches:true}),addEventListener(){}},document:{readyState:'loading',documentElement:{},body:{querySelectorAll:()=>[]},head:{querySelectorAll:()=>[]},addEventListener(k,f){startup=f},createTreeWalker:()=>({nextNode:()=>false}),querySelectorAll:()=>[],getElementById:id=>elements[id]??(elements[id]=el()),querySelector:()=>({}),createElement:el}};
- vm.createContext(ctx);for(const name of ['locales/ui.js','i18n.js','data/war-and-peace.js','data/war-and-peace-i18n.js','basemaps.js'])vm.runInContext(fs.readFileSync(root+name,'utf8'),ctx);
+ vm.createContext(ctx);for(const name of ['locales/ui.js','content/book-translations.js','i18n.js','data/war-and-peace.js','data/war-and-peace-i18n.js','basemaps.js'])vm.runInContext(fs.readFileSync(root+name,'utf8'),ctx);
  ctx.window.atlasData=ctx.window.atlasI18n.localizeData(ctx.window.atlasData);const d=ctx.window.atlasData;
  assert.equal(d.book.title,{en:'War and Peace',it:'Guerra e pace',fr:'Guerre et Paix',es:'Guerra y paz'}[lang]);
  for(const [id,p]of Object.entries(d.places)){assert.deepEqual(Array.from(p.coords),raw.places[id].coords);assert.equal(p.positionSource.url,raw.places[id].positionSource.url);if(lang!=='en')for(const field of ['status','note','method'])assert.notEqual(p[field],raw.places[id][field],lang+' '+id+' '+field);}
@@ -28,5 +28,5 @@ for(const lang of ['en','it','fr','es']){
  elements['language-select'].value=lang==='fr'?'en':'fr';elements['language-select'].listeners.change();const dest=new URL(assigned);assert.equal(dest.searchParams.get('book'),'war-and-peace');assert.equal(dest.hash,'#book-17');assert.equal(dest.searchParams.get('basemap'),'osm');
  const messages=ctx.window.atlasLocaleData.messages[lang];assert.ok(messages['Explore War and Peace by Leo Tolstoy']);assert.equal(messages['War and Peace'],d.book.title);
 }
-assert.ok(fs.readFileSync(root+'index.html','utf8').includes('href="atlas.html?book=war-and-peace"'));
+assert.ok(require('./read-catalogue.cjs')().includes('href="atlas.html?book=war-and-peace"'));
 console.log('PASS: War and Peace, 17 sections / 16 maps / 62 sourced places / 91 chapter references; disambiguated geographic records, 4 languages, scene-specific sources, CSV, Street View and empty epilogue clear/reset.');

@@ -1,19 +1,24 @@
 # Mappa dei file di Novel Locator
 
-Il sito è scritto in HTML, CSS e JavaScript e viene ospitato su GitHub Pages dalla cartella `docs/`. La pagina della mappa legge i dati pubblicati da Supabase; i file JavaScript dei romanzi restano solo in locale, esclusi da Git insieme ai JSON di `tests/fixtures/`. Il repository contiene lo schema PostgreSQL e gli strumenti TypeScript di importazione e ricostruzione. La login non è ancora implementata. I CSV sono esportazioni scaricabili e non alimentano la mappa; il catalogo della home è statico.
+Il sito è scritto in HTML, CSS e JavaScript e viene ospitato su GitHub Pages dalla cartella `docs/`. La pagina della mappa legge i dati pubblicati da Supabase; i file JavaScript dei romanzi restano solo in locale, esclusi da Git insieme ai JSON di `tests/fixtures/`. Il repository contiene lo schema PostgreSQL e gli strumenti TypeScript di importazione e ricostruzione. La login non è ancora implementata. I CSV sono esportazioni scaricabili e non alimentano la mappa; il catalogo della home viene generato dai metadati editoriali pubblici.
 
 ## Struttura
 
 ```text
 novellocator/
 ├── docs/                          Sito pubblicato
-│   ├── index.html                 Catalogo dei romanzi
+│   ├── index.html                 Struttura comune del catalogo
 │   ├── atlas.html                 Pagina comune della mappa
+│   ├── catalogue.js               Generazione delle schede e dei crediti dai dati
+│   ├── book-presentation.js       Applicazione del tema e della copertina dai dati
+│   ├── content/                   Metadati editoriali pubblici, inclusi in Git
+│   │   ├── books.js               Titoli, autori, copertine, temi e tipi di mappa
+│   │   └── book-translations.js   Traduzioni delle schede editoriali
 │   ├── app.js                     Motore dell'atlante
-│   ├── fictional-map.js           Motore riutilizzabile per mappe illustrate (prototipo)
+│   ├── fictional-map.js           Motore per mappe illustrate e passaggio a coordinate reali
 │   ├── style.css                  Aspetto e impaginazione
 │   ├── literary.css               Tema ispirato alla tipografia dei libri ottocenteschi
-│   ├── book-themes.css            Vesti grafiche dei romanzi, selezionate dall’ID del libro
+│   ├── book-themes.css            Profili grafici riutilizzabili, selezionati dai dati
 │   ├── images/                    Opere storiche della home e relative fonti
 │   ├── basemaps.js                Elenco degli sfondi cartografici
 │   ├── load-book.js               Caricamento del romanzo richiesto
@@ -186,3 +191,9 @@ flowchart TD
 La cartella `work/` esterna a questo repository contiene script e materiali temporanei di ricerca: non viene pubblicata e non è necessaria per consultare il sito.
 
 Per preparare gli script di un solo romanzo: `npm run db:prepare -- --book=gatsby`. La sottocartella locale `database/generated/gatsby/sql-editor/` contiene i blocchi numerati, la guida di importazione e le query di verifica. Non viene pubblicata su GitHub.
+
+## Confine tra codice comune e dati
+
+I file comuni HTML, JavaScript e CSS non contengono ID o nomi di opere. Le differenze sono configurate in `docs/content/books.js`: `mapType` sceglie il caricatore geografico o illustrato, `theme` sceglie un profilo grafico riutilizzabile e `cover` definisce immagine e ritaglio. Questi sono metadati pubblici del catalogo, non i dati narrativi. Luoghi, capitoli, citazioni e coordinate continuano a risiedere su Supabase e nelle copie locali ignorate da Git. Le traduzioni editoriali sono separate dalle etichette generiche in `docs/locales/ui.js`.
+
+`tests/check-editorial-boundary.cjs` verifica questa separazione e il caricamento di un nuovo titolo illustrato tramite sola configurazione.

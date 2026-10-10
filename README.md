@@ -12,7 +12,7 @@ Explore the places behind the stories. A literary atlas with a shared HTML, CSS 
 - English is the default language; Italian, French and Spanish are available.
 - Esri ArcGIS Maps SDK for JavaScript, five basemaps and external Google Street View links.
 
-The website is hosted as static files on GitHub Pages and now loads published books from Supabase's read API. Configuration is in `docs/supabase-config.js`; only the publishable key belongs there. Novel datasets in `docs/data/` and research JSON files in `tests/fixtures/` are kept locally and excluded from Git. The public site depends on Supabase; an outage displays a translated error. The home catalogue is static; login and an editorial interface are not implemented yet. PostgreSQL migrations and TypeScript import/export tools are under `database/` and `scripts/database/`. See [database/README.md](database/README.md).
+The website is hosted as static files on GitHub Pages and now loads published books from Supabase's read API. Configuration is in `docs/supabase-config.js`; only the publishable key belongs there. Novel datasets in `docs/data/` and research JSON files in `tests/fixtures/` are kept locally and excluded from Git. The public site depends on Supabase; an outage displays a translated error. The home catalogue is rendered from public editorial metadata in `docs/content/books.js`; login and an editorial interface are not implemented yet. PostgreSQL migrations and TypeScript import/export tools are under `database/` and `scripts/database/`. See [database/README.md](database/README.md).
 
 For a new book, run `npm run db:prepare -- --book=gatsby` to prepare only that book. Run the numbered local scripts in `database/generated/gatsby/sql-editor/` in Supabase before publishing the home card. The scripts, original English text and audit files remain local and ignored by Git. Gatsby's location evidence comes from the nine original-English chapters of the Standard Ebooks edition, with geographical models supported by Preservation Long Island and NYC Parks and real-site addresses checked separately. Reference coordinates locate regions and streets as extents; they do not establish fictional house addresses or exact character positions.
 
@@ -22,7 +22,9 @@ CSV data exports in `docs/*.csv` are also kept only locally and excluded from Gi
 
 - `docs/`: complete website and GitHub Pages source directory.
 - `docs/data/`: local-only book datasets and translated content, excluded from Git.
-- `docs/locales/ui.js`: interface translations.
+- `docs/content/`: public catalogue metadata and editorial translations; book-specific names stay here.
+- `docs/locales/ui.js`: shared interface translations.
+- `docs/book-themes.css`: reusable visual profiles, selected through metadata rather than book IDs.
 - `docs/LEGGIMI.md`: detailed Italian documentation, coordinate methodology and references.
 - `tests/`: automated integrity and interface checks using Node.js and browser mocks.
 - `tests/fixtures/`: local-only JSON reference snapshots for coordinate and translation comparisons.

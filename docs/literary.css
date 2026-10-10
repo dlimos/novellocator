@@ -23,10 +23,10 @@ h1,.detail h2,.book-copy h2,.map-place-popup h2{font-family:'EB Garamond',Georgi
 .book-card{border:1px solid var(--line);border-radius:0;background:#fffaf0;box-shadow:0 3px 0 #e8deca;transition:border-color .2s,box-shadow .2s}
 .available-book:hover{border-color:#91785a;box-shadow:0 6px 18px #5d463817}
 .book-art{height:auto;aspect-ratio:1.65;position:relative;padding:12px;background:#e8dfcb;color:var(--ink);border-bottom:1px solid var(--line)}
-.book-art img{display:block;width:100%;height:100%;object-fit:cover;filter:saturate(.8);border:1px solid #bba98a}
-.art-dublin img{object-position:center 45%}
-.art-proust img{object-position:center 57%}
-.art-tolstoy img{object-position:center 48%}
+.book-art img{display:block;width:100%;height:100%;object-fit:cover;object-position:var(--cover-position,center);filter:saturate(.8);border:1px solid #bba98a}
+
+
+
 .book-art>span{left:24px;bottom:23px;font-family:'DM Sans',Arial,sans-serif;font-size:10px;letter-spacing:1.7px;padding:7px 9px;background:#fbf5e9ef;border:1px solid #d3c3a4;color:#44372a;max-width:calc(100% - 48px)}
 .book-copy{padding:24px 27px 25px}
 .book-meta{font-family:'DM Sans',Arial,sans-serif;flex-direction:row;align-items:center;font-size:10px;letter-spacing:1.6px}
@@ -43,5 +43,3 @@ h1,.detail h2,.book-copy h2,.map-place-popup h2{font-family:'EB Garamond',Georgi
 .art-credits ul{padding-left:20px}.art-credits li{margin:7px 0}.art-credits a{text-underline-offset:3px}
 @media(max-width:700px){.library-page .masthead{height:76px;padding:0 5%}.brand{font-size:21px}.catalogue-intro{padding:35px 0 30px;margin-bottom:26px}.catalogue-intro h1{font-size:49px;letter-spacing:-.8px}.catalogue-intro>p:last-child{font-size:19px}.book-grid{grid-template-columns:1fr;gap:25px}.book-art{height:auto;aspect-ratio:1.6}.book-copy{padding:21px 23px}.book-copy h2{font-size:37px}.book-meta{flex-direction:row}.catalogue-footer details{text-align:left;margin-top:14px}.detail-text p{font-size:17px}}
 @media(prefers-reduced-motion:reduce){.book-card{transition:none}}
-/* Keep the historic skyline and harbour visible in Gatsby's cover crop. */
-.art-gatsby img{object-position:center 55%}

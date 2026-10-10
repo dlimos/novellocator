@@ -8,7 +8,7 @@ function setup(book,lang){
  const get=id=>{if(!elements[id]){const node=element();node.id=id;elements[id]=node}return elements[id]};
  const location={search:'?book='+book+'&lang='+lang,hash:'',href:'https://example.org/atlas.html?book='+book+'&lang='+lang,assign(url){this.assigned=url}};
  const ctx={console,URL,URLSearchParams,NodeFilter:{SHOW_TEXT:4},location,localStorage:{getItem(){},setItem(){}},window:{location,innerWidth:1200,matchMedia:()=>({matches:true}),addEventListener(){}},document:{readyState:'loading',documentElement:{},body:{querySelectorAll:()=>[]},head:{querySelectorAll:()=>[]},addEventListener(k,f){startup=f},createTreeWalker:()=>({nextNode:()=>false}),querySelectorAll:()=>[],querySelector:()=>({}),getElementById:get,createElement:element}};
- vm.createContext(ctx);for(const file of ['locales/ui.js','i18n.js','data/'+book+'.js','data/'+book+'-i18n.js','basemaps.js'])vm.runInContext(fs.readFileSync('docs/'+file,'utf8'),ctx);
+ vm.createContext(ctx);for(const file of ['locales/ui.js','content/book-translations.js','i18n.js','data/'+book+'.js','data/'+book+'-i18n.js','basemaps.js'])vm.runInContext(fs.readFileSync('docs/'+file,'utf8'),ctx);
  ctx.window.atlasData=ctx.window.atlasI18n.localizeData(ctx.window.atlasData);startup();
  vm.runInContext(fs.readFileSync('docs/app.js','utf8').replace(/initializeMap\(\);\s*$/,''),ctx);
  vm.runInContext(`function layer(){return{graphics:[],visible:true,removeAll(){this.graphics=[]},add(g){this.graphics.push(g)}}}markerLayer=layer();citedMarkerLayer=layer();GraphicClass=class{constructor(p){Object.assign(this,p)}};ExtentClass=class{constructor(p){Object.assign(this,p)}};viewReady=true;view={goTo(){return Promise.resolve()}};drawMarkers();`,ctx);
