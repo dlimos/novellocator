@@ -1,0 +1,14 @@
+# Regole generali per aggiungere un libro
+
+## Pubblicazione GitHub
+
+- Pubblicare sempre sul branch `docs`, mai su `main`. Il sito usa i file della cartella `docs/` nel branch `docs`.
+- Per la pubblicazione usare `git push origin docs`; non creare o ripristinare il branch `main`.
+
+## Analisi delle opere
+
+- Per ogni opera, cercare il testo originale completo nella lingua dell'autore e verificarne edizione e integrità, inclusi tutti i volumi, capitoli, prologhi ed epiloghi. Analizzare tutto il testo, sezione per sezione, per individuare le location: ambientazioni dell'azione, luoghi menzionati, ricordi, viaggi e luoghi immaginari o non localizzabili. Non limitarsi a estratti, riassunti o elenchi già disponibili. Registrare fonte, edizione, sezioni analizzate e risultati, anche per le sezioni senza location. Se il testo completo non è accessibile, documentare la lacuna e mantenere l'analisi pendente.
+- Per ogni opera, svolgere anche ricerche su Internet per trovare siti specialistici, edizioni critiche, studi accademici, atlanti letterari e risorse di istituzioni dedicate all'autore o al libro. Confrontare i risultati con l'analisi integrale per verificare identificazioni, varianti dei toponimi, modelli reali e contesto storico. Registrare URL e riferimenti pertinenti nelle fonti delle location; distinguere le prove del testo dalle interpretazioni critiche e dalle fonti delle coordinate. Verificare nel testo originale anche le location suggerite dai siti specialistici e documentare eventuali dubbi o divergenze.
+- Le immagini di anteprima del libro devono riprodurre quadri esistenti collegati all'opera per ambientazione, periodo, temi o riferimenti espliciti. Documentare il collegamento in `docs/images/CREDITS.md`, insieme a titolo del quadro, artista, data, fonte e condizioni di riutilizzo. Non usare fotografie o immagini generate come anteprime dei nuovi libri. Configurare immagine, testo alternativo e crediti in `docs/content/books.js`.
+- Ogni location deve avere una citazione autentica del libro nella lingua originale che ne dimostri il legame con il capitolo o la sezione associata. La regola comprende luoghi dell'azione, luoghi soltanto menzionati e ambientazioni senza coordinate; ogni associazione capitolo–luogo richiede il proprio riscontro. Conservare il testo originale, il riferimento alla sezione e la fonte/edizione. Traduzioni e parafrasi possono accompagnare la citazione, ma non sostituirla.
+- Non inventare citazioni. Se manca il testo necessario, registrare il riscontro come pendente e non considerare completata l'aggiunta del libro finché tutte le location non sono documentate.
