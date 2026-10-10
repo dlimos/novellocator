@@ -23,7 +23,7 @@ class View extends Props {
 }
 class Media extends Props { async load() { if (failImage) throw Error('image load failed'); } }
 class Graphics extends Props { constructor(props) { super(props); this.graphics = []; this.visible = true; } add(graphic) { this.graphics.push(graphic); } }
-const load = async () => [FakeMap, View, Media, Props, Props, Extent, Graphics, Props, {watch(getter, callback){frameCallback=callback; return {remove(){frameRemoved++}}}}];
+const load = async () => [FakeMap, View, Media, Props, Props, Extent, Graphics, Props, {watch(getter, callback){frameCallback=callback; return {remove(){frameRemoved++}}}}, Props, class extends Props{async load(){}}];
 const places = [{ id: 'house', x: 120, y: 230, kind: 'site', role: 'action' }, { id: 'area', x: 450, y: 200, kind: 'area', role: 'mentioned' }];
 (async () => {
   const selections = [];
@@ -88,6 +88,6 @@ const places = [{ id: 'house', x: 120, y: 230, kind: 'site', role: 'action' }, {
   const relative=await create({container:{},image:'images/macondo/first.png',width:1600,height:1000,places,load});
   assert.equal(map.layers[0].source[0].image,'images/macondo/first.png');
   const persistentView=relative.view;await relative.setImage('images/macondo/next.png');
-  assert.equal(relative.view,persistentView);assert.equal(map.layers[0].source[0].image,'images/macondo/next.png');assert.equal(map.layers.length,3);relative.destroy();
+  assert.equal(relative.view,persistentView);assert.equal(map.layers[0].source[0].image,'images/macondo/next.png');assert.equal(map.layers.length,3);await relative.setGeographic(true,'https://example.test/vector');assert.equal(view.constraints.geometry,null);assert.ok(map.basemap);assert.equal(map.layers[0].visible,false);await relative.setGeographic(false);assert.equal(map.basemap,null);assert.equal(map.layers[0].visible,true);assert.equal(view.constraints.geometry.xmax,1600);relative.destroy();
   console.log('Illustrated maps: coordinate transforms, symbols, layers, selection and disposal OK (mock SDK).');
 })().catch(error => { console.error(error); process.exitCode = 1; });

@@ -1,5 +1,7 @@
 # Catalogue artwork
 
+Catalogue covers must use existing paintings or photographs sourced from the web, with documented reuse rights. AI-generated covers are not used.
+
 These historical artworks evoke the novels' settings. They are not presented as original illustrations commissioned for the books. The images are stored locally; no image service is required when visiting the catalogue.
 
 | Novel | Artwork | Artist / date | Source and reuse status |
@@ -16,3 +18,7 @@ The choice of Turner's whaling scene is also informed by the Met's [Turner's Wha
 ## The Great Gatsby
 
 Bain News Service (publisher), *N.Y.C. from Army plane*, dated 1919–1920. Historical aerial photograph of Battery Place and Lower Manhattan, George Grantham Bain Collection, Library of Congress, item 2014711601. [Catalogue](https://www.loc.gov/item/2014711601/), [image](https://cdn.loc.gov/service/pnp/ggbain/31400/31446v.jpg), [rights information](https://www.loc.gov/rr/print/res/274_bain.html), [public-domain declaration](https://commons.wikimedia.org/wiki/File:N.Y.C._from_Army_plane_LCCN2014711601.jpg). No known restrictions on publication; Commons marks the image public domain. Local image: `gatsby-new-york-1920.jpg`, 1024 × 735 pixels. The catalogue supplies a date range; it is not described as an exact 1922 photograph. Cropping uses CSS only.
+
+## One Hundred Years of Solitude
+
+Henri Rousseau, *Tropical Forest with Monkeys*, 1910, oil on canvas, National Gallery of Art, Washington, John Hay Whitney Collection, accession 1982.76.7. [Museum catalogue and public-domain declaration](https://www.nga.gov/artworks/61253-tropical-forest-monkeys). Downloaded from the museum’s [IIIF image service](https://api.nga.gov/iiif/95f1ff73-c4e9-45d4-ae3a-79837c4926d8/full/!1200,1200/0/default.jpg), 1200 × 959 pixels. Local file: `macondo-rousseau.jpg`. Chosen to evoke an imagined tropical landscape; it is not an illustration of Macondo. Rights checked on 10 October 2026.

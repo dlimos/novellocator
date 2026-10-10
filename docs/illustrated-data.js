@@ -8,6 +8,9 @@
       ids.add(p.id);
       for(const lang of ['en','it','fr','es'])if(typeof p.names?.[lang]!=='string'||typeof p.scenes?.[lang]!=='string')throw Error('Incomplete translation');
     }
+    for(const [id,p] of Object.entries(data.geographicPlaces||{})){
+      if(!ids.has(id)||!Array.isArray(p.coords)||p.coords.length!==2||!p.coords.every(Number.isFinite)||Math.abs(p.coords[0])>85||Math.abs(p.coords[1])>180||!Number.isFinite(p.zoom)||!/^https:\/\//.test(p.source?.url||''))throw Error('Invalid geographic place');
+    }
     for(const e of data.epochs){
       if(!/^images\/[a-z0-9/_.-]+\.png$/.test(e.image)||!e.ids.every(id=>ids.has(id)))throw Error('Invalid epoch');
       const anchors=data.panoramaAnchors?.[e.id]?.positions;

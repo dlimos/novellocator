@@ -119,3 +119,5 @@ html[data-book="moby-dick"] .detail-eyebrow{font-family:'DM Sans',Arial,sans-ser
 
 .illustrated-fallback-pin.area{border-radius:2px;transform:translate(-50%,-50%) rotate(45deg)}
 .illustrated-fallback-pin.area span{display:block;transform:rotate(-45deg)}
+
+.illustrated-return{position:absolute;top:66px;left:18px;z-index:5;padding:9px 14px;border:1px solid var(--line);background:var(--paper,#fff8e8);color:var(--ink,#263b35);border-radius:4px;cursor:pointer;font:inherit}.illustrated-return[hidden]{display:none}

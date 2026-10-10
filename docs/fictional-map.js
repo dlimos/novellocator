@@ -32,18 +32,19 @@
       '@arcgis/core/layers/MediaLayer.js', '@arcgis/core/layers/support/ImageElement.js',
       '@arcgis/core/layers/support/ExtentAndRotationGeoreference.js',
       '@arcgis/core/geometry/Extent.js', '@arcgis/core/layers/GraphicsLayer.js', '@arcgis/core/Graphic.js',
-      '@arcgis/core/core/reactiveUtils.js'
+      '@arcgis/core/core/reactiveUtils.js', '@arcgis/core/Basemap.js', '@arcgis/core/layers/VectorTileLayer.js'
     ]);
   }
   async function create({ container, image, width, height, places, onSelect = () => {}, load = loadSDK,
     initialExtent = null, contentExtent = null, lockFrame = false, fillFrame = false, padding = { top: 15, right: 15, bottom: 15, left: 15 } }) {
     const positions = places.map(p => ({ place: p, geometry: point(p, width, height), symbol: symbol(p) }));
     if (new Set(places.map(p => p.id)).size !== places.length) throw new TypeError('Duplicate place id.');
-    const [Map, MapView, MediaLayer, ImageElement, Georeference, Extent, GraphicsLayer, Graphic, reactiveUtils] = await load();
+    const [Map, MapView, MediaLayer, ImageElement, Georeference, Extent, GraphicsLayer, Graphic, reactiveUtils, Basemap, VectorTileLayer] = await load();
     // SVG source, an image Blob or a trusted HTTPS/data image URL can be supplied.
     const isURL = typeof image === 'string' && /^(https:\/\/|file:\/\/|data:image\/|images\/|\.\.?\/)/i.test(image);
     const imageURL = isURL ? image : URL.createObjectURL(image instanceof Blob ? image : new Blob([image], { type: 'image/svg+xml' }));
     const releaseImage = () => { if (!isURL) URL.revokeObjectURL(imageURL); };
+    let geographicMode=false, geographicBasemap, geographicLayer;
     let view, clickHandle, frameHandle, disposed = false, selectedId = null;
     try {
       const extent = new Extent({ xmin: 0, ymin: 0, xmax: width, ymax: height, spatialReference: { wkid: 3857 } });
@@ -65,12 +66,12 @@
       const map = new Map({ basemap: null, layers: [background, layers.action, layers.mentioned] });
       view = new MapView({ container, map, extent: initialExtent ?? homeExtent, spatialReference: { wkid: 3857 },
         ui: { components: [] }, popupEnabled: false, background: { color: '#eee1bd' },
-        constraints: { geometry: extent, rotationEnabled: false }, padding });
+        constraints: { geometry: extent, rotationEnabled: false, snapToZoom: false }, padding });
       await view.when();
       await background.load();
       if (lockFrame) {
         const enforceFrame = () => {
-          if (disposed || !view.center || !(view.resolution > 0) || !(view.scale > 0)) return;
+          if (geographicMode || disposed || !view.center || !(view.resolution > 0) || !(view.scale > 0)) return;
           const padding = view.padding || {top:0,right:0,bottom:0,left:0};
           const usableWidth = Math.max(1, view.width - padding.left - padding.right);
           const usableHeight = Math.max(1, view.height - padding.top - padding.bottom);
@@ -98,6 +99,18 @@
       });
       return {
         view, layers, Graphic, Extent,
+        async setGeographic(enabled, basemapURL) {
+          if(enabled&&!geographicBasemap){
+            const layer=new VectorTileLayer({url:basemapURL});await layer.load();
+            geographicLayer=layer;geographicBasemap=new Basemap({baseLayers:[layer]});
+          }
+          if(disposed)return;
+          geographicMode=enabled;background.visible=!enabled;map.basemap=enabled?geographicBasemap:null;
+          view.constraints.geometry=enabled?null:extent;view.constraints.minScale=0;view.constraints.maxScale=0;
+          view.constraints.lods=enabled?geographicLayer?.tileInfo?.lods||null:null;
+          view.constraints.minZoom=enabled?1:-1;view.constraints.maxZoom=enabled?19:-1;
+          if(!enabled)await view.goTo(homeExtent,{animate:false});
+        },
         async whenImageReady(){if(view.whenLayerView && reactiveUtils?.whenOnce){const layerView=await view.whenLayerView(background);await reactiveUtils.whenOnce(()=>!layerView.updating);}},
         async setImage(nextImage) {
           if (disposed) return;
@@ -106,7 +119,7 @@
           try { await next.load(); if(disposed){next.destroy?.();return;} map.add(next,0);
             if(view.whenLayerView && reactiveUtils?.whenOnce){const layerView=await view.whenLayerView(next);await reactiveUtils.whenOnce(()=>!layerView.updating);}
             if(disposed){map.remove(next);next.destroy?.();return;}
-            const previous=background;background=next;map.remove(previous);previous.destroy?.();
+            const previous=background;background=next;background.visible=!geographicMode;map.remove(previous);previous.destroy?.();
           }catch(error){map.remove(next);next.destroy?.();throw error;}
         },
         setVisible(role, visible) { if (!layers[role]) throw new TypeError('Unknown layer.'); layers[role].visible = Boolean(visible); },

@@ -125,7 +125,7 @@ if(isIllustrated)document.querySelector('.basemap-toolbar').hidden=true;
 basemaps.forEach(item=>{const option=document.createElement('option');option.value=item.id;option.textContent=t(item.label);basemapSelect.appendChild(option)});
 basemapSelect.value=activeBasemap;
 document.getElementById('basemap-description').textContent=t(basemaps.find(b=>b.id===activeBasemap).description);
-document.getElementById('osm-credit').hidden=activeBasemap!=='osm';
+document.getElementById('osm-credit').hidden=isIllustrated||activeBasemap!=='osm';
 function createBasemap(id){
  const definition=basemaps.find(item=>item.id===id);
  if(!definition)throw new Error('Unknown basemap');
@@ -218,9 +218,9 @@ function renderLocation(){
  Array.from(document.getElementById('episode-locations').children).forEach((button,i)=>button.setAttribute('aria-pressed',String(i===selectedPlace&&selectedCitation<0)));
  Array.from(document.getElementById('citation-locations')?.children||[]).forEach((button,i)=>button.setAttribute('aria-pressed',String(i===selectedCitation)));
  const decimals=Number.isInteger(place.coordinateDecimals)&&place.coordinateDecimals>=0&&place.coordinateDecimals<=8?place.coordinateDecimals:place.positionSource.recordId||place.positionSource.councilRecord?6:4;
- const coordinateText=isIllustrated?'':place.coords.map(n=>n.toFixed(decimals)).join(', ');
+ const coordinateText=isIllustrated&&!place.geographic?'':place.coords.map(n=>n.toFixed(decimals)).join(', ');
  if(isIllustrated){
-  document.getElementById('selected-location').innerHTML=`<p class="category-badge category-${category}">${esc(t(category==='action'?'Action locations':'Mentioned locations'))}</p><p class="location-scene">${esc(chapter.placeText[selectedPlace])}</p><p class="today">${esc(place.note)}</p><details class="location-evidence"><summary>${t('Posizione e fonti')}</summary><p>${esc(place.method)}</p><p>${esc(narrativeSource?.label||'')}</p></details>`;
+  document.getElementById('selected-location').innerHTML=`<p class="category-badge category-${category}">${esc(t(category==='action'?'Action locations':'Mentioned locations'))}</p><p class="location-scene">${esc(chapter.placeText[selectedPlace])}</p><p class="today">${esc(place.note)}</p><details class="location-evidence"><summary>${t('Posizione e fonti')}</summary><p>${esc(place.method)}</p><p>${esc(narrativeSource?.label||'')}</p>${place.geographic?`<p class="coordinates">WGS84 · ${coordinateText}</p><a href="${esc(place.positionSource.url)}" target="_blank" rel="noopener noreferrer">${esc(place.positionSource.label)}</a>`:''}</details>`;
  }else{
  document.getElementById('selected-location').innerHTML=`<p class="category-badge category-${category}">${esc(t(category==='action'?'Action locations':'Mentioned locations'))}</p><p class="location-address">${esc(place.area)}</p><p class="location-scene">${esc(citation?t('A geographical reference in the original text. Read the passage for its context.'):chapter.placeText[selectedPlace])}</p><p class="today"><strong>${esc(place.status)}.</strong> ${esc(place.note)}</p><details class="location-evidence"><summary>${t('Posizione e fonti')}</summary><p>${esc(place.method)}</p><p class="coordinates">WGS84 · ${coordinateText}<br>${t('Verifica delle fonti')}: ${esc(new Date(place.checked+"T12:00:00").toLocaleDateString(locale,{day:"numeric",month:"long",year:"numeric"}))}</p><a href="${esc(narrativeSource.url)}" target="_blank" rel="noopener noreferrer">${esc(narrativeSource.label)}</a><br><a href="${esc(place.positionSource.url)}" target="_blank" rel="noopener noreferrer">${esc(place.positionSource.label)}</a>${place.additionalSource?`<br><a href="${esc(place.additionalSource.url)}" target="_blank" rel="noopener noreferrer">${esc(place.additionalSource.label)}</a>`:''}</details>`;
  document.getElementById('selected-location').innerHTML+=`<div class="street-view-action"><a class="street-view-link" id="street-view-link" href="${esc(streetViewUrl(place))}" target="_blank" rel="noopener noreferrer" aria-label="${esc(t('Apri Street View in una nuova finestra')+': '+place.name)}">Google Street View <span aria-hidden="true">↗</span></a><p class="street-view-note">${esc(t('Google mostra il panorama disponibile più vicino: può essere spostato rispetto al punto e dipende dalla copertura.'))}</p></div>`;
@@ -242,6 +242,7 @@ function centerSelectedPlace(zoomToPlace=true){
 }
 function selectPlace(index,move=true){
  const chapter=activeChapter();if(!Number.isInteger(index)||index<0||index>=chapter.places.length)return;
+ if(isIllustrated)illustratedMap?.allowGeographicSelection();
  selectedPlace=index;selectedCitation=-1;renderLocation();drawMarkers();
  if(move)centerSelectedPlace();
 }
@@ -319,7 +320,7 @@ async function selectMapPoint(event){
 }
 async function initializeMap(){
  if(isIllustrated){
-  illustratedMap=new IllustratedMapController(book.illustration,document.getElementById('map'),id=>{const index=activeChapter().places.indexOf(id);if(index<0)return;selectPlace(index,false);showMapPopup(true);centerSelectedPlace(false)});
+  illustratedMap=new IllustratedMapController(book.illustration,document.getElementById('map'),id=>{const index=activeChapter().places.indexOf(id);if(index<0)return;selectPlace(index,false);showMapPopup(true);centerSelectedPlace(false)},geographic=>{document.getElementById('osm-credit').hidden=!geographic;document.getElementById('map-heading').textContent=(current<0?t('All places'):number(activeChapter().id)+' · '+activeChapter().title)+(geographic?' · '+book.illustration.geographyLabels.map:'');});
   await illustratedMap.update(activeChapter(),visibleLayers,activeChapter().places[selectedPlace]);
   try{const nativeView=await illustratedMap.initialize();view=nativeView;viewReady=true;['overview','zoom-in','zoom-out'].forEach(id=>document.getElementById(id).disabled=false);document.getElementById('map-error').hidden=true;}catch(error){showMapError('The interactive map is unavailable. The illustrated map remains visible.');console.error(error)}
   return;
