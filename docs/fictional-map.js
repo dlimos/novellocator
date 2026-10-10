@@ -34,8 +34,11 @@
     const positions = places.map(p => ({ place: p, geometry: point(p, width, height), symbol: symbol(p) }));
     if (new Set(places.map(p => p.id)).size !== places.length) throw new TypeError('Duplicate place id.');
     const [Map, MapView, MediaLayer, ImageElement, Georeference, Extent, GraphicsLayer, Graphic] = await load();
-    const imageURL = URL.createObjectURL(new Blob([image], { type: 'image/svg+xml' }));
-    let view, clickHandle, disposed = false;
+    // SVG source, an image Blob or a trusted HTTPS/data image URL can be supplied.
+    const isURL = typeof image === 'string' && /^(https:\/\/|data:image\/)/i.test(image);
+    const imageURL = isURL ? image : URL.createObjectURL(image instanceof Blob ? image : new Blob([image], { type: 'image/svg+xml' }));
+    const releaseImage = () => { if (!isURL) URL.revokeObjectURL(imageURL); };
+    let view, clickHandle, disposed = false, selectedId = null;
     try {
       const extent = new Extent({ xmin: 0, ymin: 0, xmax: width, ymax: height, spatialReference: { wkid: 3857 } });
       const background = new MediaLayer({ source: [new ImageElement({ image: imageURL,
@@ -47,6 +50,10 @@
         const graphic = new Graphic({ geometry: item.geometry, symbol: item.symbol, attributes: { id: item.place.id } });
         layers[item.place.role].add(graphic);
         graphics.set(item.place.id, graphic);
+        if (item.place.label) layers[item.place.role].add(new Graphic({ geometry: item.geometry,
+          symbol: { type: 'text', text: String(item.place.label), color: '#fff8e8',
+            font: { family: 'Arial', size: 8, weight: 'bold' }, verticalAlignment: 'middle' },
+          attributes: { id: item.place.id } }));
       }
       const map = new Map({ basemap: null, layers: [background, layers.action, layers.mentioned] });
       view = new MapView({ container, map, extent, spatialReference: { wkid: 3857 },
@@ -66,14 +73,18 @@
         async select(id) {
           const graphic = graphics.get(id);
           if (!graphic || !layers[places.find(p => p.id === id).role].visible) return false;
+          if (selectedId) graphics.get(selectedId).symbol = positions.find(p => p.place.id === selectedId).symbol;
+          const baseSymbol = positions.find(p => p.place.id === id).symbol;
+          graphic.symbol = { ...baseSymbol, outline: { color: '#f0c965', width: 3 } };
+          selectedId = id;
           await view.goTo({ center: graphic.geometry }, { animate: false });
           return true;
         },
         reset() { return view.goTo(extent, { animate: false }); },
         zoom(factor) { if (!Number.isFinite(factor) || factor <= 0) throw new RangeError('Invalid zoom factor.'); return view.goTo(view.extent.clone().expand(factor), { animate: false }); },
-        destroy() { if (disposed) return; disposed = true; clickHandle?.remove(); view.destroy(); URL.revokeObjectURL(imageURL); }
+        destroy() { if (disposed) return; disposed = true; clickHandle?.remove(); view.destroy(); releaseImage(); }
       };
-    } catch (error) { disposed = true; clickHandle?.remove(); view?.destroy(); URL.revokeObjectURL(imageURL); throw error; }
+    } catch (error) { disposed = true; clickHandle?.remove(); view?.destroy(); releaseImage(); throw error; }
   }
   const MapConstructor = globalThis.Map;
   return { create, point, symbol, colors };
