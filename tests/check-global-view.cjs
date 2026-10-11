@@ -35,6 +35,33 @@ for(const id of ['ulisse','proust','war-and-peace','moby-dick','gatsby','holden'
  const url=new URL(location.assigned);assert.equal(url.hash,'#'+data.book.hashPrefix+'-all');assert.equal(url.searchParams.get('place'),'1');assert.equal(url.searchParams.get('basemap'),'gray-vector');
  location.hash='#'+data.book.hashPrefix+'-'+data.chapters[0].id;events.hashchange();assert.equal(vm.runInContext('current',ctx),0);
  location.hash='#'+data.book.hashPrefix+'-all';events.hashchange();assert.equal(vm.runInContext('current',ctx),-1);
+ // Chapter navigation fits action only; explicit Fit View includes both collections.
+ const allPlaces={...data.citedPlaces,...data.places};
+ function checkTarget(ids,fallback){
+  const points=ids.map(id=>allPlaces[id]),target=vm.runInContext('targets.at(-1)',ctx);
+  if(!points.length){assert.equal(JSON.stringify(target),JSON.stringify(fallback));return;}
+  if(points.length===1){assert.deepEqual(Array.from(target.center),[points[0].coords[1],points[0].coords[0]]);assert.equal(target.zoom,points[0].zoom);return;}
+  const xs=points.map(p=>p.coords[1]),ys=points.map(p=>p.coords[0]);
+  const xlo=Math.min(...xs),xhi=Math.max(...xs),ylo=Math.min(...ys),yhi=Math.max(...ys),mx=Math.max(.002,(xhi-xlo)*.18),my=Math.max(.002,(yhi-ylo)*.18);
+  assert.equal(target.xmin,Math.max(-180,xlo-mx));assert.equal(target.xmax,Math.min(180,xhi+mx));assert.equal(target.ymin,Math.max(-85,ylo-my));assert.equal(target.ymax,Math.min(85,yhi+my));
+ }
+ const candidates=data.chapters.map((chapter,index)=>({chapter,index})).filter(({chapter})=>chapter.places.some(id=>chapter.placeCategories?.[id]==='mentioned')||chapter.citations?.length);
+ for(const {chapter,index}of candidates.slice(0,2)){
+  vm.runInContext(`selectChapter(${index},true,false)`,ctx);
+  const ids=chapter.overviewPlaces??chapter.places;
+  checkTarget(ids.filter(id=>chapter.placeCategories?.[id]!=='mentioned'),chapter.initialView||data.book.initialView);
+  elements.overview.events.click();checkTarget([...chapter.places,...(chapter.citations||[]).map(r=>r.placeId)]);
+ }
+ if(id==='holden'){
+  vm.runInContext('selectChapter(16,true,false)',ctx);
+  checkTarget(['biltmore','rink']);
+  elements.overview.events.click();checkTarget(data.chapters[16].places);
+  vm.runInContext("setLayerVisibility('mentioned',false)",ctx);elements.overview.events.click();checkTarget(['biltmore','rink']);
+  vm.runInContext("setLayerVisibility('mentioned',true);selectChapter(0,true,false)",ctx);checkTarget([],data.book.initialView);
+  vm.runInContext("chapters[16].overviewPlaces=['biltmore'];selectChapter(16,true,false)",ctx);checkTarget(['biltmore']);
+  elements.overview.events.click();checkTarget(data.chapters[16].places);
+  vm.runInContext('delete chapters[16].overviewPlaces',ctx);
+ }
  if(id==='holden')for(let index=0;index<data.chapters.length;index++){
   vm.runInContext(`selectChapter(${index},false)`,ctx);
   assert.equal(vm.runInContext('graphics.length',ctx),data.chapters[index].places.length*2);

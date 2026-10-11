@@ -1,6 +1,30 @@
 // Apply the presentation and dedicated stylesheet selected by editorial data.
 (function(root){
- root.atlasPresentation={apply(book){
+ let watchedTitle;
+ function fitTitle(){
+  const title=root.document.getElementById('title');
+  if(!title||!title.textContent||!title.clientWidth)return;
+  title.style.removeProperty('font-size');
+  let size=parseFloat(root.getComputedStyle(title).fontSize);
+  // Measure the rendered font, including each book's spacing and capitalization.
+  for(let attempt=0;attempt<4&&title.scrollWidth>title.clientWidth;attempt++){
+   size*=title.clientWidth/title.scrollWidth*.99;
+   title.style.fontSize=size+'px';
+  }
+  if(watchedTitle!==title){
+   watchedTitle=title;
+   root.addEventListener('resize',fitTitle);
+   root.document.fonts?.ready.then(fitTitle);
+   if(root.ResizeObserver){
+    let width=title.parentElement.clientWidth;
+    new root.ResizeObserver(()=>{
+     const next=title.parentElement.clientWidth;
+     if(next!==width){width=next;fitTitle();}
+    }).observe(title.parentElement);
+   }
+  }
+ }
+ root.atlasPresentation={fitTitle,apply(book){
   if(!book)return;
   const page=root.document.documentElement;
   page.setAttribute('data-book',book.id);

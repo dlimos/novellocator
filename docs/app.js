@@ -57,18 +57,19 @@ async function toggleMapFullscreen(){
   }
  }finally{fullscreenBusy=false;syncFullscreen();}
 }
-function showMapPopup(focus=false,recenter=true){
+function showMapPopup(focus=false,recenter=true,reference=null){
  if(!mapIsFullscreen())return;
  const citation=activeCitations()[selectedCitation],id=citation?.placeId||activeChapter().places[selectedPlace],place=allLiteraryPlaces[id];
  if(!place){closeMapPopup();return;}
  const popup=document.getElementById('map-place-popup'),content=document.getElementById('map-popup-content');
  document.getElementById('map-popup-title').textContent=place.name;
- const source=document.getElementById('selected-location');content.innerHTML=source.innerHTML;
- // The same record is shown in the popup; IDs remain unique in the page.
+ if(reference){
+  const chapter=chapters[reference.chapterIndex],placeIndex=chapter.places.indexOf(reference.placeId),citation=(chapter.citations||[]).find(item=>item.placeId===reference.placeId);
+  renderLocation({chapter,placeIndex,citation:placeIndex>=0?null:citation,target:content,referencePlaceId:reference.placeId});
+ }else renderLocation({target:content});
+ // Popup references render their own chapter context without changing map selection.
  content.querySelectorAll?.('[id]').forEach(node=>node.removeAttribute('id'));
  const streetView=content.querySelector?.('.street-view-link');if(streetView)streetView.onclick=openStreetView;
- const referenceButtons=source.querySelectorAll?.('.section-link')||[];
- content.querySelectorAll?.('.section-link').forEach((button,index)=>{button.onclick=()=>{referenceButtons[index]?.click();showMapPopup(true);};});
  popup.hidden=false;
  updatePopupPadding(recenter);
  if(focus)document.getElementById('map-popup-close').focus?.();
@@ -108,8 +109,9 @@ function openStreetView(event){
   event.preventDefault();
  }catch{if(popup)try{popup.close()}catch{}}
 }
-document.getElementById('title').innerHTML=esc(book.title)+'<span class="title-dot">.</span>';
+document.getElementById('title').textContent=book.title.replace(/\.\s*$/,'');
 document.getElementById('title').className=book.titleSize==='long'?'long-book-title':'';
+window.atlasPresentation?.fitTitle?.();
 document.getElementById('book-author').textContent=book.author.toUpperCase()+' · '+book.year;
 document.querySelector('meta[name="description"]').content=book.description;
 document.getElementById('chapter-list-title').textContent=book.sidebarTitle||'Capitoli';
@@ -211,27 +213,29 @@ function renderDetail(){
   document.getElementById('selected-location').parentElement.appendChild(section);
  }
 }
-function renderLocation(){
- const chapter=activeChapter(),citation=activeCitations()[selectedCitation],id=citation?.placeId||chapter.places[selectedPlace],place=allLiteraryPlaces[id],category=citation?'mentioned':placeCategory(id);
- if(!place){document.getElementById('selected-location').innerHTML='<p class="episode-note">'+esc(chapter.emptyMessage||chapter.text)+'</p>'+renderExcerpts(chapter.excerpts||chapter.excerpt,'Passage from the novel');return;}
+function renderLocation(options={}){
+ const target=options.target||document.getElementById('selected-location'),isPopup=target===document.getElementById('map-popup-content');
+ const chapter=options.chapter||activeChapter(),placeIndex=options.placeIndex??selectedPlace,citation=options.chapter?options.citation:activeCitations()[selectedCitation],id=options.referencePlaceId||citation?.placeId||chapter.places[placeIndex],place=allLiteraryPlaces[id],category=citation?'mentioned':options.chapter?(chapter.placeCategories?.[id]||'action'):placeCategory(id);
+ if(!place){target.innerHTML='<p class="episode-note">'+esc(chapter.emptyMessage||chapter.text)+'</p>'+renderExcerpts(chapter.excerpts||chapter.excerpt,'Passage from the novel');return;}
  const narrativeSource=citation?{label:citation.excerpt.original.attribution,url:citation.excerpt.original.url}:chapter.placeSources?.[id]||place.narrativeSource;
- Array.from(document.getElementById('episode-locations').children).forEach((button,i)=>button.setAttribute('aria-pressed',String(i===selectedPlace&&selectedCitation<0)));
- Array.from(document.getElementById('citation-locations')?.children||[]).forEach((button,i)=>button.setAttribute('aria-pressed',String(i===selectedCitation)));
+ if(!isPopup)Array.from(document.getElementById('episode-locations').children).forEach((button,i)=>button.setAttribute('aria-pressed',String(i===selectedPlace&&selectedCitation<0)));
+ if(!isPopup)Array.from(document.getElementById('citation-locations')?.children||[]).forEach((button,i)=>button.setAttribute('aria-pressed',String(i===selectedCitation)));
  const decimals=Number.isInteger(place.coordinateDecimals)&&place.coordinateDecimals>=0&&place.coordinateDecimals<=8?place.coordinateDecimals:place.positionSource.recordId||place.positionSource.councilRecord?6:4;
  const coordinateText=isIllustrated&&!place.geographic?'':place.coords.map(n=>n.toFixed(decimals)).join(', ');
  if(isIllustrated){
-  document.getElementById('selected-location').innerHTML=`<p class="category-badge category-${category}">${esc(t(category==='action'?'Action locations':'Mentioned locations'))}</p><p class="location-scene">${esc(chapter.placeText[selectedPlace])}</p><p class="today">${esc(place.note)}</p><details class="location-evidence"><summary>${t('Posizione e fonti')}</summary><p>${esc(place.method)}</p><p>${esc(narrativeSource?.label||'')}</p>${place.geographic?`<p class="coordinates">WGS84 · ${coordinateText}</p><a href="${esc(place.positionSource.url)}" target="_blank" rel="noopener noreferrer">${esc(place.positionSource.label)}</a>`:''}</details>`;
+  target.innerHTML=`<p class="category-badge category-${category}">${esc(t(category==='action'?'Action locations':'Mentioned locations'))}</p><p class="location-scene">${esc(chapter.placeText[placeIndex])}</p><p class="today">${esc(place.note)}</p><details class="location-evidence"><summary>${t('Posizione e fonti')}</summary><p>${esc(place.method)}</p><p>${esc(narrativeSource?.label||'')}</p>${place.geographic?`<p class="coordinates">WGS84 · ${coordinateText}</p><a href="${esc(place.positionSource.url)}" target="_blank" rel="noopener noreferrer">${esc(place.positionSource.label)}</a>`:''}</details>`;
  }else{
- document.getElementById('selected-location').innerHTML=`<p class="category-badge category-${category}">${esc(t(category==='action'?'Action locations':'Mentioned locations'))}</p><p class="location-address">${esc(place.area)}</p><p class="location-scene">${esc(citation?t('A geographical reference in the original text. Read the passage for its context.'):chapter.placeText[selectedPlace])}</p><p class="today"><strong>${esc(place.status)}.</strong> ${esc(place.note)}</p><details class="location-evidence"><summary>${t('Posizione e fonti')}</summary><p>${esc(place.method)}</p><p class="coordinates">WGS84 · ${coordinateText}<br>${t('Verifica delle fonti')}: ${esc(new Date(place.checked+"T12:00:00").toLocaleDateString(locale,{day:"numeric",month:"long",year:"numeric"}))}</p><a href="${esc(narrativeSource.url)}" target="_blank" rel="noopener noreferrer">${esc(narrativeSource.label)}</a><br><a href="${esc(place.positionSource.url)}" target="_blank" rel="noopener noreferrer">${esc(place.positionSource.label)}</a>${place.additionalSource?`<br><a href="${esc(place.additionalSource.url)}" target="_blank" rel="noopener noreferrer">${esc(place.additionalSource.label)}</a>`:''}</details>`;
- document.getElementById('selected-location').innerHTML+=`<div class="street-view-action"><a class="street-view-link" id="street-view-link" href="${esc(streetViewUrl(place))}" target="_blank" rel="noopener noreferrer" aria-label="${esc(t('Apri Street View in una nuova finestra')+': '+place.name)}">Google Street View <span aria-hidden="true">↗</span></a><p class="street-view-note">${esc(t('Google mostra il panorama disponibile più vicino: può essere spostato rispetto al punto e dipende dalla copertura.'))}</p></div>`;
+ target.innerHTML=`<p class="category-badge category-${category}">${esc(t(category==='action'?'Action locations':'Mentioned locations'))}</p><p class="location-address">${esc(place.area)}</p><p class="location-scene">${esc(citation?t('A geographical reference in the original text. Read the passage for its context.'):chapter.placeText[placeIndex])}</p><p class="today"><strong>${esc(place.status)}.</strong> ${esc(place.note)}</p><details class="location-evidence"><summary>${t('Posizione e fonti')}</summary><p>${esc(place.method)}</p><p class="coordinates">WGS84 · ${coordinateText}<br>${t('Verifica delle fonti')}: ${esc(new Date(place.checked+"T12:00:00").toLocaleDateString(locale,{day:"numeric",month:"long",year:"numeric"}))}</p><a href="${esc(narrativeSource.url)}" target="_blank" rel="noopener noreferrer">${esc(narrativeSource.label)}</a><br><a href="${esc(place.positionSource.url)}" target="_blank" rel="noopener noreferrer">${esc(place.positionSource.label)}</a>${place.additionalSource?`<br><a href="${esc(place.additionalSource.url)}" target="_blank" rel="noopener noreferrer">${esc(place.additionalSource.label)}</a>`:''}</details>`;
+ target.innerHTML+=`<div class="street-view-action"><a class="street-view-link" id="street-view-link" href="${esc(streetViewUrl(place))}" target="_blank" rel="noopener noreferrer" aria-label="${esc(t('Apri Street View in una nuova finestra')+': '+place.name)}">Google Street View <span aria-hidden="true">↗</span></a><p class="street-view-note">${esc(t('Google mostra il panorama disponibile più vicino: può essere spostato rispetto al punto e dipende dalla copertura.'))}</p></div>`;
  }
+ if(isPopup&&options.chapter)target.innerHTML=`<p class="detail-eyebrow">${esc(number(chapter.id)+' · '+chapter.title)}</p>`+target.innerHTML;
  const quote=!citation&&chapter.placeQuotes?.[id];
- if(quote){const evidence=document.createElement('div');evidence.className='original-excerpt';evidence.innerHTML=`<p><strong>${esc(t('Original text (English)'))}</strong></p><blockquote lang="en">${esc(quote)}</blockquote>`;document.getElementById('selected-location').appendChild(evidence);}
+ if(quote){const evidence=document.createElement('div');evidence.className='original-excerpt';evidence.innerHTML=`<p><strong>${esc(t('Original text (English)'))}</strong></p><blockquote lang="en">${esc(quote)}</blockquote>`;target.appendChild(evidence);}
  const excerpt=citation?.excerpt||chapter.placeExcerpts?.[id];
- if(excerpt){const evidence=document.createElement('div');evidence.innerHTML=renderExcerpts(excerpt,'Passage from the novel');document.getElementById('selected-location').appendChild(evidence);}
- if(current<0){const references=document.createElement('div');references.className='global-references';const heading=document.createElement('h3');heading.textContent=t('Appears in');references.appendChild(heading);chapters.forEach((section,index)=>{const placeIndex=section.places.indexOf(id),citationIndex=(section.citations||[]).findIndex(reference=>reference.placeId===id);if(placeIndex<0&&citationIndex<0)return;const button=document.createElement('button');button.type='button';button.className='section-link';button.textContent=number(section.id)+' · '+section.title+' · '+t(placeIndex>=0&&section.placeCategories?.[id]!=='mentioned'?'Action locations':'Mentioned locations');button.addEventListener('click',()=>{selectChapter(index,false);if(placeIndex>=0)selectPlace(placeIndex);else selectCitation(citationIndex)});references.appendChild(button)});document.getElementById('selected-location').appendChild(references);}
- if(!isIllustrated)document.getElementById('street-view-link').onclick=openStreetView;
- if(!document.getElementById('map-place-popup').hidden)showMapPopup();
+ if(excerpt){const evidence=document.createElement('div');evidence.innerHTML=renderExcerpts(excerpt,'Passage from the novel');target.appendChild(evidence);}
+ if(current<0||isPopup){const references=document.createElement('div');references.className='global-references';const heading=document.createElement('h3');heading.textContent=t('Appears in');references.appendChild(heading);chapters.forEach((section,index)=>{const placeIndex=section.places.indexOf(id),citationIndex=(section.citations||[]).findIndex(reference=>reference.placeId===id);if(placeIndex<0&&citationIndex<0)return;const button=document.createElement('button');button.type='button';button.className='section-link';button.textContent=number(section.id)+' · '+section.title+' · '+t(placeIndex>=0&&section.placeCategories?.[id]!=='mentioned'?'Action locations':'Mentioned locations');button.addEventListener('click',()=>{if(isPopup){showMapPopup(true,false,{chapterIndex:index,placeId:id});return;}selectChapter(index,false);if(placeIndex>=0)selectPlace(placeIndex);else selectCitation(citationIndex)});references.appendChild(button)});target.appendChild(references);}
+ if(!isIllustrated){const link=isPopup?target.querySelector?.('.street-view-link'):document.getElementById('street-view-link');if(link)link.onclick=openStreetView;}
+ if(!isPopup&&!document.getElementById('map-place-popup').hidden)showMapPopup();
 }
 function centerSelectedPlace(zoomToPlace=true){
  if(isIllustrated){const id=activeCitations()[selectedCitation]?.placeId||activeChapter().places[selectedPlace];return illustratedMap?.focus(id);}

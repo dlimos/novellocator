@@ -36,6 +36,16 @@ Per aggiungere un romanzo, creare `data/<identificativo>.js` con `window.atlasDa
 
 Gli sfondi vettoriali sono quelli documentati da Esri: https://developers.arcgis.com/javascript/latest/references/core/Map/ . Il cambio di sfondo mantiene capitolo, luogo e inquadratura; in caso di errore conserva lo sfondo precedente. Le attribuzioni includono i fornitori dei livelli di base e di riferimento.
 
+## Regole generali per aggiungere un libro
+
+- **Testo completo:** per ogni opera cercare il testo integrale nella lingua originale, verificandone fonte, edizione e completezza di volumi, capitoli, prologhi ed epiloghi. Analizzarlo interamente, sezione per sezione, per individuare ambientazioni dell'azione, menzioni geografiche, ricordi, viaggi e luoghi immaginari o non localizzabili. Registrare le sezioni analizzate e i risultati, anche quando non emergono location. Estratti, riassunti e indici esistenti non sostituiscono questa analisi. Se manca il testo integrale, dichiarare la lacuna e mantenere il lavoro pendente.
+- **Ricerca specialistica:** per ogni opera cercare su Internet siti specialistici, edizioni critiche, studi accademici, atlanti letterari e risorse di istituzioni dedicate all'autore o al libro. Confrontarli con il testo per verificare identificazioni, varianti dei nomi, modelli reali e contesto storico. Conservare URL e riferimenti nelle fonti delle location, distinguendo evidenza testuale, interpretazione critica e fonte geografica. Le location suggerite da queste risorse devono essere verificate nell'originale; dubbi e divergenze vanno documentati.
+- **Anteprime:** usare riproduzioni di quadri esistenti collegati al libro per ambientazione, periodo, temi o riferimenti espliciti. Documentare il motivo della scelta in `images/CREDITS.md`, con titolo, artista, data, fonte e condizioni di riutilizzo. Le anteprime dei nuovi libri non devono essere fotografie o immagini generate. Impostare immagine, testo alternativo e crediti nei metadati di `content/books.js`.
+- **Citazioni delle location:** ogni luogo dell'azione, luogo menzionato e ambientazione senza coordinate deve avere un passo autentico nella lingua originale del libro. Ogni associazione fra capitolo e luogo deve essere sostenuta da una citazione pertinente, con capitolo/sezione e fonte o edizione. Traduzioni e parafrasi possono affiancare l'originale, senza sostituirlo.
+- **Completezza:** non inventare passi né dichiarare conclusa l'aggiunta se mancano citazioni. Registrare le evidenze mancanti come pendenti fino alla verifica del testo originale.
+
+Queste regole valgono per tutti i nuovi libri e sono riportate anche in `../AGENTS.md` per chi lavora sul progetto.
+
 ## Lingue
 
 L’inglese è la lingua del dataset principale e del primo accesso. Il selettore memorizza la scelta quando il browser lo consente; `?lang=it`, `?lang=fr` e `?lang=es` consentono collegamenti in una lingua specifica. Il cambio conserva episodio, punto e basemap. Sono tradotti catalogo, interfaccia, riassunti, scene, schede, metodi e note sulle fonti. Gli indirizzi e i nomi propri locali sono mantenuti. Le etichette della cartografia provengono dal servizio Esri e non vengono tradotte dal sito. Ogni lingua ha il proprio catalogo CSV (`places-en.csv`, `places-it.csv`, `places-fr.csv`, `places-es.csv`).
