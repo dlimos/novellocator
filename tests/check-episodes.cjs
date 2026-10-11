@@ -17,7 +17,7 @@ for(let i=0;i<18;i++){
 }
 vm.runInContext('selectChapter(9);selectPlace(chapters[9].places.indexOf("merchants"))',sandbox);assert.match(elements['selected-location'].innerHTML,/Temple Bar/);assert.match(elements['selected-location'].innerHTML,/NIAH/);
 vm.runInContext('selectChapter(17);',sandbox);assert.match(elements.detail.innerHTML,/id="next"[^>]*disabled/);
-const html=fs.readFileSync('docs/atlas.html','utf8');assert.ok(html.includes('src="load-book.js"'));assert.ok(html.includes('id="basemap-select"'));assert.doesNotMatch(source+html,/components:\['attribution'\]/);
+const html=fs.readFileSync('docs/atlas.html','utf8');assert.match(html,/src="load-book\.js(?:\?[^" ]*)?"/);assert.ok(html.includes('id="basemap-select"'));assert.doesNotMatch(source+html,/components:\['attribution'\]/);
 const all=vm.runInContext('literaryPlaces',sandbox),records=require('./fixtures/niah-dublin.json');
 assert.equal(Object.keys(all).length,115);
 for(const [id,p] of Object.entries(all)){
