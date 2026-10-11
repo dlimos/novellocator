@@ -1,0 +1,1017 @@
+{
+  "book": "crime-and-punishment",
+  "status": "prepared-local",
+  "structure": {
+    "parts": [
+      7,
+      7,
+      6,
+      6,
+      5,
+      8
+    ],
+    "epilogueChapters": 2,
+    "prologue": false,
+    "sections": 41,
+    "characters": 1074256
+  },
+  "edition": {
+    "quoted": "Russian Wikisource transcription from Lib.ru (print edition not identified); structure checked against F. M. Dostoevsky, Polnoe sobranie sochinenii v 30 tomakh, vol. 6, Nauka, Leningrad, 1973, pp. 5–422",
+    "comparison": "https://imwerden.de/pdf/dostoevsky_pss_tom06_1973_text.pdf",
+    "transcriptionPrintEdition": "unidentified; do not label quotations as the 1973 edition"
+  },
+  "sections": [
+    {
+      "id": 1,
+      "section": "Часть I/Глава I",
+      "source": "https://ru.wikisource.org/wiki/%D0%9F%D1%80%D0%B5%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B8_%D0%BD%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5_(%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9)/%D0%A7%D0%B0%D1%81%D1%82%D1%8C_I/%D0%93%D0%BB%D0%B0%D0%B2%D0%B0_I",
+      "sha256": "ac06bcbe2d6d3ad385b45b02c85f30860c7d2eb9bce54ee88b64687214bd4332",
+      "characters": 16453,
+      "paragraphs": 48,
+      "method": "Every paragraph scanned for geographical names, abbreviations and setting vocabulary; named-location contexts and scene associations reviewed section by section.",
+      "mappedAction": [
+        "stolyarny",
+        "kokushkin",
+        "canal"
+      ],
+      "mappedMentions": [
+        "petersburg",
+        "haymarket"
+      ],
+      "unlocated": [
+        "podacheskaya",
+        "zimmermann",
+        "garret",
+        "moneylender",
+        "first-tavern"
+      ],
+      "withoutLocations": false,
+      "summary": "A rehearsal visit to the moneylender and the first tavern."
+    },
+    {
+      "id": 2,
+      "section": "Часть I/Глава II",
+      "source": "https://ru.wikisource.org/wiki/%D0%9F%D1%80%D0%B5%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B8_%D0%BD%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5_(%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9)/%D0%A7%D0%B0%D1%81%D1%82%D1%8C_I/%D0%93%D0%BB%D0%B0%D0%B2%D0%B0_II",
+      "sha256": "cfb078a99acda87fb7d4143f7d920ea402990c79f18b34f78a8d06f3d25df19a",
+      "characters": 35023,
+      "paragraphs": 57,
+      "method": "Every paragraph scanned for geographical names, abbreviations and setting vocabulary; named-location contexts and scene associations reviewed section by section.",
+      "mappedAction": [
+        "neva"
+      ],
+      "mappedMentions": [
+        "petersburg",
+        "haymarket",
+        "egyptian-bridge"
+      ],
+      "unlocated": [
+        "marmeladov",
+        "first-tavern",
+        "egypt-tavern",
+        "sonya"
+      ],
+      "withoutLocations": false,
+      "summary": "Marmeladov tells his story; Raskolnikov accompanies him home."
+    },
+    {
+      "id": 3,
+      "section": "Часть I/Глава III",
+      "source": "https://ru.wikisource.org/wiki/%D0%9F%D1%80%D0%B5%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B8_%D0%BD%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5_(%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9)/%D0%A7%D0%B0%D1%81%D1%82%D1%8C_I/%D0%93%D0%BB%D0%B0%D0%B2%D0%B0_III",
+      "sha256": "48a1f94c262224b7faea22e1e5610b0a22516ddc7dfe17cead6c30b4f18910f1",
+      "characters": 27278,
+      "paragraphs": 43,
+      "method": "Every paragraph scanned for geographical names, abbreviations and setting vocabulary; named-location contexts and scene associations reviewed section by section.",
+      "mappedAction": [
+        "voznesensky"
+      ],
+      "mappedMentions": [
+        "petersburg",
+        "vasily"
+      ],
+      "unlocated": [
+        "r-province",
+        "garret",
+        "family-province",
+        "estate"
+      ],
+      "withoutLocations": false,
+      "summary": "The mother’s letter recounts Dunya’s provincial ordeal and plans a journey."
+    },
+    {
+      "id": 4,
+      "section": "Часть I/Глава IV",
+      "source": "https://ru.wikisource.org/wiki/%D0%9F%D1%80%D0%B5%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B8_%D0%BD%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5_(%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9)/%D0%A7%D0%B0%D1%81%D1%82%D1%8C_I/%D0%93%D0%BB%D0%B0%D0%B2%D0%B0_IV",
+      "sha256": "9c976f42bdee3e78394683721fcd90a5dfb81d00888bc3bc17896d66822a1e88",
+      "characters": 25207,
+      "paragraphs": 46,
+      "method": "Every paragraph scanned for geographical names, abbreviations and setting vocabulary; named-location contexts and scene associations reviewed section by section.",
+      "mappedAction": [
+        "horseguards"
+      ],
+      "mappedMentions": [
+        "petersburg",
+        "vasily",
+        "tolkuchy",
+        "schleswig"
+      ],
+      "unlocated": [
+        "golgotha"
+      ],
+      "withoutLocations": false,
+      "summary": "A distressed walk and the encounter with a vulnerable girl on the boulevard."
+    },
+    {
+      "id": 5,
+      "section": "Часть I/Глава V",
+      "source": "https://ru.wikisource.org/wiki/%D0%9F%D1%80%D0%B5%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B8_%D0%BD%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5_(%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9)/%D0%A7%D0%B0%D1%81%D1%82%D1%8C_I/%D0%93%D0%BB%D0%B0%D0%B2%D0%B0_V",
+      "sha256": "b750bd9f5d9bebfef2f5205ce589fd5e64030e736732bf45b2aead4c66b35179",
+      "characters": 20835,
+      "paragraphs": 77,
+      "method": "Every paragraph scanned for geographical names, abbreviations and setting vocabulary; named-location contexts and scene associations reviewed section by section.",
+      "mappedAction": [
+        "haymarket",
+        "neva",
+        "little-neva",
+        "vasily",
+        "petrovsky",
+        "tuchkov",
+        "konny"
+      ],
+      "mappedMentions": [],
+      "unlocated": [
+        "islands",
+        "childhood"
+      ],
+      "withoutLocations": false,
+      "summary": "Across the islands, the horse dream, and a decisive encounter at Haymarket."
+    },
+    {
+      "id": 6,
+      "section": "Часть I/Глава VI",
+      "source": "https://ru.wikisource.org/wiki/%D0%9F%D1%80%D0%B5%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B8_%D0%BD%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5_(%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9)/%D0%A7%D0%B0%D1%81%D1%82%D1%8C_I/%D0%93%D0%BB%D0%B0%D0%B2%D0%B0_VI",
+      "sha256": "7215db9748d5bbd8671d3aa310c014106b176e40f8eb7b367e468f6f1e038b03",
+      "characters": 25579,
+      "paragraphs": 62,
+      "method": "Every paragraph scanned for geographical names, abbreviations and setting vocabulary; named-location contexts and scene associations reviewed section by section.",
+      "mappedAction": [
+        "haymarket",
+        "yusupov"
+      ],
+      "mappedMentions": [
+        "summer",
+        "mars",
+        "mikhailovsky",
+        "kharkiv",
+        "egypt",
+        "africa"
+      ],
+      "unlocated": [
+        "n-province",
+        "garret",
+        "moneylender",
+        "oasis",
+        "overheard-tavern",
+        "porter",
+        "painters"
+      ],
+      "withoutLocations": false,
+      "summary": "An overheard argument, an Egyptian dream and preparations for the murder."
+    },
+    {
+      "id": 7,
+      "section": "Часть I/Глава VII",
+      "source": "https://ru.wikisource.org/wiki/%D0%9F%D1%80%D0%B5%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B8_%D0%BD%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5_(%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9)/%D0%A7%D0%B0%D1%81%D1%82%D1%8C_I/%D0%93%D0%BB%D0%B0%D0%B2%D0%B0_VII",
+      "sha256": "e57de68e09c6b2e717fd7e87d943dd062401f9efde24b7c3f996bc4c8808d591",
+      "characters": 23044,
+      "paragraphs": 87,
+      "method": "Every paragraph scanned for geographical names, abbreviations and setting vocabulary; named-location contexts and scene associations reviewed section by section.",
+      "mappedAction": [
+        "canal"
+      ],
+      "mappedMentions": [
+        "vilnius"
+      ],
+      "unlocated": [
+        "gambrinus",
+        "garret",
+        "moneylender",
+        "porter",
+        "painters"
+      ],
+      "withoutLocations": false,
+      "summary": "The murders and the escape through the house and canal streets."
+    },
+    {
+      "id": 8,
+      "section": "Часть II/Глава I",
+      "source": "https://ru.wikisource.org/wiki/%D0%9F%D1%80%D0%B5%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B8_%D0%BD%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5_(%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9)/%D0%A7%D0%B0%D1%81%D1%82%D1%8C_II/%D0%93%D0%BB%D0%B0%D0%B2%D0%B0_I",
+      "sha256": "aa0cb5e0da6601d1b143e25c0b1ef88d5fe193b85d4849a6ec47dce652c56ed7",
+      "characters": 34441,
+      "paragraphs": 138,
+      "method": "Every paragraph scanned for geographical names, abbreviations and setting vocabulary; named-location contexts and scene associations reviewed section by section.",
+      "mappedAction": [],
+      "mappedMentions": [
+        "haymarket"
+      ],
+      "unlocated": [
+        "garret",
+        "family-province",
+        "police",
+        "minor-taverns"
+      ],
+      "withoutLocations": false,
+      "summary": "After the crime, a summons takes Raskolnikov to the police office."
+    },
+    {
+      "id": 9,
+      "section": "Часть II/Глава II",
+      "source": "https://ru.wikisource.org/wiki/%D0%9F%D1%80%D0%B5%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B8_%D0%BD%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5_(%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9)/%D0%A7%D0%B0%D1%81%D1%82%D1%8C_II/%D0%93%D0%BB%D0%B0%D0%B2%D0%B0_II",
+      "sha256": "07d846a860c586252df63005b5ee926a7fe7a06a4c48f6e63180d8c48eaa12fe",
+      "characters": 21756,
+      "paragraphs": 66,
+      "method": "Every paragraph scanned for geographical names, abbreviations and setting vocabulary; named-location contexts and scene associations reviewed section by section.",
+      "mappedAction": [
+        "canal",
+        "neva",
+        "little-neva",
+        "vasily",
+        "voznesensky",
+        "horseguards",
+        "nikolaevsky"
+      ],
+      "mappedMentions": [
+        "haymarket",
+        "tolkuchy"
+      ],
+      "unlocated": [
+        "islands",
+        "garret",
+        "loot-yard",
+        "razumikhin"
+      ],
+      "withoutLocations": false,
+      "summary": "The loot is hidden; Razumikhin is visited; the bridge returns him to the city."
+    },
+    {
+      "id": 10,
+      "section": "Часть II/Глава III",
+      "source": "https://ru.wikisource.org/wiki/%D0%9F%D1%80%D0%B5%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B8_%D0%BD%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5_(%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9)/%D0%A7%D0%B0%D1%81%D1%82%D1%8C_II/%D0%93%D0%BB%D0%B0%D0%B2%D0%B0_III",
+      "sha256": "60dc71230c2feb654b00afe04383f60a9cd5336fa6522d2573b62b770e1b06f2",
+      "characters": 27249,
+      "paragraphs": 122,
+      "method": "Every paragraph scanned for geographical names, abbreviations and setting vocabulary; named-location contexts and scene associations reviewed section by section.",
+      "mappedAction": [
+        "tolkuchy"
+      ],
+      "mappedMentions": [
+        "krestovsky",
+        "five-corners"
+      ],
+      "unlocated": [
+        "america",
+        "us",
+        "garret"
+      ],
+      "withoutLocations": false,
+      "summary": "Razumikhin brings help, clothes and news during the illness."
+    },
+    {
+      "id": 11,
+      "section": "Часть II/Глава IV",
+      "source": "https://ru.wikisource.org/wiki/%D0%9F%D1%80%D0%B5%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B8_%D0%BD%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5_(%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9)/%D0%A7%D0%B0%D1%81%D1%82%D1%8C_II/%D0%93%D0%BB%D0%B0%D0%B2%D0%B0_IV",
+      "sha256": "ba434cb97e649c5aa43d87be664b8dd635ea653cbd13018775e3ebcf38c20f8a",
+      "characters": 21163,
+      "paragraphs": 78,
+      "method": "Every paragraph scanned for geographical names, abbreviations and setting vocabulary; named-location contexts and scene associations reviewed section by section.",
+      "mappedAction": [],
+      "mappedMentions": [
+        "petersburg",
+        "yusupov",
+        "zaraysk"
+      ],
+      "unlocated": [
+        "crystal",
+        "sands",
+        "garret",
+        "moneylender",
+        "painters",
+        "police",
+        "razumikhin",
+        "dushkin"
+      ],
+      "withoutLocations": false,
+      "summary": "Zosimov and Razumikhin discuss the murder and the painters."
+    },
+    {
+      "id": 12,
+      "section": "Часть II/Глава V",
+      "source": "https://ru.wikisource.org/wiki/%D0%9F%D1%80%D0%B5%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B8_%D0%BD%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5_(%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9)/%D0%A7%D0%B0%D1%81%D1%82%D1%8C_II/%D0%93%D0%BB%D0%B0%D0%B2%D0%B0_V",
+      "sha256": "144dddedebca8e1b93cbffd446239b362439fa35ff96945ac8ebbc84a310310a",
+      "characters": 22754,
+      "paragraphs": 115,
+      "method": "Every paragraph scanned for geographical names, abbreviations and setting vocabulary; named-location contexts and scene associations reviewed section by section.",
+      "mappedAction": [],
+      "mappedMentions": [
+        "petersburg",
+        "voznesensky",
+        "moscow"
+      ],
+      "unlocated": [
+        "garret",
+        "moneylender",
+        "bakaleyev",
+        "new-flat",
+        "lebezyatnikov"
+      ],
+      "withoutLocations": false,
+      "summary": "Luzhin visits; the family’s proposed lodging and social theories provoke conflict."
+    },
+    {
+      "id": 13,
+      "section": "Часть II/Глава VI",
+      "source": "https://ru.wikisource.org/wiki/%D0%9F%D1%80%D0%B5%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B8_%D0%BD%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5_(%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9)/%D0%A7%D0%B0%D1%81%D1%82%D1%8C_II/%D0%93%D0%BB%D0%B0%D0%B2%D0%B0_VI",
+      "sha256": "cbf950e5b48c5f0649f79e079a3a42c401d57e3000875cfad471512b98c1eb97",
+      "characters": 38763,
+      "paragraphs": 218,
+      "method": "Every paragraph scanned for geographical names, abbreviations and setting vocabulary; named-location contexts and scene associations reviewed section by section.",
+      "mappedAction": [
+        "haymarket",
+        "canal",
+        "sadovaya"
+      ],
+      "mappedMentions": [
+        "petersburg",
+        "petrograd",
+        "zaraysk",
+        "moscow"
+      ],
+      "unlocated": [
+        "crystal",
+        "izler",
+        "sands",
+        "garret",
+        "moneylender",
+        "police",
+        "canal-bridge"
+      ],
+      "withoutLocations": false,
+      "summary": "Haymarket, Zametov at the Crystal Palace, a canal rescue and the murder flat."
+    },
+    {
+      "id": 14,
+      "section": "Часть II/Глава VII",
+      "source": "https://ru.wikisource.org/wiki/%D0%9F%D1%80%D0%B5%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B8_%D0%BD%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5_(%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9)/%D0%A7%D0%B0%D1%81%D1%82%D1%8C_II/%D0%93%D0%BB%D0%B0%D0%B2%D0%B0_VII",
+      "sha256": "e509bd60b874abdf36a93eacc23932774fa5f5f41acc72ea9b692654552819b8",
+      "characters": 36480,
+      "paragraphs": 152,
+      "method": "Every paragraph scanned for geographical names, abbreviations and setting vocabulary; named-location contexts and scene associations reviewed section by section.",
+      "mappedAction": [],
+      "mappedMentions": [
+        "petersburg",
+        "haymarket"
+      ],
+      "unlocated": [
+        "crystal",
+        "garret",
+        "marmeladov",
+        "police",
+        "razumikhin",
+        "canal-bridge"
+      ],
+      "withoutLocations": false,
+      "summary": "Marmeladov’s fatal accident and the arrival of the mother and Dunya."
+    },
+    {
+      "id": 15,
+      "section": "Часть III/Глава I",
+      "source": "https://ru.wikisource.org/wiki/%D0%9F%D1%80%D0%B5%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B8_%D0%BD%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5_(%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9)/%D0%A7%D0%B0%D1%81%D1%82%D1%8C_III/%D0%93%D0%BB%D0%B0%D0%B2%D0%B0_I",
+      "sha256": "7b50f7672f75f81b56a8c94f6bc6a7fcca58afcc35e57c6881598166e4c26ca7",
+      "characters": 26910,
+      "paragraphs": 90,
+      "method": "Every paragraph scanned for geographical names, abbreviations and setting vocabulary; named-location contexts and scene associations reviewed section by section.",
+      "mappedAction": [],
+      "mappedMentions": [
+        "petersburg",
+        "canal"
+      ],
+      "unlocated": [
+        "garret",
+        "razumikhin",
+        "bakaleyev"
+      ],
+      "withoutLocations": false,
+      "summary": "Razumikhin cares for Raskolnikov and escorts the family to its lodging."
+    },
+    {
+      "id": 16,
+      "section": "Часть III/Глава II",
+      "source": "https://ru.wikisource.org/wiki/%D0%9F%D1%80%D0%B5%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B8_%D0%BD%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5_(%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9)/%D0%A7%D0%B0%D1%81%D1%82%D1%8C_III/%D0%93%D0%BB%D0%B0%D0%B2%D0%B0_II",
+      "sha256": "3c97067a407c50c0763db848efe83a59f1dd92c36db39632e5de968567de922e",
+      "characters": 23991,
+      "paragraphs": 84,
+      "method": "Every paragraph scanned for geographical names, abbreviations and setting vocabulary; named-location contexts and scene associations reviewed section by section.",
+      "mappedAction": [],
+      "mappedMentions": [],
+      "unlocated": [
+        "garret",
+        "police",
+        "bakaleyev"
+      ],
+      "withoutLocations": false,
+      "summary": "At Bakaleyev’s, Razumikhin reports and the family reads Luzhin’s letter."
+    },
+    {
+      "id": 17,
+      "section": "Часть III/Глава III",
+      "source": "https://ru.wikisource.org/wiki/%D0%9F%D1%80%D0%B5%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B8_%D0%BD%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5_(%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9)/%D0%A7%D0%B0%D1%81%D1%82%D1%8C_III/%D0%93%D0%BB%D0%B0%D0%B2%D0%B0_III",
+      "sha256": "e6bbe35e35bd95bf0901473c41cc134e071776460874c1eb16f819253ebb5375",
+      "characters": 26934,
+      "paragraphs": 139,
+      "method": "Every paragraph scanned for geographical names, abbreviations and setting vocabulary; named-location contexts and scene associations reviewed section by section.",
+      "mappedAction": [],
+      "mappedMentions": [
+        "petersburg",
+        "haymarket"
+      ],
+      "unlocated": [
+        "garret"
+      ],
+      "withoutLocations": false,
+      "summary": "The family reunites in Raskolnikov’s room and disputes Luzhin’s demands."
+    },
+    {
+      "id": 18,
+      "section": "Часть III/Глава IV",
+      "source": "https://ru.wikisource.org/wiki/%D0%9F%D1%80%D0%B5%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B8_%D0%BD%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5_(%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9)/%D0%A7%D0%B0%D1%81%D1%82%D1%8C_III/%D0%93%D0%BB%D0%B0%D0%B2%D0%B0_IV",
+      "sha256": "4a66e169b3219b8e119c07da6544cd7b361245b3b5b5af893c184b84505b9930",
+      "characters": 22782,
+      "paragraphs": 129,
+      "method": "Every paragraph scanned for geographical names, abbreviations and setting vocabulary; named-location contexts and scene associations reviewed section by section.",
+      "mappedAction": [
+        "canal"
+      ],
+      "mappedMentions": [
+        "petersburg",
+        "haymarket",
+        "mitrofan"
+      ],
+      "unlocated": [
+        "garret",
+        "sonya"
+      ],
+      "withoutLocations": false,
+      "summary": "Sonya brings a funeral invitation; the paths lead towards Porfiry."
+    },
+    {
+      "id": 19,
+      "section": "Часть III/Глава V",
+      "source": "https://ru.wikisource.org/wiki/%D0%9F%D1%80%D0%B5%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B8_%D0%BD%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5_(%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9)/%D0%A7%D0%B0%D1%81%D1%82%D1%8C_III/%D0%93%D0%BB%D0%B0%D0%B2%D0%B0_V",
+      "sha256": "16acaab06c4f2107ec1bf0de57bf31bd858e2469143ec5a0d83c070ddda3b07d",
+      "characters": 39373,
+      "paragraphs": 164,
+      "method": "Every paragraph scanned for geographical names, abbreviations and setting vocabulary; named-location contexts and scene associations reviewed section by section.",
+      "mappedAction": [],
+      "mappedMentions": [],
+      "unlocated": [
+        "new-jerusalem",
+        "moneylender",
+        "porfiry"
+      ],
+      "withoutLocations": false,
+      "summary": "The first conversation with Porfiry tests the theory of extraordinary people."
+    },
+    {
+      "id": 20,
+      "section": "Часть III/Глава VI",
+      "source": "https://ru.wikisource.org/wiki/%D0%9F%D1%80%D0%B5%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B8_%D0%BD%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5_(%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9)/%D0%A7%D0%B0%D1%81%D1%82%D1%8C_III/%D0%93%D0%BB%D0%B0%D0%B2%D0%B0_VI",
+      "sha256": "fae6d67463a06e3e1e8b8733b3fa77a11a60ec5ebd9d7b0cd538d2666c0c826d",
+      "characters": 22308,
+      "paragraphs": 70,
+      "method": "Every paragraph scanned for geographical names, abbreviations and setting vocabulary; named-location contexts and scene associations reviewed section by section.",
+      "mappedAction": [
+        "vilnius"
+      ],
+      "mappedMentions": [
+        "moscow",
+        "paris",
+        "toulon",
+        "waterloo",
+        "egypt"
+      ],
+      "unlocated": [
+        "garret",
+        "moneylender",
+        "bakaleyev",
+        "porfiry"
+      ],
+      "withoutLocations": false,
+      "summary": "A stranger’s accusation, Napoleonic reflections and the nightmare of the flat."
+    },
+    {
+      "id": 21,
+      "section": "Часть IV/Глава I",
+      "source": "https://ru.wikisource.org/wiki/%D0%9F%D1%80%D0%B5%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B8_%D0%BD%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5_(%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9)/%D0%A7%D0%B0%D1%81%D1%82%D1%8C_IV/%D0%93%D0%BB%D0%B0%D0%B2%D0%B0_I",
+      "sha256": "37efb6206581b37530119ff3de0e2bc64907cd15162c6819f0d2a5ca127ade1f",
+      "characters": 26059,
+      "paragraphs": 128,
+      "method": "Every paragraph scanned for geographical names, abbreviations and setting vocabulary; named-location contexts and scene associations reviewed section by section.",
+      "mappedAction": [
+        "moscow",
+        "naples-bay"
+      ],
+      "mappedMentions": [
+        "petersburg",
+        "haymarket",
+        "yusupov",
+        "switzerland"
+      ],
+      "unlocated": [
+        "america",
+        "dussot",
+        "garret",
+        "estate",
+        "vyazemsky"
+      ],
+      "withoutLocations": false,
+      "summary": "Svidrigailov appears with memories, apparitions and proposed escapes."
+    },
+    {
+      "id": 22,
+      "section": "Часть IV/Глава II",
+      "source": "https://ru.wikisource.org/wiki/%D0%9F%D1%80%D0%B5%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B8_%D0%BD%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5_(%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9)/%D0%A7%D0%B0%D1%81%D1%82%D1%8C_IV/%D0%93%D0%BB%D0%B0%D0%B2%D0%B0_II",
+      "sha256": "06712917bd6be38e2dc51ef545f23bf6faa4f0f4ed8db698a987b1d3cea90f61",
+      "characters": 24737,
+      "paragraphs": 111,
+      "method": "Every paragraph scanned for geographical names, abbreviations and setting vocabulary; named-location contexts and scene associations reviewed section by section.",
+      "mappedAction": [],
+      "mappedMentions": [
+        "petersburg",
+        "neva"
+      ],
+      "unlocated": [
+        "siberia",
+        "estate",
+        "bakaleyev"
+      ],
+      "withoutLocations": false,
+      "summary": "The evening confrontation at Bakaleyev’s breaks Dunya’s engagement."
+    },
+    {
+      "id": 23,
+      "section": "Часть IV/Глава III",
+      "source": "https://ru.wikisource.org/wiki/%D0%9F%D1%80%D0%B5%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B8_%D0%BD%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5_(%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9)/%D0%A7%D0%B0%D1%81%D1%82%D1%8C_IV/%D0%93%D0%BB%D0%B0%D0%B2%D0%B0_III",
+      "sha256": "b61a8fef149566c30bc90b10c03671672dfc49a68da8be37486313d321c1f616",
+      "characters": 16156,
+      "paragraphs": 64,
+      "method": "Every paragraph scanned for geographical names, abbreviations and setting vocabulary; named-location contexts and scene associations reviewed section by section.",
+      "mappedAction": [],
+      "mappedMentions": [
+        "petersburg"
+      ],
+      "unlocated": [
+        "bakaleyev"
+      ],
+      "withoutLocations": false,
+      "summary": "Luzhin’s defeat, a new apartment proposal and the separation from the family."
+    },
+    {
+      "id": 24,
+      "section": "Часть IV/Глава IV",
+      "source": "https://ru.wikisource.org/wiki/%D0%9F%D1%80%D0%B5%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B8_%D0%BD%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5_(%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9)/%D0%A7%D0%B0%D1%81%D1%82%D1%8C_IV/%D0%93%D0%BB%D0%B0%D0%B2%D0%B0_IV",
+      "sha256": "0a8dd6ee2dab01b5ba772fd1855c5ca3b3802a7390494cd38a7f3c22959fcb8c",
+      "characters": 31755,
+      "paragraphs": 185,
+      "method": "Every paragraph scanned for geographical names, abbreviations and setting vocabulary; named-location contexts and scene associations reviewed section by section.",
+      "mappedAction": [
+        "canal"
+      ],
+      "mappedMentions": [
+        "haymarket",
+        "neva",
+        "bethany"
+      ],
+      "unlocated": [
+        "sonya",
+        "svidrigailov"
+      ],
+      "withoutLocations": false,
+      "summary": "In Sonya’s irregular room, the reading of Lazarus is overheard next door."
+    },
+    {
+      "id": 25,
+      "section": "Часть IV/Глава V",
+      "source": "https://ru.wikisource.org/wiki/%D0%9F%D1%80%D0%B5%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B8_%D0%BD%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5_(%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9)/%D0%A7%D0%B0%D1%81%D1%82%D1%8C_IV/%D0%93%D0%BB%D0%B0%D0%B2%D0%B0_V",
+      "sha256": "b49b2af4f420301fd4934bd3fef62b38feefedd12c26b70f6037cc4811d7750c",
+      "characters": 41327,
+      "paragraphs": 95,
+      "method": "Every paragraph scanned for geographical names, abbreviations and setting vocabulary; named-location contexts and scene associations reviewed section by section.",
+      "mappedAction": [],
+      "mappedMentions": [
+        "petersburg"
+      ],
+      "unlocated": [
+        "police",
+        "porfiry"
+      ],
+      "withoutLocations": false,
+      "summary": "The second interview with Porfiry presses towards confession."
+    },
+    {
+      "id": 26,
+      "section": "Часть IV/Глава VI",
+      "source": "https://ru.wikisource.org/wiki/%D0%9F%D1%80%D0%B5%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B8_%D0%BD%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5_(%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9)/%D0%A7%D0%B0%D1%81%D1%82%D1%8C_IV/%D0%93%D0%BB%D0%B0%D0%B2%D0%B0_VI",
+      "sha256": "9d66ad5cb3169730e51909a262310443319f41e3d507b1cc7880ad40626f48ac",
+      "characters": 14983,
+      "paragraphs": 106,
+      "method": "Every paragraph scanned for geographical names, abbreviations and setting vocabulary; named-location contexts and scene associations reviewed section by section.",
+      "mappedAction": [],
+      "mappedMentions": [],
+      "unlocated": [
+        "garret",
+        "moneylender",
+        "police",
+        "porfiry"
+      ],
+      "withoutLocations": false,
+      "summary": "Nikolay’s unexpected confession interrupts the questioning."
+    },
+    {
+      "id": 27,
+      "section": "Часть V/Глава I",
+      "source": "https://ru.wikisource.org/wiki/%D0%9F%D1%80%D0%B5%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B8_%D0%BD%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5_(%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9)/%D0%A7%D0%B0%D1%81%D1%82%D1%8C_V/%D0%93%D0%BB%D0%B0%D0%B2%D0%B0_I",
+      "sha256": "c22a09e9510a8c88218559544d588485d560e8b00cbea77f20875b8e2962fb49",
+      "characters": 36489,
+      "paragraphs": 90,
+      "method": "Every paragraph scanned for geographical names, abbreviations and setting vocabulary; named-location contexts and scene associations reviewed section by section.",
+      "mappedAction": [],
+      "mappedMentions": [
+        "petersburg"
+      ],
+      "unlocated": [
+        "mesh-proposed",
+        "meshchanskaya",
+        "marmeladov",
+        "new-flat",
+        "lebezyatnikov"
+      ],
+      "withoutLocations": false,
+      "summary": "Luzhin and Lebezyatnikov debate before the memorial meal."
+    },
+    {
+      "id": 28,
+      "section": "Часть V/Глава II",
+      "source": "https://ru.wikisource.org/wiki/%D0%9F%D1%80%D0%B5%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B8_%D0%BD%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5_(%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9)/%D0%A7%D0%B0%D1%81%D1%82%D1%8C_V/%D0%93%D0%BB%D0%B0%D0%B2%D0%B0_II",
+      "sha256": "7044f1032621a47960f45152ca511ae8fa4386dd1cd87e5bc71da367d606ffd1",
+      "characters": 29026,
+      "paragraphs": 23,
+      "method": "Every paragraph scanned for geographical names, abbreviations and setting vocabulary; named-location contexts and scene associations reviewed section by section.",
+      "mappedAction": [],
+      "mappedMentions": [
+        "petersburg",
+        "gostiny",
+        "berlin"
+      ],
+      "unlocated": [
+        "marmeladov",
+        "martown"
+      ],
+      "withoutLocations": false,
+      "summary": "The memorial meal becomes a quarrel over dignity, origins and education."
+    },
+    {
+      "id": 29,
+      "section": "Часть V/Глава III",
+      "source": "https://ru.wikisource.org/wiki/%D0%9F%D1%80%D0%B5%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B8_%D0%BD%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5_(%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9)/%D0%A7%D0%B0%D1%81%D1%82%D1%8C_V/%D0%93%D0%BB%D0%B0%D0%B2%D0%B0_III",
+      "sha256": "7e477f5a66c62918562f7e09e03bfcb8e5961c937abcff270a98cd17f4379720",
+      "characters": 30381,
+      "paragraphs": 74,
+      "method": "Every paragraph scanned for geographical names, abbreviations and setting vocabulary; named-location contexts and scene associations reviewed section by section.",
+      "mappedAction": [],
+      "mappedMentions": [
+        "petersburg",
+        "haymarket"
+      ],
+      "unlocated": [
+        "siberia",
+        "marmeladov",
+        "sonya",
+        "lebezyatnikov"
+      ],
+      "withoutLocations": false,
+      "summary": "The accusation against Sonya is exposed and the lodgers are expelled."
+    },
+    {
+      "id": 30,
+      "section": "Часть V/Глава IV",
+      "source": "https://ru.wikisource.org/wiki/%D0%9F%D1%80%D0%B5%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B8_%D0%BD%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5_(%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9)/%D0%A7%D0%B0%D1%81%D1%82%D1%8C_V/%D0%93%D0%BB%D0%B0%D0%B2%D0%B0_IV",
+      "sha256": "3094ce735f750174c0356d4eda71404840138e77a53e5c563817c4ffdf3ded29",
+      "characters": 33058,
+      "paragraphs": 166,
+      "method": "Every paragraph scanned for geographical names, abbreviations and setting vocabulary; named-location contexts and scene associations reviewed section by section.",
+      "mappedAction": [],
+      "mappedMentions": [
+        "voznesensky",
+        "toulon",
+        "egypt",
+        "montblanc"
+      ],
+      "unlocated": [
+        "moneylender",
+        "loot-yard",
+        "sonya"
+      ],
+      "withoutLocations": false,
+      "summary": "Raskolnikov confesses to Sonya and weighs suffering against escape."
+    },
+    {
+      "id": 31,
+      "section": "Часть V/Глава V",
+      "source": "https://ru.wikisource.org/wiki/%D0%9F%D1%80%D0%B5%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B8_%D0%BD%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5_(%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9)/%D0%A7%D0%B0%D1%81%D1%82%D1%8C_V/%D0%93%D0%BB%D0%B0%D0%B2%D0%B0_V",
+      "sha256": "0060baa3b57cd3569d4d95bfee6458cea1e579aa8560011b105d75619c3e3df6",
+      "characters": 26756,
+      "paragraphs": 106,
+      "method": "Every paragraph scanned for geographical names, abbreviations and setting vocabulary; named-location contexts and scene associations reviewed section by section.",
+      "mappedAction": [
+        "canal"
+      ],
+      "mappedMentions": [
+        "petersburg",
+        "nevsky",
+        "paris",
+        "dagestan"
+      ],
+      "unlocated": [
+        "meshchanskaya",
+        "garret",
+        "marmeladov",
+        "canal-bridge",
+        "sonya",
+        "generals"
+      ],
+      "withoutLocations": false,
+      "summary": "Katerina’s street performance ends in collapse and death in Sonya’s room."
+    },
+    {
+      "id": 32,
+      "section": "Часть VI/Глава I",
+      "source": "https://ru.wikisource.org/wiki/%D0%9F%D1%80%D0%B5%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B8_%D0%BD%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5_(%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9)/%D0%A7%D0%B0%D1%81%D1%82%D1%8C_VI/%D0%93%D0%BB%D0%B0%D0%B2%D0%B0_I",
+      "sha256": "97bc5ddfdd8d331d1e80a391a3364170f90773b44e9c794323f9c1a883a62984",
+      "characters": 19946,
+      "paragraphs": 57,
+      "method": "Every paragraph scanned for geographical names, abbreviations and setting vocabulary; named-location contexts and scene associations reviewed section by section.",
+      "mappedAction": [
+        "haymarket",
+        "krestovsky",
+        "tolkuchy"
+      ],
+      "mappedMentions": [],
+      "unlocated": [
+        "garret",
+        "sonya",
+        "minor-taverns"
+      ],
+      "withoutLocations": false,
+      "summary": "Wandering, the memorial service and a night on Krestovsky Island."
+    },
+    {
+      "id": 33,
+      "section": "Часть VI/Глава II",
+      "source": "https://ru.wikisource.org/wiki/%D0%9F%D1%80%D0%B5%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B8_%D0%BD%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5_(%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9)/%D0%A7%D0%B0%D1%81%D1%82%D1%8C_VI/%D0%93%D0%BB%D0%B0%D0%B2%D0%B0_II",
+      "sha256": "53e28d10897a0b9d3c00d59c31dc60868bd6f3c3d2e4bdc49ff7f8a5491a0c7c",
+      "characters": 28872,
+      "paragraphs": 63,
+      "method": "Every paragraph scanned for geographical names, abbreviations and setting vocabulary; named-location contexts and scene associations reviewed section by section.",
+      "mappedAction": [],
+      "mappedMentions": [
+        "petersburg"
+      ],
+      "unlocated": [
+        "garret",
+        "police"
+      ],
+      "withoutLocations": false,
+      "summary": "Porfiry visits the garret and explains his conclusions."
+    },
+    {
+      "id": 34,
+      "section": "Часть VI/Глава III",
+      "source": "https://ru.wikisource.org/wiki/%D0%9F%D1%80%D0%B5%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B8_%D0%BD%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5_(%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9)/%D0%A7%D0%B0%D1%81%D1%82%D1%8C_VI/%D0%93%D0%BB%D0%B0%D0%B2%D0%B0_III",
+      "sha256": "af41ed5297fe656a4717fd5a00aed6c18fc3cdc191f49465bad457f7568caefd",
+      "characters": 20004,
+      "paragraphs": 81,
+      "method": "Every paragraph scanned for geographical names, abbreviations and setting vocabulary; named-location contexts and scene associations reviewed section by section.",
+      "mappedAction": [
+        "haymarket"
+      ],
+      "mappedMentions": [
+        "petersburg"
+      ],
+      "unlocated": [
+        "estate",
+        "svid-tavern"
+      ],
+      "withoutLocations": false,
+      "summary": "Raskolnikov finds Svidrigailov in a busy tavern near Haymarket."
+    },
+    {
+      "id": 35,
+      "section": "Часть VI/Глава IV",
+      "source": "https://ru.wikisource.org/wiki/%D0%9F%D1%80%D0%B5%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B8_%D0%BD%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5_(%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9)/%D0%A7%D0%B0%D1%81%D1%82%D1%8C_VI/%D0%93%D0%BB%D0%B0%D0%B2%D0%B0_IV",
+      "sha256": "e084089e046b90c6370c80acd913cec92fbe278db2f3c781f77bcbe11ff54f61",
+      "characters": 23920,
+      "paragraphs": 38,
+      "method": "Every paragraph scanned for geographical names, abbreviations and setting vocabulary; named-location contexts and scene associations reviewed section by section.",
+      "mappedAction": [
+        "haymarket"
+      ],
+      "mappedMentions": [
+        "petersburg"
+      ],
+      "unlocated": [
+        "asia-minor",
+        "egypt-desert",
+        "estate",
+        "svid-tavern",
+        "fiancee"
+      ],
+      "withoutLocations": false,
+      "summary": "Svidrigailov describes Dunya, his fiancée and exploitative memories."
+    },
+    {
+      "id": 36,
+      "section": "Часть VI/Глава V",
+      "source": "https://ru.wikisource.org/wiki/%D0%9F%D1%80%D0%B5%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B8_%D0%BD%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5_(%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9)/%D0%A7%D0%B0%D1%81%D1%82%D1%8C_VI/%D0%93%D0%BB%D0%B0%D0%B2%D0%B0_V",
+      "sha256": "f9517b4fba1969bd0e7f3b9aa6717712c8ce72da8412f0fb1d673ba0bcdc2740",
+      "characters": 29017,
+      "paragraphs": 129,
+      "method": "Every paragraph scanned for geographical names, abbreviations and setting vocabulary; named-location contexts and scene associations reviewed section by section.",
+      "mappedAction": [
+        "haymarket",
+        "canal"
+      ],
+      "mappedMentions": [
+        "elagin"
+      ],
+      "unlocated": [
+        "america",
+        "islands",
+        "estate",
+        "canal-bridge",
+        "sonya",
+        "svidrigailov",
+        "svid-tavern"
+      ],
+      "withoutLocations": false,
+      "summary": "An offered carriage ride, a canal meeting and Dunya trapped in the rooms."
+    },
+    {
+      "id": 37,
+      "section": "Часть VI/Глава VI",
+      "source": "https://ru.wikisource.org/wiki/%D0%9F%D1%80%D0%B5%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B8_%D0%BD%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5_(%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9)/%D0%A7%D0%B0%D1%81%D1%82%D1%8C_VI/%D0%93%D0%BB%D0%B0%D0%B2%D0%B0_VI",
+      "sha256": "6acddbb2b50dd4ee3d91e46ef2585be893ef645c87cd97fb262f7c776d1041d1",
+      "characters": 29083,
+      "paragraphs": 53,
+      "method": "Every paragraph scanned for geographical names, abbreviations and setting vocabulary; named-location contexts and scene associations reviewed section by section.",
+      "mappedAction": [
+        "little-neva",
+        "vasily",
+        "tuchkov",
+        "maly",
+        "petrograd"
+      ],
+      "mappedMentions": [
+        "petersburg",
+        "haymarket",
+        "petrovsky",
+        "paris"
+      ],
+      "unlocated": [
+        "america",
+        "vladimirka",
+        "islands",
+        "third-line",
+        "sonya",
+        "svidrigailov",
+        "minor-taverns",
+        "katya-garden",
+        "fiancee",
+        "adrianople",
+        "dream-garden",
+        "firetower"
+      ],
+      "withoutLocations": false,
+      "summary": "Final visits, the crossing to the Petersburg Side, hotel dreams and suicide."
+    },
+    {
+      "id": 38,
+      "section": "Часть VI/Глава VII",
+      "source": "https://ru.wikisource.org/wiki/%D0%9F%D1%80%D0%B5%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B8_%D0%BD%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5_(%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9)/%D0%A7%D0%B0%D1%81%D1%82%D1%8C_VI/%D0%93%D0%BB%D0%B0%D0%B2%D0%B0_VII",
+      "sha256": "feac0f5ff3d5f4a2140dc225afb08f5b16dcd41c164e80b5441aa6e5542223ae",
+      "characters": 18160,
+      "paragraphs": 80,
+      "method": "Every paragraph scanned for geographical names, abbreviations and setting vocabulary; named-location contexts and scene associations reviewed section by section.",
+      "mappedAction": [
+        "neva"
+      ],
+      "mappedMentions": [],
+      "unlocated": [
+        "capitol",
+        "garret",
+        "bakaleyev"
+      ],
+      "withoutLocations": false,
+      "summary": "Farewells to the mother and Dunya before the surrender."
+    },
+    {
+      "id": 39,
+      "section": "Часть VI/Глава VIII",
+      "source": "https://ru.wikisource.org/wiki/%D0%9F%D1%80%D0%B5%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B8_%D0%BD%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5_(%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9)/%D0%A7%D0%B0%D1%81%D1%82%D1%8C_VI/%D0%93%D0%BB%D0%B0%D0%B2%D0%B0_VIII",
+      "sha256": "34f6f31698cac181ed8897bb400cb53f59653dbc5683f806649a3fa5ce1b027e",
+      "characters": 20567,
+      "paragraphs": 85,
+      "method": "Every paragraph scanned for geographical names, abbreviations and setting vocabulary; named-location contexts and scene associations reviewed section by section.",
+      "mappedAction": [
+        "haymarket",
+        "canal"
+      ],
+      "mappedMentions": [
+        "petersburg",
+        "petrograd",
+        "jerusalem"
+      ],
+      "unlocated": [
+        "vladimirka",
+        "zimmermann",
+        "police",
+        "canal-bridge",
+        "sonya"
+      ],
+      "withoutLocations": false,
+      "summary": "Sonya’s cross, the bow at Haymarket and the confession at the police office."
+    },
+    {
+      "id": 40,
+      "section": "Эпилог/I",
+      "source": "https://ru.wikisource.org/wiki/%D0%9F%D1%80%D0%B5%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B8_%D0%BD%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5_(%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9)/%D0%AD%D0%BF%D0%B8%D0%BB%D0%BE%D0%B3/I",
+      "sha256": "1c6734bd23e67d79c6452b5ee163f659b9fd0927972e8ec07998d232325c9cbc",
+      "characters": 18166,
+      "paragraphs": 11,
+      "method": "Every paragraph scanned for geographical names, abbreviations and setting vocabulary; named-location contexts and scene associations reviewed section by section.",
+      "mappedAction": [
+        "five-corners"
+      ],
+      "mappedMentions": [
+        "petersburg",
+        "haymarket",
+        "voznesensky"
+      ],
+      "unlocated": [
+        "siberia",
+        "irtysh",
+        "moneylender",
+        "family-province",
+        "painters",
+        "loot-yard",
+        "penal",
+        "hospital",
+        "sonya-siberia",
+        "mother-town",
+        "firehouse"
+      ],
+      "withoutLocations": false,
+      "summary": "The trial, family losses and penal life on the Irtysh."
+    },
+    {
+      "id": 41,
+      "section": "Эпилог/II",
+      "source": "https://ru.wikisource.org/wiki/%D0%9F%D1%80%D0%B5%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B8_%D0%BD%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5_(%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9)/%D0%AD%D0%BF%D0%B8%D0%BB%D0%BE%D0%B3/II",
+      "sha256": "accd6837a55b9e1272488166d2f3e5f3c1ae9f9aaca6bcf972ccc5c261f1997f",
+      "characters": 17471,
+      "paragraphs": 34,
+      "method": "Every paragraph scanned for geographical names, abbreviations and setting vocabulary; named-location contexts and scene associations reviewed section by section.",
+      "mappedAction": [],
+      "mappedMentions": [
+        "haymarket"
+      ],
+      "unlocated": [
+        "asia",
+        "europe",
+        "penal",
+        "hospital",
+        "penal-church",
+        "sonya-siberia",
+        "riverbank",
+        "spring"
+      ],
+      "withoutLocations": false,
+      "summary": "Illness, the plague dream and renewal by the river."
+    }
+  ],
+  "missingScenes": [],
+  "rejectedGeocoding": [],
+  "limits": [
+    "Automated whole-corpus scan plus contextual review; implicit references and aliases can still require editorial expansion.",
+    "Broad regions, unidentified houses and disputed models are not assigned fabricated coordinates.",
+    "Publication in Supabase and live verification pending."
+  ]
+}
