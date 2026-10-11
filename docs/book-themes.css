@@ -41,6 +41,7 @@ html[data-book] .detail h2,html[data-book] .map-place-popup h2{font-family:var(-
 html[data-book] .detail-eyebrow::before{content:var(--ornament);color:var(--accent);margin-right:9px;font-size:17px}
 html[data-book] .tags .tag{background:var(--paper);color:var(--muted);border:1px solid var(--line)}
 html[data-book] .original-excerpt blockquote,html[data-book] .unlocated-places blockquote{background:var(--paper);border-left-color:var(--accent);font-size:17px;line-height:1.7}
+blockquote .quote-place{font-weight:700}
 html[data-book] .source-link{color:var(--muted)}
 html[data-book] .street-view-link{background:var(--panel);border-radius:0}
 html[data-book] .street-view-link:hover{background:var(--paper)}

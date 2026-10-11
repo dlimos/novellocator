@@ -183,13 +183,46 @@ function selectAllPlaces(move=true,updateHash=true){
  renderDetail();updateLayerControls();drawMarkers();if(move&&viewReady)overview();
  if(updateHash)window.location.hash=book.hashPrefix+'-all';
 }
-function renderExcerpts(excerpts,heading){
+// Keep quotation text literal: only insert escaped text and presentation markup.
+function quoteNameKey(value){return String(value).normalize('NFD').replace(/\p{M}/gu,'').replace(/[‘’]/g,"'").toLowerCase();}
+let quoteNameIndex;
+function quotePlaceNames(place){
+ const names=new Set([place?.name,...(place?.aliases||[])].filter(value=>typeof value==='string'&&value.trim()));
+ if(!quoteNameIndex){
+  quoteNameIndex=new Map();
+  for(const dictionary of Object.values(window.atlasTranslations||{}))for(const [original,translated] of Object.entries(dictionary))if(typeof translated==='string'){
+   for(const name of [original,translated]){const key=quoteNameKey(name);if(!quoteNameIndex.has(key))quoteNameIndex.set(key,new Set());quoteNameIndex.get(key).add(original);quoteNameIndex.get(key).add(translated);}
+  }
+ }
+ for(const name of names)for(const alias of quoteNameIndex.get(quoteNameKey(name))||[])names.add(alias);
+ return [...names].flatMap(name=>[name,...name.split(/\s*·\s*|\s+\/\s+|[()]/)]).map(name=>name.trim()).filter(name=>name.length>1);
+}
+function renderQuote(quote,places=[],terms=[]){
+ const text=String(quote),offsets=[],characters=[];
+ let offset=0;
+ for(const character of text){const key=quoteNameKey(character);for(const unit of key){characters.push(unit);offsets.push({start:offset,end:offset+character.length});}if(!key&&offsets.length)offsets.at(-1).end=offset+character.length;offset+=character.length;}
+ const normalized=characters.join(''),ranges=[];
+ const isWord=character=>character&&/[\p{L}\p{N}\p{M}]/u.test(character);
+ for(const term of [...terms,...places.flatMap(quotePlaceNames)]){
+  const key=quoteNameKey(term);if(!key)continue;
+  let start=normalized.indexOf(key);
+  while(start>=0){const end=start+key.length;
+   if(!isWord(normalized[start-1])&&!isWord(normalized[end]))ranges.push({start:offsets[start].start,end:offsets[end-1].end});
+   start=normalized.indexOf(key,start+key.length);
+  }
+ }
+ ranges.sort((a,b)=>a.start-b.start||b.end-a.end);
+ const merged=[];for(const range of ranges){const previous=merged.at(-1);if(previous&&range.start<previous.end)previous.end=Math.max(previous.end,range.end);else merged.push({...range});}
+ let html='',cursor=0;for(const range of merged){html+=esc(text.slice(cursor,range.start))+'<strong class="quote-place">'+esc(text.slice(range.start,range.end))+'</strong>';cursor=range.end;}
+ return html+esc(text.slice(cursor));
+}
+function renderExcerpts(excerpts,heading,places=[]){
  if(!excerpts)return '';
  const languageNames={en:'English',fr:'French',ru:'Russian',it:'Italian',es:'Spanish'};
  const records=[];
  for(const item of [excerpts.original,excerpts.translations?.en,excerpts.translations?.[locale]])if(item&&!records.some(record=>record.language===item.language))records.push(item);
  if(!records.length)return '';
- return `<details class="original-excerpt"><summary>${esc(t(heading))} · ${records.map(item=>esc(t(languageNames[item.language]||item.language))).join(' / ')}</summary>${records.map(item=>`<p><strong>${esc(t(item.type==='translation'?'Public-domain translation':'Original text'))} · ${esc(t(languageNames[item.language]||item.language))}</strong></p><blockquote lang="${esc(item.language)}">${esc(item.quote)}</blockquote><p class="excerpt-credit">${esc(item.attribution)}<br>${item.url?`<a href="${esc(item.url)}" target="_blank" rel="noopener noreferrer">${esc(t('Read the source'))}</a>`:""}${item.rightsUrl?` · <a href="${esc(item.rightsUrl)}" target="_blank" rel="noopener noreferrer">${esc(t('Edition and rights'))}</a>`:""}</p>`).join('')}</details>`;
+ return `<details class="original-excerpt"><summary>${esc(t(heading))} · ${records.map(item=>esc(t(languageNames[item.language]||item.language))).join(' / ')}</summary>${records.map(item=>`<p><strong>${esc(t(item.type==='translation'?'Public-domain translation':'Original text'))} · ${esc(t(languageNames[item.language]||item.language))}</strong></p><blockquote lang="${esc(item.language)}">${renderQuote(item.quote,places,item.highlightTerms||[])}</blockquote><p class="excerpt-credit">${esc(item.attribution)}<br>${item.url?`<a href="${esc(item.url)}" target="_blank" rel="noopener noreferrer">${esc(t('Read the source'))}</a>`:""}${item.rightsUrl?` · <a href="${esc(item.rightsUrl)}" target="_blank" rel="noopener noreferrer">${esc(t('Edition and rights'))}</a>`:""}</p>`).join('')}</details>`;
 }
 function renderDetail(){
  const chapter=activeChapter();
@@ -209,7 +242,7 @@ function renderDetail(){
  renderLocation();
  if(chapter.unlocatedPlaces?.length){
   const section=document.createElement('section');section.className='unlocated-places';
-  section.innerHTML=`<h3>${esc(t('Locations without verified coordinates'))}</h3>${chapter.unlocatedPlaces.map(item=>`<details class="location-evidence"><summary>${esc(item.name)}</summary><p>${esc(item.text)}</p>${item.quote?`<p><strong>${esc(t('Original text'))} · ${esc(t(item.language==='es'?'Spanish':'English'))}</strong></p><blockquote lang="${item.language||'en'}">${esc(item.quote)}</blockquote>`:''}${item.url?`<a href="${esc(item.url)}" target="_blank" rel="noopener noreferrer">${esc(t('Read the source'))}</a>`:""}</details>`).join('')}`;
+  section.innerHTML=`<h3>${esc(t('Locations without verified coordinates'))}</h3>${chapter.unlocatedPlaces.map(item=>`<details class="location-evidence"><summary>${esc(item.name)}</summary><p>${esc(item.text)}</p>${item.quote?`<p><strong>${esc(t('Original text'))} · ${esc(t(item.language==='es'?'Spanish':'English'))}</strong></p><blockquote lang="${esc(item.language||'en')}">${renderQuote(item.quote,[item],item.highlightTerms||[])}</blockquote>`:''}${item.url?`<a href="${esc(item.url)}" target="_blank" rel="noopener noreferrer">${esc(t('Read the source'))}</a>`:""}</details>`).join('')}`;
   document.getElementById('selected-location').parentElement.appendChild(section);
  }
 }
@@ -230,9 +263,9 @@ function renderLocation(options={}){
  }
  if(isPopup&&options.chapter)target.innerHTML=`<p class="detail-eyebrow">${esc(number(chapter.id)+' · '+chapter.title)}</p>`+target.innerHTML;
  const quote=!citation&&chapter.placeQuotes?.[id];
- if(quote){const evidence=document.createElement('div');evidence.className='original-excerpt';evidence.innerHTML=`<p><strong>${esc(t('Original text (English)'))}</strong></p><blockquote lang="en">${esc(quote)}</blockquote>`;target.appendChild(evidence);}
+ if(quote){const evidence=document.createElement('div');evidence.className='original-excerpt';evidence.innerHTML=`<p><strong>${esc(t('Original text (English)'))}</strong></p><blockquote lang="en">${renderQuote(quote,[place])}</blockquote>`;target.appendChild(evidence);}
  const excerpt=citation?.excerpt||chapter.placeExcerpts?.[id];
- if(excerpt){const evidence=document.createElement('div');evidence.innerHTML=renderExcerpts(excerpt,'Passage from the novel');target.appendChild(evidence);}
+ if(excerpt){const evidence=document.createElement('div');evidence.innerHTML=renderExcerpts(excerpt,'Passage from the novel',[place]);target.appendChild(evidence);}
  if(current<0||isPopup){const references=document.createElement('div');references.className='global-references';const heading=document.createElement('h3');heading.textContent=t('Appears in');references.appendChild(heading);chapters.forEach((section,index)=>{const placeIndex=section.places.indexOf(id),citationIndex=(section.citations||[]).findIndex(reference=>reference.placeId===id);if(placeIndex<0&&citationIndex<0)return;const button=document.createElement('button');button.type='button';button.className='section-link';button.textContent=number(section.id)+' · '+section.title+' · '+t(placeIndex>=0&&section.placeCategories?.[id]!=='mentioned'?'Action locations':'Mentioned locations');button.addEventListener('click',()=>{if(isPopup){showMapPopup(true,false,{chapterIndex:index,placeId:id});return;}selectChapter(index,false);if(placeIndex>=0)selectPlace(placeIndex);else selectCitation(citationIndex)});references.appendChild(button)});target.appendChild(references);}
  if(!isIllustrated){const link=isPopup?target.querySelector?.('.street-view-link'):document.getElementById('street-view-link');if(link)link.onclick=openStreetView;}
  if(!isPopup&&!document.getElementById('map-place-popup').hidden)showMapPopup();
