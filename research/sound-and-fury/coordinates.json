@@ -1,0 +1,552 @@
+{
+  "memphis": {
+    "query": "Memphis, Tennessee",
+    "address": "Memphis, Tennessee",
+    "score": 100,
+    "coords": [
+      35.1433781,
+      -90.0521356
+    ],
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Memphis%2C+Tennessee&f=json&outFields=Match_addr&maxLocations=1"
+  },
+  "jackson": {
+    "query": "Jackson, Mississippi",
+    "address": "Jackson, Mississippi",
+    "score": 100,
+    "coords": [
+      32.302897,
+      -90.183488
+    ],
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Jackson%2C+Mississippi&f=json&outFields=Match_addr&maxLocations=1"
+  },
+  "harvard": {
+    "query": "Harvard University, Cambridge, Massachusetts",
+    "address": "Harvard University",
+    "score": 100,
+    "coords": [
+      42.3730447,
+      -71.1182643
+    ],
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Harvard+University%2C+Cambridge%2C+Massachusetts&f=json&outFields=Match_addr&maxLocations=1"
+  },
+  "new-london": {
+    "query": "New London, Connecticut",
+    "address": "New London, Connecticut",
+    "score": 100,
+    "coords": [
+      41.355167,
+      -72.099561
+    ],
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=New+London%2C+Connecticut&f=json&outFields=Match_addr&maxLocations=1"
+  },
+  "south-carolina": {
+    "query": "South Carolina, USA",
+    "address": "South Carolina",
+    "score": 100,
+    "coords": [
+      33.903863409,
+      -80.893752347
+    ],
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=South+Carolina%2C+USA&f=json&outFields=Match_addr&maxLocations=1"
+  },
+  "galilee": {
+    "query": "Galilee, Israel",
+    "address": "Galilea",
+    "score": 91.91,
+    "coords": [
+      32.9065408,
+      35.3960605
+    ],
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Galilee%2C+Israel&f=json&outFields=Match_addr&maxLocations=1"
+  },
+  "st-louis": {
+    "query": "Saint Louis, Missouri",
+    "address": "Saint Louis, Missouri",
+    "score": 100,
+    "coords": [
+      38.635355,
+      -90.2009855
+    ],
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Saint+Louis%2C+Missouri&f=json&outFields=Match_addr&maxLocations=1"
+  },
+  "niagara": {
+    "query": "Niagara Falls, New York",
+    "address": "Niagara Falls",
+    "score": 100,
+    "coords": [
+      43.08458754,
+      -79.069488651
+    ],
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Niagara+Falls%2C+New+York&f=json&outFields=Match_addr&maxLocations=1"
+  },
+  "boston": {
+    "query": "Boston, Massachusetts",
+    "address": "Boston, Massachusetts",
+    "score": 100,
+    "coords": [
+      42.3589942,
+      -71.0586293
+    ],
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Boston%2C+Massachusetts&f=json&outFields=Match_addr&maxLocations=1"
+  },
+  "virginia": {
+    "query": "Virginia, USA",
+    "address": "Virginia",
+    "score": 100,
+    "coords": [
+      37.512820504,
+      -78.697948713
+    ],
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Virginia%2C+USA&f=json&outFields=Match_addr&maxLocations=1"
+  },
+  "mississippi-river": {
+    "query": "Mississippi River, USA",
+    "address": "Mississippi River",
+    "score": 100,
+    "coords": [
+      38.22901,
+      -90.36049
+    ],
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Mississippi+River%2C+USA&f=json&outFields=Match_addr&maxLocations=1"
+  },
+  "oxford-england": {
+    "query": "Oxford, England",
+    "address": "Oxford, Oxfordshire, England",
+    "score": 100,
+    "coords": [
+      51.751982657,
+      -1.257628623
+    ],
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Oxford%2C+England&f=json&outFields=Match_addr&maxLocations=1"
+  },
+  "kentucky": {
+    "query": "Kentucky, USA",
+    "address": "Kentucky",
+    "score": 100,
+    "coords": [
+      37.527232524,
+      -85.287620068
+    ],
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Kentucky%2C+USA&f=json&outFields=Match_addr&maxLocations=1"
+  },
+  "massachusetts": {
+    "query": "Massachusetts, USA",
+    "address": "Massachusetts",
+    "score": 100,
+    "coords": [
+      42.358670324,
+      -71.718185
+    ],
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Massachusetts%2C+USA&f=json&outFields=Match_addr&maxLocations=1"
+  },
+  "new-york": {
+    "query": "New York City, USA",
+    "address": "New York City, New York",
+    "score": 100,
+    "coords": [
+      40.7130466,
+      -74.0072301
+    ],
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=New+York+City%2C+USA&f=json&outFields=Match_addr&maxLocations=1"
+  },
+  "cambridge": {
+    "query": "Cambridge, Massachusetts",
+    "address": "Cambridge, Massachusetts",
+    "score": 100,
+    "coords": [
+      42.365248,
+      -71.105015
+    ],
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Cambridge%2C+Massachusetts&f=json&outFields=Match_addr&maxLocations=1"
+  },
+  "china": {
+    "query": "China",
+    "address": "China",
+    "score": 100,
+    "coords": [
+      36.567348398,
+      103.930027033
+    ],
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=China&f=json&outFields=Match_addr&maxLocations=1"
+  },
+  "south-bend": {
+    "query": "South Bend, Indiana",
+    "address": "South Bend, Indiana",
+    "score": 100,
+    "coords": [
+      41.675032,
+      -86.251962
+    ],
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=South+Bend%2C+Indiana&f=json&outFields=Match_addr&maxLocations=1"
+  },
+  "french-lick": {
+    "query": "French Lick, Indiana",
+    "address": "French Lick, Indiana",
+    "score": 100,
+    "coords": [
+      38.547775,
+      -86.623174
+    ],
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=French+Lick%2C+Indiana&f=json&outFields=Match_addr&maxLocations=1"
+  },
+  "princeton": {
+    "query": "Princeton University, New Jersey",
+    "address": "Princeton University",
+    "score": 100,
+    "coords": [
+      40.345547,
+      -74.6402645
+    ],
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Princeton+University%2C+New+Jersey&f=json&outFields=Match_addr&maxLocations=1"
+  },
+  "new-england": {
+    "query": "New England, USA",
+    "address": "Representative position within New England",
+    "score": 100,
+    "coords": [
+      44,
+      -71
+    ],
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=New+England%2C+USA&f=json&outFields=Match_addr&maxLocations=1"
+  },
+  "mississippi": {
+    "query": "Mississippi, USA",
+    "address": "Mississippi",
+    "score": 100,
+    "coords": [
+      32.723977799,
+      -89.657175808
+    ],
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Mississippi%2C+USA&f=json&outFields=Match_addr&maxLocations=1"
+  },
+  "pennsylvania": {
+    "query": "Pennsylvania, USA",
+    "address": "Pennsylvania",
+    "score": 100,
+    "coords": [
+      40.896511654,
+      -77.838750776
+    ],
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Pennsylvania%2C+USA&f=json&outFields=Match_addr&maxLocations=1"
+  },
+  "england": {
+    "query": "England, United Kingdom",
+    "address": "England",
+    "score": 100,
+    "coords": [
+      52.594120680415,
+      -1.464804209407
+    ],
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=England%2C+United+Kingdom&f=json&outFields=Match_addr&maxLocations=1"
+  },
+  "canada": {
+    "query": "Canada",
+    "address": "Canada",
+    "score": 100,
+    "coords": [
+      60.10867,
+      -113.64258
+    ],
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Canada&f=json&outFields=Match_addr&maxLocations=1"
+  },
+  "atlantic-city": {
+    "query": "Atlantic City, New Jersey",
+    "address": "Atlantic City, New Jersey",
+    "score": 100,
+    "coords": [
+      39.360611,
+      -74.4318753
+    ],
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Atlantic+City%2C+New+Jersey&f=json&outFields=Match_addr&maxLocations=1"
+  },
+  "egypt": {
+    "query": "Egypt",
+    "address": "Egypt",
+    "score": 100,
+    "coords": [
+      26.512273493,
+      29.87049486
+    ],
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Egypt&f=json&outFields=Match_addr&maxLocations=1"
+  },
+  "maine": {
+    "query": "Maine, USA",
+    "address": "Maine",
+    "score": 100,
+    "coords": [
+      45.315249922,
+      -69.203947061
+    ],
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Maine%2C+USA&f=json&outFields=Match_addr&maxLocations=1"
+  },
+  "sewanee": {
+    "query": "Sewanee, Tennessee",
+    "address": "Sewanee, Tennessee",
+    "score": 100,
+    "coords": [
+      35.194813,
+      -85.917464
+    ],
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Sewanee%2C+Tennessee&f=json&outFields=Match_addr&maxLocations=1"
+  },
+  "indianapolis": {
+    "query": "Indianapolis, Indiana",
+    "address": "Indianapolis, Indiana",
+    "score": 100,
+    "coords": [
+      39.76845,
+      -86.156212
+    ],
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Indianapolis%2C+Indiana&f=json&outFields=Match_addr&maxLocations=1"
+  },
+  "louisville": {
+    "query": "Louisville, Kentucky",
+    "address": "Louisville, Kentucky",
+    "score": 100,
+    "coords": [
+      38.256078,
+      -85.751569
+    ],
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Louisville%2C+Kentucky&f=json&outFields=Match_addr&maxLocations=1"
+  },
+  "beale": {
+    "query": "Beale Street, Memphis, Tennessee",
+    "address": "Beale Street, Memphis, Tennessee",
+    "score": 100,
+    "coords": [
+      35.1395356,
+      -90.0518509
+    ],
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Beale+Street%2C+Memphis%2C+Tennessee&f=json&outFields=Match_addr&maxLocations=1"
+  },
+  "delta": {
+    "query": "Mississippi Delta, Mississippi",
+    "address": "Mississippi Delta",
+    "score": 100,
+    "coords": [
+      33.37513,
+      -91.05163
+    ],
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Mississippi+Delta%2C+Mississippi&f=json&outFields=Match_addr&maxLocations=1"
+  },
+  "washington": {
+    "query": "Washington, DC",
+    "address": "Washington, District of Columbia",
+    "score": 100,
+    "coords": [
+      38.8920621,
+      -77.0199124
+    ],
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Washington%2C+DC&f=json&outFields=Match_addr&maxLocations=1"
+  },
+  "nicaragua": {
+    "query": "Nicaragua",
+    "address": "Nicaragua",
+    "score": 100,
+    "coords": [
+      12.934455771,
+      -85.006212514
+    ],
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Nicaragua&f=json&outFields=Match_addr&maxLocations=1"
+  },
+  "mexico": {
+    "query": "Mexico",
+    "address": "México",
+    "score": 100,
+    "coords": [
+      23.95282499,
+      -102.548353419
+    ],
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Mexico&f=json&outFields=Match_addr&maxLocations=1"
+  },
+  "russia": {
+    "query": "Russia",
+    "address": "Russia",
+    "score": 100,
+    "coords": [
+      61.989526183,
+      96.805371534
+    ],
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Russia&f=json&outFields=Match_addr&maxLocations=1"
+  },
+  "france": {
+    "query": "France",
+    "address": "France",
+    "score": 100,
+    "coords": [
+      46.559417044,
+      2.550539953
+    ],
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=France&f=json&outFields=Match_addr&maxLocations=1"
+  },
+  "oklahoma": {
+    "query": "Oklahoma, USA",
+    "address": "Oklahoma",
+    "score": 100,
+    "coords": [
+      35.58268395,
+      -97.508599361
+    ],
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Oklahoma%2C+USA&f=json&outFields=Match_addr&maxLocations=1"
+  },
+  "glasgow": {
+    "query": "Glasgow, Scotland",
+    "address": "Glasgow, City of Glasgow, Scotland",
+    "score": 100,
+    "coords": [
+      55.86362504,
+      -4.236869947
+    ],
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Glasgow%2C+Scotland&f=json&outFields=Match_addr&maxLocations=1"
+  },
+  "perth": {
+    "query": "Perth, Scotland",
+    "address": "Perth, Perth and Kinross, Scotland",
+    "score": 100,
+    "coords": [
+      56.395462405,
+      -3.438900169
+    ],
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Perth%2C+Scotland&f=json&outFields=Match_addr&maxLocations=1"
+  },
+  "georgia": {
+    "query": "Georgia, USA",
+    "address": "Georgia",
+    "score": 100,
+    "coords": [
+      32.648324554,
+      -83.444534401
+    ],
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Georgia%2C+USA&f=json&outFields=Match_addr&maxLocations=1"
+  },
+  "harrodsburg": {
+    "query": "Harrodsburg, Kentucky",
+    "address": "Harrodsburg, Kentucky",
+    "score": 100,
+    "coords": [
+      37.762324,
+      -84.843289
+    ],
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Harrodsburg%2C+Kentucky&f=json&outFields=Match_addr&maxLocations=1"
+  },
+  "mississippi-valley": {
+    "query": "Mississippi River, USA",
+    "address": "Mississippi River",
+    "score": 100,
+    "coords": [
+      38.22901,
+      -90.36049
+    ],
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Mississippi+River%2C+USA&f=json&outFields=Match_addr&maxLocations=1"
+  },
+  "united-states": {
+    "query": "United States",
+    "address": "United States",
+    "score": 100,
+    "coords": [
+      39.398703156,
+      -99.41461919
+    ],
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=United+States&f=json&outFields=Match_addr&maxLocations=1"
+  },
+  "spain": {
+    "query": "Spain",
+    "address": "Spain",
+    "score": 100,
+    "coords": [
+      40.22794966,
+      -3.646063105
+    ],
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Spain&f=json&outFields=Match_addr&maxLocations=1"
+  },
+  "natchez-trace": {
+    "query": "Natchez Trace Parkway, Mississippi",
+    "address": "Natchez Trace Parkway",
+    "score": 100,
+    "coords": [
+      34.264572,
+      -88.752525
+    ],
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Natchez+Trace+Parkway%2C+Mississippi&f=json&outFields=Match_addr&maxLocations=1"
+  },
+  "new-orleans": {
+    "query": "New Orleans, Louisiana",
+    "address": "New Orleans, Louisiana",
+    "score": 100,
+    "coords": [
+      29.9517634,
+      -90.0746168
+    ],
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=New+Orleans%2C+Louisiana&f=json&outFields=Match_addr&maxLocations=1"
+  },
+  "shiloh": {
+    "query": "Shiloh National Military Park, Tennessee",
+    "address": "Shiloh National Military Park",
+    "score": 100,
+    "coords": [
+      35.14973,
+      -88.346115
+    ],
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Shiloh+National+Military+Park%2C+Tennessee&f=json&outFields=Match_addr&maxLocations=1"
+  },
+  "resaca": {
+    "query": "Resaca Battlefield, Georgia",
+    "address": "Resaca Battlefield Historic Site",
+    "score": 88.6,
+    "coords": [
+      34.59393,
+      -84.95942
+    ],
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Resaca+Battlefield%2C+Georgia&f=json&outFields=Match_addr&maxLocations=1"
+  },
+  "tallahatchie": {
+    "query": "Tallahatchie River, Mississippi",
+    "address": "Tallahatchie River",
+    "score": 100,
+    "coords": [
+      33.54401,
+      -90.16786
+    ],
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Tallahatchie+River%2C+Mississippi&f=json&outFields=Match_addr&maxLocations=1"
+  },
+  "hollywood": {
+    "query": "Hollywood, Los Angeles, California",
+    "address": "Hollywood, Los Angeles, California",
+    "score": 100,
+    "coords": [
+      34.09834,
+      -118.32674
+    ],
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Hollywood%2C+Los+Angeles%2C+California&f=json&outFields=Match_addr&maxLocations=1"
+  },
+  "paris": {
+    "query": "Paris, France",
+    "address": "Paris, Île-de-France",
+    "score": 100,
+    "coords": [
+      48.856379773,
+      2.352485917
+    ],
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Paris%2C+France&f=json&outFields=Match_addr&maxLocations=1"
+  },
+  "chicago": {
+    "query": "Chicago, Illinois",
+    "address": "Chicago, Illinois",
+    "score": 100,
+    "coords": [
+      41.883229,
+      -87.632398
+    ],
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Chicago%2C+Illinois&f=json&outFields=Match_addr&maxLocations=1"
+  },
+  "havana": {
+    "query": "Havana, Cuba",
+    "address": "Havana, Plaza de la Revolución, Havana",
+    "score": 100,
+    "coords": [
+      23.1281371,
+      -82.3897195
+    ],
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Havana%2C+Cuba&f=json&outFields=Match_addr&maxLocations=1"
+  }
+}

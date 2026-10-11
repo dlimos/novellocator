@@ -1,0 +1,16 @@
+{
+  "verified": true,
+  "sections": 5,
+  "authenticSectionPlacePassages": 227,
+  "mappedPlaces": 55,
+  "mappedReferences": 81,
+  "unlocatedReferences": 146,
+  "appendixQuotedWords": 135,
+  "checks": [
+    "All source hashes match",
+    "All selected original quotations are literal substrings",
+    "All highlight forms occur in the actual passage",
+    "Every section/place association has its own passage",
+    "Fictional towns and rejected geocodes have no invented coordinates"
+  ]
+}
