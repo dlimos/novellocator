@@ -39,3 +39,9 @@ docs/*.csv
 tests/fixtures/*.json
 .DS_Store
 Thumbs.db
+
+# Local editorial sources; runtime reads Supabase.
+docs/themes/
+docs/content/books.js
+docs/content/book-translations.js
+docs/images/CREDITS.md

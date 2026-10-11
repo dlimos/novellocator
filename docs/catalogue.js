@@ -1,4 +1,4 @@
-// Render public editorial metadata independently of the narrative database.
+// Render the editorial catalogue loaded from the database.
 (function(root){
  const escape=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  function render(books){
@@ -9,10 +9,15 @@
  }
  root.atlasCatalogueView={render};
  if(!root.document)return;
- const {books}=root.atlasCatalogue;
+ async function start(){
+ const {books}=await root.atlasCatalogueData.load();
  const legacy=books.find(book=>book.legacyHashPrefix&&root.location.hash.startsWith('#'+book.legacyHashPrefix+'-'));
  if(legacy){const target=new URL('atlas.html',root.location.href);target.search=root.location.search;target.searchParams.set('book',legacy.id);target.hash=root.location.hash;root.location.replace(target.href);return;}
  const html=render(books);
  root.document.getElementById('catalogue-books').innerHTML=html.cards;
  root.document.getElementById('catalogue-credits').innerHTML=html.credits;
+ root.atlasI18n.translateDOM(root.document.getElementById('catalogue-books'));
+ for(const a of root.document.querySelectorAll('.book-card')){const url=new URL(a.href,root.location.href);url.searchParams.set('lang',root.atlasI18n.locale);a.href=url.href;}
+ }
+ start().catch(error=>{console.error('Catalogue loading failed',error);const el=root.document.getElementById('catalogue-books');el.setAttribute('role','status');const messages={en:'The catalogue could not be loaded. Please try again later.',it:'Non è stato possibile caricare il catalogo. Riprova più tardi.',fr:'Le catalogue n’a pas pu être chargé. Réessayez plus tard.',es:'No se ha podido cargar el catálogo. Inténtalo de nuevo más tarde.'};el.textContent=messages[root.atlasI18n.locale]||messages.en;});
 })(typeof window==='object'?window:globalThis);

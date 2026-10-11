@@ -3,6 +3,7 @@ const read=file=>fs.readFileSync('docs/'+file,'utf8');
 const ctx={window:{}};
 for(const file of ['content/books.js','locales/ui.js','content/book-translations.js','catalogue.js'])vm.runInNewContext(read(file),ctx);
 const {books}=ctx.window.atlasCatalogue;
+for(const book of books)book.css=read(book.stylesheet);
 const common=fs.readdirSync('docs').filter(file=>/\.(js|css|html)$/.test(file));
 for(const file of [...common,'locales/ui.js']){
  const source=read(file);
@@ -25,11 +26,11 @@ assert.ok(html.cards.includes('&lt;A new world&gt;'));
 const attributes={},properties={},stylesheets=[];ctx.window.document={getElementById:id=>stylesheets.find(link=>link.id===id),createElement:()=>({remove(){stylesheets.splice(stylesheets.indexOf(this),1)}}),head:{appendChild:link=>stylesheets.push(link)},documentElement:{setAttribute:(key,value)=>attributes[key]=value,style:{setProperty:(key,value)=>properties[key]=value}}};
 vm.runInNewContext(read('book-presentation.js'),ctx);ctx.window.atlasPresentation.apply(extra);
 assert.equal(attributes['data-theme'],'rose');assert.ok(properties['--book-art'].includes(extra.cover.src));
-for(const book of books){ctx.window.atlasPresentation.apply(book);assert.equal(stylesheets.length,1);assert.equal(stylesheets[0].href,book.stylesheet);assert.equal(stylesheets[0].rel,'stylesheet');}
-ctx.window.atlasPresentation.apply({...extra,stylesheet:undefined});assert.equal(stylesheets.length,0);
+for(const book of books){ctx.window.atlasPresentation.apply(book);assert.equal(stylesheets.length,1);assert.equal(stylesheets[0].textContent,book.css);}
+ctx.window.atlasPresentation.apply({...extra,css:undefined});assert.equal(stylesheets.length,0);
 (async()=>{
  let loads=0;const scripts=[];
- const context={URLSearchParams,console,window:{location:{search:'?book='+extra.id},atlasCatalogue:{books:[extra]},atlasI18n:{locale:'en',localizeData:x=>x,t:x=>x},IllustratedData:{load:async id=>{assert.equal(id,extra.id);loads++;return{}}},IllustratedAdapter:{adapt:()=>({book:{id:extra.id}})}},document:{getElementById:()=>({}),createElement:()=>({}),head:{appendChild:s=>scripts.push(s)}}};
+ const context={URLSearchParams,console,window:{location:{search:'?book='+extra.id},atlasCatalogue:{books:[extra]},atlasCatalogueData:{load:async()=>({books:[extra]})},atlasI18n:{locale:'en',localizeData:x=>x,t:x=>x},IllustratedData:{load:async id=>{assert.equal(id,extra.id);loads++;return{}}},IllustratedAdapter:{adapt:()=>({book:{id:extra.id}})}},document:{getElementById:()=>({}),createElement:()=>({}),head:{appendChild:s=>scripts.push(s)}}};
  vm.runInNewContext(read('load-book.js'),context);await new Promise(resolve=>setImmediate(resolve));
  assert.equal(loads,1);assert.equal(scripts[0].src,'app.js');
  console.log('PASS: shared JS/CSS/HTML contain no book IDs; editorial translations, cover assets and new illustrated titles work through metadata.');

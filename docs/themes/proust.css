@@ -1,7 +1,0 @@
-/* Memory and salons: rose paper, gilt borders and flowing italic headings. */
-html[data-book="proust"]{--ink:#503b50;--muted:#705c6c;--paper:#f3edf0;--line:#d4bfce;--accent:#8b6b38;--panel:#fffafa;--wash:#fff9f7;--heading-font:'EB Garamond',Georgia,serif;--ornament:'❦'}
-html[data-book="proust"] .introduction{border-top:3px double var(--accent);border-bottom:3px double var(--accent);box-shadow:inset 0 0 0 7px var(--panel),inset 0 0 0 8px var(--line)}
-html[data-book="proust"] .introduction #title,html[data-book="proust"] .detail h2{font-style:italic;font-weight:400}
-html[data-book="proust"] .introduction::after{filter:saturate(.65)}
-html[data-book="proust"] .original-excerpt blockquote{font-style:italic;border-left:2px solid var(--accent);border-radius:0 16px 16px 0}
-html[data-book="proust"] .sidebar-title h2{font-style:italic}

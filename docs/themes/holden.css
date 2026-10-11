@@ -1,7 +1,0 @@
-/* Winter New York: newsprint, brick red and the intimate voice of a city notebook. */
-html[data-book="holden"]{--ink:#32353b;--muted:#605f65;--paper:#e9e5dc;--line:#c3b9ac;--accent:#943a31;--panel:#faf6ed;--wash:#f5f0e6;--heading-font:Georgia,'Times New Roman',serif;--ornament:'•'}
-html[data-book="holden"] .introduction{border-top:5px solid var(--accent);border-bottom:1px solid var(--ink)}
-html[data-book="holden"] .introduction #title{font-style:italic;letter-spacing:-.025em}
-html[data-book="holden"] .introduction::after{filter:saturate(.5);background-position:center 65%}
-html[data-book="holden"] .sidebar-title h2{font-family:'DM Sans',Arial,sans-serif;font-size:21px;font-weight:500}
-html[data-book="holden"] .original-excerpt blockquote{border-left:3px solid var(--accent);background:linear-gradient(90deg,#e8ddd2,transparent),var(--paper)}

@@ -4,7 +4,7 @@
  let saved;try{saved=localStorage.getItem('atlas-language')}catch{}
  const requested=query.get('lang')||saved||config.defaultLocale;
  const locale=config.languages.some(lang=>lang.id===requested)?requested:config.defaultLocale;
- const aliases=Object.fromEntries(Object.entries(config.messages[config.defaultLocale]).map(([key,value])=>[value,key]));
+ let aliases=Object.fromEntries(Object.entries(config.messages[config.defaultLocale]).map(([key,value])=>[value,key]));
  const t=key=>config.messages[locale]?.[aliases[key]||key]??config.messages[config.defaultLocale]?.[aliases[key]||key]??key;
  document.documentElement.lang=locale;
  function translateDOM(root){
@@ -37,6 +37,6 @@
    const target=new URL(href,location.href);target.searchParams.set('lang',locale);a.href=target.href;
   }
  }
- window.atlasI18n={locale,t,translateDOM,localizeData};
+ window.atlasI18n={locale,t,translateDOM,localizeData,refreshAliases(){aliases=Object.fromEntries(Object.entries(config.messages[config.defaultLocale]).map(([key,value])=>[value,key]));}};
  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',start);else start();
 })();

@@ -1,8 +1,0 @@
-/* A ship's log: ocean blue, sailcloth paper and parallel nautical rules. */
-html[data-book="moby-dick"]{--ink:#203e50;--muted:#4d6573;--paper:#eaf0f0;--line:#b8cbd0;--accent:#84602e;--panel:#f8fbfa;--wash:#f5fafa;--heading-font:Georgia,'Times New Roman',serif;--ornament:'✦'}
-html[data-book="moby-dick"] .introduction{border-top:5px double var(--ink);border-bottom:5px double var(--ink);background:linear-gradient(0deg,#dce8eb 0,transparent 70%),var(--panel)}
-html[data-book="moby-dick"] .introduction #title{text-transform:uppercase;letter-spacing:.045em;font-size:clamp(42px,4.8vw,75px)}
-html[data-book="moby-dick"] .sidebar-title{border-bottom:3px double var(--ink)}
-html[data-book="moby-dick"] .detail-eyebrow{font-family:'DM Sans',Arial,sans-serif;letter-spacing:.14em}
-html[data-book="moby-dick"] .original-excerpt blockquote{border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-@media(max-width:700px){html[data-book="moby-dick"] .introduction #title{font-size:43px}}

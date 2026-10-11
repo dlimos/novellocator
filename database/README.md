@@ -1,6 +1,6 @@
 # Database di Novel Locator
 
-Schema PostgreSQL/Supabase, importazione dei contenuti esistenti e permessi per la futura login. La pagina `atlas.html` legge i romanzi pubblicati dal progetto Supabase configurato in `docs/supabase-config.js`. I file di `docs/data/` restano solo sul disco locale, come fonte dell’importazione iniziale, esclusi da Git. Anche i JSON di `tests/fixtures/` sono esclusi da Git. Il catalogo della home resta statico.
+Schema PostgreSQL/Supabase, importazione dei contenuti esistenti e permessi per la futura login. La pagina `atlas.html` legge i romanzi pubblicati dal progetto Supabase configurato in `docs/supabase-config.js`. I file di `docs/data/` restano solo sul disco locale, come fonte dell’importazione iniziale, esclusi da Git. Anche i JSON di `tests/fixtures/` sono esclusi da Git. Anche il catalogo della home, le traduzioni editoriali, i temi CSS e i crediti delle immagini sono letti da `book_presentations`.
 
 ## Collegamento del sito
 
@@ -153,3 +153,13 @@ Le coordinate X/Y non possono essere associate a una mappa con un sistema divers
 Questa è una predisposizione del database: il visualizzatore fantasy e l'esportazione delle nuove configurazioni non sono ancora implementati. L'esportatore attuale resta dedicato ai dataset geografici e rifiuta luoghi senza coordinate WGS84, anziché produrre marker terrestri errati. Il futuro visualizzatore dovrà applicare webmap/layer e coordinate specifiche; Street View e ortofoto terrestri saranno disponibili solo quando pertinenti. Login, fonti, traduzioni, categorie azione/citato e capitoli mantengono lo stesso modello.
 
 I nuovi oggetti cartografici ereditano gli stessi permessi editoriali e la visibilità del romanzo. I test eseguono una webmap fantasy fittizia senza chiamare Esri, verificano coordinate locali oltre i limiti WGS84, collegamenti ai capitoli e layer, vincoli tra romanzi e invisibilità delle bozze. Non è stata creata una mappa di Tolkien né importata alcuna sua opera.
+
+## Presentazione delle opere
+
+La migrazione `004_book_presentation.sql` aggiunge `book_presentations`, collegata a `books`. Contiene metadati del catalogo (immagine, testo alternativo, crediti, tipo di mappa, tema e alias legacy), traduzioni editoriali, CSS completo, documentazione dei diritti delle immagini, ordine e default. Le policy RLS limitano la lettura pubblica ai romanzi pubblicati e la modifica ai redattori/amministratori. I file immagine rimangono asset statici; i loro riferimenti e crediti sono nel database.
+
+I file in `docs/themes/`, `docs/content/books.js`, `docs/content/book-translations.js` e `docs/images/CREDITS.md` restano sul disco come sorgenti di lavoro e backup, esclusi da Git. Conservare queste copie anche fuori dal repository: un clone nuovo non le contiene. I test editoriali e la preparazione dell'importazione richiedono tali sorgenti, mentre il sito locale legge Supabase esattamente come il sito pubblico.
+
+Eseguire `npm run db:prepare:presentation` per generare `database/generated/presentation/import.sql` e `presentation.json`. Applicare prima la migrazione 004, poi l'importazione. Lo script aggiorna solo le opere già presenti in `books`, senza crearle o cambiarne lo stato di pubblicazione. Don Chisciotte rimane pendente fino all'importazione dei suoi contenuti. Non reimportare backup obsoleti dopo modifiche editoriali nel database.
+
+`npm run test:presentation` verifica CSS e metadati dopo un round trip PostgreSQL, importazione idempotente, visibilità delle bozze, permessi editoriali, paginazione e traduzioni. La home mostra un errore tradotto se il database non è disponibile; non usa i backup locali come fallback.

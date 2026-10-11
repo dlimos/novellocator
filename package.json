@@ -4,10 +4,12 @@
   "private": true,
   "description": "Explore the places behind the stories: a multilingual literary atlas.",
   "scripts": {
-    "test": "node tests/run.cjs && npm run typecheck && npm run test:database",
+    "test": "node tests/run.cjs && npm run typecheck && npm run test:database && npm run test:presentation",
     "typecheck": "tsc --noEmit",
     "build:browser": "tsx scripts/database/build-browser.ts",
     "db:prepare": "tsx scripts/database/prepare.ts",
+    "db:prepare:presentation": "node scripts/database/prepare-presentation.cjs",
+    "test:presentation": "node tests/check-presentation.cjs",
     "db:export": "tsx scripts/database/export.ts",
     "test:database": "tsx tests/check-database.ts",
     "test:supabase": "node tests/check-supabase.cjs"
