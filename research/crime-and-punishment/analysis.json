@@ -1,6 +1,6 @@
 {
   "book": "crime-and-punishment",
-  "status": "prepared-local",
+  "status": "published-verified",
   "structure": {
     "parts": [
       7,
@@ -65,6 +65,7 @@
         "egyptian-bridge"
       ],
       "unlocated": [
+        "england",
         "marmeladov",
         "first-tavern",
         "egypt-tavern",
@@ -92,7 +93,8 @@
         "r-province",
         "garret",
         "family-province",
-        "estate"
+        "estate",
+        "provincial-cathedral"
       ],
       "withoutLocations": false,
       "summary": "The mother’s letter recounts Dunya’s provincial ordeal and plans a journey."
@@ -245,9 +247,12 @@
       ],
       "unlocated": [
         "islands",
+        "first-line",
         "garret",
         "loot-yard",
-        "razumikhin"
+        "razumikhin",
+        "cathedral",
+        "palace"
       ],
       "withoutLocations": false,
       "summary": "The loot is hidden; Razumikhin is visited; the bridge returns him to the city."
@@ -550,6 +555,7 @@
       ],
       "unlocated": [
         "siberia",
+        "russia",
         "estate",
         "bakaleyev"
       ],
@@ -610,6 +616,7 @@
         "petersburg"
       ],
       "unlocated": [
+        "russia",
         "police",
         "porfiry"
       ],
@@ -807,6 +814,7 @@
         "petersburg"
       ],
       "unlocated": [
+        "russia",
         "estate",
         "svid-tavern"
       ],
@@ -897,7 +905,8 @@
         "fiancee",
         "adrianople",
         "dream-garden",
-        "firetower"
+        "firetower",
+        "last-avenue"
       ],
       "withoutLocations": false,
       "summary": "Final visits, the crossing to the Petersburg Side, hotel dreams and suicide."
@@ -967,6 +976,7 @@
       ],
       "unlocated": [
         "siberia",
+        "russia",
         "irtysh",
         "moneylender",
         "family-province",
@@ -1011,7 +1021,23 @@
   "rejectedGeocoding": [],
   "limits": [
     "Automated whole-corpus scan plus contextual review; implicit references and aliases can still require editorial expansion.",
-    "Broad regions, unidentified houses and disputed models are not assigned fabricated coordinates.",
-    "Publication in Supabase and live verification pending."
-  ]
+    "Broad regions, unidentified houses and disputed models are not assigned fabricated coordinates."
+  ],
+  "publication": {
+    "branch": "docs",
+    "date": "2026-10-11",
+    "url": "https://dlimos.github.io/novellocator/atlas.html?book=crime-and-punishment&lang=it",
+    "verification": "Exact live anonymous Supabase API data/dictionary round trip; all 41 sections, 322 associations, 868 content translations, CSS and cover loaded on public site.",
+    "rows": {
+      "books": 1,
+      "sections": 41,
+      "places": 46,
+      "sources": 152,
+      "place_descriptions": 92,
+      "place_references": 136,
+      "excerpts": 177,
+      "unlocated_settings": 186,
+      "content_translations": 868
+    }
+  }
 }
