@@ -23,6 +23,11 @@ const extra={...books[0],id:'new-fictional-world',title:'<A new world>',mapType:
 const html=ctx.window.atlasCatalogueView.render([extra]);
 assert.ok(html.cards.includes('book=new-fictional-world'));
 assert.ok(html.cards.includes('&lt;A new world&gt;'));
+assert.ok(html.cards.includes('data-book="new-fictional-world"'));
+const licensed={...extra,credit:{artist:'Painter',title:'Painting',year:'1889',url:'https://museum.example/art',reproduction:'Photo & credit',reproductionUrl:'https://commons.example/art',license:'CC BY-SA 4.0',licenseUrl:'https://creativecommons.org/licenses/by-sa/4.0/',reuseNote:'Faithful reproduction'}};
+const licensedHtml=ctx.window.atlasCatalogueView.render([licensed]).credits;
+assert.ok(licensedHtml.includes('Photo &amp; credit'));
+assert.ok(licensedHtml.includes('https://creativecommons.org/licenses/by-sa/4.0/'));
 const attributes={},properties={},stylesheets=[];ctx.window.document={getElementById:id=>stylesheets.find(link=>link.id===id),createElement:()=>({remove(){stylesheets.splice(stylesheets.indexOf(this),1)}}),head:{appendChild:link=>stylesheets.push(link)},documentElement:{setAttribute:(key,value)=>attributes[key]=value,style:{setProperty:(key,value)=>properties[key]=value}}};
 vm.runInNewContext(read('book-presentation.js'),ctx);ctx.window.atlasPresentation.apply(extra);
 assert.equal(attributes['data-theme'],'rose');assert.ok(properties['--book-art'].includes(extra.cover.src));

@@ -39,7 +39,7 @@ function translations(value,key){if(Array.isArray(value)){for(const x of value)t
 translations(data);
 assert.equal(dictionary.it['The Great Gatsby'],'Il grande Gatsby');assert.equal(dictionary.fr['The Great Gatsby'],'Gatsby le Magnifique');assert.equal(dictionary.es['The Great Gatsby'],'El gran Gatsby');
 const home=require('./read-catalogue.cjs')(),theme=fs.readFileSync('docs/themes/gatsby.css','utf8');
-assert.match(home,/href="atlas\.html\?book=gatsby"/);assert.match(home,/images\/gatsby-bellows-new-york\.jpg/);assert.match(theme,/html\[data-theme="deco"\]/);
+assert.match(home,/href="atlas\.html\?book=gatsby"/);assert.match(home,/images\/gatsby-bellows-new-york\.jpg/);assert.match(theme,/html\[data-book="gatsby"\]/);
 assert.ok(fs.statSync('docs/images/gatsby-bellows-new-york.jpg').size>10_000);
 for(const file of ['docs/data/gatsby.js','docs/data/gatsby-i18n.js','docs/data/gatsby-original.json','docs/data/gatsby-audit.json','database/generated/gatsby/sql-editor/01-import.sql'])assert.equal(cp.spawnSync('git',['check-ignore','-q',file]).status,0,file+' must remain local');
 assert.equal(cp.spawnSync('git',['ls-files','docs/data/gatsby*'],{encoding:'utf8'}).stdout.trim(),'');
