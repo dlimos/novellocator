@@ -1,0 +1,3866 @@
+{
+  "moscow": {
+    "query": "Moscow Russia",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Moscow+Russia&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Moscow",
+        "location": {
+          "x": 37.6149202,
+          "y": 55.7565408
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Moscow",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 37.2129202,
+          "ymin": 55.3545408,
+          "xmax": 38.0169202,
+          "ymax": 56.1585408
+        }
+      },
+      {
+        "address": "Moscow",
+        "location": {
+          "x": 37.61556,
+          "y": 55.75222
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Moscow",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 37.02956,
+          "ymin": 55.16622,
+          "xmax": 38.20156,
+          "ymax": 56.33822
+        }
+      },
+      {
+        "address": "Moscow",
+        "location": {
+          "x": 37.363764518357,
+          "y": 55.55934042428
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Moscow",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 36.852764518357,
+          "ymin": 55.04834042428,
+          "xmax": 37.874764518357,
+          "ymax": 56.07034042428
+        }
+      }
+    ]
+  },
+  "petersburg": {
+    "query": "Saint Petersburg Russia",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Saint+Petersburg+Russia&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Saint Petersburg",
+        "location": {
+          "x": 30.312485,
+          "y": 59.9384841
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Saint Petersburg",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 29.826485,
+          "ymin": 59.4524841,
+          "xmax": 30.798485,
+          "ymax": 60.4244841
+        }
+      },
+      {
+        "address": "Saint Petersburg, Sankt-Peterburg",
+        "location": {
+          "x": 30.31413,
+          "y": 59.93863
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Saint Petersburg, Sankt-Peterburg",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 29.86013,
+          "ymin": 59.48463,
+          "xmax": 30.76813,
+          "ymax": 60.39263
+        }
+      },
+      {
+        "address": "Saint Petersburg",
+        "location": {
+          "x": 30.067881862506,
+          "y": 59.96262629104
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Saint Petersburg",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 29.581881862506,
+          "ymin": 59.47662629104,
+          "xmax": 30.553881862506,
+          "ymax": 60.44862629104
+        }
+      }
+    ]
+  },
+  "russia": {
+    "query": "Russia",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Russia&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Russia",
+        "location": {
+          "x": 96.805371534,
+          "y": 61.989526183
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Russia",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 44.970371534,
+          "ymin": 10.154526183,
+          "xmax": 148.640371534,
+          "ymax": 84.9
+        }
+      },
+      {
+        "address": "Russia, New York",
+        "location": {
+          "x": -75.082269,
+          "y": 43.258586
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Russia, New York",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": -75.171269,
+          "ymin": 43.169586,
+          "xmax": -74.993269,
+          "ymax": 43.347586
+        }
+      },
+      {
+        "address": "Russia, Ohio",
+        "location": {
+          "x": -84.405026,
+          "y": 40.233722
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Russia, Ohio",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": -84.450026,
+          "ymin": 40.188722,
+          "xmax": -84.360026,
+          "ymax": 40.278722
+        }
+      }
+    ]
+  },
+  "europe": {
+    "query": "Europe",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Europe&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Europe",
+        "location": {
+          "x": 9.14062,
+          "y": 48.69096
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Europe",
+          "Addr_type": "POI"
+        },
+        "extent": {
+          "xmin": -29.46938,
+          "ymin": 10.08096,
+          "xmax": 47.75062,
+          "ymax": 84.9
+        }
+      },
+      {
+        "address": "Europe",
+        "location": {
+          "x": 2.3944578,
+          "y": 48.8254577
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Europe",
+          "Addr_type": "POI"
+        },
+        "extent": {
+          "xmin": 2.3894578,
+          "ymin": 48.8204577,
+          "xmax": 2.3994578,
+          "ymax": 48.8304577
+        }
+      },
+      {
+        "address": "Europe",
+        "location": {
+          "x": 17.0683,
+          "y": 51.29919
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Europe",
+          "Addr_type": "POI"
+        },
+        "extent": {
+          "xmin": 17.0633,
+          "ymin": 51.29419,
+          "xmax": 17.0733,
+          "ymax": 51.30419
+        }
+      }
+    ]
+  },
+  "england": {
+    "query": "England United Kingdom",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=England+United+Kingdom&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "England",
+        "location": {
+          "x": -1.464804209407,
+          "y": 52.594120680415
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "England",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": -4.980804209407,
+          "ymin": 49.078120680415,
+          "xmax": 2.051195790593,
+          "ymax": 56.110120680415
+        }
+      },
+      {
+        "address": "England",
+        "location": {
+          "x": -2.0433885,
+          "y": 55.8066006
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "England",
+          "Addr_type": "POI"
+        },
+        "extent": {
+          "xmin": -2.0483885,
+          "ymin": 55.8016006,
+          "xmax": -2.0383885,
+          "ymax": 55.8116006
+        }
+      },
+      {
+        "address": "England",
+        "location": {
+          "x": -0.70312,
+          "y": 52.16045
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "England",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": -5.36112,
+          "ymin": 47.50245,
+          "xmax": 3.95488,
+          "ymax": 56.81845
+        }
+      }
+    ]
+  },
+  "germany": {
+    "query": "Germany",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Germany&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Germany",
+        "location": {
+          "x": 10.392277932,
+          "y": 51.110631049
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Germany",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 6.147277932,
+          "ymin": 46.865631049,
+          "xmax": 14.637277932,
+          "ymax": 55.355631049
+        }
+      },
+      {
+        "address": "Germany, Georgia",
+        "location": {
+          "x": -83.467403,
+          "y": 34.896338
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Germany, Georgia",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": -83.474403,
+          "ymin": 34.889338,
+          "xmax": -83.460403,
+          "ymax": 34.903338
+        }
+      },
+      {
+        "address": "Germany, Ohio",
+        "location": {
+          "x": -82.905755,
+          "y": 39.00299
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Germany, Ohio",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": -82.912755,
+          "ymin": 38.99599,
+          "xmax": -82.898755,
+          "ymax": 39.00999
+        }
+      }
+    ]
+  },
+  "france": {
+    "query": "France",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=France&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "France",
+        "location": {
+          "x": 2.550539953,
+          "y": 46.559417044
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "France",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": -3.564460047,
+          "ymin": 40.444417044,
+          "xmax": 8.665539953,
+          "ymax": 52.674417044
+        }
+      },
+      {
+        "address": "France, Ballinalee, Longford",
+        "location": {
+          "x": -7.6409375,
+          "y": 53.7613921
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "France, Ballinalee, Longford",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": -7.6449375,
+          "ymin": 53.7573921,
+          "xmax": -7.6369375,
+          "ymax": 53.7653921
+        }
+      },
+      {
+        "address": "France, Vila Nova de Cerveira, Viana do Castelo",
+        "location": {
+          "x": -8.7628039,
+          "y": 41.8936244
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "France, Vila Nova de Cerveira, Viana do Castelo",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": -8.7648039,
+          "ymin": 41.8916244,
+          "xmax": -8.7608039,
+          "ymax": 41.8956244
+        }
+      }
+    ]
+  },
+  "italy": {
+    "query": "Italy",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Italy&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Italy",
+        "location": {
+          "x": 12.83333,
+          "y": 42.83333
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Italy",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 6.95833,
+          "ymin": 36.95833,
+          "xmax": 18.70833,
+          "ymax": 48.70833
+        }
+      },
+      {
+        "address": "Italy, Texas",
+        "location": {
+          "x": -96.884507,
+          "y": 32.184379
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Italy, Texas",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": -96.907507,
+          "ymin": 32.161379,
+          "xmax": -96.861507,
+          "ymax": 32.207379
+        }
+      },
+      {
+        "address": "Italy, New York",
+        "location": {
+          "x": -77.292692,
+          "y": 42.610586
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Italy, New York",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": -77.346692,
+          "ymin": 42.556586,
+          "xmax": -77.238692,
+          "ymax": 42.664586
+        }
+      }
+    ]
+  },
+  "switzerland": {
+    "query": "Switzerland",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Switzerland&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Switzerland",
+        "location": {
+          "x": 8.245024096,
+          "y": 46.799817442
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Switzerland",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 6.610024096,
+          "ymin": 45.164817442,
+          "xmax": 9.880024096,
+          "ymax": 48.434817442
+        }
+      },
+      {
+        "address": "Switzerland, Florida",
+        "location": {
+          "x": -81.647383,
+          "y": 30.076065
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Switzerland, Florida",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": -81.654383,
+          "ymin": 30.069065,
+          "xmax": -81.640383,
+          "ymax": 30.083065
+        }
+      },
+      {
+        "address": "Switzerland, Oregon",
+        "location": {
+          "x": -122.8553696,
+          "y": 44.9817874
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Switzerland, Oregon",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": -122.8623696,
+          "ymin": 44.9747874,
+          "xmax": -122.8483696,
+          "ymax": 44.9887874
+        }
+      }
+    ]
+  },
+  "poland": {
+    "query": "Poland",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Poland&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Poland",
+        "location": {
+          "x": 19.398768986,
+          "y": 52.123790154
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Poland",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 15.428768986,
+          "ymin": 48.153790154,
+          "xmax": 23.368768986,
+          "ymax": 56.093790154
+        }
+      },
+      {
+        "address": "Poland, Maine",
+        "location": {
+          "x": -70.3933303,
+          "y": 44.0607619
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Poland, Maine",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": -70.4713303,
+          "ymin": 43.9827619,
+          "xmax": -70.3153303,
+          "ymax": 44.1387619
+        }
+      },
+      {
+        "address": "Poland, Ohio",
+        "location": {
+          "x": -80.614618,
+          "y": 41.024246
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Poland, Ohio",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": -80.661618,
+          "ymin": 40.977246,
+          "xmax": -80.567618,
+          "ymax": 41.071246
+        }
+      }
+    ]
+  },
+  "china": {
+    "query": "China",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=China&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "China",
+        "location": {
+          "x": 103.930027033,
+          "y": 36.567348398
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "China",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 79.755027033,
+          "ymin": 12.392348398,
+          "xmax": 128.105027033,
+          "ymax": 60.742348398
+        }
+      },
+      {
+        "address": "China, Nuevo León",
+        "location": {
+          "x": -98.972409175,
+          "y": 25.480158774
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "China, Nuevo León",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": -99.444409175,
+          "ymin": 25.008158774,
+          "xmax": -98.500409175,
+          "ymax": 25.952158774
+        }
+      },
+      {
+        "address": "China, O.R.Tambo, Eastern Cape",
+        "location": {
+          "x": 28.5425825,
+          "y": -31.7423014
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "China, O.R.Tambo, Eastern Cape",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 28.5285825,
+          "ymin": -31.7563014,
+          "xmax": 28.5565825,
+          "ymax": -31.7283014
+        }
+      }
+    ]
+  },
+  "india": {
+    "query": "India",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=India&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "India",
+        "location": {
+          "x": 79.443326548,
+          "y": 23.379379735
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "India",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 64.533326548,
+          "ymin": 8.469379735,
+          "xmax": 94.353326548,
+          "ymax": 38.289379735
+        }
+      },
+      {
+        "address": "India, Vila Lugela, Zambézia",
+        "location": {
+          "x": 36.9180556,
+          "y": -16.6963889
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "India, Vila Lugela, Zambézia",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 36.9110556,
+          "ymin": -16.7033889,
+          "xmax": 36.9250556,
+          "ymax": -16.6893889
+        }
+      },
+      {
+        "address": "India, Sekhukhune, Limpopo",
+        "location": {
+          "x": 29.8321779,
+          "y": -24.3784547
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "India, Sekhukhune, Limpopo",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 29.8201779,
+          "ymin": -24.3904547,
+          "xmax": 29.8441779,
+          "ymax": -24.3664547
+        }
+      }
+    ]
+  },
+  "spain": {
+    "query": "Spain",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Spain&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Spain",
+        "location": {
+          "x": -3.646063105,
+          "y": 40.22794966
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Spain",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": -13.311063105,
+          "ymin": 30.56294966,
+          "xmax": 6.018936895,
+          "ymax": 49.89294966
+        }
+      },
+      {
+        "address": "Spain, Baltimore, Cork",
+        "location": {
+          "x": -9.3387881,
+          "y": 51.4753165
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Spain, Baltimore, Cork",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": -9.3497881,
+          "ymin": 51.4643165,
+          "xmax": -9.3277881,
+          "ymax": 51.4863165
+        }
+      },
+      {
+        "address": "Spain, Georgia",
+        "location": {
+          "x": -83.541228,
+          "y": 30.85498
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Spain, Georgia",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": -83.548228,
+          "ymin": 30.84798,
+          "xmax": -83.534228,
+          "ymax": 30.86198
+        }
+      }
+    ]
+  },
+  "turkey": {
+    "query": "Turkey",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Turkey&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Turkey",
+        "location": {
+          "x": 35.142286272,
+          "y": 39.066250645
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Turkey",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 28.777286272,
+          "ymin": 32.701250645,
+          "xmax": 41.507286272,
+          "ymax": 45.431250645
+        }
+      },
+      {
+        "address": "Turkey, Arkansas",
+        "location": {
+          "x": -92.763778,
+          "y": 36.244515
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Turkey, Arkansas",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": -92.770778,
+          "ymin": 36.237515,
+          "xmax": -92.756778,
+          "ymax": 36.251515
+        }
+      },
+      {
+        "address": "Turkey, Kentucky",
+        "location": {
+          "x": -83.5089102,
+          "y": 37.4797702
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Turkey, Kentucky",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": -83.5159102,
+          "ymin": 37.4727702,
+          "xmax": -83.5019102,
+          "ymax": 37.4867702
+        }
+      }
+    ]
+  },
+  "serbia": {
+    "query": "Serbia",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Serbia&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Serbia",
+        "location": {
+          "x": 20.804550522,
+          "y": 44.029364639
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Serbia",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 18.774550522,
+          "ymin": 41.999364639,
+          "xmax": 22.834550522,
+          "ymax": 46.059364639
+        }
+      },
+      {
+        "address": "Serbia, Ostrów Lubelski, Lubartowski, Lubelskie",
+        "location": {
+          "x": 22.810174487,
+          "y": 51.399537578
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Serbia, Ostrów Lubelski, Lubartowski, Lubelskie",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 22.809174487,
+          "ymin": 51.398537578,
+          "xmax": 22.811174487,
+          "ymax": 51.400537578
+        }
+      },
+      {
+        "address": "Serbia",
+        "location": {
+          "x": 49.2977578,
+          "y": 53.5127313
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Serbia",
+          "Addr_type": "POI"
+        },
+        "extent": {
+          "xmin": 49.2927578,
+          "ymin": 53.5077313,
+          "xmax": 49.3027578,
+          "ymax": 53.5177313
+        }
+      }
+    ]
+  },
+  "montenegro": {
+    "query": "Montenegro",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Montenegro&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Montenegro",
+        "location": {
+          "x": 19.252099465,
+          "y": 42.796154744
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Montenegro",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 18.342099465,
+          "ymin": 41.886154744,
+          "xmax": 20.162099465,
+          "ymax": 43.706154744
+        }
+      },
+      {
+        "address": "Montenegro, Rio Grande do Sul",
+        "location": {
+          "x": -51.4670586,
+          "y": -29.6892333
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Montenegro, Rio Grande do Sul",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": -51.6130586,
+          "ymin": -29.8352333,
+          "xmax": -51.3210586,
+          "ymax": -29.5432333
+        }
+      },
+      {
+        "address": "Montenegro, Quindio",
+        "location": {
+          "x": -75.817533714238,
+          "y": 4.522425955819
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Montenegro, Quindio",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": -75.889533714238,
+          "ymin": 4.450425955819,
+          "xmax": -75.745533714238,
+          "ymax": 4.594425955819
+        }
+      }
+    ]
+  },
+  "herzegovina": {
+    "query": "Herzegovina",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Herzegovina&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Herzegovina",
+        "location": {
+          "x": 17.83333,
+          "y": 43.0
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Herzegovina",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 17.80333,
+          "ymin": 42.97,
+          "xmax": 17.86333,
+          "ymax": 43.03
+        }
+      }
+    ]
+  },
+  "wiesbaden": {
+    "query": "Wiesbaden Germany",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Wiesbaden+Germany&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Wiesbaden, Hessen",
+        "location": {
+          "x": 8.239138,
+          "y": 50.081697999
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Wiesbaden, Hessen",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 8.130138,
+          "ymin": 49.972697999,
+          "xmax": 8.348138,
+          "ymax": 50.190697999
+        }
+      },
+      {
+        "address": "Wiesbaden, Hessen",
+        "location": {
+          "x": 8.260246056,
+          "y": 50.07886249
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Wiesbaden, Hessen",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 8.151246056,
+          "ymin": 49.96986249,
+          "xmax": 8.369246056,
+          "ymax": 50.18786249
+        }
+      },
+      {
+        "address": "Wiesbaden, Hessen",
+        "location": {
+          "x": 8.24932,
+          "y": 50.08258
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Wiesbaden, Hessen",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 8.21132,
+          "ymin": 50.04458,
+          "xmax": 8.28732,
+          "ymax": 50.12058
+        }
+      }
+    ]
+  },
+  "tver": {
+    "query": "Tver Russia",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Tver+Russia&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Tver, Tver Oblast",
+        "location": {
+          "x": 35.9123669,
+          "y": 56.859419
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Tver, Tver Oblast",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 35.7903669,
+          "ymin": 56.737419,
+          "xmax": 36.0343669,
+          "ymax": 56.981419
+        }
+      },
+      {
+        "address": "Tver",
+        "location": {
+          "x": 35.90057,
+          "y": 56.85836
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Tver",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 35.78057,
+          "ymin": 56.73836,
+          "xmax": 36.02057,
+          "ymax": 56.97836
+        }
+      },
+      {
+        "address": "Tver, Tver Oblast",
+        "location": {
+          "x": 35.898642060916,
+          "y": 56.851267006386
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Tver, Tver Oblast",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 35.776642060916,
+          "ymin": 56.729267006386,
+          "xmax": 36.020642060916,
+          "ymax": 56.973267006386
+        }
+      }
+    ]
+  },
+  "nice": {
+    "query": "Nice France",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Nice+France&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Nice, Alpes-Maritimes, Provence-Alpes-Côte d'Azur",
+        "location": {
+          "x": 7.271436152,
+          "y": 43.696026561
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Nice, Alpes-Maritimes, Provence-Alpes-Côte d'Azur",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 7.207436152,
+          "ymin": 43.632026561,
+          "xmax": 7.335436152,
+          "ymax": 43.760026561
+        }
+      },
+      {
+        "address": "Nice, Alpes-Maritimes, Provence-Alpes-Côte d'Azur",
+        "location": {
+          "x": 7.26608,
+          "y": 43.70313
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Nice, Alpes-Maritimes, Provence-Alpes-Côte d'Azur",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 7.17408,
+          "ymin": 43.61113,
+          "xmax": 7.35808,
+          "ymax": 43.79513
+        }
+      },
+      {
+        "address": "Nice, Alpes-Maritimes, Provence-Alpes-Côte d'Azur",
+        "location": {
+          "x": 7.16095,
+          "y": 44.02721
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Nice, Alpes-Maritimes, Provence-Alpes-Côte d'Azur",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 4.17795,
+          "ymin": 41.04421,
+          "xmax": 10.14395,
+          "ymax": 47.01021
+        }
+      }
+    ]
+  },
+  "naples": {
+    "query": "Naples Italy",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Naples+Italy&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Naples",
+        "location": {
+          "x": 14.2525421,
+          "y": 40.8399833
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Naples",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 14.1665421,
+          "ymin": 40.7539833,
+          "xmax": 14.3385421,
+          "ymax": 40.9259833
+        }
+      },
+      {
+        "address": "Naples",
+        "location": {
+          "x": 14.26811,
+          "y": 40.85216
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Naples",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 14.18211,
+          "ymin": 40.76616,
+          "xmax": 14.35411,
+          "ymax": 40.93816
+        }
+      },
+      {
+        "address": "Naples",
+        "location": {
+          "x": 14.341684214458,
+          "y": 40.844164124752
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Naples",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 14.016684214458,
+          "ymin": 40.519164124752,
+          "xmax": 14.666684214458,
+          "ymax": 41.169164124752
+        }
+      }
+    ]
+  },
+  "sorrento": {
+    "query": "Sorrento Italy",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Sorrento+Italy&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Sorrento, Napoli",
+        "location": {
+          "x": 14.3757383,
+          "y": 40.6263211
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Sorrento, Napoli",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 14.3467383,
+          "ymin": 40.5973211,
+          "xmax": 14.4047383,
+          "ymax": 40.6553211
+        }
+      },
+      {
+        "address": "Sorrento, Napoli",
+        "location": {
+          "x": 14.37771,
+          "y": 40.62678
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Sorrento, Napoli",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 14.35971,
+          "ymin": 40.60878,
+          "xmax": 14.39571,
+          "ymax": 40.64478
+        }
+      },
+      {
+        "address": "Sorrento",
+        "location": {
+          "x": 14.40936,
+          "y": 40.62926
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Sorrento",
+          "Addr_type": "POI"
+        },
+        "extent": {
+          "xmin": 14.40436,
+          "ymin": 40.62426,
+          "xmax": 14.41436,
+          "ymax": 40.63426
+        }
+      }
+    ]
+  },
+  "paris": {
+    "query": "Paris France",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Paris+France&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Paris, Île-de-France",
+        "location": {
+          "x": 2.352485917,
+          "y": 48.856379773
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Paris, Île-de-France",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 2.269485917,
+          "ymin": 48.773379773,
+          "xmax": 2.435485917,
+          "ymax": 48.939379773
+        }
+      },
+      {
+        "address": "Paris, Île-de-France",
+        "location": {
+          "x": 2.3488,
+          "y": 48.85341
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Paris, Île-de-France",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 2.2658,
+          "ymin": 48.77041,
+          "xmax": 2.4318,
+          "ymax": 48.93641
+        }
+      },
+      {
+        "address": "Paris, Île-de-France",
+        "location": {
+          "x": 2.272680401,
+          "y": 48.840203093
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Paris, Île-de-France",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 2.189680401,
+          "ymin": 48.757203093,
+          "xmax": 2.355680401,
+          "ymax": 48.923203093
+        }
+      }
+    ]
+  },
+  "rome": {
+    "query": "Rome Italy",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Rome+Italy&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Rome",
+        "location": {
+          "x": 12.4942679,
+          "y": 41.8905568
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Rome",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 12.2172679,
+          "ymin": 41.6135568,
+          "xmax": 12.7712679,
+          "ymax": 42.1675568
+        }
+      },
+      {
+        "address": "Rome",
+        "location": {
+          "x": 12.51133,
+          "y": 41.89193
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Rome",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 12.34133,
+          "ymin": 41.72193,
+          "xmax": 12.68133,
+          "ymax": 42.06193
+        }
+      },
+      {
+        "address": "Rome",
+        "location": {
+          "x": 12.571335787857,
+          "y": 41.923065156382
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Rome",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 11.958335787857,
+          "ymin": 41.310065156382,
+          "xmax": 13.184335787857,
+          "ymax": 42.536065156382
+        }
+      }
+    ]
+  },
+  "karlsbad": {
+    "query": "Karlovy Vary Czechia",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Karlovy+Vary+Czechia&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Karlovy Vary, Karlovarský kraj",
+        "location": {
+          "x": 12.857833022,
+          "y": 50.231884799
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Karlovy Vary, Karlovarský kraj",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 12.792833022,
+          "ymin": 50.166884799,
+          "xmax": 12.922833022,
+          "ymax": 50.296884799
+        }
+      },
+      {
+        "address": "Karlovy Vary, Karlovarský kraj",
+        "location": {
+          "x": 12.989151336,
+          "y": 50.218248606
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Karlovy Vary, Karlovarský kraj",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 12.700151336,
+          "ymin": 49.929248606,
+          "xmax": 13.278151336,
+          "ymax": 50.507248606
+        }
+      },
+      {
+        "address": "Karlovy Vary, Karlovarský",
+        "location": {
+          "x": 12.87117,
+          "y": 50.23271
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Karlovy Vary, Karlovarský",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 12.83517,
+          "ymin": 50.19671,
+          "xmax": 12.90717,
+          "ymax": 50.26871
+        }
+      }
+    ]
+  },
+  "baden": {
+    "query": "Baden Baden Germany",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Baden+Baden+Germany&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Baden-Baden, Baden-Württemberg",
+        "location": {
+          "x": 8.239951,
+          "y": 48.761793999
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Baden-Baden, Baden-Württemberg",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 8.142951,
+          "ymin": 48.664793999,
+          "xmax": 8.336951,
+          "ymax": 48.858793999
+        }
+      },
+      {
+        "address": "Baden-Baden, Baden-Württemberg",
+        "location": {
+          "x": 8.26868605,
+          "y": 48.732397608
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Baden-Baden, Baden-Württemberg",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 8.17168605,
+          "ymin": 48.635397608,
+          "xmax": 8.36568605,
+          "ymax": 48.829397608
+        }
+      },
+      {
+        "address": "Baden-Baden, Baden-Württemberg",
+        "location": {
+          "x": 8.23975,
+          "y": 48.7606
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Baden-Baden, Baden-Württemberg",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 8.21875,
+          "ymin": 48.7396,
+          "xmax": 8.26075,
+          "ymax": 48.7816
+        }
+      }
+    ]
+  },
+  "kissingen": {
+    "query": "Bad Kissingen Germany",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Bad+Kissingen+Germany&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Bad Kissingen, Bayern",
+        "location": {
+          "x": 10.078935001,
+          "y": 50.199822999
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Bad Kissingen, Bayern",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 10.008935001,
+          "ymin": 50.129822999,
+          "xmax": 10.148935001,
+          "ymax": 50.269822999
+        }
+      },
+      {
+        "address": "Bad Kissingen, Bayern",
+        "location": {
+          "x": 9.964506792,
+          "y": 50.222187377
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Bad Kissingen, Bayern",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 9.680506792,
+          "ymin": 49.938187377,
+          "xmax": 10.248506792,
+          "ymax": 50.506187377
+        }
+      },
+      {
+        "address": "Bad Kissingen, Bayern",
+        "location": {
+          "x": 10.07784,
+          "y": 50.20228
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Bad Kissingen, Bayern",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 10.05784,
+          "ymin": 50.18228,
+          "xmax": 10.09784,
+          "ymax": 50.22228
+        }
+      }
+    ]
+  },
+  "soden": {
+    "query": "Bad Soden am Taunus Germany",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Bad+Soden+am+Taunus+Germany&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Bad Soden am Taunus, Hessen",
+        "location": {
+          "x": 8.501799999,
+          "y": 50.143795999
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Bad Soden am Taunus, Hessen",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 8.474799999,
+          "ymin": 50.116795999,
+          "xmax": 8.528799999,
+          "ymax": 50.170795999
+        }
+      },
+      {
+        "address": "Bad Soden am Taunus, Hessen",
+        "location": {
+          "x": 8.487532205,
+          "y": 50.152511212
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Bad Soden am Taunus, Hessen",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 8.460532205,
+          "ymin": 50.125511212,
+          "xmax": 8.514532205,
+          "ymax": 50.179511212
+        }
+      },
+      {
+        "address": "Bad Soden am Taunus, Hessen",
+        "location": {
+          "x": 8.50449,
+          "y": 50.1408
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Bad Soden am Taunus, Hessen",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 8.48649,
+          "ymin": 50.1228,
+          "xmax": 8.52249,
+          "ymax": 50.1588
+        }
+      }
+    ]
+  },
+  "frankfurt": {
+    "query": "Frankfurt am Main Germany",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Frankfurt+am+Main+Germany&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Frankfurt am Main, Hessen",
+        "location": {
+          "x": 8.682433,
+          "y": 50.110879999
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Frankfurt am Main, Hessen",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 8.547433,
+          "ymin": 49.975879999,
+          "xmax": 8.817433,
+          "ymax": 50.245879999
+        }
+      },
+      {
+        "address": "Frankfurt, Brandenburg",
+        "location": {
+          "x": 14.550979001,
+          "y": 52.341757
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Frankfurt, Brandenburg",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 14.462979001,
+          "ymin": 52.253757,
+          "xmax": 14.638979001,
+          "ymax": 52.429757
+        }
+      },
+      {
+        "address": "Frankfurt am Main, Hessen",
+        "location": {
+          "x": 8.644369298,
+          "y": 50.118704272
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Frankfurt am Main, Hessen",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 8.509369298,
+          "ymin": 49.983704272,
+          "xmax": 8.779369298,
+          "ymax": 50.253704272
+        }
+      }
+    ]
+  },
+  "menton": {
+    "query": "Menton France",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Menton+France&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Menton, Alpes-Maritimes, Provence-Alpes-Côte d'Azur",
+        "location": {
+          "x": 7.502944348,
+          "y": 43.775694884
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Menton, Alpes-Maritimes, Provence-Alpes-Côte d'Azur",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 7.471944348,
+          "ymin": 43.744694884,
+          "xmax": 7.533944348,
+          "ymax": 43.806694884
+        }
+      },
+      {
+        "address": "Menton, Alpes-Maritimes, Provence-Alpes-Côte d'Azur",
+        "location": {
+          "x": 7.50435,
+          "y": 43.77649
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Menton, Alpes-Maritimes, Provence-Alpes-Côte d'Azur",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 7.47735,
+          "ymin": 43.74949,
+          "xmax": 7.53135,
+          "ymax": 43.80349
+        }
+      },
+      {
+        "address": "Menton, Nice, Alpes-Maritimes, Provence-Alpes-Côte d'Azur",
+        "location": {
+          "x": 7.49972,
+          "y": 43.77472
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Menton, Nice, Alpes-Maritimes, Provence-Alpes-Côte d'Azur",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 7.46772,
+          "ymin": 43.74272,
+          "xmax": 7.53172,
+          "ymax": 43.80672
+        }
+      }
+    ]
+  },
+  "mulhouse": {
+    "query": "Mulhouse France",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Mulhouse+France&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Mulhouse, Haut-Rhin, Grand Est",
+        "location": {
+          "x": 7.335977382,
+          "y": 47.750544699
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Mulhouse, Haut-Rhin, Grand Est",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 7.298977382,
+          "ymin": 47.713544699,
+          "xmax": 7.372977382,
+          "ymax": 47.787544699
+        }
+      },
+      {
+        "address": "Mulhouse, Haut-Rhin, Grand Est",
+        "location": {
+          "x": 7.32866,
+          "y": 47.75205
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Mulhouse, Haut-Rhin, Grand Est",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 7.27366,
+          "ymin": 47.69705,
+          "xmax": 7.38366,
+          "ymax": 47.80705
+        }
+      },
+      {
+        "address": "Mulhouse, Haut-Rhin, Grand Est",
+        "location": {
+          "x": 7.40527,
+          "y": 47.7075
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Mulhouse, Haut-Rhin, Grand Est",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 7.19627,
+          "ymin": 47.4985,
+          "xmax": 7.61427,
+          "ymax": 47.9165
+        }
+      }
+    ]
+  },
+  "kiev": {
+    "query": "Kyiv Ukraine",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Kyiv+Ukraine&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Kyiv, Kiev",
+        "location": {
+          "x": 30.5237178,
+          "y": 50.4497495
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Kyiv, Kiev",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 30.2817178,
+          "ymin": 50.2077495,
+          "xmax": 30.7657178,
+          "ymax": 50.6917495
+        }
+      },
+      {
+        "address": "Kyiv, Gorod-Geroy Kiyev",
+        "location": {
+          "x": 30.5238,
+          "y": 50.45466
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Kyiv, Gorod-Geroy Kiyev",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 30.2428,
+          "ymin": 50.17366,
+          "xmax": 30.8048,
+          "ymax": 50.73566
+        }
+      },
+      {
+        "address": "Kyiv, Kiev",
+        "location": {
+          "x": 30.548042669811,
+          "y": 50.448944664102
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Kyiv, Kiev",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 30.306042669811,
+          "ymin": 50.206944664102,
+          "xmax": 30.790042669811,
+          "ymax": 50.690944664102
+        }
+      }
+    ]
+  },
+  "kharkov": {
+    "query": "Kharkiv Ukraine",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Kharkiv+Ukraine&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Kharkiv, Kharkiv Oblast",
+        "location": {
+          "x": 36.2735399,
+          "y": 49.985946
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Kharkiv, Kharkiv Oblast",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 36.1295399,
+          "ymin": 49.841946,
+          "xmax": 36.4175399,
+          "ymax": 50.129946
+        }
+      },
+      {
+        "address": "Kharkiv",
+        "location": {
+          "x": 36.25272,
+          "y": 49.98081
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Kharkiv",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 36.05272,
+          "ymin": 49.78081,
+          "xmax": 36.45272,
+          "ymax": 50.18081
+        }
+      },
+      {
+        "address": "Kharkiv",
+        "location": {
+          "x": 36.22331,
+          "y": 49.98541
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Kharkiv",
+          "Addr_type": "POI"
+        },
+        "extent": {
+          "xmin": 33.72331,
+          "ymin": 47.48541,
+          "xmax": 38.72331,
+          "ymax": 52.48541
+        }
+      }
+    ]
+  },
+  "tashkent": {
+    "query": "Tashkent Uzbekistan",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Tashkent+Uzbekistan&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Tashkent",
+        "location": {
+          "x": 69.2891866,
+          "y": 41.3152751
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Tashkent",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 69.1891866,
+          "ymin": 41.2152751,
+          "xmax": 69.3891866,
+          "ymax": 41.4152751
+        }
+      },
+      {
+        "address": "Tashkent",
+        "location": {
+          "x": 69.21627,
+          "y": 41.26465
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Tashkent",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 69.00227,
+          "ymin": 41.05065,
+          "xmax": 69.43027,
+          "ymax": 41.47865
+        }
+      },
+      {
+        "address": "Tashkent",
+        "location": {
+          "x": 69.781494440934,
+          "y": 41.240710957637
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Tashkent",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 68.603494440934,
+          "ymin": 40.062710957637,
+          "xmax": 70.959494440934,
+          "ymax": 42.418710957637
+        }
+      }
+    ]
+  },
+  "helsinki": {
+    "query": "Helsinki Finland",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Helsinki+Finland&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Helsinki",
+        "location": {
+          "x": 24.991973176,
+          "y": 60.229686469
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Helsinki",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 24.779973176,
+          "ymin": 60.017686469,
+          "xmax": 25.203973176,
+          "ymax": 60.441686469
+        }
+      },
+      {
+        "address": "Helsinki",
+        "location": {
+          "x": 24.93545,
+          "y": 60.16952
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Helsinki",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 24.72245,
+          "ymin": 59.95652,
+          "xmax": 25.14845,
+          "ymax": 60.38252
+        }
+      },
+      {
+        "address": "Helsinki",
+        "location": {
+          "x": 24.943536799,
+          "y": 60.166640738
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Helsinki",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 24.942536799,
+          "ymin": 60.165640738,
+          "xmax": 24.944536799,
+          "ymax": 60.167640738
+        }
+      }
+    ]
+  },
+  "khiva": {
+    "query": "Khiva Uzbekistan",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Khiva+Uzbekistan&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Khiva, Khorezm",
+        "location": {
+          "x": 60.3591442,
+          "y": 41.3809159
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Khiva, Khorezm",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 60.3431442,
+          "ymin": 41.3649159,
+          "xmax": 60.3751442,
+          "ymax": 41.3969159
+        }
+      },
+      {
+        "address": "Khiva, Khorazm Oblast",
+        "location": {
+          "x": 60.36408,
+          "y": 41.38555
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Khiva, Khorazm Oblast",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 60.31708,
+          "ymin": 41.33855,
+          "xmax": 60.41108,
+          "ymax": 41.43255
+        }
+      }
+    ]
+  },
+  "crimea": {
+    "query": "Crimea",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Crimea&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Crimea",
+        "location": {
+          "x": 34.0,
+          "y": 45.0
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Crimea",
+          "Addr_type": "POI"
+        },
+        "extent": {
+          "xmin": 26.5,
+          "ymin": 37.5,
+          "xmax": 41.5,
+          "ymax": 52.5
+        }
+      },
+      {
+        "address": "Crimea, Louisiana",
+        "location": {
+          "x": -91.336035,
+          "y": 31.976782
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Crimea, Louisiana",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": -91.343035,
+          "ymin": 31.969782,
+          "xmax": -91.329035,
+          "ymax": 31.983782
+        }
+      },
+      {
+        "address": "Criméia, São Paulo",
+        "location": {
+          "x": -46.6702,
+          "y": -23.4918015
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Criméia, São Paulo",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": -46.6772,
+          "ymin": -23.4988015,
+          "xmax": -46.6632,
+          "ymax": -23.4848015
+        }
+      }
+    ]
+  },
+  "kursk": {
+    "query": "Kursk Russia",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Kursk+Russia&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Kursk, Kursk Oblast",
+        "location": {
+          "x": 36.1928618,
+          "y": 51.731391
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Kursk, Kursk Oblast",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 36.0788618,
+          "ymin": 51.617391,
+          "xmax": 36.3068618,
+          "ymax": 51.845391
+        }
+      },
+      {
+        "address": "Kursk, Kursk Oblast",
+        "location": {
+          "x": 36.158222375733,
+          "y": 51.727886535509
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Kursk, Kursk Oblast",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 36.044222375733,
+          "ymin": 51.613886535509,
+          "xmax": 36.272222375733,
+          "ymax": 51.841886535509
+        }
+      },
+      {
+        "address": "Kursk",
+        "location": {
+          "x": 36.18735,
+          "y": 51.73733
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Kursk",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 36.07235,
+          "ymin": 51.62233,
+          "xmax": 36.30235,
+          "ymax": 51.85233
+        }
+      }
+    ]
+  },
+  "volga": {
+    "query": "Volga River Russia",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Volga+River+Russia&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Volga River",
+        "location": {
+          "x": 32.57648,
+          "y": 57.22665
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Volga River",
+          "Addr_type": "POI"
+        },
+        "extent": {
+          "xmin": 30.07648,
+          "ymin": 54.72665,
+          "xmax": 35.07648,
+          "ymax": 59.72665
+        }
+      },
+      {
+        "address": "Volga, Tver",
+        "location": {
+          "x": 32.7459,
+          "y": 56.9048
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Volga, Tver",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 32.7399,
+          "ymin": 56.8988,
+          "xmax": 32.7519,
+          "ymax": 56.9108
+        }
+      },
+      {
+        "address": "Volga, Tver",
+        "location": {
+          "x": 35.37014,
+          "y": 56.72469
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Volga, Tver",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 35.35614,
+          "ymin": 56.71069,
+          "xmax": 35.38414,
+          "ymax": 56.73869
+        }
+      }
+    ]
+  },
+  "rhine": {
+    "query": "Rhine Germany",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Rhine+Germany&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Rhine",
+        "location": {
+          "x": 8.1187537,
+          "y": 50.0229456
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Rhine",
+          "Addr_type": "POI"
+        },
+        "extent": {
+          "xmin": 8.1137537,
+          "ymin": 50.0179456,
+          "xmax": 8.1237537,
+          "ymax": 50.0279456
+        }
+      }
+    ]
+  },
+  "babylon": {
+    "query": "Babylon Iraq",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Babylon+Iraq&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Babylon, Al-Mahawil District, Bābil",
+        "location": {
+          "x": 44.42417,
+          "y": 32.54083
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Babylon, Al-Mahawil District, Bābil",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 43.42417,
+          "ymin": 31.54083,
+          "xmax": 45.42417,
+          "ymax": 33.54083
+        }
+      }
+    ]
+  },
+  "flensburg": {
+    "query": "Flensburg Germany",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Flensburg+Germany&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Flensburg, Schleswig-Holstein",
+        "location": {
+          "x": 9.437509999,
+          "y": 54.782519999
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Flensburg, Schleswig-Holstein",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 9.382509999,
+          "ymin": 54.727519999,
+          "xmax": 9.492509999,
+          "ymax": 54.837519999
+        }
+      },
+      {
+        "address": "Flensburg, Schleswig-Holstein",
+        "location": {
+          "x": 9.431772586,
+          "y": 54.775069959
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Flensburg, Schleswig-Holstein",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 9.376772586,
+          "ymin": 54.720069959,
+          "xmax": 9.486772586,
+          "ymax": 54.830069959
+        }
+      },
+      {
+        "address": "Flensburg, Schleswig-Holstein",
+        "location": {
+          "x": 9.43961,
+          "y": 54.78431
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Flensburg, Schleswig-Holstein",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 9.40561,
+          "ymin": 54.75031,
+          "xmax": 9.47361,
+          "ymax": 54.81831
+        }
+      }
+    ]
+  },
+  "ostend": {
+    "query": "Ostend Belgium",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Ostend+Belgium&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Ostend",
+        "location": {
+          "x": 2.927,
+          "y": 51.21551
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Ostend",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 2.879,
+          "ymin": 51.16751,
+          "xmax": 2.975,
+          "ymax": 51.26351
+        }
+      },
+      {
+        "address": "Ostend, Oostende",
+        "location": {
+          "x": 2.92711,
+          "y": 51.2119
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Ostend, Oostende",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 2.86911,
+          "ymin": 51.1539,
+          "xmax": 2.98511,
+          "ymax": 51.2699
+        }
+      }
+    ]
+  },
+  "peterhof": {
+    "query": "Peterhof Russia",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Peterhof+Russia&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Peterhof, Sankt-Peterburg",
+        "location": {
+          "x": 29.9,
+          "y": 59.88333
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Peterhof, Sankt-Peterburg",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 29.847,
+          "ymin": 59.83033,
+          "xmax": 29.953,
+          "ymax": 59.93633
+        }
+      },
+      {
+        "address": "Peterhof",
+        "location": {
+          "x": 29.8927761,
+          "y": 59.8820769
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Peterhof",
+          "Addr_type": "POI"
+        },
+        "extent": {
+          "xmin": 29.8877761,
+          "ymin": 59.8770769,
+          "xmax": 29.8977761,
+          "ymax": 59.8870769
+        }
+      }
+    ]
+  },
+  "tsarskoe": {
+    "query": "Pushkin Saint Petersburg Russia",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Pushkin+Saint+Petersburg+Russia&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Pushkin, Pushkinskiy Rayon, Sankt-Peterburg",
+        "location": {
+          "x": 30.39642,
+          "y": 59.71417
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Pushkin, Pushkinskiy Rayon, Sankt-Peterburg",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 30.33642,
+          "ymin": 59.65417,
+          "xmax": 30.45642,
+          "ymax": 59.77417
+        }
+      },
+      {
+        "address": "Pushkin, Saint Petersburg, Sankt-Peterburg",
+        "location": {
+          "x": 30.4162159,
+          "y": 59.7218437
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Pushkin, Saint Petersburg, Sankt-Peterburg",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 30.3562159,
+          "ymin": 59.6618437,
+          "xmax": 30.4762159,
+          "ymax": 59.7818437
+        }
+      },
+      {
+        "address": "PUSHKIN",
+        "location": {
+          "x": 30.4080912,
+          "y": 59.7163305
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "PUSHKIN",
+          "Addr_type": "POI"
+        },
+        "extent": {
+          "xmin": 30.4030912,
+          "ymin": 59.7113305,
+          "xmax": 30.4130912,
+          "ymax": 59.7213305
+        }
+      }
+    ]
+  },
+  "krasnoe": {
+    "query": "Krasnoye Selo Saint Petersburg Russia",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Krasnoye+Selo+Saint+Petersburg+Russia&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Krasnoye Selo, Sankt-Peterburg",
+        "location": {
+          "x": 30.08944,
+          "y": 59.73833
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Krasnoye Selo, Sankt-Peterburg",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 30.04844,
+          "ymin": 59.69733,
+          "xmax": 30.13044,
+          "ymax": 59.77933
+        }
+      },
+      {
+        "address": "Krasnoye Selo, Saint Petersburg, Sankt-Peterburg",
+        "location": {
+          "x": 30.0878051,
+          "y": 59.7335512
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Krasnoye Selo, Saint Petersburg, Sankt-Peterburg",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 30.0268051,
+          "ymin": 59.6725512,
+          "xmax": 30.1488051,
+          "ymax": 59.7945512
+        }
+      },
+      {
+        "address": "Krasnoye Selo",
+        "location": {
+          "x": 30.10333,
+          "y": 59.73028
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Krasnoye Selo",
+          "Addr_type": "POI"
+        },
+        "extent": {
+          "xmin": 30.09833,
+          "ymin": 59.72528,
+          "xmax": 30.10833,
+          "ymax": 59.73528
+        }
+      }
+    ]
+  },
+  "moscow-zoo": {
+    "query": "Moscow Zoo Russia",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Moscow+Zoo+Russia&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Moscow Zoo",
+        "location": {
+          "x": 37.57765,
+          "y": 55.76394
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Moscow Zoo",
+          "Addr_type": "POI"
+        },
+        "extent": {
+          "xmin": 37.57265,
+          "ymin": 55.75894,
+          "xmax": 37.58265,
+          "ymax": 55.76894
+        }
+      }
+    ]
+  },
+  "nevsky": {
+    "query": "Nevsky Prospekt Saint Petersburg Russia",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Nevsky+Prospekt+Saint+Petersburg+Russia&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Nevskiy prospekt",
+        "location": {
+          "x": 30.3269746,
+          "y": 59.9354905
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Nevskiy prospekt",
+          "Addr_type": "POI"
+        },
+        "extent": {
+          "xmin": 30.3219746,
+          "ymin": 59.9304905,
+          "xmax": 30.3319746,
+          "ymax": 59.9404905
+        }
+      },
+      {
+        "address": "Nevskiy prospekt",
+        "location": {
+          "x": 30.3800594,
+          "y": 59.9341433
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Nevskiy prospekt",
+          "Addr_type": "POI"
+        },
+        "extent": {
+          "xmin": 30.3750594,
+          "ymin": 59.9291433,
+          "xmax": 30.3850594,
+          "ymax": 59.9391433
+        }
+      },
+      {
+        "address": "Nevskiy prospekt",
+        "location": {
+          "x": 30.386082,
+          "y": 59.924416
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Nevskiy prospekt",
+          "Addr_type": "POI"
+        },
+        "extent": {
+          "xmin": 30.381082,
+          "ymin": 59.919416,
+          "xmax": 30.391082,
+          "ymax": 59.929416
+        }
+      }
+    ]
+  },
+  "bolshaya-morskaya": {
+    "query": "Bolshaya Morskaya Street Saint Petersburg Russia",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Bolshaya+Morskaya+Street+Saint+Petersburg+Russia&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Bolshaya Morskaya Street",
+        "location": {
+          "x": 30.3075,
+          "y": 59.93229
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Bolshaya Morskaya Street",
+          "Addr_type": "POI"
+        },
+        "extent": {
+          "xmin": 30.3025,
+          "ymin": 59.92729,
+          "xmax": 30.3125,
+          "ymax": 59.93729
+        }
+      },
+      {
+        "address": "Bol'shaya Morskaya ulitsa, Sankt-Peterburg, Saint Petersburg, Sankt-Peterburg, 190031",
+        "location": {
+          "x": 30.310623225982,
+          "y": 59.933080037504
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Bol'shaya Morskaya ulitsa, Sankt-Peterburg, Saint Petersburg, Sankt-Peterburg, 190031",
+          "Addr_type": "StreetName"
+        },
+        "extent": {
+          "xmin": 30.309623225982,
+          "ymin": 59.932080037504,
+          "xmax": 30.311623225982,
+          "ymax": 59.934080037504
+        }
+      },
+      {
+        "address": "Bol'shaya Morskaya ulitsa, Sankt-Peterburg, Saint Petersburg, Sankt-Peterburg, 190121",
+        "location": {
+          "x": 30.293051089786,
+          "y": 59.929833210818
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Bol'shaya Morskaya ulitsa, Sankt-Peterburg, Saint Petersburg, Sankt-Peterburg, 190121",
+          "Addr_type": "StreetName"
+        },
+        "extent": {
+          "xmin": 30.292051089786,
+          "ymin": 59.928833210818,
+          "xmax": 30.294051089786,
+          "ymax": 59.930833210818
+        }
+      }
+    ]
+  },
+  "voz-dvizhenka": {
+    "query": "Vozdvizhenka Street Moscow Russia",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Vozdvizhenka+Street+Moscow+Russia&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Vozdvizhenka Street",
+        "location": {
+          "x": 37.606226,
+          "y": 55.75274
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Vozdvizhenka Street",
+          "Addr_type": "POI"
+        },
+        "extent": {
+          "xmin": 37.601226,
+          "ymin": 55.74774,
+          "xmax": 37.611226,
+          "ymax": 55.75774
+        }
+      },
+      {
+        "address": "Vozdvizhenka ulitsa, Moskva, Moscow, Moskva, 119019",
+        "location": {
+          "x": 37.605567270298,
+          "y": 55.752764221926
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Vozdvizhenka ulitsa, Moskva, Moscow, Moskva, 119019",
+          "Addr_type": "StreetName"
+        },
+        "extent": {
+          "xmin": 37.604567270298,
+          "ymin": 55.751764221926,
+          "xmax": 37.606567270298,
+          "ymax": 55.753764221926
+        }
+      },
+      {
+        "address": "Vozdvizhenka ulitsa, Moskva, Moscow, Moskva, 125009",
+        "location": {
+          "x": 37.60351355057,
+          "y": 55.752878020254
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Vozdvizhenka ulitsa, Moskva, Moscow, Moskva, 125009",
+          "Addr_type": "StreetName"
+        },
+        "extent": {
+          "xmin": 37.60251355057,
+          "ymin": 55.751878020254,
+          "xmax": 37.60451355057,
+          "ymax": 55.753878020254
+        }
+      }
+    ]
+  },
+  "sivtsev": {
+    "query": "Sivtsev Vrazhek Moscow Russia",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Sivtsev+Vrazhek+Moscow+Russia&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Sivtsev Vrazhek pereulok, Moskva, 119002",
+        "location": {
+          "x": 37.591237974423,
+          "y": 55.747218612469
+        },
+        "score": 98.29,
+        "attributes": {
+          "Match_addr": "Sivtsev Vrazhek pereulok, Moskva, 119002",
+          "Addr_type": "StreetName"
+        },
+        "extent": {
+          "xmin": 37.590237974423,
+          "ymin": 55.746218612469,
+          "xmax": 37.592237974423,
+          "ymax": 55.748218612469
+        }
+      },
+      {
+        "address": "Sivtsev Vrazhek pereulok, Moskva, 119019",
+        "location": {
+          "x": 37.598427395939,
+          "y": 55.74723426234
+        },
+        "score": 98.29,
+        "attributes": {
+          "Match_addr": "Sivtsev Vrazhek pereulok, Moskva, 119019",
+          "Addr_type": "StreetName"
+        },
+        "extent": {
+          "xmin": 37.597427395939,
+          "ymin": 55.74623426234,
+          "xmax": 37.599427395939,
+          "ymax": 55.74823426234
+        }
+      }
+    ]
+  },
+  "nikitskaya": {
+    "query": "Bolshaya Nikitskaya Street Moscow",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Bolshaya+Nikitskaya+Street+Moscow&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Bolshaya Nikitskaya Street",
+        "location": {
+          "x": 37.59754,
+          "y": 55.75741
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Bolshaya Nikitskaya Street",
+          "Addr_type": "POI"
+        },
+        "extent": {
+          "xmin": 37.59254,
+          "ymin": 55.75241,
+          "xmax": 37.60254,
+          "ymax": 55.76241
+        }
+      },
+      {
+        "address": "Bol'shaya Nikitskaya ulitsa, Moskva, Moscow, Moskva, 119071",
+        "location": {
+          "x": 37.592885278907,
+          "y": 55.717400194014
+        },
+        "score": 99.99,
+        "attributes": {
+          "Match_addr": "Bol'shaya Nikitskaya ulitsa, Moskva, Moscow, Moskva, 119071",
+          "Addr_type": "StreetName"
+        },
+        "extent": {
+          "xmin": 37.591885278907,
+          "ymin": 55.716400194014,
+          "xmax": 37.593885278907,
+          "ymax": 55.718400194014
+        }
+      },
+      {
+        "address": "Bol'shaya Nikitskaya ulitsa, Moskva, Moscow, Moskva, 121069",
+        "location": {
+          "x": 37.59366496819,
+          "y": 55.757509734952
+        },
+        "score": 99.99,
+        "attributes": {
+          "Match_addr": "Bol'shaya Nikitskaya ulitsa, Moskva, Moscow, Moskva, 121069",
+          "Addr_type": "StreetName"
+        },
+        "extent": {
+          "xmin": 37.59266496819,
+          "ymin": 55.756509734952,
+          "xmax": 37.59466496819,
+          "ymax": 55.758509734952
+        }
+      }
+    ]
+  },
+  "znamenka": {
+    "query": "Znamenka Street Moscow Russia",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Znamenka+Street+Moscow+Russia&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Znamenka ulitsa, Moskva, Moscow, Moskva, 119019",
+        "location": {
+          "x": 37.610853487721,
+          "y": 55.748666274229
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Znamenka ulitsa, Moskva, Moscow, Moskva, 119019",
+          "Addr_type": "StreetName"
+        },
+        "extent": {
+          "xmin": 37.609853487721,
+          "ymin": 55.747666274229,
+          "xmax": 37.611853487721,
+          "ymax": 55.749666274229
+        }
+      },
+      {
+        "address": "Znamenka ulitsa, Moskva, Moscow, Moskva, 119019",
+        "location": {
+          "x": 37.606525380783,
+          "y": 55.749750266345
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Znamenka ulitsa, Moskva, Moscow, Moskva, 119019",
+          "Addr_type": "StreetName"
+        },
+        "extent": {
+          "xmin": 37.605525380783,
+          "ymin": 55.748750266345,
+          "xmax": 37.607525380783,
+          "ymax": 55.750750266345
+        }
+      },
+      {
+        "address": "Znamenka ulitsa, Moskva, Moscow, Moskva, 119160",
+        "location": {
+          "x": 37.60171359602,
+          "y": 55.749562654112
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Znamenka ulitsa, Moskva, Moscow, Moskva, 119160",
+          "Addr_type": "StreetName"
+        },
+        "extent": {
+          "xmin": 37.60071359602,
+          "ymin": 55.748562654112,
+          "xmax": 37.60271359602,
+          "ymax": 55.750562654112
+        }
+      }
+    ]
+  },
+  "okhotny": {
+    "query": "Okhotny Ryad Moscow Russia",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Okhotny+Ryad+Moscow+Russia&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Okhotnyy Ryad",
+        "location": {
+          "x": 37.6158133,
+          "y": 55.756979
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Okhotnyy Ryad",
+          "Addr_type": "POI"
+        },
+        "extent": {
+          "xmin": 37.6108133,
+          "ymin": 55.751979,
+          "xmax": 37.6208133,
+          "ymax": 55.761979
+        }
+      },
+      {
+        "address": "Okhotnyy ryad",
+        "location": {
+          "x": 37.6145989,
+          "y": 55.7557794
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Okhotnyy ryad",
+          "Addr_type": "POI"
+        },
+        "extent": {
+          "xmin": 37.6095989,
+          "ymin": 55.7507794,
+          "xmax": 37.6195989,
+          "ymax": 55.7607794
+        }
+      },
+      {
+        "address": "Okhotnyy Ryad ulitsa, Moskva, Moscow, Moskva, 103265",
+        "location": {
+          "x": 37.616654311123,
+          "y": 55.757765859575
+        },
+        "score": 98.21,
+        "attributes": {
+          "Match_addr": "Okhotnyy Ryad ulitsa, Moskva, Moscow, Moskva, 103265",
+          "Addr_type": "StreetName"
+        },
+        "extent": {
+          "xmin": 37.615654311123,
+          "ymin": 55.756765859575,
+          "xmax": 37.617654311123,
+          "ymax": 55.758765859575
+        }
+      }
+    ]
+  },
+  "kislovka": {
+    "query": "Bolshoy Kislovsky Moscow Russia",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Bolshoy+Kislovsky+Moscow+Russia&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Bol'shoy Kislovskiy pereulok, Moskva, 125009",
+        "location": {
+          "x": 37.606315786278,
+          "y": 55.754611961765
+        },
+        "score": 98.29,
+        "attributes": {
+          "Match_addr": "Bol'shoy Kislovskiy pereulok, Moskva, 125009",
+          "Addr_type": "StreetName"
+        },
+        "extent": {
+          "xmin": 37.605315786278,
+          "ymin": 55.753611961765,
+          "xmax": 37.607315786278,
+          "ymax": 55.755611961765
+        }
+      },
+      {
+        "address": "Kislovskiy",
+        "location": {
+          "x": 37.6063477,
+          "y": 55.7550363
+        },
+        "score": 85,
+        "attributes": {
+          "Match_addr": "Kislovskiy",
+          "Addr_type": "POI"
+        },
+        "extent": {
+          "xmin": 37.6013477,
+          "ymin": 55.7500363,
+          "xmax": 37.6113477,
+          "ymax": 55.7600363
+        }
+      },
+      {
+        "address": "Planeta Fitnes v Bol'shom Kislovskom",
+        "location": {
+          "x": 37.6058075,
+          "y": 55.7548093
+        },
+        "score": 83.65,
+        "attributes": {
+          "Match_addr": "Planeta Fitnes v Bol'shom Kislovskom",
+          "Addr_type": "POI"
+        },
+        "extent": {
+          "xmin": 37.6008075,
+          "ymin": 55.7498093,
+          "xmax": 37.6108075,
+          "ymax": 55.7598093
+        }
+      }
+    ]
+  },
+  "arbat": {
+    "query": "Arbat Street Moscow Russia",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Arbat+Street+Moscow+Russia&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Arbat ulitsa, Moskva, Moscow, Moskva, 119002",
+        "location": {
+          "x": 37.594065983154,
+          "y": 55.750220386072
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Arbat ulitsa, Moskva, Moscow, Moskva, 119002",
+          "Addr_type": "StreetName"
+        },
+        "extent": {
+          "xmin": 37.593065983154,
+          "ymin": 55.749220386072,
+          "xmax": 37.595065983154,
+          "ymax": 55.751220386072
+        }
+      },
+      {
+        "address": "Arbat ulitsa, Moskva, Moscow, Moskva, 119019",
+        "location": {
+          "x": 37.599180880332,
+          "y": 55.752013529319
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Arbat ulitsa, Moskva, Moscow, Moskva, 119019",
+          "Addr_type": "StreetName"
+        },
+        "extent": {
+          "xmin": 37.598180880332,
+          "ymin": 55.751013529319,
+          "xmax": 37.600180880332,
+          "ymax": 55.753013529319
+        }
+      },
+      {
+        "address": "Arbat ulitsa, Moskva, Moscow, Moskva, 119200",
+        "location": {
+          "x": 37.58378672631,
+          "y": 55.747086971553
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Arbat ulitsa, Moskva, Moscow, Moskva, 119200",
+          "Addr_type": "StreetName"
+        },
+        "extent": {
+          "xmin": 37.58278672631,
+          "ymin": 55.746086971553,
+          "xmax": 37.58478672631,
+          "ymax": 55.748086971553
+        }
+      }
+    ]
+  },
+  "obiralovka": {
+    "query": "Zheleznodorozhnaya railway station Balashikha Russia",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Zheleznodorozhnaya+railway+station+Balashikha+Russia&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Zheleznodorozhny, Balashikha, Moscow Oblast",
+        "location": {
+          "x": 38.0082108,
+          "y": 55.7506557
+        },
+        "score": 85.37,
+        "attributes": {
+          "Match_addr": "Zheleznodorozhny, Balashikha, Moscow Oblast",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 38.0012108,
+          "ymin": 55.7436557,
+          "xmax": 38.0152108,
+          "ymax": 55.7576557
+        }
+      },
+      {
+        "address": "Zheleznodorozhnaya ulitsa, Balashikha, Moskovskaya oblast', 143930",
+        "location": {
+          "x": 37.925213780231,
+          "y": 55.75677470334
+        },
+        "score": 81.02,
+        "attributes": {
+          "Match_addr": "Zheleznodorozhnaya ulitsa, Balashikha, Moskovskaya oblast', 143930",
+          "Addr_type": "StreetName"
+        },
+        "extent": {
+          "xmin": 37.924213780231,
+          "ymin": 55.75577470334,
+          "xmax": 37.926213780231,
+          "ymax": 55.75777470334
+        }
+      },
+      {
+        "address": "Zheleznodorozhnaya ulitsa, Balashikha, Moskovskaya oblast', 143983",
+        "location": {
+          "x": 37.979428083741,
+          "y": 55.749882937098
+        },
+        "score": 81.02,
+        "attributes": {
+          "Match_addr": "Zheleznodorozhnaya ulitsa, Balashikha, Moskovskaya oblast', 143983",
+          "Addr_type": "StreetName"
+        },
+        "extent": {
+          "xmin": 37.978428083741,
+          "ymin": 55.748882937098,
+          "xmax": 37.980428083741,
+          "ymax": 55.750882937098
+        }
+      }
+    ]
+  },
+  "troitsa": {
+    "query": "Trinity Sergius Lavra Russia",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Trinity+Sergius+Lavra+Russia&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Royal Palaces Of The Trinity-Sergius Lavra",
+        "location": {
+          "x": 38.130471,
+          "y": 56.310686
+        },
+        "score": 87.96,
+        "attributes": {
+          "Match_addr": "Royal Palaces Of The Trinity-Sergius Lavra",
+          "Addr_type": "POI"
+        },
+        "extent": {
+          "xmin": 38.125471,
+          "ymin": 56.305686,
+          "xmax": 38.135471,
+          "ymax": 56.315686
+        }
+      }
+    ]
+  },
+  "mytishchi": {
+    "query": "Mytishchi Russia",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Mytishchi+Russia&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Mytishchi, Moscow Oblast",
+        "location": {
+          "x": 37.7364044,
+          "y": 55.9104996
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Mytishchi, Moscow Oblast",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 37.5574044,
+          "ymin": 55.7314996,
+          "xmax": 37.9154044,
+          "ymax": 56.0894996
+        }
+      },
+      {
+        "address": "Mytishchi, Moscow Oblast",
+        "location": {
+          "x": 37.73076,
+          "y": 55.91163
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Mytishchi, Moscow Oblast",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 37.65776,
+          "ymin": 55.83863,
+          "xmax": 37.80376,
+          "ymax": 55.98463
+        }
+      },
+      {
+        "address": "Mytishchi, Moscow Oblast",
+        "location": {
+          "x": 37.644388904388,
+          "y": 56.010230172624
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Mytishchi, Moscow Oblast",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 37.465388904388,
+          "ymin": 55.831230172624,
+          "xmax": 37.823388904388,
+          "ymax": 56.189230172624
+        }
+      }
+    ]
+  },
+  "venice": {
+    "query": "Venice Italy",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Venice+Italy&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Venice",
+        "location": {
+          "x": 12.338913,
+          "y": 45.434608
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Venice",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 12.144913,
+          "ymin": 45.240608,
+          "xmax": 12.532913,
+          "ymax": 45.628608
+        }
+      },
+      {
+        "address": "Venice",
+        "location": {
+          "x": 12.457297592894,
+          "y": 45.505844716967
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Venice",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 11.973297592894,
+          "ymin": 45.021844716967,
+          "xmax": 12.941297592894,
+          "ymax": 45.989844716967
+        }
+      },
+      {
+        "address": "Venice, Province of Venice",
+        "location": {
+          "x": 12.33265,
+          "y": 45.43713
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Venice, Province of Venice",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 12.30965,
+          "ymin": 45.41413,
+          "xmax": 12.35565,
+          "ymax": 45.46013
+        }
+      }
+    ]
+  },
+  "samara": {
+    "query": "Samara Russia",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Samara+Russia&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Samara, Samara Oblast",
+        "location": {
+          "x": 50.1631197,
+          "y": 53.2053488
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Samara, Samara Oblast",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 49.8831197,
+          "ymin": 52.9253488,
+          "xmax": 50.4431197,
+          "ymax": 53.4853488
+        }
+      },
+      {
+        "address": "Samara",
+        "location": {
+          "x": 50.15,
+          "y": 53.20007
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Samara",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 49.962,
+          "ymin": 53.01207,
+          "xmax": 50.338,
+          "ymax": 53.38807
+        }
+      },
+      {
+        "address": "Samara, Samara Oblast",
+        "location": {
+          "x": 50.153003829127,
+          "y": 53.269261281904
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Samara, Samara Oblast",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 49.873003829127,
+          "ymin": 52.989261281904,
+          "xmax": 50.433003829127,
+          "ymax": 53.549261281904
+        }
+      }
+    ]
+  },
+  "tsaritsyno": {
+    "query": "Tsaritsyno station Moscow Russia",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Tsaritsyno+station+Moscow+Russia&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Tsaritsyno Metro Station",
+        "location": {
+          "x": 37.6670634,
+          "y": 55.6245125
+        },
+        "score": 95.92,
+        "attributes": {
+          "Match_addr": "Tsaritsyno Metro Station",
+          "Addr_type": "POI"
+        },
+        "extent": {
+          "xmin": 37.6620634,
+          "ymin": 55.6195125,
+          "xmax": 37.6720634,
+          "ymax": 55.6295125
+        }
+      }
+    ]
+  },
+  "gazetny": {
+    "query": "Gazetny Pereulok Moscow Russia",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Gazetny+Pereulok+Moscow+Russia&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Gazetnyy pereulok, Moskva, Moscow, Moskva, 125009",
+        "location": {
+          "x": 37.609161439641,
+          "y": 55.757898964974
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Gazetnyy pereulok, Moskva, Moscow, Moskva, 125009",
+          "Addr_type": "StreetName"
+        },
+        "extent": {
+          "xmin": 37.608161439641,
+          "ymin": 55.756898964974,
+          "xmax": 37.610161439641,
+          "ymax": 55.758898964974
+        }
+      }
+    ]
+  },
+  "bolshoi": {
+    "query": "Bolshoi Theatre Moscow Russia",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Bolshoi+Theatre+Moscow+Russia&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Bolshoi Theatre",
+        "location": {
+          "x": 37.6186789,
+          "y": 55.7598536
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Bolshoi Theatre",
+          "Addr_type": "POI"
+        },
+        "extent": {
+          "xmin": 37.6136789,
+          "ymin": 55.7548536,
+          "xmax": 37.6236789,
+          "ymax": 55.7648536
+        }
+      }
+    ]
+  },
+  "penza": {
+    "query": "Penza Russia",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Penza+Russia&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Penza, Penza Oblast",
+        "location": {
+          "x": 44.9714228,
+          "y": 53.20381
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Penza, Penza Oblast",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 44.8244228,
+          "ymin": 53.05681,
+          "xmax": 45.1184228,
+          "ymax": 53.35081
+        }
+      },
+      {
+        "address": "Penza",
+        "location": {
+          "x": 45.00464,
+          "y": 53.20066
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Penza",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 44.87864,
+          "ymin": 53.07466,
+          "xmax": 45.13064,
+          "ymax": 53.32666
+        }
+      },
+      {
+        "address": "Penza, Penza Oblast",
+        "location": {
+          "x": 45.031645272207,
+          "y": 53.213279041186
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Penza, Penza Oblast",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 44.884645272207,
+          "ymin": 53.066279041186,
+          "xmax": 45.178645272207,
+          "ymax": 53.360279041186
+        }
+      }
+    ]
+  },
+  "kazan": {
+    "query": "Kazan Russia",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Kazan+Russia&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Kazan, Republic of Tatarstan",
+        "location": {
+          "x": 49.1198102,
+          "y": 55.7843352
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Kazan, Republic of Tatarstan",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 48.8968102,
+          "ymin": 55.5613352,
+          "xmax": 49.3428102,
+          "ymax": 56.0073352
+        }
+      },
+      {
+        "address": "Kazan, Kazan’, Tatarstan",
+        "location": {
+          "x": 49.12214,
+          "y": 55.78874
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Kazan, Kazan’, Tatarstan",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 48.91914,
+          "ymin": 55.58574,
+          "xmax": 49.32514,
+          "ymax": 55.99174
+        }
+      },
+      {
+        "address": "Kazan, Republic of Tatarstan",
+        "location": {
+          "x": 49.129198070751,
+          "y": 55.792129953088
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Kazan, Republic of Tatarstan",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 48.906198070751,
+          "ymin": 55.569129953088,
+          "xmax": 49.352198070751,
+          "ymax": 56.015129953088
+        }
+      }
+    ]
+  },
+  "bologoe": {
+    "query": "Bologoye railway station Russia",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Bologoye+railway+station+Russia&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Bologoye",
+        "location": {
+          "x": 34.0609193,
+          "y": 57.8862311
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Bologoye",
+          "Addr_type": "POI"
+        },
+        "extent": {
+          "xmin": 34.0559193,
+          "ymin": 57.8812311,
+          "xmax": 34.0659193,
+          "ymax": 57.8912311
+        }
+      }
+    ]
+  },
+  "usa": {
+    "query": "United States",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=United+States&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "United States",
+        "location": {
+          "x": -99.41461919,
+          "y": 39.398703156
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "United States",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": -145.49461919,
+          "ymin": -6.681296844,
+          "xmax": -53.33461919,
+          "ymax": 84.9
+        }
+      },
+      {
+        "address": "United States of America",
+        "location": {
+          "x": -75.534418,
+          "y": 40.613121
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "United States of America",
+          "Addr_type": "POI"
+        },
+        "extent": {
+          "xmin": -75.539418,
+          "ymin": 40.608121,
+          "xmax": -75.529418,
+          "ymax": 40.618121
+        }
+      },
+      {
+        "address": "United States",
+        "location": {
+          "x": -118.38395,
+          "y": 34.057826
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "United States",
+          "Addr_type": "POI"
+        },
+        "extent": {
+          "xmin": -118.38495,
+          "ymin": 34.056826,
+          "xmax": -118.38295,
+          "ymax": 34.058826
+        }
+      }
+    ]
+  },
+  "vienna": {
+    "query": "Vienna Austria",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Vienna+Austria&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Vienna",
+        "location": {
+          "x": 16.3727778,
+          "y": 48.2092062
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Vienna",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 16.2227778,
+          "ymin": 48.0592062,
+          "xmax": 16.5227778,
+          "ymax": 48.3592062
+        }
+      },
+      {
+        "address": "Vienna",
+        "location": {
+          "x": 16.37208,
+          "y": 48.20849
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Vienna",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 16.22108,
+          "ymin": 48.05749,
+          "xmax": 16.52308,
+          "ymax": 48.35949
+        }
+      },
+      {
+        "address": "Vienna",
+        "location": {
+          "x": 16.377850064085,
+          "y": 48.20843449942
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Vienna",
+          "Addr_type": "Locality"
+        },
+        "extent": {
+          "xmin": 16.227850064085,
+          "ymin": 48.05843449942,
+          "xmax": 16.527850064085,
+          "ymax": 48.35843449942
+        }
+      }
+    ]
+  },
+  "baltic": {
+    "query": "Baltic Sea",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Baltic+Sea&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Baltic Sea",
+        "location": {
+          "x": 18.0,
+          "y": 56.0
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Baltic Sea",
+          "Addr_type": "POI"
+        },
+        "extent": {
+          "xmin": 12.989,
+          "ymin": 50.989,
+          "xmax": 23.011,
+          "ymax": 61.011
+        }
+      },
+      {
+        "address": "Baltic Sea",
+        "location": {
+          "x": 20.625141220791,
+          "y": 57.386990141582
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Baltic Sea",
+          "Addr_type": "POI"
+        },
+        "extent": {
+          "xmin": 16.294141220791,
+          "ymin": 53.055990141582,
+          "xmax": 24.956141220791,
+          "ymax": 61.717990141582
+        }
+      },
+      {
+        "address": "Baltic Sea",
+        "location": {
+          "x": 11.7709237,
+          "y": 54.1510783
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Baltic Sea",
+          "Addr_type": "POI"
+        },
+        "extent": {
+          "xmin": 11.7659237,
+          "ymin": 54.1460783,
+          "xmax": 11.7759237,
+          "ymax": 54.1560783
+        }
+      }
+    ]
+  },
+  "corso": {
+    "query": "Via del Corso Rome Italy",
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Via+del+Corso+Rome+Italy&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "candidates": [
+      {
+        "address": "Via del Corso",
+        "location": {
+          "x": 12.4795,
+          "y": 41.9032
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Via del Corso",
+          "Addr_type": "POI"
+        },
+        "extent": {
+          "xmin": 12.4745,
+          "ymin": 41.8982,
+          "xmax": 12.4845,
+          "ymax": 41.9082
+        }
+      },
+      {
+        "address": "Via del Corso",
+        "location": {
+          "x": 12.5073042,
+          "y": 41.9158802
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Via del Corso",
+          "Addr_type": "POI"
+        },
+        "extent": {
+          "xmin": 12.5023042,
+          "ymin": 41.9108802,
+          "xmax": 12.5123042,
+          "ymax": 41.9208802
+        }
+      },
+      {
+        "address": "Via del Corso, 00186, Roma",
+        "location": {
+          "x": 12.480111084438,
+          "y": 41.901768003314
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Via del Corso, 00186, Roma",
+          "Addr_type": "StreetName"
+        },
+        "extent": {
+          "xmin": 12.479111084438,
+          "ymin": 41.900768003314,
+          "xmax": 12.481111084438,
+          "ymax": 41.902768003314
+        }
+      }
+    ]
+  }
+}

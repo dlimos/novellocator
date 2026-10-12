@@ -216,9 +216,10 @@ function renderQuote(quote,places=[],terms=[]){
  let html='',cursor=0;for(const range of merged){html+=esc(text.slice(cursor,range.start))+'<strong class="quote-place">'+esc(text.slice(range.start,range.end))+'</strong>';cursor=range.end;}
  return html+esc(text.slice(cursor));
 }
+const excerptLanguageNames={en:'English',fr:'French',ru:'Russian',it:'Italian',es:'Spanish'};
 function renderExcerpts(excerpts,heading,places=[]){
  if(!excerpts)return '';
- const languageNames={en:'English',fr:'French',ru:'Russian',it:'Italian',es:'Spanish'};
+ const languageNames=excerptLanguageNames;
  const records=[];
  for(const item of [excerpts.original,excerpts.translations?.en,excerpts.translations?.[locale]])if(item&&!records.some(record=>record.language===item.language))records.push(item);
  if(!records.length)return '';
@@ -242,7 +243,7 @@ function renderDetail(){
  renderLocation();
  if(chapter.unlocatedPlaces?.length){
   const section=document.createElement('section');section.className='unlocated-places';
-  section.innerHTML=`<h3>${esc(t('Locations without verified coordinates'))}</h3>${chapter.unlocatedPlaces.map(item=>`<details class="location-evidence"><summary>${esc(item.name)}</summary><p>${esc(item.text)}</p>${item.quote?`<p><strong>${esc(t('Original text'))} · ${esc(t(item.language==='es'?'Spanish':'English'))}</strong></p><blockquote lang="${esc(item.language||'en')}">${renderQuote(item.quote,[item],item.highlightTerms||[])}</blockquote>`:''}${item.url?`<a href="${esc(item.url)}" target="_blank" rel="noopener noreferrer">${esc(t('Read the source'))}</a>`:""}</details>`).join('')}`;
+  section.innerHTML=`<h3>${esc(t('Locations without verified coordinates'))}</h3>${chapter.unlocatedPlaces.map(item=>`<details class="location-evidence"><summary>${esc(item.name)}</summary><p>${esc(item.text)}</p>${item.quote?`<p><strong>${esc(t('Original text'))} · ${esc(t(excerptLanguageNames[item.language||'en']||item.language))}</strong></p><blockquote lang="${esc(item.language||'en')}">${renderQuote(item.quote,[item],item.highlightTerms||[])}</blockquote>`:''}${item.url?`<a href="${esc(item.url)}" target="_blank" rel="noopener noreferrer">${esc(t('Read the source'))}</a>`:""}</details>`).join('')}`;
   document.getElementById('selected-location').parentElement.appendChild(section);
  }
 }
