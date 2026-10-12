@@ -130,6 +130,7 @@ mention=phrase('Named reference, reported residence, comparison or planned/recal
 uncertain=phrase('The narrative name does not establish a unique real-world location. No coordinates are assigned.','Il nome narrativo non identifica un luogo reale univoco. Non sono assegnate coordinate.','Le nom narratif ne permet pas une localisation réelle unique. Aucune coordonnée n’est attribuée.','El nombre narrativo no identifica una ubicación real única. No se asignan coordenadas.')
 geonote=phrase('Representative point for the named area, street or institution; not an exact character position or a fictional address. Historical borders may differ from modern map labels.','Punto rappresentativo dell’area, strada o istituzione nominata; non indica la posizione esatta del personaggio o un indirizzo immaginario. I confini storici possono differire dalle etichette moderne.','Point indicatif de la région, rue ou institution nommée ; ni position exacte du personnage ni adresse fictive. Les frontières historiques peuvent différer des indications modernes.','Punto representativo de la zona, calle o institución nombrada; no indica la posición exacta del personaje ni una dirección ficticia. Las fronteras históricas pueden diferir de las etiquetas modernas.')
 # Scene overrides are individually tied to an original paragraph, not a city-wide category.
+map_note=phrase('Real places use representative map points. Fictional estates, unnamed interiors and uncertain settings retain original quotations without arbitrary coordinates.','I luoghi reali usano punti rappresentativi sulla mappa. Tenute narrative, interni non nominati e ambientazioni incerte conservano le citazioni originali senza coordinate arbitrarie.','Les lieux réels utilisent des points indicatifs sur la carte. Domaines fictifs, intérieurs sans nom et cadres incertains conservent les citations originales sans coordonnées arbitraires.','Los lugares reales utilizan puntos representativos en el mapa. Fincas ficticias, interiores sin nombre y escenarios inciertos conservan las citas originales sin coordenadas arbitrarias.')
 # Named places omitted from this list remain mentioned, including summarized past journeys.
 A={
 (7,'moscow'):(0,'Levin enters Koznyshev’s study after arriving in Moscow; the arrival and conversation form the scene.'),
@@ -183,6 +184,14 @@ def quote(s,idx,pattern=None):
     return q
 def passage(s,q,terms):
     return {'language':'ru','type':'original','quote':q,'attribution':f"Л. Н. Толстой, Анна Каренина, часть {s['part']}, глава {s['chapter']}; ПСС, т. {s['volume']} ({1934 if s['volume']==18 else 1935}), Н. К. Гудзий / П. Н. Сакулин",'url':s['url'],'rightsUrl':s['url'],'edition':f"ПСС в 90 томах, том {s['volume']}, Москва{' — Ленинград' if s['volume']==18 else ''}, Художественная литература, {1934 if s['volume']==18 else 1935}; tolstoy.ru electronic edition",'highlightTerms':terms}
+def full_forms(q,pattern):
+    forms=[]
+    for m in re.finditer(r'(?<![\w-])(?:'+pattern+')',q):
+        start,end=m.span()
+        while start>0 and (q[start-1].isalpha() or q[start-1]=='-'):start-=1
+        while end<len(q) and (q[end].isalpha() or q[end]=='-'):end+=1
+        forms.append(q[start:end])
+    return list(dict.fromkeys(forms))
 data={'book':{'id':ID,'title':'Anna Karenina','author':'Leo Tolstoy','year':'1878','originalLanguage':'ru','unit':'Chapter','hashPrefix':'section','description':'Eight parts: Moscow, Petersburg, country estates, railways and European journeys.','sidebarTitle':'The eight parts','help':'Choose a chapter or explore all places.','sidebarNote':uncertain,'initialView':{'center':[35,57],'zoom':5},'citationCsvPrefix':ID+'-citations','links':[{'url':f'https://tolstoy.ru/online/90/{v}/','label':f'Tolstoy · critical Russian edition · volume {v}'} for v in (18,19)]+[{'url':'https://community.middlebury.edu/~beyer/courses/RUSS0101a-f05/Tolstoy/setting_significance.htm','label':'Middlebury · role of setting'},{'url':'https://tolstoymuseum.ru/wp-content/uploads/2023/04/sbornik-2016_compressed.pdf','label':'Tolstoy Museum · scholarly proceedings (2016)'}],'footerHtml':'<p>Complete original Russian: 239 chapters in eight parts, based on PSS volumes 18 (1934) and 19 (1935). The epigraph is retained in the research corpus; the novel has no separate prologue or epilogue. Historical place names and uncertain estates are documented separately from modern coordinates.</p>'},'chapters':[],'places':{},'citedPlaces':{}}
 analysis={'bookId':ID,'edition':{'volumes':[18,19],'years':[1934,1935],'language':'ru','source':'tolstoy.ru','epigraph':'Мне отмщение, и Аз воздам.','noSeparatePrologueOrEpilogue':True},'structure':{'parts':[34,35,32,23,33,32,31,19],'chapters':239,'characters':sum(len(s['text']) for s in S)},'method':'Whole-corpus paragraph search, proper-name and locative-form census, section-by-section contextual review of candidates and scene settings. Category belongs to each reference. Summaries, provenance and proposed journeys remain mentioned. This is not a diplomatic collation or a guarantee that every implicit geographical allusion has been exhausted.','sections':[],'ambiguities':[],'specialistSources':[{'url':'https://tolstoy.ru/online/90/18/','role':'Original text and critical preface'},{'url':'https://tolstoy.ru/online/90/19/','role':'Original text, textual commentary and name index'},{'url':'https://community.middlebury.edu/~beyer/courses/RUSS0101a-f05/Tolstoy/setting_significance.htm','role':'Teaching resource; interpretive comparison of cities and estates, not coordinate evidence'},{'url':'https://tolstoymuseum.ru/wp-content/uploads/2023/04/sbornik-2016_compressed.pdf','role':'Museum scholarly proceedings; railway geography and Obiralovka'},{'url':'https://ypmuseum.ru/filials/pokrovskoe?lang=ru','role':'Real Tolstoy-family estate; its existence does not prove identity with Levin’s fictional estate'}]}
 def place(k):
@@ -256,8 +265,9 @@ scenes=[
 ('125,127-130','wedding-church','Church of Kitty and Levin’s wedding',r'церк|обедн','Confession, betrothal and wedding rites are enacted in a Moscow church; no particular church is claimed.'),
 ('131-137','italian-city','Unnamed Italian city, palazzo and artist’s studio',r'итальянский город|гостиниц|палаццо|студи|комнат|диван|домой','Anna and Vronsky’s Italian stay and Mikhailov’s painting sessions. Venice, Rome and Naples are summarized earlier stops, not the unnamed city’s proven identity.'),
 ('141-144','provincial-hotel','Provincial hotel where Nikolai Levin dies',r'гостиниц|нумер|комнат|больного','Levin and Kitty care for the dying Nikolai in an unnamed provincial hotel. The doctor summoned from Moscow does not make the hotel a Moscow setting.'),
-('147-149,210-211','lydia-house','Lydia Ivanovna’s house and study',r'кабинет|комнат|стол|дом[аеу]?','Lydia discusses Karenin’s situation and later receives Oblonsky and Landau; precise address unknown.'),
+('147,149,210-211','lydia-house','Lydia Ivanovna’s house and study',r'кабинет|комнат|стол|дом[аеу]?','Lydia discusses Karenin’s situation and later receives Oblonsky and Landau; precise address unknown.'),
 ('148','palace','Imperial palace reception',r'дворц|поздравл','Officials gather for congratulations and discuss Karenin; the excerpt does not establish a particular palace.'),
+('148','palace-door','Palace doorway where Lydia meets Karenin',r'вышедшей в дверь','Lydia emerges through a doorway and Karenin approaches her during the palace reception. This is not Lydia’s house; no particular palace is identified.'),
 ('152,155-156','petersburg-hotel','Anna and Vronsky’s Petersburg hotel',r'гостиниц|комнат|отделени','Anna stays in the hotel, prepares for visits and receives Vronsky and Yashvin.'),
 ('157','opera-scandal','Petersburg opera audience and box',r'театр|лож|опер','Vronsky goes to the opera; Anna experiences public rejection in her box. The theatre remains unnamed in the novel.'),
 ('161-162','mushroom-woods','Woods of the mushroom-picking outing',r'лес|гриб|берез|опушк','Koznyshev and Varenka walk and gather mushrooms; the expected proposal does not happen.'),
@@ -291,13 +301,16 @@ scenes=[
 # Editorial corrections after reviewing the generated scene evidence. Select enacted passages
 # instead of incidental nouns in biographical introductions or distant recollections.
 scene_paragraphs={(1,'oblonsky-house'):2,(5,'office'):4,(28,'oblonsky-house'):3,(36,'kitty-room'):6,
-    (42,'karenin-house'):1,(58,'racecourse'):11,(66,'soden-spa'):20,
+    (42,'karenin-house'):1,(58,'racecourse'):11,(66,'soden-spa'):20,(88,'military-quarters'):2,
     (73,'mowing'):19,(75,'levin-house'):1,(100,'levin-house'):0,(125,'wedding-church'):12,
     (153,'karenin-house'):7,(183,'election-rooms'):7,(187,'election-rooms'):31,
     (188,'election-dinner'):2,(189,'vozdvizhen-house'):5,(193,'lvov-house'):3,
     (194,'concert'):1,(206,'karenin-house'):4,(234,'levin-house'):42}
 scene_conservative={16,51,60,67,76,77,80,82,84,86,88,89,91,95,99,104,115,117,118,120,
-    131,138,140,143,145,147,157,165,170,175,190,200,203,207,208,215,217,231,235,236,50,56}
+    131,138,140,143,145,147,157,165,170,175,190,200,203,207,208,215,217,231,235,236,50,56,101}
+scene_forms={(57,'karenin-dacha'):r'террас', (88,'military-quarters'):r'стол',
+    (101,'levin-house'):r'отъездом', (207,'karenin-house'):r'кресл',
+    (235,'levin-house'):r'сюда'}
 def ids(spec):
     for p in spec.split(','):
         if '-' in p:
@@ -306,15 +319,16 @@ def ids(spec):
 for spec,key,name,pattern,reason in scenes:
     for sid in ids(spec):
         s,c,refs=records[sid]
-        hits=[(i,p) for i,p in enumerate(s['paragraphs']) if re.search(pattern,p)]
+        local_pattern=scene_forms.get((sid,key),pattern)
+        hits=[(i,p) for i,p in enumerate(s['paragraphs']) if re.search(r'(?<![\w-])(?:'+local_pattern+')',p)]
         if not hits:continue
         pi,p=hits[0]
         if (sid,key) in scene_paragraphs:pi=scene_paragraphs[sid,key];p=s['paragraphs'][pi]
-        q=quote(s,pi,pattern)
-        terms=list(dict.fromkeys(m.group() for m in re.finditer(pattern,q)))
+        q=quote(s,pi,local_pattern)
+        terms=full_forms(q,local_pattern)
         if not terms:
             # A continuation can establish the room by a literal door/stair/furniture form.
-            terms=[m.group() for m in re.finditer(r'передн\w*|лестниц\w*|гостиниц\w*|кабинет\w*|церк\w*|стол\w*|дом\w*|комнат\w*|беседк\w*|стул\w*|крыльц\w*|зал\w*|двор\w*',q)][:3]
+            terms=full_forms(q,r'передн\w*|лестниц\w*|гостиниц\w*|кабинет\w*|церк\w*|стол\w*|дом\w*|комнат\w*|беседк\w*|стул\w*|крыльц\w*|зал\w*|двор\w*')[:3]
         if not terms:continue
         # Explicit scene proofs require an enacted gesture/movement/perception, not an address or biographical summary.
         enacted=re.search(r'вош|выш|пош|приш|стоя|сид|леж|сказ|говор|поех|приех|подъех|смотр|оглян|ход|шел|шли|встал|кос|села|побеж|слуш|пил|чит|плак|крич|держ|был[аи]?|собрал|провел|просну|думал|брос|увид|застал',q)
@@ -330,8 +344,10 @@ for sid,(s,c,refs) in records.items():
     c['excerpts']={'original':passage(s,s['paragraphs'][0],[]),'translations':{}}
 analysis['counts']={'mappedPlaces':len(data['places']),'mappedReferences':sum(len(c['places']) for c in data['chapters']),'unlocatedReferences':sum(len(c['unlocatedPlaces']) for c in data['chapters'])}
 # Expose category and attribution consistently, including unlocated narrative interiors.
+data['book']['sidebarNote']=map_note
 scene_note=phrase('The quotation documents a narrated setting. Where the place is unnamed, its identification follows the chapter’s narrative continuity; no exact real-world address is claimed.','La citazione documenta un’ambientazione narrata. Per gli spazi non nominati, l’identificazione segue la continuità narrativa del capitolo; non è attribuito un indirizzo reale preciso.','La citation documente un cadre raconté. Pour les lieux sans nom, l’identification suit la continuité narrative du chapitre ; aucune adresse réelle précise n’est affirmée.','La cita documenta un escenario narrado. Para los lugares sin nombre, la identificación sigue la continuidad narrativa del capítulo; no se afirma una dirección real exacta.')
 for c in data['chapters']:
+    c['note']=map_note
     for u in c['unlocatedPlaces']:
         u['narrativeReason']=u['text']
         u['text']=(scene_note if u['category']=='action' else mention)+' '+uncertain

@@ -85,8 +85,8 @@
             2
           ],
           "highlightTerms": [
-            "спальн",
-            "кабинет"
+            "спальне",
+            "кабинете"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -174,7 +174,7 @@
             0
           ],
           "highlightTerms": [
-            "стол"
+            "столовую"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -201,7 +201,7 @@
             0
           ],
           "highlightTerms": [
-            "комнат",
+            "комнате",
             "доме"
           ],
           "narrativeLevel": "primary narrative",
@@ -352,7 +352,8 @@
           ],
           "highlightTerms": [
             "кабинет",
-            "присутств"
+            "присутствие",
+            "присутствии"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -558,7 +559,7 @@
             18
           ],
           "highlightTerms": [
-            "стул"
+            "стула"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -695,8 +696,8 @@
             0
           ],
           "highlightTerms": [
-            "гостиниц",
-            "столов"
+            "гостиницу",
+            "столовую"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -797,9 +798,9 @@
           "id": "shcherbatsky-house",
           "category": "mentioned",
           "reason": "The Shcherbatsky family and Levin’s proposal or engagement; the precise house address is unverified. The selected passage is introductory, retrospective or uncertain; conservatively mentioned.",
-          "quote": "Появление Левина в начале зимы, его частые посещения и явная любовь к Кити были поводом к первым серьезным разговорам между родителями Кити о ее будущности и к спорам между князем и княгинею. Князь был на стороне Левина, говорил, что он ничего не желает лучшего для Кити. Княгиня же, со свойственною женщинам привычкой обходить вопрос, говорила, что Кити слишком молода, что Левин ничем не показывает, что имеет серьезные намерения, что Кити не имеет к нему привязанности, и другие доводы; но не говорила главного, того, что она ждет лучшей партии для дочери, и что Левин несимпатичен ей, и что она не понимает его. Когда же Левин внезапно уехал, княгиня была рада и с торжеством говорила мужу: «видишь, я была права». Когда же появился Вронский, она еще более была рада, утвердившись в своем мнении, что Кити должна сделать не просто хорошую, но блестящую партию.",
+          "quote": "Для матери не могло быть никакого сравнения между Вронским и Левиным. Матери не нравились в Левине и его странные и резкие суждения, и его неловкость в свете, основанная, как она полагала, на гордости, и его, по ее понятиям, дикая какая-то жизнь в деревне, с занятиями скотиной и мужиками; не нравилось очень и то, что он, влюбленный в ее дочь, ездил в дом полтора месяца, чего-то как будто ждал, высматривал, как будто боялся, не велика ли будет честь, если он сделает предложение, и не понимал, что, ездя в дом, где девушка невеста, надо было объясниться. И вдруг, не объяснившись, уехал. «Хорошо, что он так непривлекателен, что Кити не влюбилась в него», думала мать.",
           "paragraphs": [
-            1
+            2
           ],
           "highlightTerms": [
             "дом"
@@ -829,8 +830,8 @@
             3
           ],
           "highlightTerms": [
-            "гостин",
-            "комнат"
+            "гостиную",
+            "комнате"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -961,7 +962,7 @@
             15
           ],
           "highlightTerms": [
-            "комнат"
+            "комнату"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -1039,7 +1040,7 @@
             1
           ],
           "highlightTerms": [
-            "кабинет"
+            "кабинете"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -1215,7 +1216,7 @@
             0
           ],
           "highlightTerms": [
-            "станци"
+            "станцию"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -1261,7 +1262,7 @@
             0
           ],
           "highlightTerms": [
-            "кондуктор",
+            "кондуктором",
             "вагон"
           ],
           "narrativeLevel": "primary narrative",
@@ -1307,8 +1308,8 @@
             0
           ],
           "highlightTerms": [
-            "комнат",
-            "гостин"
+            "комнату",
+            "гостиной"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -1413,7 +1414,7 @@
             0
           ],
           "highlightTerms": [
-            "комнат"
+            "комнаты"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -1440,9 +1441,12 @@
             0
           ],
           "highlightTerms": [
+            "залитую",
+            "лестницу",
             "зал",
-            "лестниц",
-            "вальс"
+            "залы",
+            "вальс",
+            "лестнице"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -1503,7 +1507,7 @@
             0
           ],
           "highlightTerms": [
-            "вальс"
+            "вальса"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -1586,7 +1590,7 @@
             18
           ],
           "highlightTerms": [
-            "стол"
+            "столь"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -1683,7 +1687,7 @@
           ],
           "highlightTerms": [
             "углу",
-            "комнат"
+            "комнаты"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -1728,7 +1732,7 @@
             0
           ],
           "highlightTerms": [
-            "дом"
+            "домой"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -1833,7 +1837,7 @@
             3
           ],
           "highlightTerms": [
-            "комнат"
+            "комнату"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -1860,8 +1864,9 @@
             0
           ],
           "highlightTerms": [
-            "вагон",
-            "диванчик"
+            "вагоне",
+            "диванчик",
+            "вагона"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -1907,7 +1912,7 @@
           ],
           "highlightTerms": [
             "станции",
-            "платформ"
+            "платформы"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -2098,7 +2103,7 @@
           ],
           "highlightTerms": [
             "кабинет",
-            "гостин"
+            "гостиную"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -2181,7 +2186,7 @@
             0
           ],
           "highlightTerms": [
-            "квартир"
+            "квартиру"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -2252,7 +2257,7 @@
             6
           ],
           "highlightTerms": [
-            "кабинет"
+            "кабинета"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -2280,7 +2285,7 @@
           ],
           "highlightTerms": [
             "кабинет",
-            "комнат"
+            "комнатку"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -2344,8 +2349,8 @@
             6
           ],
           "highlightTerms": [
-            "театр",
-            "лож"
+            "театре",
+            "ложу"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -2365,14 +2370,14 @@
       "references": [
         {
           "id": "opera",
-          "category": "mentioned",
-          "reason": "Betsy and Vronsky converse at the opera; the excerpt does not name the building, so Mariinsky Theatre is not asserted. The selected passage is introductory, retrospective or uncertain; conservatively mentioned.",
-          "quote": "— Может быть. Едут на обед к товарищу, в самом веселом расположении духа. И видят, хорошенькая женщина обгоняет их на извозчике, оглядывается и, им по крайней мере кажется, кивает им и смеется. Они, разумеется, зa ней. Скачут во весь дух. К удивлению их, красавица останавливается у подъезда того самого дома, куда они едут. Красавица взбегает на верхний этаж. Они видят только румяные губки из-под короткого вуаля и прекрасные маленькие ножки.",
+          "category": "action",
+          "reason": "Betsy and Vronsky converse at the opera; the excerpt does not name the building, so Mariinsky Theatre is not asserted.",
+          "quote": "— Ах, это надо рассказать вам! — смеясь обратилась Бетси к входившей в ее ложу даме. — Он так насмешил меня.",
           "paragraphs": [
-            6
+            17
           ],
           "highlightTerms": [
-            "лож"
+            "ложу"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -2451,7 +2456,7 @@
             0
           ],
           "highlightTerms": [
-            "гостин",
+            "гостиной",
             "дому"
           ],
           "narrativeLevel": "primary narrative",
@@ -2497,7 +2502,7 @@
             0
           ],
           "highlightTerms": [
-            "гостин"
+            "гостиную"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -2524,10 +2529,10 @@
             1
           ],
           "highlightTerms": [
-            "дом",
+            "домой",
             "кабинет",
-            "постел",
-            "комнат"
+            "постель",
+            "комнатам"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -2554,7 +2559,7 @@
             1
           ],
           "highlightTerms": [
-            "постел"
+            "постели"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -2649,12 +2654,13 @@
           "id": "levin-house",
           "category": "mentioned",
           "reason": "Domestic, agricultural or reflective action at Levin’s estate. The context identifies Pokrovskoye; no real estate is equated with the fictional house. The selected passage is introductory, retrospective or uncertain; conservatively mentioned.",
-          "quote": "Он помнил, как он пред отъездом в Москву сказал раз своему скотнику Николаю, наивному мужику, с которым он любил поговорить: «Что, Николай! хочу жениться», и как Николай поспешно отвечал, как о деле, в котором не может быть никакого сомнения: «И давно пора, Константин Дмитрич». Но женитьба теперь стала от него дальше, чем когда-либо.",
+          "quote": "Кроме хозяйства, требовавшего особенного внимания весною, кроме чтения, Левин начал этою зимой еще сочинение о хозяйстве, план которого состоял в том, чтобы характер рабочего в хозяйстве был принимаем зa абсолютное данное, как климат и почва, и чтобы, следовательно, все положения науки о хозяйстве выводились не из одних данных почвы и климата, но из данных почвы, климата и известного неизменного характера рабочего.",
           "paragraphs": [
-            1
+            2
           ],
           "highlightTerms": [
-            "дом"
+            "хозяйства",
+            "хозяйстве"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -2732,7 +2738,7 @@
             0
           ],
           "highlightTerms": [
-            "хозяйств"
+            "хозяйству"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -2776,7 +2782,7 @@
             0
           ],
           "highlightTerms": [
-            "дом",
+            "домой",
             "дому"
           ],
           "narrativeLevel": "primary narrative",
@@ -2804,10 +2810,10 @@
             0
           ],
           "highlightTerms": [
-            "речк",
-            "осин",
-            "лес",
-            "полян"
+            "речкой",
+            "осиннике",
+            "лесу",
+            "полянки"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -2834,7 +2840,7 @@
             0
           ],
           "highlightTerms": [
-            "дом"
+            "домой"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -3021,8 +3027,8 @@
             0
           ],
           "highlightTerms": [
-            "зал",
-            "изб"
+            "залу",
+            "избегал"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -3067,7 +3073,8 @@
             0
           ],
           "highlightTerms": [
-            "изб"
+            "избе",
+            "избу"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -3111,8 +3118,7 @@
             0
           ],
           "highlightTerms": [
-            "гипподром",
-            "скач"
+            "гипподрома"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -3184,7 +3190,7 @@
             22
           ],
           "highlightTerms": [
-            "дом"
+            "террасу"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -3263,9 +3269,10 @@
             11
           ],
           "highlightTerms": [
-            "беседк",
-            "скач",
-            "круг"
+            "беседкам",
+            "скачка",
+            "круга",
+            "скачки"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -3292,9 +3299,11 @@
             0
           ],
           "highlightTerms": [
-            "круг",
-            "беседк",
-            "скач"
+            "кругу",
+            "беседкой",
+            "скачки",
+            "беседки",
+            "круга"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -3408,8 +3417,7 @@
             0
           ],
           "highlightTerms": [
-            "дом",
-            "дач"
+            "дачу"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -3453,7 +3461,7 @@
             2
           ],
           "highlightTerms": [
-            "дома"
+            "домашним"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -3497,9 +3505,9 @@
             0
           ],
           "highlightTerms": [
-            "скач",
-            "беседк",
-            "круг"
+            "скачках",
+            "беседке",
+            "круглую"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -3544,7 +3552,7 @@
           ],
           "highlightTerms": [
             "круг",
-            "беседк"
+            "беседке"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -3606,7 +3614,7 @@
           ],
           "highlightTerms": [
             "водах",
-            "вод"
+            "воды"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -3667,7 +3675,7 @@
             0
           ],
           "highlightTerms": [
-            "галлер"
+            "галлерее"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -3951,7 +3959,8 @@
           "highlightTerms": [
             "вод",
             "садик",
-            "водах"
+            "водах",
+            "воды"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -3973,12 +3982,12 @@
           "id": "levin-house",
           "category": "mentioned",
           "reason": "Domestic, agricultural or reflective action at Levin’s estate. The context identifies Pokrovskoye; no real estate is equated with the fictional house. The selected passage is introductory, retrospective or uncertain; conservatively mentioned.",
-          "quote": "Но любить или не любить народ, как что-то особенное, он не мог, потому что не только жил с народом, не только все его интересы были связаны с народом, но он считал и самого себя частью народа, не видел в себе и народе никаких особенных качеств и недостатков и не мог противопоставлять себя народу. Кроме того, хотя он долго жил в самых близких отношениях к мужикам как хозяин и посредник, а главное, как советчик (мужики верили ему и ходили верст за сорок к нему советоваться), он не имел никакого определенного суждения о народе, и на вопрос, знает ли он народ, был бы в таком же затруднении ответить, как на вопрос, любит ли он народ.",
+          "quote": "Кроме того, Константину Левину было в деревне неловко с братом еще и оттого, что в деревне, особенно летом, Левин бывал постоянно занят хозяйством, и ему не доставало длинного летнего дня, для того чтобы переделать всё, что нужно, а Сергей Иванович отдыхал. Но, хотя он и отдыхал теперь, то есть не работал над своим сочинением, он так привык к умственной деятельности, что любил высказывать в красивой сжатой форме приходившие ему мысли и любил, чтобы было кому слушать. Самый же обыкновенный и естественный слушатель его был брат. И потому, несмотря на дружескую простоту их отношений, Константину неловко было оставлять его одного. Сергей Иванович любил лечь в траву на солнце и лежать так, жарясь, и лениво болтать.",
           "paragraphs": [
-            0
+            4
           ],
           "highlightTerms": [
-            "дом"
+            "хозяйством"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -4000,12 +4009,12 @@
           "id": "levin-house",
           "category": "action",
           "reason": "Domestic, agricultural or reflective action at Levin’s estate. The context identifies Pokrovskoye; no real estate is equated with the fictional house.",
-          "quote": "Братья должны были проехать через лес, чтобы подъехать к лугам. Сергей Иванович любовался всё время красотою заглохшего от листвы леса, указывая брату то на темную с тенистой стороны, пестреющую желтыми прилистниками, готовящуюся к цвету старую липу, то на изумрудом блестящие молодые побеги дерев нынешнего года. Константин Левин не любил говорить и слушать про красоту природы. Слова снимали для него красоту с того, что он видел. Он поддакивал брату, но невольно стал думать о другом. Когда они проехали лес, всё внимание его поглотилось видом парового поля на бугре, где желтеющего травой, где сбитого и изрезанного клетками, где уваленного кучами, а где и вспаханного. По полю ехали вереницей телеги. Левин сосчитал телеги и остался довольным тем, что вывезется всё, что нужно, и мысли его перешли при виде лугов на вопрос о покосе. Он всегда испытывал что-то особенно забирающее за живое в уборке сена. Подъехав к лугу, Левин остановил лошадь.",
+          "quote": "Левин подошел к брату. Ничего не ловилось, но Сергей Иванович не скучал и казался в самом веселом расположении духа. Левин видел, что, раззадоренный разговором с доктором, он хотел поговорить. Левину же, напротив, хотелось скорее домой, чтобы распорядиться о вызове косцов к завтрему и решить сомнение насчет покоса, которое сильно занимало его.",
           "paragraphs": [
-            4
+            14
           ],
           "highlightTerms": [
-            "дом"
+            "домой"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -4066,7 +4075,7 @@
             39
           ],
           "highlightTerms": [
-            "двор"
+            "дворянин"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -4110,7 +4119,7 @@
             1
           ],
           "highlightTerms": [
-            "дом"
+            "домом"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -4249,8 +4258,8 @@
             1
           ],
           "highlightTerms": [
-            "дом",
-            "комнат"
+            "комнате",
+            "комнату"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -4348,7 +4357,7 @@
           ],
           "highlightTerms": [
             "дому",
-            "деревн"
+            "деревню"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -4375,7 +4384,7 @@
             0
           ],
           "highlightTerms": [
-            "деревн"
+            "деревне"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -4463,7 +4472,7 @@
             23
           ],
           "highlightTerms": [
-            "сад"
+            "садитесь"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -4507,7 +4516,8 @@
             0
           ],
           "highlightTerms": [
-            "луг",
+            "луга",
+            "лугу",
             "сено"
           ],
           "narrativeLevel": "primary narrative",
@@ -4569,7 +4579,9 @@
             0
           ],
           "highlightTerms": [
-            "воз"
+            "воз",
+            "возами",
+            "возов"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -4625,12 +4637,12 @@
           "id": "karenin-dacha",
           "category": "mentioned",
           "reason": "Anna’s summer-house encounters and preparations; Peterhof is named in II.XXVI, while the house itself has no verified coordinates. The selected passage is introductory, retrospective or uncertain; conservatively mentioned.",
-          "quote": "Никто, кроме самых близких людей к Алексею Александровичу, не знал, что этот с виду самый холодный и рассудительный человек имел одну, противоречившую общему складу его характера, слабость. Алексей Александрович не мог равнодушно слышать и видеть слезы ребенка или женщины. Вид слез приводил его в растерянное состояние, и он терял совершенно способность соображения. Правитель его канцелярии и секретарь знали это и предуведомляли просительниц, чтоб отнюдь не плакали, если не хотят испортить свое дело. «Он рассердится и не станет вас слушать», говорили они. И действительно, в этих случаях душевное расстройство, производимое в Алексее Александровиче слезами, выражалось торопливым гневом. «Я не могу, не могу ничего сделать. Извольте итти вон!» кричал он обыкновенно в этих случаях.",
+          "quote": "Когда они подъехали к дому, он высадил ее из кареты и, сделав усилие над собой, с привычною учтивостью простился с ней и произнес те слова, которые ни к чему не обязывали его; он сказал, что завтра сообщит ей свое решение.",
           "paragraphs": [
-            0
+            2
           ],
           "highlightTerms": [
-            "дом"
+            "дому"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -4733,8 +4745,8 @@
             0
           ],
           "highlightTerms": [
-            "комнат",
-            "дач",
+            "комнатам",
+            "дачного",
             "дома"
           ],
           "narrativeLevel": "primary narrative",
@@ -4780,7 +4792,7 @@
             0
           ],
           "highlightTerms": [
-            "крокет"
+            "крокета"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -4825,7 +4837,8 @@
             0
           ],
           "highlightTerms": [
-            "гостин"
+            "гостиную",
+            "гостиной"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -4864,12 +4877,13 @@
           "id": "military-quarters",
           "category": "mentioned",
           "reason": "Vronsky’s regimental meals, accounts and conversations; camp and city quarters are not pinned to an invented building. The selected passage is introductory, retrospective or uncertain; conservatively mentioned.",
-          "quote": "Всякий человек, зная до малейших подробностей всю сложность условий, его окружающих, невольно предполагает, что сложность этих условий и трудность их уяснения есть только его личная, случайная особенность, и никак не думает, что другие окружены такою же сложностью своих личных условий, как и он сам. Так и казалось Вронскому. И он не без внутренней гордости и не без основания думал, что всякий другой давно бы запутался и принужден был бы поступать нехорошо, если бы находился в таких же трудных условиях. Но Вронский чувствовал, что именно теперь ему необходимо учесться и уяснить свое положение, для того чтобы не запутаться.",
+          "quote": "Проснувшись поздно на другой день после скачек, Вронский, не бреясь и не купаясь, оделся в китель и, разложив на столе деньги, счеты, письма, принялся за работу. Петрицкий, зная, что в таком положении он бывал сердит, проснувшись и увидав товарища за письменным столом, тихо оделся и вышел, не мешая ему.",
           "paragraphs": [
-            3
+            2
           ],
           "highlightTerms": [
-            "зал"
+            "столе",
+            "столом"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -4942,12 +4956,12 @@
           "id": "military-quarters",
           "category": "mentioned",
           "reason": "Vronsky’s regimental meals, accounts and conversations; camp and city quarters are not pinned to an invented building. The selected passage is introductory, retrospective or uncertain; conservatively mentioned.",
-          "quote": "Но в последнее время явились новые, внутренние отношения между ним и ею, пугавшие Вронского своею неопределенностью. Вчера только она объявила ему, что она беременна. И он почувствовал, что это известие и то, чего она ждала от него, требовало чего-то такого, что не определено вполне кодексом тех правил, которыми он руководствовался в жизни. И действительно, он был взят врасплох, и в первую минуту, когда она объявила о своем положении, сердце его подсказало ему требование оставить мужа. Он сказал это, но теперь, обдумывая, он видел ясно, что лучше было бы обойтись без этого; и вместе с тем, говоря это себе, боялся — не дурно ли это?",
+          "quote": "Как только он приехал в Петербург, заговорили о нем как о вновь поднимающейся звезде первой величины. Ровесник Вронскому и однокашник, он был генерал и ожидал назначения, которое могло иметь влияние на ход государственных дел, а Вронский был, хоть и независимый, и блестящий, и любимый прелестною женщиной, но был только ротмистром, которому предоставляли быть независимым сколько ему угодно. «Разумеется, я не завидую и не могу завидовать Серпуховскому; но его возвышение показывает мне, что стоит выждать время, и карьера человека, как я, может быть сделана очень скоро. Три года тому назад он был в том же положении, как и я. Выйдя в отставку, я сожгу свои корабли. Оставаясь на службе, я ничего не теряю. Она сама сказала, что не хочет изменять своего положения. А я, с ее любовью, не могу завидовать Серпуховскому». И, закручивая медленным движением усы, он встал от стола и прошелся по комнате. Глаза его блестели особенно ярко, и он чувствовал то твердое, спокойное и радостное состояние духа, которое находило на него всегда после уяснения своего положения. Всё было, как и после прежних счетов, чисто и ясно. Он побрился, оделся, взял холодную ванну и вышел.",
           "paragraphs": [
-            5
+            9
           ],
           "highlightTerms": [
-            "зал"
+            "комнате"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -5022,12 +5036,12 @@
           "id": "military-quarters",
           "category": "action",
           "reason": "Vronsky’s regimental meals, accounts and conversations; camp and city quarters are not pinned to an invented building.",
-          "quote": "— А я за тобой. Твоя стирка нынче долго продолжалась, — сказал Петрицкий. — Что ж, кончилось?",
+          "quote": "Полковой командир Демин занимал большой помещичий дом. Всё общество было на просторном нижнем балконе. На дворе, первое, что бросилось в глаза Вронскому, были песенники в кителях, стоявшие подле боченка с водкой, и здоровая веселая фигура полкового командира, окруженного офицерами: выйдя на первую ступень балкона, он, громко перекрикивая музыку, игравшую Офенбаховскую кадриль, что-то приказывал и махал стоявшим в стороне солдатам. Кучка солдат, вахмистр и несколько унтер-офицеров подошли вместе с Вронским к балкону. Вернувшись к столу, полковой командир опять вышел с бокалом на крыльцо и провозгласил тост: «За здоровье нашего бывшего товарища и храброго генерала князя Серпуховского. Ура!»",
           "paragraphs": [
-            0
+            10
           ],
           "highlightTerms": [
-            "зал"
+            "дворе"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -5072,7 +5086,9 @@
           ],
           "highlightTerms": [
             "сад",
-            "алле"
+            "аллеи",
+            "аллею",
+            "аллее"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -5134,8 +5150,9 @@
             0
           ],
           "highlightTerms": [
-            "заседани",
-            "зал"
+            "заседание",
+            "залу",
+            "заседания"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -5209,8 +5226,8 @@
             1
           ],
           "highlightTerms": [
-            "ворот",
-            "двор"
+            "ворота",
+            "дворе"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -5470,8 +5487,10 @@
             1
           ],
           "highlightTerms": [
-            "комнат",
-            "стол"
+            "комната",
+            "столами",
+            "комнаты",
+            "стола"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -5551,7 +5570,7 @@
             0
           ],
           "highlightTerms": [
-            "хозяйств"
+            "хозяйство"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -5595,8 +5614,8 @@
             0
           ],
           "highlightTerms": [
-            "двор",
-            "хозяйств"
+            "двора",
+            "хозяйстве"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -5641,8 +5660,7 @@
           ],
           "highlightTerms": [
             "лестницы",
-            "передней",
-            "залось"
+            "передней"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -5696,14 +5714,14 @@
         },
         {
           "id": "levin-house",
-          "category": "action",
-          "reason": "Domestic, agricultural or reflective action at Levin’s estate. The context identifies Pokrovskoye; no real estate is equated with the fictional house.",
+          "category": "mentioned",
+          "reason": "Domestic, agricultural or reflective action at Levin’s estate. The context identifies Pokrovskoye; no real estate is equated with the fictional house. The selected passage is introductory, retrospective or uncertain; conservatively mentioned.",
           "quote": "Пред самым только отъездом Николай поцеловался с ним и сказал, вдруг странно серьезно взглянув на брата:",
           "paragraphs": [
             22
           ],
           "highlightTerms": [
-            "дом"
+            "отъездом"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -5934,12 +5952,12 @@
           "id": "karenin-house",
           "category": "mentioned",
           "reason": "The Karenin household: conversations, marital conflict, illness, visits or Seryozha’s lessons. No precise street address is established. The selected passage is introductory, retrospective or uncertain; conservatively mentioned.",
-          "quote": "Она держала в руках вязанье, но не вязала, а смотрела на него странным, блестящим и недружелюбным взглядом.",
+          "quote": "― Только не он. Разве я не знаю его, эту ложь, которою он весь пропитан?.. Разве можно, чувствуя что-нибудь, жить, как он живет со мной? Он ничего не понимает, не чувствует. Разве может человек, который что-нибудь чувствует, жить с своею преступною женой в одном доме? Разве можно говорить с ней? Говорить ей ты?",
           "paragraphs": [
-            8
+            35
           ],
           "highlightTerms": [
-            "дом"
+            "доме"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -5983,9 +6001,9 @@
             0
           ],
           "highlightTerms": [
-            "крыльц",
-            "дом",
-            "кабинет"
+            "крыльце",
+            "домой",
+            "кабинету"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -6029,7 +6047,7 @@
             0
           ],
           "highlightTerms": [
-            "комнат"
+            "комната"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -6341,7 +6359,7 @@
             5
           ],
           "highlightTerms": [
-            "комнат"
+            "комнату"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -6422,7 +6440,7 @@
             0
           ],
           "highlightTerms": [
-            "стол"
+            "столкнулись"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -6500,7 +6518,7 @@
             10
           ],
           "highlightTerms": [
-            "стол"
+            "столь"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -6556,7 +6574,7 @@
             0
           ],
           "highlightTerms": [
-            "обед"
+            "обеда"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -6583,8 +6601,9 @@
             0
           ],
           "highlightTerms": [
-            "стол",
-            "гостин"
+            "стола",
+            "гостиную",
+            "гостиной"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -6628,7 +6647,7 @@
             23
           ],
           "highlightTerms": [
-            "гостиниц"
+            "гостиницу"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -6734,7 +6753,7 @@
             31
           ],
           "highlightTerms": [
-            "комнат"
+            "комнату"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -6814,7 +6833,7 @@
             2
           ],
           "highlightTerms": [
-            "комнат"
+            "комнату"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -6841,9 +6860,8 @@
             0
           ],
           "highlightTerms": [
-            "крыльц",
-            "дома",
-            "дом"
+            "крыльцо",
+            "дома"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -6857,7 +6875,7 @@
             0
           ],
           "highlightTerms": [
-            "стол"
+            "столь"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -6919,7 +6937,7 @@
             0
           ],
           "highlightTerms": [
-            "постел"
+            "постели"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -7038,7 +7056,7 @@
           ],
           "highlightTerms": [
             "кабинет",
-            "комнат"
+            "комнате"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -7101,7 +7119,7 @@
             0
           ],
           "highlightTerms": [
-            "комнат"
+            "комнате"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/18/"
@@ -7145,8 +7163,8 @@
             12
           ],
           "highlightTerms": [
-            "обедн",
-            "церк"
+            "обедню",
+            "церковь"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -7242,7 +7260,7 @@
             0
           ],
           "highlightTerms": [
-            "гостиниц"
+            "гостинице"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -7269,7 +7287,7 @@
             0
           ],
           "highlightTerms": [
-            "церк"
+            "церковь"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -7330,7 +7348,7 @@
             0
           ],
           "highlightTerms": [
-            "церк"
+            "церковь"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -7374,7 +7392,7 @@
             0
           ],
           "highlightTerms": [
-            "церк"
+            "церкви"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -7401,7 +7419,8 @@
             0
           ],
           "highlightTerms": [
-            "церк"
+            "церковнослужитель",
+            "церкви"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -7631,7 +7650,7 @@
             0
           ],
           "highlightTerms": [
-            "студи"
+            "студии"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -7658,7 +7677,7 @@
             0
           ],
           "highlightTerms": [
-            "студи"
+            "студию"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -7747,7 +7766,7 @@
           ],
           "highlightTerms": [
             "палаццо",
-            "студи"
+            "студии"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -7787,12 +7806,12 @@
           "id": "levin-house",
           "category": "mentioned",
           "reason": "Domestic, agricultural or reflective action at Levin’s estate. The context identifies Pokrovskoye; no real estate is equated with the fictional house. The selected passage is introductory, retrospective or uncertain; conservatively mentioned.",
-          "quote": "Левин был женат третий месяц. Он был счастлив, но совсем не так, как ожидал. На каждом шагу он находил разочарование в прежних мечтах и новое неожиданное очарование. Левин был счастлив, но, вступив в семейную жизнь, он на каждом шагу видел, что это было совсем не то, что он воображал. На каждом шагу он испытывал то, что испытывал бы человек, любовавшийся плавным, счастливым ходом лодочки по озеру, после того как он бы сам сел в эту лодочку. Он видел, что мало того, чтобы сидеть ровно, не качаясь, — надо еще соображаться, ни на минуту не забывая, куда плыть, что под ногами вода, и надо грести, и что непривычным рукам больно, что только смотреть на это легко, а что делать это, хотя и очень радостно, но очень трудно.",
+          "quote": "Он посмеивался над тем, как она расставляла мебель, привезенную из Москвы, как убирала по-новому свою и его комнату, как вешала гардины, как распределяла будущее помещение для гостей, для Долли, как устраивала помещение своей новой девушке, как заказывала обед старику повару, как входила в препиранья с Агафьей Михайловной, отстраняя ее от провизии. Он видел, что старик повар улыбался, любуясь ею и слушая ее неумелые, невозможные приказания; видел, что Агафья Михайловна задумчиво и ласково покачивала головой на новые распоряжения молодой барыни в кладовой, видел, что Кити была необыкновенно мила, когда она, смеясь и плача, приходила к нему объявить, что девушка Маша привыкла считать ее барышней и оттого ее никто не слушает.",
           "paragraphs": [
-            0
+            1
           ],
           "highlightTerms": [
-            "дом"
+            "комнату"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -7872,7 +7891,7 @@
             0
           ],
           "highlightTerms": [
-            "кабинет"
+            "кабинете"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -7918,7 +7937,7 @@
             30
           ],
           "highlightTerms": [
-            "комнат"
+            "комнате"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -7980,7 +7999,9 @@
             0
           ],
           "highlightTerms": [
-            "гостиниц"
+            "гостиниц",
+            "гостиницы",
+            "гостиницей"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -8008,7 +8029,7 @@
           ],
           "highlightTerms": [
             "больного",
-            "комнат"
+            "комнате"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -8304,20 +8325,6 @@
           "source": "https://tolstoy.ru/online/90/19/"
         },
         {
-          "id": "lydia-house",
-          "category": "mentioned",
-          "reason": "Lydia discusses Karenin’s situation and later receives Oblonsky and Landau; precise address unknown. The selected passage is introductory, retrospective or uncertain; conservatively mentioned.",
-          "quote": "— Вам уж есть назначение. Вас по духовному ведомству. И в помощники вам — Каренина.",
-          "paragraphs": [
-            3
-          ],
-          "highlightTerms": [
-            "дом"
-          ],
-          "narrativeLevel": "primary narrative",
-          "source": "https://tolstoy.ru/online/90/19/"
-        },
-        {
           "id": "palace",
           "category": "mentioned",
           "reason": "Officials gather for congratulations and discuss Karenin; the excerpt does not establish a particular palace. The selected passage is introductory, retrospective or uncertain; conservatively mentioned.",
@@ -8326,7 +8333,21 @@
             15
           ],
           "highlightTerms": [
-            "дворц"
+            "дворце"
+          ],
+          "narrativeLevel": "primary narrative",
+          "source": "https://tolstoy.ru/online/90/19/"
+        },
+        {
+          "id": "palace-door",
+          "category": "action",
+          "reason": "Lydia emerges through a doorway and Karenin approaches her during the palace reception. This is not Lydia’s house; no particular palace is identified.",
+          "quote": "Увидав воздымающиеся из корсета желтые плечи графини Лидии Ивановны, вышедшей в дверь, и зовущие к себе прекрасные задумчивые глаза ее, Алексей Александрович улыбнулся, открыв неувядающие белые зубы, и подошел к ней.",
+          "paragraphs": [
+            29
+          ],
+          "highlightTerms": [
+            "вышедшей в дверь"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -8397,7 +8418,7 @@
             2
           ],
           "highlightTerms": [
-            "комнат"
+            "комнаты"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -8436,12 +8457,12 @@
           "id": "karenin-house",
           "category": "action",
           "reason": "The Karenin household: conversations, marital conflict, illness, visits or Seryozha’s lessons. No precise street address is established.",
-          "quote": "Блестящие нежностью и весельем глаза Сережи потухли и опустились под взглядом отца. Это был тот самый, давно знакомый тон, с которым отец всегда относился к нему и к которому Сережа научился уже подделываться. Отец всегда говорил с ним — так чувствовал Сережа — как будто он обращался к какому-то воображаемому им мальчику, одному из таких, какие бывают в книжках, но совсем не похожему на Сережу. И Сережа всегда с отцом старался притвориться этим самым книжным мальчиком.",
+          "quote": "Отец наказал Сережу, не пустив его к Наденьке, племяннице Лидии Ивановны; но это наказание оказалось к счастию для Сережи. Василий Лукич был в духе и показал ему, как делать ветряные мельницы. Целый вечер прошел за работой и мечтами о том, как можно сделать такую мельницу, чтобы на ней вертеться: схватиться руками за крылья или привязать себя — и вертеться. О матери Сережа не думал весь вечер, но, уложившись в постель, он вдруг вспомнил о ней и помолился своими словами о том, чтобы мать его завтра, к его рожденью, перестала скрываться и пришла к нему.",
           "paragraphs": [
-            6
+            17
           ],
           "highlightTerms": [
-            "дом"
+            "постель"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -8523,7 +8544,7 @@
           ],
           "highlightTerms": [
             "гостиниц",
-            "отделени",
+            "отделении",
             "комнат"
           ],
           "narrativeLevel": "primary narrative",
@@ -8712,8 +8733,8 @@
             0
           ],
           "highlightTerms": [
-            "отделени",
-            "гостиниц"
+            "отделение",
+            "гостинице"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -8804,8 +8825,7 @@
             0
           ],
           "highlightTerms": [
-            "лож",
-            "театр"
+            "театре"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -8910,7 +8930,7 @@
             0
           ],
           "highlightTerms": [
-            "террас",
+            "террасе",
             "дома",
             "доме"
           ],
@@ -8939,7 +8959,7 @@
             0
           ],
           "highlightTerms": [
-            "террас"
+            "террасу"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -9000,7 +9020,7 @@
             0
           ],
           "highlightTerms": [
-            "берез",
+            "березовый",
             "гриб"
           ],
           "narrativeLevel": "primary narrative",
@@ -9091,7 +9111,7 @@
             0
           ],
           "highlightTerms": [
-            "балкон"
+            "балконе"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -9135,7 +9155,7 @@
             0
           ],
           "highlightTerms": [
-            "дом"
+            "домой"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -9179,7 +9199,7 @@
             26
           ],
           "highlightTerms": [
-            "хозяйств"
+            "хозяйственные"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -9224,9 +9244,11 @@
             1
           ],
           "highlightTerms": [
-            "болот",
-            "дупел",
-            "бекас"
+            "болото",
+            "дупелиное",
+            "бекасиные",
+            "болота",
+            "дупеля"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -9270,7 +9292,7 @@
             0
           ],
           "highlightTerms": [
-            "болот"
+            "болоту"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -9297,8 +9319,9 @@
             0
           ],
           "highlightTerms": [
-            "изб",
-            "лавк"
+            "избу",
+            "избы",
+            "лавку"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -9325,7 +9348,7 @@
             2
           ],
           "highlightTerms": [
-            "болот"
+            "болото"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -9352,8 +9375,8 @@
             2
           ],
           "highlightTerms": [
-            "дупел",
-            "бекас"
+            "дупелей",
+            "бекасов"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -9398,8 +9421,8 @@
             0
           ],
           "highlightTerms": [
-            "хозяйств",
-            "комнат"
+            "хозяйство",
+            "комнату"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -9426,7 +9449,7 @@
             0
           ],
           "highlightTerms": [
-            "комнат"
+            "комнате"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -9488,8 +9511,8 @@
             19
           ],
           "highlightTerms": [
-            "поворот",
-            "дорог"
+            "повороту",
+            "дороги"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -9561,7 +9584,8 @@
           ],
           "highlightTerms": [
             "дома",
-            "больниц",
+            "больница",
+            "больницу",
             "дом"
           ],
           "narrativeLevel": "primary narrative",
@@ -9640,9 +9664,10 @@
             0
           ],
           "highlightTerms": [
-            "дом",
-            "комнат",
-            "дому"
+            "комнату",
+            "дому",
+            "комнате",
+            "комната"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -9737,7 +9762,7 @@
             0
           ],
           "highlightTerms": [
-            "террас"
+            "террасу"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -9798,7 +9823,7 @@
             0
           ],
           "highlightTerms": [
-            "дом"
+            "домой"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -9894,7 +9919,7 @@
             2
           ],
           "highlightTerms": [
-            "комнат"
+            "комнату"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -9965,7 +9990,7 @@
             9
           ],
           "highlightTerms": [
-            "комнат"
+            "комнате"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -10077,7 +10102,7 @@
             2
           ],
           "highlightTerms": [
-            "больниц"
+            "больницы"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -10179,7 +10204,7 @@
             7
           ],
           "highlightTerms": [
-            "зал"
+            "залы"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -10240,8 +10265,8 @@
             0
           ],
           "highlightTerms": [
-            "выбор",
-            "зал"
+            "выборы",
+            "залах"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -10263,12 +10288,12 @@
           "id": "election-rooms",
           "category": "action",
           "reason": "The noble elections and associated service; the fictional province cannot be equated securely with modern Kashin.",
-          "quote": "Толпа раздалась, чтобы дать дорогу подходившему к столу Сергею Ивановичу. Сергей Иванович, выждав окончания речи ядовитого дворянина, сказал, что ему кажется, что вернее всего было бы справиться со статьей закона, и попросил секретаря найти статью. В статье было сказано, что в случае разногласия надо баллотировать.",
+          "quote": "Но Левин забыл это, и ему было тяжело видеть этих уважаемых им, хороших людей в таком неприятном, злом возбуждении. Чтоб избавиться от этого тяжелого чувства, он, не дождавшись конца прений, ушел в залу, где никого не было, кроме лакеев около буфета. Увидав хлопотавших лакеев над перетиркой посуды и расстановкой тарелок и рюмок, увидав их спокойные, оживленные лица, Левин испытал неожиданное чувство облегчения, точно из смрадной комнаты он вышел на чистый воздух. Он стал ходить взад и вперед, с удовольствием глядя на лакеев. Ему очень понравилось, как один лакей с седыми бакенбардами, выказывая презрение к другим молодым, которые над ним подтрунивали, учил их, как надо складывать салфетки. Левин только что собирался вступить в разговор со старым лакеем, как секретарь дворянской опеки, старичок, имевший специальность знать всех дворян губернии по имени и отчеству, развлек его.",
           "paragraphs": [
-            1
+            8
           ],
           "highlightTerms": [
-            "зал"
+            "залу"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -10312,7 +10337,7 @@
             0
           ],
           "highlightTerms": [
-            "зал"
+            "зала"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -10339,7 +10364,7 @@
             31
           ],
           "highlightTerms": [
-            "зал"
+            "залу"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -10481,7 +10506,7 @@
             5
           ],
           "highlightTerms": [
-            "сад"
+            "дворе"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -10759,7 +10784,7 @@
             2
           ],
           "highlightTerms": [
-            "гостин"
+            "гостиной"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -10864,9 +10889,9 @@
             1
           ],
           "highlightTerms": [
-            "кресл",
-            "колонн",
-            "концерт"
+            "креслу",
+            "колонны",
+            "концерта"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -10989,7 +11014,10 @@
             0
           ],
           "highlightTerms": [
-            "клуб"
+            "клуб",
+            "клубе",
+            "клубной",
+            "клуба"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -11016,9 +11044,9 @@
             0
           ],
           "highlightTerms": [
-            "комнат",
-            "бильярд",
-            "зал"
+            "комнаты",
+            "бильярдной",
+            "залу"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -11106,7 +11134,7 @@
             3
           ],
           "highlightTerms": [
-            "кабинет"
+            "кабинете"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -11150,7 +11178,7 @@
             4
           ],
           "highlightTerms": [
-            "дом"
+            "домой"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -11194,7 +11222,8 @@
             0
           ],
           "highlightTerms": [
-            "комнат"
+            "комнате",
+            "комнаты"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -11221,7 +11250,7 @@
             1
           ],
           "highlightTerms": [
-            "постел"
+            "постели"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -11243,12 +11272,12 @@
           "id": "levin-moscow-house",
           "category": "mentioned",
           "reason": "Conversations, waiting for childbirth and the birth of Mitya; the precise residence is not established. The selected passage is introductory, retrospective or uncertain; conservatively mentioned.",
-          "quote": "Левин посмотрел на него, спрашивая взглядом, смеется ли он над ним. Но доктор и не думал смеяться.",
+          "quote": "Когда Левин вернулся домой, он съехался с княгиней, и они вместе подошли к двери спальни. У княгини были слезы на глазах, и руки ее дрожали. Увидав Левина, она обняла его и заплакала.",
           "paragraphs": [
-            14
+            27
           ],
           "highlightTerms": [
-            "дом"
+            "домой"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -11262,7 +11291,8 @@
             0
           ],
           "highlightTerms": [
-            "лаке"
+            "лакей",
+            "лакея"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -11289,7 +11319,7 @@
             0
           ],
           "highlightTerms": [
-            "кабинет"
+            "кабинете"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -11316,7 +11346,7 @@
             0
           ],
           "highlightTerms": [
-            "комнат"
+            "комнаты"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -11395,7 +11425,7 @@
             4
           ],
           "highlightTerms": [
-            "кабинет"
+            "кабинете"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -11435,12 +11465,12 @@
           "id": "karenin-house",
           "category": "mentioned",
           "reason": "The Karenin household: conversations, marital conflict, illness, visits or Seryozha’s lessons. No precise street address is established. The selected passage is introductory, retrospective or uncertain; conservatively mentioned.",
-          "quote": "— Обещание дано было прежде. И я полагал, что вопрос о сыне решал дело. Кроме того, я надеялся, что у Анны Аркадьевны достанет великодушия... — с трудом, трясущимися губами, выговорил побледневший Алексей Александрович.",
+          "quote": "— Что собственно вы хотите от меня? — повертываясь на кресле и защелкивая свой pince-nez, сказал он.",
           "paragraphs": [
-            14
+            2
           ],
           "highlightTerms": [
-            "дом"
+            "кресле"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -11467,7 +11497,7 @@
             14
           ],
           "highlightTerms": [
-            "комнат"
+            "комнаты"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -11642,7 +11672,7 @@
             5
           ],
           "highlightTerms": [
-            "стол"
+            "стола"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -11744,12 +11774,13 @@
           "id": "anna-moscow-house",
           "category": "mentioned",
           "reason": "Levin’s visit, Anna’s conversations and the later quarrels with Vronsky occur in the Moscow lodging. The selected passage is introductory, retrospective or uncertain; conservatively mentioned.",
-          "quote": "Раздражение, разделявшее их, не имело никакой внешней причины, и все попытки объяснения не только не устраняли, но увеличивали его. Это было раздражение внутреннее, имевшее для нее основанием уменьшение его любви, для него — раскаяние в том, что он поставил себя ради ее в тяжелое положение, которое она, вместо того чтоб облегчить, делает еще более тяжелым. Ни тот, ни другой не высказывали причины своего раздражения, но они считали друг друга неправыми и при каждом предлоге старались доказать это друг другу.",
+          "quote": "Были уже сумерки. Анна одна, ожидая его возвращения с холостого обеда, на который он поехал, ходила взад и вперед по его кабинету (комната, где менее был слышен шум мостовой) и во всех подробностях передумывала выражения вчерашней ссоры. Возвращаясь всё назад от памятных оскорбительных слов спора к тому, что было их поводом, она добралась наконец до начала разговора. Она долго не могла поверить тому, чтобы раздор начался с такого безобидного, не близкого ничьему сердцу разговора. А действительно это было так. Всё началось с того, что он посмеялся над женскими гимназиями, считая их ненужными, а она заступилась за них. Он неуважительно отнесся к женскому образованию вообще и сказал, что Ганна, покровительствуемая Анной Англичанка, вовсе не нуждалась в знании физики.",
           "paragraphs": [
-            3
+            7
           ],
           "highlightTerms": [
-            "дом"
+            "кабинету",
+            "комната"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -11889,7 +11920,7 @@
             0
           ],
           "highlightTerms": [
-            "комнат"
+            "комнате"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -11933,7 +11964,7 @@
             0
           ],
           "highlightTerms": [
-            "комнат"
+            "комнату"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -11994,7 +12025,7 @@
             1
           ],
           "highlightTerms": [
-            "комнат"
+            "комнату"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -12089,7 +12120,7 @@
             0
           ],
           "highlightTerms": [
-            "улиц"
+            "улицах"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -12150,7 +12181,7 @@
             0
           ],
           "highlightTerms": [
-            "коляск",
+            "коляску",
             "дома"
           ],
           "narrativeLevel": "primary narrative",
@@ -12259,8 +12290,8 @@
             0
           ],
           "highlightTerms": [
-            "вагон",
-            "платформ"
+            "вагона",
+            "платформе"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -12503,7 +12534,8 @@
             0
           ],
           "highlightTerms": [
-            "станци"
+            "станции",
+            "станцию"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -12643,7 +12675,7 @@
             0
           ],
           "highlightTerms": [
-            "платформ"
+            "платформе"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -12670,7 +12702,7 @@
             0
           ],
           "highlightTerms": [
-            "платформ"
+            "платформе"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -12749,7 +12781,7 @@
           ],
           "highlightTerms": [
             "крыльцу",
-            "балкон"
+            "балконе"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -12777,7 +12809,7 @@
           ],
           "highlightTerms": [
             "полога",
-            "кроватк"
+            "кроватки"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -12957,12 +12989,12 @@
           "id": "levin-road",
           "category": "mentioned",
           "reason": "Levin converses with Fyodor and reflects while walking in the countryside; philosophical discourse is distinguished from distant places mentioned. The selected passage is introductory, retrospective or uncertain; conservatively mentioned.",
-          "quote": "«Зачем всё это делается? — думал он. — Зачем я тут стою, заставляю их работать? Из чего они все хлопочут и стараются показать при мне свое усердие? Из чего бьется эта старуха Матрена, моя знакомая? (Я лечил ее, когда на пожаре на нее упала матица)», думал он, глядя на худую бабу, которая, двигая граблями зерно, напряженно ступала чернозагорелыми босыми ногами по неровному жесткому току. «Тогда она выздоровела; но не нынче-завтра, через десять лет, ее закопают, и ничего не останется ни от нее, ни от этой щеголихи в красной паневе, которая таким ловким, нежным движением отбивает из мякины колос. И ее закопают, и пегого мерина этого очень скоро, — думал он, глядя на тяжело носящую брюхом и часто дышащую раздутыми ноздрями лошадь, переступающую по двигающемуся из-под нее наклонному колесу. — И ее закопают и Федора подавальщика с его курчавой, полною мякины бородой и прорванной на белом плече рубашкой закопают. А он разрывает снопы и что-то командует, и кричит на баб, и быстрым движением поправляет ремень на маховом колесе. И главное, не только их, но меня закопают, и ничего не останется. К чему?»",
+          "quote": "— Цена дорога, Платону не выручить, Константин Дмитрич, — отвечал мужик, выбирая колосья из потной пазухи.",
           "paragraphs": [
-            7
+            16
           ],
           "highlightTerms": [
-            "лес"
+            "дорога"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -12989,7 +13021,7 @@
             0
           ],
           "highlightTerms": [
-            "дорог"
+            "дороге"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -13181,7 +13213,7 @@
             0
           ],
           "highlightTerms": [
-            "дом"
+            "сюда"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -13220,13 +13252,12 @@
           "id": "levin-house",
           "category": "mentioned",
           "reason": "Domestic, agricultural or reflective action at Levin’s estate. The context identifies Pokrovskoye; no real estate is equated with the fictional house. The selected passage is introductory, retrospective or uncertain; conservatively mentioned.",
-          "quote": "Он видел, что брата и Катавасова убедить нельзя, и еще менее видел возможности самому согласиться с ними. То, что они проповедывали, была та самая гордость ума, которая чуть не погубила его. Он не мог согласиться с тем, что десятки людей, в числе которых и брат его, имели право на основании того, что им рассказали сотни приходивших в столицы краснобаев-добровольцев, говорить, что они с газетами выражают волю и мысль народа, и такую мысль, которая выражается в мщении и убийстве. Он не мог согласиться с этим, потому что и не видел выражения этих мыслей в народе, в среде которого он жил, и не находил этих мыслей в себе (а он не мог себя ничем другим считать, как одним из людей, составляющих русский народ), а главное потому, что он вместе с народом не знал, не мог знать того, в чем состоит общее благо, но твердо знал, что достижение этого общего блага возможно только при строгом исполнении того закона добра, который открыт каждому человеку, и потому не мог желать войны и проповедывать для каких бы то ни было общих целей. Он говорил вместе с Михайлычем и народом, выразившим свою мысль в предании о призвании Варягов: «Княжите и владейте нами. Мы радостно обещаем полную покорность. Весь труд, все унижения, все жертвы мы берем на себя; но не мы судим и решаем». А теперь народ, по словам Сергей Иванычей, отрекался от этого, купленного такой дорогой ценой, права.",
+          "quote": "Ему хотелось еще сказать, что если общественное мнение есть непогрешимый судья, то почему революция, коммуна не так же законны, как и движение в пользу Славян? Но всё это были мысли, которые ничего не могли решить. Одно несомненно можно было видеть — это то, что в настоящую минуту спор раздражал Сергея Ивановича, и потому спорить было дурно; и Левин замолчал и обратил внимание гостей на то, что тучки собрались и что от дождя лучше итти домой.",
           "paragraphs": [
-            25
+            26
           ],
           "highlightTerms": [
-            "дом",
-            "дому"
+            "домой"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -13341,7 +13372,7 @@
             1
           ],
           "highlightTerms": [
-            "террас"
+            "террасе"
           ],
           "narrativeLevel": "primary narrative",
           "source": "https://tolstoy.ru/online/90/19/"
@@ -13423,6 +13454,12 @@
       "note": "The selected passage does not alone prove an enacted scene; no action status is retained pending verification."
     },
     {
+      "section": 101,
+      "id": "levin-house",
+      "resolution": "mentioned",
+      "note": "The selected passage does not alone prove an enacted scene; no action status is retained pending verification."
+    },
+    {
       "section": 138,
       "id": "levin-house",
       "resolution": "mentioned",
@@ -13497,12 +13534,6 @@
     {
       "section": 34,
       "id": "vronsky-apartment",
-      "resolution": "mentioned",
-      "note": "The selected passage does not alone prove an enacted scene; no action status is retained pending verification."
-    },
-    {
-      "section": 39,
-      "id": "opera",
       "resolution": "mentioned",
       "note": "The selected passage does not alone prove an enacted scene; no action status is retained pending verification."
     },
@@ -13628,12 +13659,6 @@
     },
     {
       "section": 147,
-      "id": "lydia-house",
-      "resolution": "mentioned",
-      "note": "The selected passage does not alone prove an enacted scene; no action status is retained pending verification."
-    },
-    {
-      "section": 148,
       "id": "lydia-house",
       "resolution": "mentioned",
       "note": "The selected passage does not alone prove an enacted scene; no action status is retained pending verification."

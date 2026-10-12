@@ -7,3 +7,4 @@ part*.txt
 build-output.txt
 *.png
 __pycache__/
+previous-analysis.json
