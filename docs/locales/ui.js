@@ -20,6 +20,12 @@ window.atlasLocaleData={
   ],
   "messages": {
     "it": {
+      "Search novels": "Cerca romanzi",
+      "Title": "Titolo",
+      "Author": "Autore",
+      "Clear search": "Cancella ricerca",
+      "Novels found": "Romanzi trovati",
+      "No novels match your search.": "Nessun romanzo corrisponde alla ricerca.",
       "Atlante letterario": "Atlante letterario",
       "I LUOGHI DEI ROMANZI": "I LUOGHI DEI ROMANZI",
       "IL CATALOGO": "IL CATALOGO",
@@ -148,6 +154,12 @@ window.atlasLocaleData={
       "Explore the places and imagined worlds of classic novels.": "Esplora i luoghi e i mondi immaginari dei romanzi classici."
     },
     "en": {
+      "Search novels": "Search novels",
+      "Title": "Title",
+      "Author": "Author",
+      "Clear search": "Clear search",
+      "Novels found": "Novels found",
+      "No novels match your search.": "No novels match your search.",
       "Atlante letterario": "Literary Atlas",
       "I LUOGHI DEI ROMANZI": "THE PLACES OF NOVELS",
       "IL CATALOGO": "THE CATALOGUE",
@@ -276,6 +288,12 @@ window.atlasLocaleData={
       "Explore the places and imagined worlds of classic novels.": "Explore the places and imagined worlds of classic novels."
     },
     "fr": {
+      "Search novels": "Rechercher des romans",
+      "Title": "Titre",
+      "Author": "Auteur",
+      "Clear search": "Effacer la recherche",
+      "Novels found": "Romans trouvés",
+      "No novels match your search.": "Aucun roman ne correspond à votre recherche.",
       "Atlante letterario": "Atlas littéraire",
       "I LUOGHI DEI ROMANZI": "LES LIEUX DES ROMANS",
       "IL CATALOGO": "LE CATALOGUE",
@@ -404,6 +422,12 @@ window.atlasLocaleData={
       "Explore the places and imagined worlds of classic novels.": "Explorez les lieux et les mondes imaginaires des romans classiques."
     },
     "es": {
+      "Search novels": "Buscar novelas",
+      "Title": "Título",
+      "Author": "Autor",
+      "Clear search": "Borrar búsqueda",
+      "Novels found": "Novelas encontradas",
+      "No novels match your search.": "Ninguna novela coincide con tu búsqueda.",
       "Atlante letterario": "Atlas literario",
       "I LUOGHI DEI ROMANZI": "LOS LUGARES DE LAS NOVELAS",
       "IL CATALOGO": "EL CATÁLOGO",
