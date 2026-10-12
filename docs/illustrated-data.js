@@ -3,6 +3,8 @@
   function validate(data){
     if(data?.formatVersion!==1||![data.width,data.height].every(n=>Number.isFinite(n)&&n>0)||!Array.isArray(data.places)||!Array.isArray(data.epochs)||!data.epochs.length)throw Error('Invalid illustrated atlas');
     const ids=new Set();
+    if(!Array.isArray(data.chapterIntroductions)||data.chapterIntroductions.length!==data.chapterRanges?.length)throw Error('Chapter introductions missing');
+    for(const introduction of data.chapterIntroductions)for(const lang of ['en','it','fr','es'])if(typeof introduction?.[lang]!=='string'||!introduction[lang].trim())throw Error('Incomplete chapter introduction');
     for(const p of data.places){
       if(typeof p.id!=='string'||ids.has(p.id)||!['site','area'].includes(p.kind)||!['action','mentioned'].includes(p.role))throw Error('Invalid place');
       ids.add(p.id);

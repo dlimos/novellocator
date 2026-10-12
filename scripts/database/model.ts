@@ -20,6 +20,11 @@ export function normalize(inputs:ReturnType<typeof loadInputs>):Bundle {
  const bundle:Bundle={formatVersion:1,tables:{books:[],sections:[],places:[],sources:[],place_descriptions:[],place_references:[],excerpts:[],unlocated_settings:[],content_translations:[]}};
  for(const {id,data,dictionary} of inputs){
   if(data.book.id!==id)throw new Error(`Book ID mismatch: ${id}`);
+  for(const section of data.chapters){
+   const text=section.text;
+   if(typeof text!=='string'||!text.trim()||text.trim()===section.title.trim()||/^(Read the chapter alongside|Scenes, recollections and geographical references|Original heading:)/i.test(text))throw new Error(`Specific narrative introduction required: ${id}/${section.id}`);
+   for(const language of ['it','fr','es'])if(typeof dictionary[language]?.[text]!=='string'||!dictionary[language][text].trim())throw new Error(`Translated introduction required: ${id}/${section.id}/${language}`);
+  }
   const originalLanguage=catalogue.books.find(book=>book.id===id)?.originalLanguage||data.book.originalLanguage||'en';
   bundle.tables.books.push({id,title:data.book.title,author:data.book.author,original_language:originalLanguage,publication_status:'published',metadata:without(data.book,['id','title','author'])});
   const sourceIds=new Set<string>();
