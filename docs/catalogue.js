@@ -35,7 +35,6 @@
  }
  form.addEventListener('submit',event=>event.preventDefault());
  form.addEventListener('input',filter);
- form.addEventListener('reset',()=>{title.value='';author.value='';filter();});
  for(const control of form.elements)control.disabled=false;
  filter();
  }
