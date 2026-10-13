@@ -6,16 +6,25 @@
   const contains=(value,query)=>normalize(query).split(/\s+/).every(term=>normalize(value+' '+translate(value)).includes(term));
   return contains(book.title,title)&&contains(book.author,author);
  }
+ function shuffle(books){
+  const shuffled=books.slice();
+  for(let index=shuffled.length-1;index>0;index--){
+   const other=Math.floor(Math.random()*(index+1));
+   [shuffled[index],shuffled[other]]=[shuffled[other],shuffled[index]];
+  }
+  return shuffled;
+ }
  function render(books){
   return {
-   cards:books.map((book,index)=>`<a class="book-card available-book" href="atlas.html?book=${encodeURIComponent(book.id)}" aria-label="${escape(book.ariaLabel)}"><div class="book-art" style="--cover-position:${escape(book.cover.position)}"><img src="${escape(book.cover.src)}" alt="${escape(book.cover.alt)}" width="${book.cover.width}" height="${book.cover.height}" ${index?'loading="lazy"':'fetchpriority="high"'} decoding="async"><span>${escape(book.setting)}</span></div><div class="book-copy"><div class="book-meta"><span>${String(index+1).padStart(2,'0')} · ${escape(book.author)}</span><span class="book-status">Available</span></div><h2>${escape(book.title)}</h2><p>${escape(book.description)}</p><span class="book-action">Explore the maps <span aria-hidden="true">↗</span></span></div></a>`).join('\n'),
+   cards:books.map((book,index)=>`<a class="book-card available-book" href="atlas.html?book=${encodeURIComponent(book.id)}" aria-label="${escape(book.ariaLabel)}"><div class="book-art" style="--cover-position:${escape(book.cover.position)}"><img src="${escape(book.cover.src)}" alt="${escape(book.cover.alt)}" width="${book.cover.width}" height="${book.cover.height}" ${index?'loading="lazy"':'fetchpriority="high"'} decoding="async"><span>${escape(book.setting)}</span></div><div class="book-copy"><div class="book-meta"><span>${escape(book.author)}</span><span class="book-status">Available</span></div><h2>${escape(book.title)}</h2><p>${escape(book.description)}</p><span class="book-action">Explore the maps <span aria-hidden="true">↗</span></span></div></a>`).join('\n'),
    credits:books.map(({credit})=>`<li>${escape(credit.artist)} · <a href="${escape(credit.url)}" target="_blank" rel="noopener noreferrer">${escape(credit.title)}</a> · ${escape(credit.year)}${credit.reproduction?`<br><a href="${escape(credit.reproductionUrl)}" target="_blank" rel="noopener noreferrer">${escape(credit.reproduction)}</a> · <a href="${escape(credit.licenseUrl)}" target="_blank" rel="noopener noreferrer">${escape(credit.license)}</a>${credit.reuseNote?` · ${escape(credit.reuseNote)}`:''}`:''}</li>`).join('')
   };
  }
- root.atlasCatalogueView={render,matches};
+ root.atlasCatalogueView={render,matches,shuffle};
  if(!root.document)return;
  async function start(){
- const {books}=await root.atlasCatalogueData.load();
+ const catalogue=await root.atlasCatalogueData.load();
+ const books=shuffle(catalogue.books);
  const legacy=books.find(book=>book.legacyHashPrefix&&root.location.hash.startsWith('#'+book.legacyHashPrefix+'-'));
  if(legacy){const target=new URL('atlas.html',root.location.href);target.search=root.location.search;target.searchParams.set('book',legacy.id);target.hash=root.location.hash;root.location.replace(target.href);return;}
  const html=render(books);
