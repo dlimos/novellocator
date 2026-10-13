@@ -37,12 +37,26 @@ for(const lang of ['en','it','fr','es']){
  vm.createContext(ctx);for(const file of ['locales/ui.js','content/book-translations.js','i18n.js','data/orwell1984.js','data/orwell1984-i18n.js','basemaps.js'])vm.runInContext(fs.readFileSync('docs/'+file,'utf8'),ctx);
  ctx.window.atlasData=ctx.window.atlasI18n.localizeData(ctx.window.atlasData);startup();vm.runInContext(fs.readFileSync('docs/app.js','utf8').replace(/initializeMap\(\);\s*$/,''),ctx);
  for(let i=0;i<25;i++){
+  get('selected-location').parentElement.children=[];
   vm.runInContext(`selectChapter(${i},false,false)`,ctx);assert(elements.detail.innerHTML.includes(ctx.window.atlasData.chapters[i].title));
   const expected='lang="en"';
-  assert(get('selected-location').parentElement.children.at(-1).innerHTML.includes(expected));
+  const visible=vm.runInContext('unlocatedPlacesForDisplay(activeChapter())',ctx);
+  const unlocatedSection=get('selected-location').parentElement.children.find(node=>node.className==='unlocated-places');
+  if(visible.length){assert(unlocatedSection);assert(unlocatedSection.innerHTML.includes(expected));}
+  else assert.equal(unlocatedSection,undefined,'empty unlocated heading must not be rendered');
+  for(const hidden of ['truth','peace','love','plenty','room101','golden']){
+   assert(!visible.some(p=>p.id===hidden),'invented institution or dream location visible: '+hidden);
+   const record=ctx.window.atlasData.chapters[i].unlocatedPlaces.find(p=>p.id===hidden);
+   if(record)assert(!unlocatedSection?.innerHTML.includes('<summary>'+record.name+'</summary>'));
+  }
   if(!data.chapters[i].places.length)assert(get('selected-location').innerHTML.includes(expected),'section quotation or pending message absent in unlocated section');
   if(data.chapters[i].citations.length){vm.runInContext('selectCitation(0)',ctx);assert(get('selected-location').children.at(-1).innerHTML.includes(expected));}
  }
+ vm.runInContext('selectChapter(7,false,false)',ctx);
+ assert(vm.runInContext("unlocatedPlacesForDisplay(activeChapter()).some(p=>p.id==='prole-streets')",ctx),'documented London area should remain available');
+ assert(ctx.window.atlasData.chapters[0].unlocatedPlaces.some(p=>p.id==='truth'),'hidden institutions must remain in the analysis data');
+ assert.deepEqual(Array.from(ctx.window.atlasData.chapters[0].places),Array.from(data.chapters[0].places),'mapped references must remain available');
+ assert.equal(vm.runInContext("unlocatedPlacesForDisplay({unlocatedPlaces:[{id:'explicit-hide',displayInAtlas:false},{id:'no-geography',geographicRelevance:'none'},{id:'regional-setting',geographicRelevance:'regional'}]}).length",ctx),1);
  vm.runInContext('selectAllPlaces(false,false)',ctx);assert.equal(vm.runInContext('current',ctx),-1);assert.equal(get('all-places').attributes['aria-pressed'],'true');
 }
 console.log('PASS: 1984 complete section structure; 305 literal section–place quotations; fictional geography unlocated; four languages and eight CSV exports.');

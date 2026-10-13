@@ -231,6 +231,13 @@ function renderExcerpts(excerpts,heading,places=[]){
  const records=[selected];
  return `<details class="original-excerpt"><summary>${esc(t(heading))} · ${records.map(item=>esc(t(languageNames[item.language]||item.language))).join(' / ')}</summary>${records.map(item=>`<p><strong>${esc(t(item.type==='translation'?'Published translation':'Original text'))} · ${esc(t(languageNames[item.language]||item.language))}</strong></p><blockquote lang="${esc(item.language)}">${renderQuote(item.quote,places,item.highlightTerms||[])}</blockquote><p class="excerpt-credit">${esc(item.attribution)}<br>${item.url?`<a href="${esc(item.url)}" target="_blank" rel="noopener noreferrer">${esc(t('Read the source'))}</a>`:""}${item.rightsUrl?` · <a href="${esc(item.rightsUrl)}" target="_blank" rel="noopener noreferrer">${esc(t('Edition and rights'))}</a>`:""}</p>`).join('')}</details>`;
 }
+function unlocatedPlacesForDisplay(chapter){
+ // These invented institutions and non-geographic spaces remain in the audit.
+ // A literary setting with a documented real area can instead receive a mapped
+ // representative point; its fictional nature does not prevent that mapping.
+ const hidden=new Set(book.hiddenUnlocatedPlaceIds||[]);
+ return (chapter.unlocatedPlaces||[]).filter(item=>item.displayInAtlas!==false&&item.geographicRelevance!=='none'&&!hidden.has(item.id));
+}
 function renderDetail(){
  const chapter=activeChapter();
  const eyebrow=current<0?esc(t('Whole novel'))+' · '+new Set([...globalPlaceIds,...globalCitations.map(reference=>reference.placeId)]).size+' '+esc(t('mapped places')):esc(book.unit.toUpperCase())+' '+number(chapter.id)+' '+t('DI')+' '+chapters.length+(chapter.english&&chapter.english!==chapter.title?' · '+esc(chapter.english):'');
@@ -247,9 +254,10 @@ function renderDetail(){
  const citations=activeCitations();
  if(citations.length){const container=document.createElement('section');container.className='citation-selector';const heading=document.createElement('h3');heading.className='locations-heading';heading.textContent=t('Mentioned locations')+' · '+citations.length;container.appendChild(heading);const buttons=document.createElement('div');buttons.className='location-buttons';buttons.id='citation-locations';citations.forEach((reference,index)=>{const button=document.createElement('button');button.type='button';button.className='location-button cited-location';button.setAttribute('aria-pressed',String(index===selectedCitation));button.innerHTML='<span>C'+(index+1)+'</span>'+esc(allLiteraryPlaces[reference.placeId].name);button.addEventListener('click',()=>selectCitation(index));buttons.appendChild(button)});container.appendChild(buttons);document.getElementById('episode-locations').after?.(container);}
  renderLocation();
- if(chapter.unlocatedPlaces?.length){
+ const unlocatedPlaces=unlocatedPlacesForDisplay(chapter);
+ if(unlocatedPlaces.length){
   const section=document.createElement('section');section.className='unlocated-places';
-  section.innerHTML=`<h3>${esc(t('Locations without verified coordinates'))}</h3>${chapter.unlocatedPlaces.map(item=>`<details class="location-evidence"><summary>${esc(item.name)}</summary><p>${esc(item.text)}</p>${renderExcerpts(item.excerpt||{original:{...item,language:item.language||book.originalLanguage||'en',type:'original',attribution:item.attribution||[book.author,book.title,chapter.title].join(' · ')},translations:item.translations||{}},'Passage from the novel',[item])}</details>`).join('')}`;
+  section.innerHTML=`<h3>${esc(t('Locations without verified coordinates'))}</h3>${unlocatedPlaces.map(item=>`<details class="location-evidence"><summary>${esc(item.name)}</summary><p>${esc(item.text)}</p>${renderExcerpts(item.excerpt||{original:{...item,language:item.language||book.originalLanguage||'en',type:'original',attribution:item.attribution||[book.author,book.title,chapter.title].join(' · ')},translations:item.translations||{}},'Passage from the novel',[item])}</details>`).join('')}`;
   document.getElementById('selected-location').parentElement.appendChild(section);
  }
 }
