@@ -4,7 +4,7 @@ const ctx={window:{},URL,URLSearchParams,AbortController,setTimeout,clearTimeout
 for(const file of ['supabase-config.js','content-adapter.js','supabase-data.js'])vm.runInContext(fs.readFileSync('docs/'+file,'utf8'),ctx);
 function local(file,key){const c={window:{}};vm.runInNewContext(fs.readFileSync(file,'utf8'),c);return JSON.parse(JSON.stringify(c.window[key]));}
 (async()=>{
- const result=await ctx.window.atlasSupabaseData.loadBook('anna-karenina');
+ const result=await ctx.window.atlasSupabaseData.loadBook('anna-karenina',ctx.window.atlasSupabase,{rawSections:true});
  const actual=JSON.parse(JSON.stringify(result.data)),expected=local('docs/data/anna-karenina.js','atlasData');
  for(const collection of ['places','citedPlaces'])for(const [id,p]of Object.entries(expected[collection]))for(let i=0;i<2;i++){assert.ok(Math.abs(actual[collection][id].coords[i]-p.coords[i])<1e-12,id+' coordinates');p.coords[i]=actual[collection][id].coords[i];}
  assert.deepEqual(actual,expected,'published passages, sources, categories and metadata');

@@ -14,7 +14,7 @@
  }
  function build(data,kind,locale='en'){
   const rows=[(headings[locale]||headings.en).concat(selectedHeadings[locale]||selectedHeadings.en)],labels=categories[locale]||categories.en;
-  for(const chapter of data.chapters){
+  for(const chapter of data.sourceChapters||data.chapters){
    const references=kind==='citations'?(chapter.citations||[]):(chapter.places||[]).map((id,index)=>({placeId:id,category:chapter.placeCategories?.[id]||'action',scene:chapter.placeText[index],excerpt:chapter.placeExcerpts?.[id]}));
    for(const ref of references){
     const p=(kind==='citations'?data.citedPlaces?.[ref.placeId]:null)||data.places[ref.placeId]||data.citedPlaces?.[ref.placeId];if(!p)throw new Error('Missing CSV place: '+ref.placeId);
