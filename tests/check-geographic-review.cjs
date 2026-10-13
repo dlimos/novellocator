@@ -8,6 +8,7 @@ for(const [id,record]of Object.entries(metadata)){
  const input={window:{}};vm.runInNewContext(fs.readFileSync('docs/data/'+id+'.js','utf8'),input);
  const canonical=input.window.atlasData,original=JSON.stringify(canonical);
  const result=review(canonical);assert.equal(JSON.stringify(canonical),original,'review must not alter imported analysis');
+ if(id==='sound-and-fury')for(const sectionId of [2,5])assert.equal(result.chapters.find(c=>c.id===sectionId).placeExcerpts['regional-jefferson'].original.quote,canonical.chapters.find(c=>c.id===sectionId).unlocatedPlaces.find(u=>u.id==='jefferson').quote,'mentions must retain the direct town evidence, not an unrelated interior fragment');
  assert.equal(result.chapters.length,canonical.chapters.length);
  assert.equal(result.chapters.reduce((n,c)=>n+(c.unlocatedPlaces||[]).length,0),canonical.chapters.reduce((n,c)=>n+(c.unlocatedPlaces||[]).length,0));
  assert.equal(JSON.stringify(review(result)),JSON.stringify(result),'review is idempotent');

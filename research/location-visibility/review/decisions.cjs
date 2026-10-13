@@ -80,3 +80,6 @@ module.exports={
  }
 };
 module.exports.lolita.hide.push('Blankton','Poplar Shade','Willow Island');
+// A named lodging house may have a historical model; absence of a verified
+// address alone does not establish that it is wholly imaginary.
+module.exports['crime-and-punishment'].hide=module.exports['crime-and-punishment'].hide.filter(id=>id!=='bakaleyev');

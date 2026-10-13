@@ -16,7 +16,7 @@ function applyGeographicReview(input){
   item.displayInAtlas=false;
   item.mappedPlaceId=region.id;
   if(chapter.places.includes(region.id))continue;
-  const priority=region.evidencePriority||region.keys;
+  const priority=region.categories?.[chapter.id]==='action'?(region.evidencePriority||region.keys):region.keys;
   const evidence=chapter.unlocatedPlaces.filter(candidate=>region.keys.includes(candidate.id||candidate.name)).sort((a,b)=>priority.indexOf(a.id||a.name)-priority.indexOf(b.id||b.name))[0]||item;
   chapter.places.push(region.id);
   if(chapter.overviewPlaces&&!chapter.overviewPlaces.includes(region.id))chapter.overviewPlaces.push(region.id);

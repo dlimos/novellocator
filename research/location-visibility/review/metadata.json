@@ -524,7 +524,6 @@
       "porter",
       "painters",
       "razumikhin",
-      "bakaleyev",
       "new-flat",
       "lebezyatnikov",
       "porfiry",
@@ -541,8 +540,8 @@
       "unlocatedKeys": 73,
       "newRegionalPlaces": 0,
       "regionalReferences": 0,
-      "hiddenRecords": 84,
-      "retainedRecords": 102
+      "hiddenRecords": 77,
+      "retainedRecords": 109
     },
     "analysisNote": "Le stanze dei personaggi non hanno un indirizzo autentico distinto dalla Pietroburgo già cartografata. Restano i siti storici, i nomi mascherati provinciali e le identificazioni controverse. Omsk/prigione/Irtysh conservano il problema del modello, senza rendere esatti edifici narrativi."
   },
@@ -740,7 +739,9 @@
       "hiddenRecords": 87,
       "retainedRecords": 42
     },
-    "analysisNote": "Jefferson e Mottson hanno riferimenti regionali. Gli edifici del loro mondo immaginario non vengono moltiplicati alle coordinate di Oxford. Conservati siti reali e rurali irrisolti di Massachusetts/Boston; Arcadia, Calvary e i luoghi biblici non sono automaticamente confusi con un indirizzo terreno."
+    "analysisNote": "Jefferson e Mottson hanno riferimenti regionali. Gli edifici del loro mondo immaginario non vengono moltiplicati alle coordinate di Oxford. Conservati siti reali e rurali irrisolti di Massachusetts/Boston; Arcadia, Calvary e i luoghi biblici non sono automaticamente confusi con un indirizzo terreno.",
+    "sidebarNote": "Jefferson and Mottson are shown as uncertain regional diamonds. Fictional interiors without an independent useful position remain in the analysis. The later appendix has documented divergences.",
+    "sectionNote": "Jefferson and Mottson are shown as uncertain regional diamonds. Fictional interiors without an independent useful position remain in the analysis. The later appendix has documented divergences."
   },
   "anna-karenina": {
     "reviewedAt": "2026-10-13",

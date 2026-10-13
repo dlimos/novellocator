@@ -3,78 +3,91 @@
     "id": "ulisse",
     "reviewVerified": true,
     "originalDataUnchanged": true,
-    "regionalPlaces": 0
+    "regionalPlaces": 0,
+    "finalReviewVerified": true
   },
   {
     "id": "proust",
     "reviewVerified": true,
     "originalDataUnchanged": true,
-    "regionalPlaces": 0
+    "regionalPlaces": 0,
+    "finalReviewVerified": true
   },
   {
     "id": "war-and-peace",
     "reviewVerified": true,
     "originalDataUnchanged": true,
-    "regionalPlaces": 0
+    "regionalPlaces": 0,
+    "finalReviewVerified": true
   },
   {
     "id": "moby-dick",
     "reviewVerified": true,
     "originalDataUnchanged": true,
-    "regionalPlaces": 1
+    "regionalPlaces": 1,
+    "finalReviewVerified": true
   },
   {
     "id": "gatsby",
     "reviewVerified": true,
     "originalDataUnchanged": true,
-    "regionalPlaces": 1
+    "regionalPlaces": 1,
+    "finalReviewVerified": true
   },
   {
     "id": "holden",
     "reviewVerified": true,
     "originalDataUnchanged": true,
-    "regionalPlaces": 1
+    "regionalPlaces": 1,
+    "finalReviewVerified": true
   },
   {
     "id": "orwell1984",
     "reviewVerified": true,
     "originalDataUnchanged": true,
-    "regionalPlaces": 0
+    "regionalPlaces": 0,
+    "finalReviewVerified": true
   },
   {
     "id": "don-quijote",
     "reviewVerified": true,
     "originalDataUnchanged": true,
-    "regionalPlaces": 4
+    "regionalPlaces": 4,
+    "finalReviewVerified": true
   },
   {
     "id": "crime-and-punishment",
     "reviewVerified": true,
     "originalDataUnchanged": true,
-    "regionalPlaces": 0
+    "regionalPlaces": 0,
+    "finalReviewVerified": true
   },
   {
     "id": "sound-and-fury",
     "reviewVerified": true,
     "originalDataUnchanged": true,
-    "regionalPlaces": 2
+    "regionalPlaces": 2,
+    "finalReviewVerified": true
   },
   {
     "id": "anna-karenina",
     "reviewVerified": true,
     "originalDataUnchanged": true,
-    "regionalPlaces": 1
+    "regionalPlaces": 1,
+    "finalReviewVerified": true
   },
   {
     "id": "lolita",
     "reviewVerified": true,
     "originalDataUnchanged": true,
-    "regionalPlaces": 15
+    "regionalPlaces": 15,
+    "finalReviewVerified": true
   },
   {
     "id": "macondo",
     "reviewVerified": true,
     "regionalPlaces": 1,
-    "originalPlacesRetained": 47
+    "originalPlacesRetained": 47,
+    "finalReviewVerified": true
   }
 ]

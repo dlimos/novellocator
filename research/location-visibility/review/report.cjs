@@ -22,6 +22,23 @@ ${table}
 
 I conteggi degli atlanti geografici riguardano associazioni sezione–scheda, non necessariamente luoghi unici. La colonna delle esclusioni comprende le esclusioni già applicate in 1984 e le precedenti due chiavi del Suono e la furia. Le associazioni convertite in riferimenti regionali non sono comprese né nelle esclusioni né negli elenchi conservati: sono mostrate sulla mappa. Le chiavi dei record di supporto restano nell’analisi, anche quando condividono un unico punto.
 
+## Categoria narrativa dei nuovi riferimenti regionali
+
+Le otto associazioni nuove contrassegnate action hanno queste prove narrative; gli originali restano nei record di supporto o, per Lolita, nei riscontri collazionati privati già documentati. La posizione geografica rappresentativa non è usata come prova della scena.
+
+| Opera e sezione | Luogo regionale | Evento e livello narrativo che motivano action |
+|---|---|---|
+| Don Chisciotte, II.45 | Barataria | Sancho arriva alle porte della villa e viene ricevuto: scena della narrazione principale, non progetto di governo. Il passo originale contiene l’arrivo oltre al nome della burla. |
+| Anna Karenina, VIII.VI | Pokrovskoye | Koznyshev e Katavasov raggiungono il portico; Kitty riconosce il cognato e scende a riceverlo. È un arrivo narrato alla casa, non una notizia sulla residenza di Levin. |
+| L’urlo e il furore, 7 aprile 1928 | Jefferson | Benjy ricorda Caddy che lo conduce correndo verso la casa e su per i gradini: scena del ricordo ai Compson, collegati al contesto regionale dalla fonte critica. Non si identifica la casa con un edificio di Oxford. |
+| L’urlo e il furore, 6 aprile 1928 | Jefferson | Jason va all’ufficio postale, prende la posta e torna al negozio: movimento e arrivo effettivamente narrati. Viene privilegiato questo riscontro rispetto alla sola frase ipotetica sull’abbandono del lavoro. |
+| L’urlo e il furore, 8 aprile 1928 | Jefferson | Il narratore mostra i personaggi davanti alla casa dei Compson e sviluppa le scene cittadine della domenica. Il livello è la narrazione principale; i singoli interni non sono trasformati in indirizzi reali. |
+| L’urlo e il furore, 8 aprile 1928 | Mottson | Jason arriva alla stazione e cammina lungo i vagoni dello spettacolo. Questo passo della visita è distinto dalla notizia dello sceriffo che lo spettacolo è a Mottson: la sola notizia non avrebbe giustificato action. |
+| Lolita, I.10 | Ramsdale | McCoo incontra Humbert nell’albergo e gli comunica l’incendio. Scena collazionata nel ricordo autobiografico di Humbert; citazione pubblica ancora pendente. |
+| Lolita, II.34 | Parkington | Humbert parla direttamente con il benzinaio, nella città esplicitamente nominata. Scena collazionata, senza identificazione di una città reale; citazione pubblica ancora pendente. |
+
+Negli altri nuovi riferimenti resta mentioned, comprese notizie biografiche, destinazioni, riepiloghi e casi non ancora risolti individualmente. In particolare, la firma Widworth della prefazione e la notizia della morte a Gray Star non sono scene ambientate lì. Il riferimento regionale di Macondo documenta il villaggio descritto nell’apertura e il suo contesto critico, senza trasformare una descrizione geografica in una nuova scena action.
+
 ## Luoghi convertiti in riferimenti regionali
 
 ${locations}
