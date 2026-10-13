@@ -6,6 +6,8 @@
 - Per la pubblicazione usare `git push origin docs`; non creare o ripristinare il branch `main`.
 
 ## Analisi delle opere
+- Le descrizioni brevi dei romanzi nella home page e nel catalogo devono evocare luoghi, personaggi e atmosfera in poche parole, nelle quattro lingue del sito. Non indicare il numero di parti, volumi, capitoli, episodi o sezioni e non descrivere la struttura dell'opera o i controlli dell'atlante. Applicare questa regola a tutti i romanzi già importati e a quelli futuri.
+
 
 - Ogni capitolo o sezione di ogni romanzo, già importato o futuro, deve mostrare sempre una breve introduzione narrativa specifica, secondo il modello di Ulisse, Alla ricerca del tempo perduto e Guerra e pace: una o due frasi che orientino su ciò che accade o sul tema trattato, non un riassunto dettagliato. Vale anche per prologhi, epiloghi, sezioni saggistiche e sezioni senza luoghi. Verificare il contenuto nel testo della sezione e renderlo disponibile nelle quattro lingue del sito. Non sostituire l'introduzione con istruzioni sui controlli della mappa, formule generiche sui luoghi o la semplice ripetizione del titolo. Conservare separati gli eventuali messaggi sulla disponibilità dei luoghi.
 
