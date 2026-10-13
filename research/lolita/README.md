@@ -1,7 +1,7 @@
 # Lolita: analisi della fonte scelta dall’utente
 
 Stato al 13 ottobre 2026: **lettura integrale e note per sezione completate;
-aggiunta al sito pendente e non pubblicata**. È stata usata l’ultima fonte
+versione in corso pubblicata; aggiunta completa ancora pendente**. È stata usata l’ultima fonte
 indicata dall’utente, il [testimone FlipHTML5](https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/).
 Sono state acquisite tutte le 213 immagini e letto tutto il testo: prefazione,
 33 capitoli della prima parte, 36 della seconda e postfazione d’autore.
@@ -222,3 +222,5 @@ La pubblicazione finale userà soltanto il branch `docs` e `git push origin docs
 
 Il 13 ottobre 2026 l’utente ha richiesto esplicitamente di pubblicare dopo essere stato informato che la verifica individuale era ancora in corso. La versione preparata con prepare-publication.ts è quindi contrassegnata come analisi in corso, nelle quattro lingue. Questa richiesta supera la precedente sospensione della pubblicazione, senza certificare l’aggiunta come completata: restano 514 associazioni da verificare e nessuna citazione viene esposta. Le categorie non verificate restano mentioned. Il catalogo usa Prinet e la filigrana usa gli occhiali a cuore scelti dall’utente. check-publication.cjs verifica la visibilità pubblica soltanto dopo l’ultimo passaggio SQL e l’assenza di estratti non verificati.
 
+
+La versione in corso è stata importata in Supabase e pubblicata con `git push origin docs` (commit `c7bbbc3`). La pagina pubblica, il catalogo, l’immagine e la filigrana sono stati verificati nel browser. `publication-verification.json` registra il confronto tramite API anonima: tutti i dati e i quattro dizionari coincidono con le copie locali; CSS e documentazione coincidono normalizzando i ritorni a capo del copia-incolla Windows. Tutti i controlli del sito, TypeScript, presentazione e importazione della versione in corso sono passati. L’analisi narrativa individuale resta da completare.

@@ -1,0 +1,16 @@
+{
+  "checkedAt": "2026-10-13T12:09:18.552Z",
+  "remote": "https://dlimos.github.io/novellocator/atlas.html?book=lolita&lang=it",
+  "publicationStatus": "published",
+  "analysisStatus": "in-progress",
+  "sections": 71,
+  "mappedPlaces": 124,
+  "mappedReferences": 207,
+  "unlocatedReferences": 341,
+  "originalEvidencePending": 514,
+  "publicQuotations": 0,
+  "allFourDictionaries": "exact",
+  "presentation": "exact after Windows clipboard newline normalization",
+  "content": "exact except PostgreSQL coordinate serialization within 1e-12",
+  "commit": "c7bbbc3acba9d4afe27092fe2ce8f0525d87eeb8"
+}
