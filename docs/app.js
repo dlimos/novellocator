@@ -217,13 +217,18 @@ function renderQuote(quote,places=[],terms=[]){
  return html+esc(text.slice(cursor));
 }
 const excerptLanguageNames={en:'English',fr:'French',ru:'Russian',it:'Italian',es:'Spanish'};
+function selectedPassage(excerpts){
+ const original=excerpts?.original;
+ if(original?.language===locale&&original.quote)return original;
+ const translated=excerpts?.translations?.[locale];
+ return translated?.language===locale&&translated.quote?translated:null;
+}
 function renderExcerpts(excerpts,heading,places=[]){
- if(!excerpts)return '';
  const languageNames=excerptLanguageNames;
- const records=[];
- for(const item of [excerpts.original,excerpts.translations?.en,excerpts.translations?.[locale]])if(item&&!records.some(record=>record.language===item.language))records.push(item);
- if(!records.length)return '';
- return `<details class="original-excerpt"><summary>${esc(t(heading))} · ${records.map(item=>esc(t(languageNames[item.language]||item.language))).join(' / ')}</summary>${records.map(item=>`<p><strong>${esc(t(item.type==='translation'?'Public-domain translation':'Original text'))} · ${esc(t(languageNames[item.language]||item.language))}</strong></p><blockquote lang="${esc(item.language)}">${renderQuote(item.quote,places,item.highlightTerms||[])}</blockquote><p class="excerpt-credit">${esc(item.attribution)}<br>${item.url?`<a href="${esc(item.url)}" target="_blank" rel="noopener noreferrer">${esc(t('Read the source'))}</a>`:""}${item.rightsUrl?` · <a href="${esc(item.rightsUrl)}" target="_blank" rel="noopener noreferrer">${esc(t('Edition and rights'))}</a>`:""}</p>`).join('')}</details>`;
+ const selected=selectedPassage(excerpts);
+ if(!selected)return `<p class="excerpt-unavailable" role="status"><strong>${esc(t(heading))}</strong> · ${esc(t('A verified quotation is not yet available in the selected language.'))}</p>`;
+ const records=[selected];
+ return `<details class="original-excerpt"><summary>${esc(t(heading))} · ${records.map(item=>esc(t(languageNames[item.language]||item.language))).join(' / ')}</summary>${records.map(item=>`<p><strong>${esc(t(item.type==='translation'?'Published translation':'Original text'))} · ${esc(t(languageNames[item.language]||item.language))}</strong></p><blockquote lang="${esc(item.language)}">${renderQuote(item.quote,places,item.highlightTerms||[])}</blockquote><p class="excerpt-credit">${esc(item.attribution)}<br>${item.url?`<a href="${esc(item.url)}" target="_blank" rel="noopener noreferrer">${esc(t('Read the source'))}</a>`:""}${item.rightsUrl?` · <a href="${esc(item.rightsUrl)}" target="_blank" rel="noopener noreferrer">${esc(t('Edition and rights'))}</a>`:""}</p>`).join('')}</details>`;
 }
 function renderDetail(){
  const chapter=activeChapter();
@@ -243,7 +248,7 @@ function renderDetail(){
  renderLocation();
  if(chapter.unlocatedPlaces?.length){
   const section=document.createElement('section');section.className='unlocated-places';
-  section.innerHTML=`<h3>${esc(t('Locations without verified coordinates'))}</h3>${chapter.unlocatedPlaces.map(item=>`<details class="location-evidence"><summary>${esc(item.name)}</summary><p>${esc(item.text)}</p>${item.quote?`<p><strong>${esc(t('Original text'))} · ${esc(t(excerptLanguageNames[item.language||'en']||item.language))}</strong></p><blockquote lang="${esc(item.language||'en')}">${renderQuote(item.quote,[item],item.highlightTerms||[])}</blockquote>`:''}${item.url?`<a href="${esc(item.url)}" target="_blank" rel="noopener noreferrer">${esc(t('Read the source'))}</a>`:""}</details>`).join('')}`;
+  section.innerHTML=`<h3>${esc(t('Locations without verified coordinates'))}</h3>${chapter.unlocatedPlaces.map(item=>`<details class="location-evidence"><summary>${esc(item.name)}</summary><p>${esc(item.text)}</p>${renderExcerpts(item.excerpt||{original:{...item,language:item.language||book.originalLanguage||'en',type:'original',attribution:item.attribution||[book.author,book.title,chapter.title].join(' · ')},translations:item.translations||{}},'Passage from the novel',[item])}</details>`).join('')}`;
   document.getElementById('selected-location').parentElement.appendChild(section);
  }
 }
@@ -264,9 +269,8 @@ function renderLocation(options={}){
  }
  if(isPopup&&options.chapter)target.innerHTML=`<p class="detail-eyebrow">${esc(number(chapter.id)+' · '+chapter.title)}</p>`+target.innerHTML;
  const quote=!citation&&chapter.placeQuotes?.[id];
- if(quote){const evidence=document.createElement('div');evidence.className='original-excerpt';evidence.innerHTML=`<p><strong>${esc(t('Original text (English)'))}</strong></p><blockquote lang="en">${renderQuote(quote,[place])}</blockquote>`;target.appendChild(evidence);}
  const excerpt=citation?.excerpt||chapter.placeExcerpts?.[id];
- if(excerpt){const evidence=document.createElement('div');evidence.innerHTML=renderExcerpts(excerpt,'Passage from the novel',[place]);target.appendChild(evidence);}
+ const evidence=document.createElement('div');evidence.innerHTML=renderExcerpts(excerpt||(quote?{original:{quote,language:book.originalLanguage||'en',type:'original',attribution:narrativeSource?.label||[book.author,book.title,chapter.title].join(' · '),url:narrativeSource?.url}}:null),'Passage from the novel',[place]);target.appendChild(evidence);
  if(current<0||isPopup){const references=document.createElement('div');references.className='global-references';const heading=document.createElement('h3');heading.textContent=t('Appears in');references.appendChild(heading);chapters.forEach((section,index)=>{const placeIndex=section.places.indexOf(id),citationIndex=(section.citations||[]).findIndex(reference=>reference.placeId===id);if(placeIndex<0&&citationIndex<0)return;const button=document.createElement('button');button.type='button';button.className='section-link';button.textContent=number(section.id)+' · '+section.title+' · '+t(placeIndex>=0&&section.placeCategories?.[id]!=='mentioned'?'Action locations':'Mentioned locations');button.addEventListener('click',()=>{if(isPopup){showMapPopup(true,false,{chapterIndex:index,placeId:id});return;}selectChapter(index,false);if(placeIndex>=0)selectPlace(placeIndex);else selectCitation(citationIndex)});references.appendChild(button)});target.appendChild(references);}
  if(!isIllustrated){const link=isPopup?target.querySelector?.('.street-view-link'):document.getElementById('street-view-link');if(link)link.onclick=openStreetView;}
  if(!isPopup&&!document.getElementById('map-place-popup').hidden)showMapPopup();

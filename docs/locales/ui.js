@@ -557,3 +557,10 @@ window.atlasLocaleData={
     }
   }
 };
+// Availability refers to verified quotations, independently of map coverage.
+for(const [language,messages] of Object.entries({
+ en:{'Published translation':'Published translation','A verified quotation is not yet available in the selected language.':'A verified quotation is not yet available in the selected language.'},
+ it:{'Published translation':'Traduzione pubblicata','A verified quotation is not yet available in the selected language.':'Una citazione verificata non è ancora disponibile nella lingua selezionata.'},
+ fr:{'Published translation':'Traduction publiée','A verified quotation is not yet available in the selected language.':'Une citation vérifiée n’est pas encore disponible dans la langue sélectionnée.'},
+ es:{'Published translation':'Traducción publicada','A verified quotation is not yet available in the selected language.':'Todavía no hay una cita verificada disponible en el idioma seleccionado.'}
+}))Object.assign(window.atlasLocaleData.messages[language],messages);

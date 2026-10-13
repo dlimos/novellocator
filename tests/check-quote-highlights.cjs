@@ -13,11 +13,11 @@ assert.equal(run(`renderQuote('Deasy’s school', [{name:"Deasy's school"}])`),`
 assert.equal(run(`renderQuote('в Москве', [], ['Москве'])`),`в ${bold}Москве</strong>`);
 assert.equal(run(`renderQuote('An unnamed room.', [{name:'Paris'}])`),'An unnamed room.');
 assert.equal(run(`renderQuote('Le\u0301on', [{name:'Léon'}])`),`${bold}Le\u0301on</strong>`);
-run(`selectChapter(0,false,false);selectCitation(chapters[0].citations.findIndex(item=>item.placeId==='paris'),false)`);
+run(`chapters[0].citations.find(item=>item.placeId==='paris').excerpt.translations.it={quote:'Paris',language:'it',type:'translation',attribution:'Synthetic test fixture',highlightTerms:['Paris']};selectChapter(0,false,false);selectCitation(chapters[0].citations.findIndex(item=>item.placeId==='paris'),false)`);
 assert.ok(elements['selected-location'].children.some(child=>child.innerHTML.includes(bold+'Paris</strong>')));
 run(`renderLocation({target:document.getElementById('map-popup-content')})`);
 assert.ok(elements['map-popup-content'].children.some(child=>child.innerHTML.includes(bold+'Paris</strong>')));
-run(`chapters[0].unlocatedPlaces=[{name:'Paris',text:'Unlocated evidence',quote:'Paris & beyond.',language:'en'}];renderDetail()`);
+run(`chapters[0].unlocatedPlaces=[{name:'Paris',text:'Unlocated evidence',quote:'English original',language:'en',translations:{it:{quote:'Paris & beyond.',language:'it',type:'translation',attribution:'Synthetic test fixture',highlightTerms:['Paris']}}}];renderDetail()`);
 assert.ok(elements['selected-location'].parentElement.children.at(-1).innerHTML.includes(bold+'Paris</strong> &amp; beyond.'));
 assert.equal(run(`window.atlasI18n.localizeData({highlightTerms:['Paris'],aliases:['Paris']}).highlightTerms[0]`),'Paris');
 assert.equal(run(`window.atlasI18n.localizeData({highlightTerms:['Paris'],aliases:['Paris']}).aliases[0]`),'Paris');

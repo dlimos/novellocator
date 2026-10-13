@@ -45,3 +45,9 @@ docs/themes/
 docs/content/books.js
 docs/content/book-translations.js
 docs/images/CREDITS.md
+
+# Translation source corpora, quotation imports and publication backups stay local.
+research/translations/corpus/
+research/translations/verified/
+research/translations/*.json
+research/translations/*.sql

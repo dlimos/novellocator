@@ -27,7 +27,10 @@ for(const [book,[sections,places,references,language]]of Object.entries(books)){
   const {ctx,elements,location,run}=setup(book,lang),d=ctx.window.atlasData;
   const index=d.chapters.findIndex(c=>c.citations.length);run('selectChapter('+index+',false,false)');
   assert.equal(elements['citation-locations'].children.length,d.chapters[index].citations.length);
-  elements['citation-locations'].children[0].events.click();assert.equal(ctx.window.atlasState().citation,0);assert.match(elements['selected-location'].innerHTML,/category-mentioned/);assert.ok(elements['selected-location'].children.some(c=>c.innerHTML.includes('lang="'+language+'"')));
+  elements['citation-locations'].children[0].events.click();assert.equal(ctx.window.atlasState().citation,0);assert.match(elements['selected-location'].innerHTML,/category-mentioned/);
+  const group=d.chapters[index].citations[0].excerpt,passage=group.original.language===lang?group.original:group.translations?.[lang];
+  const expected=passage?'lang="'+lang+'"':ctx.window.atlasI18n.t('A verified quotation is not yet available in the selected language.');
+  assert.ok(elements['selected-location'].children.some(c=>c.innerHTML.includes(expected)));
   for(const layer of ['markerLayer','citedMarkerLayer']){const graphics=run(layer+'.graphics.filter(g=>g.symbol.type===\'simple-marker\')');for(const g of graphics){const category=layer==='markerLayer'?'action':'mentioned';assert.equal(g.attributes.category,category);assert.equal(g.symbol.color,category==='action'?'#19665c':'#99502d');const id=Number.isInteger(g.attributes.citationIndex)?d.chapters[index].citations[g.attributes.citationIndex].placeId:d.chapters[index].places[g.attributes.placeIndex];assert.equal(g.symbol.style,['area','street','uncertain'].includes(all[id].kind)?'diamond':'circle')}}
   const selected=run('citedMarkerLayer.graphics.find(g=>g.attributes.citationIndex===0&&g.symbol.type===\'simple-marker\')');assert.equal(selected.symbol.outline.color,'#e8c565');assert.equal(selected.symbol.color,'#99502d');
   const basemap=ctx.window.atlasState().basemap;elements['layer-action'].events.change({target:{checked:false}});assert.equal(run('markerLayer.visible'),false);assert.equal(run('citedMarkerLayer.visible'),true);assert.equal(elements['layer-markers'].indeterminate,true);assert.equal(ctx.window.atlasState().basemap,basemap);

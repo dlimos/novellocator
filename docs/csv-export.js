@@ -6,16 +6,23 @@
   es:['Sección','Título','Lugar','Dirección o área','Categoría','Latitud','Longitud','Geometría','Escena','Idioma original','Pasaje original','Fuente textual','Fuente de coordenadas','Método de localización','Nota','Verificación']
  };
  const categories={en:['Action locations','Mentioned locations'],it:['Luoghi dell’azione','Luoghi citati'],fr:['Lieux de l’action','Lieux mentionnés'],es:['Lugares de la acción','Lugares mencionados']};
+ const selectedHeadings={en:['Selected language','Selected-language passage','Quotation credit','Edition and rights'],it:['Lingua selezionata','Passo nella lingua selezionata','Attribuzione della citazione','Edizione e diritti'],fr:['Langue sélectionnée','Passage dans la langue sélectionnée','Attribution de la citation','Édition et droits'],es:['Idioma seleccionado','Pasaje en el idioma seleccionado','Atribución de la cita','Edición y derechos']};
+ function selectedColumns(group,locale){
+  const q=group?.original?.language===locale?group.original:group?.translations?.[locale];
+  return [locale,q?.language===locale?q.quote||'':'',q?.language===locale?q.attribution||'':'',q?.language===locale?q.rightsUrl||'':''];
+ }
  function build(data,kind,locale='en'){
-  const rows=[headings[locale]||headings.en],labels=categories[locale]||categories.en;
+  const rows=[(headings[locale]||headings.en).concat(selectedHeadings[locale]||selectedHeadings.en)],labels=categories[locale]||categories.en;
   for(const chapter of data.chapters){
    const references=kind==='citations'?(chapter.citations||[]):(chapter.places||[]).map((id,index)=>({placeId:id,category:chapter.placeCategories?.[id]||'action',scene:chapter.placeText[index],excerpt:chapter.placeExcerpts?.[id]}));
    for(const ref of references){
     const p=(kind==='citations'?data.citedPlaces?.[ref.placeId]:null)||data.places[ref.placeId]||data.citedPlaces?.[ref.placeId];if(!p)throw new Error('Missing CSV place: '+ref.placeId);
     const q=ref.excerpt?.original;
-    rows.push([chapter.id,chapter.title,p.name,p.area,labels[ref.category==='mentioned'?1:0],p.coords?.[0],p.coords?.[1],p.kind,ref.scene||'',q?.language,q?.quote||chapter.placeQuotes?.[ref.placeId]||'',q?.url||chapter.placeSources?.[ref.placeId]?.url||p.narrativeSource?.url,p.positionSource?.url,p.method,p.note,p.checked]);
+    const legacy=chapter.placeQuotes?.[ref.placeId],source=chapter.placeSources?.[ref.placeId]||p.narrativeSource;
+    const group=ref.excerpt||(legacy?{original:{quote:legacy,language:data.book.originalLanguage||'en',attribution:source?.label||'',url:source?.url}}:null);
+    rows.push([chapter.id,chapter.title,p.name,p.area,labels[ref.category==='mentioned'?1:0],p.coords?.[0],p.coords?.[1],p.kind,ref.scene||'',q?.language,q?.quote||legacy||'',q?.url||source?.url,p.positionSource?.url,p.method,p.note,p.checked].concat(selectedColumns(group,locale)));
    }
-   if(kind!=='citations')for(const p of chapter.unlocatedPlaces||[])rows.push([chapter.id,chapter.title,p.name,'',labels[p.category==='mentioned'?1:0],'','','',p.text,'',p.quote,p.url,'','','','']);
+   if(kind!=='citations')for(const p of chapter.unlocatedPlaces||[])rows.push([chapter.id,chapter.title,p.name,'',labels[p.category==='mentioned'?1:0],'','','',p.text,p.language||data.book.originalLanguage||'en',p.quote,p.url,'','','',''].concat(selectedColumns(p.excerpt||{original:{...p,language:p.language||data.book.originalLanguage||'en'},translations:p.translations},locale)));
   }
   return '\ufeff'+rows.map(row=>row.map(value=>'"'+String(value??'').replaceAll('"','""')+'"').join(',')).join('\r\n')+'\r\n';
  }

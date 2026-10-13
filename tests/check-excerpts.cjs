@@ -13,10 +13,25 @@ for(const lang of ['en','it','fr','es'])for(const id of Object.keys(raw)){
  const ctx={console,URL,URLSearchParams,NodeFilter:{SHOW_TEXT:4},location,localStorage:{getItem(){},setItem(){}},window:{location,innerWidth:1100,matchMedia:()=>({matches:true}),addEventListener(){}},document:{readyState:'loading',documentElement:{},body:{querySelectorAll:()=>[]},head:{querySelectorAll:()=>[]},addEventListener(k,f){startup=f},createTreeWalker:()=>({nextNode:()=>false}),querySelectorAll:()=>[],getElementById:x=>elements[x]??(elements[x]=el()),querySelector:()=>({}),createElement:el}};
  vm.createContext(ctx);for(const name of ['locales/ui.js','content/book-translations.js','i18n.js','data/'+id+'.js','data/'+id+'-i18n.js','basemaps.js'])vm.runInContext(fs.readFileSync('docs/'+name,'utf8'),ctx);ctx.window.atlasData=ctx.window.atlasI18n.localizeData(ctx.window.atlasData);startup();vm.runInContext(fs.readFileSync('docs/app.js','utf8').replace(/initializeMap\(\);\s*$/,''),ctx);
  const localized=ctx.window.atlasData;
- for(const [i,c]of localized.chapters.entries()){vm.runInContext('selectChapter('+i+',false,false)',ctx);assert.equal(c.excerpts.original.quote,raw[id].chapters[i].excerpts.original.quote);const html=vm.runInContext("renderExcerpts(chapters["+i+"].excerpts,'Text from this section')",ctx);assert.ok(html.includes('lang="'+originalLanguages[id]+'"'));assert.ok(html.includes(ctx.window.atlasI18n.t('Original text')));assert.ok(html.includes(ctx.window.atlasI18n.t('Edition and rights')));const expected=[c.excerpts.original,c.excerpts.translations.en,c.excerpts.translations[lang]].filter((r,i,all)=>r&&all.findIndex(x=>x?.language===r.language)===i);assert.deepEqual([...html.matchAll(/<blockquote lang="([^"]+)"/g)].map(m=>m[1]),expected.map(r=>r.language));for(const translation of expected.filter(r=>r.type==='translation'))assert.ok(html.includes(translation.attribution));
- for(const [j,place]of c.places.entries()){if(!c.placeExcerpts?.[place])continue;vm.runInContext('selectPlace('+j+')',ctx);const html=elements['selected-location'].children.at(-1).innerHTML;assert.ok(html.includes(ctx.window.atlasI18n.t('Passage from the novel')));assert.equal(c.placeExcerpts[place].original.quote,raw[id].chapters[i].placeExcerpts[place].original.quote);assert.ok(html.includes('lang="'+originalLanguages[id]+'"'));if(id==='war-and-peace'){assert.ok(html.includes('lang="en"'));assert.ok(html.includes('Louise and Aylmer Maude'));assert.ok(html.includes(ctx.window.atlasI18n.t('Original text')));}}}
+ function verifySelected(html,group){
+  const selected=group.original.language===lang?group.original:group.translations?.[lang];
+  assert.deepEqual([...html.matchAll(/<blockquote lang="([^"]+)"/g)].map(m=>m[1]),selected?[lang]:[]);
+  if(selected){assert.ok(html.includes(selected.attribution));assert.ok(html.includes(ctx.window.atlasI18n.t('Edition and rights')));}
+  else{assert.ok(html.includes(ctx.window.atlasI18n.t('A verified quotation is not yet available in the selected language.')));assert.ok(!html.includes(group.original.quote));}
+ }
+ for(const [i,c]of localized.chapters.entries()){
+  vm.runInContext('selectChapter('+i+',false,false)',ctx);
+  assert.equal(c.excerpts.original.quote,raw[id].chapters[i].excerpts.original.quote);
+  verifySelected(vm.runInContext("renderExcerpts(chapters["+i+"].excerpts,'Text from this section')",ctx),c.excerpts);
+  for(const [j,place]of c.places.entries()){
+   if(!c.placeExcerpts?.[place])continue;
+   vm.runInContext('selectPlace('+j+')',ctx);
+   assert.equal(c.placeExcerpts[place].original.quote,raw[id].chapters[i].placeExcerpts[place].original.quote);
+   verifySelected(elements['selected-location'].children.at(-1).innerHTML,c.placeExcerpts[place]);
+  }
+ }
  // Quotations and attribution remain literal even if a future UI dictionary contains the same string.
  ctx.window.atlasTranslations[lang]??={};ctx.window.atlasTranslations[lang]['literal quotation']='wrong';assert.equal(ctx.window.atlasI18n.localizeData({quote:'literal quotation'}).quote,'literal quotation');
 }
 assert.equal(audit.records.filter(r=>r.book==='war-and-peace'&&r.place&&r.type==='original').length,91);
-console.log('PASS: 42 original section excerpts and 219 original place excerpts, including all 91 Russian Tolstoy scenes; original + English + selected language in order, no duplicates, literal quotations across four locales and source/rights links.');
+console.log('PASS: original evidence preserved; only the selected-language quotation is shown, with literal attribution and sources; missing translations are explicit across four locales.');
