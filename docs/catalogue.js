@@ -19,7 +19,7 @@
  }
  function render(books){
   return {
-   cards:books.map((book,index)=>`<article class="book-card available-book"><a class="book-art" href="atlas.html?book=${encodeURIComponent(book.id)}" aria-label="${escape(book.ariaLabel)}" style="--cover-position:${escape(book.cover.position)}"><img src="${escape(book.cover.src)}" alt="${escape(book.cover.alt)}" width="${book.cover.width}" height="${book.cover.height}" ${index?'loading="lazy"':'fetchpriority="high"'} decoding="async"><span>${escape(book.setting)}</span></a>${renderCredit(book.credit)}<a class="book-copy" href="atlas.html?book=${encodeURIComponent(book.id)}" aria-label="${escape(book.ariaLabel)}"><div class="book-meta"><span>${escape(book.author)}</span></div><h2>${escape(book.title)}</h2></a></article>`).join('\n')
+   cards:books.map((book,index)=>`<article class="book-card available-book"><a class="book-art" href="atlas.html?book=${encodeURIComponent(book.id)}" aria-label="${escape(book.ariaLabel)}" style="--cover-position:${escape(book.cover.position)}"><img src="${escape(book.cover.src)}" alt="${escape(book.cover.alt)}" width="${book.cover.width}" height="${book.cover.height}" ${index?'loading="lazy"':'fetchpriority="high"'} decoding="async"><span>${escape(book.setting)}</span></a>${renderCredit(book.credit)}<a class="book-copy" href="atlas.html?book=${encodeURIComponent(book.id)}" aria-label="${escape(book.ariaLabel)}"><div class="book-meta"><span>${escape(book.author)}</span></div><h2>${escape(book.title)}</h2>${book.editorialNotice?`<p class="book-editorial-notice">${escape(book.editorialNotice)}</p>`:""}</a></article>`).join('\n')
   };
  }
  root.atlasCatalogueView={render,matches,shuffle};

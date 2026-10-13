@@ -1,0 +1,1769 @@
+{
+  "District of Columbia": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      38.8920621,
+      -77.0199124
+    ],
+    "matchedName": "Washington, District of Columbia",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Washington+District+of+Columbia+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del distretto per l’affiliazione professionale del legale, non sede del carcere.",
+    "narrativeIdentificationVerified": false
+  },
+  "Paris": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      48.856379773,
+      2.352485917
+    ],
+    "matchedName": "Paris, Île-de-France",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Paris+France&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Florida": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      28.566044895,
+      -81.68864879
+    ],
+    "matchedName": "Florida",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Florida+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Danube": {
+    "status": "unlocated-pending-identification",
+    "reason": "Il risultato è un punto alla foce del fiume con corrispondenza incompleta; serve una scelta motivata per il corso fluviale.",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Danube+River+Europe&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3"
+  },
+  "Dorset": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      50.80249,
+      -2.3045
+    ],
+    "matchedName": "Dorset, England",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Dorset+England&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Pisa": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      43.7161354,
+      10.3965843
+    ],
+    "matchedName": "Pisa",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Pisa+Italy&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Lyon": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      45.767628464,
+      4.835034706
+    ],
+    "matchedName": "Lyon, Rhône, Auvergne-Rhône-Alpes",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Lyon+France&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Italy": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      42.83333,
+      12.83333
+    ],
+    "matchedName": "Italy",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Italy&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Corfu": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      39.623149874546,
+      19.849506662011
+    ],
+    "matchedName": "Corfu",
+    "candidateIndex": 1,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Corfu+Greece&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa dell’isola, non della sola città o di un ospedale. Il testo riferisce la morte di Annabel senza narrare una scena.",
+    "narrativeIdentificationVerified": false
+  },
+  "London": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      51.50740836,
+      -0.127698693
+    ],
+    "matchedName": "London, Greater London, England",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=London+England&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Deux Magots": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      48.854052,
+      2.3331062
+    ],
+    "matchedName": "Les Deux Magots",
+    "candidateIndex": 0,
+    "entityType": "POI",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Les+Deux+Magots+Paris+France&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Auteuil": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      48.84694,
+      2.26366
+    ],
+    "matchedName": "Auteuil, Paris, Île-de-France",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Auteuil+Paris+France&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "England": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      52.594120680415,
+      -1.464804209407
+    ],
+    "matchedName": "England",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=England+United+Kingdom&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Massachusetts": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      42.358670324,
+      -71.718185
+    ],
+    "matchedName": "Massachusetts",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Massachusetts+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Nile": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      30.16196,
+      31.14946
+    ],
+    "matchedName": "Nile River",
+    "candidateIndex": 0,
+    "entityType": "POI",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Nile+River+Egypt&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Florence": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      43.7686976,
+      11.2569291
+    ],
+    "matchedName": "Florence",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Florence+Italy&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Vaucluse": {
+    "status": "unlocated-pending-identification",
+    "reason": "Il riferimento letterario ai paesaggi di Petrarca non risolve fra dipartimento e area di Fontaine-de-Vaucluse.",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Vaucluse+France&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3"
+  },
+  "Madeleine": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      48.87005,
+      2.32451
+    ],
+    "matchedName": "La Madeleine",
+    "candidateIndex": 0,
+    "entityType": "POI",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=La+Madeleine+Paris+France&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Il punto rappresenta i dintorni della chiesa nominata; la scena del cammino non è ambientata nel suo interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "New York": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      40.7130466,
+      -74.0072301
+    ],
+    "matchedName": "New York City, New York",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=New+York+City+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "California": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      36.374105693,
+      -119.27023
+    ],
+    "matchedName": "California",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=California+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Pasadena": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      34.14955,
+      -118.141452
+    ],
+    "matchedName": "Pasadena, California",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Pasadena+California+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Venice": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      45.434608,
+      12.338913
+    ],
+    "matchedName": "Venice",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Venice+Italy&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Boston": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      42.3589942,
+      -71.0586293
+    ],
+    "matchedName": "Boston, Massachusetts",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Boston+Massachusetts+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Ocean City": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      39.278297,
+      -74.575521
+    ],
+    "matchedName": "Ocean City, New Jersey",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Ocean+City+New+Jersey+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Columbia University": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      40.8077143,
+      -73.9622832
+    ],
+    "matchedName": "Columbia University",
+    "candidateIndex": 0,
+    "entityType": "POI",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Columbia+University+New+York+City+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Dayton": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      39.760982,
+      -84.192203
+    ],
+    "matchedName": "Dayton, Ohio",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Dayton+Ohio+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Ottawa": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      45.425226,
+      -75.699963
+    ],
+    "matchedName": "Ottawa, Ontario",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Ottawa+Ontario+Canada&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Portugal": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      39.593139046,
+      -8.51981299
+    ],
+    "matchedName": "Portugal",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Portugal&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Central Park": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      40.78268,
+      -73.96558
+    ],
+    "matchedName": "Central Park",
+    "candidateIndex": 0,
+    "entityType": "POI",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Central+Park+New+York+City+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Victoria Island": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      71.04268,
+      -109.92486
+    ],
+    "matchedName": "Victoria Island",
+    "candidateIndex": 0,
+    "entityType": "POI",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Victoria+Island+Northwest+Territories+Canada&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Bermudas": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      32.306817732,
+      -64.770041837
+    ],
+    "matchedName": "Bermuda",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Bermuda&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Bahamas": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      25.04082,
+      -77.37122
+    ],
+    "matchedName": "Bahamas",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Bahamas&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "New Hampshire": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      43.685525247,
+      -71.577596738
+    ],
+    "matchedName": "New Hampshire",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=New+Hampshire+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Chicago": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      41.883229,
+      -87.632398
+    ],
+    "matchedName": "Chicago, Illinois",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Chicago+Illinois+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Savannah": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      32.0806102,
+      -81.0900966
+    ],
+    "matchedName": "Savannah, Georgia",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Savannah+Georgia+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Vera Cruz": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      19.186026907,
+      -96.157282698
+    ],
+    "matchedName": "Veracruz, Veracruz De Ignacio De La Llave",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Veracruz+Mexico&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Philadelphia": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      39.9510605,
+      -75.1656204
+    ],
+    "matchedName": "Philadelphia, Pennsylvania",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Philadelphia+Pennsylvania+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Chile": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      -30.0,
+      -71.0
+    ],
+    "matchedName": "Chile",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Chile&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Arles": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      43.676811306,
+      4.62735982
+    ],
+    "matchedName": "Arles, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Arles+France&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Scandinavia": {
+    "status": "unlocated-pending-identification",
+    "reason": "Il primo risultato è un’attività in California; anche gli altri candidati sono omonimi estranei alla regione europea.",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Scandinavia+Europe&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3"
+  },
+  "Canada": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      60.10867,
+      -113.64258
+    ],
+    "matchedName": "Canada",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Canada&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Maine": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      45.315249922,
+      -69.203947061
+    ],
+    "matchedName": "Maine",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Maine+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "New Mexico": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      34.421326534,
+      -106.108403845
+    ],
+    "matchedName": "New Mexico",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=New+Mexico+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Vienna": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      48.2092062,
+      16.3727778
+    ],
+    "matchedName": "Vienna",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Vienna+Austria&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Eiffel Tower": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      48.8588443,
+      2.2943506
+    ],
+    "matchedName": "Eiffel Tower",
+    "candidateIndex": 0,
+    "entityType": "POI",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Eiffel+Tower+Paris+France&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Niagara": {
+    "status": "unlocated-pending-identification",
+    "reason": "La ricerca restituisce la città, mentre il passo è una similitudine delle cascate: non confondere le due entità.",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Niagara+Falls+USA+Canada&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3"
+  },
+  "St. Louis": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      38.635355,
+      -90.2009855
+    ],
+    "matchedName": "Saint Louis, Missouri",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Saint+Louis+Missouri+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Cincinnati": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      39.12711,
+      -84.51439
+    ],
+    "matchedName": "Cincinnati, Ohio",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Cincinnati+Ohio+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Pennsylvania": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      40.896511654,
+      -77.838750776
+    ],
+    "matchedName": "Pennsylvania",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Pennsylvania+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Virginia": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      37.512820504,
+      -78.697948713
+    ],
+    "matchedName": "Virginia",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Virginia+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Arkansas": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      34.899923725,
+      -92.4388847
+    ],
+    "matchedName": "Arkansas",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Arkansas+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Oklahoma": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      35.58268395,
+      -97.508599361
+    ],
+    "matchedName": "Oklahoma",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Oklahoma+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Louisiana": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      30.185846167,
+      -91.42642
+    ],
+    "matchedName": "Louisiana",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Louisiana+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Lourdes": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      43.091676331,
+      -0.045895297
+    ],
+    "matchedName": "Lourdes, Hautes-Pyrénées, Occitanie",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Lourdes+France&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Kansas": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      38.484726713,
+      -98.380170629
+    ],
+    "matchedName": "Kansas",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Kansas+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Georgia": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      32.648324554,
+      -83.444534401
+    ],
+    "matchedName": "Georgia",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Georgia+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Mississippi": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      32.723977799,
+      -89.657175808
+    ],
+    "matchedName": "Mississippi",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Mississippi+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Colorado": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      38.998550562,
+      -105.547816373
+    ],
+    "matchedName": "Colorado",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Colorado+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Russian Gulch": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      39.3293656,
+      -123.8049342
+    ],
+    "matchedName": "Russian Gulch State Park",
+    "candidateIndex": 0,
+    "entityType": "POI",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Russian+Gulch+State+Park+California+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Cannes": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      43.551381249,
+      7.012553071
+    ],
+    "matchedName": "Cannes, Alpes-Maritimes, Provence-Alpes-Côte d'Azur",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Cannes+France&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Arizona": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      34.293016451,
+      -111.664753988
+    ],
+    "matchedName": "Arizona",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Arizona+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Utah": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      39.323725193,
+      -111.678248391
+    ],
+    "matchedName": "Utah",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Utah+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Milner Pass": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      40.38034,
+      -105.5295253
+    ],
+    "matchedName": "Milner Pass",
+    "candidateIndex": 0,
+    "entityType": "POI",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Milner+Pass+Colorado+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Little Rock": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      34.748745,
+      -92.275105
+    ],
+    "matchedName": "Little Rock, Arkansas",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Little+Rock+Arkansas+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Phoenix": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      33.448204,
+      -112.0725848
+    ],
+    "matchedName": "Phoenix, Arizona",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Phoenix+Arizona+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Los Angeles": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      34.052238,
+      -118.243344
+    ],
+    "matchedName": "Los Angeles, California",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Los+Angeles+California+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Burns": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      43.58756,
+      -119.059583
+    ],
+    "matchedName": "Burns, Oregon",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Burns+Oregon+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Oregon": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      43.938780241,
+      -120.558560912
+    ],
+    "matchedName": "Oregon",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Oregon+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Sun Valley": {
+    "status": "unlocated-pending-identification",
+    "reason": "Il testo indica una cittadina non nominata nella valle; il punto del comune Sun Valley non localizza quella scena.",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Sun+Valley+Idaho+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3"
+  },
+  "Idaho": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      44.388995394,
+      -114.659446938
+    ],
+    "matchedName": "Idaho",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Idaho+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Pinedale": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      42.86755,
+      -109.863722
+    ],
+    "matchedName": "Pinedale, Wyoming",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Pinedale+Wyoming+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Farson": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      42.183794,
+      -109.412796
+    ],
+    "matchedName": "Farson, Wyoming",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Farson+Wyoming+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Nebraska": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      41.527270326,
+      -99.811107307
+    ],
+    "matchedName": "Nebraska",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Nebraska+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Michigan": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      44.125199834,
+      -84.1966975
+    ],
+    "matchedName": "Michigan",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Michigan+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Blue Licks": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      38.4325116,
+      -83.9957132
+    ],
+    "matchedName": "Blue Licks Battlefield State Resort Park",
+    "candidateIndex": 0,
+    "entityType": "POI",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Blue+Licks+Battlefield+State+Resort+Park+Kentucky+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Bourbon Street": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      29.9546884,
+      -90.0692962
+    ],
+    "matchedName": "Bourbon Street",
+    "candidateIndex": 0,
+    "entityType": "POI",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Bourbon+Street+New+Orleans+Louisiana+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "New Orleans": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      29.9517634,
+      -90.0746168
+    ],
+    "matchedName": "New Orleans, Louisiana",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=New+Orleans+Louisiana+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Independence": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      39.092752,
+      -94.414913
+    ],
+    "matchedName": "Independence, Missouri",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Independence+Missouri+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Missouri": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      38.367982746,
+      -92.477746617
+    ],
+    "matchedName": "Missouri",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Missouri+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Abilene": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      38.9173235,
+      -97.2139196
+    ],
+    "matchedName": "Abilene, Kansas",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Abilene+Kansas+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Texas": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      31.462733046,
+      -99.33305009
+    ],
+    "matchedName": "Texas",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Texas+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Shakespeare": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      32.324062,
+      -108.737561
+    ],
+    "matchedName": "Shakespeare Ghost Town",
+    "candidateIndex": 0,
+    "entityType": "POI",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Shakespeare+Ghost+Town+New+Mexico+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Reno": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      39.526903,
+      -119.813283
+    ],
+    "matchedName": "Reno, Nevada",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Reno+Nevada+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Nevada": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      39.356482037,
+      -116.655436405
+    ],
+    "matchedName": "Nevada",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Nevada+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Death Valley": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      36.44802,
+      -116.86579
+    ],
+    "matchedName": "Death Valley",
+    "candidateIndex": 0,
+    "entityType": "POI",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Death+Valley+California+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Scotty": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      37.013614,
+      -117.350123
+    ],
+    "matchedName": "Scotty's Castle",
+    "candidateIndex": 0,
+    "entityType": "POI",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Scotty%27s+Castle+Death+Valley+California+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Mission Dolores": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      37.7641708,
+      -122.4269057
+    ],
+    "matchedName": "Mission Dolores",
+    "candidateIndex": 0,
+    "entityType": "POI",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Mission+Dolores+San+Francisco+California+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Crater Lake": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      42.94201,
+      -122.10639
+    ],
+    "matchedName": "Crater Lake",
+    "candidateIndex": 1,
+    "entityType": "POI",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Crater+Lake+Oregon+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Scartato il primo omonimo nell’Oregon orientale; scelto il lago della caldera del Mount Mazama, confrontato con USGS/NPS. Riferimento geografico, non posizione dei personaggi.",
+    "narrativeIdentificationVerified": false,
+    "additionalSource": "https://pubs.usgs.gov/of/1990/0651/report.pdf"
+  },
+  "Yellowstone": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      44.4582059,
+      -110.8296464
+    ],
+    "matchedName": "Yellowstone National Park",
+    "candidateIndex": 0,
+    "entityType": "POI",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Yellowstone+National+Park+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Indiana": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      39.919806964,
+      -86.281793488
+    ],
+    "matchedName": "Indiana",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Indiana+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Alabama": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      32.766542541,
+      -86.840286859
+    ],
+    "matchedName": "Alabama",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Alabama+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Minnesota": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      46.348855766,
+      -94.200790583
+    ],
+    "matchedName": "Minnesota",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Minnesota+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Greece": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      39.0,
+      22.0
+    ],
+    "matchedName": "Greece",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Greece&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Naples": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      40.8399833,
+      14.2525421
+    ],
+    "matchedName": "Naples",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Naples+Italy&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Providence": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      41.824461,
+      -71.412747
+    ],
+    "matchedName": "Providence, Rhode Island",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Providence+Rhode+Island+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Brooklyn": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      40.692529,
+      -73.990996
+    ],
+    "matchedName": "Brooklyn, New York City, New York",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Brooklyn+New+York+City+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "New Brunswick": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      46.634187415,
+      -66.075149655
+    ],
+    "matchedName": "New Brunswick",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=New+Brunswick+Canada&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Tennessee": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      35.843002697,
+      -86.343051177
+    ],
+    "matchedName": "Tennessee",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Tennessee+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Vermont": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      44.075207099,
+      -72.662688804
+    ],
+    "matchedName": "Vermont",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Vermont+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Switzerland": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      46.799817442,
+      8.245024096
+    ],
+    "matchedName": "Switzerland",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Switzerland&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Ohio": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      40.413056799,
+      -82.711215186
+    ],
+    "matchedName": "Ohio",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Ohio+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Algiers": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      36.73225,
+      3.08746
+    ],
+    "matchedName": "Algiers",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Algiers+Algeria&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Cedar City": {
+    "status": "unlocated-pending-identification",
+    "reason": "La notizia sulla nuova residenza di Ann non specifica lo stato. Il candidato Cedar City, Utah, non risolve da solo l’identificazione narrativa.",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Cedar+City+Utah+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3"
+  },
+  "Porlock": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      51.208590212,
+      -3.595993536
+    ],
+    "matchedName": "Porlock, Somerset, England",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Porlock+England&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Elmira": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      42.089823,
+      -76.808259
+    ],
+    "matchedName": "Elmira, New York",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Elmira+New+York+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Sheridan": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      44.7954338,
+      -106.9558968
+    ],
+    "matchedName": "Sheridan, Wyoming",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Sheridan+Wyoming+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Wyoming": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      42.999604339,
+      -107.551610158
+    ],
+    "matchedName": "Wyoming",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Wyoming+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Lebanon": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      43.642425,
+      -72.250595
+    ],
+    "matchedName": "Lebanon, New Hampshire",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Lebanon+New+Hampshire+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Geneva": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      42.867972,
+      -76.985573
+    ],
+    "matchedName": "Geneva, New York",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Geneva+New+York+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Tombstone": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      31.714079,
+      -110.06778
+    ],
+    "matchedName": "Tombstone, Arizona",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Tombstone+Arizona+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Quebec": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      53.38260342,
+      -71.748742246
+    ],
+    "matchedName": "Québec",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Quebec+Province+Canada&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Il punto rappresenta la provincia, non un sanatorio identificato; il testo non ne fornisce un recapito.",
+    "narrativeIdentificationVerified": false
+  },
+  "Montreal": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      45.508867,
+      -73.554242
+    ],
+    "matchedName": "Montréal, Québec",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Montreal+Quebec+Canada&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Dunkerque": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      51.0344,
+      2.37681
+    ],
+    "matchedName": "Dunkirk, North, Hauts-de-France",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Dunkirk+France&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Cape Cod": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      41.6862,
+      -70.24308
+    ],
+    "matchedName": "Cape Cod",
+    "candidateIndex": 0,
+    "entityType": "POI",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Cape+Cod+Massachusetts+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "India": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      23.379379735,
+      79.443326548
+    ],
+    "matchedName": "India",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=India&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Alaska": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      64.808087898,
+      -151.004157815
+    ],
+    "matchedName": "Alaska",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Alaska+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Juneau": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      58.3010372,
+      -134.4246377
+    ],
+    "matchedName": "Juneau, Alaska",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Juneau+Alaska+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Moulinet": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      43.94083,
+      7.41278
+    ],
+    "matchedName": "Moulinet, Nice, Alpes-Maritimes, Provence-Alpes-Côte d'Azur",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Moulinet+Alpes+Maritimes+France&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Patagonia": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      -44.0,
+      -68.0
+    ],
+    "matchedName": "Patagonia",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Patagonia+Argentina&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Jardin des Plantes": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      48.8439229,
+      2.3597141
+    ],
+    "matchedName": "Jardin des Plantes",
+    "candidateIndex": 0,
+    "entityType": "POI",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Jardin+des+Plantes+Paris+France&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Provence": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      44.0,
+      6.0
+    ],
+    "matchedName": "Provence, Provence-Alpes-Côte d'Azur",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Provence+France&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Russia": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      61.989526183,
+      96.805371534
+    ],
+    "matchedName": "Russia",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Russia&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "St. Petersburg": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      59.9384841,
+      30.312485
+    ],
+    "matchedName": "Saint Petersburg",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Saint+Petersburg+Russia&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Ithaca": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      42.440496,
+      -76.495703
+    ],
+    "matchedName": "Ithaca, New York",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Ithaca+New+York+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Telluride": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      37.937412,
+      -107.811757
+    ],
+    "matchedName": "Telluride, Colorado",
+    "candidateIndex": 1,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Telluride+Colorado+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Scartato il primo POI; scelto il comune in Colorado, citato nella postfazione come luogo della stesura, non tappa di Humbert.",
+    "narrativeIdentificationVerified": false
+  },
+  "Afton": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      42.72536,
+      -110.933514
+    ],
+    "matchedName": "Afton, Wyoming",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Afton+Wyoming+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Portal": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      31.914152,
+      -109.141094
+    ],
+    "matchedName": "Portal, Arizona",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Portal+Arizona+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "Ashland": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      42.190417,
+      -122.703274
+    ],
+    "matchedName": "Ashland, Oregon",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Ashland+Oregon+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "France": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      46.559417044,
+      2.550539953
+    ],
+    "matchedName": "France",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=France&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  },
+  "United States": {
+    "status": "reviewed-representative-position",
+    "coords": [
+      39.398703156,
+      -99.41461919
+    ],
+    "matchedName": "United States",
+    "candidateIndex": 0,
+    "entityType": "Locality",
+    "source": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=United+States&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+    "retrieved": "2026-10-13",
+    "method": "Posizione rappresentativa del luogo reale nominato, non coordinata della scena o di un interno.",
+    "narrativeIdentificationVerified": false
+  }
+}

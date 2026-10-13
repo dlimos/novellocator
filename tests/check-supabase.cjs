@@ -33,7 +33,7 @@ async function main(){
   for(const mode of ['success','offline','missing','disabled']){
    const scripts=[],detail={setAttribute(){}};const context={URLSearchParams,console:{error(){}},window:{location:{search:'?book=ulisse'},atlasSupabase:{enabled:mode!=='disabled'},atlasCatalogueData:{load:async()=>({})},atlasI18n:{locale:'it',t:x=>x,localizeData:x=>x},atlasSupabaseData:{loadBook:async()=>{if(mode==='success')return{data:{book:{}},dictionary:{it:{}}};const error=new Error('test');if(mode==='missing')error.code='BOOK_UNAVAILABLE';throw error;}}},document:{head:{appendChild:s=>scripts.push(s)},createElement:()=>({setAttribute(){}}),getElementById:()=>detail}};
    vm.runInNewContext(fs.readFileSync('docs/load-book.js','utf8'),context);await new Promise(resolve=>setImmediate(resolve));
-   if(mode==='success'){assert.equal(scripts.length,1);assert.equal(scripts[0].src,'app.js');assert.equal(context.window.atlasDataSource,'supabase');}
+   if(mode==='success'){assert.equal(scripts.length,1);assert.equal(scripts[0].src.split('?')[0],'app.js');assert.equal(context.window.atlasDataSource,'supabase');}
    if(mode==='offline'||mode==='disabled'){assert.equal(scripts.length,0);assert.match(detail.textContent,/Riprova più tardi/);}
    if(mode==='missing'){assert.equal(scripts.length,0);assert.match(detail.textContent,/non è ancora disponibile/);}
   }

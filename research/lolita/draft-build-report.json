@@ -1,0 +1,22 @@
+{
+  "status": "draft",
+  "sections": 71,
+  "mappedPlaces": 124,
+  "mappedReferences": 207,
+  "unlocatedReferences": 341,
+  "originalEvidenceVerified": 34,
+  "originalEvidencePending": 514,
+  "publicQuotations": 0,
+  "languages": [
+    "en",
+    "it",
+    "fr",
+    "es"
+  ],
+  "publicationAllowed": false,
+  "remaining": [
+    "Complete every individual narrative rationale and original quotation collation.",
+    "Review geographic identity independently of geocoder scores.",
+    "Complete the individual and aggregate quotation rights assessment; retain unavailable translated quotations until verified."
+  ]
+}

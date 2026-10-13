@@ -43,6 +43,6 @@ ctx.window.atlasPresentation.apply({...extra,css:undefined});assert.equal(styles
  let loads=0;const scripts=[];
  const context={URLSearchParams,console,window:{location:{search:'?book='+extra.id},atlasCatalogue:{books:[extra]},atlasCatalogueData:{load:async()=>({books:[extra]})},atlasI18n:{locale:'en',localizeData:x=>x,t:x=>x},IllustratedData:{load:async id=>{assert.equal(id,extra.id);loads++;return{}}},IllustratedAdapter:{adapt:()=>({book:{id:extra.id}})}},document:{getElementById:()=>({}),createElement:()=>({}),head:{appendChild:s=>scripts.push(s)}}};
  vm.runInNewContext(read('load-book.js'),context);await new Promise(resolve=>setImmediate(resolve));
- assert.equal(loads,1);assert.equal(scripts[0].src,'app.js');
+ assert.equal(loads,1);assert.equal(scripts[0].src.split('?')[0],'app.js');
  console.log('PASS: shared JS/CSS/HTML contain no book IDs; editorial translations, cover assets and new illustrated titles work through metadata.');
 })().catch(error=>{console.error(error);process.exitCode=1});

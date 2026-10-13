@@ -1,0 +1,29 @@
+{
+  "artist": "René-Xavier Prinet",
+  "title": "La Sonate à Kreutzer",
+  "year": "1901",
+  "url": "https://commons.wikimedia.org/wiki/File:Prinet_-_Kreutzer_Sonata.jpg",
+  "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/8/86/Prinet_-_Kreutzer_Sonata.jpg",
+  "rights": "Public domain · faithful reproduction · PD-Art",
+  "rightsUrl": "https://commons.wikimedia.org/wiki/Commons:Reuse_of_PD-Art_photographs",
+  "catalogueReference": "https://salons.musee-orsay.fr/Detail/objects/423547",
+  "connection": "Citazione esplicita in Lolita, I.10: la riproduzione è sopra il letto nella camera assegnata a Humbert nella casa Haze. Riscontro controllato visivamente a pagina 25 del lettore, numero 24 stampato. Il testo non specifica quale versione del dipinto; l’immagine scelta è la versione del 1901, identificata nella scheda Commons e nel catalogo del Salon conservato dal Musée d’Orsay.",
+  "literaryReference": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=25",
+  "watermark": {
+    "symbol": "Heart-shaped sunglasses",
+    "requestedByUser": true,
+    "literaryBasis": "Dolores appare con occhiali scuri in I.10, lettore p.26; la forma a cuore è la scelta grafica esplicita dell’utente, non una forma attribuita al testo originale."
+  },
+  "localFile": "docs/images/lolita-prinet-kreutzer.jpg",
+  "width": 841,
+  "height": 956,
+  "originalSha256": "2b62cdc99c191bf2afffe41811fcacb2d89d990abd88191340b61ceac647d203",
+  "localSha256": "80b6c680ea89cebe556c9ebe8e1ceacf13d56bdba8242ab76fa1bec8885afdb2",
+  "checked": "2026-10-13",
+  "catalogueCreditFields": [
+    "artist",
+    "title",
+    "url",
+    "year"
+  ]
+}

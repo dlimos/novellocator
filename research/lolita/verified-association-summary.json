@@ -1,0 +1,342 @@
+[
+  {
+    "sectionId": "foreword",
+    "place": "District of Columbia",
+    "category": "mentioned",
+    "narrativeLevel": "prefazione fittizia di John Ray",
+    "viewerPage": 4,
+    "printedPage": 3,
+    "reason": "Affiliazione professionale del legale: nessuna scena a Washington.",
+    "source": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=4"
+  },
+  {
+    "sectionId": "foreword",
+    "place": "Paris",
+    "category": "mentioned",
+    "narrativeLevel": "notizia nella prefazione fittizia",
+    "viewerPage": 4,
+    "printedPage": 3,
+    "reason": "Notizia sull'iscrizione o residenza di Mona, senza una scena parigina.",
+    "source": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=4"
+  },
+  {
+    "sectionId": "foreword",
+    "place": "Florida",
+    "category": "mentioned",
+    "narrativeLevel": "notizia nella prefazione fittizia",
+    "viewerPage": 4,
+    "printedPage": 3,
+    "reason": "Notizia matrimoniale; non viene narrata una scena in Florida.",
+    "source": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=4"
+  },
+  {
+    "sectionId": "foreword",
+    "place": "Gray Star",
+    "category": "mentioned",
+    "narrativeLevel": "notizia nella prefazione fittizia",
+    "viewerPage": 4,
+    "printedPage": 3,
+    "reason": "Morte comunicata dal prefatore: non è una scena narrata in quella città. Gray Star resta fittizia, distinta dalla cittadina mineraria anonima di II.36.",
+    "source": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=4"
+  },
+  {
+    "sectionId": "2.21",
+    "place": "Terrazza dell'albergo",
+    "category": "action",
+    "narrativeLevel": "scena della memoria di Humbert",
+    "viewerPage": 157,
+    "printedPage": 156,
+    "reason": "Il narratore raggiunge Dolores sulla terrazza; seguono il gioco col cane, l'osservazione e il malessere. Il nome Champion non è inserito nel passo: l'identità dell'albergo è contestuale dal capitolo precedente.",
+    "source": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=157"
+  },
+  {
+    "sectionId": "2.22",
+    "place": "Silver Spur Court",
+    "category": "mentioned",
+    "narrativeLevel": "memoria di Humbert: descrizione iniziale",
+    "viewerPage": 158,
+    "printedPage": 157,
+    "reason": "Questo frammento identifica l'alloggio ma non dimostra da solo la scena. Per il capitolo completo il motel ospita azioni: l'eventuale promozione ad action richiede anche il riscontro specifico del rientro, delle telefonate o della malattia. Conservato mentioned per questo riscontro incompleto.",
+    "source": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=158"
+  },
+  {
+    "sectionId": "2.29",
+    "place": "Casa degli Schiller: salotto",
+    "category": "action",
+    "narrativeLevel": "incontro di Humbert con Dolores",
+    "viewerPage": 180,
+    "printedPage": 179,
+    "reason": "Ingresso effettivo nel salotto e dialogo successivo, non semplice notizia sulla residenza. Il collegamento a Hunter Road è stabilito nel capitolo precedente; il nome non è inventato nel passo.",
+    "source": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=180"
+  },
+  {
+    "sectionId": "2.33",
+    "place": "Grimm Road",
+    "category": "mentioned",
+    "narrativeLevel": "indicazione del dentista nel dialogo",
+    "viewerPage": 195,
+    "printedPage": 194,
+    "reason": "Indirizzo e supposizione comunicati dal dentista; la visita avviene soltanto nella sezione successiva.",
+    "source": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=195"
+  },
+  {
+    "sectionId": "2.33",
+    "place": "Parkington",
+    "category": "mentioned",
+    "narrativeLevel": "indicazione del dentista nel dialogo",
+    "viewerPage": 195,
+    "printedPage": 194,
+    "reason": "Riferimento per localizzare la casa di Quilty; nessuna scena del capitolo è ambientata a Parkington.",
+    "source": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=195"
+  },
+  {
+    "sectionId": "2.34",
+    "place": "Parkington",
+    "category": "action",
+    "narrativeLevel": "viaggio di Humbert dopo la visita al dentista",
+    "viewerPage": 195,
+    "printedPage": 194,
+    "reason": "Scambio diretto con il benzinaio, ambientato esplicitamente nella città. Non dimostra una città reale omonima.",
+    "source": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=195"
+  },
+  {
+    "sectionId": "2.34",
+    "place": "Grimm Road",
+    "category": "action",
+    "narrativeLevel": "viaggio di Humbert",
+    "viewerPage": 195,
+    "printedPage": 194,
+    "reason": "Svolta effettivamente narrata sulla strada, seguita dall'attraversamento del bosco e dall'arrivo al piazzale.",
+    "source": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=195"
+  },
+  {
+    "sectionId": "2.35",
+    "place": "Insomnia Lodge",
+    "category": "mentioned",
+    "narrativeLevel": "memoria di Humbert",
+    "viewerPage": 196,
+    "printedPage": 195,
+    "reason": "Partenza e soggiorno riferiti in riepilogo: non viene sviluppata una scena nell'albergo.",
+    "source": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=196"
+  },
+  {
+    "sectionId": "2.35",
+    "place": "Pavor Manor",
+    "category": "action",
+    "narrativeLevel": "viaggio e ingresso nella casa di Quilty",
+    "viewerPage": 196,
+    "printedPage": 195,
+    "reason": "Arrivo alla casa ed ingresso nel salone narrati nella stessa pagina; il successivo confronto e l'omicidio si svolgono nella villa. Il secondo frammento è un riscontro distinto, non unito artificialmente al primo.",
+    "source": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=196"
+  },
+  {
+    "sectionId": "2.36",
+    "place": "Strada montana e parapetto anonimi",
+    "category": "action",
+    "narrativeLevel": "ricordo intercalato successivo alla scomparsa di Dolores",
+    "viewerPage": 206,
+    "printedPage": 205,
+    "reason": "Il narratore descrive cammino, sosta e ascolto effettivi su una strada montana, senza nome né coordinate. La scena è passata rispetto alla consegna alla polizia.",
+    "source": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=206"
+  },
+  {
+    "sectionId": "2.36",
+    "place": "Cittadina mineraria anonima nella valle",
+    "category": "mentioned",
+    "narrativeLevel": "paesaggio visto e suoni ascoltati nel ricordo",
+    "viewerPage": 206,
+    "printedPage": 205,
+    "reason": "La cittadina è osservata da lontano e i giochi si percepiscono come suono collettivo; non si individua una scena sviluppata al suo interno. Applicata la categoria prudenziale mentioned. Nessuna identificazione con Gray Star.",
+    "source": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=206"
+  },
+  {
+    "sectionId": "afterword",
+    "place": "Gray Star",
+    "category": "mentioned",
+    "narrativeLevel": "commento metanarrativo dell'autore",
+    "viewerPage": 212,
+    "printedPage": 211,
+    "reason": "Nabokov enumera un punto del proprio romanzo. La definizione di capitale del libro non equivale a una coordinata reale e non trasforma la notizia della prefazione in una scena.",
+    "source": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=212"
+  },
+  {
+    "sectionId": "afterword",
+    "place": "Paris",
+    "category": "mentioned",
+    "narrativeLevel": "storia della pubblicazione riferita dall'autore",
+    "viewerPage": 212,
+    "printedPage": 211,
+    "reason": "Notizia editoriale. La menzione di Olympia Press non identifica l'edizione cartacea da cui proviene questo testimone digitale.",
+    "source": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=212"
+  },
+  {
+    "sectionId": "1.6",
+    "place": "Madeleine",
+    "category": "action",
+    "narrativeLevel": "ricordo narrato da Humbert",
+    "viewerPage": 14,
+    "printedPage": 13,
+    "reason": "Cammino e incontro con Monique narrati nei dintorni della Madeleine, non nell’interno della chiesa. La coordinata rappresenta quell’area, senza identificare la strada.",
+    "source": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=14"
+  },
+  {
+    "sectionId": "1.9",
+    "place": "Portugal",
+    "category": "mentioned",
+    "narrativeLevel": "ricordo narrato da Humbert",
+    "viewerPage": 22,
+    "printedPage": 21,
+    "reason": "Soggiorno invernale riferito in riepilogo biografico: nessun episodio ambientato in Portogallo viene sviluppato.",
+    "source": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=22"
+  },
+  {
+    "sectionId": "1.9",
+    "place": "New York",
+    "category": "mentioned",
+    "narrativeLevel": "ricordo narrato da Humbert",
+    "viewerPage": 22,
+    "printedPage": 21,
+    "reason": "Impiego e attività abituali riferiti; il passo non sviluppa una scena in un ufficio identificato. Conservata la categoria prudenziale mentioned.",
+    "source": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=22"
+  },
+  {
+    "sectionId": "1.9",
+    "place": "Arctic Canada",
+    "category": "action",
+    "narrativeLevel": "ricordo narrato da Humbert",
+    "viewerPage": 22,
+    "printedPage": 21,
+    "reason": "Il primo frammento identifica la regione; il secondo, nello stesso resoconto della spedizione, descrive la sosta sul masso e l’esperienza del narratore. I frammenti restano separati. Il masso, le cabine e il punto esatto nell’Artico non sono localizzati.",
+    "source": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=22"
+  },
+  {
+    "sectionId": "1.9",
+    "place": "Prince of Wales",
+    "category": "mentioned",
+    "narrativeLevel": "ricordo narrato da Humbert",
+    "viewerPage": 22,
+    "printedPage": 21,
+    "reason": "Ubicazione ipotizzata del polo magnetico e scopo incerto della spedizione, non scena sull’isola. L’incertezza dichiarata impedisce di attribuire il luogo all’azione.",
+    "source": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=22"
+  },
+  {
+    "sectionId": "1.9",
+    "place": "Pierre Point",
+    "category": "mentioned",
+    "narrativeLevel": "ricordo narrato da Humbert",
+    "viewerPage": 22,
+    "printedPage": 21,
+    "reason": "Notizia sulle attività di un altro gruppo, senza scena narrata a Pierre Point. Identificazione del toponimo pendente.",
+    "source": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=22"
+  },
+  {
+    "sectionId": "1.9",
+    "place": "Melville Sound",
+    "category": "mentioned",
+    "narrativeLevel": "ricordo narrato da Humbert",
+    "viewerPage": 22,
+    "printedPage": 21,
+    "reason": "Riferimento geografico nella notizia relativa al lavoro di un altro gruppo; non ambientazione di una scena. Identificazione storica pendente.",
+    "source": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=22"
+  },
+  {
+    "sectionId": "1.10",
+    "place": "Ramsdale",
+    "category": "action",
+    "narrativeLevel": "ricordo narrato da Humbert",
+    "viewerPage": 24,
+    "printedPage": 23,
+    "reason": "McCoo raggiunge il narratore nell’albergo e gli comunica l’incendio: incontro effettivamente narrato nella città fittizia. Non si sostituisce una città reale a Ramsdale.",
+    "source": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=24"
+  },
+  {
+    "sectionId": "1.10",
+    "place": "Lawn Street",
+    "category": "action",
+    "narrativeLevel": "ricordo narrato da Humbert",
+    "viewerPage": 24,
+    "printedPage": 23,
+    "reason": "La svolta dell’auto sulla strada è narrata direttamente, prima dell’arrivo alla casa Haze. Lawn Street rimane un indirizzo del mondo fittizio.",
+    "source": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=24"
+  },
+  {
+    "sectionId": "1.10",
+    "place": "Haze house",
+    "category": "action",
+    "narrativeLevel": "ricordo narrato da Humbert",
+    "viewerPage": 24,
+    "printedPage": 23,
+    "reason": "La casa appare al termine del percorso; il narratore suona ed entra. Il secondo e il terzo frammento dimostrano gli eventi alla casa, invece di limitarsi al suo aspetto.",
+    "source": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=24"
+  },
+  {
+    "sectionId": "1.10",
+    "place": "Camera di Humbert nella casa Haze",
+    "category": "action",
+    "narrativeLevel": "ricordo narrato da Humbert",
+    "viewerPage": 25,
+    "printedPage": 24,
+    "reason": "Charlotte conduce Humbert nella camera e lui vi osserva il dipinto. Il riferimento di Prinet documenta anche la scelta dell’immagine della scheda; non è un dipinto collocato nel salotto.",
+    "source": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=25"
+  },
+  {
+    "sectionId": "1.10",
+    "place": "Cucina della casa Haze",
+    "category": "action",
+    "narrativeLevel": "ricordo narrato da Humbert",
+    "viewerPage": 26,
+    "printedPage": 25,
+    "reason": "Passaggio effettivamente narrato attraverso la cucina, seguito dal colloquio della domestica con Charlotte. Nessuna coordinata inventata per l’interno.",
+    "source": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=26"
+  },
+  {
+    "sectionId": "1.10",
+    "place": "Sala da pranzo della casa Haze",
+    "category": "action",
+    "narrativeLevel": "ricordo narrato da Humbert",
+    "viewerPage": 26,
+    "printedPage": 25,
+    "reason": "Ingresso e visita della sala da pranzo narrati durante la ricognizione dell’abitazione; luogo dell’azione distinto dalla veranda e dal salotto.",
+    "source": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=26"
+  },
+  {
+    "sectionId": "2.23",
+    "place": "Ponderosa Lodge",
+    "category": "action",
+    "narrativeLevel": "indagine successiva alla scomparsa di Dolores",
+    "viewerPage": 165,
+    "printedPage": 164,
+    "reason": "Visita dell’ufficio del motel, lettura del registro e colloquio con la proprietaria narrati. Nel capitolo II.22 il nome era soltanto sulla carta intestata: qui la categoria cambia sulla base della scena.",
+    "source": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=165"
+  },
+  {
+    "sectionId": "2.23",
+    "place": "Mirandola",
+    "category": "mentioned",
+    "narrativeLevel": "indagine successiva alla scomparsa di Dolores",
+    "viewerPage": 165,
+    "printedPage": 164,
+    "reason": "Indirizzo pseudonimo nel registro, non scena o attestazione di viaggio a Mirandola. Non identificare il luogo con l’omonima città italiana.",
+    "source": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=165"
+  },
+  {
+    "sectionId": "2.23",
+    "place": "Cedar City",
+    "category": "mentioned",
+    "narrativeLevel": "indagine successiva alla scomparsa di Dolores",
+    "viewerPage": 165,
+    "printedPage": 164,
+    "reason": "Informazione data dalla proprietaria sulla nuova vita di Ann, senza scena a Cedar City. Lo stato non è specificato: il punto restituito per Cedar City, Utah, resta un candidato e non viene adottato.",
+    "source": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=165"
+  },
+  {
+    "sectionId": "2.23",
+    "place": "Strada anonima dell’incontro con Mary",
+    "category": "action",
+    "narrativeLevel": "indagine successiva alla scomparsa di Dolores",
+    "viewerPage": 165,
+    "printedPage": 164,
+    "reason": "Humbert ferma Mary e la implora di aiutarlo; la scena è narrata sulla strada. Il testo non nomina la città in questo episodio, perciò non la si localizza automaticamente a Elphinstone.",
+    "source": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=165"
+  }
+]

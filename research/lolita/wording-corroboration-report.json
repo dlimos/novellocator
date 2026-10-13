@@ -1,0 +1,4865 @@
+{
+  "date": "2026-10-13",
+  "candidateAssociations": 539,
+  "associationsWithCorroboratedWording": 446,
+  "remainingWordingChecks": 93,
+  "method": "Exact consecutive Unicode word sequence after punctuation, case and line-end hyphen normalization; no source words replaced.",
+  "limits": [
+    "The two earlier transcripts have common errors and cannot be treated as independent editions.",
+    "Agreement with OCR supports transcription checking but does not identify the print edition, establish rights, or validate a narrative category.",
+    "The image witness remains authoritative. Afterword candidates necessarily need image verification because the earlier PDFs omit the afterword."
+  ],
+  "associations": [
+    {
+      "sectionId": "foreword",
+      "name": "District of Columbia",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "foreword",
+      "name": "Ramsdale",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "foreword",
+      "name": "Paris",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "foreword",
+      "name": "Florida",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "foreword",
+      "name": "Gray Star",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "foreword",
+      "name": "Northwest",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "foreword",
+      "name": "Widworth",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.2",
+      "name": "Paris",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.2",
+      "name": "Danube",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.2",
+      "name": "Dorset",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.2",
+      "name": "America",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.2",
+      "name": "Pisa",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.2",
+      "name": "Lyon",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.2",
+      "name": "Italy",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.2",
+      "name": "Hotel Mirana",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.2",
+      "name": "Riviera",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.3",
+      "name": "Hotel Mirana",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.3",
+      "name": "Corfu",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.5",
+      "name": "Paris",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 2,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.5",
+      "name": "London",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.5",
+      "name": "Deux Magots",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.5",
+      "name": "Auteuil",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.5",
+      "name": "England",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.5",
+      "name": "Massachusetts",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.5",
+      "name": "Nile",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.5",
+      "name": "Florence",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.5",
+      "name": "Vaucluse",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.6",
+      "name": "Madeleine",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.6",
+      "name": "Eden",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.7",
+      "name": "Hotel Mirana",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.8",
+      "name": "Paris",
+      "corroboratedCandidateCount": 2,
+      "candidateCount": 2,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.8",
+      "name": "America",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.8",
+      "name": "Italy",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.8",
+      "name": "New York",
+      "corroboratedCandidateCount": 3,
+      "candidateCount": 3,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.8",
+      "name": "California",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.8",
+      "name": "Pasadena",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.8",
+      "name": "Venice",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.8",
+      "name": "Boston",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.8",
+      "name": "Lundy",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.8",
+      "name": "Derby",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.8",
+      "name": "Ocean City",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.8",
+      "name": "Columbia University",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.8",
+      "name": "Dayton",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.8",
+      "name": "Ottawa",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.8",
+      "name": "Ohio",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.9",
+      "name": "New York",
+      "corroboratedCandidateCount": 2,
+      "candidateCount": 2,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.9",
+      "name": "Portugal",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.9",
+      "name": "Central Park",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.9",
+      "name": "Arctic Canada",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.9",
+      "name": "Prince of Wales",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.9",
+      "name": "Pierre Point",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.9",
+      "name": "Melville Sound",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.9",
+      "name": "Victoria Island",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.10",
+      "name": "Ramsdale",
+      "corroboratedCandidateCount": 3,
+      "candidateCount": 3,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.10",
+      "name": "Riviera",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.10",
+      "name": "New England",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.10",
+      "name": "Lawn Street",
+      "corroboratedCandidateCount": 2,
+      "candidateCount": 3,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.10",
+      "name": "Bermudas",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.10",
+      "name": "Bahamas",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.10",
+      "name": "Roches Roses",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.11",
+      "name": "Ramsdale",
+      "corroboratedCandidateCount": 4,
+      "candidateCount": 6,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.11",
+      "name": "Paris",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.11",
+      "name": "Florida",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.11",
+      "name": "Riviera",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.11",
+      "name": "New York",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.11",
+      "name": "New England",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.11",
+      "name": "Our Glass Lake",
+      "corroboratedCandidateCount": 3,
+      "candidateCount": 3,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.11",
+      "name": "Blankton",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.11",
+      "name": "New Hampshire",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.11",
+      "name": "Carolinas",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.11",
+      "name": "Chicago",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.11",
+      "name": "Petersburg",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.11",
+      "name": "Pisky",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 3,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.11",
+      "name": "Middle West",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.11",
+      "name": "Gulf",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.11",
+      "name": "Hollywood",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.11",
+      "name": "France",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.12",
+      "name": "Ramsdale",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.12",
+      "name": "Savannah",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.13",
+      "name": "Vera Cruz",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.13",
+      "name": "Eden",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.15",
+      "name": "Camp Q",
+      "corroboratedCandidateCount": 3,
+      "candidateCount": 3,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.17",
+      "name": "Lawn Street",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.18",
+      "name": "Ramsdale",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 2,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.18",
+      "name": "Camp Q",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.18",
+      "name": "Philadelphia",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.18",
+      "name": "Roosevelt",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.18",
+      "name": "Chile",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.18",
+      "name": "Parkington",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.19",
+      "name": "Chicago",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.20",
+      "name": "Ramsdale",
+      "corroboratedCandidateCount": 2,
+      "candidateCount": 2,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.20",
+      "name": "Our Glass Lake",
+      "corroboratedCandidateCount": 2,
+      "candidateCount": 3,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.20",
+      "name": "Parkington",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.20",
+      "name": "Arles",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.20",
+      "name": "St. Algebra",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.20",
+      "name": "France",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.21",
+      "name": "Hotel Mirana",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.21",
+      "name": "England",
+      "corroboratedCandidateCount": 2,
+      "candidateCount": 3,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.21",
+      "name": "Our Glass Lake",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.21",
+      "name": "Hollywood",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.21",
+      "name": "Atlantic",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.21",
+      "name": "Scandinavia",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.21",
+      "name": "Canada",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.21",
+      "name": "Enchanted Hunters",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.21",
+      "name": "Europe",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.22",
+      "name": "Ramsdale",
+      "corroboratedCandidateCount": 2,
+      "candidateCount": 2,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.22",
+      "name": "St. Algebra",
+      "corroboratedCandidateCount": 3,
+      "candidateCount": 3,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.23",
+      "name": "New York",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.23",
+      "name": "California",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.23",
+      "name": "Pisky",
+      "corroboratedCandidateCount": 2,
+      "candidateCount": 2,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.23",
+      "name": "Parkington",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.23",
+      "name": "Maine",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.23",
+      "name": "Climax",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.23",
+      "name": "New Mexico",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.23",
+      "name": "Europe",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.24",
+      "name": "Ramsdale",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.24",
+      "name": "Philadelphia",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.25",
+      "name": "Ramsdale",
+      "corroboratedCandidateCount": 2,
+      "candidateCount": 2,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.25",
+      "name": "Camp Q",
+      "corroboratedCandidateCount": 3,
+      "candidateCount": 3,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.25",
+      "name": "Parkington",
+      "corroboratedCandidateCount": 3,
+      "candidateCount": 3,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.25",
+      "name": "Enchanted Hunters",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.25",
+      "name": "Climax",
+      "corroboratedCandidateCount": 2,
+      "candidateCount": 2,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.25",
+      "name": "Briceland",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.27",
+      "name": "Ramsdale",
+      "corroboratedCandidateCount": 3,
+      "candidateCount": 3,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.27",
+      "name": "Lawn Street",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.27",
+      "name": "Camp Q",
+      "corroboratedCandidateCount": 2,
+      "candidateCount": 2,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.27",
+      "name": "Parkington",
+      "corroboratedCandidateCount": 3,
+      "candidateCount": 3,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.27",
+      "name": "Enchanted Hunters",
+      "corroboratedCandidateCount": 4,
+      "candidateCount": 4,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.27",
+      "name": "Hazy Hills",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.27",
+      "name": "Briceland",
+      "corroboratedCandidateCount": 6,
+      "candidateCount": 6,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.27",
+      "name": "Lepingville",
+      "corroboratedCandidateCount": 3,
+      "candidateCount": 3,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.28",
+      "name": "Hunters’ Hall",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.28",
+      "name": "Raspberry Room",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.28",
+      "name": "Vienna",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.29",
+      "name": "Ramsdale",
+      "corroboratedCandidateCount": 2,
+      "candidateCount": 2,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.29",
+      "name": "Eiffel Tower",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.29",
+      "name": "Niagara",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.30",
+      "name": "Enchanted Hunters",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.31",
+      "name": "Chicago",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.31",
+      "name": "St. Louis",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.31",
+      "name": "Cincinnati",
+      "corroboratedCandidateCount": 2,
+      "candidateCount": 2,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.31",
+      "name": "United States",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.32",
+      "name": "Ramsdale",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.32",
+      "name": "Middle West",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.32",
+      "name": "Camp Q",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.32",
+      "name": "Maine",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.32",
+      "name": "Climax",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.32",
+      "name": "Briceland",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.32",
+      "name": "Lepingville",
+      "corroboratedCandidateCount": 3,
+      "candidateCount": 3,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.32",
+      "name": "Onyx",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.32",
+      "name": "Eryx",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.32",
+      "name": "Willow Island",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.32",
+      "name": "Schwab",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "1.33",
+      "name": "Lepingville",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.1",
+      "name": "Florida",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.1",
+      "name": "America",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.1",
+      "name": "Venice",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.1",
+      "name": "New England",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.1",
+      "name": "Pennsylvania",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.1",
+      "name": "Dixieland",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.1",
+      "name": "Rockies",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.1",
+      "name": "Pacific",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.1",
+      "name": "Canadian border",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.1",
+      "name": "Beardsley",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.1",
+      "name": "Virginia",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.1",
+      "name": "Arkansas",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.1",
+      "name": "Oklahoma",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.1",
+      "name": "Louisiana",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.1",
+      "name": "Lourdes",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.1",
+      "name": "Rocky Mountains",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.1",
+      "name": "Kansas",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.1",
+      "name": "Main Street",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.1",
+      "name": "United States",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Hotel Mirana",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "California",
+      "corroboratedCandidateCount": 3,
+      "candidateCount": 5,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "New Mexico",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Virginia",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Arkansas",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Kansas",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Main Street",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Magnolia Garden",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Georgia",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Hobby House",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Mississippi",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Little Iceberg Lake",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Colorado",
+      "corroboratedCandidateCount": 2,
+      "candidateCount": 2,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Russian Gulch",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Cannes",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Arizona",
+      "corroboratedCandidateCount": 2,
+      "candidateCount": 4,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Poplar Shade",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Utah",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Milner Pass",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Lacework Cabins",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Park Avenue",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Little Rock",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Phoenix",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Los Angeles",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Third Street",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Broadway",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Burns",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Oregon",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Sun Valley",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Idaho",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 2,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Pinedale",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Farson",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Nebraska",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "McEwen",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Wheaton",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Michigan",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Blue Licks",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Poplar Cove",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Bourbon Street",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "New Orleans",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Menninger",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Independence",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Missouri",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Oregon Trail",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Abilene",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Texas",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Crystal Chamber",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Conception Park",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Shakespeare",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Hell’s Canyon",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Reno",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Nevada",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Death Valley",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Scotty",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Mission Dolores",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Crater Lake",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Yellowstone",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Indiana",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "City of Cheboygan",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Europe",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Mexican border",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Seventh Street",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Central Avenue",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Washington Street",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Corn Palace",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.3",
+      "name": "America",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.3",
+      "name": "Riviera",
+      "corroboratedCandidateCount": 2,
+      "candidateCount": 2,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.3",
+      "name": "Chicago",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.3",
+      "name": "Gulf",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.3",
+      "name": "Atlantic",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.3",
+      "name": "Pacific",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.3",
+      "name": "Beardsley",
+      "corroboratedCandidateCount": 4,
+      "candidateCount": 4,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.3",
+      "name": "Broadway",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.3",
+      "name": "Frigid Queen",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.3",
+      "name": "Alps",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.3",
+      "name": "Europe",
+      "corroboratedCandidateCount": 2,
+      "candidateCount": 2,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.3",
+      "name": "Roaring Gulch",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.3",
+      "name": "Alabama",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.3",
+      "name": "Minnesota",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.3",
+      "name": "Beardsley College",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.3",
+      "name": "United States",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.3",
+      "name": "Mexican border",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.4",
+      "name": "Beardsley",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.4",
+      "name": "Europe",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.4",
+      "name": "Thayer Street",
+      "corroboratedCandidateCount": 2,
+      "candidateCount": 2,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.4",
+      "name": "School Rd",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.4",
+      "name": "Beardsley School",
+      "corroboratedCandidateCount": 3,
+      "candidateCount": 3,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.4",
+      "name": "Beardsley College",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.4",
+      "name": "Greece",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.4",
+      "name": "Orient",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.5",
+      "name": "Thayer Street",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.6",
+      "name": "New England",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.6",
+      "name": "Beardsley",
+      "corroboratedCandidateCount": 2,
+      "candidateCount": 2,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.6",
+      "name": "Europe",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.6",
+      "name": "Naples",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.7",
+      "name": "Hollywood",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.7",
+      "name": "Beardsley",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.7",
+      "name": "Broadway",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.8",
+      "name": "California",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.8",
+      "name": "Beardsley",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.8",
+      "name": "Thayer Street",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.8",
+      "name": "Beardsley School",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.8",
+      "name": "Beardsley College",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.8",
+      "name": "Walton Inn",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.8",
+      "name": "Providence",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.9",
+      "name": "New England",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.9",
+      "name": "Switzerland",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.9",
+      "name": "Butler Academy",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.9",
+      "name": "Brooklyn",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.9",
+      "name": "France",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.11",
+      "name": "England",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.11",
+      "name": "California",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.11",
+      "name": "Beardsley School",
+      "corroboratedCandidateCount": 3,
+      "candidateCount": 3,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.11",
+      "name": "Beardsley College",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.11",
+      "name": "Duke’s Manor",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.11",
+      "name": "Junior Club",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.12",
+      "name": "Ramsdale",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.13",
+      "name": "New York",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.13",
+      "name": "New England",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.13",
+      "name": "Enchanted Hunters",
+      "corroboratedCandidateCount": 2,
+      "candidateCount": 3,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.13",
+      "name": "Thayer Street",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.13",
+      "name": "Walton Inn",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.13",
+      "name": "Dolly’s Dell",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.13",
+      "name": "Perilous Forest",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.14",
+      "name": "New England",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.14",
+      "name": "Beardsley",
+      "corroboratedCandidateCount": 2,
+      "candidateCount": 2,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.14",
+      "name": "Thayer Street",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.15",
+      "name": "Ramsdale",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.15",
+      "name": "Hollywood",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.15",
+      "name": "Main Street",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.15",
+      "name": "Beardsley School",
+      "corroboratedCandidateCount": 2,
+      "candidateCount": 2,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.15",
+      "name": "Campus Avenue",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.15",
+      "name": "Mexican border",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.16",
+      "name": "New York",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.16",
+      "name": "New Hampshire",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.16",
+      "name": "Pisky",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.16",
+      "name": "Maine",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.16",
+      "name": "Pennsylvania",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.16",
+      "name": "Beardsley",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.16",
+      "name": "Nebraska",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.16",
+      "name": "Switzerland",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.16",
+      "name": "Europe",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.16",
+      "name": "Alabama",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.16",
+      "name": "Appalachian Mountains",
+      "corroboratedCandidateCount": 2,
+      "candidateCount": 2,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.16",
+      "name": "New Brunswick",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.16",
+      "name": "Tennessee",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.16",
+      "name": "Vermont",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.16",
+      "name": "Tibet",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.16",
+      "name": "Ohio",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.16",
+      "name": "Wace",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.16",
+      "name": "Continental Divide",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.16",
+      "name": "Magic Cave",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.16",
+      "name": "Elphinstone",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.16",
+      "name": "Red Rock",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.16",
+      "name": "Kasbeam",
+      "corroboratedCandidateCount": 3,
+      "candidateCount": 3,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.16",
+      "name": "Chestnut Court",
+      "corroboratedCandidateCount": 3,
+      "candidateCount": 3,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.16",
+      "name": "North America",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.17",
+      "name": "Chestnut Court",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.17",
+      "name": "Algiers",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.18",
+      "name": "Ramsdale",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.18",
+      "name": "Switzerland",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.18",
+      "name": "Wace",
+      "corroboratedCandidateCount": 2,
+      "candidateCount": 2,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.18",
+      "name": "Magic Cave",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.18",
+      "name": "The Bustle",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.18",
+      "name": "Soda",
+      "corroboratedCandidateCount": 2,
+      "candidateCount": 2,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.19",
+      "name": "Paris",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.19",
+      "name": "Hotel Mirana",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.19",
+      "name": "New York",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.19",
+      "name": "Beardsley",
+      "corroboratedCandidateCount": 4,
+      "candidateCount": 6,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.19",
+      "name": "Europe",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 2,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.19",
+      "name": "Wace",
+      "corroboratedCandidateCount": 6,
+      "candidateCount": 7,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.19",
+      "name": "Elphinstone",
+      "corroboratedCandidateCount": 2,
+      "candidateCount": 2,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.19",
+      "name": "Hill Drug Store",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.19",
+      "name": "Larkin’s Pharmacy",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.19",
+      "name": "Mirana Motel",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.19",
+      "name": "Snow",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.19",
+      "name": "Champion",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.20",
+      "name": "England",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.20",
+      "name": "California",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.20",
+      "name": "Beardsley",
+      "corroboratedCandidateCount": 3,
+      "candidateCount": 3,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.20",
+      "name": "Colorado",
+      "corroboratedCandidateCount": 2,
+      "candidateCount": 2,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.20",
+      "name": "Beardsley School",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.20",
+      "name": "Elphinstone",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.20",
+      "name": "Snow",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.20",
+      "name": "Champion",
+      "corroboratedCandidateCount": 2,
+      "candidateCount": 2,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.20",
+      "name": "Champion Hotel",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.20",
+      "name": "Wimbledon",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.21",
+      "name": "Nice",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.22",
+      "name": "California",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.22",
+      "name": "Rockies",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.22",
+      "name": "Roaring Gulch",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.22",
+      "name": "Elphinstone",
+      "corroboratedCandidateCount": 3,
+      "candidateCount": 4,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.22",
+      "name": "Champion",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.22",
+      "name": "Silver Spur Court",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.22",
+      "name": "Oloron",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.22",
+      "name": "Lagore",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.22",
+      "name": "Rolas",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.22",
+      "name": "Ponderosa Lodge",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.22",
+      "name": "Mexican border",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.23",
+      "name": "England",
+      "corroboratedCandidateCount": 2,
+      "candidateCount": 2,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.23",
+      "name": "Eryx",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.23",
+      "name": "Beardsley",
+      "corroboratedCandidateCount": 3,
+      "candidateCount": 4,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.23",
+      "name": "Arizona",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.23",
+      "name": "Ohio",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.23",
+      "name": "Wace",
+      "corroboratedCandidateCount": 2,
+      "candidateCount": 2,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.23",
+      "name": "Elphinstone",
+      "corroboratedCandidateCount": 3,
+      "candidateCount": 3,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.23",
+      "name": "Kasbeam",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.23",
+      "name": "Ponderosa Lodge",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.23",
+      "name": "Cedar City",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.23",
+      "name": "Kawtagain",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.23",
+      "name": "Larousse",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.23",
+      "name": "Mirandola",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.23",
+      "name": "Quelquepart Island",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 2,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.23",
+      "name": "Porlock",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.23",
+      "name": "Elmira",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.23",
+      "name": "Sheridan",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.23",
+      "name": "Lebanon",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.23",
+      "name": "Ramble",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.23",
+      "name": "Catagela",
+      "corroboratedCandidateCount": 2,
+      "candidateCount": 2,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.23",
+      "name": "Hoaxton",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.23",
+      "name": "Geneva",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.23",
+      "name": "Merrymay",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.23",
+      "name": "Dolores, Colo",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.23",
+      "name": "Tombstone",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.23",
+      "name": "Sierra",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.23",
+      "name": "Cane",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.23",
+      "name": "Styx",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.23",
+      "name": "Chestnut Lodge",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.24",
+      "name": "California",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.24",
+      "name": "Beardsley",
+      "corroboratedCandidateCount": 2,
+      "candidateCount": 2,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.24",
+      "name": "Beardsley School",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 2,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.24",
+      "name": "Beardsley College",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 2,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.24",
+      "name": "Dolores, Colo",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.24",
+      "name": "Maker Hall",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.24",
+      "name": "Pritchard Road",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.25",
+      "name": "Paris",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.25",
+      "name": "New York",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.25",
+      "name": "California",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.25",
+      "name": "Canadian border",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.25",
+      "name": "Beardsley",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.25",
+      "name": "Quebec",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.26",
+      "name": "New York",
+      "corroboratedCandidateCount": 3,
+      "candidateCount": 4,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.26",
+      "name": "California",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.26",
+      "name": "Central Park",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.26",
+      "name": "Enchanted Hunters",
+      "corroboratedCandidateCount": 2,
+      "candidateCount": 2,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.26",
+      "name": "Briceland",
+      "corroboratedCandidateCount": 5,
+      "candidateCount": 5,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.26",
+      "name": "Pacific",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.26",
+      "name": "Montreal",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.26",
+      "name": "Toylestown",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.26",
+      "name": "Blake",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.26",
+      "name": "Tigermoth",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.26",
+      "name": "San Humbertino",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.26",
+      "name": "Grainball",
+      "corroboratedCandidateCount": 2,
+      "candidateCount": 2,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.26",
+      "name": "Central Park West",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.26",
+      "name": "Cantrip",
+      "corroboratedCandidateCount": 2,
+      "candidateCount": 2,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.26",
+      "name": "Inchkeith",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.26",
+      "name": "Dunkerque",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.26",
+      "name": "Picture Lake",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.27",
+      "name": "Ramsdale",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.27",
+      "name": "Paris",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.27",
+      "name": "California",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.27",
+      "name": "Chile",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.27",
+      "name": "Cape Cod",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.27",
+      "name": "India",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.27",
+      "name": "South America",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.27",
+      "name": "Alaska",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.28",
+      "name": "New York",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.28",
+      "name": "Beardsley",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.28",
+      "name": "Coalmont",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 3,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.28",
+      "name": "Killer Street",
+      "corroboratedCandidateCount": 2,
+      "candidateCount": 2,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.28",
+      "name": "Hunter Road",
+      "corroboratedCandidateCount": 2,
+      "candidateCount": 2,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.29",
+      "name": "Ramsdale",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.29",
+      "name": "Dorset",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.29",
+      "name": "Italy",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.29",
+      "name": "Massachusetts",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.29",
+      "name": "New York",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.29",
+      "name": "Our Glass Lake",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.29",
+      "name": "Hollywood",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.29",
+      "name": "Canada",
+      "corroboratedCandidateCount": 3,
+      "candidateCount": 3,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.29",
+      "name": "Briceland",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.29",
+      "name": "Beardsley",
+      "corroboratedCandidateCount": 2,
+      "candidateCount": 2,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.29",
+      "name": "Ohio",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.29",
+      "name": "Wace",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.29",
+      "name": "Elphinstone",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.29",
+      "name": "Alaska",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.29",
+      "name": "Mother’s Club",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.29",
+      "name": "Duk Duk Ranch",
+      "corroboratedCandidateCount": 2,
+      "candidateCount": 2,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.29",
+      "name": "Readsburg",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.29",
+      "name": "Juneau",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.29",
+      "name": "Jupiter",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.30",
+      "name": "Ramsdale",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.30",
+      "name": "Enchanted Hunters",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.30",
+      "name": "Europe",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.30",
+      "name": "Appalachian Mountains",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.30",
+      "name": "Coalmont",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.30",
+      "name": "Woodbine",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.30",
+      "name": "Route X",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.30",
+      "name": "Highway Y",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.30",
+      "name": "Rubinov",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 2,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.30",
+      "name": "Jiffy Jeff",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.31",
+      "name": "Ramsdale",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.31",
+      "name": "Quebec",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.31",
+      "name": "Coalmont",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.32",
+      "name": "Ramsdale",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.32",
+      "name": "Beardsley",
+      "corroboratedCandidateCount": 2,
+      "candidateCount": 2,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.32",
+      "name": "Lakeview Hill",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.32",
+      "name": "Moulinet",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.33",
+      "name": "Ramsdale",
+      "corroboratedCandidateCount": 2,
+      "candidateCount": 2,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.33",
+      "name": "Northwest",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.33",
+      "name": "New York",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.33",
+      "name": "California",
+      "corroboratedCandidateCount": 2,
+      "candidateCount": 2,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.33",
+      "name": "Lawn Street",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.33",
+      "name": "Camp Q",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.33",
+      "name": "Philadelphia",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.33",
+      "name": "Parkington",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.33",
+      "name": "Beardsley",
+      "corroboratedCandidateCount": 2,
+      "candidateCount": 2,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.33",
+      "name": "Switzerland",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.33",
+      "name": "Europe",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.33",
+      "name": "Beardsley College",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.33",
+      "name": "Korea",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.33",
+      "name": "Grimm Road",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.34",
+      "name": "Parkington",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.34",
+      "name": "Grimm Road",
+      "corroboratedCandidateCount": 3,
+      "candidateCount": 3,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.34",
+      "name": "Pavor Manor",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.35",
+      "name": "England",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.35",
+      "name": "Florence",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.35",
+      "name": "Philadelphia",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.35",
+      "name": "Parkington",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.35",
+      "name": "Dolores, Colo",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.35",
+      "name": "Grimm Road",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.35",
+      "name": "Pavor Manor",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.35",
+      "name": "Insomnia Lodge",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.35",
+      "name": "Patagonia",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.35",
+      "name": "Paradise",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.35",
+      "name": "Hell Canyon",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.35",
+      "name": "Rio",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.35",
+      "name": "Bagration",
+      "corroboratedCandidateCount": 2,
+      "candidateCount": 2,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.35",
+      "name": "Barda Sea",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.35",
+      "name": "Old Faithful",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.36",
+      "name": "Parkington",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "2.36",
+      "name": "Alaska",
+      "corroboratedCandidateCount": 1,
+      "candidateCount": 1,
+      "wordingCorroborated": true,
+      "afterwordAbsentFromEarlierWitnesses": false,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "afterword",
+      "name": "Ramsdale",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": true,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "afterword",
+      "name": "Paris",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 3,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": true,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "afterword",
+      "name": "Gray Star",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": true,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "afterword",
+      "name": "America",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 4,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": true,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "afterword",
+      "name": "New York",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": true,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "afterword",
+      "name": "Chicago",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": true,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "afterword",
+      "name": "Colorado",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": true,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "afterword",
+      "name": "Arizona",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": true,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "afterword",
+      "name": "Oregon",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": true,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "afterword",
+      "name": "Europe",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 5,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": true,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "afterword",
+      "name": "Elphinstone",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": true,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "afterword",
+      "name": "Kasbeam",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": true,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "afterword",
+      "name": "Wyoming",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": true,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "afterword",
+      "name": "Jardin des Plantes",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": true,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "afterword",
+      "name": "Provence",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": true,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "afterword",
+      "name": "Russia",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 2,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": true,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "afterword",
+      "name": "St. Petersburg",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": true,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "afterword",
+      "name": "Ithaca",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": true,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "afterword",
+      "name": "Telluride",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": true,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "afterword",
+      "name": "Afton",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": true,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "afterword",
+      "name": "Portal",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": true,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "afterword",
+      "name": "Ashland",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": true,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "afterword",
+      "name": "Harvard",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": true,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "afterword",
+      "name": "Cornell",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": true,
+      "categoryVerification": "separate-not-automated"
+    },
+    {
+      "sectionId": "afterword",
+      "name": "France",
+      "corroboratedCandidateCount": 0,
+      "candidateCount": 1,
+      "wordingCorroborated": false,
+      "afterwordAbsentFromEarlierWitnesses": true,
+      "categoryVerification": "separate-not-automated"
+    }
+  ]
+}

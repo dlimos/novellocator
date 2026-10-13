@@ -1,0 +1,275 @@
+{
+  "date": "2026-10-13",
+  "previousLexicalCandidates": 561,
+  "refinedCandidates": 539,
+  "distinctNames": 291,
+  "rules": [
+    "Case-sensitive geographic names, retaining explicitly registered genuine lowercase variants.",
+    "Join printed line-end hyphenation without correcting spelling.",
+    "Exclude nested place names and manually verified names of people, journals and festivals."
+  ],
+  "explicitExclusions": [
+    {
+      "sectionId": "1.8",
+      "name": "Paris",
+      "reason": "Paris-Soir è il titolo del giornale."
+    },
+    {
+      "sectionId": "1.8",
+      "name": "Elphinstone",
+      "reason": "Percy Elphinstone è una persona, non la città del secondo viaggio."
+    },
+    {
+      "sectionId": "1.11",
+      "name": "Virginia",
+      "reason": "Virginia è la persona evocata nell’allusione a Poe."
+    },
+    {
+      "sectionId": "1.11",
+      "name": "Sheridan",
+      "reason": "Agnes Sheridan è un’alunna nell’elenco."
+    },
+    {
+      "sectionId": "1.18",
+      "name": "Sheridan",
+      "reason": "Mrs. Sheridan è una persona."
+    },
+    {
+      "sectionId": "1.32",
+      "name": "Sheridan",
+      "reason": "Agnes Sheridan è una persona."
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Soda",
+      "reason": "Soda Springs è una diversa denominazione generica dell’elenco, non la cittadina Soda."
+    },
+    {
+      "sectionId": "2.4",
+      "name": "Shakespeare",
+      "reason": "Shakespeare è l’autore citato dalla direttrice."
+    },
+    {
+      "sectionId": "2.13",
+      "name": "Vermont",
+      "reason": "Maurice Vermont è l’autore fittizio di un dramma."
+    },
+    {
+      "sectionId": "2.15",
+      "name": "Vermont",
+      "reason": "Vermont è l’autore fittizio del dramma."
+    },
+    {
+      "sectionId": "2.23",
+      "name": "Independence",
+      "reason": "Independence Day è una ricorrenza, non la città del Missouri."
+    },
+    {
+      "sectionId": "2.24",
+      "name": "Ramble",
+      "reason": "Cecilia Dalrymple Ramble è la donatrice della panchina."
+    },
+    {
+      "sectionId": "2.32",
+      "name": "Shakespeare",
+      "reason": "Shakespeare è l’autore nel riferimento culturale."
+    }
+  ],
+  "newlyRecoveredNames": [
+    {
+      "sectionId": "1.2",
+      "name": "Hotel Mirana"
+    },
+    {
+      "sectionId": "1.7",
+      "name": "Hotel Mirana"
+    },
+    {
+      "sectionId": "1.8",
+      "name": "California"
+    },
+    {
+      "sectionId": "1.8",
+      "name": "Columbia University"
+    },
+    {
+      "sectionId": "1.9",
+      "name": "Central Park"
+    },
+    {
+      "sectionId": "1.9",
+      "name": "Melville Sound"
+    },
+    {
+      "sectionId": "1.11",
+      "name": "France"
+    },
+    {
+      "sectionId": "1.20",
+      "name": "France"
+    },
+    {
+      "sectionId": "1.28",
+      "name": "Raspberry Room"
+    },
+    {
+      "sectionId": "1.31",
+      "name": "United States"
+    },
+    {
+      "sectionId": "2.1",
+      "name": "Rockies"
+    },
+    {
+      "sectionId": "2.1",
+      "name": "Arkansas"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Hotel Mirana"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "New Mexico"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Magnolia Garden"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Lacework Cabins"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Phoenix"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Oregon Trail"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Crystal Chamber"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Indiana"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Mexican border"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Seventh Street"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Central Avenue"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Washington Street"
+    },
+    {
+      "sectionId": "2.2",
+      "name": "Corn Palace"
+    },
+    {
+      "sectionId": "2.3",
+      "name": "Minnesota"
+    },
+    {
+      "sectionId": "2.3",
+      "name": "Mexican border"
+    },
+    {
+      "sectionId": "2.4",
+      "name": "Orient"
+    },
+    {
+      "sectionId": "2.8",
+      "name": "Thayer Street"
+    },
+    {
+      "sectionId": "2.9",
+      "name": "New England"
+    },
+    {
+      "sectionId": "2.9",
+      "name": "France"
+    },
+    {
+      "sectionId": "2.15",
+      "name": "Mexican border"
+    },
+    {
+      "sectionId": "2.16",
+      "name": "New York"
+    },
+    {
+      "sectionId": "2.16",
+      "name": "North America"
+    },
+    {
+      "sectionId": "2.19",
+      "name": "Hotel Mirana"
+    },
+    {
+      "sectionId": "2.19",
+      "name": "Mirana Motel"
+    },
+    {
+      "sectionId": "2.20",
+      "name": "Wimbledon"
+    },
+    {
+      "sectionId": "2.22",
+      "name": "Mexican border"
+    },
+    {
+      "sectionId": "2.23",
+      "name": "Ponderosa Lodge"
+    },
+    {
+      "sectionId": "2.23",
+      "name": "Quelquepart Island"
+    },
+    {
+      "sectionId": "2.23",
+      "name": "Chestnut Lodge"
+    },
+    {
+      "sectionId": "2.24",
+      "name": "California"
+    },
+    {
+      "sectionId": "2.25",
+      "name": "California"
+    },
+    {
+      "sectionId": "2.26",
+      "name": "Tigermoth"
+    },
+    {
+      "sectionId": "2.33",
+      "name": "New York"
+    },
+    {
+      "sectionId": "2.35",
+      "name": "Hell Canyon"
+    },
+    {
+      "sectionId": "afterword",
+      "name": "Ramsdale"
+    },
+    {
+      "sectionId": "afterword",
+      "name": "France"
+    }
+  ],
+  "sourceTextDistributed": false,
+  "publicationReady": false,
+  "evidenceFile": "work/lolita/reference-census.json"
+}

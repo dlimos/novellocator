@@ -1,0 +1,1678 @@
+{
+  "book": "lolita",
+  "author": "Vladimir Nabokov",
+  "originalLanguage": "en",
+  "checked": "2026-10-13",
+  "publicationStatus": "pending",
+  "fullTextReviewed": false,
+  "fullNarrativeAnalysisCompleted": false,
+  "expectedNarrativeUnits": 70,
+  "sources": [
+    {
+      "id": "beland",
+      "url": "https://mrbeland.weebly.com/uploads/3/0/5/5/30558007/lolita.pdf",
+      "file": "work/lolita/original.pdf",
+      "pdfPages": 224,
+      "pdfSha256": "459c801e8cd952cd02d7f2f2e48ff08bf843d436766f599f996297620dc89cf1",
+      "pdfMetadata": {
+        "/ModDate": "D:20031218230822Z",
+        "/CreationDate": "D:20031218230737Z",
+        "/Title": "file:///D|/docs/fiction/Nabokov%20-%20Lolita.txt",
+        "/Producer": "Acrobat Web Capture 6.0"
+      },
+      "detectedUnits": 69,
+      "missingHeadings": [
+        "2.3"
+      ],
+      "publisherStatementPresent": false,
+      "afterwordPresent": false,
+      "sharedAnomalies": [
+        "settlemen",
+        "publshed",
+        "despare"
+      ],
+      "sections": [
+        {
+          "id": "foreword",
+          "pdfPageStart": 1,
+          "pdfPageEnd": 3,
+          "wordCount": 1009,
+          "sha256": "23f29fc723180d66a9e2efbf0251e2a3f1c499414d1d965875b6e35065524ff8",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.1",
+          "pdfPageStart": 3,
+          "pdfPageEnd": 3,
+          "wordCount": 169,
+          "sha256": "07f121bd23546e7bf649f7a67d1560f5f3900092c647dc6c51c53fd29a9ee94c",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.2",
+          "pdfPageStart": 3,
+          "pdfPageEnd": 5,
+          "wordCount": 713,
+          "sha256": "8b90315524b758a9cac5629e2b6d0f95f4f87a759da2f829505274f975ad4404",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.3",
+          "pdfPageStart": 5,
+          "pdfPageEnd": 6,
+          "wordCount": 772,
+          "sha256": "e2879626b363c30457c43ac0a8c4fc668228f8e19ebbb32d86e42fe2b356db7f",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.4",
+          "pdfPageStart": 6,
+          "pdfPageEnd": 8,
+          "wordCount": 704,
+          "sha256": "9f18de34fc9ceaa6a9b7a17213519002a33f6dd527cdeaa581a15ebef2f016ad",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.5",
+          "pdfPageStart": 8,
+          "pdfPageEnd": 12,
+          "wordCount": 2099,
+          "sha256": "fa671980dfd9ca0680712ce608405826d64560ac0087abee67880b6401e55bbb",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.6",
+          "pdfPageStart": 12,
+          "pdfPageEnd": 14,
+          "wordCount": 1363,
+          "sha256": "10fa54e5765dd8a1ad3086b62e367f70c9d9fb4f3ac991648d0890c24952b790",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.7",
+          "pdfPageStart": 14,
+          "pdfPageEnd": 15,
+          "wordCount": 361,
+          "sha256": "b945b4124ac4e75ddf0dba85bc0a62dca7803b6720ccaeb3fb0bbf0d7b06533c",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.8",
+          "pdfPageStart": 15,
+          "pdfPageEnd": 20,
+          "wordCount": 2552,
+          "sha256": "84caaf140095554f6f18a424840062568756eaa592e3114059370c8609154f4b",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.9",
+          "pdfPageStart": 20,
+          "pdfPageEnd": 22,
+          "wordCount": 1004,
+          "sha256": "696f9dd96220fe284c81a94c24d22aed16eec910e2584f4911cd0d81364a71f4",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.10",
+          "pdfPageStart": 22,
+          "pdfPageEnd": 26,
+          "wordCount": 2052,
+          "sha256": "e045a069ee1e033fc351af6c697ed1945be86192817031f6e325458146959351",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.11",
+          "pdfPageStart": 26,
+          "pdfPageEnd": 38,
+          "wordCount": 5591,
+          "sha256": "e5fa1db37a9548aeaf8c00a1069031db85163aa262a5cefc313273f242bef242",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.12",
+          "pdfPageStart": 38,
+          "pdfPageEnd": 38,
+          "wordCount": 504,
+          "sha256": "e7fe846293326e07f81ad8899f329c4d3696e6fd28d442ed9faf1fe803dfaf06",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.13",
+          "pdfPageStart": 38,
+          "pdfPageEnd": 42,
+          "wordCount": 1941,
+          "sha256": "08568390d36f305358ef9a909289f7876d81bd40f4aa4bd8a0e291480c72c5f1",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.14",
+          "pdfPageStart": 42,
+          "pdfPageEnd": 44,
+          "wordCount": 791,
+          "sha256": "b8c1c1314073486d355c4832b0f0f8ccb30fe0aa4df43fd7c5a6b12b2ff3b590",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.15",
+          "pdfPageStart": 44,
+          "pdfPageEnd": 46,
+          "wordCount": 1019,
+          "sha256": "aca2561a38c5e3e00ed88c78b6a55ec76b8b1fce1e91c57d6df45c1dcdd6957d",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.16",
+          "pdfPageStart": 46,
+          "pdfPageEnd": 48,
+          "wordCount": 1101,
+          "sha256": "596ea7c22ef51257b43e31590669637ad64d821c8931ef64682e097ea05f2b50",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.17",
+          "pdfPageStart": 48,
+          "pdfPageEnd": 51,
+          "wordCount": 1775,
+          "sha256": "a52621b73bc96b09fedb34d68d90fa6490cf1f9e30039fea92727ba9421c00d1",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.18",
+          "pdfPageStart": 51,
+          "pdfPageEnd": 55,
+          "wordCount": 2089,
+          "sha256": "f055fb014afa660b7be7b6d83398bbb6932362ceff2b1951cd6f61a3b3e97d0e",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.19",
+          "pdfPageStart": 55,
+          "pdfPageEnd": 57,
+          "wordCount": 770,
+          "sha256": "4976d263ae8504c065117014dd7b5857f64b62ec1b751315ae2f350ee17b42e7",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.20",
+          "pdfPageStart": 57,
+          "pdfPageEnd": 63,
+          "wordCount": 2933,
+          "sha256": "331f4d08dfe3c822b22fe051cd9cbbd3b05efc603825a69037ab582f9a3a71b5",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.21",
+          "pdfPageStart": 63,
+          "pdfPageEnd": 66,
+          "wordCount": 1457,
+          "sha256": "0cf042eaeb8750717a33c5b7a54bf810de91968b7598c106f4fa7d5504763f75",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.22",
+          "pdfPageStart": 66,
+          "pdfPageEnd": 69,
+          "wordCount": 1426,
+          "sha256": "4ba28feeba89b329d48e1ca1ae74ad63f7ac7ce7c58bc76f6ddd9db366e777c9",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.23",
+          "pdfPageStart": 69,
+          "pdfPageEnd": 73,
+          "wordCount": 2336,
+          "sha256": "093170d2144f4aef611d6c79d0ddae014bcc5c4981d30e8959dc1e0cdd93df62",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.24",
+          "pdfPageStart": 73,
+          "pdfPageEnd": 74,
+          "wordCount": 563,
+          "sha256": "3cba8331ad8a14f0c7e756b1e20d8017baf12f188f7d08416f38b586da259c15",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.25",
+          "pdfPageStart": 74,
+          "pdfPageEnd": 78,
+          "wordCount": 1609,
+          "sha256": "775d66568b52d1105129ae3c41a8509cb30418464a8dc66b186b137a35eee41c",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.26",
+          "pdfPageStart": 78,
+          "pdfPageEnd": 78,
+          "wordCount": 67,
+          "sha256": "df025f304a44d3a2d0f465e08df057cc3c78186435879495e6bfe09bde4705be",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.27",
+          "pdfPageStart": 78,
+          "pdfPageEnd": 88,
+          "wordCount": 4734,
+          "sha256": "6f129f55838c747679b3dadc5d1fec5af142e42c6b49e65a284cb47d3a49ce8b",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.28",
+          "pdfPageStart": 88,
+          "pdfPageEnd": 92,
+          "wordCount": 1696,
+          "sha256": "e8f8b364738e5bd01a5fccc64962e2b36a1d9bd9def8ebfc19b768c18c2490e5",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.29",
+          "pdfPageStart": 92,
+          "pdfPageEnd": 96,
+          "wordCount": 2416,
+          "sha256": "87393a012a1e1a3980a442fca89160f3c3f6d1b17ded1392c06c3102496ae336",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.30",
+          "pdfPageStart": 96,
+          "pdfPageEnd": 97,
+          "wordCount": 254,
+          "sha256": "b75188e71c8d77725817ef46beba65cae6f4f6edc2320ba153e7e328b096c707",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.31",
+          "pdfPageStart": 97,
+          "pdfPageEnd": 97,
+          "wordCount": 215,
+          "sha256": "af36dd6beb9b809f6a981ccddfe702dde45a446b2addaf15e38d2f70b9fc6eac",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.32",
+          "pdfPageStart": 97,
+          "pdfPageEnd": 102,
+          "wordCount": 2195,
+          "sha256": "085cd1b58aa4370584203ee2185aa854330706a13f43e36d6188356deabe0508",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.33",
+          "pdfPageStart": 102,
+          "pdfPageEnd": 102,
+          "wordCount": 105,
+          "sha256": "2b092cca50a401caf1defa518c08f88fc88b5849731d37fdb3f6fcad7af53cfa",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.1",
+          "pdfPageStart": 102,
+          "pdfPageEnd": 109,
+          "wordCount": 3445,
+          "sha256": "e26944b902854271ef13d6ba3f5f9bdc7674c385c51a601a510eedcf3e4017c2",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.2",
+          "pdfPageStart": 109,
+          "pdfPageEnd": 125,
+          "wordCount": 8314,
+          "sha256": "48e790ff7445574e2426c52a757591da0ff3aa356942268d47ab86ba9abf12eb",
+          "narrativeReview": "pending",
+          "boundaryStatus": "pending-II.2-II.3-separation"
+        },
+        {
+          "id": "2.4",
+          "pdfPageStart": 125,
+          "pdfPageEnd": 127,
+          "wordCount": 1121,
+          "sha256": "861bdf5983020b301a78ddaeef3e998fd1f3b24a5c11731d54fc3f4674113138",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.5",
+          "pdfPageStart": 127,
+          "pdfPageEnd": 128,
+          "wordCount": 603,
+          "sha256": "e98b588d25b5ce3c2db8dc5a51febbf3755b7c360bc1a7a773f172a63bdef39c",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.6",
+          "pdfPageStart": 128,
+          "pdfPageEnd": 130,
+          "wordCount": 1018,
+          "sha256": "bf91bbf01aeef83f72dcb25ed89ae6987d5424082c55893820f76a77aec2139f",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.7",
+          "pdfPageStart": 130,
+          "pdfPageEnd": 131,
+          "wordCount": 594,
+          "sha256": "2aac97c529d73a43e43d249a75bf3a68949234b674d2e951f43ff20c3c905e58",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.8",
+          "pdfPageStart": 131,
+          "pdfPageEnd": 135,
+          "wordCount": 1706,
+          "sha256": "a7b5ddab506f6c4eca45e88f068e63a3d01ea1567c7fc77523d37a056079b216",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.9",
+          "pdfPageStart": 135,
+          "pdfPageEnd": 137,
+          "wordCount": 1009,
+          "sha256": "a4c314f2fb93a3cefb738c2ef33f567655448ee1eee6b3932c03408b31f18210",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.10",
+          "pdfPageStart": 137,
+          "pdfPageEnd": 137,
+          "wordCount": 232,
+          "sha256": "8041c8b32f45e6bd7a82d01b70d0b76cc30b12d7d8d99ec131f196e543c9a614",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.11",
+          "pdfPageStart": 137,
+          "pdfPageEnd": 141,
+          "wordCount": 1912,
+          "sha256": "1f5b410391fd825a312b45a3b49797a41d2456ab3c7aefe57c7cd0538fad4697",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.12",
+          "pdfPageStart": 141,
+          "pdfPageEnd": 142,
+          "wordCount": 568,
+          "sha256": "42ab1b4424b5407c004542d541af597889ee2085012a8ab659a539da0700cac2",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.13",
+          "pdfPageStart": 142,
+          "pdfPageEnd": 144,
+          "wordCount": 971,
+          "sha256": "f7621f9d1f48127f02d0b7badeb194d20ce253aafa0a22a73d4c9aeecf4ee3d6",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.14",
+          "pdfPageStart": 144,
+          "pdfPageEnd": 148,
+          "wordCount": 2053,
+          "sha256": "b1904e8fd15d9bee95a1efe34bae9fcf774f4d2b5fc5e3bc7441e48fda213990",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.15",
+          "pdfPageStart": 148,
+          "pdfPageEnd": 150,
+          "wordCount": 603,
+          "sha256": "759ec74bab5992820e8540c34a7439079d562b50da789b32c0868408a5611ad2",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.16",
+          "pdfPageStart": 150,
+          "pdfPageEnd": 154,
+          "wordCount": 2190,
+          "sha256": "3fa8ddb580dd21e14efa6dc8dd3aeb49bd71c4b42ded56907ecf48e741003f15",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.17",
+          "pdfPageStart": 154,
+          "pdfPageEnd": 155,
+          "wordCount": 455,
+          "sha256": "693baf7b4a9fc1927a1366b1e4a268c70faabdbd91edc64ef1c7ea5a2ceaa0ad",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.18",
+          "pdfPageStart": 155,
+          "pdfPageEnd": 159,
+          "wordCount": 2022,
+          "sha256": "65c21f02e513521561ddbe79077c9bdedcf3ed72519bdb3a7d94d300d1225797",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.19",
+          "pdfPageStart": 159,
+          "pdfPageEnd": 165,
+          "wordCount": 2735,
+          "sha256": "348cef390c6de533f3e7e8085944575b223993d9bfe21c3a16ebd8820df314cb",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.20",
+          "pdfPageStart": 165,
+          "pdfPageEnd": 170,
+          "wordCount": 2523,
+          "sha256": "7d9d1ccc2398fe9897a9efb0ac195905d578745f572cbc23b820a5acd9702a0d",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.21",
+          "pdfPageStart": 170,
+          "pdfPageEnd": 171,
+          "wordCount": 763,
+          "sha256": "8aa65b23b5e7999ceb8e6e3413d7ebf89e7613211d44a1d133bb55ec04ba948a",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.22",
+          "pdfPageStart": 171,
+          "pdfPageEnd": 178,
+          "wordCount": 3377,
+          "sha256": "32390db750bfc1b40814214b050599a5362b10d876665239ebe1317a25410b17",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.23",
+          "pdfPageStart": 178,
+          "pdfPageEnd": 181,
+          "wordCount": 1762,
+          "sha256": "0cd376cfb3196df37526d3e6315df937f0f153d6cd3e0af5392d46b3bbe37ae6",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.24",
+          "pdfPageStart": 181,
+          "pdfPageEnd": 182,
+          "wordCount": 510,
+          "sha256": "e6810eaf7d5c20f6b1f13102230ec65fe91e4151ce89e32954af0deb4219c7b6",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.25",
+          "pdfPageStart": 182,
+          "pdfPageEnd": 186,
+          "wordCount": 1318,
+          "sha256": "a9164daf55abedc0a00288768bbe63e8df2175a1bff96bda24944b2010c9d0ea",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.26",
+          "pdfPageStart": 186,
+          "pdfPageEnd": 190,
+          "wordCount": 2085,
+          "sha256": "fe5dc88b3a4c88d179abcda49f5ef8fe211d0defe642853a5070873cf7ff9711",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.27",
+          "pdfPageStart": 190,
+          "pdfPageEnd": 192,
+          "wordCount": 1263,
+          "sha256": "2b2b90d736edaae73bb700b077278f7d3b56b696a4e4ff2a0ae431c9dc9a5d2f",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.28",
+          "pdfPageStart": 192,
+          "pdfPageEnd": 194,
+          "wordCount": 966,
+          "sha256": "4b4976e8479c3467d3b10bbb9d97500da13b06727461598d2c2d377d61a32ea4",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.29",
+          "pdfPageStart": 194,
+          "pdfPageEnd": 203,
+          "wordCount": 4327,
+          "sha256": "698ff3bd6a25f1531f3bbaf252fc194817bde3bd0ff3f81525817eaa1ae8c325",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.30",
+          "pdfPageStart": 203,
+          "pdfPageEnd": 204,
+          "wordCount": 563,
+          "sha256": "12426cbe54001ae8c74a26c41ca253c1b24e013bb8a16c9219319dc52f2ab97d",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.31",
+          "pdfPageStart": 204,
+          "pdfPageEnd": 205,
+          "wordCount": 267,
+          "sha256": "28d2f6c203f1693169580d554c705b74365dd1df70b709a1a8a7feeba891b6e2",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.32",
+          "pdfPageStart": 205,
+          "pdfPageEnd": 208,
+          "wordCount": 1602,
+          "sha256": "f03382b0567510c71b98c87906ddf86336248886145a5829c9c6f7aed802bbb2",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.33",
+          "pdfPageStart": 208,
+          "pdfPageEnd": 211,
+          "wordCount": 1724,
+          "sha256": "815d7c0f793f0d9ddb36eacba4d1b9bd4865986ee219d633d0c5305fb13e811d",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.34",
+          "pdfPageStart": 211,
+          "pdfPageEnd": 212,
+          "wordCount": 435,
+          "sha256": "fd85430a235a38055e2672e79c00a1da8c648ef62bf495b88aa81333b67b7e55",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.35",
+          "pdfPageStart": 212,
+          "pdfPageEnd": 221,
+          "wordCount": 4350,
+          "sha256": "824d12b5507f2311d85cf4f58f49acdced3c3e78f7fc4cf8812e06250019495b",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.36",
+          "pdfPageStart": 221,
+          "pdfPageEnd": 224,
+          "wordCount": 1446,
+          "sha256": "3463d4031f8c41387af17f487195725aee86c4a68c0e0236f6d3422f41469d78",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        }
+      ]
+    },
+    {
+      "id": "readingsanctuary",
+      "url": "https://www.readingsanctuary.com/wp-content/uploads/2023/04/lolita.pdf",
+      "file": "work/lolita/readingsanctuary.pdf",
+      "pdfPages": 320,
+      "pdfSha256": "d50346264c2133fd5c8dc0453c3d3507ae47f16b0f2089d421385890dc5343d4",
+      "pdfMetadata": {
+        "/Author": "Balki",
+        "/CreationDate": "D:20190603144659+00'00'",
+        "/Creator": "calibre 3.40.1 [https://calibre-ebook.com]",
+        "/Producer": "calibre 3.40.1 [https://calibre-ebook.com]",
+        "/Title": "Lolita - PDFDrive.com"
+      },
+      "detectedUnits": 69,
+      "missingHeadings": [
+        "2.3"
+      ],
+      "publisherStatementPresent": true,
+      "afterwordPresent": false,
+      "sharedAnomalies": [
+        "settlemen",
+        "publshed",
+        "despare"
+      ],
+      "sections": [
+        {
+          "id": "foreword",
+          "pdfPageStart": 4,
+          "pdfPageEnd": 6,
+          "wordCount": 1011,
+          "sha256": "8b15da10556ff298d53be09269b0cf265d50f20929fb2f1e01fd382681346ef6",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.1",
+          "pdfPageStart": 7,
+          "pdfPageEnd": 7,
+          "wordCount": 169,
+          "sha256": "07f121bd23546e7bf649f7a67d1560f5f3900092c647dc6c51c53fd29a9ee94c",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.2",
+          "pdfPageStart": 7,
+          "pdfPageEnd": 9,
+          "wordCount": 716,
+          "sha256": "1d4b43e377026faf5319779a41f26364333c1140074f9b0a5bb5dae381c6f8ad",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.3",
+          "pdfPageStart": 9,
+          "pdfPageEnd": 11,
+          "wordCount": 774,
+          "sha256": "4120d1584a1dce164eb1ba3b696359278907c9365656b1a177d49d9b1e6b9290",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.4",
+          "pdfPageStart": 11,
+          "pdfPageEnd": 13,
+          "wordCount": 705,
+          "sha256": "a22a90a678774905e5867e63237d2192036d0999d58fe98d9a989f95986f0eab",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.5",
+          "pdfPageStart": 14,
+          "pdfPageEnd": 19,
+          "wordCount": 2108,
+          "sha256": "05056fcff7128f71fd889ded14d126fec26cd7128b9f87cefc4686ffed340118",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.6",
+          "pdfPageStart": 20,
+          "pdfPageEnd": 23,
+          "wordCount": 1388,
+          "sha256": "6ab7b176a4e4d2218c59ff4c89c03460bafd5e042893fc6fea8ff6e7504e7ce2",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.7",
+          "pdfPageStart": 24,
+          "pdfPageEnd": 24,
+          "wordCount": 363,
+          "sha256": "e6767028487cd44eaac5837e0e3e210cdbc7aa696ae89d5cf736542897cecb26",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.8",
+          "pdfPageStart": 25,
+          "pdfPageEnd": 30,
+          "wordCount": 2583,
+          "sha256": "3729ff8c6447008e22b4f3de1c503582260b95ea8f77b820ef0e77b0d8068698",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.9",
+          "pdfPageStart": 30,
+          "pdfPageEnd": 33,
+          "wordCount": 1008,
+          "sha256": "73ca09bd541759a5a6bd82559d426bf0ecd17a5c88aaf7987bc0c556dfe7771a",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.10",
+          "pdfPageStart": 34,
+          "pdfPageEnd": 38,
+          "wordCount": 2055,
+          "sha256": "cdd2fe9ffa7c1983307676dc9afad1aceab5c5b44dc0af85dff12fccd9b4852d",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.11",
+          "pdfPageStart": 39,
+          "pdfPageEnd": 55,
+          "wordCount": 5621,
+          "sha256": "854d9506593c3bbbb1de3ba91df62cb4c9727e5b10d1aed355187397b8bb4b81",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.12",
+          "pdfPageStart": 56,
+          "pdfPageEnd": 57,
+          "wordCount": 505,
+          "sha256": "646ed0bd33831582a5fd7983bc1be742d58c2c26002220db6729f5fb17c8331c",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.13",
+          "pdfPageStart": 58,
+          "pdfPageEnd": 62,
+          "wordCount": 1946,
+          "sha256": "8e8c75c759967a94b15483ddd23199fb507f90b9e91f6dcd046f795d58caca0d",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.14",
+          "pdfPageStart": 62,
+          "pdfPageEnd": 64,
+          "wordCount": 794,
+          "sha256": "7d5dd196ff77a375e32aa09f7494e57130859c225fac3a85301acbe29892a90c",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.15",
+          "pdfPageStart": 65,
+          "pdfPageEnd": 67,
+          "wordCount": 1021,
+          "sha256": "df5835618fe2527ec2b8fbffacb17bd886228abb106f9fd6ab47c81c638e823c",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.16",
+          "pdfPageStart": 67,
+          "pdfPageEnd": 70,
+          "wordCount": 1110,
+          "sha256": "e36257ac213803e7079941e432d94282a975149d000c46afbc84a35c6e96af94",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.17",
+          "pdfPageStart": 71,
+          "pdfPageEnd": 75,
+          "wordCount": 1782,
+          "sha256": "f2fffc62ad885192ebdb17d059af4fb35c9e34b24c84cb8eecfcd8a679a65c06",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.18",
+          "pdfPageStart": 76,
+          "pdfPageEnd": 80,
+          "wordCount": 2099,
+          "sha256": "66f9d91dbbec299604f544a07ca96818f0178b9bce91c8d3cc3d9c0e2c7e7487",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.19",
+          "pdfPageStart": 81,
+          "pdfPageEnd": 83,
+          "wordCount": 775,
+          "sha256": "af965718be45ff09576ab5bc5d0c649907bd123c118f1ce755412322dda584b5",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.20",
+          "pdfPageStart": 84,
+          "pdfPageEnd": 91,
+          "wordCount": 2933,
+          "sha256": "64cb482a23987adac493cf4c77f83a007a5fb83072a87b542b85936d98fdf378",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.21",
+          "pdfPageStart": 92,
+          "pdfPageEnd": 96,
+          "wordCount": 1462,
+          "sha256": "c222a622bb81cf44fe6fbf96d9f4ddec3710de09f229678cd5b6c859e39d1198",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.22",
+          "pdfPageStart": 97,
+          "pdfPageEnd": 100,
+          "wordCount": 1426,
+          "sha256": "80698291c2146f8601deda6b7a57a7b4ecf7e06be1a42ba0d4edc9030354e443",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.23",
+          "pdfPageStart": 100,
+          "pdfPageEnd": 106,
+          "wordCount": 2343,
+          "sha256": "606a46bb641e38495422e9fed86470d8db1bbc3d83f81f7da7145c69969675ba",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.24",
+          "pdfPageStart": 107,
+          "pdfPageEnd": 108,
+          "wordCount": 565,
+          "sha256": "524deb5daa6f610415d85c759a2b951695dd153ae59811219e26c8d506298bc6",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.25",
+          "pdfPageStart": 109,
+          "pdfPageEnd": 112,
+          "wordCount": 1617,
+          "sha256": "73a6d648531e3fa6efcc3a9ccadad2d50f6ecefd62fb27a2bc3d785753d34a08",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.26",
+          "pdfPageStart": 113,
+          "pdfPageEnd": 113,
+          "wordCount": 67,
+          "sha256": "0bf8ce7328c89c7701e49af1e3ea9984d1d0dac4c16b97b637add1f9c4204b5a",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.27",
+          "pdfPageStart": 113,
+          "pdfPageEnd": 128,
+          "wordCount": 4750,
+          "sha256": "0341dd3283094bc90492bc1da592a11cb680bf4e013fe9f3ad95cd1286f70684",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.28",
+          "pdfPageStart": 129,
+          "pdfPageEnd": 133,
+          "wordCount": 1701,
+          "sha256": "269233f018b5e8a9a0eafd1051d0f45d1042634630bb9168a81967bc408584de",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.29",
+          "pdfPageStart": 134,
+          "pdfPageEnd": 139,
+          "wordCount": 2425,
+          "sha256": "5867380838613aed59f8d813809721a4defe060108500281f67d11bb52a84f20",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.30",
+          "pdfPageStart": 140,
+          "pdfPageEnd": 140,
+          "wordCount": 254,
+          "sha256": "3cd9dc6ce7d2b847c9eb8cbfc82aec538357eb0211aafbb72a14f5ec20d907e7",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.31",
+          "pdfPageStart": 141,
+          "pdfPageEnd": 141,
+          "wordCount": 215,
+          "sha256": "1d7b8a6b566d1ac4ea95ea978f739be21cec420eaa3db457c2aa119d77a3c0bd",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.32",
+          "pdfPageStart": 142,
+          "pdfPageEnd": 148,
+          "wordCount": 2203,
+          "sha256": "1799f319d92980438ce1fd8c20a6510edd45037447544b91b92ca01873f0dfc2",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "1.33",
+          "pdfPageStart": 149,
+          "pdfPageEnd": 149,
+          "wordCount": 105,
+          "sha256": "4d080d181ea4f497bff8619827f1fd142bc79fae273f76d18767af591b6b5364",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.1",
+          "pdfPageStart": 150,
+          "pdfPageEnd": 158,
+          "wordCount": 3463,
+          "sha256": "c3d8896cb869cb3152d3dcaa618e3bd22cd802ee5041e0d79f4cff5a4a4f8c9a",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.2",
+          "pdfPageStart": 159,
+          "pdfPageEnd": 177,
+          "wordCount": 8345,
+          "sha256": "181647390c98cabd4ebb2672427238508e7b9b32af9c9f37f8a252e85623007c",
+          "narrativeReview": "pending",
+          "boundaryStatus": "pending-II.2-II.3-separation"
+        },
+        {
+          "id": "2.4",
+          "pdfPageStart": 177,
+          "pdfPageEnd": 180,
+          "wordCount": 1124,
+          "sha256": "d5bd2e20acff489ac3f9c60ea86074af066c9797734099f8cc318cdbdefb7550",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.5",
+          "pdfPageStart": 181,
+          "pdfPageEnd": 182,
+          "wordCount": 605,
+          "sha256": "8d827eba63a08f63362d87edbee646ae2cafeb90cd8fa295b8bce665ddd69013",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.6",
+          "pdfPageStart": 183,
+          "pdfPageEnd": 185,
+          "wordCount": 1031,
+          "sha256": "5571ec3c510347cfb3204bacffb3ed876695fe659ed38d8a65ccad1c6ced5a87",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.7",
+          "pdfPageStart": 186,
+          "pdfPageEnd": 187,
+          "wordCount": 598,
+          "sha256": "ca735bc355514214b0ecfdc3769470c69b692ad0fd8f7bd6f15bedc8101b5dfb",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.8",
+          "pdfPageStart": 188,
+          "pdfPageEnd": 192,
+          "wordCount": 1717,
+          "sha256": "8d47260b74e381ca406f5b0d3ad0b5a5830ad72cb4cb4352c4ea5f802c4f4b3a",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.9",
+          "pdfPageStart": 193,
+          "pdfPageEnd": 195,
+          "wordCount": 1011,
+          "sha256": "cd3b282f9c44b052a968ecdbe153afea63f9fc8c5f8bdf8d77ca31bb3c0a5fbc",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.10",
+          "pdfPageStart": 196,
+          "pdfPageEnd": 196,
+          "wordCount": 233,
+          "sha256": "a8a24e95b342ea049432257a70ded1343aa71de9363406787115b4332739d9c6",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.11",
+          "pdfPageStart": 197,
+          "pdfPageEnd": 202,
+          "wordCount": 1923,
+          "sha256": "7f1ca98077718a74bd470f77a1869eca6b2d521d0384e63fd22dfe88f109879e",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.12",
+          "pdfPageStart": 203,
+          "pdfPageEnd": 204,
+          "wordCount": 572,
+          "sha256": "cc5d98930c3d97ad4068fd6a566a8809ebd6bf65f7ac231230b0177ce73d1785",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.13",
+          "pdfPageStart": 205,
+          "pdfPageEnd": 207,
+          "wordCount": 973,
+          "sha256": "d506cf135950c9574bde58ccd554ce507a1865d055252801ffbb844f2e2bbb16",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.14",
+          "pdfPageStart": 208,
+          "pdfPageEnd": 213,
+          "wordCount": 2064,
+          "sha256": "891266273409cb981e278a954d4125ad2445e4259ceeb6da536baf01edde979d",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.15",
+          "pdfPageStart": 214,
+          "pdfPageEnd": 215,
+          "wordCount": 603,
+          "sha256": "005e7fbcc7d2ac77d6c5a609b5ad2a1858c6d224f34ad47162fdff71e2c5833f",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.16",
+          "pdfPageStart": 216,
+          "pdfPageEnd": 220,
+          "wordCount": 2193,
+          "sha256": "c248bde52b9652770cfd9ac51b509c2c757b4266af974add7c58d244990b8511",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.17",
+          "pdfPageStart": 221,
+          "pdfPageEnd": 222,
+          "wordCount": 457,
+          "sha256": "1a3a53784c807080dc17e73d888414060a396434a2a41a1a840b3e85b4a46e90",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.18",
+          "pdfPageStart": 223,
+          "pdfPageEnd": 228,
+          "wordCount": 2028,
+          "sha256": "4b3d72d7324b3431423f5b932482b2b529df7fa70fd939069ae10f86eacd6a4a",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.19",
+          "pdfPageStart": 229,
+          "pdfPageEnd": 236,
+          "wordCount": 2746,
+          "sha256": "f32532264eed8cd6330601ecaf15ff162ea5014695e538cacc9741953b78fb07",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.20",
+          "pdfPageStart": 237,
+          "pdfPageEnd": 243,
+          "wordCount": 2529,
+          "sha256": "12bc45be95568bf089b88c04324b181f28a2c29bf757066c44160068f87a7563",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.21",
+          "pdfPageStart": 244,
+          "pdfPageEnd": 245,
+          "wordCount": 765,
+          "sha256": "32ccc7acac9d5ec361187b0acbf92ef176c1b5b0662fdcd6c530835692a59421",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.22",
+          "pdfPageStart": 246,
+          "pdfPageEnd": 253,
+          "wordCount": 3393,
+          "sha256": "ca7d17335b3be2bd65a8e987f85cab19b93b9437fe9c05370699dcb47527e8c7",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.23",
+          "pdfPageStart": 254,
+          "pdfPageEnd": 258,
+          "wordCount": 1772,
+          "sha256": "38094779460543f8f49e7f022bd047fd9ec8c426d84007da77be82c5c83d469e",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.24",
+          "pdfPageStart": 258,
+          "pdfPageEnd": 260,
+          "wordCount": 512,
+          "sha256": "7f6f5a5ccd59b3068d2c98e59a1b58e0ffad506bf0cd4701656122d1287a2b3a",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.25",
+          "pdfPageStart": 261,
+          "pdfPageEnd": 266,
+          "wordCount": 1324,
+          "sha256": "d591ca018c2a92ab4725f170c964660fa88a63caf05eac215e9b55f7bd78fb38",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.26",
+          "pdfPageStart": 267,
+          "pdfPageEnd": 271,
+          "wordCount": 2094,
+          "sha256": "db1dd37e0281b3673d5c5528d79015df38410bc420adddf9c5333ab4e82d1d1e",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.27",
+          "pdfPageStart": 272,
+          "pdfPageEnd": 274,
+          "wordCount": 1266,
+          "sha256": "fc61b02901dfc56cd2a6e245292b8572dc7876ff991aa2a6926cd2cdc41f50df",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.28",
+          "pdfPageStart": 275,
+          "pdfPageEnd": 277,
+          "wordCount": 968,
+          "sha256": "1431ac0d2601fc233a07126d345653a9daefdafe4326fcc3470094364f949c1f",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.29",
+          "pdfPageStart": 278,
+          "pdfPageEnd": 290,
+          "wordCount": 4346,
+          "sha256": "665677df9b92f98f2f92df2aa07469fe99f08e7c3bed9e690b79ca857228a0a5",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.30",
+          "pdfPageStart": 291,
+          "pdfPageEnd": 292,
+          "wordCount": 564,
+          "sha256": "b6539879c21c0f57d2b7ab0f9d6307341b93ee87ccefaeadf907120c6474c218",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.31",
+          "pdfPageStart": 293,
+          "pdfPageEnd": 293,
+          "wordCount": 269,
+          "sha256": "4717fd91ebc0c25514d269084437781601a8c350f3994375cee39de0fefd495d",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.32",
+          "pdfPageStart": 294,
+          "pdfPageEnd": 297,
+          "wordCount": 1607,
+          "sha256": "6aec34e5151a335406a80f6334e405e7450dd9aa20c37198d5476b93d3876186",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.33",
+          "pdfPageStart": 298,
+          "pdfPageEnd": 302,
+          "wordCount": 1729,
+          "sha256": "67d960992389792404f1e1a9137f130cd54b4a42087dedb7dcc18b0bb6ea886e",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.34",
+          "pdfPageStart": 303,
+          "pdfPageEnd": 303,
+          "wordCount": 435,
+          "sha256": "13f72f61c8e7e2987d4898eddb22b23e8d06236cc96a6fccc0dc3f7ac1c76193",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.35",
+          "pdfPageStart": 304,
+          "pdfPageEnd": 316,
+          "wordCount": 4368,
+          "sha256": "00d0ff2001afeab2d4d08a847315e23133fe77886e3f1dbb5a121972999b3516",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        },
+        {
+          "id": "2.36",
+          "pdfPageStart": 317,
+          "pdfPageEnd": 320,
+          "wordCount": 1448,
+          "sha256": "b57ec98c768ba5c94a67d35ba36ecdcb844a1bb3a951a82c74ee0ca9a8f3a4d7",
+          "narrativeReview": "pending",
+          "boundaryStatus": "heading-detected"
+        }
+      ]
+    }
+  ],
+  "sectionComparison": [
+    {
+      "id": "foreword",
+      "tokenSimilarity": 0.996848,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "1.1",
+      "tokenSimilarity": 1.0,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "1.2",
+      "tokenSimilarity": 0.996508,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "1.3",
+      "tokenSimilarity": 0.998912,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "1.4",
+      "tokenSimilarity": 1.0,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "1.5",
+      "tokenSimilarity": 0.996384,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "1.6",
+      "tokenSimilarity": 0.995737,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "1.7",
+      "tokenSimilarity": 0.995327,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "1.8",
+      "tokenSimilarity": 0.996246,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "1.9",
+      "tokenSimilarity": 1.0,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "1.10",
+      "tokenSimilarity": 0.996404,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "1.11",
+      "tokenSimilarity": 0.99856,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "1.12",
+      "tokenSimilarity": 1.0,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "1.13",
+      "tokenSimilarity": 0.999579,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "1.14",
+      "tokenSimilarity": 1.0,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "1.15",
+      "tokenSimilarity": 1.0,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "1.16",
+      "tokenSimilarity": 0.995677,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "1.17",
+      "tokenSimilarity": 1.0,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "1.18",
+      "tokenSimilarity": 0.99842,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "1.19",
+      "tokenSimilarity": 0.996872,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "1.20",
+      "tokenSimilarity": 0.999448,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "1.21",
+      "tokenSimilarity": 0.9989,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "1.22",
+      "tokenSimilarity": 0.998855,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "1.23",
+      "tokenSimilarity": 0.999649,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "1.24",
+      "tokenSimilarity": 1.0,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "1.25",
+      "tokenSimilarity": 0.998437,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "1.26",
+      "tokenSimilarity": 1.0,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "1.27",
+      "tokenSimilarity": 0.999519,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "1.28",
+      "tokenSimilarity": 0.99811,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "1.29",
+      "tokenSimilarity": 0.998951,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "1.30",
+      "tokenSimilarity": 1.0,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "1.31",
+      "tokenSimilarity": 1.0,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "1.32",
+      "tokenSimilarity": 0.998547,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "1.33",
+      "tokenSimilarity": 1.0,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "2.1",
+      "tokenSimilarity": 0.997409,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "2.2",
+      "tokenSimilarity": 0.996942,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "2.3",
+      "comparison": "missing-heading-in-both",
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "2.4",
+      "tokenSimilarity": 0.995085,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "2.5",
+      "tokenSimilarity": 0.994467,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "2.6",
+      "tokenSimilarity": 0.995177,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "2.7",
+      "tokenSimilarity": 0.995862,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "2.8",
+      "tokenSimilarity": 0.991385,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "2.9",
+      "tokenSimilarity": 0.997975,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "2.10",
+      "tokenSimilarity": 1.0,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "2.11",
+      "tokenSimilarity": 0.996636,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "2.12",
+      "tokenSimilarity": 1.0,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "2.13",
+      "tokenSimilarity": 1.0,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "2.14",
+      "tokenSimilarity": 0.998042,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "2.15",
+      "tokenSimilarity": 1.0,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "2.16",
+      "tokenSimilarity": 0.997654,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "2.17",
+      "tokenSimilarity": 0.99637,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "2.18",
+      "tokenSimilarity": 0.999205,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "2.19",
+      "tokenSimilarity": 0.997676,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "2.20",
+      "tokenSimilarity": 0.999022,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "2.21",
+      "tokenSimilarity": 1.0,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "2.22",
+      "tokenSimilarity": 0.997099,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "2.23",
+      "tokenSimilarity": 0.997701,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "2.24",
+      "tokenSimilarity": 0.998366,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "2.25",
+      "tokenSimilarity": 0.994458,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "2.26",
+      "tokenSimilarity": 0.997598,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "2.27",
+      "tokenSimilarity": 0.997332,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "2.28",
+      "tokenSimilarity": 0.999147,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "2.29",
+      "tokenSimilarity": 0.998925,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "2.30",
+      "tokenSimilarity": 0.997019,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "2.31",
+      "tokenSimilarity": 1.0,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "2.32",
+      "tokenSimilarity": 0.999478,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "2.33",
+      "tokenSimilarity": 0.999058,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "2.34",
+      "tokenSimilarity": 0.994094,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "2.35",
+      "tokenSimilarity": 0.997988,
+      "narrativeReview": "pending"
+    },
+    {
+      "id": "2.36",
+      "tokenSimilarity": 1.0,
+      "narrativeReview": "pending"
+    }
+  ],
+  "findings": [
+    "Both PDFs contain the foreword and numbered parts I and II, ending in II.36.",
+    "Both omit the II.3 heading; II.2 currently includes an unresolved merged region. This does not prove that the entire body of II.3 is missing.",
+    "Reading Sanctuary ends with a 1955 Olympia Press bibliographic line, but has no photographed copyright or edition page identifying its underlying copy.",
+    "Both contain the same anomalous words settlemen, publshed and despare in the foreword. They are not established as independent witnesses.",
+    "Neither contains the later authorial afterword. Its absence alone is not a defect of the 1955 first edition; first publication and electronic transcription provenance must be distinguished.",
+    "PDF page counts reflect reformatting and do not establish textual completeness.",
+    "No literary location data or quotation has been published by this audit."
+  ],
+  "pending": [
+    "Compare the electronic text with an identifiable complete English edition.",
+    "Establish the boundary between II.2 and II.3 without inventing it.",
+    "Review every original section for scenes, mentions, memories, journeys and unlocated settings, including sections without places.",
+    "Write specific narrative introductions in English, Italian, French and Spanish.",
+    "Verify each location association, its original evidence and its narrative category; use mentioned where the evidence is uncertain.",
+    "Document the necessity and proportion of the individual and aggregate quotations under article 70; source provision alone is not publication permission.",
+    "Keep translated quotations unavailable until an authentic edition passage and reuse basis are verified.",
+    "Prepare and verify the artwork, dedicated theme, database import and publication on docs only after the content is ready."
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "checked": "2026-10-13",
+  "source": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=110",
+  "viewerPages": 213,
+  "viewerPage": 110,
+  "printedPage": 109,
+  "headingVisuallyVerified": "Part Two, Chapter 3",
+  "afterwordStart": {
+    "viewerPage": 208,
+    "printedPage": 207,
+    "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=208",
+    "title": "On a book entitled Lolita",
+    "visuallyVerified": true
+  },
+  "contentsVisuallyVerifiedAtViewerPage": 3,
+  "dedicationVisuallyVerifiedAtViewerPage": 2,
+  "editionPublisherVerified": false,
+  "fullFlipHTML5TextAcquired": true,
+  "fullNarrativeAnalysisCompleted": false,
+  "evidenceImage": "work/lolita/fliphtml-page-110.webp",
+  "recovery": [
+    {
+      "source": "beland",
+      "recoveredUnits": 70,
+      "textPreservedExactly": true,
+      "chapters": [
+        {
+          "id": "2.2",
+          "pdfPageStart": 109,
+          "pdfPageEnd": 125,
+          "wordCount": 4441,
+          "sha256": "991b9b6b34d26ea5bdea38092280dd36b84c24a16a7d6a993a96c87757d33899",
+          "narrativeReview": "pending",
+          "boundaryStatus": "recovered-from-FlipHTML5-viewer-page-110",
+          "boundarySource": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=110",
+          "pdfPageRangeStatus": "inherited-merged-range-not-a-chapter-specific-range"
+        },
+        {
+          "id": "2.3",
+          "pdfPageStart": 109,
+          "pdfPageEnd": 125,
+          "wordCount": 3873,
+          "sha256": "1d017ca4242739f1445d7b0fb8c9fdf28fcb14c475f31aeb37f12603e63c8f8b",
+          "narrativeReview": "pending",
+          "boundaryStatus": "recovered-from-FlipHTML5-viewer-page-110",
+          "boundarySource": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=110",
+          "pdfPageRangeStatus": "inherited-merged-range-not-a-chapter-specific-range"
+        }
+      ]
+    },
+    {
+      "source": "readingsanctuary",
+      "recoveredUnits": 70,
+      "textPreservedExactly": true,
+      "chapters": [
+        {
+          "id": "2.2",
+          "pdfPageStart": 159,
+          "pdfPageEnd": 177,
+          "wordCount": 4455,
+          "sha256": "f850621723e9d632fe719d71f37352d78702482e30efec2d508b5138cc762bcf",
+          "narrativeReview": "pending",
+          "boundaryStatus": "recovered-from-FlipHTML5-viewer-page-110",
+          "boundarySource": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=110",
+          "pdfPageRangeStatus": "inherited-merged-range-not-a-chapter-specific-range"
+        },
+        {
+          "id": "2.3",
+          "pdfPageStart": 159,
+          "pdfPageEnd": 177,
+          "wordCount": 3890,
+          "sha256": "65683c902d0aa0f99f5e08cc41a9d79203c83219dae02425c8fb62918f3ae772",
+          "narrativeReview": "pending",
+          "boundaryStatus": "recovered-from-FlipHTML5-viewer-page-110",
+          "boundarySource": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=110",
+          "pdfPageRangeStatus": "inherited-merged-range-not-a-chapter-specific-range"
+        }
+      ]
+    }
+  ],
+  "finding": "II.3's text is present in both earlier PDFs; its heading was omitted. The third witness establishes the separation. This resolves the chapter-boundary issue, not every question of transcription fidelity or edition provenance.",
+  "completeReadingAndSectionReview": true,
+  "structuredLocationEvidenceCompleted": false,
+  "readingRecord": "section-analysis.json",
+  "pageManifest": "page-manifest.json"
+}
