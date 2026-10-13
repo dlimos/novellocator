@@ -14,10 +14,12 @@
   }
   return shuffled;
  }
+ function renderCredit(credit){
+  return `<details class="book-image-credit"><summary>Image source</summary><div><p>${escape(credit.artist)} · <a href="${escape(credit.url)}" target="_blank" rel="noopener noreferrer">${escape(credit.title)}</a> · ${escape(credit.year)}</p>${credit.reproduction?`<p><a href="${escape(credit.reproductionUrl)}" target="_blank" rel="noopener noreferrer">${escape(credit.reproduction)}</a> · <a href="${escape(credit.licenseUrl)}" target="_blank" rel="noopener noreferrer">${escape(credit.license)}</a>${credit.reuseNote?` · ${escape(credit.reuseNote)}`:''}</p>`:''}</div></details>`;
+ }
  function render(books){
   return {
-   cards:books.map((book,index)=>`<a class="book-card available-book" href="atlas.html?book=${encodeURIComponent(book.id)}" aria-label="${escape(book.ariaLabel)}"><div class="book-art" style="--cover-position:${escape(book.cover.position)}"><img src="${escape(book.cover.src)}" alt="${escape(book.cover.alt)}" width="${book.cover.width}" height="${book.cover.height}" ${index?'loading="lazy"':'fetchpriority="high"'} decoding="async"><span>${escape(book.setting)}</span></div><div class="book-copy"><div class="book-meta"><span>${escape(book.author)}</span><span class="book-status">Available</span></div><h2>${escape(book.title)}</h2><span class="book-action">Explore the maps <span aria-hidden="true">↗</span></span></div></a>`).join('\n'),
-   credits:books.map(({credit})=>`<li>${escape(credit.artist)} · <a href="${escape(credit.url)}" target="_blank" rel="noopener noreferrer">${escape(credit.title)}</a> · ${escape(credit.year)}${credit.reproduction?`<br><a href="${escape(credit.reproductionUrl)}" target="_blank" rel="noopener noreferrer">${escape(credit.reproduction)}</a> · <a href="${escape(credit.licenseUrl)}" target="_blank" rel="noopener noreferrer">${escape(credit.license)}</a>${credit.reuseNote?` · ${escape(credit.reuseNote)}`:''}`:''}</li>`).join('')
+   cards:books.map((book,index)=>`<article class="book-card available-book"><a class="book-art" href="atlas.html?book=${encodeURIComponent(book.id)}" aria-label="${escape(book.ariaLabel)}" style="--cover-position:${escape(book.cover.position)}"><img src="${escape(book.cover.src)}" alt="${escape(book.cover.alt)}" width="${book.cover.width}" height="${book.cover.height}" ${index?'loading="lazy"':'fetchpriority="high"'} decoding="async"><span>${escape(book.setting)}</span></a>${renderCredit(book.credit)}<a class="book-copy" href="atlas.html?book=${encodeURIComponent(book.id)}" aria-label="${escape(book.ariaLabel)}"><div class="book-meta"><span>${escape(book.author)}</span></div><h2>${escape(book.title)}</h2></a></article>`).join('\n')
   };
  }
  root.atlasCatalogueView={render,matches,shuffle};
@@ -29,9 +31,8 @@
  if(legacy){const target=new URL('atlas.html',root.location.href);target.search=root.location.search;target.searchParams.set('book',legacy.id);target.hash=root.location.hash;root.location.replace(target.href);return;}
  const html=render(books);
  root.document.getElementById('catalogue-books').innerHTML=html.cards;
- root.document.getElementById('catalogue-credits').innerHTML=html.credits;
  root.atlasI18n.translateDOM(root.document.getElementById('catalogue-books'));
- for(const a of root.document.querySelectorAll('.book-card')){const url=new URL(a.href,root.location.href);url.searchParams.set('lang',root.atlasI18n.locale);a.href=url.href;}
+ for(const a of root.document.querySelectorAll('.book-card > a')){const url=new URL(a.href,root.location.href);url.searchParams.set('lang',root.atlasI18n.locale);a.href=url.href;}
  const form=root.document.getElementById('catalogue-search');
  const title=root.document.getElementById('catalogue-title-search');
  const author=root.document.getElementById('catalogue-author-search');

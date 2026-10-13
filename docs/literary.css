@@ -29,6 +29,14 @@ h1,.detail h2,.book-copy h2,.map-place-popup h2{font-family:'EB Garamond',Georgi
 .book-card[hidden]{display:none}
 @media(max-width:700px){.catalogue-search{grid-template-columns:1fr;gap:25px}}
 .book-card{border:1px solid var(--line);border-radius:0;background:#fffaf0;box-shadow:0 3px 0 #e8deca;transition:border-color .2s,box-shadow .2s}
+.book-card > a{color:inherit;text-decoration:none}
+.book-card > a:focus-visible{outline:2px solid #93613d;outline-offset:-3px}
+.book-card a.book-art{display:block}
+.book-image-credit{padding:10px 24px;border-bottom:1px solid var(--line);color:var(--muted);font-size:15px;line-height:1.5}
+.book-image-credit summary{cursor:pointer;width:fit-content}
+.book-image-credit summary:focus-visible{outline:2px solid #93613d;outline-offset:3px}
+.book-image-credit p{margin:8px 0;overflow-wrap:anywhere}
+.book-image-credit a{color:inherit;text-underline-offset:3px}
 .available-book:hover{border-color:#91785a;box-shadow:0 6px 18px #5d463817}
 .book-art{height:auto;aspect-ratio:1.65;position:relative;padding:12px;background:#e8dfcb;color:var(--ink);border-bottom:1px solid var(--line)}
 .book-art img{display:block;width:100%;height:100%;object-fit:cover;object-position:var(--cover-position,center);filter:saturate(.8);border:1px solid #bba98a}

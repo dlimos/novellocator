@@ -20,6 +20,7 @@ window.atlasLocaleData={
   ],
   "messages": {
     "it": {
+      "Image source": "Fonte dell’immagine",
       "Search novels": "Cerca romanzi",
       "Title": "Titolo",
       "Author": "Autore",
@@ -153,6 +154,7 @@ window.atlasLocaleData={
       "Explore the places and imagined worlds of classic novels.": "Esplora i luoghi e i mondi immaginari dei romanzi classici."
     },
     "en": {
+      "Image source": "Image source",
       "Search novels": "Search novels",
       "Title": "Title",
       "Author": "Author",
@@ -286,6 +288,7 @@ window.atlasLocaleData={
       "Explore the places and imagined worlds of classic novels.": "Explore the places and imagined worlds of classic novels."
     },
     "fr": {
+      "Image source": "Source de l’image",
       "Search novels": "Rechercher des romans",
       "Title": "Titre",
       "Author": "Auteur",
@@ -419,6 +422,7 @@ window.atlasLocaleData={
       "Explore the places and imagined worlds of classic novels.": "Explorez les lieux et les mondes imaginaires des romans classiques."
     },
     "es": {
+      "Image source": "Fuente de la imagen",
       "Search novels": "Buscar novelas",
       "Title": "Título",
       "Author": "Autor",
