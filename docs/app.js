@@ -219,14 +219,15 @@ function renderQuote(quote,places=[],terms=[]){
 const excerptLanguageNames={en:'English',fr:'French',ru:'Russian',it:'Italian',es:'Spanish'};
 function selectedPassage(excerpts){
  const original=excerpts?.original;
- if(original?.language===locale&&original.quote)return original;
+ if(original?.language===locale&&original.quote?.trim())return original;
  const translated=excerpts?.translations?.[locale];
- return translated?.language===locale&&translated.quote?translated:null;
+ if(translated?.language===locale&&translated.quote?.trim())return translated;
+ return original?.quote?.trim()?original:null;
 }
 function renderExcerpts(excerpts,heading,places=[]){
  const languageNames=excerptLanguageNames;
  const selected=selectedPassage(excerpts);
- if(!selected)return `<p class="excerpt-unavailable" role="status"><strong>${esc(t(heading))}</strong> · ${esc(t('A verified quotation is not yet available in the selected language.'))}</p>`;
+ if(!selected)return '';
  const records=[selected];
  return `<details class="original-excerpt"><summary>${esc(t(heading))} · ${records.map(item=>esc(t(languageNames[item.language]||item.language))).join(' / ')}</summary>${records.map(item=>`<p><strong>${esc(t(item.type==='translation'?'Published translation':'Original text'))} · ${esc(t(languageNames[item.language]||item.language))}</strong></p><blockquote lang="${esc(item.language)}">${renderQuote(item.quote,places,item.highlightTerms||[])}</blockquote><p class="excerpt-credit">${esc(item.attribution)}<br>${item.url?`<a href="${esc(item.url)}" target="_blank" rel="noopener noreferrer">${esc(t('Read the source'))}</a>`:""}${item.rightsUrl?` · <a href="${esc(item.rightsUrl)}" target="_blank" rel="noopener noreferrer">${esc(t('Edition and rights'))}</a>`:""}</p>`).join('')}</details>`;
 }

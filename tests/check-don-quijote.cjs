@@ -37,7 +37,7 @@ for(const lang of ['en','it','fr','es']){
  ctx.window.atlasData=ctx.window.atlasI18n.localizeData(ctx.window.atlasData);startup();vm.runInContext(fs.readFileSync('docs/app.js','utf8').replace(/initializeMap\(\);\s*$/,''),ctx);
  for(let i=0;i<142;i++){
   vm.runInContext(`selectChapter(${i},false,false)`,ctx);assert(elements.detail.innerHTML.includes(ctx.window.atlasData.chapters[i].title));
-  const expected=lang==='es'?'lang="es"':ctx.window.atlasI18n.t('A verified quotation is not yet available in the selected language.');
+  const expected='lang="es"';
   assert(get('selected-location').parentElement.children.at(-1).innerHTML.includes(expected));
   if(!data.chapters[i].places.length)assert(get('selected-location').innerHTML.includes(expected),'section quotation or pending message absent in unlocated section');
   if(data.chapters[i].citations.length){vm.runInContext('selectCitation(0)',ctx);assert(get('selected-location').children.at(-1).innerHTML.includes(expected));}

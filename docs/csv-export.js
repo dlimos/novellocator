@@ -6,10 +6,11 @@
   es:['Sección','Título','Lugar','Dirección o área','Categoría','Latitud','Longitud','Geometría','Escena','Idioma original','Pasaje original','Fuente textual','Fuente de coordenadas','Método de localización','Nota','Verificación']
  };
  const categories={en:['Action locations','Mentioned locations'],it:['Luoghi dell’azione','Luoghi citati'],fr:['Lieux de l’action','Lieux mentionnés'],es:['Lugares de la acción','Lugares mencionados']};
- const selectedHeadings={en:['Selected language','Selected-language passage','Quotation credit','Edition and rights'],it:['Lingua selezionata','Passo nella lingua selezionata','Attribuzione della citazione','Edizione e diritti'],fr:['Langue sélectionnée','Passage dans la langue sélectionnée','Attribution de la citation','Édition et droits'],es:['Idioma seleccionado','Pasaje en el idioma seleccionado','Atribución de la cita','Edición y derechos']};
+ const selectedHeadings={en:['Quotation language','Displayed passage','Quotation credit','Edition and rights'],it:['Lingua della citazione','Passo visualizzato','Attribuzione della citazione','Edizione e diritti'],fr:['Langue de la citation','Passage affiché','Attribution de la citation','Édition et droits'],es:['Idioma de la cita','Pasaje mostrado','Atribución de la cita','Edición y derechos']};
  function selectedColumns(group,locale){
-  const q=group?.original?.language===locale?group.original:group?.translations?.[locale];
-  return [locale,q?.language===locale?q.quote||'':'',q?.language===locale?q.attribution||'':'',q?.language===locale?q.rightsUrl||'':''];
+  const original=group?.original,translated=group?.translations?.[locale];
+  const q=original?.language===locale&&original.quote?.trim()?original:translated?.language===locale&&translated.quote?.trim()?translated:original?.quote?.trim()?original:null;
+  return [q?.language||locale,q?.quote||'',q?.attribution||'',q?.rightsUrl||''];
  }
  function build(data,kind,locale='en'){
   const rows=[(headings[locale]||headings.en).concat(selectedHeadings[locale]||selectedHeadings.en)],labels=categories[locale]||categories.en;

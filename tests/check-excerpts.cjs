@@ -14,10 +14,10 @@ for(const lang of ['en','it','fr','es'])for(const id of Object.keys(raw)){
  vm.createContext(ctx);for(const name of ['locales/ui.js','content/book-translations.js','i18n.js','data/'+id+'.js','data/'+id+'-i18n.js','basemaps.js'])vm.runInContext(fs.readFileSync('docs/'+name,'utf8'),ctx);ctx.window.atlasData=ctx.window.atlasI18n.localizeData(ctx.window.atlasData);startup();vm.runInContext(fs.readFileSync('docs/app.js','utf8').replace(/initializeMap\(\);\s*$/,''),ctx);
  const localized=ctx.window.atlasData;
  function verifySelected(html,group){
-  const selected=group.original.language===lang?group.original:group.translations?.[lang];
-  assert.deepEqual([...html.matchAll(/<blockquote lang="([^"]+)"/g)].map(m=>m[1]),selected?[lang]:[]);
+  const selected=group.original.language===lang?group.original:group.translations?.[lang]||group.original;
+  assert.deepEqual([...html.matchAll(/<blockquote lang="([^"]+)"/g)].map(m=>m[1]),selected?[selected.language]:[]);
   if(selected){assert.ok(html.includes(selected.attribution));assert.ok(html.includes(ctx.window.atlasI18n.t('Edition and rights')));}
-  else{assert.ok(html.includes(ctx.window.atlasI18n.t('A verified quotation is not yet available in the selected language.')));assert.ok(!html.includes(group.original.quote));}
+  else assert.equal(html,'');
  }
  for(const [i,c]of localized.chapters.entries()){
   vm.runInContext('selectChapter('+i+',false,false)',ctx);
@@ -34,4 +34,4 @@ for(const lang of ['en','it','fr','es'])for(const id of Object.keys(raw)){
  ctx.window.atlasTranslations[lang]??={};ctx.window.atlasTranslations[lang]['literal quotation']='wrong';assert.equal(ctx.window.atlasI18n.localizeData({quote:'literal quotation'}).quote,'literal quotation');
 }
 assert.equal(audit.records.filter(r=>r.book==='war-and-peace'&&r.place&&r.type==='original').length,91);
-console.log('PASS: original evidence preserved; only the selected-language quotation is shown, with literal attribution and sources; missing translations are explicit across four locales.');
+console.log('PASS: original evidence preserved; the selected-language quotation or authentic original is shown, with literal attribution and sources; original fallback preserves credits across four locales.');

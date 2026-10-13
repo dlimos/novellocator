@@ -11,14 +11,17 @@ for(const locale of ['en','it','fr','es']){
   assert.ok(html.includes(locale==='fr'?'Victor Derély':'Constance Garnett'));
   assert.ok(html.includes('<strong class="quote-place">'));
   assert.ok(!html.includes('lang="ru"'));
- }else{assert.ok(!html.includes('<blockquote'));assert.ok(html.includes(ctx.window.atlasI18n.t('A verified quotation is not yet available in the selected language.')));}
+ }else{assert.ok(html.includes('lang="ru"'));assert.ok(html.includes(ctx.window.atlasI18n.t('Original text')));assert.ok(html.includes(run('esc(chapters[0].placeExcerpts[chapters[0].places[0]].original.attribution)')));}
  run("renderLocation({target:document.getElementById('map-popup-content')})");
  const popup=elements['map-popup-content'].children.map(c=>c.innerHTML).join('');
- assert.equal(popup.includes('<blockquote'),['en','fr'].includes(locale));
+ assert.ok(popup.includes('<blockquote'));assert.equal(popup.includes('lang="ru"'),!['en','fr'].includes(locale));
  run('renderDetail()');
  const unlocated=elements['selected-location'].parentElement.children.at(-1).innerHTML;
- assert.equal(unlocated.includes('<blockquote'),['en','fr'].includes(locale));
- assert.ok(!unlocated.includes('lang="ru"'));
+ assert.ok(unlocated.includes('<blockquote'));
+ assert.ok(unlocated.includes('lang="ru"'));
+ assert.equal(run("renderExcerpts(null,'Passage from the novel')"),'');
+ assert.equal(run("renderExcerpts({original:{quote:'   ',language:'ru'}},'Passage from the novel')"),'');
+ assert.equal(run("selectedPassage({original:{quote:'Original',language:'ru'},translations:{[locale]:{quote:' ',language:locale}}}).quote"),'Original');
 }
 // Each imported passage is a literal substring of its archived consulted source.
 const records=JSON.parse(fs.readFileSync('research/translations/verified/crime-and-punishment.json','utf8'));
@@ -29,4 +32,4 @@ for(const record of records){
  assert.ok(record.originalQuote&&record.alignment&&record.rightsNote);
  assert.ok(record.passage.translator&&record.passage.publisher&&record.passage.edition);
 }
-console.log(`PASS: ${records.length} source-checked translations; selected-language text, credits and highlights in details, popups and unlocated settings; explicit gaps without original-language fallback.`);
+console.log(`PASS: ${records.length} source-checked translations; selected-language text, credits and highlights in details, popups and unlocated settings; authentic original-language fallback and no empty quotation notices.`);
