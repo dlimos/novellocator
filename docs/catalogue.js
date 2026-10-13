@@ -15,7 +15,7 @@
   return shuffled;
  }
  function renderCredit(credit){
-  return `<details class="book-image-credit"><summary>Image source</summary><div><p>${escape(credit.artist)} · <a href="${escape(credit.url)}" target="_blank" rel="noopener noreferrer">${escape(credit.title)}</a> · ${escape(credit.year)}</p>${credit.reproduction?`<p><a href="${escape(credit.reproductionUrl)}" target="_blank" rel="noopener noreferrer">${escape(credit.reproduction)}</a> · <a href="${escape(credit.licenseUrl)}" target="_blank" rel="noopener noreferrer">${escape(credit.license)}</a>${credit.reuseNote?` · ${escape(credit.reuseNote)}`:''}</p>`:''}</div></details>`;
+  return `<details class="book-image-credit"><summary>Image source</summary><div><p>${escape(credit.artist)} · <a href="${escape(credit.url)}" target="_blank" rel="noopener noreferrer">${escape(credit.title)}</a> · ${escape(credit.year)}</p></div></details>`;
  }
  function render(books){
   return {

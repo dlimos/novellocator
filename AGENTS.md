@@ -6,6 +6,8 @@
 - Per la pubblicazione usare `git push origin docs`; non creare o ripristinare il branch `main`.
 
 ## Analisi delle opere
+- Sotto ogni immagine del catalogo, la sezione espandibile «Fonte dell'immagine» deve mostrare soltanto autore del quadro, titolo dell'opera con link alla fonte e anno. Non mostrare altri testi, note, licenze o crediti di riproduzione nella scheda; conservarli nella documentazione e nel database. Applicare questa regola a tutti i romanzi già importati e a quelli futuri.
+
 - Le descrizioni brevi dei romanzi nella home page e nel catalogo devono evocare luoghi, personaggi e atmosfera in poche parole, nelle quattro lingue del sito. Non indicare il numero di parti, volumi, capitoli, episodi o sezioni e non descrivere la struttura dell'opera o i controlli dell'atlante. Applicare questa regola a tutti i romanzi già importati e a quelli futuri.
 
 
