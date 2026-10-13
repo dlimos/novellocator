@@ -1,8 +1,12 @@
 import fs from 'node:fs';
 import {loadInputs,normalize,seedSql} from './model.js';
 const folder='research/translations';
-const changes=JSON.parse(fs.readFileSync(folder+'/verified/crime-and-punishment.json','utf8'));
-const bundle=normalize(loadInputs(process.cwd(),['crime-and-punishment']));
+const bookId=process.argv[2]||'crime-and-punishment';
+if(!/^[a-z0-9-]+$/.test(bookId))throw Error('Invalid book id');
+const outputPrefix=bookId==='crime-and-punishment'?'':bookId+'-';
+const changes=JSON.parse(fs.readFileSync(`${folder}/verified/${bookId}.json`,'utf8'));
+if(changes.some((c:any)=>c.book_id!==bookId))throw Error('Mixed-book translation records');
+const bundle=normalize(loadInputs(process.cwd(),[bookId]));
 const targeted=normalize([]);
 const mapped=changes.filter((c:any)=>c.collection!=='unlocated');
 const ids=new Set(mapped.map((c:any)=>`${c.section}:${c.collection==='citations'?'cited':'core'}:${c.id}:${c.language}`));
@@ -12,22 +16,22 @@ const sources=new Set(targeted.tables.excerpts.flatMap(r=>[r.text_source_id,r.ri
 targeted.tables.sources=bundle.tables.sources.filter(r=>sources.has(r.id));
 const q=(s:string)=>"'"+s.replaceAll("'","''")+"'";
 const unlocated=changes.filter((c:any)=>c.collection==='unlocated');
-const checks=mapped.map((c:any)=>`if not exists(select 1 from public.excerpts where book_id='crime-and-punishment' and reference_id=${q(`${c.section}:${c.collection==='citations'?'cited':'core'}:${c.id}`)} and slot='original' and quote=${q(c.originalQuote)}) then raise exception 'Original passage changed: ${c.section}/${c.id}'; end if;`);
-for(const c of mapped)checks.push(`if exists(select 1 from public.excerpts where book_id='crime-and-punishment' and id=${q(`${c.section}:${c.collection==='citations'?'cited':'core'}:${c.id}:${c.language}`)} and quote<>${q(c.passage.quote)}) then raise exception 'Existing translation differs: ${c.section}/${c.id}/${c.language}'; end if;`);
+const checks=mapped.map((c:any)=>`if not exists(select 1 from public.excerpts where book_id=${q(bookId)} and reference_id=${q(`${c.section}:${c.collection==='citations'?'cited':'core'}:${c.id}`)} and slot='original' and quote=${q(c.originalQuote)}) then raise exception 'Original passage changed: ${c.section}/${c.id}'; end if;`);
+for(const c of mapped)checks.push(`if exists(select 1 from public.excerpts where book_id=${q(bookId)} and id=${q(`${c.section}:${c.collection==='citations'?'cited':'core'}:${c.id}:${c.language}`)} and quote<>${q(c.passage.quote)}) then raise exception 'Existing translation differs: ${c.section}/${c.id}/${c.language}'; end if;`);
 const updates=unlocated.map((c:any)=>{
  const row=bundle.tables.unlocated_settings.find(r=>r.section_id===c.section&&(r.metadata as any).id===c.id);
  if(!row)throw Error('Unlocated translation target absent');
- checks.push(`if not exists(select 1 from public.unlocated_settings where book_id='crime-and-punishment' and section_id=${c.section} and ordinal=${row.ordinal} and quote=${q(c.originalQuote)}) then raise exception 'Unlocated passage changed: ${c.section}/${c.id}'; end if;`);
- checks.push(`if exists(select 1 from public.unlocated_settings where book_id='crime-and-punishment' and section_id=${c.section} and ordinal=${row.ordinal} and metadata#>>'{translations,${c.language},quote}' is not null and metadata#>>'{translations,${c.language},quote}'<>${q(c.passage.quote)}) then raise exception 'Existing unlocated translation differs: ${c.section}/${c.id}/${c.language}'; end if;`);
+ checks.push(`if not exists(select 1 from public.unlocated_settings where book_id=${q(bookId)} and section_id=${c.section} and ordinal=${row.ordinal} and quote=${q(c.originalQuote)}) then raise exception 'Unlocated passage changed: ${c.section}/${c.id}'; end if;`);
+ checks.push(`if exists(select 1 from public.unlocated_settings where book_id=${q(bookId)} and section_id=${c.section} and ordinal=${row.ordinal} and metadata#>>'{translations,${c.language},quote}' is not null and metadata#>>'{translations,${c.language},quote}'<>${q(c.passage.quote)}) then raise exception 'Existing unlocated translation differs: ${c.section}/${c.id}/${c.language}'; end if;`);
  const payload=Buffer.from(JSON.stringify(c.passage),'utf8').toString('base64');
- return `update public.unlocated_settings set metadata=jsonb_set(metadata,'{translations}',coalesce(metadata->'translations','{}'::jsonb)||jsonb_build_object(${q(c.language)},convert_from(decode(${q(payload)},'base64'),'UTF8')::jsonb)) where book_id='crime-and-punishment' and section_id=${c.section} and ordinal=${row.ordinal};`;
+ return `update public.unlocated_settings set metadata=jsonb_set(metadata,'{translations}',coalesce(metadata->'translations','{}'::jsonb)||jsonb_build_object(${q(c.language)},convert_from(decode(${q(payload)},'base64'),'UTF8')::jsonb)) where book_id=${q(bookId)} and section_id=${c.section} and ordinal=${row.ordinal};`;
 });
 // Existing rows are never overwritten; the guards above permit identical reruns.
 const inserts=seedSql(targeted).replace(/on conflict \(([^)]+)\) do update set [^\n]+;/g,'on conflict ($1) do nothing;');
 const content=inserts.replace('commit;',updates.join('\n')+'\ncommit;');
 const guarded=content.replace('set local standard_conforming_strings = on;','set local standard_conforming_strings = on;\ndo $verify$ begin\n'+checks.join('\n')+'\nend $verify$;');
-fs.writeFileSync(folder+'/publish-translations.sql',guarded+"\nselect language,count(*) from public.excerpts where book_id='crime-and-punishment' and type='translation' group by language;\nselect count(*) as unlocated_with_translations from public.unlocated_settings where book_id='crime-and-punishment' and metadata ? 'translations';\n");
-fs.writeFileSync(folder+'/publication-expected.json',JSON.stringify({mapped:mapped.length,unlocated:unlocated.length,total:changes.length},null,2)+'\n');
+fs.writeFileSync(`${folder}/${outputPrefix}publish-translations.sql`,guarded+`\nselect language,count(*) from public.excerpts where book_id=${q(bookId)} and type='translation' group by language;\nselect count(*) as unlocated_with_translations from public.unlocated_settings where book_id=${q(bookId)} and metadata ? 'translations';\n`);
+fs.writeFileSync(`${folder}/${outputPrefix}publication-expected.json`,JSON.stringify({bookId,mapped:mapped.length,unlocated:unlocated.length,total:changes.length},null,2)+'\n');
 const expected=changes.map((c:any)=>({section_id:c.section,collection:c.collection,reference_id:`${c.section}:${c.collection==='citations'?'cited':'core'}:${c.id}`,ordinal:c.collection==='unlocated'?bundle.tables.unlocated_settings.find(r=>r.section_id===c.section&&(r.metadata as any).id===c.id)?.ordinal:null,language:c.language,quote:c.passage.quote}));
-fs.writeFileSync(folder+'/verify-translations.sql',`with expected as (select * from jsonb_to_recordset($quotecheck$${JSON.stringify(expected)}$quotecheck$::jsonb) as r(section_id integer,collection text,reference_id text,ordinal integer,language text,quote text)), verified as (select r.* from expected r where case when r.collection='unlocated' then exists(select 1 from public.unlocated_settings u where u.book_id='crime-and-punishment' and u.section_id=r.section_id and u.ordinal=r.ordinal and u.metadata->'translations'->r.language->>'quote'=r.quote) else exists(select 1 from public.excerpts e where e.book_id='crime-and-punishment' and e.reference_id=r.reference_id and e.slot=r.language and e.language=r.language and e.quote=r.quote) end) select language,count(*) as exact_verified_translations from verified group by language order by language;\n`);
+fs.writeFileSync(`${folder}/${outputPrefix}verify-translations.sql`,`with expected as (select * from jsonb_to_recordset($quotecheck$${JSON.stringify(expected)}$quotecheck$::jsonb) as r(section_id integer,collection text,reference_id text,ordinal integer,language text,quote text)), verified as (select r.* from expected r where case when r.collection='unlocated' then exists(select 1 from public.unlocated_settings u where u.book_id=${q(bookId)} and u.section_id=r.section_id and u.ordinal=r.ordinal and u.metadata->'translations'->r.language->>'quote'=r.quote) else exists(select 1 from public.excerpts e where e.book_id=${q(bookId)} and e.reference_id=r.reference_id and e.slot=r.language and e.language=r.language and e.quote=r.quote) end) select language,count(*) as exact_verified_translations from verified group by language order by language;\n`);
 console.log(`${mapped.length} mapped and ${unlocated.length} unlocated translations prepared; original-text guards protect every target.`);

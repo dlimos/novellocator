@@ -1,5 +1,7 @@
 # Traduzioni per NovelLocator
 
+Aggiornamento: la ricerca delle versioni storiche e delle relative condizioni di riuso è documentata in [PUBBLICO-DOMINIO.md](PUBBLICO-DOMINIO.md). Dare priorità a queste fonti rispetto alle edizioni moderne elencate qui.
+
 Ricerca del 13 ottobre 2026. Ambito: i 12 romanzi di `docs/content/books.js`, compresa Anna Karenina; lingue del sito: italiano, inglese, francese e spagnolo. Il precedente inventario delle opere pubblicate contiene 11 titoli e non comprende Anna Karenina: questo repertorio segue il catalogo locale più ampio.
 
 Sono state identificate edizioni per tutte le 48 combinazioni opera–lingua: 39 traduzioni e 9 originali. **Identificazione bibliografica, accesso al testo e possibilità di ripubblicare estratti sono tre verifiche distinte.** Questo documento completa la ricerca bibliografica iniziale; non certifica la disponibilità integrale né l'integrità delle 39 traduzioni, e non contiene estratti pronti alla pubblicazione.
@@ -37,7 +39,7 @@ Le seguenti schede offrono lettura e download. Sono alternative alle traduzioni 
 
 Project Gutenberg dichiara pubblico dominio **negli USA** nelle quattro schede sopra: tale dichiarazione non certifica il riutilizzo in ogni paese. Per ogni versione storica va controllato separatamente il regime applicabile a traduzione, revisioni e apparato editoriale.
 
-La ricerca ha segnalato anche *Moby Dick* su Liber Liber, ma l'accesso diretto alla pagina dell'autore ha restituito 403: edizione, file e condizioni di riuso restano da verificare. Non è conteggiato tra gli accessi verificati.
+L'accesso alla [pagina specifica di Moby Dick su Liber Liber](https://liberliber.it/autori/autori-m/herman-melville/moby-dick/) è stato successivamente verificato: identifica Pavese e l'edizione Frassinelli, con digitalizzazione CC BY-NC-SA 4.0. Restano da controllare integrità e revisioni: vedere PUBBLICO-DOMINIO.md.
 
 ## Estratti, traduzioni e collegamenti d'acquisto
 

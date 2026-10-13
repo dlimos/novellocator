@@ -1,5 +1,23 @@
 # Inserimento delle citazioni tradotte
 
+Seconda tranche del 13 ottobre 2026: pubblicate e confrontate nel database **16 citazioni italiane del Libro I di Guerra e pace**, dalla traduzione di Federigo Verdinois, Istituto editoriale italiano, digitalizzazione Liber Liber del 25 luglio 2018. Crediti, riferimento al capitolo dell'edizione italiana e collegamento alle condizioni della fonte accompagnano ogni passo. La verifica PostgreSQL/PGlite esegue l'importazione due volte e confronta la ricostruzione completa: cambiano soltanto queste traduzioni.
+
+Il [file ODT ufficiale](https://www.liberliber.eu/mediateca/libri/t/tolstoj/la_guerra_e_la_pace/odt/tolstoj_la_guerra_e_la_pace.odt) e il PDF sono conservati in `corpus/`. L'ODT contiene quattro volumi, quindici parti narrative e i due epiloghi; i passi del primo libro sono stati confrontati con i riscontri originali. La verifica dell'integrità testuale dell'intera traduzione e l'allineamento degli altri libri restano da completare. La numerazione dei capitoli di Verdinois differisce da quella della fonte Maude, quindi ogni credito usa il capitolo italiano effettivo.
+
+Le 16 corrispondenze sono documentate in `verified/war-and-peace.json`, con numero di paragrafo, testo originale, passo italiano, motivazione dell'allineamento e forme da evidenziare. Sono mantenute le varianti autentiche: «Montecalvo» per Lysye Gory, «Povarscaia» per Povarskaya, «Nuova York» come riferimento indiretto all'America. Nel passo iniziale relativo al salotto di Pietroburgo, il riscontro originale e la traduzione non nominano la città: si evidenzia «Anna Scherer», registrando esplicitamente il riferimento indiretto alla padrona del salotto. Nessun toponimo viene aggiunto al testo.
+
+**Restano pendenti 228 delle 244 associazioni italiane di Guerra e pace.** Una è nel Libro I: nel passo del precettore che scrive alla famiglia, Verdinois omette «Germania» (paragrafo 1143), quindi quella scheda resta senza citazione italiana verificata. Le altre appartengono ai libri successivi e agli epiloghi. Non estendere una citazione ad altre sezioni senza un nuovo allineamento.
+
+Comandi per questo lotto:
+
+```powershell
+npx tsx scripts/database/prepare-quotation-translations.ts war-and-peace
+node tests/check-war-italian-quotes.cjs
+npx tsx tests/check-quotation-import.ts war-and-peace
+```
+
+La verifica nel database pubblico ha restituito `it: 16` dopo il confronto esatto dei testi con i record attesi. Il sito in italiano è stato controllato nella scheda di Lysye Gory, con «Montecalvo» in grassetto e attribuzione a Verdinois; prova in `war-and-peace-italian-published.png`.
+
 Prima tranche del 13 ottobre 2026: 22 associazioni di *Delitto e castigo*, sei in inglese (Constance Garnett) e sedici in francese (Victor Derély, Plon, 1884). Sono incluse tredici traduzioni di passi relativi a luoghi mappati e nove traduzioni per otto record senza coordinate. La distinzione azione/menzione e i testi originali sono conservati.
 
 I passi inglesi sono tratti dalla trascrizione [Project Gutenberg n. 2554](https://www.gutenberg.org/ebooks/2554); il preciso esemplare cartaceo utilizzato dal progetto non è identificato, e l'attribuzione lo dichiara. Per il francese sono stati consultati i capitoli [I.1](https://fr.wikisource.org/wiki/Crime_et_Châtiment/I/1), [I.2](https://fr.wikisource.org/wiki/Crime_et_Châtiment/I/2), [I.3](https://fr.wikisource.org/wiki/Crime_et_Châtiment/I/3), [I.4](https://fr.wikisource.org/wiki/Crime_et_Châtiment/I/4). Si tratta di traduzioni storiche, distinte dalle edizioni moderne del repertorio iniziale.
