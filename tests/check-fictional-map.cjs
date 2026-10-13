@@ -6,6 +6,7 @@ for (const p of [{ x: -1, y: 0 }, { x: 1, y: NaN }, { x: 1601, y: 5 }]) assert.t
 assert.throws(() => point({ x: 0, y: 0 }, 0, 1000), RangeError);
 assert.equal(symbol({ kind: 'site', role: 'action' }).style, 'circle');
 assert.equal(symbol({ kind: 'area', role: 'action' }).style, 'diamond');
+assert.equal(symbol({ kind: 'uncertain', role: 'mentioned' }).style, 'diamond');
 assert.notEqual(symbol({ kind: 'site', role: 'action' }).color, symbol({ kind: 'site', role: 'mentioned' }).color);
 assert.throws(() => symbol({ kind: 'area', role: 'unknown' }), TypeError);
 let frameCallback, frameRemoved=0;

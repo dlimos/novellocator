@@ -1,0 +1,1595 @@
+{
+  "ulisse": {
+    "reviewedAt": "2026-10-13",
+    "scope": "geographical-placement-and-visibility-of-imported-records",
+    "regionalPlaces": [],
+    "hiddenUnlocatedKeys": [],
+    "counts": {
+      "mappedExisting": 170,
+      "unlocatedRecords": 0,
+      "unlocatedKeys": 0,
+      "newRegionalPlaces": 0,
+      "regionalReferences": 0,
+      "hiddenRecords": 0,
+      "retainedRecords": 0
+    },
+    "analysisNote": "I modelli con identificazione incerta sono già rombi; gli indirizzi reali e le aree ricostruite hanno note di precisione. Nessuna scheda senza coordinate."
+  },
+  "proust": {
+    "reviewedAt": "2026-10-13",
+    "scope": "geographical-placement-and-visibility-of-imported-records",
+    "regionalPlaces": [],
+    "hiddenUnlocatedKeys": [],
+    "counts": {
+      "mappedExisting": 90,
+      "unlocatedRecords": 0,
+      "unlocatedKeys": 0,
+      "newRegionalPlaces": 0,
+      "regionalReferences": 0,
+      "hiddenRecords": 0,
+      "retainedRecords": 0
+    },
+    "analysisNote": "Combray, Tansonville e Balbec sono già rappresentati tramite modelli dichiarati e rombi; le case parigine sono riferite a strade o aree, senza indirizzi inventati."
+  },
+  "war-and-peace": {
+    "reviewedAt": "2026-10-13",
+    "scope": "geographical-placement-and-visibility-of-imported-records",
+    "regionalPlaces": [],
+    "hiddenUnlocatedKeys": [],
+    "counts": {
+      "mappedExisting": 91,
+      "unlocatedRecords": 0,
+      "unlocatedKeys": 0,
+      "newRegionalPlaces": 0,
+      "regionalReferences": 0,
+      "hiddenRecords": 0,
+      "retainedRecords": 0
+    },
+    "analysisNote": "Lysye Gory e Otradnoe hanno già rombi e distinguono il modello museale dall’ambientazione narrativa. Nessuna scheda senza coordinate."
+  },
+  "moby-dick": {
+    "reviewedAt": "2026-10-13",
+    "scope": "geographical-placement-and-visibility-of-imported-records",
+    "regionalPlaces": [
+      {
+        "id": "regional-rokovoko",
+        "keys": [
+          "Rokovoko"
+        ],
+        "evidencePriority": [
+          "Rokovoko"
+        ],
+        "categories": {},
+        "sceneText": "The original reference is retained. This regional position gives geographical context; narrative category is assessed separately for each section.",
+        "evidenceLabel": "Original section evidence",
+        "place": {
+          "name": "Rokovoko · regional position",
+          "area": "South Pacific",
+          "coords": [
+            -20,
+            -150
+          ],
+          "kind": "uncertain",
+          "zoom": 3,
+          "checked": "2026-10-13",
+          "status": "Uncertain regional position",
+          "note": "Fictional or unnamed setting. The diamond marks only a representative point in South Pacific; it does not identify a real town, island, address or boundary.",
+          "method": "The region or literary model is supported by the textual/critical source. The rounded map point is selected within that area for orientation only; distances and routes are not reconstructed.",
+          "aliases": [
+            "Rokovoko"
+          ],
+          "positionSource": {
+            "url": "https://www.openstreetmap.org/#map=3/-20/-150",
+            "label": "OpenStreetMap · representative regional view"
+          },
+          "narrativeSource": {
+            "url": "https://melville.electroniclibrary.org/editions/versions-of-moby-dick/12-biographical",
+            "label": "Textual / critical geographical evidence"
+          },
+          "geographicReview": {
+            "reason": "L’edizione critica identifica il luogo come isola pacifica inventata; il testo dà soltanto ovest e sud. Punto oceanico regionale, senza identificare un’isola.",
+            "precision": "region",
+            "realWorldIdentity": "not-established"
+          }
+        }
+      }
+    ],
+    "hiddenUnlocatedKeys": [
+      "Crossed Harpoons",
+      "Sword-Fish Inn",
+      "Spouter-Inn",
+      "Try Pots",
+      "Pupella",
+      "Bamboo"
+    ],
+    "counts": {
+      "mappedExisting": 276,
+      "unlocatedRecords": 14,
+      "unlocatedKeys": 13,
+      "newRegionalPlaces": 1,
+      "regionalReferences": 1,
+      "hiddenRecords": 6,
+      "retainedRecords": 7
+    },
+    "analysisNote": "Le locande inventate non aggiungono una posizione utile rispetto a New Bedford/Nantucket. Arsacides e Tranque restano visibili come problema geografico documentato: le fonti mescolano Cile e Salomone; non sono equiparate a un punto certo. I luoghi della perdita e del salvataggio restano senza punto esatto."
+  },
+  "gatsby": {
+    "reviewedAt": "2026-10-13",
+    "scope": "geographical-placement-and-visibility-of-imported-records",
+    "regionalPlaces": [
+      {
+        "id": "regional-little-girl-bay",
+        "keys": [
+          "Little Girl Bay"
+        ],
+        "evidencePriority": [
+          "Little Girl Bay"
+        ],
+        "categories": {},
+        "sceneText": "The original reference is retained. This regional position gives geographical context; narrative category is assessed separately for each section.",
+        "evidenceLabel": "Original section evidence",
+        "place": {
+          "name": "Little Girl Bay · regional position",
+          "area": "Lake Superior",
+          "coords": [
+            47,
+            -88
+          ],
+          "kind": "uncertain",
+          "zoom": 5,
+          "checked": "2026-10-13",
+          "status": "Uncertain regional position",
+          "note": "Fictional or unnamed setting. The diamond marks only a representative point in Lake Superior; it does not identify a real town, island, address or boundary.",
+          "method": "The region or literary model is supported by the textual/critical source. The rounded map point is selected within that area for orientation only; distances and routes are not reconstructed.",
+          "aliases": [
+            "Little Girl Bay"
+          ],
+          "positionSource": {
+            "url": "https://www.openstreetmap.org/#map=5/47/-88",
+            "label": "OpenStreetMap · representative regional view"
+          },
+          "narrativeSource": {
+            "url": "https://standardebooks.org/ebooks/f-scott-fitzgerald/the-great-gatsby/text/chapter-6",
+            "label": "Textual / critical geographical evidence"
+          },
+          "geographicReview": {
+            "reason": "Il contesto del capitolo VI stabilisce Lake Superior, pur senza una baia univoca. Il punto rappresenta il lago; non identifica Little Girl’s Point né una riva precisa.",
+            "precision": "region",
+            "realWorldIdentity": "not-established"
+          }
+        }
+      }
+    ],
+    "hiddenUnlocatedKeys": [
+      "Nick’s cottage",
+      "Buchanans’ house and Daisy’s dock",
+      "Gatsby’s mansion",
+      "Wilson’s garage and Michaelis’s restaurant",
+      "Eckleburg’s billboard",
+      "Myrtle’s apartment",
+      "Probity Trust",
+      "Gatsby’s mansion and party driveway",
+      "Nick’s cottage and Gatsby’s interiors",
+      "Castle Rackrent · literary allusion",
+      "Plaza suite",
+      "Wilson’s garage and accident site",
+      "Buchanans’ house",
+      "Gatsby’s swimming pool",
+      "Swastika Holding Company office"
+    ],
+    "counts": {
+      "mappedExisting": 88,
+      "unlocatedRecords": 38,
+      "unlocatedKeys": 38,
+      "newRegionalPlaces": 1,
+      "regionalReferences": 1,
+      "hiddenRecords": 15,
+      "retainedRecords": 22
+    },
+    "analysisNote": "West Egg, East Egg e Valley of Ashes hanno già aree e modelli dichiarati. Le case e le aziende inventate restano nell’analisi; gli edifici storici, i toponimi omonimi irrisolti e i viaggi geografici restano disponibili. Port Roosevelt/Gad’s Hill non vengono equiparati a un porto moderno senza prova."
+  },
+  "holden": {
+    "reviewedAt": "2026-10-13",
+    "scope": "geographical-placement-and-visibility-of-imported-records",
+    "regionalPlaces": [
+      {
+        "id": "regional-agerstown",
+        "keys": [
+          "Pencey / Agerstown / Thomsen Hill",
+          "Pencey / Agerstown",
+          "Pencey Prep",
+          "Spencer’s house · Anthony Wayne Avenue",
+          "Spencer’s room",
+          "Ossenburger Memorial Wing",
+          "Dormitory washroom",
+          "Dormitory room / parked car",
+          "Agerstown station / train"
+        ],
+        "evidencePriority": [
+          "Pencey / Agerstown / Thomsen Hill",
+          "Pencey / Agerstown",
+          "Pencey Prep",
+          "Spencer’s house · Anthony Wayne Avenue",
+          "Spencer’s room",
+          "Ossenburger Memorial Wing",
+          "Dormitory washroom",
+          "Dormitory room / parked car",
+          "Agerstown station / train"
+        ],
+        "categories": {},
+        "sceneText": "The original reference is retained. This regional position gives geographical context; narrative category is assessed separately for each section.",
+        "evidenceLabel": "Original section evidence",
+        "place": {
+          "name": "Pencey / Agerstown / Thomsen Hill · regional position",
+          "area": "Pennsylvania",
+          "coords": [
+            41,
+            -77.5
+          ],
+          "kind": "uncertain",
+          "zoom": 5,
+          "checked": "2026-10-13",
+          "status": "Uncertain regional position",
+          "note": "Fictional or unnamed setting. The diamond marks only a representative point in Pennsylvania; it does not identify a real town, island, address or boundary.",
+          "method": "The region or literary model is supported by the textual/critical source. The rounded map point is selected within that area for orientation only; distances and routes are not reconstructed.",
+          "aliases": [
+            "Pencey / Agerstown / Thomsen Hill"
+          ],
+          "positionSource": {
+            "url": "https://www.openstreetmap.org/#map=5/41/-77.5",
+            "label": "OpenStreetMap · representative regional view"
+          },
+          "narrativeSource": {
+            "url": "https://core-docs.s3.us-east-1.amazonaws.com/documents/asset/uploaded_file/1759/ohs/4407599/Catcher_in_the_Rye.pdf#page=7",
+            "label": "Textual / critical geographical evidence"
+          },
+          "geographicReview": {
+            "reason": "Il capitolo I indica Agerstown, Pennsylvania. Non viene sostituita con Valley Forge o con un campus reale.",
+            "precision": "region",
+            "realWorldIdentity": "not-established"
+          }
+        }
+      }
+    ],
+    "hiddenUnlocatedKeys": [
+      "Spencer’s house · Anthony Wayne Avenue",
+      "Spencer’s room",
+      "Ossenburger Memorial Wing",
+      "Dormitory washroom",
+      "Dormitory room / parked car",
+      "Edmont Hotel · unverified address",
+      "Lavender Room",
+      "Ernie’s interior",
+      "Imagined rye field and cliff",
+      "Antolini apartment interior"
+    ],
+    "counts": {
+      "mappedExisting": 52,
+      "unlocatedRecords": 35,
+      "unlocatedKeys": 29,
+      "newRegionalPlaces": 1,
+      "regionalReferences": 9,
+      "hiddenRecords": 8,
+      "retainedRecords": 18
+    },
+    "analysisNote": "Agerstown/Pencey è ora un unico riferimento regionale. Gli interni inventati non ricevono punti duplicati. Whooton/Elkton Hills e Lake Sedebego restano identificazioni irrisolte, senza sostituzioni con luoghi biografici. Il Seton/Wicker Bar conserva il problema documentato di 54th Street contro il vero hotel di 40th Street."
+  },
+  "orwell1984": {
+    "reviewedAt": "2026-10-13",
+    "scope": "geographical-placement-and-visibility-of-imported-records",
+    "regionalPlaces": [],
+    "hiddenUnlocatedKeys": [],
+    "counts": {
+      "mappedExisting": 58,
+      "unlocatedRecords": 203,
+      "unlocatedKeys": 85,
+      "newRegionalPlaces": 0,
+      "regionalReferences": 0,
+      "hiddenRecords": 75,
+      "retainedRecords": 128
+    },
+    "analysisNote": "Le 21 esclusioni precedenti restano attive. Revisione dei rimanenti romanzi: nessuna nuova modifica qui."
+  },
+  "don-quijote": {
+    "reviewedAt": "2026-10-13",
+    "scope": "geographical-placement-and-visibility-of-imported-records",
+    "regionalPlaces": [
+      {
+        "id": "regional-village-mancha",
+        "keys": [
+          "nonavillage"
+        ],
+        "evidencePriority": [
+          "nonavillage"
+        ],
+        "categories": {},
+        "sceneText": "The original reference is retained. This regional position gives geographical context; narrative category is assessed separately for each section.",
+        "evidenceLabel": "Original section evidence",
+        "place": {
+          "name": "Anonymous village in La Mancha · regional position",
+          "area": "La Mancha",
+          "coords": [
+            39,
+            -3.5
+          ],
+          "kind": "uncertain",
+          "zoom": 6,
+          "checked": "2026-10-13",
+          "status": "Uncertain regional position",
+          "note": "Fictional or unnamed setting. The diamond marks only a representative point in La Mancha; it does not identify a real town, island, address or boundary.",
+          "method": "The region or literary model is supported by the textual/critical source. The rounded map point is selected within that area for orientation only; distances and routes are not reconstructed.",
+          "aliases": [
+            "Anonymous village in La Mancha"
+          ],
+          "positionSource": {
+            "url": "https://www.openstreetmap.org/#map=6/39/-3.5",
+            "label": "OpenStreetMap · representative regional view"
+          },
+          "narrativeSource": {
+            "url": "https://www.gutenberg.org/files/2000/2000-h/2000-h.htm#1_primero",
+            "label": "Textual / critical geographical evidence"
+          },
+          "geographicReview": {
+            "reason": "Il luogo anonimo è esplicitamente nella Mancha; non viene scelto un paese reale fra le identificazioni concorrenti.",
+            "precision": "region",
+            "realWorldIdentity": "not-established"
+          }
+        }
+      },
+      {
+        "id": "regional-barataria",
+        "keys": [
+          "barataria"
+        ],
+        "evidencePriority": [
+          "barataria"
+        ],
+        "categories": {
+          "113": "action"
+        },
+        "sceneText": "The original reference is retained. This regional position gives geographical context; narrative category is assessed separately for each section.",
+        "evidenceLabel": "Original section evidence",
+        "place": {
+          "name": "Ínsula Barataria · regional position",
+          "area": "Aragon · Ebro region",
+          "coords": [
+            41.8,
+            -1.1
+          ],
+          "kind": "uncertain",
+          "zoom": 6,
+          "checked": "2026-10-13",
+          "status": "Uncertain regional position",
+          "note": "Fictional or unnamed setting. The diamond marks only a representative point in Aragon · Ebro region; it does not identify a real town, island, address or boundary.",
+          "method": "The region or literary model is supported by the textual/critical source. The rounded map point is selected within that area for orientation only; distances and routes are not reconstructed.",
+          "aliases": [
+            "Ínsula Barataria"
+          ],
+          "positionSource": {
+            "url": "https://www.openstreetmap.org/#map=6/41.8/-1.1",
+            "label": "OpenStreetMap · representative regional view"
+          },
+          "narrativeSource": {
+            "url": "https://cvc.cervantes.es/literatura/cervantistas/congresos/cg_IV/cg_IV_58.pdf",
+            "label": "Textual / critical geographical evidence"
+          },
+          "geographicReview": {
+            "reason": "Il borgo della burla appartiene all’ambientazione aragonese. Pedrola e Alcalá de Ebro sono ipotesi critiche, non identità certe; il punto rappresenta la regione dell’Ebro.",
+            "precision": "region",
+            "realWorldIdentity": "not-established"
+          }
+        }
+      },
+      {
+        "id": "regional-micomicon",
+        "keys": [
+          "micomicon"
+        ],
+        "evidencePriority": [
+          "micomicon"
+        ],
+        "categories": {},
+        "sceneText": "The original reference is retained. This regional position gives geographical context; narrative category is assessed separately for each section.",
+        "evidenceLabel": "Original section evidence",
+        "place": {
+          "name": "Micomicón · regional position",
+          "area": "Ethiopia · literary geography",
+          "coords": [
+            8,
+            38
+          ],
+          "kind": "uncertain",
+          "zoom": 5,
+          "checked": "2026-10-13",
+          "status": "Uncertain regional position",
+          "note": "Fictional or unnamed setting. The diamond marks only a representative point in Ethiopia · literary geography; it does not identify a real town, island, address or boundary.",
+          "method": "The region or literary model is supported by the textual/critical source. The rounded map point is selected within that area for orientation only; distances and routes are not reconstructed.",
+          "aliases": [
+            "Micomicón"
+          ],
+          "positionSource": {
+            "url": "https://www.openstreetmap.org/#map=5/8/38",
+            "label": "OpenStreetMap · representative regional view"
+          },
+          "narrativeSource": {
+            "url": "https://www.gutenberg.org/files/2000/2000-h/2000-h.htm#1_xxix",
+            "label": "Textual / critical geographical evidence"
+          },
+          "geographicReview": {
+            "reason": "Il racconto fittizio di Dorotea colloca il regno in Etiopía. Il punto è solo un riferimento regionale alla geografia del racconto, senza un regno o un confine reale.",
+            "precision": "region",
+            "realWorldIdentity": "not-established"
+          }
+        }
+      },
+      {
+        "id": "regional-candaya",
+        "keys": [
+          "candaya"
+        ],
+        "evidencePriority": [
+          "candaya"
+        ],
+        "categories": {},
+        "sceneText": "The original reference is retained. This regional position gives geographical context; narrative category is assessed separately for each section.",
+        "evidenceLabel": "Original section evidence",
+        "place": {
+          "name": "Candaya · regional position",
+          "area": "Cape Comorin · southern India",
+          "coords": [
+            8,
+            77.5
+          ],
+          "kind": "uncertain",
+          "zoom": 5,
+          "checked": "2026-10-13",
+          "status": "Uncertain regional position",
+          "note": "Fictional or unnamed setting. The diamond marks only a representative point in Cape Comorin · southern India; it does not identify a real town, island, address or boundary.",
+          "method": "The region or literary model is supported by the textual/critical source. The rounded map point is selected within that area for orientation only; distances and routes are not reconstructed.",
+          "aliases": [
+            "Candaya"
+          ],
+          "positionSource": {
+            "url": "https://www.openstreetmap.org/#map=5/8/77.5",
+            "label": "OpenStreetMap · representative regional view"
+          },
+          "narrativeSource": {
+            "url": "https://www.gutenberg.org/files/2000/2000-h/2000-h.htm#2_xxxviii",
+            "label": "Textual / critical geographical evidence"
+          },
+          "geographicReview": {
+            "reason": "La storia della Trifaldi colloca il regno presso cabo Comorín, con indicazioni fantastiche e incoerenti; riferimento all’area di Comorín, non ricostruzione delle due leghe o di confini.",
+            "precision": "region",
+            "realWorldIdentity": "not-established"
+          }
+        }
+      }
+    ],
+    "hiddenUnlocatedKeys": [
+      "gaula",
+      "pena-pobre",
+      "miraflores",
+      "malindrania",
+      "unnamed-island",
+      "castillo-generic",
+      "miraguarda",
+      "soliadisa",
+      "quirocia",
+      "rastria",
+      "nerbia",
+      "miulina",
+      "utrique",
+      "silverbridge",
+      "firm-island",
+      "heaven",
+      "elysium",
+      "cave-palace",
+      "clavilenosky",
+      "pancaya",
+      "archipiela",
+      "port-micoloso",
+      "hell-p32",
+      "hell-p33",
+      "hell-p36",
+      "hell-p3",
+      "hell-p8",
+      "hell-p16",
+      "hell-p4",
+      "hell-p9",
+      "hell-p11",
+      "hell-p20",
+      "hell-p19",
+      "hell-p37"
+    ],
+    "counts": {
+      "mappedExisting": 157,
+      "unlocatedRecords": 1405,
+      "unlocatedKeys": 554,
+      "newRegionalPlaces": 4,
+      "regionalReferences": 22,
+      "hiddenRecords": 141,
+      "retainedRecords": 1242
+    },
+    "analysisNote": "Conservati i siti anonimi, gli itinerari e i toponimi storici irrisolti. Esclusi i luoghi puramente fantastici senza area utile. Archipiela è il nome del re nel passo, non un luogo: il falso candidato resta nell’audit, escluso dalla vista. Gaula conserva il dibattito interpretativo nell’analisi, senza imporre Gallia o Galles."
+  },
+  "crime-and-punishment": {
+    "reviewedAt": "2026-10-13",
+    "scope": "geographical-placement-and-visibility-of-imported-records",
+    "regionalPlaces": [],
+    "hiddenUnlocatedKeys": [
+      "garret",
+      "moneylender",
+      "marmeladov",
+      "sonya",
+      "porter",
+      "painters",
+      "razumikhin",
+      "bakaleyev",
+      "new-flat",
+      "lebezyatnikov",
+      "porfiry",
+      "svidrigailov",
+      "fiancee",
+      "oasis",
+      "childhood",
+      "dream-garden",
+      "new-jerusalem"
+    ],
+    "counts": {
+      "mappedExisting": 46,
+      "unlocatedRecords": 186,
+      "unlocatedKeys": 73,
+      "newRegionalPlaces": 0,
+      "regionalReferences": 0,
+      "hiddenRecords": 84,
+      "retainedRecords": 102
+    },
+    "analysisNote": "Le stanze dei personaggi non hanno un indirizzo autentico distinto dalla Pietroburgo già cartografata. Restano i siti storici, i nomi mascherati provinciali e le identificazioni controverse. Omsk/prigione/Irtysh conservano il problema del modello, senza rendere esatti edifici narrativi."
+  },
+  "sound-and-fury": {
+    "reviewedAt": "2026-10-13",
+    "scope": "geographical-placement-and-visibility-of-imported-records",
+    "regionalPlaces": [
+      {
+        "id": "regional-jefferson",
+        "keys": [
+          "jefferson",
+          "house",
+          "garden",
+          "store",
+          "post-jefferson",
+          "square",
+          "black-church"
+        ],
+        "evidencePriority": [
+          "house",
+          "post-jefferson",
+          "square",
+          "garden",
+          "black-church",
+          "store",
+          "jefferson"
+        ],
+        "categories": {
+          "1": "action",
+          "3": "action",
+          "4": "action"
+        },
+        "sceneText": "The original reference is retained. This regional position gives geographical context; narrative category is assessed separately for each section.",
+        "evidenceLabel": "Original section evidence",
+        "place": {
+          "name": "Jefferson, Mississippi · regional position",
+          "area": "Northern Mississippi",
+          "coords": [
+            34.3,
+            -89.5
+          ],
+          "kind": "uncertain",
+          "zoom": 6,
+          "checked": "2026-10-13",
+          "status": "Uncertain regional position",
+          "note": "Fictional or unnamed setting. The diamond marks only a representative point in Northern Mississippi; it does not identify a real town, island, address or boundary.",
+          "method": "The region or literary model is supported by the textual/critical source. The rounded map point is selected within that area for orientation only; distances and routes are not reconstructed.",
+          "aliases": [
+            "Jefferson, Mississippi"
+          ],
+          "positionSource": {
+            "url": "https://www.openstreetmap.org/#map=6/34.3/-89.5",
+            "label": "OpenStreetMap · representative regional view"
+          },
+          "narrativeSource": {
+            "url": "https://faulkner.iath.virginia.edu/media/resources/DISPLAYS/FaulknerMapsHP.html",
+            "label": "Textual / critical geographical evidence"
+          },
+          "geographicReview": {
+            "reason": "Digital Yoknapatawpha documenta il modello Oxford/Lafayette e distingue esplicitamente geografia reale e immaginaria. Punto nell’area del modello, senza assegnare vie o edifici di Jefferson a Oxford.",
+            "precision": "region",
+            "realWorldIdentity": "not-established"
+          }
+        }
+      },
+      {
+        "id": "regional-mottson",
+        "keys": [
+          "mottson",
+          "gas-mottson",
+          "station-mottson"
+        ],
+        "evidencePriority": [
+          "station-mottson",
+          "gas-mottson",
+          "mottson"
+        ],
+        "categories": {
+          "4": "action"
+        },
+        "sceneText": "The original reference is retained. This regional position gives geographical context; narrative category is assessed separately for each section.",
+        "evidenceLabel": "Original section evidence",
+        "place": {
+          "name": "Mottson · regional position",
+          "area": "Mississippi",
+          "coords": [
+            33,
+            -89.5
+          ],
+          "kind": "uncertain",
+          "zoom": 5,
+          "checked": "2026-10-13",
+          "status": "Uncertain regional position",
+          "note": "Fictional or unnamed setting. The diamond marks only a representative point in Mississippi; it does not identify a real town, island, address or boundary.",
+          "method": "The region or literary model is supported by the textual/critical source. The rounded map point is selected within that area for orientation only; distances and routes are not reconstructed.",
+          "aliases": [
+            "Mottson"
+          ],
+          "positionSource": {
+            "url": "https://www.openstreetmap.org/#map=5/33/-89.5",
+            "label": "OpenStreetMap · representative regional view"
+          },
+          "narrativeSource": {
+            "url": "https://faulkner.iath.virginia.edu/shanti/content/mottstownmottson",
+            "label": "Textual / critical geographical evidence"
+          },
+          "geographicReview": {
+            "reason": "Il centro immaginario è a sud di Jefferson, in un’altra contea del Mississippi. La posizione indica lo Stato, senza inventare un centro reale o una distanza esatta.",
+            "precision": "region",
+            "realWorldIdentity": "not-established"
+          }
+        }
+      }
+    ],
+    "hiddenUnlocatedKeys": [
+      "pasture",
+      "garden",
+      "kitchen",
+      "dining",
+      "yard",
+      "gate",
+      "house",
+      "hall",
+      "carriage",
+      "square",
+      "monument",
+      "cemetery",
+      "barn",
+      "branch",
+      "patterson",
+      "parlor",
+      "cabin",
+      "nancy-ditch",
+      "funeral-tree",
+      "cellar",
+      "mother-room",
+      "bathroom",
+      "caddy-room",
+      "maury-room",
+      "swing",
+      "burgess",
+      "toy-graveyard",
+      "cedars",
+      "library",
+      "bluegum-woods",
+      "measles-room",
+      "quentin-room",
+      "hunting-woods",
+      "cemetery-knoll",
+      "barber",
+      "hotel-jefferson",
+      "creek-bridge",
+      "picnic",
+      "store",
+      "beards",
+      "school",
+      "post-jefferson",
+      "telegraph",
+      "black-cemetery",
+      "livery-jefferson",
+      "station-jefferson",
+      "rogers",
+      "printing",
+      "opera",
+      "failed-bank",
+      "bank",
+      "forks",
+      "ab-russell",
+      "sand-ditch",
+      "drugstore-jefferson",
+      "methodist",
+      "jason-room",
+      "black-neighborhood",
+      "black-church",
+      "sheriff",
+      "gas-jefferson",
+      "road-mottson",
+      "churches-south",
+      "gas-mottson",
+      "station-mottson",
+      "drugstore-mottson",
+      "st-johns",
+      "domain",
+      "law-office",
+      "library-town",
+      "jason-apartment",
+      "cinema"
+    ],
+    "counts": {
+      "mappedExisting": 55,
+      "unlocatedRecords": 146,
+      "unlocatedKeys": 118,
+      "newRegionalPlaces": 2,
+      "regionalReferences": 17,
+      "hiddenRecords": 87,
+      "retainedRecords": 42
+    },
+    "analysisNote": "Jefferson e Mottson hanno riferimenti regionali. Gli edifici del loro mondo immaginario non vengono moltiplicati alle coordinate di Oxford. Conservati siti reali e rurali irrisolti di Massachusetts/Boston; Arcadia, Calvary e i luoghi biblici non sono automaticamente confusi con un indirizzo terreno."
+  },
+  "anna-karenina": {
+    "reviewedAt": "2026-10-13",
+    "scope": "geographical-placement-and-visibility-of-imported-records",
+    "regionalPlaces": [
+      {
+        "id": "regional-pokrovskoe",
+        "keys": [
+          "pokrovskoe",
+          "levin-house",
+          "pokrovskoye-arrival",
+          "nursery",
+          "mowing",
+          "kalinovy",
+          "mashkin",
+          "woodcock-clearing",
+          "kolok",
+          "storm-woods",
+          "levin-road"
+        ],
+        "evidencePriority": [
+          "pokrovskoe",
+          "levin-house",
+          "pokrovskoye-arrival",
+          "nursery",
+          "mowing",
+          "kalinovy",
+          "mashkin",
+          "woodcock-clearing",
+          "kolok",
+          "storm-woods",
+          "levin-road"
+        ],
+        "categories": {
+          "226": "action"
+        },
+        "sceneText": "The original reference is retained. This regional position gives geographical context; narrative category is assessed separately for each section.",
+        "evidenceLabel": "Original section evidence",
+        "place": {
+          "name": "Pokrovskoye, Levin’s estate · regional position",
+          "area": "Tula region · literary model",
+          "coords": [
+            54,
+            37.5
+          ],
+          "kind": "uncertain",
+          "zoom": 6,
+          "checked": "2026-10-13",
+          "status": "Uncertain regional position",
+          "note": "Fictional or unnamed setting. The diamond marks only a representative point in Tula region · literary model; it does not identify a real town, island, address or boundary.",
+          "method": "The region or literary model is supported by the textual/critical source. The rounded map point is selected within that area for orientation only; distances and routes are not reconstructed.",
+          "aliases": [
+            "Pokrovskoye, Levin’s estate"
+          ],
+          "positionSource": {
+            "url": "https://www.openstreetmap.org/#map=6/54/37.5",
+            "label": "OpenStreetMap · representative regional view"
+          },
+          "narrativeSource": {
+            "url": "https://ypmuseum.ru/event/1283",
+            "label": "Textual / critical geographical evidence"
+          },
+          "geographicReview": {
+            "reason": "Il museo Yasnaya Polyana documenta il confronto Pokrovskoye/Yasnaya Polyana. Riferimento regionale del modello, senza equiparare l’azienda di Levin a una casa reale o scegliere un omonimo moderno.",
+            "precision": "region",
+            "realWorldIdentity": "not-established"
+          }
+        }
+      }
+    ],
+    "hiddenUnlocatedKeys": [
+      "oblonsky-house",
+      "office",
+      "shcherbatsky-house",
+      "koznyshev-house",
+      "ballroom",
+      "nikolai-room",
+      "levin-house",
+      "karenin-house",
+      "vronsky-apartment",
+      "kitty-room",
+      "betsy-house",
+      "betsy-visits",
+      "anna-rendezvous",
+      "dolly-country-house",
+      "betsy-dacha",
+      "rendezvous-garden",
+      "commission",
+      "vronsky-city-room",
+      "oblonsky-dinner",
+      "lydia-house",
+      "levin-moscow-house",
+      "katavasov-house",
+      "lvov-house",
+      "countess-bol",
+      "anna-moscow-house",
+      "pokrovskoye-arrival",
+      "nursery",
+      "children-memory"
+    ],
+    "counts": {
+      "mappedExisting": 69,
+      "unlocatedRecords": 318,
+      "unlocatedKeys": 109,
+      "newRegionalPlaces": 1,
+      "regionalReferences": 54,
+      "hiddenRecords": 89,
+      "retainedRecords": 175
+    },
+    "analysisNote": "Pokrovskoye riceve il riferimento regionale del modello museale. Non si forza Kashin nella vera città omonima: la provincia del romanzo non è una provincia reale. Ergushovo/Vozdvizhenskoye e i piccoli toponimi restano identificazioni da approfondire; assenza di identificazione non prova che siano tutti inventati."
+  },
+  "lolita": {
+    "reviewedAt": "2026-10-13",
+    "scope": "geographical-placement-and-visibility-of-imported-records",
+    "regionalPlaces": [
+      {
+        "id": "regional-ramsdale",
+        "keys": [
+          "Ramsdale"
+        ],
+        "evidencePriority": [
+          "Ramsdale"
+        ],
+        "categories": {
+          "11": "action"
+        },
+        "sceneText": "The original reference is retained. This regional position gives geographical context; narrative category is assessed separately for each section.",
+        "evidenceLabel": "Original section evidence",
+        "place": {
+          "name": "Ramsdale · regional position",
+          "area": "New England",
+          "coords": [
+            43,
+            -71.5
+          ],
+          "kind": "uncertain",
+          "zoom": 5,
+          "checked": "2026-10-13",
+          "status": "Uncertain regional position",
+          "note": "Fictional or unnamed setting. The diamond marks only a representative point in New England; it does not identify a real town, island, address or boundary.",
+          "method": "The region or literary model is supported by the textual/critical source. The rounded map point is selected within that area for orientation only; distances and routes are not reconstructed.",
+          "aliases": [
+            "Ramsdale"
+          ],
+          "positionSource": {
+            "url": "https://www.openstreetmap.org/#map=5/43/-71.5",
+            "label": "OpenStreetMap · representative regional view"
+          },
+          "narrativeSource": {
+            "url": "https://journals.openedition.org/ejas/7550",
+            "label": "Textual / critical geographical evidence"
+          },
+          "geographicReview": {
+            "reason": "Il testo I.10 stabilisce New England; la critica conferma il collegamento. Non si restringe alla congettura di Massachusetts, né a un villaggio reale.",
+            "precision": "region",
+            "realWorldIdentity": "not-established"
+          }
+        }
+      },
+      {
+        "id": "regional-widworth",
+        "keys": [
+          "Widworth"
+        ],
+        "evidencePriority": [
+          "Widworth"
+        ],
+        "categories": {},
+        "sceneText": "The original reference is retained. This regional position gives geographical context; narrative category is assessed separately for each section.",
+        "evidenceLabel": "Original section evidence",
+        "place": {
+          "name": "Widworth · regional position",
+          "area": "Massachusetts",
+          "coords": [
+            42.2,
+            -71.8
+          ],
+          "kind": "uncertain",
+          "zoom": 6,
+          "checked": "2026-10-13",
+          "status": "Uncertain regional position",
+          "note": "Fictional or unnamed setting. The diamond marks only a representative point in Massachusetts; it does not identify a real town, island, address or boundary.",
+          "method": "The region or literary model is supported by the textual/critical source. The rounded map point is selected within that area for orientation only; distances and routes are not reconstructed.",
+          "aliases": [
+            "Widworth"
+          ],
+          "positionSource": {
+            "url": "https://www.openstreetmap.org/#map=6/42.2/-71.8",
+            "label": "OpenStreetMap · representative regional view"
+          },
+          "narrativeSource": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=5",
+            "label": "Textual / critical geographical evidence"
+          },
+          "geographicReview": {
+            "reason": "La firma fittizia della prefazione reca Mass. Nessuna città reale omonima viene scelta.",
+            "precision": "region",
+            "realWorldIdentity": "not-established"
+          }
+        }
+      },
+      {
+        "id": "regional-gray-star",
+        "keys": [
+          "Gray Star"
+        ],
+        "evidencePriority": [
+          "Gray Star"
+        ],
+        "categories": {},
+        "sceneText": "The original reference is retained. This regional position gives geographical context; narrative category is assessed separately for each section.",
+        "evidenceLabel": "Original section evidence",
+        "place": {
+          "name": "Gray Star · regional position",
+          "area": "Northwestern North America",
+          "coords": [
+            60,
+            -135
+          ],
+          "kind": "uncertain",
+          "zoom": 3,
+          "checked": "2026-10-13",
+          "status": "Uncertain regional position",
+          "note": "Fictional or unnamed setting. The diamond marks only a representative point in Northwestern North America; it does not identify a real town, island, address or boundary.",
+          "method": "The region or literary model is supported by the textual/critical source. The rounded map point is selected within that area for orientation only; distances and routes are not reconstructed.",
+          "aliases": [
+            "Gray Star"
+          ],
+          "positionSource": {
+            "url": "https://www.openstreetmap.org/#map=3/60/-135",
+            "label": "OpenStreetMap · representative regional view"
+          },
+          "narrativeSource": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=4",
+            "label": "Textual / critical geographical evidence"
+          },
+          "geographicReview": {
+            "reason": "La prefazione reca remotest Northwest; Alaska è un progetto precedente, non una prova dell’indirizzo finale. Area nordoccidentale ampia, senza città o Stato certi.",
+            "precision": "region",
+            "realWorldIdentity": "not-established"
+          }
+        }
+      },
+      {
+        "id": "regional-beardsley",
+        "keys": [
+          "Beardsley"
+        ],
+        "evidencePriority": [
+          "Beardsley"
+        ],
+        "categories": {},
+        "sceneText": "The original reference is retained. This regional position gives geographical context; narrative category is assessed separately for each section.",
+        "evidenceLabel": "Original section evidence",
+        "place": {
+          "name": "Beardsley · regional position",
+          "area": "Appalachia",
+          "coords": [
+            40,
+            -78
+          ],
+          "kind": "uncertain",
+          "zoom": 5,
+          "checked": "2026-10-13",
+          "status": "Uncertain regional position",
+          "note": "Fictional or unnamed setting. The diamond marks only a representative point in Appalachia; it does not identify a real town, island, address or boundary.",
+          "method": "The region or literary model is supported by the textual/critical source. The rounded map point is selected within that area for orientation only; distances and routes are not reconstructed.",
+          "aliases": [
+            "Beardsley"
+          ],
+          "positionSource": {
+            "url": "https://www.openstreetmap.org/#map=5/40/-78",
+            "label": "OpenStreetMap · representative regional view"
+          },
+          "narrativeSource": {
+            "url": "https://www.dezimmer.net/LolitaUSA/Trip2.htm",
+            "label": "Textual / critical geographical evidence"
+          },
+          "geographicReview": {
+            "reason": "Il testo II.16 reca Farewell, Appalachia. Non si trasferisce qui la geografia della sceneggiatura, che colloca il centro in Idaho.",
+            "precision": "region",
+            "realWorldIdentity": "not-established"
+          }
+        }
+      },
+      {
+        "id": "regional-parkington",
+        "keys": [
+          "Parkington"
+        ],
+        "evidencePriority": [
+          "Parkington"
+        ],
+        "categories": {
+          "68": "action"
+        },
+        "sceneText": "The original reference is retained. This regional position gives geographical context; narrative category is assessed separately for each section.",
+        "evidenceLabel": "Original section evidence",
+        "place": {
+          "name": "Parkington · regional position",
+          "area": "Northeastern United States",
+          "coords": [
+            42,
+            -74
+          ],
+          "kind": "uncertain",
+          "zoom": 5,
+          "checked": "2026-10-13",
+          "status": "Uncertain regional position",
+          "note": "Fictional or unnamed setting. The diamond marks only a representative point in Northeastern United States; it does not identify a real town, island, address or boundary.",
+          "method": "The region or literary model is supported by the textual/critical source. The rounded map point is selected within that area for orientation only; distances and routes are not reconstructed.",
+          "aliases": [
+            "Parkington"
+          ],
+          "positionSource": {
+            "url": "https://www.openstreetmap.org/#map=5/42/-74",
+            "label": "OpenStreetMap · representative regional view"
+          },
+          "narrativeSource": {
+            "url": "https://www.dezimmer.net/LolitaUSA/Trip2.htm",
+            "label": "Textual / critical geographical evidence"
+          },
+          "geographicReview": {
+            "reason": "La ricostruzione delle distanze lo colloca nel Nordest; la proposta dello Stato di New York resta un’interpretazione. Non è identificato con Albany.",
+            "precision": "region",
+            "realWorldIdentity": "not-established"
+          }
+        }
+      },
+      {
+        "id": "regional-briceland",
+        "keys": [
+          "Briceland"
+        ],
+        "evidencePriority": [
+          "Briceland"
+        ],
+        "categories": {},
+        "sceneText": "The original reference is retained. This regional position gives geographical context; narrative category is assessed separately for each section.",
+        "evidenceLabel": "Original section evidence",
+        "place": {
+          "name": "Briceland · regional position",
+          "area": "New England",
+          "coords": [
+            42,
+            -72
+          ],
+          "kind": "uncertain",
+          "zoom": 5,
+          "checked": "2026-10-13",
+          "status": "Uncertain regional position",
+          "note": "Fictional or unnamed setting. The diamond marks only a representative point in New England; it does not identify a real town, island, address or boundary.",
+          "method": "The region or literary model is supported by the textual/critical source. The rounded map point is selected within that area for orientation only; distances and routes are not reconstructed.",
+          "aliases": [
+            "Briceland"
+          ],
+          "positionSource": {
+            "url": "https://www.openstreetmap.org/#map=5/42/-72",
+            "label": "OpenStreetMap · representative regional view"
+          },
+          "narrativeSource": {
+            "url": "https://dezimmer.net/LolitaUSA/Trip1.htm",
+            "label": "Textual / critical geographical evidence"
+          },
+          "geographicReview": {
+            "reason": "La ricostruzione critica della prima tratta colloca il centro nel Nordest/New England; Connecticut resta una deduzione, non l’indirizzo di un albergo reale.",
+            "precision": "region",
+            "realWorldIdentity": "not-established"
+          }
+        }
+      },
+      {
+        "id": "regional-lepingville",
+        "keys": [
+          "Lepingville"
+        ],
+        "evidencePriority": [
+          "Lepingville"
+        ],
+        "categories": {},
+        "sceneText": "The original reference is retained. This regional position gives geographical context; narrative category is assessed separately for each section.",
+        "evidenceLabel": "Original section evidence",
+        "place": {
+          "name": "Lepingville · regional position",
+          "area": "New England",
+          "coords": [
+            42.5,
+            -71.5
+          ],
+          "kind": "uncertain",
+          "zoom": 5,
+          "checked": "2026-10-13",
+          "status": "Uncertain regional position",
+          "note": "Fictional or unnamed setting. The diamond marks only a representative point in New England; it does not identify a real town, island, address or boundary.",
+          "method": "The region or literary model is supported by the textual/critical source. The rounded map point is selected within that area for orientation only; distances and routes are not reconstructed.",
+          "aliases": [
+            "Lepingville"
+          ],
+          "positionSource": {
+            "url": "https://www.openstreetmap.org/#map=5/42.5/-71.5",
+            "label": "OpenStreetMap · representative regional view"
+          },
+          "narrativeSource": {
+            "url": "https://dezimmer.net/LolitaUSA/Trip1.htm",
+            "label": "Textual / critical geographical evidence"
+          },
+          "geographicReview": {
+            "reason": "La prima tratta e il confronto critico permettono solo un riferimento alla regione. Nessuna identificazione certa con Concord o Cambridge.",
+            "precision": "region",
+            "realWorldIdentity": "not-established"
+          }
+        }
+      },
+      {
+        "id": "regional-pisky",
+        "keys": [
+          "Pisky"
+        ],
+        "evidencePriority": [
+          "Pisky"
+        ],
+        "categories": {},
+        "sceneText": "The original reference is retained. This regional position gives geographical context; narrative category is assessed separately for each section.",
+        "evidenceLabel": "Original section evidence",
+        "place": {
+          "name": "Pisky · regional position",
+          "area": "Midwestern United States",
+          "coords": [
+            40,
+            -89
+          ],
+          "kind": "uncertain",
+          "zoom": 5,
+          "checked": "2026-10-13",
+          "status": "Uncertain regional position",
+          "note": "Fictional or unnamed setting. The diamond marks only a representative point in Midwestern United States; it does not identify a real town, island, address or boundary.",
+          "method": "The region or literary model is supported by the textual/critical source. The rounded map point is selected within that area for orientation only; distances and routes are not reconstructed.",
+          "aliases": [
+            "Pisky"
+          ],
+          "positionSource": {
+            "url": "https://www.openstreetmap.org/#map=5/40/-89",
+            "label": "OpenStreetMap · representative regional view"
+          },
+          "narrativeSource": {
+            "url": "https://www.dezimmer.net/LolitaUSA/Trip2.htm",
+            "label": "Textual / critical geographical evidence"
+          },
+          "geographicReview": {
+            "reason": "Le distanze e l’area di mais, carbone e allevamenti sono confrontate criticamente; Illinois è una proposta, non un’identificazione con Decatur.",
+            "precision": "region",
+            "realWorldIdentity": "not-established"
+          }
+        }
+      },
+      {
+        "id": "regional-kasbeam",
+        "keys": [
+          "Kasbeam"
+        ],
+        "evidencePriority": [
+          "Kasbeam"
+        ],
+        "categories": {},
+        "sceneText": "The original reference is retained. This regional position gives geographical context; narrative category is assessed separately for each section.",
+        "evidenceLabel": "Original section evidence",
+        "place": {
+          "name": "Kasbeam · regional position",
+          "area": "Midwestern United States",
+          "coords": [
+            40,
+            -89
+          ],
+          "kind": "uncertain",
+          "zoom": 5,
+          "checked": "2026-10-13",
+          "status": "Uncertain regional position",
+          "note": "Fictional or unnamed setting. The diamond marks only a representative point in Midwestern United States; it does not identify a real town, island, address or boundary.",
+          "method": "The region or literary model is supported by the textual/critical source. The rounded map point is selected within that area for orientation only; distances and routes are not reconstructed.",
+          "aliases": [
+            "Kasbeam"
+          ],
+          "positionSource": {
+            "url": "https://www.openstreetmap.org/#map=5/40/-89",
+            "label": "OpenStreetMap · representative regional view"
+          },
+          "narrativeSource": {
+            "url": "https://www.dezimmer.net/LolitaUSA/Trip2.htm",
+            "label": "Textual / critical geographical evidence"
+          },
+          "geographicReview": {
+            "reason": "Centro sintetico vicino al luogo d’origine di Dolores; la critica propone Illinois. Il punto resta regionale e non identifica Chestnut.",
+            "precision": "region",
+            "realWorldIdentity": "not-established"
+          }
+        }
+      },
+      {
+        "id": "regional-wace",
+        "keys": [
+          "Wace"
+        ],
+        "evidencePriority": [
+          "Wace"
+        ],
+        "categories": {},
+        "sceneText": "The original reference is retained. This regional position gives geographical context; narrative category is assessed separately for each section.",
+        "evidenceLabel": "Original section evidence",
+        "place": {
+          "name": "Wace · regional position",
+          "area": "Wyoming · Continental Divide",
+          "coords": [
+            43,
+            -109
+          ],
+          "kind": "uncertain",
+          "zoom": 5,
+          "checked": "2026-10-13",
+          "status": "Uncertain regional position",
+          "note": "Fictional or unnamed setting. The diamond marks only a representative point in Wyoming · Continental Divide; it does not identify a real town, island, address or boundary.",
+          "method": "The region or literary model is supported by the textual/critical source. The rounded map point is selected within that area for orientation only; distances and routes are not reconstructed.",
+          "aliases": [
+            "Wace"
+          ],
+          "positionSource": {
+            "url": "https://www.openstreetmap.org/#map=5/43/-109",
+            "label": "OpenStreetMap · representative regional view"
+          },
+          "narrativeSource": {
+            "url": "https://www.dezimmer.net/LolitaUSA/Trip2.htm",
+            "label": "Textual / critical geographical evidence"
+          },
+          "geographicReview": {
+            "reason": "Il testo nomina Continental Divide e la seconda tratta orienta al Wyoming. Non si identifica la città con Lander né Magic Cave con una grotta reale.",
+            "precision": "region",
+            "realWorldIdentity": "not-established"
+          }
+        }
+      },
+      {
+        "id": "regional-soda",
+        "keys": [
+          "Soda"
+        ],
+        "evidencePriority": [
+          "Soda"
+        ],
+        "categories": {},
+        "sceneText": "The original reference is retained. This regional position gives geographical context; narrative category is assessed separately for each section.",
+        "evidenceLabel": "Original section evidence",
+        "place": {
+          "name": "Soda · regional position",
+          "area": "Nebraska–Wyoming travel region",
+          "coords": [
+            41.2,
+            -104
+          ],
+          "kind": "uncertain",
+          "zoom": 4,
+          "checked": "2026-10-13",
+          "status": "Uncertain regional position",
+          "note": "Fictional or unnamed setting. The diamond marks only a representative point in Nebraska–Wyoming travel region; it does not identify a real town, island, address or boundary.",
+          "method": "The region or literary model is supported by the textual/critical source. The rounded map point is selected within that area for orientation only; distances and routes are not reconstructed.",
+          "aliases": [
+            "Soda"
+          ],
+          "positionSource": {
+            "url": "https://www.openstreetmap.org/#map=4/41.2/-104",
+            "label": "OpenStreetMap · representative regional view"
+          },
+          "narrativeSource": {
+            "url": "https://www.dezimmer.net/LolitaUSA/Trip2.htm",
+            "label": "Textual / critical geographical evidence"
+          },
+          "geographicReview": {
+            "reason": "Il centro inventato è una tappa della tratta Nebraska/Wyoming; non è identificato con la vera Soda Springs. Il punto rappresenta un’area ampia dell’itinerario, non il punto della colazione.",
+            "precision": "region",
+            "realWorldIdentity": "not-established"
+          }
+        }
+      },
+      {
+        "id": "regional-snow",
+        "keys": [
+          "Snow"
+        ],
+        "evidencePriority": [
+          "Snow"
+        ],
+        "categories": {},
+        "sceneText": "The original reference is retained. This regional position gives geographical context; narrative category is assessed separately for each section.",
+        "evidenceLabel": "Original section evidence",
+        "place": {
+          "name": "Snow · regional position",
+          "area": "Colorado Rockies",
+          "coords": [
+            39,
+            -106
+          ],
+          "kind": "uncertain",
+          "zoom": 5,
+          "checked": "2026-10-13",
+          "status": "Uncertain regional position",
+          "note": "Fictional or unnamed setting. The diamond marks only a representative point in Colorado Rockies; it does not identify a real town, island, address or boundary.",
+          "method": "The region or literary model is supported by the textual/critical source. The rounded map point is selected within that area for orientation only; distances and routes are not reconstructed.",
+          "aliases": [
+            "Snow"
+          ],
+          "positionSource": {
+            "url": "https://www.openstreetmap.org/#map=5/39/-106",
+            "label": "OpenStreetMap · representative regional view"
+          },
+          "narrativeSource": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=150",
+            "label": "Textual / critical geographical evidence"
+          },
+          "geographicReview": {
+            "reason": "II.19 nomina Colorado Rockies fra Snow e Champion. Punto regionale senza città omonima.",
+            "precision": "region",
+            "realWorldIdentity": "not-established"
+          }
+        }
+      },
+      {
+        "id": "regional-champion",
+        "keys": [
+          "Champion"
+        ],
+        "evidencePriority": [
+          "Champion"
+        ],
+        "categories": {},
+        "sceneText": "The original reference is retained. This regional position gives geographical context; narrative category is assessed separately for each section.",
+        "evidenceLabel": "Original section evidence",
+        "place": {
+          "name": "Champion · regional position",
+          "area": "Colorado",
+          "coords": [
+            39,
+            -106
+          ],
+          "kind": "uncertain",
+          "zoom": 5,
+          "checked": "2026-10-13",
+          "status": "Uncertain regional position",
+          "note": "Fictional or unnamed setting. The diamond marks only a representative point in Colorado; it does not identify a real town, island, address or boundary.",
+          "method": "The region or literary model is supported by the textual/critical source. The rounded map point is selected within that area for orientation only; distances and routes are not reconstructed.",
+          "aliases": [
+            "Champion"
+          ],
+          "positionSource": {
+            "url": "https://www.openstreetmap.org/#map=5/39/-106",
+            "label": "OpenStreetMap · representative regional view"
+          },
+          "narrativeSource": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=153",
+            "label": "Textual / critical geographical evidence"
+          },
+          "geographicReview": {
+            "reason": "II.20 reca Champion, Colorado. Non si identifica il centro con Glenwood Springs.",
+            "precision": "region",
+            "realWorldIdentity": "not-established"
+          }
+        }
+      },
+      {
+        "id": "regional-elphinstone",
+        "keys": [
+          "Elphinstone"
+        ],
+        "evidencePriority": [
+          "Elphinstone"
+        ],
+        "categories": {},
+        "sceneText": "The original reference is retained. This regional position gives geographical context; narrative category is assessed separately for each section.",
+        "evidenceLabel": "Original section evidence",
+        "place": {
+          "name": "Elphinstone · regional position",
+          "area": "Western Rocky Mountains",
+          "coords": [
+            41,
+            -111
+          ],
+          "kind": "uncertain",
+          "zoom": 4,
+          "checked": "2026-10-13",
+          "status": "Uncertain regional position",
+          "note": "Fictional or unnamed setting. The diamond marks only a representative point in Western Rocky Mountains; it does not identify a real town, island, address or boundary.",
+          "method": "The region or literary model is supported by the textual/critical source. The rounded map point is selected within that area for orientation only; distances and routes are not reconstructed.",
+          "aliases": [
+            "Elphinstone"
+          ],
+          "positionSource": {
+            "url": "https://www.openstreetmap.org/#map=4/41/-111",
+            "label": "OpenStreetMap · representative regional view"
+          },
+          "narrativeSource": {
+            "url": "https://www.dezimmer.net/LolitaUSA/Trip2.htm",
+            "label": "Textual / critical geographical evidence"
+          },
+          "geographicReview": {
+            "reason": "Gli indizi rimandano all’Ovest montano; le proposte Utah/Wyoming sono incompatibili in dettaglio. Punto nell’area ampia, senza equiparazione ad Alta o Evanston.",
+            "precision": "region",
+            "realWorldIdentity": "not-established"
+          }
+        }
+      },
+      {
+        "id": "regional-coalmont",
+        "keys": [
+          "Coalmont"
+        ],
+        "evidencePriority": [
+          "Coalmont"
+        ],
+        "categories": {},
+        "sceneText": "The original reference is retained. This regional position gives geographical context; narrative category is assessed separately for each section.",
+        "evidenceLabel": "Original section evidence",
+        "place": {
+          "name": "Coalmont · regional position",
+          "area": "Midwestern United States",
+          "coords": [
+            40,
+            -88
+          ],
+          "kind": "uncertain",
+          "zoom": 5,
+          "checked": "2026-10-13",
+          "status": "Uncertain regional position",
+          "note": "Fictional or unnamed setting. The diamond marks only a representative point in Midwestern United States; it does not identify a real town, island, address or boundary.",
+          "method": "The region or literary model is supported by the textual/critical source. The rounded map point is selected within that area for orientation only; distances and routes are not reconstructed.",
+          "aliases": [
+            "Coalmont"
+          ],
+          "positionSource": {
+            "url": "https://www.openstreetmap.org/#map=5/40/-88",
+            "label": "OpenStreetMap · representative regional view"
+          },
+          "narrativeSource": {
+            "url": "https://www.dezimmer.net/LolitaUSA/Trip2.htm",
+            "label": "Textual / critical geographical evidence"
+          },
+          "geographicReview": {
+            "reason": "Il nome è dichiaratamente camuffato; la critica propone il Midwest, con distanze discordanti. Non si identifica con la vera Coalmont in Indiana.",
+            "precision": "region",
+            "realWorldIdentity": "not-established"
+          }
+        }
+      }
+    ],
+    "hiddenUnlocatedKeys": [
+      "Eden",
+      "Hotel Mirana",
+      "Lawn Street",
+      "Haze house",
+      "Camera di Humbert nella casa Haze",
+      "Cucina della casa Haze",
+      "Sala da pranzo della casa Haze",
+      "Our Glass Lake",
+      "Camp Q",
+      "Climax",
+      "St. Algebra",
+      "Enchanted Hunters",
+      "Hazy Hills",
+      "Hunters’ Hall",
+      "Raspberry Room",
+      "Onyx",
+      "Eryx",
+      "Main Street",
+      "Lacework Cabins",
+      "Frigid Queen",
+      "Roaring Gulch",
+      "Beardsley College",
+      "Thayer Street",
+      "School Rd",
+      "Beardsley School",
+      "Walton Inn",
+      "Butler Academy",
+      "Duke’s Manor",
+      "Junior Club",
+      "Dolly’s Dell",
+      "Perilous Forest",
+      "Campus Avenue",
+      "Magic Cave",
+      "Red Rock",
+      "Chestnut Court",
+      "The Bustle",
+      "Hill Drug Store",
+      "Larkin’s Pharmacy",
+      "Mirana Motel",
+      "Champion Hotel",
+      "Terrazza dell'albergo",
+      "Silver Spur Court",
+      "Ponderosa Lodge",
+      "Kawtagain",
+      "Larousse",
+      "Mirandola",
+      "Quelquepart Island",
+      "Ramble",
+      "Catagela",
+      "Hoaxton",
+      "Merrymay",
+      "Cane",
+      "Styx",
+      "Chestnut Lodge",
+      "Maker Hall",
+      "Pritchard Road",
+      "Toylestown",
+      "Blake",
+      "Tigermoth",
+      "San Humbertino",
+      "Grainball",
+      "Cantrip",
+      "Picture Lake",
+      "Killer Street",
+      "Hunter Road",
+      "Mother’s Club",
+      "Duk Duk Ranch",
+      "Readsburg",
+      "Jupiter",
+      "Casa degli Schiller: salotto",
+      "Woodbine",
+      "Route X",
+      "Highway Y",
+      "Rubinov",
+      "Jiffy Jeff",
+      "Lakeview Hill",
+      "Grimm Road",
+      "Pavor Manor",
+      "Insomnia Lodge",
+      "Paradise",
+      "Bagration",
+      "Barda Sea",
+      "Blankton",
+      "Poplar Shade",
+      "Willow Island"
+    ],
+    "counts": {
+      "mappedExisting": 124,
+      "unlocatedRecords": 341,
+      "unlocatedKeys": 176,
+      "newRegionalPlaces": 15,
+      "regionalReferences": 86,
+      "hiddenRecords": 136,
+      "retainedRecords": 119
+    },
+    "analysisNote": "Esclusi nomi fantastici, interni, indirizzi camuffati e falsi domicili del registro che non consentono un riferimento geografico utile distinto. I toponimi reali o irrisolti (Danube, Riviera, Vaucluse, Lundy, Derby, Broadway, Menninger, Corn Palace, ecc.) restano: non sono dichiarati inventati soltanto perché non erano geocodificati. I riscontri originali e i diritti delle citazioni pubbliche già pendenti restano pendenti; questa revisione non completa l’importazione testuale.",
+    "sidebarNote": "Analysis in progress: original passages and their publication conditions still require individual verification. Diamonds show documented regional positions, without identifying fictional towns with real settlements.",
+    "sectionNote": "Regional diamonds provide geographical context. Imaginary places without a useful geographical reference remain only in the analysis.",
+    "unlocatedNote": "Geographical reference retained without a separate verified map point. An unlocated name is not necessarily fictional."
+  }
+}

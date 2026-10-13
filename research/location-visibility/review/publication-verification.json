@@ -1,0 +1,80 @@
+[
+  {
+    "id": "ulisse",
+    "reviewVerified": true,
+    "originalDataUnchanged": true,
+    "regionalPlaces": 0
+  },
+  {
+    "id": "proust",
+    "reviewVerified": true,
+    "originalDataUnchanged": true,
+    "regionalPlaces": 0
+  },
+  {
+    "id": "war-and-peace",
+    "reviewVerified": true,
+    "originalDataUnchanged": true,
+    "regionalPlaces": 0
+  },
+  {
+    "id": "moby-dick",
+    "reviewVerified": true,
+    "originalDataUnchanged": true,
+    "regionalPlaces": 1
+  },
+  {
+    "id": "gatsby",
+    "reviewVerified": true,
+    "originalDataUnchanged": true,
+    "regionalPlaces": 1
+  },
+  {
+    "id": "holden",
+    "reviewVerified": true,
+    "originalDataUnchanged": true,
+    "regionalPlaces": 1
+  },
+  {
+    "id": "orwell1984",
+    "reviewVerified": true,
+    "originalDataUnchanged": true,
+    "regionalPlaces": 0
+  },
+  {
+    "id": "don-quijote",
+    "reviewVerified": true,
+    "originalDataUnchanged": true,
+    "regionalPlaces": 4
+  },
+  {
+    "id": "crime-and-punishment",
+    "reviewVerified": true,
+    "originalDataUnchanged": true,
+    "regionalPlaces": 0
+  },
+  {
+    "id": "sound-and-fury",
+    "reviewVerified": true,
+    "originalDataUnchanged": true,
+    "regionalPlaces": 2
+  },
+  {
+    "id": "anna-karenina",
+    "reviewVerified": true,
+    "originalDataUnchanged": true,
+    "regionalPlaces": 1
+  },
+  {
+    "id": "lolita",
+    "reviewVerified": true,
+    "originalDataUnchanged": true,
+    "regionalPlaces": 15
+  },
+  {
+    "id": "macondo",
+    "reviewVerified": true,
+    "regionalPlaces": 1,
+    "originalPlacesRetained": 47
+  }
+]

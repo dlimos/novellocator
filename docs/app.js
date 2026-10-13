@@ -1,3 +1,35 @@
+function applyGeographicReview(input){
+ const review=input.book.geographicReview;
+ if(!review?.regionalPlaces?.length&&!review?.hiddenUnlocatedKeys?.length)return input;
+ // Work on a view copy: the imported text, quotations and analysis stay intact.
+ const data={...input,places:{...input.places},chapters:input.chapters.map(chapter=>({...chapter,places:[...(chapter.places||[])],placeText:[...(chapter.placeText||[])],...(chapter.overviewPlaces?{overviewPlaces:[...chapter.overviewPlaces]}:{}),placeCategories:{...chapter.placeCategories},placeSources:{...chapter.placeSources},placeExcerpts:{...chapter.placeExcerpts},unlocatedPlaces:(chapter.unlocatedPlaces||[]).map(item=>({...item}))}))};
+ const hidden=new Set(review.hiddenUnlocatedKeys||[]);
+ if(review.sidebarNote)data.book={...data.book,sidebarNote:review.sidebarNote};
+ if(review.sectionNote)for(const chapter of data.chapters)chapter.note=review.sectionNote;
+ for(const chapter of data.chapters)for(const item of chapter.unlocatedPlaces){
+  const key=item.id||item.name;
+  if(review.unlocatedNote)item.text=review.unlocatedNote;
+  if(hidden.has(key))item.displayInAtlas=false;
+  const region=(review.regionalPlaces||[]).find(record=>(record.keys||[]).includes(key));
+  if(!region)continue;
+  data.places[region.id]=region.place;
+  item.displayInAtlas=false;
+  item.mappedPlaceId=region.id;
+  if(chapter.places.includes(region.id))continue;
+  const priority=region.evidencePriority||region.keys;
+  const evidence=chapter.unlocatedPlaces.filter(candidate=>region.keys.includes(candidate.id||candidate.name)).sort((a,b)=>priority.indexOf(a.id||a.name)-priority.indexOf(b.id||b.name))[0]||item;
+  chapter.places.push(region.id);
+  if(chapter.overviewPlaces&&!chapter.overviewPlaces.includes(region.id))chapter.overviewPlaces.push(region.id);
+  chapter.placeText.push(region.sceneText);
+  chapter.placeCategories[region.id]=region.categories?.[chapter.id]||'mentioned';
+  chapter.placeSources[region.id]={url:evidence.url||region.place.narrativeSource.url,label:region.evidenceLabel};
+  // A pending original is kept pending; a geographical review cannot supply it.
+  if(evidence.excerpt?.original?.quote?.trim())chapter.placeExcerpts[region.id]=evidence.excerpt;
+  else if(evidence.quote?.trim())chapter.placeExcerpts[region.id]={original:{quote:evidence.quote,language:evidence.language||input.book.originalLanguage||'en',type:'original',attribution:evidence.attribution||[input.book.author,input.book.title,chapter.title].join(' · '),url:evidence.url,rightsUrl:evidence.rightsUrl||evidence.url,highlightTerms:evidence.highlightTerms||evidence.aliases||[]},translations:evidence.translations||{}};
+ }
+ return data;
+}
+window.atlasData=applyGeographicReview(window.atlasData);
 const {locale,t}=window.atlasI18n??{locale:"it",t:key=>key};
 const {book,chapters,places:literaryPlaces}=window.atlasData;
 const isIllustrated=book.mapType==='illustrated';let illustratedMap=null;

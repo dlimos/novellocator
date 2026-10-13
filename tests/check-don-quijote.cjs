@@ -39,7 +39,7 @@ for(const lang of ['en','it','fr','es']){
   vm.runInContext(`selectChapter(${i},false,false)`,ctx);assert(elements.detail.innerHTML.includes(ctx.window.atlasData.chapters[i].title));
   const expected='lang="es"';
   assert(get('selected-location').parentElement.children.at(-1).innerHTML.includes(expected));
-  if(!data.chapters[i].places.length)assert(get('selected-location').innerHTML.includes(expected),'section quotation or pending message absent in unlocated section');
+  if(!ctx.window.atlasData.chapters[i].places.length)assert(get('selected-location').innerHTML.includes(expected),'section quotation or pending message absent in unlocated section');
   if(data.chapters[i].citations.length){vm.runInContext('selectCitation(0)',ctx);assert(get('selected-location').children.at(-1).innerHTML.includes(expected));}
  }
  vm.runInContext('selectAllPlaces(false,false)',ctx);assert.equal(vm.runInContext('current',ctx),-1);assert.equal(get('all-places').attributes['aria-pressed'],'true');

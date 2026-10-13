@@ -1,0 +1,87 @@
+{
+  "place": {
+    "id": "regional-town",
+    "x": null,
+    "y": null,
+    "kind": "area",
+    "role": "mentioned",
+    "group": "beyond",
+    "names": {
+      "en": "Macondo · regional position",
+      "it": "Macondo · posizione regionale",
+      "fr": "Macondo · position régionale",
+      "es": "Macondo · posición regional"
+    },
+    "scenes": {
+      "en": "Macondo is fictional. This diamond represents the Colombian Caribbean area of its literary models, including Aracataca; it does not identify the fictional town or any of its buildings.",
+      "it": "Macondo è immaginaria. Questo rombo rappresenta l’area caraibica colombiana dei suoi modelli letterari, fra cui Aracataca; non identifica la città del romanzo né alcuno dei suoi edifici.",
+      "fr": "Macondo est fictif. Ce losange représente la région caraïbe colombienne de ses modèles littéraires, dont Aracataca ; il ne situe ni la ville du roman ni ses bâtiments.",
+      "es": "Macondo es ficticio. Este rombo representa la región caribeña colombiana de sus modelos literarios, entre ellos Aracataca; no sitúa el pueblo de la novela ni ninguno de sus edificios."
+    },
+    "source": {
+      "type": "user-provided-pdf",
+      "file": "fonte-originale.pdf",
+      "page": 2,
+      "pages": [
+        2
+      ],
+      "quote": "Macondo era entonces una aldea de veinte casas de barro y cañabrava",
+      "pdf_section": "I"
+    },
+    "position_method": "representative-regional-point",
+    "position_confidence": "region"
+  },
+  "geographical": {
+    "coords": [
+      10.5,
+      -74
+    ],
+    "zoom": 7,
+    "pages": [
+      2
+    ],
+    "scope": "regional-literary-model",
+    "precision": "region",
+    "source": {
+      "url": "https://www.openstreetmap.org/#map=7/10.5/-74",
+      "label": "OpenStreetMap · Colombian Caribbean regional view"
+    },
+    "narrativeSource": {
+      "url": "https://www.fundaciongabo.org/es/beca-gabo/2017/recursos/cronica-de-la-beca-gabo-en-aracataca",
+      "label": "Fundación Gabo · Aracataca and the Macondian universe"
+    },
+    "notes": {
+      "en": "Macondo is fictional. This diamond represents the Colombian Caribbean area of its literary models, including Aracataca; it does not identify the fictional town or any of its buildings.",
+      "it": "Macondo è immaginaria. Questo rombo rappresenta l’area caraibica colombiana dei suoi modelli letterari, fra cui Aracataca; non identifica la città del romanzo né alcuno dei suoi edifici.",
+      "fr": "Macondo est fictif. Ce losange représente la région caraïbe colombienne de ses modèles littéraires, dont Aracataca ; il ne situe ni la ville du roman ni ses bâtiments.",
+      "es": "Macondo es ficticio. Este rombo representa la región caribeña colombiana de sus modelos literarios, entre ellos Aracataca; no sitúa el pueblo de la novela ni ninguno de sus edificios."
+    },
+    "excerpts": {
+      "1": {
+        "quote": "Macondo era entonces una aldea de veinte casas de barro y cañabrava",
+        "language": "es",
+        "highlightTerms": [
+          "Macondo"
+        ]
+      }
+    }
+  },
+  "geographicReview": {
+    "reviewedAt": "2026-10-13",
+    "scope": "geographical-placement-and-visibility-of-imported-records",
+    "regionalPlaces": [],
+    "hiddenUnlocatedKeys": [
+      "pilar",
+      "lab",
+      "chestnut",
+      "begonias",
+      "gold-workshop",
+      "melquiades-room",
+      "garden",
+      "forest-galleon",
+      "meme-convent",
+      "airfield"
+    ],
+    "analysisNote": "Le 29 posizioni illustrate hanno utilità nella mappa dichiaratamente schematica, ma non sono coordinate terrestri. Macondo riceve un riferimento caraibico regionale separato; gli interni non collocati nel disegno restano nell’analisi, con la casa già rappresentata. Conservati villaggio dei fondatori, attraversamento della sierra, mare, paludi e Neerlandia come problemi geografici narrativi, senza itinerari fittizi."
+  }
+}

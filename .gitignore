@@ -51,3 +51,10 @@ research/translations/corpus/
 research/translations/verified/
 research/translations/*.json
 research/translations/*.sql
+
+# Local geography-review snapshots and complete association audit.
+research/location-visibility/review/*-live.json
+research/location-visibility/review/*-audit.json
+research/location-visibility/review/inventory.json
+research/location-visibility/review/catalogue.json
+research/location-visibility/review/*.png

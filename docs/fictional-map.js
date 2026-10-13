@@ -17,7 +17,7 @@
   }
   function symbol(place) {
     if (!Object.hasOwn(colors, place.role)) throw new TypeError('Unknown place role.');
-    if (!['site', 'area'].includes(place.kind)) throw new TypeError('Unknown place geometry.');
+    if (!['site', 'area', 'uncertain'].includes(place.kind)) throw new TypeError('Unknown place geometry.');
     return { type: 'simple-marker', style: place.kind === 'site' ? 'circle' : 'diamond',
       color: colors[place.role], size: 18, outline: { color: '#fff8e8', width: 2 } };
   }

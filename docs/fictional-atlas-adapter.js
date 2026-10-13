@@ -9,7 +9,9 @@
   const geographicPlaces=payload.geographicPlaces||{};
   const attribution=p=>payload.book.author+' · '+originalTitle+' · '+labels.chapter+' '+(payload.chapterRanges.findIndex(([start,end])=>p.source.page>=start&&p.source.page<=end)+1);
   const model={book:{id:payload.book.id,title:text.title,author:payload.book.author,year:payload.book.year,description:text.note,unit:labels.unit,sidebarTitle:labels.sidebar,help:text.hint,sidebarNote:labels.note,hashPrefix:'chapter',mapType:'illustrated',links:[],footerHtml:'',initialView:{},illustration:{width:payload.width*2,height:payload.height*2,core:{xmin:payload.width/2,ymin:payload.height/2,xmax:payload.width*1.5,ymax:payload.height*1.5,spatialReference:{wkid:3857}},epochs:payload.epochs,anchors:payload.panoramaAnchors,globalEpoch:1,geographicPlaces,geographyLabels,basemapURL:root.atlasBasemaps?.find(b=>b.id==='osm')?.url||'https://basemaps.arcgis.com/arcgis/rest/services/OpenStreetMap_v2/VectorTileServer'}},chapters:[],places:{},citedPlaces:{}};
+  model.book.geographicReview=payload.geographicReview;
   for(const p of payload.places){if(p.x===null&&!geographicPlaces[p.id])continue;model.places[p.id]={name:p.names[locale],area:text.town,kind:p.kind==='site'?'site':'area',status:text.position,note:text.mapped,method:labels.note,checked:'2026-10-10',narrativeSource:{label:labels.source},positionSource:{label:labels.period},role:p.role};if(geographicPlaces[p.id])Object.assign(model.places[p.id],{geographic:true,coords:geographicPlaces[p.id].coords,zoom:geographicPlaces[p.id].zoom,kind:'area',note:geographyLabels.note,method:geographyLabels.note,positionSource:geographicPlaces[p.id].source});}
+  for(const [id,geo]of Object.entries(geographicPlaces))if(model.places[id]&&geo.precision==='region')Object.assign(model.places[id],{kind:'uncertain',note:geo.notes?.[locale]||geo.notes?.en||geographyLabels.note,method:geo.notes?.[locale]||geo.notes?.en||geographyLabels.note,narrativeSource:geo.narrativeSource||model.places[id].narrativeSource});
   payload.chapterRanges.forEach(([start,end],i)=>{
    const records=payload.places.filter(p=>(geographicPlaces[p.id]?.pages||p.source.pages).some(page=>page>=start&&page<=end)),epoch=payload.chapterEpochs[i];
    const introduction=payload.chapterIntroductions?.[i]?.[locale]||payload.chapterIntroductions?.[i]?.en;
@@ -17,9 +19,9 @@
    const c={id:i+1,title:labels.chapter+' '+(i+1),setting:text.town,mapEpoch:epoch,places:[],placeText:[],placeSources:{},placeExcerpts:{},placeCategories:{},placeKinds:{},placeNames:{},unlocatedPlaces:[],time:payload.epochTexts[locale].labels[epoch],people:text.town,links:[],text:introduction};
    const opening=payload.emptyChapterExcerpts?.[i+1];if(opening)c.excerpt={original:{...opening,type:'original',attribution:payload.book.author+' · '+originalTitle+' · '+c.title},translations:{}};
    for(const p of records){const geo=geographicPlaces[p.id],excerpt=geo?.excerpts?.[i+1];const credit=excerpt?payload.book.author+' · '+originalTitle+' · '+c.title:attribution(p);
-    if(p.x===null&&!geographicPlaces[p.id]){c.unlocatedPlaces.push({name:p.names[locale],text:p.scenes[locale]+' · '+credit,quote:p.source.quote,language:'es'});continue;}
+    if(p.x===null&&!geographicPlaces[p.id]){c.unlocatedPlaces.push({id:p.id,name:p.names[locale],text:p.scenes[locale]+' · '+credit,quote:p.source.quote,language:'es'});continue;}
     c.places.push(p.id);c.placeKinds[p.id]=model.places[p.id].kind;c.placeNames[p.id]=p.names[locale];c.placeText.push(excerpt?scenePrompt:p.scenes[locale]);c.placeCategories[p.id]=geo?.chapterRoles?.[i+1]||p.role;c.placeSources[p.id]={label:credit};
-    c.placeExcerpts[p.id]={original:{quote:excerpt?.quote||p.source.quote,language:'es',type:'original',attribution:credit},translations:{}};
+    c.placeExcerpts[p.id]={original:{quote:excerpt?.quote||p.source.quote,language:'es',type:'original',attribution:credit,...(excerpt?.highlightTerms?{highlightTerms:excerpt.highlightTerms}:{})},translations:{}};
    }
    if(!c.places.length&&!c.excerpt&&records.length)c.excerpt={original:{quote:records[0].source.quote,language:'es',type:'original',attribution:attribution(records[0])},translations:{}};
    model.chapters.push(c);
