@@ -30,7 +30,7 @@
    const members=sourceViews.filter(c=>c.id>=group.firstSection&&c.id<=group.lastSection);
    if(!members.length)throw new Error('Empty section group');
    for(const c of members){if(used.has(c.id))throw new Error('Overlapping section groups');used.add(c.id);}
-   const first=members[0],chapter={id:group.id,title:group.title,text:group.text,time:first.time,people:first.people,setting:first.setting,note:review.sectionNote||first.note,links:[...new Map(members.flatMap(c=>c.links||[]).map(link=>[link.url,link])).values()],places:[],placeText:[],placeCategories:{},placeExcerpts:{},placeSources:{},placeOccurrences:{},citations:[],unlocatedPlaces:[],sourceSectionIds:members.map(c=>c.id)};
+   const first=members[0],chapter={id:group.id,title:group.title,text:group.text,time:first.time,people:first.people,setting:first.setting,note:review.sectionNote||first.note,links:group.links||[...new Map(members.flatMap(c=>c.links||[]).map(link=>[link.url,link])).values()],places:[],placeText:[],placeCategories:{},placeExcerpts:{},placeSources:{},placeOccurrences:{},citations:[],unlocatedPlaces:[],sourceSectionIds:members.map(c=>c.id)};
    const references=new Map(),unlocated=new Map();
    for(const c of members){
     const refs=[...(c.places||[]).map((id,i)=>({placeId:id,category:c.placeCategories?.[id]||'action',scene:c.placeText[i],excerpt:c.placeExcerpts?.[id],source:c.placeSources?.[id]})),...(c.citations||[])];

@@ -13,8 +13,8 @@ const strings={
 for(const [key,values]of Object.entries(strings))for(const [i,lang]of ['en','it','fr','es'].entries())tr[lang][key]=values[i];
 d.book.sectionGrouping={unit:'section',hashPrefix:'section',groups:[
  {id:1,title:d.chapters[0].title,text:d.chapters[0].text,firstSection:1,lastSection:1},
- {id:2,title:'Part I',text:text1,firstSection:2,lastSection:34},
- {id:3,title:'Part II',text:text2,firstSection:35,lastSection:70},
+ {id:2,title:'Part I',text:text1,firstSection:2,lastSection:34,links:[{url:d.chapters[1].links[0].url,label:'Nabokov · Lolita · Part I'}]},
+ {id:3,title:'Part II',text:text2,firstSection:35,lastSection:70,links:[{url:d.chapters[34].links[0].url,label:'Nabokov · Lolita · Part II'}]},
  {id:4,title:d.chapters[70].title,text:d.chapters[70].text,firstSection:71,lastSection:71}
 ]};
 const grouped=ctx.window.atlasSupabaseData.groupSections(d);

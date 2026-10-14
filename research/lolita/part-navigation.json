@@ -14,14 +14,26 @@
       "title": "Part I",
       "text": "Humbert enters the Haze household and draws Dolores into a journey marked by his manipulation and abuse.",
       "firstSection": 2,
-      "lastSection": 34
+      "lastSection": 34,
+      "links": [
+        {
+          "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=6",
+          "label": "Nabokov · Lolita · Part I"
+        }
+      ]
     },
     {
       "id": 3,
       "title": "Part II",
       "text": "Across American roads and Beardsley, Humbert tries to maintain his control over Dolores. Their separation leads him to seek her out and pursue Quilty.",
       "firstSection": 35,
-      "lastSection": 70
+      "lastSection": 70,
+      "links": [
+        {
+          "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=96",
+          "label": "Nabokov · Lolita · Part II"
+        }
+      ]
     },
     {
       "id": 4,
