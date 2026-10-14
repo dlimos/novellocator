@@ -8,7 +8,8 @@
  const categories={en:['Action locations','Mentioned locations'],it:['Luoghi dell’azione','Luoghi citati'],fr:['Lieux de l’action','Lieux mentionnés'],es:['Lugares de la acción','Lugares mencionados']};
  const selectedHeadings={en:['Quotation language','Displayed passage','Quotation credit','Edition and rights'],it:['Lingua della citazione','Passo visualizzato','Attribuzione della citazione','Edizione e diritti'],fr:['Langue de la citation','Passage affiché','Attribution de la citation','Édition et droits'],es:['Idioma de la cita','Pasaje mostrado','Atribución de la cita','Edición y derechos']};
  function selectedColumns(group,locale){
-  const original=group?.original,translated=group?.translations?.[locale];
+  const valid=q=>q?.quote?.trim()&&!['rejected','pending'].includes(q.verificationStatus);
+  const original=valid(group?.original)?group.original:null,translated=valid(group?.translations?.[locale])?group.translations[locale]:null;
   const q=original?.language===locale&&original.quote?.trim()?original:translated?.language===locale&&translated.quote?.trim()?translated:original?.quote?.trim()?original:null;
   return [q?.language||locale,q?.quote||'',q?.attribution||'',q?.rightsNote||''];
  }

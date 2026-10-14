@@ -1,5 +1,15 @@
 # Inserimento delle citazioni tradotte
 
+## Revisione e selettore del 14 ottobre 2026
+
+Ogni citazione offre una tendina indipendente dalla lingua dell'interfaccia, con soltanto originale e traduzioni effettivamente disponibili. Con una sola versione il controllo è disabilitato. Testo, lingua dichiarata, grassetti e credito cambiano insieme, in schede, popup, sezioni e luoghi senza coordinate. Le attribuzioni sono testo bibliografico, senza link ai romanzi.
+
+La verifica ha respinto il passo italiano di Pietroburgo del Libro I: «Anna Scherer» non è un riferimento geografico valido. Il record è conservato per l'analisi con `verificationStatus: rejected` ed escluso dalla tendina e dal CSV. Questo corregge e supera la precedente nota qui sotto che lo considerava un riferimento indiretto ammissibile. Gli script di inserimento sperimentali in `work/` non costituiscono una verifica e non vanno rieseguiti senza revisione.
+
+Il lotto accettato di Guerra e pace comprende ora 30 citazioni italiane: 15 già presenti del Libro I e 15 nuove del Libro II. Due ulteriori traduzioni autentiche del Libro II (Brünn e Znaim) restano pendenti perché il passo isolato non prova la scena nel luogo classificato come azione. Non vengono pubblicate come nuovi riscontri verificati. Il registro delle tre esclusioni è in `war-and-peace-review-excluded.json`.
+
+Le altre versioni storiche reperite nel repertorio non sono ancora tutte allineate alle singole citazioni: la loro mera disponibilità non le rende opzioni della tendina. La copertura continua a distinguere fonti reperite e passi pronti.
+
 Seconda tranche del 13 ottobre 2026: pubblicate e confrontate nel database **16 citazioni italiane del Libro I di Guerra e pace**, dalla traduzione di Federigo Verdinois, Istituto editoriale italiano, digitalizzazione Liber Liber del 25 luglio 2018. Crediti, riferimento al capitolo dell'edizione italiana e collegamento alle condizioni della fonte accompagnano ogni passo. La verifica PostgreSQL/PGlite esegue l'importazione due volte e confronta la ricostruzione completa: cambiano soltanto queste traduzioni.
 
 Il [file ODT ufficiale](https://www.liberliber.eu/mediateca/libri/t/tolstoj/la_guerra_e_la_pace/odt/tolstoj_la_guerra_e_la_pace.odt) e il PDF sono conservati in `corpus/`. L'ODT contiene quattro volumi, quindici parti narrative e i due epiloghi; i passi del primo libro sono stati confrontati con i riscontri originali. La verifica dell'integrità testuale dell'intera traduzione e l'allineamento degli altri libri restano da completare. La numerazione dei capitoli di Verdinois differisce da quella della fonte Maude, quindi ogni credito usa il capitolo italiano effettivo.

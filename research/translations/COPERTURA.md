@@ -6,15 +6,16 @@ Verifica delle copie locali al 13 ottobre 2026. I conteggi comprendono i gruppi 
 | --- | ---: | ---: | ---: | ---: | ---: |
 | Ulysses | 333 | 301 | 0 | 0 | 0 |
 | In Search of Lost Time | 271 | 6 | 0 | 269 | 0 |
-| War and Peace | 244 | 108 | 16 | 17 | 0 |
+| War and Peace | 244 | 108 | 30 | 17 | 0 |
 | Moby-Dick | 609 | 609 | 0 | 0 | 0 |
 | The Great Gatsby | 170 | 170 | 0 | 0 | 0 |
-| One Hundred Years of Solitude | 127 | 0 | 0 | 0 | 127 |
+| One Hundred Years of Solitude | 128 | 0 | 0 | 0 | 128 |
 | The Catcher in the Rye | 117 | 5 | 0 | 0 | 0 |
 | 1984 | 330 | 330 | 0 | 0 | 0 |
 | Don Quixote | 2161 | 0 | 0 | 0 | 2161 |
 | Crime and Punishment | 363 | 6 | 0 | 16 | 0 |
 | The Sound and the Fury | 227 | 227 | 0 | 0 | 0 |
 | Anna Karenina | 865 | 0 | 0 | 0 | 0 |
+| Lolita | 548 | 0 | 0 | 0 | 0 |
 
 Le celle inferiori al totale rappresentano lacune ancora da colmare con passi editoriali autentici e verificati. Il registro locale coverage.json elenca ogni associazione e lingua pendente. Non vengono generate traduzioni e attribuite a traduttori editoriali.

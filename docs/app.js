@@ -263,19 +263,37 @@ function renderQuote(quote,places=[],terms=[]){
  return html+esc(text.slice(cursor));
 }
 const excerptLanguageNames={en:'English',fr:'French',ru:'Russian',it:'Italian',es:'Spanish'};
-function selectedPassage(excerpts){
- const original=excerpts?.original;
- if(original?.language===locale&&original.quote?.trim())return original;
- const translated=excerpts?.translations?.[locale];
- if(translated?.language===locale&&translated.quote?.trim())return translated;
- return original?.quote?.trim()?original:null;
+function availablePassages(excerpts){
+ const records=[excerpts?.original,...Object.values(excerpts?.translations||{})],languages=new Set();
+ return records.filter(item=>{
+  if(!item?.quote?.trim()||!item.language||item.verificationStatus==='rejected'||item.verificationStatus==='pending'||languages.has(item.language))return false;
+  languages.add(item.language);return true;
+ });
 }
+function selectedPassage(excerpts,language=locale){
+ const records=availablePassages(excerpts);
+ return records.find(item=>item.language===language)||records.find(item=>item.type==='original')||records[0]||null;
+}
+const quotationControls=new Map();let quotationControlId=0;
+function quotationBody(item,places){
+ return `<p><strong>${esc(t(item.type==='translation'?'Published translation':'Original text'))} · ${esc(t(excerptLanguageNames[item.language]||item.language))}</strong></p><blockquote lang="${esc(item.language)}">${renderQuote(item.quote,places,item.highlightTerms||[])}</blockquote><p class="excerpt-credit">${esc(item.attribution||'')}</p>`;
+}
+function changeQuotationLanguage(select){
+ const state=quotationControls.get(select.dataset.quotationId),item=state?.records.find(item=>item.language===select.value);
+ if(!item)return;
+ const block=select.closest('.original-excerpt');
+ block.querySelector('.quotation-body').innerHTML=quotationBody(item,state.places);
+ block.querySelector('summary').textContent=t(state.heading)+' · '+t(excerptLanguageNames[item.language]||item.language);
+}
+document.addEventListener?.('change',event=>{
+ if(event.target?.matches?.('select.quotation-language-select'))changeQuotationLanguage(event.target);
+});
 function renderExcerpts(excerpts,heading,places=[]){
- const languageNames=excerptLanguageNames;
  const selected=selectedPassage(excerpts);
  if(!selected)return '';
- const records=[selected];
- return `<details class="original-excerpt"><summary>${esc(t(heading))} · ${records.map(item=>esc(t(languageNames[item.language]||item.language))).join(' / ')}</summary>${records.map(item=>`<p><strong>${esc(t(item.type==='translation'?'Published translation':'Original text'))} · ${esc(t(languageNames[item.language]||item.language))}</strong></p><blockquote lang="${esc(item.language)}">${renderQuote(item.quote,places,item.highlightTerms||[])}</blockquote><p class="excerpt-credit">${esc(item.attribution)}</p>`).join('')}</details>`;
+ const records=availablePassages(excerpts),id=String(++quotationControlId);
+ quotationControls.set(id,{records,places,heading});
+ return `<details class="original-excerpt"><summary>${esc(t(heading))} · ${esc(t(excerptLanguageNames[selected.language]||selected.language))}</summary><label class="quotation-language" for="quotation-language-${id}">${esc(t('Quotation language'))}<select id="quotation-language-${id}" class="quotation-language-select" data-quotation-id="${id}" ${records.length===1?'disabled aria-disabled="true"':''}>${records.map(item=>`<option value="${esc(item.language)}" ${item.language===selected.language?'selected':''}>${esc(t(excerptLanguageNames[item.language]||item.language))}</option>`).join('')}</select></label><div class="quotation-body" aria-live="polite">${quotationBody(selected,places)}</div></details>`;
 }
 function unlocatedPlacesForDisplay(chapter){
  // These invented institutions and non-geographic spaces remain in the audit.
