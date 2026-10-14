@@ -16,8 +16,12 @@ function setup(book,lang){
 }
 function assertVisibleNumbers(run,elements){
  const labels=run("[markerLayer,citedMarkerLayer].filter(layer=>layer.visible).flatMap(layer=>layer.graphics.filter(g=>g.symbol.type==='text'))");
- const actual=Array.from(labels,g=>Number(g.symbol.text)).sort((a,b)=>a-b);
- assert.deepEqual(actual,Array.from({length:labels.length},(_,i)=>i+1),'visible markers have one consecutive sequence starting at 1');
+ for(const category of ['action','mentioned']){
+  const group=Array.from(labels).filter(g=>g.attributes.category===category);
+  for(const label of group)assert.match(label.symbol.text,category==='mentioned'?/^C[1-9]\d*$/:/^[1-9]\d*$/);
+  const actual=group.map(g=>Number(g.symbol.text.replace(/^C/,''))).sort((a,b)=>a-b);
+  assert.deepEqual(actual,Array.from({length:group.length},(_,i)=>i+1),'each visible category starts at 1 without gaps');
+ }
  const numbers=run('visibleMarkerNumbers()');
  for(const [container,values]of [['episode-locations',numbers.places],['citation-locations',numbers.citations]]){
   for(const [index,button]of (elements[container]?.children||[]).entries()){
@@ -27,7 +31,7 @@ function assertVisibleNumbers(run,elements){
  }
  for(const label of labels){
   const a=label.attributes;
-  assert.equal(Number(label.symbol.text),Number.isInteger(a.placeIndex)?numbers.places[a.placeIndex]:numbers.citations[a.citationIndex],'selection retains the original source index');
+  assert.equal(label.symbol.text,Number.isInteger(a.placeIndex)?numbers.places[a.placeIndex]:numbers.citations[a.citationIndex],'selection retains the original source index');
  }
 }
 function csvRows(text){let rows=0,quoted=false;for(let i=0;i<text.length;i++){if(text[i]==='"'){if(quoted&&text[i+1]==='"')i++;else quoted=!quoted}else if(text[i]==='\n'&&!quoted)rows++}assert.equal(quoted,false);return rows}

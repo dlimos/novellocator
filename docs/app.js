@@ -332,8 +332,11 @@ function selectPlace(index,move=true){
 function selectCitation(index,move=true){const citation=activeCitations()[index];if(!citation||!Number.isInteger(index))return;selectedCitation=index;renderLocation();drawMarkers();if(move)centerSelectedPlace();}
 // Display numbers depend on visible markers; source indices remain stable for selection.
 function visibleMarkerNumbers(){
- let next=1;
- const places=activeChapter().places.map(id=>visibleLayers[placeCategory(id)]?next++:null);
+ const next={action:1,mentioned:1};
+ const places=activeChapter().places.map(id=>{
+  const category=placeCategory(id);
+  return visibleLayers[category]?(category==='mentioned'?'C':'')+next[category]++:null;
+ });
  if(isIllustrated&&illustratedMap){
   const numbers=illustratedMap.visibleNumbers(activeChapter(),visibleLayers);
   return {places:activeChapter().places.map(id=>numbers.get(id)??null),citations:[]};
@@ -341,8 +344,8 @@ function visibleMarkerNumbers(){
  const citations=activeCitations().map(reference=>{
   if(!visibleLayers.mentioned)return null;
   const index=activeChapter().places.indexOf(reference.placeId);
-  if(current<0&&visibleLayers.action&&index>=0&&placeCategory(reference.placeId)==='action')return places[index];
-  return next++;
+  if(current<0&&visibleLayers.action&&index>=0&&placeCategory(reference.placeId)==='action')return null;
+  return 'C'+next.mentioned++;
  });
  return {places,citations};
 }

@@ -23,11 +23,11 @@ class IllustratedMapController {
   return {center:[place.coords[1],place.coords[0]],scale:591657527.591555/2**place.zoom};
  }
  visibleNumbers(chapter=this.chapter,visible=this.visible,geographic=this.geographic){
-  const numbers=new Map();let next=1;
+  const numbers=new Map(),next={action:1,mentioned:1};
   for(const id of chapter?.places||[]){
    const role=chapter.placeCategories?.[id]||'action';
    const position=geographic?this.config.geographicPlaces?.[id]:this.position(id,chapter.mapEpoch??this.config.globalEpoch);
-   if(visible[role]&&position)numbers.set(id,next++);
+   if(visible[role]&&position)numbers.set(id,(role==='mentioned'?'C':'')+next[role]++);
   }
   return numbers;
  }

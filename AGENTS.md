@@ -1,5 +1,9 @@
 # Regole generali per aggiungere un libro
 
+## Numerazione dei luoghi nell’atlante
+
+- Regola generale per tutti i romanzi, presenti e futuri: i luoghi dell’azione (`action`) hanno numeri progressivi `1, 2, 3…`; i luoghi citati (`mentioned`) hanno il prefisso `C` e una sequenza distinta `C1, C2, C3…`. Ricalcolare le due sequenze sui punti visibili quando cambia la visibilità dei layer dalla legenda, senza salti e partendo da 1 in ciascuna categoria. Mantenere coerenti marker ed etichette nelle schede, anche in vista globale e nelle mappe illustrate, senza cambiare l’identità dei luoghi o la selezione.
+
 ## Citazioni nella lingua selezionata e diritto di citazione
 
 - Per ogni romanzo già importato o futuro, cercare sempre traduzioni di pubblico dominio in tutte le lingue del sito (italiano, inglese, francese e spagnolo), salvo quando la lingua coincide con quella dell'originale. Dare priorità a queste traduzioni per le citazioni. Verificare e documentare traduttore, edizione, integrità del testo, fonte accessibile e stato dei diritti nel territorio pertinente, distinguendo la traduzione da eventuali revisioni e apparati editoriali: il pubblico dominio dell'originale non dimostra quello della traduzione. Registrare anche le ricerche senza esito e le lacune; non dichiarare inesistente una traduzione soltanto perché non è stata reperita. Valutare edizioni protette soltanto dopo questa ricerca e nel rispetto delle condizioni di riuso già previste.
