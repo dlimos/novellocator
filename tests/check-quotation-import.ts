@@ -10,9 +10,16 @@ const inputs=loadInputs(process.cwd(),[bookId]);
 const before=structuredClone(inputs);
 for(const change of changes){
  const section=before[0].data.chapters.find(s=>s.id===change.section)!;
- const target=change.collection==='unlocated'?section.unlocatedPlaces!.find(s=>(s as any).id===change.id)!:change.collection==='core'?section.placeExcerpts![change.id]:section.citations!.find(c=>c.placeId===change.id)!.excerpt;
+ const target=change.collection==='section'?section.excerpts!:change.collection==='unlocated'?section.unlocatedPlaces!.find(s=>(s as any).id===change.id)!:change.collection==='core'?section.placeExcerpts![change.id]:section.citations!.find(c=>c.placeId===change.id)!.excerpt;
  delete target.translations![change.language];
  if(change.collection==='unlocated'&&!Object.keys(target.translations!).length)delete target.translations;
+}
+const categoryFile=`research/translations/${bookId}-category-corrections.json`;
+const categoryChanges=fs.existsSync(categoryFile)?JSON.parse(fs.readFileSync(categoryFile,'utf8')):[];
+for(const change of categoryChanges){
+ const section=before[0].data.chapters.find(s=>s.id===change.section)!;
+ if(section.placeCategories)delete section.placeCategories[change.id];
+ if(section.placeCategories&&!Object.keys(section.placeCategories).length)delete section.placeCategories;
 }
 const baseline=normalize(before),db=new PGlite();
 try{
@@ -23,9 +30,10 @@ try{
  const imported:Bundle={formatVersion:1,tables:{...baseline.tables}};
  for(const table of tables)imported.tables[table]=(await db.query<Row>('select * from public.'+table)).rows;
  assert.deepEqual(reconstruct(imported,bookId).data,inputs[0].data,'Only the intended translated passages may change, even on rerun');
- assert.deepEqual(imported.tables.place_references,baseline.tables.place_references,'Narrative categories and geographic associations stay intact');
+ const byId=(a:Row,b:Row)=>String(a.id).localeCompare(String(b.id));
+ assert.deepEqual([...imported.tables.place_references].sort(byId),normalize(inputs).tables.place_references.sort(byId),'Only the documented narrative category corrections may change');
  const mapped=changes.filter((c:any)=>c.collection!=='unlocated');
  assert.equal(imported.tables.excerpts.length-baseline.tables.excerpts.length,mapped.length);
- console.log(`PASS: ${bookId}, production quotation SQL tested twice in PostgreSQL/PGlite; exactly ${mapped.length} mapped and ${changes.length-mapped.length} unlocated translations, complete unchanged originals, categories and all other data.`);
+ console.log(`PASS: ${bookId}, SQL tested twice; ${mapped.length} mapped/section and ${changes.length-mapped.length} unlocated translations, ${categoryChanges.length} documented category corrections; all originals and other data preserved.`);
 }finally{await db.close();}
 })().catch(error=>{console.error(error);process.exitCode=1;});

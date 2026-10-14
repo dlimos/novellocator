@@ -46,4 +46,4 @@ Altri candidati spagnoli restano in ricerca. Le traduzioni di Proust di Pedro Sa
 
 Queste fonti ampliano concretamente il repertorio, soprattutto in italiano e francese. Non completano tutte le combinazioni dei dodici romanzi nelle quattro lingue. Per le opere e lingue non elencate la ricerca resta aperta; l'assenza da questa lista non dimostra l'inesistenza di una traduzione storica libera.
 
-Il sito contiene 22 traduzioni verificate di Delitto e castigo e il successivo lotto di 16 citazioni italiane del Libro I di Guerra e pace, documentati in INSERIMENTO.md. Le altre fonti elencate qui non sono ancora citazioni pubblicate.
+Il sito contiene 22 traduzioni verificate di Delitto e castigo e 217 citazioni italiane di Guerra e pace, documentate in INSERIMENTO.md. Per Verdinois sono stati controllati tutti i 244 gruppi: 27 restano senza traduzione esatta utilizzabile. Le altre fonti elencate qui richiedono ancora l'allineamento e la pubblicazione dei singoli passi.

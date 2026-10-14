@@ -52,3 +52,13 @@ npx tsx tests/check-quotation-import.ts
 ```
 
 I corpora, i record testuali e gli script SQL generati rimangono locali ed esclusi da Git, come gli altri contenuti editoriali del progetto. La pubblicazione dell'interfaccia usa il branch `docs`.
+
+## Controllo integrale Verdinois — 14 ottobre 2026
+
+Esaminati tutti i 244 gruppi di citazioni di Guerra e pace, nei quindici libri e nelle due parti dell'epilogo. Pubblicate e confrontate letteralmente nel database **217 citazioni italiane**: 200 associazioni con luoghi e 17 introduzioni di sezione. Restano **27 lacune documentate**, perché il passo corrispondente non conserva il riferimento geografico o non è allineabile esattamente. Non vengono sostituite con frasi vicine; il lettore dispone dell'originale autentico.
+
+Il registro locale `war-and-peace-alignment-review.json` rende conto di tutti i 244 gruppi; `verified/war-and-peace.json` conserva testo, paragrafo, capitolo, volume, parte, attribuzione e confronto narrativo. Le varianti dell'edizione italiana non sono corrette silenziosamente. Il passo iniziale di Anna Scherer resta escluso dalla citazione geografica di Pietroburgo: è utilizzabile soltanto come introduzione della sezione, senza evidenziare il nome della persona come luogo.
+
+Durante il confronto sono state corrette 34 categorie da azione a menzione, quando il riscontro conservato è una destinazione, una notizia, una disposizione militare o un riepilogo, senza scena ambientata nel luogo. `war-and-peace-category-corrections.json` conserva il riscontro originale e la motivazione di ogni modifica. La pubblicazione protegge ogni associazione con confronto dell'originale, aggiorna soltanto gli identificativi previsti e non sovrascrive altri estratti. Il test PostgreSQL/PGlite, eseguito due volte sul medesimo import, conferma la ricostruzione completa e la conservazione degli originali.
+
+Le indicazioni storiche sopra sui messaggi di indisponibilità sono superate: la tendina mostra soltanto testi autentici disponibili e, in mancanza della traduzione, conserva l'originale. Il titolo resta «Passaggio del romanzo»; una sola lingua rende la tendina non modificabile.
