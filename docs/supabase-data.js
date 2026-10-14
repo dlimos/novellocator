@@ -38,9 +38,10 @@
     for(const item of c.unlocatedPlaces||[]){if(item.displayInAtlas===false||item.geographicRelevance==='none'||hidden.has(item.id||item.name))continue;const key=item.id||item.name,list=unlocated.get(key)||[];list.push({...item,sourceSectionId:c.id,sourceSectionTitle:c.title});unlocated.set(key,list);}
    }
    for(const [id,occurrences]of references){
-    // An action for the part requires an actual source-chapter action and its
-    // own proof. A mention earlier in the part must not become that proof.
-    const action=occurrences.find(ref=>ref.category==='action'&&ref.excerpt?.original?.quote?.trim());
+    // Preserve the category already reviewed for a source chapter. When a
+    // part contains an action, select that occurrence and its own source;
+    // a mention elsewhere in the part must not replace its evidence.
+    const action=occurrences.find(ref=>ref.category==='action');
     const selected=action||occurrences.find(ref=>ref.excerpt?.original?.quote?.trim())||occurrences[0];
     chapter.places.push(id);chapter.placeText.push(selected.scene||'');chapter.placeCategories[id]=action?'action':'mentioned';chapter.placeExcerpts[id]=selected.excerpt;chapter.placeSources[id]=selected.source;chapter.placeOccurrences[id]=occurrences;
    }

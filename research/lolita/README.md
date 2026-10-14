@@ -224,3 +224,8 @@ Il 13 ottobre 2026 l’utente ha richiesto esplicitamente di pubblicare dopo ess
 
 
 La versione in corso è stata importata in Supabase e pubblicata con `git push origin docs` (commit `c7bbbc3`). La pagina pubblica, il catalogo, l’immagine e la filigrana sono stati verificati nel browser. `publication-verification.json` registra il confronto tramite API anonima: tutti i dati e i quattro dizionari coincidono con le copie locali; CSS e documentazione coincidono normalizzando i ritorni a capo del copia-incolla Windows. Tutti i controlli del sito, TypeScript, presentazione e importazione della versione in corso sono passati. L’analisi narrativa individuale resta da completare.
+
+## Navigazione per parti (14 ottobre 2026)
+
+Su richiesta dell’utente, l’atlante mostra Prefazione, Parte I, Parte II e Postfazione. I 33 capitoli della prima parte e i 36 della seconda sono raggruppati nella navigazione. Le 71 sezioni originali e tutte le associazioni per capitolo restano nei dati; il raggruppamento conserva le occorrenze e sceglie il riscontro della scena per i luoghi già classificati action. Le introduzioni delle due parti sono disponibili in quattro lingue. Il cambio della navigazione non completa le citazioni ancora pendenti. Lo script prepare-part-navigation.cjs aggiorna soltanto la configurazione della navigazione e le nuove traduzioni, senza sostituire il contenuto del database.
+

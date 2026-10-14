@@ -1,0 +1,41 @@
+{
+  "navigationSections": 4,
+  "sourceSections": 71,
+  "groups": [
+    {
+      "id": 1,
+      "title": "Foreword · John Ray",
+      "text": "John Ray introduces Humbert's manuscript and the characters' later fates, framing the confession as a moral warning.",
+      "firstSection": 1,
+      "lastSection": 1
+    },
+    {
+      "id": 2,
+      "title": "Part I",
+      "text": "Humbert enters the Haze household and draws Dolores into a journey marked by his manipulation and abuse.",
+      "firstSection": 2,
+      "lastSection": 34
+    },
+    {
+      "id": 3,
+      "title": "Part II",
+      "text": "Across American roads and Beardsley, Humbert tries to maintain his control over Dolores. Their separation leads him to seek her out and pursue Quilty.",
+      "firstSection": 35,
+      "lastSection": 70
+    },
+    {
+      "id": 4,
+      "title": "On a book entitled Lolita",
+      "text": "Nabokov recounts the novel's creation and publication, defending artistic freedom and distinguishing himself from Humbert.",
+      "firstSection": 71,
+      "lastSection": 71
+    }
+  ],
+  "chapterReferences": "preserved in sourceChapters and placeOccurrences",
+  "languages": [
+    "en",
+    "it",
+    "fr",
+    "es"
+  ]
+}
