@@ -330,19 +330,45 @@ function selectPlace(index,move=true){
  if(move)centerSelectedPlace();
 }
 function selectCitation(index,move=true){const citation=activeCitations()[index];if(!citation||!Number.isInteger(index))return;selectedCitation=index;renderLocation();drawMarkers();if(move)centerSelectedPlace();}
+// Display numbers depend on visible markers; source indices remain stable for selection.
+function visibleMarkerNumbers(){
+ let next=1;
+ const places=activeChapter().places.map(id=>visibleLayers[placeCategory(id)]?next++:null);
+ if(isIllustrated&&illustratedMap){
+  const numbers=illustratedMap.visibleNumbers(activeChapter(),visibleLayers);
+  return {places:activeChapter().places.map(id=>numbers.get(id)??null),citations:[]};
+ }
+ const citations=activeCitations().map(reference=>{
+  if(!visibleLayers.mentioned)return null;
+  const index=activeChapter().places.indexOf(reference.placeId);
+  if(current<0&&visibleLayers.action&&index>=0&&placeCategory(reference.placeId)==='action')return places[index];
+  return next++;
+ });
+ return {places,citations};
+}
+function updateLocationNumbers(numbers=visibleMarkerNumbers()){
+ for(const [container,values] of [['episode-locations',numbers.places],['citation-locations',numbers.citations]]){
+  Array.from(document.getElementById(container)?.children||[]).forEach((button,index)=>{
+   // Replace only the label, preserving the button and its selection handler.
+   button.innerHTML=button.innerHTML.replace(/<span[^>]*>.*?<\/span>/,values[index]==null?'<span hidden></span>':'<span>'+values[index]+'</span>');
+  });
+ }
+}
 function drawMarkers(){
+ const numbers=visibleMarkerNumbers();updateLocationNumbers(numbers);
  if(isIllustrated){const id=activeCitations()[selectedCitation]?.placeId||activeChapter().places[selectedPlace];illustratedMap?.update(activeChapter(),visibleLayers,id);return;}
 
  if(!markerLayer||!GraphicClass)return;markerLayer.removeAll();citedMarkerLayer?.removeAll();markerLayer.visible=visibleLayers.action;if(citedMarkerLayer)citedMarkerLayer.visible=visibleLayers.mentioned;
  activeChapter().places.forEach((id,index)=>{
+  if(numbers.places[index]==null)return;
   const place=literaryPlaces[id],active=(index===selectedPlace&&selectedCitation<0)||(current<0&&activeCitations()[selectedCitation]?.placeId===id),category=placeCategory(id),layer=category==='mentioned'&&citedMarkerLayer?citedMarkerLayer:markerLayer;
   const geometry={type:'point',longitude:place.coords[1],latitude:place.coords[0],spatialReference:{wkid:4326}};
   const attributes={placeIndex:index,chapterId:activeChapter().id,category};
   const approximate=['area','uncertain','street'].includes(place.kind);
   layer.add(new GraphicClass({geometry,attributes,symbol:{type:'simple-marker',style:approximate?'diamond':'circle',size:approximate?31:28,color:markerColors[category],outline:{color:active?'#e8c565':'#ffffff',width:active?3.5:2}}}));
-  layer.add(new GraphicClass({geometry,attributes,symbol:{type:'text',text:String(index+1),color:'#ffffff',font:{family:'Arial',size:current<0?10:12,weight:'bold'},verticalAlignment:'middle',horizontalAlignment:'center'}}));
+  layer.add(new GraphicClass({geometry,attributes,symbol:{type:'text',text:String(numbers.places[index]),color:'#ffffff',font:{family:'Arial',size:current<0?10:12,weight:'bold'},verticalAlignment:'middle',horizontalAlignment:'center'}}));
  });
- if(citedMarkerLayer)activeCitations().forEach((reference,index)=>{if(current<0&&visibleLayers.action&&globalChapter.places.includes(reference.placeId)&&placeCategory(reference.placeId)==='action')return;const place=allLiteraryPlaces[reference.placeId],active=index===selectedCitation,approximate=['area','uncertain','street'].includes(place.kind),geometry={type:'point',longitude:place.coords[1],latitude:place.coords[0],spatialReference:{wkid:4326}},attributes={citationIndex:index,chapterId:activeChapter().id,category:'mentioned'};citedMarkerLayer.add(new GraphicClass({geometry,attributes,symbol:{type:'simple-marker',style:approximate?'diamond':'circle',size:approximate?31:28,color:markerColors.mentioned,outline:{color:active?'#e8c565':'#ffffff',width:active?3.5:2}}}));citedMarkerLayer.add(new GraphicClass({geometry,attributes,symbol:{type:'text',text:'C'+(index+1),color:'#ffffff',font:{family:'Arial',size:10,weight:'bold'},verticalAlignment:'middle',horizontalAlignment:'center'}}));});
+ if(citedMarkerLayer)activeCitations().forEach((reference,index)=>{if(numbers.citations[index]==null)return;if(current<0&&visibleLayers.action&&globalChapter.places.includes(reference.placeId)&&placeCategory(reference.placeId)==='action')return;const place=allLiteraryPlaces[reference.placeId],active=index===selectedCitation,approximate=['area','uncertain','street'].includes(place.kind),geometry={type:'point',longitude:place.coords[1],latitude:place.coords[0],spatialReference:{wkid:4326}},attributes={citationIndex:index,chapterId:activeChapter().id,category:'mentioned'};citedMarkerLayer.add(new GraphicClass({geometry,attributes,symbol:{type:'simple-marker',style:approximate?'diamond':'circle',size:approximate?31:28,color:markerColors.mentioned,outline:{color:active?'#e8c565':'#ffffff',width:active?3.5:2}}}));citedMarkerLayer.add(new GraphicClass({geometry,attributes,symbol:{type:'text',text:String(numbers.citations[index]),color:'#ffffff',font:{family:'Arial',size:10,weight:'bold'},verticalAlignment:'middle',horizontalAlignment:'center'}}));});
 }
 function showMapError(message){const notice=document.getElementById('map-error');notice.textContent=t(message);notice.hidden=false}
 function navigate(target){if(!viewReady)return;return view.goTo(target,{animate:!reduced,duration:800}).catch(error=>{if(error.name!=='AbortError')console.error('Spostamento della mappa non riuscito',error)})}
@@ -405,7 +431,7 @@ async function selectMapPoint(event){
 }
 async function initializeMap(){
  if(isIllustrated){
-  illustratedMap=new IllustratedMapController(book.illustration,document.getElementById('map'),id=>{const index=activeChapter().places.indexOf(id);if(index<0)return;selectPlace(index,false);showMapPopup(true);centerSelectedPlace(false)},geographic=>{document.getElementById('osm-credit').hidden=!geographic;document.getElementById('map-heading').textContent=(current<0?t('All places'):number(activeChapter().id)+' · '+activeChapter().title)+(geographic?' · '+book.illustration.geographyLabels.map:'');});
+  illustratedMap=new IllustratedMapController(book.illustration,document.getElementById('map'),id=>{const index=activeChapter().places.indexOf(id);if(index<0)return;selectPlace(index,false);showMapPopup(true);centerSelectedPlace(false)},geographic=>{updateLocationNumbers();document.getElementById('osm-credit').hidden=!geographic;document.getElementById('map-heading').textContent=(current<0?t('All places'):number(activeChapter().id)+' · '+activeChapter().title)+(geographic?' · '+book.illustration.geographyLabels.map:'');});
   await illustratedMap.update(activeChapter(),visibleLayers,activeChapter().places[selectedPlace]);
   try{const nativeView=await illustratedMap.initialize();view=nativeView;viewReady=true;['overview','zoom-in','zoom-out'].forEach(id=>document.getElementById(id).disabled=false);document.getElementById('map-error').hidden=true;}catch(error){showMapError('The interactive map is unavailable. The illustrated map remains visible.');console.error(error)}
   return;

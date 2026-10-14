@@ -14,6 +14,22 @@ function setup(book,lang){
  vm.runInContext(`function layer(){return{graphics:[],visible:true,removeAll(){this.graphics=[]},add(g){this.graphics.push(g)}}}markerLayer=layer();citedMarkerLayer=layer();GraphicClass=class{constructor(p){Object.assign(this,p)}};ExtentClass=class{constructor(p){Object.assign(this,p)}};viewReady=true;view={goTo(){return Promise.resolve()}};drawMarkers();`,ctx);
  return {ctx,elements,location,run:s=>vm.runInContext(s,ctx)};
 }
+function assertVisibleNumbers(run,elements){
+ const labels=run("[markerLayer,citedMarkerLayer].filter(layer=>layer.visible).flatMap(layer=>layer.graphics.filter(g=>g.symbol.type==='text'))");
+ const actual=Array.from(labels,g=>Number(g.symbol.text)).sort((a,b)=>a-b);
+ assert.deepEqual(actual,Array.from({length:labels.length},(_,i)=>i+1),'visible markers have one consecutive sequence starting at 1');
+ const numbers=run('visibleMarkerNumbers()');
+ for(const [container,values]of [['episode-locations',numbers.places],['citation-locations',numbers.citations]]){
+  for(const [index,button]of (elements[container]?.children||[]).entries()){
+   if(values[index]==null)assert.match(button.innerHTML,/<span hidden><\/span>/);
+   else assert.ok(button.innerHTML.startsWith('<span>'+values[index]+'</span>'),'detail label matches marker');
+  }
+ }
+ for(const label of labels){
+  const a=label.attributes;
+  assert.equal(Number(label.symbol.text),Number.isInteger(a.placeIndex)?numbers.places[a.placeIndex]:numbers.citations[a.citationIndex],'selection retains the original source index');
+ }
+}
 function csvRows(text){let rows=0,quoted=false;for(let i=0;i<text.length;i++){if(text[i]==='"'){if(quoted&&text[i+1]==='"')i++;else quoted=!quoted}else if(text[i]==='\n'&&!quoted)rows++}assert.equal(quoted,false);return rows}
 assert.equal(audit.records.length,1106);
 for(const [book,[sections,places,references,language]]of Object.entries(books)){
@@ -39,6 +55,16 @@ for(const [book,[sections,places,references,language]]of Object.entries(books)){
   const shared=run("globalCitations.findIndex(r=>globalChapter.places.includes(r.placeId)&&placeCategory(r.placeId)==='action')");
   if(shared>=0){run('selectCitation('+shared+')');const id=run('globalCitations['+shared+'].placeId');assert.equal(run('citedMarkerLayer.graphics.some(g=>globalCitations[g.attributes.citationIndex]?.placeId==='+JSON.stringify(id)+')'),false);assert.equal(run('markerLayer.graphics.some(g=>globalChapter.places[g.attributes.placeIndex]==='+JSON.stringify(id)+'&&g.symbol.outline?.color===\'#e8c565\')'),true);run("setLayerVisibility('action',false)");assert.equal(run('citedMarkerLayer.graphics.some(g=>globalCitations[g.attributes.citationIndex]?.placeId==='+JSON.stringify(id)+')'),true)}
   run("setLayerVisibility('action',false);selectCitation(0)");location.hash='#'+d.book.hashPrefix+'-all';location.href='https://example.org/atlas.html'+location.search+location.hash;elements['language-select'].value=lang==='en'?'it':'en';elements['language-select'].events.change();const destination=new URL(location.assigned);assert.equal(destination.searchParams.get('layers'),'mentioned');assert.equal(destination.searchParams.get('citation'),'0');assert.equal(destination.hash,location.hash);
+  for(const global of [false,true]){
+   run(global?'selectAllPlaces(false,false)':'selectChapter('+index+',false,false)');
+   const selection=JSON.stringify(ctx.window.atlasState()),chapter=run('current');
+   for(const [action,mentioned]of [[true,true],[false,true],[true,false],[false,false],[true,true]]){
+    elements['layer-action'].events.change({target:{checked:action}});elements['layer-mentioned'].events.change({target:{checked:mentioned}});
+    assertVisibleNumbers(run,elements);
+    const state=ctx.window.atlasState(),before=JSON.parse(selection);
+    assert.equal(state.place,before.place);assert.equal(state.citation,before.citation);assert.equal(run('current'),chapter);
+   }
+  }
   const csv=fs.readFileSync('docs/'+book+'-citations-'+lang+'.csv','utf8');assert.equal(csvRows(csv),references+1);assert.ok(csv.includes(data.chapters[index].citations[0].excerpt.original.url));
  }
 }

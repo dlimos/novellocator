@@ -22,16 +22,27 @@ class IllustratedMapController {
   // Scale works in that view even when setting a zoom level is ignored.
   return {center:[place.coords[1],place.coords[0]],scale:591657527.591555/2**place.zoom};
  }
+ visibleNumbers(chapter=this.chapter,visible=this.visible,geographic=this.geographic){
+  const numbers=new Map();let next=1;
+  for(const id of chapter?.places||[]){
+   const role=chapter.placeCategories?.[id]||'action';
+   const position=geographic?this.config.geographicPlaces?.[id]:this.position(id,chapter.mapEpoch??this.config.globalEpoch);
+   if(visible[role]&&position)numbers.set(id,next++);
+  }
+  return numbers;
+ }
  paintPreview(){
   this.image.src=this.config.epochs[this.epoch].image;
+  const numbers=this.visibleNumbers(this.chapter,this.visible,false);
   for(const pin of Array.from(this.drawing.querySelectorAll('button')))pin.remove();
-  (this.chapter?.places||[]).forEach((id,index)=>{const p=this.position(id);if(!p)return;const role=this.chapter.placeCategories?.[id]||'action';const pin=document.createElement('button');pin.className='illustrated-fallback-pin'+(this.chapter.placeKinds?.[id]==='area'?' area':'')+(this.selected===id?' selected':'');pin.style.left=p.x/this.config.width*100+'%';pin.style.top=p.y/this.config.height*100+'%';pin.style.background=role==='mentioned'?'#99502d':'#19665c';const label=document.createElement('span');label.textContent=String(index+1);pin.append(label);pin.hidden=!this.visible[role];pin.setAttribute('aria-label',this.chapter.placeNames?.[id]||id);pin.onclick=()=>this.onSelect(id);this.drawing.append(pin);});
+  (this.chapter?.places||[]).forEach((id,index)=>{const p=this.position(id);if(!p)return;const role=this.chapter.placeCategories?.[id]||'action';const pin=document.createElement('button');pin.className='illustrated-fallback-pin'+(this.chapter.placeKinds?.[id]==='area'?' area':'')+(this.selected===id?' selected':'');pin.style.left=p.x/this.config.width*100+'%';pin.style.top=p.y/this.config.height*100+'%';pin.style.background=role==='mentioned'?'#99502d':'#19665c';const label=document.createElement('span');label.textContent=String(numbers.get(id)??'');pin.append(label);pin.hidden=!this.visible[role];pin.setAttribute('aria-label',this.chapter.placeNames?.[id]||id);pin.onclick=()=>this.onSelect(id);this.drawing.append(pin);});
  }
  draw(){
   if(!this.renderer)return;
+  const numbers=this.visibleNumbers();
   const {layers,Graphic}=this.renderer;layers.action.removeAll();layers.mentioned.removeAll();
   for(const role of ['action','mentioned'])layers[role].visible=this.visible[role];
-  (this.chapter?.places||[]).forEach((id,index)=>{const real=this.geographic?this.config.geographicPlaces?.[id]:null;if(this.geographic&&!real)return;const p=real||this.position(id);if(!p)return;const role=this.chapter.placeCategories?.[id]||'action',kind=this.chapter.placeKinds?.[id]||'site';const geometry=real?{type:'point',latitude:real.coords[0],longitude:real.coords[1],spatialReference:{wkid:4326}}:FictionalMap.point(p,this.config.width,this.config.height),attributes={id};const symbol=FictionalMap.symbol({kind,role});symbol.size=kind==='area'?31:28;symbol.outline={color:this.selected===id?'#e8c565':'#fff',width:this.selected===id?3.5:2};layers[role].add(new Graphic({geometry,attributes,symbol}));layers[role].add(new Graphic({geometry,attributes,symbol:{type:'text',text:String(index+1),color:'#fff',font:{family:'Arial',size:12,weight:'bold'},verticalAlignment:'middle'}}));});
+  (this.chapter?.places||[]).forEach((id,index)=>{if(!numbers.has(id))return;const real=this.geographic?this.config.geographicPlaces?.[id]:null;if(this.geographic&&!real)return;const p=real||this.position(id);if(!p)return;const role=this.chapter.placeCategories?.[id]||'action',kind=this.chapter.placeKinds?.[id]||'site';const geometry=real?{type:'point',latitude:real.coords[0],longitude:real.coords[1],spatialReference:{wkid:4326}}:FictionalMap.point(p,this.config.width,this.config.height),attributes={id};const symbol=FictionalMap.symbol({kind,role});symbol.size=kind==='area'?31:28;symbol.outline={color:this.selected===id?'#e8c565':'#fff',width:this.selected===id?3.5:2};layers[role].add(new Graphic({geometry,attributes,symbol}));layers[role].add(new Graphic({geometry,attributes,symbol:{type:'text',text:String(numbers.get(id)),color:'#fff',font:{family:'Arial',size:12,weight:'bold'},verticalAlignment:'middle'}}));});
  }
  async update(chapter,visible,selected){
   if(chapter!==this.chapter)this.returnedFrom=null;
