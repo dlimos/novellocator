@@ -283,7 +283,7 @@ function changeQuotationLanguage(select){
  if(!item)return;
  const block=select.closest('.original-excerpt');
  block.querySelector('.quotation-body').innerHTML=quotationBody(item,state.places);
- block.querySelector('summary').textContent=t(state.heading)+' · '+t(excerptLanguageNames[item.language]||item.language);
+ block.querySelector('summary').textContent=t(state.heading);
 }
 document.addEventListener?.('change',event=>{
  if(event.target?.matches?.('select.quotation-language-select'))changeQuotationLanguage(event.target);
@@ -293,7 +293,7 @@ function renderExcerpts(excerpts,heading,places=[]){
  if(!selected)return '';
  const records=availablePassages(excerpts),id=String(++quotationControlId);
  quotationControls.set(id,{records,places,heading});
- return `<details class="original-excerpt"><summary>${esc(t(heading))} · ${esc(t(excerptLanguageNames[selected.language]||selected.language))}</summary><label class="quotation-language" for="quotation-language-${id}">${esc(t('Quotation language'))}<select id="quotation-language-${id}" class="quotation-language-select" data-quotation-id="${id}" ${records.length===1?'disabled aria-disabled="true"':''}>${records.map(item=>`<option value="${esc(item.language)}" ${item.language===selected.language?'selected':''}>${esc(t(excerptLanguageNames[item.language]||item.language))}</option>`).join('')}</select></label><div class="quotation-body" aria-live="polite">${quotationBody(selected,places)}</div></details>`;
+ return `<details class="original-excerpt"><summary>${esc(t(heading))}</summary><label class="quotation-language" for="quotation-language-${id}">${esc(t('Quotation language'))}<select id="quotation-language-${id}" class="quotation-language-select" data-quotation-id="${id}" ${records.length===1?'disabled aria-disabled="true"':''}>${records.map(item=>`<option value="${esc(item.language)}" ${item.language===selected.language?'selected':''}>${esc(t(excerptLanguageNames[item.language]||item.language))}</option>`).join('')}</select></label><div class="quotation-body" aria-live="polite">${quotationBody(selected,places)}</div></details>`;
 }
 function unlocatedPlacesForDisplay(chapter){
  // These invented institutions and non-geographic spaces remain in the audit.
