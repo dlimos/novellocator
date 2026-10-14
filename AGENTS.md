@@ -12,6 +12,10 @@
 - La brevità, l'attribuzione e un eventuale link d'acquisto non costituiscono da soli una base sufficiente per il riuso. Verificare separatamente i diritti della traduzione; se l'uso non rientra nell'eccezione, usare un'edizione riutilizzabile o ottenere l'autorizzazione necessaria prima di pubblicare il passo.
 - Non inventare traduzioni editoriali né attribuire al traduttore versioni redazionali. Regola generale: se manca una citazione autentica disponibile nella lingua selezionata, mostrare il passo originale autentico disponibile, indicando chiaramente lingua originale e attribuzione. Vale per schede, popup, sezioni, luoghi senza coordinate ed esportazioni CSV. Non mostrare mai il messaggio «A verified quotation is not yet available in the selected language.» né le sue traduzioni. Se manca anche l'originale pubblicabile, non mostrare un blocco di citazione vuoto; conservare la lacuna e lo stato pendente nei dati di analisi, senza inventare il testo.
 
+## Collegamenti ai testi
+
+- Non mostrare mai collegamenti diretti ai testi dei romanzi, compreso online.fliphtml5.com, in schede, popup, fonti, note o esportazioni CSV. Mostrare attribuzioni e riferimenti bibliografici come testo. Conservare gli URL consultati nei dati e nella documentazione di analisi. I link a fonti geografiche, studi critici e opere figurative restano distinti.
+
 ## Pubblicazione GitHub
 
 - Pubblicare sempre sul branch `docs`, mai su `main`. Il sito usa i file della cartella `docs/` nel branch `docs`.

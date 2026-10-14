@@ -229,3 +229,7 @@ La versione in corso è stata importata in Supabase e pubblicata con `git push o
 
 Su richiesta dell’utente, l’atlante mostra Prefazione, Parte I, Parte II e Postfazione. I 33 capitoli della prima parte e i 36 della seconda sono raggruppati nella navigazione. Le 71 sezioni originali e tutte le associazioni per capitolo restano nei dati; il raggruppamento conserva le occorrenze e sceglie il riscontro della scena per i luoghi già classificati action. Le introduzioni delle due parti sono disponibili in quattro lingue. Il cambio della navigazione non completa le citazioni ancora pendenti. Lo script prepare-part-navigation.cjs aggiorna soltanto la configurazione della navigazione e le nuove traduzioni, senza sostituire il contenuto del database.
 
+
+## Correzioni delle fonti e del New England (14 ottobre 2026)
+
+I collegamenti diretti ai testi sono rimossi dalla presentazione e dai CSV; restano attribuzioni bibliografiche e URL nella documentazione di analisi. New England è una regione reale del nord-est degli Stati Uniti, distinta da Ramsdale. È mostrata come regione citata con un rombo e coordinate rappresentative tratte dalla voce geografica fornita dall’utente; non compare più come ambientazione immaginaria nell’elenco senza coordinate. Gli altri riscontri geografici e la verifica delle citazioni restano separati.

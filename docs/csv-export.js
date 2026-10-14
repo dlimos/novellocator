@@ -10,7 +10,7 @@
  function selectedColumns(group,locale){
   const original=group?.original,translated=group?.translations?.[locale];
   const q=original?.language===locale&&original.quote?.trim()?original:translated?.language===locale&&translated.quote?.trim()?translated:original?.quote?.trim()?original:null;
-  return [q?.language||locale,q?.quote||'',q?.attribution||'',q?.rightsUrl||''];
+  return [q?.language||locale,q?.quote||'',q?.attribution||'',q?.rightsNote||''];
  }
  function build(data,kind,locale='en'){
   const rows=[(headings[locale]||headings.en).concat(selectedHeadings[locale]||selectedHeadings.en)],labels=categories[locale]||categories.en;
@@ -21,9 +21,9 @@
     const q=ref.excerpt?.original;
     const legacy=chapter.placeQuotes?.[ref.placeId],source=chapter.placeSources?.[ref.placeId]||p.narrativeSource;
     const group=ref.excerpt||(legacy?{original:{quote:legacy,language:data.book.originalLanguage||'en',attribution:source?.label||'',url:source?.url}}:null);
-    rows.push([chapter.id,chapter.title,p.name,p.area,labels[ref.category==='mentioned'?1:0],p.coords?.[0],p.coords?.[1],p.kind,ref.scene||'',q?.language,q?.quote||legacy||'',q?.url||source?.url,p.positionSource?.url,p.method,p.note,p.checked].concat(selectedColumns(group,locale)));
+    rows.push([chapter.id,chapter.title,p.name,p.area,labels[ref.category==='mentioned'?1:0],p.coords?.[0],p.coords?.[1],p.kind,ref.scene||'',q?.language,q?.quote||legacy||'',q?.attribution||source?.label,p.positionSource?.url,p.method,p.note,p.checked].concat(selectedColumns(group,locale)));
    }
-   if(kind!=='citations')for(const p of chapter.unlocatedPlaces||[])rows.push([chapter.id,chapter.title,p.name,'',labels[p.category==='mentioned'?1:0],'','','',p.text,p.language||data.book.originalLanguage||'en',p.quote,p.url,'','','',''].concat(selectedColumns(p.excerpt||{original:{...p,language:p.language||data.book.originalLanguage||'en'},translations:p.translations},locale)));
+   if(kind!=='citations')for(const p of chapter.unlocatedPlaces||[])rows.push([chapter.id,chapter.title,p.name,'',labels[p.category==='mentioned'?1:0],'','','',p.text,p.language||data.book.originalLanguage||'en',p.quote,p.attribution||'','','','',''].concat(selectedColumns(p.excerpt||{original:{...p,language:p.language||data.book.originalLanguage||'en'},translations:p.translations},locale)));
   }
   return '\ufeff'+rows.map(row=>row.map(value=>'"'+String(value??'').replaceAll('"','""')+'"').join(',')).join('\r\n')+'\r\n';
  }

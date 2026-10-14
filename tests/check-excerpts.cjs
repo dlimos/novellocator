@@ -16,7 +16,7 @@ for(const lang of ['en','it','fr','es'])for(const id of Object.keys(raw)){
  function verifySelected(html,group){
   const selected=group.original.language===lang?group.original:group.translations?.[lang]||group.original;
   assert.deepEqual([...html.matchAll(/<blockquote lang="([^"]+)"/g)].map(m=>m[1]),selected?[selected.language]:[]);
-  if(selected){assert.ok(html.includes(selected.attribution));assert.ok(html.includes(ctx.window.atlasI18n.t('Edition and rights')));}
+  if(selected){assert.ok(html.includes(selected.attribution));assert.ok(!html.includes('href="'+selected.url));assert.ok(!html.includes('href="'+selected.rightsUrl));}
   else assert.equal(html,'');
  }
  for(const [i,c]of localized.chapters.entries()){

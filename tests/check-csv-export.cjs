@@ -6,7 +6,7 @@ for(const id of ['ulisse','proust','war-and-peace','moby-dick','gatsby']){
  const raw={window:{}};vm.runInNewContext(fs.readFileSync('docs/data/'+id+'.js','utf8'),raw);const data=raw.window.atlasData;
  for(const locale of ['en','it','fr','es'])for(const kind of ['places','citations']){
   const csv=ctx.window.atlasCsv.build(data,kind,locale),rows=parse(csv);assert.ok(csv.startsWith('\ufeff'));assert.equal(rows.length,1+data.chapters.reduce((sum,c)=>sum+(kind==='citations'?(c.citations||[]).length:c.places.length+(c.unlocatedPlaces||[]).length),0));assert.ok(rows.every(row=>row.length===20));for(const row of rows.slice(1)){assert.ok([locale,row[9]||data.book.originalLanguage||'en'].includes(row[16]));if(row[16]!==locale)assert.equal(row[17],row[10]);}
-  if(kind==='citations'){const c=data.chapters.find(c=>c.citations?.length),ref=c.citations[0];assert.equal(rows[1][10],ref.excerpt.original.quote);assert.equal(rows[1][11],ref.excerpt.original.url);assert.equal(rows[1][5],String(data.citedPlaces[ref.placeId].coords[0]));}
+  if(kind==='citations'){const c=data.chapters.find(c=>c.citations?.length),ref=c.citations[0];assert.equal(rows[1][10],ref.excerpt.original.quote);assert.equal(rows[1][11],ref.excerpt.original.attribution);assert.equal(rows[1][5],String(data.citedPlaces[ref.placeId].coords[0]));}
  }
 }
 const synthetic={chapters:[{id:1,title:'A, "B"\nC',places:['p'],placeText:['First\nSecond']}],places:{p:{name:'Place',coords:[1,2]}}};assert.equal(parse(ctx.window.atlasCsv.build(synthetic,'places'))[1][1],synthetic.chapters[0].title);

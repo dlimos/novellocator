@@ -1,0 +1,21 @@
+{
+  "checked": "2026-10-14",
+  "realityStatus": "real",
+  "source": "https://it.wikipedia.org/wiki/Nuova_Inghilterra",
+  "representativeCoordinates": [
+    44.12,
+    -70.18
+  ],
+  "precision": "representative-region",
+  "narrativeCategory": "mentioned",
+  "sourceSectionIds": [
+    11,
+    12,
+    35,
+    40,
+    43,
+    47,
+    48
+  ],
+  "note": "Real region is distinct from fictional Ramsdale; individual quotation verification remains pending."
+}
