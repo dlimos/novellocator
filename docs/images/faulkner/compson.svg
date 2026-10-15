@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" preserveAspectRatio="none">
+ <defs><pattern id="grass" width="28" height="24" patternUnits="userSpaceOnUse"><path d="m7 18 2-6 2 6m10-8 1-4" fill="none" stroke="#999475" stroke-width="1"/></pattern><g id="tree"><path d="M0 20V-4m0 6-10-7m10 15 9-8" stroke="#656d50" stroke-width="2"/><path d="M-18-2q-10-25 8-28 4-19 19-9 23-1 20 19 12 26-12 28-22 9-35-10" fill="#9b9d78" stroke="#6e7659"/></g></defs>
+ <path d="M42 50q150-35 310 8l-12 132q-184 30-290-8Z" fill="url(#grass)" stroke="#a39778" stroke-dasharray="8 9"/>
+ <path d="M370 55h260v135H370z" fill="url(#grass)" stroke="#aaa080" stroke-dasharray="4 8"/>
+ <path d="M380 290h145v88H380zM365 291l87-65 88 65M390 373h126m-108-57h24v57m33-57h24v57" fill="#d7c8a9" stroke="#7f7258" stroke-width="3"/>
+ <path d="M140 298h120v74H140zM127 298l73-49 73 49M178 372v-48h43v48" fill="#d2c4a5" stroke="#8b795c" stroke-width="2"/>
+ <path d="M130 485h125v73H130zM120 485l75-38 70 38M149 517h19v18m48-18h19v18" fill="#d2c4a5" stroke="#8b795c" stroke-width="2"/>
+ <path d="M545 335q136-4 228 0" fill="none" stroke="#aa9a79" stroke-width="12" stroke-dasharray="3 9"/>
+ <path d="M784 308v58m34-58v58m-34-40h34m-34 23h34" stroke="#897d60" stroke-width="4" fill="none"/>
+ <path d="M20 615q160-45 260-10t200 0 200 10 290-9m-950 23q160-45 260-10t200 0 200 10 290-9" fill="none" stroke="#849c9a" stroke-width="3"/>
+ <g opacity=".65"><use href="#tree" x="707" y="489"/><use href="#tree" x="860" y="499"/><use href="#tree" x="745" y="550"/><use href="#tree" x="838" y="558"/><use href="#tree" x="650" y="510"/></g>
+ <path d="m769 494-17 37m52-37 17 37m-52-37h35m-31 3v21m26-21v21m-26 0h26" fill="none" stroke="#776b51" stroke-width="2"/>
+ <path d="M26 30h30m-30 0v30m948-30h-30m30 0v30M26 670h30m-30 0v-30m948 30h-30m30 0v-30" stroke="#978463" fill="none"/>
+</svg>

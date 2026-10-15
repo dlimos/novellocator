@@ -393,6 +393,7 @@ function updateLocationNumbers(numbers=visibleMarkerNumbers()){
  }
 }
 function drawMarkers(){
+ readingDiagram?.update(current<0?null:activeChapter().id,visibleLayers);
  const numbers=visibleMarkerNumbers();updateLocationNumbers(numbers);
  if(isIllustrated){const id=activeCitations()[selectedCitation]?.placeId||activeChapter().places[selectedPlace];illustratedMap?.update(activeChapter(),visibleLayers,id);return;}
 
@@ -426,6 +427,7 @@ function overview(includeCitations=false){
  const marginX=Math.max(.002,(xmax-xmin)*.18),marginY=Math.max(.002,(ymax-ymin)*.18);
  navigate(new ExtentClass({xmin:Math.max(-180,xmin-marginX),xmax:Math.min(180,xmax+marginX),ymin:Math.max(-85,ymin-marginY),ymax:Math.min(85,ymax+marginY),spatialReference:{wkid:4326}}));
 }
+const readingDiagram=window.ReadingDiagram?.create({book,chapters,locale,renderExcerpts,esc,t});
 function chapterFromHash(){const prefix='#'+book.hashPrefix+'-';if(!window.location.hash.startsWith(prefix))return 0;const id=window.location.hash.slice(prefix.length);if(id==='all')return -1;const index=chapters.findIndex(chapter=>String(chapter.id)===id);return index<0?0:index}
 if(chapterFromHash()<0)selectAllPlaces(false,false);else selectChapter(chapterFromHash(),false,false);
 const initialPlace=Number(new URLSearchParams(window.location.search).get('place'));
