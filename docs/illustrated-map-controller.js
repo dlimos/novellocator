@@ -5,16 +5,27 @@ class IllustratedMapController {
   this.back=document.createElement('button');this.back.type='button';this.back.className='illustrated-return';this.back.textContent=config.geographyLabels?.back||'Back to illustrated map';this.back.hidden=true;container.parentElement.append(this.back);
   this.back.onclick=()=>{this.returnedFrom=this.selected;this.update(this.chapter,this.visible,this.selected);};
   this.config=config;this.container=container;this.onSelect=onSelect;this.renderer=null;this.ready=false;this.queue=Promise.resolve();this.sequence=0;this.epoch=config.globalEpoch;this.visible={action:true,mentioned:true};
+  if(config.caption){this.caption=document.createElement('span');this.caption.className='illustrated-map-note';this.caption.textContent=config.caption;container.parentElement.append(this.caption);}
+  if(config.separateViews){
+   this.viewPicker=document.createElement('label');this.viewPicker.className='illustrated-view-picker';this.viewPicker.textContent=config.viewLabel;
+   this.viewSelect=document.createElement('select');this.viewSelect.setAttribute('aria-label',config.viewLabel);
+   config.epochs.forEach((epoch,index)=>{const option=document.createElement('option');option.value=String(index);option.textContent=epoch.label;this.viewSelect.append(option);});
+   this.viewSelect.onchange=()=>{const epoch=Number(this.viewSelect.value);this.preferredEpoch=epoch;this.returnedFrom=this.selected;
+    const id=this.chapter?.places.find(id=>this.position(id,epoch)&&this.visible[this.chapter.placeCategories?.[id]||'action']);
+    if(id)this.onSelect(id);else this.update(this.chapter,this.visible,this.selected);
+   };
+   this.viewPicker.append(this.viewSelect);container.parentElement.append(this.viewPicker);
+  }
   this.preview=document.createElement('div');this.preview.className='illustrated-preview';
   this.drawing=document.createElement('div');this.drawing.className='illustrated-drawing';
-  this.image=document.createElement('img');this.image.alt='';this.drawing.append(this.image);this.preview.append(this.drawing);container.parentElement.append(this.preview);
+  this.image=document.createElement('img');this.image.alt=config.imageAlt||'';this.drawing.append(this.image);this.preview.append(this.drawing);container.parentElement.append(this.preview);
   this.resize=()=>{const box=container.getBoundingClientRect();const width=Math.max(box.width,box.height*config.width/config.height);this.drawing.style.width=width+'px';this.drawing.style.height=width*config.height/config.width+'px';};
   this.observer=typeof ResizeObserver==='function'?new ResizeObserver(this.resize):null;this.observer?.observe(container);this.resize();
   window.addEventListener('pagehide',()=>{this.sequence++;this.observer?.disconnect();this.renderer?.destroy();});
  }
  position(id,epoch=this.epoch){
   const anchors=this.config.anchors[this.config.epochs[epoch].id]?.positions;
-  const p=anchors?.[id]||Object.values(this.config.anchors).map(a=>a.positions[id]).find(Boolean);
+  const p=anchors?.[id]||(!this.config.separateViews&&Object.values(this.config.anchors).map(a=>a.positions[id]).find(Boolean));
   return p?{x:p.x*this.config.width,y:p.y*this.config.height}:null;
  }
  geographicView(place){
@@ -26,7 +37,7 @@ class IllustratedMapController {
   const numbers=new Map(),next={action:1,mentioned:1};
   for(const id of chapter?.places||[]){
    const role=chapter.placeCategories?.[id]||'action';
-   const position=geographic?this.config.geographicPlaces?.[id]:this.position(id,chapter.mapEpoch??this.config.globalEpoch);
+   const position=geographic?this.config.geographicPlaces?.[id]:this.position(id,this.epoch??chapter.mapEpoch??this.config.globalEpoch);
    if(visible[role]&&position)numbers.set(id,(role==='mentioned'?'C':'')+next[role]++);
   }
   return numbers;
@@ -39,14 +50,20 @@ class IllustratedMapController {
  }
  draw(){
   if(!this.renderer)return;
+  if(this.viewPicker)this.viewPicker.hidden=this.geographic;
+  if(this.caption)this.caption.hidden=this.geographic;
   const numbers=this.visibleNumbers();
   const {layers,Graphic}=this.renderer;layers.action.removeAll();layers.mentioned.removeAll();
   for(const role of ['action','mentioned'])layers[role].visible=this.visible[role];
   (this.chapter?.places||[]).forEach((id,index)=>{if(!numbers.has(id))return;const real=this.geographic?this.config.geographicPlaces?.[id]:null;if(this.geographic&&!real)return;const p=real||this.position(id);if(!p)return;const role=this.chapter.placeCategories?.[id]||'action',kind=this.chapter.placeKinds?.[id]||'site';const geometry=real?{type:'point',latitude:real.coords[0],longitude:real.coords[1],spatialReference:{wkid:4326}}:FictionalMap.point(p,this.config.width,this.config.height),attributes={id};const symbol=FictionalMap.symbol({kind,role});symbol.size=kind==='area'?31:28;symbol.outline={color:this.selected===id?'#e8c565':'#fff',width:this.selected===id?3.5:2};layers[role].add(new Graphic({geometry,attributes,symbol}));layers[role].add(new Graphic({geometry,attributes,symbol:{type:'text',text:String(numbers.get(id)),color:'#fff',font:{family:'Arial',size:12,weight:'bold'},verticalAlignment:'middle'}}));});
  }
  async update(chapter,visible,selected){
-  if(chapter!==this.chapter)this.returnedFrom=null;
-  this.chapter=chapter;this.visible={...visible};this.selected=selected;this.epoch=chapter.mapEpoch??this.config.globalEpoch;this.paintPreview();
+  if(chapter!==this.chapter){this.returnedFrom=null;this.preferredEpoch=null;}
+  this.chapter=chapter;this.visible={...visible};this.selected=selected;
+  const selectedEpoch=this.config.separateViews?this.config.epochs.findIndex(epoch=>this.config.anchors[epoch.id]?.positions[selected]):-1;
+  this.epoch=this.preferredEpoch??(selectedEpoch>=0?selectedEpoch:chapter.mapEpoch??this.config.globalEpoch);
+  if(this.viewSelect)this.viewSelect.value=String(this.epoch);
+  this.paintPreview();
   if(!this.renderer||!this.ready)return;
   const token=++this.sequence;
   this.queue=this.queue.catch(()=>{}).then(async()=>{
@@ -75,7 +92,7 @@ class IllustratedMapController {
    if(this.loadedEpoch===this.epoch)this.preview.hidden=true;return this.renderer.view;
   }catch(error){this.renderer.destroy();this.renderer=null;this.ready=false;this.preview.hidden=false;throw error;}
  }
- allowGeographicSelection(){this.returnedFrom=null;}
+ allowGeographicSelection(){this.returnedFrom=null;this.preferredEpoch=null;}
  async fit(){
   await this.queue;if(!this.renderer)return;
   if(!this.geographic)return this.renderer.reset();

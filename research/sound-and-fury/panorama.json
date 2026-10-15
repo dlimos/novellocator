@@ -1,0 +1,287 @@
+{
+  "version": 1,
+  "width": 1586,
+  "height": 992,
+  "checked": "2026-10-15",
+  "labels": {
+    "en": {
+      "view": "View",
+      "area": "Jefferson and the Compson grounds",
+      "back": "Back to illustrated map",
+      "geographic": "Geographic map",
+      "caption": "Interpretative illustration · not to scale",
+      "alt": "Panoramic interpretative views of the Compson property and fictional Jefferson.",
+      "notice": "These figurative reconstructions are not to scale. Buildings, distances and their arrangement are interpretative; the views do not reconstruct every period of the memories or the later appendix, and identify no real addresses.",
+      "method": "The marker locates an element in the illustration, not a terrestrial position. Read the original passage to distinguish textual evidence from the visual interpretation.",
+      "reference": "A geographical reference in the original text."
+    },
+    "it": {
+      "view": "Vista",
+      "area": "Jefferson e la proprietà Compson",
+      "back": "Torna alla mappa illustrata",
+      "geographic": "Mappa geografica",
+      "caption": "Ricostruzione interpretativa · non in scala",
+      "alt": "Vedute panoramiche interpretative della proprietà Compson e della città immaginaria di Jefferson.",
+      "notice": "Queste ricostruzioni figurative non sono in scala. Edifici, distanze e disposizione sono interpretativi; le vedute non ricostruiscono ogni epoca dei ricordi o dell’appendice successiva e non identificano indirizzi reali.",
+      "method": "Il marker indica un elemento nell’illustrazione, non una posizione terrestre. Il passo originale permette di distinguere il riscontro testuale dall’interpretazione figurativa.",
+      "reference": "Un riferimento geografico nel testo originale."
+    },
+    "fr": {
+      "view": "Vue",
+      "area": "Jefferson et la propriété Compson",
+      "back": "Retour à la carte illustrée",
+      "geographic": "Carte géographique",
+      "caption": "Reconstitution interprétative · sans échelle",
+      "alt": "Vues panoramiques interprétatives de la propriété Compson et de la ville fictive de Jefferson.",
+      "notice": "Ces reconstitutions figuratives sont sans échelle. Bâtiments, distances et disposition sont interprétatifs ; les vues ne reconstituent pas toutes les époques des souvenirs ou de l’appendice ultérieur et ne désignent aucune adresse réelle.",
+      "method": "Le repère désigne un élément de l’illustration, pas une position terrestre. Le passage original permet de distinguer l’attestation textuelle de l’interprétation figurative.",
+      "reference": "Une référence géographique dans le texte original."
+    },
+    "es": {
+      "view": "Vista",
+      "area": "Jefferson y la propiedad Compson",
+      "back": "Volver al mapa ilustrado",
+      "geographic": "Mapa geográfico",
+      "caption": "Reconstrucción interpretativa · sin escala",
+      "alt": "Vistas panorámicas interpretativas de la propiedad Compson y la ciudad ficticia de Jefferson.",
+      "notice": "Estas reconstrucciones figurativas no están a escala. Los edificios, las distancias y su disposición son interpretativos; las vistas no reconstruyen todas las épocas de los recuerdos o del apéndice posterior ni identifican direcciones reales.",
+      "method": "El marcador señala un elemento de la ilustración, no una posición terrestre. El pasaje original permite distinguir el testimonio textual de la interpretación figurativa.",
+      "reference": "Una referencia geográfica en el texto original."
+    }
+  },
+  "names": {
+    "en": {
+      "house": "Compson house",
+      "pasture": "Pasture / golf course",
+      "garden": "Garden and fence opening",
+      "gate": "Gate and street",
+      "cabin": "Dilsey’s family cabin",
+      "barn": "Barn and crib",
+      "branch": "Stream",
+      "swing": "Swing in the cedar grove",
+      "square": "Jefferson square",
+      "monument": "Confederate monument",
+      "store": "Jason’s store",
+      "cemetery": "Jefferson cemetery",
+      "black-church": "Black congregation’s church"
+    },
+    "it": {
+      "house": "Casa Compson",
+      "pasture": "Pascolo / campo da golf",
+      "garden": "Giardino e varco nella recinzione",
+      "gate": "Cancello e strada",
+      "cabin": "Casa della famiglia di Dilsey",
+      "barn": "Fienile e granaio",
+      "branch": "Ruscello",
+      "swing": "Altalena fra i cedri",
+      "square": "Piazza di Jefferson",
+      "monument": "Monumento confederato",
+      "store": "Negozio di Jason",
+      "cemetery": "Cimitero di Jefferson",
+      "black-church": "Chiesa della comunità nera"
+    },
+    "fr": {
+      "house": "Maison Compson",
+      "pasture": "Pâturage / terrain de golf",
+      "garden": "Jardin et brèche dans la clôture",
+      "gate": "Portail et rue",
+      "cabin": "Maison de la famille de Dilsey",
+      "barn": "Grange et réserve à grain",
+      "branch": "Ruisseau",
+      "swing": "Balançoire parmi les cèdres",
+      "square": "Place de Jefferson",
+      "monument": "Monument confédéré",
+      "store": "Magasin de Jason",
+      "cemetery": "Cimetière de Jefferson",
+      "black-church": "Église de la communauté noire"
+    },
+    "es": {
+      "house": "Casa Compson",
+      "pasture": "Pastizal / campo de golf",
+      "garden": "Jardín y abertura en la cerca",
+      "gate": "Puerta y calle",
+      "cabin": "Casa de la familia de Dilsey",
+      "barn": "Granero y almacén de grano",
+      "branch": "Arroyo",
+      "swing": "Columpio entre los cedros",
+      "square": "Plaza de Jefferson",
+      "monument": "Monumento confederado",
+      "store": "Tienda de Jason",
+      "cemetery": "Cementerio de Jefferson",
+      "black-church": "Iglesia de la comunidad negra"
+    }
+  },
+  "notes": {
+    "en": {
+      "house": "The house is the Compson family’s domestic centre. Its interior rooms remain separately documented in the analysis.",
+      "pasture": "The former pasture and its conversion to a golf course embody the loss of family land. The fence separates Benjy from the golfers.",
+      "garden": "The broken opening in the fence joins the garden to the grounds. Its exact position is not established by a survey.",
+      "gate": "The gate marks a threshold between the family enclosure and the street. Its exact bearing is unspecified.",
+      "cabin": "The Gibson family’s cabin is distinct from the Compson house. Dilsey emerges from it on Easter morning.",
+      "barn": "The barn and stalls belong to the remembered family grounds.",
+      "branch": "The stream recurs in childhood memories. The painted watercourse is an interpretation of that narrative setting.",
+      "swing": "The swing is associated with meetings and remembered intimacy. An announced or reported encounter alone is treated as a mention.",
+      "square": "The square connects the town’s public life with the carriage scenes. Its outline is illustrative.",
+      "monument": "The soldier monument is a focal point of Benjy’s familiar view; the final turn disturbs that order.",
+      "store": "The shop belongs to Jason’s working life. The passage determines whether this is a narrated scene or a reference to employment.",
+      "cemetery": "The cemetery is distinct from Benjy’s bottle graveyard. Intended visits do not prove arrival; the recalled funeral belongs to a different narrative moment.",
+      "black-church": "In the April Eighth section, Dilsey attends the Easter service and hears Reverend Shegog."
+    },
+    "it": {
+      "house": "La casa è il centro domestico dei Compson. Le stanze interne restano documentate separatamente nell’analisi.",
+      "pasture": "L’antico pascolo e la sua trasformazione in campo da golf rendono visibile la perdita della terra di famiglia. La recinzione separa Benjy dai giocatori.",
+      "garden": "Il varco nella recinzione collega il giardino alla proprietà. La sua posizione esatta non è stabilita da un rilievo.",
+      "gate": "Il cancello segna una soglia fra il recinto familiare e la strada. Il suo orientamento esatto non è stabilito.",
+      "cabin": "La casa della famiglia Gibson è distinta da quella dei Compson. Dilsey ne esce la mattina di Pasqua.",
+      "barn": "Il fienile e le stalle appartengono alla proprietà familiare ricordata.",
+      "branch": "Il ruscello ritorna nei ricordi d’infanzia. Il corso d’acqua dipinto interpreta questa ambientazione narrativa.",
+      "swing": "L’altalena è legata agli incontri e all’intimità ricordata. Un incontro soltanto annunciato o riferito è trattato come menzione.",
+      "square": "La piazza collega la vita pubblica della città alle scene in carrozza. Il suo disegno è illustrativo.",
+      "monument": "Il monumento al soldato è un riferimento nella visione abituale di Benjy; la svolta finale ne turba l’ordine.",
+      "store": "Il negozio appartiene alla vita lavorativa di Jason. Il passo determina se si tratta di una scena narrata o di un riferimento al suo impiego.",
+      "cemetery": "Il cimitero è distinto dal piccolo cimitero di bottiglie di Benjy. Le visite progettate non provano l’arrivo; il funerale ricordato appartiene a un diverso momento narrativo.",
+      "black-church": "Nella sezione dell’8 aprile, Dilsey partecipa alla funzione pasquale e ascolta il reverendo Shegog."
+    },
+    "fr": {
+      "house": "La maison est le centre domestique des Compson. Les pièces intérieures restent documentées séparément dans l’analyse.",
+      "pasture": "L’ancien pâturage devenu terrain de golf matérialise la perte des terres familiales. La clôture sépare Benjy des joueurs.",
+      "garden": "La brèche dans la clôture relie le jardin à la propriété. Son emplacement exact n’est pas établi par un relevé.",
+      "gate": "Le portail marque le seuil entre l’enclos familial et la rue. Son orientation exacte n’est pas établie.",
+      "cabin": "La maison de la famille Gibson est distincte de celle des Compson. Dilsey en sort le matin de Pâques.",
+      "barn": "La grange et les stalles appartiennent à la propriété familiale remémorée.",
+      "branch": "Le ruisseau revient dans les souvenirs d’enfance. Le cours d’eau peint interprète ce lieu narratif.",
+      "swing": "La balançoire est liée aux rencontres et à l’intimité remémorée. Une rencontre seulement annoncée ou rapportée est traitée comme une mention.",
+      "square": "La place relie la vie publique de la ville aux scènes en voiture. Son dessin est illustratif.",
+      "monument": "Le monument au soldat est un repère du paysage familier de Benjy ; le dernier virage en trouble l’ordre.",
+      "store": "Le magasin appartient à la vie professionnelle de Jason. Le passage détermine s’il s’agit d’une scène racontée ou d’une référence à son emploi.",
+      "cemetery": "Le cimetière se distingue du petit cimetière de bouteilles de Benjy. Les visites projetées ne prouvent pas l’arrivée ; les funérailles remémorées appartiennent à un autre moment narratif.",
+      "black-church": "Dans la section du 8 avril, Dilsey assiste à l’office de Pâques et écoute le révérend Shegog."
+    },
+    "es": {
+      "house": "La casa es el centro doméstico de los Compson. Las habitaciones interiores siguen documentadas por separado en el análisis.",
+      "pasture": "El antiguo pastizal convertido en campo de golf hace visible la pérdida de las tierras familiares. La cerca separa a Benjy de los jugadores.",
+      "garden": "La abertura en la cerca conecta el jardín con la propiedad. Su ubicación exacta no está establecida por un levantamiento.",
+      "gate": "La puerta marca un umbral entre el recinto familiar y la calle. Su orientación exacta no está establecida.",
+      "cabin": "La casa de la familia Gibson es distinta de la de los Compson. Dilsey sale de ella la mañana de Pascua.",
+      "barn": "El granero y los establos pertenecen a la propiedad familiar recordada.",
+      "branch": "El arroyo reaparece en los recuerdos de infancia. El curso de agua pintado interpreta este escenario narrativo.",
+      "swing": "El columpio está ligado a encuentros y a la intimidad recordada. Un encuentro solo anunciado o referido se trata como mención.",
+      "square": "La plaza conecta la vida pública de la ciudad con las escenas en coche de caballos. Su dibujo es ilustrativo.",
+      "monument": "El monumento al soldado es una referencia en la visión habitual de Benjy; el giro final altera ese orden.",
+      "store": "La tienda pertenece a la vida laboral de Jason. El pasaje determina si se trata de una escena narrada o de una referencia a su empleo.",
+      "cemetery": "El cementerio es distinto del pequeño cementerio de botellas de Benjy. Las visitas planeadas no prueban la llegada; el funeral recordado pertenece a otro momento narrativo.",
+      "black-church": "En la sección del 8 de abril, Dilsey asiste al oficio de Pascua y escucha al reverendo Shegog."
+    }
+  },
+  "mentionedOccurrences": [
+    "2:square",
+    "2:swing",
+    "3:store",
+    "3:square",
+    "5:cabin",
+    "5:house"
+  ],
+  "geographicFirstSections": [
+    2
+  ],
+  "sectionViews": {
+    "1": 0,
+    "2": 0,
+    "3": 1,
+    "4": 0,
+    "5": 0
+  },
+  "placeOrder": [
+    "house",
+    "pasture",
+    "garden",
+    "gate",
+    "cabin",
+    "barn",
+    "branch",
+    "swing",
+    "square",
+    "monument",
+    "store",
+    "cemetery",
+    "black-church"
+  ],
+  "views": [
+    {
+      "id": "grounds",
+      "image": "images/compson/compson-jefferson-panorama.png",
+      "names": {
+        "en": "Compson grounds",
+        "it": "Proprietà Compson",
+        "fr": "Propriété Compson",
+        "es": "Propiedad Compson"
+      },
+      "positions": {
+        "house": [
+          0.239,
+          0.422
+        ],
+        "pasture": [
+          0.808,
+          0.301
+        ],
+        "garden": [
+          0.524,
+          0.613
+        ],
+        "gate": [
+          0.18,
+          0.765
+        ],
+        "cabin": [
+          0.615,
+          0.474
+        ],
+        "barn": [
+          0.498,
+          0.377
+        ],
+        "branch": [
+          0.643,
+          0.861
+        ],
+        "swing": [
+          0.88,
+          0.761
+        ]
+      }
+    },
+    {
+      "id": "town",
+      "image": "images/compson/jefferson-panorama.png",
+      "names": {
+        "en": "Jefferson",
+        "it": "Jefferson",
+        "fr": "Jefferson",
+        "es": "Jefferson"
+      },
+      "positions": {
+        "square": [
+          0.485,
+          0.708
+        ],
+        "monument": [
+          0.55,
+          0.621
+        ],
+        "store": [
+          0.786,
+          0.584
+        ],
+        "cemetery": [
+          0.807,
+          0.268
+        ],
+        "black-church": [
+          0.102,
+          0.225
+        ]
+      }
+    }
+  ]
+}

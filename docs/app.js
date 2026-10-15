@@ -30,6 +30,7 @@ function applyGeographicReview(input){
  return data;
 }
 window.atlasData=applyGeographicReview(window.atlasData);
+window.atlasData=window.IllustratedOverlay?.adapt(window.atlasData,window.atlasI18n?.locale||'en')||window.atlasData;
 const {locale,t}=window.atlasI18n??{locale:"it",t:key=>key};
 const {book,chapters,places:literaryPlaces}=window.atlasData;
 const isIllustrated=book.mapType==='illustrated';let illustratedMap=null;
@@ -114,7 +115,7 @@ const globalPlaceIds=[...new Set(chapters.flatMap(chapter=>chapter.places))];
 const globalChapter={id:'all',title:t('All places'),places:globalPlaceIds,placeText:[],placeSources:{},placeExcerpts:{},placeQuotes:{},links:book.links||[],text:t('Explore every mapped location in the novel. Select a place to see the sections in which it appears.'),time:t('Whole novel'),people:t('Global view')};
 for(const id of globalPlaceIds){const chapter=chapters.find(section=>section.places.includes(id));globalChapter.placeText.push(chapter.placeText[chapter.places.indexOf(id)]);globalChapter.placeSources[id]=chapter.placeSources?.[id];globalChapter.placeExcerpts[id]=chapter.placeExcerpts?.[id];globalChapter.placeQuotes[id]=chapter.placeQuotes?.[id];}
 const activeChapter=()=>current<0?globalChapter:chapters[current];
-if(isIllustrated){globalChapter.placeKinds=Object.fromEntries(globalPlaceIds.map(id=>[id,literaryPlaces[id].kind]));globalChapter.placeNames=Object.fromEntries(globalPlaceIds.map(id=>[id,literaryPlaces[id].name]));}
+if(isIllustrated){globalChapter.placeKinds=Object.fromEntries(globalPlaceIds.map(id=>[id,literaryPlaces[id].kind]));globalChapter.placeNames=Object.fromEntries(globalPlaceIds.map(id=>[id,literaryPlaces[id].name]));globalChapter.placeCategories=Object.fromEntries(globalPlaceIds.map(id=>[id,chapters.some(section=>section.places.includes(id)&&section.placeCategories?.[id]!=='mentioned')?'action':'mentioned']));}
 const globalCitations=[...new Map(chapters.flatMap(chapter=>chapter.citations||[]).map(reference=>[reference.placeId,reference])).values()];
 const activeCitations=()=>current<0?globalCitations:chapters[current].citations||[];
 function placeCategory(id){if(current>=0)return chapters[current].placeCategories?.[id]||'action';return chapters.some(chapter=>chapter.places.includes(id)&&chapter.placeCategories?.[id]!=='mentioned')?'action':'mentioned';}
@@ -168,7 +169,7 @@ function publicSourceLink(source){return isTextSourceLink(source.url)?`<span>${e
 document.getElementById('book-sources').innerHTML=book.footerHtml||'';
 for(const link of document.getElementById('book-sources').querySelectorAll?.('a[href]')||[])if(isTextSourceLink(link.getAttribute('href')))link.removeAttribute('href');
 if(book.citationCsvPrefix){const paragraph=document.createElement('p'),link=document.createElement('a');link.href=book.citationCsvPrefix+'-'+locale+'.csv';link.download='';link.textContent=t('Download cited places (CSV)');paragraph.appendChild(link);document.getElementById('book-sources').appendChild(paragraph);}
-if(!isIllustrated)window.atlasCsv?.bind(document.getElementById('book-sources'),window.atlasData,locale);
+if(!isIllustrated||book.exportOriginalGeography)window.atlasCsv?.bind(document.getElementById('book-sources'),window.atlasData,locale);
 if(isIllustrated)document.querySelector('.basemap-toolbar').hidden=true;
 basemaps.forEach(item=>{const option=document.createElement('option');option.value=item.id;option.textContent=t(item.label);basemapSelect.appendChild(option)});
 basemapSelect.value=activeBasemap;
@@ -471,6 +472,7 @@ async function initializeMap(){
  if(isIllustrated){
   illustratedMap=new IllustratedMapController(book.illustration,document.getElementById('map'),id=>{const index=activeChapter().places.indexOf(id);if(index<0)return;selectPlace(index,false);showMapPopup(true);centerSelectedPlace(false)},geographic=>{updateLocationNumbers();document.getElementById('osm-credit').hidden=!geographic;document.getElementById('map-heading').textContent=(current<0?t('All places'):number(activeChapter().id)+' · '+activeChapter().title)+(geographic?' · '+book.illustration.geographyLabels.map:'');});
   await illustratedMap.update(activeChapter(),visibleLayers,activeChapter().places[selectedPlace]);
+  updateLocationNumbers();
   try{const nativeView=await illustratedMap.initialize();view=nativeView;viewReady=true;['overview','zoom-in','zoom-out'].forEach(id=>document.getElementById(id).disabled=false);document.getElementById('map-error').hidden=true;}catch(error){showMapError('The interactive map is unavailable. The illustrated map remains visible.');console.error(error)}
   return;
  }
