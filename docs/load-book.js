@@ -9,7 +9,7 @@ const entry=window.atlasCatalogue?.books.find(book=>book.id===bookId);
 window.atlasPresentation?.apply(entry);
 revealAtlas();
 const unavailable=()=>{document.getElementById('detail').textContent=window.atlasI18n.t('Questo romanzo non è ancora disponibile. Torna al catalogo per scegliere un titolo.')};
-function startEngine(source){window.atlasData=window.atlasI18n.localizeData(window.atlasData);window.atlasDataSource=source;const engine=document.createElement('script');engine.src='app.js?v=20261015-panorama';document.head.appendChild(engine);}
+function startEngine(source){window.atlasData=window.atlasI18n.localizeData(window.atlasData);window.atlasDataSource=source;const engine=document.createElement('script');engine.src='app.js?v=20261015-dual-panorama';document.head.appendChild(engine);}
 if(!/^[a-z0-9-]+$/.test(bookId)){document.getElementById('detail').textContent=window.atlasI18n.t('Titolo non valido.');}
 else if(entry?.mapType==='illustrated'){
  await window.IllustratedData.load(bookId).then(payload=>{window.atlasData=window.IllustratedAdapter.adapt(payload,window.atlasI18n.locale);startEngine('supabase-illustrated');}).catch(error=>{console.error('Illustrated loading failed',error);connectionError();});

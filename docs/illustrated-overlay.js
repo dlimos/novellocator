@@ -17,7 +17,7 @@
   data.book={...data.book,mapType:'illustrated',exportOriginalGeography:true,sidebarNote:text.notice,
    illustration:{width:config.width,height:config.height,core:{xmin:0,ymin:0,xmax:config.width,ymax:config.height,spatialReference:{wkid:3857}},
     epochs:config.views.map(view=>({id:view.id,image:view.image,label:view.names[locale]||view.names.en})),anchors,globalEpoch:0,geographicPlaces,separateViews:true,viewLabel:text.view,
-    geographyLabels:{back:text.back,map:text.geographic},caption:text.caption,imageAlt:text.alt,
+    geographyLabels:{back:text.back,map:text.geographic},caption:text.caption,imageAlt:text.alt,geographicOption:config.offerGeography?text.geographic:null,preferIllustratedAnchors:config.preferIllustratedAnchors,emptyNote:text.empty,
     basemapURL:root.atlasBasemaps?.find(b=>b.id==='osm')?.url||'https://basemaps.arcgis.com/arcgis/rest/services/OpenStreetMap_v2/VectorTileServer'}};
   for(const chapter of data.chapters){
    chapter.mapEpoch=config.sectionViews?.[chapter.id]??0;
@@ -32,6 +32,14 @@
    chapter.citations=[];
    const added=[];
    for(const id of config.placeOrder||Object.keys(positions)){
+    if(chapter.places.includes(id)&&data.places[id]){
+     const original=chapter.placeExcerpts[id]?.original;
+     if(!original?.quote?.trim()||['pending','rejected'].includes(original.verificationStatus)){(chapter.illustratedExcluded??=[]).push(id);continue;}
+     data.places[id].imagePresentation={note:text.caption,method:text.notice+' '+text.method};
+     const index=chapter.places.indexOf(id),notes=config.sceneNotes?.[locale]||config.sceneNotes?.en||{};
+     chapter.placeText[index]=notes[chapter.id+':'+id]||config.notes[locale]?.[id]||chapter.placeText[index];
+     added.push(id);continue;
+    }
     const item=(chapter.unlocatedPlaces||[]).find(item=>item.id===id);
     if(!item)continue;
     const excerpt=item.excerpt||{original:{...item,language:item.language||data.book.originalLanguage||'en',type:'original'},translations:item.translations||{}};

@@ -12,3 +12,5 @@ for (const name of ['episodes', 'locales', 'generic-atlas', 'proust', 'war-and-p
 }
 const geographySql = spawnSync(process.execPath, [path.join(__dirname, 'check-geographic-review-sql.cjs')], { cwd: root, stdio: 'inherit' });
 if (geographySql.status !== 0) process.exit(geographySql.status || 1);
+const panoramaCheck = spawnSync(process.execPath, [path.join(__dirname, 'check-proust-panorama.cjs')], { cwd: root, stdio: 'inherit' });
+if (panoramaCheck.status !== 0) process.exit(panoramaCheck.status || 1);

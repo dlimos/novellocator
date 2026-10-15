@@ -1,0 +1,158 @@
+[
+  {
+    "section": 1,
+    "id": "leonie",
+    "quote": "Et tout d’un coup le souvenir m’est apparu. Ce goût, c’était celui du petit morceau de madeleine que le dimanche matin à Combray (parce que ce jour-là je ne sortais pas avant l’heure de la messe), quand j’allais lui dire bonjour dans sa chambre, ma tante Léonie m’offrait après l’avoir trempé dans son infusion de thé ou de tilleul.",
+    "edition": "Du côté de chez Swann · Combray · Gallimard, 1946",
+    "url": "https://fr.wikisource.org/wiki/Du_c%C3%B4t%C3%A9_de_chez_Swann%2FPartie_1",
+    "highlightTerms": [
+      "sa chambre",
+      "ma tante Léonie"
+    ],
+    "highlightMode": "explicit",
+    "sourceStart": 105771,
+    "sourceEnd": 106103,
+    "sourceNormalization": "whitespace",
+    "sourceCorpus": "proust-85c1efefaabe.txt",
+    "quotationReview": "2026-10-15",
+    "category": "action",
+    "narrativeEvidence": "Il ricordo della madeleine rievoca la visita mattutina nella camera di zia Léonie.",
+    "words": 59
+  },
+  {
+    "section": 1,
+    "id": "church",
+    "quote": "je m’avançais dans l’église, quand nous gagnions nos chaises, comme dans une vallée visitée des fées, où le paysan s’émerveille de voir dans un rocher, dans un arbre, dans une mare, la trace palpable de leur passage surnaturel ;",
+    "edition": "Du côté de chez Swann · Combray · Gallimard, 1946",
+    "url": "https://fr.wikisource.org/wiki/Du_c%C3%B4t%C3%A9_de_chez_Swann%2FPartie_1",
+    "highlightTerms": [
+      "l’église"
+    ],
+    "highlightMode": "explicit",
+    "sourceStart": 139097,
+    "sourceEnd": 139325,
+    "sourceNormalization": "whitespace",
+    "sourceCorpus": "proust-85c1efefaabe.txt",
+    "quotationReview": "2026-10-15",
+    "category": "action",
+    "narrativeEvidence": "Il narratore avanza nella chiesa di Saint-Hilaire verso i posti della famiglia; l’interno intreccia esperienza infantile e memoria storica.",
+    "words": 39
+  },
+  {
+    "section": 1,
+    "id": "garden",
+    "quote": "mon grand-père m’appelant et me désignant la haie de Tansonville, me dit : « Toi qui aimes les aubépines, regarde un peu cette épine rose ; est-elle jolie ! »",
+    "edition": "Du côté de chez Swann · Combray · Gallimard, 1946",
+    "url": "https://fr.wikisource.org/wiki/Du_c%C3%B4t%C3%A9_de_chez_Swann%2FPartie_1",
+    "highlightTerms": [
+      "la haie de Tansonville"
+    ],
+    "highlightMode": "explicit",
+    "sourceStart": 322234,
+    "sourceEnd": 322392,
+    "sourceNormalization": "whitespace",
+    "sourceCorpus": "proust-85c1efefaabe.txt",
+    "quotationReview": "2026-10-15",
+    "category": "action",
+    "narrativeEvidence": "Durante la passeggiata il nonno indica al narratore il biancospino rosa della siepe di Tansonville. Il punto rappresenta la proprietà e il suo margine, senza fissare il percorso.",
+    "words": 30
+  },
+  {
+    "section": 2,
+    "id": "hotel",
+    "quote": "Mais combien ma souffrance s’aggrava quand nous eûmes débarqué dans le hall du Grand-Hôtel de Balbec, en face de l’escalier monumental qui imitait le marbre, et pendant que ma grand’mère, sans souci d’accroître l’hostilité et le mépris des étrangers au milieu desquels nous allions vivre, discutait les « conditions » avec le directeur,",
+    "edition": "À l’ombre des jeunes filles en fleurs · II · Gallimard, 1919, t. 4",
+    "url": "https://fr.wikisource.org/wiki/%C3%80_l%E2%80%99ombre_des_jeunes_filles_en_fleurs%2FDeuxi%C3%A8me_partie",
+    "highlightTerms": [
+      "hall du Grand-Hôtel de Balbec"
+    ],
+    "highlightMode": "explicit",
+    "sourceStart": 140577,
+    "sourceEnd": 140913,
+    "sourceNormalization": "whitespace",
+    "sourceCorpus": "proust-51281716b6bd.txt",
+    "quotationReview": "2026-10-15",
+    "category": "action",
+    "narrativeEvidence": "Il narratore arriva con la nonna nel salone del Grand-Hôtel di Balbec, dove lei tratta le condizioni del soggiorno.",
+    "words": 53
+  },
+  {
+    "section": 2,
+    "id": "promenade",
+    "quote": "Seul, je restai simplement devant le Grand-Hôtel à attendre le moment d’aller retrouver ma grand’mère, quand, presque encore à l’extrémité de la digue où elles faisaient mouvoir une tache singulière, je vis s’avancer cinq ou six fillettes, aussi différentes, par l’aspect et par les façons, de toutes les personnes auxquelles on était accoutumé à Balbec, qu’aurait pu l’être, débarquée on ne sait d’où, une bande de mouettes qui exécute à pas comptés sur la plage, — les retardataires rattrapant les autres en voletant — une promenade dont le but semble aussi obscur aux baigneurs qu’elles ne paraissent pas voir, que clairement déterminé pour leur esprit d’oiseaux.",
+    "edition": "À l’ombre des jeunes filles en fleurs · III · Gallimard, 1919, t. 5",
+    "url": "https://fr.wikisource.org/wiki/%C3%80_l%E2%80%99ombre_des_jeunes_filles_en_fleurs%2FTroisi%C3%A8me_partie",
+    "highlightTerms": [
+      "la digue"
+    ],
+    "highlightMode": "explicit",
+    "sourceStart": 48388,
+    "sourceEnd": 49054,
+    "sourceNormalization": "whitespace",
+    "sourceCorpus": "proust-136b6368ee97.txt",
+    "quotationReview": "2026-10-15",
+    "category": "action",
+    "narrativeEvidence": "Davanti al Grand-Hôtel, il narratore vede avvicinarsi lungo la diga il gruppo delle ragazze.",
+    "words": 106
+  },
+  {
+    "section": 4,
+    "id": "hotel",
+    "quote": "je pouvais me demander si je pénétrais dans le grand hôtel de Balbec ou dans le temple de Salomon. Je remontais directement à ma chambre.",
+    "edition": "Sodome et Gomorrhe · deuxième partie, chapitre I · Gallimard, 1924, t. 9",
+    "url": "https://fr.wikisource.org/wiki/Sodome_et_Gomorrhe%2FPartie_2_-_chapitre_1",
+    "highlightTerms": [
+      "grand hôtel de Balbec",
+      "ma chambre"
+    ],
+    "highlightMode": "explicit",
+    "sourceStart": 333030,
+    "sourceEnd": 333167,
+    "sourceNormalization": "whitespace",
+    "sourceCorpus": "proust-27e2dc5b1c2a.txt",
+    "quotationReview": "2026-10-15",
+    "category": "action",
+    "narrativeEvidence": "Nel secondo soggiorno a Balbec il narratore torna nella sua camera d’albergo, immerso nel lutto per la nonna.",
+    "words": 25
+  },
+  {
+    "section": 4,
+    "id": "promenade",
+    "quote": "Elle voulut descendre sur la digue voir cette plage dont ma grand’mère lui parlait tous les jours en lui écrivant. Tenant à la main l’« en tous cas » de sa mère, je la vis de la fenêtre s’avancer toute noire, à pas timides, pieux, sur le sable que des pieds chéris avaient foulé avant elle, et elle avait l’air d’aller à la recherche d’une morte que les flots devaient ramener.",
+    "edition": "Sodome et Gomorrhe · deuxième partie, chapitre I · Gallimard, 1924, t. 9",
+    "url": "https://fr.wikisource.org/wiki/Sodome_et_Gomorrhe%2FPartie_2_-_chapitre_1",
+    "highlightTerms": [
+      "la digue",
+      "cette plage",
+      "le sable"
+    ],
+    "highlightMode": "explicit",
+    "sourceStart": 322363,
+    "sourceEnd": 322740,
+    "sourceNormalization": "whitespace",
+    "sourceCorpus": "proust-27e2dc5b1c2a.txt",
+    "quotationReview": "2026-10-15",
+    "category": "action",
+    "narrativeEvidence": "La madre scende sulla diga e sulla spiaggia seguendo il ricordo della nonna; il narratore la osserva dalla finestra.",
+    "words": 71
+  },
+  {
+    "section": 7,
+    "id": "garden",
+    "quote": "Une fois, que j’avais quitté Gilberte assez tôt, je m’éveillai au milieu de la nuit dans la chambre de Tansonville, et encore à demi endormi j’appelai : « Albertine ».",
+    "edition": "Le Temps retrouvé · I · Gallimard, 1927, t. 14",
+    "url": "https://fr.wikisource.org/wiki/Le_Temps_retrouv%C3%A9%2FI",
+    "highlightTerms": [
+      "la chambre de Tansonville"
+    ],
+    "highlightMode": "explicit",
+    "sourceStart": 3798,
+    "sourceEnd": 3965,
+    "sourceNormalization": "whitespace",
+    "sourceCorpus": "proust-4552694737ce.txt",
+    "quotationReview": "2026-10-15",
+    "category": "action",
+    "narrativeEvidence": "Ospite a Tansonville, il narratore si sveglia nella notte e chiama Albertine. Il punto comprende la dimora e il parco, non una posizione della camera.",
+    "words": 30
+  }
+]

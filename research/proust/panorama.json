@@ -1,0 +1,179 @@
+{
+  "version": 1,
+  "width": 1586,
+  "height": 992,
+  "checked": "2026-10-15",
+  "offerGeography": true,
+  "preferIllustratedAnchors": true,
+  "labels": {
+    "it": {
+      "view": "Vista",
+      "area": "Combray e Balbec",
+      "back": "Torna alla veduta",
+      "geographic": "Mappa geografica dei modelli reali",
+      "caption": "Veduta interpretativa · non in scala",
+      "alt": "Vedute aeree realistiche di Combray e della stazione balneare di Balbec.",
+      "notice": "Combray e Balbec sono luoghi letterari. Queste vedute interpretano edifici, paesaggio e distanze; non riproducono una pianta documentata. La mappa geografica conserva separatamente i modelli di Illiers-Combray e Cabourg.",
+      "method": "Il punto sull’immagine indica un elemento della ricostruzione, senza coordinate terrestri. La citazione documenta la scena; la disposizione degli edifici è figurativa.",
+      "reference": "Un riferimento geografico nel testo originale.",
+      "empty": "Nessun luogo visibile in questa veduta per la sezione e i filtri scelti."
+    },
+    "en": {
+      "view": "View",
+      "area": "Combray and Balbec",
+      "back": "Back to illustration",
+      "geographic": "Geographic map of real models",
+      "caption": "Interpretative view · not to scale",
+      "alt": "Realistic aerial views of Combray and the seaside resort of Balbec.",
+      "notice": "Combray and Balbec are literary places. These views interpret buildings, landscape and distances; they do not reproduce a documented plan. The geographic map separately retains the models in Illiers-Combray and Cabourg.",
+      "method": "An image marker identifies an element of the reconstruction, without terrestrial coordinates. The quotation documents the scene; the arrangement of buildings is interpretative.",
+      "reference": "A geographical reference in the original text.",
+      "empty": "No visible places in this view for the selected section and filters."
+    },
+    "fr": {
+      "view": "Vue",
+      "area": "Combray et Balbec",
+      "back": "Retour à la vue illustrée",
+      "geographic": "Carte géographique des modèles réels",
+      "caption": "Vue interprétative · sans échelle",
+      "alt": "Vues aériennes réalistes de Combray et de la station balnéaire de Balbec.",
+      "notice": "Combray et Balbec sont des lieux littéraires. Ces vues interprètent bâtiments, paysages et distances ; elles ne reproduisent pas un plan documenté. La carte géographique conserve séparément les modèles d’Illiers-Combray et de Cabourg.",
+      "method": "Le repère sur l’image désigne un élément de la reconstitution, sans coordonnées terrestres. La citation atteste la scène ; la disposition des bâtiments est figurative.",
+      "reference": "Une référence géographique dans le texte original.",
+      "empty": "Aucun lieu visible dans cette vue pour la section et les filtres choisis."
+    },
+    "es": {
+      "view": "Vista",
+      "area": "Combray y Balbec",
+      "back": "Volver a la ilustración",
+      "geographic": "Mapa geográfico de los modelos reales",
+      "caption": "Vista interpretativa · sin escala",
+      "alt": "Vistas aéreas realistas de Combray y de la estación balnearia de Balbec.",
+      "notice": "Combray y Balbec son lugares literarios. Estas vistas interpretan edificios, paisaje y distancias; no reproducen un plano documentado. El mapa geográfico conserva por separado los modelos de Illiers-Combray y Cabourg.",
+      "method": "El marcador sobre la imagen señala un elemento de la reconstrucción, sin coordenadas terrestres. La cita documenta la escena; la disposición de los edificios es figurativa.",
+      "reference": "Una referencia geográfica en el texto original.",
+      "empty": "No hay lugares visibles en esta vista para la sección y los filtros elegidos."
+    }
+  },
+  "sceneNotes": {
+    "it": {
+      "1:leonie": "Il ricordo della madeleine rievoca la visita mattutina nella camera di zia Léonie.",
+      "1:church": "Il narratore avanza nella chiesa di Saint-Hilaire verso i posti della famiglia; l’interno intreccia esperienza infantile e memoria storica.",
+      "1:garden": "Durante la passeggiata il nonno indica al narratore il biancospino rosa della siepe di Tansonville. Il punto rappresenta la proprietà e il suo margine, senza fissare il percorso.",
+      "2:hotel": "Il narratore arriva con la nonna nel salone del Grand-Hôtel di Balbec, dove lei tratta le condizioni del soggiorno.",
+      "2:promenade": "Davanti al Grand-Hôtel, il narratore vede avvicinarsi lungo la diga il gruppo delle ragazze.",
+      "4:hotel": "Nel secondo soggiorno a Balbec il narratore torna nella sua camera d’albergo, immerso nel lutto per la nonna.",
+      "4:promenade": "La madre scende sulla diga e sulla spiaggia seguendo il ricordo della nonna; il narratore la osserva dalla finestra.",
+      "7:garden": "Ospite a Tansonville, il narratore si sveglia nella notte e chiama Albertine. Il punto comprende la dimora e il parco, non una posizione della camera."
+    },
+    "en": {
+      "1:leonie": "The madeleine recalls the morning visit to Aunt Léonie’s room.",
+      "1:church": "The narrator walks into Saint-Hilaire towards the family’s chairs; childhood experience meets historical memory.",
+      "1:garden": "During a walk, his grandfather points out the pink hawthorn in the Tansonville hedge. The marker represents the estate and its boundary, without fixing their route.",
+      "2:hotel": "The narrator arrives with his grandmother in the Grand-Hôtel hall at Balbec, where she negotiates their stay.",
+      "2:promenade": "Outside the Grand-Hôtel, the narrator sees the group of girls approaching along the esplanade.",
+      "4:hotel": "During his second Balbec stay, the narrator returns to his hotel room, absorbed in grief for his grandmother.",
+      "4:promenade": "His mother walks onto the esplanade and beach in his grandmother’s footsteps; the narrator watches from the window.",
+      "7:garden": "Staying at Tansonville, the narrator wakes at night and calls Albertine. The marker includes the house and park, without locating his room."
+    },
+    "fr": {
+      "1:leonie": "La madeleine rappelle la visite matinale dans la chambre de tante Léonie.",
+      "1:church": "Le narrateur avance dans Saint-Hilaire vers les chaises de la famille ; l’expérience enfantine rencontre la mémoire historique.",
+      "1:garden": "Pendant la promenade, son grand-père lui montre l’épine rose de la haie de Tansonville. Le repère représente le domaine et sa limite, sans fixer leur parcours.",
+      "2:hotel": "Le narrateur arrive avec sa grand-mère dans le hall du Grand-Hôtel de Balbec, où elle négocie leur séjour.",
+      "2:promenade": "Devant le Grand-Hôtel, le narrateur voit approcher sur la digue le groupe des jeunes filles.",
+      "4:hotel": "Lors de son second séjour à Balbec, le narrateur regagne sa chambre, absorbé par le deuil de sa grand-mère.",
+      "4:promenade": "Sa mère descend sur la digue et la plage sur les traces de sa grand-mère ; le narrateur l’observe de la fenêtre.",
+      "7:garden": "Hôte à Tansonville, le narrateur se réveille la nuit et appelle Albertine. Le repère comprend la demeure et le parc, sans situer sa chambre."
+    },
+    "es": {
+      "1:leonie": "La magdalena evoca la visita matinal al cuarto de la tía Léonie.",
+      "1:church": "El narrador avanza por Saint-Hilaire hacia los asientos de la familia; la experiencia infantil se une a la memoria histórica.",
+      "1:garden": "Durante el paseo, su abuelo le muestra el espino rosa del seto de Tansonville. El marcador representa la propiedad y su límite, sin fijar el recorrido.",
+      "2:hotel": "El narrador llega con su abuela al vestíbulo del Grand-Hôtel de Balbec, donde ella negocia la estancia.",
+      "2:promenade": "Frente al Grand-Hôtel, el narrador ve acercarse por el paseo al grupo de muchachas.",
+      "4:hotel": "Durante su segunda estancia en Balbec, el narrador vuelve a su habitación, sumido en el duelo por su abuela.",
+      "4:promenade": "Su madre baja al paseo y a la playa tras las huellas de su abuela; el narrador la observa desde la ventana.",
+      "7:garden": "Huésped en Tansonville, el narrador se despierta de noche y llama a Albertine. El marcador comprende la casa y el parque, sin situar su cuarto."
+    }
+  },
+  "names": {
+    "en": {},
+    "it": {},
+    "fr": {},
+    "es": {}
+  },
+  "notes": {
+    "en": {},
+    "it": {},
+    "fr": {},
+    "es": {}
+  },
+  "geographicFirstSections": [
+    3,
+    5,
+    6
+  ],
+  "sectionViews": {
+    "1": 0,
+    "2": 1,
+    "3": 0,
+    "4": 1,
+    "5": 0,
+    "6": 0,
+    "7": 0
+  },
+  "placeOrder": [
+    "leonie",
+    "church",
+    "garden",
+    "hotel",
+    "promenade"
+  ],
+  "views": [
+    {
+      "id": "combray",
+      "image": "images/proust/combray-panorama.png",
+      "names": {
+        "it": "Combray",
+        "en": "Combray",
+        "fr": "Combray",
+        "es": "Combray"
+      },
+      "positions": {
+        "leonie": [
+          0.29,
+          0.66
+        ],
+        "church": [
+          0.32,
+          0.27
+        ],
+        "garden": [
+          0.82,
+          0.23
+        ]
+      }
+    },
+    {
+      "id": "balbec",
+      "image": "images/proust/balbec-panorama.png",
+      "names": {
+        "it": "Balbec",
+        "en": "Balbec",
+        "fr": "Balbec",
+        "es": "Balbec"
+      },
+      "positions": {
+        "hotel": [
+          0.36,
+          0.43
+        ],
+        "promenade": [
+          0.48,
+          0.565
+        ]
+      }
+    }
+  ]
+}

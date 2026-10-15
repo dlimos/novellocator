@@ -13,5 +13,17 @@ vm.runInContext(fs.readFileSync('docs/illustrated-map-controller.js','utf8')+'\n
  await controller.update(chapter,{action:true,mentioned:false},'square');assert.equal(controller.selected,'square');assert.equal(controller.visibleNumbers().size,0);
  await controller.update(chapter,{action:true,mentioned:true},'square');assert.deepEqual([...controller.visibleNumbers().values()],['C1']);
  controller.viewSelect.value='0';controller.viewSelect.onchange();assert.equal(selected,'house');
+ // A fictional landmark may also have a separately documented real model.
+ config.preferIllustratedAnchors=true;config.geographicOption='Real models';config.geographicPlaces={house:{coords:[48,1],zoom:12},square:{coords:[49,2],zoom:11},paris:{coords:[48.8,2.3],zoom:10}};
+ const modes=[],layer=()=>({removeAll(){},add(){}});
+ ctx.FictionalMap={point:p=>p,symbol:()=>({})};
+ controller.renderer={setGeographic:async value=>modes.push(value),setImage:async()=>{},reset:async()=>{},view:{goTo:async()=>{}},layers:{action:layer(),mentioned:layer()},Graphic:class{constructor(p){Object.assign(this,p)}}};controller.ready=true;
+ controller.allowGeographicSelection();await controller.update(chapter,{action:true,mentioned:true},'house');assert.equal(controller.geographic,false);
+ controller.viewSelect.value='geographic';controller.viewSelect.onchange();await controller.queue;
+ assert.equal(controller.geographic,true);assert.equal(controller.viewSelect.value,'geographic');assert.equal(controller.viewPicker.hidden,false);assert.deepEqual([...controller.visibleNumbers().values()],['1','C1']);
+ controller.viewSelect.value='0';controller.viewSelect.onchange();await controller.update(chapter,{action:true,mentioned:true},'house');assert.equal(controller.geographic,false);
+ controller.allowGeographicSelection();const realChapter={...chapter,places:['house','paris']};await controller.update(realChapter,{action:true,mentioned:true},'paris');assert.equal(controller.geographic,true);
+ controller.allowGeographicSelection();await controller.update(realChapter,{action:true,mentioned:true},'house');assert.equal(controller.geographic,false);
+ const excluded={...chapter,illustratedExcluded:['house']};await controller.update(excluded,{action:true,mentioned:true},'house');assert.equal(controller.position('house'),null);assert.equal(controller.geographic,true);
  console.log('PASS: separate panorama views never reuse foreign anchors; selecting a place changes image; filters renumber without changing identity; view picker selects a place in its target image.');
 })().catch(e=>{console.error(e);process.exitCode=1});

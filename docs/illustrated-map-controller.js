@@ -3,14 +3,16 @@ class IllustratedMapController {
  constructor(config,container,onSelect,onMode=()=>{}){
   this.onMode=onMode;this.geographic=false;
   this.back=document.createElement('button');this.back.type='button';this.back.className='illustrated-return';this.back.textContent=config.geographyLabels?.back||'Back to illustrated map';this.back.hidden=true;container.parentElement.append(this.back);
-  this.back.onclick=()=>{this.returnedFrom=this.selected;this.update(this.chapter,this.visible,this.selected);};
+  this.back.onclick=()=>{this.forceGeographic=false;this.returnedFrom=this.selected;this.update(this.chapter,this.visible,this.selected);};
   this.config=config;this.container=container;this.onSelect=onSelect;this.renderer=null;this.ready=false;this.queue=Promise.resolve();this.sequence=0;this.epoch=config.globalEpoch;this.visible={action:true,mentioned:true};
   if(config.caption){this.caption=document.createElement('span');this.caption.className='illustrated-map-note';this.caption.textContent=config.caption;container.parentElement.append(this.caption);}
   if(config.separateViews){
    this.viewPicker=document.createElement('label');this.viewPicker.className='illustrated-view-picker';this.viewPicker.textContent=config.viewLabel;
    this.viewSelect=document.createElement('select');this.viewSelect.setAttribute('aria-label',config.viewLabel);
    config.epochs.forEach((epoch,index)=>{const option=document.createElement('option');option.value=String(index);option.textContent=epoch.label;this.viewSelect.append(option);});
-   this.viewSelect.onchange=()=>{const epoch=Number(this.viewSelect.value);this.preferredEpoch=epoch;this.returnedFrom=this.selected;
+   if(config.geographicOption){const option=document.createElement('option');option.value='geographic';option.textContent=config.geographicOption;this.viewSelect.append(option);}
+   this.viewSelect.onchange=()=>{if(this.viewSelect.value==='geographic'){this.forceGeographic=true;this.returnedFrom=null;this.update(this.chapter,this.visible,this.selected);return;}
+    this.forceGeographic=false;const epoch=Number(this.viewSelect.value);this.preferredEpoch=epoch;this.returnedFrom=this.selected;
     const id=this.chapter?.places.find(id=>this.position(id,epoch)&&this.visible[this.chapter.placeCategories?.[id]||'action']);
     if(id)this.onSelect(id);else this.update(this.chapter,this.visible,this.selected);
    };
@@ -24,6 +26,7 @@ class IllustratedMapController {
   window.addEventListener('pagehide',()=>{this.sequence++;this.observer?.disconnect();this.renderer?.destroy();});
  }
  position(id,epoch=this.epoch){
+  if(this.chapter?.illustratedExcluded?.includes(id))return null;
   const anchors=this.config.anchors[this.config.epochs[epoch].id]?.positions;
   const p=anchors?.[id]||(!this.config.separateViews&&Object.values(this.config.anchors).map(a=>a.positions[id]).find(Boolean));
   return p?{x:p.x*this.config.width,y:p.y*this.config.height}:null;
@@ -50,7 +53,9 @@ class IllustratedMapController {
  }
  draw(){
   if(!this.renderer)return;
-  if(this.viewPicker)this.viewPicker.hidden=this.geographic;
+  if(this.viewPicker)this.viewPicker.hidden=this.geographic&&!this.config.geographicOption;
+  if(this.viewSelect)this.viewSelect.value=this.geographic?'geographic':String(this.epoch);
+  if(this.caption)this.caption.textContent=!this.geographic&&this.config.emptyNote&&!this.visibleNumbers().size?this.config.emptyNote:this.config.caption;
   if(this.caption)this.caption.hidden=this.geographic;
   const numbers=this.visibleNumbers();
   const {layers,Graphic}=this.renderer;layers.action.removeAll();layers.mentioned.removeAll();
@@ -58,9 +63,9 @@ class IllustratedMapController {
   (this.chapter?.places||[]).forEach((id,index)=>{if(!numbers.has(id))return;const real=this.geographic?this.config.geographicPlaces?.[id]:null;if(this.geographic&&!real)return;const p=real||this.position(id);if(!p)return;const role=this.chapter.placeCategories?.[id]||'action',kind=this.chapter.placeKinds?.[id]||'site';const geometry=real?{type:'point',latitude:real.coords[0],longitude:real.coords[1],spatialReference:{wkid:4326}}:FictionalMap.point(p,this.config.width,this.config.height),attributes={id};const symbol=FictionalMap.symbol({kind,role});symbol.size=kind==='area'?31:28;symbol.outline={color:this.selected===id?'#e8c565':'#fff',width:this.selected===id?3.5:2};layers[role].add(new Graphic({geometry,attributes,symbol}));layers[role].add(new Graphic({geometry,attributes,symbol:{type:'text',text:String(numbers.get(id)),color:'#fff',font:{family:'Arial',size:12,weight:'bold'},verticalAlignment:'middle'}}));});
  }
  async update(chapter,visible,selected){
-  if(chapter!==this.chapter){this.returnedFrom=null;this.preferredEpoch=null;}
+  if(chapter!==this.chapter){this.returnedFrom=null;this.preferredEpoch=null;this.forceGeographic=false;}
   this.chapter=chapter;this.visible={...visible};this.selected=selected;
-  const selectedEpoch=this.config.separateViews?this.config.epochs.findIndex(epoch=>this.config.anchors[epoch.id]?.positions[selected]):-1;
+  const selectedEpoch=this.config.separateViews&&!chapter.illustratedExcluded?.includes(selected)?this.config.epochs.findIndex(epoch=>this.config.anchors[epoch.id]?.positions[selected]):-1;
   this.epoch=this.preferredEpoch??(selectedEpoch>=0?selectedEpoch:chapter.mapEpoch??this.config.globalEpoch);
   if(this.viewSelect)this.viewSelect.value=String(this.epoch);
   this.paintPreview();
@@ -68,12 +73,12 @@ class IllustratedMapController {
   const token=++this.sequence;
   this.queue=this.queue.catch(()=>{}).then(async()=>{
    if(token!==this.sequence)return;
-   const real=this.selected!==this.returnedFrom&&this.config.geographicPlaces?.[this.selected];
+   const real=this.selected!==this.returnedFrom&&(this.forceGeographic||!(this.config.preferIllustratedAnchors&&selectedEpoch>=0))&&this.config.geographicPlaces?.[this.selected];
    try{
     if(real){
      const changed=!this.geographic||this.geographicTarget!==this.selected;
      await this.renderer.setGeographic(true,this.config.basemapURL);this.geographic=true;if(token!==this.sequence)return;
-     this.geographicTarget=this.selected;this.back.hidden=false;this.preview.hidden=true;this.onMode(true);this.draw();
+     this.geographicTarget=this.selected;this.back.hidden=Boolean(this.config.geographicOption);this.preview.hidden=true;this.onMode(true);this.draw();
      if(changed)await this.renderer.view.goTo(this.geographicView(real),{animate:false});
     }else{
      const leaving=this.geographic;this.geographic=false;this.geographicTarget=null;this.back.hidden=true;this.onMode(false);
