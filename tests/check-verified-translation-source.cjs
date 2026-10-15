@@ -13,4 +13,22 @@ for(const r of records){
  assert.equal(group.translations[r.language].quote,r.passage.quote);
  assert.equal(r.collection==='unlocated'?group.quote:group.original.quote,r.originalQuote,'Original passage must remain unchanged');
 }
+const reviewFile=`research/translations/${book}-alignment-review.json`;
+if(fs.existsSync(reviewFile)){
+ const review=JSON.parse(fs.readFileSync(reviewFile,'utf8')),keys=new Set(review.map(r=>`${r.section}/${r.collection}/${r.id}`)),expected=[];
+ assert.equal(keys.size,review.length,'An association must not be reviewed twice');
+ for(const ch of c.window.atlasData.chapters){
+  if(ch.excerpts||ch.excerpt)expected.push(`${ch.id}/section/null`);
+  for(const id of ch.places)expected.push(`${ch.id}/core/${id}`);
+  for(const r of ch.citations||[])expected.push(`${ch.id}/citations/${r.placeId}`);
+  for(const r of ch.unlocatedPlaces||[])expected.push(`${ch.id}/unlocated/${r.id||r.name}`);
+ }
+ assert.deepEqual([...keys].sort(),expected.sort(),'The review must account for every association, including documented gaps');
+ for(const r of review){
+  const imported=records.some(q=>q.section===r.section&&q.collection===r.collection&&q.id===r.id);
+  assert.equal(imported,r.status==='verified','Pending passages must not be imported');
+  if(r.status==='pending')assert.ok(r.reason);
+ }
+ console.log(`PASS: all ${expected.length} associations reviewed, including ${review.filter(r=>r.status==='pending').length} documented gaps.`);
+}
 console.log(`PASS: ${records.length} literal ${book} quotations, authentic highlighted forms, source references and unchanged originals.`);

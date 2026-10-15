@@ -65,4 +65,4 @@ Le indicazioni storiche sopra sui messaggi di indisponibilità sono superate: la
 
 ## Pavese — 15 ottobre 2026
 
-Il [registro dedicato a Moby-Dick](MOBY-DICK-PAVESE.md) documenta 206 citazioni italiane verificate nei capitoli 1–41, tredici lacune e undici correzioni delle categorie narrative. I capitoli successivi e l'epilogo restano da allineare. Il prospetto di copertura distingue questi risultati dal controllo integrale già svolto su Verdinois.
+Il [registro dedicato a Moby-Dick](MOBY-DICK-PAVESE.md) documenta il confronto completo di tutte le 609 associazioni, nei 135 capitoli e nell'epilogo: 592 citazioni italiane verificate, diciassette lacune e diciotto correzioni delle categorie narrative. Sono comprese quattordici citazioni per luoghi senza coordinate e tre tratte da due note dell'autore, distinte dalle note del traduttore. Il confronto dei dati e il test SQL conservano tutti i riscontri originali.

@@ -26,8 +26,9 @@ const baseline=normalize(before),db=new PGlite();
 try{
  await db.exec(fs.readFileSync('database/migrations/001_content.sql','utf8'));
  await db.exec(seedSql(baseline));
- const sql=fs.readFileSync(`research/translations/${prefix}publish-translations.sql`,'utf8');
- await db.exec(sql);await db.exec(sql);
+ const batchArg=process.argv[3];
+ const files=batchArg?JSON.parse(fs.readFileSync(batchArg,'utf8')):[`research/translations/${prefix}publish-translations.sql`];
+ for(let run=0;run<2;run++)for(const file of files)await db.exec(fs.readFileSync(file,'utf8'));
  const imported:Bundle={formatVersion:1,tables:{...baseline.tables}};
  for(const table of tables)imported.tables[table]=(await db.query<Row>('select * from public.'+table)).rows;
  assert.deepEqual(reconstruct(imported,bookId).data,inputs[0].data,'Only the intended translated passages may change, even on rerun');

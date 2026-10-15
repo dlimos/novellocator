@@ -7,7 +7,7 @@ Verifica delle copie locali al 15 ottobre 2026. I conteggi comprendono i gruppi 
 | Ulysses | 333 | 301 | 0 | 0 | 0 |
 | In Search of Lost Time | 271 | 6 | 0 | 269 | 0 |
 | War and Peace | 244 | 108 | 217 | 17 | 0 |
-| Moby-Dick | 609 | 609 | 206 | 0 | 0 |
+| Moby-Dick | 609 | 609 | 592 | 0 | 0 |
 | The Great Gatsby | 170 | 170 | 0 | 0 | 0 |
 | One Hundred Years of Solitude | 128 | 0 | 0 | 0 | 128 |
 | The Catcher in the Rye | 117 | 5 | 0 | 0 | 0 |
