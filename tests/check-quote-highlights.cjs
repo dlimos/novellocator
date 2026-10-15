@@ -12,6 +12,8 @@ assert.equal(run(`renderQuote('Saint-Hilaire', [{name:'Saint-Hilaire · model: S
 assert.equal(run(`renderQuote('Deasy’s school', [{name:"Deasy's school"}])`),`${bold}Deasy’s school</strong>`);
 assert.equal(run(`renderQuote('в Москве', [], ['Москве'])`),`в ${bold}Москве</strong>`);
 assert.equal(run(`renderQuote('An unnamed room.', [{name:'Paris'}])`),'An unnamed room.');
+assert.equal(run(`renderQuote('Louis Hatcher carries a lantern.', [{name:'Hunting woods',aliases:['Louis Hatcher']}], [])`),'Louis Hatcher carries a lantern.');
+assert.equal(run(`renderQuote('Cambridge near Harvard; the quad is quiet.', [{name:'Harvard',aliases:['Cambridge','quad']}], ['Harvard'])`),`Cambridge near ${bold}Harvard</strong>; the quad is quiet.`);
 assert.equal(run(`renderQuote('Le\u0301on', [{name:'Léon'}])`),`${bold}Le\u0301on</strong>`);
 run(`chapters[0].citations.find(item=>item.placeId==='paris').excerpt.translations.it={quote:'Paris',language:'it',type:'translation',attribution:'Synthetic test fixture',highlightTerms:['Paris']};selectChapter(0,false,false);selectCitation(chapters[0].citations.findIndex(item=>item.placeId==='paris'),false)`);
 assert.ok(elements['selected-location'].children.some(child=>child.innerHTML.includes(bold+'Paris</strong>')));
@@ -21,6 +23,14 @@ run(`chapters[0].unlocatedPlaces=[{name:'Paris',text:'Unlocated evidence',quote:
 assert.ok(elements['selected-location'].parentElement.children.at(-1).innerHTML.includes(bold+'Paris</strong> &amp; beyond.'));
 assert.equal(run(`window.atlasI18n.localizeData({highlightTerms:['Paris'],aliases:['Paris']}).highlightTerms[0]`),'Paris');
 assert.equal(run(`window.atlasI18n.localizeData({highlightTerms:['Paris'],aliases:['Paris']}).aliases[0]`),'Paris');
+for(const language of ['en','it','fr','es']){
+ const {ctx:faulkner}=setup('sound-and-fury',language);
+ const passages=faulkner.window.atlasData.chapters.flatMap(c=>[...Object.values(c.placeExcerpts||{}).map(q=>q.original),...(c.citations||[]).map(r=>r.excerpt.original),...(c.unlocatedPlaces||[])]).filter(q=>q.quotationReview==='2026-10-15');
+ for(const passage of passages){
+  faulkner.testPassage=passage;
+  assert.equal(vm.runInContext(`quotationBody(testPassage,[{name:'room',aliases:['house','France','Cambridge','Louis Hatcher','Jesus']}])`,faulkner),vm.runInContext(`quotationBody(testPassage,[])`,faulkner),'Reviewed highlights must not acquire unrelated aliases');
+ }
+}
 const {ctx:legacy,elements:legacyElements}=setup('moby-dick');
 vm.runInContext(`delete chapters[0].placeExcerpts[chapters[0].places[0]];literaryPlaces[chapters[0].places[0]].aliases=['New Bedford'];chapters[0].placeQuotes[chapters[0].places[0]]='New Bedford';selectChapter(0,false,false);selectPlace(0,false)`,legacy);
 assert.ok(legacyElements['selected-location'].children.some(child=>child.innerHTML.includes(bold+'New Bedford</strong>')));

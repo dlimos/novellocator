@@ -243,13 +243,15 @@ function quotePlaceNames(place){
  for(const name of names)for(const alias of quoteNameIndex.get(quoteNameKey(name))||[])names.add(alias);
  return [...names].flatMap(name=>[name,...name.split(/\s*·\s*|\s+\/\s+|[()]/)]).map(name=>name.trim()).filter(name=>name.length>1);
 }
-function renderQuote(quote,places=[],terms=[]){
+function renderQuote(quote,places=[],terms=null){
  const text=String(quote),offsets=[],characters=[];
  let offset=0;
  for(const character of text){const key=quoteNameKey(character);for(const unit of key){characters.push(unit);offsets.push({start:offset,end:offset+character.length});}if(!key&&offsets.length)offsets.at(-1).end=offset+character.length;offset+=character.length;}
  const normalized=characters.join(''),ranges=[];
  const isWord=character=>character&&/[\p{L}\p{N}\p{M}]/u.test(character);
- for(const term of [...terms,...places.flatMap(quotePlaceNames)]){
+ // Passage-specific evidence takes precedence over aliases from other scenes.
+ const names=terms??places.flatMap(quotePlaceNames);
+ for(const term of names){
   const key=quoteNameKey(term);if(!key)continue;
   let start=normalized.indexOf(key);
   while(start>=0){const end=start+key.length;
@@ -276,7 +278,8 @@ function selectedPassage(excerpts,language=locale){
 }
 const quotationControls=new Map();let quotationControlId=0;
 function quotationBody(item,places){
- return `<p><strong>${esc(t(item.type==='translation'?'Published translation':'Original text'))} · ${esc(t(excerptLanguageNames[item.language]||item.language))}</strong></p><blockquote lang="${esc(item.language)}">${renderQuote(item.quote,places,item.highlightTerms||[])}</blockquote><p class="excerpt-credit">${esc(item.attribution||'')}</p>`;
+ const terms=item.highlightTerms?.length||item.highlightMode==='explicit'?item.highlightTerms||[]:null;
+ return `<p><strong>${esc(t(item.type==='translation'?'Published translation':'Original text'))} · ${esc(t(excerptLanguageNames[item.language]||item.language))}</strong></p><blockquote lang="${esc(item.language)}">${renderQuote(item.quote,places,terms)}</blockquote><p class="excerpt-credit">${esc(item.attribution||'')}</p>`;
 }
 function changeQuotationLanguage(select){
  const state=quotationControls.get(select.dataset.quotationId),item=state?.records.find(item=>item.language===select.value);
