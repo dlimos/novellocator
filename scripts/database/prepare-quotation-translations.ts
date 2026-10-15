@@ -11,19 +11,23 @@ const targeted=normalize([]);
 const mapped=changes.filter((c:any)=>c.collection!=='unlocated');
 const reference=(c:any)=>c.collection==='section'?`section:${c.section}`:`${c.section}:${c.collection==='citations'?'cited':'core'}:${c.id}`;
 const ids=new Set(mapped.map((c:any)=>`${reference(c)}:${c.language}`));
+const legacyCore=mapped.filter((c:any)=>c.legacyCore);
+for(const c of legacyCore)ids.add(reference(c)+':original');
 targeted.tables.excerpts=bundle.tables.excerpts.filter(r=>ids.has(r.id));
-if(targeted.tables.excerpts.length!==mapped.length)throw Error('Missing translated excerpts');
+if(targeted.tables.excerpts.length!==mapped.length+legacyCore.length)throw Error('Missing translated excerpts or legacy original');
 const sources=new Set(targeted.tables.excerpts.flatMap(r=>[r.text_source_id,r.rights_source_id]));
 targeted.tables.sources=bundle.tables.sources.filter(r=>sources.has(r.id));
-const q=(s:string)=>"'"+s.replaceAll("'","''")+"'";
+// Keep line breaks escaped: editor indentation must never alter a quotation guard.
+const q=(s:string)=>"E'"+s.replaceAll('\\','\\\\').replaceAll("'","''").replaceAll('\r','\\r').replaceAll('\n','\\n')+"'";
 const unlocated=changes.filter((c:any)=>c.collection==='unlocated');
-const checks=mapped.map((c:any)=>`if not exists(select 1 from public.excerpts where book_id=${q(bookId)} and id=${q(reference(c)+':original')} and slot='original' and quote=${q(c.originalQuote)}) then raise exception 'Original passage changed: ${c.section}/${c.id}'; end if;`);
+const originalExists=(c:any)=>`exists(select 1 from public.excerpts where book_id=${q(bookId)} and id=${q(reference(c)+':original')} and slot='original' and quote=${q(c.originalQuote)})${c.legacyCore?` or exists(select 1 from public.place_references where book_id=${q(bookId)} and id=${q(reference(c))} and metadata->>'quote'=${q(c.originalQuote)})`:''}`;
+const checks=mapped.map((c:any)=>`if not (${originalExists(c)}) then raise exception 'Original passage changed: ${c.section}/${c.id}'; end if;`);
 for(const c of mapped)checks.push(`if exists(select 1 from public.excerpts where book_id=${q(bookId)} and id=${q(reference(c)+':'+c.language)} and quote<>${q(c.passage.quote)}) then raise exception 'Existing translation differs: ${c.section}/${c.id}/${c.language}'; end if;`);
 const categoryFile=`${folder}/${bookId}-category-corrections.json`;
 const categoryChanges=fs.existsSync(categoryFile)?JSON.parse(fs.readFileSync(categoryFile,'utf8')):[];
-for(const c of categoryChanges)checks.push(`if not exists(select 1 from public.excerpts where book_id=${q(bookId)} and id=${q(`${c.section}:core:${c.id}:original`)} and quote=${q(c.originalQuote)}) then raise exception 'Category evidence changed: ${c.section}/${c.id}'; end if;`);
+for(const c of categoryChanges)checks.push(`if not (exists(select 1 from public.excerpts where book_id=${q(bookId)} and id=${q(`${c.section}:core:${c.id}:original`)} and quote=${q(c.originalQuote)}) or exists(select 1 from public.place_references where book_id=${q(bookId)} and id=${q(`${c.section}:core:${c.id}`)} and metadata->>'quote'=${q(c.originalQuote)})) then raise exception 'Category evidence changed: ${c.section}/${c.id}'; end if;`);
 const updates=unlocated.map((c:any)=>{
- const row=bundle.tables.unlocated_settings.find(r=>r.section_id===c.section&&(r.metadata as any).id===c.id);
+ const row=bundle.tables.unlocated_settings.find(r=>r.section_id===c.section&&((r.metadata as any).id||r.name)===c.id);
  if(!row)throw Error('Unlocated translation target absent');
  checks.push(`if not exists(select 1 from public.unlocated_settings where book_id=${q(bookId)} and section_id=${c.section} and ordinal=${row.ordinal} and quote=${q(c.originalQuote)}) then raise exception 'Unlocated passage changed: ${c.section}/${c.id}'; end if;`);
  checks.push(`if exists(select 1 from public.unlocated_settings where book_id=${q(bookId)} and section_id=${c.section} and ordinal=${row.ordinal} and metadata#>>'{translations,${c.language},quote}' is not null and metadata#>>'{translations,${c.language},quote}'<>${q(c.passage.quote)}) then raise exception 'Existing unlocated translation differs: ${c.section}/${c.id}/${c.language}'; end if;`);
@@ -33,11 +37,12 @@ const updates=unlocated.map((c:any)=>{
 // Existing rows are never overwritten; the guards above permit identical reruns.
 const inserts=seedSql(targeted).replace(/on conflict \(([^)]+)\) do update set [^\n]+;/g,'on conflict ($1) do nothing;');
 const categoryUpdates=categoryChanges.map((c:any)=>`update public.place_references set category='mentioned',metadata=jsonb_set(metadata,'{explicitCategory}','true'::jsonb) where book_id=${q(bookId)} and id=${q(`${c.section}:core:${c.id}`)} and category='action';`);
+for(const sectionId of new Set(legacyCore.map((c:any)=>c.section)))categoryUpdates.push(`update public.sections set legacy_fields=array_append(legacy_fields,'placeExcerpts') where book_id=${q(bookId)} and id=${sectionId} and not('placeExcerpts'=any(legacy_fields));`);
 for(const sectionId of new Set(categoryChanges.map((c:any)=>c.section)))categoryUpdates.push(`update public.sections set legacy_fields=array_append(legacy_fields,'placeCategories') where book_id=${q(bookId)} and id=${sectionId} and not('placeCategories'=any(legacy_fields));`);
 const content=inserts.replace('commit;',[...updates,...categoryUpdates].join('\n')+'\ncommit;');
 const guarded=content.replace('set local standard_conforming_strings = on;','set local standard_conforming_strings = on;\ndo $verify$ begin\n'+checks.join('\n')+'\nend $verify$;');
 fs.writeFileSync(`${folder}/${outputPrefix}publish-translations.sql`,guarded+`\nselect language,count(*) from public.excerpts where book_id=${q(bookId)} and type='translation' group by language;\nselect count(*) as unlocated_with_translations from public.unlocated_settings where book_id=${q(bookId)} and metadata ? 'translations';\n`);
 fs.writeFileSync(`${folder}/${outputPrefix}publication-expected.json`,JSON.stringify({bookId,mapped:mapped.length,unlocated:unlocated.length,total:changes.length},null,2)+'\n');
-const expected=changes.map((c:any)=>({section_id:c.section,collection:c.collection,reference_id:reference(c),ordinal:c.collection==='unlocated'?bundle.tables.unlocated_settings.find(r=>r.section_id===c.section&&(r.metadata as any).id===c.id)?.ordinal:null,language:c.language,quote:c.passage.quote}));
+const expected=changes.map((c:any)=>({section_id:c.section,collection:c.collection,reference_id:reference(c),ordinal:c.collection==='unlocated'?bundle.tables.unlocated_settings.find(r=>r.section_id===c.section&&((r.metadata as any).id||r.name)===c.id)?.ordinal:null,language:c.language,quote:c.passage.quote}));
 fs.writeFileSync(`${folder}/${outputPrefix}verify-translations.sql`,`with expected as (select * from jsonb_to_recordset($quotecheck$${JSON.stringify(expected)}$quotecheck$::jsonb) as r(section_id integer,collection text,reference_id text,ordinal integer,language text,quote text)), verified as (select r.* from expected r where case when r.collection='unlocated' then exists(select 1 from public.unlocated_settings u where u.book_id=${q(bookId)} and u.section_id=r.section_id and u.ordinal=r.ordinal and u.metadata->'translations'->r.language->>'quote'=r.quote) else exists(select 1 from public.excerpts e where e.book_id=${q(bookId)} and e.id=(r.reference_id||':'||r.language) and e.slot=r.language and e.language=r.language and e.quote=r.quote) end) select language,count(*) as exact_verified_translations from verified group by language order by language;\n`);
 console.log(`${mapped.length} mapped and ${unlocated.length} unlocated translations prepared; original-text guards protect every target.`);

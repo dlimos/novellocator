@@ -10,7 +10,8 @@ const inputs=loadInputs(process.cwd(),[bookId]);
 const before=structuredClone(inputs);
 for(const change of changes){
  const section=before[0].data.chapters.find(s=>s.id===change.section)!;
- const target=change.collection==='section'?section.excerpts!:change.collection==='unlocated'?section.unlocatedPlaces!.find(s=>(s as any).id===change.id)!:change.collection==='core'?section.placeExcerpts![change.id]:section.citations!.find(c=>c.placeId===change.id)!.excerpt;
+ if(change.legacyCore){delete section.placeExcerpts![change.id];if(!Object.keys(section.placeExcerpts!).length)delete section.placeExcerpts;continue;}
+ const target=change.collection==='section'?section.excerpts!:change.collection==='unlocated'?section.unlocatedPlaces!.find(s=>((s as any).id||s.name)===change.id)!:change.collection==='core'?section.placeExcerpts![change.id]:section.citations!.find(c=>c.placeId===change.id)!.excerpt;
  delete target.translations![change.language];
  if(change.collection==='unlocated'&&!Object.keys(target.translations!).length)delete target.translations;
 }
@@ -33,7 +34,7 @@ try{
  const byId=(a:Row,b:Row)=>String(a.id).localeCompare(String(b.id));
  assert.deepEqual([...imported.tables.place_references].sort(byId),normalize(inputs).tables.place_references.sort(byId),'Only the documented narrative category corrections may change');
  const mapped=changes.filter((c:any)=>c.collection!=='unlocated');
- assert.equal(imported.tables.excerpts.length-baseline.tables.excerpts.length,mapped.length);
+ assert.equal(imported.tables.excerpts.length-baseline.tables.excerpts.length,mapped.length+mapped.filter((c:any)=>c.legacyCore).length);
  console.log(`PASS: ${bookId}, SQL tested twice; ${mapped.length} mapped/section and ${changes.length-mapped.length} unlocated translations, ${categoryChanges.length} documented category corrections; all originals and other data preserved.`);
 }finally{await db.close();}
 })().catch(error=>{console.error(error);process.exitCode=1;});

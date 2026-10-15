@@ -62,3 +62,7 @@ Il registro locale `war-and-peace-alignment-review.json` rende conto di tutti i 
 Durante il confronto sono state corrette 34 categorie da azione a menzione, quando il riscontro conservato è una destinazione, una notizia, una disposizione militare o un riepilogo, senza scena ambientata nel luogo. `war-and-peace-category-corrections.json` conserva il riscontro originale e la motivazione di ogni modifica. La pubblicazione protegge ogni associazione con confronto dell'originale, aggiorna soltanto gli identificativi previsti e non sovrascrive altri estratti. Il test PostgreSQL/PGlite, eseguito due volte sul medesimo import, conferma la ricostruzione completa e la conservazione degli originali.
 
 Le indicazioni storiche sopra sui messaggi di indisponibilità sono superate: la tendina mostra soltanto testi autentici disponibili e, in mancanza della traduzione, conserva l'originale. Il titolo resta «Passaggio del romanzo»; una sola lingua rende la tendina non modificabile.
+
+## Pavese — 15 ottobre 2026
+
+Il [registro dedicato a Moby-Dick](MOBY-DICK-PAVESE.md) documenta 206 citazioni italiane verificate nei capitoli 1–41, tredici lacune e undici correzioni delle categorie narrative. I capitoli successivi e l'epilogo restano da allineare. Il prospetto di copertura distingue questi risultati dal controllo integrale già svolto su Verdinois.

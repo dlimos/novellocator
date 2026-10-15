@@ -22,6 +22,6 @@ assert.ok(elements['selected-location'].parentElement.children.at(-1).innerHTML.
 assert.equal(run(`window.atlasI18n.localizeData({highlightTerms:['Paris'],aliases:['Paris']}).highlightTerms[0]`),'Paris');
 assert.equal(run(`window.atlasI18n.localizeData({highlightTerms:['Paris'],aliases:['Paris']}).aliases[0]`),'Paris');
 const {ctx:legacy,elements:legacyElements}=setup('moby-dick');
-vm.runInContext(`literaryPlaces[chapters[0].places[0]].aliases=['New Bedford'];chapters[0].placeQuotes[chapters[0].places[0]]='New Bedford';selectChapter(0,false,false);selectPlace(0,false)`,legacy);
+vm.runInContext(`delete chapters[0].placeExcerpts[chapters[0].places[0]];literaryPlaces[chapters[0].places[0]].aliases=['New Bedford'];chapters[0].placeQuotes[chapters[0].places[0]]='New Bedford';selectChapter(0,false,false);selectPlace(0,false)`,legacy);
 assert.ok(legacyElements['selected-location'].children.some(child=>child.innerHTML.includes(bold+'New Bedford</strong>')));
 console.log('PASS: quotation highlights preserve literal text, escape HTML, respect word boundaries and support aliases, translations, Unicode, popups and unlocated settings.');
