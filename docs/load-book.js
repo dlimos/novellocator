@@ -15,12 +15,11 @@ function startEngine(source){
  const nav=document.getElementById('atlas-mode-nav'),t=window.atlasI18n.t;
  if(nav?.appendChild&&available){
   nav.hidden=false;
-  const label=document.createElement('span');label.textContent=t(imaginary?'Imaginary maps':'Geographic atlas');nav.appendChild(label);
+  const label=document.createElement('span');label.textContent=t(imaginary?'Literary views':'Geographic atlas');nav.appendChild(label);
   const alternate=document.createElement('a'),target=new URL('atlas.html',location.href);target.searchParams.set('book',bookId);target.searchParams.set('lang',window.atlasI18n.locale);if(!imaginary)target.searchParams.set('mode','imaginary');
-  alternate.href=target.href;alternate.textContent=t(imaginary?'Open geographic atlas':'Open imaginary maps');nav.appendChild(alternate);
-  const collection=document.createElement('a');collection.href='imaginary.html?lang='+window.atlasI18n.locale;collection.textContent=t('All imaginary maps');nav.appendChild(collection);
+  target.hash=location.hash;alternate.href=target.href;alternate.textContent=t(imaginary?'Open geographic atlas':'Open literary views');nav.appendChild(alternate);
  }
- window.atlasData=window.atlasI18n.localizeData(window.atlasData);window.atlasDataSource=source;const engine=document.createElement('script');engine.src='app.js?v=20261016-separated-modes';document.head.appendChild(engine);
+ window.atlasData=window.atlasI18n.localizeData(window.atlasData);window.atlasDataSource=source;const engine=document.createElement('script');engine.src='app.js?v=20261016-literary-views';document.head.appendChild(engine);
 }
 if(!/^[a-z0-9-]+$/.test(bookId)){document.getElementById('detail').textContent=window.atlasI18n.t('Titolo non valido.');}
 else if(entry?.mapType==='illustrated'){

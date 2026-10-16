@@ -24,6 +24,10 @@ for(const id of ['proust','sound-and-fury','macondo']){
 }
 const catalog={window:{}};vm.runInNewContext(fs.readFileSync('docs/catalogue.js','utf8'),catalog);
 const example={id:'test-world',title:'World',author:'Author',ariaLabel:'Open',setting:'Town',cover:{position:'center',src:'test.jpg',alt:'Art',width:1,height:1},credit:{artist:'Artist',title:'Painting',url:'https://example.org',year:1900}};
-assert(catalog.window.atlasCatalogueView.render([example],'imaginary').cards.includes('&amp;mode=imaginary'));
+assert(!catalog.window.atlasCatalogueView.render([example],'imaginary').cards.includes('mode=imaginary'));
 assert(!catalog.window.atlasCatalogueView.render([example]).cards.includes('mode=imaginary'));
-console.log('PASS: three novels have independent geographic/imaginary points, original evidence and identities, image-only exports, empty sections, four languages and separate catalogue links.');
+assert(!fs.existsSync('docs/imaginary.html'));
+assert(!fs.readFileSync('docs/index.html','utf8').includes('imaginary.html'));
+assert(!fs.readFileSync('docs/load-book.js','utf8').includes('imaginary.html'));
+assert(fs.readFileSync('docs/load-book.js','utf8').includes('Open literary views'));
+console.log('PASS: three novels have independent geographic/illustrated points, original evidence, image-only exports and access exclusively through the novel; no collection or catalogue links.');

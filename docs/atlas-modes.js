@@ -33,7 +33,7 @@
    for(const chapter of data.chapters)chapter.placeNames=Object.fromEntries(chapter.places.map(id=>[id,data.places[id]?.name||data.citedPlaces[id]?.name]));
    illustration.geographicPlaces={};illustration.geographicOption=null;illustration.preferIllustratedAnchors=true;
    illustration.emptyNote=(root.atlasI18n?.t||((key)=>key))('No illustrated places in this section.');
-   illustration.caption=illustration.caption||(root.atlasI18n?.t||((key)=>key))('Imaginary maps');
+   illustration.caption=illustration.caption||(root.atlasI18n?.t||((key)=>key))('Literary views');
    data.book.footerHtml='';
   }else{
    data.book.mapType='geographic';delete data.book.illustration;
