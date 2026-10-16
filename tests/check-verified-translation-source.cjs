@@ -4,6 +4,12 @@ const records=JSON.parse(fs.readFileSync(`research/translations/verified/${book}
 const c={window:{}};vm.runInNewContext(fs.readFileSync(`docs/data/${book}.js`,'utf8'),c);
 const sources=new Map();
 for(const r of records){
+ if(!r.sourceFile){
+  assert.equal(book,'crime-and-punishment');assert.equal(r.language,'fr');
+  const legacy=fs.readFileSync(`research/translations/corpus/crime-fr-${r.section}-web.txt`,'utf8').replace(/L\d+: /g,'').replace(/\s+/g,' ').trim();
+  assert.ok(legacy.includes(r.passage.quote.replace(/\s+/g,' ').trim()));
+  continue;
+ }
  if(!sources.has(r.sourceFile))sources.set(r.sourceFile,JSON.parse(fs.readFileSync(`research/translations/corpus/${r.sourceFile}`,'utf8')));
  assert.ok(sources.get(r.sourceFile)[r.sourceParagraph].includes(r.passage.quote),`Nonliteral quotation: ${r.section}/${r.id}`);
  for(const term of r.passage.highlightTerms||[])assert.ok(r.passage.quote.includes(term),`Invented geographic form: ${r.section}/${r.id}`);
@@ -13,7 +19,8 @@ for(const r of records){
  assert.equal(group.translations[r.language].quote,r.passage.quote);
  assert.equal(r.collection==='unlocated'?group.quote:group.original.quote,r.originalQuote,'Original passage must remain unchanged');
 }
-const reviewFile=`research/translations/${book}-alignment-review.json`;
+const reviewLanguage=process.argv[3];
+const reviewFile=`research/translations/${book}${reviewLanguage?'-'+reviewLanguage:''}-alignment-review.json`;
 if(fs.existsSync(reviewFile)){
  const review=JSON.parse(fs.readFileSync(reviewFile,'utf8')),keys=new Set(review.map(r=>`${r.section}/${r.collection}/${r.id}`)),expected=[];
  assert.equal(keys.size,review.length,'An association must not be reviewed twice');
@@ -25,7 +32,7 @@ if(fs.existsSync(reviewFile)){
  }
  assert.deepEqual([...keys].sort(),expected.sort(),'The review must account for every association, including documented gaps');
  for(const r of review){
-  const imported=records.some(q=>q.section===r.section&&q.collection===r.collection&&q.id===r.id);
+  const imported=records.some(q=>q.section===r.section&&q.collection===r.collection&&q.id===r.id&&(!reviewLanguage||q.language===reviewLanguage));
   assert.equal(imported,r.status==='verified','Pending passages must not be imported');
   if(r.status==='pending')assert.ok(r.reason);
  }

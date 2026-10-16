@@ -22,12 +22,14 @@ for(const locale of ['en','it','fr','es']){
  assert.equal(run("renderExcerpts(null,'Passage from the novel')"),'');
  assert.equal(run("renderExcerpts({original:{quote:'   ',language:'ru'}},'Passage from the novel')"),'');
  assert.equal(run("selectedPassage({original:{quote:'Original',language:'ru'},translations:{[locale]:{quote:' ',language:locale}}}).quote"),'Original');
+ assert.equal(run("renderExcerpts(chapters[1].citations.find(r=>r.placeId==='haymarket').excerpt,'Passage from the novel')"),'','A Neva passage must not appear as evidence for the Hay Market in any language');
+ assert.equal(run("renderExcerpts(chapters[5].placeExcerpts.haymarket,'Passage from the novel')"),'','An original unrelated to the place stays in analysis, outside the quotation controls');
 }
 // Each imported passage is a literal substring of its archived consulted source.
 const records=JSON.parse(fs.readFileSync('research/translations/verified/crime-and-punishment.json','utf8'));
 const normalize=s=>s.replace(/L\d+: /g,'').replace(/\s+/g,' ').trim();
 for(const record of records){
- const source=fs.readFileSync(`research/translations/corpus/crime-${record.language}-${record.language==='en'?1:record.section}-web.txt`,'utf8');
+ const source=record.sourceFile?JSON.parse(fs.readFileSync(`research/translations/corpus/${record.sourceFile}`,'utf8'))[record.sourceParagraph]:fs.readFileSync(`research/translations/corpus/crime-${record.language}-${record.language==='en'?1:record.section}-web.txt`,'utf8');
  assert.ok(normalize(source).includes(normalize(record.passage.quote)),`${record.section}/${record.id}/${record.language}: source mismatch`);
  assert.ok(record.originalQuote&&record.alignment&&record.rightsNote);
  assert.ok(record.passage.translator&&record.passage.publisher&&record.passage.edition);

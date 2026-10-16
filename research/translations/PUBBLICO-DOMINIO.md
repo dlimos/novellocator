@@ -4,6 +4,8 @@ Ricerca aggiornata al 13 ottobre 2026. Lingue: italiano, inglese, francese, spag
 
 Una fonte reperita non equivale a citazioni già inserite. Prima dell'importazione verificare completezza, corrispondenza del passo, credito editoriale, eventuali revisioni e riuso nel territorio pertinente. Le dichiarazioni di pubblico dominio USA non certificano automaticamente il pubblico dominio in Italia o Spagna. Distinguere il testo storico dalla licenza della digitalizzazione e dagli apparati aggiunti.
 
+Aggiornamento del 16 ottobre 2026: completato il confronto dell’edizione Garnett di *Delitto e castigo*, con 299 versioni inglesi utilizzabili e 64 lacune documentate. Il [registro dedicato](DELITTO-E-CASTIGO-GARNETT.md) specifica fonte integrale, prima pubblicazione, esemplare cartaceo non identificato, territorio dei diritti, riscontri respinti e verifiche. L’individuazione delle altre edizioni nella tabella resta distinta dal loro effettivo allineamento e inserimento.
+
 ## Italiano
 
 | Opera | Traduzione e fonte consultata | Verifiche e limiti |

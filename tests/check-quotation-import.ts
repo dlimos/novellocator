@@ -8,7 +8,16 @@ const prefix=bookId==='crime-and-punishment'?'':bookId+'-';
 const changes=JSON.parse(fs.readFileSync(`research/translations/verified/${bookId}.json`,'utf8'));
 const inputs=loadInputs(process.cwd(),[bookId]);
 const before=structuredClone(inputs);
+const flagsFile=`research/translations/${bookId}-quotation-review-flags.json`;
+const flags=fs.existsSync(flagsFile)?JSON.parse(fs.readFileSync(flagsFile,'utf8')):[];
+for(const f of flags){
+ const section=before[0].data.chapters.find(s=>s.id===f.section)!;
+ const group=f.collection==='section'?section.excerpts!:f.collection==='unlocated'?section.unlocatedPlaces!.find(s=>((s as any).id||s.name)===f.id)!:f.collection==='core'?section.placeExcerpts![f.id]:section.citations!.find(c=>c.placeId===f.id)!.excerpt;
+ const target=f.collection==='unlocated'?group:f.slot==='original'?(group as any).original:(group as any).translations[f.slot];
+ delete (target as any).verificationStatus;delete (target as any).verificationNote;
+}
 for(const change of changes){
+ if(flags.some((f:any)=>f.slot===change.language&&f.section===change.section&&f.collection===change.collection&&f.id===change.id))continue;
  const section=before[0].data.chapters.find(s=>s.id===change.section)!;
  if(change.legacyCore){delete section.placeExcerpts![change.id];if(!Object.keys(section.placeExcerpts!).length)delete section.placeExcerpts;continue;}
  const target=change.collection==='section'?section.excerpts!:change.collection==='unlocated'?section.unlocatedPlaces!.find(s=>((s as any).id||s.name)===change.id)!:change.collection==='core'?section.placeExcerpts![change.id]:section.citations!.find(c=>c.placeId===change.id)!.excerpt;
@@ -19,6 +28,10 @@ const categoryFile=`research/translations/${bookId}-category-corrections.json`;
 const categoryChanges=fs.existsSync(categoryFile)?JSON.parse(fs.readFileSync(categoryFile,'utf8')):[];
 for(const change of categoryChanges){
  const section=before[0].data.chapters.find(s=>s.id===change.section)!;
+ if(change.collection==='unlocated'){
+  (section.unlocatedPlaces!.find(s=>((s as any).id||s.name)===change.id)! as any).category=change.from;
+  continue;
+ }
  if(section.placeCategories)delete section.placeCategories[change.id];
  if(section.placeCategories&&!Object.keys(section.placeCategories).length)delete section.placeCategories;
 }
@@ -35,7 +48,8 @@ try{
  const byId=(a:Row,b:Row)=>String(a.id).localeCompare(String(b.id));
  assert.deepEqual([...imported.tables.place_references].sort(byId),normalize(inputs).tables.place_references.sort(byId),'Only the documented narrative category corrections may change');
  const mapped=changes.filter((c:any)=>c.collection!=='unlocated');
- assert.equal(imported.tables.excerpts.length-baseline.tables.excerpts.length,mapped.length+mapped.filter((c:any)=>c.legacyCore).length);
+ const retained=mapped.filter((c:any)=>flags.some((f:any)=>f.slot===c.language&&f.section===c.section&&f.collection===c.collection&&f.id===c.id)).length;
+ assert.equal(imported.tables.excerpts.length-baseline.tables.excerpts.length,mapped.length+mapped.filter((c:any)=>c.legacyCore).length-retained);
  console.log(`PASS: ${bookId}, SQL tested twice; ${mapped.length} mapped/section and ${changes.length-mapped.length} unlocated translations, ${categoryChanges.length} documented category corrections; all originals and other data preserved.`);
 }finally{await db.close();}
 })().catch(error=>{console.error(error);process.exitCode=1;});

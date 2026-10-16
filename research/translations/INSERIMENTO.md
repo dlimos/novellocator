@@ -66,3 +66,13 @@ Le indicazioni storiche sopra sui messaggi di indisponibilità sono superate: la
 ## Pavese — 15 ottobre 2026
 
 Il [registro dedicato a Moby-Dick](MOBY-DICK-PAVESE.md) documenta il confronto completo di tutte le 609 associazioni, nei 135 capitoli e nell'epilogo: 592 citazioni italiane verificate, diciassette lacune e diciotto correzioni delle categorie narrative. Sono comprese quattordici citazioni per luoghi senza coordinate e tre tratte da due note dell'autore, distinte dalle note del traduttore. Il confronto dei dati e il test SQL conservano tutti i riscontri originali.
+
+## Garnett — 16 ottobre 2026
+
+Il [registro di Delitto e castigo](DELITTO-E-CASTIGO-GARNETT.md) documenta il confronto di tutti i 363 gruppi nelle sei parti e nell’epilogo: **299 citazioni inglesi verificate**, comprese quaranta introduzioni, e **64 lacune**. Sono 293 aggiunte alle sei versioni inglesi iniziali. La revisione distingue omissioni di Garnett, varianti dei nomi e riscontri originali insufficienti o attribuiti al luogo sbagliato.
+
+Sono corrette 58 categorie da azione a menzione. Ventitré originali non utilizzabili sono marcati pendenti e una precedente versione francese sulle barche della Neva, erroneamente assegnata alla piazza Sennaja, è respinta: i testi restano nei dati di analisi, esclusi dai controlli pubblici delle citazioni. Restano quindici versioni francesi utilizzabili. Le altre lacune inglesi conservano l’originale disponibile, senza inventare il passo mancante.
+
+I cinque lotti SQL sono stati provati due volte in PostgreSQL/PGlite, con ricostruzione integrale dei dati e conservazione dei testi originali. L’aggiornamento dei metadati di revisione usa payload codificati e condizioni puntuali sugli identificativi: un avviso preliminare dell’editor sulle condizioni SQL ha portato ad annullare quella esecuzione e riscrivere la forma della query, senza ampliare gli aggiornamenti.
+
+I lotti sono pubblicati. La verifica finale nel database conferma 299 testi inglesi esatti, le sedici versioni francesi conservate compresa quella respinta, tutti i 24 stati di revisione e le 58 correzioni delle categorie. Controllata sul sito la citazione inglese di Sennaja nel capitolo I.5, con selettore indipendente dall’interfaccia italiana, evidenziazione autentica e credito di Garnett.

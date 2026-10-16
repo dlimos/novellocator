@@ -30,7 +30,27 @@ const checks=mapped.map((c:any)=>`if not (${originalExists(c)}) then raise excep
 for(const c of mapped)checks.push(`if exists(select 1 from public.excerpts where book_id=${q(bookId)} and id=${q(reference(c)+':'+c.language)} and quote<>${q(c.passage.quote)}) then raise exception 'Existing translation differs: ${c.section}/${c.id}/${c.language}'; end if;`);
 const categoryFile=`${folder}/${bookId}-category-corrections.json`;
 const categoryChanges=fs.existsSync(categoryFile)?JSON.parse(fs.readFileSync(categoryFile,'utf8')):[];
-for(const c of categoryChanges)checks.push(`if not (exists(select 1 from public.excerpts where book_id=${q(bookId)} and id=${q(`${c.section}:core:${c.id}:original`)} and quote=${q(c.originalQuote)}) or exists(select 1 from public.place_references where book_id=${q(bookId)} and id=${q(`${c.section}:core:${c.id}`)} and metadata->>'quote'=${q(c.originalQuote)})) then raise exception 'Category evidence changed: ${c.section}/${c.id}'; end if;`);
+const flagsFile=`${folder}/${bookId}-quotation-review-flags.json`;
+const reviewFlags=fs.existsSync(flagsFile)?JSON.parse(fs.readFileSync(flagsFile,'utf8')):[];
+const flagUpdates=reviewFlags.map((f:any)=>{
+ const payload=`convert_from(decode(${q(Buffer.from(JSON.stringify({verificationStatus:f.verificationStatus,verificationNote:f.reason}),'utf8').toString('base64'))},'base64'),'UTF8')::jsonb`;
+ if(f.collection==='unlocated'){
+  const row=bundle.tables.unlocated_settings.find(r=>r.section_id===f.section&&((r.metadata as any).id||r.name)===f.id);
+  if(!row)throw Error('Unlocated review target absent');
+  checks.push(`if not exists(select 1 from public.unlocated_settings where book_id=${q(bookId)} and section_id=${f.section} and ordinal=${row.ordinal} and quote=${q(f.quote)}) then raise exception 'Review evidence changed: ${f.section}/${f.id}'; end if;`);
+  return `update public.unlocated_settings set metadata=metadata||${payload} where book_id=${q(bookId)} and section_id=${f.section} and ordinal=${row.ordinal};`;
+ }
+ const id=reference(f)+':'+f.slot;
+ checks.push(`if not exists(select 1 from public.excerpts where book_id=${q(bookId)} and id=${q(id)} and quote=${q(f.quote)}) then raise exception 'Review evidence changed: ${f.section}/${f.id}/${f.slot}'; end if;`);
+ return `update public.excerpts set metadata=metadata||${payload} where book_id=${q(bookId)} and id=${q(id)};`;
+});
+for(const c of categoryChanges){
+ if(c.collection==='unlocated'){
+  const row=bundle.tables.unlocated_settings.find(r=>r.section_id===c.section&&((r.metadata as any).id||r.name)===c.id);
+  if(!row)throw Error('Unlocated category target absent');
+  checks.push(`if not exists(select 1 from public.unlocated_settings where book_id=${q(bookId)} and section_id=${c.section} and ordinal=${row.ordinal} and quote=${q(c.originalQuote)}) then raise exception 'Unlocated category evidence changed: ${c.section}/${c.id}'; end if;`);
+ }else checks.push(`if not (exists(select 1 from public.excerpts where book_id=${q(bookId)} and id=${q(`${c.section}:core:${c.id}:original`)} and quote=${q(c.originalQuote)}) or exists(select 1 from public.place_references where book_id=${q(bookId)} and id=${q(`${c.section}:core:${c.id}`)} and metadata->>'quote'=${q(c.originalQuote)})) then raise exception 'Category evidence changed: ${c.section}/${c.id}'; end if;`);
+}
 const updates=unlocated.map((c:any)=>{
  const row=bundle.tables.unlocated_settings.find(r=>r.section_id===c.section&&((r.metadata as any).id||r.name)===c.id);
  if(!row)throw Error('Unlocated translation target absent');
@@ -41,10 +61,16 @@ const updates=unlocated.map((c:any)=>{
 });
 // Existing rows are never overwritten; the guards above permit identical reruns.
 const inserts=seedSql(targeted).replace(/on conflict \(([^)]+)\) do update set [^\n]+;/g,'on conflict ($1) do nothing;');
-const categoryUpdates=categoryChanges.map((c:any)=>`update public.place_references set category='mentioned',metadata=jsonb_set(metadata,'{explicitCategory}','true'::jsonb) where book_id=${q(bookId)} and id=${q(`${c.section}:core:${c.id}`)} and category='action';`);
+const categoryUpdates=categoryChanges.map((c:any)=>{
+ if(c.collection==='unlocated'){
+  const row=bundle.tables.unlocated_settings.find(r=>r.section_id===c.section&&((r.metadata as any).id||r.name)===c.id)!;
+  return `update public.unlocated_settings set metadata=jsonb_set(metadata,'{category}','"mentioned"'::jsonb) where book_id=${q(bookId)} and section_id=${c.section} and ordinal=${row.ordinal} and metadata->>'category'='action';`;
+ }
+ return `update public.place_references set category='mentioned',metadata=jsonb_set(metadata,'{explicitCategory}','true'::jsonb) where book_id=${q(bookId)} and id=${q(`${c.section}:core:${c.id}`)} and category='action';`;
+});
 for(const sectionId of new Set(legacyCore.map((c:any)=>c.section)))categoryUpdates.push(`update public.sections set legacy_fields=array_append(legacy_fields,'placeExcerpts') where book_id=${q(bookId)} and id=${sectionId} and not('placeExcerpts'=any(legacy_fields));`);
-for(const sectionId of new Set(categoryChanges.map((c:any)=>c.section)))categoryUpdates.push(`update public.sections set legacy_fields=array_append(legacy_fields,'placeCategories') where book_id=${q(bookId)} and id=${sectionId} and not('placeCategories'=any(legacy_fields));`);
-const content=inserts.replace('commit;',[...updates,...categoryUpdates].join('\n')+'\ncommit;');
+for(const sectionId of new Set(categoryChanges.filter((c:any)=>c.collection!=='unlocated').map((c:any)=>c.section)))categoryUpdates.push(`update public.sections set legacy_fields=array_append(legacy_fields,'placeCategories') where book_id=${q(bookId)} and id=${sectionId} and not('placeCategories'=any(legacy_fields));`);
+const content=inserts.replace('commit;',[...updates,...categoryUpdates,...flagUpdates].join('\n')+'\ncommit;');
 const guarded=content.replace('set local standard_conforming_strings = on;','set local standard_conforming_strings = on;\ndo $verify$ begin\n'+checks.join('\n')+'\nend $verify$;');
 fs.writeFileSync(`${folder}/${outputPrefix}publish-translations.sql`,guarded+`\nselect language,count(*) from public.excerpts where book_id=${q(bookId)} and type='translation' group by language;\nselect count(*) as unlocated_with_translations from public.unlocated_settings where book_id=${q(bookId)} and metadata ? 'translations';\n`);
 fs.writeFileSync(`${folder}/${outputPrefix}publication-expected.json`,JSON.stringify({bookId,mapped:mapped.length,unlocated:unlocated.length,total:changes.length},null,2)+'\n');

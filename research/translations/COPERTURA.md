@@ -1,6 +1,6 @@
 # Copertura delle citazioni nella lingua selezionata
 
-Verifica delle copie locali al 15 ottobre 2026. I conteggi comprendono i gruppi introduttivi, i luoghi mappati, le menzioni e i luoghi senza coordinate; non sono conteggi di testi unici. «Disponibile» comprende l’originale quando coincide con la lingua selezionata. La disponibilità non equivale a una nuova verifica dei diritti di tutti i contenuti preesistenti.
+Verifica delle copie locali al 16 ottobre 2026. I conteggi comprendono i gruppi introduttivi, i luoghi mappati, le menzioni e i luoghi senza coordinate; non sono conteggi di testi unici. «Disponibile» comprende l’originale quando coincide con la lingua selezionata. La disponibilità non equivale a una nuova verifica dei diritti di tutti i contenuti preesistenti.
 
 | Opera | Gruppi | EN | IT | FR | ES |
 | --- | ---: | ---: | ---: | ---: | ---: |
@@ -13,7 +13,7 @@ Verifica delle copie locali al 15 ottobre 2026. I conteggi comprendono i gruppi 
 | The Catcher in the Rye | 117 | 5 | 0 | 0 | 0 |
 | 1984 | 330 | 330 | 0 | 0 | 0 |
 | Don Quixote | 2161 | 0 | 0 | 0 | 2161 |
-| Crime and Punishment | 363 | 6 | 0 | 16 | 0 |
+| Crime and Punishment | 363 | 299 | 0 | 15 | 0 |
 | The Sound and the Fury | 227 | 227 | 0 | 0 | 0 |
 | Anna Karenina | 865 | 0 | 0 | 0 | 0 |
 | Lolita | 548 | 0 | 0 | 0 | 0 |
