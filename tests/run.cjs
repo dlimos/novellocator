@@ -16,3 +16,5 @@ const panoramaCheck = spawnSync(process.execPath, [path.join(__dirname, 'check-p
 if (panoramaCheck.status !== 0) process.exit(panoramaCheck.status || 1);
 const modesCheck = spawnSync(process.execPath, [path.join(__dirname, 'check-atlas-modes.cjs')], { cwd: root, stdio: 'inherit' });
 if (modesCheck.status !== 0) process.exit(modesCheck.status || 1);
+const outlineCheck = spawnSync(process.execPath, [path.join(__dirname, 'check-regional-outline.cjs')], { cwd: root, stdio: 'inherit' });
+if (outlineCheck.status !== 0) process.exit(outlineCheck.status || 1);

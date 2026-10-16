@@ -1,3 +1,4 @@
 .atlas-mode-nav{display:flex;align-items:center;flex-wrap:wrap;gap:12px 25px;margin:0 0 20px;padding:15px 20px;border:1px solid var(--line,#c8bda9);background:var(--paper,#fffaf0);font-size:16px}
 .atlas-mode-nav[hidden]{display:none}.atlas-mode-nav span{font-weight:bold}.atlas-mode-nav a{text-underline-offset:4px}
+.regional-outline-legend:before{content:'';display:inline-block;width:32px;border-top:3px dashed #19665c;margin:0 9px 3px 0}
 @media(max-width:700px){.atlas-mode-nav{font-size:15px;gap:12px}.atlas-mode-nav span{width:100%}}

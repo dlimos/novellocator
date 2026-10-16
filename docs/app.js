@@ -38,6 +38,8 @@ const basemaps=window.atlasBasemaps;
 let view=null, markerLayer=null, citedMarkerLayer=null, GraphicClass=null, ExtentClass=null;
 let current=0, selectedPlace=0, selectedCitation=-1, viewReady=false;
 const allLiteraryPlaces={...window.atlasData.citedPlaces,...literaryPlaces};
+const regionLegend=document.getElementById('regional-outline-legend');
+if(regionLegend){regionLegend.hidden=!Object.values(allLiteraryPlaces).some(place=>place.regionalOutline);regionLegend.textContent=t('Dashed outline: documented geographical region, not the town boundary.');}
 const layerQuery=new URLSearchParams(window.location.search).get('layers');
 const visibleLayers={action:layerQuery===null||layerQuery.split(',').includes('action'),mentioned:layerQuery===null||layerQuery.split(',').includes('mentioned')};
 const markerColors={action:'#19665c',mentioned:'#99502d'};
@@ -339,12 +341,13 @@ function renderLocation(options={}){
  const decimals=Number.isInteger(place.coordinateDecimals)&&place.coordinateDecimals>=0&&place.coordinateDecimals<=8?place.coordinateDecimals:place.positionSource.recordId||place.positionSource.councilRecord?6:4;
  const geographicPlace=place.geographic&&(!place.imagePresentation||illustratedMap?.geographic);
  const presentation=!geographicPlace&&place.imagePresentation||place;
- const coordinateText=isIllustrated&&!geographicPlace?'':place.coords.map(n=>n.toFixed(decimals)).join(', ');
+ const hasOutline=!!window.RegionalOutline?.geometry(place);
+ const coordinateText=hasOutline?t('Regional outline · no exact position'):isIllustrated&&!geographicPlace?'':place.coords.map(n=>n.toFixed(decimals)).join(', ');
  if(isIllustrated){
   target.innerHTML=`<p class="category-badge category-${category}">${esc(t(category==='action'?'Action locations':'Mentioned locations'))}</p><p class="location-scene">${esc(chapter.placeText[placeIndex])}</p><p class="today">${esc(presentation.note)}</p><details class="location-evidence"><summary>${t('Posizione e fonti')}</summary><p>${esc(presentation.method)}</p><p>${esc(narrativeSource?.label||'')}</p>${geographicPlace?`<p class="coordinates">WGS84 · ${coordinateText}</p>${publicSourceLink(place.positionSource)}`:''}</details>`;
  }else{
- target.innerHTML=`<p class="category-badge category-${category}">${esc(t(category==='action'?'Action locations':'Mentioned locations'))}</p><p class="location-address">${esc(place.area)}</p><p class="location-scene">${esc(citation?t('A geographical reference in the original text. Read the passage for its context.'):chapter.placeText[placeIndex])}</p><p class="today"><strong>${esc(place.status)}.</strong> ${esc(place.note)}</p><details class="location-evidence"><summary>${t('Posizione e fonti')}</summary><p>${esc(place.method)}</p><p class="coordinates">WGS84 · ${coordinateText}<br>${t('Verifica delle fonti')}: ${esc(new Date(place.checked+"T12:00:00").toLocaleDateString(locale,{day:"numeric",month:"long",year:"numeric"}))}</p><span>${esc(narrativeSource.label)}</span><br>${publicSourceLink(place.positionSource)}${place.additionalSource?`<br>${publicSourceLink(place.additionalSource)}`:''}</details>`;
- target.innerHTML+=`<div class="street-view-action"><a class="street-view-link" id="street-view-link" href="${esc(streetViewUrl(place))}" target="_blank" rel="noopener noreferrer" aria-label="${esc(t('Apri Street View in una nuova finestra')+': '+place.name)}">Google Street View <span aria-hidden="true">↗</span></a><p class="street-view-note">${esc(t('Google mostra il panorama disponibile più vicino: può essere spostato rispetto al punto e dipende dalla copertura.'))}</p></div>`;
+ target.innerHTML=`<p class="category-badge category-${category}">${esc(t(category==='action'?'Action locations':'Mentioned locations'))}</p><p class="location-address">${esc(place.area)}</p><p class="location-scene">${esc(citation?t('A geographical reference in the original text. Read the passage for its context.'):chapter.placeText[placeIndex])}</p><p class="today"><strong>${esc(place.status)}.</strong> ${esc(place.note)}</p><details class="location-evidence"><summary>${t('Posizione e fonti')}</summary><p>${esc(place.method)}</p><p class="coordinates">${hasOutline?'':'WGS84 · '}${coordinateText}<br>${t('Verifica delle fonti')}: ${esc(new Date(place.checked+"T12:00:00").toLocaleDateString(locale,{day:"numeric",month:"long",year:"numeric"}))}</p><span>${esc(narrativeSource.label)}</span><br>${publicSourceLink(place.positionSource)}${place.additionalSource?`<br>${publicSourceLink(place.additionalSource)}`:''}</details>`;
+ if(!hasOutline)target.innerHTML+=`<div class="street-view-action"><a class="street-view-link" id="street-view-link" href="${esc(streetViewUrl(place))}" target="_blank" rel="noopener noreferrer" aria-label="${esc(t('Apri Street View in una nuova finestra')+': '+place.name)}">Google Street View <span aria-hidden="true">↗</span></a><p class="street-view-note">${esc(t('Google mostra il panorama disponibile più vicino: può essere spostato rispetto al punto e dipende dalla copertura.'))}</p></div>`;
  }
  if(isPopup&&options.chapter)target.innerHTML=`<p class="detail-eyebrow">${esc(number(chapter.id)+' · '+chapter.title)}</p>`+target.innerHTML;
  const quote=!citation&&chapter.placeQuotes?.[id];
@@ -359,6 +362,7 @@ function centerSelectedPlace(zoomToPlace=true){
 
  if(!viewReady)return;
  const id=activeCitations()[selectedCitation]?.placeId||activeChapter().places[selectedPlace],place=allLiteraryPlaces[id];
+ const boundary=window.RegionalOutline?.bounds(place);if(boundary&&ExtentClass){navigate(new ExtentClass(boundary).expand(1.15));return;}
  if(place)navigate({center:[place.coords[1],place.coords[0]],...(zoomToPlace?{zoom:place.zoom}:{})});
 }
 function selectPlace(index,move=true){
@@ -403,13 +407,15 @@ function drawMarkers(){
  activeChapter().places.forEach((id,index)=>{
   if(numbers.places[index]==null)return;
   const place=literaryPlaces[id],active=(index===selectedPlace&&selectedCitation<0)||(current<0&&activeCitations()[selectedCitation]?.placeId===id),category=placeCategory(id),layer=category==='mentioned'&&citedMarkerLayer?citedMarkerLayer:markerLayer;
+  const regional=window.RegionalOutline?.graphics(place,numbers.places[index],markerColors[category],active,{placeIndex:index,chapterId:activeChapter().id,category});
+  if(regional){for(const graphic of regional)layer.add(new GraphicClass(graphic));return;}
   const geometry={type:'point',longitude:place.coords[1],latitude:place.coords[0],spatialReference:{wkid:4326}};
   const attributes={placeIndex:index,chapterId:activeChapter().id,category};
   const approximate=['area','uncertain','street'].includes(place.kind);
   layer.add(new GraphicClass({geometry,attributes,symbol:{type:'simple-marker',style:approximate?'diamond':'circle',size:approximate?31:28,color:markerColors[category],outline:{color:active?'#e8c565':'#ffffff',width:active?3.5:2}}}));
   layer.add(new GraphicClass({geometry,attributes,symbol:{type:'text',text:String(numbers.places[index]),color:'#ffffff',font:{family:'Arial',size:current<0?10:12,weight:'bold'},verticalAlignment:'middle',horizontalAlignment:'center'}}));
  });
- if(citedMarkerLayer)activeCitations().forEach((reference,index)=>{if(numbers.citations[index]==null)return;if(current<0&&visibleLayers.action&&globalChapter.places.includes(reference.placeId)&&placeCategory(reference.placeId)==='action')return;const place=allLiteraryPlaces[reference.placeId],active=index===selectedCitation,approximate=['area','uncertain','street'].includes(place.kind),geometry={type:'point',longitude:place.coords[1],latitude:place.coords[0],spatialReference:{wkid:4326}},attributes={citationIndex:index,chapterId:activeChapter().id,category:'mentioned'};citedMarkerLayer.add(new GraphicClass({geometry,attributes,symbol:{type:'simple-marker',style:approximate?'diamond':'circle',size:approximate?31:28,color:markerColors.mentioned,outline:{color:active?'#e8c565':'#ffffff',width:active?3.5:2}}}));citedMarkerLayer.add(new GraphicClass({geometry,attributes,symbol:{type:'text',text:String(numbers.citations[index]),color:'#ffffff',font:{family:'Arial',size:10,weight:'bold'},verticalAlignment:'middle',horizontalAlignment:'center'}}));});
+ if(citedMarkerLayer)activeCitations().forEach((reference,index)=>{if(numbers.citations[index]==null)return;if(current<0&&visibleLayers.action&&globalChapter.places.includes(reference.placeId)&&placeCategory(reference.placeId)==='action')return;const place=allLiteraryPlaces[reference.placeId],active=index===selectedCitation,approximate=['area','uncertain','street'].includes(place.kind),geometry={type:'point',longitude:place.coords[1],latitude:place.coords[0],spatialReference:{wkid:4326}},attributes={citationIndex:index,chapterId:activeChapter().id,category:'mentioned'};const regional=window.RegionalOutline?.graphics(place,numbers.citations[index],markerColors.mentioned,active,attributes);if(regional){for(const graphic of regional)citedMarkerLayer.add(new GraphicClass(graphic));return;}citedMarkerLayer.add(new GraphicClass({geometry,attributes,symbol:{type:'simple-marker',style:approximate?'diamond':'circle',size:approximate?31:28,color:markerColors.mentioned,outline:{color:active?'#e8c565':'#ffffff',width:active?3.5:2}}}));citedMarkerLayer.add(new GraphicClass({geometry,attributes,symbol:{type:'text',text:String(numbers.citations[index]),color:'#ffffff',font:{family:'Arial',size:10,weight:'bold'},verticalAlignment:'middle',horizontalAlignment:'center'}}));});
 }
 function showMapError(message){const notice=document.getElementById('map-error');notice.textContent=t(message);notice.hidden=false}
 function navigate(target){if(!viewReady)return;return view.goTo(target,{animate:!reduced,duration:800}).catch(error=>{if(error.name!=='AbortError')console.error('Spostamento della mappa non riuscito',error)})}
@@ -423,8 +429,9 @@ function overview(includeCitations=false){
  let points=overviewIds.filter(id=>visibleLayers[placeCategory(id)]&&(includeMentions||placeCategory(id)==='action')).map(id=>literaryPlaces[id]);
  if(visibleLayers.mentioned&&includeMentions)points.push(...activeCitations().map(reference=>allLiteraryPlaces[reference.placeId]));
  if(!points.length){navigate(chapter.initialView||book.initialView);return;}
- if(points.length===1){navigate({center:[points[0].coords[1],points[0].coords[0]],zoom:points[0].zoom});return}
- const longitudes=points.map(p=>p.coords[1]),latitudes=points.map(p=>p.coords[0]);
+ if(points.length===1){const boundary=window.RegionalOutline?.bounds(points[0]);if(boundary){navigate(new ExtentClass(boundary).expand(1.15));return;}navigate({center:[points[0].coords[1],points[0].coords[0]],zoom:points[0].zoom});return}
+ const extents=points.map(p=>window.RegionalOutline?.bounds(p)||{xmin:p.coords[1],xmax:p.coords[1],ymin:p.coords[0],ymax:p.coords[0]});
+ const longitudes=extents.flatMap(e=>[e.xmin,e.xmax]),latitudes=extents.flatMap(e=>[e.ymin,e.ymax]);
  const xmin=Math.min(...longitudes),xmax=Math.max(...longitudes),ymin=Math.min(...latitudes),ymax=Math.max(...latitudes);
  const marginX=Math.max(.002,(xmax-xmin)*.18),marginY=Math.max(.002,(ymax-ymin)*.18);
  navigate(new ExtentClass({xmin:Math.max(-180,xmin-marginX),xmax:Math.min(180,xmax+marginX),ymin:Math.max(-85,ymin-marginY),ymax:Math.min(85,ymax+marginY),spatialReference:{wkid:4326}}));
