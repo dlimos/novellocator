@@ -14,3 +14,5 @@ const geographySql = spawnSync(process.execPath, [path.join(__dirname, 'check-ge
 if (geographySql.status !== 0) process.exit(geographySql.status || 1);
 const panoramaCheck = spawnSync(process.execPath, [path.join(__dirname, 'check-proust-panorama.cjs')], { cwd: root, stdio: 'inherit' });
 if (panoramaCheck.status !== 0) process.exit(panoramaCheck.status || 1);
+const modesCheck = spawnSync(process.execPath, [path.join(__dirname, 'check-atlas-modes.cjs')], { cwd: root, stdio: 'inherit' });
+if (modesCheck.status !== 0) process.exit(modesCheck.status || 1);

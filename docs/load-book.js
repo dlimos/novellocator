@@ -9,7 +9,19 @@ const entry=window.atlasCatalogue?.books.find(book=>book.id===bookId);
 window.atlasPresentation?.apply(entry);
 revealAtlas();
 const unavailable=()=>{document.getElementById('detail').textContent=window.atlasI18n.t('Questo romanzo non è ancora disponibile. Torna al catalogo per scegliere un titolo.')};
-function startEngine(source){window.atlasData=window.atlasI18n.localizeData(window.atlasData);window.atlasDataSource=source;const engine=document.createElement('script');engine.src='app.js?v=20261015-dual-panorama';document.head.appendChild(engine);}
+function startEngine(source){
+ const imaginary=new URLSearchParams(window.location.search).get('mode')==='imaginary';
+ const available=window.atlasData.book.illustratedView||entry?.mapType==='illustrated';
+ const nav=document.getElementById('atlas-mode-nav'),t=window.atlasI18n.t;
+ if(nav?.appendChild&&available){
+  nav.hidden=false;
+  const label=document.createElement('span');label.textContent=t(imaginary?'Imaginary maps':'Geographic atlas');nav.appendChild(label);
+  const alternate=document.createElement('a'),target=new URL('atlas.html',location.href);target.searchParams.set('book',bookId);target.searchParams.set('lang',window.atlasI18n.locale);if(!imaginary)target.searchParams.set('mode','imaginary');
+  alternate.href=target.href;alternate.textContent=t(imaginary?'Open geographic atlas':'Open imaginary maps');nav.appendChild(alternate);
+  const collection=document.createElement('a');collection.href='imaginary.html?lang='+window.atlasI18n.locale;collection.textContent=t('All imaginary maps');nav.appendChild(collection);
+ }
+ window.atlasData=window.atlasI18n.localizeData(window.atlasData);window.atlasDataSource=source;const engine=document.createElement('script');engine.src='app.js?v=20261016-separated-modes';document.head.appendChild(engine);
+}
 if(!/^[a-z0-9-]+$/.test(bookId)){document.getElementById('detail').textContent=window.atlasI18n.t('Titolo non valido.');}
 else if(entry?.mapType==='illustrated'){
  await window.IllustratedData.load(bookId).then(payload=>{window.atlasData=window.IllustratedAdapter.adapt(payload,window.atlasI18n.locale);startEngine('supabase-illustrated');}).catch(error=>{console.error('Illustrated loading failed',error);connectionError();});

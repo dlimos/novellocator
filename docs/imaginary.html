@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Imaginary maps · Literary Atlas</title>
+  <meta name="description" content="A separate collection of interpretative maps of fictional places.">
+  <link rel="stylesheet" href="style.css"><link rel="stylesheet" href="literary.css"><link rel="stylesheet" href="modes.css?v=20261016-separated-modes">
+  <script defer src="supabase-config.js"></script>
+  <script defer src="catalogue-data.js?v=20261016-separated-modes"></script>
+  <script defer src="locales/ui.js?v=20261016-separated-modes"></script>
+  <script defer src="i18n.js?v=20261011"></script>
+  <script defer src="catalogue.js?v=20261016-separated-modes"></script>
+</head>
+<body class="library-page" data-catalogue-mode="imaginary">
+  <header class="masthead"><a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">a.</span>Literary Atlas</a><span class="edition">THE PLACES OF NOVELS</span><div class="language-picker"><label for="language-select">Language</label><select id="language-select" aria-label="Language"></select></div></header>
+  <main>
+    <section class="catalogue-intro" aria-labelledby="catalogue-title"><p class="eyebrow">A SEPARATE COLLECTION</p><h1 id="catalogue-title">Imaginary maps</h1><p>Illustrated interpretations of fictional places, explored separately from the geographic atlas.</p></section>
+    <p class="imaginary-collection-link"><a href="index.html">Back to the geographic catalogue</a></p>
+    <form class="catalogue-search" id="catalogue-search" role="search" aria-label="Search novels"><div class="catalogue-search-field"><label for="catalogue-title-search">Title</label><input type="search" id="catalogue-title-search" aria-controls="catalogue-books" disabled></div><div class="catalogue-search-field"><label for="catalogue-author-search">Author</label><input type="search" id="catalogue-author-search" aria-controls="catalogue-books" disabled></div></form>
+    <p class="catalogue-search-status" id="catalogue-search-status" role="status" aria-live="polite" aria-atomic="true"></p>
+    <section class="book-grid" id="catalogue-books" aria-label="Novels with imaginary maps"></section>
+    <footer class="catalogue-footer"><p>Literary Atlas · The places of novels</p></footer>
+  </main>
+</body>
+</html>

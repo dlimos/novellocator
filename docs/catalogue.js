@@ -17,19 +17,22 @@
  function renderCredit(credit){
   return `<details class="book-image-credit"><summary>Image source</summary><div><p>${escape(credit.artist)} · <a href="${escape(credit.url)}" target="_blank" rel="noopener noreferrer">${escape(credit.title)}</a> · ${escape(credit.year)}</p></div></details>`;
  }
- function render(books){
+ function render(books,mode){
+  const setting=book=>mode==='imaginary'?(book.imaginaryViews||[]).map(names=>names[root.atlasI18n?.locale||'en']||names.en).join(' / ')||book.setting:book.setting;
   return {
-   cards:books.map((book,index)=>`<article class="book-card available-book"><a class="book-art" href="atlas.html?book=${encodeURIComponent(book.id)}" aria-label="${escape(book.ariaLabel)}" style="--cover-position:${escape(book.cover.position)}"><img src="${escape(book.cover.src)}" alt="${escape(book.cover.alt)}" width="${book.cover.width}" height="${book.cover.height}" ${index?'loading="lazy"':'fetchpriority="high"'} decoding="async"><span>${escape(book.setting)}</span></a>${renderCredit(book.credit)}<a class="book-copy" href="atlas.html?book=${encodeURIComponent(book.id)}" aria-label="${escape(book.ariaLabel)}"><div class="book-meta"><span>${escape(book.author)}</span></div><h2>${escape(book.title)}</h2>${book.editorialNotice?`<p class="book-editorial-notice">${escape(book.editorialNotice)}</p>`:""}</a></article>`).join('\n')
+   cards:books.map((book,index)=>`<article class="book-card available-book"><a class="book-art" href="atlas.html?book=${encodeURIComponent(book.id)}${mode==='imaginary'?'&amp;mode=imaginary':''}" aria-label="${escape(book.ariaLabel)}" style="--cover-position:${escape(book.cover.position)}"><img src="${escape(book.cover.src)}" alt="${escape(book.cover.alt)}" width="${book.cover.width}" height="${book.cover.height}" ${index?'loading="lazy"':'fetchpriority="high"'} decoding="async"><span>${escape(setting(book))}</span></a>${renderCredit(book.credit)}<a class="book-copy" href="atlas.html?book=${encodeURIComponent(book.id)}${mode==='imaginary'?'&amp;mode=imaginary':''}" aria-label="${escape(book.ariaLabel)}"><div class="book-meta"><span>${escape(book.author)}</span></div><h2>${escape(book.title)}</h2>${book.editorialNotice?`<p class="book-editorial-notice">${escape(book.editorialNotice)}</p>`:""}</a></article>`).join('\n')
   };
  }
  root.atlasCatalogueView={render,matches,shuffle};
  if(!root.document)return;
  async function start(){
  const catalogue=await root.atlasCatalogueData.load();
- const books=shuffle(catalogue.books);
+ const imaginary=root.document.body?.getAttribute('data-catalogue-mode')==='imaginary';
+ if(imaginary)root.document.title=root.atlasI18n.t('Imaginary maps')+' · '+root.atlasI18n.t('Literary Atlas');
+ const books=shuffle(imaginary?catalogue.books.filter(book=>book.hasImaginaryMap):catalogue.books);
  const legacy=books.find(book=>book.legacyHashPrefix&&root.location.hash.startsWith('#'+book.legacyHashPrefix+'-'));
  if(legacy){const target=new URL('atlas.html',root.location.href);target.search=root.location.search;target.searchParams.set('book',legacy.id);target.hash=root.location.hash;root.location.replace(target.href);return;}
- const html=render(books);
+ const html=render(books,imaginary?'imaginary':null);
  root.document.getElementById('catalogue-books').innerHTML=html.cards;
  root.atlasI18n.translateDOM(root.document.getElementById('catalogue-books'));
  for(const a of root.document.querySelectorAll('.book-card > a')){const url=new URL(a.href,root.location.href);url.searchParams.set('lang',root.atlasI18n.locale);a.href=url.href;}
