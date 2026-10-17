@@ -32,7 +32,9 @@ if(fs.existsSync(reviewFile)){
  }
  assert.deepEqual([...keys].sort(),expected.sort(),'The review must account for every association, including documented gaps');
  for(const r of review){
-  const imported=records.some(q=>q.section===r.section&&q.collection===r.collection&&q.id===r.id&&(!reviewLanguage||q.language===reviewLanguage)&&!['pending','rejected'].includes(q.passage.verificationStatus));
+  const language=reviewLanguage||r.language;
+  assert.ok(language||new Set(records.map(q=>q.language)).size===1,'A multilingual import needs an explicit review language');
+  const imported=records.some(q=>q.section===r.section&&q.collection===r.collection&&q.id===r.id&&(!language||q.language===language)&&!['pending','rejected'].includes(q.passage.verificationStatus));
   assert.equal(imported,r.status==='verified','Pending passages must not be imported');
   if(r.status!=='verified')assert.ok(r.reason);
  }
