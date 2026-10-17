@@ -20,3 +20,5 @@ const outlineCheck = spawnSync(process.execPath, [path.join(__dirname, 'check-re
 if (outlineCheck.status !== 0) process.exit(outlineCheck.status || 1);
 const narrativeReviewCheck = spawnSync(process.execPath, [path.join(__dirname, 'check-lolita-review.cjs')], { cwd: root, stdio: 'inherit' });
 if (narrativeReviewCheck.status !== 0) process.exit(narrativeReviewCheck.status || 1);
+const lolitaQuotationsCheck = spawnSync(process.execPath, [path.join(__dirname, 'check-lolita-quotations.cjs')], { cwd: root, stdio: 'inherit' });
+if (lolitaQuotationsCheck.status !== 0) process.exit(lolitaQuotationsCheck.status || 1);

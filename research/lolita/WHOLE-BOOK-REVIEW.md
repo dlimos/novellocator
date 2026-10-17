@@ -1,5 +1,10 @@
 # Lolita: revisione geografica e narrativa del 16 ottobre 2026
 
+Aggiornamento del 17 ottobre: [citazioni dal testo nativo dell’ultimo PDF](QUOTATIONS.md).
+L’apparato descritto come pendente in questo rapporto storico è stato aggiunto
+per prefazione e due parti; restano le lacune esplicite della postfazione e
+dell’identificazione dell’edizione cartacea.
+
 La revisione riguarda la prefazione, tutti i 33 capitoli della prima parte,
 tutti i 36 della seconda e la postfazione d’autore: 71 sezioni.
 Riprende le note della lettura integrale, confronta i contesti originali delle

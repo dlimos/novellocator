@@ -1,5 +1,11 @@
 # Lolita: analisi della fonte scelta dall’utente
 
+Aggiornamento del 17 ottobre 2026: [citazioni dal testo nativo dell’ultimo PDF](QUOTATIONS.md).
+411 associazioni documentate, originale inglese nelle schede e selettore autonomo;
+nessun OCR per questi estratti. La postfazione non è nel PDF e resta senza nuovi
+passi. L’editore della copia non è dichiarato e non viene inventato. Le note
+storiche di verifica pendente qui sotto descrivono le fasi precedenti.
+
 Aggiornamento del 16 ottobre 2026: [revisione di tutte le 71 sezioni](WHOLE-BOOK-REVIEW.md),
 confronto con il PDF inglese aggiunto dall’utente, correzione delle categorie,
 scene regionali contestuali e contorni geografici. L’apparato completo delle
@@ -105,8 +111,8 @@ La ricerca di traduzioni di pubblico dominio in italiano, francese e
 spagnolo non ha reperito un’edizione con integrità, disponibilità e diritti
 verificati per il riuso in Italia. Questo non prova che tali traduzioni
 non esistano. Per l’inglese si usa l’originale, con provenienza editoriale
-ancora da stabilire. Per le altre lingue le citazioni sono **indisponibili
-finché non verificate**, senza sostituzione silenziosa con l’originale.
+ancora da stabilire. Per le altre lingue le traduzioni restano indisponibili
+finché non verificate; il selettore offre l’originale inglese dichiarato come tale.
 
 | Lingua | Edizione reperita | Verifica pendente |
 | --- | --- | --- |
