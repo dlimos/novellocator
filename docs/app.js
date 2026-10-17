@@ -8,6 +8,7 @@ function applyGeographicReview(input){
  if(review.sectionNote)for(const chapter of data.chapters)chapter.note=review.sectionNote;
  for(const chapter of data.chapters)for(const item of chapter.unlocatedPlaces){
   const key=item.id||item.name;
+  if(review.coveredSettings?.[chapter.id]?.[key]){item.displayInAtlas=false;item.mappedPlaceId=review.coveredSettings[chapter.id][key];}
   if(review.unlocatedNote)item.text=review.unlocatedNote;
   if(hidden.has(key))item.displayInAtlas=false;
   const region=(review.regionalPlaces||[]).find(record=>(record.keys||[]).includes(key));
@@ -20,12 +21,20 @@ function applyGeographicReview(input){
   const evidence=chapter.unlocatedPlaces.filter(candidate=>region.keys.includes(candidate.id||candidate.name)).sort((a,b)=>priority.indexOf(a.id||a.name)-priority.indexOf(b.id||b.name))[0]||item;
   chapter.places.push(region.id);
   if(chapter.overviewPlaces&&!chapter.overviewPlaces.includes(region.id))chapter.overviewPlaces.push(region.id);
-  chapter.placeText.push(region.sceneText);
+  chapter.placeText.push(region.scenes?.[chapter.id]||region.sceneText);
   chapter.placeCategories[region.id]=region.categories?.[chapter.id]||'mentioned';
   chapter.placeSources[region.id]={url:evidence.url||region.place.narrativeSource.url,label:region.evidenceLabel};
   // A pending original is kept pending; a geographical review cannot supply it.
   if(evidence.excerpt?.original?.quote?.trim())chapter.placeExcerpts[region.id]=evidence.excerpt;
   else if(evidence.quote?.trim())chapter.placeExcerpts[region.id]={original:{quote:evidence.quote,language:evidence.language||input.book.originalLanguage||'en',type:'original',attribution:evidence.attribution||[input.book.author,input.book.title,chapter.title].join(' · '),url:evidence.url,rightsUrl:evidence.rightsUrl||evidence.url,highlightTerms:evidence.highlightTerms||evidence.aliases||[]},translations:evidence.translations||{}};
+ }
+ for(const chapter of data.chapters)for(const region of review.regionalPlaces||[]){
+  const occurrence=region.sectionOccurrences?.[chapter.id];if(!occurrence)continue;
+  data.places[region.id]=region.place;
+  let index=chapter.places.indexOf(region.id);if(index<0){index=chapter.places.length;chapter.places.push(region.id);}
+  if(chapter.overviewPlaces&&!chapter.overviewPlaces.includes(region.id))chapter.overviewPlaces.push(region.id);
+  chapter.placeText[index]=occurrence.scene;chapter.placeCategories[region.id]=occurrence.category;
+  chapter.placeSources[region.id]=occurrence.source;chapter.placeExcerpts[region.id]=occurrence.excerpt;
  }
  return data;
 }
@@ -114,8 +123,10 @@ const basemapSelect=document.getElementById("basemap-select");
 const reduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 const list=document.getElementById('places');
 const globalPlaceIds=[...new Set(chapters.flatMap(chapter=>chapter.places))];
+const hasAction=id=>chapters.some(section=>section.places.includes(id)&&section.placeCategories?.[id]!=='mentioned');
+if(book.sectionGrouping?.actionFirst)globalPlaceIds.sort((a,b)=>Number(hasAction(b))-Number(hasAction(a)));
 const globalChapter={id:'all',title:t('All places'),places:globalPlaceIds,placeText:[],placeSources:{},placeExcerpts:{},placeQuotes:{},links:book.links||[],text:t('Explore every mapped location in the novel. Select a place to see the sections in which it appears.'),time:t('Whole novel'),people:t('Global view')};
-for(const id of globalPlaceIds){const chapter=chapters.find(section=>section.places.includes(id));globalChapter.placeText.push(chapter.placeText[chapter.places.indexOf(id)]);globalChapter.placeSources[id]=chapter.placeSources?.[id];globalChapter.placeExcerpts[id]=chapter.placeExcerpts?.[id];globalChapter.placeQuotes[id]=chapter.placeQuotes?.[id];}
+for(const id of globalPlaceIds){const chapter=(book.sectionGrouping?.actionFirst&&chapters.find(section=>section.places.includes(id)&&section.placeCategories?.[id]!=='mentioned'))||chapters.find(section=>section.places.includes(id));globalChapter.placeText.push(chapter.placeText[chapter.places.indexOf(id)]);globalChapter.placeSources[id]=chapter.placeSources?.[id];globalChapter.placeExcerpts[id]=chapter.placeExcerpts?.[id];globalChapter.placeQuotes[id]=chapter.placeQuotes?.[id];}
 const activeChapter=()=>current<0?globalChapter:chapters[current];
 if(isIllustrated){globalChapter.placeKinds=Object.fromEntries(globalPlaceIds.map(id=>[id,literaryPlaces[id].kind]));globalChapter.placeNames=Object.fromEntries(globalPlaceIds.map(id=>[id,literaryPlaces[id].name]));globalChapter.placeCategories=Object.fromEntries(globalPlaceIds.map(id=>[id,chapters.some(section=>section.places.includes(id)&&section.placeCategories?.[id]!=='mentioned')?'action':'mentioned']));}
 const globalCitations=[...new Map(chapters.flatMap(chapter=>chapter.citations||[]).map(reference=>[reference.placeId,reference])).values()];
@@ -347,7 +358,7 @@ function renderLocation(options={}){
   target.innerHTML=`<p class="category-badge category-${category}">${esc(t(category==='action'?'Action locations':'Mentioned locations'))}</p><p class="location-scene">${esc(chapter.placeText[placeIndex])}</p><p class="today">${esc(presentation.note)}</p><details class="location-evidence"><summary>${t('Posizione e fonti')}</summary><p>${esc(presentation.method)}</p><p>${esc(narrativeSource?.label||'')}</p>${geographicPlace?`<p class="coordinates">WGS84 · ${coordinateText}</p>${publicSourceLink(place.positionSource)}`:''}</details>`;
  }else{
  target.innerHTML=`<p class="category-badge category-${category}">${esc(t(category==='action'?'Action locations':'Mentioned locations'))}</p><p class="location-address">${esc(place.area)}</p><p class="location-scene">${esc(citation?t('A geographical reference in the original text. Read the passage for its context.'):chapter.placeText[placeIndex])}</p><p class="today"><strong>${esc(place.status)}.</strong> ${esc(place.note)}</p><details class="location-evidence"><summary>${t('Posizione e fonti')}</summary><p>${esc(place.method)}</p><p class="coordinates">${hasOutline?'':'WGS84 · '}${coordinateText}<br>${t('Verifica delle fonti')}: ${esc(new Date(place.checked+"T12:00:00").toLocaleDateString(locale,{day:"numeric",month:"long",year:"numeric"}))}</p><span>${esc(narrativeSource.label)}</span><br>${publicSourceLink(place.positionSource)}${place.additionalSource?`<br>${publicSourceLink(place.additionalSource)}`:''}</details>`;
- if(!hasOutline)target.innerHTML+=`<div class="street-view-action"><a class="street-view-link" id="street-view-link" href="${esc(streetViewUrl(place))}" target="_blank" rel="noopener noreferrer" aria-label="${esc(t('Apri Street View in una nuova finestra')+': '+place.name)}">Google Street View <span aria-hidden="true">↗</span></a><p class="street-view-note">${esc(t('Google mostra il panorama disponibile più vicino: può essere spostato rispetto al punto e dipende dalla copertura.'))}</p></div>`;
+ if(!hasOutline&&place.geographicReview?.precision!=='region')target.innerHTML+=`<div class="street-view-action"><a class="street-view-link" id="street-view-link" href="${esc(streetViewUrl(place))}" target="_blank" rel="noopener noreferrer" aria-label="${esc(t('Apri Street View in una nuova finestra')+': '+place.name)}">Google Street View <span aria-hidden="true">↗</span></a><p class="street-view-note">${esc(t('Google mostra il panorama disponibile più vicino: può essere spostato rispetto al punto e dipende dalla copertura.'))}</p></div>`;
  }
  if(isPopup&&options.chapter)target.innerHTML=`<p class="detail-eyebrow">${esc(number(chapter.id)+' · '+chapter.title)}</p>`+target.innerHTML;
  const quote=!citation&&chapter.placeQuotes?.[id];

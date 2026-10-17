@@ -1,0 +1,3921 @@
+{
+  "bookId": "lolita",
+  "reviewDate": "2026-10-16",
+  "coverage": {
+    "sourceSections": 71,
+    "partI": 33,
+    "partII": 36,
+    "foreword": true,
+    "afterword": true,
+    "coreReferencesBefore": 207,
+    "unlocatedReferencesBefore": 341
+  },
+  "userPdf": {
+    "sha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+    "pages": 283,
+    "edition": "Unidentified reflowed English witness; no publisher/year established",
+    "afterwordPresent": false,
+    "private": true
+  },
+  "method": "Review of all section analyses and original geographical contexts, checked against the user-provided searchable PDF for the novel and the previous witness for the authorial afterword. A short or nominal vignette may enact a scene. Contextual continuations and embedded scenes are recorded explicitly. No new protected quotation is published.",
+  "criticalSources": [
+    {
+      "url": "https://journals.openedition.org/ejas/7550",
+      "label": "Monica Manolescu-Oancea · Inventing and naming America (2009)"
+    },
+    {
+      "url": "https://dezimmer.net/LolitaUSA/Trip1.htm",
+      "label": "Dieter E. Zimmer · Trip One"
+    },
+    {
+      "url": "https://www.dezimmer.net/LolitaUSA/Trip2.htm",
+      "label": "Dieter E. Zimmer · Trip Two"
+    }
+  ],
+  "publicationStatus": "Narrative/geographical corrections; edition identification and full public quotation apparatus remain pending",
+  "sections": [
+    {
+      "id": "foreword",
+      "sourceSectionId": 1,
+      "viewerPages": [
+        4,
+        5
+      ],
+      "userPdfPages": [
+        1,
+        3
+      ],
+      "originalSectionSha256": "9446296b543629fd053dbf62b1839c6b7e4d370a6ac60ab078563da0aba88e5d",
+      "previousSectionAnalysis": "District of Columbia, Ramsdale, Paris, Florida, Gray Star e Northwest sono notizie biografiche o editoriali: mentioned. Widworth, Mass., è la firma geografica, non una scena. La morte in detenzione non autorizza coordinate per una prigione.",
+      "reviewedActionPlaces": [],
+      "existingCoreReferences": [
+        {
+          "placeId": "district-of-columbia",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "paris",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "florida",
+          "category": "mentioned"
+        }
+      ],
+      "unlocatedNames": [
+        "Ramsdale",
+        "Gray Star",
+        "Northwest",
+        "Widworth"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "1.1",
+      "sourceSectionId": 2,
+      "viewerPages": [
+        6,
+        6
+      ],
+      "userPdfPages": [
+        3,
+        3
+      ],
+      "originalSectionSha256": "8f6dfdf4ea8354ce5844ffe1bfb81d4da881bd533562c4e54b436ff7c06ec276",
+      "previousSectionAnalysis": "Princedom by the sea: richiamo alla vicenda di Annabel e all'allusione poetica, mentioned; non identificare un principato preciso. Il giurì è un destinatario retorico, non un'aula dimostrata.",
+      "reviewedActionPlaces": [],
+      "existingCoreReferences": [],
+      "unlocatedNames": [],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "1.2",
+      "sourceSectionId": 3,
+      "viewerPages": [
+        6,
+        8
+      ],
+      "userPdfPages": [
+        3,
+        5
+      ],
+      "originalSectionSha256": "77706755490f0a6280a53fae6033a0ba6b49c1ee7d2ea0b93333baec91ed1bfd",
+      "previousSectionAnalysis": "Paris: nascita, mentioned. Danube: ascendenza figurativa, mentioned. Dorset: provenienza familiare, mentioned. America: attività dello zio riportata, mentioned. Pisa: paragone delle anziane con torri, mentioned. Lyon: soggiorno scolastico riferito, mentioned. Italy: viaggio paterno riferito, mentioned. Hotel Mirana/Riviera: ambiente infantile descritto, classificazione conservativa mentioned per il riepilogo biografico; il giardino scolastico contiene il ricordo di una conversazione, action senza coordinate.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "regional-riviera",
+          "id": "f04600da9214f52ba49b739fb0306d8e4be5d0782a9060da13ed076c7ffd5360",
+          "sectionId": "1.2",
+          "category": "action",
+          "narrativeLevel": "recalled scene",
+          "reason": "Il dialogo nel giardino scolastico è un ricordo ambientato vicino al Mirana; il contesto della Riviera proviene dallo stesso capitolo.",
+          "viewerPage": 7,
+          "printedPage": 6,
+          "sourceImageSha256": "736f37aaefee37f5bcf6ad56af8e8022383ff99627c82fba1883ece1793c244a",
+          "sourceSectionSha256": "77706755490f0a6280a53fae6033a0ba6b49c1ee7d2ea0b93333baec91ed1bfd",
+          "pdfPages": [
+            5
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [
+        {
+          "placeId": "paris",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "dorset",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "pisa",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "lyon",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "italy",
+          "category": "mentioned"
+        }
+      ],
+      "unlocatedNames": [
+        "Danube",
+        "America",
+        "Hotel Mirana",
+        "Riviera"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "1.3",
+      "sourceSectionId": 4,
+      "viewerPages": [
+        8,
+        9
+      ],
+      "userPdfPages": [
+        5,
+        7
+      ],
+      "originalSectionSha256": "569e3dae62f4394d95dbc9f0f84f74a76dbd44a7787c592c296dd925cd81fc86",
+      "previousSectionAnalysis": "Villa dei Leigh e Hotel Mirana: localizzazione della residenza riferita, mentioned. Spiaggia e caffè senza nome: ricordo narrato, action. Corfu: notizia della morte per tifo, mentioned, senza scena a Corfù. Paese asiatico: aspirazione di Annabel, mentioned e senza identificazione.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "regional-riviera",
+          "id": "03296f7fad4be3ee2f3719e32031f9843b61e178244623e8362c7cbeda4aba1e",
+          "sectionId": "1.3",
+          "category": "action",
+          "narrativeLevel": "recalled scene",
+          "reason": "La spiaggia è raggiunta dal caffè presso la villa vicina al Mirana: azioni e dialoghi del ricordo, non sola residenza.",
+          "viewerPage": 9,
+          "printedPage": 8,
+          "sourceImageSha256": "515fdba14b674a8fdf4a222a8872e064c386cf5af68f812e6b65a4a5144c15ad",
+          "sourceSectionSha256": "569e3dae62f4394d95dbc9f0f84f74a76dbd44a7787c592c296dd925cd81fc86",
+          "pdfPages": [
+            7
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [
+        {
+          "placeId": "corfu",
+          "category": "mentioned"
+        }
+      ],
+      "unlocatedNames": [
+        "Hotel Mirana"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "1.4",
+      "sourceSectionId": 5,
+      "viewerPages": [
+        9,
+        10
+      ],
+      "userPdfPages": [
+        7,
+        9
+      ],
+      "originalSectionSha256": "6de1bcce643ab29e854c4fc84a8e2979fd97032ba552d263552601d8dd654245",
+      "previousSectionAnalysis": "Mimosa grove dietro la villa: incontro narrato, action al livello del ricordo; muro e giardino senza coordinate. I due paesi del canarino non sono identificati. La domestica spagnola è una qualificazione di persona, non una scena in Spagna.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "regional-riviera",
+          "id": "711bab7b4e3d57b779db7f13aaf8ac3cdf6a1e0e687fbe79976ea3a6215d1ab2",
+          "sectionId": "1.4",
+          "category": "action",
+          "narrativeLevel": "recalled scene",
+          "reason": "L’incontro notturno nel giardino continua l’ambientazione della villa e della Riviera nei due capitoli precedenti.",
+          "viewerPage": 9,
+          "printedPage": 8,
+          "sourceImageSha256": "515fdba14b674a8fdf4a222a8872e064c386cf5af68f812e6b65a4a5144c15ad",
+          "sourceSectionSha256": "6de1bcce643ab29e854c4fc84a8e2979fd97032ba552d263552601d8dd654245",
+          "pdfPages": [
+            8
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [],
+      "unlocatedNames": [],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "1.5",
+      "sourceSectionId": 6,
+      "viewerPages": [
+        10,
+        14
+      ],
+      "userPdfPages": [
+        9,
+        15
+      ],
+      "originalSectionSha256": "36a33b8ece7e1e997658e6c50c81ed75337ec54f65eb4e6e4840a56dbd6f14f8",
+      "previousSectionAnalysis": "London/Paris: riepilogo degli studi, mentioned; Deux Magots: frequentazione riferita, mentioned; Auteuil: impiego riferito, mentioned. England e Massachusetts: discussione normativa, mentioned, non verifica giuridica autonoma. Nile, East Indian provinces, Florence, Vaucluse: allusioni pseudoerudite; non adottare come fatti storici. Florence e Vaucluse contengono miniature di racconti intercalati, ma la brevità e l'assenza di una scena compiuta consigliano mentioned. Parco, metro, balcone e finestra: azioni o osservazioni effettivamente narrate senza indirizzo. Atollo e naufragio: fantasia, mentioned, non percorso reale.",
+      "reviewedActionPlaces": [],
+      "existingCoreReferences": [
+        {
+          "placeId": "paris",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "london",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "deux-magots",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "auteuil",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "england",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "massachusetts",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "nile",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "florence",
+          "category": "mentioned"
+        }
+      ],
+      "unlocatedNames": [
+        "Vaucluse"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "1.6",
+      "sourceSectionId": 7,
+      "viewerPages": [
+        14,
+        16
+      ],
+      "userPdfPages": [
+        15,
+        18
+      ],
+      "originalSectionSha256": "483aa4d01c8b99a6bfd9e532bb7b65a621274412046d316ffaf3ffe61da43e66",
+      "previousSectionAnalysis": "Madeleine: il narratore cammina e incontra Monique nei dintorni, action regionale nel ricordo, non interno della chiesa. Stanza di Monique, cortile, caffè all'angolo, stanze di Humbert, ufficio di Edith e domicilio dell'intermediaria: scene narrate, action senza indirizzi. Non geocodificare la provenienza suggerita dall'accento provenzale come luogo di questa scena.",
+      "reviewedActionPlaces": [],
+      "existingCoreReferences": [
+        {
+          "placeId": "madeleine",
+          "category": "action"
+        }
+      ],
+      "unlocatedNames": [
+        "Eden"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "1.7",
+      "sourceSectionId": 8,
+      "viewerPages": [
+        16,
+        17
+      ],
+      "userPdfPages": [
+        18,
+        19
+      ],
+      "originalSectionSha256": "c3f230c85c8bde18c200150f466eae2d009784d78260f98437cffefec8fbc5ae",
+      "previousSectionAnalysis": "Mirana: vendita riportata, mentioned. Casa del medico: partita a scacchi con Valeria presso il cavalletto, action nel ricordo, non indirizzo identificato. Polacco è la qualificazione del medico, non una scena in Polonia.",
+      "reviewedActionPlaces": [],
+      "existingCoreReferences": [],
+      "unlocatedNames": [
+        "Hotel Mirana"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "1.8",
+      "sourceSectionId": 9,
+      "viewerPages": [
+        17,
+        21
+      ],
+      "userPdfPages": [
+        19,
+        25
+      ],
+      "originalSectionSha256": "74a5a48ecc9b5a8be1ae80b118c0974c4d5b314c1ae21f8f5e4c426fbcdbe790",
+      "previousSectionAnalysis": "Appartamento parigino, taxi e caffè della discussione: action. Rue Bonaparte: pasti abituali descritti, mentioned conservativo; la vetrina del mercante e la stampa della locomotiva sono un'immagine incastonata, non un viaggio americano. New York e States: destinazione progettata, mentioned. Pasadena: provenienza dell'informatore, mentioned. California: racconto intercalato dell'esperimento, action solo con la prova del medico che narra la visione delle persone nelle stanze. Library della detenzione: commento al presente, action se mostra l'atto della consultazione, non edificio geocodificabile. Italy/Venice/Boston: titoli e riferimenti bibliografici, mentioned. Lundy/Derby/Ocean City/Columbia University/Dayton/Ottawa/New York: voci biografiche e carriere riferite, mentioned, non scene teatrali narrate.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "paris",
+          "id": "f143278ee5a71bb08c531d5f01e33f0212852a5b76802698cba20695d760c41a",
+          "sectionId": "1.8",
+          "category": "action",
+          "narrativeLevel": "recalled scene",
+          "reason": "La rivelazione di Valeria, il taxi e il colloquio al caffè sono azioni ambientate a Parigi, non informazioni anagrafiche.",
+          "viewerPage": 19,
+          "printedPage": 18,
+          "sourceImageSha256": "b48dd8b4adb48994b432b122c67b357e10b81390c10c28587348f7da6f54bc1b",
+          "sourceSectionSha256": "74a5a48ecc9b5a8be1ae80b118c0974c4d5b314c1ae21f8f5e4c426fbcdbe790",
+          "pdfPages": [
+            21
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        },
+        {
+          "placeId": "california",
+          "id": "44f4305462e1fa952375c1383336c42b3c84ba7cc548fa463589e4b0184ef41a",
+          "sectionId": "1.8",
+          "category": "action",
+          "narrativeLevel": "embedded testimony",
+          "reason": "Il medico racconta ciò che ha visto nell’esperimento californiano. È una scena nel racconto intercalato, non un viaggio di Humbert.",
+          "viewerPage": 20,
+          "printedPage": 19,
+          "sourceImageSha256": "bd37ed9bdb091e765e072c25a68d3e6d7d2d2dc41cead03cf0c7199ab104de25",
+          "sourceSectionSha256": "74a5a48ecc9b5a8be1ae80b118c0974c4d5b314c1ae21f8f5e4c426fbcdbe790",
+          "pdfPages": [
+            24
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [
+        {
+          "placeId": "paris",
+          "category": "action"
+        },
+        {
+          "placeId": "italy",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "new-york",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "california",
+          "category": "action"
+        },
+        {
+          "placeId": "pasadena",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "venice",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "boston",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "ocean-city",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "columbia-university",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "dayton",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "ottawa",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "ohio",
+          "category": "mentioned"
+        }
+      ],
+      "unlocatedNames": [
+        "America",
+        "Lundy",
+        "Derby"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "1.9",
+      "sourceSectionId": 10,
+      "viewerPages": [
+        22,
+        23
+      ],
+      "userPdfPages": [
+        25,
+        29
+      ],
+      "originalSectionSha256": "a685785bd470b35b96bdae83d50edd459ee2af48d2fb5573c455b6ff78bb22b5",
+      "previousSectionAnalysis": "Portugal: inverno e malattia riferiti, mentioned. New York: lavoro e biblioteca descritti in riepilogo, mentioned conservativo. Central Park: osservazioni abituali, mentioned conservativo se manca un singolo episodio. Arctic Canada: soggiorno e scena del narratore seduto sul masso, action al livello del ricordo; senza pretendere che il masso abbia coordinate. Prince of Wales' Island: scopo ipotizzato della spedizione, mentioned. Pierre Point/Melville Sound: attività di un altro gruppo riportata, mentioned; toponimi da verificare, non usare un geocodice omonimo. Victoria Island: scopo negato della spedizione, mentioned. Sanatori senza nomi: azione narrata nelle cure e nell'accesso ai fascicoli, senza coordinate.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "regional-arctic-canada",
+          "id": "49412b545df729332846166917877524a0c15a9c50d502b4cb744a52d92b84fb",
+          "sectionId": "1.9",
+          "category": "action",
+          "narrativeLevel": "recalled scene",
+          "reason": "Il narratore descrive se stesso seduto sul masso durante la spedizione. Prince of Wales e Victoria non identificano il campo: il primo è un’ipotesi sullo scopo, il secondo è negato.",
+          "viewerPage": 22,
+          "printedPage": 21,
+          "sourceImageSha256": "96f6b5ca4c40009e89ed83d340a6ff4da4ea5ce3eff4e0d1b65304587e14c703",
+          "sourceSectionSha256": "a685785bd470b35b96bdae83d50edd459ee2af48d2fb5573c455b6ff78bb22b5",
+          "pdfPages": [
+            27
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [
+        {
+          "placeId": "new-york",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "portugal",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "central-park",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "victoria-island",
+          "category": "mentioned"
+        }
+      ],
+      "unlocatedNames": [
+        "Arctic Canada",
+        "Prince of Wales",
+        "Pierre Point",
+        "Melville Sound"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "1.10",
+      "sourceSectionId": 11,
+      "viewerPages": [
+        23,
+        27
+      ],
+      "userPdfPages": [
+        29,
+        33
+      ],
+      "originalSectionSha256": "eadb547d86504138267eae87f8f9df97df868a485ea56a4cef07cd4860499acd",
+      "previousSectionAnalysis": "New England: scelta iniziale del soggiorno, mentioned. Ramsdale: arrivo e visita narrati, action, città immaginaria senza coordinate. Stazione e hotel senza nome: action per arrivo/attesa. Casa McCoo distrutta e fattoria: notizia, mentioned. Lawn Street/342 Lawn Street/casa Haze/stanze/giardino: visita narrata, action senza indirizzo terrestre. Bermudas/Bahamas: proposte di fuga, mentioned. Mexico: provenienza degli oggetti, mentioned. Riviera e Roches Roses: confronto e richiamo del ricordo, mentioned qui; non trasferire la scena presente sulla Riviera.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "regional-ramsdale",
+          "id": "f818c1a58b21510ea5a6eaea00e8954d981c3d0ff8e5c8b666799117b0a6a5a2",
+          "sectionId": "1.10",
+          "category": "action",
+          "narrativeLevel": "memoir scene",
+          "reason": "Humbert arriva a Ramsdale, visita la casa Haze e incontra Dolores.",
+          "viewerPage": 24,
+          "printedPage": 23,
+          "sourceImageSha256": "a111cc3b8c366c11f328ec0814f73ff93816458034fd9a54d864ad4dd3667936",
+          "sourceSectionSha256": "eadb547d86504138267eae87f8f9df97df868a485ea56a4cef07cd4860499acd",
+          "pdfPages": [
+            29,
+            30,
+            31,
+            32
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [
+        {
+          "placeId": "bermudas",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "bahamas",
+          "category": "mentioned"
+        }
+      ],
+      "unlocatedNames": [
+        "Ramsdale",
+        "Riviera",
+        "New England",
+        "Lawn Street",
+        "Roches Roses",
+        "Haze house",
+        "Camera di Humbert nella casa Haze",
+        "Cucina della casa Haze",
+        "Sala da pranzo della casa Haze"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "1.11",
+      "sourceSectionId": 12,
+      "viewerPages": [
+        27,
+        37
+      ],
+      "userPdfPages": [
+        33,
+        47
+      ],
+      "originalSectionSha256": "354c6b188079ac13c7f3c2944d4552013b209e40caf168006d2cd66c89d15112",
+      "previousSectionAnalysis": "Casa Haze e giardino: molte scene, action. Our Glass Lake: picnic rinviato e sogno; mentioned per i progetti, il sogno va distinto come livello onirico senza coordinate. Blankton: produttore del taccuino, mentioned. New Hampshire/Carolinas: calendario, mentioned. New York/Chicago: statistiche attribuite, mentioned. Petersburg, Fla.: notizia pseudoerudita del viaggio di Poe, mentioned; non emendarla a St Petersburg senza nota. Paris: classe ricordata di passaggio, mentioned. Pisky/Middle West: precedenti residenze e notizie scolastiche, mentioned; citazione della ferita da pattino non è una scena pienamente sviluppata. Hamiltons e negozio: viaggio in auto narrato verso negozio, action per auto/negozio; visita Hamilton riferita, mentioned. Florida/Gulf: carta copiata, mentioned. Ramsdale school: elenco e classe immaginata, mentioned, non visita effettiva. Hollywood: convenzione cinematografica, mentioned, non viaggio. Arctic: racconto inventato dell'orso; distinguere scene del racconto dalle persone che ascoltano sulla veranda.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "regional-ramsdale",
+          "id": "3828890cb123cf244ff1389b8114507cf3ea6e521b4f0f789cb92206049dabc8",
+          "sectionId": "1.11",
+          "category": "action",
+          "narrativeLevel": "memoir scene",
+          "reason": "Le entrate del diario narrano incontri e conversazioni nella casa e nel giardino Haze.",
+          "viewerPage": 27,
+          "printedPage": 26,
+          "sourceImageSha256": "b77e49707da4ee7e5813f8d34910f974b0663a07fdd052f6d2bb0fa870e19a0d",
+          "sourceSectionSha256": "354c6b188079ac13c7f3c2944d4552013b209e40caf168006d2cd66c89d15112",
+          "pdfPages": [
+            33,
+            34,
+            37
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [
+        {
+          "placeId": "paris",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "florida",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "new-york",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "new-hampshire",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "chicago",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "france",
+          "category": "mentioned"
+        }
+      ],
+      "unlocatedNames": [
+        "Ramsdale",
+        "Riviera",
+        "New England",
+        "Our Glass Lake",
+        "Blankton",
+        "Carolinas",
+        "Petersburg",
+        "Pisky",
+        "Middle West",
+        "Gulf",
+        "Hollywood"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "1.12",
+      "sourceSectionId": 13,
+      "viewerPages": [
+        37,
+        38
+      ],
+      "userPdfPages": [
+        47,
+        49
+      ],
+      "originalSectionSha256": "fd622e56192e6c0d26c089daea99b3c7c75664637b1fe65c7683a0f4976b6b5b",
+      "previousSectionAnalysis": "Lago, spiaggia e foresta: progetti, mentioned. Casa Haze: assetto progettato, mentioned in questo riepilogo. Nearest city: impiego progettato, mentioned senza identificazione. Savannah, Ga.: notizia del femore rotto di Miss Phalen, mentioned. Parks e city bus: riepiloghi di condotte pregresse, mentioned conservativo, non scambiare il riepilogo per una nuova scena.",
+      "reviewedActionPlaces": [],
+      "existingCoreReferences": [
+        {
+          "placeId": "savannah",
+          "category": "mentioned"
+        }
+      ],
+      "unlocatedNames": [
+        "Ramsdale"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "1.13",
+      "sourceSectionId": 14,
+      "viewerPages": [
+        38,
+        41
+      ],
+      "userPdfPages": [
+        49,
+        53
+      ],
+      "originalSectionSha256": "aa089c19d4b29b6cf49e48e96d3896f6e71c612277fdd1d1e025faafdfab5ede",
+      "previousSectionAnalysis": "Living room della casa Haze: action, ambientazione dichiarata e azioni sul divano. Church e Chatfields: assenze/destinazioni riferite, mentioned. Vera Cruz: notizia del viaggio di nozze degli Haze, mentioned, non scena ambientata in Messico. Spiaggia nella fotografia di rivista e cittadina nella canzone: immagini intercalate, mentioned senza identificazione. Venus di Milo è il nome di un oggetto artistico, non prova di una scena o una menzione dell'isola.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "regional-ramsdale",
+          "id": "8132ec49b76abe21a6fc0a0215cc38a3a5b4b5799cc2e6b93491ae184c3d536b",
+          "sectionId": "1.13",
+          "category": "action",
+          "narrativeLevel": "memoir scene",
+          "reason": "La scena sul divano è esplicitamente ambientata nel soggiorno della casa Haze.",
+          "viewerPage": 39,
+          "printedPage": 38,
+          "sourceImageSha256": "26b8cfe59bd3b6df105627983ce9c44701b526a5c3f807108d5858cf959b211d",
+          "sourceSectionSha256": "aa089c19d4b29b6cf49e48e96d3896f6e71c612277fdd1d1e025faafdfab5ede",
+          "pdfPages": [
+            49
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [
+        {
+          "placeId": "vera-cruz",
+          "category": "mentioned"
+        }
+      ],
+      "unlocatedNames": [
+        "Eden"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "1.14",
+      "sourceSectionId": 15,
+      "viewerPages": [
+        42,
+        43
+      ],
+      "userPdfPages": [
+        53,
+        55
+      ],
+      "originalSectionSha256": "c24297916620ecfb80f87727d2debba50cf0a8326f0e22f6e153f7161330050b",
+      "previousSectionAnalysis": "Casa Haze/sala da pranzo: cena e colloquio, action. Cittadina: pranzo riepilogato, mentioned conservativo. Cinema, casa Chatfield e camp: movimenti raccontati come notizie o programmi, mentioned; non confondere con scene sviluppate. Studio dentistico del vicino: suggerimento di consulto, mentioned.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "regional-ramsdale",
+          "id": "0c4fdf1c9ad67258fa094cd971b5c931cc1e4fc8e69a5f4abb859366968cc2f8",
+          "sectionId": "1.14",
+          "category": "action",
+          "narrativeLevel": "memoir scene",
+          "reason": "La cena e il colloquio con Charlotte avvengono nella casa Haze, in continuità col capitolo precedente.",
+          "viewerPage": 42,
+          "printedPage": 41,
+          "sourceImageSha256": "d2c297a0c920f852badee606a72711c47de354a7e1ecaa3ad65ab12853f64cd1",
+          "sourceSectionSha256": "c24297916620ecfb80f87727d2debba50cf0a8326f0e22f6e153f7161330050b",
+          "pdfPages": [
+            55
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [],
+      "unlocatedNames": [],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "1.15",
+      "sourceSectionId": 16,
+      "viewerPages": [
+        43,
+        45
+      ],
+      "userPdfPages": [
+        55,
+        59
+      ],
+      "originalSectionSha256": "e7b16a07496d248cfc7f5b24958ff303950d963581ac474c4e222b793f6455ea",
+      "previousSectionAnalysis": "Casa Haze/veranda/pianerottolo/camera e auto alla partenza: action. Camp Q: trasferimento riferito e fantasie del narratore, mentioned; non scena al campo. Seaside: soggiorno progettato, mentioned senza identificazione. Downtown: shopping riferito, mentioned senza negozio identificato.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "regional-ramsdale",
+          "id": "f31ff3662dd44d93cbccddda2aef41088351640c197d0611bbaf3017df2953b5",
+          "sectionId": "1.15",
+          "category": "action",
+          "narrativeLevel": "memoir scene",
+          "reason": "Preparativi, colloquio e congedo sono azioni nella casa Haze prima della partenza per il campo.",
+          "viewerPage": 43,
+          "printedPage": 42,
+          "sourceImageSha256": "00e4e8b86abde0743d0b7e06c2a70d862c4165901136279655be2111e07905c9",
+          "sourceSectionSha256": "e7b16a07496d248cfc7f5b24958ff303950d963581ac474c4e222b793f6455ea",
+          "pdfPages": [
+            55,
+            56,
+            59
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [],
+      "unlocatedNames": [
+        "Camp Q"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "1.16",
+      "sourceSectionId": 17,
+      "viewerPages": [
+        45,
+        47
+      ],
+      "userPdfPages": [
+        59,
+        61
+      ],
+      "originalSectionSha256": "875f3f01dc22671e79c9b63e6b5117aaf94ea73eee11b8ecff669cffe0f113c5",
+      "previousSectionAnalysis": "Camera di Dolores e letto: ricezione/lettura della lettera, action. Church: episodio di preghiera raccontato nella lettera di Charlotte, action al livello del racconto epistolare, senza ubicazione. Casa e giardino: nella lettera ricordi affettivi, mentioned; distingue il piano della lettera dalla lettura nella camera. Annunci pubblicitari: stanze raffigurate, mentioned, non realtà narrativa.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "regional-ramsdale",
+          "id": "6a09869b7826a70927ad55d3157e918ae9137366ceb583ed59df865a4f6aaf89",
+          "sectionId": "1.16",
+          "category": "action",
+          "narrativeLevel": "memoir scene",
+          "reason": "La lettera di Charlotte viene ricevuta e letta nella stanza di Dolores; distinguere la lettura dalla chiesa raccontata nella lettera.",
+          "viewerPage": 45,
+          "printedPage": 44,
+          "sourceImageSha256": "95d5c64b592ff42042dbffb6dfdec384bdaddc3a4b4d1418a25cb985fa949e97",
+          "sourceSectionSha256": "875f3f01dc22671e79c9b63e6b5117aaf94ea73eee11b8ecff669cffe0f113c5",
+          "pdfPages": [
+            59,
+            60,
+            61
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [],
+      "unlocatedNames": [],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "1.17",
+      "sourceSectionId": 18,
+      "viewerPages": [
+        47,
+        50
+      ],
+      "userPdfPages": [
+        61,
+        65
+      ],
+      "originalSectionSha256": "0fc38b12235189e75013770eb8db221d2fb937a93259fe4cdbc97a52dd7338d2",
+      "previousSectionAnalysis": "Camera di Humbert e prato della casa Haze: deliberazione e taglio del prato narrati, action. Lawn Street e case adiacenti: osservazione concreta del traffico e del ritorno di Charlotte, action per la strada; Miss Opposite e casa del rottamaio sono riferimenti al paesaggio visto, mentioned per gli edifici senza scena interna. Camp Q: telefonata con Dolores e incidente del cucciolo riferito in discorso diretto, action al livello remoto della conversazione; non viaggio di Humbert al campo. Eden e balconi dei libertini: allusioni/immagini mentali, mentioned senza coordinate.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "regional-ramsdale",
+          "id": "60fe0617113b23d9c667eb690c3e575ef0da2bb111035ec0bb766515fe75d7e8",
+          "sectionId": "1.17",
+          "category": "action",
+          "narrativeLevel": "memoir scene",
+          "reason": "Deliberazioni, telefonata e taglio del prato nella casa Haze: scena effettiva, non la sola notizia del matrimonio.",
+          "viewerPage": 49,
+          "printedPage": 48,
+          "sourceImageSha256": "be83b68fa9efc14ad5a64f2c2fbb72947b415d3bfed32d75aaa3b2b7e94646d0",
+          "sourceSectionSha256": "0fc38b12235189e75013770eb8db221d2fb937a93259fe4cdbc97a52dd7338d2",
+          "pdfPages": [
+            64,
+            65
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [],
+      "unlocatedNames": [
+        "Lawn Street"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "1.18",
+      "sourceSectionId": 19,
+      "viewerPages": [
+        50,
+        53
+      ],
+      "userPdfPages": [
+        65,
+        71
+      ],
+      "originalSectionSha256": "bc8887829a9cf264746b722d96fefc1d08e3166caf408757a3db02af3ee1cb2a",
+      "previousSectionAnalysis": "Casa Haze/cucina/stanza di Dolores: scene quotidiane e colloqui, action. Ramsdale: matrimonio e ambiente domestico narrati, action, città immaginaria. Camp Q: assenza della figlia e tempi del rientro, mentioned. Philadelphia/4640 Roosevelt Blvd.: indirizzo di ordinazione del materasso, mentioned, non scena nel negozio. Chile: viaggio d'affari dei Farlows riferito, mentioned. Parkington: sede professionale di Farlow, mentioned. Bosco anonimo: Farlow spiega l'uso dell'arma durante una passeggiata ricordata, action. Casa Farlow: dialogo davanti al dipinto, action nel ricordo, indirizzo non dichiarato. Middle West: origini e precedente vita, mentioned.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "regional-ramsdale",
+          "id": "1d1c89d4fd7d05854b467c3d23d6780ed6ca1d7ac0b1f1f0d20d27341b305b0c",
+          "sectionId": "1.18",
+          "category": "action",
+          "narrativeLevel": "memoir scene",
+          "reason": "Colloqui e gesti domestici nella casa Haze; la casa Farlow è contesto locale, non indirizzo identificato.",
+          "viewerPage": 50,
+          "printedPage": 49,
+          "sourceImageSha256": "5bd7cd0437b8b074985d4a23c4cc3fbb9e390d440baa9ebc057b62be5249f461",
+          "sourceSectionSha256": "bc8887829a9cf264746b722d96fefc1d08e3166caf408757a3db02af3ee1cb2a",
+          "pdfPages": [
+            65,
+            69
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [
+        {
+          "placeId": "philadelphia",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "chile",
+          "category": "mentioned"
+        }
+      ],
+      "unlocatedNames": [
+        "Ramsdale",
+        "Camp Q",
+        "Roosevelt",
+        "Parkington"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "1.19",
+      "sourceSectionId": 20,
+      "viewerPages": [
+        53,
+        55
+      ],
+      "userPdfPages": [
+        71,
+        73
+      ],
+      "originalSectionSha256": "b01da5287f59cf73bc66f50072ebce26b0eec55ccc4cbfe673155ed813509630",
+      "previousSectionAnalysis": "Casa Haze/camera: scene del colloquio e osservazione dei ricordi, action. Chicago: luogo di pubblicazione del manuale, mentioned. Camp Q/bosco: il maglione perso è una notizia nella lettera, mentioned al livello epistolare. Maternity ward: scenario progettato da Humbert, mentioned; non scena avvenuta.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "regional-ramsdale",
+          "id": "96c5aa2abd7dc1684c962efa0bf69b5041c152deeb1dd242f38072bab20f7194",
+          "sectionId": "1.19",
+          "category": "action",
+          "narrativeLevel": "memoir scene",
+          "reason": "Dialogo con Charlotte nella camera e osservazione dei suoi ricordi.",
+          "viewerPage": 53,
+          "printedPage": 52,
+          "sourceImageSha256": "76ef2977392338d4ac5f8b8dfa096852baa43d6a6d3c6d5eb72519d91418cad8",
+          "sourceSectionSha256": "b01da5287f59cf73bc66f50072ebce26b0eec55ccc4cbfe673155ed813509630",
+          "pdfPages": [
+            71,
+            72,
+            73
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [
+        {
+          "placeId": "chicago",
+          "category": "mentioned"
+        }
+      ],
+      "unlocatedNames": [],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "1.20",
+      "sourceSectionId": 21,
+      "viewerPages": [
+        55,
+        60
+      ],
+      "userPdfPages": [
+        73,
+        80
+      ],
+      "originalSectionSha256": "fc89233a40e0a3b0f07885207651344b5ccbcbee047670a6894bee2c111619d3",
+      "previousSectionAnalysis": "Hourglass Lake, cove, pine forest e parking area: cammino, nuotata e colloquio realizzati, action. Our Glass è variante percettiva del nome, non secondo lago. Drowning: soltanto progetto, non evento avvenuto. Arles/southern France: racconto intercalato compiuto di accoltellamento, esplosione e fuga, action a quel livello, non viaggio di Humbert. Parkington: destinazione del tragitto di Farlow riportata, mentioned. Palazzi del passato: paragone, mentioned. La scena del lago include racconti di Jean, distinti dal luogo in cui racconta.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "regional-ramsdale",
+          "id": "51ce78699916930ce5221388ca79abb51c3b20d4b33c35a05aef756e54098898",
+          "sectionId": "1.20",
+          "category": "action",
+          "narrativeLevel": "memoir scene",
+          "reason": "Cammino, nuotata e colloquio al lago a poche miglia da Ramsdale; il contorno indica il New England, non il lago.",
+          "viewerPage": 55,
+          "printedPage": 54,
+          "sourceImageSha256": "3d6c335f7b40eb4ba264e45933a287afa3f04bd45b355ac9bed819cabcf5fe9c",
+          "sourceSectionSha256": "fc89233a40e0a3b0f07885207651344b5ccbcbee047670a6894bee2c111619d3",
+          "pdfPages": [
+            73,
+            76,
+            77
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        },
+        {
+          "placeId": "arles",
+          "id": "6ac3ca5ed49d5e4d9489915eb9eba1a5288ce425beee169ad7c1cc65b030bfaa",
+          "sectionId": "1.20",
+          "category": "action",
+          "narrativeLevel": "embedded story",
+          "reason": "Il racconto intercalato narra accoltellamento, esplosione e fuga ad Arles. Non è una visita di Humbert né una ricostruzione storica verificata.",
+          "viewerPage": 57,
+          "printedPage": 56,
+          "sourceImageSha256": "c972646427d72af64aab5102cc6fee969ce21cfdddef3fd2f321d16a92f5c7b2",
+          "sourceSectionSha256": "fc89233a40e0a3b0f07885207651344b5ccbcbee047670a6894bee2c111619d3",
+          "pdfPages": [
+            75
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        },
+        {
+          "placeId": "france",
+          "id": "5087a112a34062600d1dbbe3cd7dec7b188a78368890b0d000096a346792c984",
+          "sectionId": "1.20",
+          "category": "action",
+          "narrativeLevel": "embedded story",
+          "reason": "L’ambientazione francese è esplicita nello stesso racconto di Arles, a livello intercalato.",
+          "viewerPage": 57,
+          "printedPage": 56,
+          "sourceImageSha256": "c972646427d72af64aab5102cc6fee969ce21cfdddef3fd2f321d16a92f5c7b2",
+          "sourceSectionSha256": "fc89233a40e0a3b0f07885207651344b5ccbcbee047670a6894bee2c111619d3",
+          "pdfPages": [
+            75
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [
+        {
+          "placeId": "arles",
+          "category": "action"
+        },
+        {
+          "placeId": "france",
+          "category": "action"
+        }
+      ],
+      "unlocatedNames": [
+        "Ramsdale",
+        "Our Glass Lake",
+        "Parkington",
+        "St. Algebra"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "1.21",
+      "sourceSectionId": 22,
+      "viewerPages": [
+        60,
+        63
+      ],
+      "userPdfPages": [
+        80,
+        83
+      ],
+      "originalSectionSha256": "59065d352b9880656509ce486a914b31892b8c9b2e3b3b34a936661548462604",
+      "previousSectionAnalysis": "Casa Haze/sala da pranzo/studio: dispute e conversazioni narrate, action. Hourglass Lake: ultima visita richiamata, mentioned qui. England/Europe/Atlantic: viaggio proposto e respinto, mentioned. Palace sentries: immagine pubblicitaria ipotetica, mentioned senza identificare Buckingham Palace. Scandinavia/Canada: voci dell'enciclopedia letta, mentioned. Enchanted Hunters: albergo ricordato e proposto per un viaggio, mentioned; Eastern State non identificato. Mirana Hotel: paragone delle tovaglie, mentioned.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "regional-ramsdale",
+          "id": "e29bcc8a94eca733a0a7a8631ae139f1c8c2ecc38d63ac1d0d82d16a47741bb3",
+          "sectionId": "1.21",
+          "category": "action",
+          "narrativeLevel": "memoir scene",
+          "reason": "Discussioni con Charlotte nella casa Haze. Il viaggio europeo è soltanto proposto.",
+          "viewerPage": 60,
+          "printedPage": 59,
+          "sourceImageSha256": "4dc7f0acdf1f3b3b16b9dcce0b3835aaf8af99a26ec956df772deb0e8b6203ce",
+          "sourceSectionSha256": "59065d352b9880656509ce486a914b31892b8c9b2e3b3b34a936661548462604",
+          "pdfPages": [
+            81,
+            82
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [
+        {
+          "placeId": "england",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "canada",
+          "category": "mentioned"
+        }
+      ],
+      "unlocatedNames": [
+        "Hotel Mirana",
+        "Our Glass Lake",
+        "Hollywood",
+        "Atlantic",
+        "Scandinavia",
+        "Enchanted Hunters",
+        "Europe"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "1.22",
+      "sourceSectionId": 23,
+      "viewerPages": [
+        63,
+        65
+      ],
+      "userPdfPages": [
+        83,
+        87
+      ],
+      "originalSectionSha256": "33d52c2b056181c30751bd4b7012258ddb01aab51b418038f8f8f72d14e6943c",
+      "previousSectionAnalysis": "St. Algebra: lettera e futura ammissione scolastica, mentioned. Ambulatorio di Dr Byron: visita e consegna delle capsule, action senza indirizzo. Ramsdale/Lawn Street/casa Haze: ritorno in auto e scontro con Charlotte, action. Sanatori passati: informazione deliberatamente camuffata, mentioned. Camere e cucina: movimento e preparazione delle bevande, action. Morte comunicata al telefono: notizia, distinta dalla scena seguente.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "regional-ramsdale",
+          "id": "865a2a6358ed38517c698c0bbc528a802197ce867ce10fcf49e7626d600507e8",
+          "sectionId": "1.22",
+          "category": "action",
+          "narrativeLevel": "memoir scene",
+          "reason": "Ritorno alla casa Haze, scontro con Charlotte e preparazione delle bevande.",
+          "viewerPage": 63,
+          "printedPage": 62,
+          "sourceImageSha256": "bed5278a19c67719334768e7b3e34d8271e50b4cf8d8d2b17b0916e8811d9cf1",
+          "sourceSectionSha256": "33d52c2b056181c30751bd4b7012258ddb01aab51b418038f8f8f72d14e6943c",
+          "pdfPages": [
+            83,
+            84,
+            85,
+            87
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [],
+      "unlocatedNames": [
+        "Ramsdale",
+        "St. Algebra"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "1.23",
+      "sourceSectionId": 24,
+      "viewerPages": [
+        65,
+        69
+      ],
+      "userPdfPages": [
+        87,
+        93
+      ],
+      "originalSectionSha256": "f8a3feee21af2aa1faabea9609fc9a60fe931268670261abd523cbf7e6d39818",
+      "previousSectionAnalysis": "Lawn Street/sidewalk/Miss Opposite lawn: scena delle conseguenze immediate dell'incidente, action. Casa Haze e casa Farlow: assistenza e incontri narrati, action. Parkington/Pisky: fuga progettata da Charlotte, mentioned. Maine: assenza dei Chatfields riferita, mentioned. Pisky/States/Europe: falsa storia del precedente incontro con Charlotte, mentioned con indicazione della menzogna, non promossa a itinerario reale. New York: parente e scuola inventati per il sacerdote, mentioned. Climax: proposta di ricorrere alla polizia, mentioned. New Mexico/California: viaggio progettato, mentioned. Camp Q e colline: escursione prima inventata, mentioned; non prova di una scena realmente narrata. Funerale e inchiesta sono riepilogati, mentioned conservativo per eventuali edifici anonimi.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "regional-ramsdale",
+          "id": "7427e3c77d8500f14499f16175f354eb3c4c73ce32fc706e62c340982cf71c4d",
+          "sectionId": "1.23",
+          "category": "action",
+          "narrativeLevel": "memoir scene",
+          "reason": "Il narratore esce e vede le conseguenze dell’incidente nella strada della casa Haze, senza scena nelle mete di fuga citate.",
+          "viewerPage": 65,
+          "printedPage": 64,
+          "sourceImageSha256": "282c6aee8f3546517e564fba20140852aac186a4f006df823cbcba787db4e1c7",
+          "sourceSectionSha256": "f8a3feee21af2aa1faabea9609fc9a60fe931268670261abd523cbf7e6d39818",
+          "pdfPages": [
+            87
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [
+        {
+          "placeId": "new-york",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "california",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "maine",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "new-mexico",
+          "category": "mentioned"
+        }
+      ],
+      "unlocatedNames": [
+        "Pisky",
+        "Parkington",
+        "Climax",
+        "Europe"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "1.24",
+      "sourceSectionId": 25,
+      "viewerPages": [
+        69,
+        70
+      ],
+      "userPdfPages": [
+        93,
+        95
+      ],
+      "originalSectionSha256": "0c6e2bd2d4da8c672b25cc1e6bc1ee772cf190e5408b016b85c5c3617e2422b0",
+      "previousSectionAnalysis": "Casa Haze/hallway/Lawn Street/Ramsdale: commiato narrato, action. Church tower: edificio visto nel paesaggio, mentioned. Philadelphia: provenienza del materasso consegnato, mentioned; non viaggio a Filadelfia. Slab della morte: rievocazione dell'osservazione del corpo, action nella strada al livello del ricordo, non coordinate precise.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "regional-ramsdale",
+          "id": "11d70c6910a19ec6c3c284ccf1ceccd26ae7fcf0fba8dad23ff4e60d729ce527",
+          "sectionId": "1.24",
+          "category": "action",
+          "narrativeLevel": "memoir scene",
+          "reason": "Commiato dalla casa Haze e da Ramsdale, con gesti e osservazioni narrati.",
+          "viewerPage": 69,
+          "printedPage": 68,
+          "sourceImageSha256": "95bbf3c9d62bae4e2e7f456df39b1911832b6f43d9bfd9bf1dc7704997faa1c4",
+          "sourceSectionSha256": "0c6e2bd2d4da8c672b25cc1e6bc1ee772cf190e5408b016b85c5c3617e2422b0",
+          "pdfPages": [
+            93,
+            95
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [
+        {
+          "placeId": "philadelphia",
+          "category": "mentioned"
+        }
+      ],
+      "unlocatedNames": [
+        "Ramsdale"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "1.25",
+      "sourceSectionId": 26,
+      "viewerPages": [
+        70,
+        73
+      ],
+      "userPdfPages": [
+        95,
+        99
+      ],
+      "originalSectionSha256": "f5d8cb97fb920067854e234e5edcab356e91ba8ef8648163d2c86fe0c3b5af1c",
+      "previousSectionAnalysis": "Parkington/suburb/gasoline station/business center/negozi: sosta, telefonata e acquisti narrati, action. Ramsdale/Climax: giornali e ipotesi sul ritorno della figlia, mentioned. Lake Climax/Camp Q: rotta e destinatari del viaggio, mentioned in questa sezione; la salita in auto non è ancora narrata fino al campo. Colline: escursione comunicata dalla direttrice, mentioned. Hospital: inventato come giustificazione, mentioned senza coordinate.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "regional-parkington",
+          "id": "a515b55160bd88eeafa8f881d603eb315b8a43ef9b6b1896ac10bb09915ff2d1",
+          "sectionId": "1.25",
+          "category": "action",
+          "narrativeLevel": "memoir scene",
+          "reason": "Sosta, telefonata dal distributore e acquisti nel centro di Parkington.",
+          "viewerPage": 71,
+          "printedPage": 70,
+          "sourceImageSha256": "27199272d39fb79d65b1b58973322a27895872633f8276bfdab63d39b19fb452",
+          "sourceSectionSha256": "f5d8cb97fb920067854e234e5edcab356e91ba8ef8648163d2c86fe0c3b5af1c",
+          "pdfPages": [
+            95,
+            97,
+            99
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [],
+      "unlocatedNames": [
+        "Ramsdale",
+        "Camp Q",
+        "Parkington",
+        "Enchanted Hunters",
+        "Climax",
+        "Briceland"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "1.26",
+      "sourceSectionId": 27,
+      "viewerPages": [
+        73,
+        73
+      ],
+      "userPdfPages": [
+        99,
+        99
+      ],
+      "originalSectionSha256": "7820b260eadf7137cd2d90c6f94408784144e008f07a8a33bc2a399c25bd20c1",
+      "previousSectionAnalysis": "Tombal jail: cornice di scrittura dichiarata, action senza luogo identificato; non attribuire Widworth alla prigione. Nessun luogo mappabile dimostrato.",
+      "reviewedActionPlaces": [],
+      "existingCoreReferences": [],
+      "unlocatedNames": [],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "1.27",
+      "sourceSectionId": 28,
+      "viewerPages": [
+        73,
+        83
+      ],
+      "userPdfPages": [
+        99,
+        111
+      ],
+      "originalSectionSha256": "68470afb5f70f788f4b03ff06d439b6bbb986aa3a0f4e91529a5dc72e923b18f",
+      "previousSectionAnalysis": "Parkington: partenza e problema della batteria, action. Camp Q/ufficio/grove: arrivo, ricevuta e incontro, action. Hazy Hills/Briceland: all'inizio mete e distanze, mentioned; Briceland diventa action dopo l'arrivo e la ricerca dell'albergo. Ramsdale: timore di telefonata, mentioned. Lepingville e hospital: spiegazione ingannevole e progetto, mentioned, non visita. Roadside/patrol encounter/candy bar/auto: scene action senza nome. The Park: zona attraversata prima dell'albergo, action senza coordinate. The Enchanted Hunters/lobby/342/dining room: ingresso, conversazioni e cena, action. 342 Lawn Street: indirizzo nel registro, mentioned, non scena di ritorno. Il Tuscan rose della coperta è un colore/tipo tessile, non viaggio in Toscana.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "regional-parkington",
+          "id": "d8f4c3286f68b1d86737edad9983ef7d6e60ba832fff6ea4de2b30ac42121910",
+          "sectionId": "1.27",
+          "category": "action",
+          "narrativeLevel": "memoir scene",
+          "reason": "Risveglio e problema della batteria prima della partenza da Parkington.",
+          "viewerPage": 73,
+          "printedPage": 72,
+          "sourceImageSha256": "0a58d15c791177b82453d50d74519dbe73fdbb0d9ccddc51011b901b1236a739",
+          "sourceSectionSha256": "68470afb5f70f788f4b03ff06d439b6bbb986aa3a0f4e91529a5dc72e923b18f",
+          "pdfPages": [
+            99
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        },
+        {
+          "placeId": "regional-briceland",
+          "id": "afb9300f791eda901f3c24c239cdedc6ead3b2585d295578a3072fa278582d9b",
+          "sectionId": "1.27",
+          "category": "action",
+          "narrativeLevel": "memoir scene",
+          "reason": "Arrivo, parcheggio, dialogo alla reception e cena dopo aver raggiunto Briceland.",
+          "viewerPage": 79,
+          "printedPage": 78,
+          "sourceImageSha256": "a7ddf785fb7cd33b4b85ca474602899fd6d14de8f231864d0a309b817d53cdb1",
+          "sourceSectionSha256": "68470afb5f70f788f4b03ff06d439b6bbb986aa3a0f4e91529a5dc72e923b18f",
+          "pdfPages": [
+            105
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [],
+      "unlocatedNames": [
+        "Ramsdale",
+        "Lawn Street",
+        "Camp Q",
+        "Parkington",
+        "Enchanted Hunters",
+        "Hazy Hills",
+        "Briceland",
+        "Lepingville"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "1.28",
+      "sourceSectionId": 29,
+      "viewerPages": [
+        83,
+        86
+      ],
+      "userPdfPages": [
+        111,
+        115
+      ],
+      "originalSectionSha256": "e8852311c31a47925db6e769233e83ed2691cc5125e58b23a867304146a3a6cd",
+      "previousSectionAnalysis": "Enchanted Hunters/342/sale/men's room/lobby/Hunters' Hall/Raspberry Room/porch: movimenti e colloqui, action; per Hunters' Hall il narratore sente le voci ma non entra, mentioned conservativo per quella sala. Camp Q: ipotesi su precedenti esperienze, mentioned. Vienna: allusione psicoanalitica, mentioned senza scena. Globe e hemispheres: progetto retrospettivo di fuga, mentioned senza coordinate. Persia: formula del proverbio, non visita. Le fantasie sul letto vanno separate dalla scena di percorrenza dell'albergo.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "regional-briceland",
+          "id": "dc687e67d1ce43d91e602f9c5c589e8c6a9b43537f29af787ae60052c50d4658",
+          "sectionId": "1.28",
+          "category": "action",
+          "narrativeLevel": "memoir scene",
+          "reason": "Movimenti e colloqui nell’albergo, in continuità con l’arrivo del capitolo precedente.",
+          "viewerPage": 85,
+          "printedPage": 84,
+          "sourceImageSha256": "b034853a334394b137873edab9e567bc449d6f12db3c290bccbfa6f78db987e1",
+          "sourceSectionSha256": "e8852311c31a47925db6e769233e83ed2691cc5125e58b23a867304146a3a6cd",
+          "pdfPages": [
+            113
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [
+        {
+          "placeId": "vienna",
+          "category": "mentioned"
+        }
+      ],
+      "unlocatedNames": [
+        "Hunters’ Hall",
+        "Raspberry Room"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "1.29",
+      "sourceSectionId": 30,
+      "viewerPages": [
+        86,
+        90
+      ],
+      "userPdfPages": [
+        115,
+        121
+      ],
+      "originalSectionSha256": "f210ca9d77f107589c1dd2a613e5d7e0aaac4216a559bc8c3262cd748da68111",
+      "previousSectionAnalysis": "Camera 342/bagno/corridoi e cortile uditi: action per camera/bagno, mentioned per locali soltanto dedotti dai rumori. Ramsdale/camp: ritorno che Humbert teme, mentioned. Eiffel Tower: paragone del narratore con il sarto-paracadutista, mentioned, non scena di Humbert a Parigi. Niagara: paragone acustico, mentioned. Spiaggia favolosa/greenish tank: sogni e immagini, mentioned, senza coordinate.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "regional-briceland",
+          "id": "d1c95ac67d34b162a8f59c32584e0d819a6463c2ea442c0828b684e17bf6b55d",
+          "sectionId": "1.29",
+          "category": "action",
+          "narrativeLevel": "memoir scene",
+          "reason": "Scena nella camera e nel bagno dello stesso albergo, non una nuova scena a Ramsdale richiamata come timore.",
+          "viewerPage": 86,
+          "printedPage": 85,
+          "sourceImageSha256": "97bd1323f935af3cd8cd820c154426fba839a1001497320077880f9515a57a1d",
+          "sourceSectionSha256": "f210ca9d77f107589c1dd2a613e5d7e0aaac4216a559bc8c3262cd748da68111",
+          "pdfPages": [
+            115
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [
+        {
+          "placeId": "eiffel-tower",
+          "category": "mentioned"
+        }
+      ],
+      "unlocatedNames": [
+        "Ramsdale",
+        "Niagara"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "1.30",
+      "sourceSectionId": 31,
+      "viewerPages": [
+        90,
+        91
+      ],
+      "userPdfPages": [
+        121,
+        122
+      ],
+      "originalSectionSha256": "1e5975f477fb71c67f1527c0c5776648089e726665cabe097cba5806c954eb97",
+      "previousSectionAnalysis": "Enchanted Hunters/dining room: commissione artistica ipotetica, mentioned in questa sezione. Lake/arbor/suburb/camp: elementi del murale mai realizzato, mentioned come immaginazione, non scene effettive di soggiorno.",
+      "reviewedActionPlaces": [],
+      "existingCoreReferences": [],
+      "unlocatedNames": [
+        "Enchanted Hunters"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "1.31",
+      "sourceSectionId": 32,
+      "viewerPages": [
+        91,
+        91
+      ],
+      "userPdfPages": [
+        122,
+        123
+      ],
+      "originalSectionSha256": "9a353807ac4c7d73e9177a373ebd295a36c4d76cd424ee29ad6f8047942040f9",
+      "previousSectionAnalysis": "United States: affermazione normativa del narratore, mentioned, non base giuridica. St Louis/Chicago/Cincinnati: citazione di vecchia rivista, mentioned; non prova di maturazione biologica o luogo della nascita preciso. Prison library: fonte dichiarata del testo consultato, mentioned conservativo, non edificio identificato.",
+      "reviewedActionPlaces": [],
+      "existingCoreReferences": [
+        {
+          "placeId": "chicago",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "st-louis",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "cincinnati",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "united-states",
+          "category": "mentioned"
+        }
+      ],
+      "unlocatedNames": [],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "1.32",
+      "sourceSectionId": 33,
+      "viewerPages": [
+        91,
+        95
+      ],
+      "userPdfPages": [
+        123,
+        128
+      ],
+      "originalSectionSha256": "5e2c3ca91e8ab3ce1b179787e486fb70d6a8356dd750af3a8fcd367bd5db3753",
+      "previousSectionAnalysis": "Camera 342/lobby/coffee shop/auto/filling station/Briceland: azioni narrate, action. Camp Q/Onyx/Eryx/forest: racconto intercalato di Dolores con trasporto della canoa ed episodi ambientati, action a quel livello; mantenere tutte le coordinate assenti. Willow Island: prova di nuoto riferita, mentioned. Lake Climax/Climax: attività del ragazzo e spiegazione del nome, mentioned conservativo se non scena compiuta. Camp precedente/tent: ricordo riferito senza identità, mentioned. Middle West/Ramsdale: trasferimento e informazioni scolastiche, mentioned. Garage dello zio di Donald: notizia su altri ragazzi, mentioned; non scena narrata. Schwab's drugstore: racconto di rivista con frequentazione dell'attore, mentioned conservativo. Maine: domanda sulla partenza di Phyllis, mentioned. Lepingville: meta mentre guidano, mentioned; non anticipare la visita del capitolo seguente. Aunt Clare/hospital: alibi, mentioned e inventati.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "regional-briceland",
+          "id": "6286391c464705bb4c8e72dfaa214afe4ae07b44691ef043ade4c31fe3696c9e",
+          "sectionId": "1.32",
+          "category": "action",
+          "narrativeLevel": "memoir scene",
+          "reason": "Camera, partenza dall’albergo e sosta presso Briceland; il racconto del campo ha livello distinto.",
+          "viewerPage": 95,
+          "printedPage": 94,
+          "sourceImageSha256": "bc1a5b507ff95fc8b9f05f1670760f6d172e3a962d38cd424b7a28b7f6b30cab",
+          "sourceSectionSha256": "5e2c3ca91e8ab3ce1b179787e486fb70d6a8356dd750af3a8fcd367bd5db3753",
+          "pdfPages": [
+            127
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [
+        {
+          "placeId": "maine",
+          "category": "mentioned"
+        }
+      ],
+      "unlocatedNames": [
+        "Ramsdale",
+        "Middle West",
+        "Camp Q",
+        "Climax",
+        "Briceland",
+        "Lepingville",
+        "Onyx",
+        "Eryx",
+        "Willow Island",
+        "Schwab"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "1.33",
+      "sourceSectionId": 34,
+      "viewerPages": [
+        95,
+        95
+      ],
+      "userPdfPages": [
+        128,
+        129
+      ],
+      "originalSectionSha256": "5ac328799e40df69f8bbf1ecc989c5003cba01b62befcf079b07e204bd395f83",
+      "previousSectionAnalysis": "Lepingville/hotel: acquisti e scena notturna avvenuti, action; non confondere l'albergo realmente narrato con l'ospedale inventato. Camere inizialmente separate: non supporre un unico letto assegnato sin dall'arrivo. Nessuna città reale viene identificata con Lepingville.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "regional-lepingville",
+          "id": "7357baf923620e7976031e10525285c219f88c52481a8484ea04d730bb9e5081",
+          "sectionId": "1.33",
+          "category": "action",
+          "narrativeLevel": "memoir scene",
+          "reason": "Acquisti e pianto notturno di Dolores nell’albergo: visita realizzata, non l’ospedale inventato come alibi.",
+          "viewerPage": 95,
+          "printedPage": 94,
+          "sourceImageSha256": "bc1a5b507ff95fc8b9f05f1670760f6d172e3a962d38cd424b7a28b7f6b30cab",
+          "sourceSectionSha256": "5ac328799e40df69f8bbf1ecc989c5003cba01b62befcf079b07e204bd395f83",
+          "pdfPages": [
+            128
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [],
+      "unlocatedNames": [
+        "Lepingville"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "2.1",
+      "sourceSectionId": 35,
+      "viewerPages": [
+        96,
+        102
+      ],
+      "userPdfPages": [
+        129,
+        137
+      ],
+      "originalSectionSha256": "99c8c2cb591a31e8b160a1c67261a90f16cbc8df499bca96954aa8acaf0e9f77",
+      "previousSectionAnalysis": "Pennsylvania: stanza in cui il tempo piovoso contraddice l'illusione veneziana, mentioned conservativo per descrizione riepilogativa; Venice è paragone, mentioned. Stati Uniti: giro complessivo narrato ma itinerario finale solo riepilogato; New England, Dixieland, Rockies, Pacific, Canadian border e Beardsley sono mentioned in quel riepilogo. Florida: meta deliberatamente evitata e residenza riferita dei Farlows, mentioned. Farmhouse negli Appalachi: soggiorno passato di Dolores riferito e minaccia di esilio, mentioned. Virginia/Arkansas/Oklahoma/Louisiana/Lourdes/Rocky Mountains: esempi di mete giornaliere, mentioned; non sviluppano una scena in ciascuna attrazione. Kansas: descrizione pittorica del paesaggio, mentioned conservativo. Main Street in avviso alberghiero: istruzione pubblicitaria, mentioned senza città. Motel e roadside: scene generiche della segregazione, action senza indirizzo. I nomi di motor courts in elenco sono mentioned senza identificazione individuale. Non trattare affermazioni sui Siciliani come verità etnografiche.",
+      "reviewedActionPlaces": [],
+      "existingCoreReferences": [
+        {
+          "placeId": "florida",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "venice",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "pennsylvania",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "virginia",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "arkansas",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "oklahoma",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "louisiana",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "lourdes",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "kansas",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "united-states",
+          "category": "mentioned"
+        }
+      ],
+      "unlocatedNames": [
+        "America",
+        "New England",
+        "Dixieland",
+        "Rockies",
+        "Pacific",
+        "Canadian border",
+        "Beardsley",
+        "Rocky Mountains",
+        "Main Street"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "2.2",
+      "sourceSectionId": 36,
+      "viewerPages": [
+        102,
+        110
+      ],
+      "userPdfPages": [
+        137,
+        149
+      ],
+      "originalSectionSha256": "d388d4bdd0c0ffa859493075c17d5bfc0b17d8aab67dd23f798fceae58b35052",
+      "previousSectionAnalysis": "Magnolia Garden: Dolores si siede col giornale dopo il commento, action; modello reale da verificare. Georgia coast: gita in barca narrata, action; millionaire island vista soltanto, mentioned. Hobby House in Mississippi: scoperta della foto del Mirana e commento di Lo, action; Mirana nella foto, mentioned. Little Iceberg Lake/Colorado: scivolata e battaglia di neve, action. Russian Gulch State Park: crisi epilettica di un uomo osservata, action. California: lezione di tennis con colpo del maestro, action; Cannes: antico incontro sportivo richiamato, mentioned. South Arizona: localizzazione dichiarata con 'I think' del tennis; conservare mentioned per la regione dubbia e action per il campo anonimo. Poplar Shade/Utah: domanda di Dolores durante il soggiorno, action. Milner Pass, Lacework Cabins/Virginia, Park Avenue/Little Rock, Phoenix/Seventh/Central, Third Street/Los Angeles, Broadway/Washington/Burns/Oregon, Sun Valley/Idaho, Pinedale/Farson, Main Street/Nebraska, McEwen/Wheaton/Michigan: elenco dei litigi, mentioned conservativo perché è riepilogo, salvo la scena di Poplar Shade. Altre attrazioni elencate (Blue Licks, Lincoln cabin, Poplar Cove, Kilmer memorial, Bourbon Street/New Orleans, Menninger, Independence/Missouri/Oregon Trail, Abilene/Kansas, Texas, Crystal Chamber, Conception Park, Shakespeare/New Mexico, Hell's Canyon, Reno/Nevada, California winery, Death Valley/Scotty's Castle, Rogers collection, extinct volcano, Mission Dolores, Crater Lake, Idaho penitentiary, Yellowstone, ND chateau, SD Corn Palace/presidential heads, Indiana zoo, ferry City of Cheboygan, Lincoln home): mentioned salvo scena sviluppata; fonti critiche necessarie per gli oggetti non nominati precisamente. Non convertire il nome del traghetto in prova di sbarco a Cheboygan. Checkpoint Arizona/California: scena narrata ma confine alternativo non identificato, action per checkpoint anonimo, mentioned per i due stati. Rink, pool, hotel courts, milk bar: scene action senza coordinate. Girl Spanish: provenienza della persona, non scena spagnola.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "scene-magnolia-gardens",
+          "id": "d01e0e025b987e7e45f08de0050631d3db2f0b86cb1f832b86b4cb453bc35bd8",
+          "sectionId": "2.2",
+          "category": "action",
+          "narrativeLevel": "recalled scene",
+          "reason": "Dolores risponde e si siede sulla panchina coi giornali: scena effettiva. Zimmer identifica Magnolia Gardens presso Charleston, confermato dal sito del giardino; non è identificata la panchina.",
+          "viewerPage": 102,
+          "printedPage": 101,
+          "sourceImageSha256": "deef9bc5c138e498e0bef721530b3eda415c0a25a86b4b77ae4ce45901ba2d8e",
+          "sourceSectionSha256": "d388d4bdd0c0ffa859493075c17d5bfc0b17d8aab67dd23f798fceae58b35052",
+          "pdfPages": [
+            138
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        },
+        {
+          "placeId": "georgia",
+          "id": "515a48a5a9a48f11a800f3f8421dc4aca4a32835bb1e3c0017ab7c6d5359b6ab",
+          "sectionId": "2.2",
+          "category": "action",
+          "narrativeLevel": "recalled scene",
+          "reason": "La scena avviene sulla barca al largo della Georgia, non sull’isola vista a distanza.",
+          "viewerPage": 103,
+          "printedPage": 102,
+          "sourceImageSha256": "9c53258dea758a4cbfb02f5cd37d7303e28b404de2a001eade55733b946f939a",
+          "sourceSectionSha256": "d388d4bdd0c0ffa859493075c17d5bfc0b17d8aab67dd23f798fceae58b35052",
+          "pdfPages": [
+            139
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        },
+        {
+          "placeId": "mississippi",
+          "id": "fdef5e5f1f0e5f5a7bd2dba7223d627edccd3efa81460e7d0121b6db0a2c4020",
+          "sectionId": "2.2",
+          "category": "action",
+          "narrativeLevel": "recalled scene",
+          "reason": "La scoperta della fotografia del Mirana e la replica di Dolores sono eventi nel museo del Mississippi, il cui nome/località non sono identificati.",
+          "viewerPage": 103,
+          "printedPage": 102,
+          "sourceImageSha256": "9c53258dea758a4cbfb02f5cd37d7303e28b404de2a001eade55733b946f939a",
+          "sourceSectionSha256": "d388d4bdd0c0ffa859493075c17d5bfc0b17d8aab67dd23f798fceae58b35052",
+          "pdfPages": [
+            139
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        },
+        {
+          "placeId": "arkansas",
+          "id": "49bffd516c35e0faab51d372448fa9dc2448c0860ba3a5caa24d59396db26874",
+          "sectionId": "2.2",
+          "category": "action",
+          "narrativeLevel": "recalled scene",
+          "reason": "La puntura e il trattamento della spalla sono un episodio effettivo nel bosco, non la sola parola Arkansas in un elenco.",
+          "viewerPage": 103,
+          "printedPage": 102,
+          "sourceImageSha256": "9c53258dea758a4cbfb02f5cd37d7303e28b404de2a001eade55733b946f939a",
+          "sourceSectionSha256": "d388d4bdd0c0ffa859493075c17d5bfc0b17d8aab67dd23f798fceae58b35052",
+          "pdfPages": [
+            139
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        },
+        {
+          "placeId": "colorado",
+          "id": "f69d9c3e5139a89e9f5b6f44ef8317e87c260b4550452a17882f2bb5d255b0e8",
+          "sectionId": "2.2",
+          "category": "action",
+          "narrativeLevel": "recalled scene",
+          "reason": "Il testo dice somewhere in Colorado; scivolata e battaglia di neve narrate provano action, non l’identità di un lago omonimo.",
+          "viewerPage": 104,
+          "printedPage": 103,
+          "sourceImageSha256": "94620498b44dccb11f31c84bda6d7fae8430dd07e68c66e1e06b57eccc5bf457",
+          "sourceSectionSha256": "d388d4bdd0c0ffa859493075c17d5bfc0b17d8aab67dd23f798fceae58b35052",
+          "pdfPages": [
+            140
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        },
+        {
+          "placeId": "russian-gulch",
+          "id": "840c9c57d0c5e9de85dcaf40dc70e2b88a82c5b75ee1577867ab1686ebc5dfab",
+          "sectionId": "2.2",
+          "category": "action",
+          "narrativeLevel": "recalled scene",
+          "reason": "Una vignetta nominale narra un evento osservato con attore e ambientazione espliciti; la lunghezza non ne annulla la funzione di scena.",
+          "viewerPage": 104,
+          "printedPage": 103,
+          "sourceImageSha256": "94620498b44dccb11f31c84bda6d7fae8430dd07e68c66e1e06b57eccc5bf457",
+          "sourceSectionSha256": "d388d4bdd0c0ffa859493075c17d5bfc0b17d8aab67dd23f798fceae58b35052",
+          "pdfPages": [
+            141
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        },
+        {
+          "placeId": "california",
+          "id": "5190f881807d65dc0c7d70956788dc83f278f9d97ee26a315ca419431d8a00c4",
+          "sectionId": "2.2",
+          "category": "action",
+          "narrativeLevel": "recalled scene",
+          "reason": "La lezione descrive il gesto del maestro sul campo: azione abituale concretamente narrata, non sola notizia di iscrizione.",
+          "viewerPage": 107,
+          "printedPage": 106,
+          "sourceImageSha256": "dcfca1edd3194dbebf2a8ebcb46000e9022726a3b2bd31f2acfeca27809a2668",
+          "sourceSectionSha256": "d388d4bdd0c0ffa859493075c17d5bfc0b17d8aab67dd23f798fceae58b35052",
+          "pdfPages": [
+            145
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        },
+        {
+          "placeId": "utah",
+          "id": "93b2b16d2640a6c09eed822bae160eb184bb575155dbb736c08f36714d511489",
+          "sectionId": "2.2",
+          "category": "action",
+          "narrativeLevel": "recalled scene",
+          "reason": "Il soggiorno al motel contiene la domanda di Dolores sulla vita insieme: scena narrata dentro il riepilogo dei litigi.",
+          "viewerPage": 105,
+          "printedPage": 104,
+          "sourceImageSha256": "e0ba15588f53ecfde575edb18701ab2f03b3b4c1491505e36552e314bace4233",
+          "sourceSectionSha256": "d388d4bdd0c0ffa859493075c17d5bfc0b17d8aab67dd23f798fceae58b35052",
+          "pdfPages": [
+            141
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [
+        {
+          "placeId": "california",
+          "category": "action"
+        },
+        {
+          "placeId": "new-mexico",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "virginia",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "arkansas",
+          "category": "action"
+        },
+        {
+          "placeId": "kansas",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "georgia",
+          "category": "action"
+        },
+        {
+          "placeId": "mississippi",
+          "category": "action"
+        },
+        {
+          "placeId": "colorado",
+          "category": "action"
+        },
+        {
+          "placeId": "russian-gulch",
+          "category": "action"
+        },
+        {
+          "placeId": "cannes",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "arizona",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "utah",
+          "category": "action"
+        },
+        {
+          "placeId": "milner-pass",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "little-rock",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "phoenix",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "los-angeles",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "burns",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "oregon",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "idaho",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "pinedale",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "farson",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "nebraska",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "michigan",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "blue-licks",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "bourbon-street",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "new-orleans",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "independence",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "missouri",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "abilene",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "texas",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "shakespeare",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "reno",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "nevada",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "death-valley",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "scotty",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "mission-dolores",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "crater-lake",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "yellowstone",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "indiana",
+          "category": "mentioned"
+        }
+      ],
+      "unlocatedNames": [
+        "Hotel Mirana",
+        "Main Street",
+        "Magnolia Garden",
+        "Hobby House",
+        "Little Iceberg Lake",
+        "Poplar Shade",
+        "Lacework Cabins",
+        "Park Avenue",
+        "Third Street",
+        "Broadway",
+        "Sun Valley",
+        "McEwen",
+        "Wheaton",
+        "Poplar Cove",
+        "Menninger",
+        "Oregon Trail",
+        "Crystal Chamber",
+        "Conception Park",
+        "Hell’s Canyon",
+        "City of Cheboygan",
+        "Europe",
+        "Mexican border",
+        "Seventh Street",
+        "Central Avenue",
+        "Washington Street",
+        "Corn Palace"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "2.3",
+      "sourceSectionId": 37,
+      "viewerPages": [
+        110,
+        116
+      ],
+      "userPdfPages": [
+        149,
+        159
+      ],
+      "originalSectionSha256": "843216895d5433783fd135eb9c894eff9393aafaa94a70702b001e09f0eafc7e",
+      "previousSectionAnalysis": "Frigid Queen: nome del milk bar appena visitato nella sezione precedente, mentioned nel richiamo di questa sezione; non creare nuova scena solo dal nome. Atlantic cove/Gulf beaches: visite e maltempo riepilogati, mentioned conservativo. California beach/Pacific: episodio della caverna e dei bagnanti, action sulla spiaggia, mare visto mentioned. Riviera/Alps/Swiss villages/Europe: paragoni e ricordi, mentioned. Mountain pass over 10000ft: scena della famiglia che li sorprende, action senza nome; non attribuire Milner Pass per sola altezza. Cinema anonimo e burg con polizia: scene action. Broadway/Roaring Gulch: convenzioni dei generi cinematografici, mentioned al livello immaginario. Alabama/Minnesota: argomenti normativi del narratore, mentioned. Chicago: bibliografia, mentioned. Beardsley/college/school: scelta progettata, mentioned, visita dal capitolo seguente. Mexican border: fuga immaginata e non realizzata, mentioned. Anonymous libraries: consultazione riferita, mentioned conservativo; non assegnare una biblioteca precisa.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "california",
+          "id": "0f307b595116da25910fe6ce7c2f311c48343635a3b839b3bf0a1639d8073aaf",
+          "sectionId": "2.3",
+          "category": "action",
+          "narrativeLevel": "recalled scene",
+          "reason": "L’episodio sulla spiaggia californiana è narrato, ma la spiaggia non ha nome; il Pacifico non viene promosso come scena distinta.",
+          "viewerPage": 111,
+          "printedPage": 110,
+          "sourceImageSha256": "2be788d491561723436ae576b33b76904ee3e236fb8dbd5288cfdf9db28e3a33",
+          "sourceSectionSha256": "843216895d5433783fd135eb9c894eff9393aafaa94a70702b001e09f0eafc7e",
+          "pdfPages": [
+            150
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [
+        {
+          "placeId": "chicago",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "alabama",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "minnesota",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "united-states",
+          "category": "mentioned"
+        }
+      ],
+      "unlocatedNames": [
+        "America",
+        "Riviera",
+        "Gulf",
+        "Atlantic",
+        "Pacific",
+        "Beardsley",
+        "Broadway",
+        "Frigid Queen",
+        "Alps",
+        "Europe",
+        "Roaring Gulch",
+        "Beardsley College",
+        "Mexican border"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "2.4",
+      "sourceSectionId": 38,
+      "viewerPages": [
+        116,
+        118
+      ],
+      "userPdfPages": [
+        159,
+        161
+      ],
+      "originalSectionSha256": "622319ab66b2b0b11aae33cd5f1440687eef89dbd8eed5ee9186087d2e2cbc66",
+      "previousSectionAnalysis": "14 Thayer Street/casa/Beardsley School: arrivo e colloquio con Pratt, action. School Rd e playground: vista prevista dall'abitazione, mentioned per la strada e il cortile; costruzione nello spazio intermedio, action senza inventare indirizzo. Beardsley College: lavoro del proprietario, mentioned. Haze home a 400 miles: confronto, mentioned, nessuna nuova visita. Europe/Greece/Orient: temi scolastici derisi dalla direttrice, mentioned, non viaggi.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "regional-beardsley",
+          "id": "71e357e31398708a9fbe868dc980b5c88b7d7524219cfa9855b45988b5477502",
+          "sectionId": "2.4",
+          "category": "action",
+          "narrativeLevel": "memoir scene",
+          "reason": "Arrivo alla casa e colloquio con Pratt alla scuola.",
+          "viewerPage": 116,
+          "printedPage": 115,
+          "sourceImageSha256": "05adc5c9f0178faee2f0223c7ec405ede66ceeaf29ce751537daecce5c55f37b",
+          "sourceSectionSha256": "622319ab66b2b0b11aae33cd5f1440687eef89dbd8eed5ee9186087d2e2cbc66",
+          "pdfPages": [
+            159
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [
+        {
+          "placeId": "greece",
+          "category": "mentioned"
+        }
+      ],
+      "unlocatedNames": [
+        "Beardsley",
+        "Europe",
+        "Thayer Street",
+        "School Rd",
+        "Beardsley School",
+        "Beardsley College",
+        "Orient"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "2.5",
+      "sourceSectionId": 39,
+      "viewerPages": [
+        118,
+        119
+      ],
+      "userPdfPages": [
+        161,
+        163
+      ],
+      "originalSectionSha256": "b2cb97d10f90e8edfb5db255ef4e38c5fef70fc4e2278675a8cdbaf1e212363d",
+      "previousSectionAnalysis": "Thayer Street/porch/14 Thayer living room: conversazione della vicina con Dolores osservata dalla finestra, action. Casa della vicina e biblioteca materna: invito, mentioned, non visita. Kitchen e casa: possibili confidenze temute, mentioned in quei passaggi, distinguibili dall'osservazione realmente narrata.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "regional-beardsley",
+          "id": "d25edb17526df6f2ba2297f0792fdd7eee6d72399198cad843ea4aa795ac8b11",
+          "sectionId": "2.5",
+          "category": "action",
+          "narrativeLevel": "memoir scene",
+          "reason": "Conversazione della vicina con Dolores osservata dalla finestra.",
+          "viewerPage": 118,
+          "printedPage": 117,
+          "sourceImageSha256": "0f23cc080382a76d79af635a1ba4573d79c105bcfbffe8be21b15b2157e2e74a",
+          "sourceSectionSha256": "b2cb97d10f90e8edfb5db255ef4e38c5fef70fc4e2278675a8cdbaf1e212363d",
+          "pdfPages": [
+            161
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [],
+      "unlocatedNames": [
+        "Thayer Street"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "2.6",
+      "sourceSectionId": 40,
+      "viewerPages": [
+        120,
+        121
+      ],
+      "userPdfPages": [
+        163,
+        166
+      ],
+      "originalSectionSha256": "fe2a04cd62094444ad02fb45c6488fd68bd8cc5ac267b967776215e4536b3f37",
+      "previousSectionAnalysis": "Casa/studio di Gaston: conversazione davanti alle fotografie e all'album, action nel ricordo; basement e boy chores sono notizie, mentioned senza episodio singolo. Studio di Humbert e living room: scacchi e danza ascoltata, action. Beardsley/New England: contesto dichiarato, mentioned conservativo per la regione, senza equivalenza geografica della città fittizia. Naples/Europe: futura disgrazia di Gaston riferita, mentioned, non scena italiana. Midwestern university di una persona fotografata: riferimento biografico, mentioned.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "regional-beardsley",
+          "id": "f3a607f2108d073b43848ceabe41393ddb8a202dd77cdb33d1b0df9dd6716a7a",
+          "sectionId": "2.6",
+          "category": "action",
+          "narrativeLevel": "memoir scene",
+          "reason": "Conversazioni da Gaston e partita a scacchi nella casa di Humbert.",
+          "viewerPage": 120,
+          "printedPage": 119,
+          "sourceImageSha256": "74e01d70b37bea0f90c0a3f09805f401db6ad1a6a26c7a2787c190f09315a280",
+          "sourceSectionSha256": "fe2a04cd62094444ad02fb45c6488fd68bd8cc5ac267b967776215e4536b3f37",
+          "pdfPages": [
+            165
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [
+        {
+          "placeId": "naples",
+          "category": "mentioned"
+        }
+      ],
+      "unlocatedNames": [
+        "New England",
+        "Beardsley",
+        "Europe"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "2.7",
+      "sourceSectionId": 41,
+      "viewerPages": [
+        121,
+        122
+      ],
+      "userPdfPages": [
+        166,
+        167
+      ],
+      "originalSectionSha256": "bf4bfa9dbee645357af67b7f404b30cc6f73dab8243b74e1c604973ed2e8fb10",
+      "previousSectionAnalysis": "Casa/room di Dolores: ricerca e sottrazione del denaro, action. School area/drugstores/lanes: giri di sorveglianza riepilogati, mentioned conservativo. Broadway/Hollywood/diner in ex-prairie state: possibili destinazioni attribuite da Humbert a Dolores, mentioned e speculative. Treasure Island è titolo del libro che nasconde il denaro, non luogo visitato.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "regional-beardsley",
+          "id": "a6f8755f8615620dde98063550537c9775d276f1a4d6efc92dd123a03e9c80df",
+          "sectionId": "2.7",
+          "category": "action",
+          "narrativeLevel": "memoir scene",
+          "reason": "Ricerca e sottrazione del denaro nella stanza di Dolores.",
+          "viewerPage": 121,
+          "printedPage": 120,
+          "sourceImageSha256": "913c96d70b593fa8b3c14c5d7a025c3a65353d90b1e36050b65791d4433b2195",
+          "sourceSectionSha256": "bf4bfa9dbee645357af67b7f404b30cc6f73dab8243b74e1c604973ed2e8fb10",
+          "pdfPages": [
+            167
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [],
+      "unlocatedNames": [
+        "Hollywood",
+        "Beardsley",
+        "Broadway"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "2.8",
+      "sourceSectionId": 42,
+      "viewerPages": [
+        122,
+        125
+      ],
+      "userPdfPages": [
+        167,
+        172
+      ],
+      "originalSectionSha256": "ef778d6f9202fe25f07eaaab060435c9d849e323953bcc3513c966ed6a32d45f",
+      "previousSectionAnalysis": "Thayer Street: bicicletta e incontri osservati, action. Porch/restaurant/front/window: scene con giovani interlocutori, action senza indirizzi. Beardsley College campus: conversazione col reverendo, action; library: montaggio di attività, mentioned conservativo se isolata. Walton Inn, dentist, supermarket, concert: montaggio di routine, mentioned conservativo per questi passaggi. Butler Academy: ballo soltanto permesso/progettato qui, mentioned. Providence: permanenza dell'altro padre riportata, mentioned. California: inverno passato richiamato, mentioned.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "regional-beardsley",
+          "id": "d1953dd78c4c4d0798eb55391fb7739b3a68bf911cd03b26851ab3920fe9bb48",
+          "sectionId": "2.8",
+          "category": "action",
+          "narrativeLevel": "memoir scene",
+          "reason": "Conversazione sul campus e incontri nella strada di Beardsley.",
+          "viewerPage": 122,
+          "printedPage": 121,
+          "sourceImageSha256": "a5f0e693552f026ffd3bc079827e4b000c64eae9383f552e5ba7227d92a7ee1d",
+          "sourceSectionSha256": "ef778d6f9202fe25f07eaaab060435c9d849e323953bcc3513c966ed6a32d45f",
+          "pdfPages": [
+            167,
+            171
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [
+        {
+          "placeId": "california",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "providence",
+          "category": "mentioned"
+        }
+      ],
+      "unlocatedNames": [
+        "Beardsley",
+        "Thayer Street",
+        "Beardsley School",
+        "Beardsley College",
+        "Walton Inn"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "2.9",
+      "sourceSectionId": 43,
+      "viewerPages": [
+        126,
+        127
+      ],
+      "userPdfPages": [
+        172,
+        175
+      ],
+      "originalSectionSha256": "07fe5545cb98bc6b205ebeccead285d2d4f2d50bc1ceb36b9511a6c232e6dfca",
+      "previousSectionAnalysis": "Casa/room/stair window: colloquio con Mona e arrivo di Dolores, action. France/Paris: provenienza di Eva, mentioned. Brooklyn: accento, mentioned. New England: scuola e ambiente, mentioned conservativo. Switzerland: impressioni riferite da Rigger, mentioned, non scena svizzera. Butler Academy: ballo richiamato e abiti osservati, mentioned conservativo per evento riepilogato. Linda's country club/indoor court: tennis comunicato o ricordato per un lampo, mentioned senza scena sviluppata. Seaside: storia riferita su Mona e marine, mentioned, luogo non identificato.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "regional-beardsley",
+          "id": "f67b87c1dbd13108323e4fa850b5a2c4dd3f5919a7db1b7a7b54a7080955100e",
+          "sectionId": "2.9",
+          "category": "action",
+          "narrativeLevel": "memoir scene",
+          "reason": "Colloquio con Mona nella casa, in continuità con Beardsley.",
+          "viewerPage": 126,
+          "printedPage": 125,
+          "sourceImageSha256": "8e1d8bd1e2ec868c7fbc1d0dd9f45f53295bcb8368a283fd656becb84fd68fdd",
+          "sourceSectionSha256": "07fe5545cb98bc6b205ebeccead285d2d4f2d50bc1ceb36b9511a6c232e6dfca",
+          "pdfPages": [
+            172,
+            173,
+            174,
+            175
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [
+        {
+          "placeId": "switzerland",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "brooklyn",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "france",
+          "category": "mentioned"
+        }
+      ],
+      "unlocatedNames": [
+        "New England",
+        "Butler Academy"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "2.10",
+      "sourceSectionId": 44,
+      "viewerPages": [
+        127,
+        128
+      ],
+      "userPdfPages": [
+        175,
+        175
+      ],
+      "originalSectionSha256": "2d1fee20d35ba98e69dbd43ed334e30dc806f6562128ea31ab2a87d86baa4cc5",
+      "previousSectionAnalysis": "Chair/room dell'abitazione: scena diretta, action senza nuovo luogo terrestre. 'Chinesed eyes' non prova una menzione geografica della Cina: descrizione figurativa del corpo, esclusa dall'indice geografico.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "regional-beardsley",
+          "id": "eb5b69d52b3cedfe864be693cd92a1abefca4c15d935fa298c2a605f8d7d4d0a",
+          "sectionId": "2.10",
+          "category": "action",
+          "narrativeLevel": "memoir scene",
+          "reason": "Scena sulla poltrona mentre Dolores prepara i compiti nella casa di Beardsley.",
+          "viewerPage": 127,
+          "printedPage": 126,
+          "sourceImageSha256": "9525212b14a800137fb1350c483a0db1d6a4cac866fd2ecce5dec27c52bff8a6",
+          "sourceSectionSha256": "2d1fee20d35ba98e69dbd43ed334e30dc806f6562128ea31ab2a87d86baa4cc5",
+          "pdfPages": [
+            175
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [],
+      "unlocatedNames": [],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "2.11",
+      "sourceSectionId": 45,
+      "viewerPages": [
+        128,
+        131
+      ],
+      "userPdfPages": [
+        175,
+        180
+      ],
+      "originalSectionSha256": "8f04e8caf533f1d027b7e3fb48ba7b1d237590bac67327322894cf840e086845",
+      "previousSectionAnalysis": "Beardsley School/Pratt office/Mushroom: colloquio e visita all'aula, action. Room-In 8/B-Room/Room-BA: elenco di classi, mentioned. England: modello scolastico richiamato, mentioned, scuola reale non nominata. Duke's Manor: residenza dei Walker riferita, mentioned. California: famiglia di Dolores riferita, mentioned. Junior Club/parent homes/Beardsley College/new auditorium: proposte o futura visita dell'autore, mentioned. Mexico: spiegazione linguistica attribuita a Cutler, non identificazione di un luogo dell'azione.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "regional-beardsley",
+          "id": "09ccd4a05c47425c79e4fae1c5793117e87750cc264a103b8d3dcbe3cf9f75a9",
+          "sectionId": "2.11",
+          "category": "action",
+          "narrativeLevel": "memoir scene",
+          "reason": "Colloquio nell’ufficio di Pratt e visita all’aula nella scuola.",
+          "viewerPage": 128,
+          "printedPage": 127,
+          "sourceImageSha256": "caef6786cb5f025623fe2dca6b4142c8d7524c8a68a7d545d103909bdd2541d3",
+          "sourceSectionSha256": "8f04e8caf533f1d027b7e3fb48ba7b1d237590bac67327322894cf840e086845",
+          "pdfPages": [
+            175,
+            176,
+            177,
+            179
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [
+        {
+          "placeId": "england",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "california",
+          "category": "mentioned"
+        }
+      ],
+      "unlocatedNames": [
+        "Beardsley School",
+        "Beardsley College",
+        "Duke’s Manor",
+        "Junior Club"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "2.12",
+      "sourceSectionId": 46,
+      "viewerPages": [
+        131,
+        132
+      ],
+      "userPdfPages": [
+        180,
+        181
+      ],
+      "originalSectionSha256": "c8879c7eaa3d271fbdeb9e9f30b62aa6ddf22e451bfc93eaaa4716684c4127e4",
+      "previousSectionAnalysis": "Camera/cucina/living room/studio della casa: visite e festa narrate, action. Ramsdale house: paragone con la tensione passata, mentioned. Germania: tradizione dell'albero, riferimento di costume, non scena. Paesaggi dei dipinti nel libro sono oggetti rappresentati, non tappe del viaggio.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "regional-beardsley",
+          "id": "bb33002678a079d39ec184b43e0f5f5ddd94d185ff06ca3292fa4a2adb86f8e8",
+          "sectionId": "2.12",
+          "category": "action",
+          "narrativeLevel": "memoir scene",
+          "reason": "Visite, malattia e festa natalizia nella casa di Beardsley.",
+          "viewerPage": 131,
+          "printedPage": 130,
+          "sourceImageSha256": "c6ed6634379700094759402ca5a2e32cf39a96e1a1da88a1415d0ad3fb6443d8",
+          "sourceSectionSha256": "c8879c7eaa3d271fbdeb9e9f30b62aa6ddf22e451bfc93eaaa4716684c4127e4",
+          "pdfPages": [
+            180
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [],
+      "unlocatedNames": [
+        "Ramsdale"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "2.13",
+      "sourceSectionId": 47,
+      "viewerPages": [
+        132,
+        134
+      ],
+      "userPdfPages": [
+        181,
+        184
+      ],
+      "originalSectionSha256": "782d50d6270f2df045eba522c1694b4a99c804ced6c41ec579914d773832d9f3",
+      "previousSectionAnalysis": "Walton Inn: Pratt saluta mentre pranzano, action. Thayer Street/lawn/birch: conversazione e giro in bici, action. New York: prima produzione del dramma riferita, mentioned. New England: tradizione locale supposta, mentioned. Dolly's Dell/Perilous Forest/farm: trama del play riassunta, mentioned al livello teatrale, non scena reale né spettacolo qui seguito. Enchanted Hunters: memoria nominata dall'alunna, mentioned. Florentine hands è metafora stilistica, non visita a Firenze.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "regional-beardsley",
+          "id": "b439bdd0c22b470a8c6a456f73aa74fded6d6d45aa6a0edb09780c7f5058c8ed",
+          "sectionId": "2.13",
+          "category": "action",
+          "narrativeLevel": "memoir scene",
+          "reason": "Pratt saluta al ristorante, poi scene e conversazioni in Thayer Street.",
+          "viewerPage": 132,
+          "printedPage": 131,
+          "sourceImageSha256": "6d838e77a2e66f26168a403f681b2509c2574a0ce2c94f3e38411a97e6edb0e2",
+          "sourceSectionSha256": "782d50d6270f2df045eba522c1694b4a99c804ced6c41ec579914d773832d9f3",
+          "pdfPages": [
+            181
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [
+        {
+          "placeId": "new-york",
+          "category": "mentioned"
+        }
+      ],
+      "unlocatedNames": [
+        "New England",
+        "Enchanted Hunters",
+        "Thayer Street",
+        "Walton Inn",
+        "Dolly’s Dell",
+        "Perilous Forest"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "2.14",
+      "sourceSectionId": 48,
+      "viewerPages": [
+        134,
+        138
+      ],
+      "userPdfPages": [
+        184,
+        189
+      ],
+      "originalSectionSha256": "f847248cdee2127dba10de48d85997623ae0e6a6f30e0f056b21ba92bacf1c94",
+      "previousSectionAnalysis": "Casa/studio/kitchen/living room e Thayer Street: scacchi, telefonata, lite e inseguimento, action. Drugstore/phone booth/fountain: ritrovamento e bevande, action. Miss Emperor house oltre Beardsley: lezioni riferite e mancate, mentioned. Park: prova teatrale addotta e corroborata da Mona ma non narrata, mentioned con dubbio sull'alibi. Miss East bedroom: posizione ipotizzata dal narratore, mentioned. Bell-house del ricordo: flash associativo, mentioned conservativo, senza indirizzo. New England: localizzazione della notte primaverile, mentioned per la regione.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "regional-beardsley",
+          "id": "abd913ef9dea17e6d72c314d76a15ce21c64a212d2753b87858390aca98da03f",
+          "sectionId": "2.14",
+          "category": "action",
+          "narrativeLevel": "memoir scene",
+          "reason": "Telefonata, lite domestica e ricerca di Dolores al drugstore.",
+          "viewerPage": 134,
+          "printedPage": 133,
+          "sourceImageSha256": "6cf987f68103a18b80f7159688c7f6ae10213ed3482a205da02ccbf8a92353e0",
+          "sourceSectionSha256": "f847248cdee2127dba10de48d85997623ae0e6a6f30e0f056b21ba92bacf1c94",
+          "pdfPages": [
+            185
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [],
+      "unlocatedNames": [
+        "New England",
+        "Beardsley",
+        "Thayer Street"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "2.15",
+      "sourceSectionId": 49,
+      "viewerPages": [
+        138,
+        139
+      ],
+      "userPdfPages": [
+        189,
+        191
+      ],
+      "originalSectionSha256": "ec576d1873b6be98e0d9abda07fa5d51fe0fd520b46c23900607035bd9433340",
+      "previousSectionAnalysis": "14 Thayer house/Main Street/Beardsley: partenza e semaforo narrati, action. Campus Avenue: svolta concreta dell'auto di Edusa, action. New Hotel: edificio oltrepassato, mentioned. Hollywood: impegno lavorativo inventato, mentioned. Mexican border: progetto non realizzato, mentioned. Ramsdale/Camp: precedenti partenze richiamate, mentioned.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "regional-beardsley",
+          "id": "98d8a1d2a6139d165e8409dad04b63d86f87d579ca0bb6a5e92e23b9eb6b3607",
+          "sectionId": "2.15",
+          "category": "action",
+          "narrativeLevel": "memoir scene",
+          "reason": "Partenza, semaforo e svolta nel centro della stessa città.",
+          "viewerPage": 138,
+          "printedPage": 137,
+          "sourceImageSha256": "3503ca583c65a07cc062d276e31e0ae0b516babc7571cc6eb6725faf7466a435",
+          "sourceSectionSha256": "ec576d1873b6be98e0d9abda07fa5d51fe0fd520b46c23900607035bd9433340",
+          "pdfPages": [
+            189
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [],
+      "unlocatedNames": [
+        "Ramsdale",
+        "Hollywood",
+        "Main Street",
+        "Beardsley School",
+        "Campus Avenue",
+        "Mexican border"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "2.16",
+      "sourceSectionId": 50,
+      "viewerPages": [
+        139,
+        143
+      ],
+      "userPdfPages": [
+        191,
+        197
+      ],
+      "originalSectionSha256": "b2349f8299856cf6465682adbe9eb31a12ec9a12ba3b3b8549792c9b7016cd5b",
+      "previousSectionAnalysis": "Appalachian Mountains e Alabama/New Brunswick/Tennessee/Virginias/Pennsylvania/New York/Vermont/New Hampshire/Maine/Switzerland/Tibet: carta infantile e paragoni, mentioned. Ohio/three I states/Nebraska: traversata riepilogata, mentioned; non inventare nomi per il gruppo delle tre I senza spiegare l'inferenza. Wace/Continental Divide/Magic Cave/Elphinstone/Red Rock: mete e attrazioni progettate, mentioned. Suicide from Red Rock: notizia, non scena. Gas station Pegasus/Conche: sosta narrata, action senza luogo terrestre. Kasbeam/barber/delicatessen: scene narrate, action. Chestnut Court/Castle/Crest: varianti dello stesso soggiorno, action, non tre motel. Pisky: deviazione desiderata e poi abbandonata, mentioned. Beardsley: lite ricordata, mentioned in richiamo.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "regional-kasbeam",
+          "id": "995339ca04add95799e66ade08307fbd187f89d0168fb264480d20912083742c",
+          "sectionId": "2.16",
+          "category": "action",
+          "narrativeLevel": "memoir scene",
+          "reason": "Taglio di capelli, racconto del barbiere e acquisti: scene narrate nella città.",
+          "viewerPage": 141,
+          "printedPage": 140,
+          "sourceImageSha256": "b34cde25e87dd3688319556a88dbd01d493e87685f2bd06128d545eb41625131",
+          "sourceSectionSha256": "b2349f8299856cf6465682adbe9eb31a12ec9a12ba3b3b8549792c9b7016cd5b",
+          "pdfPages": [
+            194
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [
+        {
+          "placeId": "new-york",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "new-hampshire",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "maine",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "pennsylvania",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "nebraska",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "switzerland",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "alabama",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "new-brunswick",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "tennessee",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "vermont",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "ohio",
+          "category": "mentioned"
+        }
+      ],
+      "unlocatedNames": [
+        "Pisky",
+        "Beardsley",
+        "Europe",
+        "Appalachian Mountains",
+        "Tibet",
+        "Wace",
+        "Continental Divide",
+        "Magic Cave",
+        "Elphinstone",
+        "Red Rock",
+        "Kasbeam",
+        "Chestnut Court",
+        "North America"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "2.17",
+      "sourceSectionId": 51,
+      "viewerPages": [
+        143,
+        144
+      ],
+      "userPdfPages": [
+        197,
+        197
+      ],
+      "originalSectionSha256": "82ffea800d523efddb0b0efce6990eebdca5dc4092e7b0464de7eadd462479c7",
+      "previousSectionAnalysis": "Chestnut Court/cabin: controllo notturno, action. Algiers: origine/tipo della scatola, mentioned. Pine forest around Hourglass Lake: battuta con Farlow e Krestovski narrata, action nel ricordo, foresta distinta dalla superficie del lago. Non identificare bosco esatto.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "regional-kasbeam",
+          "id": "d9603fc11abb1ffa4e125d6258ef7ae619a78c77de988566929468816e657564",
+          "sectionId": "2.17",
+          "category": "action",
+          "narrativeLevel": "memoir scene",
+          "reason": "Controllo della pistola e risveglio nella cabina dello stesso Chestnut Court; continuità con II.16.",
+          "viewerPage": 143,
+          "printedPage": 142,
+          "sourceImageSha256": "30b5bc943f9455817e580aaebcfd66e8c08ab07da68214f6f8344ad429fde4f2",
+          "sourceSectionSha256": "82ffea800d523efddb0b0efce6990eebdca5dc4092e7b0464de7eadd462479c7",
+          "pdfPages": [
+            197
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [
+        {
+          "placeId": "algiers",
+          "category": "mentioned"
+        }
+      ],
+      "unlocatedNames": [
+        "Chestnut Court"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "2.18",
+      "sourceSectionId": 52,
+      "viewerPages": [
+        144,
+        147
+      ],
+      "userPdfPages": [
+        197,
+        203
+      ],
+      "originalSectionSha256": "e7901eacc2cb7ad08e36de5932d14b6713bbad3b51ea2da1b0a19b8de57de412",
+      "previousSectionAnalysis": "Gas station/office/car e cafe The Bustle: incontro reale osservato con l'uomo, action per stazione/auto, mentioned per il caffè dove vede soltanto sostare l'auto. Switzerland: somiglianza con il parente, mentioned. Factory town/lane: fuga attraverso traffico e svolta, action anonima. Cabin nel temporale: notte narrata, action; visita con maschera incerta tra sogno e realtà registrata separatamente, mentioned conservativo. Soda/restaurant: colazione e successivo richiamo, action per la colazione. Wace/summer theatre: arrivo e spettacolo seguito, action. Magic Cave: cerimonie già finite, mentioned; non visita alle cerimonie. Ramsdale: relazione attribuita erroneamente al dentista, mentioned. Aztec e colorazioni delle auto non sono toponimi.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "regional-soda",
+          "id": "bc88322c9c432d14c8395e3d1c5f0a4fee81f899f9cf135be40d0b14a86cf055",
+          "sectionId": "2.18",
+          "category": "action",
+          "narrativeLevel": "memoir scene",
+          "reason": "Colazione e battute effettivamente narrate, non sola destinazione.",
+          "viewerPage": 146,
+          "printedPage": 145,
+          "sourceImageSha256": "7624cf0492acc994bef6fd1c0f9e65f368e186d6754c1d5e77292c34a4b7d12b",
+          "sourceSectionSha256": "e7901eacc2cb7ad08e36de5932d14b6713bbad3b51ea2da1b0a19b8de57de412",
+          "pdfPages": [
+            201
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        },
+        {
+          "placeId": "regional-wace",
+          "id": "e6ebf6d92317405d1007b7c1f6731271ff338615d74a712e62bba216bdf0716d",
+          "sectionId": "2.18",
+          "category": "action",
+          "narrativeLevel": "memoir scene",
+          "reason": "Arrivo e rappresentazione seguita al teatro; cerimonie della grotta invece già terminate, quindi citate.",
+          "viewerPage": 146,
+          "printedPage": 145,
+          "sourceImageSha256": "7624cf0492acc994bef6fd1c0f9e65f368e186d6754c1d5e77292c34a4b7d12b",
+          "sourceSectionSha256": "e7901eacc2cb7ad08e36de5932d14b6713bbad3b51ea2da1b0a19b8de57de412",
+          "pdfPages": [
+            201
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [
+        {
+          "placeId": "switzerland",
+          "category": "mentioned"
+        }
+      ],
+      "unlocatedNames": [
+        "Ramsdale",
+        "Wace",
+        "Magic Cave",
+        "The Bustle",
+        "Soda"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "2.19",
+      "sourceSectionId": 53,
+      "viewerPages": [
+        147,
+        152
+      ],
+      "userPdfPages": [
+        203,
+        209
+      ],
+      "originalSectionSha256": "f37a85cf4fcbbe5a716d6cd9d8fe10e4605a6b19e1eaacc2f67a3d9db9897fa0",
+      "previousSectionAnalysis": "Wace/post office/street/garden/shop windows: ritiro posta, ricerca e disputa narrati, action. Hill Drug Store/Larkin's Pharmacy: elenco telefonico e controllo proposto, mentioned; fontana e libreria reali non stabilite dal nome. Beardsley/NY/Europe/Paris: scuola e viaggi nella lettera di Mona, mentioned al livello epistolare. Elphinstone: destinazione/terminus supposto, mentioned. Picnic ground fuori Wace e Mirana Motel: scene narrate, action. Mirana Hotel infantile: eco nominale, non stesso motel. Snow/Champion: estremi di un tratto stradale, mentioned; roadside tyre change: scena action senza coordinata e senza inventare il nome della strada. Red convertible spotted at outskirts Wace: osservazione, non identificazione certa dell'uomo. Non dare un nome allo stato di targa da 'adjacent to Beardsley state'.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "regional-wace",
+          "id": "30672d3e0f9b480eb1a03cd6a56f3fbeda58a446e56a66d3a8afd5bc0337b20d",
+          "sectionId": "2.19",
+          "category": "action",
+          "narrativeLevel": "memoir scene",
+          "reason": "Visita all’ufficio postale, ricerca di Dolores e litigio narrati.",
+          "viewerPage": 147,
+          "printedPage": 146,
+          "sourceImageSha256": "7069c64bdcda90d8a9a06c12e7c1451c12ba8e89747ff6fc14da48accf10411c",
+          "sourceSectionSha256": "f37a85cf4fcbbe5a716d6cd9d8fe10e4605a6b19e1eaacc2f67a3d9db9897fa0",
+          "pdfPages": [
+            203
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [
+        {
+          "placeId": "paris",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "new-york",
+          "category": "mentioned"
+        }
+      ],
+      "unlocatedNames": [
+        "Hotel Mirana",
+        "Beardsley",
+        "Europe",
+        "Wace",
+        "Elphinstone",
+        "Hill Drug Store",
+        "Larkin’s Pharmacy",
+        "Mirana Motel",
+        "Snow",
+        "Champion"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "2.20",
+      "sourceSectionId": 54,
+      "viewerPages": [
+        153,
+        157
+      ],
+      "userPdfPages": [
+        209,
+        216
+      ],
+      "originalSectionSha256": "195c1d08c77fe399579c69d6d895e886a2a0de7a4071b4815dfa3a8a3610f2f6",
+      "previousSectionAnalysis": "Champion, Colorado/Champion Hotel/campo/scale/lobby/telefono/vicolo: scambi, interruzione e ricerca narrati, action; Champion resta fittizia e senza coordinate. Snow/Elphinstone: estremi dell'itinerario, mentioned. Beardsley: precedenti lezioni e balli riferiti, mentioned. California: precedenti lezioni richiamate, mentioned. Wimbledon: carriera immaginata, mentioned; England: viaggio di Pratt comunicato per telefono, mentioned, non verificato. Non dedurre uno stadio reale dalla parola Wimbledon.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "regional-champion",
+          "id": "54f7e4befcda1ac7c99e5e401e0832cef0230d778b046bde17965970a5cded69",
+          "sectionId": "2.20",
+          "category": "action",
+          "narrativeLevel": "memoir scene",
+          "reason": "Il tennis e la telefonata sono narrati al Champion Hotel; il Colorado è esplicito.",
+          "viewerPage": 155,
+          "printedPage": 154,
+          "sourceImageSha256": "4ce5070bc0b07247271b6d73af79550b216a3527b76da21234a4e01cfa45e39d",
+          "sourceSectionSha256": "195c1d08c77fe399579c69d6d895e886a2a0de7a4071b4815dfa3a8a3610f2f6",
+          "pdfPages": [
+            213
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        },
+        {
+          "placeId": "colorado",
+          "id": "f24e5f03dfaf27466deb3a2ebcb36f333434d810fd7cb99b03ad66e59acab528",
+          "sectionId": "2.20",
+          "category": "action",
+          "narrativeLevel": "memoir scene",
+          "reason": "Lo Stato è esplicito nella scena di tennis; distinto dalla città fittizia e dalle precedenti lezioni californiane.",
+          "viewerPage": 155,
+          "printedPage": 154,
+          "sourceImageSha256": "4ce5070bc0b07247271b6d73af79550b216a3527b76da21234a4e01cfa45e39d",
+          "sourceSectionSha256": "195c1d08c77fe399579c69d6d895e886a2a0de7a4071b4815dfa3a8a3610f2f6",
+          "pdfPages": [
+            213
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [
+        {
+          "placeId": "england",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "california",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "colorado",
+          "category": "action"
+        }
+      ],
+      "unlocatedNames": [
+        "Beardsley",
+        "Beardsley School",
+        "Elphinstone",
+        "Snow",
+        "Champion",
+        "Champion Hotel",
+        "Wimbledon"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "2.21",
+      "sourceSectionId": 55,
+      "viewerPages": [
+        157,
+        158
+      ],
+      "userPdfPages": [
+        216,
+        218
+      ],
+      "originalSectionSha256": "89960d51f5faffe25987f6679c70dae68044f2be59a5f064dd167f68b6d9bd36",
+      "previousSectionAnalysis": "Terrazza/piscina dell'albergo: gioco col cane, osservazione e malessere narrati, action; collegamento con Champion contestuale dal capitolo precedente, non nome inventato nella citazione. Nice: similitudine marina, mentioned. Lago e spiaggia del cugino svizzero: associazione mentale, mentioned. Aztec Red: nome di colore, escluso come luogo.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "regional-champion",
+          "id": "c630868f186caf49b2389512a02d97892316a23d0fba0e5be27171273d7f552f",
+          "sectionId": "2.21",
+          "category": "action",
+          "narrativeLevel": "memoir scene",
+          "reason": "Il capitolo continua il soggiorno di Champion: Dolores col cane, osservazione e malessere sulla terrazza.",
+          "viewerPage": 157,
+          "printedPage": 156,
+          "sourceImageSha256": "c02076541bf2ff2a8b75b23325448c6ac9f5d50220ac5e041bfc7a4f9a36ea92",
+          "sourceSectionSha256": "89960d51f5faffe25987f6679c70dae68044f2be59a5f064dd167f68b6d9bd36",
+          "pdfPages": [
+            216
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [],
+      "unlocatedNames": [
+        "Nice",
+        "Terrazza dell'albergo"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "2.22",
+      "sourceSectionId": 56,
+      "viewerPages": [
+        158,
+        164
+      ],
+      "userPdfPages": [
+        218,
+        227
+      ],
+      "originalSectionSha256": "0ca3140375ac8ae52ca696145e913a3994b195cc39b6f20b548cfb2838bc69d6",
+      "previousSectionAnalysis": "Elphinstone/Silver Spur Court/cabina/Elphinstone Hospital/camera/corridoio/sala d'attesa: viaggi, visita medica, telefonate e ricerca narrati, action. Red Rock: sagoma del monte e precedente suicidio riferito, mentioned; non salita compiuta. California/Mexican border/Central America: progetti, mentioned. Oloron/Lagore/Rolas: fantasia del pastore basco e del suo passato, mentioned al livello immaginario; grafie da verificare. États-Unis nel richiamo a Carmen: progetto letterario, mentioned. Ponderosa Lodge: carta intestata e lavoro di Ann, mentioned qui; scena soltanto nel capitolo seguente. Ranch del nonno: messaggio usato per il prelievo, mentioned e alibi. Playground, temple e gallows: edifici osservati dalla strada notturna, mentioned per gli edifici, senza scena interna. Deseret News è un titolo, non prova di ambientazione nello Utah.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "regional-elphinstone",
+          "id": "7a277b826f853742e8a4de92067e59516255f40729fb98156daa64f9aec0056a",
+          "sectionId": "2.22",
+          "category": "action",
+          "narrativeLevel": "memoir scene",
+          "reason": "Arrivo al motel, malattia, ricovero, visite e scoperta della scomparsa sono scene; nessuna città reale è dimostrata.",
+          "viewerPage": 158,
+          "printedPage": 157,
+          "sourceImageSha256": "d5e044a410c61e83ffbf584c3247dee0f509ba95d2a87aee33a9dac9f8f44205",
+          "sourceSectionSha256": "0ca3140375ac8ae52ca696145e913a3994b195cc39b6f20b548cfb2838bc69d6",
+          "pdfPages": [
+            218
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [
+        {
+          "placeId": "california",
+          "category": "mentioned"
+        }
+      ],
+      "unlocatedNames": [
+        "Rockies",
+        "Roaring Gulch",
+        "Elphinstone",
+        "Champion",
+        "Silver Spur Court",
+        "Oloron",
+        "Lagore",
+        "Rolas",
+        "Ponderosa Lodge",
+        "Mexican border"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "2.23",
+      "sourceSectionId": 57,
+      "viewerPages": [
+        164,
+        167
+      ],
+      "userPdfPages": [
+        227,
+        231
+      ],
+      "originalSectionSha256": "e6ba6fd1a1e52e03df6bff4c9514a70325d44e060044001aff82c7141465d30f",
+      "previousSectionAnalysis": "Ponderosa Lodge/ufficio: colloquio con la proprietaria, action. Elphinstone/street: Humbert avvicina Mary e le offre denaro, action. Registri di alberghi anonimi: ricerca narrata, action senza indirizzi. Kasbeam/Beardsley: ritorni riepilogati, mentioned conservativo. Cedar City: impiego di Ann riferito, mentioned. Tutti gli indirizzi pseudonimi nei registri sono mentioned e non attestano soggiorni: Kawtagain, Larousse/Illinois, Mirandola/New York, Quelquepart Island, Porlock/England, Elmira/New York, Sheridan/Wyoming, Lebanon/New Hampshire, Eryx/Mississippi, Ramble/Ohio, Catagela/New York, Hoaxton/England, Geneva/New York, Merrymay/Pennsylvania, Dolores/Colorado, Tombstone/Arizona, Sierra/Nevada, Cane/New Hampshire. Styx è allusione letteraria, mentioned. Non confondere Eryx/Mississippi con il lago Eryx del campo, né Chestnut Lodge con Chestnut Court senza riscontro.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "regional-elphinstone",
+          "id": "a7a3988ddc4d1eed586d802ad13cccc54b28eeeecf387b53549a7efa26c6a37a",
+          "sectionId": "2.23",
+          "category": "action",
+          "narrativeLevel": "memoir scene",
+          "reason": "Colloquio con la proprietaria del Ponderosa e incontro con Mary; distinta la serie di falsi recapiti citati nei registri.",
+          "viewerPage": 165,
+          "printedPage": 164,
+          "sourceImageSha256": "e1f98738b9683e3abca610c4a66e287784e4f6b48afbeff1c91ab5c76bd5edce",
+          "sourceSectionSha256": "e6ba6fd1a1e52e03df6bff4c9514a70325d44e060044001aff82c7141465d30f",
+          "pdfPages": [
+            227
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [
+        {
+          "placeId": "england",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "arizona",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "ohio",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "porlock",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "elmira",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "sheridan",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "lebanon",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "geneva",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "tombstone",
+          "category": "mentioned"
+        }
+      ],
+      "unlocatedNames": [
+        "Eryx",
+        "Beardsley",
+        "Wace",
+        "Elphinstone",
+        "Kasbeam",
+        "Ponderosa Lodge",
+        "Cedar City",
+        "Kawtagain",
+        "Larousse",
+        "Mirandola",
+        "Quelquepart Island",
+        "Ramble",
+        "Catagela",
+        "Hoaxton",
+        "Merrymay",
+        "Dolores, Colo",
+        "Sierra",
+        "Cane",
+        "Styx",
+        "Chestnut Lodge",
+        "Strada anonima dell’incontro con Mary"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "2.24",
+      "sourceSectionId": 58,
+      "viewerPages": [
+        168,
+        168
+      ],
+      "userPdfPages": [
+        231,
+        233
+      ],
+      "originalSectionSha256": "7a7eb1729e84197955e8bae7a26bc33ea7fb9691a1bda901fe71b3bb396c4c01",
+      "previousSectionAnalysis": "Beardsley College/Maker Hall/campus/marble bench: incontro e colloquio, action. Museum: Riggs esce dall'edificio, mentioned per l'interno non visitato da Humbert. 24 Pritchard Road: ipotesi di residenza poi abbandonata, mentioned. California: luogo ipotizzato per la fuga, mentioned. Dolores, Colorado: indagine di Bill Brown riferita, mentioned. Castelli francesi nelle diapositive: immagini, non luoghi visitati.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "regional-beardsley",
+          "id": "e67b87613207ef7dfe19a8a0ca3fb647365286ac93e4027b41df160dab2a01c2",
+          "sectionId": "2.24",
+          "category": "action",
+          "narrativeLevel": "memoir scene",
+          "reason": "Incontro e colloquio con Riggs sulla panchina del campus.",
+          "viewerPage": 168,
+          "printedPage": 167,
+          "sourceImageSha256": "28fedf44ba84a7d9ca7490314c19406c8b9892ff4423a99c40985d9ccbcefd4c",
+          "sourceSectionSha256": "7a7eb1729e84197955e8bae7a26bc33ea7fb9691a1bda901fe71b3bb396c4c01",
+          "pdfPages": [
+            231
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [
+        {
+          "placeId": "california",
+          "category": "mentioned"
+        }
+      ],
+      "unlocatedNames": [
+        "Beardsley",
+        "Beardsley School",
+        "Beardsley College",
+        "Dolores, Colo",
+        "Maker Hall",
+        "Pritchard Road"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "2.25",
+      "sourceSectionId": 59,
+      "viewerPages": [
+        169,
+        172
+      ],
+      "userPdfPages": [
+        233,
+        235
+      ],
+      "originalSectionSha256": "891866df92253d2c05e59734311de0f8f9fe7a7f2d97cb75c249dbbf952a8346",
+      "previousSectionAnalysis": "Beardsley: oggetti rimasti in deposito, mentioned. Canadian border/orphan home: invio di un regalo, mentioned; non visita. Quebec/sanatorio: ritiro riferito e contesto della composizione, mentioned conservativo senza episodio ambientato sviluppato. New York/California: piani di ricerca, mentioned. Paris/States: interrogativi e immagini della poesia, mentioned al livello poetico. Camere oniriche: scena sognata distinta dal viaggio, non ambientazione terrestre identificata.",
+      "reviewedActionPlaces": [],
+      "existingCoreReferences": [
+        {
+          "placeId": "paris",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "new-york",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "california",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "quebec",
+          "category": "mentioned"
+        }
+      ],
+      "unlocatedNames": [
+        "Canadian border",
+        "Beardsley"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "2.26",
+      "sourceSectionId": 60,
+      "viewerPages": [
+        172,
+        176
+      ],
+      "userPdfPages": [
+        235,
+        241
+      ],
+      "originalSectionSha256": "60ce3e7637dd685339394a3d81ea06107c7edefbb6e9899ee09b6abf221a49e6",
+      "previousSectionAnalysis": "Tigermoth/bar: incontro con Rita, action; Montreal/New York e Toylestown/Blake sono estremi geografici dichiarati, mentioned senza collocare il bar con precisione. California: viaggio riepilogato, mentioned. San Humbertino: salvataggio riferito, mentioned, non identificare con San Bernardino. Grainball City/hotel/hospital: risveglio con lo sconosciuto e accompagnamento all'ospedale, action; Grainball resta fittizia. Brooklyn: accento, mentioned. New York/Central Park West/flat: residenza riferita e felicità prospettata, mentioned conservativo per quel passo, senza indirizzo. Central Park: vista, mentioned. Cantrip College: alloggio e date riferiti, mentioned. Jail anonima: incontro e lite con Rita, action. Briceland/library/bar/park: lettura del Gazette, incontro e passeggiata narrati, action. Enchanted Hunters: cartolina e mancato soggiorno; Humbert evita di entrarvi, mentioned. 58 Inchkeith Avenue/Dunkerque/Greece: informazioni nel giornale, mentioned. Picture Lake: immagine poetica, mentioned. Il narratore mescola due viaggi a Briceland: cronologia documentata come incerta.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "regional-briceland",
+          "id": "6a6df5fc0f2214645359d14c1243c198cd28f9499a018b59e3e362d30cefc0cd",
+          "sectionId": "2.26",
+          "category": "action",
+          "narrativeLevel": "memoir scene",
+          "reason": "Biblioteca, ricerca nel Gazette, bar e passeggiata con Rita sono scene realizzate, non ingresso all’Enchanted Hunters.",
+          "viewerPage": 175,
+          "printedPage": 174,
+          "sourceImageSha256": "21727457c32c01eea8d49681601903a94fa4cb0642ac9cea8cad81e7090b67f2",
+          "sourceSectionSha256": "60ce3e7637dd685339394a3d81ea06107c7edefbb6e9899ee09b6abf221a49e6",
+          "pdfPages": [
+            239
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [
+        {
+          "placeId": "new-york",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "california",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "central-park",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "montreal",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "dunkerque",
+          "category": "mentioned"
+        }
+      ],
+      "unlocatedNames": [
+        "Enchanted Hunters",
+        "Briceland",
+        "Pacific",
+        "Toylestown",
+        "Blake",
+        "Tigermoth",
+        "San Humbertino",
+        "Grainball",
+        "Central Park West",
+        "Cantrip",
+        "Inchkeith",
+        "Picture Lake"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "2.27",
+      "sourceSectionId": 61,
+      "viewerPages": [
+        176,
+        178
+      ],
+      "userPdfPages": [
+        241,
+        244
+      ],
+      "originalSectionSha256": "676584351e988d2768eab220be30e04deb80ba6444d97d56143e62d155809cb3",
+      "previousSectionAnalysis": "Flat/entrance hall/elevator: scena di ricezione e lettura, action; collegamento a New York contestuale, nessun indirizzo inventato. Paris: conversazione ricordata durante il tè con una donna, action nel ricordo. Cape Cod: visita alla madre di Rita riferita, mentioned. Ramsdale/India/California/Chile/South America/United States: luoghi della lettera di Farlow, mentioned al livello epistolare. Alaska: piano lavorativo nella lettera di Dolores, mentioned. Il recapito della ragazza viene trattenuto dalla narrazione.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "paris",
+          "id": "06dbc1ccb5b7854e7f9bd5e25b2a8fcc4e2003c592d123515c55eae4422c0f6c",
+          "sectionId": "2.27",
+          "category": "action",
+          "narrativeLevel": "recalled scene",
+          "reason": "Dialogo ricordato con una donna durante un tè a Parigi, distinto dalla scena presente della posta.",
+          "viewerPage": 176,
+          "printedPage": 175,
+          "sourceImageSha256": "147340df58933ccc7a93531e28998393acbd0bab2d4f55d62b229fa8bafbb5f5",
+          "sourceSectionSha256": "676584351e988d2768eab220be30e04deb80ba6444d97d56143e62d155809cb3",
+          "pdfPages": [
+            242
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        },
+        {
+          "placeId": "new-york",
+          "id": "11767ff099d38c21e0e841e0fade8b8f6e5c86044374c1413f3d58c39b601d16",
+          "sectionId": "2.27",
+          "category": "action",
+          "narrativeLevel": "memoir scene",
+          "reason": "Ricezione e lettura della posta nell’appartamento: il contesto di New York/Central Park West è stabilito da II.26, senza inventare un numero civico.",
+          "viewerPage": 176,
+          "printedPage": 175,
+          "sourceImageSha256": "147340df58933ccc7a93531e28998393acbd0bab2d4f55d62b229fa8bafbb5f5",
+          "sourceSectionSha256": "676584351e988d2768eab220be30e04deb80ba6444d97d56143e62d155809cb3",
+          "pdfPages": [
+            241
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [
+        {
+          "placeId": "paris",
+          "category": "action"
+        },
+        {
+          "placeId": "california",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "chile",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "cape-cod",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "india",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "alaska",
+          "category": "mentioned"
+        }
+      ],
+      "unlocatedNames": [
+        "Ramsdale",
+        "South America"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "2.28",
+      "sourceSectionId": 62,
+      "viewerPages": [
+        178,
+        180
+      ],
+      "userPdfPages": [
+        244,
+        246
+      ],
+      "originalSectionSha256": "fcc2d2e9e2f93a7523dcee8c7fee8e82aa4cb0b044b9ded9cf3b8f1870fa2a8e",
+      "previousSectionAnalysis": "Highway/glade: tiro al vecchio maglione, action anonima. Hotel prima della città: preparativi e riposo, action. Coalmont è esplicitamente camuffata: nessuna identificazione con omonime reali. Virginia/Pennsylvania/Tennessee: identificazioni negate, mentioned, non coordinate. New York City: punto di partenza e distanza, mentioned. Coalmont/telephone booth/10 Killer Street/store/grocery/Hunter Road/shack: ricerca dell'indirizzo e arrivo, action, senza coordinate. Beardsley/Miss Emperor: ipotesi precedente di rapimento, mentioned.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "regional-coalmont",
+          "id": "0774cacdf5b2b6a3059ce900ed9d0cb14178c1a131273b856f16ed376d280a29",
+          "sectionId": "2.28",
+          "category": "action",
+          "narrativeLevel": "memoir scene",
+          "reason": "Telefonata, ricerca degli indirizzi e arrivo a Hunter Road; camuffamento esplicito del nome, non omonima reale.",
+          "viewerPage": 179,
+          "printedPage": 178,
+          "sourceImageSha256": "69e2bfdfe2ac8cadba0549280d4ef8cf4cc47df99d85c2a81b1427d467f03ca4",
+          "sourceSectionSha256": "fcc2d2e9e2f93a7523dcee8c7fee8e82aa4cb0b044b9ded9cf3b8f1870fa2a8e",
+          "pdfPages": [
+            245
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [
+        {
+          "placeId": "new-york",
+          "category": "mentioned"
+        }
+      ],
+      "unlocatedNames": [
+        "Beardsley",
+        "Coalmont",
+        "Killer Street",
+        "Hunter Road"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "2.29",
+      "sourceSectionId": 63,
+      "viewerPages": [
+        180,
+        188
+      ],
+      "userPdfPages": [
+        246,
+        256
+      ],
+      "originalSectionSha256": "3a7e8590a8115a6c4521e3da0a3fd451384df1e87daf47d8be80aa5732a9a64c",
+      "previousSectionAnalysis": "Hunter Road/Schiller home/parlor/kitchen/doorway e shack di Bill: colloquio, lavori di Dick e congedo, action. Ramsdale/Mother's Club: gesto di Quilty raccontato da Dolores, action al livello del ricordo intercalato; non riprodurre dettagli dell'abuso. Duk Duk Ranch: rifiuto ed espulsione raccontati, action a quel livello, non localizzabile. Elphinstone/Elephant: punto di riferimento distante un giorno dal ranch, mentioned nel racconto. New York: ipotesi sulla posizione di Quilty, mentioned. Hollywood: provino promesso e non realizzato, mentioned. Wace/Briceland/Readsburg: giornali e alibi, mentioned. Beardsley: festa ricordata in un lampo, mentioned conservativo. Hourglass Lake: associazione alla parola waterproof, mentioned. Alaska/Canada: destinazioni proposte e corrette, mentioned; Juneau: residenza dei suoceri comunicata e foto, mentioned. Italy: ferita di Bill riferita, mentioned. Ohio/Massachusetts: proposte mentali di vita insieme, mentioned. Jupiter: battuta sul viaggio e l'acquisto dell'auto, mentioned al livello fantastico. Dorset/Austria/Java: analogie descrittive, mentioned senza scena.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "regional-ramsdale",
+          "id": "41d269b6dabf2127713e3cc323cc5c4dc5376be0ff5aafe21534b3577318c434",
+          "sectionId": "2.29",
+          "category": "action",
+          "narrativeLevel": "embedded recollection",
+          "reason": "Dolores racconta un episodio con Quilty al club di sua madre a Ramsdale; scena intercalata distinta dalla conversazione a Coalmont.",
+          "viewerPage": 182,
+          "printedPage": 181,
+          "sourceImageSha256": "a98f8c256780797bda135a15b42f3a5e45254f80e8588c0b9f7c7aa5c671e829",
+          "sourceSectionSha256": "3a7e8590a8115a6c4521e3da0a3fd451384df1e87daf47d8be80aa5732a9a64c",
+          "pdfPages": [
+            248
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        },
+        {
+          "placeId": "regional-coalmont",
+          "id": "09ddf12ac42917ef68b0387dba27247483dd5d146681ba8c978c5a5c1d2256cc",
+          "sectionId": "2.29",
+          "category": "action",
+          "narrativeLevel": "memoir scene",
+          "reason": "Dialogo con Dolores nella casa raggiunta in II.28; il toponimo non ripetuto non cambia l’ambientazione.",
+          "viewerPage": 180,
+          "printedPage": 179,
+          "sourceImageSha256": "63090c420607038362ca90c8c520b8d4e1c7cc1a847ff0cc874ceeaa976c43f6",
+          "sourceSectionSha256": "3a7e8590a8115a6c4521e3da0a3fd451384df1e87daf47d8be80aa5732a9a64c",
+          "pdfPages": [
+            246
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [
+        {
+          "placeId": "dorset",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "italy",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "massachusetts",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "new-york",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "canada",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "ohio",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "alaska",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "juneau",
+          "category": "mentioned"
+        }
+      ],
+      "unlocatedNames": [
+        "Ramsdale",
+        "Our Glass Lake",
+        "Hollywood",
+        "Briceland",
+        "Beardsley",
+        "Wace",
+        "Elphinstone",
+        "Mother’s Club",
+        "Duk Duk Ranch",
+        "Readsburg",
+        "Jupiter",
+        "Casa degli Schiller: salotto"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "2.30",
+      "sourceSectionId": 64,
+      "viewerPages": [
+        188,
+        189
+      ],
+      "userPdfPages": [
+        256,
+        258
+      ],
+      "originalSectionSha256": "5657e1eb117e066fcc9f5b18f1a2a03d4d3bd89abcfd1376d122c139b60a9789",
+      "previousSectionAnalysis": "Coalmont: partenza riepilogata, mentioned conservativo. Ramsdale: destinazione, mentioned. Woodbine: punto raggiunto e svolta narrata nel percorso, action con geografia fittizia incerta. Route X/Highway Y/Z: sigle camuffate, non strade identificabili. Dirt road/ditch/farm: impantanamento, cammino e recupero, action. Anonymous town/Appalachia/curb: sosta, bevuta e osservazione del paesaggio notturno, action; Appalachi come regione ampia, non punto preciso. Camera Shop/Rubinov's Jewelry/Jiffy Jeff Laundry/garage/restaurant: insegne viste, mentioned per gli edifici senza ingresso. Europe: confronto immaginato, mentioned. Enchanted Hunters: vicinanza riferita, mentioned, non visita.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "regional-appalachia",
+          "id": "7c6bc69e19f38d7f676e13ffcfaac71e3c7e3d779da5aacd0cf278accbd5ee75",
+          "sectionId": "2.30",
+          "category": "action",
+          "narrativeLevel": "memoir scene",
+          "reason": "Humbert ferma l’auto al marciapiede, beve e osserva le insegne nella notte: regione esplicitamente dichiarata, cittadina anonima.",
+          "viewerPage": 188,
+          "printedPage": 187,
+          "sourceImageSha256": "8d95c4e61b6f165b4effdd8af3367e11a553b7fab9158077fa31b2b5c86bdbb2",
+          "sourceSectionSha256": "5657e1eb117e066fcc9f5b18f1a2a03d4d3bd89abcfd1376d122c139b60a9789",
+          "pdfPages": [
+            257
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [],
+      "unlocatedNames": [
+        "Ramsdale",
+        "Enchanted Hunters",
+        "Europe",
+        "Appalachian Mountains",
+        "Coalmont",
+        "Woodbine",
+        "Route X",
+        "Highway Y",
+        "Rubinov",
+        "Jiffy Jeff"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "2.31",
+      "sourceSectionId": 65,
+      "viewerPages": [
+        189,
+        189
+      ],
+      "userPdfPages": [
+        258,
+        258
+      ],
+      "originalSectionSha256": "cb435c392763ba93452a34c5a60021d56de4c62ac4f1df4a5ccf6d2b3bc74a0e",
+      "previousSectionAnalysis": "Stop fra Coalmont e Ramsdale: riflessione narrata, action senza nuova città identificata; i due estremi sono mentioned. Quebec: incontri col confessore ricordati come lavoro spirituale abituale, mentioned conservativo, nessuna chiesa identificata. North America: provenienza generale della ragazza, mentioned. Institution non nomina un edificio visitato.",
+      "reviewedActionPlaces": [],
+      "existingCoreReferences": [
+        {
+          "placeId": "quebec",
+          "category": "mentioned"
+        }
+      ],
+      "unlocatedNames": [
+        "Ramsdale",
+        "Coalmont"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "2.32",
+      "sourceSectionId": 66,
+      "viewerPages": [
+        189,
+        192
+      ],
+      "userPdfPages": [
+        258,
+        262
+      ],
+      "originalSectionSha256": "ae76ef74eef969aa1979c3b28b5058b4534c9fe2bec3073bf92aa87e5e3dacdf",
+      "previousSectionAnalysis": "Bathroom/room del primo viaggio: osservazione nello specchio, action nel ricordo, motel non identificato. Beardsley/street: cammino verso il concerto e conversazione con Eva, action. Beardsley house/parlor/kitchen/fireplace: visita di Avis e del padre, dolore di Dolores e colloquio sulla tomba, action nel ricordo. Cemetery outside Ramsdale/railway tracks/Lakeview Hill: luogo della sepoltura comunicato, mentioned, non visita qui. Moulinet/ridge: morte della madre vividamente immaginata, mentioned al livello immaginario, non testimonianza o ricordo di scena. Garden/palace gate: metafore della vita interiore, non ambientazioni geografiche.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "regional-beardsley",
+          "id": "0ea3d13859e9ba8293952e9c28017ada23f1e6322dec1d6b3e8ea7928c268f40",
+          "sectionId": "2.32",
+          "category": "action",
+          "narrativeLevel": "recalled scene",
+          "reason": "Scene ricordate nella strada e nella casa: concerto, Eva, Avis e colloquio con Dolores.",
+          "viewerPage": 190,
+          "printedPage": 189,
+          "sourceImageSha256": "40665da1ef9a71c8ce29e7e29ea79fb9400981772822848e71787bda9fe604b2",
+          "sourceSectionSha256": "ae76ef74eef969aa1979c3b28b5058b4534c9fe2bec3073bf92aa87e5e3dacdf",
+          "pdfPages": [
+            259,
+            262
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [
+        {
+          "placeId": "moulinet",
+          "category": "mentioned"
+        }
+      ],
+      "unlocatedNames": [
+        "Ramsdale",
+        "Beardsley",
+        "Lakeview Hill"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "2.33",
+      "sourceSectionId": 67,
+      "viewerPages": [
+        192,
+        195
+      ],
+      "userPdfPages": [
+        262,
+        267
+      ],
+      "originalSectionSha256": "dc14e4452e5f32942abca59f32a995bf44b8e47917b7323e18772d633b2b8aba",
+      "previousSectionAnalysis": "Ramsdale/cemetery/Lawn Street/342 Lawn Street/avenue/hotel/bar/lobby/Windmuller office/Dr Quilty office: cammino, incontri e colloqui narrati, action. Lake/pines/church/Junk mansion/Miss Opposite porch: paesaggio o edifici osservati, mentioned per interno non visitato; due giovani e Miss Opposite osservate sulla veranda costituiscono scena remota visibile, action per veranda se documentata con il passo specifico. Philadelphia: provenienza delle presunte nipoti ipotizzata, mentioned. New York: lavoro di Grammar riferito, mentioned; strada anonima dell'incidente nel racconto intercalato, action a quel livello, senza attribuirla a New York. California/Northwest: notizia o menzogna nel colloquio, mentioned. Camp Q/Korea: ricordi e morte del ragazzo comunicata, mentioned, non scena coreana. Beardsley College: nuova iscrizione della figlia riferita, mentioned. Switzerland: paragone con il parente, mentioned. Beardsley/Dr Molnar: operazione riferita, mentioned. Grimm Road/near Parkington: recapito fornito dal dentista, mentioned qui, visita dal capitolo seguente.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "regional-ramsdale",
+          "id": "15cda599d82e0644ae51251e3f4e04a48b421ad351f464e78db8809bf3e8ecfa",
+          "sectionId": "2.33",
+          "category": "action",
+          "narrativeLevel": "memoir scene",
+          "reason": "Visita al cimitero e alla vecchia casa, incontri e colloqui nel ritorno effettivo a Ramsdale.",
+          "viewerPage": 192,
+          "printedPage": 191,
+          "sourceImageSha256": "9bf12739ace9dfb3a7b13d77243277ad966125a984d6bca6044fce7e646406d1",
+          "sourceSectionSha256": "dc14e4452e5f32942abca59f32a995bf44b8e47917b7323e18772d633b2b8aba",
+          "pdfPages": [
+            262
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [
+        {
+          "placeId": "new-york",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "california",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "philadelphia",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "switzerland",
+          "category": "mentioned"
+        }
+      ],
+      "unlocatedNames": [
+        "Ramsdale",
+        "Northwest",
+        "Lawn Street",
+        "Camp Q",
+        "Parkington",
+        "Beardsley",
+        "Europe",
+        "Beardsley College",
+        "Korea",
+        "Grimm Road"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "2.34",
+      "sourceSectionId": 68,
+      "viewerPages": [
+        195,
+        196
+      ],
+      "userPdfPages": [
+        267,
+        268
+      ],
+      "originalSectionSha256": "de85da4c2e3c952b4f3549ec809bab8d1caffd3b099f44a72ec0791170d3ba0c",
+      "previousSectionAnalysis": "Parkington/gas station: richiesta d'indicazioni e telefonata, action. Highway/covered bridge/whitewashed rock/Grimm Road/clearing/Pavor Manor drive: percorso e appostamento narrati, action per strada, ponte e piazzale; interno della casa soltanto immaginato, mentioned. Pavor Manor resta fittizia, non un castello europeo. Drive-in: immagine vista passando, mentioned, non sosta allo spettacolo. Barns e town night lodgings: paesaggio e ricerca generica, mentioned conservativo se non edificio preciso.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "regional-parkington",
+          "id": "662da9e59ea983f21edb96ce41a2b5480fedc69800a5ea18540ab0f649a0e6d8",
+          "sectionId": "2.34",
+          "category": "action",
+          "narrativeLevel": "memoir scene",
+          "reason": "Richiesta d’indicazioni e telefonata al distributore di Parkington.",
+          "viewerPage": 195,
+          "printedPage": 194,
+          "sourceImageSha256": "25cc39a355515f893762f13768260c9086af2ea01452944f06dccd844a8ff504",
+          "sourceSectionSha256": "de85da4c2e3c952b4f3549ec809bab8d1caffd3b099f44a72ec0791170d3ba0c",
+          "pdfPages": [
+            267
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [],
+      "unlocatedNames": [
+        "Parkington",
+        "Grimm Road",
+        "Pavor Manor"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "2.35",
+      "sourceSectionId": 69,
+      "viewerPages": [
+        196,
+        205
+      ],
+      "userPdfPages": [
+        268,
+        278
+      ],
+      "originalSectionSha256": "43f815c5cdf9e24afffa23fe04ce2f6318ffc719aa67c0303d7e583181906696",
+      "previousSectionAnalysis": "Pavor Manor/hall/bedrooms/library/mirrored room/bathrooms/drawing room/kitchen/boudoir/Oriental parlor/music room/stairs/master bedroom/drive: esplorazione, colloqui, lotta e omicidio narrati, action. Parkington: preparativi mattutini narrati solo genericamente, mentioned conservativo; Insomnia Lodge: partenza riferita, mentioned conservativo per soggiorno non sviluppato qui. Grimm Road: percorso nel temporale narrato, action. Philadelphia/Patagonia/Dolores Colorado/Paradise Washington/Hell Canyon: telefonate scherzose ipotizzate da Quilty, mentioned, non visite. Rio: duello proposto, mentioned; England/Florence: pensionamento progettato, mentioned. Bagration Island/Barda Sea: libro e indagine vantati da Quilty, mentioned al livello di un'opera inventata, non prova geografica. Village: provenienza e lavoro della domestica riferiti, mentioned. Old Faithful: paragone per il movimento, mentioned; non scena a Yellowstone. Orientale qualifica un salotto, non un viaggio in Asia.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "regional-parkington",
+          "id": "0f39c65d09e8d84793cea34fa4fa3a7a22352803292ab2d65044b87bce654cfb",
+          "sectionId": "2.35",
+          "category": "action",
+          "narrativeLevel": "memoir scene",
+          "reason": "Esplorazione della casa e omicidio lungo Grimm Road a nord di Parkington; la collocazione resta regionale, non un indirizzo urbano.",
+          "viewerPage": 196,
+          "printedPage": 195,
+          "sourceImageSha256": "a6f37f7fe6e81527d7f0b2ef6c24c20a8d89edf707d4d50e9d9643efcecf578d",
+          "sourceSectionSha256": "43f815c5cdf9e24afffa23fe04ce2f6318ffc719aa67c0303d7e583181906696",
+          "pdfPages": [
+            268
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [
+        {
+          "placeId": "england",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "florence",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "philadelphia",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "patagonia",
+          "category": "mentioned"
+        }
+      ],
+      "unlocatedNames": [
+        "Parkington",
+        "Dolores, Colo",
+        "Grimm Road",
+        "Pavor Manor",
+        "Insomnia Lodge",
+        "Paradise",
+        "Hell Canyon",
+        "Rio",
+        "Bagration",
+        "Barda Sea",
+        "Old Faithful"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "2.36",
+      "sourceSectionId": 70,
+      "viewerPages": [
+        205,
+        208
+      ],
+      "userPdfPages": [
+        278,
+        283
+      ],
+      "originalSectionSha256": "f8754668a1f68df368422196a82bd423d0203b452f875bc00904cc10acffe3fe",
+      "previousSectionAnalysis": "Highway/open country/grassy slope: guida contromano e arresto narrati, action. Parkington: direzione opposta, mentioned. Mountain road/boulder/stone parapet: malessere, cammino e ascolto narrati nel ricordo, action senza coordinate. Mining town: vista e voci dei bambini, mentioned conservativo per la cittadina poiché nessuna scena vi è osservabile individualmente; non identifica Gray Star. Psychopathic ward/jail: cornice della composizione dichiarata, action senza edificio o città identificati. Alaska: destinataria evocata, mentioned, non viaggio di Humbert. Burgundy: paragone con il vino, non scena in Borgogna.",
+      "reviewedActionPlaces": [],
+      "existingCoreReferences": [
+        {
+          "placeId": "alaska",
+          "category": "mentioned"
+        }
+      ],
+      "unlocatedNames": [
+        "Parkington",
+        "Strada montana e parapetto anonimi",
+        "Cittadina mineraria anonima nella valle"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    },
+    {
+      "id": "afterword",
+      "sourceSectionId": 71,
+      "viewerPages": [
+        208,
+        212
+      ],
+      "userPdfPages": null,
+      "originalSectionSha256": "e2669e65c5570edec01df17b88e95849665bb749333752eef19d238eaa8d0160",
+      "previousSectionAnalysis": "Paris: genesi e lettura agli amici narrata, action al livello autobiografico, distinto dalla finzione. Jardin des Plantes: notizia di giornale ricordata, mentioned; non visita dell'autore né verifica dell'aneddoto. Paris/Provence/hotel: trama del prototipo riassunta, mentioned al livello dell'altra opera. Russia/America/St Petersburg/New York/Ithaca: cronologia di scrittura e biografia riferita, mentioned conservativo; nessuna scena di Humbert. Telluride Colorado/Afton Wyoming/Portal Arizona/Ashland Oregon: basi estive della stesura riferite, mentioned; non tappe del romanzo. Harvard Museum of Comparative Zoology/Cornell collection: destinazione dei reperti, mentioned, non scena museale. Russia/Western Europe/France/Chicago/Swiss hotels/English inns: riflessioni e confronti artistici, mentioned. Ramsdale/Kasbeam/Elphinstone/Gray Star: punti dell'opera commentati, mentioned metanarrative; Gray Star definita città capitale del libro non diventa città reale. Mountain trail e Lycaeides sublivens: autobiografia riferita senza identificazione certa della valle narrativa. Paris/Olympia Press: pubblicazione riferita, mentioned.",
+      "reviewedActionPlaces": [
+        {
+          "placeId": "paris",
+          "id": "50e5c2963e45e15e227bd8987a2b0dce1abc392fe657cc08cd94bf4a938ad353",
+          "sectionId": "afterword",
+          "category": "action",
+          "narrativeLevel": "authorial autobiography",
+          "reason": "Nabokov ricorda la lettura del prototipo agli amici a Parigi: scena autobiografica, non viaggio di Humbert né sola cronologia editoriale.",
+          "viewerPage": 208,
+          "printedPage": 207,
+          "sourceImageSha256": "c90fda62c56eefeec5b2300e86b4bdf3aeedc6789a26269aa00b9b0a9038397c",
+          "sourceSectionSha256": "e2669e65c5570edec01df17b88e95849665bb749333752eef19d238eaa8d0160",
+          "pdfPages": [],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      ],
+      "existingCoreReferences": [
+        {
+          "placeId": "paris",
+          "category": "action"
+        },
+        {
+          "placeId": "new-york",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "chicago",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "colorado",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "arizona",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "oregon",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "wyoming",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "jardin-des-plantes",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "provence",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "russia",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "st-petersburg",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "ithaca",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "telluride",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "afton",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "portal",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "ashland",
+          "category": "mentioned"
+        },
+        {
+          "placeId": "france",
+          "category": "mentioned"
+        }
+      ],
+      "unlocatedNames": [
+        "Ramsdale",
+        "Gray Star",
+        "America",
+        "Europe",
+        "Elphinstone",
+        "Kasbeam",
+        "Harvard",
+        "Cornell"
+      ],
+      "remainingMentions": "Biographical news, projected journeys, comparisons, names in a register, attraction lists and summaries without an enacted scene remain mentioned. Fictional interiors continue under their documented regional setting; no real address is inferred."
+    }
+  ]
+}

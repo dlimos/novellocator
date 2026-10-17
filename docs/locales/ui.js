@@ -567,3 +567,4 @@ for(const [language,messages] of Object.entries({
  fr:{'Published translation':'Traduction publiée','Quotation language':'Langue de la citation'},
  es:{'Published translation':'Traducción publicada','Quotation language':'Idioma de la cita'}
 }))Object.assign(window.atlasLocaleData.messages[language],messages);
+for(const [lang,label]of Object.entries({en:'Dashed outline: documented geographical region, not an exact scene location.',it:'Contorno tratteggiato: ambito geografico documentato, non posizione precisa della scena.',fr:'Contour en pointillés : cadre géographique documenté, pas le lieu précis de la scène.',es:'Contorno discontinuo: ámbito geográfico documentado, no ubicación exacta de la escena.'}))window.atlasLocaleData.messages[lang]['Dashed outline: documented geographical region, not the town boundary.']=label;

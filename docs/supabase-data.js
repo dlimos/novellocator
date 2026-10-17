@@ -11,6 +11,7 @@
    const chapter={...section,places:[...(section.places||[])],placeText:[...(section.placeText||[])],placeCategories:{...section.placeCategories},placeExcerpts:{...section.placeExcerpts},placeSources:{...section.placeSources},unlocatedPlaces:(section.unlocatedPlaces||[]).map(item=>({...item}))};
    for(const item of chapter.unlocatedPlaces){
     const key=item.id||item.name;
+    if(review.coveredSettings?.[chapter.id]?.[key]){item.displayInAtlas=false;item.mappedPlaceId=review.coveredSettings[chapter.id][key];}
     if(hidden.has(key))item.displayInAtlas=false;
     const region=(review.regionalPlaces||[]).find(record=>(record.keys||[]).includes(key));
     if(!region)continue;
@@ -18,10 +19,20 @@
     if(chapter.places.includes(region.id))continue;
     const priority=region.evidencePriority||region.keys;
     const evidence=chapter.unlocatedPlaces.filter(candidate=>region.keys.includes(candidate.id||candidate.name)).sort((a,b)=>priority.indexOf(a.id||a.name)-priority.indexOf(b.id||b.name))[0]||item;
-    chapter.places.push(region.id);chapter.placeText.push(region.sceneText);
+    chapter.places.push(region.id);chapter.placeText.push(region.scenes?.[chapter.id]||region.sceneText);
     chapter.placeCategories[region.id]=region.categories?.[chapter.id]||'mentioned';
     chapter.placeSources[region.id]={url:evidence.url||region.place.narrativeSource.url,label:region.evidenceLabel};
     chapter.placeExcerpts[region.id]=evidence.excerpt||{original:{...evidence,language:evidence.language||input.book.originalLanguage,type:'original'},translations:evidence.translations||{}};
+   }
+   // Explicit reviewed scenes also cover chapters naming only an interior or
+   // continuing the preceding scene. Their geographical scope stays regional.
+   for(const region of review.regionalPlaces||[]){
+    const occurrence=region.sectionOccurrences?.[chapter.id];if(!occurrence)continue;
+    places[region.id]=region.place;
+    let index=chapter.places.indexOf(region.id);if(index<0){index=chapter.places.length;chapter.places.push(region.id);}
+    chapter.placeText[index]=occurrence.scene;chapter.placeCategories[region.id]=occurrence.category;
+    chapter.placeSources[region.id]=occurrence.source;
+    chapter.placeExcerpts[region.id]=occurrence.excerpt;
    }
    return chapter;
   });
@@ -37,7 +48,9 @@
     for(const ref of refs){const list=references.get(ref.placeId)||[];list.push({...ref,sourceSectionId:c.id,sourceSectionTitle:c.title});references.set(ref.placeId,list);}
     for(const item of c.unlocatedPlaces||[]){if(item.displayInAtlas===false||item.geographicRelevance==='none'||hidden.has(item.id||item.name))continue;const key=item.id||item.name,list=unlocated.get(key)||[];list.push({...item,sourceSectionId:c.id,sourceSectionTitle:c.title});unlocated.set(key,list);}
    }
-   for(const [id,occurrences]of references){
+   const orderedReferences=[...references];
+   if(grouping.actionFirst)orderedReferences.sort((a,b)=>Number(b[1].some(ref=>ref.category==='action'))-Number(a[1].some(ref=>ref.category==='action')));
+   for(const [id,occurrences]of orderedReferences){
     // Preserve the category already reviewed for a source chapter. When a
     // part contains an action, select that occurrence and its own source;
     // a mention elsewhere in the part must not replace its evidence.
@@ -54,7 +67,7 @@
   if(used.size!==sourceChapters.length)throw new Error('Source section omitted from navigation groups');
   // The geographical review has already been applied before category merging.
   const {geographicReview,...book}=input.book;
-  return {...input,book:{...book,unit:grouping.unit||book.unit,hashPrefix:grouping.hashPrefix||book.hashPrefix,help:grouping.help||book.help,sidebarTitle:grouping.sidebarTitle||book.sidebarTitle,sidebarNote:review.sidebarNote||book.sidebarNote},places,citedPlaces:{},chapters,sourceChapters};
+  return {...input,book:{...book,unit:grouping.unit||book.unit,hashPrefix:grouping.hashPrefix||book.hashPrefix,help:grouping.help||book.help,sidebarTitle:grouping.sidebarTitle||book.sidebarTitle,sidebarNote:review.sidebarNote||book.sidebarNote},places,citedPlaces:{},chapters,sourceChapters:sourceViews};
  }
  const order={books:'id',sections:'book_id,id',places:'book_id,id',sources:'book_id,id',place_descriptions:'book_id,place_id,collection',place_references:'book_id,id',excerpts:'book_id,id',unlocated_settings:'book_id,section_id,ordinal',content_translations:'book_id,language,source_hash'};
  async function loadBook(bookId,config=window.atlasSupabase,options={}){

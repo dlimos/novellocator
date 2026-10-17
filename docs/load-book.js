@@ -19,7 +19,7 @@ function startEngine(source){
   const alternate=document.createElement('a'),target=new URL('atlas.html',location.href);target.searchParams.set('book',bookId);target.searchParams.set('lang',window.atlasI18n.locale);if(!imaginary)target.searchParams.set('mode','imaginary');
   target.hash=location.hash;alternate.href=target.href;alternate.textContent=t(imaginary?'Open geographic atlas':'Open literary views');nav.appendChild(alternate);
  }
- window.atlasData=window.atlasI18n.localizeData(window.atlasData);window.atlasDataSource=source;const engine=document.createElement('script');engine.src='app.js?v=20261016-region-outline';document.head.appendChild(engine);
+ window.atlasData=window.atlasI18n.localizeData(window.atlasData);window.atlasDataSource=source;const engine=document.createElement('script');engine.src='app.js?v=20261016-narrative-review';document.head.appendChild(engine);
 }
 if(!/^[a-z0-9-]+$/.test(bookId)){document.getElementById('detail').textContent=window.atlasI18n.t('Titolo non valido.');}
 else if(entry?.mapType==='illustrated'){

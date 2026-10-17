@@ -1,0 +1,3789 @@
+{
+  "actionFirst": true,
+  "regionalPlaces": [
+    {
+      "id": "regional-riviera",
+      "keys": [
+        "Riviera",
+        "Hotel Mirana"
+      ],
+      "place": {
+        "name": "Riviera · regional setting",
+        "area": "Mediterranean Riviera",
+        "coords": [
+          43.8,
+          7.5
+        ],
+        "kind": "uncertain",
+        "zoom": 4,
+        "checked": "2026-10-16",
+        "status": "Uncertain regional position",
+        "note": "The childhood scenes are set on the Riviera near the fictional Hotel Mirana. The diamond indicates the Mediterranean coastal region; it does not identify the hotel, villa, school or beach, or choose a real town as their equivalent.",
+        "method": "Only the geographical region is established. This rounded point is selected within it for orientation; it is not a scene, address, route reconstruction or probability estimate.",
+        "positionSource": {
+          "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Riviera",
+          "label": "Geographical region · representative point"
+        },
+        "narrativeSource": {
+          "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=6",
+          "label": "Vladimir Nabokov · Lolita · 1.2"
+        },
+        "geographicReview": {
+          "precision": "region",
+          "realWorldIdentity": "not-established"
+        }
+      },
+      "sceneText": "The childhood scenes are set on the Riviera near the fictional Hotel Mirana. The diamond indicates the Mediterranean coastal region; it does not identify the hotel, villa, school or beach, or choose a real town as their equivalent.",
+      "categories": {},
+      "evidenceLabel": "Original section evidence",
+      "sectionOccurrences": {
+        "3": {
+          "category": "action",
+          "scene": "Humbert recalls a conversation in his school garden near the Hotel Mirana. The setting is the Riviera; neither the school nor the fictional hotel is identified.",
+          "source": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=6",
+            "label": "Vladimir Nabokov · Lolita · 1.2"
+          },
+          "evidenceReview": "f04600da9214f52ba49b739fb0306d8e4be5d0782a9060da13ed076c7ffd5360"
+        },
+        "4": {
+          "category": "action",
+          "scene": "The memories of Annabel include the beach and the escape from a café to the rocks. Their context is the Riviera near the fictional Hotel Mirana, without a precise beach.",
+          "source": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=8",
+            "label": "Vladimir Nabokov · Lolita · 1.3"
+          },
+          "evidenceReview": "03296f7fad4be3ee2f3719e32031f9843b61e178244623e8362c7cbeda4aba1e"
+        },
+        "5": {
+          "category": "action",
+          "scene": "Humbert recalls the interrupted meeting with Annabel behind her family’s villa. The Riviera is established by the preceding chapters, not a real address for the villa.",
+          "source": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=9",
+            "label": "Vladimir Nabokov · Lolita · 1.4"
+          },
+          "evidenceReview": "711bab7b4e3d57b779db7f13aaf8ac3cdf6a1e0e687fbe79976ea3a6215d1ab2"
+        }
+      }
+    },
+    {
+      "id": "regional-arctic-canada",
+      "keys": [
+        "Arctic Canada"
+      ],
+      "place": {
+        "name": "Arctic Canada · expedition region",
+        "area": "Arctic Canada",
+        "coords": [
+          70,
+          -100
+        ],
+        "kind": "uncertain",
+        "zoom": 4,
+        "checked": "2026-10-16",
+        "status": "Uncertain regional position",
+        "note": "The expedition and the boulder scene belong to Arctic Canada. The camp is not located. Prince of Wales Island is a conjecture about the expedition’s purpose, and Victoria Island is expressly excluded as that purpose.",
+        "method": "Only the geographical region is established. This rounded point is selected within it for orientation; it is not a scene, address, route reconstruction or probability estimate.",
+        "positionSource": {
+          "url": "https://natural-resources.canada.ca/maps-tools-publications/maps/north-maps",
+          "label": "Geographical region · representative point"
+        },
+        "narrativeSource": {
+          "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=22",
+          "label": "Vladimir Nabokov · Lolita · 1.9"
+        },
+        "geographicReview": {
+          "precision": "region",
+          "realWorldIdentity": "not-established"
+        }
+      },
+      "sceneText": "The expedition and the boulder scene belong to Arctic Canada. The camp is not located. Prince of Wales Island is a conjecture about the expedition’s purpose, and Victoria Island is expressly excluded as that purpose.",
+      "categories": {},
+      "evidenceLabel": "Original section evidence",
+      "sectionOccurrences": {
+        "10": {
+          "category": "action",
+          "scene": "During the expedition to Arctic Canada, Humbert describes sitting on a boulder amid the tundra. Only the broad region is established; the camp and island remain unidentified.",
+          "source": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=22",
+            "label": "Vladimir Nabokov · Lolita · 1.9"
+          },
+          "evidenceReview": "49412b545df729332846166917877524a0c15a9c50d502b4cb744a52d92b84fb"
+        }
+      }
+    },
+    {
+      "id": "regional-appalachia",
+      "keys": [
+        "Appalachian Mountains"
+      ],
+      "place": {
+        "name": "Appalachia · unnamed town",
+        "area": "Appalachian region",
+        "coords": [
+          38,
+          -80
+        ],
+        "kind": "uncertain",
+        "zoom": 4,
+        "checked": "2026-10-16",
+        "status": "Uncertain regional position",
+        "note": "Part II, chapter 30 explicitly places the night stop somewhere in Appalachia. The diamond represents the broad region, not the anonymous town, a particular state or the disguised roads.",
+        "method": "Only the geographical region is established. This rounded point is selected within it for orientation; it is not a scene, address, route reconstruction or probability estimate.",
+        "positionSource": {
+          "url": "https://www.nps.gov/articles/series.htm?id=12C422BC-1DD8-B71B-0B1552CA902E5909",
+          "label": "Geographical region · representative point"
+        },
+        "narrativeSource": {
+          "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=188",
+          "label": "Vladimir Nabokov · Lolita · 2.30"
+        },
+        "geographicReview": {
+          "precision": "region",
+          "realWorldIdentity": "not-established"
+        }
+      },
+      "sceneText": "Part II, chapter 30 explicitly places the night stop somewhere in Appalachia. The diamond represents the broad region, not the anonymous town, a particular state or the disguised roads.",
+      "categories": {},
+      "evidenceLabel": "Original section evidence",
+      "sectionOccurrences": {
+        "64": {
+          "category": "action",
+          "scene": "Exhausted after the muddy detour, Humbert stops in an unnamed Appalachian town, drinks and watches its illuminated signs. Only the Appalachian region is established.",
+          "source": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=188",
+            "label": "Vladimir Nabokov · Lolita · 2.30"
+          },
+          "evidenceReview": "7c6bc69e19f38d7f676e13ffcfaac71e3c7e3d779da5aacd0cf278accbd5ee75"
+        }
+      }
+    },
+    {
+      "id": "scene-magnolia-gardens",
+      "keys": [
+        "Magnolia Garden"
+      ],
+      "categories": {},
+      "evidenceLabel": "Original section evidence",
+      "sectionOccurrences": {
+        "36": {
+          "category": "action",
+          "scene": "At Magnolia Garden, Dolores sits on a bench with her Sunday newspapers. Zimmer identifies the garden near Charleston; the point represents the grounds, not the bench.",
+          "source": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=102",
+            "label": "Vladimir Nabokov · Lolita · 2.2"
+          },
+          "evidenceReview": "d01e0e025b987e7e45f08de0050631d3db2f0b86cb1f832b86b4cb453bc35bd8"
+        }
+      },
+      "sceneText": "",
+      "place": {
+        "name": "Magnolia Garden",
+        "area": "Magnolia Plantation & Gardens · Charleston, South Carolina",
+        "coords": [
+          32.876494099794,
+          -80.083391601259
+        ],
+        "kind": "area",
+        "zoom": 13,
+        "checked": "2026-10-16",
+        "status": "Representative geographical position",
+        "note": "Zimmer identifies the garden in Part II, chapter 2 as Magnolia Gardens near Charleston. The official site confirms the Ashley River grounds at 3550 Ashley River Road. The point locates the property, not Dolores’s bench.",
+        "method": "Official property address matched to Esri PointAddress; the scene is verified independently in Part II, chapter 2.",
+        "positionSource": {
+          "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Magnolia+Plantation+and+Gardens%2C+3550+Ashley+River+Road%2C+Charleston%2C+SC&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+          "label": "Esri · official property address"
+        },
+        "narrativeSource": {
+          "url": "https://dezimmer.net/LolitaUSA/Trip1.htm",
+          "label": "Dieter E. Zimmer · Lolita, USA · Trip One"
+        },
+        "additionalSource": {
+          "url": "https://www.magnoliaplantation.com/contact",
+          "label": "Magnolia Plantation & Gardens · official site"
+        }
+      }
+    },
+    {
+      "id": "regional-ramsdale",
+      "sectionOccurrences": {
+        "11": {
+          "category": "action",
+          "scene": "After the McCoo house burns down, Humbert visits Charlotte Haze in Ramsdale and first sees Dolores. The scene takes place in Ramsdale or its nearby surroundings, as established by the Haze household narrative. The outline shows New England, not the fictional town, house or lake.",
+          "source": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=23",
+            "label": "Vladimir Nabokov · Lolita · 1.10"
+          },
+          "evidenceReview": "f818c1a58b21510ea5a6eaea00e8954d981c3d0ff8e5c8b666799117b0a6a5a2"
+        },
+        "12": {
+          "category": "action",
+          "scene": "Humbert's diary follows small encounters in the Haze household and plans that repeatedly fail. The scene takes place in Ramsdale or its nearby surroundings, as established by the Haze household narrative. The outline shows New England, not the fictional town, house or lake.",
+          "source": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=27",
+            "label": "Vladimir Nabokov · Lolita · 1.11"
+          },
+          "evidenceReview": "3828890cb123cf244ff1389b8114507cf3ea6e521b4f0f789cb92206049dabc8"
+        },
+        "14": {
+          "category": "action",
+          "scene": "Charlotte's departure leaves Humbert alone with Dolores; he uses theatrical language to disguise the abuse. The scene takes place in Ramsdale or its nearby surroundings, as established by the Haze household narrative. The outline shows New England, not the fictional town, house or lake.",
+          "source": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=38",
+            "label": "Vladimir Nabokov · Lolita · 1.13"
+          },
+          "evidenceReview": "8132ec49b76abe21a6fc0a0215cc38a3a5b4b5799cc2e6b93491ae184c3d536b"
+        },
+        "15": {
+          "category": "action",
+          "scene": "Humbert rationalizes what has happened until Charlotte announces that Dolores will soon leave for camp. The scene takes place in Ramsdale or its nearby surroundings, as established by the Haze household narrative. The outline shows New England, not the fictional town, house or lake.",
+          "source": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=42",
+            "label": "Vladimir Nabokov · Lolita · 1.14"
+          },
+          "evidenceReview": "0c4fdf1c9ad67258fa094cd971b5c931cc1e4fc8e69a5f4abb859366968cc2f8"
+        },
+        "16": {
+          "category": "action",
+          "scene": "Preparations for camp increase the tension at home; Dolores says goodbye to Humbert. The scene takes place in Ramsdale or its nearby surroundings, as established by the Haze household narrative. The outline shows New England, not the fictional town, house or lake.",
+          "source": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=43",
+            "label": "Vladimir Nabokov · Lolita · 1.15"
+          },
+          "evidenceReview": "f31ff3662dd44d93cbccddda2aef41088351640c197d0611bbaf3017df2953b5"
+        },
+        "17": {
+          "category": "action",
+          "scene": "In Dolores's room, Humbert receives and reads Charlotte's declaration of love. The scene takes place in Ramsdale or its nearby surroundings, as established by the Haze household narrative. The outline shows New England, not the fictional town, house or lake.",
+          "source": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=45",
+            "label": "Vladimir Nabokov · Lolita · 1.16"
+          },
+          "evidenceReview": "6a09869b7826a70927ad55d3157e918ae9137366ceb583ed59df865a4f6aaf89"
+        },
+        "18": {
+          "category": "action",
+          "scene": "Humbert decides to exploit marriage to Charlotte to reach Dolores, then waits for Charlotte's return. The scene takes place in Ramsdale or its nearby surroundings, as established by the Haze household narrative. The outline shows New England, not the fictional town, house or lake.",
+          "source": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=47",
+            "label": "Vladimir Nabokov · Lolita · 1.17"
+          },
+          "evidenceReview": "60fe0617113b23d9c667eb690c3e575ef0da2bb111035ec0bb766515fe75d7e8"
+        },
+        "19": {
+          "category": "action",
+          "scene": "Marriage brings a new domestic routine: Charlotte changes the house while Humbert conceals his plans. The scene takes place in Ramsdale or its nearby surroundings, as established by the Haze household narrative. The outline shows New England, not the fictional town, house or lake.",
+          "source": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=50",
+            "label": "Vladimir Nabokov · Lolita · 1.18"
+          },
+          "evidenceReview": "1d1c89d4fd7d05854b467c3d23d6780ed6ca1d7ac0b1f1f0d20d27341b305b0c"
+        },
+        "20": {
+          "category": "action",
+          "scene": "Charlotte's confidences and a short letter from camp deepen Humbert's resentment. The scene takes place in Ramsdale or its nearby surroundings, as established by the Haze household narrative. The outline shows New England, not the fictional town, house or lake.",
+          "source": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=53",
+            "label": "Vladimir Nabokov · Lolita · 1.19"
+          },
+          "evidenceReview": "96c5aa2abd7dc1684c962efa0bf69b5041c152deeb1dd242f38072bab20f7194"
+        },
+        "21": {
+          "category": "action",
+          "scene": "Swimming with Charlotte, Humbert imagines killing her but stops; the Farlows reveal that they were watching. The scene takes place in Ramsdale or its nearby surroundings, as established by the Haze household narrative. The outline shows New England, not the fictional town, house or lake.",
+          "source": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=55",
+            "label": "Vladimir Nabokov · Lolita · 1.20"
+          },
+          "evidenceReview": "51ce78699916930ce5221388ca79abb51c3b20d4b33c35a05aef756e54098898"
+        },
+        "22": {
+          "category": "action",
+          "scene": "Charlotte's proposed English holiday causes a dispute, and a conversation brings the discovery of the diary closer. The scene takes place in Ramsdale or its nearby surroundings, as established by the Haze household narrative. The outline shows New England, not the fictional town, house or lake.",
+          "source": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=60",
+            "label": "Vladimir Nabokov · Lolita · 1.21"
+          },
+          "evidenceReview": "e29bcc8a94eca733a0a7a8631ae139f1c8c2ecc38d63ac1d0d82d16a47741bb3"
+        },
+        "23": {
+          "category": "action",
+          "scene": "After obtaining sleeping pills, Humbert returns home and discovers that Charlotte has read his diary. The scene takes place in Ramsdale or its nearby surroundings, as established by the Haze household narrative. The outline shows New England, not the fictional town, house or lake.",
+          "source": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=63",
+            "label": "Vladimir Nabokov · Lolita · 1.22"
+          },
+          "evidenceReview": "865a2a6358ed38517c698c0bbc528a802197ce867ce10fcf49e7626d600507e8"
+        },
+        "24": {
+          "category": "action",
+          "scene": "Charlotte's fatal accident changes Humbert's position; he deceives the others to keep Dolores away. The scene takes place in Ramsdale or its nearby surroundings, as established by the Haze household narrative. The outline shows New England, not the fictional town, house or lake.",
+          "source": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=65",
+            "label": "Vladimir Nabokov · Lolita · 1.23"
+          },
+          "evidenceReview": "7427e3c77d8500f14499f16175f354eb3c4c73ce32fc706e62c340982cf71c4d"
+        },
+        "25": {
+          "category": "action",
+          "scene": "Before leaving Ramsdale, Humbert receives Jean's farewell and looks back at the site of the accident. The scene takes place in Ramsdale or its nearby surroundings, as established by the Haze household narrative. The outline shows New England, not the fictional town, house or lake.",
+          "source": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=69",
+            "label": "Vladimir Nabokov · Lolita · 1.24"
+          },
+          "evidenceReview": "11d70c6910a19ec6c3c284ccf1ceccd26ae7fcf0fba8dad23ff4e60d729ce527"
+        },
+        "63": {
+          "category": "action",
+          "scene": "The scene takes place in Ramsdale or its nearby surroundings, as established by the Haze household narrative. The outline shows New England, not the fictional town, house or lake.",
+          "source": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=180",
+            "label": "Vladimir Nabokov · Lolita · 2.29"
+          },
+          "evidenceReview": "41d269b6dabf2127713e3cc323cc5c4dc5376be0ff5aafe21534b3577318c434"
+        },
+        "67": {
+          "category": "action",
+          "scene": "Back in Ramsdale, Humbert visits the cemetery and the old house before asking the dentist for Quilty's address. The scene takes place in Ramsdale or its nearby surroundings, as established by the Haze household narrative. The outline shows New England, not the fictional town, house or lake.",
+          "source": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=192",
+            "label": "Vladimir Nabokov · Lolita · 2.33"
+          },
+          "evidenceReview": "15cda599d82e0644ae51251e3f4e04a48b421ad351f464e78db8809bf3e8ecfa"
+        }
+      }
+    },
+    {
+      "id": "regional-parkington",
+      "sectionOccurrences": {
+        "26": {
+          "category": "action",
+          "scene": "The narrated action is set in Parkington or its surroundings. Its northeastern US position is regional; neither the town nor Grimm Road and Quilty’s house has an identified real address.",
+          "source": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=70",
+            "label": "Vladimir Nabokov · Lolita · 1.25"
+          },
+          "evidenceReview": "a515b55160bd88eeafa8f881d603eb315b8a43ef9b6b1896ac10bb09915ff2d1"
+        },
+        "28": {
+          "category": "action",
+          "scene": "The narrated action is set in Parkington or its surroundings. Its northeastern US position is regional; neither the town nor Grimm Road and Quilty’s house has an identified real address.",
+          "source": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=73",
+            "label": "Vladimir Nabokov · Lolita · 1.27"
+          },
+          "evidenceReview": "d8f4c3286f68b1d86737edad9983ef7d6e60ba832fff6ea4de2b30ac42121910"
+        },
+        "68": {
+          "category": "action",
+          "scene": "The narrated action is set in Parkington or its surroundings. Its northeastern US position is regional; neither the town nor Grimm Road and Quilty’s house has an identified real address.",
+          "source": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=195",
+            "label": "Vladimir Nabokov · Lolita · 2.34"
+          },
+          "evidenceReview": "662da9e59ea983f21edb96ce41a2b5480fedc69800a5ea18540ab0f649a0e6d8"
+        },
+        "69": {
+          "category": "action",
+          "scene": "The narrated action is set in Parkington or its surroundings. Its northeastern US position is regional; neither the town nor Grimm Road and Quilty’s house has an identified real address.",
+          "source": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=196",
+            "label": "Vladimir Nabokov · Lolita · 2.35"
+          },
+          "evidenceReview": "0f39c65d09e8d84793cea34fa4fa3a7a22352803292ab2d65044b87bce654cfb"
+        }
+      }
+    },
+    {
+      "id": "regional-briceland",
+      "sectionOccurrences": {
+        "28": {
+          "category": "action",
+          "scene": "The scene takes place at the Enchanted Hunters in fictional Briceland. Its broad New England setting does not identify a real hotel or a town boundary.",
+          "source": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=73",
+            "label": "Vladimir Nabokov · Lolita · 1.27"
+          },
+          "evidenceReview": "afb9300f791eda901f3c24c239cdedc6ead3b2585d295578a3072fa278582d9b"
+        },
+        "29": {
+          "category": "action",
+          "scene": "The scene takes place at the Enchanted Hunters in fictional Briceland. Its broad New England setting does not identify a real hotel or a town boundary.",
+          "source": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=83",
+            "label": "Vladimir Nabokov · Lolita · 1.28"
+          },
+          "evidenceReview": "dc687e67d1ce43d91e602f9c5c589e8c6a9b43537f29af787ae60052c50d4658"
+        },
+        "30": {
+          "category": "action",
+          "scene": "The scene takes place at the Enchanted Hunters in fictional Briceland. Its broad New England setting does not identify a real hotel or a town boundary.",
+          "source": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=86",
+            "label": "Vladimir Nabokov · Lolita · 1.29"
+          },
+          "evidenceReview": "d1c95ac67d34b162a8f59c32584e0d819a6463c2ea442c0828b684e17bf6b55d"
+        },
+        "33": {
+          "category": "action",
+          "scene": "The scene takes place at the Enchanted Hunters in fictional Briceland. Its broad New England setting does not identify a real hotel or a town boundary.",
+          "source": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=91",
+            "label": "Vladimir Nabokov · Lolita · 1.32"
+          },
+          "evidenceReview": "6286391c464705bb4c8e72dfaa214afe4ae07b44691ef043ade4c31fe3696c9e"
+        },
+        "60": {
+          "category": "action",
+          "scene": "Back in Briceland, Humbert consults the newspaper in the library, finds Rita at a bar and walks with her. He does not enter the Enchanted Hunters on this visit.",
+          "source": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=172",
+            "label": "Vladimir Nabokov · Lolita · 2.26"
+          },
+          "evidenceReview": "6a6df5fc0f2214645359d14c1243c198cd28f9499a018b59e3e362d30cefc0cd"
+        }
+      }
+    },
+    {
+      "id": "regional-lepingville",
+      "sectionOccurrences": {
+        "34": {
+          "category": "action",
+          "scene": "In Lepingville, Humbert buys Dolores numerous objects; that night she comes crying to his hotel room. The fictional town is placed broadly in New England.",
+          "source": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=95",
+            "label": "Vladimir Nabokov · Lolita · 1.33"
+          },
+          "evidenceReview": "7357baf923620e7976031e10525285c219f88c52481a8484ea04d730bb9e5081"
+        }
+      }
+    },
+    {
+      "id": "regional-beardsley",
+      "sectionOccurrences": {
+        "38": {
+          "category": "action",
+          "scene": "In Beardsley, Humbert rents a house and meets the headmistress, whose plans challenge his surveillance. The scene is set in Beardsley: its house, school, streets or campus, as established by the surrounding narrative. The diamond gives only an Appalachian regional position; no fictional building receives a real address.",
+          "source": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=116",
+            "label": "Vladimir Nabokov · Lolita · 2.4"
+          },
+          "evidenceReview": "71e357e31398708a9fbe868dc980b5c88b7d7524219cfa9855b45988b5477502"
+        },
+        "39": {
+          "category": "action",
+          "scene": "Humbert monitors his neighbours and fears that questions and confidences will expose the household's secret. The scene is set in Beardsley: its house, school, streets or campus, as established by the surrounding narrative. The diamond gives only an Appalachian regional position; no fictional building receives a real address.",
+          "source": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=118",
+            "label": "Vladimir Nabokov · Lolita · 2.5"
+          },
+          "evidenceReview": "d25edb17526df6f2ba2297f0792fdd7eee6d72399198cad843ea4aa795ac8b11"
+        },
+        "40": {
+          "category": "action",
+          "scene": "Gaston offers reassuring company; their chess games contrast with the situation at home. The scene is set in Beardsley: its house, school, streets or campus, as established by the surrounding narrative. The diamond gives only an Appalachian regional position; no fictional building receives a real address.",
+          "source": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=120",
+            "label": "Vladimir Nabokov · Lolita · 2.6"
+          },
+          "evidenceReview": "f3a607f2108d073b43848ceabe41393ddb8a202dd77cdb33d1b0df9dd6716a7a"
+        },
+        "41": {
+          "category": "action",
+          "scene": "Money becomes another means of control as Humbert searches for and takes Dolores's savings. The scene is set in Beardsley: its house, school, streets or campus, as established by the surrounding narrative. The diamond gives only an Appalachian regional position; no fictional building receives a real address.",
+          "source": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=121",
+            "label": "Vladimir Nabokov · Lolita · 2.7"
+          },
+          "evidenceReview": "a6f8755f8615620dde98063550537c9775d276f1a4d6efc92dd123a03e9c80df"
+        },
+        "42": {
+          "category": "action",
+          "scene": "Humbert restricts friendships and meetings while the town's routines create the appearance of an ordinary family. The scene is set in Beardsley: its house, school, streets or campus, as established by the surrounding narrative. The diamond gives only an Appalachian regional position; no fictional building receives a real address.",
+          "source": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=122",
+            "label": "Vladimir Nabokov · Lolita · 2.8"
+          },
+          "evidenceReview": "d1953dd78c4c4d0798eb55391fb7739b3a68bf911cd03b26851ab3920fe9bb48"
+        },
+        "43": {
+          "category": "action",
+          "scene": "Humbert describes Dolores's friends and questions Mona, whose answers deepen his suspicions. The scene is set in Beardsley: its house, school, streets or campus, as established by the surrounding narrative. The diamond gives only an Appalachian regional position; no fictional building receives a real address.",
+          "source": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=126",
+            "label": "Vladimir Nabokov · Lolita · 2.9"
+          },
+          "evidenceReview": "f67b87c1dbd13108323e4fa850b5a2c4dd3f5919a7db1b7a7b54a7080955100e"
+        },
+        "44": {
+          "category": "action",
+          "scene": "While Dolores does her homework, Humbert seeks a closeness she rejects. The scene is set in Beardsley: its house, school, streets or campus, as established by the surrounding narrative. The diamond gives only an Appalachian regional position; no fictional building receives a real address.",
+          "source": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=127",
+            "label": "Vladimir Nabokov · Lolita · 2.10"
+          },
+          "evidenceReview": "eb5b69d52b3cedfe864be693cd92a1abefca4c15d935fa298c2a605f8d7d4d0a"
+        },
+        "45": {
+          "category": "action",
+          "scene": "Pratt discusses Dolores's difficulties and secures permission for drama; Humbert then visits the classroom. The scene is set in Beardsley: its house, school, streets or campus, as established by the surrounding narrative. The diamond gives only an Appalachian regional position; no fictional building receives a real address.",
+          "source": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=128",
+            "label": "Vladimir Nabokov · Lolita · 2.11"
+          },
+          "evidenceReview": "09ccd4a05c47425c79e4fae1c5793117e87750cc264a103b8d3dcbe3cf9f75a9"
+        },
+        "46": {
+          "category": "action",
+          "scene": "Dolores's illness is followed by a disappointing party; new gifts do little to improve the relationship. The scene is set in Beardsley: its house, school, streets or campus, as established by the surrounding narrative. The diamond gives only an Appalachian regional position; no fictional building receives a real address.",
+          "source": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=131",
+            "label": "Vladimir Nabokov · Lolita · 2.12"
+          },
+          "evidenceReview": "bb33002678a079d39ec184b43e0f5f5ddd94d185ff06ca3292fa4a2adb86f8e8"
+        },
+        "47": {
+          "category": "action",
+          "scene": "Drama occupies Dolores; a smile and a question about the hotel reassure Humbert without his understanding them. The scene is set in Beardsley: its house, school, streets or campus, as established by the surrounding narrative. The diamond gives only an Appalachian regional position; no fictional building receives a real address.",
+          "source": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=132",
+            "label": "Vladimir Nabokov · Lolita · 2.13"
+          },
+          "evidenceReview": "b439bdd0c22b470a8c6a456f73aa74fded6d6d45aa6a0edb09780c7f5058c8ed"
+        },
+        "48": {
+          "category": "action",
+          "scene": "Missed piano lessons cause a quarrel; Dolores escapes by bicycle and then proposes another journey. The scene is set in Beardsley: its house, school, streets or campus, as established by the surrounding narrative. The diamond gives only an Appalachian regional position; no fictional building receives a real address.",
+          "source": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=134",
+            "label": "Vladimir Nabokov · Lolita · 2.14"
+          },
+          "evidenceReview": "abd913ef9dea17e6d72c314d76a15ce21c64a212d2753b87858390aca98da03f"
+        },
+        "49": {
+          "category": "action",
+          "scene": "Leaving Beardsley, they meet Edusa Gold, who recalls the playwright's enthusiasm for Dolores. The scene is set in Beardsley: its house, school, streets or campus, as established by the surrounding narrative. The diamond gives only an Appalachian regional position; no fictional building receives a real address.",
+          "source": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=138",
+            "label": "Vladimir Nabokov · Lolita · 2.15"
+          },
+          "evidenceReview": "98d8a1d2a6139d165e8409dad04b63d86f87d579ca0bb6a5e92e23b9eb6b3607"
+        },
+        "58": {
+          "category": "action",
+          "scene": "In Beardsley, a conversation with Riggs offers a false lead before further searches prove fruitless. The scene is set in Beardsley: its house, school, streets or campus, as established by the surrounding narrative. The diamond gives only an Appalachian regional position; no fictional building receives a real address.",
+          "source": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=168",
+            "label": "Vladimir Nabokov · Lolita · 2.24"
+          },
+          "evidenceReview": "e67b87613207ef7dfe19a8a0ca3fb647365286ac93e4027b41df160dab2a01c2"
+        },
+        "66": {
+          "category": "action",
+          "scene": "Memories of Beardsley reveal Dolores's isolation and the feelings Humbert insisted on ignoring. The scene is set in Beardsley: its house, school, streets or campus, as established by the surrounding narrative. The diamond gives only an Appalachian regional position; no fictional building receives a real address.",
+          "source": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=189",
+            "label": "Vladimir Nabokov · Lolita · 2.32"
+          },
+          "evidenceReview": "0ea3d13859e9ba8293952e9c28017ada23f1e6322dec1d6b3e8ea7928c268f40"
+        }
+      }
+    },
+    {
+      "id": "regional-kasbeam",
+      "sectionOccurrences": {
+        "50": {
+          "category": "action",
+          "scene": "In Kasbeam, Humbert has his hair cut and finally understands that the barber’s son died long ago. The town remains fictional; the Midwest position identifies no real barbershop.",
+          "source": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=139",
+            "label": "Vladimir Nabokov · Lolita · 2.16"
+          },
+          "evidenceReview": "995339ca04add95799e66ade08307fbd187f89d0168fb264480d20912083742c"
+        },
+        "51": {
+          "category": "action",
+          "scene": "The night in the Chestnut Court cabin continues the Kasbeam stop from the preceding chapter. The regional marker does not locate the fictional motel.",
+          "source": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=143",
+            "label": "Vladimir Nabokov · Lolita · 2.17"
+          },
+          "evidenceReview": "d9603fc11abb1ffa4e125d6258ef7ae619a78c77de988566929468816e657564"
+        }
+      }
+    },
+    {
+      "id": "regional-soda",
+      "sectionOccurrences": {
+        "52": {
+          "category": "action",
+          "scene": "Humbert and Dolores have breakfast in Soda and exchange sarcastic remarks. The fictional town is placed broadly between Nebraska and Wyoming, without a real restaurant address.",
+          "source": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=144",
+            "label": "Vladimir Nabokov · Lolita · 2.18"
+          },
+          "evidenceReview": "bc88322c9c432d14c8395e3d1c5f0a4fee81f899f9cf135be40d0b14a86cf055"
+        }
+      }
+    },
+    {
+      "id": "regional-wace",
+      "sectionOccurrences": {
+        "52": {
+          "category": "action",
+          "scene": "In Wace, they attend a play at the summer theatre after discovering that the cave ceremonies are over. The regional Wyoming position is not a real theatre or town identification.",
+          "source": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=144",
+            "label": "Vladimir Nabokov · Lolita · 2.18"
+          },
+          "evidenceReview": "e6ebf6d92317405d1007b7c1f6731271ff338615d74a712e62bba216bdf0716d"
+        },
+        "53": {
+          "category": "action",
+          "scene": "The Wace scenes include the post-office queue, Humbert’s search for Dolores and their quarrel. The town’s exact identity remains unresolved.",
+          "source": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=147",
+            "label": "Vladimir Nabokov · Lolita · 2.19"
+          },
+          "evidenceReview": "30672d3e0f9b480eb1a03cd6a56f3fbeda58a446e56a66d3a8afd5bc0337b20d"
+        }
+      }
+    },
+    {
+      "id": "regional-champion",
+      "sectionOccurrences": {
+        "54": {
+          "category": "action",
+          "scene": "At Champion Hotel in Colorado, Dolores plays tennis before a telephone call interrupts Humbert. Champion remains fictional; the regional position identifies no hotel or court.",
+          "source": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=153",
+            "label": "Vladimir Nabokov · Lolita · 2.20"
+          },
+          "evidenceReview": "54f7e4befcda1ac7c99e5e401e0832cef0230d778b046bde17965970a5cded69"
+        },
+        "55": {
+          "category": "action",
+          "scene": "Humbert finds Dolores playing with a dog on the hotel terrace and feels unwell. Champion is established by the preceding chapter, not repeated in this passage.",
+          "source": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=157",
+            "label": "Vladimir Nabokov · Lolita · 2.21"
+          },
+          "evidenceReview": "c630868f186caf49b2389512a02d97892316a23d0fba0e5be27171273d7f552f"
+        }
+      }
+    },
+    {
+      "id": "regional-elphinstone",
+      "sectionOccurrences": {
+        "56": {
+          "category": "action",
+          "scene": "At Elphinstone, Dolores falls ill, enters hospital and disappears. Humbert’s motel and hospital scenes are geographically placed only within the western Rockies; real-town identifications remain hypotheses.",
+          "source": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=158",
+            "label": "Vladimir Nabokov · Lolita · 2.22"
+          },
+          "evidenceReview": "7a277b826f853742e8a4de92067e59516255f40729fb98156daa64f9aec0056a"
+        },
+        "57": {
+          "category": "action",
+          "scene": "Humbert questions the Ponderosa Lodge landlady and confronts Mary after Dolores’s disappearance. These scenes belong to the Elphinstone aftermath; the false addresses in the registers remain mentions.",
+          "source": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=164",
+            "label": "Vladimir Nabokov · Lolita · 2.23"
+          },
+          "evidenceReview": "a7a3988ddc4d1eed586d802ad13cccc54b28eeeecf387b53549a7efa26c6a37a"
+        }
+      }
+    },
+    {
+      "id": "regional-coalmont",
+      "sectionOccurrences": {
+        "62": {
+          "category": "action",
+          "scene": "In Coalmont, Humbert uses a telephone booth, asks for directions and reaches the Schillers’ house. The narrator explicitly camouflages the town; the broad Midwest position identifies no real Coalmont.",
+          "source": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=178",
+            "label": "Vladimir Nabokov · Lolita · 2.28"
+          },
+          "evidenceReview": "0774cacdf5b2b6a3059ce900ed9d0cb14178c1a131273b856f16ed376d280a29"
+        },
+        "63": {
+          "category": "action",
+          "scene": "Humbert meets the pregnant Dolores at the Schillers’ home, the house reached in the preceding chapter. This is Coalmont’s present scene; Dolores’s accounts of other places are separate narrative levels.",
+          "source": {
+            "url": "https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/#p=180",
+            "label": "Vladimir Nabokov · Lolita · 2.29"
+          },
+          "evidenceReview": "09ddf12ac42917ef68b0387dba27247483dd5d146681ba8c978c5a5c1d2256cc"
+        }
+      }
+    }
+  ],
+  "coveredSettings": {
+    "36": {
+      "Hobby House": "mississippi",
+      "Little Iceberg Lake": "colorado",
+      "Poplar Shade": "utah"
+    },
+    "57": {
+      "Strada anonima dell’incontro con Mary": "regional-elphinstone"
+    },
+    "63": {
+      "Casa degli Schiller: salotto": "regional-coalmont"
+    }
+  },
+  "coreUpdates": [
+    {
+      "book_id": "lolita",
+      "id": "9:core:paris",
+      "section_id": 9,
+      "place_id": "paris",
+      "collection": "core",
+      "ordinal": 0,
+      "category": "action",
+      "scene_text": "In Paris, Valeria reveals her affair. Humbert questions her in a taxi and then meets her lover at a café; the text gives no address for these scenes.",
+      "source_id": "aa93989b6e7e86f8ac7d1100bef1cccf0bbbf2ff699b7f5d67af87a157d00202",
+      "metadata": {
+        "explicitCategory": true,
+        "narrativeReview": {
+          "id": "f143278ee5a71bb08c531d5f01e33f0212852a5b76802698cba20695d760c41a",
+          "sectionId": "1.8",
+          "placeId": "paris",
+          "category": "action",
+          "narrativeLevel": "recalled scene",
+          "reason": "La rivelazione di Valeria, il taxi e il colloquio al caffè sono azioni ambientate a Parigi, non informazioni anagrafiche.",
+          "viewerPage": 19,
+          "printedPage": 18,
+          "sourceImageSha256": "b48dd8b4adb48994b432b122c67b357e10b81390c10c28587348f7da6f54bc1b",
+          "sourceSectionSha256": "74a5a48ecc9b5a8be1ae80b118c0974c4d5b314c1ae21f8f5e4c426fbcdbe790",
+          "pdfPages": [
+            21
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      },
+      "isNew": false
+    },
+    {
+      "book_id": "lolita",
+      "id": "9:core:california",
+      "section_id": 9,
+      "place_id": "california",
+      "collection": "core",
+      "ordinal": 3,
+      "category": "action",
+      "scene_text": "A doctor’s embedded account describes Valeria and Maximovich during an experiment in California. This is the reported scene’s setting, not a visit by Humbert or an identified laboratory.",
+      "source_id": "aa93989b6e7e86f8ac7d1100bef1cccf0bbbf2ff699b7f5d67af87a157d00202",
+      "metadata": {
+        "explicitCategory": true,
+        "narrativeReview": {
+          "id": "44f4305462e1fa952375c1383336c42b3c84ba7cc548fa463589e4b0184ef41a",
+          "sectionId": "1.8",
+          "placeId": "california",
+          "category": "action",
+          "narrativeLevel": "embedded testimony",
+          "reason": "Il medico racconta ciò che ha visto nell’esperimento californiano. È una scena nel racconto intercalato, non un viaggio di Humbert.",
+          "viewerPage": 20,
+          "printedPage": 19,
+          "sourceImageSha256": "bd37ed9bdb091e765e072c25a68d3e6d7d2d2dc41cead03cf0c7199ab104de25",
+          "sourceSectionSha256": "74a5a48ecc9b5a8be1ae80b118c0974c4d5b314c1ae21f8f5e4c426fbcdbe790",
+          "pdfPages": [
+            24
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      },
+      "isNew": false
+    },
+    {
+      "book_id": "lolita",
+      "id": "21:core:arles",
+      "section_id": 21,
+      "place_id": "arles",
+      "collection": "core",
+      "ordinal": 0,
+      "category": "action",
+      "scene_text": "Humbert tells a story set in Arles: an attack, an explosion and the assailant’s escape. The city belongs to this embedded narrative, not to Humbert’s itinerary.",
+      "source_id": "08cc8b654a96924673a24cdfdad6c948540577627989bd9012d27b93ec684431",
+      "metadata": {
+        "explicitCategory": true,
+        "narrativeReview": {
+          "id": "6ac3ca5ed49d5e4d9489915eb9eba1a5288ce425beee169ad7c1cc65b030bfaa",
+          "sectionId": "1.20",
+          "placeId": "arles",
+          "category": "action",
+          "narrativeLevel": "embedded story",
+          "reason": "Il racconto intercalato narra accoltellamento, esplosione e fuga ad Arles. Non è una visita di Humbert né una ricostruzione storica verificata.",
+          "viewerPage": 57,
+          "printedPage": 56,
+          "sourceImageSha256": "c972646427d72af64aab5102cc6fee969ce21cfdddef3fd2f321d16a92f5c7b2",
+          "sourceSectionSha256": "fc89233a40e0a3b0f07885207651344b5ccbcbee047670a6894bee2c111619d3",
+          "pdfPages": [
+            75
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      },
+      "isNew": false
+    },
+    {
+      "book_id": "lolita",
+      "id": "21:core:france",
+      "section_id": 21,
+      "place_id": "france",
+      "collection": "core",
+      "ordinal": 1,
+      "category": "action",
+      "scene_text": "Humbert tells a story set in Arles: an attack, an explosion and the assailant’s escape. The city belongs to this embedded narrative, not to Humbert’s itinerary.",
+      "source_id": "08cc8b654a96924673a24cdfdad6c948540577627989bd9012d27b93ec684431",
+      "metadata": {
+        "explicitCategory": true,
+        "narrativeReview": {
+          "id": "5087a112a34062600d1dbbe3cd7dec7b188a78368890b0d000096a346792c984",
+          "sectionId": "1.20",
+          "placeId": "france",
+          "category": "action",
+          "narrativeLevel": "embedded story",
+          "reason": "L’ambientazione francese è esplicita nello stesso racconto di Arles, a livello intercalato.",
+          "viewerPage": 57,
+          "printedPage": 56,
+          "sourceImageSha256": "c972646427d72af64aab5102cc6fee969ce21cfdddef3fd2f321d16a92f5c7b2",
+          "sourceSectionSha256": "fc89233a40e0a3b0f07885207651344b5ccbcbee047670a6894bee2c111619d3",
+          "pdfPages": [
+            75
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      },
+      "isNew": false
+    },
+    {
+      "book_id": "lolita",
+      "id": "36:core:georgia",
+      "section_id": 36,
+      "place_id": "georgia",
+      "collection": "core",
+      "ordinal": 5,
+      "category": "action",
+      "scene_text": "The boat excursion takes place off the Georgia coast; the island is only seen from the water. The state outline provides geographical context; it does not trace the boat trip or imply a landing.",
+      "source_id": "fad7416163896820025d0f80620bea5e21521b52979e4dbbbaa2a53af2ee6931",
+      "metadata": {
+        "explicitCategory": true,
+        "narrativeReview": {
+          "id": "515a48a5a9a48f11a800f3f8421dc4aca4a32835bb1e3c0017ab7c6d5359b6ab",
+          "sectionId": "2.2",
+          "placeId": "georgia",
+          "category": "action",
+          "narrativeLevel": "recalled scene",
+          "reason": "La scena avviene sulla barca al largo della Georgia, non sull’isola vista a distanza.",
+          "viewerPage": 103,
+          "printedPage": 102,
+          "sourceImageSha256": "9c53258dea758a4cbfb02f5cd37d7303e28b404de2a001eade55733b946f939a",
+          "sourceSectionSha256": "d388d4bdd0c0ffa859493075c17d5bfc0b17d8aab67dd23f798fceae58b35052",
+          "pdfPages": [
+            139
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      },
+      "isNew": false
+    },
+    {
+      "book_id": "lolita",
+      "id": "36:core:mississippi",
+      "section_id": 36,
+      "place_id": "mississippi",
+      "collection": "core",
+      "ordinal": 6,
+      "category": "action",
+      "scene_text": "At a Mississippi resort museum, Humbert discovers a photograph of the Hotel Mirana and Dolores answers him. The state is established, but the museum’s exact site is unresolved.",
+      "source_id": "fad7416163896820025d0f80620bea5e21521b52979e4dbbbaa2a53af2ee6931",
+      "metadata": {
+        "explicitCategory": true,
+        "narrativeReview": {
+          "id": "fdef5e5f1f0e5f5a7bd2dba7223d627edccd3efa81460e7d0121b6db0a2c4020",
+          "sectionId": "2.2",
+          "placeId": "mississippi",
+          "category": "action",
+          "narrativeLevel": "recalled scene",
+          "reason": "La scoperta della fotografia del Mirana e la replica di Dolores sono eventi nel museo del Mississippi, il cui nome/località non sono identificati.",
+          "viewerPage": 103,
+          "printedPage": 102,
+          "sourceImageSha256": "9c53258dea758a4cbfb02f5cd37d7303e28b404de2a001eade55733b946f939a",
+          "sourceSectionSha256": "d388d4bdd0c0ffa859493075c17d5bfc0b17d8aab67dd23f798fceae58b35052",
+          "pdfPages": [
+            139
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      },
+      "isNew": false
+    },
+    {
+      "book_id": "lolita",
+      "id": "36:core:arkansas",
+      "section_id": 36,
+      "place_id": "arkansas",
+      "collection": "core",
+      "ordinal": 3,
+      "category": "action",
+      "scene_text": "In an Arkansas forest, Humbert treats an insect bite on Dolores’s shoulder. The forest is unnamed; the outline represents the state, not a precise site.",
+      "source_id": "fad7416163896820025d0f80620bea5e21521b52979e4dbbbaa2a53af2ee6931",
+      "metadata": {
+        "explicitCategory": true,
+        "narrativeReview": {
+          "id": "49bffd516c35e0faab51d372448fa9dc2448c0860ba3a5caa24d59396db26874",
+          "sectionId": "2.2",
+          "placeId": "arkansas",
+          "category": "action",
+          "narrativeLevel": "recalled scene",
+          "reason": "La puntura e il trattamento della spalla sono un episodio effettivo nel bosco, non la sola parola Arkansas in un elenco.",
+          "viewerPage": 103,
+          "printedPage": 102,
+          "sourceImageSha256": "9c53258dea758a4cbfb02f5cd37d7303e28b404de2a001eade55733b946f939a",
+          "sourceSectionSha256": "d388d4bdd0c0ffa859493075c17d5bfc0b17d8aab67dd23f798fceae58b35052",
+          "pdfPages": [
+            139
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      },
+      "isNew": false
+    },
+    {
+      "book_id": "lolita",
+      "id": "36:core:colorado",
+      "section_id": 36,
+      "place_id": "colorado",
+      "collection": "core",
+      "ordinal": 7,
+      "category": "action",
+      "scene_text": "At Little Iceberg Lake, described only as somewhere in Colorado, Dolores slides on snow and exchanges snowballs with other youngsters. The outline shows the state, not an identified lake.",
+      "source_id": "fad7416163896820025d0f80620bea5e21521b52979e4dbbbaa2a53af2ee6931",
+      "metadata": {
+        "explicitCategory": true,
+        "narrativeReview": {
+          "id": "f69d9c3e5139a89e9f5b6f44ef8317e87c260b4550452a17882f2bb5d255b0e8",
+          "sectionId": "2.2",
+          "placeId": "colorado",
+          "category": "action",
+          "narrativeLevel": "recalled scene",
+          "reason": "Il testo dice somewhere in Colorado; scivolata e battaglia di neve narrate provano action, non l’identità di un lago omonimo.",
+          "viewerPage": 104,
+          "printedPage": 103,
+          "sourceImageSha256": "94620498b44dccb11f31c84bda6d7fae8430dd07e68c66e1e06b57eccc5bf457",
+          "sourceSectionSha256": "d388d4bdd0c0ffa859493075c17d5bfc0b17d8aab67dd23f798fceae58b35052",
+          "pdfPages": [
+            140
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      },
+      "isNew": false
+    },
+    {
+      "book_id": "lolita",
+      "id": "36:core:russian-gulch",
+      "section_id": 36,
+      "place_id": "russian-gulch",
+      "collection": "core",
+      "ordinal": 8,
+      "category": "action",
+      "scene_text": "The journey includes the observed episode of a man having a seizure in Russian Gulch State Park. This brief vignette narrates an event; the point represents the park, not the spot of the episode.",
+      "source_id": "fad7416163896820025d0f80620bea5e21521b52979e4dbbbaa2a53af2ee6931",
+      "metadata": {
+        "explicitCategory": true,
+        "narrativeReview": {
+          "id": "840c9c57d0c5e9de85dcaf40dc70e2b88a82c5b75ee1577867ab1686ebc5dfab",
+          "sectionId": "2.2",
+          "placeId": "russian-gulch",
+          "category": "action",
+          "narrativeLevel": "recalled scene",
+          "reason": "Una vignetta nominale narra un evento osservato con attore e ambientazione espliciti; la lunghezza non ne annulla la funzione di scena.",
+          "viewerPage": 104,
+          "printedPage": 103,
+          "sourceImageSha256": "94620498b44dccb11f31c84bda6d7fae8430dd07e68c66e1e06b57eccc5bf457",
+          "sourceSectionSha256": "d388d4bdd0c0ffa859493075c17d5bfc0b17d8aab67dd23f798fceae58b35052",
+          "pdfPages": [
+            141
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      },
+      "isNew": false
+    },
+    {
+      "book_id": "lolita",
+      "id": "36:core:california",
+      "section_id": 36,
+      "place_id": "california",
+      "collection": "core",
+      "ordinal": 0,
+      "category": "action",
+      "scene_text": "In California, Dolores takes tennis lessons: Humbert describes the coach returning a shot during a lesson. The state outline does not identify a court or club.",
+      "source_id": "fad7416163896820025d0f80620bea5e21521b52979e4dbbbaa2a53af2ee6931",
+      "metadata": {
+        "explicitCategory": true,
+        "narrativeReview": {
+          "id": "5190f881807d65dc0c7d70956788dc83f278f9d97ee26a315ca419431d8a00c4",
+          "sectionId": "2.2",
+          "placeId": "california",
+          "category": "action",
+          "narrativeLevel": "recalled scene",
+          "reason": "La lezione descrive il gesto del maestro sul campo: azione abituale concretamente narrata, non sola notizia di iscrizione.",
+          "viewerPage": 107,
+          "printedPage": 106,
+          "sourceImageSha256": "dcfca1edd3194dbebf2a8ebcb46000e9022726a3b2bd31f2acfeca27809a2668",
+          "sourceSectionSha256": "d388d4bdd0c0ffa859493075c17d5bfc0b17d8aab67dd23f798fceae58b35052",
+          "pdfPages": [
+            145
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      },
+      "isNew": false
+    },
+    {
+      "book_id": "lolita",
+      "id": "36:core:utah",
+      "section_id": 36,
+      "place_id": "utah",
+      "collection": "core",
+      "ordinal": 11,
+      "category": "action",
+      "scene_text": "At the Poplar Shade motel in Utah, Dolores questions their life in cabins. This is an enacted exchange within the travel montage; the motel has no verified real address.",
+      "source_id": "fad7416163896820025d0f80620bea5e21521b52979e4dbbbaa2a53af2ee6931",
+      "metadata": {
+        "explicitCategory": true,
+        "narrativeReview": {
+          "id": "93b2b16d2640a6c09eed822bae160eb184bb575155dbb736c08f36714d511489",
+          "sectionId": "2.2",
+          "placeId": "utah",
+          "category": "action",
+          "narrativeLevel": "recalled scene",
+          "reason": "Il soggiorno al motel contiene la domanda di Dolores sulla vita insieme: scena narrata dentro il riepilogo dei litigi.",
+          "viewerPage": 105,
+          "printedPage": 104,
+          "sourceImageSha256": "e0ba15588f53ecfde575edb18701ab2f03b3b4c1491505e36552e314bace4233",
+          "sourceSectionSha256": "d388d4bdd0c0ffa859493075c17d5bfc0b17d8aab67dd23f798fceae58b35052",
+          "pdfPages": [
+            141
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      },
+      "isNew": false
+    },
+    {
+      "book_id": "lolita",
+      "id": "37:core:california",
+      "section_id": 37,
+      "place_id": "california",
+      "collection": "core",
+      "ordinal": 4,
+      "category": "action",
+      "scene_text": "The chapter recalls an episode on a California beach. The state is explicit; the beach and its cave remain unidentified, so the map uses a state outline.",
+      "source_id": "f8a12cd9eeb1325d8f7b9e1444884bcf84360887be6cff66bff4ac3f7a87ffd8",
+      "metadata": {
+        "explicitCategory": true,
+        "narrativeReview": {
+          "id": "0f307b595116da25910fe6ce7c2f311c48343635a3b839b3bf0a1639d8073aaf",
+          "sectionId": "2.3",
+          "placeId": "california",
+          "category": "action",
+          "narrativeLevel": "recalled scene",
+          "reason": "L’episodio sulla spiaggia californiana è narrato, ma la spiaggia non ha nome; il Pacifico non viene promosso come scena distinta.",
+          "viewerPage": 111,
+          "printedPage": 110,
+          "sourceImageSha256": "2be788d491561723436ae576b33b76904ee3e236fb8dbd5288cfdf9db28e3a33",
+          "sourceSectionSha256": "843216895d5433783fd135eb9c894eff9393aafaa94a70702b001e09f0eafc7e",
+          "pdfPages": [
+            150
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      },
+      "isNew": true
+    },
+    {
+      "book_id": "lolita",
+      "id": "54:core:colorado",
+      "section_id": 54,
+      "place_id": "colorado",
+      "collection": "core",
+      "ordinal": 2,
+      "category": "action",
+      "scene_text": "At Champion Hotel in Colorado, Dolores plays tennis before a telephone call interrupts Humbert. Champion remains fictional; the regional position identifies no hotel or court.",
+      "source_id": "d69602492d89493def31a5199c0ebbc3179bc3572e23e451d41037ff5450eb63",
+      "metadata": {
+        "explicitCategory": true,
+        "narrativeReview": {
+          "id": "f24e5f03dfaf27466deb3a2ebcb36f333434d810fd7cb99b03ad66e59acab528",
+          "sectionId": "2.20",
+          "placeId": "colorado",
+          "category": "action",
+          "narrativeLevel": "memoir scene",
+          "reason": "Lo Stato è esplicito nella scena di tennis; distinto dalla città fittizia e dalle precedenti lezioni californiane.",
+          "viewerPage": 155,
+          "printedPage": 154,
+          "sourceImageSha256": "4ce5070bc0b07247271b6d73af79550b216a3527b76da21234a4e01cfa45e39d",
+          "sourceSectionSha256": "195c1d08c77fe399579c69d6d895e886a2a0de7a4071b4815dfa3a8a3610f2f6",
+          "pdfPages": [
+            213
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      },
+      "isNew": false
+    },
+    {
+      "book_id": "lolita",
+      "id": "61:core:paris",
+      "section_id": 61,
+      "place_id": "paris",
+      "collection": "core",
+      "ordinal": 0,
+      "category": "action",
+      "scene_text": "Humbert recalls a woman speaking to him at a tea in Paris. This remembered conversation makes Paris an action setting here; it is distinct from the present-day letter scene.",
+      "source_id": "9a1dd3c23095f8b546683edaf8aee55fdd6f339e4ded5a0c2f17027ba7b81a81",
+      "metadata": {
+        "explicitCategory": true,
+        "narrativeReview": {
+          "id": "06dbc1ccb5b7854e7f9bd5e25b2a8fcc4e2003c592d123515c55eae4422c0f6c",
+          "sectionId": "2.27",
+          "placeId": "paris",
+          "category": "action",
+          "narrativeLevel": "recalled scene",
+          "reason": "Dialogo ricordato con una donna durante un tè a Parigi, distinto dalla scena presente della posta.",
+          "viewerPage": 176,
+          "printedPage": 175,
+          "sourceImageSha256": "147340df58933ccc7a93531e28998393acbd0bab2d4f55d62b229fa8bafbb5f5",
+          "sourceSectionSha256": "676584351e988d2768eab220be30e04deb80ba6444d97d56143e62d155809cb3",
+          "pdfPages": [
+            242
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      },
+      "isNew": false
+    },
+    {
+      "book_id": "lolita",
+      "id": "61:core:new-york",
+      "section_id": 61,
+      "place_id": "new-york",
+      "collection": "core",
+      "ordinal": 6,
+      "category": "action",
+      "scene_text": "Humbert receives the letters from Farlow and Dolores at his New York flat. The city is established in the preceding chapter; no street number is given.",
+      "source_id": "9a1dd3c23095f8b546683edaf8aee55fdd6f339e4ded5a0c2f17027ba7b81a81",
+      "metadata": {
+        "explicitCategory": true,
+        "narrativeReview": {
+          "id": "11767ff099d38c21e0e841e0fade8b8f6e5c86044374c1413f3d58c39b601d16",
+          "sectionId": "2.27",
+          "placeId": "new-york",
+          "category": "action",
+          "narrativeLevel": "memoir scene",
+          "reason": "Ricezione e lettura della posta nell’appartamento: il contesto di New York/Central Park West è stabilito da II.26, senza inventare un numero civico.",
+          "viewerPage": 176,
+          "printedPage": 175,
+          "sourceImageSha256": "147340df58933ccc7a93531e28998393acbd0bab2d4f55d62b229fa8bafbb5f5",
+          "sourceSectionSha256": "676584351e988d2768eab220be30e04deb80ba6444d97d56143e62d155809cb3",
+          "pdfPages": [
+            241
+          ],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      },
+      "isNew": true
+    },
+    {
+      "book_id": "lolita",
+      "id": "71:core:paris",
+      "section_id": 71,
+      "place_id": "paris",
+      "collection": "core",
+      "ordinal": 0,
+      "category": "action",
+      "scene_text": "In the afterword, Nabokov recalls reading the early Russian prototype to friends in wartime Paris. This is an autobiographical scene, separate from Humbert’s fictional journeys.",
+      "source_id": "b8ca7dc90fdf017b44330a6812d4402f0e166acfcd3c7159ea7a2855371509ae",
+      "metadata": {
+        "explicitCategory": true,
+        "narrativeReview": {
+          "id": "50e5c2963e45e15e227bd8987a2b0dce1abc392fe657cc08cd94bf4a938ad353",
+          "sectionId": "afterword",
+          "placeId": "paris",
+          "category": "action",
+          "narrativeLevel": "authorial autobiography",
+          "reason": "Nabokov ricorda la lettura del prototipo agli amici a Parigi: scena autobiografica, non viaggio di Humbert né sola cronologia editoriale.",
+          "viewerPage": 208,
+          "printedPage": 207,
+          "sourceImageSha256": "c90fda62c56eefeec5b2300e86b4bdf3aeedc6789a26269aa00b9b0a9038397c",
+          "sourceSectionSha256": "e2669e65c5570edec01df17b88e95849665bb749333752eef19d238eaa8d0160",
+          "pdfPages": [],
+          "pdfSha256": "9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee",
+          "publicQuotationStatus": "pending-edition-and-individual-aggregate-rights-review"
+        }
+      },
+      "isNew": false
+    }
+  ],
+  "descriptionUpdates": [
+    {
+      "placeId": "georgia",
+      "metadata": {
+        "regionalOutline": {
+          "paths": [
+            [
+              [
+                -81.0954,
+                31.521
+              ],
+              [
+                -81.1908,
+                31.3999
+              ],
+              [
+                -81.1877,
+                31.2463
+              ],
+              [
+                -81.2343,
+                31.1703
+              ],
+              [
+                -81.2964,
+                31.1519
+              ],
+              [
+                -81.2902,
+                31.0935
+              ],
+              [
+                -81.3534,
+                31.0371
+              ],
+              [
+                -81.3048,
+                30.9708
+              ],
+              [
+                -81.4005,
+                30.7664
+              ],
+              [
+                -81.347,
+                30.7124
+              ],
+              [
+                -81.6099,
+                30.7159
+              ],
+              [
+                -81.9498,
+                30.8278
+              ],
+              [
+                -81.9736,
+                30.7787
+              ],
+              [
+                -82.0229,
+                30.7877
+              ],
+              [
+                -82.0455,
+                30.7279
+              ],
+              [
+                -82.049,
+                30.6553
+              ],
+              [
+                -82.0054,
+                30.5636
+              ],
+              [
+                -82.0372,
+                30.372
+              ],
+              [
+                -82.0662,
+                30.3558
+              ],
+              [
+                -82.1928,
+                30.3791
+              ],
+              [
+                -82.2012,
+                30.4851
+              ],
+              [
+                -82.2404,
+                30.5378
+              ],
+              [
+                -82.2147,
+                30.5686
+              ],
+              [
+                -84.8647,
+                30.7115
+              ],
+              [
+                -84.9201,
+                30.766
+              ],
+              [
+                -84.9344,
+                30.8836
+              ],
+              [
+                -85.0057,
+                30.9759
+              ],
+              [
+                -85.0356,
+                31.1082
+              ],
+              [
+                -85.1075,
+                31.1865
+              ],
+              [
+                -85.1146,
+                31.2773
+              ],
+              [
+                -85.0414,
+                31.5425
+              ],
+              [
+                -85.1419,
+                31.782
+              ],
+              [
+                -85.1341,
+                31.8922
+              ],
+              [
+                -85.0488,
+                32.0217
+              ],
+              [
+                -85.0619,
+                32.1329
+              ],
+              [
+                -84.8882,
+                32.2597
+              ],
+              [
+                -85.0064,
+                32.3268
+              ],
+              [
+                -84.963,
+                32.4242
+              ],
+              [
+                -85.1045,
+                32.641
+              ],
+              [
+                -85.1133,
+                32.7358
+              ],
+              [
+                -85.143,
+                32.7599
+              ],
+              [
+                -85.1223,
+                32.7744
+              ],
+              [
+                -85.1844,
+                32.8613
+              ],
+              [
+                -85.6052,
+                34.9847
+              ],
+              [
+                -83.1034,
+                34.9976
+              ],
+              [
+                -83.1118,
+                34.935
+              ],
+              [
+                -83.1569,
+                34.9308
+              ],
+              [
+                -83.3064,
+                34.8157
+              ],
+              [
+                -83.3534,
+                34.7284
+              ],
+              [
+                -83.342,
+                34.6818
+              ],
+              [
+                -83.2326,
+                34.6116
+              ],
+              [
+                -83.1597,
+                34.6033
+              ],
+              [
+                -83.0346,
+                34.4836
+              ],
+              [
+                -82.9016,
+                34.4868
+              ],
+              [
+                -82.8588,
+                34.4552
+              ],
+              [
+                -82.8345,
+                34.3652
+              ],
+              [
+                -82.7468,
+                34.2666
+              ],
+              [
+                -82.7175,
+                34.1505
+              ],
+              [
+                -82.6424,
+                34.0933
+              ],
+              [
+                -82.5568,
+                33.9453
+              ],
+              [
+                -82.3245,
+                33.82
+              ],
+              [
+                -82.2475,
+                33.7526
+              ],
+              [
+                -82.1862,
+                33.6209
+              ],
+              [
+                -82.0463,
+                33.5638
+              ],
+              [
+                -81.9859,
+                33.4865
+              ],
+              [
+                -81.9263,
+                33.4629
+              ],
+              [
+                -81.9097,
+                33.412
+              ],
+              [
+                -81.9452,
+                33.4075
+              ],
+              [
+                -81.9397,
+                33.3449
+              ],
+              [
+                -81.8473,
+                33.3068
+              ],
+              [
+                -81.8632,
+                33.2888
+              ],
+              [
+                -81.8283,
+                33.263
+              ],
+              [
+                -81.8521,
+                33.2473
+              ],
+              [
+                -81.7689,
+                33.2174
+              ],
+              [
+                -81.7521,
+                33.1485
+              ],
+              [
+                -81.492,
+                33.0091
+              ],
+              [
+                -81.5024,
+                32.9354
+              ],
+              [
+                -81.418,
+                32.8182
+              ],
+              [
+                -81.4275,
+                32.7019
+              ],
+              [
+                -81.393,
+                32.6515
+              ],
+              [
+                -81.4187,
+                32.6294
+              ],
+              [
+                -81.3668,
+                32.5769
+              ],
+              [
+                -81.2806,
+                32.556
+              ],
+              [
+                -81.1871,
+                32.4641
+              ],
+              [
+                -81.2054,
+                32.4233
+              ],
+              [
+                -81.16,
+                32.3405
+              ],
+              [
+                -81.1285,
+                32.3384
+              ],
+              [
+                -81.1196,
+                32.2868
+              ],
+              [
+                -81.1566,
+                32.2433
+              ],
+              [
+                -81.114,
+                32.1957
+              ],
+              [
+                -81.1154,
+                32.1147
+              ],
+              [
+                -81.0381,
+                32.0837
+              ],
+              [
+                -81.0043,
+                32.1024
+              ],
+              [
+                -80.9251,
+                32.0419
+              ],
+              [
+                -80.8228,
+                32.0342
+              ],
+              [
+                -80.783,
+                31.996
+              ],
+              [
+                -81.0138,
+                31.7286
+              ],
+              [
+                -81.0566,
+                31.7149
+              ],
+              [
+                -81.0954,
+                31.521
+              ]
+            ]
+          ],
+          "label": "Georgia",
+          "labelAnchor": [
+            -83.1034,
+            34.9976
+          ],
+          "sourceVintage": 2020,
+          "generalizationDegrees": 0.02,
+          "scope": "documented-state-not-exact-scene",
+          "confidence": "state-supported; exact-site-unresolved"
+        }
+      },
+      "note": "The outline indicates the state established for the narrated scenes, not the position of a court, beach, lake or laboratory. It is an area of geographical reference, not a reconstructed route or a probability distribution.",
+      "method": "US Census 2020 state boundary, generalized to 0.02 degrees. Narrative precision is evaluated separately for each source chapter; internal legacy coordinates do not locate a scene and are not displayed for this outline.",
+      "positionSourceId": "f184d7bf89cb384b1a22ebd24f20af2d40a9fd4e45780f5329604f1a3ae99d91"
+    },
+    {
+      "placeId": "utah",
+      "metadata": {
+        "regionalOutline": {
+          "paths": [
+            [
+              [
+                -111.5078,
+                41.9996
+              ],
+              [
+                -111.0467,
+                42.0017
+              ],
+              [
+                -111.0468,
+                40.9979
+              ],
+              [
+                -109.05,
+                41.0007
+              ],
+              [
+                -109.0452,
+                36.999
+              ],
+              [
+                -114.0501,
+                37.0002
+              ],
+              [
+                -114.0415,
+                41.9939
+              ],
+              [
+                -111.5078,
+                41.9996
+              ]
+            ]
+          ],
+          "label": "Utah",
+          "labelAnchor": [
+            -111.0467,
+            42.0017
+          ],
+          "sourceVintage": 2020,
+          "generalizationDegrees": 0.02,
+          "scope": "documented-state-not-exact-scene",
+          "confidence": "state-supported; exact-site-unresolved"
+        }
+      },
+      "note": "The outline indicates the state established for the narrated scenes, not the position of a court, beach, lake or laboratory. It is an area of geographical reference, not a reconstructed route or a probability distribution.",
+      "method": "US Census 2020 state boundary, generalized to 0.02 degrees. Narrative precision is evaluated separately for each source chapter; internal legacy coordinates do not locate a scene and are not displayed for this outline.",
+      "positionSourceId": "f184d7bf89cb384b1a22ebd24f20af2d40a9fd4e45780f5329604f1a3ae99d91"
+    },
+    {
+      "placeId": "colorado",
+      "metadata": {
+        "regionalOutline": {
+          "paths": [
+            [
+              [
+                -105.155,
+                36.9953
+              ],
+              [
+                -109.0452,
+                36.999
+              ],
+              [
+                -109.05,
+                41.0007
+              ],
+              [
+                -102.0517,
+                41.0024
+              ],
+              [
+                -102.0421,
+                36.993
+              ],
+              [
+                -105.155,
+                36.9953
+              ]
+            ]
+          ],
+          "label": "Colorado",
+          "labelAnchor": [
+            -102.0517,
+            41.0024
+          ],
+          "sourceVintage": 2020,
+          "generalizationDegrees": 0.02,
+          "scope": "documented-state-not-exact-scene",
+          "confidence": "state-supported; exact-site-unresolved"
+        }
+      },
+      "note": "The outline indicates the state established for the narrated scenes, not the position of a court, beach, lake or laboratory. It is an area of geographical reference, not a reconstructed route or a probability distribution.",
+      "method": "US Census 2020 state boundary, generalized to 0.02 degrees. Narrative precision is evaluated separately for each source chapter; internal legacy coordinates do not locate a scene and are not displayed for this outline.",
+      "positionSourceId": "f184d7bf89cb384b1a22ebd24f20af2d40a9fd4e45780f5329604f1a3ae99d91"
+    },
+    {
+      "placeId": "arkansas",
+      "metadata": {
+        "regionalOutline": {
+          "paths": [
+            [
+              [
+                -90.9558,
+                34.1187
+              ],
+              [
+                -90.8728,
+                34.0879
+              ],
+              [
+                -90.8906,
+                34.0285
+              ],
+              [
+                -90.9882,
+                34.0192
+              ],
+              [
+                -90.976,
+                33.9608
+              ],
+              [
+                -91.0189,
+                34.0032
+              ],
+              [
+                -91.0905,
+                33.9914
+              ],
+              [
+                -91.0851,
+                33.9567
+              ],
+              [
+                -91.0111,
+                33.9353
+              ],
+              [
+                -91.073,
+                33.8588
+              ],
+              [
+                -90.9909,
+                33.7774
+              ],
+              [
+                -91.145,
+                33.7681
+              ],
+              [
+                -91.1298,
+                33.712
+              ],
+              [
+                -91.0611,
+                33.7154
+              ],
+              [
+                -91.0337,
+                33.6738
+              ],
+              [
+                -91.0931,
+                33.6582
+              ],
+              [
+                -91.1604,
+                33.7066
+              ],
+              [
+                -91.2304,
+                33.6822
+              ],
+              [
+                -91.1287,
+                33.6068
+              ],
+              [
+                -91.2334,
+                33.5627
+              ],
+              [
+                -91.1825,
+                33.4998
+              ],
+              [
+                -91.2357,
+                33.4394
+              ],
+              [
+                -91.1772,
+                33.4439
+              ],
+              [
+                -91.1703,
+                33.4979
+              ],
+              [
+                -91.1344,
+                33.4832
+              ],
+              [
+                -91.1319,
+                33.4303
+              ],
+              [
+                -91.2093,
+                33.4065
+              ],
+              [
+                -91.1481,
+                33.3788
+              ],
+              [
+                -91.0869,
+                33.4514
+              ],
+              [
+                -91.0581,
+                33.4469
+              ],
+              [
+                -91.1422,
+                33.349
+              ],
+              [
+                -91.1058,
+                33.2415
+              ],
+              [
+                -91.078,
+                33.2836
+              ],
+              [
+                -91.0439,
+                33.2758
+              ],
+              [
+                -91.1003,
+                33.2194
+              ],
+              [
+                -91.086,
+                33.1363
+              ],
+              [
+                -91.2018,
+                33.124
+              ],
+              [
+                -91.1207,
+                33.0577
+              ],
+              [
+                -91.1659,
+                33.0043
+              ],
+              [
+                -94.043,
+                33.0193
+              ],
+              [
+                -94.0433,
+                33.5516
+              ],
+              [
+                -94.0738,
+                33.5847
+              ],
+              [
+                -94.1287,
+                33.5509
+              ],
+              [
+                -94.1838,
+                33.5947
+              ],
+              [
+                -94.2173,
+                33.5802
+              ],
+              [
+                -94.1954,
+                33.5552
+              ],
+              [
+                -94.2507,
+                33.5571
+              ],
+              [
+                -94.2425,
+                33.5897
+              ],
+              [
+                -94.3817,
+                33.544
+              ],
+              [
+                -94.4015,
+                33.5605
+              ],
+              [
+                -94.3806,
+                33.5819
+              ],
+              [
+                -94.4125,
+                33.569
+              ],
+              [
+                -94.4717,
+                33.6026
+              ],
+              [
+                -94.4483,
+                33.6424
+              ],
+              [
+                -94.4859,
+                33.6378
+              ],
+              [
+                -94.431,
+                35.3932
+              ],
+              [
+                -94.6179,
+                36.4995
+              ],
+              [
+                -90.1523,
+                36.498
+              ],
+              [
+                -90.1385,
+                36.4137
+              ],
+              [
+                -90.0635,
+                36.3841
+              ],
+              [
+                -90.0642,
+                36.3025
+              ],
+              [
+                -90.3196,
+                36.0896
+              ],
+              [
+                -90.3779,
+                35.9957
+              ],
+              [
+                -89.7331,
+                36.0008
+              ],
+              [
+                -89.6436,
+                35.8897
+              ],
+              [
+                -89.6691,
+                35.8745
+              ],
+              [
+                -89.7445,
+                35.9107
+              ],
+              [
+                -89.7729,
+                35.8656
+              ],
+              [
+                -89.6986,
+                35.8187
+              ],
+              [
+                -89.7817,
+                35.8052
+              ],
+              [
+                -89.8255,
+                35.7452
+              ],
+              [
+                -89.9075,
+                35.7593
+              ],
+              [
+                -89.9578,
+                35.7274
+              ],
+              [
+                -89.9255,
+                35.6582
+              ],
+              [
+                -89.8513,
+                35.6576
+              ],
+              [
+                -89.9576,
+                35.5885
+              ],
+              [
+                -89.9046,
+                35.5193
+              ],
+              [
+                -90.0313,
+                35.5543
+              ],
+              [
+                -90.0483,
+                35.5042
+              ],
+              [
+                -90.0027,
+                35.43
+              ],
+              [
+                -90.0543,
+                35.3893
+              ],
+              [
+                -90.0683,
+                35.4671
+              ],
+              [
+                -90.1075,
+                35.477
+              ],
+              [
+                -90.1793,
+                35.3853
+              ],
+              [
+                -90.1357,
+                35.3767
+              ],
+              [
+                -90.1293,
+                35.4138
+              ],
+              [
+                -90.0799,
+                35.3843
+              ],
+              [
+                -90.11,
+                35.305
+              ],
+              [
+                -90.1689,
+                35.2797
+              ],
+              [
+                -90.0911,
+                35.245
+              ],
+              [
+                -90.0758,
+                35.2131
+              ],
+              [
+                -90.1172,
+                35.1883
+              ],
+              [
+                -90.0647,
+                35.1409
+              ],
+              [
+                -90.1679,
+                35.1211
+              ],
+              [
+                -90.207,
+                35.0258
+              ],
+              [
+                -90.2966,
+                35.0387
+              ],
+              [
+                -90.3078,
+                34.9929
+              ],
+              [
+                -90.2413,
+                34.919
+              ],
+              [
+                -90.3177,
+                34.8711
+              ],
+              [
+                -90.3085,
+                34.8455
+              ],
+              [
+                -90.4387,
+                34.8252
+              ],
+              [
+                -90.4366,
+                34.8827
+              ],
+              [
+                -90.4803,
+                34.8824
+              ],
+              [
+                -90.4482,
+                34.7401
+              ],
+              [
+                -90.5167,
+                34.7272
+              ],
+              [
+                -90.4928,
+                34.7725
+              ],
+              [
+                -90.5442,
+                34.7917
+              ],
+              [
+                -90.5719,
+                34.7128
+              ],
+              [
+                -90.4629,
+                34.6838
+              ],
+              [
+                -90.5342,
+                34.6275
+              ],
+              [
+                -90.5419,
+                34.6839
+              ],
+              [
+                -90.5701,
+                34.6934
+              ],
+              [
+                -90.5916,
+                34.621
+              ],
+              [
+                -90.5396,
+                34.5539
+              ],
+              [
+                -90.5927,
+                34.4906
+              ],
+              [
+                -90.5843,
+                34.4122
+              ],
+              [
+                -90.6571,
+                34.3774
+              ],
+              [
+                -90.6693,
+                34.3131
+              ],
+              [
+                -90.6931,
+                34.3226
+              ],
+              [
+                -90.6763,
+                34.3713
+              ],
+              [
+                -90.7644,
+                34.3637
+              ],
+              [
+                -90.738,
+                34.2893
+              ],
+              [
+                -90.8318,
+                34.2769
+              ],
+              [
+                -90.8471,
+                34.2061
+              ],
+              [
+                -90.9287,
+                34.2447
+              ],
+              [
+                -90.9144,
+                34.1957
+              ],
+              [
+                -90.8076,
+                34.1618
+              ],
+              [
+                -90.8453,
+                34.1369
+              ],
+              [
+                -90.91,
+                34.1655
+              ],
+              [
+                -90.9558,
+                34.1187
+              ]
+            ]
+          ],
+          "label": "Arkansas",
+          "labelAnchor": [
+            -94.6179,
+            36.4995
+          ],
+          "sourceVintage": 2020,
+          "generalizationDegrees": 0.02,
+          "scope": "documented-state-not-exact-scene",
+          "confidence": "state-supported; exact-site-unresolved"
+        }
+      },
+      "note": "The outline indicates the state established for the narrated scenes, not the position of a court, beach, lake or laboratory. It is an area of geographical reference, not a reconstructed route or a probability distribution.",
+      "method": "US Census 2020 state boundary, generalized to 0.02 degrees. Narrative precision is evaluated separately for each source chapter; internal legacy coordinates do not locate a scene and are not displayed for this outline.",
+      "positionSourceId": "f184d7bf89cb384b1a22ebd24f20af2d40a9fd4e45780f5329604f1a3ae99d91"
+    },
+    {
+      "placeId": "mississippi",
+      "metadata": {
+        "regionalOutline": {
+          "paths": [
+            [
+              [
+                -88.4314,
+                32.2277
+              ],
+              [
+                -88.4732,
+                31.8939
+              ],
+              [
+                -88.3852,
+                30.1581
+              ],
+              [
+                -88.4613,
+                30.1467
+              ],
+              [
+                -88.8214,
+                30.2174
+              ],
+              [
+                -88.9003,
+                30.17
+              ],
+              [
+                -88.889,
+                30.1398
+              ],
+              [
+                -89.0965,
+                30.1658
+              ],
+              [
+                -89.1837,
+                30.2122
+              ],
+              [
+                -89.495,
+                30.1608
+              ],
+              [
+                -89.5348,
+                30.1954
+              ],
+              [
+                -89.5768,
+                30.1832
+              ],
+              [
+                -89.6472,
+                30.2894
+              ],
+              [
+                -89.6296,
+                30.339
+              ],
+              [
+                -89.6838,
+                30.4058
+              ],
+              [
+                -89.6834,
+                30.4515
+              ],
+              [
+                -89.8039,
+                30.5493
+              ],
+              [
+                -89.814,
+                30.6382
+              ],
+              [
+                -89.8522,
+                30.6617
+              ],
+              [
+                -89.8161,
+                30.7389
+              ],
+              [
+                -89.8351,
+                30.7711
+              ],
+              [
+                -89.7815,
+                30.8189
+              ],
+              [
+                -89.7317,
+                31.0048
+              ],
+              [
+                -91.6369,
+                30.9994
+              ],
+              [
+                -91.5599,
+                31.0541
+              ],
+              [
+                -91.6269,
+                31.1188
+              ],
+              [
+                -91.5889,
+                31.189
+              ],
+              [
+                -91.654,
+                31.2558
+              ],
+              [
+                -91.5156,
+                31.2782
+              ],
+              [
+                -91.5087,
+                31.3151
+              ],
+              [
+                -91.5763,
+                31.4105
+              ],
+              [
+                -91.5434,
+                31.4326
+              ],
+              [
+                -91.5218,
+                31.3752
+              ],
+              [
+                -91.4748,
+                31.3686
+              ],
+              [
+                -91.5225,
+                31.5221
+              ],
+              [
+                -91.4054,
+                31.5765
+              ],
+              [
+                -91.4929,
+                31.5896
+              ],
+              [
+                -91.5155,
+                31.6304
+              ],
+              [
+                -91.401,
+                31.6204
+              ],
+              [
+                -91.3694,
+                31.7469
+              ],
+              [
+                -91.2631,
+                31.7548
+              ],
+              [
+                -91.3656,
+                31.7608
+              ],
+              [
+                -91.3452,
+                31.8439
+              ],
+              [
+                -91.294,
+                31.8605
+              ],
+              [
+                -91.2832,
+                31.8158
+              ],
+              [
+                -91.2543,
+                31.8137
+              ],
+              [
+                -91.2677,
+                31.8627
+              ],
+              [
+                -91.1823,
+                31.9158
+              ],
+              [
+                -91.1848,
+                31.9656
+              ],
+              [
+                -91.0759,
+                32.0168
+              ],
+              [
+                -91.1585,
+                32.0729
+              ],
+              [
+                -91.0809,
+                32.0479
+              ],
+              [
+                -91.0041,
+                32.1462
+              ],
+              [
+                -91.0583,
+                32.181
+              ],
+              [
+                -91.0536,
+                32.1244
+              ],
+              [
+                -91.1628,
+                32.1327
+              ],
+              [
+                -91.1642,
+                32.1969
+              ],
+              [
+                -91.039,
+                32.2423
+              ],
+              [
+                -90.9949,
+                32.1931
+              ],
+              [
+                -90.9795,
+                32.2937
+              ],
+              [
+                -90.9222,
+                32.2986
+              ],
+              [
+                -90.8756,
+                32.3717
+              ],
+              [
+                -90.9124,
+                32.3395
+              ],
+              [
+                -90.9936,
+                32.354
+              ],
+              [
+                -90.9696,
+                32.4395
+              ],
+              [
+                -91.0514,
+                32.4378
+              ],
+              [
+                -91.116,
+                32.4831
+              ],
+              [
+                -91.0937,
+                32.5491
+              ],
+              [
+                -91.0381,
+                32.4904
+              ],
+              [
+                -90.9872,
+                32.4957
+              ],
+              [
+                -91.0804,
+                32.5565
+              ],
+              [
+                -91.0082,
+                32.6042
+              ],
+              [
+                -91.0158,
+                32.6416
+              ],
+              [
+                -91.1199,
+                32.5848
+              ],
+              [
+                -91.1525,
+                32.6203
+              ],
+              [
+                -91.0547,
+                32.7192
+              ],
+              [
+                -91.1657,
+                32.7534
+              ],
+              [
+                -91.145,
+                32.8429
+              ],
+              [
+                -91.0644,
+                32.9011
+              ],
+              [
+                -91.0868,
+                32.9763
+              ],
+              [
+                -91.1355,
+                32.9797
+              ],
+              [
+                -91.1517,
+                32.9019
+              ],
+              [
+                -91.214,
+                32.9272
+              ],
+              [
+                -91.1203,
+                33.0549
+              ],
+              [
+                -91.2007,
+                33.1265
+              ],
+              [
+                -91.086,
+                33.1363
+              ],
+              [
+                -91.1003,
+                33.2194
+              ],
+              [
+                -91.0446,
+                33.2672
+              ],
+              [
+                -91.0773,
+                33.284
+              ],
+              [
+                -91.1008,
+                33.2383
+              ],
+              [
+                -91.1416,
+                33.3001
+              ],
+              [
+                -91.142,
+                33.3497
+              ],
+              [
+                -91.0581,
+                33.4469
+              ],
+              [
+                -91.0869,
+                33.4514
+              ],
+              [
+                -91.1481,
+                33.3788
+              ],
+              [
+                -91.2093,
+                33.4065
+              ],
+              [
+                -91.1319,
+                33.4303
+              ],
+              [
+                -91.1344,
+                33.4832
+              ],
+              [
+                -91.1703,
+                33.4979
+              ],
+              [
+                -91.1772,
+                33.4439
+              ],
+              [
+                -91.2357,
+                33.4394
+              ],
+              [
+                -91.1825,
+                33.4998
+              ],
+              [
+                -91.2334,
+                33.5627
+              ],
+              [
+                -91.1287,
+                33.6068
+              ],
+              [
+                -91.2296,
+                33.6853
+              ],
+              [
+                -91.1604,
+                33.7066
+              ],
+              [
+                -91.0931,
+                33.6582
+              ],
+              [
+                -91.0337,
+                33.6738
+              ],
+              [
+                -91.0592,
+                33.7145
+              ],
+              [
+                -91.1488,
+                33.7314
+              ],
+              [
+                -91.1331,
+                33.7833
+              ],
+              [
+                -90.9888,
+                33.7831
+              ],
+              [
+                -91.0694,
+                33.8433
+              ],
+              [
+                -91.0102,
+                33.9322
+              ],
+              [
+                -91.0865,
+                33.9578
+              ],
+              [
+                -91.0864,
+                34.0061
+              ],
+              [
+                -90.9662,
+                33.9647
+              ],
+              [
+                -90.9882,
+                34.0192
+              ],
+              [
+                -90.894,
+                34.0262
+              ],
+              [
+                -90.8711,
+                34.0802
+              ],
+              [
+                -90.9586,
+                34.1355
+              ],
+              [
+                -90.91,
+                34.1655
+              ],
+              [
+                -90.8453,
+                34.1369
+              ],
+              [
+                -90.8072,
+                34.1637
+              ],
+              [
+                -90.9082,
+                34.1921
+              ],
+              [
+                -90.9355,
+                34.2378
+              ],
+              [
+                -90.8471,
+                34.2061
+              ],
+              [
+                -90.8318,
+                34.2769
+              ],
+              [
+                -90.738,
+                34.2893
+              ],
+              [
+                -90.7644,
+                34.3637
+              ],
+              [
+                -90.6763,
+                34.3713
+              ],
+              [
+                -90.6931,
+                34.3226
+              ],
+              [
+                -90.6693,
+                34.3131
+              ],
+              [
+                -90.6571,
+                34.3774
+              ],
+              [
+                -90.5862,
+                34.4092
+              ],
+              [
+                -90.5927,
+                34.4906
+              ],
+              [
+                -90.5396,
+                34.5539
+              ],
+              [
+                -90.5916,
+                34.621
+              ],
+              [
+                -90.5701,
+                34.6934
+              ],
+              [
+                -90.5419,
+                34.6839
+              ],
+              [
+                -90.5342,
+                34.6275
+              ],
+              [
+                -90.4629,
+                34.6838
+              ],
+              [
+                -90.5719,
+                34.7128
+              ],
+              [
+                -90.5442,
+                34.7917
+              ],
+              [
+                -90.4928,
+                34.7725
+              ],
+              [
+                -90.5242,
+                34.7314
+              ],
+              [
+                -90.475,
+                34.7239
+              ],
+              [
+                -90.448,
+                34.742
+              ],
+              [
+                -90.4771,
+                34.8852
+              ],
+              [
+                -90.436,
+                34.8818
+              ],
+              [
+                -90.4387,
+                34.8252
+              ],
+              [
+                -90.3069,
+                34.8467
+              ],
+              [
+                -90.3177,
+                34.8711
+              ],
+              [
+                -90.2413,
+                34.9261
+              ],
+              [
+                -90.3084,
+                34.9957
+              ],
+              [
+                -88.2,
+                34.9956
+              ],
+              [
+                -88.0982,
+                34.8927
+              ],
+              [
+                -88.4314,
+                32.2277
+              ]
+            ]
+          ],
+          "label": "Mississippi",
+          "labelAnchor": [
+            -90.3084,
+            34.9957
+          ],
+          "sourceVintage": 2020,
+          "generalizationDegrees": 0.02,
+          "scope": "documented-state-not-exact-scene",
+          "confidence": "state-supported; exact-site-unresolved"
+        }
+      },
+      "note": "The outline indicates the state established for the narrated scenes, not the position of a court, beach, lake or laboratory. It is an area of geographical reference, not a reconstructed route or a probability distribution.",
+      "method": "US Census 2020 state boundary, generalized to 0.02 degrees. Narrative precision is evaluated separately for each source chapter; internal legacy coordinates do not locate a scene and are not displayed for this outline.",
+      "positionSourceId": "f184d7bf89cb384b1a22ebd24f20af2d40a9fd4e45780f5329604f1a3ae99d91"
+    },
+    {
+      "placeId": "california",
+      "metadata": {
+        "regionalOutline": {
+          "paths": [
+            [
+              [
+                -119.9999,
+                41.184
+              ],
+              [
+                -120.001,
+                38.9996
+              ],
+              [
+                -117.5001,
+                37.2204
+              ],
+              [
+                -114.6335,
+                35.0019
+              ],
+              [
+                -114.6344,
+                34.8729
+              ],
+              [
+                -114.4705,
+                34.7114
+              ],
+              [
+                -114.4368,
+                34.5961
+              ],
+              [
+                -114.3808,
+                34.5297
+              ],
+              [
+                -114.3867,
+                34.4579
+              ],
+              [
+                -114.1769,
+                34.3493
+              ],
+              [
+                -114.1312,
+                34.2627
+              ],
+              [
+                -114.4342,
+                34.0874
+              ],
+              [
+                -114.4383,
+                34.0226
+              ],
+              [
+                -114.5357,
+                33.9336
+              ],
+              [
+                -114.5079,
+                33.9038
+              ],
+              [
+                -114.528,
+                33.815
+              ],
+              [
+                -114.4942,
+                33.7079
+              ],
+              [
+                -114.5315,
+                33.6751
+              ],
+              [
+                -114.5242,
+                33.5531
+              ],
+              [
+                -114.6433,
+                33.4167
+              ],
+              [
+                -114.7253,
+                33.405
+              ],
+              [
+                -114.698,
+                33.3524
+              ],
+              [
+                -114.7312,
+                33.3024
+              ],
+              [
+                -114.6721,
+                33.2585
+              ],
+              [
+                -114.7065,
+                33.0882
+              ],
+              [
+                -114.6651,
+                33.0339
+              ],
+              [
+                -114.5201,
+                33.03
+              ],
+              [
+                -114.4686,
+                32.9716
+              ],
+              [
+                -114.469,
+                32.8452
+              ],
+              [
+                -114.5296,
+                32.7955
+              ],
+              [
+                -114.5269,
+                32.7571
+              ],
+              [
+                -114.6174,
+                32.7283
+              ],
+              [
+                -114.7016,
+                32.7456
+              ],
+              [
+                -114.7195,
+                32.7187
+              ],
+              [
+                -117.2051,
+                32.5295
+              ],
+              [
+                -117.2233,
+                32.6212
+              ],
+              [
+                -117.3092,
+                32.6564
+              ],
+              [
+                -117.342,
+                32.8404
+              ],
+              [
+                -117.3233,
+                32.9031
+              ],
+              [
+                -117.3759,
+                33.0752
+              ],
+              [
+                -117.4679,
+                33.2125
+              ],
+              [
+                -118.1259,
+                33.6972
+              ],
+              [
+                -118.3191,
+                33.6595
+              ],
+              [
+                -118.467,
+                33.7255
+              ],
+              [
+                -118.4845,
+                33.8032
+              ],
+              [
+                -118.4473,
+                33.8488
+              ],
+              [
+                -118.5574,
+                33.9877
+              ],
+              [
+                -118.8148,
+                33.9472
+              ],
+              [
+                -119.159,
+                34.0403
+              ],
+              [
+                -119.218,
+                34.0625
+              ],
+              [
+                -119.3349,
+                34.2369
+              ],
+              [
+                -119.5848,
+                34.3617
+              ],
+              [
+                -119.7161,
+                34.3361
+              ],
+              [
+                -120.1473,
+                34.4229
+              ],
+              [
+                -120.456,
+                34.3915
+              ],
+              [
+                -120.5236,
+                34.4195
+              ],
+              [
+                -120.5594,
+                34.4885
+              ],
+              [
+                -120.6822,
+                34.5253
+              ],
+              [
+                -120.7133,
+                34.575
+              ],
+              [
+                -120.6647,
+                34.6963
+              ],
+              [
+                -120.7021,
+                34.7483
+              ],
+              [
+                -120.6733,
+                34.8386
+              ],
+              [
+                -120.7344,
+                34.9015
+              ],
+              [
+                -120.6896,
+                35.0988
+              ],
+              [
+                -120.8004,
+                35.1166
+              ],
+              [
+                -120.9178,
+                35.1874
+              ],
+              [
+                -120.9613,
+                35.25
+              ],
+              [
+                -120.9333,
+                35.3927
+              ],
+              [
+                -121.0416,
+                35.42
+              ],
+              [
+                -121.2016,
+                35.5837
+              ],
+              [
+                -121.3235,
+                35.625
+              ],
+              [
+                -121.3935,
+                35.7634
+              ],
+              [
+                -121.501,
+                35.8427
+              ],
+              [
+                -121.5615,
+                35.9438
+              ],
+              [
+                -121.6318,
+                35.9789
+              ],
+              [
+                -121.7278,
+                36.129
+              ],
+              [
+                -121.9577,
+                36.2851
+              ],
+              [
+                -122.044,
+                36.5782
+              ],
+              [
+                -122.0011,
+                36.6477
+              ],
+              [
+                -122.0764,
+                36.9102
+              ],
+              [
+                -122.3761,
+                37.0656
+              ],
+              [
+                -122.4641,
+                37.1778
+              ],
+              [
+                -122.467,
+                37.3499
+              ],
+              [
+                -122.575,
+                37.4999
+              ],
+              [
+                -122.5882,
+                37.7894
+              ],
+              [
+                -122.7668,
+                37.8658
+              ],
+              [
+                -122.8893,
+                37.9741
+              ],
+              [
+                -122.9532,
+                37.9411
+              ],
+              [
+                -123.068,
+                37.9587
+              ],
+              [
+                -123.0851,
+                38.0084
+              ],
+              [
+                -123.0148,
+                38.1491
+              ],
+              [
+                -123.1345,
+                38.2963
+              ],
+              [
+                -123.1648,
+                38.3883
+              ],
+              [
+                -123.3609,
+                38.5102
+              ],
+              [
+                -123.5106,
+                38.6809
+              ],
+              [
+                -123.7847,
+                38.8937
+              ],
+              [
+                -123.8099,
+                38.9612
+              ],
+              [
+                -123.762,
+                39.0411
+              ],
+              [
+                -123.8949,
+                39.3483
+              ],
+              [
+                -123.8751,
+                39.4942
+              ],
+              [
+                -123.8346,
+                39.5492
+              ],
+              [
+                -123.901,
+                39.7805
+              ],
+              [
+                -124.1333,
+                39.9999
+              ],
+              [
+                -124.1538,
+                40.0635
+              ],
+              [
+                -124.411,
+                40.2253
+              ],
+              [
+                -124.4281,
+                40.3618
+              ],
+              [
+                -124.4805,
+                40.4285
+              ],
+              [
+                -124.4034,
+                40.6132
+              ],
+              [
+                -124.1976,
+                40.9505
+              ],
+              [
+                -124.1827,
+                41.0013
+              ],
+              [
+                -124.2525,
+                41.1341
+              ],
+              [
+                -124.1955,
+                41.1846
+              ],
+              [
+                -124.1607,
+                41.2893
+              ],
+              [
+                -124.22,
+                41.303
+              ],
+              [
+                -124.2424,
+                41.3433
+              ],
+              [
+                -124.2065,
+                41.3847
+              ],
+              [
+                -124.14,
+                41.3818
+              ],
+              [
+                -124.1332,
+                41.4323
+              ],
+              [
+                -124.2117,
+                41.6812
+              ],
+              [
+                -124.4389,
+                41.8245
+              ],
+              [
+                -124.4012,
+                41.8856
+              ],
+              [
+                -124.285,
+                41.8595
+              ],
+              [
+                -124.2886,
+                41.9696
+              ],
+              [
+                -124.3288,
+                41.9983
+              ],
+              [
+                -119.9992,
+                41.9949
+              ],
+              [
+                -119.9999,
+                41.184
+              ]
+            ],
+            [
+              [
+                -123.1738,
+                37.7757
+              ],
+              [
+                -123.1323,
+                37.8197
+              ],
+              [
+                -123.0705,
+                37.8138
+              ],
+              [
+                -122.95,
+                37.7322
+              ],
+              [
+                -122.9414,
+                37.6766
+              ],
+              [
+                -122.9867,
+                37.6418
+              ],
+              [
+                -123.0407,
+                37.6503
+              ],
+              [
+                -123.1738,
+                37.7757
+              ]
+            ],
+            [
+              [
+                -119.1172,
+                33.5056
+              ],
+              [
+                -119.0009,
+                33.5359
+              ],
+              [
+                -118.9638,
+                33.4668
+              ],
+              [
+                -118.9887,
+                33.4234
+              ],
+              [
+                -119.0719,
+                33.4138
+              ],
+              [
+                -119.1172,
+                33.5056
+              ]
+            ],
+            [
+              [
+                -118.6682,
+                33.4859
+              ],
+              [
+                -118.6259,
+                33.529
+              ],
+              [
+                -118.5294,
+                33.5312
+              ],
+              [
+                -118.3594,
+                33.4649
+              ],
+              [
+                -118.2577,
+                33.3641
+              ],
+              [
+                -118.2491,
+                33.2841
+              ],
+              [
+                -118.328,
+                33.2481
+              ],
+              [
+                -118.4867,
+                33.2769
+              ],
+              [
+                -118.6682,
+                33.4859
+              ]
+            ],
+            [
+              [
+                -118.6782,
+                33.0397
+              ],
+              [
+                -118.6326,
+                33.0845
+              ],
+              [
+                -118.5421,
+                33.0738
+              ],
+              [
+                -118.2972,
+                32.8451
+              ],
+              [
+                -118.2958,
+                32.7983
+              ],
+              [
+                -118.4083,
+                32.7519
+              ],
+              [
+                -118.4647,
+                32.7602
+              ],
+              [
+                -118.5532,
+                32.8288
+              ],
+              [
+                -118.6782,
+                33.0397
+              ]
+            ],
+            [
+              [
+                -119.4923,
+                33.9832
+              ],
+              [
+                -119.7075,
+                33.9104
+              ],
+              [
+                -119.8344,
+                33.9008
+              ],
+              [
+                -119.9048,
+                33.9397
+              ],
+              [
+                -119.9392,
+                33.8986
+              ],
+              [
+                -120.126,
+                33.8423
+              ],
+              [
+                -120.2211,
+                33.8842
+              ],
+              [
+                -120.299,
+                33.9685
+              ],
+              [
+                -120.4882,
+                33.9843
+              ],
+              [
+                -120.5823,
+                34.1075
+              ],
+              [
+                -120.5381,
+                34.1503
+              ],
+              [
+                -120.4717,
+                34.1341
+              ],
+              [
+                -120.4188,
+                34.1606
+              ],
+              [
+                -120.3552,
+                34.145
+              ],
+              [
+                -120.2528,
+                34.058
+              ],
+              [
+                -120.0452,
+                34.0906
+              ],
+              [
+                -119.9916,
+                34.0649
+              ],
+              [
+                -119.9288,
+                34.1299
+              ],
+              [
+                -119.751,
+                34.1126
+              ],
+              [
+                -119.6549,
+                34.0712
+              ],
+              [
+                -119.5574,
+                34.1086
+              ],
+              [
+                -119.4678,
+                34.0629
+              ],
+              [
+                -119.3425,
+                34.069
+              ],
+              [
+                -119.2944,
+                34.0275
+              ],
+              [
+                -119.3116,
+                33.98
+              ],
+              [
+                -119.3805,
+                33.9536
+              ],
+              [
+                -119.4923,
+                33.9832
+              ]
+            ],
+            [
+              [
+                -119.6361,
+                33.2807
+              ],
+              [
+                -119.5992,
+                33.3233
+              ],
+              [
+                -119.5191,
+                33.3337
+              ],
+              [
+                -119.3797,
+                33.2676
+              ],
+              [
+                -119.3607,
+                33.2215
+              ],
+              [
+                -119.3945,
+                33.1808
+              ],
+              [
+                -119.512,
+                33.1678
+              ],
+              [
+                -119.6053,
+                33.2069
+              ],
+              [
+                -119.6361,
+                33.2807
+              ]
+            ]
+          ],
+          "label": "California",
+          "labelAnchor": [
+            -124.3288,
+            41.9983
+          ],
+          "sourceVintage": 2020,
+          "generalizationDegrees": 0.02,
+          "scope": "documented-state-not-exact-scene",
+          "confidence": "state-supported; exact-site-unresolved"
+        }
+      },
+      "note": "The outline indicates the state established for the narrated scenes, not the position of a court, beach, lake or laboratory. It is an area of geographical reference, not a reconstructed route or a probability distribution.",
+      "method": "US Census 2020 state boundary, generalized to 0.02 degrees. Narrative precision is evaluated separately for each source chapter; internal legacy coordinates do not locate a scene and are not displayed for this outline.",
+      "positionSourceId": "f184d7bf89cb384b1a22ebd24f20af2d40a9fd4e45780f5329604f1a3ae99d91"
+    }
+  ],
+  "outlineSource": {
+    "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/State_County/MapServer/70",
+    "label": "US Census Bureau · state boundaries (2020)",
+    "id": "f184d7bf89cb384b1a22ebd24f20af2d40a9fd4e45780f5329604f1a3ae99d91"
+  },
+  "critical": {
+    "url": "https://journals.openedition.org/ejas/7550",
+    "label": "Monica Manolescu-Oancea · Inventing and naming America (2009)"
+  },
+  "footerHtml": "<p>Critical geographical sources. Scene classifications also rely on the original chapter context.</p><p><a href=\"https://journals.openedition.org/ejas/7550\" target=\"_blank\" rel=\"noopener noreferrer\">Monica Manolescu-Oancea, <em>Inventing and naming America: Place and Place Names in Vladimir Nabokov’s Lolita</em>, 2009</a>.</p><p>Dieter E. Zimmer, <em>Lolita, USA</em>: <a href=\"https://dezimmer.net/LolitaUSA/Trip1.htm\" target=\"_blank\" rel=\"noopener noreferrer\">Trip One</a> · <a href=\"https://www.dezimmer.net/LolitaUSA/Trip2.htm\" target=\"_blank\" rel=\"noopener noreferrer\">Trip Two</a>.</p>"
+}

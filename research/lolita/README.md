@@ -1,5 +1,10 @@
 # Lolita: analisi della fonte scelta dall’utente
 
+Aggiornamento del 16 ottobre 2026: [revisione di tutte le 71 sezioni](WHOLE-BOOK-REVIEW.md),
+confronto con il PDF inglese aggiunto dall’utente, correzione delle categorie,
+scene regionali contestuali e contorni geografici. L’apparato completo delle
+citazioni pubblicabili resta un’attività distinta e pendente.
+
 Stato al 13 ottobre 2026: **lettura integrale e note per sezione completate;
 versione in corso pubblicata; aggiunta completa ancora pendente**. È stata usata l’ultima fonte
 indicata dall’utente, il [testimone FlipHTML5](https://online.fliphtml5.com/unwsfj/Lolita---Vladimir-Nabokov/).

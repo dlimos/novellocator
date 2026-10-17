@@ -18,3 +18,5 @@ const modesCheck = spawnSync(process.execPath, [path.join(__dirname, 'check-atla
 if (modesCheck.status !== 0) process.exit(modesCheck.status || 1);
 const outlineCheck = spawnSync(process.execPath, [path.join(__dirname, 'check-regional-outline.cjs')], { cwd: root, stdio: 'inherit' });
 if (outlineCheck.status !== 0) process.exit(outlineCheck.status || 1);
+const narrativeReviewCheck = spawnSync(process.execPath, [path.join(__dirname, 'check-lolita-review.cjs')], { cwd: root, stdio: 'inherit' });
+if (narrativeReviewCheck.status !== 0) process.exit(narrativeReviewCheck.status || 1);
