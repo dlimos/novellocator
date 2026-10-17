@@ -18,12 +18,14 @@ for(const locale of ['en','it','fr','es']){
  run('renderDetail()');
  const unlocated=elements['selected-location'].parentElement.children.at(-1).innerHTML;
  assert.ok(unlocated.includes('<blockquote'));
- assert.ok(unlocated.includes('lang="ru"'));
+ assert.ok(unlocated.includes(locale==='fr'?'lang="fr"':'lang="ru"'));
  assert.equal(run("renderExcerpts(null,'Passage from the novel')"),'');
  assert.equal(run("renderExcerpts({original:{quote:'   ',language:'ru'}},'Passage from the novel')"),'');
  assert.equal(run("selectedPassage({original:{quote:'Original',language:'ru'},translations:{[locale]:{quote:' ',language:locale}}}).quote"),'Original');
  assert.equal(run("renderExcerpts(chapters[1].citations.find(r=>r.placeId==='haymarket').excerpt,'Passage from the novel')"),'','A Neva passage must not appear as evidence for the Hay Market in any language');
  assert.equal(run("renderExcerpts(chapters[5].placeExcerpts.haymarket,'Passage from the novel')"),'','An original unrelated to the place stays in analysis, outside the quotation controls');
+ const restoredFrench=run("renderExcerpts(chapters[4].placeExcerpts.konny,'Passage from the novel')");
+ assert.ok(restoredFrench.includes('value="fr"')&&!restoredFrench.includes('value="en"'),'Derely retains K…; Garnett omits the place name');
 }
 // Each imported passage is a literal substring of its archived consulted source.
 const records=JSON.parse(fs.readFileSync('research/translations/verified/crime-and-punishment.json','utf8'));

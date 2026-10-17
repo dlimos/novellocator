@@ -76,3 +76,9 @@ Sono corrette 58 categorie da azione a menzione. Ventitré originali non utilizz
 I cinque lotti SQL sono stati provati due volte in PostgreSQL/PGlite, con ricostruzione integrale dei dati e conservazione dei testi originali. L’aggiornamento dei metadati di revisione usa payload codificati e condizioni puntuali sugli identificativi: un avviso preliminare dell’editor sulle condizioni SQL ha portato ad annullare quella esecuzione e riscrivere la forma della query, senza ampliare gli aggiornamenti.
 
 I lotti sono pubblicati. La verifica finale nel database conferma 299 testi inglesi esatti, le sedici versioni francesi conservate compresa quella respinta, tutti i 24 stati di revisione e le 58 correzioni delle categorie. Controllata sul sito la citazione inglese di Sennaja nel capitolo I.5, con selettore indipendente dall’interfaccia italiana, evidenziazione autentica e credito di Garnett.
+
+## Derély — 17 ottobre 2026
+
+Il [registro francese di Delitto e castigo](DELITTO-E-CASTIGO-DERELY.md) documenta tutti i 363 gruppi: **267 nuove citazioni**, per **282 versioni francesi utilizzabili**, 80 lacune motivate e un’associazione già respinta. Sono compresi 38 estratti introduttivi, 97 associazioni con luoghi mappati o citati e 147 luoghi senza coordinate. Sono documentati i tagli di Derély e l’accorpamento dei capitoli russi VI.III–IV nel francese VI.III: non si ricavano passi mancanti da brani vicini.
+
+Pubblicati i quattro lotti dopo i controlli delle fonti, la suite applicativa e la doppia esecuzione SQL/PGlite. Il confronto finale nel database conferma 299 testi inglesi e 283 record francesi esatti, incluso quello respinto, oltre ai 24 stati di revisione e alle 58 categorie già corrette. Verificata sul sito la citazione francese del vicolo K… con la tendina indipendente dalla lingua italiana dell’interfaccia, il nome evidenziato e l’attribuzione a Derély, Plon 1884. Originali, testi inglesi, coordinate e identità dei luoghi sono conservati.
