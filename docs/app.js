@@ -226,7 +226,7 @@ function selectChapter(index,move=true,updateHash=true){
  document.getElementById('map-heading').textContent=(book.literaryViews?'':number(chapter.id)+' · ')+chapter.title;
  updateChapterMenu();
  document.getElementById('map').setAttribute('aria-label',`${t('Mappa')} · ${book.unit} ${chapter.id}: ${chapter.title}`);
- document.title=`${number(chapter.id)} · ${chapter.title} — ${book.title} · ${t('Atlante letterario')}`;
+ document.title=(book.literaryViews?'':number(chapter.id)+' · ')+`${chapter.title} — ${book.title} · ${t('Atlante letterario')}`;
  renderDetail();updateLayerControls();drawMarkers();
  if(move&&viewReady)overview();
  if(updateHash)window.location.hash=`${book.hashPrefix}-${chapter.id}`;
