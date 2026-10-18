@@ -1,0 +1,58 @@
+{
+  "checked": "2026-10-18",
+  "placeId": "regional-town",
+  "section": 1,
+  "category": "action",
+  "narrativeLevel": "primary narrative, including the narrated early village and family memories",
+  "reason": "Il primo capitolo ambienta a Macondo la vita dei Buendía nel villaggio e l’arrivo degli zingari con le loro invenzioni. Aracataca è il modello reale documentato usato per rappresentare questo luogo dell’azione.",
+  "geography": "The action setting is Macondo. Aracataca supplies its documented real model, not a place explicitly mentioned in the novel.",
+  "evidence": [
+    {
+      "id": "river-first",
+      "source": {
+        "file": "fonte-originale.pdf",
+        "page": 2,
+        "type": "user-provided-pdf",
+        "pages": [
+          2,
+          8,
+          60,
+          157
+        ],
+        "quote": "el hielo. Macondo era entonces una aldea de veinte casas de barro y cañabrava construidas a la orilla de un río de aguas diáfanas que se precipitaban por un lecho de piedras pulidas, blancas y enormes como huevos p rehistóricos. El mundo era tan reciente, que muchas ",
+        "pdf_section": "I",
+        "ellipsis_after": true,
+        "ellipsis_before": true
+      }
+    },
+    {
+      "id": "camp",
+      "source": {
+        "file": "fonte-originale.pdf",
+        "page": 2,
+        "type": "user-provided-pdf",
+        "pages": [
+          2,
+          15
+        ],
+        "quote": "el dedo. Todos los años, por el mes de marzo, una familia de gitanos desarrapados plantaba su carpa cerca de la aldea, y con un grand e alboroto de pitos y timbales daban a conocer los nuevos inventos. Primero llevaron el imán. Un gitano corpulento, de barba montaraz y manos ",
+        "pdf_section": "I",
+        "ellipsis_after": true,
+        "ellipsis_before": true
+      }
+    }
+  ],
+  "displayedOriginal": {
+    "quote": "Macondo era entonces una aldea de veinte casas de barro y cañabrava",
+    "language": "es",
+    "highlightTerms": [
+      "Macondo"
+    ]
+  },
+  "scenes": {
+    "en": "The first chapter sets the Buendía family’s village life and the arrival of the travellers with their inventions in Macondo. Aracataca is the documented real model used to represent this action setting.",
+    "it": "Il primo capitolo ambienta a Macondo la vita dei Buendía nel villaggio e l’arrivo degli zingari con le loro invenzioni. Aracataca è il modello reale documentato usato per rappresentare questo luogo dell’azione.",
+    "fr": "Le premier chapitre situe à Macondo la vie des Buendía au village et l’arrivée des gitans avec leurs inventions. Aracataca est le modèle réel documenté qui représente ce lieu de l’action.",
+    "es": "El primer capítulo sitúa en Macondo la vida de los Buendía en la aldea y la llegada de los gitanos con sus inventos. Aracataca es el modelo real documentado usado para representar este lugar de la acción."
+  }
+}

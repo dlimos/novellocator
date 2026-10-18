@@ -25,7 +25,7 @@
    const opening=payload.emptyChapterExcerpts?.[i+1];if(opening)c.excerpt={original:{...opening,type:'original',attribution:payload.book.author+' · '+originalTitle+' · '+c.title},translations:{}};
    for(const p of records){const geo=geographicPlaces[p.id],excerpt=geo?.excerpts?.[i+1];const credit=excerpt?payload.book.author+' · '+originalTitle+' · '+c.title:attribution(p);
     if(p.x===null&&!geographicPlaces[p.id]){c.unlocatedPlaces.push({id:p.id,name:p.names[locale],text:p.scenes[locale]+' · '+credit,quote:p.source.quote,language:'es'});continue;}
-    c.places.push(p.id);c.placeKinds[p.id]=model.places[p.id].kind;c.placeNames[p.id]=p.names[locale];c.placeText.push(excerpt?scenePrompt:p.scenes[locale]);c.placeCategories[p.id]=geo?.chapterRoles?.[i+1]||p.role;c.placeSources[p.id]={label:credit};
+    c.places.push(p.id);c.placeKinds[p.id]=model.places[p.id].kind;c.placeNames[p.id]=p.names[locale];c.placeText.push(geo?.chapterScenes?.[i+1]?.[locale]||geo?.chapterScenes?.[i+1]?.en||(excerpt?scenePrompt:p.scenes[locale]));c.placeCategories[p.id]=geo?.chapterRoles?.[i+1]||p.role;c.placeSources[p.id]={label:credit};
     c.placeExcerpts[p.id]={original:{quote:excerpt?.quote||p.source.quote,language:'es',type:'original',attribution:credit,...(excerpt?.highlightTerms?{highlightTerms:excerpt.highlightTerms}:{})},translations:{}};
    }
    if(!c.places.length&&!c.excerpt&&records.length)c.excerpt={original:{quote:records[0].source.quote,language:'es',type:'original',attribution:attribution(records[0])},translations:{}};
