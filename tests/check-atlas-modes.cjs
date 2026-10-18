@@ -35,6 +35,19 @@ assert(!catalog.window.atlasCatalogueView.render([example]).cards.includes('mode
 assert(!fs.existsSync('docs/imaginary.html'));
 assert(!fs.readFileSync('docs/index.html','utf8').includes('imaginary.html'));
 assert(!fs.readFileSync('docs/load-book.js','utf8').includes('imaginary.html'));
-assert(fs.readFileSync('docs/load-book.js','utf8').includes('link.textContent=view.name'));
+assert(fs.readFileSync('docs/load-book.js','utf8').includes("link.textContent=t('Imaginary views')"));
 assert.deepEqual(plain(ctx.window.AtlasModes.views({book:{illustratedView:{views:[{id:'town',names:{en:'Town',it:'Città'}}]}}},'it')),[{id:'town',name:'Città'}]);
 console.log('PASS: three novels have independent geographic/illustrated points, original evidence, image-only exports and access exclusively through the novel; no collection or catalogue links.');
+(async()=>{
+ for(const mode of ['', '&mode=imaginary']){
+  const nav={children:[],hidden:true,appendChild(child){this.children.push(child);}},head={appendChild(){}},location=new URL('https://atlas.example/atlas.html?book=example&lang=it'+mode);
+  const context={URL,URLSearchParams,location,console,document:{documentElement:{setAttribute(){}},head,createElement:()=>({}),getElementById:id=>id==='atlas-mode-nav'?nav:{}},window:{location,atlasSupabase:{enabled:true},atlasCatalogue:{books:[{id:'example',mapType:'geographic'}]},atlasCatalogueData:{load:async()=>{}},AtlasModes:{views:()=>[{id:'a',name:'First view'},{id:'b',name:'Second view'}]},atlasI18n:{locale:'it',t:key=>key==='Imaginary views'?'Vedute immaginarie':key,localizeData:x=>x},atlasSupabaseData:{loadBook:async()=>({data:{book:{}},dictionary:{}})}}};
+  vm.runInNewContext(fs.readFileSync('docs/load-book.js','utf8'),context);await new Promise(resolve=>setImmediate(resolve));
+  const links=nav.children.filter(child=>child.href);
+  assert.equal(links.length,1,'One entry link outside; only the return link inside');
+  if(!mode){assert.equal(links[0].textContent,'Vedute immaginarie');assert.equal(new URL(links[0].href).searchParams.get('mode'),'imaginary');}
+  else assert.equal(new URL(links[0].href).searchParams.get('mode'),null);
+  assert(!links.some(link=>['First view','Second view'].includes(link.textContent)));
+ }
+ console.log('PASS: one imaginary-views link per novel; individual view names remain inside the view list.');
+})().catch(error=>{console.error(error);process.exitCode=1});
