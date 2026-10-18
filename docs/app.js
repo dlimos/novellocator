@@ -453,6 +453,13 @@ if(chapterFromHash()<0)selectAllPlaces(false,false);else selectChapter(chapterFr
 const initialPlace=Number(new URLSearchParams(window.location.search).get('place'));
 if(Number.isInteger(initialPlace)&&initialPlace>=0&&initialPlace<activeChapter().places.length)selectPlace(initialPlace);
 const initialCitation=new URLSearchParams(window.location.search).get('citation');if(initialCitation!==null)selectCitation(Number(initialCitation));
+const focusQuery=new URLSearchParams(window.location.search),focusId=focusQuery.get('focus');
+let initialFocusIndex=-1;
+if(focusId&&!focusQuery.has('place')&&!focusQuery.has('citation')){
+ if(!activeChapter().places.includes(focusId)&&globalPlaceIds.includes(focusId))selectAllPlaces(false,false);
+ initialFocusIndex=activeChapter().places.indexOf(focusId);
+ if(initialFocusIndex>=0)selectPlace(initialFocusIndex,false);
+}
 window.atlasState=()=>({basemap:activeBasemap,place:selectedPlace,citation:selectedCitation,layers:Object.keys(visibleLayers).filter(key=>visibleLayers[key]).join(',')||'none'});
 window.addEventListener('hashchange',()=>{const index=chapterFromHash();if(index!==current){if(index<0)selectAllPlaces(true,false);else selectChapter(index,true,false)}});
 document.getElementById('all-places').addEventListener('click',()=>selectAllPlaces());
@@ -510,7 +517,7 @@ async function initializeMap(){
   view=new MapView({container:'map',map,center:book.initialView.center,zoom:book.initialView.zoom,ui:{components:[]},constraints:{minZoom:1,maxZoom:19},navigation:{mouseWheelZoomEnabled:false},popupEnabled:false,padding:{...defaultMapPadding}});
   drawMarkers();await view.when();viewReady=true;
   ['overview','zoom-in','zoom-out'].forEach(id=>document.getElementById(id).disabled=false);
-  document.getElementById('map-error').hidden=true;overview();
+  document.getElementById('map-error').hidden=true;overview();if(initialFocusIndex>=0)centerSelectedPlace();
   basemapSelect.disabled=false;
   refreshBasemapCredits(basemap).catch(error=>{if(view.map.basemap===basemap)showMapError('La cartografia non si è caricata. Prova un altro sfondo o verifica la connessione.');console.error(error)});
   view.on('click',selectMapPoint);

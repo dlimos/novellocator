@@ -10,6 +10,7 @@
   const attribution=p=>payload.book.author+' · '+originalTitle+' · '+labels.chapter+' '+(payload.chapterRanges.findIndex(([start,end])=>p.source.page>=start&&p.source.page<=end)+1);
   const model={book:{id:payload.book.id,title:text.title,author:payload.book.author,year:payload.book.year,description:text.note,unit:labels.unit,sidebarTitle:labels.sidebar,help:text.hint,sidebarNote:labels.note,hashPrefix:'chapter',mapType:'illustrated',links:[],footerHtml:'',initialView:{},illustration:{width:payload.width*2,height:payload.height*2,core:{xmin:payload.width/2,ymin:payload.height/2,xmax:payload.width*1.5,ymax:payload.height*1.5,spatialReference:{wkid:3857}},epochs:payload.epochs,anchors:payload.panoramaAnchors,globalEpoch:1,geographicPlaces,geographyLabels,basemapURL:root.atlasBasemaps?.find(b=>b.id==='osm')?.url||'https://basemaps.arcgis.com/arcgis/rest/services/OpenStreetMap_v2/VectorTileServer'}},chapters:[],places:{},citedPlaces:{}};
   model.book.geographicReview=payload.geographicReview;
+  model.book.geographicModels=Object.entries(geographicPlaces).filter(([,geo])=>geo.scope==='real-literary-model'&&geo.modelName).map(([placeId,geo])=>({placeId,name:geo.modelName,inspirationFor:text.town}));
   model.book.nativeEpochViews=true;
   model.book.illustration.epochs=payload.epochs.map((epoch,index)=>({...epoch,label:text.town+' · '+payload.epochTexts[locale].labels[index],note:payload.epochTexts[locale].notes[index]}));
   model.book.illustration.viewLabel=payload.epochTexts[locale].title;

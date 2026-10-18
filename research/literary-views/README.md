@@ -15,6 +15,8 @@ Macondo usa le tre immagini già presenti e i relativi ancoraggi: primo villaggi
 
 Il marker indica **Aracataca come fonte d'ispirazione reale**, non l'esatta posizione di Macondo e non la casa dei Buendía. L'identificativo `regional-town` resta invariato per preservare associazioni e selezione. `publish-macondo-model.sql` aggiorna soltanto i campi geografici del record esistente in `book_maps`; citazioni, categorie, pagine, immagini e altri luoghi rimangono conservati.
 
+Il collegamento permanente «Aracataca — città ispiratrice di Macondo» è generato dal campo editoriale `modelName`. Apre la vista geografica di tutti i luoghi con `focus=regional-town`, selezionando e inquadrando il modello reale anche quando si proviene da un altro capitolo o da una veduta immaginaria. Il parametro usa l'identità del luogo, non il suo numero nella lista. `publish-model-navigation.sql` aggiunge esclusivamente il nome del modello al record geografico già verificato.
+
 ## Regioni senza modello puntuale
 
 La regola editoriale usa il contorno geografico in polyline, senza centro immaginario. Il caso già pubblicato di Ramsdale/New England rimane il riferimento tecnico in `research/lolita/RAMSDALE-REGION.md`. Ogni nuovo contorno richiede una geometria geografica documentata: non si genera un rettangolo o un cerchio arbitrario intorno a un vecchio punto.

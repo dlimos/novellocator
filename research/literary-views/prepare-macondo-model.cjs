@@ -13,7 +13,7 @@ const methods={
  fr:'Référence urbaine à Aracataca, Magdalena, Colombie : 10°35′34″ N, 74°11′26″ O, selon la documentation de projet FINDETER (2022). La Ruta Macondo de la Fundación Gabo documente le modèle réel ; les coordonnées ne reconstituent pas Macondo.',
  es:'Referencia urbana de Aracataca, Magdalena, Colombia: 10°35′34″ N, 74°11′26″ O, según la documentación de proyecto FINDETER (2022). La Ruta Macondo de la Fundación Gabo documenta el modelo real; las coordenadas no reconstruyen el Macondo ficticio.'
 };
-const patch={coords:[10+35/60+34/3600,-(74+11/60+26/3600)],zoom:13,scope:'real-literary-model',precision:'town-reference-not-fictional-town',names,notes,methods,
+const patch={coords:[10+35/60+34/3600,-(74+11/60+26/3600)],zoom:13,scope:'real-literary-model',modelName:'Aracataca',precision:'town-reference-not-fictional-town',names,notes,methods,
  source:{label:'FINDETER · Aracataca, localización del proyecto (2022)',url:'https://www.findeter.gov.co/system/files/convocatorias/PAF-AASB-O-010-2022/documento_2_-_estudios_previos_ebar_aracataca-_obra_1.pdf'},
  narrativeSource:{label:'Fundación Gabo · Ruta Macondo, circuito Aracataca',url:'https://especiales.fundaciongabo.org/ruta-macondo-circuito-aracataca/'},checked:'2026-10-18'};
 const context={window:{}};vm.runInNewContext(fs.readFileSync('docs/data/macondo-local.js','utf8'),context);

@@ -1,8 +1,9 @@
 const fs=require('fs'),vm=require('vm'),assert=require('assert/strict');
-function setup(bookId,lang='en',global=false){
+function setup(bookId,lang='en',global=false,query=null){
  const elements={},events={};let startup;
  function element(){return{children:[],parentElement:{children:[],appendChild(child){this.children.push(child)}},attributes:{},events:{},appendChild(child){this.children.push(child)},setAttribute(k,v){this.attributes[k]=v},addEventListener(k,f){this.events[k]=f},scrollIntoView(){},set innerHTML(value){this.html=value;this.children=[]},get innerHTML(){return this.html||''}}}
  const location={search:'?book='+bookId+'&lang='+lang+'&place=1&basemap=gray-vector',hash:'',href:'https://example.org/atlas.html',assign(url){this.assigned=url}};
+ if(query!==null)location.search='?book='+bookId+'&lang='+lang+'&'+query;
  const ctx={console,URL,URLSearchParams,NodeFilter:{SHOW_TEXT:4},location,localStorage:{getItem(){},setItem(){}},window:{location,innerWidth:1200,matchMedia:()=>({matches:true}),addEventListener(k,f){events[k]=f}},document:{readyState:'loading',documentElement:{},body:{querySelectorAll:()=>[]},head:{querySelectorAll:()=>[]},addEventListener(k,f){startup=f},createTreeWalker:()=>({nextNode:()=>false}),querySelectorAll:()=>[],querySelector:()=>({}),getElementById:id=>elements[id]??(elements[id]=element()),createElement:element}};
  vm.createContext(ctx);for(const file of ['locales/ui.js','content/book-translations.js','i18n.js','data/'+bookId+'.js','data/'+bookId+'-i18n.js','basemaps.js'])vm.runInContext(fs.readFileSync('docs/'+file,'utf8'),ctx);
  ctx.window.atlasData=ctx.window.atlasI18n.localizeData(ctx.window.atlasData);
@@ -75,4 +76,14 @@ for(const id of ['ulisse','proust','war-and-peace','moby-dick','gatsby','holden'
  }
 }
 const html=fs.readFileSync('docs/atlas.html','utf8');assert.match(html,/id="all-places"/);assert.match(html,/legend-diamond/);assert.match(html,/legend-selected/);
+const focusSource=setup('proust','en',true).ctx.window.atlasData;
+const focusId=Object.keys(focusSource.places).find(id=>!focusSource.chapters[0].places.includes(id));
+const focused=setup('proust','en',false,'focus='+encodeURIComponent(focusId));
+assert.equal(vm.runInContext('current',focused.ctx),-1);
+assert.equal(vm.runInContext('activeChapter().places[selectedPlace]',focused.ctx),focusId);
+vm.runInContext('centerSelectedPlace()',focused.ctx);
+assert.deepEqual(Array.from(vm.runInContext('targets.at(-1).center',focused.ctx)),[focusSource.places[focusId].coords[1],focusSource.places[focusId].coords[0]]);
+const explicit=setup('proust','en',false,'focus='+encodeURIComponent(focusId)+'&place=0');
+assert.equal(vm.runInContext('current',explicit.ctx),0);assert.equal(explicit.ctx.window.atlasState().place,0);
+const unknown=setup('proust','en',false,'focus=unknown-location');assert.equal(vm.runInContext('current',unknown.ctx),0);
 console.log('PASS: global view in six novels and four languages; unique markers, full extent, references back to sections, chapter/global switching, shared links and language changes preserve the global view and selected point.');
