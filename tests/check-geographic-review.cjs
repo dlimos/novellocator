@@ -40,7 +40,8 @@ for(const lang of ['en','it','fr','es']){
  assert(mapped.chapters.flatMap(c=>c.unlocatedPlaces||[]).filter(u=>u.id==='lab').every(u=>u.displayInAtlas===false));
  assert.equal(mapped.chapters[0].placeExcerpts['regional-town'].original.highlightTerms[0],'Macondo');
  assert.equal(mapped.chapters[0].placeCategories['regional-town'],'action');
- assert(mapped.chapters[0].placeText[mapped.chapters[0].places.indexOf('regional-town')].includes('Aracataca'));
+ for(const chapter of mapped.chapters){assert(chapter.places.includes('regional-town'));assert.equal(chapter.placeCategories['regional-town'],'action');assert(chapter.placeExcerpts['regional-town'].original.attribution.includes('PDF p.'));}
+ assert(mapped.chapters[17].placeExcerpts['regional-town'].original.quote.includes('cuarto de Melquíades'));
  assert.equal(Object.values(mapped.places).filter(p=>!p.geographic).length,29);
 }
 console.log(`PASS: ${regions+1} reviewed regional diamonds; ${associations} section references; original analysis untouched, no duplicate points per section, pending original quotations preserved, four languages and illustrated geography.`);

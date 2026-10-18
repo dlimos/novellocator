@@ -1,0 +1,726 @@
+{
+  "status": "Candidate census only. Not verified scene categories or an exhaustive list. Demonyms, homonyms, comparisons, reported journeys and fictional statements require contextual review before publication.",
+  "sourceSha256": "427bb700740533f93c313bf32170e1dd2f83d8681409510b2035a9ffacbe9b25",
+  "candidates": [
+    {
+      "term": "Macedonia",
+      "chapter": 1,
+      "page": 2
+    },
+    {
+      "term": "Amsterdam",
+      "chapter": 1,
+      "page": 3
+    },
+    {
+      "term": "Madagascar",
+      "chapter": 1,
+      "page": 5
+    },
+    {
+      "term": "Persia",
+      "chapter": 1,
+      "page": 5
+    },
+    {
+      "term": "Malasia",
+      "chapter": 1,
+      "page": 5
+    },
+    {
+      "term": "Alejandría",
+      "chapter": 1,
+      "page": 5
+    },
+    {
+      "term": "Sicilia",
+      "chapter": 1,
+      "page": 5
+    },
+    {
+      "term": "Japón",
+      "chapter": 1,
+      "page": 5
+    },
+    {
+      "term": "Chipre",
+      "chapter": 1,
+      "page": 7
+    },
+    {
+      "term": "Riohacha",
+      "chapter": 1,
+      "page": 9
+    },
+    {
+      "term": "Ciénaga",
+      "chapter": 1,
+      "page": 9
+    },
+    {
+      "term": "África",
+      "chapter": 1,
+      "page": 13
+    },
+    {
+      "term": "Salónica",
+      "chapter": 1,
+      "page": 13
+    },
+    {
+      "term": "Memphis",
+      "chapter": 1,
+      "page": 14
+    },
+    {
+      "term": "Memphis",
+      "chapter": 1,
+      "page": 15
+    },
+    {
+      "term": "Java",
+      "chapter": 1,
+      "page": 15
+    },
+    {
+      "term": "Riohacha",
+      "chapter": 2,
+      "page": 16
+    },
+    {
+      "term": "Riohacha",
+      "chapter": 2,
+      "page": 19
+    },
+    {
+      "term": "Ciénaga",
+      "chapter": 2,
+      "page": 19
+    },
+    {
+      "term": "Riohacha",
+      "chapter": 2,
+      "page": 20
+    },
+    {
+      "term": "Ciénaga",
+      "chapter": 2,
+      "page": 30
+    },
+    {
+      "term": "Guajira",
+      "chapter": 3,
+      "page": 31
+    },
+    {
+      "term": "Ciénaga",
+      "chapter": 3,
+      "page": 31
+    },
+    {
+      "term": "Manaure",
+      "chapter": 3,
+      "page": 33
+    },
+    {
+      "term": "Guajira",
+      "chapter": 3,
+      "page": 33
+    },
+    {
+      "term": "Manaure",
+      "chapter": 3,
+      "page": 34
+    },
+    {
+      "term": "Ciénaga",
+      "chapter": 3,
+      "page": 38
+    },
+    {
+      "term": "Ciénaga",
+      "chapter": 3,
+      "page": 39
+    },
+    {
+      "term": "Ciénaga",
+      "chapter": 3,
+      "page": 40
+    },
+    {
+      "term": "Ciénaga",
+      "chapter": 3,
+      "page": 41
+    },
+    {
+      "term": "Manaure",
+      "chapter": 3,
+      "page": 42
+    },
+    {
+      "term": "Ciénaga",
+      "chapter": 3,
+      "page": 42
+    },
+    {
+      "term": "Ciénaga",
+      "chapter": 3,
+      "page": 44
+    },
+    {
+      "term": "Ciénaga",
+      "chapter": 3,
+      "page": 45
+    },
+    {
+      "term": "Ciénaga",
+      "chapter": 3,
+      "page": 47
+    },
+    {
+      "term": "Holanda",
+      "chapter": 4,
+      "page": 49
+    },
+    {
+      "term": "Ciénaga",
+      "chapter": 4,
+      "page": 51
+    },
+    {
+      "term": "Riohacha",
+      "chapter": 4,
+      "page": 64
+    },
+    {
+      "term": "Valle de Upar",
+      "chapter": 4,
+      "page": 64
+    },
+    {
+      "term": "Ciénaga",
+      "chapter": 4,
+      "page": 64
+    },
+    {
+      "term": "Ciénaga",
+      "chapter": 5,
+      "page": 67
+    },
+    {
+      "term": "Roma",
+      "chapter": 5,
+      "page": 68
+    },
+    {
+      "term": "Golfo de Bengala",
+      "chapter": 5,
+      "page": 75
+    },
+    {
+      "term": "Caribe",
+      "chapter": 5,
+      "page": 75
+    },
+    {
+      "term": "Japón",
+      "chapter": 5,
+      "page": 75
+    },
+    {
+      "term": "Riohacha",
+      "chapter": 5,
+      "page": 80
+    },
+    {
+      "term": "Caribe",
+      "chapter": 5,
+      "page": 80
+    },
+    {
+      "term": "Leipzig",
+      "chapter": 5,
+      "page": 80
+    },
+    {
+      "term": "Manaure",
+      "chapter": 5,
+      "page": 83
+    },
+    {
+      "term": "Neerlandia",
+      "chapter": 6,
+      "page": 85
+    },
+    {
+      "term": "Venecia",
+      "chapter": 6,
+      "page": 88
+    },
+    {
+      "term": "Florencia",
+      "chapter": 6,
+      "page": 88
+    },
+    {
+      "term": "Sorrento",
+      "chapter": 6,
+      "page": 88
+    },
+    {
+      "term": "Italia",
+      "chapter": 6,
+      "page": 88
+    },
+    {
+      "term": "China",
+      "chapter": 6,
+      "page": 88
+    },
+    {
+      "term": "Ciénaga",
+      "chapter": 6,
+      "page": 94
+    },
+    {
+      "term": "Riohacha",
+      "chapter": 6,
+      "page": 95
+    },
+    {
+      "term": "Caribe",
+      "chapter": 6,
+      "page": 95
+    },
+    {
+      "term": "Ciénaga",
+      "chapter": 6,
+      "page": 96
+    },
+    {
+      "term": "Manaure",
+      "chapter": 7,
+      "page": 102
+    },
+    {
+      "term": "Tucurinca",
+      "chapter": 7,
+      "page": 102
+    },
+    {
+      "term": "Ciénaga",
+      "chapter": 7,
+      "page": 103
+    },
+    {
+      "term": "Riohacha",
+      "chapter": 7,
+      "page": 105
+    },
+    {
+      "term": "Cabo de la Vela",
+      "chapter": 7,
+      "page": 105
+    },
+    {
+      "term": "Caribe",
+      "chapter": 7,
+      "page": 105
+    },
+    {
+      "term": "Antillas",
+      "chapter": 7,
+      "page": 105
+    },
+    {
+      "term": "Riohacha",
+      "chapter": 7,
+      "page": 106
+    },
+    {
+      "term": "Villanueva",
+      "chapter": 7,
+      "page": 106
+    },
+    {
+      "term": "Urumita",
+      "chapter": 7,
+      "page": 106
+    },
+    {
+      "term": "Guajira",
+      "chapter": 7,
+      "page": 106
+    },
+    {
+      "term": "Ciénaga",
+      "chapter": 7,
+      "page": 106
+    },
+    {
+      "term": "Riohacha",
+      "chapter": 7,
+      "page": 112
+    },
+    {
+      "term": "Riohacha",
+      "chapter": 8,
+      "page": 117
+    },
+    {
+      "term": "Caribe",
+      "chapter": 8,
+      "page": 118
+    },
+    {
+      "term": "Alaska",
+      "chapter": 8,
+      "page": 118
+    },
+    {
+      "term": "Santiago de Cuba",
+      "chapter": 8,
+      "page": 118
+    },
+    {
+      "term": "Ciénaga",
+      "chapter": 8,
+      "page": 119
+    },
+    {
+      "term": "Nicaragua",
+      "chapter": 8,
+      "page": 120
+    },
+    {
+      "term": "Roma",
+      "chapter": 8,
+      "page": 121
+    },
+    {
+      "term": "Europa",
+      "chapter": 8,
+      "page": 121
+    },
+    {
+      "term": "Ciénaga",
+      "chapter": 8,
+      "page": 124
+    },
+    {
+      "term": "Caribe",
+      "chapter": 8,
+      "page": 127
+    },
+    {
+      "term": "Manaure",
+      "chapter": 8,
+      "page": 129
+    },
+    {
+      "term": "Manaure",
+      "chapter": 9,
+      "page": 134
+    },
+    {
+      "term": "Neerlandia",
+      "chapter": 9,
+      "page": 143
+    },
+    {
+      "term": "Neerlandia",
+      "chapter": 9,
+      "page": 145
+    },
+    {
+      "term": "Neerlandia",
+      "chapter": 10,
+      "page": 151
+    },
+    {
+      "term": "Ciénaga",
+      "chapter": 10,
+      "page": 153
+    },
+    {
+      "term": "Ciénaga",
+      "chapter": 10,
+      "page": 158
+    },
+    {
+      "term": "Roma",
+      "chapter": 10,
+      "page": 160
+    },
+    {
+      "term": "Ciénaga",
+      "chapter": 10,
+      "page": 160
+    },
+    {
+      "term": "Ciénaga",
+      "chapter": 10,
+      "page": 162
+    },
+    {
+      "term": "Madagascar",
+      "chapter": 10,
+      "page": 163
+    },
+    {
+      "term": "Madagascar",
+      "chapter": 11,
+      "page": 164
+    },
+    {
+      "term": "Ciénaga",
+      "chapter": 11,
+      "page": 164
+    },
+    {
+      "term": "Madagascar",
+      "chapter": 11,
+      "page": 165
+    },
+    {
+      "term": "Neerlandia",
+      "chapter": 11,
+      "page": 172
+    },
+    {
+      "term": "Ciénaga",
+      "chapter": 11,
+      "page": 178
+    },
+    {
+      "term": "Neerlandia",
+      "chapter": 12,
+      "page": 191
+    },
+    {
+      "term": "Neerlandia",
+      "chapter": 12,
+      "page": 195
+    },
+    {
+      "term": "Ciénaga",
+      "chapter": 13,
+      "page": 205
+    },
+    {
+      "term": "Ciénaga",
+      "chapter": 15,
+      "page": 235
+    },
+    {
+      "term": "Cracovia",
+      "chapter": 15,
+      "page": 237
+    },
+    {
+      "term": "Prattville",
+      "chapter": 15,
+      "page": 240
+    },
+    {
+      "term": "Chicago",
+      "chapter": 15,
+      "page": 240
+    },
+    {
+      "term": "Neerlandia",
+      "chapter": 16,
+      "page": 255
+    },
+    {
+      "term": "Rodas",
+      "chapter": 16,
+      "page": 257
+    },
+    {
+      "term": "Persia",
+      "chapter": 16,
+      "page": 260
+    },
+    {
+      "term": "Ciénaga",
+      "chapter": 16,
+      "page": 263
+    },
+    {
+      "term": "Roma",
+      "chapter": 17,
+      "page": 268
+    },
+    {
+      "term": "Neerlandia",
+      "chapter": 17,
+      "page": 275
+    },
+    {
+      "term": "Bruselas",
+      "chapter": 17,
+      "page": 277
+    },
+    {
+      "term": "Roma",
+      "chapter": 17,
+      "page": 277
+    },
+    {
+      "term": "Bruselas",
+      "chapter": 17,
+      "page": 280
+    },
+    {
+      "term": "Bruselas",
+      "chapter": 17,
+      "page": 281
+    },
+    {
+      "term": "París",
+      "chapter": 17,
+      "page": 281
+    },
+    {
+      "term": "Bruselas",
+      "chapter": 17,
+      "page": 282
+    },
+    {
+      "term": "Riohacha",
+      "chapter": 18,
+      "page": 287
+    },
+    {
+      "term": "Bruselas",
+      "chapter": 18,
+      "page": 289
+    },
+    {
+      "term": "Roma",
+      "chapter": 18,
+      "page": 289
+    },
+    {
+      "term": "Roma",
+      "chapter": 18,
+      "page": 294
+    },
+    {
+      "term": "Roma",
+      "chapter": 18,
+      "page": 295
+    },
+    {
+      "term": "Roma",
+      "chapter": 18,
+      "page": 297
+    },
+    {
+      "term": "Roma",
+      "chapter": 18,
+      "page": 298
+    },
+    {
+      "term": "islas Afortunadas",
+      "chapter": 19,
+      "page": 302
+    },
+    {
+      "term": "Europa",
+      "chapter": 19,
+      "page": 302
+    },
+    {
+      "term": "islas Afortunadas",
+      "chapter": 19,
+      "page": 303
+    },
+    {
+      "term": "Bruselas",
+      "chapter": 19,
+      "page": 306
+    },
+    {
+      "term": "Congo Belga",
+      "chapter": 19,
+      "page": 306
+    },
+    {
+      "term": "Caribe",
+      "chapter": 19,
+      "page": 306
+    },
+    {
+      "term": "África",
+      "chapter": 19,
+      "page": 306
+    },
+    {
+      "term": "Bruselas",
+      "chapter": 19,
+      "page": 313
+    },
+    {
+      "term": "Caribe",
+      "chapter": 19,
+      "page": 313
+    },
+    {
+      "term": "Europa",
+      "chapter": 19,
+      "page": 314
+    },
+    {
+      "term": "Barcelona",
+      "chapter": 20,
+      "page": 320
+    },
+    {
+      "term": "Caribe",
+      "chapter": 20,
+      "page": 321
+    },
+    {
+      "term": "París",
+      "chapter": 20,
+      "page": 322
+    },
+    {
+      "term": "Prattville",
+      "chapter": 20,
+      "page": 323
+    },
+    {
+      "term": "Bruselas",
+      "chapter": 20,
+      "page": 323
+    },
+    {
+      "term": "Bruselas",
+      "chapter": 20,
+      "page": 324
+    },
+    {
+      "term": "París",
+      "chapter": 20,
+      "page": 325
+    },
+    {
+      "term": "Leopoldville",
+      "chapter": 20,
+      "page": 325
+    },
+    {
+      "term": "Barcelona",
+      "chapter": 20,
+      "page": 328
+    },
+    {
+      "term": "Riohacha",
+      "chapter": 20,
+      "page": 333
+    }
+  ]
+}

@@ -1,0 +1,529 @@
+{
+  "sourceSha256": "427bb700740533f93c313bf32170e1dd2f83d8681409510b2035a9ffacbe9b25",
+  "source": "Reader-provided complete Spanish PDF, 334 pages; edition unidentified",
+  "method": "Whole-text extraction and geographic occurrence census; contextual verification of the town setting in each of 20 sections. Not an exhaustive revalidation of every other place.",
+  "sections": [
+    {
+      "id": 1,
+      "pageStart": 2,
+      "pageEnd": 15,
+      "characters": 35402,
+      "words": 5955,
+      "sha256": "dac8ed6334e2bf2531992f5fc1903f569a0fcc91063db4cf0d0510237e86eeab",
+      "matchesPreviousExtraction": true
+    },
+    {
+      "id": 2,
+      "pageStart": 16,
+      "pageEnd": 30,
+      "characters": 35910,
+      "words": 6195,
+      "sha256": "a0cf6f1f119aaa51b4e9084419fd65d227c639bfb4fc5a0656404c391cfba986",
+      "matchesPreviousExtraction": true
+    },
+    {
+      "id": 3,
+      "pageStart": 31,
+      "pageEnd": 48,
+      "characters": 44663,
+      "words": 7626,
+      "sha256": "8b4d1b3f6960de9eb8096774562712dfa22cf08388ff695d445bb2e8894e4561",
+      "matchesPreviousExtraction": true
+    },
+    {
+      "id": 4,
+      "pageStart": 49,
+      "pageEnd": 65,
+      "characters": 40941,
+      "words": 6941,
+      "sha256": "31bba5223449114651c6052ff287b3a2c2afed30e80bf1c721c45e4b9c8c7c64",
+      "matchesPreviousExtraction": true
+    },
+    {
+      "id": 5,
+      "pageStart": 66,
+      "pageEnd": 84,
+      "characters": 46190,
+      "words": 7884,
+      "sha256": "d61205db5f5a897ef571f0f92752028d7afa8fb08bfb437668dd80d300c0cc20",
+      "matchesPreviousExtraction": true
+    },
+    {
+      "id": 6,
+      "pageStart": 85,
+      "pageEnd": 98,
+      "characters": 35133,
+      "words": 5956,
+      "sha256": "665127a964b72bc59afad14633367efd824f2b492e5e8ee829741dde7ed66a34",
+      "matchesPreviousExtraction": true
+    },
+    {
+      "id": 7,
+      "pageStart": 99,
+      "pageEnd": 114,
+      "characters": 39626,
+      "words": 6758,
+      "sha256": "a8c9d91ee543fad572ce15f82ef3b6702f45a13de399ffb0c776950b14dcfe19",
+      "matchesPreviousExtraction": true
+    },
+    {
+      "id": 8,
+      "pageStart": 115,
+      "pageEnd": 130,
+      "characters": 38133,
+      "words": 6447,
+      "sha256": "a6602938bff45ee357c9eb52413c8467563efc0f9632a1037d476a9372ce5025",
+      "matchesPreviousExtraction": true
+    },
+    {
+      "id": 9,
+      "pageStart": 131,
+      "pageEnd": 146,
+      "characters": 39079,
+      "words": 6572,
+      "sha256": "3adc691625d5c40022758027ae01d6f8211a511cf425bd25730264f4b1b32bfc",
+      "matchesPreviousExtraction": true
+    },
+    {
+      "id": 10,
+      "pageStart": 147,
+      "pageEnd": 163,
+      "characters": 42103,
+      "words": 7141,
+      "sha256": "41c38bff5d30f87fe4e6fddb3056b41a2771d07684a992b4f39c5902419523f4",
+      "matchesPreviousExtraction": true
+    },
+    {
+      "id": 11,
+      "pageStart": 164,
+      "pageEnd": 179,
+      "characters": 40164,
+      "words": 6781,
+      "sha256": "21483816967ae98cf276c43ad06ab46a540e18df46fae9c952e544a2650d4e37",
+      "matchesPreviousExtraction": true
+    },
+    {
+      "id": 12,
+      "pageStart": 180,
+      "pageEnd": 196,
+      "characters": 41963,
+      "words": 7054,
+      "sha256": "3ce06b871ab884214def65d259fef078a3957a27735988088e4dfc578a2326d0",
+      "matchesPreviousExtraction": true
+    },
+    {
+      "id": 13,
+      "pageStart": 197,
+      "pageEnd": 214,
+      "characters": 45858,
+      "words": 7971,
+      "sha256": "a28b1ea0d4b71017c7c90beb7af52c249a24d291daf291116ad1d09144bdcc0d",
+      "matchesPreviousExtraction": true
+    },
+    {
+      "id": 14,
+      "pageStart": 215,
+      "pageEnd": 233,
+      "characters": 47179,
+      "words": 8163,
+      "sha256": "241e90e1885302144f09ade32d97c958c5c9e34a72fa429a59ec33f84ccb2122",
+      "matchesPreviousExtraction": true
+    },
+    {
+      "id": 15,
+      "pageStart": 234,
+      "pageEnd": 250,
+      "characters": 42835,
+      "words": 7271,
+      "sha256": "ffedeb3d84fd46fc252943782b4d7f814835c918b0ac9e62d2678d3499c9f6ba",
+      "matchesPreviousExtraction": true
+    },
+    {
+      "id": 16,
+      "pageStart": 251,
+      "pageEnd": 265,
+      "characters": 37919,
+      "words": 6488,
+      "sha256": "47c4d8c56cb6fe52205cfedaefff035f063877a2bc8e8a65b1aacf78e68f7aa7",
+      "matchesPreviousExtraction": true
+    },
+    {
+      "id": 17,
+      "pageStart": 266,
+      "pageEnd": 283,
+      "characters": 44188,
+      "words": 7537,
+      "sha256": "6a262b95abe71603d41f7022e72ea85de683d1866388b44a3a701c97476ec064",
+      "matchesPreviousExtraction": true
+    },
+    {
+      "id": 18,
+      "pageStart": 284,
+      "pageEnd": 300,
+      "characters": 42097,
+      "words": 7270,
+      "sha256": "97bc411604c5a9973f2852f7593ea94e3cd0c755de9f71b7a21d1c1a0ec879bf",
+      "matchesPreviousExtraction": true
+    },
+    {
+      "id": 19,
+      "pageStart": 301,
+      "pageEnd": 318,
+      "characters": 43984,
+      "words": 7382,
+      "sha256": "a7e8af29a471df17f5f1503681081f69b27a844ae2ea7fd5f631cb8a7429d363",
+      "matchesPreviousExtraction": true
+    },
+    {
+      "id": 20,
+      "pageStart": 319,
+      "pageEnd": 333,
+      "characters": 37460,
+      "words": 6304,
+      "sha256": "5d45f9a1e609e65a79f9150adc1227c73c52949fc9531d1f24a7d47487270e6b",
+      "matchesPreviousExtraction": true
+    }
+  ],
+  "review": [
+    {
+      "chapter": 1,
+      "page": 2,
+      "quote": "Macondo era entonces una aldea de veinte casas de barro y cañabrava",
+      "highlightTerms": [
+        "Macondo"
+      ],
+      "category": "action",
+      "scenes": {
+        "it": "Gli zingari portano le invenzioni nel villaggio dei Buendía.",
+        "en": "The travellers bring their inventions to the Buendías’ village.",
+        "fr": "Les gitans apportent leurs inventions au village des Buendía.",
+        "es": "Los gitanos llevan sus inventos a la aldea de los Buendía."
+      },
+      "narrativeLevel": "narrated scene in Macondo; real model Aracataca is not a textual mention",
+      "sectionSha256": "dac8ed6334e2bf2531992f5fc1903f569a0fcc91063db4cf0d0510237e86eeab"
+    },
+    {
+      "chapter": 2,
+      "page": 20,
+      "quote": "Les ordenó derribar los árboles para hacer un claro junto al río",
+      "highlightTerms": [
+        "junto al río"
+      ],
+      "category": "action",
+      "scenes": {
+        "it": "Dopo la migrazione, José Arcadio Buendía fonda il villaggio presso il fiume.",
+        "en": "After the migration, José Arcadio Buendía founds the village beside the river.",
+        "fr": "Après la migration, José Arcadio Buendía fonde le village au bord du fleuve.",
+        "es": "Tras la migración, José Arcadio Buendía funda la aldea junto al río."
+      },
+      "narrativeLevel": "narrated scene in Macondo; real model Aracataca is not a textual mention",
+      "sectionSha256": "a0cf6f1f119aaa51b4e9084419fd65d227c639bfb4fc5a0656404c391cfba986"
+    },
+    {
+      "chapter": 3,
+      "page": 40,
+      "quote": "Mientras Macondo celebraba la reconquista de los recuerdos",
+      "highlightTerms": [
+        "Macondo"
+      ],
+      "category": "action",
+      "scenes": {
+        "it": "Il villaggio recupera la memoria dopo la peste dell’insonnia.",
+        "en": "The village recovers its memory after the insomnia plague.",
+        "fr": "Le village retrouve la mémoire après la peste de l’insomnie.",
+        "es": "La aldea recupera la memoria después de la peste del insomnio."
+      },
+      "narrativeLevel": "narrated scene in Macondo; real model Aracataca is not a textual mention",
+      "sectionSha256": "8b4d1b3f6960de9eb8096774562712dfa22cf08388ff695d445bb2e8894e4561"
+    },
+    {
+      "chapter": 4,
+      "page": 49,
+      "quote": "La casa nueva, blanca como una paloma, fue estrenada con un baile.",
+      "highlightTerms": [
+        "La casa nueva"
+      ],
+      "category": "action",
+      "scenes": {
+        "it": "Il ballo inaugura la nuova casa dei Buendía, a Macondo.",
+        "en": "A ball inaugurates the Buendías’ new house in Macondo.",
+        "fr": "Un bal inaugure la nouvelle maison des Buendía à Macondo.",
+        "es": "Un baile inaugura la nueva casa de los Buendía en Macondo."
+      },
+      "narrativeLevel": "narrated scene in Macondo; real model Aracataca is not a textual mention",
+      "sectionSha256": "31bba5223449114651c6052ff287b3a2c2afed30e80bf1c721c45e4b9c8c7c64"
+    },
+    {
+      "chapter": 5,
+      "page": 66,
+      "quote": "Aureliano Buendía y Remedios Moscote se casaron un domingo de marzo",
+      "highlightTerms": [
+        "se casaron"
+      ],
+      "category": "action",
+      "scenes": {
+        "it": "Aureliano e Remedios si sposano nella casa dei Buendía.",
+        "en": "Aureliano and Remedios marry in the Buendía house.",
+        "fr": "Aureliano et Remedios se marient dans la maison des Buendía.",
+        "es": "Aureliano y Remedios se casan en la casa de los Buendía."
+      },
+      "narrativeLevel": "narrated scene in Macondo; real model Aracataca is not a textual mention",
+      "sectionSha256": "d61205db5f5a897ef571f0f92752028d7afa8fb08bfb437668dd80d300c0cc20"
+    },
+    {
+      "chapter": 6,
+      "page": 94,
+      "quote": "A fines de febrero llegó a Macondo una anciana de aspecto ceniciento",
+      "highlightTerms": [
+        "Macondo"
+      ],
+      "category": "action",
+      "scenes": {
+        "it": "La visita dell’anziana attraversa il periodo del potere di Arcadio nel villaggio.",
+        "en": "The old woman’s visit takes place during Arcadio’s rule in the village.",
+        "fr": "La visite de la vieille femme se situe pendant le pouvoir d’Arcadio au village.",
+        "es": "La visita de la anciana ocurre durante el gobierno de Arcadio en la aldea."
+      },
+      "narrativeLevel": "narrated scene in Macondo; real model Aracataca is not a textual mention",
+      "sectionSha256": "665127a964b72bc59afad14633367efd824f2b492e5e8ee829741dde7ed66a34"
+    },
+    {
+      "chapter": 7,
+      "page": 106,
+      "quote": "Tres meses después, cuando entró victorioso a Macondo",
+      "highlightTerms": [
+        "Macondo"
+      ],
+      "category": "action",
+      "scenes": {
+        "it": "Aureliano rientra vittorioso nel paese e incontra Gerineldo Márquez.",
+        "en": "Aureliano returns victorious to the town and meets Gerineldo Márquez.",
+        "fr": "Aureliano revient victorieux au village et retrouve Gerineldo Márquez.",
+        "es": "Aureliano vuelve victorioso al pueblo y se encuentra con Gerineldo Márquez."
+      },
+      "narrativeLevel": "narrated scene in Macondo; real model Aracataca is not a textual mention",
+      "sectionSha256": "a8c9d91ee543fad572ce15f82ef3b6702f45a13de399ffb0c776950b14dcfe19"
+    },
+    {
+      "chapter": 8,
+      "page": 126,
+      "quote": "el coronel Aureliano Buendía con mil hombres bien armados atacó a Macondo",
+      "highlightTerms": [
+        "Macondo"
+      ],
+      "category": "action",
+      "scenes": {
+        "it": "Aureliano attacca Macondo: il paese è teatro dell’azione militare.",
+        "en": "Aureliano attacks Macondo: the town is the scene of military action.",
+        "fr": "Aureliano attaque Macondo : le village est le théâtre de l’action militaire.",
+        "es": "Aureliano ataca Macondo: el pueblo es escenario de la acción militar."
+      },
+      "narrativeLevel": "narrated scene in Macondo; real model Aracataca is not a textual mention",
+      "sectionSha256": "a6602938bff45ee357c9eb52413c8467563efc0f9632a1037d476a9372ce5025"
+    },
+    {
+      "chapter": 9,
+      "page": 133,
+      "quote": "cuando el coronel Aureliano Buendía volvió a Macondo",
+      "highlightTerms": [
+        "Macondo"
+      ],
+      "category": "action",
+      "scenes": {
+        "it": "Aureliano torna a Macondo durante la fase finale della guerra.",
+        "en": "Aureliano returns to Macondo during the final phase of the war.",
+        "fr": "Aureliano revient à Macondo pendant la dernière phase de la guerre.",
+        "es": "Aureliano vuelve a Macondo durante la fase final de la guerra."
+      },
+      "narrativeLevel": "narrated scene in Macondo; real model Aracataca is not a textual mention",
+      "sectionSha256": "3adc691625d5c40022758027ae01d6f8211a511cf425bd25730264f4b1b32bfc"
+    },
+    {
+      "chapter": 10,
+      "page": 157,
+      "quote": "se precipitaron a la ribera",
+      "highlightTerms": [
+        "la ribera"
+      ],
+      "category": "action",
+      "scenes": {
+        "it": "Gli abitanti accorrono al fiume all’arrivo dell’imbarcazione di José Arcadio Segundo.",
+        "en": "The inhabitants rush to the river when José Arcadio Segundo’s boat arrives.",
+        "fr": "Les habitants accourent au fleuve à l’arrivée du bateau de José Arcadio Segundo.",
+        "es": "Los habitantes acuden al río cuando llega la embarcación de José Arcadio Segundo."
+      },
+      "narrativeLevel": "narrated scene in Macondo; real model Aracataca is not a textual mention",
+      "sectionSha256": "41c38bff5d30f87fe4e6fddb3056b41a2771d07684a992b4f39c5902419523f4"
+    },
+    {
+      "chapter": 11,
+      "page": 179,
+      "quote": "todos los habitantes se echaron a la calle y vieron a Aureliano Triste",
+      "highlightTerms": [
+        "la calle"
+      ],
+      "category": "action",
+      "scenes": {
+        "it": "Gli abitanti assistono all’arrivo della prima locomotiva a Macondo.",
+        "en": "The inhabitants witness the arrival of the first locomotive in Macondo.",
+        "fr": "Les habitants assistent à l’arrivée de la première locomotive à Macondo.",
+        "es": "Los habitantes presencian la llegada de la primera locomotora a Macondo."
+      },
+      "narrativeLevel": "narrated scene in Macondo; real model Aracataca is not a textual mention",
+      "sectionSha256": "21483816967ae98cf276c43ad06ab46a540e18df46fae9c952e544a2650d4e37"
+    },
+    {
+      "chapter": 12,
+      "page": 181,
+      "quote": "llegó a Macondo y almorzó en la casa el rechoncho y sonriente míster Herbert.",
+      "highlightTerms": [
+        "Macondo"
+      ],
+      "category": "action",
+      "scenes": {
+        "it": "Herbert arriva e pranza dai Buendía, prima dell’espansione bananiera.",
+        "en": "Herbert arrives and lunches with the Buendías before the banana expansion.",
+        "fr": "Herbert arrive et déjeune chez les Buendía avant l’expansion bananière.",
+        "es": "Herbert llega y almuerza con los Buendía antes de la expansión bananera."
+      },
+      "narrativeLevel": "narrated scene in Macondo; real model Aracataca is not a textual mention",
+      "sectionSha256": "3ce06b871ab884214def65d259fef078a3957a27735988088e4dfc578a2326d0"
+    },
+    {
+      "chapter": 13,
+      "page": 214,
+      "quote": "se quedó inmóvil con la frente apoyada en el tronco del castaño.",
+      "highlightTerms": [
+        "el tronco del castaño"
+      ],
+      "category": "action",
+      "scenes": {
+        "it": "L’ultima giornata del colonnello termina presso il castagno nel cortile di casa.",
+        "en": "The colonel’s last day ends beside the chestnut tree in the house courtyard.",
+        "fr": "La dernière journée du colonel se termine près du châtaignier dans la cour de la maison.",
+        "es": "La última jornada del coronel termina junto al castaño del patio de la casa."
+      },
+      "narrativeLevel": "narrated scene in Macondo; real model Aracataca is not a textual mention",
+      "sectionSha256": "a28b1ea0d4b71017c7c90beb7af52c249a24d291daf291116ad1d09144bdcc0d"
+    },
+    {
+      "chapter": 14,
+      "page": 223,
+      "quote": "se divulgó en Macondo antes del mediodía",
+      "highlightTerms": [
+        "Macondo"
+      ],
+      "category": "action",
+      "scenes": {
+        "it": "La notizia della morte annunciata di Amaranta circola nel paese, che le affida lettere per i defunti.",
+        "en": "News of Amaranta’s announced death spreads through the town, whose people entrust her with letters for the dead.",
+        "fr": "La nouvelle de la mort annoncée d’Amaranta circule au village, qui lui confie des lettres pour les morts.",
+        "es": "La noticia de la muerte anunciada de Amaranta circula por el pueblo, que le entrega cartas para los muertos."
+      },
+      "narrativeLevel": "narrated scene in Macondo; real model Aracataca is not a textual mention",
+      "sectionSha256": "241e90e1885302144f09ade32d97c958c5c9e34a72fa429a59ec33f84ccb2122"
+    },
+    {
+      "chapter": 15,
+      "page": 242,
+      "quote": "José Arcadio Segundo estaba entre la muchedumbre que se concentré en la estación desde la mañana del viernes.",
+      "highlightTerms": [
+        "la estación"
+      ],
+      "category": "action",
+      "scenes": {
+        "it": "José Arcadio Segundo assiste alla concentrazione degli scioperanti alla stazione di Macondo.",
+        "en": "José Arcadio Segundo witnesses the strikers’ gathering at Macondo station.",
+        "fr": "José Arcadio Segundo assiste au rassemblement des grévistes à la gare de Macondo.",
+        "es": "José Arcadio Segundo presencia la concentración de los huelguistas en la estación de Macondo."
+      },
+      "narrativeLevel": "narrated scene in Macondo; real model Aracataca is not a textual mention",
+      "sectionSha256": "ffedeb3d84fd46fc252943782b4d7f814835c918b0ac9e62d2678d3499c9f6ba"
+    },
+    {
+      "chapter": 16,
+      "page": 264,
+      "quote": "estaban sentados en mitad de la calle gozando de los primeros soles.",
+      "highlightTerms": [
+        "la calle"
+      ],
+      "category": "action",
+      "scenes": {
+        "it": "Dopo la lunga pioggia, i superstiti siedono nella strada del paese devastato.",
+        "en": "After the long rain, the survivors sit in the street of the devastated town.",
+        "fr": "Après la longue pluie, les survivants sont assis dans la rue du village dévasté.",
+        "es": "Después de la larga lluvia, los sobrevivientes están sentados en la calle del pueblo devastado."
+      },
+      "narrativeLevel": "narrated scene in Macondo; real model Aracataca is not a textual mention",
+      "sectionSha256": "47c4d8c56cb6fe52205cfedaefff035f063877a2bc8e8a65b1aacf78e68f7aa7"
+    },
+    {
+      "chapter": 17,
+      "page": 267,
+      "quote": "pidió las llaves del cuarto de Melquíades para ver en qué estado se encontraba.",
+      "highlightTerms": [
+        "el cuarto de Melquíades"
+      ],
+      "category": "action",
+      "scenes": {
+        "it": "Nella casa di Macondo, Úrsula affronta il declino finale dopo la pioggia.",
+        "en": "In the Macondo house, Úrsula faces her final decline after the rain.",
+        "fr": "Dans la maison de Macondo, Úrsula affronte son dernier déclin après la pluie.",
+        "es": "En la casa de Macondo, Úrsula afronta su declive final después de la lluvia."
+      },
+      "narrativeLevel": "narrated scene in Macondo; real model Aracataca is not a textual mention",
+      "sectionSha256": "6a262b95abe71603d41f7022e72ea85de683d1866388b44a3a701c97476ec064"
+    },
+    {
+      "chapter": 18,
+      "page": 284,
+      "quote": "Aureliano no abandonó en mucho tiempo el cuarto de Melquíades.",
+      "highlightTerms": [
+        "el cuarto de Melquíades"
+      ],
+      "category": "action",
+      "scenes": {
+        "it": "Aureliano legge nella stanza di Melquíades, nella casa dei Buendía. Il nome Macondo non compare nel capitolo: l’ambientazione è stabilita dalla continuità della casa e delle scene.",
+        "en": "Aureliano reads in Melquíades’ room in the Buendía house. Macondo is not named in this chapter: the setting follows from the continuity of the house and its scenes.",
+        "fr": "Aureliano lit dans la chambre de Melquíades, dans la maison des Buendía. Macondo n’est pas nommé dans ce chapitre : le cadre est établi par la continuité de la maison et des scènes.",
+        "es": "Aureliano lee en el cuarto de Melquíades de la casa de los Buendía. El nombre Macondo no aparece en este capítulo: el escenario se establece por la continuidad de la casa y de las escenas."
+      },
+      "narrativeLevel": "narrated scene in Macondo; real model Aracataca is not a textual mention",
+      "sectionSha256": "97bc411604c5a9973f2852f7593ea94e3cd0c755de9f71b7a21d1c1a0ec879bf"
+    },
+    {
+      "chapter": 19,
+      "page": 308,
+      "quote": "Amaranta Úrsula regresó a Macondo",
+      "highlightTerms": [
+        "Macondo"
+      ],
+      "category": "action",
+      "scenes": {
+        "it": "Amaranta Úrsula torna nel paese e ritrova Aureliano.",
+        "en": "Amaranta Úrsula returns to the town and finds Aureliano again.",
+        "fr": "Amaranta Úrsula revient au village et retrouve Aureliano.",
+        "es": "Amaranta Úrsula vuelve al pueblo y se reencuentra con Aureliano."
+      },
+      "narrativeLevel": "narrated scene in Macondo; real model Aracataca is not a textual mention",
+      "sectionSha256": "a7e8af29a471df17f5f1503681081f69b27a844ae2ea7fd5f631cb8a7429d363"
+    },
+    {
+      "chapter": 20,
+      "page": 333,
+      "quote": "Macondo era ya un pavoroso remolino de polvo y escombros",
+      "highlightTerms": [
+        "Macondo"
+      ],
+      "category": "action",
+      "scenes": {
+        "it": "Aureliano legge i manoscritti mentre l’uragano cancella Macondo.",
+        "en": "Aureliano reads the manuscripts as the hurricane wipes out Macondo.",
+        "fr": "Aureliano lit les manuscrits tandis que l’ouragan efface Macondo.",
+        "es": "Aureliano lee los manuscritos mientras el huracán borra Macondo."
+      },
+      "narrativeLevel": "narrated scene in Macondo; real model Aracataca is not a textual mention",
+      "sectionSha256": "5d45f9a1e609e65a79f9150adc1227c73c52949fc9531d1f24a7d47487270e6b"
+    }
+  ]
+}

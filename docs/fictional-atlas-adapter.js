@@ -23,7 +23,7 @@
    if(typeof introduction!=='string'||!introduction.trim())throw Error('Chapter introduction missing: '+(i+1));
    const c={id:i+1,title:labels.chapter+' '+(i+1),setting:text.town,mapEpoch:epoch,places:[],placeText:[],placeSources:{},placeExcerpts:{},placeCategories:{},placeKinds:{},placeNames:{},unlocatedPlaces:[],time:payload.epochTexts[locale].labels[epoch],people:text.town,links:[],text:introduction};
    const opening=payload.emptyChapterExcerpts?.[i+1];if(opening)c.excerpt={original:{...opening,type:'original',attribution:payload.book.author+' · '+originalTitle+' · '+c.title},translations:{}};
-   for(const p of records){const geo=geographicPlaces[p.id],excerpt=geo?.excerpts?.[i+1];const credit=excerpt?payload.book.author+' · '+originalTitle+' · '+c.title:attribution(p);
+   for(const p of records){const geo=geographicPlaces[p.id],excerpt=geo?.excerpts?.[i+1];const credit=excerpt?.reference||(excerpt?payload.book.author+' · '+originalTitle+' · '+c.title:attribution(p));
     if(p.x===null&&!geographicPlaces[p.id]){c.unlocatedPlaces.push({id:p.id,name:p.names[locale],text:p.scenes[locale]+' · '+credit,quote:p.source.quote,language:'es'});continue;}
     c.places.push(p.id);c.placeKinds[p.id]=model.places[p.id].kind;c.placeNames[p.id]=p.names[locale];c.placeText.push(geo?.chapterScenes?.[i+1]?.[locale]||geo?.chapterScenes?.[i+1]?.en||(excerpt?scenePrompt:p.scenes[locale]));c.placeCategories[p.id]=geo?.chapterRoles?.[i+1]||p.role;c.placeSources[p.id]={label:credit};
     c.placeExcerpts[p.id]={original:{quote:excerpt?.quote||p.source.quote,language:'es',type:'original',attribution:credit,...(excerpt?.highlightTerms?{highlightTerms:excerpt.highlightTerms}:{})},translations:{}};
