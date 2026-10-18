@@ -17,9 +17,15 @@ for(const id of ['proust','sound-and-fury','macondo']){
   for(const [pid,p]of Object.entries({...geo.citedPlaces,...geo.places}))assert(p.coords?.every(Number.isFinite),id+': geographic '+pid);
   for(const [pid,p]of Object.entries({...image.citedPlaces,...image.places})){assert(anchors.has(pid));assert.equal(p.coords,undefined);assert.equal(p.geographic,undefined);}
   for(const chapter of image.chapters){assert.equal(chapter.places.length,chapter.placeText.length);assert.equal(chapter.unlocatedPlaces.length,0);for(const pid of chapter.places){assert(anchors.has(pid));assert(chapter.placeExcerpts[pid]?.original.quote);}}
-  assert.equal(geo.chapters.length,image.chapters.length);assert.equal(geo.chapters.length,source.chapters.length);
+  assert.equal(geo.chapters.length,source.chapters.length);
+  assert.equal(image.chapters.length,image.book.illustration.epochs.length);
+  assert.equal(image.book.hashPrefix,'view');assert.equal(image.book.illustration.viewsAsSections,true);
+  const expected=new Set(source.chapters.flatMap(c=>c.places).filter(pid=>anchors.has(pid)));
+  const actual=new Set(image.chapters.flatMap(c=>c.places));
+  for(const pid of expected)assert(actual.has(pid),id+': all illustrated locations retained '+pid);
+  image.chapters.forEach((view,index)=>{assert.equal(view.id,image.book.illustration.epochs[index].id);for(const pid of view.places){assert(image.book.illustration.anchors[view.id].positions[pid]);assert(view.placeOccurrences[pid].length);}});
   if(id==='macondo'){assert.equal(Object.keys(geo.places).length,4);assert.equal(Object.keys(image.places).length,29);for(const p of Object.values(geo.places))assert(p.coords);assert(!ctx.window.atlasCsv.build(image,'places',lang).includes('Riohacha'));}
-  if(id==='proust'){assert.equal(Object.keys(image.places).length,5);assert(!image.chapters[2].places.length);assert.equal(geo.places.hotel.coords[0],source.places.hotel.coords[0]);assert(!image.places.hotel.name.includes('Cabourg'));assert.equal(image.chapters[1].placeNames.hotel,image.places.hotel.name);}
+  if(id==='proust'){assert.equal(Object.keys(image.places).length,5);assert.deepEqual(Array.from(image.chapters[0].places),['leonie','church','garden']);assert.deepEqual(Array.from(image.chapters[1].places),['hotel','promenade']);assert.equal(geo.places.hotel.coords[0],source.places.hotel.coords[0]);assert(!image.places.hotel.name.includes('Cabourg'));assert.equal(image.chapters[1].placeNames.hotel,image.places.hotel.name);}
  }
 }
 const catalog={window:{}};vm.runInNewContext(fs.readFileSync('docs/catalogue.js','utf8'),catalog);
@@ -29,5 +35,6 @@ assert(!catalog.window.atlasCatalogueView.render([example]).cards.includes('mode
 assert(!fs.existsSync('docs/imaginary.html'));
 assert(!fs.readFileSync('docs/index.html','utf8').includes('imaginary.html'));
 assert(!fs.readFileSync('docs/load-book.js','utf8').includes('imaginary.html'));
-assert(fs.readFileSync('docs/load-book.js','utf8').includes('Open literary views'));
+assert(fs.readFileSync('docs/load-book.js','utf8').includes('link.textContent=view.name'));
+assert.deepEqual(plain(ctx.window.AtlasModes.views({book:{illustratedView:{views:[{id:'town',names:{en:'Town',it:'Città'}}]}}},'it')),[{id:'town',name:'Città'}]);
 console.log('PASS: three novels have independent geographic/illustrated points, original evidence, image-only exports and access exclusively through the novel; no collection or catalogue links.');

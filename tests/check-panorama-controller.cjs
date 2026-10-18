@@ -25,5 +25,12 @@ vm.runInContext(fs.readFileSync('docs/illustrated-map-controller.js','utf8')+'\n
  controller.allowGeographicSelection();const realChapter={...chapter,places:['house','paris']};await controller.update(realChapter,{action:true,mentioned:true},'paris');assert.equal(controller.geographic,true);
  controller.allowGeographicSelection();await controller.update(realChapter,{action:true,mentioned:true},'house');assert.equal(controller.geographic,false);
  const excluded={...chapter,illustratedExcluded:['house']};await controller.update(excluded,{action:true,mentioned:true},'house');assert.equal(controller.position('house'),null);assert.equal(controller.geographic,true);
+ // A shared landmark must stay in the selected historical era.
+ const epochs={...config,viewsAsSections:true,geographicPlaces:{},epochs:[{id:'early',image:'early.png'},{id:'late',image:'late.png'}],anchors:{early:{positions:{house:{x:.2,y:.3}}},late:{positions:{house:{x:.7,y:.8},square:{x:.5,y:.6}}}}};
+ const eras=new ctx.Controller(epochs,container,()=>{});
+ const early={mapEpoch:0,places:['house'],placeCategories:{house:'action'}},late={mapEpoch:1,places:['house','square'],placeCategories:{house:'action',square:'mentioned'}};
+ await eras.update(early,{action:true,mentioned:true},'house');assert.equal(eras.epoch,0);
+ await eras.update(late,{action:true,mentioned:true},'house');assert.equal(eras.epoch,1);assert.equal(eras.image.src,'late.png');assert.equal(eras.position('house').x,700);assert.equal(eras.viewPicker,undefined);
+ await eras.update(late,{action:false,mentioned:true},'house');assert.equal(eras.epoch,1);assert.deepEqual([...eras.visibleNumbers().values()],['C1']);
  console.log('PASS: separate panorama views never reuse foreign anchors; selecting a place changes image; filters renumber without changing identity; view picker selects a place in its target image.');
 })().catch(e=>{console.error(e);process.exitCode=1});

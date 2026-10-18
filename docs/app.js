@@ -161,7 +161,7 @@ window.atlasPresentation?.fitTitle?.();
 document.getElementById('book-author').textContent=book.author.toUpperCase()+' · '+book.year;
 document.querySelector('meta[name="description"]').content=book.description;
 document.getElementById('chapter-list-title').textContent=book.sidebarTitle||'Capitoli';
-document.getElementById('chapter-count').textContent=chapters.filter(chapter=>chapter.places.length||chapter.citations?.length).length+' '+t('mappe');
+document.getElementById('chapter-count').textContent=chapters.filter(chapter=>chapter.places.length||chapter.citations?.length).length+' '+t(book.literaryViews?'Views':'mappe');
 document.getElementById('chapter-help').textContent=book.help||t('Scegli un capitolo per esplorarne i luoghi.');
 document.getElementById('book-note-text').textContent=book.sidebarNote||'';
 document.getElementById('atlas-workspace').setAttribute('aria-label',t('Atlante')+': '+book.title);
@@ -196,11 +196,12 @@ function createBasemap(id){
 chapters.forEach((chapter,i)=>{
  const button=document.createElement('button');
  button.type='button';button.className='place-button';button.setAttribute('aria-pressed','false');
- button.innerHTML=`<span class="place-number">${number(chapter.id)}</span><span class="place-copy"><strong>${esc(chapter.title)}</strong>${chapter.setting?`<small>${esc(chapter.setting)}</small>`:''}</span>`;
+ button.innerHTML=`${book.literaryViews?'':`<span class="place-number">${number(chapter.id)}</span>`}<span class="place-copy"><strong>${esc(chapter.title)}</strong>${chapter.setting?`<small>${esc(chapter.setting)}</small>`:''}</span>`;
  button.addEventListener('click',()=>selectChapter(i));list.appendChild(button);
 });
 const allSectionsButton=document.createElement('button');allSectionsButton.type='button';allSectionsButton.textContent=t('All places');allSectionsButton.addEventListener('click',()=>{selectAllPlaces();chapterToggle.focus?.();});chapterMenu.appendChild(allSectionsButton);
-chapters.forEach((chapter,index)=>{const button=document.createElement('button');button.type='button';button.textContent=number(chapter.id)+' · '+chapter.title;button.addEventListener('click',()=>{selectChapter(index);chapterToggle.focus?.();});chapterMenu.appendChild(button);});
+if(book.literaryViews){allSectionsButton.hidden=true;document.getElementById('all-places').hidden=true;}
+chapters.forEach((chapter,index)=>{const button=document.createElement('button');button.type='button';button.textContent=(book.literaryViews?'':number(chapter.id)+' · ')+chapter.title;button.addEventListener('click',()=>{selectChapter(index);chapterToggle.focus?.();});chapterMenu.appendChild(button);});
 chapterToggle.addEventListener('click',()=>openChapterMenu());
 chapterPicker.addEventListener('pointerenter',event=>{if(event.pointerType==='mouse')openChapterMenu();});
 chapterPicker.addEventListener('pointerleave',event=>{if(event.pointerType==='mouse'&&!chapterMenu.contains?.(document.activeElement))closeChapterMenu();});
@@ -222,7 +223,7 @@ function selectChapter(index,move=true,updateHash=true){
  document.getElementById('all-places').setAttribute('aria-pressed','false');
  const chapter=chapters[current];
  Array.from(list.children).forEach((button,i)=>button.setAttribute('aria-pressed',String(i===current)));
- document.getElementById('map-heading').textContent=`${number(chapter.id)} · ${chapter.title}`;
+ document.getElementById('map-heading').textContent=(book.literaryViews?'':number(chapter.id)+' · ')+chapter.title;
  updateChapterMenu();
  document.getElementById('map').setAttribute('aria-label',`${t('Mappa')} · ${book.unit} ${chapter.id}: ${chapter.title}`);
  document.title=`${number(chapter.id)} · ${chapter.title} — ${book.title} · ${t('Atlante letterario')}`;
@@ -321,7 +322,7 @@ function unlocatedPlacesForDisplay(chapter){
 }
 function renderDetail(){
  const chapter=activeChapter();
- const eyebrow=current<0?esc(t('Whole novel'))+' · '+new Set([...globalPlaceIds,...globalCitations.map(reference=>reference.placeId)]).size+' '+esc(t('mapped places')):esc(book.unit.toUpperCase())+' '+number(chapter.id)+' '+t('DI')+' '+chapters.length+(chapter.english&&chapter.english!==chapter.title?' · '+esc(chapter.english):'');
+ const eyebrow=book.literaryViews?esc(t('Literary views')):current<0?esc(t('Whole novel'))+' · '+new Set([...globalPlaceIds,...globalCitations.map(reference=>reference.placeId)]).size+' '+esc(t('mapped places')):esc(book.unit.toUpperCase())+' '+number(chapter.id)+' '+t('DI')+' '+chapters.length+(chapter.english&&chapter.english!==chapter.title?' · '+esc(chapter.english):'');
  document.getElementById('detail').innerHTML=`<div><p class="detail-eyebrow">${eyebrow}</p><h2>${esc(chapter.title)}</h2><div class="tags"><span class="tag">${esc(chapter.time)}</span><span class="tag">${esc(chapter.people)}</span></div><div class="detail-nav"><button type="button" id="previous" aria-label="${esc(t('Sezione precedente'))}" ${current===0?'disabled':''}>${t('Precedente')}</button><button type="button" id="next" aria-label="${esc(t('Sezione successiva'))}" ${current===chapters.length-1?'disabled':''}>${t('Successivo')}</button></div><p class="episode-source">${esc([book.author,book.title,chapter.title].join(' · '))}</p></div><div class="detail-text"><p>${esc(chapter.text)}</p><h3 class="locations-heading">${t('Luoghi')} <span>${chapter.places.length}</span></h3><div class="location-buttons" id="episode-locations" aria-label="${t('Luoghi')}"></div><div id="selected-location" aria-live="polite"></div>${chapter.note?`<p class="episode-note">${esc(chapter.note)}</p>`:''}</div>`;
  document.getElementById('previous').onclick=()=>selectChapter(current-1);
  document.getElementById('next').onclick=()=>selectChapter(current+1);
@@ -490,7 +491,7 @@ async function selectMapPoint(event){
 }
 async function initializeMap(){
  if(isIllustrated){
-  illustratedMap=new IllustratedMapController(book.illustration,document.getElementById('map'),id=>{const index=activeChapter().places.indexOf(id);if(index<0)return;selectPlace(index,false);showMapPopup(true);centerSelectedPlace(false)},geographic=>{updateLocationNumbers();document.getElementById('osm-credit').hidden=!geographic;document.getElementById('map-heading').textContent=(current<0?t('All places'):number(activeChapter().id)+' · '+activeChapter().title)+(geographic?' · '+book.illustration.geographyLabels.map:'');if(book.illustratedView?.preferIllustratedAnchors)renderLocation();});
+  illustratedMap=new IllustratedMapController(book.illustration,document.getElementById('map'),id=>{const index=activeChapter().places.indexOf(id);if(index<0)return;selectPlace(index,false);showMapPopup(true);centerSelectedPlace(false)},geographic=>{updateLocationNumbers();document.getElementById('osm-credit').hidden=!geographic;document.getElementById('map-heading').textContent=(current<0?t('All places'):(book.literaryViews?'':number(activeChapter().id)+' · ')+activeChapter().title)+(geographic?' · '+book.illustration.geographyLabels.map:'');if(book.illustratedView?.preferIllustratedAnchors)renderLocation();});
   await illustratedMap.update(activeChapter(),visibleLayers,activeChapter().places[selectedPlace]);
   updateLocationNumbers();
   try{const nativeView=await illustratedMap.initialize();view=nativeView;viewReady=true;['overview','zoom-in','zoom-out'].forEach(id=>document.getElementById(id).disabled=false);document.getElementById('map-error').hidden=true;}catch(error){showMapError('The interactive map is unavailable. The illustrated map remains visible.');console.error(error)}

@@ -11,15 +11,18 @@ revealAtlas();
 const unavailable=()=>{document.getElementById('detail').textContent=window.atlasI18n.t('Questo romanzo non è ancora disponibile. Torna al catalogo per scegliere un titolo.')};
 function startEngine(source){
  const imaginary=new URLSearchParams(window.location.search).get('mode')==='imaginary';
- const available=window.atlasData.book.illustratedView||entry?.mapType==='illustrated';
+ const views=window.AtlasModes?.views(window.atlasData,window.atlasI18n.locale)||[];
  const nav=document.getElementById('atlas-mode-nav'),t=window.atlasI18n.t;
- if(nav?.appendChild&&available){
+ if(nav?.appendChild&&views.length){
   nav.hidden=false;
-  const label=document.createElement('span');label.textContent=t(imaginary?'Literary views':'Geographic atlas');nav.appendChild(label);
-  const alternate=document.createElement('a'),target=new URL('atlas.html',location.href);target.searchParams.set('book',bookId);target.searchParams.set('lang',window.atlasI18n.locale);if(!imaginary)target.searchParams.set('mode','imaginary');
-  target.hash=location.hash;alternate.href=target.href;alternate.textContent=t(imaginary?'Open geographic atlas':'Open literary views');nav.appendChild(alternate);
+  const label=document.createElement('span');label.textContent=t('Literary views');nav.appendChild(label);
+  for(const view of views){
+   const link=document.createElement('a'),target=new URL('atlas.html',location.href);target.searchParams.set('book',bookId);target.searchParams.set('lang',window.atlasI18n.locale);target.searchParams.set('mode','imaginary');target.hash='view-'+view.id;
+   link.href=target.href;link.textContent=view.name;nav.appendChild(link);
+  }
+  if(imaginary){const alternate=document.createElement('a'),target=new URL('atlas.html',location.href);target.searchParams.set('book',bookId);target.searchParams.set('lang',window.atlasI18n.locale);alternate.href=target.href;alternate.textContent=t('Open geographic atlas');nav.appendChild(alternate);}
  }
- window.atlasData=window.atlasI18n.localizeData(window.atlasData);window.atlasDataSource=source;const engine=document.createElement('script');engine.src='app.js?v=20261016-narrative-review';document.head.appendChild(engine);
+ window.atlasData=window.atlasI18n.localizeData(window.atlasData);window.atlasDataSource=source;const engine=document.createElement('script');engine.src='app.js?v=20261018-literary-views';document.head.appendChild(engine);
 }
 if(!/^[a-z0-9-]+$/.test(bookId)){document.getElementById('detail').textContent=window.atlasI18n.t('Titolo non valido.');}
 else if(entry?.mapType==='illustrated'){

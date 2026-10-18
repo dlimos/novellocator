@@ -36,7 +36,7 @@ assert.equal(regions,25);
 const s={window:{}};for(const file of ['docs/data/macondo-local.js','docs/fictional-atlas-adapter.js','docs/fictional-map.js'])vm.runInNewContext(fs.readFileSync(file,'utf8'),s);
 for(const lang of ['en','it','fr','es']){
  const mapped=review(s.window.IllustratedAdapter.adapt(s.window.atlasIllustratedLocal,lang));
- const p=mapped.places['regional-town'];assert.equal(p.kind,'uncertain');assert(p.geographic);assert(p.note.includes(lang==='it'?'immaginaria':lang==='fr'?'fictif':lang==='es'?'ficticio':'fictional'));assert.equal(s.FictionalMap.symbol({kind:p.kind,role:'mentioned'}).style,'diamond');
+ const p=mapped.places['regional-town'];assert.equal(p.kind,'area');assert(p.geographic);assert(p.name.includes('Aracataca'));assert(p.method.includes('FINDETER'));assert(Math.abs(p.coords[0]-10.592778)<.000001);assert(Math.abs(p.coords[1]+74.190556)<.000001);assert.equal(s.FictionalMap.symbol({kind:p.kind,role:'mentioned'}).style,'diamond');
  assert(mapped.chapters.flatMap(c=>c.unlocatedPlaces||[]).filter(u=>u.id==='lab').every(u=>u.displayInAtlas===false));
  assert.equal(mapped.chapters[0].placeExcerpts['regional-town'].original.highlightTerms[0],'Macondo');
  assert.equal(Object.values(mapped.places).filter(p=>!p.geographic).length,29);

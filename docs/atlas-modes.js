@@ -1,6 +1,40 @@
 /* Geography and interpretative drawings are distinct reading modes. */
 (function(root){
  const clone=value=>JSON.parse(JSON.stringify(value));
+ function views(input,locale='en'){
+  if(input.book.illustratedView)return input.book.illustratedView.views.map(view=>({id:view.id,name:view.names[locale]||view.names.en}));
+  return (input.book.illustration?.epochs||[]).map(epoch=>({id:epoch.id,name:epoch.label||epoch.id}));
+ }
+ function collectViews(data,locale){
+  const t=root.atlasI18n?.t||((key)=>key),config=data.book.illustration,sections=data.chapters;
+  const valid=excerpt=>excerpt?.original?.quote?.trim()&&!['pending','rejected'].includes(excerpt.original.verificationStatus);
+  config.separateViews=true;config.viewsAsSections=true;
+  config.emptyNote=t('No illustrated places in this view.');
+  data.book.literaryViews=true;data.book.hashPrefix='view';data.book.unit=t('View');
+  data.book.sidebarTitle=t('Literary views');data.book.help=t('All documented places in the selected literary view.');
+  data.book.sidebarNote=config.caption||t('Literary views');
+  delete data.book.sectionGrouping;
+  data.chapters=config.epochs.map((epoch,index)=>{
+   const ids=Object.keys(config.anchors[epoch.id]?.positions||{});
+   const view={id:epoch.id,title:epoch.label||epoch.id,mapEpoch:index,places:[],placeText:[],placeCategories:{},placeKinds:{},placeNames:{},placeSources:{},placeExcerpts:{},placeOccurrences:{},citations:[],unlocatedPlaces:[],links:[],time:epoch.label||'',people:data.book.author,text:epoch.note||config.caption||t('Literary views')};
+   for(const id of ids){
+    if(!data.places[id])continue;
+    const occurrences=sections.filter(section=>section.places.includes(id)&&!section.illustratedExcluded?.includes(id)&&valid(section.placeExcerpts?.[id]));
+    if(!occurrences.length)continue;
+    const sameEpoch=occurrences.filter(section=>section.mapEpoch===index);
+    const relevant=data.book.nativeEpochViews&&sameEpoch.length?sameEpoch:occurrences;
+    const action=relevant.find(section=>section.placeCategories?.[id]!=='mentioned');
+    const selected=action||relevant[0];
+    view.places.push(id);view.placeText.push(selected.placeText[selected.places.indexOf(id)]);
+    view.placeCategories[id]=data.book.nativeEpochViews&&!sameEpoch.length?'mentioned':action?'action':'mentioned';
+    view.placeKinds[id]=data.places[id].kind;view.placeNames[id]=data.places[id].name;
+    view.placeSources[id]=selected.placeSources?.[id];view.placeExcerpts[id]=selected.placeExcerpts[id];
+    view.placeOccurrences[id]=relevant.map(section=>({sectionId:section.id,title:section.title,category:section.placeCategories?.[id]||'action',excerpt:section.placeExcerpts[id]}));
+   }
+   return view;
+  });
+  return data;
+ }
  function adapt(input,requested,locale='en'){
   const imaginary=requested==='imaginary';
   const native=input.book.mapType==='illustrated';
@@ -35,6 +69,7 @@
    illustration.emptyNote=(root.atlasI18n?.t||((key)=>key))('No illustrated places in this section.');
    illustration.caption=illustration.caption||(root.atlasI18n?.t||((key)=>key))('Literary views');
    data.book.footerHtml='';
+   collectViews(data,locale);
   }else{
    data.book.mapType='geographic';delete data.book.illustration;
    const first=Object.values(data.places)[0];data.book.initialView={center:first?[first.coords[1],first.coords[0]]:[0,0],zoom:5};
@@ -44,5 +79,5 @@
   }
   return data;
  }
- root.AtlasModes={adapt};
+ root.AtlasModes={adapt,views};
 })(typeof window==='object'?window:globalThis);

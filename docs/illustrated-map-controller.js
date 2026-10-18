@@ -6,7 +6,7 @@ class IllustratedMapController {
   this.back.onclick=()=>{this.forceGeographic=false;this.returnedFrom=this.selected;this.update(this.chapter,this.visible,this.selected);};
   this.config=config;this.container=container;this.onSelect=onSelect;this.renderer=null;this.ready=false;this.queue=Promise.resolve();this.sequence=0;this.epoch=config.globalEpoch;this.visible={action:true,mentioned:true};
   if(config.caption){this.caption=document.createElement('span');this.caption.className='illustrated-map-note';this.caption.textContent=config.caption;container.parentElement.append(this.caption);}
-  if(config.separateViews){
+  if(config.separateViews&&!config.viewsAsSections){
    this.viewPicker=document.createElement('label');this.viewPicker.className='illustrated-view-picker';this.viewPicker.textContent=config.viewLabel;
    this.viewSelect=document.createElement('select');this.viewSelect.setAttribute('aria-label',config.viewLabel);
    config.epochs.forEach((epoch,index)=>{const option=document.createElement('option');option.value=String(index);option.textContent=epoch.label;this.viewSelect.append(option);});
@@ -65,7 +65,7 @@ class IllustratedMapController {
  async update(chapter,visible,selected){
   if(chapter!==this.chapter){this.returnedFrom=null;this.preferredEpoch=null;this.forceGeographic=false;}
   this.chapter=chapter;this.visible={...visible};this.selected=selected;
-  const selectedEpoch=this.config.separateViews&&!chapter.illustratedExcluded?.includes(selected)?this.config.epochs.findIndex(epoch=>this.config.anchors[epoch.id]?.positions[selected]):-1;
+  const selectedEpoch=this.config.separateViews&&!this.config.viewsAsSections&&!chapter.illustratedExcluded?.includes(selected)?this.config.epochs.findIndex(epoch=>this.config.anchors[epoch.id]?.positions[selected]):-1;
   this.epoch=this.preferredEpoch??(selectedEpoch>=0?selectedEpoch:chapter.mapEpoch??this.config.globalEpoch);
   if(this.viewSelect)this.viewSelect.value=String(this.epoch);
   this.paintPreview();

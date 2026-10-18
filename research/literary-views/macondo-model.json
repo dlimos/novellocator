@@ -1,0 +1,36 @@
+{
+  "coords": [
+    10.592777777777778,
+    -74.19055555555556
+  ],
+  "zoom": 13,
+  "scope": "real-literary-model",
+  "precision": "town-reference-not-fictional-town",
+  "names": {
+    "en": "Macondo · Aracataca, real inspiration",
+    "it": "Macondo · Aracataca, modello reale",
+    "fr": "Macondo · Aracataca, modèle réel",
+    "es": "Macondo · Aracataca, modelo real"
+  },
+  "notes": {
+    "en": "The marker locates Aracataca, a documented real inspiration for Macondo. It does not locate the fictional town or identify its buildings with real addresses.",
+    "it": "Il punto indica Aracataca, una fonte d’ispirazione reale documentata per Macondo. Non localizza la città immaginaria né identifica i suoi edifici con indirizzi reali.",
+    "fr": "Le repère situe Aracataca, une source d’inspiration réelle documentée pour Macondo. Il ne situe pas la ville fictive et n’identifie pas ses bâtiments à des adresses réelles.",
+    "es": "El marcador sitúa Aracataca, una fuente de inspiración real documentada para Macondo. No localiza el pueblo ficticio ni identifica sus edificios con direcciones reales."
+  },
+  "methods": {
+    "en": "Town reference in Aracataca, Magdalena, Colombia: 10°35′34″ N, 74°11′26″ W, as reported in FINDETER project documentation (2022). The Fundación Gabo Ruta Macondo documents the real model; the coordinates are not a reconstruction of fictional Macondo.",
+    "it": "Riferimento urbano di Aracataca, Magdalena, Colombia: 10°35′34″ N, 74°11′26″ O, riportato nella documentazione di progetto FINDETER (2022). La Ruta Macondo della Fundación Gabo documenta il modello reale; le coordinate non ricostruiscono la Macondo immaginaria.",
+    "fr": "Référence urbaine à Aracataca, Magdalena, Colombie : 10°35′34″ N, 74°11′26″ O, selon la documentation de projet FINDETER (2022). La Ruta Macondo de la Fundación Gabo documente le modèle réel ; les coordonnées ne reconstituent pas Macondo.",
+    "es": "Referencia urbana de Aracataca, Magdalena, Colombia: 10°35′34″ N, 74°11′26″ O, según la documentación de proyecto FINDETER (2022). La Ruta Macondo de la Fundación Gabo documenta el modelo real; las coordenadas no reconstruyen el Macondo ficticio."
+  },
+  "source": {
+    "label": "FINDETER · Aracataca, localización del proyecto (2022)",
+    "url": "https://www.findeter.gov.co/system/files/convocatorias/PAF-AASB-O-010-2022/documento_2_-_estudios_previos_ebar_aracataca-_obra_1.pdf"
+  },
+  "narrativeSource": {
+    "label": "Fundación Gabo · Ruta Macondo, circuito Aracataca",
+    "url": "https://especiales.fundaciongabo.org/ruta-macondo-circuito-aracataca/"
+  },
+  "checked": "2026-10-18"
+}
