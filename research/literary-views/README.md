@@ -2,7 +2,7 @@
 
 18 ottobre 2026.
 
-Le vedute sono accessibili dalla pagina geografica del romanzo con un unico collegamento «Vedute immaginarie». Al suo interno l'elenco dei capitoli è sostituito dall'elenco delle vedute, identificate dai luoghi o dalle epoche: ciascuna raccoglie tutte le associazioni verificate pertinenti, conserva attribuzioni e citazioni autentiche e non riscrive il dataset geografico. Le occorrenze originali restano in `placeOccurrences`; un passo pendente o respinto non rende visibile un luogo nel disegno.
+Le vedute sono accessibili dalla pagina geografica del romanzo con un unico collegamento «Scenari del romanzo». Al suo interno l'elenco dei capitoli è sostituito dall'elenco delle vedute, identificate dai luoghi o dalle epoche: ciascuna raccoglie tutte le associazioni verificate pertinenti, conserva attribuzioni e citazioni autentiche e non riscrive il dataset geografico. Le occorrenze originali restano in `placeOccurrences`; un passo pendente o respinto non rende visibile un luogo nel disegno.
 
 Macondo usa le tre immagini già presenti e i relativi ancoraggi: primo villaggio (`settlement`), espansione bananiera (`expansion`), declino (`decline`). Gli ancoraggi di ogni epoca delimitano gli elementi rappresentabili. La scelta di una casa presente in più epoche non deve riportare alla prima immagine. Le associazioni della stessa epoca hanno priorità; un edificio rappresentato ma documentato soltanto da un'altra epoca rimane una menzione nel riepilogo, senza attribuirgli una scena non verificata in quel periodo. Questa è una ricostruzione figurativa per grandi fasi narrative, non una cronologia edilizia esatta.
 

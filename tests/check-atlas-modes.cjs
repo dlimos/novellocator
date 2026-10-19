@@ -41,13 +41,13 @@ console.log('PASS: three novels have independent geographic/illustrated points, 
 (async()=>{
  for(const mode of ['', '&mode=imaginary'])for(const hasModel of [false,true]){
   const nav={children:[],hidden:true,appendChild(child){this.children.push(child);}},head={appendChild(){}},location=new URL('https://atlas.example/atlas.html?book=example&lang=it'+mode);
-  const context={URL,URLSearchParams,location,console,document:{documentElement:{setAttribute(){}},head,createElement:()=>({}),getElementById:id=>id==='atlas-mode-nav'?nav:{}},window:{location,atlasSupabase:{enabled:true},atlasCatalogue:{books:[{id:'example',mapType:'geographic'}]},atlasCatalogueData:{load:async()=>{}},AtlasModes:{views:()=>[{id:'a',name:'First view'},{id:'b',name:'Second view'}]},atlasI18n:{locale:'it',t:key=>key==='Imaginary views'?'Vedute immaginarie':key,localizeData:x=>x},atlasSupabaseData:{loadBook:async()=>({data:{book:{}},dictionary:{}})}}};
+  const context={URL,URLSearchParams,location,console,document:{documentElement:{setAttribute(){}},head,createElement:()=>({}),getElementById:id=>id==='atlas-mode-nav'?nav:{}},window:{location,atlasSupabase:{enabled:true},atlasCatalogue:{books:[{id:'example',mapType:'geographic'}]},atlasCatalogueData:{load:async()=>{}},AtlasModes:{views:()=>[{id:'a',name:'First view'},{id:'b',name:'Second view'}]},atlasI18n:{locale:'it',t:key=>key==='Imaginary views'?'Scenari del romanzo':key,localizeData:x=>x},atlasSupabaseData:{loadBook:async()=>({data:{book:{}},dictionary:{}})}}};
   if(hasModel)context.window.atlasSupabaseData.loadBook=async()=>({data:{book:{hashPrefix:'chapter',geographicModels:[{placeId:'real-model',name:'Aracataca',inspirationFor:'Macondo'}]}},dictionary:{}});
   vm.runInNewContext(fs.readFileSync('docs/load-book.js','utf8'),context);await new Promise(resolve=>setImmediate(resolve));
   const links=nav.children.filter(child=>child.href);
   assert.equal(links.length,hasModel?2:1,'One imaginary view link plus an optional real-model link');
   if(hasModel){const model=new URL(links[1].href);assert.equal(model.searchParams.get('focus'),'real-model');assert.equal(model.searchParams.get('mode'),null);assert.equal(model.hash,'#chapter-all');assert(links[1].textContent.includes('Aracataca'));}
-  if(!mode){assert.equal(links[0].textContent,'Vedute immaginarie');assert.equal(new URL(links[0].href).searchParams.get('mode'),'imaginary');}
+  if(!mode){assert.equal(links[0].textContent,'Scenari del romanzo');assert.equal(new URL(links[0].href).searchParams.get('mode'),'imaginary');}
   else assert.equal(new URL(links[0].href).searchParams.get('mode'),null);
   assert(!links.some(link=>['First view','Second view'].includes(link.textContent)));
  }
