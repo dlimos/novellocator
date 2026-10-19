@@ -1,0 +1,10 @@
+# Regional outline source snapshots and full public datasets remain local.
+books-live.json
+gatsby-metadata-live.json
+catalogue.json
+live/
+sources/*.json
+!sources/urls.json
+!sources/south-pacific-selected.json
+!sources/aragon-union.json
+*.png

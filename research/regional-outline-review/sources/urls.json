@@ -1,0 +1,7 @@
+{
+  "states": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/State_County/MapServer/70/query?where=STATE%20IN%20(%2742%27,%2728%27,%2725%27,%2756%27,%2731%27,%2708%27)&outFields=NAME,STATE&outSR=4326&maxAllowableOffset=0.02&geometryPrecision=4&f=json",
+  "lakes": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_lakes.geojson",
+  "marine": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_geography_marine_polys.geojson",
+  "admin1": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_admin_1_states_provinces.geojson",
+  "regions": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_geography_regions_polys.geojson"
+}

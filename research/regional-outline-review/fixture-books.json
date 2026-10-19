@@ -1,0 +1,368 @@
+[
+  {
+    "id": "anna-karenina",
+    "metadata": {
+      "sentinel": "unrelated metadata",
+      "geographicReview": {
+        "hiddenUnlocatedKeys": [
+          "keep-this-hidden"
+        ],
+        "regionalPlaces": [
+          {
+            "id": "regional-pokrovskoe",
+            "keys": [
+              "pokrovskoe",
+              "levin-house",
+              "pokrovskoye-arrival",
+              "nursery",
+              "mowing",
+              "kalinovy",
+              "mashkin",
+              "woodcock-clearing",
+              "kolok",
+              "storm-woods",
+              "levin-road"
+            ],
+            "categories": {
+              "226": "action"
+            },
+            "evidencePriority": [
+              "pokrovskoe",
+              "levin-house",
+              "pokrovskoye-arrival",
+              "nursery",
+              "mowing",
+              "kalinovy",
+              "mashkin",
+              "woodcock-clearing",
+              "kolok",
+              "storm-woods",
+              "levin-road"
+            ],
+            "sceneText": "existing scene",
+            "place": {
+              "coords": [
+                54,
+                37.5
+              ],
+              "kind": "uncertain",
+              "narrativeSource": {
+                "url": "https://ypmuseum.ru/event/1283",
+                "label": "Textual / critical geographical evidence"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "don-quijote",
+    "metadata": {
+      "sentinel": "unrelated metadata",
+      "geographicReview": {
+        "hiddenUnlocatedKeys": [
+          "keep-this-hidden"
+        ],
+        "regionalPlaces": [
+          {
+            "id": "regional-village-mancha",
+            "keys": [
+              "nonavillage"
+            ],
+            "categories": {},
+            "evidencePriority": [
+              "nonavillage"
+            ],
+            "sceneText": "existing scene",
+            "place": {
+              "coords": [
+                39,
+                -3.5
+              ],
+              "kind": "uncertain",
+              "narrativeSource": {
+                "url": "https://www.gutenberg.org/files/2000/2000-h/2000-h.htm#1_primero",
+                "label": "Textual / critical geographical evidence"
+              }
+            }
+          },
+          {
+            "id": "regional-barataria",
+            "keys": [
+              "barataria"
+            ],
+            "categories": {
+              "113": "action"
+            },
+            "evidencePriority": [
+              "barataria"
+            ],
+            "sceneText": "existing scene",
+            "place": {
+              "coords": [
+                41.8,
+                -1.1
+              ],
+              "kind": "uncertain",
+              "narrativeSource": {
+                "url": "https://cvc.cervantes.es/literatura/cervantistas/congresos/cg_IV/cg_IV_58.pdf",
+                "label": "Textual / critical geographical evidence"
+              }
+            }
+          },
+          {
+            "id": "regional-micomicon",
+            "keys": [
+              "micomicon"
+            ],
+            "categories": {},
+            "evidencePriority": [
+              "micomicon"
+            ],
+            "sceneText": "existing scene",
+            "place": {
+              "coords": [
+                8,
+                38
+              ],
+              "kind": "uncertain",
+              "narrativeSource": {
+                "url": "https://www.gutenberg.org/files/2000/2000-h/2000-h.htm#1_xxix",
+                "label": "Textual / critical geographical evidence"
+              }
+            }
+          },
+          {
+            "id": "regional-candaya",
+            "keys": [
+              "candaya"
+            ],
+            "categories": {},
+            "evidencePriority": [
+              "candaya"
+            ],
+            "sceneText": "existing scene",
+            "place": {
+              "coords": [
+                8,
+                77.5
+              ],
+              "kind": "uncertain",
+              "narrativeSource": {
+                "url": "https://www.gutenberg.org/files/2000/2000-h/2000-h.htm#2_xxxviii",
+                "label": "Textual / critical geographical evidence"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "gatsby",
+    "metadata": {
+      "sentinel": "unrelated metadata",
+      "geographicReview": {
+        "hiddenUnlocatedKeys": [
+          "keep-this-hidden"
+        ],
+        "regionalPlaces": [
+          {
+            "id": "regional-little-girl-bay",
+            "keys": [
+              "Little Girl Bay"
+            ],
+            "categories": {},
+            "evidencePriority": [
+              "Little Girl Bay"
+            ],
+            "sceneText": "existing scene",
+            "place": {
+              "coords": [
+                47,
+                -88
+              ],
+              "kind": "uncertain",
+              "narrativeSource": {
+                "url": "https://standardebooks.org/ebooks/f-scott-fitzgerald/the-great-gatsby/text/chapter-6",
+                "label": "Textual / critical geographical evidence"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "holden",
+    "metadata": {
+      "sentinel": "unrelated metadata",
+      "geographicReview": {
+        "hiddenUnlocatedKeys": [
+          "keep-this-hidden"
+        ],
+        "regionalPlaces": [
+          {
+            "id": "regional-agerstown",
+            "keys": [
+              "Pencey / Agerstown / Thomsen Hill",
+              "Pencey / Agerstown",
+              "Pencey Prep",
+              "Spencer’s house · Anthony Wayne Avenue",
+              "Spencer’s room",
+              "Ossenburger Memorial Wing",
+              "Dormitory washroom",
+              "Dormitory room / parked car",
+              "Agerstown station / train"
+            ],
+            "categories": {},
+            "evidencePriority": [
+              "Pencey / Agerstown / Thomsen Hill",
+              "Pencey / Agerstown",
+              "Pencey Prep",
+              "Spencer’s house · Anthony Wayne Avenue",
+              "Spencer’s room",
+              "Ossenburger Memorial Wing",
+              "Dormitory washroom",
+              "Dormitory room / parked car",
+              "Agerstown station / train"
+            ],
+            "sceneText": "existing scene",
+            "place": {
+              "coords": [
+                41,
+                -77.5
+              ],
+              "kind": "uncertain",
+              "narrativeSource": {
+                "url": "https://core-docs.s3.us-east-1.amazonaws.com/documents/asset/uploaded_file/1759/ohs/4407599/Catcher_in_the_Rye.pdf#page=7",
+                "label": "Textual / critical geographical evidence"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "moby-dick",
+    "metadata": {
+      "sentinel": "unrelated metadata",
+      "geographicReview": {
+        "hiddenUnlocatedKeys": [
+          "keep-this-hidden"
+        ],
+        "regionalPlaces": [
+          {
+            "id": "regional-rokovoko",
+            "keys": [
+              "Rokovoko"
+            ],
+            "categories": {},
+            "evidencePriority": [
+              "Rokovoko"
+            ],
+            "sceneText": "existing scene",
+            "place": {
+              "coords": [
+                -20,
+                -150
+              ],
+              "kind": "uncertain",
+              "narrativeSource": {
+                "url": "https://melville.electroniclibrary.org/editions/versions-of-moby-dick/12-biographical",
+                "label": "Textual / critical geographical evidence"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "sound-and-fury",
+    "metadata": {
+      "sentinel": "unrelated metadata",
+      "geographicReview": {
+        "hiddenUnlocatedKeys": [
+          "keep-this-hidden"
+        ],
+        "regionalPlaces": [
+          {
+            "id": "regional-jefferson",
+            "keys": [
+              "jefferson",
+              "house",
+              "garden",
+              "store",
+              "post-jefferson",
+              "square",
+              "black-church"
+            ],
+            "categories": {
+              "1": "action",
+              "3": "action",
+              "4": "action"
+            },
+            "evidencePriority": [
+              "house",
+              "post-jefferson",
+              "square",
+              "garden",
+              "black-church",
+              "store",
+              "jefferson"
+            ],
+            "sceneText": "existing scene",
+            "place": {
+              "coords": [
+                34.3,
+                -89.5
+              ],
+              "kind": "uncertain",
+              "narrativeSource": {
+                "url": "https://faulkner.iath.virginia.edu/media/resources/DISPLAYS/FaulknerMapsHP.html",
+                "label": "Textual / critical geographical evidence"
+              }
+            }
+          },
+          {
+            "id": "regional-mottson",
+            "keys": [
+              "mottson",
+              "gas-mottson",
+              "station-mottson"
+            ],
+            "categories": {
+              "4": "action"
+            },
+            "evidencePriority": [
+              "station-mottson",
+              "gas-mottson",
+              "mottson"
+            ],
+            "sceneText": "existing scene",
+            "place": {
+              "coords": [
+                33,
+                -89.5
+              ],
+              "kind": "uncertain",
+              "narrativeSource": {
+                "url": "https://faulkner.iath.virginia.edu/shanti/content/mottstownmottson",
+                "label": "Textual / critical geographical evidence"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "untouched-book",
+    "metadata": {
+      "sentinel": "unaffected"
+    }
+  }
+]

@@ -20,6 +20,8 @@ const literaryModelCheck = spawnSync(process.execPath, [path.join(__dirname, 'ch
 if (literaryModelCheck.status !== 0) process.exit(literaryModelCheck.status || 1);
 const outlineCheck = spawnSync(process.execPath, [path.join(__dirname, 'check-regional-outline.cjs')], { cwd: root, stdio: 'inherit' });
 if (outlineCheck.status !== 0) process.exit(outlineCheck.status || 1);
+const earlierOutlinesCheck = spawnSync(process.execPath, [path.join(__dirname, 'check-earlier-regional-outlines.cjs')], { cwd: root, stdio: 'inherit' });
+if (earlierOutlinesCheck.status !== 0) process.exit(earlierOutlinesCheck.status || 1);
 const narrativeReviewCheck = spawnSync(process.execPath, [path.join(__dirname, 'check-lolita-review.cjs')], { cwd: root, stdio: 'inherit' });
 if (narrativeReviewCheck.status !== 0) process.exit(narrativeReviewCheck.status || 1);
 const lolitaQuotationsCheck = spawnSync(process.execPath, [path.join(__dirname, 'check-lolita-quotations.cjs')], { cwd: root, stdio: 'inherit' });
