@@ -1,14 +1,15 @@
 {
+  "pointModels": 2,
   "checkedAt": "2026-10-19",
   "publicApiVerified": true,
-  "outlines": 10,
+  "outlines": 8,
   "books": [
-    "anna-karenina",
     "sound-and-fury",
     "holden",
     "gatsby",
     "moby-dick",
-    "don-quijote"
+    "don-quijote",
+    "anna-karenina"
   ],
   "categoriesAndEvidencePreserved": true,
   "untouchedRegionalRecordsPreserved": true

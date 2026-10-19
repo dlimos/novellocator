@@ -7,8 +7,6 @@ const ne=(data,name,key)=>({paths:find(data,name),source:url[key],label:'Natural
 const superior=ne(read('sources/lakes.json'),'Lake Superior','lakes');
 const aragon=read('sources/aragon-union.json');
 const defs=[
- ['anna-karenina','regional-pokrovskoe',ne(admin,'Tula','admin1'),'Tula region · context of the literary model'],
- ['sound-and-fury','regional-jefferson',census('Mississippi'),'Mississippi · Jefferson’s regional context'],
  ['sound-and-fury','regional-mottson',census('Mississippi'),'Mississippi · Mottson’s regional context'],
  ['holden','regional-agerstown',census('Pennsylvania'),'Pennsylvania · Agerstown / Pencey'],
  ['gatsby','regional-little-girl-bay',superior,'Lake Superior · Little Girl Bay'],

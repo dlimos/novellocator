@@ -1,0 +1,60 @@
+{
+  "oxford": {
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Oxford%2C+Mississippi%2C+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "Oxford, Mississippi",
+          "location": {
+            "x": -89.518625,
+            "y": 34.3668
+          },
+          "score": 100,
+          "attributes": {
+            "Match_addr": "Oxford, Mississippi",
+            "Addr_type": "Locality"
+          },
+          "extent": {
+            "xmin": -89.726625,
+            "ymin": 34.1588,
+            "xmax": -89.310625,
+            "ymax": 34.5748
+          }
+        }
+      ]
+    }
+  },
+  "yasnaya": {
+    "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Yasnaya+Polyana%2C+Tula%2C+Russia&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1",
+    "response": {
+      "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+      },
+      "candidates": [
+        {
+          "address": "Yasnaya Polyana",
+          "location": {
+            "x": 37.6186415,
+            "y": 54.2060939
+          },
+          "score": 100,
+          "attributes": {
+            "Match_addr": "Yasnaya Polyana",
+            "Addr_type": "POI"
+          },
+          "extent": {
+            "xmin": 37.6136415,
+            "ymin": 54.2010939,
+            "xmax": 37.6236415,
+            "ymax": 54.2110939
+          }
+        }
+      ]
+    }
+  }
+}

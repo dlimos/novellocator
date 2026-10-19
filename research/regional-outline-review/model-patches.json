@@ -1,0 +1,66 @@
+[
+  {
+    "book": "anna-karenina",
+    "id": "regional-pokrovskoe",
+    "patch": {
+      "name": "Pokrovskoye · model: Yasnaya Polyana",
+      "area": "Yasnaya Polyana",
+      "coords": [
+        54.076147,
+        37.526311
+      ],
+      "kind": "uncertain",
+      "zoom": 15,
+      "checked": "2026-10-19",
+      "status": "Documented real literary inspiration",
+      "note": "The point locates Yasnaya Polyana, the documented real inspiration for Levin’s fictional Pokrovskoye. It does not identify the fictional estate or assign real addresses to its buildings.",
+      "method": "The point identifies the real model. It does not reconstruct fictional streets, buildings, distances or routes.",
+      "positionSource": {
+        "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Yasnaya+Polyana+Museum%2C+Russia&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+        "label": "ArcGIS · Yasnaya Polyana · verified real model"
+      },
+      "additionalSource": {
+        "url": "https://ypmuseum.ru/event/1283",
+        "label": "Yasnaya Polyana Museum · Pokrovskoye and Yasnaya Polyana"
+      },
+      "geographicReview": {
+        "precision": "literary-model",
+        "realWorldIdentity": "verified-real-inspiration",
+        "reason": "The point locates Yasnaya Polyana, the documented real inspiration for Levin’s fictional Pokrovskoye. It does not identify the fictional estate or assign real addresses to its buildings."
+      },
+      "scope": "real-literary-model"
+    }
+  },
+  {
+    "book": "sound-and-fury",
+    "id": "regional-jefferson",
+    "patch": {
+      "name": "Jefferson · model: Oxford, Mississippi",
+      "area": "Oxford, Mississippi",
+      "coords": [
+        34.3668,
+        -89.518625
+      ],
+      "kind": "uncertain",
+      "zoom": 12,
+      "checked": "2026-10-19",
+      "status": "Documented real literary inspiration",
+      "note": "The point locates Oxford, Mississippi, the documented real inspiration for fictional Jefferson. The two towns are distinct in Faulkner’s fiction. No Oxford building or address is identified with a fictional Jefferson setting.",
+      "method": "The point identifies the real model. It does not reconstruct fictional streets, buildings, distances or routes.",
+      "positionSource": {
+        "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Oxford%2C+Mississippi%2C+USA&f=json&outFields=Match_addr%2CAddr_type&maxLocations=1",
+        "label": "ArcGIS · Oxford, Mississippi · verified real model"
+      },
+      "additionalSource": {
+        "url": "https://faulkner.iath.virginia.edu/shanti/content/oxford-mississippi",
+        "label": "University of Virginia · Digital Yoknapatawpha · Oxford and Jefferson"
+      },
+      "geographicReview": {
+        "precision": "literary-model",
+        "realWorldIdentity": "verified-real-inspiration",
+        "reason": "The point locates Oxford, Mississippi, the documented real inspiration for fictional Jefferson. The two towns are distinct in Faulkner’s fiction. No Oxford building or address is identified with a fictional Jefferson setting."
+      },
+      "scope": "real-literary-model"
+    }
+  }
+]

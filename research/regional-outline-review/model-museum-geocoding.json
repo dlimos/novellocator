@@ -1,0 +1,65 @@
+{
+  "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Yasnaya+Polyana+Museum%2C+Russia&f=json&outFields=Match_addr%2CAddr_type&maxLocations=3",
+  "response": {
+    "spatialReference": {
+      "wkid": 4326,
+      "latestWkid": 4326
+    },
+    "candidates": [
+      {
+        "address": "Yasnaya Polyana",
+        "location": {
+          "x": 37.6186415,
+          "y": 54.2060939
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Yasnaya Polyana",
+          "Addr_type": "POI"
+        },
+        "extent": {
+          "xmin": 37.6136415,
+          "ymin": 54.2010939,
+          "xmax": 37.6236415,
+          "ymax": 54.2110939
+        }
+      },
+      {
+        "address": "Yasnaya Polyana",
+        "location": {
+          "x": 37.5001667,
+          "y": 54.0099597
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Yasnaya Polyana",
+          "Addr_type": "POI"
+        },
+        "extent": {
+          "xmin": 37.4951667,
+          "ymin": 54.0049597,
+          "xmax": 37.5051667,
+          "ymax": 54.0149597
+        }
+      },
+      {
+        "address": "Yasnaya Polyana",
+        "location": {
+          "x": 37.526311,
+          "y": 54.076147
+        },
+        "score": 100,
+        "attributes": {
+          "Match_addr": "Yasnaya Polyana",
+          "Addr_type": "POI"
+        },
+        "extent": {
+          "xmin": 37.521311,
+          "ymin": 54.071147,
+          "xmax": 37.531311,
+          "ymax": 54.081147
+        }
+      }
+    ]
+  }
+}
