@@ -1,0 +1,39 @@
+{
+  "bookId": "wuthering-heights",
+  "date": "2026-10-19",
+  "remoteStatus": "published-and-verified",
+  "publicationStatus": "published",
+  "counts": {
+    "sections": 34,
+    "places": 13,
+    "place_descriptions": 17,
+    "place_references": 134,
+    "excerpts": 155,
+    "unlocated_settings": 5,
+    "active_content_translations": 724,
+    "book_presentations": 1
+  },
+  "digests": {
+    "cssMd5": "0c36f4e6c4183f05cd5ca58e52426163",
+    "excerptsMd5": "2a547bc9d4708baba91a3d6dc4283e43",
+    "translationsMd5": "b2d74b7bf0c95fde31306c85fe9d30f2"
+  },
+  "remoteSqlComparison": true,
+  "anonymousApiHidesDraft": false,
+  "fullNarrativeRereadComplete": true,
+  "githubPushPerformed": true,
+  "evidence": "catalogue-published.png",
+  "notes": "Published after all 34 chapters were read in full, exact revised SQL data were verified remotely and artwork became publicly available from docs branch commit 23950f0. Five regional associations added; two identities preserved while categories changed. Historical unused sources/dictionary entries retained. SQL publication guard verified all active counts and quote/dictionary/CSS digests.",
+  "assetCommit": "23950f0",
+  "anonymousPublicSiteLoads": true,
+  "anonymousShellApiCheck": "Not completed: direct Node and Python connections timed out; the public browser loader successfully retrieved the published catalogue and chapters.",
+  "publicUrl": "https://dlimos.github.io/novellocator/atlas.html?book=wuthering-heights&lang=it",
+  "browserChecks": [
+    "Public catalogue with Friedrich painting and only artist/title/year credits",
+    "All 34 chapter controls and chapter-specific introductions",
+    "Independent French quote selector with Italian interface and verified attribution",
+    "Chapter XVII includes four action settings and two mentions",
+    "Yorkshire and England boundary polylines render without fictional point coordinates"
+  ],
+  "browserLimitation": "External Esri basemap failed to load during verification, including the alternate street background; the application rendered place layers and regional outlines. No generic mapping-engine change was made."
+}

@@ -1,0 +1,240 @@
+{
+  "1": {
+    "chapter": "I",
+    "sourceSha256": "ede1827acf382bee80c8a48ff51873ba82f33502f865759b87ccad103e023e81",
+    "paragraphCount": 26,
+    "completeNarrativeRead": true,
+    "notes": "Scena alle Heights, affitto della Grange riferito, ricordo scenico della costa. Interni aggregati alla casa."
+  },
+  "2": {
+    "chapter": "II",
+    "sourceSha256": "924faa41a3ce630f9317b7e9bcb54ed63c6e1f60414354c7d20ddbc767c2134d",
+    "paragraphCount": 91,
+    "completeNarrativeRead": true,
+    "notes": "Ingresso nello studio alla Grange e visita alle Heights verificati separatamente. Aggiunta la menzione della brughiera al paragrafo 29, sfuggita al concordanziere singolare."
+  },
+  "3": {
+    "chapter": "III",
+    "sourceSha256": "31276c8ba38db49127b7256022ffcca7ed46164ae8539ddfc58828afd3e7a95b",
+    "paragraphCount": 46,
+    "completeNarrativeRead": true,
+    "notes": "Letti integralmente anche i paragrafi 34–38 recuperati separatamente. Notte alle Heights, cammino sulla brughiera e ritorno alla Grange; cappella onirica separata dal kirk reale."
+  },
+  "4": {
+    "chapter": "IV",
+    "sourceSha256": "4026cf97bab2fe2be76c9b91a133dd7af79c4d42ee328670e68752d425f2740b",
+    "paragraphCount": 43,
+    "completeNarrativeRead": true,
+    "notes": "Cornice alla Grange e infanzia alle Heights. Liverpool resta menzione: ritrovamento riepilogato. Tre regni è locuzione proverbiale, non identificazione cartografica autonoma. Fiera parrocchiale senza localizzazione utile."
+  },
+  "5": {
+    "chapter": "V",
+    "sourceSha256": "b261e9cc892f3c0bbfa7ecf08c61280cdca47be3b39671a855570d9a10068ea7",
+    "paragraphCount": 8,
+    "completeNarrativeRead": true,
+    "notes": "Morte di Earnshaw narrata alle Heights; commissione al villaggio riferita. College senza nome o collocazione utile resta nota di analisi."
+  },
+  "6": {
+    "chapter": "VI",
+    "sourceSha256": "1bc6b67751a653bfd8b28c57623710d97fdccaac3df5e8adb2bf558e63b9faf6",
+    "paragraphCount": 14,
+    "completeNarrativeRead": true,
+    "notes": "Arrivo di Hindley e racconto di Heathcliff della corsa e della finestra alla Grange. Lascar non prova una provenienza indiana; Christendom è iperbole religiosa. Chiesa generica non identificata automaticamente col kirk."
+  },
+  "7": {
+    "chapter": "VII",
+    "sourceSha256": "0e07c51b67bae6f4d4790bfa0db9830e3ecbf8fc6c7b6745dc2d14d9beb2f632",
+    "paragraphCount": 59,
+    "completeNarrativeRead": true,
+    "notes": "Natale alle Heights e cornice dialogica alla Grange verificati. Uscita sulla brughiera solo riferita. Banda di Gimmerton indica provenienza; Cina, India e Inghilterra sono fantasia consolatoria, non biografia. French cooks, libri e strumenti non identificano scene geografiche."
+  },
+  "8": {
+    "chapter": "VIII",
+    "sourceSha256": "8409248136f10aa83b91888d7f6df462ac5921d248095f458e8ffbbfa4bec9a6",
+    "paragraphCount": 69,
+    "completeNarrativeRead": true,
+    "notes": "Nascita e morte di Frances, visita di Edgar, violenza e riconciliazione alle Heights. Candela e ritratto stabiliscono la cornice alla Grange. Lavoro di Joseph alle rupi solo riferito. Campo da fieno e annessi appartengono alla fattoria, senza punto autonomo."
+  },
+  "9": {
+    "chapter": "IX",
+    "sourceSha256": "1c9205bf011f0e0d3f01f5cc618ad381f40fb711fd069e6332e3580624368d75",
+    "paragraphCount": 126,
+    "completeNarrativeRead": true,
+    "notes": "Hindley, caduta di Hareton, confessione, fuga e temporale alle Heights. Grange: cornice finale esplicita, oltre alla convalescenza riassunta. Brughiera e palude solo ipotizzate/riferite; matrimonio a Gimmerton riepilogato. Paradiso del sogno conservato fuori atlante."
+  },
+  "10": {
+    "chapter": "X",
+    "sourceSha256": "8829f388f4479e5d794b509797ee6bf81d9b06b8f3ce62e6c85183465d3394e4",
+    "paragraphCount": 102,
+    "completeNarrativeRead": true,
+    "notes": "Cornice di malattia e ritorno di Heathcliff alla Grange. Gimmerton: incontro con Joseph e discorso diretto, scena retrospettiva. Visita alle Heights e gioco di carte raccontati in sintesi da Catherine: mantenuti mentioned nel dubbio. Continente, America e strade inglesi sono congetture esplicite. Cittadina della riunione giudiziaria non identificata; nessuna equivalenza automatica con Gimmerton."
+  },
+  "11": {
+    "chapter": "XI",
+    "sourceSha256": "e4c4fe3ec072c1779ab2f8d937fd86db99a4d0f7464f397399aed283f145c23f",
+    "paragraphCount": 71,
+    "completeNarrativeRead": true,
+    "notes": "Visita di Nelly alle Heights, sosta e fuga al cippo sulla brughiera, bacio e scontro nella cucina della Grange verificati. Viaggio a Gimmerton interrotto: non è scena nel villaggio."
+  },
+  "12": {
+    "chapter": "XII",
+    "sourceSha256": "836d116f43bf0863f272b2838542efa8629774d3ad76a54ebd785930ea0c0d21",
+    "paragraphCount": 83,
+    "completeNarrativeRead": true,
+    "notes": "Delirio alla Grange, ricordo scenico del nido sulla brughiera, visita a Kenneth nella strada del villaggio. Heights e Fairy Cave nel delirio restano menzioni. La bottega del fabbro è situata solo relativamente, due miglia fuori Gimmerton: racconto di terza mano con azioni specifiche, conservato nell’analisi regionale senza inventare bottega geocodificata."
+  },
+  "13": {
+    "chapter": "XIII",
+    "sourceSha256": "905a3736411426e8faf51ab6adce7664d30dcf38a51089a44a0fe488ed930ea1",
+    "paragraphCount": 67,
+    "completeNarrativeRead": true,
+    "notes": "Convalescenza alla Grange e lettera di Isabella: viaggio sulla brughiera, sosta e arrivo alle Heights con scene dettagliate negli interni. Atlantico è paragone della distanza affettiva. Nessuna localizzazione dei due mesi di assenza."
+  },
+  "14": {
+    "chapter": "XIV",
+    "sourceSha256": "695022840d02bda8b571407bfd74aff3a261b447ebe195d40d5c185d0d8a25a8",
+    "paragraphCount": 35,
+    "completeNarrativeRead": true,
+    "notes": "Dialogo iniziale e cornice finale alla Grange, visita di Nelly e coercizione alle Heights. Giardino della Grange riferito e minaccia di intrusione; stessa casa già azione verificata. Nessun nuovo luogo collocabile."
+  },
+  "15": {
+    "chapter": "XV",
+    "sourceSha256": "8129fab68773464c17ed29aab953e7db51121b56c4af4c6363b55174331a7009",
+    "paragraphCount": 49,
+    "completeNarrativeRead": true,
+    "notes": "Incontro finale di Catherine e Heathcliff nella camera della Grange. Heights solo richiamo temporale e affettivo; cappella osservata o udita dalla Grange, non scena del servizio."
+  },
+  "16": {
+    "chapter": "XVI",
+    "sourceSha256": "d6043f18f1ecadd3f8ab295f34f0c827ae05a4c99ba5263cdca53767e0f2ae7c",
+    "paragraphCount": 20,
+    "completeNarrativeRead": true,
+    "notes": "Parto, morte, visita nel parco e ciocche nel medaglione alla Grange. Heights citate per identificare Cathy. Sepoltura e descrizione delle tombe riepilogate: kirk mentioned nel dubbio; nessuna scena celeste cartografata."
+  },
+  "17": {
+    "chapter": "XVII",
+    "sourceSha256": "9638f7a55622c9ef21514a3f989b32c2984ada81867c13b8c6e21ae63245844c",
+    "paragraphCount": 92,
+    "completeNarrativeRead": true,
+    "notes": "Isabella racconta lo scontro alle Heights e la fuga attraverso la brughiera: aggiunta associazione regionale action al paragrafo 64. Cornice alla Grange. Scene nel villaggio sia con Heathcliff sia con il legale. Vicinanze di Londra residenza riferita e incerta; Inghilterra inseguimento immaginato. Visita finale alle Heights verificata."
+  },
+  "18": {
+    "chapter": "XVIII",
+    "sourceSha256": "08cc169aa4ac005d4777904071041a0c692d9bbb15bbcfd800678203f10f713b",
+    "paragraphCount": 55,
+    "completeNarrativeRead": true,
+    "notes": "Infanzia e preparazione del gioco alla Grange; ricerca di Nelly sulla strada e ritrovamento alle Heights. Rupi e grotta: escursione riferita senza descrizione, mentioned nel dubbio. Londra meta del viaggio di Edgar riferita. Galloway è il pony, deserto è gioco nel parco."
+  },
+  "19": {
+    "chapter": "XIX",
+    "sourceSha256": "40a583db53d35520b37cae51611a487216db71e82a685a64d7d6d06729f6ee7d",
+    "paragraphCount": 31,
+    "completeNarrativeRead": true,
+    "notes": "Attesa nei terreni della Grange, arrivo della carrozza, incontro con Linton e richiesta di Joseph: azione nella Grange. Heights solo destinazione promessa per l’indomani."
+  },
+  "20": {
+    "chapter": "XX",
+    "sourceSha256": "6f4b222d54a7d27afb75dbce7757e68c9cc20fba6836a892589afccf031fd803",
+    "paragraphCount": 50,
+    "completeNarrativeRead": true,
+    "notes": "Risveglio e preparazione alla Grange; colloquio effettivo durante la cavalcata attraverso il paesaggio d’erica, aggiunto action regionale; arrivo e colazione alle Heights. Nord/sud descrivono le due residenze, senza nuovi punti o presunto viaggio biografico."
+  },
+  "21": {
+    "chapter": "XXI",
+    "sourceSha256": "0ee980ac1da7a599184d6680f969ceb61e1432cee1981de5a0c9d7e42b620e26",
+    "paragraphCount": 119,
+    "completeNarrativeRead": true,
+    "notes": "Uscita dalla Grange, incontro sulla brughiera, visita alle Heights e scene della corrispondenza alla Grange. Gimmerton e kirk nel resoconto di consuetudini, rupi nel richiamo al viaggio precedente. Yorkshire pronunciation è evidenza regionale linguistica, non scena estesa alla contea."
+  },
+  "22": {
+    "chapter": "XXII",
+    "sourceSha256": "c963c302e01ba624ef630ee2c43e94cfcc8386891995d0b19fb66f0b7a3ab932",
+    "paragraphCount": 32,
+    "completeNarrativeRead": true,
+    "notes": "Passeggiata, albero, muro e incontro con Heathcliff al limite del parco: azione aggregata alla Grange. Heights e breve raccordo finale della strada sono mentioned nel dubbio; aggiunto quest’ultimo per non perdere la geografia del tragitto. Slough of Despond è allusione letteraria."
+  },
+  "23": {
+    "chapter": "XXIII",
+    "sourceSha256": "9b05b02276b63fe2cbc74b5b4e2e489c10109d47b7100553a7e1befe63923ee9",
+    "paragraphCount": 77,
+    "completeNarrativeRead": true,
+    "notes": "Salita piovosa sulla strada, scena con Linton alle Heights, ritorno e malattia di Nelly alla Grange verificati. Gimmerton solo uscite riferite di Zillah. Elysium è metafora del conforto di Joseph, non luogo geografico."
+  },
+  "24": {
+    "chapter": "XXIV",
+    "sourceSha256": "60aeab81d84a4db53e1537c85acfbb18189440e52ae7be3a2d1b62194c472c4f",
+    "paragraphCount": 51,
+    "completeNarrativeRead": true,
+    "notes": "Cornice nella biblioteca della Grange e confessione di Cathy; visite alle Heights narrate in dettaglio. Corretta la brughiera da mentioned del paesaggio ideale a action dell’incontro sul margine della strada (40–42); i due livelli sono distinti nelle note."
+  },
+  "25": {
+    "chapter": "XXV",
+    "sourceSha256": "5a23dd7261a94f3b061794297dcbe95da4474a704bd769d4e8a5913e300e3280",
+    "paragraphCount": 13,
+    "completeNarrativeRead": true,
+    "notes": "Cornice con Lockwood e dialogo con Edgar alla Grange. Kirk osservato e consuetudini funerarie ricordate senza scena singolare autonoma: mentioned. Heights residenza del ragazzo, brughiera programma d’incontri."
+  },
+  "26": {
+    "chapter": "XXVI",
+    "sourceSha256": "d10eba8bb1b2890275b5e59eeeb2dcc2e8b92240f363600da5feeacfb67769a5",
+    "paragraphCount": 35,
+    "completeNarrativeRead": true,
+    "notes": "Primo incontro con Linton sull’erica, sosta e timore del padre: action regionale. Heights riferimento direzionale. Corretta Grange da mentioned del progetto al paragrafo 34 action: Edgar chiede e riceve il resoconto dopo il ritorno a casa; continuità senza nome esplicito."
+  },
+  "27": {
+    "chapter": "XXVII",
+    "sourceSha256": "d25654020c9491cddad1665c7bb6aed15b0ac4814dd75537b71b1d771decde22",
+    "paragraphCount": 79,
+    "completeNarrativeRead": true,
+    "notes": "Assistenza a Edgar alla Grange, secondo incontro sulla brughiera, ingresso e reclusione alle Heights. Lees meta riferita della mandria, nessuna scena; contorno regionale verificato, senza scelta arbitraria di un omonimo."
+  },
+  "28": {
+    "chapter": "XXVIII",
+    "sourceSha256": "6dbde2813a8f7b1835cd71c5682a55d6168b814e0278c11b24a3e93da7d625a4",
+    "paragraphCount": 37,
+    "completeNarrativeRead": true,
+    "notes": "Reclusione, colloquio con Linton e fuga di Cathy dalle Heights; ritorno di Nelly, ricongiungimento e morte di Edgar alla Grange. Gimmerton diceria e affari riferiti; palude falsa spiegazione della scomparsa, mai action per questo racconto."
+  },
+  "29": {
+    "chapter": "XXIX",
+    "sourceSha256": "9846aa9ae685ab983386ab97f96266530b2b3ddc6f94fef8c9d467ed8dae4b8b",
+    "paragraphCount": 23,
+    "completeNarrativeRead": true,
+    "notes": "Heathcliff nella biblioteca della Grange; apertura della tomba e scavo raccontati con azioni specifiche al kirk; ritorno alle Heights e scontro nel flashback. Aggiunta menzione delle passeggiate sulla brughiera; non promossa ad action perché iterativa."
+  },
+  "30": {
+    "chapter": "XXX",
+    "sourceSha256": "da6107ee4232d77bb9829a963fdec8406013772b53efcbdc39a212a49df51cbc",
+    "paragraphCount": 41,
+    "completeNarrativeRead": true,
+    "notes": "Nelly fermata alla porta delle Heights e racconto di Zillah della malattia, morte e isolamento nella casa. Colloquio delle due donne sulla brughiera con discorso diretto distinto dagli eventi raccontati. Grange solo visita riferita/progetto di Lockwood; conclusione del racconto senza una nuova scena esplicita nella cornice, mentioned nel dubbio. Cappella dissenziente non confusa col kirk."
+  },
+  "31": {
+    "chapter": "XXXI",
+    "sourceSha256": "1a425950675ff2d95492cdbef471e6a231d140897e2a4a5c78093183bc5d17b7",
+    "paragraphCount": 40,
+    "completeNarrativeRead": true,
+    "notes": "Visita di Lockwood alle Heights, lettera, libri e pranzo; ritorno a cavallo con riflessione sulla strada. Grange e Londra menzioni, non scene. Chevy Chase titolo di ballata; lingue dei libri non aggiungono paesi."
+  },
+  "32": {
+    "chapter": "XXXII",
+    "sourceSha256": "5d984c3fc3274b2e1d433fa608d583fab0077004e01fc1de7fbe169e3639895b",
+    "paragraphCount": 87,
+    "completeNarrativeRead": true,
+    "notes": "Locanda anonima circa quindici miglia da Gimmerton: scena completa conservata nell’analisi regionale, nessun edificio inventato collocato. Arrivo al villaggio, cammino nella valle, visita alla Grange e alle Heights; racconto della riconciliazione alle Heights. Fiera Gimmerton già aggregata al luogo action; incidente sulle colline e passeggiate riferiti, regione già action per tragitto attuale."
+  },
+  "33": {
+    "chapter": "XXXIII",
+    "sourceSha256": "a05702b38952564b67b783cd5be7d237ba08f35658c9bd9f08f2b3b04a21bf98",
+    "paragraphCount": 54,
+    "completeNarrativeRead": true,
+    "notes": "Giardino, colazione, scontro, lezione e confessione alle Heights per continuità con XXXII. Grange piante progettate, Crags escursione richiamata: mentioned. Nessun trasferimento narrato alla Grange."
+  },
+  "34": {
+    "chapter": "XXXIV",
+    "sourceSha256": "3c856781067f77a5e94e340601b6a8e253c8627a6de2cc07854b387575b6b89e",
+    "paragraphCount": 84,
+    "completeNarrativeRead": true,
+    "notes": "Giardino e ultimi giorni, camera e morte alle Heights; racconto dell’incontro con il bambino sulla strada, regione action. Funerale con azioni specifiche e visita finale alle tombe al kirk action. Grange futuro trasferimento; paradiso/inferno immaginati non sono punti. Fantasmi distinti da fatti accertati."
+  }
+}

@@ -1,0 +1,6 @@
+corpus/
+sections.json
+analysis.json
+*.sql
+*.png
+__pycache__/
