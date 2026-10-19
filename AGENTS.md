@@ -28,6 +28,7 @@
 
 ## Pubblicazione GitHub
 
+- Pubblicare sempre le modifiche completate e verificate, senza fermarsi alla copia locale e senza chiedere una nuova conferma di pubblicazione. Per contenuti, temi e presentazioni letti da Supabase, aggiornare anche il database e verificare il risultato pubblico; il solo push Git non basta. Se un impedimento tecnico o di autorizzazione blocca la pubblicazione, dichiararlo esplicitamente e non presentare la modifica come pubblicata.
 - Pubblicare sempre sul branch `docs`, mai su `main`. Il sito usa i file della cartella `docs/` nel branch `docs`.
 - Per la pubblicazione usare `git push origin docs`; non creare o ripristinare il branch `main`.
 
