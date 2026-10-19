@@ -1,0 +1,42 @@
+{
+  "bookId": "pride-and-prejudice",
+  "date": "2026-10-19",
+  "cover": {
+    "src": "images/pride-and-prejudice-gainsborough-morning-walk.jpg",
+    "alt": "Thomas Gainsborough, Mr and Mrs William Hallett (The Morning Walk), 1785",
+    "width": 833,
+    "height": 1100,
+    "position": "center 20%",
+    "banner": {
+      "opacity": 0.2,
+      "mobileOpacity": 0.14
+    }
+  },
+  "credit": {
+    "artist": "Thomas Gainsborough",
+    "title": "Mr and Mrs William Hallett (The Morning Walk)",
+    "year": "1785",
+    "url": "https://www.nationalgallery.org.uk/paintings/thomas-gainsborough-mr-and-mrs-william-hallett-the-morning-walk",
+    "reproduction": "Wikimedia Commons · faithful public-domain reproduction",
+    "reproductionUrl": "https://upload.wikimedia.org/wikipedia/commons/2/26/Mr_and_Mrs_William_Hallett.jpg",
+    "license": "Public domain · PD-Art / Public Domain Mark 1.0",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mr_and_Mrs_William_Hallett.jpg",
+    "reuseNote": "A couple walking arm in arm through English parkland evokes courtship, marriage and the landed society of Austen. Painted in 1785, before the novel; it is not an illustration of Elizabeth Bennet and Mr Darcy."
+  },
+  "translations": {
+    "en": {
+      "Thomas Gainsborough, Mr and Mrs William Hallett (The Morning Walk), 1785": "Thomas Gainsborough, Mr and Mrs William Hallett (The Morning Walk), 1785"
+    },
+    "it": {
+      "Thomas Gainsborough, Mr and Mrs William Hallett (The Morning Walk), 1785": "Thomas Gainsborough, La passeggiata mattutina (Mr e Mrs William Hallett), 1785"
+    },
+    "fr": {
+      "Thomas Gainsborough, Mr and Mrs William Hallett (The Morning Walk), 1785": "Thomas Gainsborough, La Promenade du matin (Mr et Mrs William Hallett), 1785"
+    },
+    "es": {
+      "Thomas Gainsborough, Mr and Mrs William Hallett (The Morning Walk), 1785": "Thomas Gainsborough, El paseo matutino (Mr y Mrs William Hallett), 1785"
+    }
+  },
+  "documentation": "## Pride and Prejudice — Thomas Gainsborough\n\n- Mr and Mrs William Hallett (The Morning Walk), Thomas Gainsborough, 1785. Oil on canvas, 236.2 × 179.1 cm. National Gallery, London, NG6209.\n- Museum source: https://www.nationalgallery.org.uk/paintings/thomas-gainsborough-mr-and-mrs-william-hallett-the-morning-walk\n- Reproduction source and rights: https://commons.wikimedia.org/wiki/File:Mr_and_Mrs_William_Hallett.jpg\n- Original file: https://upload.wikimedia.org/wikipedia/commons/2/26/Mr_and_Mrs_William_Hallett.jpg (833 × 1100 pixels; downloaded without alteration).\n- Rights verified 19 October 2026: Gainsborough died in 1788; the painting is public domain in Italy/EU (life plus 70 years) and the United States (published before 1931). Commons identifies this faithful two-dimensional reproduction as PD-Art, Public Domain Mark 1.0. No modern creative adaptation is asserted; the museum's separate reproduction service is not the source of this file.\n- Connection: William Hallett and Elizabeth Stephen walking arm in arm in parkland, painted shortly before their marriage in 1785. Courtship, marriage, walking and landed English society connect thematically with Austen. The portrait predates the novel (1813) and does not depict its characters or identify its fictional estates.\n- Selected by the user on 19 October 2026, replacing Constable's Wivenhoe Park, Essex (1816). The previous asset is retained. The card uses a CSS crop at center 20% to preserve both faces; the underlying reproduction is unchanged.\n- Public catalogue attribution displays only artist, linked title and year.\n- Three imaginary views were generated with the built-in image_gen tool: Hertfordshire, Hunsford/Rosings, Pemberley. Prompts and textual/interpretative distinctions: research/pride-and-prejudice/views-prompts.json and views-evidence.md. These generated views are not catalogue images.\n",
+  "publication": "prepared; use scoped cover-update.sql without changing catalogue order, theme or narrative data"
+}
