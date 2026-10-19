@@ -26,7 +26,7 @@ export function normalize(inputs:ReturnType<typeof loadInputs>):Bundle {
    for(const language of ['it','fr','es'])if(typeof dictionary[language]?.[text]!=='string'||!dictionary[language][text].trim())throw new Error(`Translated introduction required: ${id}/${section.id}/${language}`);
   }
   const originalLanguage=catalogue.books.find(book=>book.id===id)?.originalLanguage||data.book.originalLanguage||'en';
-  bundle.tables.books.push({id,title:data.book.title,author:data.book.author,original_language:originalLanguage,publication_status:'published',metadata:without(data.book,['id','title','author'])});
+  bundle.tables.books.push({id,title:data.book.title,author:data.book.author,original_language:originalLanguage,publication_status:data.book.publicationStatus==='draft'?'draft':'published',metadata:without(data.book,['id','title','author'])});
   const sourceIds=new Set<string>();
   function source(src?:Source):string|null {
    if(!src)return null;if(!/^https?:\/\//.test(src.url))throw new Error(`Invalid source in ${id}`);

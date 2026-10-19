@@ -9,6 +9,8 @@ async function main(){
   await db.exec(`create role anon;create role authenticated;create role service_role bypassrls;create schema auth;create table auth.users(id uuid primary key);create function auth.uid() returns uuid language sql stable as $$select nullif(current_setting('request.jwt.claim.sub',true),'')::uuid$$;grant usage on schema auth to anon,authenticated;grant execute on function auth.uid() to anon,authenticated;`);
   for(const file of ['001_content.sql','002_supabase_access.sql','003_book_maps.sql'])await db.exec(fs.readFileSync('database/migrations/'+file,'utf8'));
   const sql=seedSql(bundle),chunks=seedSqlChunks(bundle);assert.ok(chunks.length>1);assert.deepEqual(chunks,seedSqlChunks(bundle),'deterministic chunks');
+  const publishedInputs=inputs.filter(input=>input.data.book.publicationStatus!=='draft');
+  for(const input of inputs.filter(input=>input.data.book.publicationStatus==='draft'))assert.equal(bundle.tables.books.find(book=>book.id===input.id)?.publication_status,'draft','Explicit editorial drafts must remain invisible on first import');
   for(const chunk of chunks){assert.ok(Buffer.byteLength(chunk,'utf8')<=250_000);await db.exec(chunk);}
   await db.exec(sql);
   const imported:Bundle={formatVersion:1,tables:{...bundle.tables}};
@@ -41,7 +43,7 @@ async function main(){
   await db.exec("insert into public.sections(book_id,id,ordinal,title) values ('draft',1,0,'Fantasy chapter');insert into public.section_maps values ('draft',1,'fantasy',true)");
   await assert.rejects(db.exec("insert into public.section_maps values ('ulisse',1,'fantasy',true)"));
   async function identity(role:'anon'|'authenticated',uid=''){await db.exec('reset role');await db.query("select set_config('request.jwt.claim.sub',$1,false)",[uid]);await db.exec('set role '+role);}
-  await identity('anon');assert.equal((await db.query('select * from public.books')).rows.length,inputs.length);assert.equal((await db.query("select * from public.places where book_id='draft'")).rows.length,0);for(const table of ['book_maps','section_maps','map_layers','place_positions']){assert.equal((await db.query('select * from public.'+table)).rows.length,0);await assert.rejects(db.exec('delete from public.'+table));}
+  await identity('anon');assert.equal((await db.query('select * from public.books')).rows.length,publishedInputs.length);assert.equal((await db.query("select * from public.places where book_id='draft'")).rows.length,0);for(const table of ['book_maps','section_maps','map_layers','place_positions']){assert.equal((await db.query('select * from public.'+table)).rows.length,0);await assert.rejects(db.exec('delete from public.'+table));}
   await assert.rejects(db.exec("update public.books set title='Hacked' where id='ulisse'"));await assert.rejects(db.exec('select * from public.editorial_memberships'));await assert.rejects(db.exec('select * from public.favorite_places'));
   await identity('authenticated',users.reader);assert.equal((await db.query("update public.books set title='Hacked' where id='ulisse' returning id")).rows.length,0);
   await assert.rejects(db.exec("insert into public.editorial_memberships values ('"+users.reader+"','admin')"));
