@@ -1,0 +1,119 @@
+{
+  "bookId": "to-kill-a-mockingbird",
+  "checked": "2026-10-19",
+  "scope": "Research documentation only; novel text URLs must never be rendered in the atlas or CSV exports.",
+  "sources": [
+    {
+      "id": "english-school-transcription",
+      "kind": "original-language-research-corpus",
+      "url": "https://www.renaissanceacademyschools.com/uploads/1/5/2/9/15294762/to_kill_a_mockingbird_book.pdf",
+      "localFile": "work/mockingbird/original.pdf",
+      "access": "downloaded",
+      "pages": 285,
+      "editionVerified": false,
+      "rightsStatus": "Copyright notice present; public availability is not a reuse licence.",
+      "finding": "Anonymous transcription, 1960 copyright and 1988 renewal. All 31 chapter headings and ending are present. No identifiable print publisher, ISBN or edition; not ready for public quotation."
+    },
+    {
+      "id": "university-copy-unavailable",
+      "kind": "original-language-corpus-attempt",
+      "url": "https://lib.zu.edu.pk/ebookdata/Language%20Linguistics%20and%20Literature/To%20Kill%20a%20Mocking%20Bird.pdf",
+      "access": "404-on-direct-download",
+      "finding": "Indexed by search, but direct acquisition failed; no text or edition verified."
+    },
+    {
+      "id": "cnr-copy-unavailable",
+      "kind": "original-language-corpus-attempt",
+      "url": "https://giove.isti.cnr.it/demo/eread/libri/angry/mockingbird.pdf",
+      "access": "404-on-direct-download",
+      "finding": "Search result is not evidence of current accessibility or a verified edition."
+    },
+    {
+      "id": "2010-copy-not-acquired",
+      "kind": "original-language-corpus-attempt",
+      "url": "https://alpidalanguage.com/wp-content/uploads/2024/10/Lee-Harper-To-Kill-a-Mockingbird-2010.pdf",
+      "access": "certificate-name-mismatch",
+      "finding": "Download failed TLS validation. Certificate validation was not disabled; no edition verified."
+    },
+    {
+      "id": "canadian-education-catalogue",
+      "kind": "bibliography",
+      "url": "https://cmaf.gov.nl.ca/Home.aspx/Book/220",
+      "access": "web-page-read",
+      "finding": "Lists Harper Lee, ISBN 0446310786, Grand Central Publishing, and alternate formats. Does not establish the provenance of the school PDF; restricted alternate formats were not accessed."
+    },
+    {
+      "id": "morgan-first-edition",
+      "kind": "bibliography",
+      "url": "https://www.themorgan.org/printed-books/92875",
+      "access": "indexed-record-only; direct-web-request-403",
+      "finding": "First-edition record found. No complete facsimile acquired; not sufficient to collate the transcription."
+    },
+    {
+      "id": "monroeville-model",
+      "kind": "institutional-literary-model-evidence",
+      "url": "https://www.monroecountymuseum.org/home",
+      "access": "web-page-read",
+      "finding": "Museum documents the relationship between Monroeville, Harper Lee's childhood and fictional Maycomb. Use an explicitly labelled real model, without transferring fictional house addresses."
+    },
+    {
+      "id": "courthouse-model",
+      "kind": "institutional-literary-model-evidence",
+      "url": "https://www.monroecountymuseum.org/old-courthouse-museum",
+      "access": "web-page-read",
+      "finding": "Museum identifies the historic courtroom as a model for the novel, separately documenting the film set reconstruction. Coordinates remain to be independently verified."
+    },
+    {
+      "id": "nea-critical-guide",
+      "kind": "institutional-critical-context",
+      "url": "https://www.arts.gov/initiatives/nea-big-read/kill-mockingbird",
+      "access": "search-index-content-available; direct-web-request-410",
+      "finding": "NEA Big Read critical and teaching resources identified. They are not the complete original text; direct accessibility must be rechecked before using as a public resource."
+    },
+    {
+      "id": "gutenberg-search",
+      "kind": "public-domain-corpus-search",
+      "url": "https://www.gutenberg.org/ebooks/search/?query=harper+lee",
+      "access": "direct-web-request-failed",
+      "finding": "No verified reusable original acquired. Search also returned an April 2026 Gutenberg newsletter stating the novel is not in the collection. This is not a complete catalogue audit."
+    },
+    {
+      "id": "standardebooks-unverified-result",
+      "kind": "public-domain-corpus-search",
+      "url": "https://standardebooks.org/ebooks/harper-lee/to-kill-a-mockingbird",
+      "access": "direct-web-request-failed",
+      "finding": "Search snippet exists but gives 1961 as publication year, inconsistent with consulted bibliography. No ebook acquired; do not infer a public-domain edition from the snippet."
+    },
+    {
+      "id": "artwork-candidate",
+      "kind": "artwork-catalogue",
+      "url": "https://artbridgesfoundation.org/artworks/tanner-the-thankful-poor",
+      "access": "web-page-read",
+      "finding": "Henry Ossawa Tanner, The Thankful Poor, 1894, oil on canvas, AB.2020.16. Thematic candidate only; specific reproduction and reuse conditions not yet verified."
+    },
+    {
+      "id": "quotation-law-project-reference",
+      "kind": "quotation-exception-reference",
+      "url": "https://www.bandistapp.it/norma/l-1941-633/art-70",
+      "access": "web-page-read",
+      "finding": "Project's article 70 reference. No individual or cumulative quotation assessment completed; no conclusion that copyright automatically prevents critical quotation."
+    }
+  ],
+  "translationSearches": [
+    {
+      "language": "it",
+      "queries": ["Il buio oltre la siepe traduzione Amalia D Agostino Schanzer 1962 pubblico dominio", "\"Il buio oltre la siepe\" \"pubblico dominio\""],
+      "result": "No authenticated complete reusable public-domain translation located. Bibliographical candidates documented in TRADUZIONI.md."
+    },
+    {
+      "language": "fr",
+      "queries": ["To Kill a Mockingbird French Spanish translation Le Livre de Poche Baldomero Porta", "\"Ne tirez pas\" \"domaine public\"", "site.bnfa.fr \"Ne tirez pas\" \"Domaine public\""],
+      "result": "No authenticated complete reusable public-domain translation located. BNFA explicitly marks its 2005 edition as not public domain; translation and revision distinguished."
+    },
+    {
+      "language": "es",
+      "queries": ["\"Matar a un ruiseñor\" \"dominio público\"", "site.penguinlibros.com \"Matar a un ruiseñor\" \"Baldomero\""],
+      "result": "No authenticated complete reusable public-domain translation located. Publisher sample identifies Baldomero Porta; no full translated corpus acquired."
+    }
+  ]
+}

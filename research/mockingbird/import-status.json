@@ -1,0 +1,30 @@
+{
+  "bookId": "to-kill-a-mockingbird",
+  "date": "2026-10-19",
+  "status": "preliminary-research-pending-verified-edition",
+  "remoteStatus": "not-imported",
+  "cataloguePublished": false,
+  "databaseUpdated": false,
+  "fullNarrativeReviewComplete": false,
+  "exhaustiveGeographicalInventoryCertified": false,
+  "chaptersStructurallyPresent": 31,
+  "exploratoryReading": [1, 31],
+  "exploratoryReadingScope": "Preliminary assessment of the neighbourhood view; not a completed association inventory, even for these chapters.",
+  "verifiedPublicQuotationCount": 0,
+  "verifiedCoordinates": [],
+  "viewsAssessment": "positive-for-finch-radley-neighbourhood",
+  "viewsRealized": 0,
+  "publicationBranch": "docs",
+  "primaryGap": "No identifiable print edition or complete verifiable facsimile acquired for collation of the anonymous transcription.",
+  "requiredSource": "Complete English EPUB or PDF with identifiable publisher, edition, title and copyright pages; alternatively a verifiable full edition for collation.",
+  "remainingWork": [
+    "Verify original edition and integrity.",
+    "Read and analyse all 31 chapters, including recurring settings without explicit names.",
+    "Document individual narrative categories and original evidence for every chapter-place association.",
+    "Verify geographic coordinates and historical models separately.",
+    "Write and verify chapter introductions in all four interface languages.",
+    "Assess individual and cumulative quotation use, then align authentic available translations.",
+    "Complete cover reproduction rights and dedicated theme, watermark and realistic neighbourhood view.",
+    "Validate import package, import into Supabase and verify public behaviour before claiming publication."
+  ]
+}
