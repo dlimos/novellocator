@@ -46,6 +46,12 @@ for(const id of ['ulisse','proust','war-and-peace','moby-dick','gatsby','holden'
   const xlo=Math.min(...xs),xhi=Math.max(...xs),ylo=Math.min(...ys),yhi=Math.max(...ys),mx=Math.max(.002,(xhi-xlo)*.18),my=Math.max(.002,(yhi-ylo)*.18);
   assert.equal(target.xmin,Math.max(-180,xlo-mx));assert.equal(target.xmax,Math.min(180,xhi+mx));assert.equal(target.ymin,Math.max(-85,ylo-my));assert.equal(target.ymax,Math.min(85,yhi+my));
  }
+ vm.runInContext('selectAllPlaces()',ctx);
+ const actionIds=expected.filter(id=>data.chapters.some(c=>c.places.includes(id)&&c.placeCategories?.[id]!=='mentioned'));
+ checkTarget(actionIds,data.book.initialView);
+ elements.overview.events.click();checkTarget([...expected,...data.chapters.flatMap(c=>(c.citations||[]).map(r=>r.placeId))]);
+ const opening=setup(id,lang,false,'');assert.equal(vm.runInContext('current',opening.ctx),-1);assert.equal(opening.elements['all-places'].attributes['aria-pressed'],'true');
+ assert.equal(vm.runInContext('visibleLayers.mentioned',opening.ctx),true);
  const candidates=data.chapters.map((chapter,index)=>({chapter,index})).filter(({chapter})=>chapter.places.some(id=>chapter.placeCategories?.[id]==='mentioned')||chapter.citations?.length);
  for(const {chapter,index}of candidates.slice(0,2)){
   vm.runInContext(`selectChapter(${index},true,false)`,ctx);
@@ -84,6 +90,12 @@ assert.equal(vm.runInContext('activeChapter().places[selectedPlace]',focused.ctx
 vm.runInContext('centerSelectedPlace()',focused.ctx);
 assert.deepEqual(Array.from(vm.runInContext('targets.at(-1).center',focused.ctx)),[focusSource.places[focusId].coords[1],focusSource.places[focusId].coords[0]]);
 const explicit=setup('proust','en',false,'focus='+encodeURIComponent(focusId)+'&place=0');
-assert.equal(vm.runInContext('current',explicit.ctx),0);assert.equal(explicit.ctx.window.atlasState().place,0);
-const unknown=setup('proust','en',false,'focus=unknown-location');assert.equal(vm.runInContext('current',unknown.ctx),0);
+assert.equal(vm.runInContext('current',explicit.ctx),-1);assert.equal(explicit.ctx.window.atlasState().place,0);
+const unknown=setup('proust','en',false,'focus=unknown-location');assert.equal(vm.runInContext('current',unknown.ctx),-1);
+const emptyAction=setup('gatsby','en',false,'');
+vm.runInContext("for(const c of chapters)c.placeCategories=Object.fromEntries(c.places.map(id=>[id,'mentioned']));overview()",emptyAction.ctx);
+assert.equal(JSON.stringify(vm.runInContext('targets.at(-1)',emptyAction.ctx)),JSON.stringify(emptyAction.ctx.window.atlasData.book.initialView));
+vm.runInContext("chapters[0].placeCategories[chapters[0].places[0]]='action';overview()",emptyAction.ctx);
+const only=emptyAction.ctx.window.atlasData.places[emptyAction.ctx.window.atlasData.chapters[0].places[0]];
+assert.deepEqual(Array.from(vm.runInContext('targets.at(-1).center',emptyAction.ctx)),[only.coords[1],only.coords[0]]);
 console.log('PASS: global view in six novels and four languages; unique markers, full extent, references back to sections, chapter/global switching, shared links and language changes preserve the global view and selected point.');

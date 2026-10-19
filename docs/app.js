@@ -436,7 +436,7 @@ function overview(includeCitations=false){
 
  if(!viewReady||!ExtentClass)return;
  const chapter=activeChapter();
- const includeMentions=includeCitations||current<0;
+ const includeMentions=includeCitations;
  const overviewIds=includeMentions?chapter.places:(chapter.overviewPlaces??chapter.places);
  let points=overviewIds.filter(id=>visibleLayers[placeCategory(id)]&&(includeMentions||placeCategory(id)==='action')).map(id=>literaryPlaces[id]);
  if(visibleLayers.mentioned&&includeMentions)points.push(...activeCitations().map(reference=>allLiteraryPlaces[reference.placeId]));
@@ -448,7 +448,7 @@ function overview(includeCitations=false){
  const marginX=Math.max(.002,(xmax-xmin)*.18),marginY=Math.max(.002,(ymax-ymin)*.18);
  navigate(new ExtentClass({xmin:Math.max(-180,xmin-marginX),xmax:Math.min(180,xmax+marginX),ymin:Math.max(-85,ymin-marginY),ymax:Math.min(85,ymax+marginY),spatialReference:{wkid:4326}}));
 }
-function chapterFromHash(){const prefix='#'+book.hashPrefix+'-';if(!window.location.hash.startsWith(prefix))return 0;const id=window.location.hash.slice(prefix.length);if(id==='all')return -1;const index=chapters.findIndex(chapter=>String(chapter.id)===id);return index<0?0:index}
+function chapterFromHash(){const prefix='#'+book.hashPrefix+'-';const fallback=book.literaryViews?0:-1;if(!window.location.hash.startsWith(prefix))return fallback;const id=window.location.hash.slice(prefix.length);if(id==='all')return -1;const index=chapters.findIndex(chapter=>String(chapter.id)===id);return index<0?fallback:index}
 if(chapterFromHash()<0)selectAllPlaces(false,false);else selectChapter(chapterFromHash(),false,false);
 const initialPlace=Number(new URLSearchParams(window.location.search).get('place'));
 if(Number.isInteger(initialPlace)&&initialPlace>=0&&initialPlace<activeChapter().places.length)selectPlace(initialPlace);
