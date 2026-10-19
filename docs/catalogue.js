@@ -6,14 +6,6 @@
   const contains=(value,query)=>normalize(query).split(/\s+/).every(term=>normalize(value+' '+translate(value)).includes(term));
   return contains(book.title,title)&&contains(book.author,author);
  }
- function shuffle(books){
-  const shuffled=books.slice();
-  for(let index=shuffled.length-1;index>0;index--){
-   const other=Math.floor(Math.random()*(index+1));
-   [shuffled[index],shuffled[other]]=[shuffled[other],shuffled[index]];
-  }
-  return shuffled;
- }
  function renderCredit(credit){
   return `<details class="book-image-credit"><summary>Image source</summary><div><p>${escape(credit.artist)} · <a href="${escape(credit.url)}" target="_blank" rel="noopener noreferrer">${escape(credit.title)}</a> · ${escape(credit.year)}</p></div></details>`;
  }
@@ -22,11 +14,11 @@
    cards:books.map((book,index)=>`<article class="book-card available-book"><a class="book-art" href="atlas.html?book=${encodeURIComponent(book.id)}" aria-label="${escape(book.ariaLabel)}" style="--cover-position:${escape(book.cover.position)}"><img src="${escape(book.cover.src)}" alt="${escape(book.cover.alt)}" width="${book.cover.width}" height="${book.cover.height}" ${index?'loading="lazy"':'fetchpriority="high"'} decoding="async"><span>${escape(book.setting)}</span></a>${renderCredit(book.credit)}<a class="book-copy" href="atlas.html?book=${encodeURIComponent(book.id)}" aria-label="${escape(book.ariaLabel)}"><div class="book-meta"><span>${escape(book.author)}</span></div><h2>${escape(book.title)}</h2>${book.editorialNotice?`<p class="book-editorial-notice">${escape(book.editorialNotice)}</p>`:""}</a></article>`).join('\n')
   };
  }
- root.atlasCatalogueView={render,matches,shuffle};
+ root.atlasCatalogueView={render,matches};
  if(!root.document)return;
  async function start(){
  const catalogue=await root.atlasCatalogueData.load();
- const books=shuffle(catalogue.books);
+ const books=catalogue.books;
  const legacy=books.find(book=>book.legacyHashPrefix&&root.location.hash.startsWith('#'+book.legacyHashPrefix+'-'));
  if(legacy){const target=new URL('atlas.html',root.location.href);target.search=root.location.search;target.searchParams.set('book',legacy.id);target.hash=root.location.hash;root.location.replace(target.href);return;}
  const html=render(books);
