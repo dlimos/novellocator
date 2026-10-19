@@ -1,0 +1,26 @@
+{
+  "chaptersRead": 61,
+  "narrativeParagraphs": 2063,
+  "originalWords": 121439,
+  "placeIdentities": 66,
+  "associations": 407,
+  "action": 96,
+  "mentioned": 311,
+  "multilingualIntroductions": 244,
+  "translationWitnessChapters": {
+    "fr": 61,
+    "es": 61
+  },
+  "individuallyAlignedTranslationPassages": 8,
+  "selectedOriginalEvidenceWordsIncludingRepeats": 32923,
+  "uniqueSelectedOriginalEvidenceWords": 26070,
+  "literalEvidenceChecks": "passed",
+  "publication": "not-published",
+  "limitations": [
+    "Printed-edition collation not complete.",
+    "Historical geography and final boundaries not complete.",
+    "Italian reuse basis not verified; authentic English fallback remains possible.",
+    "Only eight translated passages aligned; remaining translations pending.",
+    "No illustrated views, cover, theme or database import produced in this analysis phase."
+  ]
+}

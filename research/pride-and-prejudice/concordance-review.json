@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-19",
+  "scope": "Supplementary concordance after reading all 61 chapters. It does not certify exhaustive coverage of implicit settings.",
+  "decisions": [
+    {"chapter": 1, "flag": "england", "resolution": "Already represented by north-england; do not duplicate the national parent of the same origin reference."},
+    {"chapter": 4, "flag": "england", "resolution": "Already represented by north-england; same biographical reference, not a distinct national scene."},
+    {"chapter": 13, "flag": "england", "resolution": "Church of England is the ecclesiastical institution; no separate geographical England reference inferred."},
+    {"chapter": 35, "flag": "kent", "resolution": "Added a mentioned association for duration of the visit and seasonal vegetation."}
+  ],
+  "other_exclusions": [
+    {"chapter": 6, "paragraph": 24, "wording": "Scotch and Irish airs", "reason": "Musical classification, not a geographically developed reference to Scotland and Ireland."},
+    {"chapter": 10, "paragraph": 47, "wording": "Italian songs", "reason": "Musical classification; not a scene or developed geographical reference in Italy."},
+    {"chapter": 45, "paragraph": 2, "wording": "Spanish chestnuts", "reason": "Botanical name, not Spain as narrative geography."},
+    {"chapter": 50, "paragraph": 6, "wording": "come upon the town", "reason": "Idiomatic expression; do not classify it as a journey to London."},
+    {"chapter": 54, "paragraph": 29, "wording": "French cooks", "reason": "Profession/national qualification; not an autonomous geographical reference to France."},
+    {"chapter": 61, "paragraph": 8, "wording": "a place at court", "reason": "Employment request; not evidence of a visit to St James’s."}
+  ],
+  "retained_unidentified_details": [
+    {"chapter": 15, "paragraph": 1, "name": "University attended by Collins", "category": "mentioned", "reason": "The original says one of the universities; neither Oxford nor Cambridge may be selected. Retained in section review, no coordinate."},
+    {"chapter": 26, "paragraph": 19, "name": "Church of Charlotte and Collins’s wedding", "category": "mentioned", "reason": "Wedding and departure from the church door are summarized; parish not identified. Retained in section review, no invented church."},
+    {"chapter": 27, "paragraph": 5, "name": "London theatre attended with the Gardiners", "category": "action", "reason": "Conversation during a performance is narrated; the theatre is unnamed. Included in parent London association, not equated with the Little Theatre mentioned later by Lydia."},
+    {"chapter": 58, "paragraph": 40, "name": "Darcy’s confession to Bingley", "category": "action", "reason": "A conversation is recounted, but its precise location is not explicit. Retained as an unlocalized subscene, not automatically assigned to Netherfield."}
+  ]
+}

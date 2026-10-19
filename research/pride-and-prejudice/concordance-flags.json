@@ -1,0 +1,32 @@
+[
+  {
+    "chapter": 1,
+    "placeId": "england",
+    "matches": [
+      {
+        "paragraph": 10,
+        "text": "\"Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young man of large fortune from the north of England; that he came down on Monday in a chaise and four to see the place, and was so much delighted with it, that he agreed with Mr. Morris immediately; that he is to take possession before Michaelmas, and some of his servants are to be in the house by the end of next week.\""
+      }
+    ]
+  },
+  {
+    "chapter": 4,
+    "placeId": "england",
+    "matches": [
+      {
+        "paragraph": 11,
+        "text": "Elizabeth listened in silence, but was not convinced; their behaviour at the assembly had not been calculated to please in general; and with more quickness of observation and less pliancy of temper than her sister, and with a judgement too unassailed by any attention to herself, she was very little disposed to approve them. They were in fact very fine ladies; not deficient in good humour when they were pleased, nor in the power of making themselves agreeable when they chose it, but proud and conceited. They were rather handsome, had been educated in one of the first private seminaries in town, had a fortune of twenty thousand pounds, were in the habit of spending more than they ought, and of associating with people of rank, and were therefore in every respect entitled to think well of themselves, and meanly of others. They were of a respectable family in the north of England; a circumstance more deeply impressed on their memories than that their brother's fortune and their own had been acquired by trade."
+      }
+    ]
+  },
+  {
+    "chapter": 13,
+    "placeId": "england",
+    "matches": [
+      {
+        "paragraph": 16,
+        "text": "\"The disagreement subsisting between yourself and my late honoured father always gave me much uneasiness, and since I have had the misfortune to lose him, I have frequently wished to heal the breach; but for some time I was kept back by my own doubts, fearing lest it might seem disrespectful to his memory for me to be on good terms with anyone with whom it had always pleased him to be at variance.--'There, Mrs. Bennet.'--My mind, however, is now made up on the subject, for having received ordination at Easter, I have been so fortunate as to be distinguished by the patronage of the Right Honourable Lady Catherine de Bourgh, widow of Sir Lewis de Bourgh, whose bounty and beneficence has preferred me to the valuable rectory of this parish, where it shall be my earnest endeavour to demean myself with grateful respect towards her ladyship, and be ever ready to perform those rites and ceremonies which are instituted by the Church of England. As a clergyman, moreover, I feel it my duty to promote and establish the blessing of peace in all families within the reach of my influence; and on these grounds I flatter myself that my present overtures are highly commendable, and that the circumstance of my being next in the entail of Longbourn estate will be kindly overlooked on your side, and not lead you to reject the offered olive-branch. I cannot be otherwise than concerned at being the means of injuring your amiable daughters, and beg leave to apologise for it, as well as to assure you of my readiness to make them every possible amends--but of this hereafter. If you should have no objection to receive me into your house, I propose myself the satisfaction of waiting on you and your family, Monday, November 18th, by four o'clock, and shall probably trespass on your hospitality till the Saturday se'ennight following, which I can do without any inconvenience, as Lady Catherine is far from objecting to my occasional absence on a Sunday, provided that some other clergyman is engaged to do the duty of the day.--I remain, dear sir, with respectful compliments to your lady and daughters, your well-wisher and friend,"
+      }
+    ]
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "placeId": "pemberley-arrival-bridge",
+    "chapter": 43,
+    "sourceParagraph": 4,
+    "quote": "They descended the hill, crossed the bridge, and drove to the door; and, while examining the nearer aspect of the house, all her apprehensions of meeting its owner returned.",
+    "highlightTerms": [
+      "bridge"
+    ],
+    "rationale": "Scene narrated during the Pemberley visit, chapter 43. The image position is interpretative; only the landscape element and the narrated crossing or walk are textual.",
+    "artisticPosition": [
+      0.3,
+      0.585
+    ]
+  },
+  {
+    "placeId": "pemberley-water-walk",
+    "chapter": 43,
+    "sourceParagraph": 55,
+    "quote": "They had now entered a beautiful walk by the side of the water, and every step was bringing forward a nobler fall of ground, or a finer reach of the woods to which they were approaching; but it was some time before Elizabeth was sensible of any of it; and, though she answered mechanically to the repeated appeals of her uncle and aunt, and seemed to direct her eyes to such objects as they pointed out, she distinguished no part of the scene.",
+    "highlightTerms": [
+      "walk"
+    ],
+    "rationale": "Scene narrated during the Pemberley visit, chapter 43. The image position is interpretative; only the landscape element and the narrated crossing or walk are textual.",
+    "artisticPosition": [
+      0.68,
+      0.61
+    ]
+  },
+  {
+    "placeId": "pemberley-simple-bridge",
+    "chapter": 43,
+    "sourceParagraph": 57,
+    "quote": "They crossed it by a simple bridge, in character with the general air of the scene; it was a spot less adorned than any they had yet visited; and the valley, here contracted into a glen, allowed room only for the stream, and a narrow walk amidst the rough coppice-wood which bordered it.",
+    "highlightTerms": [
+      "simple bridge"
+    ],
+    "rationale": "Scene narrated during the Pemberley visit, chapter 43. The image position is interpretative; only the landscape element and the narrated crossing or walk are textual.",
+    "artisticPosition": [
+      0.87,
+      0.5
+    ]
+  }
+]

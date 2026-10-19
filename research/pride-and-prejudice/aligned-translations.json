@@ -1,0 +1,222 @@
+[
+  {
+    "chapter": 7,
+    "placeId": "meryton",
+    "original": {
+      "quote": "In Meryton they parted; the two youngest repaired to the lodgings of one of the officers' wives, and Elizabeth continued her walk alone, crossing field after field at a quick pace, jumping over stiles and springing over puddles with impatient activity, and finding herself at last within view of the house, with weary ankles, dirty stockings, and a face glowing with the warmth of exercise.",
+      "language": "en",
+      "type": "original",
+      "highlightTerms": [
+        "Meryton"
+      ],
+      "verificationStatus": "verified-against-acquired-transcription",
+      "sourceParagraph": 44,
+      "sourceUrl": "https://raw.githubusercontent.com/GITenberg/Pride-and-Prejudice_1342/master/1342.txt",
+      "attribution": "Jane Austen, Pride and Prejudice (1813), Project Gutenberg 1342, anonymous transcription, updated 15 February 2015; chapter 7, paragraph 44. Underlying print edition unspecified."
+    },
+    "translations": {
+      "fr": {
+        "quote": "À Meryton, elles se séparèrent ; les deux plus jeunes se rendirent chez leur tante, et Élisabeth continua seule son chemin. Elle allait d’un bon pas, sautant les fossés, traversant les prés avec une activité toujours plus animée, et se trouva enfin près de la maison, très-fatiguée, couverte de boue et le teint animé par la marche et l’inquiétude.",
+        "language": "fr",
+        "type": "translation",
+        "highlightTerms": [
+          "Meryton"
+        ],
+        "highlightMode": "explicit",
+        "attribution": "Jane Austen, Orgueil et Prévention, traduction Eloïse Perks, Maradan, Paris, 1822; chapitre 7, transcription paragraph 43.",
+        "url": "https://fr.wikisource.org/wiki/Orgueil_et_Pr%C3%A9vention/7",
+        "sourceParagraph": 43,
+        "sourceChapterSha256": "c93d891cd1b6e835906ae8139713e4ad44efee1f97d8e73ea6423e4b80fcd925",
+        "verificationStatus": "verified",
+        "verificationScope": "Individually compared with the corresponding original scene; authentic translation wording retained, including historical variants.",
+        "rightsStatus": "underlying-translation-public-domain-Italy-EU",
+        "rightsBasis": "Perks died 1850, BnF authority/catalogue; 1822 translation; modern annotations and reproductions excluded."
+      },
+      "es": {
+        "quote": "En Meryton se separaron; las dos menores se dirigieron a casa de la esposa de uno de los oficiales, e Isabel continuó sola su paseo, atravesando tranquila campo tras campo y saltando sobre vallas y lodazales con impaciente viveza hasta encontrarse a la postre a vista de la casa, fatigada, con las medias mojadas y el rostro encendido por el ejercicio.",
+        "language": "es",
+        "type": "translation",
+        "highlightTerms": [
+          "Meryton"
+        ],
+        "highlightMode": "explicit",
+        "attribution": "Jane Austen, Orgullo y prejuicio, traducción José J. de Urríes y Azara, Calpe, Madrid, 1924, edición en dos tomos; capítulo 7, transcription paragraph 42.",
+        "url": "https://es.wikisource.org/wiki/Orgullo_y_prejuicio/Cap%C3%ADtulo_VII",
+        "sourceParagraph": 42,
+        "sourceChapterSha256": "0dc56b8232b4f647e617908c66057ddac40bbf857c52bdc77857959cde417411",
+        "verificationStatus": "verified",
+        "verificationScope": "Individually compared with the corresponding original scene; authentic translation wording retained, including historical variants.",
+        "rightsStatus": "underlying-translation-public-domain-Italy-EU",
+        "rightsBasis": "Translator died 1932, Biblioteca Virtual Miguel de Cervantes; Calpe 1924 text, no modern revision or apparatus."
+      }
+    },
+    "alignmentNotes": [
+      "Perks sends the two younger sisters to their aunt; the original and Spanish place them at an officer’s wife’s lodging. This variant does not change the Meryton scene but must not become the geographical proof for that subsetting."
+    ]
+  },
+  {
+    "chapter": 7,
+    "placeId": "netherfield",
+    "original": {
+      "quote": "When the clock struck three, Elizabeth felt that she must go, and very unwillingly said so. Miss Bingley offered her the carriage, and she only wanted a little pressing to accept it, when Jane testified such concern in parting with her, that Miss Bingley was obliged to convert the offer of the chaise to an invitation to remain at Netherfield for the present. Elizabeth most thankfully consented, and a servant was dispatched to Longbourn to acquaint the family with her stay and bring back a supply of clothes.",
+      "language": "en",
+      "type": "original",
+      "highlightTerms": [
+        "Netherfield"
+      ],
+      "verificationStatus": "verified-against-acquired-transcription",
+      "sourceParagraph": 48,
+      "sourceUrl": "https://raw.githubusercontent.com/GITenberg/Pride-and-Prejudice_1342/master/1342.txt",
+      "attribution": "Jane Austen, Pride and Prejudice (1813), Project Gutenberg 1342, anonymous transcription, updated 15 February 2015; chapter 7, paragraph 48. Underlying print edition unspecified."
+    },
+    "translations": {
+      "fr": {
+        "quote": "Vers les trois heures, Élisabeth pensa qu’il fallait se retirer, et le dit à regret ; Mlle Bingley lui offrit la voiture ; mais Hélen témoigna tant de chagrin de voir partir sa sœur, que miss Bingley se vit obligée d’engager Élisabeth à demeurer pour le moment à Netherfield. Cette proposition fut acceptée avec reconnaissance, et l’on envoya un domestique à Longbourn faire part de cette décision, et chercher ce dont les deux sœurs pouvaient avoir besoin.",
+        "language": "fr",
+        "type": "translation",
+        "highlightTerms": [
+          "Netherfield"
+        ],
+        "highlightMode": "explicit",
+        "attribution": "Jane Austen, Orgueil et Prévention, traduction Eloïse Perks, Maradan, Paris, 1822; chapitre 7, transcription paragraph 48.",
+        "url": "https://fr.wikisource.org/wiki/Orgueil_et_Pr%C3%A9vention/7",
+        "sourceParagraph": 48,
+        "sourceChapterSha256": "c93d891cd1b6e835906ae8139713e4ad44efee1f97d8e73ea6423e4b80fcd925",
+        "verificationStatus": "verified",
+        "verificationScope": "Individually compared with the corresponding original scene; authentic translation wording retained, including historical variants.",
+        "rightsStatus": "underlying-translation-public-domain-Italy-EU",
+        "rightsBasis": "Perks died 1850, BnF authority/catalogue; 1822 translation; modern annotations and reproductions excluded."
+      },
+      "es": {
+        "quote": "Cuando sonaron las tres, Isabel comprendió que debía marcharse, y, muy contra su deseo, lo manifestó así. La señorita de Bingley le ofreció el coche, y sólo aguardaba aquélla ver algo de insistencia para aceptarlo, cuando Juana exteriorizó tal pesar en separarse de ella, que la señorita de Bingley se vió obligada a trocar su ofrecimiento de coche por una invitación a quedarse en Netherfield por el momento. Isabel aceptó muy agradecida, y se despachó un criado a Longbourn para notificar a la familia la situación y traer alguna provisión de ropas.",
+        "language": "es",
+        "type": "translation",
+        "highlightTerms": [
+          "Netherfield"
+        ],
+        "highlightMode": "explicit",
+        "attribution": "Jane Austen, Orgullo y prejuicio, traducción José J. de Urríes y Azara, Calpe, Madrid, 1924, edición en dos tomos; capítulo 7, transcription paragraph 46.",
+        "url": "https://es.wikisource.org/wiki/Orgullo_y_prejuicio/Cap%C3%ADtulo_VII",
+        "sourceParagraph": 46,
+        "sourceChapterSha256": "0dc56b8232b4f647e617908c66057ddac40bbf857c52bdc77857959cde417411",
+        "verificationStatus": "verified",
+        "verificationScope": "Individually compared with the corresponding original scene; authentic translation wording retained, including historical variants.",
+        "rightsStatus": "underlying-translation-public-domain-Italy-EU",
+        "rightsBasis": "Translator died 1932, Biblioteca Virtual Miguel de Cervantes; Calpe 1924 text, no modern revision or apparatus."
+      }
+    },
+    "alignmentNotes": [
+      "Perks uses Hélen for Jane; Spanish uses Juana and Isabel. Preserve authentic names; do not silently replace them with English names."
+    ]
+  },
+  {
+    "chapter": 28,
+    "placeId": "hunsford",
+    "original": {
+      "quote": "At length the Parsonage was discernible. The garden sloping to the road, the house standing in it, the green pales, and the laurel hedge, everything declared they were arriving.",
+      "language": "en",
+      "type": "original",
+      "highlightTerms": [
+        "Parsonage"
+      ],
+      "verificationStatus": "verified-against-acquired-transcription",
+      "sourceParagraph": 3,
+      "sourceUrl": "https://raw.githubusercontent.com/GITenberg/Pride-and-Prejudice_1342/master/1342.txt",
+      "attribution": "Jane Austen, Pride and Prejudice (1813), Project Gutenberg 1342, anonymous transcription, updated 15 February 2015; chapter 28, paragraph 3. Underlying print edition unspecified."
+    },
+    "translations": {
+      "fr": {
+        "quote": "Enfin on découvre le presbytère : le jardin, formant une douce pente jusqu’à la route, la maison située au milieu, les vertes palissades, la haie de lauriers, tout leur annonçait qu’ils arrivaient.",
+        "language": "fr",
+        "type": "translation",
+        "highlightTerms": [
+          "presbytère"
+        ],
+        "highlightMode": "explicit",
+        "attribution": "Jane Austen, Orgueil et Prévention, traduction Eloïse Perks, Maradan, Paris, 1822; chapitre 28, transcription paragraph 3.",
+        "url": "https://fr.wikisource.org/wiki/Orgueil_et_Pr%C3%A9vention/28",
+        "sourceParagraph": 3,
+        "sourceChapterSha256": "cf84a5906d7500818fc8ff9aad2557fbd09b3043b1b7d9ecd784da692e669dce",
+        "verificationStatus": "verified",
+        "verificationScope": "Individually compared with the corresponding original scene; authentic translation wording retained, including historical variants.",
+        "rightsStatus": "underlying-translation-public-domain-Italy-EU",
+        "rightsBasis": "Perks died 1850, BnF authority/catalogue; 1822 translation; modern annotations and reproductions excluded."
+      },
+      "es": {
+        "quote": "Al cabo, la abadía llegó a distinguirse. El jardín, que se extendía hasta el camino; la casa que en él se alzaba; la verde empalizada; el seto de laurel: todo iba declarando que se acercaban.",
+        "language": "es",
+        "type": "translation",
+        "highlightTerms": [
+          "abadía"
+        ],
+        "highlightMode": "explicit",
+        "attribution": "Jane Austen, Orgullo y prejuicio, traducción José J. de Urríes y Azara, Calpe, Madrid, 1924, edición en dos tomos; capítulo 28, transcription paragraph 3.",
+        "url": "https://es.wikisource.org/wiki/Orgullo_y_prejuicio/Cap%C3%ADtulo_XXVIII",
+        "sourceParagraph": 3,
+        "sourceChapterSha256": "ace4342868ed4a3681008cb301fe7e73e826d2d8886394f60ecd8ff3d02410e0",
+        "verificationStatus": "verified",
+        "verificationScope": "Individually compared with the corresponding original scene; authentic translation wording retained, including historical variants.",
+        "rightsStatus": "underlying-translation-public-domain-Italy-EU",
+        "rightsBasis": "Translator died 1932, Biblioteca Virtual Miguel de Cervantes; Calpe 1924 text, no modern revision or apparatus."
+      }
+    },
+    "alignmentNotes": [
+      "Spanish abadía renders parsonage loosely; it does not prove an abbey. The original establishes the building as the Collins parsonage. French paragraph 1 introduces a right-hand orientation absent from the English one-side wording; do not use that addition to orient the illustration."
+    ]
+  },
+  {
+    "chapter": 43,
+    "placeId": "pemberley",
+    "original": {
+      "quote": "Elizabeth's mind was too full for conversation, but she saw and admired every remarkable spot and point of view. They gradually ascended for half-a-mile, and then found themselves at the top of a considerable eminence, where the wood ceased, and the eye was instantly caught by Pemberley House, situated on the opposite side of a valley, into which the road with some abruptness wound. It was a large, handsome stone building, standing well on rising ground, and backed by a ridge of high woody hills; and in front, a stream of some natural importance was swelled into greater, but without any artificial appearance. Its banks were neither formal nor falsely adorned. Elizabeth was delighted. She had never seen a place for which nature had done more, or where natural beauty had been so little counteracted by an awkward taste. They were all of them warm in their admiration; and at that moment she felt that to be mistress of Pemberley might be something!",
+      "language": "en",
+      "type": "original",
+      "highlightTerms": [
+        "Pemberley House"
+      ],
+      "verificationStatus": "verified-against-acquired-transcription",
+      "sourceParagraph": 3,
+      "sourceUrl": "https://raw.githubusercontent.com/GITenberg/Pride-and-Prejudice_1342/master/1342.txt",
+      "attribution": "Jane Austen, Pride and Prejudice (1813), Project Gutenberg 1342, anonymous transcription, updated 15 February 2015; chapter 43, paragraph 3. Underlying print edition unspecified."
+    },
+    "translations": {
+      "fr": {
+        "quote": "Mille pensées diverses occupaient trop Élisabeth pour lui permettre de se livrer à la conversation ; mais elle put voir et admirer chaque site remarquable ; ils montèrent graduellement, pendant un demi-mille et atteignirent alors un plateau, d’où les bois, venant à s’ouvrir, la vue s’étendait sur le château de Pemberley. C’était un grand et beau bâtiment, d’une noble architecture, situé sur le penchant d’un coteau, et qu’une longue chaîne de montagnes très-boisées couronnait par-derrière ; au-devant coulait une rivière assez considérable. Élisabeth fut enchantée, jamais elle n’avait vu un lieu plus favorisé par la nature, et où ses beautés fussent moins contrariées. Tous trois à l’envi exprimèrent leur admiration, et en ce moment elle sentit qu’être maîtresse de Pemberley pouvait bien avoir quelque prix.",
+        "language": "fr",
+        "type": "translation",
+        "highlightTerms": [
+          "Pemberley"
+        ],
+        "highlightMode": "explicit",
+        "attribution": "Jane Austen, Orgueil et Prévention, traduction Eloïse Perks, Maradan, Paris, 1822; chapitre 43, transcription paragraph 3.",
+        "url": "https://fr.wikisource.org/wiki/Orgueil_et_Pr%C3%A9vention/43",
+        "sourceParagraph": 3,
+        "sourceChapterSha256": "00b54a12de425547d3f83534c1b65ab155cd822be37b9ec0ef2e9eebdb0e6c52",
+        "verificationStatus": "verified",
+        "verificationScope": "Individually compared with the corresponding original scene; authentic translation wording retained, including historical variants.",
+        "rightsStatus": "underlying-translation-public-domain-Italy-EU",
+        "rightsBasis": "Perks died 1850, BnF authority/catalogue; 1822 translation; modern annotations and reproductions excluded."
+      },
+      "es": {
+        "quote": "La mente de Isabel estaba sobrado ocupada para conversar; pero veía ella y admiraba todos los parajes notables y todos los puntos de vista. Subieron gradualmente durante media milla, encontrándose a la postre sobre una considerable eminencia donde el bosque se interrumpía y donde les hirió la vista al punto la casa de Pemberley, situada al lado opuesto del valle por el cual se deslizaba el algo abrupto camino. Era una construcción en piedra, amplia y hermosa, bien emplazada en elevado terreno, que se destacaba sobre una cadena de altas colinas cubiertas de bosque, y tenía enfrente un considerable arroyo que iba en aumento, mas sin aspecto ninguno de artificio: sus orillas carecían de forma regular y de todo linaje de adorno sobrepuesto. Isabel quedó complacidísima. Jamás había visto un sitio por el cual hubiera hecho más la naturaleza o donde la belleza natural fuera menos contrariada por el mal gusto. Todos estaban henchidos de admiración, ¡y en aquel instante conoció ella que ser señora de Pemberley valía algo!",
+        "language": "es",
+        "type": "translation",
+        "highlightTerms": [
+          "Pemberley"
+        ],
+        "highlightMode": "explicit",
+        "attribution": "Jane Austen, Orgullo y prejuicio, traducción José J. de Urríes y Azara, Calpe, Madrid, 1924, edición en dos tomos; capítulo 43, transcription paragraph 3.",
+        "url": "https://es.wikisource.org/wiki/Orgullo_y_prejuicio/Cap%C3%ADtulo_XLIII",
+        "sourceParagraph": 3,
+        "sourceChapterSha256": "26db0950d5895ec6ac987af498613c6d720d2cfb97131c4458d1a066882e1f86",
+        "verificationStatus": "verified",
+        "verificationScope": "Individually compared with the corresponding original scene; authentic translation wording retained, including historical variants.",
+        "rightsStatus": "underlying-translation-public-domain-Italy-EU",
+        "rightsBasis": "Translator died 1932, Biblioteca Virtual Miguel de Cervantes; Calpe 1924 text, no modern revision or apparatus."
+      }
+    },
+    "alignmentNotes": [
+      "Corrected at public QA: use French/Spanish paragraph 3, the view of the house from the wooded height, matching the English selected paragraph. The previous paragraph 1 concerned arrival at the lodge and was not a version of this quotation."
+    ]
+  }
+]

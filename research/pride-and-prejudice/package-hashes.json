@@ -1,0 +1,42 @@
+{
+  "books": {
+    "hash": "c0cd718587f37c31483a80a9340b9d77",
+    "rows": 1
+  },
+  "sections": {
+    "hash": "f15f2ffe6131d42b78cf7a9fc89383e7",
+    "rows": 61
+  },
+  "places": {
+    "hash": "bf491f3149e42c0419d1649b96ded3de",
+    "rows": 58
+  },
+  "sources": {
+    "hash": "948a7f678da81989ce793fbc0841d746",
+    "rows": 351
+  },
+  "place_descriptions": {
+    "hash": "e1e9d71ad876b77e4f1ec881c4ef0f58",
+    "rows": 71
+  },
+  "place_references": {
+    "hash": "ea2c2e7b7d9fbe648334784c5cda0b12",
+    "rows": 396
+  },
+  "excerpts": {
+    "hash": "b41c31471c398aa3f7bf045adf77ff4d",
+    "rows": 404
+  },
+  "unlocated_settings": {
+    "hash": "bef3a7cbade32c6149a85a99ec6ce006",
+    "rows": 14
+  },
+  "content_translations": {
+    "hash": "57f1510dca44f5c6b7eda6958b5e1481",
+    "rows": 1324
+  },
+  "book_presentations": {
+    "hash": "5028a1d3f179c82950213d53566da897",
+    "rows": 1
+  }
+}
