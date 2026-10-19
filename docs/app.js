@@ -512,7 +512,7 @@ async function initializeMap(){
   const [ArcGISMap,MapView,GraphicsLayer,Graphic,Basemap,Extent,VectorTileLayer]=await globalThis.$arcgis.import(['@arcgis/core/Map.js','@arcgis/core/views/MapView.js','@arcgis/core/layers/GraphicsLayer.js','@arcgis/core/Graphic.js','@arcgis/core/Basemap.js','@arcgis/core/geometry/Extent.js','@arcgis/core/layers/VectorTileLayer.js']);
   stage='view';BasemapClass=Basemap;VectorTileLayerClass=VectorTileLayer;GraphicClass=Graphic;ExtentClass=Extent;markerLayer=new GraphicsLayer({title:t('Action locations'),visible:visibleLayers.action});citedMarkerLayer=new GraphicsLayer({title:t('Mentioned locations'),visible:visibleLayers.mentioned});
   const basemap=createBasemap(activeBasemap);
-  const map=new ArcGISMap({basemap,layers:[markerLayer,citedMarkerLayer]});
+  const map=new ArcGISMap({basemap,layers:[citedMarkerLayer,markerLayer]});
   // Credits and zoom use HTML to avoid legacy DefaultUI2D components.
   view=new MapView({container:'map',map,center:book.initialView.center,zoom:book.initialView.zoom,ui:{components:[]},constraints:{minZoom:1,maxZoom:19},navigation:{mouseWheelZoomEnabled:false},popupEnabled:false,padding:{...defaultMapPadding}});
   drawMarkers();await view.when();viewReady=true;

@@ -63,7 +63,7 @@
             font: { family: 'Arial', size: 8, weight: 'bold' }, verticalAlignment: 'middle' },
           attributes: { id: item.place.id } }));
       }
-      const map = new Map({ basemap: null, layers: [background, layers.action, layers.mentioned] });
+      const map = new Map({ basemap: null, layers: [background, layers.mentioned, layers.action] });
       view = new MapView({ container, map, extent: initialExtent ?? homeExtent, spatialReference: { wkid: 3857 },
         ui: { components: [] }, popupEnabled: false, background: { color: '#eee1bd' },
         constraints: { geometry: extent, rotationEnabled: false, snapToZoom: false }, padding });

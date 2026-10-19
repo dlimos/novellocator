@@ -35,13 +35,13 @@ const places = [{ id: 'house', x: 120, y: 230, kind: 'site', role: 'action' }, {
   assert.deepEqual(view.ui.components, []);
   assert.equal(view.popupEnabled, false);
   assert.equal(view.constraints.geometry.xmax, 1600);
-  assert.equal(map.layers[1].graphics[0].geometry.y, 770);
+  assert.equal(map.layers[2].graphics[0].geometry.y, 770);
   renderer.setVisible('mentioned', false);
-  assert.equal(map.layers[2].visible, false);
-  assert.equal(map.layers[1].visible, true);
+  assert.equal(map.layers[1].visible, false);
+  assert.equal(map.layers[2].visible, true);
   assert.equal(await renderer.select('area'), false);
   assert.equal(await renderer.select('house'), true);
-  assert.equal(map.layers[1].graphics[0].symbol.outline.color, '#f0c965');
+  assert.equal(map.layers[2].graphics[0].symbol.outline.color, '#f0c965');
   assert.equal(view.targets.at(-1).center.x, 120);
   await renderer.zoom(.7);
   assert.equal(view.targets.at(-1).factor, .7);
@@ -59,10 +59,10 @@ const places = [{ id: 'house', x: 120, y: 230, kind: 'site', role: 'action' }, {
   const raster = await create({ container: {}, image: 'data:image/png;base64,abc', width: 1600, height: 1000,
     places: [{ ...places[0], label: '1' }, places[1]], load });
   assert.equal(map.layers[0].source[0].image, 'data:image/png;base64,abc');
-  assert.equal(map.layers[1].graphics.length, 2);
-  assert.equal(map.layers[1].graphics[1].symbol.type, 'text');
+  assert.equal(map.layers[2].graphics.length, 2);
+  assert.equal(map.layers[2].graphics[1].symbol.type, 'text');
   await raster.select('house'); await raster.select('area');
-  assert.equal(map.layers[1].graphics[0].symbol.outline.color, '#fff8e8');
+  assert.equal(map.layers[2].graphics[0].symbol.outline.color, '#fff8e8');
   raster.destroy();
   await assert.rejects(create({ container: {}, image: '', width: 1600, height: 1000, places: [...places, places[0]], load }), /Duplicate/);
   assert.deepEqual(boundedCenter({x:-100,y:1200}, 400, 200, 1600, 1000), {x:200,y:900});
