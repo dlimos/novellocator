@@ -1,0 +1,363 @@
+{
+  "version": 1,
+  "width": 1536,
+  "height": 1024,
+  "checked": "2026-10-19",
+  "offerGeography": false,
+  "preferIllustratedAnchors": true,
+  "labels": {
+    "en": {
+      "caption": "Interpretative painting · not to scale",
+      "notice": "The text documents spaces and scenes, not measured plans. Room adjacencies, building shapes, paths and distances are interpretative. Scenes from different dates are assembled in each view. Image positions are separate from geography and real inspirations.",
+      "method": "A marker identifies an element in a realistic literary painting generated with AI. Its quotation retains the original chapter; architectural form and image positions are interpretative.",
+      "alt": "Interpretative cutaway views of the two houses and a moorland landscape.",
+      "view": "View",
+      "area": "Literary spaces",
+      "back": "Back to view",
+      "geographic": "Geographic atlas",
+      "reference": "A documented reference.",
+      "empty": "No visible places with these filters."
+    },
+    "it": {
+      "caption": "Veduta pittorica interpretativa · non in scala",
+      "notice": "Il testo documenta ambienti e scene, non piante misurate. Adiacenze delle stanze, forme degli edifici, percorsi e distanze sono interpretativi. Ogni veduta riunisce scene di date diverse. Le posizioni sul disegno sono separate dalla geografia e dai modelli reali.",
+      "method": "Il marker identifica un elemento di una veduta letteraria realistica generata con IA. La citazione conserva il capitolo d’origine; forme architettoniche e posizioni nell’immagine sono interpretative.",
+      "alt": "Vedute interpretative in sezione delle due dimore e del paesaggio della brughiera.",
+      "view": "Veduta",
+      "area": "Spazi letterari",
+      "back": "Torna alla veduta",
+      "geographic": "Atlante geografico",
+      "reference": "Un riferimento documentato.",
+      "empty": "Nessun luogo visibile con questi filtri."
+    },
+    "fr": {
+      "caption": "Vue picturale interprétative · sans échelle",
+      "notice": "Le texte atteste des espaces et des scènes, non des plans mesurés. Voisinage des pièces, formes des bâtiments, tracés et distances sont interprétatifs. Chaque vue réunit des scènes de dates différentes. Les positions dessinées sont distinctes de la géographie et des modèles réels.",
+      "method": "Le repère désigne un élément d’une vue littéraire réaliste générée par IA. La citation conserve son chapitre d’origine ; formes architecturales et positions dans l’image sont interprétatives.",
+      "alt": "Vues interprétatives en coupe des deux demeures et du paysage des landes.",
+      "view": "Vue",
+      "area": "Espaces littéraires",
+      "back": "Retour à la vue",
+      "geographic": "Atlas géographique",
+      "reference": "Une référence attestée.",
+      "empty": "Aucun lieu visible avec ces filtres."
+    },
+    "es": {
+      "caption": "Vista pictórica interpretativa · sin escala",
+      "notice": "El texto documenta espacios y escenas, no plantas medidas. Adyacencias, formas de los edificios, trazados y distancias son interpretativos. Cada vista reúne escenas de fechas distintas. Las posiciones dibujadas son independientes de la geografía y de los modelos reales.",
+      "method": "El marcador identifica un elemento de una vista literaria realista generada con IA. La cita conserva su capítulo de origen; formas arquitectónicas y posiciones en la imagen son interpretativas.",
+      "alt": "Vistas interpretativas en sección de las dos casas y del paisaje del páramo.",
+      "view": "Vista",
+      "area": "Espacios literarios",
+      "back": "Volver a la vista",
+      "geographic": "Atlas geográfico",
+      "reference": "Una referencia documentada.",
+      "empty": "No hay lugares visibles con estos filtros."
+    }
+  },
+  "names": {
+    "en": {
+      "wh-court": "Gate and paved court",
+      "wh-hall": "The house · family room",
+      "wh-kitchen": "Kitchen",
+      "wh-bed": "Chamber with the enclosed bed",
+      "wh-attic": "Garrets and skylights",
+      "wh-stable": "Stable",
+      "wh-garden": "Garden · Cathy and Hareton",
+      "tg-drawing": "Drawing room and window",
+      "tg-library": "Library",
+      "tg-chamber": "Catherine’s sickroom",
+      "tg-park": "Park and carriage approach",
+      "tg-ash": "Ash tree in the park",
+      "tg-wall": "Park wall and locked door",
+      "moor-guide": "Guide-stone at the fork"
+    },
+    "it": {
+      "wh-court": "Cancello e cortile lastricato",
+      "wh-hall": "La casa · sala comune",
+      "wh-kitchen": "Cucina",
+      "wh-bed": "Camera del letto a pannelli",
+      "wh-attic": "Soffitte e lucernari",
+      "wh-stable": "Scuderia",
+      "wh-garden": "Giardino · Cathy e Hareton",
+      "tg-drawing": "Salotto e finestra",
+      "tg-library": "Biblioteca",
+      "tg-chamber": "Camera di Catherine malata",
+      "tg-park": "Parco e arrivo della carrozza",
+      "tg-ash": "Frassino nel parco",
+      "tg-wall": "Muro del parco e porta chiusa",
+      "moor-guide": "Cippo al bivio"
+    },
+    "fr": {
+      "wh-court": "Portail et cour pavée",
+      "wh-hall": "La maison · salle commune",
+      "wh-kitchen": "Cuisine",
+      "wh-bed": "Chambre au lit clos",
+      "wh-attic": "Greniers et lucarnes",
+      "wh-stable": "Écurie",
+      "wh-garden": "Jardin · Cathy et Hareton",
+      "tg-drawing": "Salon et fenêtre",
+      "tg-library": "Bibliothèque",
+      "tg-chamber": "Chambre de Catherine malade",
+      "tg-park": "Parc et arrivée de la voiture",
+      "tg-ash": "Frêne du parc",
+      "tg-wall": "Mur du parc et porte fermée",
+      "moor-guide": "Pierre indicatrice au carrefour"
+    },
+    "es": {
+      "wh-court": "Portón y patio empedrado",
+      "wh-hall": "La casa · sala familiar",
+      "wh-kitchen": "Cocina",
+      "wh-bed": "Cuarto del lecho cerrado",
+      "wh-attic": "Desvanes y tragaluces",
+      "wh-stable": "Cuadra",
+      "wh-garden": "Jardín · Cathy y Hareton",
+      "tg-drawing": "Salón y ventana",
+      "tg-library": "Biblioteca",
+      "tg-chamber": "Cuarto de Catherine enferma",
+      "tg-park": "Parque y llegada del carruaje",
+      "tg-ash": "Fresno del parque",
+      "tg-wall": "Muro del parque y puerta cerrada",
+      "moor-guide": "Piedra indicadora en la bifurcación"
+    }
+  },
+  "notes": {
+    "en": {
+      "wh-court": "Heathcliff unchains the gate and leads Lockwood into the court.",
+      "wh-hall": "Lockwood enters the family room directly from the threshold; kitchen sounds come from a separate quarter.",
+      "wh-kitchen": "In Isabella’s letter, she enters the neglected kitchen and meets Hareton by the fire.",
+      "wh-bed": "Lockwood climbs into the enclosed oak bed. The window ledge lies within it; the drawing does not establish a measured floor plan.",
+      "wh-attic": "Nelly follows Catherine up to the garret where Heathcliff is confined; Catherine reaches him by the skylights.",
+      "wh-stable": "Nelly goes out through the court and finds Heathcliff tending the new pony in the stable.",
+      "wh-garden": "Nelly finds the cousins clearing shrubs to make room for flowers. This later scene is shown beside earlier spaces without claiming they are simultaneous.",
+      "tg-drawing": "Heathcliff recounts how the children cling to the window ledge and watch the Lintons inside the crimson drawing room.",
+      "tg-library": "The recovering Nelly asks Cathy to read to her in the library; her impatience precedes the discovery of the secret visits.",
+      "tg-chamber": "Heathcliff crosses the hall, finds Catherine’s room and embraces her. The book places this prepared sickroom on the parlour floor in chapter XIII.",
+      "tg-park": "After the carriage arrives, Cathy and Edgar walk together through the park while Nelly prepares the household.",
+      "tg-ash": "Nelly approaches Heathcliff by an old ash tree after Catherine’s death. The tree’s position within the drawing is interpretative.",
+      "tg-wall": "Cathy climbs onto the wall and drops outside to recover her hat; the locked door prevents her return.",
+      "moor-guide": "Nelly stops at the stone marked for the Heights, village and Grange. The three connections are textual; the drawn paths, angles and distances are interpretative.",
+      "heights": "The text documents spaces and scenes, not measured plans. Room adjacencies, building shapes, paths and distances are interpretative. Scenes from different dates are assembled in each view. Image positions are separate from geography and real inspirations.",
+      "grange": "The text documents spaces and scenes, not measured plans. Room adjacencies, building shapes, paths and distances are interpretative. Scenes from different dates are assembled in each view. Image positions are separate from geography and real inspirations.",
+      "gimmerton": "The text documents spaces and scenes, not measured plans. Room adjacencies, building shapes, paths and distances are interpretative. Scenes from different dates are assembled in each view. Image positions are separate from geography and real inspirations.",
+      "penistone": "The text documents spaces and scenes, not measured plans. Room adjacencies, building shapes, paths and distances are interpretative. Scenes from different dates are assembled in each view. Image positions are separate from geography and real inspirations.",
+      "moorland": "The text documents spaces and scenes, not measured plans. Room adjacencies, building shapes, paths and distances are interpretative. Scenes from different dates are assembled in each view. Image positions are separate from geography and real inspirations."
+    },
+    "it": {
+      "wh-court": "Heathcliff libera il cancello e precede Lockwood nel cortile.",
+      "wh-hall": "Lockwood entra nella sala direttamente dalla soglia; i rumori della cucina provengono da un altro ambiente.",
+      "wh-kitchen": "Nella lettera Isabella entra nella cucina trascurata e incontra Hareton vicino al fuoco.",
+      "wh-bed": "Lockwood si chiude nel letto di quercia a pannelli, che comprende il davanzale. Il disegno non ne ricostruisce una pianta misurata.",
+      "wh-attic": "Nelly segue Catherine fino alla soffitta dove Heathcliff è rinchiuso; Catherine lo raggiunge passando dai lucernari.",
+      "wh-stable": "Nelly esce nel cortile e trova Heathcliff nella scuderia mentre accudisce il nuovo pony.",
+      "wh-garden": "Nelly trova i cugini intenti a liberare spazio per i fiori. La scena tarda affianca gli ambienti precedenti senza presentarli come simultanei.",
+      "tg-drawing": "Heathcliff racconta come i bambini si aggrappano al davanzale e osservano i Linton nel salotto cremisi.",
+      "tg-library": "Nelly convalescente chiede a Cathy di leggerle in biblioteca; l’impazienza della ragazza precede la scoperta delle visite segrete.",
+      "tg-chamber": "Heathcliff attraversa l’ingresso, trova la camera di Catherine e l’abbraccia. Il capitolo XIII colloca questa camera preparata per lei sul piano del salotto.",
+      "tg-park": "Dopo l’arrivo della carrozza Cathy ed Edgar camminano insieme nel parco, mentre Nelly prepara la casa.",
+      "tg-ash": "Dopo la morte di Catherine, Nelly si avvicina a Heathcliff presso un vecchio frassino. La posizione dell’albero nel disegno è interpretativa.",
+      "tg-wall": "Cathy sale sul muro e scende fuori per recuperare il cappello; la porta chiusa le impedisce di rientrare.",
+      "moor-guide": "Nelly si ferma al cippo con le indicazioni per Heights, villaggio e Grange. I tre collegamenti sono testuali; percorsi, angoli e distanze del disegno sono interpretativi.",
+      "heights": "Il testo documenta ambienti e scene, non piante misurate. Adiacenze delle stanze, forme degli edifici, percorsi e distanze sono interpretativi. Ogni veduta riunisce scene di date diverse. Le posizioni sul disegno sono separate dalla geografia e dai modelli reali.",
+      "grange": "Il testo documenta ambienti e scene, non piante misurate. Adiacenze delle stanze, forme degli edifici, percorsi e distanze sono interpretativi. Ogni veduta riunisce scene di date diverse. Le posizioni sul disegno sono separate dalla geografia e dai modelli reali.",
+      "gimmerton": "Il testo documenta ambienti e scene, non piante misurate. Adiacenze delle stanze, forme degli edifici, percorsi e distanze sono interpretativi. Ogni veduta riunisce scene di date diverse. Le posizioni sul disegno sono separate dalla geografia e dai modelli reali.",
+      "penistone": "Il testo documenta ambienti e scene, non piante misurate. Adiacenze delle stanze, forme degli edifici, percorsi e distanze sono interpretativi. Ogni veduta riunisce scene di date diverse. Le posizioni sul disegno sono separate dalla geografia e dai modelli reali.",
+      "moorland": "Il testo documenta ambienti e scene, non piante misurate. Adiacenze delle stanze, forme degli edifici, percorsi e distanze sono interpretativi. Ogni veduta riunisce scene di date diverse. Le posizioni sul disegno sono separate dalla geografia e dai modelli reali."
+    },
+    "fr": {
+      "wh-court": "Heathcliff détache le portail et conduit Lockwood dans la cour.",
+      "wh-hall": "Lockwood entre dans la salle directement depuis le seuil ; les bruits de cuisine viennent d’une autre pièce.",
+      "wh-kitchen": "Dans sa lettre, Isabella entre dans la cuisine négligée et rencontre Hareton près du feu.",
+      "wh-bed": "Lockwood s’enferme dans le lit clos en chêne, qui englobe l’appui de fenêtre. Le dessin n’en restitue pas un plan mesuré.",
+      "wh-attic": "Nelly suit Catherine au grenier où Heathcliff est enfermé ; Catherine le rejoint par les lucarnes.",
+      "wh-stable": "Nelly traverse la cour et trouve Heathcliff à l’écurie, occupé du nouveau poney.",
+      "wh-garden": "Nelly trouve les cousins dégageant une place pour les fleurs. Cette scène tardive côtoie les espaces antérieurs sans prétendre qu’ils soient simultanés.",
+      "tg-drawing": "Heathcliff raconte comment les enfants s’agrippent à l’appui de fenêtre et observent les Linton dans le salon cramoisi.",
+      "tg-library": "Nelly convalescente demande à Cathy de lui lire dans la bibliothèque ; son impatience précède la découverte des visites secrètes.",
+      "tg-chamber": "Heathcliff traverse le vestibule, trouve la chambre de Catherine et l’embrasse. Le chapitre XIII situe cette chambre aménagée au niveau du salon.",
+      "tg-park": "Après l’arrivée de la voiture, Cathy et Edgar traversent le parc tandis que Nelly prépare la maison.",
+      "tg-ash": "Après la mort de Catherine, Nelly rejoint Heathcliff près d’un vieux frêne. La position de l’arbre dans le dessin est interprétative.",
+      "tg-wall": "Cathy monte sur le mur puis descend dehors chercher son chapeau ; la porte fermée l’empêche de rentrer.",
+      "moor-guide": "Nelly s’arrête à la pierre indiquant les Heights, le village et la Grange. Ces trois liaisons sont textuelles ; tracés, angles et distances sont interprétatifs.",
+      "heights": "Le texte atteste des espaces et des scènes, non des plans mesurés. Voisinage des pièces, formes des bâtiments, tracés et distances sont interprétatifs. Chaque vue réunit des scènes de dates différentes. Les positions dessinées sont distinctes de la géographie et des modèles réels.",
+      "grange": "Le texte atteste des espaces et des scènes, non des plans mesurés. Voisinage des pièces, formes des bâtiments, tracés et distances sont interprétatifs. Chaque vue réunit des scènes de dates différentes. Les positions dessinées sont distinctes de la géographie et des modèles réels.",
+      "gimmerton": "Le texte atteste des espaces et des scènes, non des plans mesurés. Voisinage des pièces, formes des bâtiments, tracés et distances sont interprétatifs. Chaque vue réunit des scènes de dates différentes. Les positions dessinées sont distinctes de la géographie et des modèles réels.",
+      "penistone": "Le texte atteste des espaces et des scènes, non des plans mesurés. Voisinage des pièces, formes des bâtiments, tracés et distances sont interprétatifs. Chaque vue réunit des scènes de dates différentes. Les positions dessinées sont distinctes de la géographie et des modèles réels.",
+      "moorland": "Le texte atteste des espaces et des scènes, non des plans mesurés. Voisinage des pièces, formes des bâtiments, tracés et distances sont interprétatifs. Chaque vue réunit des scènes de dates différentes. Les positions dessinées sont distinctes de la géographie et des modèles réels."
+    },
+    "es": {
+      "wh-court": "Heathcliff abre el portón y conduce a Lockwood al patio.",
+      "wh-hall": "Lockwood entra en la sala directamente desde el umbral; los ruidos de la cocina llegan de otro espacio.",
+      "wh-kitchen": "En su carta, Isabella entra en la cocina descuidada y encuentra a Hareton junto al fuego.",
+      "wh-bed": "Lockwood se encierra en el lecho de roble, que incluye el alféizar. El dibujo no reconstruye una planta medida.",
+      "wh-attic": "Nelly sigue a Catherine al desván donde está encerrado Heathcliff; Catherine llega hasta él por los tragaluces.",
+      "wh-stable": "Nelly cruza el patio y encuentra a Heathcliff cuidando al nuevo poni en la cuadra.",
+      "wh-garden": "Nelly encuentra a los primos despejando un lugar para las flores. Esta escena tardía aparece junto a espacios anteriores sin presentarlos como simultáneos.",
+      "tg-drawing": "Heathcliff cuenta cómo los niños se agarran al alféizar y observan a los Linton en el salón carmesí.",
+      "tg-library": "Nelly convaleciente pide a Cathy que le lea en la biblioteca; su impaciencia precede al descubrimiento de las visitas secretas.",
+      "tg-chamber": "Heathcliff atraviesa el vestíbulo, encuentra el cuarto de Catherine y la abraza. El capítulo XIII sitúa este cuarto preparado para ella en la planta del salón.",
+      "tg-park": "Tras llegar el carruaje, Cathy y Edgar caminan por el parque mientras Nelly prepara la casa.",
+      "tg-ash": "Tras la muerte de Catherine, Nelly se acerca a Heathcliff junto a un viejo fresno. La posición del árbol en el dibujo es interpretativa.",
+      "tg-wall": "Cathy sube al muro y baja fuera para recoger su sombrero; la puerta cerrada le impide volver.",
+      "moor-guide": "Nelly se detiene en la piedra que indica las Cumbres, el pueblo y la Granja. Las tres conexiones son textuales; trazados, ángulos y distancias son interpretativos.",
+      "heights": "El texto documenta espacios y escenas, no plantas medidas. Adyacencias, formas de los edificios, trazados y distancias son interpretativos. Cada vista reúne escenas de fechas distintas. Las posiciones dibujadas son independientes de la geografía y de los modelos reales.",
+      "grange": "El texto documenta espacios y escenas, no plantas medidas. Adyacencias, formas de los edificios, trazados y distancias son interpretativos. Cada vista reúne escenas de fechas distintas. Las posiciones dibujadas son independientes de la geografía y de los modelos reales.",
+      "gimmerton": "El texto documenta espacios y escenas, no plantas medidas. Adyacencias, formas de los edificios, trazados y distancias son interpretativos. Cada vista reúne escenas de fechas distintas. Las posiciones dibujadas son independientes de la geografía y de los modelos reales.",
+      "penistone": "El texto documenta espacios y escenas, no plantas medidas. Adyacencias, formas de los edificios, trazados y distancias son interpretativos. Cada vista reúne escenas de fechas distintas. Las posiciones dibujadas son independientes de la geografía y de los modelos reales.",
+      "moorland": "El texto documenta espacios y escenas, no plantas medidas. Adyacencias, formas de los edificios, trazados y distancias son interpretativos. Cada vista reúne escenas de fechas distintas. Las posiciones dibujadas son independientes de la geografía y de los modelos reales."
+    }
+  },
+  "placeOrder": [
+    "wh-court",
+    "wh-hall",
+    "wh-kitchen",
+    "wh-bed",
+    "wh-attic",
+    "wh-stable",
+    "wh-garden",
+    "tg-drawing",
+    "tg-library",
+    "tg-chamber",
+    "tg-park",
+    "tg-ash",
+    "tg-wall",
+    "heights",
+    "grange",
+    "gimmerton",
+    "penistone",
+    "moorland",
+    "moor-guide"
+  ],
+  "views": [
+    {
+      "id": "heights",
+      "names": {
+        "en": "Wuthering Heights · Earnshaw house",
+        "it": "Wuthering Heights · casa Earnshaw",
+        "fr": "Wuthering Heights · maison Earnshaw",
+        "es": "Wuthering Heights · casa Earnshaw"
+      },
+      "positions": {
+        "wh-court": [
+          0.42,
+          0.7
+        ],
+        "wh-hall": [
+          0.44,
+          0.54
+        ],
+        "wh-kitchen": [
+          0.68,
+          0.54
+        ],
+        "wh-bed": [
+          0.41,
+          0.35
+        ],
+        "wh-attic": [
+          0.67,
+          0.3
+        ],
+        "wh-stable": [
+          0.13,
+          0.52
+        ],
+        "wh-garden": [
+          0.83,
+          0.69
+        ]
+      },
+      "image": "images/wuthering-heights/heights-panorama.png",
+      "notes": {
+        "en": "Lockwood’s uneasy welcome, Catherine’s childhood and the cousins’ reconciliation inhabit the same house. The rooms and outbuildings gather scenes across the novel.",
+        "it": "L’accoglienza inquieta di Lockwood, l’infanzia di Catherine e la riconciliazione dei cugini abitano la stessa casa. Stanze e annessi raccolgono scene di epoche diverse del romanzo.",
+        "fr": "L’accueil inquiétant de Lockwood, l’enfance de Catherine et la réconciliation des cousins habitent la même maison. Pièces et dépendances rassemblent des scènes de différentes époques.",
+        "es": "La inquietante acogida de Lockwood, la infancia de Catherine y la reconciliación de los primos habitan la misma casa. Cuartos y dependencias reúnen escenas de distintas épocas."
+      }
+    },
+    {
+      "id": "grange",
+      "names": {
+        "en": "Thrushcross Grange",
+        "it": "Thrushcross Grange",
+        "fr": "Thrushcross Grange",
+        "es": "Thrushcross Grange"
+      },
+      "positions": {
+        "tg-drawing": [
+          0.41,
+          0.51
+        ],
+        "tg-library": [
+          0.53,
+          0.51
+        ],
+        "tg-chamber": [
+          0.66,
+          0.52
+        ],
+        "tg-park": [
+          0.48,
+          0.67
+        ],
+        "tg-ash": [
+          0.15,
+          0.44
+        ],
+        "tg-wall": [
+          0.84,
+          0.81
+        ]
+      },
+      "image": "images/wuthering-heights/grange-panorama.png",
+      "notes": {
+        "en": "The Lintons’ sheltered home becomes a place of illness, care and forbidden attachments. Beyond the rooms, the park and its boundary open onto the moor.",
+        "it": "La dimora protetta dei Linton diventa luogo di malattia, cura e legami proibiti. Oltre le stanze, il parco e il suo confine si aprono verso la brughiera.",
+        "fr": "La demeure protégée des Linton devient lieu de maladie, de soins et d’attachements interdits. Au-delà des pièces, le parc et sa limite ouvrent sur la lande.",
+        "es": "La casa protegida de los Linton se convierte en lugar de enfermedad, cuidados y afectos prohibidos. Más allá de los cuartos, el parque y su límite se abren al páramo."
+      }
+    },
+    {
+      "id": "moorland",
+      "names": {
+        "en": "Across the moor",
+        "it": "Il paesaggio della brughiera",
+        "fr": "À travers la lande",
+        "es": "El paisaje del páramo"
+      },
+      "positions": {
+        "heights": [
+          0.15,
+          0.2
+        ],
+        "grange": [
+          0.83,
+          0.51
+        ],
+        "gimmerton": [
+          0.18,
+          0.43
+        ],
+        "penistone": [
+          0.84,
+          0.19
+        ],
+        "moorland": [
+          0.48,
+          0.4
+        ],
+        "moor-guide": [
+          0.475,
+          0.66
+        ]
+      },
+      "image": "images/wuthering-heights/moorland-panorama.png",
+      "notes": {
+        "en": "Journeys, escapes and encounters bind the two houses to Gimmerton and the crags. The guide-stone names three destinations; this landscape preserves their connections without fixing bearings or distances.",
+        "it": "Viaggi, fughe e incontri legano le due dimore a Gimmerton e alle rupi. Il cippo indica tre destinazioni: il paesaggio ne conserva i collegamenti senza fissare direzioni o distanze.",
+        "fr": "Voyages, fuites et rencontres relient les deux demeures à Gimmerton et aux rochers. La pierre indique trois destinations ; ce paysage conserve leurs liens sans fixer directions ou distances.",
+        "es": "Viajes, huidas y encuentros unen las dos casas con Gimmerton y los riscos. La piedra indica tres destinos; el paisaje conserva sus conexiones sin fijar direcciones ni distancias."
+      }
+    }
+  ]
+}

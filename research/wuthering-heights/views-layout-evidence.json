@@ -1,0 +1,51 @@
+[
+  {
+    "chapter": 1,
+    "paragraph": 10,
+    "quote": "Pure, bracing ventilation they must have up there at all times, indeed: one may guess the power of the north wind blowing over the edge, by the excessive slant of a few stunted firs at the end of the house; and by a range of gaunt thorns all stretching their limbs one way, as if craving alms of the sun.",
+    "sourceSha256": "ede1827acf382bee80c8a48ff51873ba82f33502f865759b87ccad103e023e81",
+    "use": "Exposed house, wind-bent firs and thorns: visual motifs, not Top Withens architecture."
+  },
+  {
+    "chapter": 1,
+    "paragraph": 12,
+    "quote": "ne stop brought us into the family sitting-room, without any introductory lobby or passage: they call it here 'the house' pre-eminently.",
+    "sourceSha256": "ede1827acf382bee80c8a48ff51873ba82f33502f865759b87ccad103e023e81",
+    "use": "Direct entry into common room, kitchen separate: no measured adjacency."
+  },
+  {
+    "chapter": 3,
+    "paragraph": 2,
+    "quote": "I slid back the panelled sides, got in with my light, pulled them together again, and felt secure against the vigilance of Heathcliff, and every one else.",
+    "sourceSha256": "31276c8ba38db49127b7256022ffcca7ed46164ae8539ddfc58828afd3e7a95b",
+    "use": "Enclosed oak bed including window ledge."
+  },
+  {
+    "chapter": 7,
+    "paragraph": 42,
+    "quote": "The little monkey had crept by the skylight of one garret, along the roof, into the skylight of the other, and it was with the utmost difficulty I could coax her out again.",
+    "sourceSha256": "0e07c51b67bae6f4d4790bfa0db9830e3ecbf8fc6c7b6745dc2d14d9beb2f632",
+    "use": "Two garrets linked by roof and skylights."
+  },
+  {
+    "chapter": 13,
+    "paragraph": 6,
+    "quote": "To obviate the fatigue of mounting and descending the stairs, we fitted up this, where you lie at present--on the same floor with the parlour; and she was soon strong enough to move from one to the other, leaning on Edgar's arm.",
+    "sourceSha256": "905a3736411426e8faf51ab6adce7664d30dcf38a51089a44a0fe488ed930ea1",
+    "use": "Catherine’s prepared sickroom is on the parlour floor, not a claimed upstairs chamber."
+  },
+  {
+    "chapter": 11,
+    "paragraph": 2,
+    "quote": "It serves as a guide-post to the Grange, the Heights, and village.",
+    "sourceSha256": "e4c4fe3ec072c1779ab2f8d937fd86db99a4d0f7464f397399aed283f145c23f",
+    "use": "Three named destinations at a fork; face inscriptions do not establish surveyed bearings of the complete paths."
+  },
+  {
+    "chapter": 18,
+    "paragraph": 17,
+    "quote": "The Crags lie about a mile and a half beyond Mr.",
+    "sourceSha256": "08cc169aa4ac005d4777904071041a0c692d9bbb15bbcfd800678203f10f713b",
+    "use": "Crags beyond the Heights relative to the Grange approach; no metric scale or coordinate reconstruction."
+  }
+]

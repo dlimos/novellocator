@@ -16,7 +16,7 @@
   const anchors=Object.fromEntries(config.views.map(view=>[view.id,{positions:Object.fromEntries(Object.entries(view.positions).map(([id,p])=>[id,{x:p[0],y:p[1]}]))}]));
   data.book={...data.book,mapType:'illustrated',exportOriginalGeography:true,sidebarNote:text.notice,
    illustration:{width:config.width,height:config.height,core:{xmin:0,ymin:0,xmax:config.width,ymax:config.height,spatialReference:{wkid:3857}},
-    epochs:config.views.map(view=>({id:view.id,image:view.image,label:view.names[locale]||view.names.en})),anchors,globalEpoch:0,geographicPlaces,separateViews:true,viewLabel:text.view,
+    epochs:config.views.map(view=>({id:view.id,image:view.image,label:view.names[locale]||view.names.en,note:view.notes?.[locale]||view.notes?.en})),anchors,globalEpoch:0,geographicPlaces,separateViews:true,viewLabel:text.view,
     geographyLabels:{back:text.back,map:text.geographic},caption:text.caption,imageAlt:text.alt,geographicOption:config.offerGeography?text.geographic:null,preferIllustratedAnchors:config.preferIllustratedAnchors,emptyNote:text.empty,
     basemapURL:root.atlasBasemaps?.find(b=>b.id==='osm')?.url||'https://basemaps.arcgis.com/arcgis/rest/services/OpenStreetMap_v2/VectorTileServer'}};
   for(const chapter of data.chapters){
@@ -35,7 +35,7 @@
     if(chapter.places.includes(id)&&data.places[id]){
      const original=chapter.placeExcerpts[id]?.original;
      if(!original?.quote?.trim()||['pending','rejected'].includes(original.verificationStatus)){(chapter.illustratedExcluded??=[]).push(id);continue;}
-     data.places[id].imagePresentation={note:text.caption,method:text.notice+' '+text.method};
+     data.places[id].imagePresentation={note:text.caption,method:text.notice+' '+text.method,positionSource:{label:text.caption},status:text.caption};
      const index=chapter.places.indexOf(id),notes=config.sceneNotes?.[locale]||config.sceneNotes?.en||{};
      chapter.placeText[index]=notes[chapter.id+':'+id]||config.notes[locale]?.[id]||chapter.placeText[index];
      added.push(id);continue;

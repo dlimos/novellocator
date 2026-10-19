@@ -11,7 +11,7 @@ for(const c of data.chapters){
  for(const l of ['en','it','fr','es'])assert.ok(dictionary[l][c.text]?.length>30,l+' introduction '+c.id);
  for(const [i,pid]of c.places.entries()){assert.equal(c.placeCategories[pid],'action');assert.ok(c.placeText[i]);records.push({section:c.id,id:pid,category:'action',excerpt:c.placeExcerpts[pid]});}
  for(const ref of c.citations){assert.equal(ref.category,'mentioned');records.push({section:c.id,id:ref.placeId,...ref});}
- for(const u of c.unlocatedPlaces)records.push({section:c.id,id:u.id,category:u.category,excerpt:u.excerpt});
+ for(const u of c.unlocatedPlaces)if(!u.illustratedOnly)records.push({section:c.id,id:u.id,category:u.category,excerpt:u.excerpt});
 }
 assert.equal(records.length,139);assert.equal(new Set(records.map(r=>r.section+':'+r.id)).size,139);
 for(const r of records){

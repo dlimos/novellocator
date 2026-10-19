@@ -1,0 +1,44 @@
+{
+  "caption": [
+    "Interpretative painting · not to scale",
+    "Veduta pittorica interpretativa · non in scala",
+    "Vue picturale interprétative · sans échelle",
+    "Vista pictórica interpretativa · sin escala"
+  ],
+  "notice": [
+    "The text documents spaces and scenes, not measured plans. Room adjacencies, building shapes, paths and distances are interpretative. Scenes from different dates are assembled in each view. Image positions are separate from geography and real inspirations.",
+    "Il testo documenta ambienti e scene, non piante misurate. Adiacenze delle stanze, forme degli edifici, percorsi e distanze sono interpretativi. Ogni veduta riunisce scene di date diverse. Le posizioni sul disegno sono separate dalla geografia e dai modelli reali.",
+    "Le texte atteste des espaces et des scènes, non des plans mesurés. Voisinage des pièces, formes des bâtiments, tracés et distances sont interprétatifs. Chaque vue réunit des scènes de dates différentes. Les positions dessinées sont distinctes de la géographie et des modèles réels.",
+    "El texto documenta espacios y escenas, no plantas medidas. Adyacencias, formas de los edificios, trazados y distancias son interpretativos. Cada vista reúne escenas de fechas distintas. Las posiciones dibujadas son independientes de la geografía y de los modelos reales."
+  ],
+  "method": [
+    "A marker identifies an element in a realistic literary painting generated with AI. Its quotation retains the original chapter; architectural form and image positions are interpretative.",
+    "Il marker identifica un elemento di una veduta letteraria realistica generata con IA. La citazione conserva il capitolo d’origine; forme architettoniche e posizioni nell’immagine sono interpretative.",
+    "Le repère désigne un élément d’une vue littéraire réaliste générée par IA. La citation conserve son chapitre d’origine ; formes architecturales et positions dans l’image sont interprétatives.",
+    "El marcador identifica un elemento de una vista literaria realista generada con IA. La cita conserva su capítulo de origen; formas arquitectónicas y posiciones en la imagen son interpretativas."
+  ],
+  "alt": [
+    "Interpretative cutaway views of the two houses and a moorland landscape.",
+    "Vedute interpretative in sezione delle due dimore e del paesaggio della brughiera.",
+    "Vues interprétatives en coupe des deux demeures et du paysage des landes.",
+    "Vistas interpretativas en sección de las dos casas y del paisaje del páramo."
+  ],
+  "heights": [
+    "Lockwood’s uneasy welcome, Catherine’s childhood and the cousins’ reconciliation inhabit the same house. The rooms and outbuildings gather scenes across the novel.",
+    "L’accoglienza inquieta di Lockwood, l’infanzia di Catherine e la riconciliazione dei cugini abitano la stessa casa. Stanze e annessi raccolgono scene di epoche diverse del romanzo.",
+    "L’accueil inquiétant de Lockwood, l’enfance de Catherine et la réconciliation des cousins habitent la même maison. Pièces et dépendances rassemblent des scènes de différentes époques.",
+    "La inquietante acogida de Lockwood, la infancia de Catherine y la reconciliación de los primos habitan la misma casa. Cuartos y dependencias reúnen escenas de distintas épocas."
+  ],
+  "grange": [
+    "The Lintons’ sheltered home becomes a place of illness, care and forbidden attachments. Beyond the rooms, the park and its boundary open onto the moor.",
+    "La dimora protetta dei Linton diventa luogo di malattia, cura e legami proibiti. Oltre le stanze, il parco e il suo confine si aprono verso la brughiera.",
+    "La demeure protégée des Linton devient lieu de maladie, de soins et d’attachements interdits. Au-delà des pièces, le parc et sa limite ouvrent sur la lande.",
+    "La casa protegida de los Linton se convierte en lugar de enfermedad, cuidados y afectos prohibidos. Más allá de los cuartos, el parque y su límite se abren al páramo."
+  ],
+  "moorland": [
+    "Journeys, escapes and encounters bind the two houses to Gimmerton and the crags. The guide-stone names three destinations; this landscape preserves their connections without fixing bearings or distances.",
+    "Viaggi, fughe e incontri legano le due dimore a Gimmerton e alle rupi. Il cippo indica tre destinazioni: il paesaggio ne conserva i collegamenti senza fissare direzioni o distanze.",
+    "Voyages, fuites et rencontres relient les deux demeures à Gimmerton et aux rochers. La pierre indique trois destinations ; ce paysage conserve leurs liens sans fixer directions ou distances.",
+    "Viajes, huidas y encuentros unen las dos casas con Gimmerton y los riscos. La piedra indica tres destinos; el paisaje conserva sus conexiones sin fijar direcciones ni distancias."
+  ]
+}

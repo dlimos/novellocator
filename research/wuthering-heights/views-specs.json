@@ -1,0 +1,268 @@
+[
+  [
+    "wh-court",
+    1,
+    6,
+    "court",
+    "",
+    [
+      "Gate and paved court",
+      "Cancello e cortile lastricato",
+      "Portail et cour pavée",
+      "Portón y patio empedrado"
+    ],
+    [
+      "Heathcliff unchains the gate and leads Lockwood into the court.",
+      "Heathcliff libera il cancello e precede Lockwood nel cortile.",
+      "Heathcliff détache le portail et conduit Lockwood dans la cour.",
+      "Heathcliff abre el portón y conduce a Lockwood al patio."
+    ]
+  ],
+  [
+    "wh-hall",
+    1,
+    11,
+    "family sitting-room",
+    "",
+    [
+      "The house · family room",
+      "La casa · sala comune",
+      "La maison · salle commune",
+      "La casa · sala familiar"
+    ],
+    [
+      "Lockwood enters the family room directly from the threshold; kitchen sounds come from a separate quarter.",
+      "Lockwood entra nella sala direttamente dalla soglia; i rumori della cucina provengono da un altro ambiente.",
+      "Lockwood entre dans la salle directement depuis le seuil ; les bruits de cuisine viennent d’une autre pièce.",
+      "Lockwood entra en la sala directamente desde el umbral; los ruidos de la cocina llegan de otro espacio."
+    ]
+  ],
+  [
+    "wh-kitchen",
+    13,
+    14,
+    "kitchen",
+    "",
+    [
+      "Kitchen",
+      "Cucina",
+      "Cuisine",
+      "Cocina"
+    ],
+    [
+      "In Isabella’s letter, she enters the neglected kitchen and meets Hareton by the fire.",
+      "Nella lettera Isabella entra nella cucina trascurata e incontra Hareton vicino al fuoco.",
+      "Dans sa lettre, Isabella entre dans la cuisine négligée et rencontre Hareton près du feu.",
+      "En su carta, Isabella entra en la cocina descuidada y encuentra a Hareton junto al fuego."
+    ]
+  ],
+  [
+    "wh-bed",
+    3,
+    1,
+    "panelled sides",
+    "In fact,",
+    [
+      "Chamber with the enclosed bed",
+      "Camera del letto a pannelli",
+      "Chambre au lit clos",
+      "Cuarto del lecho cerrado"
+    ],
+    [
+      "Lockwood climbs into the enclosed oak bed. The window ledge lies within it; the drawing does not establish a measured floor plan.",
+      "Lockwood si chiude nel letto di quercia a pannelli, che comprende il davanzale. Il disegno non ne ricostruisce una pianta misurata.",
+      "Lockwood s’enferme dans le lit clos en chêne, qui englobe l’appui de fenêtre. Le dessin n’en restitue pas un plan mesuré.",
+      "Lockwood se encierra en el lecho de roble, que incluye el alféizar. El dibujo no reconstruye una planta medida."
+    ]
+  ],
+  [
+    "wh-attic",
+    7,
+    41,
+    "skylight",
+    "The little monkey had crept",
+    [
+      "Garrets and skylights",
+      "Soffitte e lucernari",
+      "Greniers et lucarnes",
+      "Desvanes y tragaluces"
+    ],
+    [
+      "Nelly follows Catherine up to the garret where Heathcliff is confined; Catherine reaches him by the skylights.",
+      "Nelly segue Catherine fino alla soffitta dove Heathcliff è rinchiuso; Catherine lo raggiunge passando dai lucernari.",
+      "Nelly suit Catherine au grenier où Heathcliff est enfermé ; Catherine le rejoint par les lucarnes.",
+      "Nelly sigue a Catherine al desván donde está encerrado Heathcliff; Catherine llega hasta él por los tragaluces."
+    ]
+  ],
+  [
+    "wh-stable",
+    7,
+    13,
+    "stable",
+    "It struck me soon",
+    [
+      "Stable",
+      "Scuderia",
+      "Écurie",
+      "Cuadra"
+    ],
+    [
+      "Nelly goes out through the court and finds Heathcliff tending the new pony in the stable.",
+      "Nelly esce nel cortile e trova Heathcliff nella scuderia mentre accudisce il nuovo pony.",
+      "Nelly traverse la cour et trouve Heathcliff à l’écurie, occupé du nouveau poney.",
+      "Nelly cruza el patio y encuentra a Heathcliff cuidando al nuevo poni en la cuadra."
+    ]
+  ],
+  [
+    "wh-garden",
+    33,
+    0,
+    "garden",
+    "",
+    [
+      "Garden · Cathy and Hareton",
+      "Giardino · Cathy e Hareton",
+      "Jardin · Cathy et Hareton",
+      "Jardín · Cathy y Hareton"
+    ],
+    [
+      "Nelly finds the cousins clearing shrubs to make room for flowers. This later scene is shown beside earlier spaces without claiming they are simultaneous.",
+      "Nelly trova i cugini intenti a liberare spazio per i fiori. La scena tarda affianca gli ambienti precedenti senza presentarli come simultanei.",
+      "Nelly trouve les cousins dégageant une place pour les fleurs. Cette scène tardive côtoie les espaces antérieurs sans prétendre qu’ils soient simultanés.",
+      "Nelly encuentra a los primos despejando un lugar para las flores. Esta escena tardía aparece junto a espacios anteriores sin presentarlos como simultáneos."
+    ]
+  ],
+  [
+    "tg-drawing",
+    6,
+    5,
+    "drawing-room window",
+    "We crept through",
+    [
+      "Drawing room and window",
+      "Salotto e finestra",
+      "Salon et fenêtre",
+      "Salón y ventana"
+    ],
+    [
+      "Heathcliff recounts how the children cling to the window ledge and watch the Lintons inside the crimson drawing room.",
+      "Heathcliff racconta come i bambini si aggrappano al davanzale e osservano i Linton nel salotto cremisi.",
+      "Heathcliff raconte comment les enfants s’agrippent à l’appui de fenêtre et observent les Linton dans le salon cramoisi.",
+      "Heathcliff cuenta cómo los niños se agarran al alféizar y observan a los Linton en el salón carmesí."
+    ]
+  ],
+  [
+    "tg-library",
+    24,
+    0,
+    "library",
+    "",
+    [
+      "Library",
+      "Biblioteca",
+      "Bibliothèque",
+      "Biblioteca"
+    ],
+    [
+      "The recovering Nelly asks Cathy to read to her in the library; her impatience precedes the discovery of the secret visits.",
+      "Nelly convalescente chiede a Cathy di leggerle in biblioteca; l’impazienza della ragazza precede la scoperta delle visite segrete.",
+      "Nelly convalescente demande à Cathy de lui lire dans la bibliothèque ; son impatience précède la découverte des visites secrètes.",
+      "Nelly convaleciente pide a Cathy que le lea en la biblioteca; su impaciencia precede al descubrimiento de las visitas secretas."
+    ]
+  ],
+  [
+    "tg-chamber",
+    15,
+    8,
+    "chamber",
+    "The minute after",
+    [
+      "Catherine’s sickroom",
+      "Camera di Catherine malata",
+      "Chambre de Catherine malade",
+      "Cuarto de Catherine enferma"
+    ],
+    [
+      "Heathcliff crosses the hall, finds Catherine’s room and embraces her. The book places this prepared sickroom on the parlour floor in chapter XIII.",
+      "Heathcliff attraversa l’ingresso, trova la camera di Catherine e l’abbraccia. Il capitolo XIII colloca questa camera preparata per lei sul piano del salotto.",
+      "Heathcliff traverse le vestibule, trouve la chambre de Catherine et l’embrasse. Le chapitre XIII situe cette chambre aménagée au niveau du salon.",
+      "Heathcliff atraviesa el vestíbulo, encuentra el cuarto de Catherine y la abraza. El capítulo XIII sitúa este cuarto preparado para ella en la planta del salón."
+    ]
+  ],
+  [
+    "tg-park",
+    19,
+    4,
+    "park",
+    "The latter saw me",
+    [
+      "Park and carriage approach",
+      "Parco e arrivo della carrozza",
+      "Parc et arrivée de la voiture",
+      "Parque y llegada del carruaje"
+    ],
+    [
+      "After the carriage arrives, Cathy and Edgar walk together through the park while Nelly prepares the household.",
+      "Dopo l’arrivo della carrozza Cathy ed Edgar camminano insieme nel parco, mentre Nelly prepara la casa.",
+      "Après l’arrivée de la voiture, Cathy et Edgar traversent le parc tandis que Nelly prépare la maison.",
+      "Tras llegar el carruaje, Cathy y Edgar caminan por el parque mientras Nelly prepara la casa."
+    ]
+  ],
+  [
+    "tg-ash",
+    16,
+    6,
+    "ash-tree",
+    "He was there",
+    [
+      "Ash tree in the park",
+      "Frassino nel parco",
+      "Frêne du parc",
+      "Fresno del parque"
+    ],
+    [
+      "Nelly approaches Heathcliff by an old ash tree after Catherine’s death. The tree’s position within the drawing is interpretative.",
+      "Dopo la morte di Catherine, Nelly si avvicina a Heathcliff presso un vecchio frassino. La posizione dell’albero nel disegno è interpretativa.",
+      "Après la mort de Catherine, Nelly rejoint Heathcliff près d’un vieux frêne. La position de l’arbre dans le dessin est interprétative.",
+      "Tras la muerte de Catherine, Nelly se acerca a Heathcliff junto a un viejo fresno. La posición del árbol en el dibujo es interpretativa."
+    ]
+  ],
+  [
+    "tg-wall",
+    22,
+    14,
+    "wall",
+    "",
+    [
+      "Park wall and locked door",
+      "Muro del parco e porta chiusa",
+      "Mur du parc et porte fermée",
+      "Muro del parque y puerta cerrada"
+    ],
+    [
+      "Cathy climbs onto the wall and drops outside to recover her hat; the locked door prevents her return.",
+      "Cathy sale sul muro e scende fuori per recuperare il cappello; la porta chiusa le impedisce di rientrare.",
+      "Cathy monte sur le mur puis descend dehors chercher son chapeau ; la porte fermée l’empêche de rentrer.",
+      "Cathy sube al muro y baja fuera para recoger su sombrero; la puerta cerrada le impide volver."
+    ]
+  ],
+  [
+    "moor-guide",
+    11,
+    1,
+    "guide-post",
+    "I came to a stone",
+    [
+      "Guide-stone at the fork",
+      "Cippo al bivio",
+      "Pierre indicatrice au carrefour",
+      "Piedra indicadora en la bifurcación"
+    ],
+    [
+      "Nelly stops at the stone marked for the Heights, village and Grange. The three connections are textual; the drawn paths, angles and distances are interpretative.",
+      "Nelly si ferma al cippo con le indicazioni per Heights, villaggio e Grange. I tre collegamenti sono testuali; percorsi, angoli e distanze del disegno sono interpretativi.",
+      "Nelly s’arrête à la pierre indiquant les Heights, le village et la Grange. Ces trois liaisons sont textuelles ; tracés, angles et distances sont interprétatifs.",
+      "Nelly se detiene en la piedra que indica las Cumbres, el pueblo y la Granja. Las tres conexiones son textuales; trazados, ángulos y distancias son interpretativos."
+    ]
+  ]
+]

@@ -1,0 +1,198 @@
+[
+  {
+    "placeId": "wh-court",
+    "sourceChapter": 1,
+    "sourceParagraph": 7,
+    "sourceSha256": "ede1827acf382bee80c8a48ff51873ba82f33502f865759b87ccad103e023e81",
+    "quote": "When he saw my horse's breast fairly pushing the barrier, he did put out his hand to unchain it, and then sullenly preceded me up the causeway, calling, as we entered the court,--'Joseph, take Mr. Lockwood's horse; and bring up some wine.'",
+    "highlightTerms": [
+      "court"
+    ],
+    "category": "action",
+    "narrativeRationale": "Heathcliff unchains the gate and leads Lockwood into the court.",
+    "positionEvidence": "Space and scene are textual; pixel position, adjacency and building form are interpretative, not measured or geographical.",
+    "sourceEdition": "Emily Brontë, Wuthering Heights, John Murray, London, 1910; chapter I, paragraph 7; Project Gutenberg transcription (David Price, 2010)."
+  },
+  {
+    "placeId": "wh-hall",
+    "sourceChapter": 1,
+    "sourceParagraph": 12,
+    "sourceSha256": "ede1827acf382bee80c8a48ff51873ba82f33502f865759b87ccad103e023e81",
+    "quote": "One stop brought us into the family sitting-room, without any introductory lobby or passage: they call it here 'the house' pre-eminently. It includes kitchen and parlour, generally; but I believe at Wuthering Heights the kitchen is forced to retreat altogether into another quarter: at least I distinguished a chatter of tongues, and a clatter of culinary utensils, deep within; and I observed no signs of roasting, boiling, or baking, about the huge fireplace; nor any glitter of copper saucepans and tin cullenders on the walls.",
+    "highlightTerms": [
+      "family sitting-room"
+    ],
+    "category": "action",
+    "narrativeRationale": "Lockwood enters the family room directly from the threshold; kitchen sounds come from a separate quarter.",
+    "positionEvidence": "Space and scene are textual; pixel position, adjacency and building form are interpretative, not measured or geographical.",
+    "sourceEdition": "Emily Brontë, Wuthering Heights, John Murray, London, 1910; chapter I, paragraph 12; Project Gutenberg transcription (David Price, 2010)."
+  },
+  {
+    "placeId": "wh-kitchen",
+    "sourceChapter": 13,
+    "sourceParagraph": 15,
+    "sourceSha256": "905a3736411426e8faf51ab6adce7664d30dcf38a51089a44a0fe488ed930ea1",
+    "quote": "Heathcliff stayed to speak to him, and I entered the kitchen--a dingy, untidy hole; I daresay you would not know it, it is so changed since it was in your charge. By the fire stood a ruffianly child, strong in limb and dirty in garb, with a look of Catherine in his eyes and about his mouth.",
+    "highlightTerms": [
+      "kitchen"
+    ],
+    "category": "action",
+    "narrativeRationale": "In Isabella’s letter, she enters the neglected kitchen and meets Hareton by the fire.",
+    "positionEvidence": "Space and scene are textual; pixel position, adjacency and building form are interpretative, not measured or geographical.",
+    "sourceEdition": "Emily Brontë, Wuthering Heights, John Murray, London, 1910; chapter XIII, paragraph 15; Project Gutenberg transcription (David Price, 2010)."
+  },
+  {
+    "placeId": "wh-bed",
+    "sourceChapter": 3,
+    "sourceParagraph": 2,
+    "sourceSha256": "31276c8ba38db49127b7256022ffcca7ed46164ae8539ddfc58828afd3e7a95b",
+    "quote": "In fact, it formed a little closet, and the ledge of a window, which it enclosed, served as a table. I slid back the panelled sides, got in with my light, pulled them together again, and felt secure against the vigilance of Heathcliff, and every one else.",
+    "highlightTerms": [
+      "panelled sides"
+    ],
+    "category": "action",
+    "narrativeRationale": "Lockwood climbs into the enclosed oak bed. The window ledge lies within it; the drawing does not establish a measured floor plan.",
+    "positionEvidence": "Space and scene are textual; pixel position, adjacency and building form are interpretative, not measured or geographical.",
+    "sourceEdition": "Emily Brontë, Wuthering Heights, John Murray, London, 1910; chapter III, paragraph 2; Project Gutenberg transcription (David Price, 2010)."
+  },
+  {
+    "placeId": "wh-attic",
+    "sourceChapter": 7,
+    "sourceParagraph": 42,
+    "sourceSha256": "0e07c51b67bae6f4d4790bfa0db9830e3ecbf8fc6c7b6745dc2d14d9beb2f632",
+    "quote": "The little monkey had crept by the skylight of one garret, along the roof, into the skylight of the other, and it was with the utmost difficulty I could coax her out again. When she did come, Heathcliff came with her, and she insisted that I should take him into the kitchen, as my fellow-servant had gone to a neighbour's, to be removed from the sound of our 'devil's psalmody,' as it pleased him to call it. I told them I intended by no means to encourage their tricks: but as the prisoner had never broken his fast since yesterday's dinner, I would wink at his cheating Mr. Hindley that once.",
+    "highlightTerms": [
+      "skylight"
+    ],
+    "category": "action",
+    "narrativeRationale": "Nelly follows Catherine up to the garret where Heathcliff is confined; Catherine reaches him by the skylights.",
+    "positionEvidence": "Space and scene are textual; pixel position, adjacency and building form are interpretative, not measured or geographical.",
+    "sourceEdition": "Emily Brontë, Wuthering Heights, John Murray, London, 1910; chapter VII, paragraph 42; Project Gutenberg transcription (David Price, 2010)."
+  },
+  {
+    "placeId": "wh-stable",
+    "sourceChapter": 7,
+    "sourceParagraph": 14,
+    "sourceSha256": "0e07c51b67bae6f4d4790bfa0db9830e3ecbf8fc6c7b6745dc2d14d9beb2f632",
+    "quote": "It struck me soon, however, there would be more sense in endeavouring to repair some of his wrongs than shedding tears over them: I got up and walked into the court to seek him. He was not far; I found him smoothing the glossy coat of the new pony in the stable, and feeding the other beasts, according to custom.",
+    "highlightTerms": [
+      "stable"
+    ],
+    "category": "action",
+    "narrativeRationale": "Nelly goes out through the court and finds Heathcliff tending the new pony in the stable.",
+    "positionEvidence": "Space and scene are textual; pixel position, adjacency and building form are interpretative, not measured or geographical.",
+    "sourceEdition": "Emily Brontë, Wuthering Heights, John Murray, London, 1910; chapter VII, paragraph 14; Project Gutenberg transcription (David Price, 2010)."
+  },
+  {
+    "placeId": "wh-garden",
+    "sourceChapter": 33,
+    "sourceParagraph": 1,
+    "sourceSha256": "a05702b38952564b67b783cd5be7d237ba08f35658c9bd9f08f2b3b04a21bf98",
+    "quote": "On the morrow of that Monday, Earnshaw being still unable to follow his ordinary employments, and therefore remaining about the house, I speedily found it would be impracticable to retain my charge beside me, as heretofore. She got downstairs before me, and out into the garden, where she had seen her cousin performing some easy work; and when I went to bid them come to breakfast, I saw she had persuaded him to clear a large space of ground from currant and gooseberry bushes, and they were busy planning together an importation of plants from the Grange.",
+    "highlightTerms": [
+      "garden"
+    ],
+    "category": "action",
+    "narrativeRationale": "Nelly finds the cousins clearing shrubs to make room for flowers. This later scene is shown beside earlier spaces without claiming they are simultaneous.",
+    "positionEvidence": "Space and scene are textual; pixel position, adjacency and building form are interpretative, not measured or geographical.",
+    "sourceEdition": "Emily Brontë, Wuthering Heights, John Murray, London, 1910; chapter XXXIII, paragraph 1; Project Gutenberg transcription (David Price, 2010)."
+  },
+  {
+    "placeId": "tg-drawing",
+    "sourceChapter": 6,
+    "sourceParagraph": 6,
+    "sourceSha256": "1bc6b67751a653bfd8b28c57623710d97fdccaac3df5e8adb2bf558e63b9faf6",
+    "quote": "We crept through a broken hedge, groped our way up the path, and planted ourselves on a flower-plot under the drawing-room window. The light came from thence; they had not put up the shutters, and the curtains were only half closed. Both of us were able to look in by standing on the basement, and clinging to the ledge, and we saw--ah! it was beautiful--a splendid place carpeted with crimson, and crimson-covered chairs and tables, and a pure white ceiling bordered by gold, a shower of glass-drops hanging in silver chains from the centre, and shimmering with little soft tapers. Old Mr. and Mrs.",
+    "highlightTerms": [
+      "drawing-room window"
+    ],
+    "category": "action",
+    "narrativeRationale": "Heathcliff recounts how the children cling to the window ledge and watch the Lintons inside the crimson drawing room.",
+    "positionEvidence": "Space and scene are textual; pixel position, adjacency and building form are interpretative, not measured or geographical.",
+    "sourceEdition": "Emily Brontë, Wuthering Heights, John Murray, London, 1910; chapter VI, paragraph 6; Project Gutenberg transcription (David Price, 2010)."
+  },
+  {
+    "placeId": "tg-library",
+    "sourceChapter": 24,
+    "sourceParagraph": 1,
+    "sourceSha256": "60aeab81d84a4db53e1537c85acfbb18189440e52ae7be3a2d1b62194c472c4f",
+    "quote": "At the close of three weeks I was able to quit my chamber and move about the house. And on the first occasion of my sitting up in the evening I asked Catherine to read to me, because my eyes were weak. We were in the library, the master having gone to bed: she consented, rather unwillingly, I fancied; and imagining my sort of books did not suit her, I bid her please herself in the choice of what she perused. She selected one of her own favourites, and got forward steadily about an hour; then came frequent questions.",
+    "highlightTerms": [
+      "library"
+    ],
+    "category": "action",
+    "narrativeRationale": "The recovering Nelly asks Cathy to read to her in the library; her impatience precedes the discovery of the secret visits.",
+    "positionEvidence": "Space and scene are textual; pixel position, adjacency and building form are interpretative, not measured or geographical.",
+    "sourceEdition": "Emily Brontë, Wuthering Heights, John Murray, London, 1910; chapter XXIV, paragraph 1; Project Gutenberg transcription (David Price, 2010)."
+  },
+  {
+    "placeId": "tg-chamber",
+    "sourceChapter": 15,
+    "sourceParagraph": 9,
+    "sourceSha256": "8129fab68773464c17ed29aab953e7db51121b56c4af4c6363b55174331a7009",
+    "quote": "The minute after a step traversed the hall; the open house was too tempting for Heathcliff to resist walking in: most likely he supposed that I was inclined to shirk my promise, and so resolved to trust to his own audacity. With straining eagerness Catherine gazed towards the entrance of her chamber. He did not hit the right room directly: she motioned me to admit him, but he found it out ere I could reach the door, and in a stride or two was at her side, and had her grasped in his arms.",
+    "highlightTerms": [
+      "chamber"
+    ],
+    "category": "action",
+    "narrativeRationale": "Heathcliff crosses the hall, finds Catherine’s room and embraces her. The book places this prepared sickroom on the parlour floor in chapter XIII.",
+    "positionEvidence": "Space and scene are textual; pixel position, adjacency and building form are interpretative, not measured or geographical.",
+    "sourceEdition": "Emily Brontë, Wuthering Heights, John Murray, London, 1910; chapter XV, paragraph 9; Project Gutenberg transcription (David Price, 2010)."
+  },
+  {
+    "placeId": "tg-park",
+    "sourceChapter": 19,
+    "sourceParagraph": 5,
+    "sourceSha256": "40a583db53d35520b37cae51611a487216db71e82a685a64d7d6d06729f6ee7d",
+    "quote": "The latter saw me looking; and having shaken hands, advised me to close the door, and leave him undisturbed; for the journey had fatigued him. Cathy would fain have taken one glance, but her father told her to come, and they walked together up the park, while I hastened before to prepare the servants.",
+    "highlightTerms": [
+      "park"
+    ],
+    "category": "action",
+    "narrativeRationale": "After the carriage arrives, Cathy and Edgar walk together through the park while Nelly prepares the household.",
+    "positionEvidence": "Space and scene are textual; pixel position, adjacency and building form are interpretative, not measured or geographical.",
+    "sourceEdition": "Emily Brontë, Wuthering Heights, John Murray, London, 1910; chapter XIX, paragraph 5; Project Gutenberg transcription (David Price, 2010)."
+  },
+  {
+    "placeId": "tg-ash",
+    "sourceChapter": 16,
+    "sourceParagraph": 7,
+    "sourceSha256": "d6043f18f1ecadd3f8ab295f34f0c827ae05a4c99ba5263cdca53767e0f2ae7c",
+    "quote": "He was there--at least, a few yards further in the park; leant against an old ash-tree, his hat off, and his hair soaked with the dew that had gathered on the budded branches, and fell pattering round him. He had been standing a long time in that position, for I saw a pair of ousels passing and repassing scarcely three feet from him, busy in building their nest, and regarding his proximity no more than that of a piece of timber. They flew off at my approach, and he raised his eyes and spoke:--'She's dead!' he said; 'I've not waited for you to learn that. Put your handkerchief away--don't snivel before me. Damn you all!",
+    "highlightTerms": [
+      "ash-tree"
+    ],
+    "category": "action",
+    "narrativeRationale": "Nelly approaches Heathcliff by an old ash tree after Catherine’s death. The tree’s position within the drawing is interpretative.",
+    "positionEvidence": "Space and scene are textual; pixel position, adjacency and building form are interpretative, not measured or geographical.",
+    "sourceEdition": "Emily Brontë, Wuthering Heights, John Murray, London, 1910; chapter XVI, paragraph 7; Project Gutenberg transcription (David Price, 2010)."
+  },
+  {
+    "placeId": "tg-wall",
+    "sourceChapter": 22,
+    "sourceParagraph": 15,
+    "sourceSha256": "c963c302e01ba624ef630ee2c43e94cfcc8386891995d0b19fb66f0b7a3ab932",
+    "quote": "As we talked, we neared a door that opened on the road; and my young lady, lightening into sunshine again, climbed up and seated herself on the top of the wall, reaching over to gather some hips that bloomed scarlet on the summit branches of the wild-rose trees shadowing the highway side: the lower fruit had disappeared, but only birds could touch the upper, except from Cathy's present station. In stretching to pull them, her hat fell off; and as the door was locked, she proposed scrambling down to recover it. I bid her be cautious lest she got a fall, and she nimbly disappeared.",
+    "highlightTerms": [
+      "wall"
+    ],
+    "category": "action",
+    "narrativeRationale": "Cathy climbs onto the wall and drops outside to recover her hat; the locked door prevents her return.",
+    "positionEvidence": "Space and scene are textual; pixel position, adjacency and building form are interpretative, not measured or geographical.",
+    "sourceEdition": "Emily Brontë, Wuthering Heights, John Murray, London, 1910; chapter XXII, paragraph 15; Project Gutenberg transcription (David Price, 2010)."
+  },
+  {
+    "placeId": "moor-guide",
+    "sourceChapter": 11,
+    "sourceParagraph": 2,
+    "sourceSha256": "e4c4fe3ec072c1779ab2f8d937fd86db99a4d0f7464f397399aed283f145c23f",
+    "quote": "I came to a stone where the highway branches off on to the moor at your left hand; a rough sand-pillar, with the letters W. H. cut on its north side, on the east, G., and on the south-west, T. G. It serves as a guide-post to the Grange, the Heights, and village. The sun shone yellow on its grey head, reminding me of summer; and I cannot say why, but all at once a gush of child's sensations flowed into my heart. Hindley and I held it a favourite spot twenty years before.",
+    "highlightTerms": [
+      "guide-post"
+    ],
+    "category": "action",
+    "narrativeRationale": "Nelly stops at the stone marked for the Heights, village and Grange. The three connections are textual; the drawn paths, angles and distances are interpretative.",
+    "positionEvidence": "Space and scene are textual; pixel position, adjacency and building form are interpretative, not measured or geographical.",
+    "sourceEdition": "Emily Brontë, Wuthering Heights, John Murray, London, 1910; chapter XI, paragraph 2; Project Gutenberg transcription (David Price, 2010)."
+  }
+]
