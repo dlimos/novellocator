@@ -1,0 +1,25 @@
+{
+  "checked": "2026-10-20",
+  "scope": "Draft data structure, chapter source hashes, image decoding and closed publication gates. Does not certify edition, narrative associations, rights or public import.",
+  "passed": true,
+  "chapters": 31,
+  "draftIntroductions": 124,
+  "sourceChapterHashesMatched": 31,
+  "minimumTokenSimilarity": 0.989087,
+  "images": {
+    "research/mockingbird/neighbourhood-study.png": [
+      1536,
+      1024
+    ],
+    "research/mockingbird/preview-desktop.png": [
+      1264,
+      1806
+    ],
+    "docs/images/mockingbird-tanner-thankful-poor.jpg": [
+      1797,
+      1386
+    ]
+  },
+  "cataloguePublished": false,
+  "databaseUpdated": false
+}

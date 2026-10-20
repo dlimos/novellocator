@@ -1,0 +1,237 @@
+{
+  "checked": "2026-10-20",
+  "witnessA": "english-school-transcription",
+  "witnessB": "peradaban-university-appendix",
+  "witnessBSha256": "c0b935228304bb36c14dc67e3d360780694a6c92695ec0b98448cfcca8b8274f",
+  "witnessBPages": 157,
+  "claimedISBN": "9780061980268",
+  "claimedEditionVerified": false,
+  "independenceOfWitnessesEstablished": false,
+  "method": "Compare lowercase alphanumeric tokens chapter by chapter; whitespace, case and punctuation are ignored. Remaining differences include OCR/reflow word splits. This does not assess meaning or certify authenticity.",
+  "limitations": [
+    "The second witness is a thesis appendix reflow, not a facsimile of the claimed publisher's print edition.",
+    "Its front matter gives renewal 1998 instead of 1988 and misspells Foreword; declared ISBN is not sufficient proof of edition identity.",
+    "Both transcriptions may descend from a common electronic ancestor; textual agreement does not establish independent corroboration.",
+    "The 1993 foreword is additional material and is not silently included in the first witness's edition or chapter count.",
+    "The thesis author's biographical appendix is excluded from the literary corpus and from all research outputs."
+  ],
+  "chapters": [
+    {
+      "chapter": 1,
+      "tokensA": 4873,
+      "tokensB": 4899,
+      "tokenSimilarity": 0.992018,
+      "differenceBlocks": 26
+    },
+    {
+      "chapter": 2,
+      "tokensA": 2684,
+      "tokensB": 2701,
+      "tokenSimilarity": 0.990529,
+      "differenceBlocks": 17
+    },
+    {
+      "chapter": 3,
+      "tokensA": 3775,
+      "tokensB": 3794,
+      "tokenSimilarity": 0.992469,
+      "differenceBlocks": 19
+    },
+    {
+      "chapter": 4,
+      "tokensA": 3315,
+      "tokensB": 3325,
+      "tokenSimilarity": 0.995482,
+      "differenceBlocks": 10
+    },
+    {
+      "chapter": 5,
+      "tokensA": 3351,
+      "tokensB": 3365,
+      "tokenSimilarity": 0.993746,
+      "differenceBlocks": 14
+    },
+    {
+      "chapter": 6,
+      "tokensA": 2783,
+      "tokensB": 2800,
+      "tokenSimilarity": 0.990865,
+      "differenceBlocks": 17
+    },
+    {
+      "chapter": 7,
+      "tokensA": 2042,
+      "tokensB": 2048,
+      "tokenSimilarity": 0.995599,
+      "differenceBlocks": 6
+    },
+    {
+      "chapter": 8,
+      "tokensA": 4002,
+      "tokensB": 4024,
+      "tokenSimilarity": 0.991777,
+      "differenceBlocks": 22
+    },
+    {
+      "chapter": 9,
+      "tokensA": 5574,
+      "tokensB": 5611,
+      "tokenSimilarity": 0.990076,
+      "differenceBlocks": 37
+    },
+    {
+      "chapter": 10,
+      "tokensA": 3661,
+      "tokensB": 3676,
+      "tokenSimilarity": 0.993867,
+      "differenceBlocks": 15
+    },
+    {
+      "chapter": 11,
+      "tokensA": 5282,
+      "tokensB": 5311,
+      "tokenSimilarity": 0.991787,
+      "differenceBlocks": 29
+    },
+    {
+      "chapter": 12,
+      "tokensA": 4265,
+      "tokensB": 4288,
+      "tokenSimilarity": 0.991933,
+      "differenceBlocks": 23
+    },
+    {
+      "chapter": 13,
+      "tokensA": 3003,
+      "tokensB": 3023,
+      "tokenSimilarity": 0.990043,
+      "differenceBlocks": 20
+    },
+    {
+      "chapter": 14,
+      "tokensA": 3673,
+      "tokensB": 3687,
+      "tokenSimilarity": 0.994293,
+      "differenceBlocks": 14
+    },
+    {
+      "chapter": 15,
+      "tokensA": 4209,
+      "tokensB": 4232,
+      "tokenSimilarity": 0.991826,
+      "differenceBlocks": 23
+    },
+    {
+      "chapter": 16,
+      "tokensA": 3974,
+      "tokensB": 3995,
+      "tokenSimilarity": 0.992094,
+      "differenceBlocks": 21
+    },
+    {
+      "chapter": 17,
+      "tokensA": 4614,
+      "tokensB": 4637,
+      "tokenSimilarity": 0.992541,
+      "differenceBlocks": 23
+    },
+    {
+      "chapter": 18,
+      "tokensA": 4048,
+      "tokensB": 4069,
+      "tokenSimilarity": 0.992239,
+      "differenceBlocks": 21
+    },
+    {
+      "chapter": 19,
+      "tokensA": 3575,
+      "tokensB": 3588,
+      "tokenSimilarity": 0.994555,
+      "differenceBlocks": 13
+    },
+    {
+      "chapter": 20,
+      "tokensA": 2536,
+      "tokensB": 2547,
+      "tokenSimilarity": 0.993508,
+      "differenceBlocks": 11
+    },
+    {
+      "chapter": 21,
+      "tokensA": 2169,
+      "tokensB": 2180,
+      "tokenSimilarity": 0.992412,
+      "differenceBlocks": 11
+    },
+    {
+      "chapter": 22,
+      "tokensA": 1939,
+      "tokensB": 1950,
+      "tokenSimilarity": 0.991515,
+      "differenceBlocks": 11
+    },
+    {
+      "chapter": 23,
+      "tokensA": 4145,
+      "tokensB": 4173,
+      "tokenSimilarity": 0.989901,
+      "differenceBlocks": 28
+    },
+    {
+      "chapter": 24,
+      "tokensA": 3938,
+      "tokensB": 3958,
+      "tokenSimilarity": 0.992401,
+      "differenceBlocks": 20
+    },
+    {
+      "chapter": 25,
+      "tokensA": 1485,
+      "tokensB": 1495,
+      "tokenSimilarity": 0.989933,
+      "differenceBlocks": 10
+    },
+    {
+      "chapter": 26,
+      "tokensA": 2286,
+      "tokensB": 2297,
+      "tokenSimilarity": 0.99149,
+      "differenceBlocks": 13
+    },
+    {
+      "chapter": 27,
+      "tokensA": 2602,
+      "tokensB": 2621,
+      "tokenSimilarity": 0.989087,
+      "differenceBlocks": 19
+    },
+    {
+      "chapter": 28,
+      "tokensA": 4694,
+      "tokensB": 4715,
+      "tokenSimilarity": 0.993304,
+      "differenceBlocks": 21
+    },
+    {
+      "chapter": 29,
+      "tokensA": 1487,
+      "tokensB": 1495,
+      "tokenSimilarity": 0.991952,
+      "differenceBlocks": 8
+    },
+    {
+      "chapter": 30,
+      "tokensA": 2418,
+      "tokensB": 2435,
+      "tokenSimilarity": 0.989491,
+      "differenceBlocks": 17
+    },
+    {
+      "chapter": 31,
+      "tokensA": 1663,
+      "tokensB": 1673,
+      "tokenSimilarity": 0.991007,
+      "differenceBlocks": 10
+    }
+  ]
+}

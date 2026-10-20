@@ -1,6 +1,6 @@
 {
   "bookId": "to-kill-a-mockingbird",
-  "checked": "2026-10-19",
+  "checked": "2026-10-20",
   "scope": "Research documentation only; novel text URLs must never be rendered in the atlas or CSV exports.",
   "sources": [
     {
@@ -89,7 +89,7 @@
       "kind": "artwork-catalogue",
       "url": "https://artbridgesfoundation.org/artworks/tanner-the-thankful-poor",
       "access": "web-page-read",
-      "finding": "Henry Ossawa Tanner, The Thankful Poor, 1894, oil on canvas, AB.2020.16. Thematic candidate only; specific reproduction and reuse conditions not yet verified."
+      "finding": "Henry Ossawa Tanner, The Thankful Poor, 1894, oil on canvas, AB.2020.16. Owner record verified and specific Commons reproduction acquired; thematic connection and reuse basis documented in QUADRO.md."
     },
     {
       "id": "quotation-law-project-reference",
@@ -97,22 +97,56 @@
       "url": "https://www.bandistapp.it/norma/l-1941-633/art-70",
       "access": "web-page-read",
       "finding": "Project's article 70 reference. No individual or cumulative quotation assessment completed; no conclusion that copyright automatically prevents critical quotation."
+    },
+    {
+      "id": "peradaban-university-appendix",
+      "kind": "original-language-research-corpus",
+      "url": "https://repository.peradaban.ac.id/1263/9/LAMPIRAN_Muhammad%20Isro%20Mubarok_40118011_Skripsi_2022.pdf",
+      "localFile": "work/mockingbird/peradaban.pdf",
+      "access": "downloaded",
+      "pages": 157,
+      "editionVerified": false,
+      "finding": "Thesis appendix with reflowed novel and 1993 foreword; declares ISBN 9780061980268 but contains preliminary errors. Not an authenticated publisher facsimile. All 31 chapters compared; possible shared electronic ancestry remains unresolved."
+    },
+    {
+      "id": "nps-courthouse",
+      "kind": "institutional-literary-model-evidence",
+      "url": "https://home.nps.gov/places/old-monroe-county-courthouse-alabama.htm",
+      "access": "web-page-read",
+      "finding": "Documents historic courthouse, literary inspiration and Hollywood reconstruction. Does not establish fictional house addresses. Geographic coordinates still pending independent verification."
+    },
+    {
+      "id": "tanner-commons-reproduction",
+      "kind": "artwork-reproduction-rights",
+      "url": "https://commons.wikimedia.org/wiki/File:The_Thankful_Poor,_1894._Henry_Ossawa_Tanner.jpg",
+      "access": "web-page-read-and-image-downloaded",
+      "finding": "Specific faithful reproduction tagged PD-Art and Public Domain Mark. Painting by Tanner, died 1937; EU life-plus-70 period elapsed. Separate US rationale documented by Commons. No universal territorial claim or licence inferred for other photographs."
     }
   ],
   "translationSearches": [
     {
       "language": "it",
-      "queries": ["Il buio oltre la siepe traduzione Amalia D Agostino Schanzer 1962 pubblico dominio", "\"Il buio oltre la siepe\" \"pubblico dominio\""],
+      "queries": [
+        "Il buio oltre la siepe traduzione Amalia D Agostino Schanzer 1962 pubblico dominio",
+        "\"Il buio oltre la siepe\" \"pubblico dominio\""
+      ],
       "result": "No authenticated complete reusable public-domain translation located. Bibliographical candidates documented in TRADUZIONI.md."
     },
     {
       "language": "fr",
-      "queries": ["To Kill a Mockingbird French Spanish translation Le Livre de Poche Baldomero Porta", "\"Ne tirez pas\" \"domaine public\"", "site.bnfa.fr \"Ne tirez pas\" \"Domaine public\""],
+      "queries": [
+        "To Kill a Mockingbird French Spanish translation Le Livre de Poche Baldomero Porta",
+        "\"Ne tirez pas\" \"domaine public\"",
+        "site.bnfa.fr \"Ne tirez pas\" \"Domaine public\""
+      ],
       "result": "No authenticated complete reusable public-domain translation located. BNFA explicitly marks its 2005 edition as not public domain; translation and revision distinguished."
     },
     {
       "language": "es",
-      "queries": ["\"Matar a un ruiseñor\" \"dominio público\"", "site.penguinlibros.com \"Matar a un ruiseñor\" \"Baldomero\""],
+      "queries": [
+        "\"Matar a un ruiseñor\" \"dominio público\"",
+        "site.penguinlibros.com \"Matar a un ruiseñor\" \"Baldomero\""
+      ],
       "result": "No authenticated complete reusable public-domain translation located. Publisher sample identifies Baldomero Porta; no full translated corpus acquired."
     }
   ]

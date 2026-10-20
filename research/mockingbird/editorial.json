@@ -1,0 +1,287 @@
+{
+  "bookId": "to-kill-a-mockingbird",
+  "status": "draft-pending-edition-and-association-verification",
+  "languages": [
+    "en",
+    "it",
+    "fr",
+    "es"
+  ],
+  "title": {
+    "en": "To Kill a Mockingbird",
+    "it": "Il buio oltre la siepe",
+    "fr": "Ne tirez pas sur l’oiseau moqueur",
+    "es": "Matar a un ruiseñor"
+  },
+  "description": {
+    "en": "Scout and Jem among Maycomb’s dusty streets, hidden kindness and the shadows of prejudice.",
+    "it": "Scout e Jem fra le strade polverose di Maycomb, gentilezze nascoste e ombre del pregiudizio.",
+    "fr": "Scout et Jem dans les rues poussiéreuses de Maycomb, entre bonté cachée et ombres des préjugés.",
+    "es": "Scout y Jem entre las calles polvorientas de Maycomb, la bondad oculta y las sombras del prejuicio."
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "en": "Dill joins Scout and Jem for a summer of games. The Radley house draws their curiosity and their fears.",
+      "it": "Dill si unisce a Scout e Jem per un’estate di giochi. La casa dei Radley attira la loro curiosità e le loro paure.",
+      "fr": "Dill rejoint Scout et Jem pour un été de jeux. La maison des Radley attire leur curiosité et nourrit leurs peurs.",
+      "es": "Dill se une a Scout y Jem para un verano de juegos. La casa de los Radley despierta su curiosidad y sus temores."
+    },
+    {
+      "chapter": 2,
+      "en": "Scout begins school with high hopes, but her first morning brings a clash between home learning and classroom rules.",
+      "it": "Scout comincia la scuola piena di aspettative, ma la prima mattina mette in contrasto ciò che ha imparato in casa e le regole dell’aula.",
+      "fr": "Scout entre à l’école pleine d’espoir, mais sa première matinée oppose les apprentissages du foyer aux règles de la classe.",
+      "es": "Scout empieza la escuela llena de ilusión, pero la primera mañana enfrenta lo aprendido en casa con las normas del aula."
+    },
+    {
+      "chapter": 3,
+      "en": "Walter’s visit and another difficult school session test Scout’s judgments. Atticus offers a different way of looking at other people.",
+      "it": "La visita di Walter e un altro momento difficile a scuola mettono alla prova i giudizi di Scout. Atticus le propone un modo diverso di guardare gli altri.",
+      "fr": "La visite de Walter et de nouvelles difficultés à l’école mettent les jugements de Scout à l’épreuve. Atticus lui propose un autre regard sur les autres.",
+      "es": "La visita de Walter y otra difícil jornada escolar ponen a prueba los juicios de Scout. Atticus le propone otra manera de mirar a los demás."
+    },
+    {
+      "chapter": 4,
+      "en": "Small gifts appear in an oak beside the Radley property. With Dill’s return, the children turn neighbourhood rumours into a game.",
+      "it": "Piccoli doni compaiono in una quercia accanto alla proprietà dei Radley. Con il ritorno di Dill, i bambini trasformano le voci del quartiere in un gioco.",
+      "fr": "De petits cadeaux apparaissent dans un chêne près de la propriété des Radley. Au retour de Dill, les enfants transforment les rumeurs du quartier en jeu.",
+      "es": "Aparecen pequeños regalos en un roble junto a la propiedad de los Radley. Con el regreso de Dill, los niños convierten los rumores del barrio en un juego."
+    },
+    {
+      "chapter": 5,
+      "en": "Scout finds companionship on Miss Maudie’s porch. Meanwhile, Jem and Dill devise another approach to Arthur Radley.",
+      "it": "Scout trova compagnia sulla veranda di Miss Maudie. Intanto Jem e Dill escogitano un altro modo per avvicinare Arthur Radley.",
+      "fr": "Scout trouve de la compagnie sur la véranda de Miss Maudie. Pendant ce temps, Jem et Dill imaginent une autre façon d’approcher Arthur Radley.",
+      "es": "Scout encuentra compañía en el porche de Miss Maudie. Mientras tanto, Jem y Dill idean otra forma de acercarse a Arthur Radley."
+    },
+    {
+      "chapter": 6,
+      "en": "The children venture behind the Radley house at night. Their hurried escape leaves Jem facing a difficult return.",
+      "it": "I bambini si avventurano di notte dietro la casa dei Radley. La fuga precipitosa lascia a Jem il problema di tornarvi.",
+      "fr": "Les enfants s’aventurent de nuit derrière la maison des Radley. Leur fuite précipitée laisse à Jem la tâche difficile d’y retourner.",
+      "es": "Los niños se aventuran de noche detrás de la casa de los Radley. La huida precipitada obliga a Jem a plantearse un difícil regreso."
+    },
+    {
+      "chapter": 7,
+      "en": "Jem reveals what he found on returning for his trousers. More gifts in the oak suggest a connection that is suddenly cut off.",
+      "it": "Jem racconta ciò che ha trovato tornando a prendere i pantaloni. Altri doni nella quercia suggeriscono un legame che viene improvvisamente interrotto.",
+      "fr": "Jem raconte ce qu’il a trouvé en retournant chercher son pantalon. D’autres cadeaux dans le chêne suggèrent un lien soudainement interrompu.",
+      "es": "Jem cuenta lo que encontró al volver por sus pantalones. Nuevos regalos en el roble sugieren un vínculo que se interrumpe de pronto."
+    },
+    {
+      "chapter": 8,
+      "en": "Rare snow transforms the children’s street. That night, a fire draws the neighbourhood together and brings Scout an unexpected kindness.",
+      "it": "Una rara nevicata trasforma la strada dei bambini. Quella notte un incendio riunisce il quartiere e procura a Scout una gentilezza inattesa.",
+      "fr": "Une neige inhabituelle transforme la rue des enfants. Cette nuit-là, un incendie rassemble le quartier et vaut à Scout une bonté inattendue.",
+      "es": "Una nevada poco habitual transforma la calle de los niños. Esa noche, un incendio reúne al barrio y brinda a Scout una bondad inesperada."
+    },
+    {
+      "chapter": 9,
+      "en": "Atticus’s defence of Tom Robinson begins to affect Scout at school. Christmas at Finch’s Landing brings the conflict into the family.",
+      "it": "La difesa di Tom Robinson comincia a pesare su Scout a scuola. Il Natale a Finch’s Landing porta il conflitto anche in famiglia.",
+      "fr": "La défense de Tom Robinson commence à peser sur Scout à l’école. Noël à Finch’s Landing fait entrer le conflit dans la famille.",
+      "es": "La defensa de Tom Robinson empieza a afectar a Scout en la escuela. La Navidad en Finch’s Landing lleva el conflicto al seno familiar."
+    },
+    {
+      "chapter": 10,
+      "en": "Scout and Jem are embarrassed by their father’s quiet habits. A dangerous dog in the street reveals a side of Atticus they never suspected.",
+      "it": "Scout e Jem si vergognano delle abitudini tranquille del padre. Un cane pericoloso nella strada rivela un lato di Atticus che non sospettavano.",
+      "fr": "Scout et Jem ont honte des habitudes paisibles de leur père. Un chien dangereux dans la rue révèle un aspect d’Atticus qu’ils ne soupçonnaient pas.",
+      "es": "Scout y Jem se avergüenzan de las tranquilas costumbres de su padre. Un perro peligroso en la calle revela una faceta insospechada de Atticus."
+    },
+    {
+      "chapter": 11,
+      "en": "Mrs Dubose’s insults drive Jem to damage her camellias. Reading to her as punishment brings him close to a struggle he does not yet understand.",
+      "it": "Gli insulti della signora Dubose spingono Jem a danneggiarne le camelie. Leggerle ad alta voce per punizione lo avvicina a una lotta che ancora non comprende.",
+      "fr": "Les insultes de Mme Dubose poussent Jem à détruire ses camélias. Les lectures imposées en punition lui font découvrir une lutte qu’il ne comprend pas encore.",
+      "es": "Los insultos de la señora Dubose llevan a Jem a destrozar sus camelias. Leerle en voz alta como castigo lo acerca a una lucha que aún no comprende."
+    },
+    {
+      "chapter": 12,
+      "en": "With Atticus away, Calpurnia takes the children to First Purchase. The service opens a part of her life they have never seen.",
+      "it": "Durante l’assenza di Atticus, Calpurnia porta i bambini a First Purchase. La funzione apre loro una parte della sua vita che non conoscevano.",
+      "fr": "En l’absence d’Atticus, Calpurnia emmène les enfants à First Purchase. L’office leur fait découvrir une partie de sa vie qu’ils ignoraient.",
+      "es": "Durante la ausencia de Atticus, Calpurnia lleva a los niños a First Purchase. El oficio les descubre una parte de su vida que desconocían."
+    },
+    {
+      "chapter": 13,
+      "en": "Aunt Alexandra comes to stay with the Finches. Her ideas about family standing unsettle the children’s familiar world.",
+      "it": "La zia Alexandra si stabilisce dai Finch. Le sue idee sul prestigio della famiglia turbano il mondo familiare dei bambini.",
+      "fr": "Tante Alexandra s’installe chez les Finch. Ses idées sur le rang de la famille troublent l’univers familier des enfants.",
+      "es": "La tía Alexandra se instala con los Finch. Sus ideas sobre la posición familiar alteran el mundo cotidiano de los niños."
+    },
+    {
+      "chapter": 14,
+      "en": "A quarrel over Calpurnia is followed by conflict between Scout and Jem. An unexpected arrival reveals how different another child’s home can be.",
+      "it": "A una discussione su Calpurnia segue uno scontro fra Scout e Jem. Un arrivo inatteso rivela quanto possa essere diversa la casa di un altro bambino.",
+      "fr": "Une dispute au sujet de Calpurnia est suivie d’un conflit entre Scout et Jem. Une arrivée inattendue révèle combien le foyer d’un autre enfant peut être différent.",
+      "es": "A una discusión sobre Calpurnia le sigue un enfrentamiento entre Scout y Jem. Una llegada inesperada revela lo distinto que puede ser el hogar de otro niño."
+    },
+    {
+      "chapter": 15,
+      "en": "Concern about Tom’s safety brings visitors to the Finch house. Later, the children follow Atticus into town and find him keeping watch at the jail.",
+      "it": "La preoccupazione per Tom porta alcuni visitatori a casa Finch. Più tardi i bambini seguono Atticus in città e lo trovano di guardia alla prigione.",
+      "fr": "L’inquiétude pour Tom amène des visiteurs chez les Finch. Plus tard, les enfants suivent Atticus en ville et le trouvent montant la garde à la prison.",
+      "es": "La preocupación por Tom lleva visitantes a casa de los Finch. Más tarde, los niños siguen a Atticus al centro y lo encuentran vigilando la cárcel."
+    },
+    {
+      "chapter": 16,
+      "en": "People from across the county fill Maycomb for the trial. Reverend Sykes helps the children find a place in the courtroom balcony.",
+      "it": "Gli abitanti della contea affollano Maycomb per il processo. Il reverendo Sykes aiuta i bambini a trovare posto nella galleria del tribunale.",
+      "fr": "Les habitants du comté affluent à Maycomb pour le procès. Le révérend Sykes aide les enfants à trouver une place à la tribune du tribunal.",
+      "es": "Los habitantes del condado llenan Maycomb para el juicio. El reverendo Sykes ayuda a los niños a encontrar sitio en la galería del tribunal."
+    },
+    {
+      "chapter": 17,
+      "en": "The sheriff and Bob Ewell describe the accusation against Tom. Atticus’s questions direct attention to the injuries and the evidence that is missing.",
+      "it": "Lo sceriffo e Bob Ewell espongono l’accusa contro Tom. Le domande di Atticus richiamano l’attenzione sulle ferite e sulle prove mancanti.",
+      "fr": "Le shérif et Bob Ewell exposent l’accusation contre Tom. Les questions d’Atticus attirent l’attention sur les blessures et les preuves manquantes.",
+      "es": "El sheriff y Bob Ewell exponen la acusación contra Tom. Las preguntas de Atticus centran la atención en las heridas y en las pruebas que faltan."
+    },
+    {
+      "chapter": 18,
+      "en": "Mayella takes the stand, responding to courtesy with suspicion. Her testimony brings the hardship of the Ewell household into the courtroom.",
+      "it": "Mayella depone e risponde alla cortesia con sospetto. La sua testimonianza porta nell’aula la miseria della casa degli Ewell.",
+      "fr": "Mayella témoigne et répond à la courtoisie par la méfiance. Sa déposition fait entrer la misère du foyer Ewell dans la salle d’audience.",
+      "es": "Mayella declara y responde a la cortesía con recelo. Su testimonio lleva a la sala la miseria del hogar de los Ewell."
+    },
+    {
+      "chapter": 19,
+      "en": "Tom tells the court why he helped Mayella and what happened when she called him inside. The prosecutor’s manner becomes unbearable to Dill.",
+      "it": "Tom racconta perché aiutava Mayella e che cosa accadde quando lei lo chiamò in casa. Il modo di interrogarlo del procuratore diventa insopportabile per Dill.",
+      "fr": "Tom explique pourquoi il aidait Mayella et ce qui s’est passé lorsqu’elle l’a appelé à l’intérieur. La manière du procureur devient insupportable à Dill.",
+      "es": "Tom explica por qué ayudaba a Mayella y qué ocurrió cuando ella lo llamó al interior. La manera de interrogarlo del fiscal se vuelve insoportable para Dill."
+    },
+    {
+      "chapter": 20,
+      "en": "Outside the court, Dolphus Raymond explains the story he lets the town believe. Inside, Atticus asks the jury to set prejudice aside.",
+      "it": "Fuori dal tribunale, Dolphus Raymond spiega la storia che lascia credere alla città. Dentro, Atticus chiede alla giuria di mettere da parte il pregiudizio.",
+      "fr": "Devant le tribunal, Dolphus Raymond explique l’histoire qu’il laisse croire à la ville. À l’intérieur, Atticus demande au jury d’écarter les préjugés.",
+      "es": "Fuera del tribunal, Dolphus Raymond explica la historia que deja creer al pueblo. Dentro, Atticus pide al jurado que aparte los prejuicios."
+    },
+    {
+      "chapter": 21,
+      "en": "Calpurnia takes the children home to eat, but they return to wait for the verdict. The still courtroom holds a hope Jem is not ready to surrender.",
+      "it": "Calpurnia porta i bambini a mangiare a casa, ma loro tornano ad attendere il verdetto. Nell’aula immobile resta una speranza a cui Jem non vuole rinunciare.",
+      "fr": "Calpurnia ramène les enfants manger, mais ils reviennent attendre le verdict. Dans la salle immobile subsiste un espoir auquel Jem ne veut pas renoncer.",
+      "es": "Calpurnia lleva a los niños a cenar, pero regresan para esperar el veredicto. En la sala inmóvil permanece una esperanza a la que Jem no quiere renunciar."
+    },
+    {
+      "chapter": 22,
+      "en": "Jem struggles with the verdict while gifts arrive for Atticus. Miss Maudie offers comfort, but news of a threat interrupts the morning.",
+      "it": "Jem fatica ad accettare il verdetto mentre arrivano doni per Atticus. Miss Maudie offre conforto, ma la notizia di una minaccia interrompe la mattina.",
+      "fr": "Jem peine à accepter le verdict tandis que des cadeaux arrivent pour Atticus. Miss Maudie le réconforte, mais la nouvelle d’une menace trouble la matinée.",
+      "es": "Jem lucha por aceptar el veredicto mientras llegan regalos para Atticus. Miss Maudie ofrece consuelo, pero la noticia de una amenaza altera la mañana."
+    },
+    {
+      "chapter": 23,
+      "en": "Atticus tries to explain the jury’s decision and calm the children’s fears. A dispute over Walter leads Scout and Jem back to the divisions within Maycomb.",
+      "it": "Atticus cerca di spiegare la decisione della giuria e calmare le paure dei bambini. Una discussione su Walter riporta Scout e Jem alle divisioni di Maycomb.",
+      "fr": "Atticus tente d’expliquer la décision du jury et de calmer les craintes des enfants. Une dispute au sujet de Walter ramène Scout et Jem aux divisions de Maycomb.",
+      "es": "Atticus intenta explicar la decisión del jurado y calmar los temores de los niños. Una discusión sobre Walter devuelve a Scout y Jem a las divisiones de Maycomb."
+    },
+    {
+      "chapter": 24,
+      "en": "Scout joins Aunt Alexandra’s missionary gathering. News brought by Atticus abruptly changes the meaning of the afternoon.",
+      "it": "Scout partecipa alla riunione missionaria della zia Alexandra. Una notizia portata da Atticus cambia bruscamente il senso del pomeriggio.",
+      "fr": "Scout participe à la réunion missionnaire de tante Alexandra. Une nouvelle apportée par Atticus change brusquement le sens de l’après-midi.",
+      "es": "Scout participa en la reunión misionera de la tía Alexandra. Una noticia que trae Atticus cambia bruscamente el sentido de la tarde."
+    },
+    {
+      "chapter": 25,
+      "en": "Scout recalls Dill’s account of the visit to Helen Robinson. An editorial gives her a new way to understand Tom’s fate.",
+      "it": "Scout ripensa al racconto di Dill sulla visita a Helen Robinson. Un editoriale le offre un modo nuovo di comprendere il destino di Tom.",
+      "fr": "Scout se remémore le récit de Dill sur la visite à Helen Robinson. Un éditorial lui offre une nouvelle manière de comprendre le sort de Tom.",
+      "es": "Scout recuerda el relato de Dill sobre la visita a Helen Robinson. Un editorial le ofrece otra manera de comprender el destino de Tom."
+    },
+    {
+      "chapter": 26,
+      "en": "Back at school, Scout hears a lesson against persecution. She cannot reconcile it with words she remembers hearing after the trial.",
+      "it": "Tornata a scuola, Scout ascolta una lezione contro la persecuzione. Non riesce a conciliarla con alcune parole udite dopo il processo.",
+      "fr": "De retour à l’école, Scout entend une leçon contre la persécution. Elle ne peut la concilier avec des paroles entendues après le procès.",
+      "es": "De vuelta en la escuela, Scout escucha una lección contra la persecución. No consigue conciliarla con unas palabras que oyó después del juicio."
+    },
+    {
+      "chapter": 27,
+      "en": "Disturbing incidents reach Judge Taylor and Helen Robinson. Meanwhile, Maycomb prepares a Halloween pageant in which Scout has a part.",
+      "it": "Episodi inquietanti coinvolgono il giudice Taylor e Helen Robinson. Intanto Maycomb prepara uno spettacolo di Halloween in cui Scout ha una parte.",
+      "fr": "Des incidents inquiétants touchent le juge Taylor et Helen Robinson. Pendant ce temps, Maycomb prépare un spectacle d’Halloween auquel Scout participe.",
+      "es": "Unos incidentes inquietantes afectan al juez Taylor y a Helen Robinson. Mientras tanto, Maycomb prepara un espectáculo de Halloween en el que participa Scout."
+    },
+    {
+      "chapter": 28,
+      "en": "Jem accompanies Scout to the school pageant. On the dark walk home, they realise that someone is following them.",
+      "it": "Jem accompagna Scout allo spettacolo della scuola. Nel ritorno al buio, i due si accorgono che qualcuno li segue.",
+      "fr": "Jem accompagne Scout au spectacle de l’école. Sur le chemin du retour dans l’obscurité, ils comprennent que quelqu’un les suit.",
+      "es": "Jem acompaña a Scout al espectáculo de la escuela. Al regresar en la oscuridad, descubren que alguien los sigue."
+    },
+    {
+      "chapter": 29,
+      "en": "Beside Jem’s bed, Scout tries to describe the attack. Looking at the stranger in the room, she finally recognises her neighbour.",
+      "it": "Accanto al letto di Jem, Scout cerca di descrivere l’aggressione. Guardando lo sconosciuto nella stanza, riconosce finalmente il vicino.",
+      "fr": "Au chevet de Jem, Scout essaie de décrire l’agression. En regardant l’inconnu dans la pièce, elle reconnaît enfin son voisin.",
+      "es": "Junto a la cama de Jem, Scout intenta describir la agresión. Al mirar al desconocido de la habitación, reconoce por fin a su vecino."
+    },
+    {
+      "chapter": 30,
+      "en": "Atticus and the sheriff discuss Ewell’s death on the porch. Scout begins to understand what protecting Arthur requires.",
+      "it": "Atticus e lo sceriffo discutono della morte di Ewell sulla veranda. Scout comincia a capire che cosa significhi proteggere Arthur.",
+      "fr": "Atticus et le shérif discutent de la mort d’Ewell sur la véranda. Scout commence à comprendre ce que protéger Arthur exige.",
+      "es": "Atticus y el sheriff hablan de la muerte de Ewell en el porche. Scout empieza a comprender qué significa proteger a Arthur."
+    },
+    {
+      "chapter": 31,
+      "en": "Scout walks Arthur to his door and looks back at the street from his porch. Returning home, she finds Atticus keeping watch over Jem.",
+      "it": "Scout accompagna Arthur alla porta e guarda la strada dalla sua veranda. Tornata a casa, trova Atticus che veglia su Jem.",
+      "fr": "Scout raccompagne Arthur à sa porte et regarde la rue depuis sa véranda. De retour chez elle, elle retrouve Atticus veillant sur Jem.",
+      "es": "Scout acompaña a Arthur hasta su puerta y mira la calle desde su porche. Al volver a casa, encuentra a Atticus velando junto a Jem."
+    }
+  ],
+  "preliminaries": {
+    "dedicationAndEpigraph": {
+      "status": "read-no-geographical-associations",
+      "note": "Dedication to Mr Lee and Alice and Charles Lamb epigraph do not supply an atlas place."
+    },
+    "1993ForewordInWitnessB": {
+      "status": "read-provenance-pending",
+      "note": "Brief authorial statement against introductions; no geographical association. Present only in the second research witness and not silently added to the 2005 anonymous transcription's front matter."
+    }
+  },
+  "view": {
+    "status": "first-interpretative-study-created-not-integrated",
+    "image": "neighbourhood-study.png",
+    "caption": {
+      "en": "Maycomb neighbourhood · interpretative study",
+      "it": "Il quartiere di Maycomb · studio interpretativo",
+      "fr": "Le quartier de Maycomb · étude interprétative",
+      "es": "El barrio de Maycomb · estudio interpretativo"
+    },
+    "notice": {
+      "en": "Architectural forms, spacing and perspective are interpretative. The painting combines settings from different scenes and is not a map of real addresses.",
+      "it": "Forme architettoniche, distanze e prospettiva sono interpretative. Il dipinto riunisce ambienti di scene diverse e non è una mappa di indirizzi reali.",
+      "fr": "Les formes architecturales, les distances et la perspective sont interprétatives. La peinture réunit les lieux de scènes différentes et ne représente pas des adresses réelles.",
+      "es": "Las formas arquitectónicas, las distancias y la perspectiva son interpretativas. La pintura reúne lugares de distintas escenas y no representa direcciones reales."
+    }
+  },
+  "cover": {
+    "src": "images/mockingbird-tanner-thankful-poor.jpg",
+    "alt": {
+      "en": "The Thankful Poor by Henry Ossawa Tanner, 1894",
+      "it": "The Thankful Poor di Henry Ossawa Tanner, 1894",
+      "fr": "The Thankful Poor de Henry Ossawa Tanner, 1894",
+      "es": "The Thankful Poor de Henry Ossawa Tanner, 1894"
+    },
+    "width": 1797,
+    "height": 1386
+  },
+  "credit": {
+    "artist": "Henry Ossawa Tanner",
+    "title": "The Thankful Poor",
+    "year": "1894",
+    "url": "https://artbridgesfoundation.org/artworks/tanner-the-thankful-poor",
+    "reproductionUrl": "https://commons.wikimedia.org/wiki/File:The_Thankful_Poor,_1894._Henry_Ossawa_Tanner.jpg",
+    "license": "Public domain; faithful reproduction; Commons PD-Art",
+    "checked": "2026-10-20"
+  }
+}

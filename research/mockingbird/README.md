@@ -1,43 +1,41 @@
-# Il buio oltre la siepe — avvio dell'analisi
+# Il buio oltre la siepe — dossier di lavorazione
 
-Stato al 19 ottobre 2026: **ricerca preliminare; romanzo non importato e non pubblicato nell'atlante**. Questi documenti registrano risultati verificati, limiti delle fonti e decisioni editoriali ancora da completare. Non certificano una lettura integrale o un inventario completo dei luoghi.
+Stato al 20 ottobre 2026: **prima lettura della trascrizione completa; romanzo non importato e non pubblicato nell’atlante**. L’edizione resta da identificare e l’inventario delle associazioni capitolo–luogo da verificare individualmente.
 
-## Testo originale
+## Lettura e confronto dei testi
 
-È stata acquisita una trascrizione inglese accessibile sul sito della Renaissance Academy. Il PDF ha 285 pagine digitali; contiene dedica, epigrafe attribuita a Charles Lamb, due parti, intestazioni consecutive dei 31 capitoli e la conclusione. Il controllo strutturale riproducibile è in `audit-source.py`; risultati, hash e copertura in `source-audit.json`. PDF, testo estratto e capitoli separati rimangono in `work/mockingbird/`, escluso da Git.
+Sono stati letti tutti i 31 capitoli della trascrizione inglese Renaissance Academy, comprese le ambientazioni ricorrenti. `narrative-review.json` conserva note specifiche per capitolo e candidati luoghi dell’azione e menzioni. Non sono associazioni già certificate e non sostituiscono i riscontri originali individuali. `source-audit.json` conserva il controllo strutturale del 19 ottobre: il suo stato di lettura pendente è storico, aggiornato dal dossier narrativo del 20 ottobre.
 
-**L'edizione della trascrizione non è verificata.** Il documento riporta copyright 1960, rinnovo 1988 e accordo con McIntosh and Otis, ma non identifica editore, stampa o ISBN del volume trascritto. Le note finali dichiarano scansione e correzione anonime, con revisione HTML del 30 marzo 2005. Non attribuire questa trascrizione alla prima edizione Lippincott né a una specifica ristampa HarperCollins. Le pagine del PDF non sono pagine tipografiche certificate. La presenza delle intestazioni e della fine non dimostra che ogni frase sia integra.
+Il PDF di 285 pagine contiene dedica, epigrafe, due parti e 31 capitoli, ma non identifica l’edizione cartacea trascritta. Riporta copyright 1960 e rinnovo 1988; le note dichiarano scansione anonima e revisione HTML del 2005. Non attribuirlo alla prima Lippincott né a una ristampa specifica.
 
-Il record della [Morgan Library](https://www.themorgan.org/printed-books/92875) identifica una prima edizione del 1960, ma non costituisce un facsimile integrale con cui collazionare il PDF. Il servizio ministeriale canadese consultato elenca un'edizione Grand Central, ISBN 0446310786: è un'altra edizione, non la prova della provenienza della trascrizione. Le risorse NEA Big Read sono fonti critiche e didattiche, non sostituiscono il romanzo.
+È stato acquisito un secondo testimone dal repository dell’Universitas Peradaban: un’appendice di tesi di 157 pagine, con testo reimpaginato, prefazione del 1993 e ISBN dichiarato 9780061980268. Non è un facsimile editoriale e contiene errori nei preliminari. Il confronto dei 31 capitoli (`compare-transcriptions.py`, risultati in `transcription-comparison.json`) trova una somiglianza lessicale minima del 98,9%, ignorando maiuscole e punteggiatura. Non dimostra l’integrità di ogni frase, la provenienza editoriale o l’indipendenza dei testimoni: potrebbero derivare dalla stessa trascrizione elettronica.
 
-Gli URL dei testi e gli esiti dei tentativi di acquisizione sono conservati in `sources.json`, esclusivamente come documentazione di ricerca: non vanno esposti in schede, popup, note pubbliche o CSV dell'atlante.
+PDF, testi integrali e differenze estese rimangono in `work/mockingbird/`, escluso da Git. Gli URL sono documentati in `sources.json` per ricerca; non devono comparire nell’atlante o nei CSV pubblici.
 
-## Geografia: decisioni sostenute dalle fonti
+## Geografia e categorie narrative
 
-Il [Monroe County Museum](https://www.monroecountymuseum.org/home) documenta il rapporto fra Monroeville e la Maycomb immaginaria. Il riferimento geografico appropriato è quindi il **modello reale esplicitamente dichiarato**, con una posizione puntuale da verificare: nessun contorno regionale deve concorrere a localizzare la stessa Maycomb. Monroeville e Maycomb restano due identità distinte.
+Il Monroe County Museum documenta Monroeville come modello della Maycomb immaginaria. Il modello deve essere dichiarato esplicitamente, mantenendo distinte le due identità e senza trasferire indirizzi reali agli edifici inventati. Le coordinate devono ancora essere verificate.
 
-Il [record dell'Old Courthouse Museum](https://www.monroecountymuseum.org/old-courthouse-museum) documenta il modello del tribunale e distingue l'edificio reale dalla ricostruzione hollywoodiana. Non usare la scenografia del film come prova delle adiacenze nel romanzo. Verificare separatamente coordinate, scene e citazioni prima dell'importazione. Le abitazioni Finch e Radley non acquisiscono automaticamente indirizzi di Monroeville.
+Museo e National Park Service documentano il tribunale reale e la successiva ricostruzione cinematografica. Il film non prova la topografia del romanzo. Le coordinate sul disegno restano interpretative e separate da quelle terrestri.
 
-La prima lettura esplorativa dei capitoli 1 e 31 sostiene l'utilità di una ricostruzione del quartiere. Non equivale alla revisione dei 31 capitoli. Nel primo capitolo, per esempio, l'origine di Dill a Meridian è una menzione; il percorso genealogico di Simon Finch non diventa automaticamente una serie di scene; la visita progettata all'istituto di Tuscaloosa rimane menzione. I racconti su Boo hanno livelli narrativi e attendibilità propri. Categoria narrativa, realtà del luogo e precisione delle coordinate richiedono tre valutazioni separate.
+Le note distinguono scene, provenienze, destinazioni progettate, racconti e testimonianze contestate. La residenza di Dill a Meridian non diventa una scena; i racconti su Boo e le deposizioni del processo richiedono livello narrativo e attendibilità espliciti. Le categorie dei candidati non sono pronte per l’importazione: nel dubbio la categoria finale sarà `mentioned`. Nessun totale dei luoghi è certificato.
 
-## Vedute immaginarie: valutazione positiva, realizzazione pendente
+## Introduzioni, quadro e tema
 
-Si propone una veduta realistica del **quartiere dei Finch e dei Radley**, motivata dai rapporti spaziali descritti nel capitolo 1 e dal punto di vista sulla strada assunto da Scout nel capitolo 31. Il primo documenta cortili, limite delle case, curva della strada e prossimità della scuola; l'ultimo rende il cambiamento di prospettiva parte del significato del romanzo. Una veduta aiuterebbe a comprendere percorsi, distanza sociale e conoscenza del vicino.
+`editorial.json` contiene 124 introduzioni narrative in bozza: una per ciascuno dei 31 capitoli nelle quattro lingue, oltre alle descrizioni del catalogo e alle didascalie. Sono parafrasi editoriali, non traduzioni attribuite a traduttori del romanzo.
 
-La ricostruzione dovrà verificare anche i capitoli intermedi, distinguere elementi attestati e scelte pittoriche, e mantenere posizioni sul disegno separate da coordinate terrestri. Una seconda veduta dell'aula del tribunale è una possibilità da valutare dopo la lettura dei capitoli processuali; non è già approvata né realizzata. Non ricostruire l'intera città con una precisione che il testo non consente. Nessuna veduta è stata generata in questa fase.
+È stata acquisita una riproduzione di Henry Ossawa Tanner, *The Thankful Poor* (1894), verificando il record Art Bridges e la specifica riproduzione Commons. Il rapporto con Lee è tematico: dignità domestica afroamericana e generazioni; il quadro non raffigura Maycomb. Fonti e condizioni sono in `QUADRO.md`. Il credito visibile dell’anteprima contiene soltanto autore, titolo collegato e anno.
 
-## Presentazione: proposte ancora da verificare
+Il CSS locale `docs/themes/to-kill-a-mockingbird.css`, escluso da Git, usa un fondo terracotta polveroso confrontato con le palette esistenti e una filigrana a forma di mockingbird sul ramo. Il simbolo ha un ingombro di circa 39 px, tessera desktop 96 × 128 e righe sfalsate di 48 px; la tessera mobile è 72 × 96. Contrasti calcolati: testo/fondo 6,35:1, testo secondario/fondo 4,84:1. Il tema non è stato inviato al database.
 
-Filigrana proposta: un mockingbird posato su un ramo, con ingombro reale del disegno di circa 38 px su tessera desktop di 96 × 128 px e righe sfalsate di 48 px; tessera mobile 72 × 96 px. La filigrana non è ancora realizzata.
+## Vedute immaginarie: valutazione positiva e primo studio
 
-Palette proposta: azzurro ardesia chiaro, pannelli luminosi e dettagli ruggine ispirati al caldo, alla polvere e alle strade del romanzo. Confronto cromatico completo con il catalogo e verifica del contrasto ancora pendenti; nessun CSS o record `book_presentations` è stato pubblicato.
+La lettura conferma l’utilità del quartiere Finch–Radley, soprattutto per i capitoli 1, 4–8, 28–31. È stato realizzato un **primo studio pittorico realistico**, `neighbourhood-study.png`. `VEDUTA.md` separa gli elementi documentati dalle scelte interpretative e segnala le correzioni necessarie prima di farne una veduta interattiva definitiva. Non contiene marker o coordinate geografiche. Una veduta dell’aula del tribunale sarebbe utile per i capitoli 16–21, ma non è stata realizzata.
 
-Quadro candidato: Henry Ossawa Tanner, *The Thankful Poor*, 1894, Art Bridges, AB.2020.16. Il [record della collezione](https://artbridgesfoundation.org/artworks/tanner-the-thankful-poor) documenta autore, data e soggetto. Il rapporto proposto è tematico: dignità della vita domestica afroamericana e relazione fra generazioni; non raffigura Maycomb né i personaggi di Lee. Scelta definitiva, riproduzione e condizioni di riuso vanno verificate prima di scaricarlo o inserirlo nel catalogo.
+`preview-desktop.png` documenta l’anteprima locale: selezione di capitolo, cambio di lingua mantenendo il capitolo, introduzioni, quadro e studio. Non è una schermata del sito pubblico. La verifica visiva riguarda il desktop; il comportamento mobile resta da verificare.
 
-## Condizioni per completare l'aggiunta
+## Lavoro ancora necessario
 
-Occorre un testo inglese integrale con frontespizio e pagina dei diritti identificabili, oppure un'edizione verificabile con cui collazionare la trascrizione. Poi servono lettura di tutti i capitoli, inventario delle associazioni con motivazioni e riscontri individuali, introduzioni nelle quattro lingue, verifica geografica, valutazione documentata delle citazioni singole e cumulative e allineamento delle traduzioni utilizzabili. Le ricerche già svolte sono in `TRADUZIONI.md`.
+Identificare un’edizione completa verificabile e collazionare i testimoni; documentare per ogni associazione il riscontro originale, la funzione narrativa e la precisione geografica; completare il controllo delle traduzioni e la valutazione individuale e cumulativa delle citazioni; rifinire la veduta e verificare l’interfaccia mobile. Le ricerche sulle traduzioni e le lacune sono in `TRADUZIONI.md`. Nessuna citazione è abilitata alla pubblicazione.
 
-Non è sufficiente pubblicare una scheda Maycomb con poche scene campione. Il libro resta fuori dal catalogo finché l'aggiunta non soddisfa i requisiti del progetto. La protezione del testo non è di per sé un divieto di citazione: l'eventuale applicazione dell'art. 70 richiede l'analisi concreta prevista dalle istruzioni, non soltanto brevi passi e attribuzione.
-
-La documentazione completata può essere pubblicata sul branch `docs`. La futura pubblicazione del romanzo richiede anche importazione Supabase, presentazione e verifica pubblica; un push di questi appunti non pubblica il libro.
+Solo dopo queste verifiche si potrà completare il pacchetto, importarlo in Supabase, pubblicare `book_presentations` e controllare il risultato pubblico. Il push di questo dossier sul branch `docs` pubblica la documentazione di lavoro, **non aggiunge il romanzo al catalogo**.

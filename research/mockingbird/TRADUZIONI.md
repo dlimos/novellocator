@@ -18,3 +18,7 @@ La ricerca Gutenberg ha restituito anche la newsletter dell'aprile 2026 che dich
 Nessuna traduzione redazionale verrà presentata come citazione di Schanzer, Mantovani, Stoïanov, Hausser o Porta. Quando sarà disponibile un originale pubblicabile e verificato, le lingue senza una versione autentica allineata useranno quell'originale, con attribuzione inglese esplicita e selettore disabilitato se è l'unica versione. Per ora nessuna citazione è abilitata.
 
 Per le edizioni protette manca ancora una valutazione individuale e cumulativa dei passi ai fini della concreta discussione critica dei luoghi. [Articolo 70 indicato nelle istruzioni del progetto](https://www.bandistapp.it/norma/l-1941-633/art-70). Non vengono attribuite licenze o autorizzazioni non documentate e non si deduce l'inutilizzabilità automatica di ogni citazione dalla protezione dell'opera.
+
+## Aggiornamento del 20 ottobre 2026
+
+Acquisito un secondo testimone inglese reimpaginato dal repository Peradaban e confrontati tutti i 31 capitoli. Non è una traduzione né un facsimile editoriale autenticato: non risolve l’identificazione dell’edizione e non modifica gli esiti delle ricerche sulle traduzioni. Nessun passo tradotto è stato allineato o abilitato alla pubblicazione. Le 124 introduzioni in `editorial.json` sono testi redazionali, non citazioni del romanzo.
