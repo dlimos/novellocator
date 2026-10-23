@@ -8,6 +8,8 @@
 
 ## Numerazione dei luoghi nell’atlante
 
+- Nell'intestazione del menu laterale di ogni romanzo, presente o futuro, mostrare soltanto il titolo del menu: non aggiungere il conteggio delle sezioni, mappe o vedute (per esempio «18 mappe»). Conservare i numeri delle singole sezioni e i conteggi dei luoghi nei layer, che hanno funzioni distinte.
+
 - All'apertura della pagina principale di ogni romanzo, presente o futuro, selezionare di default «Tutti i luoghi» e inquadrare soltanto i luoghi dell'azione verificati nell'intera opera. Mantenere attivo anche il layer dei luoghi citati, che restano visibili e selezionabili senza ampliare l'inquadratura iniziale. Se non ci sono luoghi dell'azione, usare l'inquadratura editoriale del libro. Rispettare i collegamenti espliciti a capitoli, luoghi e vedute; nelle vedute immaginarie conservare l'elenco e la selezione delle singole vedute. Il comando esplicito «Inquadra i punti» continua a includere tutti i luoghi dei layer visibili.
 
 - Regola generale per tutti i romanzi, presenti e futuri: i luoghi dell’azione (`action`) hanno numeri progressivi `1, 2, 3…`; i luoghi citati (`mentioned`) hanno il prefisso `C` e una sequenza distinta `C1, C2, C3…`. Ricalcolare le due sequenze sui punti visibili quando cambia la visibilità dei layer dalla legenda, senza salti e partendo da 1 in ciascuna categoria. Mantenere coerenti marker ed etichette nelle schede, anche in vista globale e nelle mappe illustrate, senza cambiare l’identità dei luoghi o la selezione.

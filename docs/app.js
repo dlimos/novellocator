@@ -161,7 +161,6 @@ window.atlasPresentation?.fitTitle?.();
 document.getElementById('book-author').textContent=book.author.toUpperCase()+' · '+book.year;
 document.querySelector('meta[name="description"]').content=book.description;
 document.getElementById('chapter-list-title').textContent=book.sidebarTitle||'Capitoli';
-document.getElementById('chapter-count').textContent=chapters.filter(chapter=>chapter.places.length||chapter.citations?.length).length+' '+t(book.literaryViews?'Views':'mappe');
 document.getElementById('chapter-help').textContent=book.help||t('Scegli un capitolo per esplorarne i luoghi.');
 document.getElementById('book-note-text').textContent=book.sidebarNote||'';
 document.getElementById('atlas-workspace').setAttribute('aria-label',t('Atlante')+': '+book.title);
