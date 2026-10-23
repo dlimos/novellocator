@@ -45,8 +45,7 @@ console.log('PASS: three novels have independent geographic/illustrated points, 
   if(hasModel)context.window.atlasSupabaseData.loadBook=async()=>({data:{book:{hashPrefix:'chapter',geographicModels:[{placeId:'real-model',name:'Aracataca',inspirationFor:'Macondo'}]}},dictionary:{}});
   vm.runInNewContext(fs.readFileSync('docs/load-book.js','utf8'),context);await new Promise(resolve=>setImmediate(resolve));
   const links=nav.children.filter(child=>child.href);
-  assert.equal(links.length,hasModel?2:1,'One imaginary view link plus an optional real-model link');
-  if(hasModel){const model=new URL(links[1].href);assert.equal(model.searchParams.get('focus'),'real-model');assert.equal(model.searchParams.get('mode'),null);assert.equal(model.hash,'#chapter-all');assert(links[1].textContent.includes('Aracataca'));}
+  assert.equal(links.length,1,'Only the scenarios link, or the return to geography inside scenarios, including books with real models');
   if(!mode){assert.equal(links[0].textContent,'Scenari del romanzo');assert.equal(new URL(links[0].href).searchParams.get('mode'),'imaginary');}
   else assert.equal(new URL(links[0].href).searchParams.get('mode'),null);
   assert(!links.some(link=>['First view','Second view'].includes(link.textContent)));
