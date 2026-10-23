@@ -1,0 +1,17 @@
+{
+  "checked": "2026-10-23",
+  "originalSourceId": "english-school-transcription",
+  "sourceAcceptedByUser": true,
+  "copyrightStatus": "Protected; no public-domain status or licence asserted.",
+  "translationsPublished": [],
+  "quotationInstances": 97,
+  "totalWordsAcrossInstances": 931,
+  "wordsInDistinctQuotedStrings": 896,
+  "longestExcerptWords": 17,
+  "purpose": "Critical discussion of narrative geography: enacted scenes versus reported origins, itineraries, metaphors, depictions, historical allusions and unreliable statements. Every excerpt is attached to its own geographical-function assessment; fictional image anchors have separate interpretative notices.",
+  "necessity": "Each selected literal clause is used to support the associated category or spatial relation. No chapter-level literary excerpts, long dialogue, substitute summaries, translated protected passages or continuous reading copy are published. Repeated genealogical clauses are counted in the aggregate.",
+  "proportionality": "Selections are limited to the geographical propositions and minimal action needed for the analysis. They are dispersed among critical records, do not reproduce a continuous episode, and do not offer an alternative to reading the work. Brevity and attribution are not treated as a licence.",
+  "basis": "https://www.bandistapp.it/norma/l-1941-633/art-70",
+  "individualAssessments": "work/mockingbird/verified-evidence.json; original clauses and source hashes retained locally.",
+  "publicationScope": "Only the individually checked records are included. Broader candidate inventory remains explicitly in progress; no claim of completed addition."
+}

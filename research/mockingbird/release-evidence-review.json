@@ -1,0 +1,17 @@
+{
+  "checked": "2026-10-23",
+  "verifiedAssociations": 90,
+  "actionAssociations": 31,
+  "mentionedAssociations": 59,
+  "chaptersWithActionEvidence": 31,
+  "uniqueMappedPlaceCandidates": 36,
+  "removedFromThisRelease": {
+    "1:saint-stephens": "The modern settlement result is not sufficient to locate the historic Saint Stephens reference; retained in analysis.",
+    "11:alabama": "The name denotes the football team in this passage, not a separately situated state scene.",
+    "12:montgomery": "The selected occurrence is a newspaper title. No separate city scene is inferred from the masthead.",
+    "12:jordan": "The geocoder returned Utah; rejected. The hymn reference remains documented in analysis.",
+    "28:mississippi": "The passage names Mississippi Territory, whose historic boundary cannot be replaced by the present state."
+  },
+  "fullInventoryAuditComplete": false,
+  "scope": "These individually checked records may be published. This does not certify every candidate in the narrative-review file. Remaining fictional and ambiguous references stay in analysis."
+}

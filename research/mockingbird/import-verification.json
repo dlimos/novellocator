@@ -1,0 +1,17 @@
+{
+  "checked": "2026-10-23",
+  "passed": true,
+  "scope": "Single-book PostgreSQL import and exact reconstruction; 31 chapter introductions in four languages; literal original evidence; seven illustrated anchors without terrestrial coordinates; dedicated presentation.",
+  "bookId": "to-kill-a-mockingbird",
+  "chapters": 31,
+  "geographicPlaces": 36,
+  "geographicReferences": 90,
+  "illustratedPositions": 7,
+  "sqlChunks": [
+    232062,
+    77980
+  ],
+  "firstImportStatus": "draft",
+  "publicationOnlyInFinalTransaction": true,
+  "fullInventoryAuditComplete": false
+}
