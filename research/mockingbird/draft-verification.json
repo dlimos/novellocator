@@ -1,10 +1,12 @@
 {
-  "checked": "2026-10-20",
+  "checked": "2026-10-23",
   "scope": "Draft data structure, chapter source hashes, image decoding and closed publication gates. Does not certify edition, narrative associations, rights or public import.",
   "passed": true,
   "chapters": 31,
   "draftIntroductions": 124,
   "sourceChapterHashesMatched": 31,
+  "originalSourceAccepted": true,
+  "editionIdentificationRequired": false,
   "minimumTokenSimilarity": 0.989087,
   "images": {
     "research/mockingbird/neighbourhood-study.png": [

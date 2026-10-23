@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-23",
+  "authority": "Explicit user instruction in this chat",
+  "acceptedOriginalSource": "english-school-transcription",
+  "editionIdentificationRequired": false,
+  "isbnRequired": false,
+  "furtherEditionResearchRequested": false,
+  "ocrAllowed": false,
+  "method": "Use the existing extracted original English text, chapter references and recorded source. Do not invent publisher, print edition, ISBN or print pagination.",
+  "scope": "This changes the original-text bibliographic requirement. Individual textual evidence, narrative categories, translation authenticity and quotation assessment remain required."
+}

@@ -1,7 +1,7 @@
 {
   "bookId": "to-kill-a-mockingbird",
-  "date": "2026-10-20",
-  "status": "first-reading-complete-edition-and-association-audit-pending",
+  "date": "2026-10-23",
+  "status": "original-source-accepted-association-audit-pending",
   "remoteStatus": "not-imported",
   "cataloguePublished": false,
   "databaseUpdated": false,
@@ -13,13 +13,12 @@
   "viewsAssessment": "positive-for-finch-radley-neighbourhood",
   "viewsRealized": 1,
   "publicationBranch": "docs",
-  "primaryGap": "No identifiable print edition or complete verifiable facsimile acquired for collation of the anonymous transcription.",
-  "requiredSource": "Complete English EPUB or PDF with identifiable publisher, edition, title and copyright pages; alternatively a verifiable full edition for collation.",
+  "primaryGap": "Individual chapter-place evidence and narrative categories remain to be audited.",
+  "requiredSource": "Existing original English PDF accepted by explicit user instruction; no further edition or ISBN search required.",
   "remainingWork": [
-    "Identify a verifiable full original edition and collate the transcriptions.",
     "Audit every chapter-place association with its own authentic original excerpt, narrative category and rationale, including recurring settings.",
     "Verify geographic coordinates and explicitly labelled real models separately.",
-    "Review the 124 draft introductions against the verified edition.",
+    "Review the 124 draft introductions against the accepted original text.",
     "Assess individual and cumulative quotation use and align available authentic translations; no public quotation is currently enabled.",
     "Refine the neighbourhood study into a final interactive view; verify mobile presentation.",
     "Validate import package, import into Supabase including book_presentations and verify public behaviour."
@@ -69,5 +68,6 @@
   "localThemePrepared": true,
   "localDesktopPreviewVerified": true,
   "mobilePreviewVerified": false,
-  "coverReproductionVerified": true
+  "coverReproductionVerified": true,
+  "sourcePolicy": "source-policy.json"
 }

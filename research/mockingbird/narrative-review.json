@@ -1,9 +1,9 @@
 {
   "bookId": "to-kill-a-mockingbird",
-  "date": "2026-10-20",
+  "date": "2026-10-23",
   "sourceId": "english-school-transcription",
   "status": "first-narrative-reading-complete-association-audit-pending",
-  "scope": "Manual reading notes. Candidate settings are not a publication-ready association inventory; individual original excerpts, edition collation and geographical precision remain to be checked.",
+  "scope": "Manual reading notes. Original English PDF accepted by user; edition identification is not a publication gate. Individual original excerpts, narrative categories and geographical precision remain to be checked.",
   "chapters": [
     {
       "chapter": 1,
@@ -42,7 +42,7 @@
       "notes": "Genealogical migration, study destinations and Nathan's residence are information rather than scenes. The reported scissors episode and gang incident require separate embedded-narrative records; do not conflate alleged events with Scout's witnessed action.",
       "sourceSha256": "00b355f3446aade4a2ae6b3e865ceb8c3f79ba4976f4a8b77aef84c015de29cc",
       "associationInventoryStatus": "candidate-review-pending-individual-evidence",
-      "publicQuotationStatus": "pending-edition-and-proportionality-assessment"
+      "publicQuotationStatus": "pending-individual-evidence-and-proportionality-assessment"
     },
     {
       "chapter": 2,
@@ -65,7 +65,7 @@
       "notes": "Miss Caroline's home region is a mention. Her lodging is reported; no visit is narrated. The Mobile Register is a newspaper title, not automatically a separate Mobile association. Pyramids in a school lesson do not establish a specific pyramid coordinate.",
       "sourceSha256": "0c3cddef175e54cde0cde25376b12548a01ab83fd37a60ff8461a37ebc1f30ca",
       "associationInventoryStatus": "candidate-review-pending-individual-evidence",
-      "publicQuotationStatus": "pending-edition-and-proportionality-assessment"
+      "publicQuotationStatus": "pending-individual-evidence-and-proportionality-assessment"
     },
     {
       "chapter": 3,
@@ -88,7 +88,7 @@
       "notes": "The contemplated drowning and proposed Christmas visit to the Ewells are mentions. The kitchen reprimand, porch conversation and later treehouse vigil are narrated scenes. The cat and toad stories do not yield earthly locations.",
       "sourceSha256": "67ae5b709c28075a5569b766420dc6111f9bd8b6850aae0a38e9c791810f3211",
       "associationInventoryStatus": "candidate-review-pending-individual-evidence",
-      "publicQuotationStatus": "pending-edition-and-proportionality-assessment"
+      "publicQuotationStatus": "pending-individual-evidence-and-proportionality-assessment"
     },
     {
       "chapter": 4,
@@ -117,7 +117,7 @@
       "notes": "Dill's train journey is a retrospective report, including his claim about twins; keep mentioned. Alaska belongs to the children's discussion of an adventure story, not their journey. Their Radley play takes place at the Finch house, not in the rooms it imitates. Symbolic Hot Steams and heaven remain analysis-only.",
       "sourceSha256": "fafd066303abae65f2d45fa03756627cebc2922499780de834fa9dbb17dc159a",
       "associationInventoryStatus": "candidate-review-pending-individual-evidence",
-      "publicQuotationStatus": "pending-edition-and-proportionality-assessment"
+      "publicQuotationStatus": "pending-individual-evidence-and-proportionality-assessment"
     },
     {
       "chapter": 5,
@@ -139,7 +139,7 @@
       "notes": "Marne is a battle comparison; Jack's Nashville home and the shared childhood at the Landing are biographical information. Nova Scotia is one of Dill's unverified boasts. Maudie disputes neighbourhood gossip; do not depict rumours as documented architecture or events.",
       "sourceSha256": "909a1cb6e61aec0de8312c6034b26760f4ac66fba041c947338072810c507b42",
       "associationInventoryStatus": "candidate-review-pending-individual-evidence",
-      "publicQuotationStatus": "pending-edition-and-proportionality-assessment"
+      "publicQuotationStatus": "pending-individual-evidence-and-proportionality-assessment"
     },
     {
       "chapter": 6,
@@ -160,7 +160,7 @@
       "notes": "The escape explicitly traverses schoolyard and Deer's Pasture. The second outward route is Scout's inference, whereas the earlier escape is witnessed. Strip poker by Rachel's fishpool is a cover story, not an additional verified scene. The lady in the moon is folkloric and has no terrestrial coordinate.",
       "sourceSha256": "ee72fb221d3e43dbbab5ce6990f12c9f6200c13858325972731bd424fb9ce456",
       "associationInventoryStatus": "candidate-review-pending-individual-evidence",
-      "publicQuotationStatus": "pending-edition-and-proportionality-assessment"
+      "publicQuotationStatus": "pending-individual-evidence-and-proportionality-assessment"
     },
     {
       "chapter": 7,
@@ -181,7 +181,7 @@
       "notes": "The return for the trousers has a specific narrated finding at the fence and can be action at the embedded level. The classroom discussion of Egyptians and Americans is allusive geography, not travel. Repeated finds and the conversation with Nathan establish separate actions at the tree and porch.",
       "sourceSha256": "9be8a7922839cfd7837e87623aa573bd67a66df0595fb669eff07bf4ca33670b",
       "associationInventoryStatus": "candidate-review-pending-individual-evidence",
-      "publicQuotationStatus": "pending-edition-and-proportionality-assessment"
+      "publicQuotationStatus": "pending-individual-evidence-and-proportionality-assessment"
     },
     {
       "chapter": 8,
@@ -207,7 +207,7 @@
       "notes": "Firefighters work on neighbouring roofs, while Scout and Jem watch from the Radley gate. Abbottsville and Clark's Ferry are fire-truck origins, not narrated scenes there. The courthouse clock is heard from elsewhere, so mentioned. Bellingrath is a garden comparison requiring independent identification. The Rosetta Stone is an artefact, not automatic evidence for a Rosetta location.",
       "sourceSha256": "d31d243d00750d0ff4626b6a5636b36829be5b4d7ef3a6855d7909fa4411b529",
       "associationInventoryStatus": "candidate-review-pending-individual-evidence",
-      "publicQuotationStatus": "pending-edition-and-proportionality-assessment"
+      "publicQuotationStatus": "pending-individual-evidence-and-proportionality-assessment"
     },
     {
       "chapter": 9,
@@ -234,7 +234,7 @@
       "notes": "Arrival of Uncle Jack is enacted at the station, unlike Dill's report in chapter 4. The Landing Christmas is an extended action sequence. The Lord Melbourne anecdote describes a scene in the Commons at an embedded narrative level and needs a separate action-versus-mention decision on the exact wording; retained as mentioned until resolved. Missouri Compromise is a named historical measure, not automatically a Missouri scene.",
       "sourceSha256": "423e6efded55afda0abcb468d0cd374096d52793b6d3efb5e2baae333bdc0ee4",
       "associationInventoryStatus": "candidate-review-pending-individual-evidence",
-      "publicQuotationStatus": "pending-edition-and-proportionality-assessment"
+      "publicQuotationStatus": "pending-individual-evidence-and-proportionality-assessment"
     },
     {
       "chapter": 10,
@@ -257,7 +257,7 @@
       "notes": "The football match is actually watched but its ground has no verified address. Montgomery is the proposed destination of the dog's head; Mobile is a bus route. Childhood marksmanship at the Landing is a general account, not automatically an enacted scene. Calpurnia's warning at the Radley door is witnessed action.",
       "sourceSha256": "3624ffda301efada2bd0db8b7de90629f1af234204951f7f7fd52e601dc8039c",
       "associationInventoryStatus": "candidate-review-pending-individual-evidence",
-      "publicQuotationStatus": "pending-edition-and-proportionality-assessment"
+      "publicQuotationStatus": "pending-individual-evidence-and-proportionality-assessment"
     },
     {
       "chapter": 11,
@@ -280,7 +280,7 @@
       "notes": "School band and imagined cafe employment are prospective mentions. Camellia destruction and bedside reading are actual scenes. Rose Bowl is a proposed sporting destination. A small omitted middle span in the tool output must be reread before marking this chapter fully read.",
       "sourceSha256": "96de4c2e5c535e0d5a8febcd28a6275a9e0cc2107a379f327420230324aabef5",
       "associationInventoryStatus": "candidate-review-pending-individual-evidence",
-      "publicQuotationStatus": "pending-edition-and-proportionality-assessment"
+      "publicQuotationStatus": "pending-individual-evidence-and-proportionality-assessment"
     },
     {
       "chapter": 12,
@@ -309,7 +309,7 @@
       "notes": "Birmingham strikes are news. The legislature is not itself a scene in Montgomery. Gethsemane is an image on a fan and Jordan a hymn allusion. The nearby cemetery is described, but no burial or visit there is enacted. Reeves's meeting and the visit to Calpurnia are future arrangements; Calpurnia's upbringing remains biographical information.",
       "sourceSha256": "a7c4762c3f1c8f099fea8a4c722138c1abf43a24a425fd9dfb19e49feaa81249",
       "associationInventoryStatus": "candidate-review-pending-individual-evidence",
-      "publicQuotationStatus": "pending-edition-and-proportionality-assessment"
+      "publicQuotationStatus": "pending-individual-evidence-and-proportionality-assessment"
     },
     {
       "chapter": 13,
@@ -335,7 +335,7 @@
       "notes": "Sinkfield's manipulation of the surveyors is a narrated historical anecdote, not a reliable terrestrial location. Winston Swamp is the rejected county-seat site. The University in the Cousin Joshua anecdote is not explicitly named and requires identification research; no invented campus coordinate. Social calls to Rachel are summary information unless a specific scene is documented.",
       "sourceSha256": "b121b9aabd17aadfccf6026c36516620e870a44caa0a57cf68e95b609a1659d1",
       "associationInventoryStatus": "candidate-review-pending-individual-evidence",
-      "publicQuotationStatus": "pending-edition-and-proportionality-assessment"
+      "publicQuotationStatus": "pending-individual-evidence-and-proportionality-assessment"
     },
     {
       "chapter": 14,
@@ -359,7 +359,7 @@
       "notes": "Distinguish Dill's invented chained-cellar and animal-show adventure from the corrected report of his train and wagon journey. The corrected itinerary is still a retrospective summary, so mentioned. His admission of parental neglect occurs in Scout's bedroom. The island of waiting babies is fantasy and stays out of the earthly unlocated list.",
       "sourceSha256": "fd722b57677ca6a12b49236f6db39670fa633db8480c54ea74428bce541a402e",
       "associationInventoryStatus": "candidate-review-pending-individual-evidence",
-      "publicQuotationStatus": "pending-edition-and-proportionality-assessment"
+      "publicQuotationStatus": "pending-individual-evidence-and-proportionality-assessment"
     },
     {
       "chapter": 15,
@@ -388,7 +388,7 @@
       "notes": "The first gathering at the Finch house consists of concerned neighbours; distinguish it from the later mob at the jail. The bank is approached and its locked door tested, but nobody enters Atticus's office. Newspaper city names are titles. Levy's reply to the Klan is a narrated embedded scene.",
       "sourceSha256": "1ee375d028899a99db2657cfa42e30554a49611680c92e029fb587d2ef82daef",
       "associationInventoryStatus": "candidate-review-pending-individual-evidence",
-      "publicQuotationStatus": "pending-edition-and-proportionality-assessment"
+      "publicQuotationStatus": "pending-individual-evidence-and-proportionality-assessment"
     },
     {
       "chapter": 16,
@@ -412,7 +412,7 @@
       "notes": "Raymond's alleged drinking is a mistaken interpretation corrected in chapter 20. Arlington is an architectural comparison whose precise referent requires research; do not assume the cemetery. The X Billups, Whitley and Cunningham-Coningham court anecdotes have their own narrated actions in the courthouse. The bride's death is reported without an identifiable house.",
       "sourceSha256": "4b2e80cf02f80c7b94c59682fcb825794dde918ff033225fdc01b7d984c0a49c",
       "associationInventoryStatus": "candidate-review-pending-individual-evidence",
-      "publicQuotationStatus": "pending-edition-and-proportionality-assessment"
+      "publicQuotationStatus": "pending-individual-evidence-and-proportionality-assessment"
     },
     {
       "chapter": 17,
@@ -435,7 +435,7 @@
       "notes": "Tate narrates finding Mayella and helping her wash: an embedded scene, independent of Bob's contested accusation. Scout's Christmas drive is explicitly enacted, unlike the prospective visit in chapter 3. Bob's account of an assault must not be displayed as established fact. His alleged observation at the window requires a disputed-testimony record, retained conservatively as mentioned until reviewed.",
       "sourceSha256": "e067c79c86c7add756495a7c9c58cb1119c5f0872b05a80cf99f6afeb37044d9",
       "associationInventoryStatus": "candidate-review-pending-individual-evidence",
-      "publicQuotationStatus": "pending-edition-and-proportionality-assessment"
+      "publicQuotationStatus": "pending-individual-evidence-and-proportionality-assessment"
     },
     {
       "chapter": 18,
@@ -455,7 +455,7 @@
       "notes": "The alleged assault is a contested embedded account. Preserve its geography without presenting it as a verified crime scene; category remains mentioned pending a careful association-level decision. The cotton-gin injury is compressed biographical information, not an enacted injury scene. Inferences about everyday water collection do not by themselves establish a narrated scene at the spring.",
       "sourceSha256": "f485f7aa32bce1ae8a1e38802a53399bd9b4da81347aa03c5f028625b1e955e4",
       "associationInventoryStatus": "candidate-review-pending-individual-evidence",
-      "publicQuotationStatus": "pending-edition-and-proportionality-assessment"
+      "publicQuotationStatus": "pending-individual-evidence-and-proportionality-assessment"
     },
     {
       "chapter": 19,
@@ -476,7 +476,7 @@
       "notes": "Tom's first wood-chopping visit and the later invitation into the house are explicitly narrated embedded scenes. His employment at Link's fields is general information. Identify the different furniture and dates; do not merge the spring chiffarobe episode with November. The unnamed place of his earlier fight has no useful earthly position.",
       "sourceSha256": "d51d2ed7653c293082e88e14083f260452ceca35622086ace1ab8a096393908d",
       "associationInventoryStatus": "candidate-review-pending-individual-evidence",
-      "publicQuotationStatus": "pending-edition-and-proportionality-assessment"
+      "publicQuotationStatus": "pending-individual-evidence-and-proportionality-assessment"
     },
     {
       "chapter": 20,
@@ -496,7 +496,7 @@
       "notes": "The square conversation and closing argument are separate scenes. Washington and the Supreme Court enter an argument about equality, not a journey. The speech's summary of testimony does not automatically create another action association at the Ewell house.",
       "sourceSha256": "808800ca3fc87e2618b0d0850a634c85e47a591997ce812fb9862a53e4ea621d",
       "associationInventoryStatus": "candidate-review-pending-individual-evidence",
-      "publicQuotationStatus": "pending-edition-and-proportionality-assessment"
+      "publicQuotationStatus": "pending-individual-evidence-and-proportionality-assessment"
     },
     {
       "chapter": 21,
@@ -518,7 +518,7 @@
       "notes": "The court spectators' suppers at cafe, drugstore and hotel are Scout's anticipation, not witnessed visits. The return to the Finch dining room is explicit. The mad-dog morning is recalled as a comparison to the courtroom atmosphere; do not mechanically duplicate every earlier neighbourhood setting as present action.",
       "sourceSha256": "90f331a4279f55d7614ac45316efb2e2ca0aeaa4bbf09b224ba3caa3dabc8c3a",
       "associationInventoryStatus": "candidate-review-pending-individual-evidence",
-      "publicQuotationStatus": "pending-edition-and-proportionality-assessment"
+      "publicQuotationStatus": "pending-individual-evidence-and-proportionality-assessment"
     },
     {
       "chapter": 22,
@@ -539,7 +539,7 @@
       "notes": "The White House is a breakfast comparison and the hotel the origin of food. The threat at the post office is a brief report at the chapter's end; chapter 23 supplies the expanded narrated confrontation. Maudie's new kitchen must be distinguished from the house destroyed in chapter 8.",
       "sourceSha256": "71e97b9ecebd4699e6d6af42a13bb1f0977dc12b22b88a2fb850a6dcf327b634",
       "associationInventoryStatus": "candidate-review-pending-individual-evidence",
-      "publicQuotationStatus": "pending-edition-and-proportionality-assessment"
+      "publicQuotationStatus": "pending-individual-evidence-and-proportionality-assessment"
     },
     {
       "chapter": 23,
@@ -567,7 +567,7 @@
       "notes": "Tom's imprisonment is a reported condition, not a prison scene in this chapter. The proposed law change at Montgomery and Walter's possible lift home are mentions. Ethnic comparisons must not be equated with visits. The threat account is marked as Stephanie's account, with the narrator questioning her claim to have witnessed it.",
       "sourceSha256": "2dd6df715d05be799b6c821b9b64ad324aa34a917d55650c18257f8c03a8a7a1",
       "associationInventoryStatus": "candidate-review-pending-individual-evidence",
-      "publicQuotationStatus": "pending-edition-and-proportionality-assessment"
+      "publicQuotationStatus": "pending-individual-evidence-and-proportionality-assessment"
     },
     {
       "chapter": 24,
@@ -592,7 +592,7 @@
       "notes": "The prison death is narrated with action and an identifiable fictional institution, but remains a second-hand account. Scout also remembers being shown the yard; that is distinct evidence. Barker's Eddy swimming is a short report here. The Mrunas' country is not explicitly assigned to a real country; do not invent an African coordinate. The visit to Helen is planned here and narrated in chapter 25.",
       "sourceSha256": "72f6473170e6ff42f3898eb1a54c54e9a6d976956085f4ecc0e07696e277191f",
       "associationInventoryStatus": "candidate-review-pending-individual-evidence",
-      "publicQuotationStatus": "pending-edition-and-proportionality-assessment"
+      "publicQuotationStatus": "pending-individual-evidence-and-proportionality-assessment"
     },
     {
       "chapter": 25,
@@ -615,7 +615,7 @@
       "notes": "The farewell at the station is an enacted remembered scene. Dill narrates the car stopping, the children boarding, and Helen's collapse; these are action at the embedded level. The swimming lesson is only recalled in summary. The English Channel is an explicit metaphor for gossip, not a journey. The newspaper title Montgomery Advertiser does not create a separate Montgomery association.",
       "sourceSha256": "256926c8c2ffb4a25e3dbf51a3904625575e388a20bb253de64da2c06eef1c02",
       "associationInventoryStatus": "candidate-review-pending-individual-evidence",
-      "publicQuotationStatus": "pending-edition-and-proportionality-assessment"
+      "publicQuotationStatus": "pending-individual-evidence-and-proportionality-assessment"
     },
     {
       "chapter": 26,
@@ -636,7 +636,7 @@
       "notes": "The imagined greeting with Boo is explicitly a fantasy, not a visit. The remembered racist remark on the courthouse steps is a specific recalled exchange. The daily route continues in Maycomb without relying on repeated explicit naming. No particular German prison is identified.",
       "sourceSha256": "227296cd40e162ff515f3f5afe49fab6961fa3bc85ca0aa37284a2fd21791607",
       "associationInventoryStatus": "candidate-review-pending-individual-evidence",
-      "publicQuotationStatus": "pending-edition-and-proportionality-assessment"
+      "publicQuotationStatus": "pending-individual-evidence-and-proportionality-assessment"
     },
     {
       "chapter": 27,
@@ -664,7 +664,7 @@
       "notes": "Helen's walk and Link's confrontations are narrated scenes despite being told to Scout. Ewell's identity as the prowler at Taylor's is an inference disputed by Atticus; retain the scene, not a falsely certain identity. The Barber sisters' accusation of Syrian sellers fleeing to New Orleans is explicitly mistaken. Clanton and Montgomery are origins or reported trips.",
       "sourceSha256": "4664c5d6eebf26ae2a8740ea530064e659399ec14f448e750680e31c21a63bd3",
       "associationInventoryStatus": "candidate-review-pending-individual-evidence",
-      "publicQuotationStatus": "pending-edition-and-proportionality-assessment"
+      "publicQuotationStatus": "pending-individual-evidence-and-proportionality-assessment"
     },
     {
       "chapter": 28,
@@ -685,7 +685,7 @@
       "notes": "The schoolyard oak is distinct from the two oaks at the Radley lot. The staged county history is a theatrical and unreliable reconstruction, not evidence of precise historical routes. The rescuer is not identified by Scout until chapter 29. The world-war and Spanish-American War costumes are not automatically a set of geographical associations.",
       "sourceSha256": "f9d7c21605e2dd9f06caeff00a6781b17c285f932d51267e5e8a7ec7a02ff70f",
       "associationInventoryStatus": "candidate-review-pending-individual-evidence",
-      "publicQuotationStatus": "pending-edition-and-proportionality-assessment"
+      "publicQuotationStatus": "pending-individual-evidence-and-proportionality-assessment"
     },
     {
       "chapter": 29,
@@ -704,7 +704,7 @@
       "notes": "The attack is specifically retold and therefore supplies its own embedded-scene evidence. The other threats are compressed references. Boo's identification occurs inside Jem's room; it does not move that scene to the Radley house.",
       "sourceSha256": "7f60b778263bccd0f4cd47566dfb45c9c0172b5da2016ac39becb96b298ebbc9",
       "associationInventoryStatus": "candidate-review-pending-individual-evidence",
-      "publicQuotationStatus": "pending-edition-and-proportionality-assessment"
+      "publicQuotationStatus": "pending-individual-evidence-and-proportionality-assessment"
     },
     {
       "chapter": 30,
@@ -725,7 +725,7 @@
       "notes": "Tate's demonstration of a fall occurs on the Finch porch; it must not be turned into a verified fall under the oak. Doctor's examination of the body is directed but not shown. Neighbours' lights are observed; no scene inside their houses is established. Avoid treating the sheriff's protective account as neutral eyewitness fact.",
       "sourceSha256": "be75a079705334ac16c965b9e147aadf93010e1eaac5a886df9dd80fdd26bd59",
       "associationInventoryStatus": "candidate-review-pending-individual-evidence",
-      "publicQuotationStatus": "pending-edition-and-proportionality-assessment"
+      "publicQuotationStatus": "pending-individual-evidence-and-proportionality-assessment"
     },
     {
       "chapter": 31,
@@ -748,11 +748,12 @@
       "notes": "The physical walk and porch vantage are enacted. The daylight montage is explicitly imagined from Arthur's point of view and must be labelled interpretative, not a new witnessed scene. The house views are visual mentions; the ending does not establish visits to all neighbours. Scout's summary of The Gray Ghost is another narrative level without a useful earthly coordinate.",
       "sourceSha256": "935fe47802a02bfd63cbd578d0afeb6ede649f1e7b39491637017755d498e851",
       "associationInventoryStatus": "candidate-review-pending-individual-evidence",
-      "publicQuotationStatus": "pending-edition-and-proportionality-assessment"
+      "publicQuotationStatus": "pending-individual-evidence-and-proportionality-assessment"
     }
   ],
   "fullNarrativeReadOfTranscription": true,
   "editionVerified": false,
   "exhaustiveGeographicalInventoryCertified": false,
-  "publicationReady": false
+  "publicationReady": false,
+  "sourcePolicy": "source-policy.json"
 }

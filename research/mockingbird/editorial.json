@@ -1,6 +1,6 @@
 {
   "bookId": "to-kill-a-mockingbird",
-  "status": "draft-pending-edition-and-association-verification",
+  "status": "draft-pending-association-verification",
   "languages": [
     "en",
     "it",
@@ -283,5 +283,6 @@
     "reproductionUrl": "https://commons.wikimedia.org/wiki/File:The_Thankful_Poor,_1894._Henry_Ossawa_Tanner.jpg",
     "license": "Public domain; faithful reproduction; Commons PD-Art",
     "checked": "2026-10-20"
-  }
+  },
+  "sourcePolicy": "source-policy.json"
 }

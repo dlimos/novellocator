@@ -1,6 +1,6 @@
 # Il buio oltre la siepe — dossier di lavorazione
 
-Stato al 20 ottobre 2026: **prima lettura della trascrizione completa; romanzo non importato e non pubblicato nell’atlante**. L’edizione resta da identificare e l’inventario delle associazioni capitolo–luogo da verificare individualmente.
+Stato al 23 ottobre 2026: **originale inglese acquisito e accettato; romanzo non ancora importato nell’atlante**. Su istruzione esplicita dell’utente, l’identificazione dell’edizione e dell’ISBN non è più un requisito per il testo originale. Si usa il testo già estratto, senza OCR e senza ulteriori ricerche bibliografiche. Restano necessari i riscontri individuali e le categorie delle associazioni capitolo–luogo. La decisione è registrata in `source-policy.json`.
 
 ## Lettura e confronto dei testi
 
@@ -36,6 +36,6 @@ La lettura conferma l’utilità del quartiere Finch–Radley, soprattutto per i
 
 ## Lavoro ancora necessario
 
-Identificare un’edizione completa verificabile e collazionare i testimoni; documentare per ogni associazione il riscontro originale, la funzione narrativa e la precisione geografica; completare il controllo delle traduzioni e la valutazione individuale e cumulativa delle citazioni; rifinire la veduta e verificare l’interfaccia mobile. Le ricerche sulle traduzioni e le lacune sono in `TRADUZIONI.md`. Nessuna citazione è abilitata alla pubblicazione.
+Documentare per ogni associazione il riscontro originale, la funzione narrativa e la precisione geografica; completare il controllo delle traduzioni e la valutazione individuale e cumulativa delle citazioni; rifinire la veduta e verificare l’interfaccia mobile. Le ricerche sulle traduzioni e le lacune sono in `TRADUZIONI.md`. Nessuna citazione è ancora abilitata alla pubblicazione: il motivo attuale è la verifica individuale e cumulativa dei passi, non l’assenza di edizione o ISBN. I limiti bibliografici descritti sopra restano dati storici sulle fonti, senza costituire un impedimento aggiuntivo.
 
 Solo dopo queste verifiche si potrà completare il pacchetto, importarlo in Supabase, pubblicare `book_presentations` e controllare il risultato pubblico. Il push di questo dossier sul branch `docs` pubblica la documentazione di lavoro, **non aggiunge il romanzo al catalogo**.

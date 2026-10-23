@@ -14,6 +14,10 @@ editorial = load('editorial.json')
 review = load('narrative-review.json')
 comparison = load('transcription-comparison.json')
 status = load('import-status.json')
+policy = load('source-policy.json')
+assert policy['editionIdentificationRequired'] is False
+assert policy['isbnRequired'] is False and policy['ocrAllowed'] is False
+assert policy['acceptedOriginalSource'] == review['sourceId']
 expected = list(range(1, 32))
 for data in (editorial, review, comparison):
     assert [c['chapter'] for c in data['chapters']] == expected
@@ -38,12 +42,14 @@ for relative in ('research/mockingbird/neighbourhood-study.png', 'research/mocki
         images[relative] = list(image.size)
         image.verify()
 report = {
-    'checked': '2026-10-20',
+    'checked': '2026-10-23',
     'scope': 'Draft data structure, chapter source hashes, image decoding and closed publication gates. Does not certify edition, narrative associations, rights or public import.',
     'passed': True,
     'chapters': 31,
     'draftIntroductions': 124,
     'sourceChapterHashesMatched': 31,
+    'originalSourceAccepted': True,
+    'editionIdentificationRequired': False,
     'minimumTokenSimilarity': min(c['tokenSimilarity'] for c in comparison['chapters']),
     'images': images,
     'cataloguePublished': False,
