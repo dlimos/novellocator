@@ -1,6 +1,6 @@
 {
   "checked": "2026-10-23",
-  "scope": "Draft data structure, chapter source hashes, image decoding and closed publication gates. Does not certify edition, narrative associations, rights or public import.",
+  "scope": "Source record structure, chapter hashes, image decoding and consistency of declared release status. Does not certify a completed association inventory.",
   "passed": true,
   "chapters": 31,
   "draftIntroductions": 124,
@@ -22,6 +22,6 @@
       1386
     ]
   },
-  "cataloguePublished": false,
-  "databaseUpdated": false
+  "cataloguePublished": true,
+  "databaseUpdated": true
 }

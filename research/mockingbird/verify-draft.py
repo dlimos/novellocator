@@ -1,4 +1,4 @@
-"""Validate draft completeness and closed publication gates, not literary accuracy."""
+"""Validate source records and declared release status, not inventory completeness."""
 import hashlib
 import json
 from pathlib import Path
@@ -30,10 +30,13 @@ for chapter in review['chapters']:
     assert chapter['reading'] == 'complete-transcription'
     assert chapter['associationInventoryStatus'] == 'candidate-review-pending-individual-evidence'
 assert not review['publicationReady'] and not review['editionVerified']
-assert not status['cataloguePublished'] and not status['databaseUpdated']
 assert not status['fullNarrativeReviewComplete']
-assert status['verifiedPublicQuotationCount'] == 0
-assert status['remoteStatus'] == 'not-imported'
+if status['cataloguePublished']:
+    assert status['databaseUpdated'] and status['remoteStatus'] == 'published'
+    assert status['verifiedPublicQuotationCount'] == 97
+    assert load('public-api-verification.json')['passed']
+else:
+    assert not status['databaseUpdated'] and status['remoteStatus'] == 'not-imported'
 assert comparison['claimedEditionVerified'] is False
 assert comparison['independenceOfWitnessesEstablished'] is False
 images = {}
@@ -43,7 +46,7 @@ for relative in ('research/mockingbird/neighbourhood-study.png', 'research/mocki
         image.verify()
 report = {
     'checked': '2026-10-23',
-    'scope': 'Draft data structure, chapter source hashes, image decoding and closed publication gates. Does not certify edition, narrative associations, rights or public import.',
+    'scope': 'Source record structure, chapter hashes, image decoding and consistency of declared release status. Does not certify a completed association inventory.',
     'passed': True,
     'chapters': 31,
     'draftIntroductions': 124,
@@ -52,8 +55,8 @@ report = {
     'editionIdentificationRequired': False,
     'minimumTokenSimilarity': min(c['tokenSimilarity'] for c in comparison['chapters']),
     'images': images,
-    'cataloguePublished': False,
-    'databaseUpdated': False,
+    'cataloguePublished': status['cataloguePublished'],
+    'databaseUpdated': status['databaseUpdated'],
 }
 (HERE / 'draft-verification.json').write_text(json.dumps(report, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
 print(json.dumps(report, ensure_ascii=False, indent=2))

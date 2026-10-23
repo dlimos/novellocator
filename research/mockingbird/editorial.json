@@ -1,6 +1,6 @@
 {
   "bookId": "to-kill-a-mockingbird",
-  "status": "draft-pending-association-verification",
+  "status": "published-verified-first-release",
   "languages": [
     "en",
     "it",
@@ -249,7 +249,7 @@
     }
   },
   "view": {
-    "status": "first-interpretative-study-created-not-integrated",
+    "status": "published-interactive-interpretative-view-seven-positions",
     "image": "neighbourhood-study.png",
     "caption": {
       "en": "Maycomb neighbourhood · interpretative study",

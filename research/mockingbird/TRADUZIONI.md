@@ -15,7 +15,7 @@ Sono state eseguite ricerche per titolo e traduttore, oltre alle ricerche esplic
 
 La ricerca Gutenberg ha restituito anche la newsletter dell'aprile 2026 che dichiara il romanzo assente dal progetto. Un risultato Standard Ebooks propone una pagina del titolo ma contiene una data di pubblicazione incompatibile con i record bibliografici consultati; il contenuto non è stato recuperato direttamente. Non è una prova sufficiente di disponibilità o pubblico dominio. Evitare conclusioni basate sul solo snippet.
 
-Nessuna traduzione redazionale verrà presentata come citazione di Schanzer, Mantovani, Stoïanov, Hausser o Porta. Quando sarà disponibile un originale pubblicabile e verificato, le lingue senza una versione autentica allineata useranno quell'originale, con attribuzione inglese esplicita e selettore disabilitato se è l'unica versione. Per ora nessuna citazione è abilitata.
+Nessuna traduzione redazionale verrà presentata come citazione di Schanzer, Mantovani, Stoïanov, Hausser o Porta. Quando sarà disponibile un originale pubblicabile e verificato, le lingue senza una versione autentica allineata useranno quell'originale, con attribuzione inglese esplicita e selettore disabilitato se è l'unica versione. Dal 23 ottobre 2026 è pubblicato il riscontro inglese originale per le associazioni verificate; nessuna traduzione non verificata è abilitata.
 
 Per le edizioni protette manca ancora una valutazione individuale e cumulativa dei passi ai fini della concreta discussione critica dei luoghi. [Articolo 70 indicato nelle istruzioni del progetto](https://www.bandistapp.it/norma/l-1941-633/art-70). Non vengono attribuite licenze o autorizzazioni non documentate e non si deduce l'inutilizzabilità automatica di ogni citazione dalla protezione dell'opera.
 

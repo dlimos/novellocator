@@ -1,6 +1,6 @@
 {
   "bookId": "to-kill-a-mockingbird",
-  "checked": "2026-10-20",
+  "checked": "2026-10-23",
   "scope": "Research documentation only; novel text URLs must never be rendered in the atlas or CSV exports.",
   "sources": [
     {
@@ -121,6 +121,34 @@
       "url": "https://commons.wikimedia.org/wiki/File:The_Thankful_Poor,_1894._Henry_Ossawa_Tanner.jpg",
       "access": "web-page-read-and-image-downloaded",
       "finding": "Specific faithful reproduction tagged PD-Art and Public Domain Mark. Painting by Tanner, died 1937; EU life-plus-70 period elapsed. Separate US rationale documented by Commons. No universal territorial claim or licence inferred for other photographs."
+    },
+    {
+      "id": "nominatim-geographic-records",
+      "kind": "geographical-coordinate-verification",
+      "url": "https://nominatim.openstreetmap.org/",
+      "access": "API-responses-saved-locally",
+      "finding": "36 published geographic features checked against saved responses in work/mockingbird/geocoding.json. A Utah Jordan River result was rejected. Historic Saint Stephens and Mississippi Territory are not represented by the returned modern settlements or boundaries."
+    },
+    {
+      "id": "bellingrath-chapter-eight",
+      "kind": "institutional-literary-identification",
+      "url": "https://bellingrath.org/bellingrath-and-the-mockingbird/",
+      "access": "web-page-read",
+      "finding": "Institutional commentary distinguishes Maudie’s chapter-8 comparison from the different film dialogue. Supports identifying Bellingraths as the gardens; it does not establish a visit."
+    },
+    {
+      "id": "stow-landing-geography",
+      "kind": "academic-literary-geography",
+      "url": "https://wmit-pages-prod.s3.amazonaws.com/wp-content/uploads/sites/10/2021/07/03130622/Where-is-Finches-Landing-web-version.pdf",
+      "access": "web-page-read",
+      "finding": "Simon Stow, Where Is Finch’s Landing? Rereading To Kill a Mockingbird as Moral Pedagogy, Philosophy and Literature 45 (2021), 157–171. Discusses incompatible relative geographical descriptions, distinguishes Maycomb from its real model and treats the Landing’s location as interpretatively problematic. No arbitrary Landing coordinates are inferred."
+    },
+    {
+      "id": "hastings-battlefield",
+      "kind": "institutional-geographical-identification",
+      "url": "https://www.english-heritage.org.uk/visit/places/1066-battle-of-hastings-abbey-and-battlefield/",
+      "access": "web-page-read",
+      "finding": "Battle Abbey and battlefield at Battle, rather than an arbitrary point in the town of Hastings. The novel reference is a historical/genealogical allusion."
     }
   ],
   "translationSearches": [

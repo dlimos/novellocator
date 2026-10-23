@@ -1,6 +1,6 @@
 # Quartiere Finch–Radley: primo studio interpretativo
 
-Realizzato il 20 ottobre 2026 con ImageGen. File: `neighbourhood-study.png`, 1536 × 1024 px. È uno studio realistico per la futura veduta, non una ricostruzione certificata o una carta geografica; non è integrato nell'atlante e non ha marker pubblicati.
+Realizzato il 20 ottobre 2026 con ImageGen. File: `neighbourhood-study.png`, 1536 × 1024 px. È uno studio realistico per la futura veduta, non una ricostruzione certificata o una carta geografica; è integrato dal 23 ottobre 2026 nella sezione «Scenari del romanzo» con sette posizioni documentate. I marker sono riferimenti sul disegno, senza coordinate terrestri. I limiti descritti sotto restano espliciti; i lotti non risolti non ricevono punti inventati.
 
 ## Riscontri e limiti
 

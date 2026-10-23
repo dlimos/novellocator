@@ -755,5 +755,10 @@
   "editionVerified": false,
   "exhaustiveGeographicalInventoryCertified": false,
   "publicationReady": false,
-  "sourcePolicy": "source-policy.json"
+  "sourcePolicy": "source-policy.json",
+  "publishedVerifiedSubset": {
+    "geographicAssociations": 90,
+    "illustratedPositions": 7,
+    "report": "release-evidence-review.json"
+  }
 }

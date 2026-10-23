@@ -1,0 +1,17 @@
+{
+  "checked": "2026-10-23",
+  "passed": true,
+  "bookId": "to-kill-a-mockingbird",
+  "anonymousApiRead": true,
+  "datasetExactRoundTrip": true,
+  "allFourDictionariesExact": true,
+  "presentationRead": true,
+  "csvFourLanguagesVerified": true,
+  "csvNoNovelTextLinks": true,
+  "csvExcludesIllustratedOnlySettings": true,
+  "chapters": 31,
+  "geographicPlaces": 36,
+  "geographicReferences": 90,
+  "source": "live Supabase anonymous REST API",
+  "fullInventoryAuditComplete": false
+}
