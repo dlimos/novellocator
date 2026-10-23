@@ -8,6 +8,8 @@
 
 ## Numerazione dei luoghi nell’atlante
 
+- In ogni romanzo, presente o futuro, mostrare nelle schede due elenchi distinti: «Luoghi» per i luoghi dell'azione e «Luoghi citati» per le menzioni, secondo il modello di Ulisse e della Ricerca. Applicare la separazione a ogni sezione, alla vista «Tutti i luoghi» e agli scenari, indipendentemente dal formato dei dati (`placeCategories` oppure `citations`). Conteggi, numerazione e selezione devono corrispondere alla categoria e ai marker; non cambiare la classificazione narrativa per ottenere la separazione grafica. Mostrare l'elenco delle menzioni quando contiene luoghi.
+
 - Nell'intestazione del menu laterale di ogni romanzo, presente o futuro, mostrare soltanto il titolo del menu: non aggiungere il conteggio delle sezioni, mappe o vedute (per esempio «18 mappe»). Conservare i numeri delle singole sezioni e i conteggi dei luoghi nei layer, che hanno funzioni distinte.
 
 - All'apertura della pagina principale di ogni romanzo, presente o futuro, selezionare di default «Tutti i luoghi» e inquadrare soltanto i luoghi dell'azione verificati nell'intera opera. Mantenere attivo anche il layer dei luoghi citati, che restano visibili e selezionabili senza ampliare l'inquadratura iniziale. Se non ci sono luoghi dell'azione, usare l'inquadratura editoriale del libro. Rispettare i collegamenti espliciti a capitoli, luoghi e vedute; nelle vedute immaginarie conservare l'elenco e la selezione delle singole vedute. Il comando esplicito «Inquadra i punti» continua a includere tutti i luoghi dei layer visibili.

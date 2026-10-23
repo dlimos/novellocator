@@ -319,21 +319,26 @@ function unlocatedPlacesForDisplay(chapter){
  const hidden=new Set(book.hiddenUnlocatedPlaceIds||[]);
  return (chapter.unlocatedPlaces||[]).filter(item=>item.displayInAtlas!==false&&item.geographicRelevance!=='none'&&!hidden.has(item.id));
 }
+// Source-indexed references stay stable when buttons move into category groups.
+let placeButtons=[],citationButtons=[];
 function renderDetail(){
  const chapter=activeChapter();
  const eyebrow=book.literaryViews?esc(t('Imaginary views')):current<0?esc(t('Whole novel'))+' · '+new Set([...globalPlaceIds,...globalCitations.map(reference=>reference.placeId)]).size+' '+esc(t('mapped places')):esc(book.unit.toUpperCase())+' '+number(chapter.id)+' '+t('DI')+' '+chapters.length+(chapter.english&&chapter.english!==chapter.title?' · '+esc(chapter.english):'');
- document.getElementById('detail').innerHTML=`<div><p class="detail-eyebrow">${eyebrow}</p><h2>${esc(chapter.title)}</h2><div class="tags"><span class="tag">${esc(chapter.time)}</span><span class="tag">${esc(chapter.people)}</span></div><div class="detail-nav"><button type="button" id="previous" aria-label="${esc(t('Sezione precedente'))}" ${current===0?'disabled':''}>${t('Precedente')}</button><button type="button" id="next" aria-label="${esc(t('Sezione successiva'))}" ${current===chapters.length-1?'disabled':''}>${t('Successivo')}</button></div><p class="episode-source">${esc([book.author,book.title,chapter.title].join(' · '))}</p></div><div class="detail-text"><p>${esc(chapter.text)}</p><h3 class="locations-heading">${t('Luoghi')} <span>${chapter.places.length}</span></h3><div class="location-buttons" id="episode-locations" aria-label="${t('Luoghi')}"></div><div id="selected-location" aria-live="polite"></div>${chapter.note?`<p class="episode-note">${esc(chapter.note)}</p>`:''}</div>`;
+ document.getElementById('detail').innerHTML=`<div><p class="detail-eyebrow">${eyebrow}</p><h2>${esc(chapter.title)}</h2><div class="tags"><span class="tag">${esc(chapter.time)}</span><span class="tag">${esc(chapter.people)}</span></div><div class="detail-nav"><button type="button" id="previous" aria-label="${esc(t('Sezione precedente'))}" ${current===0?'disabled':''}>${t('Precedente')}</button><button type="button" id="next" aria-label="${esc(t('Sezione successiva'))}" ${current===chapters.length-1?'disabled':''}>${t('Successivo')}</button></div><p class="episode-source">${esc([book.author,book.title,chapter.title].join(' · '))}</p></div><div class="detail-text"><p>${esc(chapter.text)}</p><h3 class="locations-heading">${t('Luoghi')} <span>${chapter.places.filter(id=>placeCategory(id)==='action').length}</span></h3><div class="location-buttons" id="episode-locations" aria-label="${t('Luoghi')}"></div><div id="selected-location" aria-live="polite"></div>${chapter.note?`<p class="episode-note">${esc(chapter.note)}</p>`:''}</div>`;
  document.getElementById('previous').onclick=()=>selectChapter(current-1);
  document.getElementById('next').onclick=()=>selectChapter(current+1);
  document.getElementById('previous').hidden=current<0;document.getElementById('next').hidden=current<0;
  const locations=document.getElementById('episode-locations');
+ placeButtons=[];citationButtons=[];
+ const citations=activeCitations(),mentionedCount=chapter.places.filter(id=>placeCategory(id)==='mentioned').length+citations.length;
+ let mentionedButtons;
+ if(mentionedCount){const container=document.createElement('section');container.className='citation-selector';const heading=document.createElement('h3');heading.className='locations-heading';heading.textContent=t('Mentioned locations')+' · '+mentionedCount;container.appendChild(heading);mentionedButtons=document.createElement('div');mentionedButtons.className='location-buttons';mentionedButtons.id='citation-locations';mentionedButtons.setAttribute('aria-label',t('Mentioned locations'));container.appendChild(mentionedButtons);locations.after?.(container);}
  chapter.places.forEach((id,i)=>{
   const button=document.createElement('button');button.type='button';button.className='location-button'+(placeCategory(id)==='mentioned'?' cited-location':'');button.setAttribute('aria-pressed',String(i===selectedPlace&&selectedCitation<0));
   button.innerHTML=`<span>${i+1}</span>${esc(literaryPlaces[id].name)}`;
-  button.addEventListener('click',()=>selectPlace(i));locations.appendChild(button);
+  button.addEventListener('click',()=>selectPlace(i));placeButtons[i]=button;(placeCategory(id)==='mentioned'?mentionedButtons:locations).appendChild(button);
  });
- const citations=activeCitations();
- if(citations.length){const container=document.createElement('section');container.className='citation-selector';const heading=document.createElement('h3');heading.className='locations-heading';heading.textContent=t('Mentioned locations')+' · '+citations.length;container.appendChild(heading);const buttons=document.createElement('div');buttons.className='location-buttons';buttons.id='citation-locations';citations.forEach((reference,index)=>{const button=document.createElement('button');button.type='button';button.className='location-button cited-location';button.setAttribute('aria-pressed',String(index===selectedCitation));button.innerHTML='<span>C'+(index+1)+'</span>'+esc(allLiteraryPlaces[reference.placeId].name);button.addEventListener('click',()=>selectCitation(index));buttons.appendChild(button)});container.appendChild(buttons);document.getElementById('episode-locations').after?.(container);}
+ citations.forEach((reference,index)=>{const button=document.createElement('button');button.type='button';button.className='location-button cited-location';button.setAttribute('aria-pressed',String(index===selectedCitation));button.innerHTML='<span>C'+(index+1)+'</span>'+esc(allLiteraryPlaces[reference.placeId].name);button.addEventListener('click',()=>selectCitation(index));citationButtons[index]=button;mentionedButtons.appendChild(button)});
  renderLocation();
  const unlocatedPlaces=unlocatedPlacesForDisplay(chapter);
  if(unlocatedPlaces.length){
@@ -347,8 +352,8 @@ function renderLocation(options={}){
  const chapter=options.chapter||activeChapter(),placeIndex=options.placeIndex??selectedPlace,citation=options.chapter?options.citation:activeCitations()[selectedCitation],id=options.referencePlaceId||citation?.placeId||chapter.places[placeIndex],place=allLiteraryPlaces[id],category=citation?'mentioned':options.chapter?(chapter.placeCategories?.[id]||'action'):placeCategory(id);
  if(!place){target.innerHTML='<p class="episode-note">'+esc(chapter.emptyMessage||chapter.text)+'</p>'+renderExcerpts(chapter.excerpts||chapter.excerpt,'Passage from the novel');return;}
  const narrativeSource=citation?{label:citation.excerpt.original.attribution,url:citation.excerpt.original.url}:chapter.placeSources?.[id]||place.narrativeSource;
- if(!isPopup)Array.from(document.getElementById('episode-locations').children).forEach((button,i)=>button.setAttribute('aria-pressed',String(i===selectedPlace&&selectedCitation<0)));
- if(!isPopup)Array.from(document.getElementById('citation-locations')?.children||[]).forEach((button,i)=>button.setAttribute('aria-pressed',String(i===selectedCitation)));
+ if(!isPopup)placeButtons.forEach((button,i)=>button.setAttribute('aria-pressed',String(i===selectedPlace&&selectedCitation<0)));
+ if(!isPopup)citationButtons.forEach((button,i)=>button.setAttribute('aria-pressed',String(i===selectedCitation)));
  const decimals=Number.isInteger(place.coordinateDecimals)&&place.coordinateDecimals>=0&&place.coordinateDecimals<=8?place.coordinateDecimals:place.positionSource.recordId||place.positionSource.councilRecord?6:4;
  const geographicPlace=place.geographic&&(!place.imagePresentation||illustratedMap?.geographic);
  const presentation=!geographicPlace&&place.imagePresentation||place;
@@ -403,8 +408,8 @@ function visibleMarkerNumbers(){
  return {places,citations};
 }
 function updateLocationNumbers(numbers=visibleMarkerNumbers()){
- for(const [container,values] of [['episode-locations',numbers.places],['citation-locations',numbers.citations]]){
-  Array.from(document.getElementById(container)?.children||[]).forEach((button,index)=>{
+ for(const [buttons,values] of [[placeButtons,numbers.places],[citationButtons,numbers.citations]]){
+  buttons.forEach((button,index)=>{
    // Replace only the label, preserving the button and its selection handler.
    button.innerHTML=button.innerHTML.replace(/<span[^>]*>.*?<\/span>/,values[index]==null?'<span hidden></span>':'<span>'+values[index]+'</span>');
   });

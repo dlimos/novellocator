@@ -8,7 +8,8 @@ function setup(book,lang){
  const get=id=>{if(!elements[id]){const node=element();node.id=id;elements[id]=node}return elements[id]};
  const location={search:'?book='+book+'&lang='+lang,hash:'',href:'https://example.org/atlas.html?book='+book+'&lang='+lang,assign(url){this.assigned=url}};
  const ctx={console,URL,URLSearchParams,NodeFilter:{SHOW_TEXT:4},location,localStorage:{getItem(){},setItem(){}},window:{location,innerWidth:1200,matchMedia:()=>({matches:true}),addEventListener(){}},document:{readyState:'loading',documentElement:{},body:{querySelectorAll:()=>[]},head:{querySelectorAll:()=>[]},addEventListener(k,f){startup=f},createTreeWalker:()=>({nextNode:()=>false}),querySelectorAll:()=>[],querySelector:()=>({}),getElementById:get,createElement:element}};
- vm.createContext(ctx);for(const file of ['locales/ui.js','content/book-translations.js','i18n.js','data/'+book+'.js','data/'+book+'-i18n.js','basemaps.js'])vm.runInContext(fs.readFileSync('docs/'+file,'utf8'),ctx);
+ vm.createContext(ctx);for(const file of ['locales/ui.js','content/book-translations.js','i18n.js',...(book==='macondo'?['data/macondo-local.js','fictional-atlas-adapter.js','atlas-modes.js']:['data/'+book+'.js','data/'+book+'-i18n.js']),'basemaps.js'])vm.runInContext(fs.readFileSync('docs/'+file,'utf8'),ctx);
+ if(book==='macondo')ctx.window.atlasData=ctx.window.AtlasModes.adapt(ctx.window.IllustratedAdapter.adapt(ctx.window.atlasIllustratedLocal,lang),'geographic',lang);
  ctx.window.atlasData=ctx.window.atlasI18n.localizeData(ctx.window.atlasData);startup();
  vm.runInContext(fs.readFileSync('docs/app.js','utf8').replace(/initializeMap\(\);\s*$/,''),ctx);
  vm.runInContext(`function layer(){return{graphics:[],visible:true,removeAll(){this.graphics=[]},add(g){this.graphics.push(g)}}}markerLayer=layer();citedMarkerLayer=layer();GraphicClass=class{constructor(p){Object.assign(this,p)}};ExtentClass=class{constructor(p){Object.assign(this,p)}};viewReady=true;view={goTo(){return Promise.resolve()}};drawMarkers();`,ctx);
@@ -23,8 +24,8 @@ function assertVisibleNumbers(run,elements){
   assert.deepEqual(actual,Array.from({length:group.length},(_,i)=>i+1),'each visible category starts at 1 without gaps');
  }
  const numbers=run('visibleMarkerNumbers()');
- for(const [container,values]of [['episode-locations',numbers.places],['citation-locations',numbers.citations]]){
-  for(const [index,button]of (elements[container]?.children||[]).entries()){
+ for(const [buttons,values]of [[run('placeButtons'),numbers.places],[run('citationButtons'),numbers.citations]]){
+  for(const [index,button]of buttons.entries()){
    if(values[index]==null)assert.match(button.innerHTML,/<span hidden><\/span>/);
    else assert.ok(button.innerHTML.startsWith('<span>'+values[index]+'</span>'),'detail label matches marker');
   }
@@ -46,8 +47,8 @@ for(const [book,[sections,places,references,language]]of Object.entries(books)){
  for(const lang of ['en','it','fr','es']){
   const {ctx,elements,location,run}=setup(book,lang),d=ctx.window.atlasData;
   const index=d.chapters.findIndex(c=>c.citations.length);run('selectChapter('+index+',false,false)');
-  assert.equal(elements['citation-locations'].children.length,d.chapters[index].citations.length);
-  elements['citation-locations'].children[0].events.click();assert.equal(ctx.window.atlasState().citation,0);assert.match(elements['selected-location'].innerHTML,/category-mentioned/);
+  assert.equal(elements['citation-locations'].children.length,d.chapters[index].citations.length+d.chapters[index].places.filter(id=>d.chapters[index].placeCategories?.[id]==='mentioned').length);
+  run('citationButtons')[0].events.click();assert.equal(ctx.window.atlasState().citation,0);assert.match(elements['selected-location'].innerHTML,/category-mentioned/);
   const group=d.chapters[index].citations[0].excerpt,passage=group.original.language===lang?group.original:group.translations?.[lang]||group.original;
   const expected='lang="'+passage.language+'"';
   assert.ok(elements['selected-location'].children.some(c=>c.innerHTML.includes(expected)));
@@ -73,4 +74,29 @@ for(const [book,[sections,places,references,language]]of Object.entries(books)){
  }
 }
 const html=fs.readFileSync('docs/atlas.html','utf8');for(const id of ['layer-markers','layer-action','layer-mentioned'])assert.match(html,new RegExp('id="'+id+'"'));
+const catalogue={window:{}};vm.runInNewContext(fs.readFileSync('docs/content/books.js','utf8'),catalogue);
+const survey=[];
+for(const {id:book}of catalogue.window.atlasCatalogue.books){
+ const {run,elements}=setup(book,'en');let mixed=-1;
+ const count=run('chapters.length');
+ for(let i=-1;i<count;i++){
+  run(i<0?'selectAllPlaces(false,false)':'selectChapter('+i+',false,false)');
+  const chapter=run('activeChapter()'),buttons=run('placeButtons'),citations=run('citationButtons');
+  const actions=chapter.places.filter(id=>run('placeCategory('+JSON.stringify(id)+')')==='action').length;
+  const mentions=chapter.places.length-actions;
+  assert.equal(elements['episode-locations'].children.length,actions,book+'/'+i+' action group');
+  assert.equal(elements['citation-locations']?.children.length||0,mentions+citations.length,book+'/'+i+' mentioned group');
+  chapter.places.forEach((id,index)=>assert.equal(buttons[index].parentElement.id,run('placeCategory('+JSON.stringify(id)+')')==='mentioned'?'citation-locations':'episode-locations'));
+  assertVisibleNumbers(run,elements);
+  if(mentions&&i>=0&&mixed<0)mixed=i;
+ }
+ for(const lang of ['it','fr','es']){
+  const localized=setup(book,lang);
+  if(mixed>=0)localized.run('selectChapter('+mixed+',false,false)');
+  const index=localized.run("activeChapter().places.findIndex(id=>placeCategory(id)==='mentioned')");
+  if(index>=0){localized.run('placeButtons')[index].events.click();assert.equal(localized.run('selectedPlace'),index);assert.equal(localized.run('placeButtons')[index].attributes['aria-pressed'],'true');localized.run("setLayerVisibility('action',false)");assertVisibleNumbers(localized.run,localized.elements);}
+ }
+ survey.push({book,sections:count,mixedSection:mixed<0?null:mixed+1});
+}
+console.log('PASS: separate action/mentioned lists in every section and global view of '+survey.length+' catalogue novels; four interface languages, mixed storage formats, original selection indices and marker numbering.');
 console.log('PASS: 1,106 sourced citations; original language retained in all four locales; restored 276 Moby-Dick positions; two independent layers, category colors, geometric shapes, selected outline, TOC, global overlap handling and CSVs.');
