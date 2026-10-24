@@ -1,5 +1,9 @@
 # Regole generali per aggiungere un libro
 
+## Badge temporali e personaggi
+
+- Regola generale per tutti i romanzi presenti e futuri, comprese le vedute e «Tutti i luoghi»: mostrare i badge `time` e `people` soltanto quando contengono un valore utile, pertinente alla sezione visualizzata. I due campi sono facoltativi e indipendenti: sono ammessi zero, uno o due badge. Non inserire formule di circostanza, segnaposto, autore, luogo, ripetizioni del titolo o elenchi generici dei protagonisti per mantenere artificialmente due etichette. `time` deve orientare sul tempo narrativo, non sulla data di pubblicazione; `people` deve indicare personaggi pertinenti alla sezione. Se manca un'informazione utile, lasciare il campo vuoto o assente e non mostrare né il badge né un contenitore vuoto. Nei raggruppamenti non estendere automaticamente a tutto il gruppo i valori del primo capitolo. Applicare la regola anche ai contenuti e agli adattatori letti dal database, nelle quattro lingue del sito.
+
 ## Identità cromatica dei romanzi
 
 - Mantenere coerente la scala delle filigrane anche nei nuovi romanzi: simboli di circa 35–44 px su desktop, entro una tessera di 96 × 128 px con due righe sfalsate orizzontalmente di 48 px; su mobile usare una tessera di 72 × 96 px. Normalizzare l'ingombro effettivo del disegno SVG, non soltanto le dimensioni della tessera, senza ingrandire i nuovi simboli rispetto a quelli esistenti.

@@ -1,0 +1,18 @@
+const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
+const app=fs.readFileSync('docs/app.js','utf8');
+const helper=app.slice(0,app.indexOf('function applyGeographicReview'));
+const ctx={book:{author:'Author'},esc:value=>value.replaceAll('&','&amp;').replaceAll('<','&lt;')};
+vm.createContext(ctx);vm.runInContext(helper,ctx);
+const render=ctx.sectionBadges;
+for(const chapter of [{},{time:'',people:'  '},{time:null,people:undefined},{time:'—',people:'N/A'},{people:'Author'},{title:'A view',time:'A view'},{setting:'Macondo',people:'Macondo'}])assert.equal(render(chapter),'');
+assert.equal((render({time:'Morning'}).match(/class="tag"/g)||[]).length,1);
+assert.equal((render({people:'Bloom',time:'Morning'}).match(/class="tag"/g)||[]).length,2);
+assert.ok(render({people:'Tom & Daisy'}).includes('Tom &amp; Daisy'));
+assert.ok(!app.includes("people:t('Global view')"));
+const scope={window:{}};vm.runInNewContext(fs.readFileSync('docs/supabase-data.js','utf8'),scope);
+const section=(id,time,people)=>({id,title:String(id),time,people,places:[],placeText:[]});
+const input={book:{sectionGrouping:{groups:[{id:1,firstSection:1,lastSection:2,title:'Part'}]}},chapters:[section(1,'Morning','A'),section(2,'Evening','B')],places:{}};
+let group=scope.window.atlasSupabaseData.groupSections(input).chapters[0];assert.equal(group.time,undefined);assert.equal(group.people,undefined);
+input.chapters[1].time='Morning';group=scope.window.atlasSupabaseData.groupSections(input).chapters[0];assert.equal(group.time,'Morning');
+input.book.sectionGrouping.groups[0].people='A · B';group=scope.window.atlasSupabaseData.groupSections(input).chapters[0];assert.equal(group.people,'A · B');
+console.log('PASS: optional independent badges, empty containers, escaping, redundant labels and grouped sections.');

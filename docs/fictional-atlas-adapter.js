@@ -21,7 +21,7 @@
    const records=payload.places.filter(p=>(geographicPlaces[p.id]?.pages||p.source.pages).some(page=>page>=start&&page<=end)),epoch=payload.chapterEpochs[i];
    const introduction=payload.chapterIntroductions?.[i]?.[locale]||payload.chapterIntroductions?.[i]?.en;
    if(typeof introduction!=='string'||!introduction.trim())throw Error('Chapter introduction missing: '+(i+1));
-   const c={id:i+1,title:labels.chapter+' '+(i+1),setting:text.town,mapEpoch:epoch,places:[],placeText:[],placeSources:{},placeExcerpts:{},placeCategories:{},placeKinds:{},placeNames:{},unlocatedPlaces:[],time:payload.epochTexts[locale].labels[epoch],people:text.town,links:[],text:introduction};
+   const c={id:i+1,title:labels.chapter+' '+(i+1),setting:text.town,mapEpoch:epoch,places:[],placeText:[],placeSources:{},placeExcerpts:{},placeCategories:{},placeKinds:{},placeNames:{},unlocatedPlaces:[],time:payload.epochTexts[locale].labels[epoch],links:[],text:introduction};
    const opening=payload.emptyChapterExcerpts?.[i+1];if(opening)c.excerpt={original:{...opening,type:'original',attribution:payload.book.author+' · '+originalTitle+' · '+c.title},translations:{}};
    for(const p of records){const geo=geographicPlaces[p.id],excerpt=geo?.excerpts?.[i+1];const credit=excerpt?.reference||(excerpt?payload.book.author+' · '+originalTitle+' · '+c.title:attribution(p));
     if(p.x===null&&!geographicPlaces[p.id]){c.unlocatedPlaces.push({id:p.id,name:p.names[locale],text:p.scenes[locale]+' · '+credit,quote:p.source.quote,language:'es'});continue;}

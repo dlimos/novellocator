@@ -1,6 +1,8 @@
 const { spawnSync } = require('node:child_process');
 const path = require('node:path');
 const root = path.resolve(__dirname, '..');
+const badgesCheck = spawnSync(process.execPath, [path.join(__dirname, 'check-section-badges.cjs')], { cwd: root, stdio: 'inherit' });
+if (badgesCheck.status !== 0) process.exit(badgesCheck.status || 1);
 const selectedQuotesCheck = spawnSync(process.execPath, [path.join(__dirname, 'check-selected-quotes.cjs')], { cwd: root, stdio: 'inherit' });
 if (selectedQuotesCheck.status !== 0) process.exit(selectedQuotesCheck.status || 1);
 const crimeCheck = spawnSync(process.execPath, [path.join(__dirname, 'check-crime-and-punishment.cjs')], { cwd: root, stdio: 'inherit' });

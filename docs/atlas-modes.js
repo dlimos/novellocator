@@ -16,7 +16,7 @@
   delete data.book.sectionGrouping;
   data.chapters=config.epochs.map((epoch,index)=>{
    const ids=Object.keys(config.anchors[epoch.id]?.positions||{});
-   const view={id:epoch.id,title:epoch.label||epoch.id,mapEpoch:index,places:[],placeText:[],placeCategories:{},placeKinds:{},placeNames:{},placeSources:{},placeExcerpts:{},placeOccurrences:{},citations:[],unlocatedPlaces:[],links:[],time:epoch.label||'',people:data.book.author,text:epoch.note||config.caption||t('Literary views')};
+   const view={id:epoch.id,title:epoch.label||epoch.id,mapEpoch:index,places:[],placeText:[],placeCategories:{},placeKinds:{},placeNames:{},placeSources:{},placeExcerpts:{},placeOccurrences:{},citations:[],unlocatedPlaces:[],links:[],text:epoch.note||config.caption||t('Literary views')};
    for(const id of ids){
     if(!data.places[id])continue;
     const occurrences=sections.filter(section=>section.places.includes(id)&&!section.illustratedExcluded?.includes(id)&&valid(section.placeExcerpts?.[id]));
