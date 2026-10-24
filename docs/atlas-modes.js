@@ -12,11 +12,13 @@
   config.emptyNote=t('No illustrated places in this view.');
   data.book.literaryViews=true;data.book.hashPrefix='view';data.book.unit=t('View');
   data.book.sidebarTitle=t('Imaginary views');data.book.help=t('All documented places in the selected literary view.');
-  data.book.sidebarNote=config.caption||t('Imaginary views');
+  data.book.sidebarNote=config.notice||data.book.sidebarNote||config.caption||t('Imaginary views');
+  // Keep the interpretation notice in one place, outside narrative introductions.
+  config.caption='';
   delete data.book.sectionGrouping;
   data.chapters=config.epochs.map((epoch,index)=>{
    const ids=Object.keys(config.anchors[epoch.id]?.positions||{});
-   const view={id:epoch.id,title:epoch.label||epoch.id,mapEpoch:index,places:[],placeText:[],placeCategories:{},placeKinds:{},placeNames:{},placeSources:{},placeExcerpts:{},placeOccurrences:{},citations:[],unlocatedPlaces:[],links:[],text:epoch.note||config.caption||t('Literary views')};
+   const view={id:epoch.id,title:epoch.label||epoch.id,mapEpoch:index,places:[],placeText:[],placeCategories:{},placeKinds:{},placeNames:{},placeSources:{},placeExcerpts:{},placeOccurrences:{},placeNarrativeDescriptions:{},citations:[],unlocatedPlaces:[],links:[],text:epoch.note||config.caption||t('Literary views')};
    for(const id of ids){
     if(!data.places[id])continue;
     const occurrences=sections.filter(section=>section.places.includes(id)&&!section.illustratedExcluded?.includes(id)&&valid(section.placeExcerpts?.[id]));
@@ -25,7 +27,8 @@
     const relevant=data.book.nativeEpochViews&&sameEpoch.length?sameEpoch:occurrences;
     const action=relevant.find(section=>section.placeCategories?.[id]!=='mentioned');
     const selected=action||relevant[0];
-    view.places.push(id);view.placeText.push(selected.placeText[selected.places.indexOf(id)]);
+    const viewDescription=data.book.illustratedView?.notes?.[locale]?.[id]||data.book.illustratedView?.notes?.en?.[id];
+    view.placeNarrativeDescriptions[id]=viewDescription?undefined:selected.placeNarrativeDescriptions?.[id];view.places.push(id);view.placeText.push(viewDescription||selected.placeText[selected.places.indexOf(id)]);
     view.placeCategories[id]=data.book.nativeEpochViews&&!sameEpoch.length?'mentioned':action?'action':'mentioned';
     view.placeKinds[id]=data.places[id].kind;view.placeNames[id]=data.places[id].name;
     view.placeSources[id]=selected.placeSources?.[id];view.placeExcerpts[id]=selected.placeExcerpts[id];

@@ -1,0 +1,382 @@
+[
+  {
+    "bookId": "proust",
+    "path": [
+      "illustratedView",
+      "views",
+      "0",
+      "notes"
+    ],
+    "value": {
+      "en": "The madeleine brings back Aunt Léonie’s room, Saint-Hilaire and the walks towards Tansonville. Childhood places take shape through the narrator’s returning memories.",
+      "it": "La madeleine riporta alla luce la camera di zia Léonie, Saint-Hilaire e le passeggiate verso Tansonville. I luoghi dell’infanzia riprendono forma attraverso la memoria del narratore.",
+      "fr": "La madeleine fait resurgir la chambre de tante Léonie, Saint-Hilaire et les promenades vers Tansonville. Les lieux de l’enfance reprennent forme dans la mémoire du narrateur.",
+      "es": "La magdalena hace resurgir el cuarto de la tía Léonie, Saint-Hilaire y los paseos hacia Tansonville. Los lugares de la infancia recobran forma en la memoria del narrador."
+    }
+  },
+  {
+    "bookId": "proust",
+    "path": [
+      "illustratedView",
+      "views",
+      "1",
+      "notes"
+    ],
+    "value": {
+      "en": "At the Grand-Hôtel and on the seafront, the narrator discovers new friendships and the young girls’ company. His return to Balbec awakens the grief of losing his grandmother.",
+      "it": "Fra il Grand-Hôtel e il lungomare, il narratore scopre nuove amicizie e la compagnia delle ragazze. Il ritorno a Balbec risveglia il dolore per la perdita della nonna.",
+      "fr": "Entre le Grand-Hôtel et la digue, le narrateur découvre de nouvelles amitiés et la compagnie des jeunes filles. Le retour à Balbec ravive le chagrin de la perte de sa grand-mère.",
+      "es": "Entre el Grand-Hôtel y el paseo marítimo, el narrador descubre nuevas amistades y la compañía de las muchachas. El regreso a Balbec reaviva el dolor por la pérdida de su abuela."
+    }
+  },
+  {
+    "bookId": "sound-and-fury",
+    "path": [
+      "illustratedView",
+      "views",
+      "0",
+      "notes"
+    ],
+    "value": {
+      "en": "Benjy’s sensations and Quentin’s memories return to the house, stream and family grounds. The lost pasture and the decaying home trace the Compsons’ decline.",
+      "it": "Le sensazioni di Benjy e i ricordi di Quentin tornano alla casa, al ruscello e alla proprietà familiare. Il pascolo perduto e la dimora in rovina raccontano il declino dei Compson.",
+      "fr": "Les sensations de Benjy et les souvenirs de Quentin ramènent à la maison, au ruisseau et au domaine familial. Le pré perdu et la demeure délabrée racontent le déclin des Compson.",
+      "es": "Las sensaciones de Benjy y los recuerdos de Quentin vuelven a la casa, el arroyo y la propiedad familiar. El prado perdido y la casa deteriorada cuentan el declive de los Compson."
+    }
+  },
+  {
+    "bookId": "sound-and-fury",
+    "path": [
+      "illustratedView",
+      "views",
+      "1",
+      "notes"
+    ],
+    "value": {
+      "en": "Jason’s business, the family’s carriage journeys and Dilsey’s Easter service reveal different lives within Jefferson. Around the square, familiar routes collide with grief, anger and faith.",
+      "it": "Il lavoro di Jason, i tragitti in carrozza della famiglia e la Pasqua di Dilsey mostrano vite diverse a Jefferson. Attorno alla piazza, i percorsi abituali intrecciano lutto, rabbia e fede.",
+      "fr": "Le travail de Jason, les trajets en voiture de la famille et la Pâques de Dilsey révèlent des vies différentes à Jefferson. Autour de la place, les parcours familiers croisent deuil, colère et foi.",
+      "es": "El trabajo de Jason, los trayectos familiares en coche y la Pascua de Dilsey muestran vidas distintas en Jefferson. Alrededor de la plaza, los recorridos habituales entrelazan duelo, ira y fe."
+    }
+  },
+  {
+    "bookId": "to-kill-a-mockingbird",
+    "path": [
+      "illustratedView",
+      "views",
+      "0",
+      "notes"
+    ],
+    "value": {
+      "en": "Between the Finch porch, the school and the Radley house, Scout and Jem turn childhood curiosity into a growing understanding of their neighbours. Gifts in a tree and the final walk home change Scout’s view of Boo.",
+      "it": "Fra la veranda dei Finch, la scuola e casa Radley, Scout e Jem trasformano la curiosità infantile in una crescente comprensione dei vicini. I doni nell’albero e l’ultimo ritorno a casa cambiano lo sguardo di Scout su Boo.",
+      "fr": "Entre la véranda des Finch, l’école et la maison Radley, Scout et Jem passent de la curiosité enfantine à une meilleure compréhension de leurs voisins. Les cadeaux dans l’arbre et le dernier retour à la maison changent le regard de Scout sur Boo.",
+      "es": "Entre el porche de los Finch, la escuela y la casa Radley, Scout y Jem pasan de la curiosidad infantil a una mayor comprensión de sus vecinos. Los regalos en el árbol y el último regreso a casa cambian la mirada de Scout sobre Boo."
+    }
+  },
+  {
+    "bookId": "wuthering-heights",
+    "path": [
+      "illustratedView",
+      "notes"
+    ],
+    "value": {
+      "en": {
+        "grange": "Lockwood rents the Grange, where Nelly recounts the families’ past. The Lintons’ home is also the setting of Catherine’s married life, illness and last meeting with Heathcliff.",
+        "tg-ash": "Nelly approaches Heathcliff beneath an old ash tree after Catherine’s death. His grief breaks out in a desperate appeal to remain haunted by her.",
+        "wh-bed": "Lockwood closes the panels of the oak bed around himself. The enclosed window ledge and Catherine’s writings turn his night into an encounter with the past.",
+        "heights": "Lockwood’s first visit reveals a hostile household. The house holds Catherine and Heathcliff’s childhood, the violence of the following years and the cousins’ eventual reconciliation.",
+        "tg-park": "After the carriage arrives, Cathy and Edgar walk together through the park while Nelly prepares the household.",
+        "tg-wall": "Cathy climbs onto the wall and drops outside to recover her hat; the locked door prevents her return.",
+        "wh-hall": "Lockwood enters the family room directly from the threshold; kitchen sounds come from a separate quarter.",
+        "moorland": "Snow hides the paths when Heathcliff guides Lockwood home across the moor. Journeys between the houses expose travellers to weather, isolation and unexpected encounters.",
+        "wh-attic": "Nelly follows Catherine up to the garret where Heathcliff is confined; Catherine reaches him by the skylights.",
+        "wh-court": "Heathcliff unchains the gate and leads Lockwood into the court.",
+        "gimmerton": "Nelly goes to Gimmerton for the doctor and parson after Mr Earnshaw’s death. News, errands and the village musicians connect it to the isolated households.",
+        "penistone": "The crags draw Catherine’s feverish memories back to childhood. Joseph’s work beyond them also places them within the everyday landscape around the Heights.",
+        "wh-garden": "Nelly finds Cathy and Hareton clearing bushes to make room for flowers from the Grange. Their shared work marks a new tenderness within the household.",
+        "wh-stable": "Nelly goes out through the court and finds Heathcliff tending the new pony in the stable.",
+        "moor-guide": "Nelly stops by the stone that points towards the Heights, Gimmerton and the Grange. The familiar landmark brings back memories of childhood with Hindley.",
+        "tg-chamber": "Heathcliff crosses the hall, finds Catherine’s room and embraces her. The book places this prepared sickroom on the parlour floor in chapter XIII.",
+        "tg-drawing": "Heathcliff recounts how the children cling to the window ledge and watch the Lintons inside the crimson drawing room.",
+        "tg-library": "The recovering Nelly asks Cathy to read to her in the library; her impatience precedes the discovery of the secret visits.",
+        "wh-kitchen": "In Isabella’s letter, she enters the neglected kitchen and meets Hareton by the fire."
+      },
+      "es": {
+        "grange": "Lockwood alquila la Grange, donde Nelly relata el pasado de las familias. La casa de los Linton acoge también la vida matrimonial de Catherine, su enfermedad y su último encuentro con Heathcliff.",
+        "tg-ash": "Nelly se acerca a Heathcliff bajo un viejo fresno tras la muerte de Catherine. Su dolor estalla en la petición desesperada de que ella siga atormentándolo.",
+        "wh-bed": "Lockwood se encierra entre los paneles de la cama de roble. El alféizar interior y los escritos de Catherine convierten su noche en un encuentro con el pasado.",
+        "heights": "La primera visita de Lockwood revela una casa hostil. La mansión guarda la infancia de Catherine y Heathcliff, la violencia posterior y la reconciliación final de los primos.",
+        "tg-park": "Tras llegar el carruaje, Cathy y Edgar caminan por el parque mientras Nelly prepara la casa.",
+        "tg-wall": "Cathy sube al muro y baja fuera para recoger su sombrero; la puerta cerrada le impide volver.",
+        "wh-hall": "Lockwood entra en la sala directamente desde el umbral; los ruidos de la cocina llegan de otro espacio.",
+        "moorland": "La nieve oculta los senderos cuando Heathcliff acompaña a Lockwood por el páramo. Los trayectos entre las casas exponen a los viajeros al mal tiempo, el aislamiento y los encuentros inesperados.",
+        "wh-attic": "Nelly sigue a Catherine al desván donde está encerrado Heathcliff; Catherine llega hasta él por los tragaluces.",
+        "wh-court": "Heathcliff abre el portón y conduce a Lockwood al patio.",
+        "gimmerton": "Nelly va a Gimmerton a buscar al médico y al párroco tras la muerte del señor Earnshaw. Noticias, recados y músicos del pueblo lo conectan con las casas aisladas.",
+        "penistone": "Los riscos devuelven los recuerdos febriles de Catherine a la infancia. El trabajo de Joseph al otro lado los vincula también al paisaje cotidiano de las Heights.",
+        "wh-garden": "Nelly encuentra a Cathy y Hareton quitando arbustos para plantar flores de la Grange. El trabajo compartido marca una nueva ternura en la casa.",
+        "wh-stable": "Nelly cruza el patio y encuentra a Heathcliff cuidando al nuevo poni en la cuadra.",
+        "moor-guide": "Nelly se detiene junto a la piedra que señala las Heights, Gimmerton y la Grange. El lugar familiar le devuelve recuerdos de infancia con Hindley.",
+        "tg-chamber": "Heathcliff atraviesa el vestíbulo, encuentra el cuarto de Catherine y la abraza. El capítulo XIII sitúa este cuarto preparado para ella en la planta del salón.",
+        "tg-drawing": "Heathcliff cuenta cómo los niños se agarran al alféizar y observan a los Linton en el salón carmesí.",
+        "tg-library": "Nelly convaleciente pide a Cathy que le lea en la biblioteca; su impaciencia precede al descubrimiento de las visitas secretas.",
+        "wh-kitchen": "En su carta, Isabella entra en la cocina descuidada y encuentra a Hareton junto al fuego."
+      },
+      "fr": {
+        "grange": "Lockwood loue la Grange, où Nelly raconte le passé des familles. La demeure des Linton accueille aussi la vie conjugale de Catherine, sa maladie et sa dernière rencontre avec Heathcliff.",
+        "tg-ash": "Nelly s’approche de Heathcliff sous un vieux frêne après la mort de Catherine. Sa douleur éclate dans un appel désespéré à rester hanté par elle.",
+        "wh-bed": "Lockwood s’enferme dans le lit de chêne à panneaux. Le rebord de fenêtre qu’il englobe et les écrits de Catherine transforment sa nuit en rencontre avec le passé.",
+        "heights": "La première visite de Lockwood révèle une maisonnée hostile. La demeure abrite l’enfance de Catherine et Heathcliff, les violences des années suivantes et la réconciliation finale des cousins.",
+        "tg-park": "Après l’arrivée de la voiture, Cathy et Edgar traversent le parc tandis que Nelly prépare la maison.",
+        "tg-wall": "Cathy monte sur le mur puis descend dehors chercher son chapeau ; la porte fermée l’empêche de rentrer.",
+        "wh-hall": "Lockwood entre dans la salle directement depuis le seuil ; les bruits de cuisine viennent d’une autre pièce.",
+        "moorland": "La neige cache les chemins lorsque Heathcliff raccompagne Lockwood à travers la lande. Les trajets entre les demeures exposent les voyageurs aux intempéries, à l’isolement et aux rencontres imprévues.",
+        "wh-attic": "Nelly suit Catherine au grenier où Heathcliff est enfermé ; Catherine le rejoint par les lucarnes.",
+        "wh-court": "Heathcliff détache le portail et conduit Lockwood dans la cour.",
+        "gimmerton": "Nelly va chercher le médecin et le pasteur à Gimmerton après la mort de Mr Earnshaw. Nouvelles, courses et musiciens du village le relient aux demeures isolées.",
+        "penistone": "Les rochers ramènent les souvenirs fiévreux de Catherine à l’enfance. Le travail de Joseph au-delà de ces hauteurs les inscrit aussi dans le paysage quotidien des Heights.",
+        "wh-garden": "Nelly trouve Cathy et Hareton en train d’enlever des buissons pour accueillir des fleurs de la Grange. Leur travail commun marque une tendresse nouvelle dans la maison.",
+        "wh-stable": "Nelly traverse la cour et trouve Heathcliff à l’écurie, occupé du nouveau poney.",
+        "moor-guide": "Nelly s’arrête à la pierre qui indique les Heights, Gimmerton et la Grange. Ce repère familier lui rappelle son enfance avec Hindley.",
+        "tg-chamber": "Heathcliff traverse le vestibule, trouve la chambre de Catherine et l’embrasse. Le chapitre XIII situe cette chambre aménagée au niveau du salon.",
+        "tg-drawing": "Heathcliff raconte comment les enfants s’agrippent à l’appui de fenêtre et observent les Linton dans le salon cramoisi.",
+        "tg-library": "Nelly convalescente demande à Cathy de lui lire dans la bibliothèque ; son impatience précède la découverte des visites secrètes.",
+        "wh-kitchen": "Dans sa lettre, Isabella entre dans la cuisine négligée et rencontre Hareton près du feu."
+      },
+      "it": {
+        "grange": "Lockwood prende in affitto la Grange, dove Nelly racconta il passato delle famiglie. La casa dei Linton accoglie anche la vita coniugale di Catherine, la sua malattia e l’ultimo incontro con Heathcliff.",
+        "tg-ash": "Nelly si avvicina a Heathcliff sotto un vecchio frassino dopo la morte di Catherine. Il suo dolore esplode nella richiesta disperata di essere ancora perseguitato da lei.",
+        "wh-bed": "Lockwood si chiude fra i pannelli del letto di quercia. Il davanzale racchiuso al suo interno e gli scritti di Catherine trasformano la notte in un incontro con il passato.",
+        "heights": "La prima visita di Lockwood rivela una famiglia ostile. La dimora custodisce l’infanzia di Catherine e Heathcliff, le violenze degli anni successivi e la riconciliazione finale dei cugini.",
+        "tg-park": "Dopo l’arrivo della carrozza Cathy ed Edgar camminano insieme nel parco, mentre Nelly prepara la casa.",
+        "tg-wall": "Cathy sale sul muro e scende fuori per recuperare il cappello; la porta chiusa le impedisce di rientrare.",
+        "wh-hall": "Lockwood entra nella sala direttamente dalla soglia; i rumori della cucina provengono da un altro ambiente.",
+        "moorland": "La neve nasconde i sentieri quando Heathcliff riaccompagna Lockwood attraverso la brughiera. I tragitti fra le dimore espongono i viandanti al tempo avverso, all’isolamento e a incontri inattesi.",
+        "wh-attic": "Nelly segue Catherine fino alla soffitta dove Heathcliff è rinchiuso; Catherine lo raggiunge passando dai lucernari.",
+        "wh-court": "Heathcliff libera il cancello e precede Lockwood nel cortile.",
+        "gimmerton": "Nelly va a Gimmerton a cercare il medico e il pastore dopo la morte di Mr Earnshaw. Notizie, commissioni e musicisti del villaggio lo collegano alle dimore isolate.",
+        "penistone": "Le rupi riportano i ricordi febbrili di Catherine all’infanzia. Anche il lavoro di Joseph oltre quelle alture le lega al paesaggio quotidiano attorno alle Heights.",
+        "wh-garden": "Nelly trova Cathy e Hareton intenti a togliere cespugli per fare spazio ai fiori della Grange. Il lavoro condiviso segna una nuova tenerezza nella casa.",
+        "wh-stable": "Nelly esce nel cortile e trova Heathcliff nella scuderia mentre accudisce il nuovo pony.",
+        "moor-guide": "Nelly si ferma al cippo che indica le Heights, Gimmerton e la Grange. Il riferimento familiare le riporta alla memoria l’infanzia con Hindley.",
+        "tg-chamber": "Heathcliff attraversa l’ingresso, trova la camera di Catherine e l’abbraccia. Il capitolo XIII colloca questa camera preparata per lei sul piano del salotto.",
+        "tg-drawing": "Heathcliff racconta come i bambini si aggrappano al davanzale e osservano i Linton nel salotto cremisi.",
+        "tg-library": "Nelly convalescente chiede a Cathy di leggerle in biblioteca; l’impazienza della ragazza precede la scoperta delle visite segrete.",
+        "wh-kitchen": "Nella lettera Isabella entra nella cucina trascurata e incontra Hareton vicino al fuoco."
+      }
+    }
+  },
+  {
+    "bookId": "pride-and-prejudice",
+    "path": [
+      "illustratedView",
+      "notes"
+    ],
+    "value": {
+      "en": {
+        "meryton": "At the assembly, Bingley wins the neighbours’ affection while Darcy’s dismissive words wound Elizabeth’s pride.",
+        "rosings": "At Lady Catherine’s dinner table, Elizabeth answers intrusive questions without intimidation. Darcy’s presence makes the visits increasingly charged.",
+        "hunsford": "Elizabeth visits Charlotte’s parsonage and observes her married life with Collins. Here Darcy makes his first proposal and meets an emphatic refusal.",
+        "longbourn": "At the Bennets’ home, news of Bingley’s arrival sets Mrs Bennet’s marriage plans in motion and draws her husband’s teasing replies.",
+        "pemberley": "Visiting the house with the Gardiners, Elizabeth discovers another image of Darcy. His unexpected arrival and courtesy unsettle her former judgment.",
+        "lucas-lodge": "During an evening at the Lucases’, Darcy begins to attend to Elizabeth’s conversation. Charlotte’s choice of marriage later tests her friend’s expectations.",
+        "netherfield": "Jane’s illness brings Elizabeth to Netherfield on foot through muddy fields. Visits and the later ball expose the tensions between the two families.",
+        "rosings-edge-lane": "Elizabeth wanders along the lane rereading Darcy’s letter, reconsidering Wickham’s account and her own judgments.",
+        "pemberley-water-walk": "Elizabeth walks beside the water with her aunt and uncle, too absorbed by the unexpected meeting to take in the wooded landscape.",
+        "pemberley-simple-bridge": "A second, simple bridge carries the walkers across the stream where the valley narrows into a wooded glen.",
+        "pemberley-arrival-bridge": "The Gardiners’ carriage descends the hill and crosses this bridge towards the house; Elizabeth’s fear of meeting Darcy returns."
+      },
+      "es": {
+        "meryton": "En el baile público, Bingley se gana a los vecinos mientras las palabras desdeñosas de Darcy hieren el orgullo de Elizabeth.",
+        "rosings": "En la mesa de Lady Catherine, Elizabeth responde sin dejarse intimidar por preguntas indiscretas. La presencia de Darcy carga de tensión las visitas.",
+        "hunsford": "Elizabeth visita la casa parroquial de Charlotte y observa su vida conyugal con Collins. Aquí Darcy hace su primera propuesta de matrimonio y recibe una negativa tajante.",
+        "longbourn": "En casa de los Bennet, la noticia de la llegada de Bingley pone en marcha los planes matrimoniales de la señora Bennet y las respuestas irónicas de su marido.",
+        "pemberley": "Al visitar la casa con los Gardiner, Elizabeth descubre otra imagen de Darcy. Su llegada inesperada y su cortesía alteran su juicio anterior.",
+        "lucas-lodge": "Durante una velada en casa de los Lucas, Darcy empieza a interesarse por las conversaciones de Elizabeth. La posterior elección matrimonial de Charlotte pone a prueba las expectativas de su amiga.",
+        "netherfield": "La enfermedad de Jane lleva a Elizabeth a Netherfield a pie por campos embarrados. Las visitas y el baile posterior revelan las tensiones entre las dos familias.",
+        "rosings-edge-lane": "Elizabeth recorre el sendero releyendo la carta de Darcy y reconsidera el relato de Wickham y sus propios juicios.",
+        "pemberley-water-walk": "Elizabeth pasea junto al agua con sus tíos, demasiado absorta en el encuentro inesperado para apreciar el paisaje arbolado.",
+        "pemberley-simple-bridge": "Un segundo puente, sencillo, permite a los paseantes cruzar el arroyo donde el valle se estrecha entre los árboles.",
+        "pemberley-arrival-bridge": "El coche de los Gardiner baja la colina y cruza este puente hacia la casa; Elizabeth vuelve a temer encontrarse con Darcy."
+      },
+      "fr": {
+        "meryton": "Au bal public, Bingley gagne la sympathie du voisinage tandis que les paroles dédaigneuses de Darcy blessent l’orgueil d’Elizabeth.",
+        "rosings": "À la table de Lady Catherine, Elizabeth répond sans se laisser intimider à des questions indiscrètes. La présence de Darcy rend les visites de plus en plus tendues.",
+        "hunsford": "Elizabeth visite le presbytère de Charlotte et observe sa vie conjugale avec Collins. Darcy y fait sa première demande en mariage et essuie un refus catégorique.",
+        "longbourn": "Chez les Bennet, l’annonce de l’arrivée de Bingley déclenche les projets matrimoniaux de Mrs Bennet et les répliques ironiques de son mari.",
+        "pemberley": "En visitant la demeure avec les Gardiner, Elizabeth découvre une autre image de Darcy. Son arrivée inattendue et sa courtoisie ébranlent son ancien jugement.",
+        "lucas-lodge": "Lors d’une soirée chez les Lucas, Darcy commence à s’intéresser aux conversations d’Elizabeth. Le choix matrimonial de Charlotte met ensuite à l’épreuve les attentes de son amie.",
+        "netherfield": "La maladie de Jane conduit Elizabeth à Netherfield à pied à travers les champs boueux. Les visites et le bal qui suit révèlent les tensions entre les deux familles.",
+        "rosings-edge-lane": "Elizabeth parcourt l’allée en relisant la lettre de Darcy et reconsidère le récit de Wickham ainsi que ses propres jugements.",
+        "pemberley-water-walk": "Elizabeth longe l’eau avec son oncle et sa tante, trop absorbée par la rencontre inattendue pour apprécier le paysage boisé.",
+        "pemberley-simple-bridge": "Un second pont, tout simple, fait traverser le ruisseau aux promeneurs là où la vallée se resserre dans les bois.",
+        "pemberley-arrival-bridge": "La voiture des Gardiner descend la colline et traverse ce pont vers la demeure ; Elizabeth redoute de nouveau de rencontrer Darcy."
+      },
+      "it": {
+        "meryton": "Al ballo pubblico, Bingley conquista i vicini mentre le parole sprezzanti di Darcy feriscono l’orgoglio di Elizabeth.",
+        "rosings": "Alla tavola di Lady Catherine, Elizabeth risponde senza soggezione a domande invadenti. La presenza di Darcy rende le visite sempre più tese.",
+        "hunsford": "Elizabeth visita la canonica di Charlotte e osserva la sua vita coniugale con Collins. Qui Darcy fa la prima proposta di matrimonio e riceve un netto rifiuto.",
+        "longbourn": "In casa Bennet, la notizia dell’arrivo di Bingley mette in moto i progetti matrimoniali di Mrs Bennet e le risposte ironiche del marito.",
+        "pemberley": "Visitando la dimora con i Gardiner, Elizabeth scopre un’altra immagine di Darcy. Il suo arrivo inatteso e la sua cortesia scuotono il giudizio precedente.",
+        "lucas-lodge": "Durante una serata dai Lucas, Darcy comincia a interessarsi alle conversazioni di Elizabeth. La successiva scelta matrimoniale di Charlotte mette alla prova le aspettative dell’amica.",
+        "netherfield": "La malattia di Jane porta Elizabeth a Netherfield a piedi attraverso i campi fangosi. Le visite e il successivo ballo rivelano le tensioni fra le due famiglie.",
+        "rosings-edge-lane": "Elizabeth percorre il vialetto rileggendo la lettera di Darcy e riconsiderando il racconto di Wickham e i propri giudizi.",
+        "pemberley-water-walk": "Elizabeth cammina lungo l’acqua con gli zii, troppo assorta nell’incontro inatteso per cogliere il paesaggio boscoso.",
+        "pemberley-simple-bridge": "Un secondo ponte, semplice, permette ai visitatori di attraversare il ruscello dove la valle si stringe fra i boschi.",
+        "pemberley-arrival-bridge": "La carrozza dei Gardiner scende dalla collina e attraversa questo ponte verso la dimora; in Elizabeth riaffiora il timore di incontrare Darcy."
+      }
+    }
+  },
+  {
+    "bookId": "sound-and-fury",
+    "path": [
+      "illustratedView",
+      "notes"
+    ],
+    "value": {
+      "en": {
+        "barn": "Benjy and Luster pass through the dusty barn; the empty stalls and damaged roof stir memories of the family’s former life.",
+        "gate": "Benjy waits at the cold gate with Versh. The boundary between home and street becomes a place of expectation and distress.",
+        "cabin": "Caddy leads Benjy towards Versh’s house in a childhood memory. On Easter morning, Dilsey steps out of the cabin into the bitter cold.",
+        "house": "Benjy’s memories return to the family house, where moments of warmth and distress overlap. By Easter, the rotting portico makes its decline visible.",
+        "store": "Jason’s work ties him to the farmers’ supply store. In the appendix, Melissa confronts him there after he has become its owner.",
+        "swing": "The swing beneath the trees connects memories of Caddy’s intimacy with the sight of Miss Quentin and her beau.",
+        "branch": "The stream runs through the siblings’ childhood memories. Its water, willows and surrounding darkness return in Quentin’s recollections of Caddy.",
+        "garden": "Benjy and Luster follow the fence and pass through its broken section into the garden, their shadows moving beside them.",
+        "square": "Family carriage journeys cross Jefferson’s square. Its familiar order becomes crucial when Luster takes Benjy around it the wrong way.",
+        "pasture": "Benjy watches golfers through the fence of the former family pasture. Their movements awaken memories of Caddy and the land the Compsons have lost.",
+        "cemetery": "The cemetery is the destination of Mother’s announced outing and the setting of the father’s funeral recalled by Jason.",
+        "monument": "The soldier’s monument anchors Benjy’s familiar view of the square. Luster’s wrong turn at its base provokes his final outcry.",
+        "black-church": "Dilsey attends the Easter service with her family and Benjy. Reverend Shegog’s sermon brings the congregation into a shared experience of suffering and hope."
+      },
+      "es": {
+        "barn": "Benjy y Luster atraviesan el granero polvoriento; los establos vacíos y el techo dañado evocan la antigua vida familiar.",
+        "gate": "Benjy espera junto a la verja helada con Versh. El límite entre casa y calle se convierte en un lugar de espera y angustia.",
+        "cabin": "En un recuerdo de infancia, Caddy lleva a Benjy hacia la casa de Versh. La mañana de Pascua, Dilsey sale de la casita al frío penetrante.",
+        "house": "Los recuerdos de Benjy vuelven a la casa familiar, mezclando momentos de calidez y dolor. En Pascua, el pórtico podrido hace visible su declive.",
+        "store": "El trabajo vincula a Jason con la tienda de suministros agrícolas. En el apéndice, Melissa lo encara allí cuando ya es su propietario.",
+        "swing": "El columpio bajo los árboles enlaza los recuerdos de la intimidad de Caddy con la imagen de Miss Quentin y su enamorado.",
+        "branch": "El arroyo atraviesa los recuerdos de infancia de los hermanos. El agua, los sauces y la oscuridad regresan en los recuerdos de Caddy que atormentan a Quentin.",
+        "garden": "Benjy y Luster siguen la cerca y pasan por su abertura para entrar en el jardín, acompañados de sus sombras.",
+        "square": "Los trayectos familiares en coche cruzan la plaza de Jefferson. Su orden familiar resulta crucial cuando Luster lleva a Benjy por el lado equivocado.",
+        "pasture": "Benjy observa a los golfistas a través de la cerca del antiguo prado familiar. Sus movimientos despiertan recuerdos de Caddy y de la tierra perdida de los Compson.",
+        "cemetery": "El cementerio es el destino de la visita anunciada por la madre y el lugar del funeral del padre que Jason recuerda.",
+        "monument": "El monumento al soldado fija la visión habitual que Benjy tiene de la plaza. El giro equivocado de Luster a sus pies desencadena el grito final.",
+        "black-church": "Dilsey asiste al oficio de Pascua con su familia y Benjy. El sermón del reverendo Shegog une a los fieles en una experiencia compartida de sufrimiento y esperanza."
+      },
+      "fr": {
+        "barn": "Benjy et Luster traversent la grange poussiéreuse ; les stalles vides et le toit abîmé rappellent la vie passée de la famille.",
+        "gate": "Benjy attend près du portail glacé avec Versh. La limite entre maison et rue devient un lieu d’attente et d’angoisse.",
+        "cabin": "Dans un souvenir d’enfance, Caddy conduit Benjy vers la maison de Versh. Le matin de Pâques, Dilsey sort de la maisonnette dans le froid mordant.",
+        "house": "Les souvenirs de Benjy reviennent à la maison familiale, mêlant chaleur et détresse. À Pâques, le portique pourri en rend le déclin visible.",
+        "store": "Le travail de Jason le lie au magasin de fournitures agricoles. Dans l’appendice, Melissa l’y affronte après qu’il en est devenu propriétaire.",
+        "swing": "La balançoire sous les arbres relie les souvenirs de l’intimité de Caddy à la vue de Miss Quentin avec son amoureux.",
+        "branch": "Le ruisseau traverse les souvenirs d’enfance des frères et de leur sœur. L’eau, les saules et l’obscurité reviennent dans les souvenirs de Caddy qui hantent Quentin.",
+        "garden": "Benjy et Luster longent la clôture et passent par la brèche pour entrer dans le jardin, accompagnés de leurs ombres.",
+        "square": "Les trajets en voiture de la famille traversent la place de Jefferson. Son ordre familier devient crucial lorsque Luster y conduit Benjy du mauvais côté.",
+        "pasture": "Benjy regarde les golfeurs à travers la clôture de l’ancien pré familial. Leurs mouvements réveillent les souvenirs de Caddy et de la terre perdue des Compson.",
+        "cemetery": "Le cimetière est la destination de la sortie annoncée par la mère et le lieu de l’enterrement du père évoqué par Jason.",
+        "monument": "Le monument au soldat fixe la vision familière que Benjy a de la place. Le mauvais tournant de Luster à son pied déclenche son cri final.",
+        "black-church": "Dilsey assiste à l’office de Pâques avec sa famille et Benjy. Le sermon du révérend Shegog réunit les fidèles dans une expérience commune de souffrance et d’espoir."
+      },
+      "it": {
+        "barn": "Benjy e Luster attraversano il fienile polveroso; gli stalli vuoti e il tetto rovinato richiamano la vita passata della famiglia.",
+        "gate": "Benjy aspetta al cancello gelido con Versh. Il confine fra casa e strada diventa un luogo di attesa e angoscia.",
+        "cabin": "In un ricordo d’infanzia Caddy conduce Benjy verso casa di Versh. La mattina di Pasqua Dilsey esce dalla casetta nel freddo pungente.",
+        "house": "I ricordi di Benjy tornano alla casa di famiglia, sovrapponendo momenti di calore e dolore. A Pasqua, il portico marcio ne rende visibile il declino.",
+        "store": "Il lavoro lega Jason al negozio di forniture agricole. Nell’appendice Melissa lo affronta qui, quando ne è ormai proprietario.",
+        "swing": "L’altalena sotto gli alberi collega i ricordi dell’intimità di Caddy alla vista di Miss Quentin con il suo innamorato.",
+        "branch": "Il ruscello attraversa i ricordi d’infanzia dei fratelli. L’acqua, i salici e il buio circostante ritornano nei ricordi di Caddy che tormentano Quentin.",
+        "garden": "Benjy e Luster seguono la recinzione e attraversano il varco per entrare nel giardino, accompagnati dalle proprie ombre.",
+        "square": "I tragitti in carrozza della famiglia attraversano la piazza di Jefferson. Il suo ordine familiare diventa decisivo quando Luster conduce Benjy dal lato sbagliato.",
+        "pasture": "Benjy osserva i giocatori di golf attraverso la recinzione dell’antico pascolo familiare. I loro movimenti risvegliano ricordi di Caddy e della terra perduta dai Compson.",
+        "cemetery": "Il cimitero è la destinazione della visita annunciata dalla madre e il luogo del funerale del padre ricordato da Jason.",
+        "monument": "Il monumento al soldato fissa la visione abituale che Benjy ha della piazza. La svolta sbagliata di Luster ai suoi piedi scatena il grido finale.",
+        "black-church": "Dilsey partecipa alla funzione pasquale con la famiglia e Benjy. La predica del reverendo Shegog riunisce i fedeli in un’esperienza condivisa di dolore e speranza."
+      }
+    }
+  },
+  {
+    "bookId": "to-kill-a-mockingbird",
+    "path": [
+      "illustratedView",
+      "notes"
+    ],
+    "value": {
+      "en": {
+        "school": "Scout and Jem enter the schoolyard on the evening of the Halloween pageant, before their dangerous walk home.",
+        "radley-oak": "Scout finds chewing gum in the tree’s knothole; the gifts left there become a quiet connection with the Radley house.",
+        "school-oak": "On the dark walk home from the pageant, Jem recognizes the school’s big oak by the cool patch beneath its branches.",
+        "finch-house": "The porch is the children’s refuge after their daring approach to the Radley house. Home life with Atticus and Calpurnia shapes their days.",
+        "maudie-house": "Scout sits with Miss Maudie on her porch and listens to her account of the neighbours. The smaller house shown here belongs to the period after the fire.",
+        "rachel-house": "The children jump over the low wall of Miss Rachel’s yard during their night expedition towards the Radley property.",
+        "radley-house": "Scout walks Boo up to his porch. From there, she looks back over the neighbourhood and imagines the children’s lives from his point of view."
+      },
+      "es": {
+        "school": "Scout y Jem entran en el patio de la escuela la noche de la función de Halloween, antes de su peligroso regreso a casa.",
+        "radley-oak": "Scout encuentra chicle en la oquedad del árbol; los regalos que aparecen allí crean un vínculo silencioso con la casa Radley.",
+        "school-oak": "En la oscuridad del regreso de la función, Jem reconoce el gran roble de la escuela por el frescor bajo sus ramas.",
+        "finch-house": "El porche es el refugio de los niños tras su atrevido acercamiento a la casa Radley. La vida con Atticus y Calpurnia marca sus días.",
+        "maudie-house": "Scout se sienta con Miss Maudie en el porche y escucha sus relatos sobre los vecinos. La casa más pequeña que aparece aquí corresponde al período posterior al incendio.",
+        "rachel-house": "Los niños saltan el muro bajo del patio de Miss Rachel durante su expedición nocturna hacia la propiedad Radley.",
+        "radley-house": "Scout acompaña a Boo hasta el porche. Desde allí contempla el barrio e imagina la vida de los niños desde su punto de vista."
+      },
+      "fr": {
+        "school": "Scout et Jem entrent dans la cour de l’école le soir du spectacle d’Halloween, avant leur dangereux retour à la maison.",
+        "radley-oak": "Scout trouve du chewing-gum dans le creux de l’arbre ; les cadeaux qui y sont déposés deviennent un lien silencieux avec la maison Radley.",
+        "school-oak": "Dans l’obscurité du retour après le spectacle, Jem reconnaît le grand chêne de l’école à la fraîcheur sous ses branches.",
+        "finch-house": "La véranda est le refuge des enfants après leur approche audacieuse de la maison Radley. La vie avec Atticus et Calpurnia rythme leurs journées.",
+        "maudie-house": "Scout s’assied avec Miss Maudie sur sa véranda et l’écoute parler des voisins. La petite maison représentée ici appartient à la période après l’incendie.",
+        "rachel-house": "Les enfants franchissent le muret de la cour de Miss Rachel pendant leur expédition nocturne vers la propriété Radley.",
+        "radley-house": "Scout accompagne Boo jusqu’à sa véranda. De là, elle regarde le quartier et imagine la vie des enfants de son point de vue."
+      },
+      "it": {
+        "school": "Scout e Jem entrano nel cortile della scuola la sera della recita di Halloween, prima del pericoloso ritorno a casa.",
+        "radley-oak": "Scout trova della gomma da masticare nella cavità dell’albero; i doni lasciati lì diventano un legame silenzioso con casa Radley.",
+        "school-oak": "Nel buio del ritorno dalla recita, Jem riconosce la grande quercia della scuola dalla frescura sotto i rami.",
+        "finch-house": "La veranda è il rifugio dei bambini dopo l’audace avvicinamento a casa Radley. La vita domestica con Atticus e Calpurnia scandisce le loro giornate.",
+        "maudie-house": "Scout siede con Miss Maudie in veranda e ascolta i suoi racconti sui vicini. La casa più piccola qui raffigurata appartiene al periodo successivo all’incendio.",
+        "rachel-house": "I bambini scavalcano il muretto del cortile di Miss Rachel durante la spedizione notturna verso la proprietà Radley.",
+        "radley-house": "Scout accompagna Boo fino alla veranda. Da lì guarda il quartiere e immagina la vita dei bambini dal suo punto di vista."
+      }
+    }
+  },
+  {
+    "bookId": "proust",
+    "path": [
+      "illustratedView",
+      "notes"
+    ],
+    "value": {
+      "en": {
+        "leonie": "A taste of madeleine recalls the Sunday mornings when the child visited Aunt Léonie in her room.",
+        "church": "The narrator enters Saint-Hilaire with his family; the church’s interior joins childhood experience to the town’s past.",
+        "garden": "The flowering hawthorns near Tansonville accompany the childhood walks. A later stay with Gilberte brings the narrator back to this remembered landscape.",
+        "hotel": "The grandmother arranges their stay at the Grand-Hôtel. On his return, the familiar room awakens the narrator’s grief at her absence.",
+        "promenade": "The young girls appear together on the seafront, opening a new world of desire and friendship. Later, the narrator watches his mother walk there in the grandmother’s memory."
+      },
+      "es": {
+        "leonie": "El sabor de la magdalena evoca las mañanas de domingo en que el niño visitaba a la tía Léonie en su cuarto.",
+        "church": "El narrador entra en Saint-Hilaire con su familia; el interior de la iglesia une la experiencia infantil al pasado del pueblo.",
+        "garden": "Los espinos en flor junto a Tansonville acompañan los paseos de la infancia. Una estancia posterior con Gilberte devuelve al narrador a este paisaje de la memoria.",
+        "hotel": "La abuela organiza la estancia en el Grand-Hôtel. Al volver, la habitación familiar reaviva en el narrador el dolor de su ausencia.",
+        "promenade": "Las muchachas aparecen juntas en el paseo marítimo y abren un mundo nuevo de deseos y amistades. Más tarde, el narrador observa allí a su madre pasear en recuerdo de su abuela."
+      },
+      "fr": {
+        "leonie": "Le goût de la madeleine rappelle les dimanches matin où l’enfant rendait visite à tante Léonie dans sa chambre.",
+        "church": "Le narrateur entre à Saint-Hilaire avec sa famille ; l’intérieur de l’église relie l’expérience enfantine au passé de la ville.",
+        "garden": "Les aubépines en fleurs près de Tansonville accompagnent les promenades de l’enfance. Un séjour ultérieur chez Gilberte ramène le narrateur dans ce paysage du souvenir.",
+        "hotel": "La grand-mère organise leur séjour au Grand-Hôtel. Au retour, la chambre familière ravive chez le narrateur la douleur de son absence.",
+        "promenade": "Les jeunes filles apparaissent ensemble sur la digue, ouvrant un monde nouveau de désirs et d’amitiés. Plus tard, le narrateur y regarde sa mère marcher dans le souvenir de sa grand-mère."
+      },
+      "it": {
+        "leonie": "Il sapore della madeleine rievoca le mattine domenicali in cui il bambino visitava zia Léonie nella sua camera.",
+        "church": "Il narratore entra a Saint-Hilaire con la famiglia; l’interno della chiesa unisce l’esperienza infantile al passato del paese.",
+        "garden": "I biancospini in fiore presso Tansonville accompagnano le passeggiate infantili. Un successivo soggiorno da Gilberte riporta il narratore in questo paesaggio della memoria.",
+        "hotel": "La nonna organizza il soggiorno al Grand-Hôtel. Al ritorno, la camera familiare risveglia nel narratore il dolore della sua assenza.",
+        "promenade": "Le ragazze appaiono insieme sul lungomare, aprendo un nuovo mondo di desideri e amicizie. Più tardi il narratore osserva la madre passeggiare nel ricordo della nonna."
+      }
+    }
+  }
+]

@@ -17,7 +17,7 @@
   data.book={...data.book,mapType:'illustrated',exportOriginalGeography:true,sidebarNote:text.notice,
    illustration:{width:config.width,height:config.height,core:{xmin:0,ymin:0,xmax:config.width,ymax:config.height,spatialReference:{wkid:3857}},
     epochs:config.views.map(view=>({id:view.id,image:view.image,label:view.names[locale]||view.names.en,note:view.notes?.[locale]||view.notes?.en})),anchors,globalEpoch:0,geographicPlaces,separateViews:true,viewLabel:text.view,
-    geographyLabels:{back:text.back,map:text.geographic},caption:text.caption,imageAlt:text.alt,geographicOption:config.offerGeography?text.geographic:null,preferIllustratedAnchors:config.preferIllustratedAnchors,emptyNote:text.empty,
+    geographyLabels:{back:text.back,map:text.geographic},notice:text.notice,caption:text.caption,imageAlt:text.alt,geographicOption:config.offerGeography?text.geographic:null,preferIllustratedAnchors:config.preferIllustratedAnchors,emptyNote:text.empty,
     basemapURL:root.atlasBasemaps?.find(b=>b.id==='osm')?.url||'https://basemaps.arcgis.com/arcgis/rest/services/OpenStreetMap_v2/VectorTileServer'}};
   for(const chapter of data.chapters){
    chapter.mapEpoch=config.sectionViews?.[chapter.id]??0;
