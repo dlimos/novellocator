@@ -57,7 +57,7 @@ function reconstruct(bundle, id) {
                     c.placeExcerpts[placeId] = excerpt;
             }
             else
-                c.citations.push({ ...metadata, placeId, category: r.category, excerpt: group(s.id, r.id) });
+                c.citations.push({ ...metadata, ...(typeof r.scene_text === 'string' && r.scene_text.trim() ? { scene: r.scene_text } : {}), placeId, category: r.category, excerpt: group(s.id, r.id) });
         }
         for (const u of own('unlocated_settings').filter(u => u.section_id === s.id).sort((a, b) => Number(a.ordinal) - Number(b.ordinal)))
             c.unlocatedPlaces.push({ ...u.metadata, name: u.name, text: u.description, quote: u.quote, url: source(u.source_id).url });

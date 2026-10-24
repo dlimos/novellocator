@@ -25,7 +25,7 @@
    chapter.placeSources=chapter.placeSources||{};chapter.placeExcerpts=chapter.placeExcerpts||{};
    for(const ref of chapter.citations||[]){
     if(chapter.places.includes(ref.placeId))continue;
-    chapter.places.push(ref.placeId);chapter.placeText.push(ref.text||ref.scene||text.reference);
+    chapter.places.push(ref.placeId);chapter.placeText.push(ref.scene?.trim()||ref.text?.trim()||'');
     chapter.placeCategories[ref.placeId]='mentioned';chapter.placeExcerpts[ref.placeId]=ref.excerpt;
     chapter.placeSources[ref.placeId]={label:ref.excerpt?.original?.attribution||'',url:ref.excerpt?.original?.url};
    }

@@ -57,7 +57,7 @@
     // a mention elsewhere in the part must not replace its evidence.
     const action=occurrences.find(ref=>ref.category==='action');
     const selected=action||occurrences.find(ref=>ref.excerpt?.original?.quote?.trim())||occurrences[0];
-    chapter.places.push(id);chapter.placeText.push(selected.scene||'');chapter.placeCategories[id]=action?'action':'mentioned';chapter.placeExcerpts[id]=selected.excerpt;chapter.placeSources[id]=selected.source;chapter.placeOccurrences[id]=occurrences;
+    chapter.places.push(id);chapter.placeText.push(selected.scene?.trim()||selected.text?.trim()||'');chapter.placeCategories[id]=action?'action':'mentioned';chapter.placeExcerpts[id]=selected.excerpt;chapter.placeSources[id]=selected.source;chapter.placeOccurrences[id]=occurrences;
    }
    for(const occurrences of unlocated.values()){
     const selected=occurrences.find(item=>item.category==='action'&&(item.excerpt?.original?.quote?.trim()||item.quote?.trim()))||occurrences[0];

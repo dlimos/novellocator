@@ -1,0 +1,44 @@
+const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
+// Reuse the atlas DOM harness to exercise the real renderer, not a copy of it.
+const harness=fs.readFileSync('tests/check-global-view.cjs','utf8').split("for(const id of ['ulisse'")[0];
+const setup=new Function('require',harness+';return setup;')(require);
+for(const locale of ['en','it','fr','es']){
+ const {ctx,elements}=setup('sound-and-fury',locale,true);
+ const ref=ctx.window.atlasData.chapters[0].citations[0];
+ const expected=ref.text;
+ const escaped=expected?.replaceAll("'",'&#39;').replaceAll('&','&');
+ assert(expected);
+ vm.runInContext('selectChapter(0,false);selectCitation(0,false)',ctx);
+ assert(elements['selected-location'].innerHTML.includes(escaped));
+ vm.runInContext("renderLocation({target:document.getElementById('map-popup-content')})",ctx);
+ assert(elements['map-popup-content'].innerHTML.includes(escaped));
+ vm.runInContext('selectChapter(-1,false);selectCitation(0,false)',ctx);
+ assert(elements['selected-location'].innerHTML.includes('location-scene'));
+ // Identical description and classification through either storage shape.
+ ctx.ref=ref;ctx.expected=expected;
+ vm.runInContext(`const section=chapters[0];section.places.push(ref.placeId);section.placeText.push(expected);section.placeCategories[ref.placeId]='mentioned';selectChapter(0,false);selectPlace(section.places.length-1,false);`,ctx);
+ assert(elements['selected-location'].innerHTML.includes(escaped));
+ assert(elements['selected-location'].innerHTML.includes('category-mentioned'));
+ ref.scene='   ';ref.text='   ';
+ vm.runInContext('selectCitation(0,false)',ctx);
+ assert(!elements['selected-location'].innerHTML.includes('location-scene'));
+ assert(!elements['selected-location'].innerHTML.includes('undefined'));
+}
+const ctx={window:{}};
+for(const file of ['content-adapter.js','supabase-data.js','csv-export.js'])vm.runInNewContext(fs.readFileSync('docs/'+file,'utf8'),ctx);
+const bundle={tables:Object.fromEntries(ctx.window.atlasContent.tables.map(t=>[t,[]]))};
+bundle.tables.books=[{id:'test',title:'Test',author:'Author',metadata:{}}];
+bundle.tables.sections=[{book_id:'test',id:1,title:'Section',ordinal:0,metadata:{},legacy_fields:['places','placeText','citations']}];
+bundle.tables.place_references=[{book_id:'test',id:'ref',section_id:1,place_id:'p',ordinal:0,collection:'cited',category:'mentioned',scene_text:'Specific context',metadata:{text:'Legacy context'}}];
+const data=ctx.window.atlasContent.reconstruct(bundle,'test').data;
+assert.equal(data.chapters[0].citations[0].scene,'Specific context');
+data.book.sectionGrouping={groups:[{id:1,title:'Part',firstSection:1,lastSection:1}]};
+let grouped=ctx.window.atlasSupabaseData.groupSections(data);
+assert.equal(grouped.chapters[0].placeText[0],'Specific context');
+assert.equal(grouped.chapters[0].placeCategories.p,'mentioned');
+delete data.chapters[0].citations[0].scene;
+grouped=ctx.window.atlasSupabaseData.groupSections(data);
+assert.equal(grouped.chapters[0].placeText[0],'Legacy context');
+data.places={p:{name:'P',coords:[1,2]}};
+assert(ctx.window.atlasCsv.build(data,'citations').includes('Legacy context'));
+console.log('PASS: mention context parity in four languages, cards, popups, global view, database scene_text, navigation grouping and CSV; absent descriptions have no empty container.');
