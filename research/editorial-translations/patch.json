@@ -1,0 +1,1248 @@
+[
+  {
+    "book_id": "sound-and-fury",
+    "language": "it",
+    "source_text": "Quentin's college setting; the exact dormitory is unidentified.",
+    "translated_text": "L’ambiente universitario di Quentin; il dormitorio preciso non è identificato.",
+    "source_hash": "60fdc2457871dbed0e277379e9ce0482c6f204ae5395d9d2e3f23436de1557ea"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "fr",
+    "source_text": "Quentin's college setting; the exact dormitory is unidentified.",
+    "translated_text": "Le cadre universitaire de Quentin ; le dortoir exact n’est pas identifié.",
+    "source_hash": "60fdc2457871dbed0e277379e9ce0482c6f204ae5395d9d2e3f23436de1557ea"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "es",
+    "source_text": "Quentin's college setting; the exact dormitory is unidentified.",
+    "translated_text": "El entorno universitario de Quentin; el dormitorio exacto no está identificado.",
+    "source_hash": "60fdc2457871dbed0e277379e9ce0482c6f204ae5395d9d2e3f23436de1557ea"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "it",
+    "source_text": "Quentin's travel across the metropolitan area; city-level marker.",
+    "translated_text": "Gli spostamenti di Quentin nell’area metropolitana; il marker indica la città.",
+    "source_hash": "da6835a5fc291b4a664498ba9bfee5b0eaf1c161271a9a5d48f5d73f1304bbac"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "fr",
+    "source_text": "Quentin's travel across the metropolitan area; city-level marker.",
+    "translated_text": "Les déplacements de Quentin dans l’agglomération ; le repère indique la ville.",
+    "source_hash": "da6835a5fc291b4a664498ba9bfee5b0eaf1c161271a9a5d48f5d73f1304bbac"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "es",
+    "source_text": "Quentin's travel across the metropolitan area; city-level marker.",
+    "translated_text": "Los desplazamientos de Quentin por el área metropolitana; el marcador señala la ciudad.",
+    "source_hash": "da6835a5fc291b4a664498ba9bfee5b0eaf1c161271a9a5d48f5d73f1304bbac"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "it",
+    "source_text": "A remembered railway journey at Christmas, not the present day's travel.",
+    "translated_text": "Un viaggio in treno ricordato a Natale, non uno spostamento della giornata presente.",
+    "source_hash": "798bf5d31c1335136bc9914cc5f5c2eeb3be48046421b93e80ef16fd1090ded1"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "fr",
+    "source_text": "A remembered railway journey at Christmas, not the present day's travel.",
+    "translated_text": "Le souvenir d’un voyage en train à Noël, et non un déplacement de la journée présente.",
+    "source_hash": "798bf5d31c1335136bc9914cc5f5c2eeb3be48046421b93e80ef16fd1090ded1"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "es",
+    "source_text": "A remembered railway journey at Christmas, not the present day's travel.",
+    "translated_text": "El recuerdo de un viaje en tren en Navidad, no un desplazamiento del día presente.",
+    "source_hash": "798bf5d31c1335136bc9914cc5f5c2eeb3be48046421b93e80ef16fd1090ded1"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "it",
+    "source_text": "The rower and car move along parallel courses in the present geographical setting.",
+    "translated_text": "Il vogatore e l’automobile seguono percorsi paralleli nell’ambientazione geografica del presente.",
+    "source_hash": "8ce69ec33ce6d720f698d682f3910c83634795159684e4e2c7e7bd164d4bc5e0"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "fr",
+    "source_text": "The rower and car move along parallel courses in the present geographical setting.",
+    "translated_text": "Le rameur et la voiture suivent des parcours parallèles dans le cadre géographique du présent.",
+    "source_hash": "8ce69ec33ce6d720f698d682f3910c83634795159684e4e2c7e7bd164d4bc5e0"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "es",
+    "source_text": "The rower and car move along parallel courses in the present geographical setting.",
+    "translated_text": "El remero y el automóvil siguen trayectos paralelos en el marco geográfico del presente.",
+    "source_hash": "8ce69ec33ce6d720f698d682f3910c83634795159684e4e2c7e7bd164d4bc5e0"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "it",
+    "source_text": "Quentin's college town and the Blands' residence.",
+    "translated_text": "La città universitaria di Quentin e la residenza dei Bland.",
+    "source_hash": "3773fd9a974ad4900d96f374b6c624babd07f1d7abbbc0c3fd0173cc535916b3"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "fr",
+    "source_text": "Quentin's college town and the Blands' residence.",
+    "translated_text": "La ville universitaire de Quentin et la résidence des Bland.",
+    "source_hash": "3773fd9a974ad4900d96f374b6c624babd07f1d7abbbc0c3fd0173cc535916b3"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "es",
+    "source_text": "Quentin's college town and the Blands' residence.",
+    "translated_text": "La ciudad universitaria de Quentin y la residencia de los Bland.",
+    "source_hash": "3773fd9a974ad4900d96f374b6c624babd07f1d7abbbc0c3fd0173cc535916b3"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "it",
+    "source_text": "Caddy and her mother met Herbert at the resort; this is remembered action.",
+    "translated_text": "Caddy e sua madre hanno incontrato Herbert nella località di villeggiatura; la scena è rievocata nel ricordo.",
+    "source_hash": "a2dab845dc0cb3d40873a017ca36525295cb33e7fca1072b1833a1e4066845bf"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "fr",
+    "source_text": "Caddy and her mother met Herbert at the resort; this is remembered action.",
+    "translated_text": "Caddy et sa mère ont rencontré Herbert dans la station de villégiature ; la scène est évoquée dans un souvenir.",
+    "source_hash": "a2dab845dc0cb3d40873a017ca36525295cb33e7fca1072b1833a1e4066845bf"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "es",
+    "source_text": "Caddy and her mother met Herbert at the resort; this is remembered action.",
+    "translated_text": "Caddy y su madre conocieron a Herbert en el lugar de veraneo; la escena se evoca en el recuerdo.",
+    "source_hash": "a2dab845dc0cb3d40873a017ca36525295cb33e7fca1072b1833a1e4066845bf"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "it",
+    "source_text": "The northern landscape prompts comparison with Mississippi.",
+    "translated_text": "Il paesaggio del Nord suggerisce un confronto con il Mississippi.",
+    "source_hash": "f597c82fadb123a8f794add9b57cecf37c1616bb5fcf890550be6ca86c8559ac"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "fr",
+    "source_text": "The northern landscape prompts comparison with Mississippi.",
+    "translated_text": "Le paysage du Nord suscite une comparaison avec le Mississippi.",
+    "source_hash": "f597c82fadb123a8f794add9b57cecf37c1616bb5fcf890550be6ca86c8559ac"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "es",
+    "source_text": "The northern landscape prompts comparison with Mississippi.",
+    "translated_text": "El paisaje del Norte suscita una comparación con el Mississippi.",
+    "source_hash": "f597c82fadb123a8f794add9b57cecf37c1616bb5fcf890550be6ca86c8559ac"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "it",
+    "source_text": "Gerald's embedded story recalls the resort, hotel, dancing and pier.",
+    "translated_text": "Il racconto intercalato di Gerald rievoca la località di villeggiatura, l’albergo, i balli e il molo.",
+    "source_hash": "78754eb3499ef61206f131b46d887523f4e231b90848f71a9377068320ee6e40"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "fr",
+    "source_text": "Gerald's embedded story recalls the resort, hotel, dancing and pier.",
+    "translated_text": "Le récit enchâssé de Gerald évoque la station de villégiature, l’hôtel, les bals et la jetée.",
+    "source_hash": "78754eb3499ef61206f131b46d887523f4e231b90848f71a9377068320ee6e40"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "es",
+    "source_text": "Gerald's embedded story recalls the resort, hotel, dancing and pier.",
+    "translated_text": "El relato intercalado de Gerald evoca el lugar de veraneo, el hotel, los bailes y el muelle.",
+    "source_hash": "78754eb3499ef61206f131b46d887523f4e231b90848f71a9377068320ee6e40"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "it",
+    "source_text": "A remembered brothel incident; city marker does not identify a building.",
+    "translated_text": "Un episodio ricordato in un bordello; il marker della città non identifica un edificio.",
+    "source_hash": "97d0e5b07f42d293ab84608eaa5e65869653ac850cbbe17980a4382825a2ce0f"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "fr",
+    "source_text": "A remembered brothel incident; city marker does not identify a building.",
+    "translated_text": "Le souvenir d’un incident dans une maison close ; le repère de la ville n’identifie pas un bâtiment.",
+    "source_hash": "97d0e5b07f42d293ab84608eaa5e65869653ac850cbbe17980a4382825a2ce0f"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "es",
+    "source_text": "A remembered brothel incident; city marker does not identify a building.",
+    "translated_text": "El recuerdo de un incidente en un burdel; el marcador de la ciudad no identifica un edificio.",
+    "source_hash": "97d0e5b07f42d293ab84608eaa5e65869653ac850cbbe17980a4382825a2ce0f"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "it",
+    "source_text": "Jason's remembered visits and relationship with Lorraine.",
+    "translated_text": "Le visite di Jason e il suo rapporto con Lorraine, rievocati nel ricordo.",
+    "source_hash": "8d2d65dd1ef7158166048c62d5bb17860cdd26babca4a9c3dff2597a15135cd3"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "fr",
+    "source_text": "Jason's remembered visits and relationship with Lorraine.",
+    "translated_text": "Les visites de Jason et sa relation avec Lorraine, évoquées dans le souvenir.",
+    "source_hash": "8d2d65dd1ef7158166048c62d5bb17860cdd26babca4a9c3dff2597a15135cd3"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "es",
+    "source_text": "Jason's remembered visits and relationship with Lorraine.",
+    "translated_text": "Las visitas de Jason y su relación con Lorraine, evocadas en el recuerdo.",
+    "source_hash": "8d2d65dd1ef7158166048c62d5bb17860cdd26babca4a9c3dff2597a15135cd3"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "it",
+    "source_text": "The Compson land grant in North Mississippi.",
+    "translated_text": "La concessione di terre ai Compson nel Mississippi settentrionale.",
+    "source_hash": "cfaf309294d070f8414f548b59b26621e5b51c0df1f9a6d89d9f72d2133dd529"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "fr",
+    "source_text": "The Compson land grant in North Mississippi.",
+    "translated_text": "La concession de terres aux Compson dans le nord du Mississippi.",
+    "source_hash": "cfaf309294d070f8414f548b59b26621e5b51c0df1f9a6d89d9f72d2133dd529"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "es",
+    "source_text": "The Compson land grant in North Mississippi.",
+    "translated_text": "La concesión de tierras a los Compson en el norte del Mississippi.",
+    "source_hash": "cfaf309294d070f8414f548b59b26621e5b51c0df1f9a6d89d9f72d2133dd529"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "it",
+    "source_text": "Removal of the Chickasaw is narrated historically in the family account.",
+    "translated_text": "La deportazione dei Chickasaw è narrata come vicenda storica nella cronaca familiare.",
+    "source_hash": "0d27e9037aae8c398553b54db358790051497e323b24a14ce445f1da178dd3b1"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "fr",
+    "source_text": "Removal of the Chickasaw is narrated historically in the family account.",
+    "translated_text": "La déportation des Chickasaws est relatée comme un événement historique dans la chronique familiale.",
+    "source_hash": "0d27e9037aae8c398553b54db358790051497e323b24a14ce445f1da178dd3b1"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "es",
+    "source_text": "Removal of the Chickasaw is narrated historically in the family account.",
+    "translated_text": "La deportación de los chickasaw se narra como un hecho histórico en la crónica familiar.",
+    "source_hash": "0d27e9037aae8c398553b54db358790051497e323b24a14ce445f1da178dd3b1"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "it",
+    "source_text": "The appendix's Wassi Town denotes the federal seat; contextual identification.",
+    "translated_text": "Wassi Town, nell’appendice, designa la sede del governo federale; identificazione ricavata dal contesto.",
+    "source_hash": "789f64fd32e99617fb4174dd1bcedcfb2b0d2ea86a7daec133c251cc45b2555e"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "fr",
+    "source_text": "The appendix's Wassi Town denotes the federal seat; contextual identification.",
+    "translated_text": "Wassi Town, dans l’appendice, désigne le siège du gouvernement fédéral ; identification tirée du contexte.",
+    "source_hash": "789f64fd32e99617fb4174dd1bcedcfb2b0d2ea86a7daec133c251cc45b2555e"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "es",
+    "source_text": "The appendix's Wassi Town denotes the federal seat; contextual identification.",
+    "translated_text": "Wassi Town, en el apéndice, designa la sede del gobierno federal; identificación deducida del contexto.",
+    "source_hash": "789f64fd32e99617fb4174dd1bcedcfb2b0d2ea86a7daec133c251cc45b2555e"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "it",
+    "source_text": "Quentin MacLachan's upbringing; regional position only.",
+    "translated_text": "Il luogo in cui cresce Quentin MacLachan; localizzazione soltanto regionale.",
+    "source_hash": "5e3d5533d5e46e3ef5e5fa9804ae1cabb1a10b013ffc7ca2b25516a5d6b5a211"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "fr",
+    "source_text": "Quentin MacLachan's upbringing; regional position only.",
+    "translated_text": "Le lieu où grandit Quentin MacLachan ; localisation uniquement régionale.",
+    "source_hash": "5e3d5533d5e46e3ef5e5fa9804ae1cabb1a10b013ffc7ca2b25516a5d6b5a211"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "es",
+    "source_text": "Quentin MacLachan's upbringing; regional position only.",
+    "translated_text": "El lugar donde crece Quentin MacLachan; localización solo regional.",
+    "source_hash": "5e3d5533d5e46e3ef5e5fa9804ae1cabb1a10b013ffc7ca2b25516a5d6b5a211"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "it",
+    "source_text": "The battlefield where Charles Stuart is thought dead.",
+    "translated_text": "Il campo di battaglia dove si crede che Charles Stuart sia morto.",
+    "source_hash": "055f2cb9af842bfc6682cf82d17170d45b24fb0b2c3f9e6f810459bb04c23a4b"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "fr",
+    "source_text": "The battlefield where Charles Stuart is thought dead.",
+    "translated_text": "Le champ de bataille où l’on croit Charles Stuart mort.",
+    "source_hash": "055f2cb9af842bfc6682cf82d17170d45b24fb0b2c3f9e6f810459bb04c23a4b"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "es",
+    "source_text": "The battlefield where Charles Stuart is thought dead.",
+    "translated_text": "El campo de batalla donde se cree que murió Charles Stuart.",
+    "source_hash": "055f2cb9af842bfc6682cf82d17170d45b24fb0b2c3f9e6f810459bb04c23a4b"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "it",
+    "source_text": "Refuge with the infant grandson.",
+    "translated_text": "Il rifugio con il nipote neonato.",
+    "source_hash": "1ecaa72b2a6c00a32db3c52e2514a2b4a9e4437303ceeec4d682d39d4e38117d"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "fr",
+    "source_text": "Refuge with the infant grandson.",
+    "translated_text": "Le refuge avec le petit-fils encore nourrisson.",
+    "source_hash": "1ecaa72b2a6c00a32db3c52e2514a2b4a9e4437303ceeec4d682d39d4e38117d"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "es",
+    "source_text": "Refuge with the infant grandson.",
+    "translated_text": "El refugio con el nieto recién nacido.",
+    "source_hash": "1ecaa72b2a6c00a32db3c52e2514a2b4a9e4437303ceeec4d682d39d4e38117d"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "it",
+    "source_text": "Charles Stuart rejoins his family.",
+    "translated_text": "Charles Stuart si ricongiunge alla famiglia.",
+    "source_hash": "1a29f30f57a00c5fe0be9b94d354ff2296d9d52031e1d861648e6dd06f00ff09"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "fr",
+    "source_text": "Charles Stuart rejoins his family.",
+    "translated_text": "Charles Stuart rejoint sa famille.",
+    "source_hash": "1a29f30f57a00c5fe0be9b94d354ff2296d9d52031e1d861648e6dd06f00ff09"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "es",
+    "source_text": "Charles Stuart rejoins his family.",
+    "translated_text": "Charles Stuart se reúne con su familia.",
+    "source_hash": "1a29f30f57a00c5fe0be9b94d354ff2296d9d52031e1d861648e6dd06f00ff09"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "it",
+    "source_text": "Jason Lycurgus's 1811 route; a representative marker for the historic corridor.",
+    "translated_text": "Il percorso di Jason Lycurgus nel 1811; il marker indica un riferimento rappresentativo del tracciato storico.",
+    "source_hash": "df823170727d7f200a8cda17e7b5e553e6ddbc56012c5a5e544d5c0f2a5e028b"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "fr",
+    "source_text": "Jason Lycurgus's 1811 route; a representative marker for the historic corridor.",
+    "translated_text": "Le parcours de Jason Lycurgus en 1811 ; le repère donne une position représentative de l’itinéraire historique.",
+    "source_hash": "df823170727d7f200a8cda17e7b5e553e6ddbc56012c5a5e544d5c0f2a5e028b"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "es",
+    "source_text": "Jason Lycurgus's 1811 route; a representative marker for the historic corridor.",
+    "translated_text": "El recorrido de Jason Lycurgus en 1811; el marcador ofrece una referencia representativa del itinerario histórico.",
+    "source_hash": "df823170727d7f200a8cda17e7b5e553e6ddbc56012c5a5e544d5c0f2a5e028b"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "it",
+    "source_text": "The brigadier's military history.",
+    "translated_text": "La storia militare del generale di brigata.",
+    "source_hash": "ea59d2091141da9c51dfc2b2eb24d7a8795bf9303a0903e5cc4f12a41d969cd0"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "fr",
+    "source_text": "The brigadier's military history.",
+    "translated_text": "Le parcours militaire du général de brigade.",
+    "source_hash": "ea59d2091141da9c51dfc2b2eb24d7a8795bf9303a0903e5cc4f12a41d969cd0"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "es",
+    "source_text": "The brigadier's military history.",
+    "translated_text": "La trayectoria militar del general de brigada.",
+    "source_hash": "ea59d2091141da9c51dfc2b2eb24d7a8795bf9303a0903e5cc4f12a41d969cd0"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "it",
+    "source_text": "The second named military failure.",
+    "translated_text": "Il secondo insuccesso militare nominato.",
+    "source_hash": "83bb9f9e129b46dd15577d79bf9db292a78f034793fcd57df99d4c44571da81f"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "fr",
+    "source_text": "The second named military failure.",
+    "translated_text": "Le second échec militaire nommé.",
+    "source_hash": "83bb9f9e129b46dd15577d79bf9db292a78f034793fcd57df99d4c44571da81f"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "es",
+    "source_text": "The second named military failure.",
+    "translated_text": "El segundo fracaso militar mencionado.",
+    "source_hash": "83bb9f9e129b46dd15577d79bf9db292a78f034793fcd57df99d4c44571da81f"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "it",
+    "source_text": "The general's final hunting and fishing camp; river-basin marker, not an exact camp.",
+    "translated_text": "L’ultimo accampamento di caccia e pesca del generale; il marker indica il bacino fluviale, non un accampamento preciso.",
+    "source_hash": "46c73d16e9caeb3e1880355f6648208b2a95c5d154b4108aab7600c5841d1cc3"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "fr",
+    "source_text": "The general's final hunting and fishing camp; river-basin marker, not an exact camp.",
+    "translated_text": "Le dernier camp de chasse et de pêche du général ; le repère indique le bassin fluvial, non un camp précis.",
+    "source_hash": "46c73d16e9caeb3e1880355f6648208b2a95c5d154b4108aab7600c5841d1cc3"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "es",
+    "source_text": "The general's final hunting and fishing camp; river-basin marker, not an exact camp.",
+    "translated_text": "El último campamento de caza y pesca del general; el marcador señala la cuenca fluvial, no un campamento exacto.",
+    "source_hash": "46c73d16e9caeb3e1880355f6648208b2a95c5d154b4108aab7600c5841d1cc3"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "it",
+    "source_text": "Quentin's year at college.",
+    "translated_text": "L’anno universitario di Quentin.",
+    "source_hash": "142ec0ff18ef3476342df36a66f533cd7d07a6aa5ea942da009bd4e73ef92c1e"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "fr",
+    "source_text": "Quentin's year at college.",
+    "translated_text": "L’année universitaire de Quentin.",
+    "source_hash": "142ec0ff18ef3476342df36a66f533cd7d07a6aa5ea942da009bd4e73ef92c1e"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "es",
+    "source_text": "Quentin's year at college.",
+    "translated_text": "El año universitario de Quentin.",
+    "source_hash": "142ec0ff18ef3476342df36a66f533cd7d07a6aa5ea942da009bd4e73ef92c1e"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "it",
+    "source_text": "The appendix adds Benjy's commitment in 1933; this is not an event in the 1928 sections.",
+    "translated_text": "L’appendice aggiunge il ricovero di Benjy nel 1933; l’evento non appartiene alle sezioni del 1928.",
+    "source_hash": "40961340acbcc9d5adcbdb4c30be3c8e285152f660b679dd64350d1cf42cb327"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "fr",
+    "source_text": "The appendix adds Benjy's commitment in 1933; this is not an event in the 1928 sections.",
+    "translated_text": "L’appendice ajoute l’internement de Benjy en 1933 ; cet événement ne fait pas partie des sections de 1928.",
+    "source_hash": "40961340acbcc9d5adcbdb4c30be3c8e285152f660b679dd64350d1cf42cb327"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "es",
+    "source_text": "The appendix adds Benjy's commitment in 1933; this is not an event in the 1928 sections.",
+    "translated_text": "El apéndice añade el internamiento de Benjy en 1933; el suceso no pertenece a las secciones de 1928.",
+    "source_hash": "40961340acbcc9d5adcbdb4c30be3c8e285152f660b679dd64350d1cf42cb327"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "it",
+    "source_text": "Quentin's death is explicitly located here.",
+    "translated_text": "La morte di Quentin è esplicitamente collocata qui.",
+    "source_hash": "b06341c1281d6020be7f33e8cb7ca88451e66c5584f5e2a4873ed49209ba2b0a"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "fr",
+    "source_text": "Quentin's death is explicitly located here.",
+    "translated_text": "La mort de Quentin est explicitement située ici.",
+    "source_hash": "b06341c1281d6020be7f33e8cb7ca88451e66c5584f5e2a4873ed49209ba2b0a"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "es",
+    "source_text": "Quentin's death is explicitly located here.",
+    "translated_text": "La muerte de Quentin se sitúa explícitamente aquí.",
+    "source_hash": "b06341c1281d6020be7f33e8cb7ca88451e66c5584f5e2a4873ed49209ba2b0a"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "it",
+    "source_text": "Caddy meets Herbert during the vacation.",
+    "translated_text": "Caddy incontra Herbert durante la villeggiatura.",
+    "source_hash": "b1a855c27dda183fd4818e2ca560faf031ffa2e8f31dd0c288eee8f955dc4919"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "fr",
+    "source_text": "Caddy meets Herbert during the vacation.",
+    "translated_text": "Caddy rencontre Herbert pendant les vacances.",
+    "source_hash": "b1a855c27dda183fd4818e2ca560faf031ffa2e8f31dd0c288eee8f955dc4919"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "es",
+    "source_text": "Caddy meets Herbert during the vacation.",
+    "translated_text": "Caddy conoce a Herbert durante las vacaciones.",
+    "source_hash": "b1a855c27dda183fd4818e2ca560faf031ffa2e8f31dd0c288eee8f955dc4919"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "it",
+    "source_text": "Caddy's second marriage.",
+    "translated_text": "Il secondo matrimonio di Caddy.",
+    "source_hash": "bbbcad04cecaa41325ce71df59d4df26f80f69b16da97f236f232e9d3a4126b5"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "fr",
+    "source_text": "Caddy's second marriage.",
+    "translated_text": "Le second mariage de Caddy.",
+    "source_hash": "bbbcad04cecaa41325ce71df59d4df26f80f69b16da97f236f232e9d3a4126b5"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "es",
+    "source_text": "Caddy's second marriage.",
+    "translated_text": "El segundo matrimonio de Caddy.",
+    "source_hash": "bbbcad04cecaa41325ce71df59d4df26f80f69b16da97f236f232e9d3a4126b5"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "it",
+    "source_text": "The divorce by agreement.",
+    "translated_text": "Il divorzio consensuale.",
+    "source_hash": "23b0267ec2b8bef51ccff8b65a92995989f4f4370b2491f7242b113301433b71"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "fr",
+    "source_text": "The divorce by agreement.",
+    "translated_text": "Le divorce par consentement mutuel.",
+    "source_hash": "23b0267ec2b8bef51ccff8b65a92995989f4f4370b2491f7242b113301433b71"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "es",
+    "source_text": "The divorce by agreement.",
+    "translated_text": "El divorcio de mutuo acuerdo.",
+    "source_hash": "23b0267ec2b8bef51ccff8b65a92995989f4f4370b2491f7242b113301433b71"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "it",
+    "source_text": "Caddy disappears during the German occupation.",
+    "translated_text": "Caddy scompare durante l’occupazione tedesca.",
+    "source_hash": "185d8d03f44678148ebe43ebd147b95e2c935de44239af973a95b5ce33cf1606"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "fr",
+    "source_text": "Caddy disappears during the German occupation.",
+    "translated_text": "Caddy disparaît pendant l’occupation allemande.",
+    "source_hash": "185d8d03f44678148ebe43ebd147b95e2c935de44239af973a95b5ce33cf1606"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "es",
+    "source_text": "Caddy disappears during the German occupation.",
+    "translated_text": "Caddy desaparece durante la ocupación alemana.",
+    "source_hash": "185d8d03f44678148ebe43ebd147b95e2c935de44239af973a95b5ce33cf1606"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "it",
+    "source_text": "Melissa's visit to Dilsey; the city also frames Jason's and the Gibsons' later lives.",
+    "translated_text": "La visita di Melissa a Dilsey; la città fa anche da sfondo alla vita successiva di Jason e dei Gibson.",
+    "source_hash": "90bee25443e7437c2c3a9fe3f490e436281c82be1ba9444dd53e9417397099f5"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "fr",
+    "source_text": "Melissa's visit to Dilsey; the city also frames Jason's and the Gibsons' later lives.",
+    "translated_text": "La visite de Melissa à Dilsey ; la ville sert aussi de cadre à la vie ultérieure de Jason et des Gibson.",
+    "source_hash": "90bee25443e7437c2c3a9fe3f490e436281c82be1ba9444dd53e9417397099f5"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "es",
+    "source_text": "Melissa's visit to Dilsey; the city also frames Jason's and the Gibsons' later lives.",
+    "translated_text": "La visita de Melissa a Dilsey; la ciudad también enmarca la vida posterior de Jason y los Gibson.",
+    "source_hash": "90bee25443e7437c2c3a9fe3f490e436281c82be1ba9444dd53e9417397099f5"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "it",
+    "source_text": "T.P.'s clothing and presence in Memphis.",
+    "translated_text": "L’abbigliamento di T.P. e la sua presenza a Memphis.",
+    "source_hash": "f6c2c78f9acb750f8a43a0ed03392f07d8a0184594f49ea4cd278b8a8d2182de"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "fr",
+    "source_text": "T.P.'s clothing and presence in Memphis.",
+    "translated_text": "La tenue de T.P. et sa présence à Memphis.",
+    "source_hash": "f6c2c78f9acb750f8a43a0ed03392f07d8a0184594f49ea4cd278b8a8d2182de"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "es",
+    "source_text": "T.P.'s clothing and presence in Memphis.",
+    "translated_text": "La vestimenta de T.P. y su presencia en Memphis.",
+    "source_hash": "f6c2c78f9acb750f8a43a0ed03392f07d8a0184594f49ea4cd278b8a8d2182de"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "it",
+    "source_text": "Frony's residence before returning to Memphis.",
+    "translated_text": "La residenza di Frony prima del ritorno a Memphis.",
+    "source_hash": "88f42439d100f316147d90de77e1787d45fee98ec38ba598a64281a0ec3c28da"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "fr",
+    "source_text": "Frony's residence before returning to Memphis.",
+    "translated_text": "La résidence de Frony avant son retour à Memphis.",
+    "source_hash": "88f42439d100f316147d90de77e1787d45fee98ec38ba598a64281a0ec3c28da"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "es",
+    "source_text": "Frony's residence before returning to Memphis.",
+    "translated_text": "La residencia de Frony antes de regresar a Memphis.",
+    "source_hash": "88f42439d100f316147d90de77e1787d45fee98ec38ba598a64281a0ec3c28da"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "it",
+    "source_text": "1928, with childhood memories",
+    "translated_text": "1928, con ricordi d’infanzia",
+    "source_hash": "353e7c6b3d5117698f2d473279c877b3cab863cda833df0666cd45a76130cb09"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "fr",
+    "source_text": "1928, with childhood memories",
+    "translated_text": "1928, avec des souvenirs d’enfance",
+    "source_hash": "353e7c6b3d5117698f2d473279c877b3cab863cda833df0666cd45a76130cb09"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "es",
+    "source_text": "1928, with childhood memories",
+    "translated_text": "1928, con recuerdos de infancia",
+    "source_hash": "353e7c6b3d5117698f2d473279c877b3cab863cda833df0666cd45a76130cb09"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "it",
+    "source_text": "Benjy, Luster and the remembered household",
+    "translated_text": "Benjy, Luster e la famiglia rievocata",
+    "source_hash": "6aa8d3583ace0ea659db6738c80151e626e9856d9e3f43f0496e16660b9c69ae"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "fr",
+    "source_text": "Benjy, Luster and the remembered household",
+    "translated_text": "Benjy, Luster et la maisonnée évoquée",
+    "source_hash": "6aa8d3583ace0ea659db6738c80151e626e9856d9e3f43f0496e16660b9c69ae"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "es",
+    "source_text": "Benjy, Luster and the remembered household",
+    "translated_text": "Benjy, Luster y la familia evocada",
+    "source_hash": "6aa8d3583ace0ea659db6738c80151e626e9856d9e3f43f0496e16660b9c69ae"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "it",
+    "source_text": "1910, with Southern memories",
+    "translated_text": "1910, con ricordi del Sud",
+    "source_hash": "f07772ef58fc4109b1a133377914426cddb556d594a3b939adf066fbaf755ab7"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "fr",
+    "source_text": "1910, with Southern memories",
+    "translated_text": "1910, avec des souvenirs du Sud",
+    "source_hash": "f07772ef58fc4109b1a133377914426cddb556d594a3b939adf066fbaf755ab7"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "es",
+    "source_text": "1910, with Southern memories",
+    "translated_text": "1910, con recuerdos del Sur",
+    "source_hash": "f07772ef58fc4109b1a133377914426cddb556d594a3b939adf066fbaf755ab7"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "it",
+    "source_text": "Quentin, Shreve, the Blands, Caddy",
+    "translated_text": "Quentin, Shreve, i Bland, Caddy",
+    "source_hash": "58ea05c22158aacdd3f2be32628c19726ddc59dd43565870b26b226974ac9977"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "fr",
+    "source_text": "Quentin, Shreve, the Blands, Caddy",
+    "translated_text": "Quentin, Shreve, les Bland, Caddy",
+    "source_hash": "58ea05c22158aacdd3f2be32628c19726ddc59dd43565870b26b226974ac9977"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "es",
+    "source_text": "Quentin, Shreve, the Blands, Caddy",
+    "translated_text": "Quentin, Shreve, los Bland, Caddy",
+    "source_hash": "58ea05c22158aacdd3f2be32628c19726ddc59dd43565870b26b226974ac9977"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "it",
+    "source_text": "1928, with family memories",
+    "translated_text": "1928, con ricordi familiari",
+    "source_hash": "0dc54f93d6d56453430cb87e486e7fa798c95ecd62eb5b0e52fce540c014a4fb"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "fr",
+    "source_text": "1928, with family memories",
+    "translated_text": "1928, avec des souvenirs familiaux",
+    "source_hash": "0dc54f93d6d56453430cb87e486e7fa798c95ecd62eb5b0e52fce540c014a4fb"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "es",
+    "source_text": "1928, with family memories",
+    "translated_text": "1928, con recuerdos familiares",
+    "source_hash": "0dc54f93d6d56453430cb87e486e7fa798c95ecd62eb5b0e52fce540c014a4fb"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "it",
+    "source_text": "Jason, Caroline, Miss Quentin and Earl",
+    "translated_text": "Jason, Caroline, Miss Quentin ed Earl",
+    "source_hash": "37df248ebc09921894743417e4a50b480cf65c8a622ba3580686bf5ff8eb5aaa"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "fr",
+    "source_text": "Jason, Caroline, Miss Quentin and Earl",
+    "translated_text": "Jason, Caroline, Miss Quentin et Earl",
+    "source_hash": "37df248ebc09921894743417e4a50b480cf65c8a622ba3580686bf5ff8eb5aaa"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "es",
+    "source_text": "Jason, Caroline, Miss Quentin and Earl",
+    "translated_text": "Jason, Caroline, la señorita Quentin y Earl",
+    "source_hash": "37df248ebc09921894743417e4a50b480cf65c8a622ba3580686bf5ff8eb5aaa"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "it",
+    "source_text": "Easter Sunday 1928",
+    "translated_text": "Domenica di Pasqua del 1928",
+    "source_hash": "a33444d3455770da4780ddda21dd69450196a1b35753306ed12bf24a3ed97553"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "fr",
+    "source_text": "Easter Sunday 1928",
+    "translated_text": "Dimanche de Pâques 1928",
+    "source_hash": "a33444d3455770da4780ddda21dd69450196a1b35753306ed12bf24a3ed97553"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "es",
+    "source_text": "Easter Sunday 1928",
+    "translated_text": "Domingo de Pascua de 1928",
+    "source_hash": "a33444d3455770da4780ddda21dd69450196a1b35753306ed12bf24a3ed97553"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "it",
+    "source_text": "Dilsey, Benjy, Luster, Jason and Reverend Shegog",
+    "translated_text": "Dilsey, Benjy, Luster, Jason e il reverendo Shegog",
+    "source_hash": "75b4d549ec5bbc565816c064078eb98a4a553a81e254fb60672479ec83f22d1e"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "fr",
+    "source_text": "Dilsey, Benjy, Luster, Jason and Reverend Shegog",
+    "translated_text": "Dilsey, Benjy, Luster, Jason et le révérend Shegog",
+    "source_hash": "75b4d549ec5bbc565816c064078eb98a4a553a81e254fb60672479ec83f22d1e"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "es",
+    "source_text": "Dilsey, Benjy, Luster, Jason and Reverend Shegog",
+    "translated_text": "Dilsey, Benjy, Luster, Jason y el reverendo Shegog",
+    "source_hash": "75b4d549ec5bbc565816c064078eb98a4a553a81e254fb60672479ec83f22d1e"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "it",
+    "source_text": "1699–1945; appendix written 1945, published 1946",
+    "translated_text": "1699–1945",
+    "source_hash": "14f1ed8f43f02f331d24e8ee1d703ac947cf16a64bfca1e412ec89a1cae58334"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "fr",
+    "source_text": "1699–1945; appendix written 1945, published 1946",
+    "translated_text": "1699–1945",
+    "source_hash": "14f1ed8f43f02f331d24e8ee1d703ac947cf16a64bfca1e412ec89a1cae58334"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "es",
+    "source_text": "1699–1945; appendix written 1945, published 1946",
+    "translated_text": "1699–1945",
+    "source_hash": "14f1ed8f43f02f331d24e8ee1d703ac947cf16a64bfca1e412ec89a1cae58334"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "it",
+    "source_text": "The Compsons and the Gibson family",
+    "translated_text": "I Compson e la famiglia Gibson",
+    "source_hash": "812184c19486682f8e129b939fd016417bd98e9ccf46d2e93c689f7a4b3e9cda"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "fr",
+    "source_text": "The Compsons and the Gibson family",
+    "translated_text": "Les Compson et la famille Gibson",
+    "source_hash": "812184c19486682f8e129b939fd016417bd98e9ccf46d2e93c689f7a4b3e9cda"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "es",
+    "source_text": "The Compsons and the Gibson family",
+    "translated_text": "Los Compson y la familia Gibson",
+    "source_hash": "812184c19486682f8e129b939fd016417bd98e9ccf46d2e93c689f7a4b3e9cda"
+  },
+  {
+    "book_id": "sound-and-fury",
+    "language": "en",
+    "source_text": "1699–1945; appendix written 1945, published 1946",
+    "translated_text": "1699–1945",
+    "source_hash": "14f1ed8f43f02f331d24e8ee1d703ac947cf16a64bfca1e412ec89a1cae58334"
+  },
+  {
+    "book_id": "wuthering-heights",
+    "language": "it",
+    "source_text": "A named geographical reference. Birthplaces, journeys and residences suggested by the characters remain conjectures or reports unless an actual scene is narrated. The outline is a modern geographical reference, not a reconstruction of eighteenth-century political borders.",
+    "translated_text": "Riferimento geografico nominato. Origini, viaggi e residenze suggeriti dai personaggi restano ipotesi o notizie, salvo una scena effettivamente narrata. Il contorno è un riferimento geografico moderno, non una ricostruzione dei confini politici del Settecento.",
+    "source_hash": "992f3a9ed1c5cedf4944902e782f1c1fa6345358c5093de165128d9759c409f1"
+  },
+  {
+    "book_id": "wuthering-heights",
+    "language": "fr",
+    "source_text": "A named geographical reference. Birthplaces, journeys and residences suggested by the characters remain conjectures or reports unless an actual scene is narrated. The outline is a modern geographical reference, not a reconstruction of eighteenth-century political borders.",
+    "translated_text": "Référence géographique nommée. Origines, voyages et résidences suggérés par les personnages restent hypothèses ou informations, sauf scène effectivement racontée. Le contour est un repère géographique moderne, non une reconstitution des frontières politiques du XVIIIe siècle.",
+    "source_hash": "992f3a9ed1c5cedf4944902e782f1c1fa6345358c5093de165128d9759c409f1"
+  },
+  {
+    "book_id": "wuthering-heights",
+    "language": "es",
+    "source_text": "A named geographical reference. Birthplaces, journeys and residences suggested by the characters remain conjectures or reports unless an actual scene is narrated. The outline is a modern geographical reference, not a reconstruction of eighteenth-century political borders.",
+    "translated_text": "Referencia geográfica nombrada. Orígenes, viajes y residencias sugeridos por los personajes siguen siendo hipótesis o noticias salvo escena efectivamente narrada. El contorno es una referencia geográfica moderna, no una reconstrucción de las fronteras políticas del siglo XVIII.",
+    "source_hash": "992f3a9ed1c5cedf4944902e782f1c1fa6345358c5093de165128d9759c409f1"
+  },
+  {
+    "book_id": "ulisse",
+    "language": "it",
+    "source_text": "Africa",
+    "translated_text": "Africa",
+    "source_hash": "c4a371acd7c3df8bd70e49805e76cb39b1309ccac3d0f4289120079a9ad68bcd"
+  },
+  {
+    "book_id": "ulisse",
+    "language": "it",
+    "source_text": "Americas",
+    "translated_text": "Americhe",
+    "source_hash": "2d1b84c3b2d1353bb8d6c14655855517c1c1d97c4f84c01f8975688463f14aa8"
+  },
+  {
+    "book_id": "ulisse",
+    "language": "it",
+    "source_text": "Asia",
+    "translated_text": "Asia",
+    "source_hash": "7ac02ec1c874b1daffd3a062da21153fd595799cf8b5aebaa77933435bf7931c"
+  },
+  {
+    "book_id": "ulisse",
+    "language": "it",
+    "source_text": "Athens",
+    "translated_text": "Atene",
+    "source_hash": "e28909073208dc87ce3ef521c5a3606e628b7b769dbdeff670aef6f9699266f8"
+  },
+  {
+    "book_id": "ulisse",
+    "language": "it",
+    "source_text": "Atlantic Ocean",
+    "translated_text": "Oceano Atlantico",
+    "source_hash": "1e19db94c238e1487b19ba2dce65d247dfb0fbc89a4dab3b586906bdc4578dc4"
+  },
+  {
+    "book_id": "ulisse",
+    "language": "it",
+    "source_text": "Austria",
+    "translated_text": "Austria",
+    "source_hash": "c9cab0238debc6e55498e2c0963a1d8e25bd29c95ddd53a3fff841ee636b6bc5"
+  },
+  {
+    "book_id": "ulisse",
+    "language": "it",
+    "source_text": "Babylon",
+    "translated_text": "Babilonia",
+    "source_hash": "348260ed7e9266777cc0c720fd0ec7a6fd93707e25d70739633d182427792842"
+  },
+  {
+    "book_id": "ulisse",
+    "language": "it",
+    "source_text": "Belgium",
+    "translated_text": "Belgio",
+    "source_hash": "348841ef53dbd5a64008a86be432973db790774fb28b59b0d99702a3188b3705"
+  },
+  {
+    "book_id": "ulisse",
+    "language": "it",
+    "source_text": "Berlin",
+    "translated_text": "Berlino",
+    "source_hash": "dad114b6ed7342bac65c79575f6c7ff761ec26b52c1f5f7a9110532973d05df2"
+  },
+  {
+    "book_id": "ulisse",
+    "language": "it",
+    "source_text": "Black Sea",
+    "translated_text": "Mar Nero",
+    "source_hash": "bff8dbcc177c5d698e41fa2db07e70be04d3cb014144b877b9138447cccc60f0"
+  },
+  {
+    "book_id": "ulisse",
+    "language": "it",
+    "source_text": "Brittany",
+    "translated_text": "Bretagna",
+    "source_hash": "3d93e232010a53bbc18fad2f9bf209d79c52720759f3961ad88487d99942d4c1"
+  },
+  {
+    "book_id": "ulisse",
+    "language": "it",
+    "source_text": "Canada",
+    "translated_text": "Canada",
+    "source_hash": "be55ef3f4c4e6c2d9c2afe2a33ac90ad0f50d4de7f9163999877e2a9ca5a54f8"
+  },
+  {
+    "book_id": "ulisse",
+    "language": "it",
+    "source_text": "Chile",
+    "translated_text": "Cile",
+    "source_hash": "f5273e236d498c359c7a91edb712e28728d902bf6dd4f60984dfbc9501a9bf4c"
+  },
+  {
+    "book_id": "ulisse",
+    "language": "it",
+    "source_text": "China",
+    "translated_text": "Cina",
+    "source_hash": "10436829032f361a3de50048de41755140e581467bc1895e6c1a17f423e42d10"
+  },
+  {
+    "book_id": "ulisse",
+    "language": "it",
+    "source_text": "Egypt",
+    "translated_text": "Egitto",
+    "source_hash": "557c1599d9a04895d3817d293e0806a4419a14de31958386182798d0d2ed3a56"
+  },
+  {
+    "book_id": "ulisse",
+    "language": "it",
+    "source_text": "England",
+    "translated_text": "Inghilterra",
+    "source_hash": "c0ea960b065c6aa6dd567a1a741fa21aee3972692096e158cebb4309a3b2a716"
+  },
+  {
+    "book_id": "ulisse",
+    "language": "it",
+    "source_text": "Europe",
+    "translated_text": "Europa",
+    "source_hash": "e595f45dc6c9e7665d108e8ea7940885a42e492918a522d44a1fc35494a4aa48"
+  },
+  {
+    "book_id": "ulisse",
+    "language": "it",
+    "source_text": "Florence",
+    "translated_text": "Firenze",
+    "source_hash": "544c789e852c7a8d7363037ada6626f16f7a18a3eb2602391fe2b4ba81452bc0"
+  },
+  {
+    "book_id": "ulisse",
+    "language": "it",
+    "source_text": "France",
+    "translated_text": "Francia",
+    "source_hash": "7a1ca4ef7515f7276bae7230545829c27810c9d9e98ab2c06066bee6270d5153"
+  },
+  {
+    "book_id": "ulisse",
+    "language": "it",
+    "source_text": "Germany",
+    "translated_text": "Germania",
+    "source_hash": "80db4ccdca106d37b920206331fcfe3e9e50a9e763d89b54ce3ad5ac8cf30f03"
+  },
+  {
+    "book_id": "ulisse",
+    "language": "it",
+    "source_text": "Gibraltar",
+    "translated_text": "Gibilterra",
+    "source_hash": "097ced582f097a3823d2b18e6e5509d0c18f1adfb9a14c5624350b7b0f9a3743"
+  },
+  {
+    "book_id": "ulisse",
+    "language": "it",
+    "source_text": "Greece",
+    "translated_text": "Grecia",
+    "source_hash": "9c93ad439373b4ee35e70ba1318055a14d2ed222f69f9e2d069689e83829833d"
+  },
+  {
+    "book_id": "ulisse",
+    "language": "it",
+    "source_text": "Holland",
+    "translated_text": "Olanda",
+    "source_hash": "153a799bb14d92b69b15da197c9a9d038f41f9f7f9cde90308ed6c6a40f53554"
+  },
+  {
+    "book_id": "ulisse",
+    "language": "it",
+    "source_text": "Hungary",
+    "translated_text": "Ungheria",
+    "source_hash": "504be3084f44d3e7eea35c83d4c8338e1fa19b777badc317f69326a4083d804e"
+  },
+  {
+    "book_id": "ulisse",
+    "language": "it",
+    "source_text": "India",
+    "translated_text": "India",
+    "source_hash": "abd149214539d9f222d25de6358735b9fa0efd3956f66102b2c119ae2d9f6348"
+  },
+  {
+    "book_id": "ulisse",
+    "language": "it",
+    "source_text": "Italy",
+    "translated_text": "Italia",
+    "source_hash": "5a9cf672c8be6b5ab9546a2fb49b06dd81a4e364c86ed023898c49d9bb0605dc"
+  },
+  {
+    "book_id": "ulisse",
+    "language": "it",
+    "source_text": "Jerusalem",
+    "translated_text": "Gerusalemme",
+    "source_hash": "451ebbe3f76682c7de1a795b406384e8b53801a89311bf86fa529e9b9259043b"
+  },
+  {
+    "book_id": "ulisse",
+    "language": "it",
+    "source_text": "London",
+    "translated_text": "Londra",
+    "source_hash": "ecc0e7dc084f141b29479058967d0bc07dee25d9690a98ee4e6fdad5168274d7"
+  },
+  {
+    "book_id": "ulisse",
+    "language": "it",
+    "source_text": "Mediterranean Sea",
+    "translated_text": "Mar Mediterraneo",
+    "source_hash": "184ca91d9a145e1b07fe6dc4cc7d4cafa9695813d8b2b77948191af47de42b93"
+  },
+  {
+    "book_id": "ulisse",
+    "language": "it",
+    "source_text": "Milan",
+    "translated_text": "Milano",
+    "source_hash": "ec3ae6550b9446364138461d6a682d09d101ac1a5ed8a9298e0a50869fd832f7"
+  },
+  {
+    "book_id": "ulisse",
+    "language": "it",
+    "source_text": "Naples",
+    "translated_text": "Napoli",
+    "source_hash": "9666cbb97fb26f9c54bb2eb51b1ddec25a1dc030bbc7e692f63c96c62861a456"
+  },
+  {
+    "book_id": "ulisse",
+    "language": "it",
+    "source_text": "Nile",
+    "translated_text": "Nilo",
+    "source_hash": "3223ab722b84e5bc60ecaa6dbedd4fce28d56298a7a1ce4171036682da1b6df5"
+  },
+  {
+    "book_id": "ulisse",
+    "language": "it",
+    "source_text": "New York City",
+    "translated_text": "New York",
+    "source_hash": "5a59ef2e40c5f89adb8c0c6ad0a8019b0e252fff530cf2ee822880eac13599c3"
+  },
+  {
+    "book_id": "ulisse",
+    "language": "it",
+    "source_text": "Pacific Ocean",
+    "translated_text": "Oceano Pacifico",
+    "source_hash": "ade4ba57ff4495605cb5ee58592b7a6bf5857d7909bbcb1232fa0e059b93ea67"
+  },
+  {
+    "book_id": "ulisse",
+    "language": "it",
+    "source_text": "Palestine",
+    "translated_text": "Palestina",
+    "source_hash": "f189744591c24b72717d3b582db6a19d0904915bebb827e732e193ed6b3cf035"
+  },
+  {
+    "book_id": "ulisse",
+    "language": "it",
+    "source_text": "Paris",
+    "translated_text": "Parigi",
+    "source_hash": "5dd272b4f316b776a7b8e3d0894b37e1e42be3d5d3b204b8a5836cc50597a6b1"
+  },
+  {
+    "book_id": "ulisse",
+    "language": "it",
+    "source_text": "Peru",
+    "translated_text": "Perù",
+    "source_hash": "508731a3c5d375cb49d07a2b83439abf84a501d75f428c8838ff01b69d21b412"
+  },
+  {
+    "book_id": "ulisse",
+    "language": "it",
+    "source_text": "Portugal",
+    "translated_text": "Portogallo",
+    "source_hash": "4c7de2c3da6dc0ae8f9d13b107718a913859359bd30166d077c867577953865d"
+  },
+  {
+    "book_id": "ulisse",
+    "language": "it",
+    "source_text": "Red Sea",
+    "translated_text": "Mar Rosso",
+    "source_hash": "10d73bcc52e974d25ecf464d97e7d1478c841e1c089ca4eddcdc34e4de0a3e01"
+  },
+  {
+    "book_id": "ulisse",
+    "language": "it",
+    "source_text": "Rome",
+    "translated_text": "Roma",
+    "source_hash": "d0d22019186582c6a842762ec016c71601d45dae437ec65a75799d86c8f392c0"
+  },
+  {
+    "book_id": "ulisse",
+    "language": "it",
+    "source_text": "Russia",
+    "translated_text": "Russia",
+    "source_hash": "33a3d8ed92b0709ba525369922e5138756c43abbf7e05edfcf02d3e0fd645c02"
+  },
+  {
+    "book_id": "ulisse",
+    "language": "it",
+    "source_text": "Spain",
+    "translated_text": "Spagna",
+    "source_hash": "8ef41e6f4b07432a0cb4eb7a8774e7a3878fd3e385f49aa09b406768467db228"
+  },
+  {
+    "book_id": "ulisse",
+    "language": "it",
+    "source_text": "River Thames",
+    "translated_text": "Tamigi",
+    "source_hash": "28be4a734757c9c480657e5e414650e07c01acb3491dcf4d906162712d0bb30d"
+  },
+  {
+    "book_id": "ulisse",
+    "language": "it",
+    "source_text": "Venice",
+    "translated_text": "Venezia",
+    "source_hash": "b46aa4c8e9d845e9fc1ba9655e9d74923eb6069d537ded498a70886f4bbb7490"
+  },
+  {
+    "book_id": "ulisse",
+    "language": "it",
+    "source_text": "Vienna",
+    "translated_text": "Vienna",
+    "source_hash": "db7ee413d60408e5d9107eb127a850e8e403feb1e1c0d07142b6226556543183"
+  },
+  {
+    "book_id": "anna-karenina",
+    "language": "it",
+    "source_text": "<p>Complete original Russian: 239 chapters in eight parts, based on PSS volumes 18 (1934) and 19 (1935). The epigraph is retained in the research corpus; the novel has no separate prologue or epilogue. Historical place names and uncertain estates are documented separately from modern coordinates.</p>",
+    "translated_text": "<p>Testo originale russo completo: 239 capitoli in otto parti, basato sui volumi 18 (1934) e 19 (1935) delle opere complete (PSS). L’epigrafe è conservata nel corpus di ricerca; il romanzo non ha un prologo o un epilogo separati. I toponimi storici e le tenute di identificazione incerta sono documentati separatamente dalle coordinate moderne.</p>",
+    "source_hash": "212b736989dc15287b2a2e399c3ad050f672a0301e4b03ff5e5e01238229ac96"
+  },
+  {
+    "book_id": "anna-karenina",
+    "language": "fr",
+    "source_text": "<p>Complete original Russian: 239 chapters in eight parts, based on PSS volumes 18 (1934) and 19 (1935). The epigraph is retained in the research corpus; the novel has no separate prologue or epilogue. Historical place names and uncertain estates are documented separately from modern coordinates.</p>",
+    "translated_text": "<p>Texte russe original intégral : 239 chapitres en huit parties, d’après les volumes 18 (1934) et 19 (1935) des œuvres complètes (PSS). L’épigraphe est conservée dans le corpus de recherche ; le roman ne comporte ni prologue ni épilogue distincts. Les toponymes historiques et les domaines d’identification incertaine sont documentés séparément des coordonnées modernes.</p>",
+    "source_hash": "212b736989dc15287b2a2e399c3ad050f672a0301e4b03ff5e5e01238229ac96"
+  },
+  {
+    "book_id": "anna-karenina",
+    "language": "es",
+    "source_text": "<p>Complete original Russian: 239 chapters in eight parts, based on PSS volumes 18 (1934) and 19 (1935). The epigraph is retained in the research corpus; the novel has no separate prologue or epilogue. Historical place names and uncertain estates are documented separately from modern coordinates.</p>",
+    "translated_text": "<p>Texto original ruso completo: 239 capítulos en ocho partes, basado en los volúmenes 18 (1934) y 19 (1935) de las obras completas (PSS). El epígrafe se conserva en el corpus de investigación; la novela no tiene prólogo ni epílogo separados. Los topónimos históricos y las fincas de identificación incierta se documentan por separado de las coordenadas modernas.</p>",
+    "source_hash": "212b736989dc15287b2a2e399c3ad050f672a0301e4b03ff5e5e01238229ac96"
+  },
+  {
+    "book_id": "crime-and-punishment",
+    "language": "it",
+    "source_text": "<p>Original Russian: six parts (7, 7, 6, 6, 5, 8 chapters) and a two-chapter epilogue. Quoted transcription and comparison edition are attributed separately. Abbreviated streets and fictional buildings retain their uncertainty.</p>",
+    "translated_text": "<p>Originale russo: sei parti (7, 7, 6, 6, 5 e 8 capitoli) e un epilogo di due capitoli. La trascrizione citata e l’edizione di confronto sono attribuite separatamente. Le strade indicate con nomi abbreviati e gli edifici immaginari conservano il loro margine d’incertezza.</p>",
+    "source_hash": "11f8461bd63e752f3a9f67137a44d4de19672158b6ee11f877db68761434e8dd"
+  },
+  {
+    "book_id": "crime-and-punishment",
+    "language": "fr",
+    "source_text": "<p>Original Russian: six parts (7, 7, 6, 6, 5, 8 chapters) and a two-chapter epilogue. Quoted transcription and comparison edition are attributed separately. Abbreviated streets and fictional buildings retain their uncertainty.</p>",
+    "translated_text": "<p>Original russe : six parties (7, 7, 6, 6, 5 et 8 chapitres) et un épilogue de deux chapitres. La transcription citée et l’édition de comparaison sont attribuées séparément. Les rues désignées par des noms abrégés et les bâtiments fictifs conservent leur part d’incertitude.</p>",
+    "source_hash": "11f8461bd63e752f3a9f67137a44d4de19672158b6ee11f877db68761434e8dd"
+  },
+  {
+    "book_id": "crime-and-punishment",
+    "language": "es",
+    "source_text": "<p>Original Russian: six parts (7, 7, 6, 6, 5, 8 chapters) and a two-chapter epilogue. Quoted transcription and comparison edition are attributed separately. Abbreviated streets and fictional buildings retain their uncertainty.</p>",
+    "translated_text": "<p>Original ruso: seis partes (7, 7, 6, 6, 5 y 8 capítulos) y un epílogo de dos capítulos. La transcripción citada y la edición de comparación se atribuyen por separado. Las calles designadas con nombres abreviados y los edificios ficticios conservan su margen de incertidumbre.</p>",
+    "source_hash": "11f8461bd63e752f3a9f67137a44d4de19672158b6ee11f877db68761434e8dd"
+  }
+]
