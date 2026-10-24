@@ -351,6 +351,14 @@ function renderDetail(){
   document.getElementById('selected-location').parentElement.appendChild(section);
  }
 }
+// Keep the short position status visible; collect precision notes at their source.
+function positionNotesHtml(place){
+ const normalize=value=>String(value||'').trim().replace(/[\s.·]+$/g,'').toLocaleLowerCase();
+ const seen=new Set([normalize(place.status)]);
+ return [place.note,place.method].filter(value=>{
+  const key=normalize(value);if(!key||seen.has(key))return false;seen.add(key);return true;
+ }).map(value=>`<p>${esc(value)}</p>`).join('');
+}
 function renderLocation(options={}){
  const target=options.target||document.getElementById('selected-location'),isPopup=target===document.getElementById('map-popup-content');
  const chapter=options.chapter||activeChapter(),placeIndex=options.placeIndex??selectedPlace,citation=options.chapter?options.citation:activeCitations()[selectedCitation],id=options.referencePlaceId||citation?.placeId||chapter.places[placeIndex],place=allLiteraryPlaces[id],category=citation?'mentioned':options.chapter?(chapter.placeCategories?.[id]||'action'):placeCategory(id);
@@ -367,9 +375,9 @@ function renderLocation(options={}){
  const hasOutline=!!window.RegionalOutline?.geometry(place);
  const coordinateText=hasOutline?t('Regional outline · no exact position'):isIllustrated&&!geographicPlace?'':place.coords.map(n=>n.toFixed(decimals)).join(', ');
  if(isIllustrated){
-  target.innerHTML=`<p class="category-badge category-${category}">${esc(t(category==='action'?'Action locations':'Mentioned locations'))}</p>${sceneHtml}${book.literaryViews?'':`<p class="today">${esc(presentation.note)}</p>`}<details class="location-evidence"><summary>${t('Posizione e fonti')}</summary>${book.literaryViews?'':`<p>${esc(presentation.method)}</p>`}<p>${esc(narrativeSource?.label||'')}</p>${geographicPlace?`<p class="coordinates">WGS84 · ${coordinateText}</p>${publicSourceLink(place.positionSource)}`:''}</details>`;
+  target.innerHTML=`<p class="category-badge category-${category}">${esc(t(category==='action'?'Action locations':'Mentioned locations'))}</p>${sceneHtml}<details class="location-evidence"><summary>${t('Posizione e fonti')}</summary>${book.literaryViews?'':positionNotesHtml({...presentation,status:''})}<p>${esc(narrativeSource?.label||'')}</p>${geographicPlace?`<p class="coordinates">WGS84 · ${coordinateText}</p>${publicSourceLink(place.positionSource)}`:''}</details>`;
  }else{
- target.innerHTML=`<p class="category-badge category-${category}">${esc(t(category==='action'?'Action locations':'Mentioned locations'))}</p><p class="location-address">${esc(place.area)}</p>${sceneHtml}<p class="today"><strong>${esc(place.status)}.</strong> ${esc(place.note)}</p><details class="location-evidence"><summary>${t('Posizione e fonti')}</summary><p>${esc(place.method)}</p><p class="coordinates">${hasOutline?'':'WGS84 · '}${coordinateText}<br>${t('Verifica delle fonti')}: ${esc(new Date(place.checked+"T12:00:00").toLocaleDateString(locale,{day:"numeric",month:"long",year:"numeric"}))}</p><span>${esc(narrativeSource.label)}</span><br>${publicSourceLink(place.positionSource)}${place.additionalSource?`<br>${publicSourceLink(place.additionalSource)}`:''}</details>`;
+ target.innerHTML=`<p class="category-badge category-${category}">${esc(t(category==='action'?'Action locations':'Mentioned locations'))}</p><p class="location-address">${esc(place.area)}</p>${sceneHtml}<p class="today"><strong>${esc(place.status)}.</strong> </p><details class="location-evidence"><summary>${t('Posizione e fonti')}</summary>${positionNotesHtml(place)}<p class="coordinates">${hasOutline?'':'WGS84 · '}${coordinateText}<br>${t('Verifica delle fonti')}: ${esc(new Date(place.checked+"T12:00:00").toLocaleDateString(locale,{day:"numeric",month:"long",year:"numeric"}))}</p><span>${esc(narrativeSource.label)}</span><br>${publicSourceLink(place.positionSource)}${place.additionalSource?`<br>${publicSourceLink(place.additionalSource)}`:''}</details>`;
  if(!hasOutline&&place.geographicReview?.precision!=='region')target.innerHTML+=`<div class="street-view-action"><a class="street-view-link" id="street-view-link" href="${esc(streetViewUrl(place))}" target="_blank" rel="noopener noreferrer" aria-label="${esc(t('Apri Street View in una nuova finestra')+': '+place.name)}">Google Street View <span aria-hidden="true">↗</span></a><p class="street-view-note">${esc(t('Google mostra il panorama disponibile più vicino: può essere spostato rispetto al punto e dipende dalla copertura.'))}</p></div>`;
  }
  if(isPopup&&options.chapter)target.innerHTML=`<p class="detail-eyebrow">${esc(number(chapter.id)+' · '+chapter.title)}</p>`+target.innerHTML;

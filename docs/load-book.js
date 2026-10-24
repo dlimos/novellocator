@@ -21,7 +21,7 @@ function startEngine(source){
   }else{const label=document.createElement('span');label.textContent=t('Imaginary views');nav.appendChild(label);}
   if(imaginary){const alternate=document.createElement('a'),target=new URL('atlas.html',location.href);target.searchParams.set('book',bookId);target.searchParams.set('lang',window.atlasI18n.locale);alternate.href=target.href;alternate.textContent=t('Open geographic atlas');nav.appendChild(alternate);}
  }
- window.atlasData=window.atlasI18n.localizeData(window.atlasData);window.atlasDataSource=source;const engine=document.createElement('script');engine.src='app.js?v=20261024-scenario-introductions';document.head.appendChild(engine);
+ window.atlasData=window.atlasI18n.localizeData(window.atlasData);window.atlasDataSource=source;const engine=document.createElement('script');engine.src='app.js?v=20261024-editorial-notes';document.head.appendChild(engine);
 }
 if(!/^[a-z0-9-]+$/.test(bookId)){document.getElementById('detail').textContent=window.atlasI18n.t('Titolo non valido.');}
 else if(entry?.mapType==='illustrated'){
