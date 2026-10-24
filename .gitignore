@@ -58,3 +58,7 @@ research/location-visibility/review/*-audit.json
 research/location-visibility/review/inventory.json
 research/location-visibility/review/catalogue.json
 research/location-visibility/review/*.png
+
+# Public database snapshots and generated editorial SQL remain local.
+research/place-scenes/*-before.json
+research/place-scenes/*.sql

@@ -1,0 +1,24 @@
+[
+  {
+    "book": "pride-and-prejudice",
+    "scenes": 94,
+    "languages": [
+      "en",
+      "it",
+      "fr",
+      "es"
+    ],
+    "verified": true
+  },
+  {
+    "book": "wuthering-heights",
+    "scenes": 77,
+    "languages": [
+      "en",
+      "it",
+      "fr",
+      "es"
+    ],
+    "verified": true
+  }
+]

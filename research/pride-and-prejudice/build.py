@@ -2,7 +2,7 @@
 Read witness: PG1342 (2015). Published quotations: identified Chapman 1923
 narrative witness, with separately recorded editorial collation of each passage.
 """
-import collections,copy,json,math,pathlib,re,xml.etree.ElementTree as ET
+import collections,copy,csv,json,math,pathlib,re,xml.etree.ElementTree as ET
 R=pathlib.Path(__file__).resolve().parent;ROOT=R.parent.parent;ID='pride-and-prejudice';DATE='2026-10-19'
 A=json.loads((R/'analysis.json').read_text(encoding='utf8'));S=json.loads((R/'sections.json').read_text(encoding='utf8'));INTRO=json.loads((R/'introductions.json').read_text(encoding='utf8'));G=json.loads((R/'corpus/coordinates.json').read_text(encoding='utf8'))
 ALIGN={(r['chapter'],r['placeId']):r['translations'] for r in json.loads((R/'aligned-translations.json').read_text(encoding='utf8'))}
@@ -10,6 +10,7 @@ PRINT={(r['chapter'],r['placeId']):r for r in json.loads((R/'verified-print-quot
 PRINT_URL='https://raw.githubusercontent.com/GITenberg/Pride-and-Prejudice_42671/master/42671-h/42671-h.htm'
 PRINT_CHAPTERS=json.loads((R/'corpus/chapman-sections.json').read_text(encoding='utf8'))
 LANGS=['en','it','fr','es'];D={l:{} for l in LANGS}
+SCENES={(int(r['chapter']),r['placeId']):r for r in csv.DictReader((R/'place-scenes.tsv').open(encoding='utf8'),delimiter='|')}
 def tr(*v):
  assert len(v)==4
  for l,x in zip(LANGS,v):D[l][v[0]]=x
@@ -133,6 +134,8 @@ for s in A['sections']:
  c=dict(id=ch,title=title,text=intro,time='',people='',places=[],placeText=[],placeCategories={},placeExcerpts={},placeSources={},citations=[],unlocatedPlaces=[])
  for ref in s['references']:
   pid=ref['placeId'];cat=ref['category'];group=passage(ref,ch);q=group['original'];scene=tr(*[roles[cat][i]+INTRO[str(ch)][l] for i,l in enumerate(LANGS)])
+  if (ch,pid) in SCENES:scene=tr(*[SCENES[(ch,pid)][l] for l in LANGS])
+  elif cat=='action' and pid not in UNLOCATED:raise ValueError(f'Missing place-specific scene: {ch}/{pid}')
   if pid in UNLOCATED:
    note=tr(*UNOTES[pid]) if pid in UNOTES else unote
    item=dict(id=pid,name=name(pid),text=note,category=cat,quote=q['quote'],language='en',type='original',attribution=q['attribution'],url=q['url'],highlightTerms=q['highlightTerms'],excerpt=group)

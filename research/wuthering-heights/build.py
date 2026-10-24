@@ -1,7 +1,8 @@
-import pathlib,json,re,xml.etree.ElementTree as ET,hashlib,math
+import pathlib,json,csv,re,xml.etree.ElementTree as ET,hashlib,math
 from decisions import WH,TG,OTHER,UNLOCATED,EXCLUDED
 R=pathlib.Path(__file__).resolve().parent; ROOT=R.parents[1]
 ID='wuthering-heights'; DATE='2026-10-19'; LANGS=['en','it','fr','es']
+SCENES={(int(r['chapter']),r['placeId']):r for r in csv.DictReader((R/'place-scenes.tsv').open(encoding='utf8'),delimiter='|')}
 S=json.loads((R/'sections.json').read_text(encoding='utf8')); F=json.loads((R/'corpus/french.json').read_text(encoding='utf8'))
 REVIEW=json.loads((R/'full-review.json').read_text(encoding='utf8'))
 assert len(REVIEW)==34
@@ -150,6 +151,7 @@ for s,intros in zip(S,ED['chapters']):
    fp,ft,fs=FR[(ch,pid)];group['translations']['fr']=evidence(ch,fp,ft,fs,'fr')
   scene=roles[cat]+intro
   for lang in LANGS:DICT[lang][scene]=DICT[lang][roles[cat]]+DICT[lang][intro]
+  if cat=='action':scene=tr(*[SCENES[(ch,pid)][l] for l in LANGS])
   if cat=='action':
    c['places'].append(pid);c['placeCategories'][pid]=cat;c['placeExcerpts'][pid]=group;c['placeSources'][pid]=source(ORIGINAL,q['attribution']);c['placeText'].append(scene)
   else:c['citations'].append(dict(placeId=pid,category=cat,excerpt=group,scene=scene))
