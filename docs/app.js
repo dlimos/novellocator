@@ -130,7 +130,7 @@ const globalPlaceIds=[...new Set(chapters.flatMap(chapter=>chapter.places))];
 const hasAction=id=>chapters.some(section=>section.places.includes(id)&&section.placeCategories?.[id]!=='mentioned');
 if(book.sectionGrouping?.actionFirst)globalPlaceIds.sort((a,b)=>Number(hasAction(b))-Number(hasAction(a)));
 const globalChapter={id:'all',title:t('All places'),places:globalPlaceIds,placeText:[],placeSources:{},placeExcerpts:{},placeQuotes:{},links:book.links||[],text:t('Explore every mapped location in the novel. Select a place to see the sections in which it appears.')};
-for(const id of globalPlaceIds){const chapter=(book.sectionGrouping?.actionFirst&&chapters.find(section=>section.places.includes(id)&&section.placeCategories?.[id]!=='mentioned'))||chapters.find(section=>section.places.includes(id));globalChapter.placeText.push(chapter.placeText[chapter.places.indexOf(id)]);globalChapter.placeSources[id]=chapter.placeSources?.[id];globalChapter.placeExcerpts[id]=chapter.placeExcerpts?.[id];globalChapter.placeQuotes[id]=chapter.placeQuotes?.[id];}
+for(const id of globalPlaceIds){const chapter=chapters.find(section=>section.places.includes(id)&&section.placeCategories?.[id]!=='mentioned')||chapters.find(section=>section.places.includes(id));globalChapter.placeText.push(chapter.placeText[chapter.places.indexOf(id)]);globalChapter.placeSources[id]=chapter.placeSources?.[id];globalChapter.placeExcerpts[id]=chapter.placeExcerpts?.[id];globalChapter.placeQuotes[id]=chapter.placeQuotes?.[id];}
 const activeChapter=()=>current<0?globalChapter:chapters[current];
 if(isIllustrated){globalChapter.placeKinds=Object.fromEntries(globalPlaceIds.map(id=>[id,literaryPlaces[id].kind]));globalChapter.placeNames=Object.fromEntries(globalPlaceIds.map(id=>[id,literaryPlaces[id].name]));globalChapter.placeCategories=Object.fromEntries(globalPlaceIds.map(id=>[id,chapters.some(section=>section.places.includes(id)&&section.placeCategories?.[id]!=='mentioned')?'action':'mentioned']));}
 const globalCitations=[...new Map(chapters.flatMap(chapter=>chapter.citations||[]).map(reference=>[reference.placeId,reference])).values()];
@@ -237,7 +237,9 @@ function selectChapter(index,move=true,updateHash=true){
 }
 function selectAllPlaces(move=true,updateHash=true){
  closeMapPopup();
- current=-1;selectedPlace=0;selectedCitation=-1;
+ current=-1;selectedPlace=visibleLayers.action?globalPlaceIds.findIndex(hasAction):-1;selectedCitation=-1;
+ if(selectedPlace<0)selectedPlace=globalPlaceIds.findIndex(id=>visibleLayers[hasAction(id)?'action':'mentioned']);
+ if(selectedPlace<0)selectedPlace=0;
  Array.from(list.children).forEach(button=>button.setAttribute('aria-pressed','false'));
  document.getElementById('all-places').setAttribute('aria-pressed','true');
  document.getElementById('map-heading').textContent=t('All places')+' · '+book.title;
@@ -469,8 +471,8 @@ function overview(includeCitations=false){
 }
 function chapterFromHash(){const prefix='#'+book.hashPrefix+'-';const fallback=book.literaryViews?0:-1;if(!window.location.hash.startsWith(prefix))return fallback;const id=window.location.hash.slice(prefix.length);if(id==='all')return -1;const index=chapters.findIndex(chapter=>String(chapter.id)===id);return index<0?fallback:index}
 if(chapterFromHash()<0)selectAllPlaces(false,false);else selectChapter(chapterFromHash(),false,false);
-const initialPlace=Number(new URLSearchParams(window.location.search).get('place'));
-if(Number.isInteger(initialPlace)&&initialPlace>=0&&initialPlace<activeChapter().places.length)selectPlace(initialPlace);
+const initialPlaceQuery=new URLSearchParams(window.location.search).get('place'),initialPlace=Number(initialPlaceQuery);
+if(initialPlaceQuery!==null&&Number.isInteger(initialPlace)&&initialPlace>=0&&initialPlace<activeChapter().places.length)selectPlace(initialPlace);
 const initialCitation=new URLSearchParams(window.location.search).get('citation');if(initialCitation!==null)selectCitation(Number(initialCitation));
 const focusQuery=new URLSearchParams(window.location.search),focusId=focusQuery.get('focus');
 let initialFocusIndex=-1;

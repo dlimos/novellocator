@@ -51,6 +51,18 @@ for(const id of ['ulisse','proust','war-and-peace','moby-dick','gatsby','holden'
  checkTarget(actionIds,data.book.initialView);
  elements.overview.events.click();checkTarget([...expected,...data.chapters.flatMap(c=>(c.citations||[]).map(r=>r.placeId))]);
  const opening=setup(id,lang,false,'');assert.equal(vm.runInContext('current',opening.ctx),-1);assert.equal(opening.elements['all-places'].attributes['aria-pressed'],'true');
+ const openingData=opening.ctx.window.atlasData;
+ const firstAction=vm.runInContext('globalPlaceIds.findIndex(hasAction)',opening.ctx);
+ assert.equal(opening.ctx.window.atlasState().place,firstAction<0?0:firstAction,'Default selection prefers action without reordering places');
+ if(id==='holden'){
+  const pond=vm.runInContext("globalPlaceIds.indexOf('pond')",opening.ctx);
+  vm.runInContext(`selectPlace(${pond},false)`,opening.ctx);
+  const scene=openingData.chapters.find(c=>c.places.includes('pond')&&c.placeCategories?.pond!=='mentioned');
+  const text=scene.placeText[scene.places.indexOf('pond')];
+  assert.equal(vm.runInContext("globalChapter.placeText[globalPlaceIds.indexOf('pond')]",opening.ctx),text,'Global action uses its own action scene');
+  assert.equal(vm.runInContext("globalChapter.placeExcerpts.pond===chapters.find(c=>c.places.includes('pond')&&c.placeCategories?.pond!=='mentioned').placeExcerpts?.pond",opening.ctx),true,'Quotation follows the chosen action scene');
+  const linked=setup(id,lang,false,'place=0');assert.equal(linked.ctx.window.atlasState().place,0,'Explicit place=0 remains respected');
+ }
  assert.equal(vm.runInContext('visibleLayers.mentioned',opening.ctx),true);
  const candidates=data.chapters.map((chapter,index)=>({chapter,index})).filter(({chapter})=>chapter.places.some(id=>chapter.placeCategories?.[id]==='mentioned')||chapter.citations?.length);
  for(const {chapter,index}of candidates.slice(0,2)){
