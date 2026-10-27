@@ -1,0 +1,23 @@
+{
+  "id": "d1639e2fc51748c29de2849832bb53db",
+  "title": "Middle Earth",
+  "type": "Web Map",
+  "owner": "sara@stolaf.edu_stolaf",
+  "access": "public",
+  "created": 1696357440000,
+  "modified": 1722604963000,
+  "licenseInfo": "",
+  "accessInformation": "",
+  "url": "",
+  "extent": [
+    [
+      -179.99999999999696,
+      -78.43635575206541
+    ],
+    [
+      179.99999999999696,
+      83.85900294670299
+    ]
+  ],
+  "spatialReference": ""
+}

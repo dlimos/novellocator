@@ -1,0 +1,134 @@
+{
+  "checkedDate": "2026-10-27",
+  "pdfPageNumbering": "one-based",
+  "narrativeRanges": [
+    [
+      45,
+      240
+    ],
+    [
+      243,
+      432
+    ],
+    [
+      437,
+      624
+    ],
+    [
+      627,
+      766
+    ],
+    [
+      771,
+      918
+    ],
+    [
+      921,
+      1055
+    ]
+  ],
+  "chapterStartCountsByBook": [
+    12,
+    10,
+    11,
+    10,
+    10,
+    9
+  ],
+  "expectedChapterCounts": [
+    12,
+    10,
+    11,
+    10,
+    10,
+    9
+  ],
+  "chapterStartPages": [
+    [
+      45,
+      66,
+      89,
+      110,
+      122,
+      133,
+      147,
+      159,
+      173,
+      187,
+      200,
+      221
+    ],
+    [
+      243,
+      263,
+      296,
+      319,
+      345,
+      357,
+      377,
+      391,
+      404,
+      419
+    ],
+    [
+      437,
+      445,
+      468,
+      485,
+      512,
+      530,
+      550,
+      567,
+      584,
+      600,
+      612
+    ],
+    [
+      627,
+      644,
+      660,
+      672,
+      687,
+      707,
+      718,
+      727,
+      741,
+      752
+    ],
+    [
+      771,
+      797,
+      815,
+      830,
+      854,
+      863,
+      874,
+      882,
+      896,
+      907
+    ],
+    [
+      921,
+      940,
+      957,
+      972,
+      982,
+      998,
+      1013,
+      1022,
+      1045
+    ]
+  ],
+  "all62ChapterStartsFound": true,
+  "prologueStart": 25,
+  "appendicesStart": {
+    "A": 1057,
+    "B": 1106,
+    "C": 1123,
+    "D": 1130,
+    "E": 1137,
+    "F": 1151
+  },
+  "assessment": "Narrative text is directly extractable without OCR. This is not a full textual collation; figures and genealogical tables require visual inspection.",
+  "normalization": "Keep raw text for quotations. NFKC may be used only in a separate search index for typographic ligatures."
+}

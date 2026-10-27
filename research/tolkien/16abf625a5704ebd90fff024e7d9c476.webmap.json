@@ -1,0 +1,241 @@
+{
+  "source": "https://www.arcgis.com/sharing/rest/content/items/16abf625a5704ebd90fff024e7d9c476/data?f=json",
+  "checkedDate": "2026-10-27",
+  "scope": "Selected technical configuration; popup prose, symbology and copyrighted media omitted.",
+  "spatialReference": {
+    "wkt": "PROJCS[\"UTM_Zone_31_Northern_Hemisphere\",GEOGCS[\"GCS_Geographic Coordinate System\",DATUM[\"D_WGS84\",SPHEROID[\"WGS84\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"false_easting\",500000.0],PARAMETER[\"false_northing\",0.0],PARAMETER[\"central_meridian\",3.0],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"latitude_of_origin\",0.0],UNIT[\"Meter\",1.0]]"
+  },
+  "initialState": {
+    "viewpoint": {
+      "targetGeometry": {
+        "spatialReference": {
+          "wkt": "PROJCS[\"UTM_Zone_31_Northern_Hemisphere\",GEOGCS[\"GCS_Geographic Coordinate System\",DATUM[\"D_WGS84\",SPHEROID[\"WGS84\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"false_easting\",500000.0],PARAMETER[\"false_northing\",0.0],PARAMETER[\"central_meridian\",3.0],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"latitude_of_origin\",0.0],UNIT[\"Meter\",1.0]]"
+        },
+        "xmin": 1698.5894005467808,
+        "ymin": -5995.609487416521,
+        "xmax": 6041.70013759238,
+        "ymax": -4036.2038749843136
+      }
+    }
+  },
+  "baseMap": {
+    "title": "Basemap",
+    "baseMapLayers": [
+      {
+        "id": "17e67a71a0e-layer-137",
+        "title": "Elevation",
+        "itemId": "d2b5a5bb3d634aada617fe2d6585beec",
+        "layerType": "ArcGISTiledMapServiceLayer",
+        "url": "https://tiles.arcgis.com/tiles/DbPykcCwUUYq5zKg/arcgis/rest/services/dem_real_1/MapServer",
+        "visibility": false,
+        "opacity": 1,
+        "minScale": 0
+      },
+      {
+        "id": "17e722c213c-layer-18",
+        "title": "Forests",
+        "itemId": "6e619929dbe041ad9daf4e1262ea22f7",
+        "layerType": "ArcGISTiledMapServiceLayer",
+        "url": "https://tiles.arcgis.com/tiles/DbPykcCwUUYq5zKg/arcgis/rest/services/Forests_Middle_Earth/MapServer",
+        "visibility": false,
+        "opacity": 1,
+        "minScale": 0
+      },
+      {
+        "id": "17e67a6ef38-layer-136",
+        "title": "Extract",
+        "itemId": "4dfa7c80d62f442c8b3f0b0d0deae0a1",
+        "layerType": "ArcGISTiledMapServiceLayer",
+        "url": "https://tiles.arcgis.com/tiles/DbPykcCwUUYq5zKg/arcgis/rest/services/Extract_dem2_test12/MapServer",
+        "visibility": false,
+        "opacity": 1,
+        "minScale": 0
+      },
+      {
+        "id": "17e8cd6beb6-layer-95",
+        "title": "Regions",
+        "itemId": "a95c51685b784ed68b8210ea01163a9d",
+        "layerType": "VectorTileLayer",
+        "styleUrl": "https://tiles.arcgis.com/tiles/DbPykcCwUUYq5zKg/arcgis/rest/services/Regions_tiles/VectorTileServer/resources/styles/root.json",
+        "visibility": false,
+        "minScale": 0
+      },
+      {
+        "id": "17e8cd8ba1c-layer-96",
+        "title": "Contours",
+        "itemId": "e0ae890fb62a460286935889516ef328",
+        "layerType": "VectorTileLayer",
+        "styleUrl": "https://tiles.arcgis.com/tiles/DbPykcCwUUYq5zKg/arcgis/rest/services/Contour_DEM_tile/VectorTileServer/resources/styles/root.json",
+        "visibility": false,
+        "minScale": 0
+      },
+      {
+        "id": "17e8cded298-layer-175",
+        "title": "River",
+        "itemId": "249a0e87d1f04c7cb924bafaa324dd65",
+        "layerType": "VectorTileLayer",
+        "styleUrl": "https://tiles.arcgis.com/tiles/DbPykcCwUUYq5zKg/arcgis/rest/services/river_tile/VectorTileServer/resources/styles/root.json",
+        "visibility": false,
+        "minScale": 0
+      },
+      {
+        "id": "17e8ce03556-layer-254",
+        "title": "Forests_Labeling_Polygons_tile",
+        "itemId": "67b935b26ef94f7fa09b1d314581cfda",
+        "layerType": "VectorTileLayer",
+        "styleUrl": "https://tiles.arcgis.com/tiles/DbPykcCwUUYq5zKg/arcgis/rest/services/Forests_Labeling_Polygons_tile/VectorTileServer/resources/styles/root.json",
+        "visibility": false,
+        "minScale": 0
+      },
+      {
+        "id": "17e8ce448d6-layer-255",
+        "title": "Locations_tile",
+        "itemId": "991db4b3aa8c420f8b2be52546a29989",
+        "layerType": "VectorTileLayer",
+        "styleUrl": "https://tiles.arcgis.com/tiles/DbPykcCwUUYq5zKg/arcgis/rest/services/Locations_tile/VectorTileServer/resources/styles/root.json",
+        "visibility": false,
+        "minScale": 0
+      }
+    ]
+  },
+  "operationalLayers": [
+    {
+      "id": "17e9b74d2bf-layer-22",
+      "title": "Basemap",
+      "layerType": "GroupLayer",
+      "layers": [
+        {
+          "id": "17e9713580a-layer-56",
+          "title": "Digital Elevation Model",
+          "itemId": "d2b5a5bb3d634aada617fe2d6585beec",
+          "layerType": "ArcGISTiledMapServiceLayer",
+          "url": "https://tiles.arcgis.com/tiles/DbPykcCwUUYq5zKg/arcgis/rest/services/dem_real_1/MapServer",
+          "minScale": 0
+        },
+        {
+          "id": "17e97227bd5-layer-295",
+          "title": "Forests_Middle_Earth",
+          "itemId": "6e619929dbe041ad9daf4e1262ea22f7",
+          "layerType": "ArcGISTiledMapServiceLayer",
+          "url": "https://tiles.arcgis.com/tiles/DbPykcCwUUYq5zKg/arcgis/rest/services/Forests_Middle_Earth/MapServer",
+          "minScale": 0
+        },
+        {
+          "id": "17e97142a95-layer-96",
+          "title": "DEM_Fix",
+          "itemId": "4dfa7c80d62f442c8b3f0b0d0deae0a1",
+          "layerType": "ArcGISTiledMapServiceLayer",
+          "url": "https://tiles.arcgis.com/tiles/DbPykcCwUUYq5zKg/arcgis/rest/services/Extract_dem2_test12/MapServer",
+          "minScale": 0
+        },
+        {
+          "id": "17e9714da59-layer-97",
+          "title": "Contour_DEM_tile",
+          "itemId": "e0ae890fb62a460286935889516ef328",
+          "layerType": "VectorTileLayer",
+          "styleUrl": "https://tiles.arcgis.com/tiles/DbPykcCwUUYq5zKg/arcgis/rest/services/Contour_DEM_tile/VectorTileServer/resources/styles/root.json",
+          "minScale": 0
+        },
+        {
+          "id": "17e722be914-layer-16",
+          "title": "Forests",
+          "itemId": "221816cfd1c348d0a89c2e9e7d9b0fd2",
+          "layerType": "ArcGISFeatureLayer",
+          "url": "https://services1.arcgis.com/DbPykcCwUUYq5zKg/arcgis/rest/services/Forests_Labeling_Polygons/FeatureServer/0",
+          "opacity": 1
+        },
+        {
+          "id": "17e9722eedb-layer-296",
+          "title": "The Great River (Anduin)",
+          "itemId": "249a0e87d1f04c7cb924bafaa324dd65",
+          "layerType": "VectorTileLayer",
+          "styleUrl": "https://tiles.arcgis.com/tiles/DbPykcCwUUYq5zKg/arcgis/rest/services/river_tile/VectorTileServer/resources/styles/root.json",
+          "minScale": 0
+        },
+        {
+          "id": "17e9b81a4ba-layer-106",
+          "title": "Regions",
+          "itemId": "bbb59e97b1e247048c1adc1feab5bca2",
+          "layerType": "ArcGISFeatureLayer",
+          "url": "https://services1.arcgis.com/DbPykcCwUUYq5zKg/arcgis/rest/services/Regions/FeatureServer/1"
+        },
+        {
+          "id": "17e9b9b6d0c-layer-108",
+          "title": "Locations",
+          "itemId": "78fad5ae057b4b828b147c759d98b5b1",
+          "layerType": "ArcGISFeatureLayer",
+          "url": "https://services1.arcgis.com/DbPykcCwUUYq5zKg/arcgis/rest/services/Placenames_finallllllllllllllll/FeatureServer/1"
+        }
+      ]
+    },
+    {
+      "id": "17e9b7c38b6-layer-101",
+      "title": "Routes",
+      "layerType": "GroupLayer",
+      "layers": [
+        {
+          "id": "17e721f553a-layer-15",
+          "title": "Legolas",
+          "itemId": "1fece390681443689f43cf77d2c8ec19",
+          "layerType": "ArcGISFeatureLayer",
+          "url": "https://services1.arcgis.com/DbPykcCwUUYq5zKg/arcgis/rest/services/Legolas_final/FeatureServer/0",
+          "visibility": false,
+          "opacity": 1
+        },
+        {
+          "id": "17e721f417e-layer-12",
+          "title": "Hobbits",
+          "itemId": "79d207d27a974918aba0b998fa2e737a",
+          "layerType": "ArcGISFeatureLayer",
+          "url": "https://services1.arcgis.com/DbPykcCwUUYq5zKg/arcgis/rest/services/Hobbits_final/FeatureServer/0",
+          "opacity": 1
+        },
+        {
+          "id": "17e721f50ee-layer-14",
+          "title": "Gimli",
+          "itemId": "5fd87ca76a714a48ad1f9c156c2a8909",
+          "layerType": "ArcGISFeatureLayer",
+          "url": "https://services1.arcgis.com/DbPykcCwUUYq5zKg/arcgis/rest/services/Gimli_final/FeatureServer/0",
+          "visibility": false,
+          "opacity": 1
+        },
+        {
+          "id": "17e721f3352-layer-10",
+          "title": "Gandalf",
+          "itemId": "fbcad8a2200f40e39d800df9261d6968",
+          "layerType": "ArcGISFeatureLayer",
+          "url": "https://services1.arcgis.com/DbPykcCwUUYq5zKg/arcgis/rest/services/Gandalf_final/FeatureServer/1",
+          "visibility": false,
+          "opacity": 1
+        },
+        {
+          "id": "17e721f271d-layer-9",
+          "title": "Fellowship",
+          "itemId": "eb52d7ffa87d4534b413e402817aa519",
+          "layerType": "ArcGISFeatureLayer",
+          "url": "https://services1.arcgis.com/DbPykcCwUUYq5zKg/arcgis/rest/services/Fellowship_final/FeatureServer/0",
+          "visibility": false,
+          "opacity": 1
+        },
+        {
+          "id": "17e721f3a97-layer-11",
+          "title": "Boromir",
+          "itemId": "0735e3f043ea4680abe8d4e75b9d3a81",
+          "layerType": "ArcGISFeatureLayer",
+          "url": "https://services1.arcgis.com/DbPykcCwUUYq5zKg/arcgis/rest/services/Boromir_final_final/FeatureServer/0",
+          "visibility": false,
+          "opacity": 1
+        },
+        {
+          "id": "17e721f4832-layer-13",
+          "title": "Aragorn",
+          "itemId": "bbc09e19af034ca3b86da9a2fe7fec43",
+          "layerType": "ArcGISFeatureLayer",
+          "url": "https://services1.arcgis.com/DbPykcCwUUYq5zKg/arcgis/rest/services/Aragorn_final/FeatureServer/0",
+          "visibility": false,
+          "opacity": 1
+        }
+      ]
+    }
+  ]
+}

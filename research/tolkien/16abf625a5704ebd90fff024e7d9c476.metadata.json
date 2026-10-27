@@ -1,0 +1,23 @@
+{
+  "id": "16abf625a5704ebd90fff024e7d9c476",
+  "title": "Middle_Earth_final",
+  "type": "Web Map",
+  "owner": "ge32vev_tu_muenchen",
+  "access": "public",
+  "created": 1642417267000,
+  "modified": 1643299333000,
+  "licenseInfo": null,
+  "accessInformation": null,
+  "url": "",
+  "extent": [
+    [
+      -1.4735280518609755,
+      -0.05408066850649064
+    ],
+    [
+      -1.4346151917441656,
+      -0.036404802434073694
+    ]
+  ],
+  "spatialReference": null
+}

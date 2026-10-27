@@ -1,0 +1,435 @@
+[
+  {
+    "file": "lotr-harpercollins-2005-candidate.pdf",
+    "sha256": "4e2fdba27a4dbc444e182bf10d25cfb6731294fd4215b449e38a190391ebf465",
+    "bytes": 6549111,
+    "pages": 1210,
+    "encrypted": false,
+    "metadata": {
+      "/Author": "J. R. R. Tolkien",
+      "/ModDate": "D:20100813200505+02'00'",
+      "/Producer": "Acrobat Distiller 6.0 (Windows)",
+      "/Title": "The Lord of the Rings",
+      "/EBX_PUBLISHER": "HarperCollins",
+      "/SPDF": "1127",
+      "/Enhanced": "By PDF Enhancer 3.5.6412/Unix",
+      "/Creator": "Adobe Acrobat 9.0.0",
+      "/CreationDate": "D:20090523145628+05'30'"
+    },
+    "pagesWithText": 1199,
+    "pagesOver200Characters": 1167,
+    "characters": 3050024,
+    "pagesUnder80Characters": [
+      1,
+      2,
+      3,
+      8,
+      24,
+      41,
+      42,
+      43,
+      44,
+      240,
+      241,
+      242,
+      329,
+      432,
+      433,
+      434,
+      435,
+      436,
+      625,
+      626,
+      767,
+      768,
+      769,
+      770,
+      918,
+      919,
+      920,
+      1056,
+      1103,
+      1124,
+      1127,
+      1128,
+      1129,
+      1143,
+      1148,
+      1149,
+      1203,
+      1204,
+      1205,
+      1206,
+      1207
+    ],
+    "replacementCharacters": 0,
+    "sectionMatchesPdfPagesOneBased": {
+      "PROLOGUE": [
+        5,
+        10,
+        13,
+        23,
+        25,
+        1057
+      ],
+      "BOOK ONE": [
+        5,
+        20,
+        43
+      ],
+      "BOOK TWO": [
+        5,
+        241,
+        1151
+      ],
+      "BOOK THREE": [
+        6,
+        21,
+        435
+      ],
+      "BOOK FOUR": [
+        6,
+        21,
+        625
+      ],
+      "BOOK FIVE": [
+        6,
+        21,
+        769
+      ],
+      "BOOK SIX": [
+        7,
+        919
+      ],
+      "THE GREY HAVENS": [
+        7,
+        31,
+        40,
+        67,
+        69,
+        264,
+        1045,
+        1054,
+        1058,
+        1063,
+        1074,
+        1107,
+        1109,
+        1120,
+        1121,
+        1183
+      ],
+      "APPENDIX A": [
+        1057,
+        1103
+      ],
+      "APPENDIX B": [
+        38,
+        39,
+        1106
+      ],
+      "APPENDIX C": [
+        10,
+        38,
+        1123
+      ],
+      "APPENDIX D": [
+        1130
+      ],
+      "APPENDIX E": [
+        1137,
+        1143,
+        1149
+      ],
+      "APPENDIX F": [
+        366,
+        491,
+        930,
+        1151
+      ],
+      "ON TRANSLATION": [
+        7,
+        1157,
+        1158
+      ],
+      "Copyright": [
+        7,
+        10,
+        11,
+        1209
+      ]
+    },
+    "isbnLines": [
+      "ISBN 978-0-06-191780-6 "
+    ],
+    "scope": "Text extraction and structural checks only; not a full textual collation or narrative analysis.",
+    "requiresOcrForNarrative": null
+  },
+  {
+    "file": "two-towers-candidate.pdf",
+    "sha256": "45702c22580ef091a6e87023105c09a39fa0009a75ca1d89459bba8d8722c212",
+    "bytes": 1966124,
+    "pages": 461,
+    "encrypted": false,
+    "metadata": {
+      "/Producer": "Acrobat Distiller 8.0.0 (Windows)",
+      "/Title": "The Two Towers",
+      "/Author": "J. R. R. Tolkien",
+      "/Creator": "SYSTEM400 Rev 17.01",
+      "/ModDate": "D:20090415201957+05'30'",
+      "/CreationDate": "D:20080723151331-05'00'",
+      "/EBX_PUBLISHER": "/HarperCollins"
+    },
+    "pagesWithText": 455,
+    "pagesOver200Characters": 440,
+    "characters": 833801,
+    "pagesUnder80Characters": [
+      1,
+      2,
+      3,
+      5,
+      7,
+      11,
+      12,
+      13,
+      14,
+      15,
+      264,
+      265,
+      451,
+      452,
+      453,
+      454,
+      455,
+      456,
+      457,
+      458
+    ],
+    "replacementCharacters": 0,
+    "sectionMatchesPdfPagesOneBased": {
+      "PROLOGUE": [],
+      "BOOK ONE": [],
+      "BOOK TWO": [],
+      "BOOK THREE": [
+        10,
+        14
+      ],
+      "BOOK FOUR": [
+        10,
+        264
+      ],
+      "BOOK FIVE": [],
+      "BOOK SIX": [],
+      "THE GREY HAVENS": [],
+      "APPENDIX A": [],
+      "APPENDIX B": [],
+      "APPENDIX C": [],
+      "APPENDIX D": [],
+      "APPENDIX E": [],
+      "APPENDIX F": [
+        88
+      ],
+      "ON TRANSLATION": [],
+      "Copyright": [
+        10,
+        460
+      ]
+    },
+    "isbnLines": [
+      "ISBN: 978-0-061-91792-9"
+    ],
+    "scope": "Text extraction and structural checks only; not a full textual collation or narrative analysis.",
+    "requiresOcrForNarrative": null
+  },
+  {
+    "file": "return-king-candidate.pdf",
+    "sha256": "32ee9ab79e4c34e3e3800386a752db403a48509f61b10000cca7c8570acdf461",
+    "bytes": 6444520,
+    "pages": 620,
+    "encrypted": false,
+    "metadata": {
+      "/Producer": "Acrobat Distiller 8.0.0 (Windows)",
+      "/Title": "The Return of the King",
+      "/Author": "J. R. R. Tolkien",
+      "/Creator": "SYSTEM400 Rev 17.01",
+      "/ModDate": "D:20090416204104+05'30'",
+      "/CreationDate": "D:20080723153417-05'00'",
+      "/EBX_PUBLISHER": "HarperCollins"
+    },
+    "pagesWithText": 606,
+    "pagesOver200Characters": 590,
+    "characters": 1149090,
+    "pagesUnder80Characters": [
+      1,
+      2,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      212,
+      213,
+      214,
+      392,
+      460,
+      487,
+      490,
+      491,
+      492,
+      520,
+      521,
+      610,
+      611,
+      612,
+      613,
+      614,
+      615,
+      616,
+      617
+    ],
+    "replacementCharacters": 0,
+    "sectionMatchesPdfPagesOneBased": {
+      "PROLOGUE": [
+        393
+      ],
+      "BOOK ONE": [],
+      "BOOK TWO": [
+        523
+      ],
+      "BOOK THREE": [
+        6
+      ],
+      "BOOK FOUR": [
+        7
+      ],
+      "BOOK FIVE": [
+        9,
+        17
+      ],
+      "BOOK SIX": [
+        9,
+        213
+      ],
+      "THE GREY HAVENS": [
+        9,
+        379,
+        381,
+        383,
+        385,
+        387,
+        389,
+        391,
+        395,
+        402,
+        418,
+        463,
+        466,
+        483,
+        484,
+        574
+      ],
+      "APPENDIX A": [
+        393,
+        395,
+        397,
+        399,
+        401,
+        403,
+        405,
+        407,
+        409,
+        411,
+        413,
+        415,
+        417,
+        419,
+        421,
+        423,
+        425,
+        427,
+        429,
+        431,
+        433,
+        435,
+        437,
+        439,
+        441,
+        443,
+        445,
+        447,
+        449,
+        451,
+        453,
+        455,
+        457,
+        459,
+        461
+      ],
+      "APPENDIX B": [
+        462,
+        463,
+        465,
+        467,
+        469,
+        471,
+        473,
+        475,
+        477,
+        479,
+        481,
+        483,
+        485
+      ],
+      "APPENDIX C": [
+        486
+      ],
+      "APPENDIX D": [
+        493,
+        495,
+        497,
+        499,
+        501
+      ],
+      "APPENDIX E": [
+        503,
+        505,
+        507,
+        509,
+        511,
+        513,
+        515,
+        517,
+        519
+      ],
+      "APPENDIX F": [
+        227,
+        522,
+        523,
+        525,
+        527,
+        529,
+        531,
+        533,
+        535,
+        537
+      ],
+      "ON TRANSLATION": [
+        10,
+        531,
+        533
+      ],
+      "Copyright": [
+        10,
+        619
+      ]
+    },
+    "isbnLines": [
+      "ISBN: 978-0-061-91786-8"
+    ],
+    "scope": "Text extraction and structural checks only; not a full textual collation or narrative analysis.",
+    "requiresOcrForNarrative": null
+  }
+]

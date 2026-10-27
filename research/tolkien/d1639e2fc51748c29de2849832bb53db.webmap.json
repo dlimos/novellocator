@@ -1,0 +1,96 @@
+{
+  "source": "https://www.arcgis.com/sharing/rest/content/items/d1639e2fc51748c29de2849832bb53db/data?f=json",
+  "checkedDate": "2026-10-27",
+  "scope": "Selected technical configuration; popup prose, symbology and copyrighted media omitted.",
+  "spatialReference": {
+    "latestWkid": 3857,
+    "wkid": 102100
+  },
+  "initialState": {
+    "viewpoint": {
+      "targetGeometry": {
+        "spatialReference": {
+          "latestWkid": 3857,
+          "wkid": 102100
+        },
+        "xmin": -24551167.41347948,
+        "ymin": -14606607.247307597,
+        "xmax": 25072974.34169664,
+        "ymax": 18658787.462392483
+      }
+    }
+  },
+  "baseMap": {
+    "title": "Topographic",
+    "baseMapLayers": [
+      {
+        "id": "World_Hillshade_3805",
+        "title": "World Hillshade",
+        "layerType": "ArcGISTiledMapServiceLayer",
+        "url": "https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer",
+        "visibility": true,
+        "opacity": 1
+      },
+      {
+        "id": "VectorTile_2333",
+        "title": "World Topographic Map",
+        "layerType": "VectorTileLayer",
+        "styleUrl": "https://cdn.arcgis.com/sharing/rest/content/items/7dc6cea0b1764a1f9af2e679f642f0f5/resources/styles/root.json",
+        "visibility": true,
+        "opacity": 1
+      }
+    ]
+  },
+  "operationalLayers": [
+    {
+      "id": "18af6c7c903-layer-3",
+      "title": "Blank Black Vector Basemap",
+      "itemId": "e3ac9818c0c344538840e51e9f33f6cc",
+      "layerType": "VectorTileLayer",
+      "styleUrl": "https://www.arcgis.com/sharing/rest/content/items/e3ac9818c0c344538840e51e9f33f6cc/resources/styles/root.json"
+    },
+    {
+      "id": "18af6c78ab2-layer-2",
+      "title": "Middle Earth",
+      "layerType": "MediaLayer",
+      "url": "./resources/media/e4d596bf-8a49-4818-bafb-a788bd16a192.jpeg",
+      "georeference": {
+        "controlPoints": [
+          {
+            "x": 100,
+            "y": 2300
+          },
+          {
+            "x": 100,
+            "y": 100
+          },
+          {
+            "x": 3100,
+            "y": 100
+          },
+          {
+            "x": 3100,
+            "y": 2300
+          }
+        ],
+        "spatialReference": {
+          "latestWkid": 3857,
+          "wkid": 102100
+        },
+        "coefficients": [
+          11954.20555203326,
+          -1.1884211732452389e-12,
+          -19143468.918286588,
+          -5.942105866226194e-13,
+          -11211.734881936096,
+          15798358.761356277,
+          -7.083542187483543e-20,
+          0
+        ],
+        "height": 2400,
+        "width": 3200
+      },
+      "mediaType": "image"
+    }
+  ]
+}

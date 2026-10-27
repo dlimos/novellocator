@@ -1,0 +1,570 @@
+[
+  {
+    "mapId": "16abf625a5704ebd90fff024e7d9c476",
+    "checkedAtUtc": "2026-10-27T21:53:55.6274019Z",
+    "spatialReference": {
+      "wkt": "PROJCS[\"UTM_Zone_31_Northern_Hemisphere\",GEOGCS[\"GCS_Geographic Coordinate System\",DATUM[\"D_WGS84\",SPHEROID[\"WGS84\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"false_easting\",500000.0],PARAMETER[\"false_northing\",0.0],PARAMETER[\"central_meridian\",3.0],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"latitude_of_origin\",0.0],UNIT[\"Meter\",1.0]]"
+    },
+    "checks": [
+      {
+        "title": "Aragorn",
+        "url": "https://services1.arcgis.com/DbPykcCwUUYq5zKg/arcgis/rest/services/Aragorn_final/FeatureServer/0",
+        "type": "ArcGISFeatureLayer",
+        "error": null,
+        "spatialReference": {
+          "wkt": "PROJCS[\"UTM_Zone_31_Northern_Hemisphere\",GEOGCS[\"GCS_Geographic Coordinate System\",DATUM[\"D_WGS84\",SPHEROID[\"WGS84\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"false_easting\",500000.0],PARAMETER[\"false_northing\",0.0],PARAMETER[\"central_meridian\",3.0],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"latitude_of_origin\",0.0],UNIT[\"Meter\",1.0]]"
+        },
+        "capabilities": "Query",
+        "copyright": "",
+        "extent": {
+          "xmin": 2853.841397134203,
+          "ymin": -6114.233396372421,
+          "xmax": 5460.443843149464,
+          "ymax": -4665.410284010697,
+          "spatialReference": {
+            "wkt": "PROJCS[\"UTM_Zone_31_Northern_Hemisphere\",GEOGCS[\"GCS_Geographic Coordinate System\",DATUM[\"D_WGS84\",SPHEROID[\"WGS84\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"false_easting\",500000.0],PARAMETER[\"false_northing\",0.0],PARAMETER[\"central_meridian\",3.0],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"latitude_of_origin\",0.0],UNIT[\"Meter\",1.0]]"
+          }
+        },
+        "fullExtent": null,
+        "tileInfo": null,
+        "count": {
+          "count": 3
+        },
+        "item": {
+          "id": "bbc09e19af034ca3b86da9a2fe7fec43",
+          "title": "Aragorn_final",
+          "access": "public",
+          "licenseInfo": "",
+          "accessInformation": ""
+        }
+      },
+      {
+        "title": "Boromir",
+        "url": "https://services1.arcgis.com/DbPykcCwUUYq5zKg/arcgis/rest/services/Boromir_final_final/FeatureServer/0",
+        "type": "ArcGISFeatureLayer",
+        "error": null,
+        "spatialReference": {
+          "wkt": "PROJCS[\"UTM_Zone_31_Northern_Hemisphere\",GEOGCS[\"GCS_Geographic Coordinate System\",DATUM[\"D_WGS84\",SPHEROID[\"WGS84\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"false_easting\",500000.0],PARAMETER[\"false_northing\",0.0],PARAMETER[\"central_meridian\",3.0],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"latitude_of_origin\",0.0],UNIT[\"Meter\",1.0]]"
+        },
+        "capabilities": "Query",
+        "copyright": "",
+        "extent": {
+          "xmin": 3535.35012848944,
+          "ymin": -6961.133620765365,
+          "xmax": 5646.333986203175,
+          "ymax": -4674.843145110003,
+          "spatialReference": {
+            "wkt": "PROJCS[\"UTM_Zone_31_Northern_Hemisphere\",GEOGCS[\"GCS_Geographic Coordinate System\",DATUM[\"D_WGS84\",SPHEROID[\"WGS84\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"false_easting\",500000.0],PARAMETER[\"false_northing\",0.0],PARAMETER[\"central_meridian\",3.0],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"latitude_of_origin\",0.0],UNIT[\"Meter\",1.0]]"
+          }
+        },
+        "fullExtent": null,
+        "tileInfo": null,
+        "count": {
+          "count": 132
+        },
+        "item": {
+          "id": "0735e3f043ea4680abe8d4e75b9d3a81",
+          "title": "Boromir_final_final",
+          "access": "public",
+          "licenseInfo": "",
+          "accessInformation": ""
+        }
+      },
+      {
+        "title": "Fellowship",
+        "url": "https://services1.arcgis.com/DbPykcCwUUYq5zKg/arcgis/rest/services/Fellowship_final/FeatureServer/0",
+        "type": "ArcGISFeatureLayer",
+        "error": null,
+        "spatialReference": {
+          "wkt": "PROJCS[\"UTM_Zone_31_Northern_Hemisphere\",GEOGCS[\"GCS_Geographic Coordinate System\",DATUM[\"D_WGS84\",SPHEROID[\"WGS84\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"false_easting\",500000.0],PARAMETER[\"false_northing\",0.0],PARAMETER[\"central_meridian\",3.0],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"latitude_of_origin\",0.0],UNIT[\"Meter\",1.0]]"
+        },
+        "capabilities": "Query",
+        "copyright": "",
+        "extent": {
+          "xmin": 4278.280494486429,
+          "ymin": -6122.606517399603,
+          "xmax": 5459.522672778506,
+          "ymax": -4673.3514078984,
+          "spatialReference": {
+            "wkt": "PROJCS[\"UTM_Zone_31_Northern_Hemisphere\",GEOGCS[\"GCS_Geographic Coordinate System\",DATUM[\"D_WGS84\",SPHEROID[\"WGS84\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"false_easting\",500000.0],PARAMETER[\"false_northing\",0.0],PARAMETER[\"central_meridian\",3.0],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"latitude_of_origin\",0.0],UNIT[\"Meter\",1.0]]"
+          }
+        },
+        "fullExtent": null,
+        "tileInfo": null,
+        "count": {
+          "count": 3
+        },
+        "item": {
+          "id": "eb52d7ffa87d4534b413e402817aa519",
+          "title": "Fellowship_final",
+          "access": "public",
+          "licenseInfo": "",
+          "accessInformation": ""
+        }
+      },
+      {
+        "title": "Forests",
+        "url": "https://services1.arcgis.com/DbPykcCwUUYq5zKg/arcgis/rest/services/Forests_Labeling_Polygons/FeatureServer/0",
+        "type": "ArcGISFeatureLayer",
+        "error": null,
+        "spatialReference": {
+          "wkt": "PROJCS[\"UTM_Zone_31_Northern_Hemisphere\",GEOGCS[\"GCS_Geographic Coordinate System\",DATUM[\"D_WGS84\",SPHEROID[\"WGS84\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"false_easting\",500000.0],PARAMETER[\"false_northing\",0.0],PARAMETER[\"central_meridian\",3.0],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"latitude_of_origin\",0.0],UNIT[\"Meter\",1.0]]"
+        },
+        "capabilities": "Query",
+        "copyright": "",
+        "extent": {
+          "xmin": 4298.371520996094,
+          "ymin": -5852.290588378906,
+          "xmax": 6465.7344970703125,
+          "ymax": -3722.4017944335938,
+          "spatialReference": {
+            "wkt": "PROJCS[\"UTM_Zone_31_Northern_Hemisphere\",GEOGCS[\"GCS_Geographic Coordinate System\",DATUM[\"D_WGS84\",SPHEROID[\"WGS84\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"false_easting\",500000.0],PARAMETER[\"false_northing\",0.0],PARAMETER[\"central_meridian\",3.0],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"latitude_of_origin\",0.0],UNIT[\"Meter\",1.0]]"
+          }
+        },
+        "fullExtent": null,
+        "tileInfo": null,
+        "count": {
+          "count": 3
+        },
+        "item": {
+          "id": "221816cfd1c348d0a89c2e9e7d9b0fd2",
+          "title": "Forests_Labeling_Polygons",
+          "access": "public",
+          "licenseInfo": "",
+          "accessInformation": ""
+        }
+      },
+      {
+        "title": "Gandalf",
+        "url": "https://services1.arcgis.com/DbPykcCwUUYq5zKg/arcgis/rest/services/Gandalf_final/FeatureServer/1",
+        "type": "ArcGISFeatureLayer",
+        "error": null,
+        "spatialReference": {
+          "wkt": "PROJCS[\"UTM_Zone_31_Northern_Hemisphere\",GEOGCS[\"GCS_Geographic Coordinate System\",DATUM[\"D_WGS84\",SPHEROID[\"WGS84\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"false_easting\",500000.0],PARAMETER[\"false_northing\",0.0],PARAMETER[\"central_meridian\",3.0],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"latitude_of_origin\",0.0],UNIT[\"Meter\",1.0]]"
+        },
+        "capabilities": "Query",
+        "copyright": "",
+        "extent": {
+          "xmin": 2496.8045060336535,
+          "ymin": -7014.127350480807,
+          "xmax": 4554.8530111359505,
+          "ymax": -4629.564875360578,
+          "spatialReference": {
+            "wkt": "PROJCS[\"UTM_Zone_31_Northern_Hemisphere\",GEOGCS[\"GCS_Geographic Coordinate System\",DATUM[\"D_WGS84\",SPHEROID[\"WGS84\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"false_easting\",500000.0],PARAMETER[\"false_northing\",0.0],PARAMETER[\"central_meridian\",3.0],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"latitude_of_origin\",0.0],UNIT[\"Meter\",1.0]]"
+          }
+        },
+        "fullExtent": null,
+        "tileInfo": null,
+        "count": {
+          "count": 5
+        },
+        "item": {
+          "id": "fbcad8a2200f40e39d800df9261d6968",
+          "title": "Gandalf_final",
+          "access": "public",
+          "licenseInfo": "",
+          "accessInformation": ""
+        }
+      },
+      {
+        "title": "Gimli",
+        "url": "https://services1.arcgis.com/DbPykcCwUUYq5zKg/arcgis/rest/services/Gimli_final/FeatureServer/0",
+        "type": "ArcGISFeatureLayer",
+        "error": null,
+        "spatialReference": {
+          "wkt": "PROJCS[\"UTM_Zone_31_Northern_Hemisphere\",GEOGCS[\"GCS_Geographic Coordinate System\",DATUM[\"D_WGS84\",SPHEROID[\"WGS84\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"false_easting\",500000.0],PARAMETER[\"false_northing\",0.0],PARAMETER[\"central_meridian\",3.0],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"latitude_of_origin\",0.0],UNIT[\"Meter\",1.0]]"
+        },
+        "capabilities": "Query",
+        "copyright": "",
+        "extent": {
+          "xmin": 4280.762095701317,
+          "ymin": -6120.621236427676,
+          "xmax": 6486.285175443081,
+          "ymax": -4094.642004583867,
+          "spatialReference": {
+            "wkt": "PROJCS[\"UTM_Zone_31_Northern_Hemisphere\",GEOGCS[\"GCS_Geographic Coordinate System\",DATUM[\"D_WGS84\",SPHEROID[\"WGS84\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"false_easting\",500000.0],PARAMETER[\"false_northing\",0.0],PARAMETER[\"central_meridian\",3.0],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"latitude_of_origin\",0.0],UNIT[\"Meter\",1.0]]"
+          }
+        },
+        "fullExtent": null,
+        "tileInfo": null,
+        "count": {
+          "count": 4
+        },
+        "item": {
+          "id": "5fd87ca76a714a48ad1f9c156c2a8909",
+          "title": "Gimli_final",
+          "access": "public",
+          "licenseInfo": "",
+          "accessInformation": ""
+        }
+      },
+      {
+        "title": "Hobbits",
+        "url": "https://services1.arcgis.com/DbPykcCwUUYq5zKg/arcgis/rest/services/Hobbits_final/FeatureServer/0",
+        "type": "ArcGISFeatureLayer",
+        "error": null,
+        "spatialReference": {
+          "wkt": "PROJCS[\"UTM_Zone_31_Northern_Hemisphere\",GEOGCS[\"GCS_Geographic Coordinate System\",DATUM[\"D_WGS84\",SPHEROID[\"WGS84\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"false_easting\",500000.0],PARAMETER[\"false_northing\",0.0],PARAMETER[\"central_meridian\",3.0],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"latitude_of_origin\",0.0],UNIT[\"Meter\",1.0]]"
+        },
+        "capabilities": "Query",
+        "copyright": "",
+        "extent": {
+          "xmin": 2494.9301000004634,
+          "ymin": -6117.574799999595,
+          "xmax": 5460.248700000346,
+          "ymax": -4665.376800000518,
+          "spatialReference": {
+            "wkt": "PROJCS[\"UTM_Zone_31_Northern_Hemisphere\",GEOGCS[\"GCS_Geographic Coordinate System\",DATUM[\"D_WGS84\",SPHEROID[\"WGS84\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"false_easting\",500000.0],PARAMETER[\"false_northing\",0.0],PARAMETER[\"central_meridian\",3.0],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"latitude_of_origin\",0.0],UNIT[\"Meter\",1.0]]"
+          }
+        },
+        "fullExtent": null,
+        "tileInfo": null,
+        "count": {
+          "count": 131
+        },
+        "item": {
+          "id": "79d207d27a974918aba0b998fa2e737a",
+          "title": "Hobbits_final",
+          "access": "public",
+          "licenseInfo": "",
+          "accessInformation": ""
+        }
+      },
+      {
+        "title": "Legolas",
+        "url": "https://services1.arcgis.com/DbPykcCwUUYq5zKg/arcgis/rest/services/Legolas_final/FeatureServer/0",
+        "type": "ArcGISFeatureLayer",
+        "error": null,
+        "spatialReference": {
+          "wkt": "PROJCS[\"UTM_Zone_31_Northern_Hemisphere\",GEOGCS[\"GCS_Geographic Coordinate System\",DATUM[\"D_WGS84\",SPHEROID[\"WGS84\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"false_easting\",500000.0],PARAMETER[\"false_northing\",0.0],PARAMETER[\"central_meridian\",3.0],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"latitude_of_origin\",0.0],UNIT[\"Meter\",1.0]]"
+        },
+        "capabilities": "Query",
+        "copyright": "",
+        "extent": {
+          "xmin": 4272.324651570664,
+          "ymin": -6120.738765061218,
+          "xmax": 5957.828196730281,
+          "ymax": -4181.001726862369,
+          "spatialReference": {
+            "wkt": "PROJCS[\"UTM_Zone_31_Northern_Hemisphere\",GEOGCS[\"GCS_Geographic Coordinate System\",DATUM[\"D_WGS84\",SPHEROID[\"WGS84\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"false_easting\",500000.0],PARAMETER[\"false_northing\",0.0],PARAMETER[\"central_meridian\",3.0],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"latitude_of_origin\",0.0],UNIT[\"Meter\",1.0]]"
+          }
+        },
+        "fullExtent": null,
+        "tileInfo": null,
+        "count": {
+          "count": 5
+        },
+        "item": {
+          "id": "1fece390681443689f43cf77d2c8ec19",
+          "title": "Legolas_final",
+          "access": "public",
+          "licenseInfo": "",
+          "accessInformation": ""
+        }
+      },
+      {
+        "title": "Locations",
+        "url": "https://services1.arcgis.com/DbPykcCwUUYq5zKg/arcgis/rest/services/Placenames_finallllllllllllllll/FeatureServer/1",
+        "type": "ArcGISFeatureLayer",
+        "error": null,
+        "spatialReference": {
+          "wkt": "PROJCS[\"UTM_Zone_31_Northern_Hemisphere\",GEOGCS[\"GCS_Geographic Coordinate System\",DATUM[\"D_WGS84\",SPHEROID[\"WGS84\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"false_easting\",500000.0],PARAMETER[\"false_northing\",0.0],PARAMETER[\"central_meridian\",3.0],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"latitude_of_origin\",0.0],UNIT[\"Meter\",1.0]]"
+        },
+        "capabilities": "Query",
+        "copyright": "",
+        "extent": {
+          "xmin": 2496.462399999611,
+          "ymin": -6961.264900000766,
+          "xmax": 6286.097000000067,
+          "ymax": -4083.1911999993026,
+          "spatialReference": {
+            "wkt": "PROJCS[\"UTM_Zone_31_Northern_Hemisphere\",GEOGCS[\"GCS_Geographic Coordinate System\",DATUM[\"D_WGS84\",SPHEROID[\"WGS84\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"false_easting\",500000.0],PARAMETER[\"false_northing\",0.0],PARAMETER[\"central_meridian\",3.0],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"latitude_of_origin\",0.0],UNIT[\"Meter\",1.0]]"
+          }
+        },
+        "fullExtent": null,
+        "tileInfo": null,
+        "count": {
+          "count": 12
+        },
+        "item": {
+          "id": "78fad5ae057b4b828b147c759d98b5b1",
+          "title": "Placenames_finallllllllllllllll",
+          "access": "public",
+          "licenseInfo": "",
+          "accessInformation": ""
+        }
+      },
+      {
+        "title": "Regions",
+        "url": "https://services1.arcgis.com/DbPykcCwUUYq5zKg/arcgis/rest/services/Regions/FeatureServer/1",
+        "type": "ArcGISFeatureLayer",
+        "error": null,
+        "spatialReference": {
+          "wkt": "PROJCS[\"UTM_Zone_31_Northern_Hemisphere\",GEOGCS[\"GCS_Geographic Coordinate System\",DATUM[\"D_WGS84\",SPHEROID[\"WGS84\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"false_easting\",500000.0],PARAMETER[\"false_northing\",0.0],PARAMETER[\"central_meridian\",3.0],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"latitude_of_origin\",0.0],UNIT[\"Meter\",1.0]]"
+        },
+        "capabilities": "Query",
+        "copyright": "",
+        "extent": {
+          "xmin": 3716.363344192505,
+          "ymin": -7714.689573287963,
+          "xmax": 7372.6362323760995,
+          "ymax": -4329.480224609375,
+          "spatialReference": {
+            "wkt": "PROJCS[\"UTM_Zone_31_Northern_Hemisphere\",GEOGCS[\"GCS_Geographic Coordinate System\",DATUM[\"D_WGS84\",SPHEROID[\"WGS84\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"false_easting\",500000.0],PARAMETER[\"false_northing\",0.0],PARAMETER[\"central_meridian\",3.0],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"latitude_of_origin\",0.0],UNIT[\"Meter\",1.0]]"
+          }
+        },
+        "fullExtent": null,
+        "tileInfo": null,
+        "count": {
+          "count": 4
+        },
+        "item": {
+          "id": "bbb59e97b1e247048c1adc1feab5bca2",
+          "title": "Regions",
+          "access": "public",
+          "licenseInfo": "",
+          "accessInformation": ""
+        }
+      },
+      {
+        "title": "Digital Elevation Model",
+        "url": "https://tiles.arcgis.com/tiles/DbPykcCwUUYq5zKg/arcgis/rest/services/dem_real_1/MapServer",
+        "type": "ArcGISTiledMapServiceLayer",
+        "error": null,
+        "spatialReference": null,
+        "capabilities": null,
+        "copyright": null,
+        "extent": null,
+        "fullExtent": null,
+        "tileInfo": null,
+        "count": null,
+        "item": {
+          "id": "d2b5a5bb3d634aada617fe2d6585beec",
+          "title": "dem_real_1",
+          "access": "public",
+          "licenseInfo": "",
+          "accessInformation": ""
+        }
+      },
+      {
+        "title": "DEM_Fix",
+        "url": "https://tiles.arcgis.com/tiles/DbPykcCwUUYq5zKg/arcgis/rest/services/Extract_dem2_test12/MapServer",
+        "type": "ArcGISTiledMapServiceLayer",
+        "error": null,
+        "spatialReference": null,
+        "capabilities": null,
+        "copyright": null,
+        "extent": null,
+        "fullExtent": null,
+        "tileInfo": null,
+        "count": null,
+        "item": {
+          "id": "4dfa7c80d62f442c8b3f0b0d0deae0a1",
+          "title": "Extract_dem2_test12",
+          "access": "public",
+          "licenseInfo": "",
+          "accessInformation": ""
+        }
+      },
+      {
+        "title": "Forests_Middle_Earth",
+        "url": "https://tiles.arcgis.com/tiles/DbPykcCwUUYq5zKg/arcgis/rest/services/Forests_Middle_Earth/MapServer",
+        "type": "ArcGISTiledMapServiceLayer",
+        "error": null,
+        "spatialReference": null,
+        "capabilities": null,
+        "copyright": null,
+        "extent": null,
+        "fullExtent": null,
+        "tileInfo": null,
+        "count": null,
+        "item": {
+          "id": "6e619929dbe041ad9daf4e1262ea22f7",
+          "title": "Forests_Middle_Earth",
+          "access": "public",
+          "licenseInfo": "",
+          "accessInformation": ""
+        }
+      }
+    ]
+  },
+  {
+    "mapId": "d1639e2fc51748c29de2849832bb53db",
+    "checkedAtUtc": "2026-10-27T21:53:55.7533396Z",
+    "spatialReference": {
+      "latestWkid": 3857,
+      "wkid": 102100
+    },
+    "checks": [
+      {
+        "title": "World Hillshade",
+        "url": "https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer",
+        "type": "ArcGISTiledMapServiceLayer",
+        "error": null,
+        "spatialReference": null,
+        "capabilities": "Map,Tilemap",
+        "copyright": "Sources: Esri, Vantor, Airbus DS, USGS, NGA, NASA, CGIAR, N Robinson, NCEAS, NLS, OS, NMA, Geodatastyrelsen, Rijkswaterstaat, GSA, Geoland, FEMA, Intermap, and the GIS user community",
+        "extent": null,
+        "fullExtent": {
+          "xmin": -20037507.067161843,
+          "ymin": -19990709.43504232,
+          "xmax": 20037507.067161843,
+          "ymax": 20034863.616507012,
+          "spatialReference": {
+            "cs": "pcs",
+            "wkid": 102100
+          }
+        },
+        "tileInfo": {
+          "rows": 256,
+          "cols": 256,
+          "dpi": 96,
+          "format": "JPEG",
+          "compressionQuality": 90,
+          "origin": {
+            "x": -20037508.342787,
+            "y": 20037508.342787
+          },
+          "spatialReference": {
+            "wkid": 102100,
+            "latestWkid": 3857,
+            "xyTolerance": 0.001,
+            "zTolerance": 0.001,
+            "mTolerance": 0.001,
+            "falseX": -22041259.214859996,
+            "falseY": -32754895.973320004,
+            "xyUnits": 142980504.00783738,
+            "falseZ": -100000,
+            "zUnits": 10000,
+            "falseM": -100000,
+            "mUnits": 10000
+          },
+          "lods": [
+            {
+              "level": 0,
+              "resolution": 156543.03392800014,
+              "scale": 591657527.591555
+            },
+            {
+              "level": 1,
+              "resolution": 78271.51696399994,
+              "scale": 295828763.795777
+            },
+            {
+              "level": 2,
+              "resolution": 39135.75848200009,
+              "scale": 147914381.897889
+            },
+            {
+              "level": 3,
+              "resolution": 19567.87924099992,
+              "scale": 73957190.948944
+            },
+            {
+              "level": 4,
+              "resolution": 9783.93962049996,
+              "scale": 36978595.474472
+            },
+            {
+              "level": 5,
+              "resolution": 4891.96981024998,
+              "scale": 18489297.737236
+            },
+            {
+              "level": 6,
+              "resolution": 2445.98490512499,
+              "scale": 9244648.868618
+            },
+            {
+              "level": 7,
+              "resolution": 1222.992452562495,
+              "scale": 4622324.434309
+            },
+            {
+              "level": 8,
+              "resolution": 611.4962262813797,
+              "scale": 2311162.217155
+            },
+            {
+              "level": 9,
+              "resolution": 305.74811314055756,
+              "scale": 1155581.108577
+            },
+            {
+              "level": 10,
+              "resolution": 152.87405657041106,
+              "scale": 577790.554289
+            },
+            {
+              "level": 11,
+              "resolution": 76.43702828507324,
+              "scale": 288895.277144
+            },
+            {
+              "level": 12,
+              "resolution": 38.21851414253662,
+              "scale": 144447.638572
+            },
+            {
+              "level": 13,
+              "resolution": 19.10925707126831,
+              "scale": 72223.819286
+            },
+            {
+              "level": 14,
+              "resolution": 9.554628535634155,
+              "scale": 36111.909643
+            },
+            {
+              "level": 15,
+              "resolution": 4.77731426794937,
+              "scale": 18055.954822
+            },
+            {
+              "level": 16,
+              "resolution": 2.388657133974685,
+              "scale": 9027.977411
+            },
+            {
+              "level": 17,
+              "resolution": 1.1943285668550503,
+              "scale": 4513.988705
+            },
+            {
+              "level": 18,
+              "resolution": 0.5971642835598172,
+              "scale": 2256.994353
+            },
+            {
+              "level": 19,
+              "resolution": 0.29858214164761665,
+              "scale": 1128.497176
+            },
+            {
+              "level": 20,
+              "resolution": 0.14929107082380833,
+              "scale": 564.248588
+            },
+            {
+              "level": 21,
+              "resolution": 0.07464553541190416,
+              "scale": 282.124294
+            },
+            {
+              "level": 22,
+              "resolution": 0.03732276770595208,
+              "scale": 141.062147
+            },
+            {
+              "level": 23,
+              "resolution": 0.01866138385297604,
+              "scale": 70.5310735
+            }
+          ]
+        },
+        "count": null,
+        "item": null
+      }
+    ]
+  }
+]
