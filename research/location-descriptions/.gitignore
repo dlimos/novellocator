@@ -1,0 +1,5 @@
+*.json
+*-raw.txt
+*-evidence.txt
+anna-selected.txt
+release/

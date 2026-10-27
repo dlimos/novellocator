@@ -16,13 +16,14 @@
  function build(data,kind,locale='en'){
   const rows=[(headings[locale]||headings.en).concat(selectedHeadings[locale]||selectedHeadings.en)],labels=categories[locale]||categories.en;
   for(const chapter of data.sourceChapters||data.chapters){
-   const references=kind==='citations'?(chapter.citations||[]):(chapter.places||[]).map((id,index)=>({placeId:id,category:chapter.placeCategories?.[id]||'action',scene:chapter.placeText[index],excerpt:chapter.placeExcerpts?.[id]}));
+   const references=kind==='citations'?(chapter.citations||[]):(chapter.places||[]).map((id,index)=>({placeId:id,category:chapter.placeCategories?.[id]||'action',scene:chapter.placeText[index],narrativeDescription:chapter.placeNarrativeDescriptions?.[id],excerpt:chapter.placeExcerpts?.[id]}));
    for(const ref of references){
     const p=(kind==='citations'?data.citedPlaces?.[ref.placeId]:null)||data.places[ref.placeId]||data.citedPlaces?.[ref.placeId];if(!p)throw new Error('Missing CSV place: '+ref.placeId);
     const q=ref.excerpt?.original;
     const legacy=chapter.placeQuotes?.[ref.placeId],source=chapter.placeSources?.[ref.placeId]||p.narrativeSource;
     const group=ref.excerpt||(legacy?{original:{quote:legacy,language:data.book.originalLanguage||'en',attribution:source?.label||'',url:source?.url}}:null);
-    rows.push([chapter.id,chapter.title,p.name,p.area,labels[ref.category==='mentioned'?1:0],p.regionalOutline?'':p.coords?.[0],p.regionalOutline?'':p.coords?.[1],p.regionalOutline?'polyline':p.kind,ref.scene?.trim()||ref.text?.trim()||'',q?.language,q?.quote||legacy||'',q?.attribution||source?.label,p.positionSource?.url,p.method,p.note,p.checked].concat(selectedColumns(group,locale)));
+    const description=ref.narrativeDescription?.status==='reviewed'?(ref.narrativeDescription.texts?.[locale]||ref.narrativeDescription.texts?.en):ref.scene?.trim()||ref.text?.trim()||'';
+    rows.push([chapter.id,chapter.title,p.name,p.area,labels[ref.category==='mentioned'?1:0],p.regionalOutline?'':p.coords?.[0],p.regionalOutline?'':p.coords?.[1],p.regionalOutline?'polyline':p.kind,description,q?.language,q?.quote||legacy||'',q?.attribution||source?.label,p.positionSource?.url,p.method,p.note,p.checked].concat(selectedColumns(group,locale)));
    }
    if(kind!=='citations')for(const p of chapter.unlocatedPlaces||[])if(!p.illustratedOnly)rows.push([chapter.id,chapter.title,p.name,'',labels[p.category==='mentioned'?1:0],'','','',p.text,p.language||data.book.originalLanguage||'en',p.quote,p.attribution||'','','','',''].concat(selectedColumns(p.excerpt||{original:{...p,language:p.language||data.book.originalLanguage||'en'},translations:p.translations},locale)));
   }

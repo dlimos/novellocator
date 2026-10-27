@@ -9,7 +9,7 @@ for(const c of d.chapters){const s=corpus[c.id-1];assert.equal(a.sections[c.id-1
  for(const id of c.places){assert(d.places[id]);evidence(c.placeExcerpts[id].original);associations++;}
  for(const r of c.citations){assert(d.citedPlaces[r.placeId]);evidence(r.excerpt.original);associations++;}
  for(const u of c.unlocatedPlaces){evidence(u);assert(!Object.hasOwn(u,'coords'));associations++;}
- for(const l of ['en','it','fr','es'])for(const v of [c.title,c.text,c.note,...c.unlocatedPlaces.map(u=>u.name)])assert(dict[l][v],l+': '+v);
+ for(const l of ['en','it','fr','es'])for(const v of [c.title,c.text,...(c.note?[c.note]:[]),...c.unlocatedPlaces.map(u=>u.name)])assert(dict[l][v],l+': '+v);
 }
 assert.equal(associations,322);
 for(const id of ['garret','moneylender','adrianople','sonya','police','new-jerusalem','irtysh'])assert(!d.places[id],'Invented coordinate: '+id);

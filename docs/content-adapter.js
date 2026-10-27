@@ -44,6 +44,10 @@ function reconstruct(bundle, id) {
             if (r.collection === 'core') {
                 c.places.push(placeId);
                 c.placeText.push(r.scene_text);
+                if (metadata.narrativeDescription) {
+                    c.placeNarrativeDescriptions ??= {};
+                    c.placeNarrativeDescriptions[placeId] = metadata.narrativeDescription;
+                }
                 if (metadata.explicitCategory)
                     c.placeCategories[placeId] = r.category;
                 if (metadata.role !== undefined)

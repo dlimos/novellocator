@@ -23,6 +23,11 @@ for(const locale of ['en','it','fr','es']){
  vm.runInContext('selectCitation(0,false)',ctx);
  assert(!elements['selected-location'].innerHTML.includes('location-scene'));
  assert(!elements['selected-location'].innerHTML.includes('undefined'));
+ const evidence=elements['selected-location'].children.find(child=>child.innerHTML?.includes('original-excerpt'));
+ assert(evidence?.innerHTML.includes('class="original-excerpt" open>'),'Missing editorial context opens the authentic passage');
+ ref.narrativeDescription={status:'reviewed',texts:{en:'Reviewed context',it:'Contesto verificato',fr:'Contexte vérifié',es:'Contexto verificado'}};
+ vm.runInContext('selectCitation(0,false)',ctx);
+ assert(elements['selected-location'].innerHTML.includes(ref.narrativeDescription.texts[locale]));
 }
 const ctx={window:{}};
 for(const file of ['content-adapter.js','supabase-data.js','csv-export.js'])vm.runInNewContext(fs.readFileSync('docs/'+file,'utf8'),ctx);
@@ -41,4 +46,8 @@ grouped=ctx.window.atlasSupabaseData.groupSections(data);
 assert.equal(grouped.chapters[0].placeText[0],'Legacy context');
 data.places={p:{name:'P',coords:[1,2]}};
 assert(ctx.window.atlasCsv.build(data,'citations').includes('Legacy context'));
+data.chapters[0].citations[0].narrativeDescription={status:'reviewed',texts:{en:'Verified English context',it:'Contesto italiano verificato'}};
+assert(ctx.window.atlasCsv.build(data,'citations','it').includes('Contesto italiano verificato'));
+grouped=ctx.window.atlasSupabaseData.groupSections(data);
+assert.deepEqual(grouped.chapters[0].placeNarrativeDescriptions.p,data.chapters[0].citations[0].narrativeDescription);
 console.log('PASS: mention context parity in four languages, cards, popups, global view, database scene_text, navigation grouping and CSV; absent descriptions have no empty container.');

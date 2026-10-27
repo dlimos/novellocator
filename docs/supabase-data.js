@@ -20,6 +20,7 @@
     const priority=region.evidencePriority||region.keys;
     const evidence=chapter.unlocatedPlaces.filter(candidate=>region.keys.includes(candidate.id||candidate.name)).sort((a,b)=>priority.indexOf(a.id||a.name)-priority.indexOf(b.id||b.name))[0]||item;
     chapter.places.push(region.id);chapter.placeText.push(region.scenes?.[chapter.id]||region.sceneText);
+    (chapter.placeNarrativeDescriptions??={})[region.id]=region.narrativeDescriptions?.[chapter.id];
     chapter.placeCategories[region.id]=region.categories?.[chapter.id]||'mentioned';
     chapter.placeSources[region.id]={url:evidence.url||region.place.narrativeSource.url,label:region.evidenceLabel};
     chapter.placeExcerpts[region.id]=evidence.excerpt||{original:{...evidence,language:evidence.language||input.book.originalLanguage,type:'original'},translations:evidence.translations||{}};
@@ -42,10 +43,10 @@
    if(!members.length)throw new Error('Empty section group');
    for(const c of members){if(used.has(c.id))throw new Error('Overlapping section groups');used.add(c.id);}
    const sharedBadge=key=>Object.hasOwn(group,key)?group[key]:members.every(c=>c[key]===members[0][key])?members[0][key]:undefined;
-   const first=members[0],chapter={id:group.id,title:group.title,text:group.text,time:sharedBadge('time'),people:sharedBadge('people'),setting:first.setting,note:review.sectionNote||first.note,links:group.links||[...new Map(members.flatMap(c=>c.links||[]).map(link=>[link.url,link])).values()],places:[],placeText:[],placeCategories:{},placeExcerpts:{},placeSources:{},placeOccurrences:{},citations:[],unlocatedPlaces:[],sourceSectionIds:members.map(c=>c.id)};
+   const first=members[0],chapter={id:group.id,title:group.title,text:group.text,time:sharedBadge('time'),people:sharedBadge('people'),setting:first.setting,note:review.sectionNote||first.note,links:group.links||[...new Map(members.flatMap(c=>c.links||[]).map(link=>[link.url,link])).values()],places:[],placeText:[],placeCategories:{},placeExcerpts:{},placeSources:{},placeOccurrences:{},placeNarrativeDescriptions:{},citations:[],unlocatedPlaces:[],sourceSectionIds:members.map(c=>c.id)};
    const references=new Map(),unlocated=new Map();
    for(const c of members){
-    const refs=[...(c.places||[]).map((id,i)=>({placeId:id,category:c.placeCategories?.[id]||'action',scene:c.placeText[i],excerpt:c.placeExcerpts?.[id],source:c.placeSources?.[id]})),...(c.citations||[])];
+    const refs=[...(c.places||[]).map((id,i)=>({placeId:id,category:c.placeCategories?.[id]||'action',scene:c.placeText[i],narrativeDescription:c.placeNarrativeDescriptions?.[id],excerpt:c.placeExcerpts?.[id],source:c.placeSources?.[id]})),...(c.citations||[])];
     for(const ref of refs){const list=references.get(ref.placeId)||[];list.push({...ref,sourceSectionId:c.id,sourceSectionTitle:c.title});references.set(ref.placeId,list);}
     for(const item of c.unlocatedPlaces||[]){if(item.displayInAtlas===false||item.geographicRelevance==='none'||hidden.has(item.id||item.name))continue;const key=item.id||item.name,list=unlocated.get(key)||[];list.push({...item,sourceSectionId:c.id,sourceSectionTitle:c.title});unlocated.set(key,list);}
    }
@@ -57,7 +58,7 @@
     // a mention elsewhere in the part must not replace its evidence.
     const action=occurrences.find(ref=>ref.category==='action');
     const selected=action||occurrences.find(ref=>ref.excerpt?.original?.quote?.trim())||occurrences[0];
-    chapter.places.push(id);chapter.placeText.push(selected.scene?.trim()||selected.text?.trim()||'');chapter.placeCategories[id]=action?'action':'mentioned';chapter.placeExcerpts[id]=selected.excerpt;chapter.placeSources[id]=selected.source;chapter.placeOccurrences[id]=occurrences;
+    chapter.placeNarrativeDescriptions[id]=selected.narrativeDescription;chapter.places.push(id);chapter.placeText.push(selected.scene?.trim()||selected.text?.trim()||'');chapter.placeCategories[id]=action?'action':'mentioned';chapter.placeExcerpts[id]=selected.excerpt;chapter.placeSources[id]=selected.source;chapter.placeOccurrences[id]=occurrences;
    }
    for(const occurrences of unlocated.values()){
     const selected=occurrences.find(item=>item.category==='action'&&(item.excerpt?.original?.quote?.trim()||item.quote?.trim()))||occurrences[0];
