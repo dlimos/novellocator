@@ -6,7 +6,7 @@
 
 L'originale è stato suddiviso in 72 unità locali con pagine e impronte SHA-256: preliminari editoriali, Prologo, 62 capitoli, appendici A–F, indici e mappe. Questa preparazione non è marcata come lettura completata. `reading-manifest.json` registra separatamente lettura, primo inventario e verifiche successive.
 
-Sono stati letti integralmente il Prologo, tutti i dodici capitoli del Libro I (pagine PDF 45–240) e i capitoli II.1–II.2 (pagine PDF 243–295). È completo il primo dei sei libri interni ed è iniziato il secondo; il volume *The Fellowship of the Ring*, che li contiene entrambi, non è ancora completato. I preliminari editoriali sono stati consultati solo in parte: il relativo stato resta pendente. II.3–II.10, i libri III–VI, le appendici e gli indici non sono dichiarati letti. Le sezioni lette conservano introduzioni narrative nelle quattro lingue, motivazioni individuali e riscontri originali.
+Sono stati letti integralmente il Prologo, tutti i dodici capitoli del Libro I (pagine PDF 45–240) e i capitoli II.1–II.3 (pagine PDF 243–318). È completo il primo dei sei libri interni ed è iniziato il secondo; il volume *The Fellowship of the Ring*, che li contiene entrambi, non è ancora completato. I preliminari editoriali sono stati consultati solo in parte: il relativo stato resta pendente. II.4–II.10, i libri III–VI, le appendici e gli indici non sono dichiarati letti. Le sezioni lette conservano introduzioni narrative nelle quattro lingue, motivazioni individuali e riscontri originali.
 
 | Sezione | Associazioni in prima analisi | action | mentioned |
 | --- | ---: | ---: | ---: |
@@ -25,7 +25,8 @@ Sono stati letti integralmente il Prologo, tutti i dodici capitoli del Libro I (
 | I.12 | 42 | 26 | 16 |
 | II.1 | 58 | 17 | 41 |
 | II.2 | 86 | 36 | 50 |
-| Totale | 586 | 238 | 348 |
+| II.3 | 65 | 22 | 43 |
+| Totale | 651 | 260 | 391 |
 
 Questi sono conteggi dell'analisi, non marker approvati o conteggi pubblici. Comprendono ambientazioni senza posizione utile, sogni, visioni e luoghi dei canti intercalati esclusi dalla futura vista geografica. L'inventario è un primo passaggio manuale, non una certificazione di completezza. La corrispondenza delle citazioni al testo non sostituisce la revisione narrativa e geografica delle decisioni.
 
@@ -46,6 +47,7 @@ Le distinzioni già registrate includono:
 - I.12: il risveglio e le prime cure avvengono nello stesso avvallamento, benché il nome non ricorra subito. Sono distinti il riparo nella roccia, il campo al valico e la grotta dei troll, dove entrano soltanto Aragorn e Merry. Frodo attraversa il guado e si ferma sulla riva opposta; non arriva ancora alla casa di Elrond. L'equivalenza dei nomi dei fiumi viene documentata dall'originale, senza confondere il Mitheithel superiore col Greyflood dopo la confluenza.
 - II.1: il risveglio stabilisce l'ambientazione attuale a Rivendell. Sono distinti camera, giardino, portico, sala del banchetto, Sala del Fuoco e stanza di Bilbo. Il canto di Eärendil conserva livelli e luoghi propri nell'analisi; non trasferisce la navigazione mitica su coordinate terrestri. La ricostruzione di Gandalf al guado ha riscontri propri e chiarisce la percezione di Frodo senza riscriverne il passo originale.
 - II.2: il Consiglio si tiene esplicitamente sul portico del capitolo precedente. Si conservano separatamente le scene raccontate alla porta di Dáin, al ponte di Osgiliath, nell'archivio di Denethor, alla cattura di Gollum, presso il suo albero, sulla Greenway, a Hobbiton e Crickhollow, a Orthanc e sulla cima di Weathertop. Notizie di residenza, riassunti storici e mete proposte restano menzioni quando manca una scena sviluppata. Le dicerie del tributo di cavalli e della deriva marina dell'Anello sono contestate nel testo e non vengono accettate come fatti.
+- II.3: attesa, doni di Bilbo e saluto precedono la partenza dalla valle. La Compagnia raggiunge Hollin/Eregion e vi si accampa; il luogo è ora azione, mentre il ricordo storico in II.2 resta menzione. La salita e la ritirata avvengono sulle pendici di Caradhras: Redhorn Gate è una meta mancata, non un valico attraversato. Conca di Hollin, sosta inferiore, ripiano della prima neve, riparo sotto la parete e passaggio nel cumulo di neve restano distinti. Le ricognizioni degli esploratori sono riepiloghi di itinerari, non scene automaticamente promosse ad action. La tempesta non viene attribuita a Saruman o a Sauron come fatto dimostrato.
 
 `cross-section-reviews.json` documenta quattro riscontri puntuali fra sezioni: sogno di Orthanc, battaglia di Gandalf a Weathertop, ricostruzione del guado e ricorrenza del portico del Consiglio. Questi controlli non sono una revisione completa di tutte le ricorrenze. Non modificano retroattivamente ciò che una sezione dimostra, né confondono la scena raccontata con il luogo del racconto.
 
@@ -59,7 +61,7 @@ La runa che compare a pagina PDF 211/stampata 187 non è restituita come testo d
 
 Il testimone acquisito non viene presentato come testo aggiornato a ogni correzione successiva. Il controllo di tre punti segnalati da [Wayne G. Hammond e Christina Scull](https://www.hammondandscull.com/addenda/rings.html) mostra che conserva lezioni anteriori alle loro correzioni: nel Prologo, pagina stampata 8/PDF 32, e alle pagine stampate 367/PDF 391 e 373/PDF 397. Questo riscontro puntuale non è una collazione integrale; non sono state applicate correzioni silenziose alle citazioni. Le parti editoriali e l'indice sono accreditati separatamente agli autori indicati nel PDF.
 
-`quotation-budget.json` misura il primo insieme locale per l'analisi critica: 586 associazioni, 564 estratti diversi, 5.327 parole contando le ripetizioni e 5.140 deduplicate; il passo più lungo di questo insieme ha 20 parole. Nessun numero è usato come soglia automatica di liceità. Restano da valutare necessità e proporzione di ogni passo e del complesso, insieme all'eventuale confronto con un testimone di accesso editoriale documentato. Non è ancora stato approvato alcun estratto per la pubblicazione. La ricerca preliminare delle traduzioni riutilizzabili in italiano, francese e spagnolo resta documentata nel README, con le lacune aperte.
+`quotation-budget.json` misura il primo insieme locale per l'analisi critica: 651 associazioni, 627 estratti diversi, 5.910 parole contando le ripetizioni e 5.708 deduplicate; il passo più lungo di questo insieme ha 20 parole. Nessun numero è usato come soglia automatica di liceità. Restano da valutare necessità e proporzione di ogni passo e del complesso, insieme all'eventuale confronto con un testimone di accesso editoriale documentato. Non è ancora stato approvato alcun estratto per la pubblicazione. La ricerca preliminare delle traduzioni riutilizzabili in italiano, francese e spagnolo resta documentata nel README, con le lacune aperte.
 
 ## Modelli reali
 
@@ -101,7 +103,7 @@ Resta favorevole la valutazione preliminare di vedute di Minas Tirith, Fosso di 
 
 La lettura di II.1–II.2 rende opportuna anche una veduta di Rivendell: terrazze sopra il Bruinen, giardino alto e portico orientato, ambiente della casa e paesaggio montano aiuterebbero a seguire risveglio, incontri e Consiglio. Il testo distingue anche le sale interne, ma non ne fornisce una pianta completa. Un'eventuale veduta dovrà essere realistica ed evocativa; volumi, prospettiva e disposizione non documentati saranno interpretativi, senza convertirli in geografia terrestre. Questa è una valutazione, non una veduta realizzata.
 
-La prossima unità da leggere è II.3, *The Ring Goes South*, pagine PDF 296–318. Il lavoro non è concluso: restano 48 capitoli, sei appendici, il completamento dei preliminari e la verifica di indici/mappe, oltre alla riconciliazione critica e geografica e alla revisione dei diritti. Gli avanzamenti verificati della ricerca vengono pubblicati nel branch `docs`; nessun contenuto del nuovo romanzo è stato pubblicato in Supabase o sul sito.
+La prossima unità da leggere è II.4, *A Journey in the Dark*, pagine PDF 319–344. Il lavoro non è concluso: restano 47 capitoli, sei appendici, il completamento dei preliminari e la verifica di indici/mappe, oltre alla riconciliazione critica e geografica e alla revisione dei diritti. Gli avanzamenti verificati della ricerca vengono pubblicati nel branch `docs`; nessun contenuto del nuovo romanzo è stato pubblicato in Supabase o sul sito.
 
 ## Ripresa locale
 

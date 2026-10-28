@@ -214,6 +214,21 @@
       ]
     },
     {
+      "sectionId": "b2-c03",
+      "completeRead": true,
+      "references": 65,
+      "action": 22,
+      "mentioned": 43,
+      "inventoryStatus": "first-manual-pass-reconciliation-pending",
+      "quotationRightsStatus": "pending",
+      "introductionsAvailable": [
+        "it",
+        "en",
+        "fr",
+        "es"
+      ]
+    },
+    {
       "sectionId": "prologue",
       "completeRead": true,
       "references": 62,
