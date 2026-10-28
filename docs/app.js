@@ -137,13 +137,16 @@ if(isIllustrated){globalChapter.placeKinds=Object.fromEntries(globalPlaceIds.map
 const globalCitations=[...new Map(chapters.flatMap(chapter=>chapter.citations||[]).map(reference=>[reference.placeId,reference])).values()];
 const activeCitations=()=>current<0?globalCitations:chapters[current].citations||[];
 function placeCategory(id){if(current>=0)return chapters[current].placeCategories?.[id]||'action';return chapters.some(chapter=>chapter.places.includes(id)&&chapter.placeCategories?.[id]!=='mentioned')?'action':'mentioned';}
+function citationUsesCoreMarker(reference){return current<0&&activeChapter().places.includes(reference.placeId)&&(placeCategory(reference.placeId)==='mentioned'||visibleLayers.action);}
+function mentionedLocationCount(){return new Set([...activeChapter().places.filter(id=>placeCategory(id)==='mentioned'),...activeCitations().filter(reference=>!citationUsesCoreMarker(reference)).map(reference=>reference.placeId)]).size;}
 function updateLayerControls(){
  const chapter=activeChapter();
  document.getElementById('layer-action').checked=visibleLayers.action;
  document.getElementById('layer-mentioned').checked=visibleLayers.mentioned;
  const all=document.getElementById('layer-markers');all.checked=visibleLayers.action&&visibleLayers.mentioned;all.indeterminate=visibleLayers.action!==visibleLayers.mentioned;
  document.getElementById('layer-action-count').textContent=chapter.places.filter(id=>placeCategory(id)==='action').length;
- document.getElementById('layer-mentioned-count').textContent=new Set([...chapter.places.filter(id=>placeCategory(id)==='mentioned'),...activeCitations().map(reference=>reference.placeId)]).size;
+ const mentionedCount=mentionedLocationCount();document.getElementById('layer-mentioned-count').textContent=mentionedCount;
+ const heading=document.getElementById('mentioned-locations-title');if(heading){heading.textContent=t('Mentioned locations')+' · '+mentionedCount;if(heading.parentElement)heading.parentElement.hidden=mentionedCount===0;}
 }
 function setLayerVisibility(category,visible){if(category==='all'){visibleLayers.action=visible;visibleLayers.mentioned=visible}else if(category in visibleLayers)visibleLayers[category]=visible;else return;updateLayerControls();drawMarkers();}
 const number=id=>String(id).padStart(2,'0');
@@ -339,7 +342,7 @@ function renderDetail(){
  placeButtons=[];citationButtons=[];
  const citations=activeCitations(),mentionedCount=chapter.places.filter(id=>placeCategory(id)==='mentioned').length+citations.length;
  let mentionedButtons;
- if(mentionedCount){const container=document.createElement('section');container.className='citation-selector';const heading=document.createElement('h3');heading.className='locations-heading';heading.textContent=t('Mentioned locations')+' · '+mentionedCount;container.appendChild(heading);mentionedButtons=document.createElement('div');mentionedButtons.className='location-buttons';mentionedButtons.id='citation-locations';mentionedButtons.setAttribute('aria-label',t('Mentioned locations'));container.appendChild(mentionedButtons);locations.after?.(container);}
+ if(mentionedCount){const container=document.createElement('section');container.className='citation-selector';const heading=document.createElement('h3');heading.id='mentioned-locations-title';heading.className='locations-heading';heading.textContent=t('Mentioned locations')+' · '+mentionedLocationCount();container.appendChild(heading);mentionedButtons=document.createElement('div');mentionedButtons.className='location-buttons';mentionedButtons.id='citation-locations';mentionedButtons.setAttribute('aria-label',t('Mentioned locations'));container.appendChild(mentionedButtons);locations.after?.(container);}
  chapter.places.forEach((id,i)=>{
   const button=document.createElement('button');button.type='button';button.className='location-button'+(placeCategory(id)==='mentioned'?' cited-location':'');button.setAttribute('aria-pressed',String(i===selectedPlace&&selectedCitation<0));
   button.innerHTML=`<span>${i+1}</span>${esc(literaryPlaces[id].name)}`;
@@ -431,13 +434,13 @@ function visibleMarkerNumbers(){
  }
  const citations=activeCitations().map(reference=>{
   if(!visibleLayers.mentioned)return null;
-  const index=activeChapter().places.indexOf(reference.placeId);
-  if(current<0&&visibleLayers.action&&index>=0&&placeCategory(reference.placeId)==='action')return null;
+  if(citationUsesCoreMarker(reference))return null;
   return 'C'+next.mentioned++;
  });
  return {places,citations};
 }
 function updateLocationNumbers(numbers=visibleMarkerNumbers()){
+ citationButtons.forEach((button,index)=>{button.hidden=citationUsesCoreMarker(activeCitations()[index]);});
  for(const [buttons,values] of [[placeButtons,numbers.places],[citationButtons,numbers.citations]]){
   buttons.forEach((button,index)=>{
    // Replace only the label, preserving the button and its selection handler.

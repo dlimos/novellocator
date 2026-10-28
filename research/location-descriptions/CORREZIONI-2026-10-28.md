@@ -6,6 +6,7 @@ Interventi relativi alla verifica del 27 ottobre, completati il 28 ottobre 2026.
 |---|---|
 | Vista globale con categoria dell'azione e testo della prima menzione | Scelta di un'occorrenza dell'azione, con contesto, citazione e fonte della stessa sezione; identità e collegamenti espliciti conservati. |
 | Prima scheda globale poco pertinente | Selezione iniziale di un luogo dell'azione visibile, quando disponibile. |
+| Luoghi duplicati tra azione e menzioni globali | Nascoste le copie di menzione già rappresentate da un marker; conteggi allineati. Disattivando il layer azione, le menzioni pertinenti tornano visibili con la propria numerazione. Indici e selezione conservati. |
 | Descrizioni metodologiche al posto del contesto | 339 contesti specifici in quattro lingue per Delitto e castigo, Don Chisciotte, Moby-Dick, 1984, Anna Karenina e Il buio oltre la siepe; altri 6 contesti regionali di Anna e 11 geografici di Macondo. |
 | Contesti assenti nelle menzioni | Quando manca una descrizione specifica, il passo autentico disponibile viene aperto direttamente, con lingua e attribuzione; nessuna frase di riempimento. |
 | Righe d'area generiche o improprie | Svuotate 456 etichette generiche. Le aree geografiche di Macondo non ereditano il nome della città immaginaria. Le righe vuote non compaiono. |

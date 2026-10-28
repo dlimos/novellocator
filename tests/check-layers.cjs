@@ -24,6 +24,14 @@ function assertVisibleNumbers(run,elements){
   assert.deepEqual(actual,Array.from({length:group.length},(_,i)=>i+1),'each visible category starts at 1 without gaps');
  }
  const numbers=run('visibleMarkerNumbers()');
+ if(run('visibleLayers.mentioned')){
+  const mentions=Array.from(labels).filter(g=>g.attributes.category==='mentioned').length;
+  assert.equal(Number(elements['layer-mentioned-count'].textContent),mentions,'Mention count matches the markers without global duplicates');
+ }
+ for(const [index,button]of run('citationButtons').entries()){
+  const duplicate=run(`current<0&&activeChapter().places.includes(activeCitations()[${index}].placeId)&&(placeCategory(activeCitations()[${index}].placeId)==='mentioned'||visibleLayers.action)`);
+  assert.equal(button.hidden,duplicate,'A citation already represented by a core marker has no duplicate global button');
+ }
  for(const [buttons,values]of [[run('placeButtons'),numbers.places],[run('citationButtons'),numbers.citations]]){
   for(const [index,button]of buttons.entries()){
    if(values[index]==null)assert.match(button.innerHTML,/<span hidden><\/span>/);
