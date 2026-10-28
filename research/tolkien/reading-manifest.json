@@ -280,25 +280,34 @@
       "sha256": "754f61d3af8f6637e10c6afbd0bfd84f94382701601411bf9443aa79bad53c6c",
       "characters": 62644,
       "words": 11772,
-      "readStatus": "pending",
-      "inventoryStatus": "pending",
+      "readStatus": "complete",
+      "inventoryStatus": "first-manual-pass-reconciliation-pending",
       "kind": "chapter",
       "book": 2,
-      "chapter": 4
+      "chapter": 4,
+      "reviewDate": "2026-10-29",
+      "reviewNote": "Individual evidence checked against local source; reading status is a manual declaration, not inferred from matching quotes. Rights and geographical verification pending."
     },
     {
       "id": "b2-c05",
-      "title": "ˆMTHE BRIDGE OF KHAZAD-DU",
+      "title": "THE BRIDGE OF KHAZAD-DÛM",
       "pdfStart": 345,
       "pdfEnd": 356,
       "sha256": "45236cb7c27688ab62670e2615920b48b5efc7b4a1f6b692295f1a10d2fdec0c",
       "characters": 29612,
       "words": 5569,
-      "readStatus": "pending",
-      "inventoryStatus": "pending",
+      "readStatus": "complete",
+      "inventoryStatus": "first-manual-pass-reconciliation-pending",
       "kind": "chapter",
       "book": 2,
-      "chapter": 5
+      "chapter": 5,
+      "titleVerification": {
+        "method": "visual-review",
+        "pdfPage": 345,
+        "rawExtractedTitle": "ˆMTHE BRIDGE OF KHAZAD-DU"
+      },
+      "reviewDate": "2026-10-29",
+      "reviewNote": "Individual evidence checked against local source; reading status is a manual declaration, not inferred from matching quotes. Rights and geographical verification pending."
     },
     {
       "id": "b2-c06",

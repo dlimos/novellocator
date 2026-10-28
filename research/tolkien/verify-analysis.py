@@ -32,10 +32,24 @@ for file in sorted((ROOT/'private').glob('*.json')):
         assert place not in seen,(file.name,place)
         seen.add(place)
         assert unit['pdfStart']<=page<=unit['pdfEnd'],(file.name,page)
-        if norm(quote) not in norm(pages[page]):
+        metadata=section.get('referenceMetadata',{}).get(place,{})
+        visual=metadata.get('visualEvidence')
+        verification='verified-against-local-pdf-text'
+        visual_source={}
+        if visual:
+            image_path=(ROOT.parents[1]/visual['imagePath']).resolve()
+            assert image_path.is_relative_to(WORK.resolve()),'Rendered image must stay inside the local corpus'
+            assert visual['pdfPage']==page and visual['sourcePdfSha256']==manifest['sourcePdfSha256'],'Visual evidence source mismatch'
+            assert visual['reviewStatus']=='manually-compared-with-rendered-page' and visual.get('reviewDate') and visual.get('reviewNote'),'Manual page review must be recorded'
+            if not image_path.is_file() or hashlib.sha256(image_path.read_bytes()).hexdigest()!=visual['imageSha256']:
+                raise ValueError('Rendered source image failed integrity check: '+place)
+            # Integrity is automated; authenticity of this transcription was checked visually.
+            # Do not claim an extracted-text match or infer a human review from this hash.
+            verification='manual-visual-transcription-with-image-integrity-checked'
+            visual_source={'sourceImageSha256':visual['imageSha256'],'sourceImagePath':visual['imagePath']}
+        elif norm(quote) not in norm(pages[page]):
             errors.append([file.name,place,page,quote])
             continue
-        metadata=section.get('referenceMetadata',{}).get(place,{})
         for term in metadata.get('highlightTerms',[]):
             assert norm(term) in norm(quote),('Highlight absent from authentic quotation',place,term)
         references.append({'placeId':place,'category':category,'rationaleIt':rationale,
@@ -44,7 +58,7 @@ for file in sorted((ROOT/'private').glob('*.json')):
                 'sourcePageSha256':hashlib.sha256(pages[page].encode('utf-8')).hexdigest(),
                 'printedPage':page-24,
                 'sourceUrl':'https://go2train.co/wp-content/uploads/2025/11/The-Lord-of-the-Rings-by-J.R.R.-Tolkien.pdf',
-                'edition':manifest['sourceEdition'],'verificationStatus':'verified-against-local-pdf-text',
+                'edition':manifest['sourceEdition'],'verificationStatus':verification,**visual_source,
                 'publicationStatus':section['quotationPublicationStatus']},
             'highlightVerification':'pending','geographicalVerification':'pending','mapPosition':None,**metadata})
     enriched={**section,'references':references}

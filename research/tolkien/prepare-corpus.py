@@ -40,7 +40,12 @@ for book, starts in enumerate(chapter_starts,1):
             if line.strip() and line.isupper(): heading.append(line.strip())
             else: break
         title=' '.join(heading) or f'Book {book}, chapter {index+1}'
-        unit(f'b{book}-c{index+1:02}',title,start,next_start-1,kind='chapter',book=book,chapter=index+1)
+        title_metadata={}
+        if book==2 and index==4:
+            # PDF 345 visually checked: extraction moves the accented final syllable.
+            title_metadata={'titleVerification':{'method':'visual-review','pdfPage':345,'rawExtractedTitle':title}}
+            title='THE BRIDGE OF KHAZAD-DÛM'
+        unit(f'b{book}-c{index+1:02}',title,start,next_start-1,kind='chapter',book=book,chapter=index+1,**title_metadata)
 appendices=list(audit['appendicesStart'].items())
 for index,(letter,start) in enumerate(appendices):
     end=appendices[index+1][1]-1 if index+1<len(appendices) else 1162

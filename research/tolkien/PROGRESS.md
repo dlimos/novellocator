@@ -1,12 +1,12 @@
 # Avanzamento editoriale e tecnico
 
-28 ottobre 2026. Il romanzo non è stato importato né pubblicato nel catalogo.
+29 ottobre 2026. Il romanzo non è stato importato né pubblicato nel catalogo.
 
 ## Lettura e inventario
 
 L'originale è stato suddiviso in 72 unità locali con pagine e impronte SHA-256: preliminari editoriali, Prologo, 62 capitoli, appendici A–F, indici e mappe. Questa preparazione non è marcata come lettura completata. `reading-manifest.json` registra separatamente lettura, primo inventario e verifiche successive.
 
-Sono stati letti integralmente il Prologo, tutti i dodici capitoli del Libro I (pagine PDF 45–240) e i capitoli II.1–II.3 (pagine PDF 243–318). È completo il primo dei sei libri interni ed è iniziato il secondo; il volume *The Fellowship of the Ring*, che li contiene entrambi, non è ancora completato. I preliminari editoriali sono stati consultati solo in parte: il relativo stato resta pendente. II.4–II.10, i libri III–VI, le appendici e gli indici non sono dichiarati letti. Le sezioni lette conservano introduzioni narrative nelle quattro lingue, motivazioni individuali e riscontri originali.
+Sono stati letti integralmente il Prologo, tutti i dodici capitoli del Libro I (pagine PDF 45–240) e i capitoli II.1–II.5 (pagine PDF 243–356). È completo il primo dei sei libri interni e si è arrivati alla metà del secondo; il volume *The Fellowship of the Ring*, che li contiene entrambi, non è ancora completato. I preliminari editoriali sono stati consultati solo in parte: il relativo stato resta pendente. II.6–II.10, i libri III–VI, le appendici e gli indici non sono dichiarati letti. Le sezioni lette conservano introduzioni narrative nelle quattro lingue, motivazioni individuali e riscontri originali.
 
 | Sezione | Associazioni in prima analisi | action | mentioned |
 | --- | ---: | ---: | ---: |
@@ -26,7 +26,9 @@ Sono stati letti integralmente il Prologo, tutti i dodici capitoli del Libro I (
 | II.1 | 58 | 17 | 41 |
 | II.2 | 86 | 36 | 50 |
 | II.3 | 65 | 22 | 43 |
-| Totale | 651 | 260 | 391 |
+| II.4 | 56 | 26 | 30 |
+| II.5 | 34 | 22 | 12 |
+| Totale | 741 | 308 | 433 |
 
 Questi sono conteggi dell'analisi, non marker approvati o conteggi pubblici. Comprendono ambientazioni senza posizione utile, sogni, visioni e luoghi dei canti intercalati esclusi dalla futura vista geografica. L'inventario è un primo passaggio manuale, non una certificazione di completezza. La corrispondenza delle citazioni al testo non sostituisce la revisione narrativa e geografica delle decisioni.
 
@@ -49,19 +51,26 @@ Le distinzioni già registrate includono:
 - II.2: il Consiglio si tiene esplicitamente sul portico del capitolo precedente. Si conservano separatamente le scene raccontate alla porta di Dáin, al ponte di Osgiliath, nell'archivio di Denethor, alla cattura di Gollum, presso il suo albero, sulla Greenway, a Hobbiton e Crickhollow, a Orthanc e sulla cima di Weathertop. Notizie di residenza, riassunti storici e mete proposte restano menzioni quando manca una scena sviluppata. Le dicerie del tributo di cavalli e della deriva marina dell'Anello sono contestate nel testo e non vengono accettate come fatti.
 - II.3: attesa, doni di Bilbo e saluto precedono la partenza dalla valle. La Compagnia raggiunge Hollin/Eregion e vi si accampa; il luogo è ora azione, mentre il ricordo storico in II.2 resta menzione. La salita e la ritirata avvengono sulle pendici di Caradhras: Redhorn Gate è una meta mancata, non un valico attraversato. Conca di Hollin, sosta inferiore, ripiano della prima neve, riparo sotto la parete e passaggio nel cumulo di neve restano distinti. Le ricognizioni degli esploratori sono riepiloghi di itinerari, non scene automaticamente promosse ad action. La tempesta non viene attribuita a Saruman o a Sauron come fatto dimostrato.
 
-`cross-section-reviews.json` documenta quattro riscontri puntuali fra sezioni: sogno di Orthanc, battaglia di Gandalf a Weathertop, ricostruzione del guado e ricorrenza del portico del Consiglio. Questi controlli non sono una revisione completa di tutte le ricorrenze. Non modificano retroattivamente ciò che una sezione dimostra, né confondono la scena raccontata con il luogo del racconto.
+- II.4: il campo dopo Caradhras non è automaticamente quello da cui era partita la salita, poiché Gandalf dichiara di averli guidati a sud. La strada lungo il Sirannon, le cascate, il braccio settentrionale e la riva del lago occidentale precedono le Porte di Durin. All'interno sono distinti scala e pianerottolo, corridoio discendente, crepaccio, bivio, stanza del pozzo, via ascendente, salone e camera della tomba. Pippin resta alla bocca del pozzo; non viene inventato ciò che accade in fondo. Il Mirrormere è action soltanto nel canto di Durin, non perché vi sia arrivata la Compagnia.
+- II.5: il registro di Mazarbul conserva lacune e letture incerte; non viene completato con altri testi. La morte di Balin presso Mirrormere è una scena nel registro, distinta dal ritrovamento della sua tomba. L'attacco alla camera, la fuga dalla porta orientale, il Second Hall col fuoco, il ponte sul baratro, la risalita e il First Hall seguono una sequenza propria. La Compagnia raggiunge infine le porte orientali e la Dimrill Dale. Nessun seguito dello scontro sotto il ponte viene anticipato qui.
+
+`cross-section-reviews.json` documenta sei riscontri puntuali fra sezioni: sogno di Orthanc, battaglia di Gandalf a Weathertop, ricostruzione del guado, portico del Consiglio, continuità e nomi degli ambienti di Moria, livelli narrativi del Mirrormere. Questi controlli non sono una revisione completa di tutte le ricorrenze. Non modificano retroattivamente ciò che una sezione dimostra, né confondono la scena raccontata con il luogo del racconto.
 
 La runa che compare a pagina PDF 211/stampata 187 non è restituita come testo dall'estrazione. È stata esaminata sulla pagina renderizzata: la figura è presente e la prosa ne propone una lettura esplicitamente incerta. Non è stata inventata una trascrizione né trasformato il segno in prova certa della presenza di Gandalf. Il campione rimane locale, escluso da Git; non è necessario eseguire OCR della narrazione.
 
 `research/tolkien/private/` e `work/tolkien/analysis/` contengono le citazioni e i giudizi ancora da verificare; entrambe sono escluse da Git. I file pubblici conservano conteggi, metodo e stato. Non è stata aggiunta alcuna citazione del romanzo al sito o al repository pubblico.
 
-`verify-analysis.py` verifica impronta del PDF, integrità delle unità lette, unicità degli identificativi nella sezione, categoria, intervallo di pagine e presenza letterale di ciascun riscontro dopo la sola normalizzazione degli spazi. Tutte le verifiche dei riscontri devono passare prima che siano sostituiti gli output locali di analisi e l'avanzamento. Le dichiarazioni di lettura restano manuali; non sono dedotte dalle ricerche lessicali o dall'esito dello script. Evidenziazioni, posizioni e riuso dei singoli passi restano pendenti.
+`verify-analysis.py` verifica impronta del PDF, integrità delle unità lette, unicità degli identificativi nella sezione, categoria e intervallo di pagine. Per la prosa controlla la presenza letterale del riscontro dopo la sola normalizzazione degli spazi; per le trascrizioni da figure conserva il metodo manuale distinto, descritto sotto. Tutte le verifiche dei riscontri devono passare prima che siano sostituiti gli output locali di analisi e l'avanzamento. Le dichiarazioni di lettura restano manuali; non sono dedotte dalle ricerche lessicali o dall'esito dello script. Evidenziazioni, posizioni e riuso dei singoli passi restano pendenti.
+
+Il disegno delle Porte di Durin (PDF 329), le rune della tomba (PDF 343) e la loro lettura (PDF 344) sono stati esaminati visivamente. La didascalia del disegno cita anche Beleriand come denominazione del modo di scrittura: questa menzione ha una trascrizione manuale, fonte visiva e impronta dell'immagine, distinta dal confronto automatico della prosa. Lo script verifica l'integrità dell'immagine locale e il collegamento a pagina e PDF; non pretende di dimostrare automaticamente la lettura umana della figura. Il controllo negativo copre sia testo estraneo alla fonte sia impronta errata dell'immagine, senza sovrascrivere gli output verificati. Non è stato eseguito OCR.
+
+Il titolo del capitolo II.5 era disordinato dall'estrazione per la sillaba accentata finale. È stato corretto soltanto nei metadati del manifesto dopo il controllo visivo di PDF 345: testo grezzo e impronta della sezione rimangono invariati.
 
 ## Originale ed edizioni
 
 Il testimone acquisito non viene presentato come testo aggiornato a ogni correzione successiva. Il controllo di tre punti segnalati da [Wayne G. Hammond e Christina Scull](https://www.hammondandscull.com/addenda/rings.html) mostra che conserva lezioni anteriori alle loro correzioni: nel Prologo, pagina stampata 8/PDF 32, e alle pagine stampate 367/PDF 391 e 373/PDF 397. Questo riscontro puntuale non è una collazione integrale; non sono state applicate correzioni silenziose alle citazioni. Le parti editoriali e l'indice sono accreditati separatamente agli autori indicati nel PDF.
 
-`quotation-budget.json` misura il primo insieme locale per l'analisi critica: 651 associazioni, 627 estratti diversi, 5.910 parole contando le ripetizioni e 5.708 deduplicate; il passo più lungo di questo insieme ha 20 parole. Nessun numero è usato come soglia automatica di liceità. Restano da valutare necessità e proporzione di ogni passo e del complesso, insieme all'eventuale confronto con un testimone di accesso editoriale documentato. Non è ancora stato approvato alcun estratto per la pubblicazione. La ricerca preliminare delle traduzioni riutilizzabili in italiano, francese e spagnolo resta documentata nel README, con le lacune aperte.
+`quotation-budget.json` misura il primo insieme locale per l'analisi critica: 741 associazioni, 714 estratti diversi, 6.707 parole contando le ripetizioni e 6.490 deduplicate; il passo più lungo di questo insieme ha 20 parole. Il conteggio comprende la breve trascrizione visiva; non comprende immagini del libro. Nessun numero è usato come soglia automatica di liceità. Restano da valutare necessità e proporzione di ogni passo e del complesso, insieme all'eventuale confronto con un testimone di accesso editoriale documentato. Non è ancora stato approvato alcun estratto per la pubblicazione. La ricerca preliminare delle traduzioni riutilizzabili in italiano, francese e spagnolo resta documentata nel README, con le lacune aperte.
 
 ## Modelli reali
 
@@ -99,11 +108,11 @@ Nessuna richiesta è stata inviata a terzi. Il prototipo locale verifica il comp
 
 ## Stato delle vedute e prossima lettura
 
-Resta favorevole la valutazione preliminare di vedute di Minas Tirith, Fosso di Helm e Moria, per chiarire livelli, accessi e percorsi. I relativi capitoli non sono ancora stati analizzati in questa lettura: non sono state realizzate vedute o inventate disposizioni. Le immagini di catalogo dovranno essere quadri esistenti con fonte e riuso documentati; tema, filigrana e descrizioni quadrilingui restano da predisporre dopo la scelta editoriale.
+Resta favorevole la valutazione preliminare di vedute di Minas Tirith e Fosso di Helm, i cui capitoli principali non sono ancora stati analizzati. Per Moria, ora sono stati letti II.4–II.5: tre vedute sarebbero utili, una esterna del lago e delle Porte di Durin, una della camera di Mazarbul e una del Second Hall con il ponte. Il testo descrive luce, colonne, porte e rapporto fra gli spazi, ma non una pianta completa: distinguere fenditura di fuoco e baratro, scala esterna e passaggi interni, e conservare le incertezze sulle quote espresse da Gandalf. Le vedute dovranno essere realistiche ed evocative; le posizioni sul disegno rimarranno interpretative. Non sono state realizzate immagini o inventate disposizioni. Le immagini di catalogo dovranno essere quadri esistenti con fonte e riuso documentati; tema, filigrana e descrizioni quadrilingui restano da predisporre dopo la scelta editoriale.
 
 La lettura di II.1–II.2 rende opportuna anche una veduta di Rivendell: terrazze sopra il Bruinen, giardino alto e portico orientato, ambiente della casa e paesaggio montano aiuterebbero a seguire risveglio, incontri e Consiglio. Il testo distingue anche le sale interne, ma non ne fornisce una pianta completa. Un'eventuale veduta dovrà essere realistica ed evocativa; volumi, prospettiva e disposizione non documentati saranno interpretativi, senza convertirli in geografia terrestre. Questa è una valutazione, non una veduta realizzata.
 
-La prossima unità da leggere è II.4, *A Journey in the Dark*, pagine PDF 319–344. Il lavoro non è concluso: restano 47 capitoli, sei appendici, il completamento dei preliminari e la verifica di indici/mappe, oltre alla riconciliazione critica e geografica e alla revisione dei diritti. Gli avanzamenti verificati della ricerca vengono pubblicati nel branch `docs`; nessun contenuto del nuovo romanzo è stato pubblicato in Supabase o sul sito.
+La prossima unità da leggere è II.6, *Lothlórien*, pagine PDF 357–376. Il lavoro non è concluso: restano 45 capitoli, sei appendici, il completamento dei preliminari e la verifica di indici/mappe, oltre alla riconciliazione critica e geografica e alla revisione dei diritti. Gli avanzamenti verificati della ricerca vengono pubblicati nel branch `docs`; nessun contenuto del nuovo romanzo è stato pubblicato in Supabase o sul sito.
 
 ## Ripresa locale
 

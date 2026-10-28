@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "status": "in-progress",
   "fullNovelAnalysisComplete": false,
   "sections": [
@@ -219,6 +219,36 @@
       "references": 65,
       "action": 22,
       "mentioned": 43,
+      "inventoryStatus": "first-manual-pass-reconciliation-pending",
+      "quotationRightsStatus": "pending",
+      "introductionsAvailable": [
+        "it",
+        "en",
+        "fr",
+        "es"
+      ]
+    },
+    {
+      "sectionId": "b2-c04",
+      "completeRead": true,
+      "references": 56,
+      "action": 26,
+      "mentioned": 30,
+      "inventoryStatus": "first-manual-pass-reconciliation-pending",
+      "quotationRightsStatus": "pending",
+      "introductionsAvailable": [
+        "it",
+        "en",
+        "fr",
+        "es"
+      ]
+    },
+    {
+      "sectionId": "b2-c05",
+      "completeRead": true,
+      "references": 34,
+      "action": 22,
+      "mentioned": 12,
       "inventoryStatus": "first-manual-pass-reconciliation-pending",
       "quotationRightsStatus": "pending",
       "introductionsAvailable": [
