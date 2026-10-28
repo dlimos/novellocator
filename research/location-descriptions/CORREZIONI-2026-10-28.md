@@ -33,13 +33,18 @@ conservazione dei contesti nel modello relazionale. Le patch SQL sono
 idempotenti e controllano la sorgente prima di scrivere.
 
 Le scritture Supabase sono state eseguite e i conteggi riletti nell'editor SQL.
-Il controllo pubblico finale verifica i casi segnalati e viene documentato
-con immagini della pagina pubblicata.
+Il codice è stato pubblicato su `docs` e verificato su GitHub Pages con versione
+`20261028-location-contexts-2`. Il controllo pubblico ha confermato i nuovi
+contesti dei sei romanzi, Riohacha e il passo autentico aperto di Parigi in Ulisse.
+In Don Chisciotte sono presenti 128 menzioni con entrambi i layer attivi e 153
+disattivando l'azione: elenco, numeri e conteggio coincidono in entrambi i casi,
+senza pulsanti visibili privi di numero. La suite completa è stata ripetuta con
+esito positivo dopo quest'ultima correzione.
 
 Riscontri pubblici riletti: la scheda globale del laghetto di Holden usa la
 scena del capitolo 20, Yellowstone è una menzione; Dorset in Lolita mostra il
 contesto genealogico specifico, senza l'avviso superato. La prova visiva è in
-`lolita-context-published.png`.
+`lolita-context-detail-published.png`.
 
 ## Lacune ancora aperte
 
