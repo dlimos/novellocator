@@ -1,0 +1,84 @@
+{
+  "spatialReference": {
+    "wkid": 4326,
+    "latestWkid": 4326
+  },
+  "candidates": [
+    {
+      "address": "Sarehole Mill Museum",
+      "location": {
+        "x": -1.85606,
+        "y": 52.43439
+      },
+      "score": 91.03,
+      "attributes": {
+        "Match_addr": "Sarehole Mill Museum",
+        "Addr_type": "POI",
+        "PlaceName": "Sarehole Mill Museum"
+      },
+      "extent": {
+        "xmin": -1.86106,
+        "ymin": 52.42939,
+        "xmax": -1.85106,
+        "ymax": 52.43939
+      }
+    },
+    {
+      "address": "B13 0BD, Birmingham, England",
+      "location": {
+        "x": -1.856058715776,
+        "y": 52.434412609988
+      },
+      "score": 89.6,
+      "attributes": {
+        "Match_addr": "B13 0BD, Birmingham, England",
+        "Addr_type": "PostalExt",
+        "PlaceName": "B13 0"
+      },
+      "extent": {
+        "xmin": -1.857058715776,
+        "ymin": 52.433412609988,
+        "xmax": -1.855058715776,
+        "ymax": 52.435412609988
+      }
+    },
+    {
+      "address": "Cole Bank Road, Moseley, Birmingham, West Midlands, England, B13 0BD",
+      "location": {
+        "x": -1.856106437511,
+        "y": 52.434045473885
+      },
+      "score": 89.5,
+      "attributes": {
+        "Match_addr": "Cole Bank Road, Moseley, Birmingham, West Midlands, England, B13 0BD",
+        "Addr_type": "StreetName",
+        "PlaceName": ""
+      },
+      "extent": {
+        "xmin": -1.857106437511,
+        "ymin": 52.433045473885,
+        "xmax": -1.855106437511,
+        "ymax": 52.435045473885
+      }
+    },
+    {
+      "address": "Cole Bank Road, Springfield, Moseley, Birmingham, West Midlands, England, B13 0BG",
+      "location": {
+        "x": -1.856808533546,
+        "y": 52.43385936136
+      },
+      "score": 88.04,
+      "attributes": {
+        "Match_addr": "Cole Bank Road, Springfield, Moseley, Birmingham, West Midlands, England, B13 0BG",
+        "Addr_type": "StreetName",
+        "PlaceName": ""
+      },
+      "extent": {
+        "xmin": -1.857808533546,
+        "ymin": 52.43285936136,
+        "xmax": -1.855808533546,
+        "ymax": 52.43485936136
+      }
+    }
+  ]
+}

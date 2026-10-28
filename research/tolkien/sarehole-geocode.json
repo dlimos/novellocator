@@ -1,0 +1,103 @@
+{
+  "spatialReference": {
+    "wkid": 4326,
+    "latestWkid": 4326
+  },
+  "candidates": [
+    {
+      "address": "Sarehole Mill Gardens, Birmingham, West Midlands, England, B13 8BP",
+      "location": {
+        "x": -1.884310038554,
+        "y": 52.451934215809
+      },
+      "score": 97.02,
+      "attributes": {
+        "Match_addr": "Sarehole Mill Gardens, Birmingham, West Midlands, England, B13 8BP",
+        "Addr_type": "StreetName",
+        "PlaceName": ""
+      },
+      "extent": {
+        "xmin": -1.885310038554,
+        "ymin": 52.450934215809,
+        "xmax": -1.883310038554,
+        "ymax": 52.452934215809
+      }
+    },
+    {
+      "address": "Sarehole Road, Birmingham, West Midlands, England, B28 0AL",
+      "location": {
+        "x": -1.854122873415,
+        "y": 52.431515991065
+      },
+      "score": 95.04,
+      "attributes": {
+        "Match_addr": "Sarehole Road, Birmingham, West Midlands, England, B28 0AL",
+        "Addr_type": "StreetName",
+        "PlaceName": ""
+      },
+      "extent": {
+        "xmin": -1.855122873415,
+        "ymin": 52.430515991065,
+        "xmax": -1.853122873415,
+        "ymax": 52.432515991065
+      }
+    },
+    {
+      "address": "Sarehole Road, Birmingham, West Midlands, England, B28 8ED",
+      "location": {
+        "x": -1.853291194397,
+        "y": 52.439998617197
+      },
+      "score": 95.04,
+      "attributes": {
+        "Match_addr": "Sarehole Road, Birmingham, West Midlands, England, B28 8ED",
+        "Addr_type": "StreetName",
+        "PlaceName": ""
+      },
+      "extent": {
+        "xmin": -1.854291194397,
+        "ymin": 52.438998617197,
+        "xmax": -1.852291194397,
+        "ymax": 52.440998617197
+      }
+    },
+    {
+      "address": "Sarehole Road, Hall Green, Birmingham, West Midlands, England",
+      "location": {
+        "x": -1.853779201539,
+        "y": 52.434574903593
+      },
+      "score": 95.04,
+      "attributes": {
+        "Match_addr": "Sarehole Road, Hall Green, Birmingham, West Midlands, England",
+        "Addr_type": "StreetName",
+        "PlaceName": ""
+      },
+      "extent": {
+        "xmin": -1.854779201539,
+        "ymin": 52.433574903593,
+        "xmax": -1.852779201539,
+        "ymax": 52.435574903593
+      }
+    },
+    {
+      "address": "Sarehole Road, Hall Green, Birmingham, West Midlands, England, B28 0AH",
+      "location": {
+        "x": -1.85386039403,
+        "y": 52.434223095157
+      },
+      "score": 95.04,
+      "attributes": {
+        "Match_addr": "Sarehole Road, Hall Green, Birmingham, West Midlands, England, B28 0AH",
+        "Addr_type": "StreetName",
+        "PlaceName": ""
+      },
+      "extent": {
+        "xmin": -1.85486039403,
+        "ymin": 52.433223095157,
+        "xmax": -1.85286039403,
+        "ymax": 52.435223095157
+      }
+    }
+  ]
+}

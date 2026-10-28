@@ -32,6 +32,8 @@ coverage/
 *.mdf
 *.ldf
 work/
+# Unpublished Tolkien analysis: complete evidence and rights review stay local.
+research/tolkien/private/
 database/generated/
 # Local novel datasets and research snapshots; published content is in Supabase.
 docs/data/

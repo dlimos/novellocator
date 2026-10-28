@@ -87,7 +87,7 @@ L'eventuale pubblicazione delle citazioni richiede una valutazione documentata p
 
 Le vedute sarebbero utili per Minas Tirith, il Fosso di Helm e Moria, perché la disposizione di porte, livelli, accessi e percorsi può aiutare la lettura. Questa è una valutazione preliminare, non una ricostruzione verificata. Prima di realizzarle vanno letti integralmente i capitoli pertinenti, distinti testo e interpretazione e verificati i diritti delle fonti figurative. Nessuna veduta è stata realizzata.
 
-Non è iniziata l'analisi narrativa integrale: zero associazioni capitolo–luogo verificate da questa attività. Modelli reali, classificazioni azione/menzione, citazioni, introduzioni quadrilingui, immagine pittorica di catalogo e tema restano pendenti. La ricerca non costituisce aggiunta completata del romanzo.
+Aggiornamento del 28 ottobre: letti integralmente Prologo e capitoli I.1–I.8, con 286 associazioni in prima analisi, riscontri originali verificati sul testimone locale e introduzioni nelle quattro lingue. La lettura dell'intera opera e la riconciliazione dell'inventario non sono concluse. È stato verificato nel browser anche un prototipo isolato della Web Map con punti sintetici. Stato, limiti e verifiche sono descritti in [PROGRESS.md](PROGRESS.md). La ricerca non costituisce aggiunta completata del romanzo.
 
 ## Riscontri riproducibili
 

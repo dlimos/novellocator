@@ -1,0 +1,29 @@
+{
+  "date":"2026-10-28",
+  "status":"research-only-not-imported",
+  "models":[{
+    "id":"sarehole-shire-model",
+    "fictionalPlaceId":"shire",
+    "scope":"real-literary-model",
+    "realName":"Sarehole and Sarehole Mill",
+    "relationship":"Sarehole, where Tolkien lived as a child, is documented as an inspiration for the Shire. The museum is a verifiable point of reference for that landscape, not the location of the fictional Shire or of Bag End.",
+    "inspirationSources":[
+      {"url":"https://www.tolkienestate.com/life/biography/","role":"Primary institutional biography: childhood in Sarehole and inspiration for the Shire."},
+      {"url":"https://www.birminghammuseums.org.uk/sarehole-mill/highlights/middle-earth","role":"Museum: Tolkien's childhood visits, landscape and mill imagery. The suggested connection between industrial Birmingham and Mordor is expressly speculative and is not adopted as a verified model."}
+    ],
+    "addressSource":"https://www.birminghammuseums.org.uk/sarehole-mill/visit/how-to-get-here",
+    "officialAddress":"Sarehole Mill, Cole Bank Road, Birmingham, B13 0BD",
+    "candidateReferencePoint":{"latitude":52.43439,"longitude":-1.85606,"type":"POI","name":"Sarehole Mill Museum","precision":"Indicative museum POI, not a cadastral or fictional-building location."},
+    "coordinateSource":{"url":"https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Sarehole%20Mill%2C%20Cole%20Bank%20Road%2C%20Birmingham%2C%20B13%200BD&f=json&outFields=Match_addr,Addr_type,PlaceName&maxLocations=5","snapshot":"sarehole-address-geocode.json","selectedCandidate":0,"publicationUseReview":"pending"},
+    "rejectedCandidates":{"snapshot":"sarehole-geocode.json","reason":"Higher-scored street-name matches for Sarehole Mill Gardens and Sarehole Road are not the museum. None was accepted as the model's position."},
+    "narrativeActionInRealPlace":false,
+    "narrativeEvidence":"Original Shire occurrences retained separately in local analysis; do not transfer fictional scenes to the real museum.",
+    "geometryDecision":"When a geographic reference is published, use the documented point as an inspiration reference. Do not trace a terrestrial region for the same fictional Shire.",
+    "publicationStatus":"pending"
+  }],
+  "rejectedInferences":[{
+    "claim":"Minas Tirith is Ravenna or Belgrade; Hobbiton is Oxford",
+    "source":"https://www.exeter.ox.ac.uk/tolkien-annotated-map-of-middle-earth-acquired-by-bodleian-library/",
+    "decision":"The reported annotations give latitude comparisons and relative distance, not literal locations or proof that these cities are the architectural models. No terrestrial markers or equivalences were created."
+  }]
+}
