@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-28",
+  "scope": "Targeted original-text comparisons after reading II.1 and II.2; not a complete recurrence audit or approval for publication.",
+  "reviews": [
+    {
+      "id": "frodo-dream-orthanc",
+      "sources": [
+        {"sectionId": "b1-c07", "pdfPages": [151]},
+        {"sectionId": "b2-c02", "pdfPages": [284, 285]}
+      ],
+      "status": "original-narrative-cross-reference-verified",
+      "findingIt": "La prigionia e la liberazione sulla cima di Orthanc vengono raccontate da Gandalf; Frodo interrompe il racconto riconoscendo la scena del proprio sogno. La corrispondenza è ora documentata nel testo, senza identificare anche la diversa torre sognata in I.5.",
+      "dataDecision": "Keep dream-stone-pinnacle identity, dream narrative level and exclusion from the geographical atlas; add depictsPlaceId=orthanc-pinnacle and the later verification reference. No physical visit by Frodo is inferred.",
+      "remaining": "Interpretative image placement and publication rights remain pending."
+    },
+    {
+      "id": "gandalf-weathertop-combat",
+      "sources": [
+        {"sectionId": "b1-c11", "pdfPages": [207, 211]},
+        {"sectionId": "b2-c02", "pdfPages": [288]}
+      ],
+      "status": "later-original-scene-verified",
+      "findingIt": "I bagliori, le bruciature e la runa di I.11 consentono ai personaggi soltanto un'ipotesi. In II.2 Gandalf narra l'assedio sulla cima dentro il cerchio di Amon Sûl e la fuga all'alba.",
+      "dataDecision": "Record the embedded action in II.2 at Weathertop and Amon Sul ruins. Preserve I.11's evidentiary limits. Keep this combat separate from the later attack on Frodo in the western dell.",
+      "remaining": "Exact local placement of the summit and the western dell requires cartographic and editorial reconciliation."
+    },
+    {
+      "id": "ford-figures-and-fire",
+      "sources": [
+        {"sectionId": "b1-c12", "pdfPages": [238, 239]},
+        {"sectionId": "b2-c01", "pdfPages": [247, 248]}
+      ],
+      "status": "later-original-explanation-verified",
+      "findingIt": "La percezione confusa di Frodo al guado viene chiarita da Gandalf: Glorfindel e i compagni escono dal piccolo avvallamento con le torce; Elrond provoca la piena e Gandalf ne modella alcuni aspetti. Il racconto precisa il sito del fuoco vicino al guado, diverso dall'avvallamento di Weathertop.",
+      "dataDecision": "Keep Frodo's original perception in I.12 and add Gandalf's embedded account with its own evidence in II.1. Do not create independent geographical locations for the shapes in the waves.",
+      "remaining": "All quotations remain analysis-only pending individual and aggregate rights review."
+    },
+    {
+      "id": "elrond-porch-recurrence",
+      "sources": [
+        {"sectionId": "b2-c01", "pdfPages": [250]},
+        {"sectionId": "b2-c02", "pdfPages": [263]}
+      ],
+      "status": "explicit-original-recurrence-verified",
+      "findingIt": "Il narratore indica esplicitamente che il Consiglio si tiene sul portico dove Frodo aveva incontrato gli amici la sera precedente. Non è la Sala del Fuoco né la sala del banchetto.",
+      "dataDecision": "Reuse elrond-east-porch across the two sections, with separate evidence and events for each association. Keep it out of the terrestrial unlocated-place list.",
+      "remaining": "A realistic house view is not yet designed or approved; no floor plan is inferred."
+    }
+  ],
+  "quotationTextIncluded": false,
+  "fullNovelAnalysisComplete": false
+}
