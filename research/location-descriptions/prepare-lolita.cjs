@@ -13,12 +13,13 @@ for(const r of before.place_references.filter(r=>r.book_id==='lolita')){
   if(!specific&&!/under review/i.test(r.scene_text)){retained++;continue;}
   description={status:'reviewed',reviewedAt:'2026-10-27',texts:specific||{},context:specific?'editorial':'authentic-quotation',evidence:{referenceId:r.id,excerptId:original.id,quoteSha256:hash(original.quote),pdfSha256:audit.source.sha256,previousReviewAt:audit.reviewedAt,section:record.sectionId,pages:record.pdfPages}};
  }else{assert.equal(r.section_id,71,'Unexpected original-text gap');description={status:'pending',reason:'source-unavailable',reviewedAt:'2026-10-27',texts:{},evidence:{referenceId:r.id,section:'afterword',sourceGap:'The selected native PDF does not include the authorial afterword.'}};}
- patches.push({id:r.id,category:r.category,oldHash:md5(r.scene_text||''),quoteHash:original?hash(original.quote):null,description});
+ const sceneText=description.status==='reviewed'?(description.texts.en||''):r.scene_text;
+ patches.push({id:r.id,category:r.category,oldHash:md5(r.scene_text||''),newHash:md5(sceneText||''),sceneText,quoteHash:original?hash(original.quote):null,description});
 }
 const data=q(JSON.stringify(patches));
 const sql=`do $nl_lolita$ declare patch jsonb := ${data}::jsonb; begin
- if (select count(*) from jsonb_to_recordset(patch) p(id text,category text,"oldHash" text,"quoteHash" text) join public.place_references r on r.book_id='lolita' and r.id=p.id and r.category=p.category and md5(coalesce(r.scene_text,''))=p."oldHash" where p."quoteHash" is null or exists(select 1 from public.excerpts e where e.book_id=r.book_id and e.reference_id=r.id and e.slot='original' and encode(sha256(convert_to(e.quote,'UTF8')),'hex')=p."quoteHash")) <> ${patches.length} then raise exception 'Lolita individual evidence changed'; end if;
- update public.place_references r set metadata=jsonb_set(r.metadata,'{narrativeDescription}',p.description,true) from jsonb_to_recordset(patch) p(id text,description jsonb) where r.book_id='lolita' and r.id=p.id;
+ if (select count(*) from jsonb_to_recordset(patch) p(id text,category text,"oldHash" text,"newHash" text,"quoteHash" text) join public.place_references r on r.book_id='lolita' and r.id=p.id and r.category=p.category and md5(coalesce(r.scene_text,'')) in(p."oldHash",p."newHash") where p."quoteHash" is null or exists(select 1 from public.excerpts e where e.book_id=r.book_id and e.reference_id=r.id and e.slot='original' and encode(sha256(convert_to(e.quote,'UTF8')),'hex')=p."quoteHash")) <> ${patches.length} then raise exception 'Lolita individual evidence changed'; end if;
+ update public.place_references r set scene_text=p."sceneText",metadata=jsonb_set(r.metadata,'{narrativeDescription}',p.description,true) from jsonb_to_recordset(patch) p(id text,"sceneText" text,description jsonb) where r.book_id='lolita' and r.id=p.id;
 end $nl_lolita$;
 select metadata->'narrativeDescription'->>'status' as status,count(*) from public.place_references where book_id='lolita' and metadata ? 'narrativeDescription' group by 1;`;
 const actualNames=new Set(before.place_descriptions.filter(p=>p.book_id==='lolita').map(p=>p.name));const translations=[];

@@ -35,6 +35,11 @@ Le scritture Supabase sono state eseguite e i conteggi riletti nell'editor SQL.
 Il controllo pubblico finale verifica i casi segnalati e viene documentato
 con immagini della pagina pubblicata.
 
+Riscontri pubblici riletti: la scheda globale del laghetto di Holden usa la
+scena del capitolo 20, Yellowstone è una menzione; Dorset in Lolita mostra il
+contesto genealogico specifico, senza l'avviso superato. La prova visiva è in
+`lolita-context-published.png`.
+
 ## Lacune ancora aperte
 
 I 17 riferimenti alla postfazione di Lolita restano pendenti: la copia verificata

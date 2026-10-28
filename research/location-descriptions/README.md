@@ -44,3 +44,8 @@ estratti protetti. Sono uniformati 26 toponimi in italiano, francese e spagnolo.
 `sync-local.cjs` sincronizza i backup di importazione esclusi da Git e conserva
 una copia precedente prima della prima scrittura. Le traduzioni comuni mancanti
 nel backup Holden sono recuperate dalle righe già pubblicate in Supabase.
+
+In Lolita le etichette legacy «under review» vengono svuotate quando è disponibile
+il passo autentico oppure sostituite dal contesto specifico. Anche una copia
+precedente del motore evita così di riattivare avvisi ormai superati. La patch
+accetta soltanto l'impronta della sorgente attesa o del risultato già applicato.
