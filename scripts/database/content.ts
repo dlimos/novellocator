@@ -7,7 +7,7 @@ export interface Passage extends Obj {quote:string;language:string;type:'origina
 export interface Excerpt {original:Passage;translations:Record<string,Passage>}
 interface Place extends Obj {name:string;area:string;coords:[number,number];zoom:number;kind:string;checked:string;status:string;note:string;method:string;positionSource:Source;narrativeSource?:Source;additionalSource?:Source}
 interface Citation extends Obj {placeId:string;category:string;excerpt:Excerpt}
-interface Section extends Obj {id:number;title:string;places:string[];placeText:string[];placeCategories?:Record<string,string>;placeSources?:Record<string,Source>;placeRoles?:Record<string,string>;placeQuotes?:Record<string,string>;placeExcerpts?:Record<string,Excerpt>;excerpts?:Excerpt;citations?:Citation[];unlocatedPlaces?:Array<Obj&{name:string;text:string;quote:string;url:string}>}
+interface Section extends Obj {id:number;title:string;places:string[];placeText:string[];placeCategories?:Record<string,string>;placeSources?:Record<string,Source>;placeRoles?:Record<string,string>;placeQuotes?:Record<string,string>;placeExcerpts?:Record<string,Excerpt>;placeNarrativeDescriptions?:Record<string,Obj>;excerpts?:Excerpt;citations?:Citation[];unlocatedPlaces?:Array<Obj&{name:string;text:string;quote:string;url:string}>}
 export interface Dataset {book:Obj&{id:string;title:string;author:string};chapters:Section[];places:Record<string,Place>;citedPlaces:Record<string,Place>}
 export type Dictionary=Record<string,Record<string,string>>;
 // Reconstruct the unchanged browser contract from relational rows.

@@ -27,6 +27,20 @@ aperto, con lo stesso selettore di lingua e attribuzione; non si aggiunge una
 formula generica. I riferimenti realmente pendenti rimangono segnalati e non
 acquisiscono automaticamente lo stato di verificati.
 
-I TSV supplementari dei capitoli I.6 e II.6 di Dostoevskij sono stati confrontati
-con `work/crime-and-punishment/sections.json`. La modifica editoriale da sola
-non certifica i vecchi estratti associati, che richiedono una correzione separata.
+I capitoli I.6 e II.6 di Dostoevskij sono stati confrontati con le sezioni complete:
+i due estratti generici sono sostituiti da riscontri specifici della Sennaja;
+II.6 passa all'azione perché narra l'arrivo, la sosta e il colloquio nella piazza.
+In Holden, capitolo 2, Yellowstone passa alla menzione: è riferito l'acquisto
+della coperta, mentre la scena ricordata è la visita a Spencer. Motivi, livello
+narrativo e impronte delle sezioni restano registrati separatamente.
+
+Per Lolita `prepare-lolita.cjs` ricontrolla i 411 riscontri del PDF nativo. La
+patch risolve 177 vecchi stati di verifica, conserva 15 contesti già specifici,
+aggiunge nove descrizioni redazionali e offre direttamente il passo autentico
+negli altri casi. I 17 riferimenti della postfazione mantengono la lacuna reale:
+il testo non è contenuto nella copia verificata. Non vengono aggiunti nuovi
+estratti protetti. Sono uniformati 26 toponimi in italiano, francese e spagnolo.
+
+`sync-local.cjs` sincronizza i backup di importazione esclusi da Git e conserva
+una copia precedente prima della prima scrittura. Le traduzioni comuni mancanti
+nel backup Holden sono recuperate dalle righe già pubblicate in Supabase.

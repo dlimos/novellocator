@@ -15,7 +15,7 @@ export function loadInputs(root:string,ids:readonly string[]=bookIds){return ids
 function without(value:Obj,keys:string[]):Obj{return Object.fromEntries(Object.entries(value).filter(([key])=>!keys.includes(key)));}
 function canonical(value:unknown):string{if(Array.isArray(value))return '['+value.map(canonical).join(',')+']';if(value&&typeof value==='object')return '{'+Object.entries(value).sort(([a],[b])=>a.localeCompare(b)).map(([key,v])=>JSON.stringify(key)+':'+canonical(v)).join(',')+'}';return JSON.stringify(value);}
 const hash=(value:string)=>createHash('sha256').update(value).digest('hex');
-const sectionFields=['places','placeText','placeCategories','placeSources','placeRoles','placeQuotes','placeExcerpts','excerpts','citations','unlocatedPlaces'];
+const sectionFields=['places','placeText','placeCategories','placeSources','placeRoles','placeQuotes','placeExcerpts','placeNarrativeDescriptions','excerpts','citations','unlocatedPlaces'];
 export function normalize(inputs:ReturnType<typeof loadInputs>):Bundle {
  const bundle:Bundle={formatVersion:1,tables:{books:[],sections:[],places:[],sources:[],place_descriptions:[],place_references:[],excerpts:[],unlocated_settings:[],content_translations:[]}};
  for(const {id,data,dictionary} of inputs){
@@ -52,6 +52,7 @@ export function normalize(inputs:ReturnType<typeof loadInputs>):Bundle {
    c.places.forEach((placeId,index)=>{
     const refId=`${c.id}:core:${placeId}`,metadata:Obj={};
     if(Object.hasOwn(c.placeCategories||{},placeId))metadata.explicitCategory=true;
+    if(c.placeNarrativeDescriptions?.[placeId])metadata.narrativeDescription=c.placeNarrativeDescriptions[placeId];
     if(Object.hasOwn(c.placeRoles||{},placeId))metadata.role=c.placeRoles![placeId];
     if(Object.hasOwn(c.placeQuotes||{},placeId))metadata.quote=c.placeQuotes![placeId];
     bundle.tables.place_references.push({book_id:id,id:refId,section_id:c.id,place_id:placeId,collection:'core',ordinal:index,category:c.placeCategories?.[placeId]||'action',scene_text:c.placeText[index],source_id:source(c.placeSources?.[placeId]),metadata});

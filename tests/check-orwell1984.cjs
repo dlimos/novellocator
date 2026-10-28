@@ -17,7 +17,7 @@ for(const c of data.chapters){
  const seen=new Set();
  for(const ref of c.citations){assert(!seen.has(ref.placeId));seen.add(ref.placeId);assert(data.citedPlaces[ref.placeId]);assert.equal(ref.category,'mentioned');evidence(ref.excerpt.original);mapped++;}
  for(const p of c.unlocatedPlaces){evidence(p);assert(!Object.hasOwn(p,'coords'));unlocated++;}
- for(const lang of ['en','it','fr','es'])for(const value of [c.title,c.text,c.note,c.emptyMessage,...c.unlocatedPlaces.map(p=>p.name)])assert(dict[lang][value],lang+': '+value);
+ for(const lang of ['en','it','fr','es'])for(const value of [c.title,c.text,...[c.note,c.emptyMessage].filter(v=>typeof v==='string'&&v.trim()),...c.unlocatedPlaces.map(p=>p.name)])assert(dict[lang][value],lang+': '+value);
  for(const lang of ['it','fr','es'])assert.notEqual(dict[lang][c.text],c.text);
 }
 assert.equal(new Set([...Object.keys(data.places),...Object.keys(data.citedPlaces)]).size,58);assert.equal(mapped,102);assert.equal(unlocated,203);

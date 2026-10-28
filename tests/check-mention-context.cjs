@@ -28,6 +28,10 @@ for(const locale of ['en','it','fr','es']){
  ref.narrativeDescription={status:'reviewed',texts:{en:'Reviewed context',it:'Contesto verificato',fr:'Contexte vérifié',es:'Contexto verificado'}};
  vm.runInContext('selectCitation(0,false)',ctx);
  assert(elements['selected-location'].innerHTML.includes(ref.narrativeDescription.texts[locale]));
+ ref.narrativeDescription={status:'reviewed',texts:{}};ref.scene='Geographical reference under review; legacy label';
+ vm.runInContext('selectCitation(0,false)',ctx);
+ assert(!elements['selected-location'].innerHTML.includes('data-narrative-status="pending"'),'Reviewed evidence supersedes an obsolete pending label');
+ assert(elements['selected-location'].children.some(child=>child.innerHTML?.includes('class="original-excerpt" open>')));
 }
 const ctx={window:{}};
 for(const file of ['content-adapter.js','supabase-data.js','csv-export.js'])vm.runInNewContext(fs.readFileSync('docs/'+file,'utf8'),ctx);

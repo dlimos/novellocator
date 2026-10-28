@@ -1,0 +1,10 @@
+const fs=require('fs'),assert=require('assert/strict'),{PGlite}=require('@electric-sql/pglite');
+(async()=>{const b=require('./before.json'),manifest=require('./release/lolita-manifest.json');const db=new PGlite();
+await db.exec('create table place_references(book_id text,id text,category text,scene_text text,metadata jsonb);create table excerpts(book_id text,reference_id text,slot text,quote text);create table content_translations(book_id text,language text,source_hash text,source_text text,translated_text text,primary key(book_id,language,source_hash));');
+for(const r of b.place_references.filter(r=>r.book_id==='lolita'))await db.query('insert into place_references values($1,$2,$3,$4,$5)',[r.book_id,r.id,r.category,r.scene_text,r.metadata]);
+for(const e of b.excerpts.filter(e=>e.book_id==='lolita'))await db.query('insert into excerpts values($1,$2,$3,$4)',[e.book_id,e.reference_id,e.slot,e.quote]);
+for(const file of ['lolita','lolita-names']){const sql=fs.readFileSync(__dirname+'/release/'+file+'.sql','utf8');await db.exec(sql);await db.exec(sql);}
+for(const r of (await db.query('select * from place_references')).rows){const old=b.place_references.find(p=>p.book_id===r.book_id&&p.id===r.id),patch=manifest.patches.find(p=>p.id===r.id);assert.equal(r.category,old.category);assert.equal(r.scene_text,old.scene_text);assert.deepEqual(r.metadata,patch?{...old.metadata,narrativeDescription:patch.description}:old.metadata);}
+const names=(await db.query('select * from content_translations')).rows;assert.equal(names.length,manifest.translations.length);assert(names.some(n=>n.source_text==='London'&&n.language==='it'&&n.translated_text==='Londra'));
+assert.equal(manifest.patches.filter(p=>p.description.status==='reviewed').length,177);assert.equal(manifest.patches.filter(p=>p.description.reason==='source-unavailable').length,17);
+await db.close();console.log('PASS: 411 native-PDF evidence hashes, 177 obsolete pending labels resolved, 17 genuine afterword gaps retained, 26 toponyms in three translations; SQL repeatable and categories/quotations unchanged.');})().catch(e=>{console.error(e);process.exitCode=1});

@@ -8,7 +8,7 @@
   const places={...input.citedPlaces,...input.places};
   const sourceChapters=input.chapters;
   const sourceViews=sourceChapters.map(section=>{
-   const chapter={...section,places:[...(section.places||[])],placeText:[...(section.placeText||[])],placeCategories:{...section.placeCategories},placeExcerpts:{...section.placeExcerpts},placeSources:{...section.placeSources},unlocatedPlaces:(section.unlocatedPlaces||[]).map(item=>({...item}))};
+   const chapter={...section,places:[...(section.places||[])],placeText:[...(section.placeText||[])],placeCategories:{...section.placeCategories},placeExcerpts:{...section.placeExcerpts},placeSources:{...section.placeSources},...(section.placeNarrativeDescriptions?{placeNarrativeDescriptions:{...section.placeNarrativeDescriptions}}:{}),unlocatedPlaces:(section.unlocatedPlaces||[]).map(item=>({...item}))};
    for(const item of chapter.unlocatedPlaces){
     const key=item.id||item.name;
     if(review.coveredSettings?.[chapter.id]?.[key]){item.displayInAtlas=false;item.mappedPlaceId=review.coveredSettings[chapter.id][key];}

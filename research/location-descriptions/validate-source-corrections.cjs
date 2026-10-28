@@ -1,0 +1,10 @@
+const fs=require('fs'),assert=require('assert/strict'),{PGlite}=require('@electric-sql/pglite');
+(async()=>{const b=require('./before.json'),c=require('./release/source-corrections.json');const db=new PGlite();await db.exec('create table place_references(book_id text,id text,category text,scene_text text,metadata jsonb);create table excerpts(book_id text,id text,quote text,metadata jsonb);');
+const refs=b.place_references.filter(r=>r.book_id==='crime-and-punishment'&&['6:core:haymarket','13:core:haymarket'].includes(r.id)||r.book_id==='holden'&&r.id==='2:core:yellowstone');
+const excerpts=b.excerpts.filter(e=>e.book_id==='crime-and-punishment'&&['6:core:haymarket','13:core:haymarket'].includes(e.reference_id)&&e.slot==='original');
+for(const r of refs)await db.query('insert into place_references values($1,$2,$3,$4,$5)',[r.book_id,r.id,r.category,r.scene_text,r.metadata]);for(const e of excerpts)await db.query('insert into excerpts values($1,$2,$3,$4)',[e.book_id,e.id,e.quote,e.metadata]);
+const sql=fs.readFileSync(__dirname+'/release/source-corrections.sql','utf8');await db.exec(sql);await db.exec(sql);
+const after=(await db.query('select * from place_references')).rows;assert.equal(after.find(r=>r.book_id==='holden').category,'mentioned');assert.equal(after.find(r=>r.id==='13:core:haymarket').category,'action');assert.equal(after.find(r=>r.id==='6:core:haymarket').category,'mentioned');
+for(const r of after){const old=refs.find(x=>x.book_id===r.book_id&&x.id===r.id);assert.equal(r.scene_text,old.scene_text);const {categoryReview,...metadata}=r.metadata;assert(categoryReview.reason);assert.deepEqual(metadata,old.metadata);}
+for(const e of (await db.query('select * from excerpts')).rows){const section=Number(e.id.split(':')[0]);assert.equal(e.quote,c.corrections.find(x=>x.section===section).quote);assert.deepEqual(e.metadata.highlightTerms,['Сенной']);}
+await db.close();console.log('PASS: two specific original passages, category proof and literal highlights; Yellowstone reported purchase stays mentioned; repeatable SQL and unrelated fields preserved.');})().catch(e=>{console.error(e);process.exitCode=1});

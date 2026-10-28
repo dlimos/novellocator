@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';
+import {loadInputs,normalize,reconstruct} from '../scripts/database/model.js';
+const inputs=loadInputs(process.cwd(),['holden']);
+const chapter=inputs[0].data.chapters[0],place=chapter.places[0];
+const context={status:'reviewed',texts:{en:'The reference describes D.B.’s film career.',it:'Il riferimento descrive la carriera cinematografica di D.B.',fr:'La référence décrit la carrière au cinéma de D.B.',es:'La referencia describe la carrera cinematográfica de D.B.'}};
+chapter.placeNarrativeDescriptions={[place]:context};
+const bundle=normalize(inputs);
+assert.deepEqual(bundle.tables.place_references.find(r=>r.place_id===place&&r.section_id===chapter.id)?.metadata.narrativeDescription,context);
+assert(!Object.hasOwn(bundle.tables.sections[0].metadata,'placeNarrativeDescriptions'));
+const result=reconstruct(bundle,'holden');
+assert.deepEqual(result.data,inputs[0].data);
+assert.deepEqual(result.dictionary,inputs[0].dictionary);
+console.log('PASS: reviewed context survives normalized reference storage and exact reconstruction without duplication in section metadata.');

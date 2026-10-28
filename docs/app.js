@@ -6,7 +6,7 @@ function applyGeographicReview(input){
  const review=input.book.geographicReview;
  if(!review?.regionalPlaces?.length&&!review?.hiddenUnlocatedKeys?.length)return input;
  // Work on a view copy: the imported text, quotations and analysis stay intact.
- const data={...input,places:{...input.places},chapters:input.chapters.map(chapter=>({...chapter,places:[...(chapter.places||[])],placeText:[...(chapter.placeText||[])],...(chapter.overviewPlaces?{overviewPlaces:[...chapter.overviewPlaces]}:{}),placeCategories:{...chapter.placeCategories},placeSources:{...chapter.placeSources},placeExcerpts:{...chapter.placeExcerpts},unlocatedPlaces:(chapter.unlocatedPlaces||[]).map(item=>({...item}))}))};
+ const data={...input,places:{...input.places},chapters:input.chapters.map(chapter=>({...chapter,places:[...(chapter.places||[])],placeText:[...(chapter.placeText||[])],...(chapter.overviewPlaces?{overviewPlaces:[...chapter.overviewPlaces]}:{}),placeCategories:{...chapter.placeCategories},placeSources:{...chapter.placeSources},placeExcerpts:{...chapter.placeExcerpts},...(chapter.placeNarrativeDescriptions?{placeNarrativeDescriptions:{...chapter.placeNarrativeDescriptions}}:{}),unlocatedPlaces:(chapter.unlocatedPlaces||[]).map(item=>({...item}))}))};
  const hidden=new Set(review.hiddenUnlocatedKeys||[]);
  if(review.sidebarNote)data.book={...data.book,sidebarNote:review.sidebarNote};
  if(review.sectionNote)for(const chapter of data.chapters)chapter.note=review.sectionNote;
@@ -362,10 +362,10 @@ function locationNarrative(chapter,id,citation){
  const review=citation?.narrativeDescription||chapter.placeNarrativeDescriptions?.[id];
  const legacy=citation?(citation.scene?.trim()||citation.text?.trim()):chapter.placeText?.[chapter.places.indexOf(id)];
  const text=review?.status==='reviewed'?(review.texts?.[locale]||review.texts?.en):legacy;
- const pending=review?.status==='pending'||/under review|in verifica/i.test(legacy||'');
+ const pending=review?.status==='pending'||(!review&&/under review|in verifica/i.test(legacy||''));
  if(text?.trim()&&!isGenericLocationDescription(text)&&!pending)return '<p class="location-scene">'+esc(t(text))+'</p>';
  if(!pending)return '';
- const messages={it:'Riscontro narrativo in verifica. Il riferimento resta provvisorio.',en:'Narrative evidence under review. This reference remains provisional.',fr:'Preuve narrative en cours de vérification. Cette référence reste provisoire.',es:'Prueba narrativa en revisión. Esta referencia sigue siendo provisional.'};
+ const messages=review?.reason==='source-unavailable'?{it:'La copia verificata non contiene il testo originale di questa sezione.',en:'The verified copy does not contain this section’s original text.',fr:'La copie vérifiée ne contient pas le texte original de cette section.',es:'La copia verificada no contiene el texto original de esta sección.'}:{it:'Riscontro narrativo in verifica. Il riferimento resta provvisorio.',en:'Narrative evidence under review. This reference remains provisional.',fr:'Preuve narrative en cours de vérification. Cette référence reste provisoire.',es:'Prueba narrativa en revisión. Esta referencia sigue siendo provisional.'};
  return '<p class="episode-note location-review-status" data-narrative-status="pending">'+esc(messages[locale]||messages.en)+'</p>';
 }
 // Keep the short position status visible; collect precision notes at their source.
