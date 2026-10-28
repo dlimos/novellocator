@@ -6,7 +6,7 @@
 
 L'originale è stato suddiviso in 72 unità locali con pagine e impronte SHA-256: preliminari editoriali, Prologo, 62 capitoli, appendici A–F, indici e mappe. Questa preparazione non è marcata come lettura completata. `reading-manifest.json` registra separatamente lettura, primo inventario e verifiche successive.
 
-Sono stati letti integralmente il Prologo e i capitoli I.1–I.8. I preliminari editoriali sono stati consultati solo in parte: il relativo stato resta pendente. I capitoli successivi, le appendici e gli indici non sono dichiarati letti. Le sezioni lette conservano introduzioni narrative nelle quattro lingue, motivazioni individuali e riscontri originali.
+Sono stati letti integralmente il Prologo e tutti i dodici capitoli del Libro I (pagine PDF 45–240). Questo completa la lettura narrativa del primo dei sei libri interni, non del volume *The Fellowship of the Ring*, che contiene anche il Libro II. I preliminari editoriali sono stati consultati solo in parte: il relativo stato resta pendente. I libri II–VI, le appendici e gli indici non sono dichiarati letti. Le sezioni lette conservano introduzioni narrative nelle quattro lingue, motivazioni individuali e riscontri originali.
 
 | Sezione | Associazioni in prima analisi | action | mentioned |
 | --- | ---: | ---: | ---: |
@@ -19,9 +19,13 @@ Sono stati letti integralmente il Prologo e i capitoli I.1–I.8. I preliminari 
 | I.6 | 23 | 17 | 6 |
 | I.7 | 19 | 6 | 13 |
 | I.8 | 28 | 13 | 15 |
-| Totale | 286 | 105 | 181 |
+| I.9 | 33 | 14 | 19 |
+| I.10 | 31 | 13 | 18 |
+| I.11 | 50 | 27 | 23 |
+| I.12 | 42 | 26 | 16 |
+| Totale | 442 | 185 | 257 |
 
-Questi sono conteggi dell'analisi, non marker approvati o conteggi pubblici. Comprendono ambientazioni senza posizione utile e sei scene oniriche o visionarie escluse dalla futura vista geografica. L'inventario è un primo passaggio manuale, non una certificazione di completezza. La corrispondenza delle citazioni al testo non sostituisce la revisione narrativa e geografica delle decisioni.
+Questi sono conteggi dell'analisi, non marker approvati o conteggi pubblici. Comprendono ambientazioni senza posizione utile, sogni, visioni e luoghi dei canti intercalati esclusi dalla futura vista geografica. L'inventario è un primo passaggio manuale, non una certificazione di completezza. La corrispondenza delle citazioni al testo non sostituisce la revisione narrativa e geografica delle decisioni.
 
 Le distinzioni già registrate includono:
 
@@ -34,16 +38,22 @@ Le distinzioni già registrate includono:
 - I.6: il tunnel nella siepe viene attraversato; la radura, il colle, il ruscello e il salice restano distinti. Il soccorso di Tom avviene nel bosco; il capitolo termina già sulla soglia della sua casa, senza anticipare le scene interne.
 - I.7: la permanenza nella casa è verificata anche nelle pagine senza ripetizione del toponimo. Orto e giardino sono osservati dalle finestre. Le visioni notturne non diventano punti geografici; l'identificazione della torre vista da Frodo richiede confronto con il successivo racconto originale.
 - I.8: la pietra singola del pasto non è la coppia attraversata nella nebbia, e quella coppia non è il vero varco settentrionale raggiunto dopo il soccorso. Carn Dûm indica l'origine degli aggressori nel ricordo di Merry, non il campo di battaglia. La strada viene raggiunta e percorsa; Bree e la locanda restano destinazioni prima dell'ingresso verificabile nel capitolo successivo.
+- I.9: ingresso a Bree e visita al Pony sono documentati, distinti dall'avvicinamento del capitolo precedente. Saletta, sala comune e cortile sono verificati separatamente. Le notizie del crollo a Michel Delving restano prudentemente menzioni; il canto della locanda immaginaria non produce marker sulla mappa del viaggio.
+- I.10: il dialogo attuale avviene nella saletta; i colloqui raccontati di Gandalf con Butterbur e dei Cavalieri con Harry sono scene intercalate. Il riferimento a Sarn Ford è una notizia di incontro, senza episodio sviluppato; il passaggio dei Cavalieri dal cancello sud è un'inferenza, non osservazione. Nel dubbio Eriador resta menzione in questa associazione.
+- I.11: il narratore alterna la fuga di Fredegar e l'irruzione a Crickhollow con la partenza da Bree e il viaggio. L'avvallamento occidentale di Weathertop, dove Frodo viene ferito, è distinto dalla cima e dalle rovine di Amon Sûl. La presunta battaglia precedente di Gandalf resta da verificare nel suo racconto successivo. L'incontro di Beren e Lúthien nel canto viene esplicitamente localizzato in Neldoreth, presso Esgalduin, e conservato come racconto intercalato.
+- I.12: il risveglio e le prime cure avvengono nello stesso avvallamento, benché il nome non ricorra subito. Sono distinti il riparo nella roccia, il campo al valico e la grotta dei troll, dove entrano soltanto Aragorn e Merry. Frodo attraversa il guado e si ferma sulla riva opposta; non arriva ancora alla casa di Elrond. L'equivalenza dei nomi dei fiumi viene documentata dall'originale, senza confondere il Mitheithel superiore col Greyflood dopo la confluenza.
+
+La runa che compare a pagina PDF 211/stampata 187 non è restituita come testo dall'estrazione. È stata esaminata sulla pagina renderizzata: la figura è presente e la prosa ne propone una lettura esplicitamente incerta. Non è stata inventata una trascrizione né trasformato il segno in prova certa della presenza di Gandalf. Il campione rimane locale, escluso da Git; non è necessario eseguire OCR della narrazione.
 
 `research/tolkien/private/` e `work/tolkien/analysis/` contengono le citazioni e i giudizi ancora da verificare; entrambe sono escluse da Git. I file pubblici conservano conteggi, metodo e stato. Non è stata aggiunta alcuna citazione del romanzo al sito o al repository pubblico.
 
-`verify-analysis.py` verifica impronta del PDF, integrità delle unità lette, unicità degli identificativi nella sezione, categoria, intervallo di pagine e presenza letterale di ciascun riscontro dopo la sola normalizzazione degli spazi. Le dichiarazioni di lettura restano manuali; non sono dedotte dalle ricerche lessicali o dall'esito dello script. Evidenziazioni, posizioni e riuso dei singoli passi restano pendenti.
+`verify-analysis.py` verifica impronta del PDF, integrità delle unità lette, unicità degli identificativi nella sezione, categoria, intervallo di pagine e presenza letterale di ciascun riscontro dopo la sola normalizzazione degli spazi. Tutte le verifiche dei riscontri devono passare prima che siano sostituiti gli output locali di analisi e l'avanzamento. Le dichiarazioni di lettura restano manuali; non sono dedotte dalle ricerche lessicali o dall'esito dello script. Evidenziazioni, posizioni e riuso dei singoli passi restano pendenti.
 
 ## Originale ed edizioni
 
 Il testimone acquisito non viene presentato come testo aggiornato a ogni correzione successiva. Il controllo di tre punti segnalati da [Wayne G. Hammond e Christina Scull](https://www.hammondandscull.com/addenda/rings.html) mostra che conserva lezioni anteriori alle loro correzioni: nel Prologo, pagina stampata 8/PDF 32, e alle pagine stampate 367/PDF 391 e 373/PDF 397. Questo riscontro puntuale non è una collazione integrale; non sono state applicate correzioni silenziose alle citazioni. Le parti editoriali e l'indice sono accreditati separatamente agli autori indicati nel PDF.
 
-`quotation-budget.json` misura il primo insieme locale per l'analisi critica: 286 associazioni, 270 estratti diversi, 2.549 parole contando le ripetizioni e 2.419 deduplicate; il passo più lungo di questo insieme ha 17 parole. Nessun numero è usato come soglia automatica di liceità. Restano da valutare necessità e proporzione di ogni passo e del complesso, insieme all'eventuale confronto con un testimone di accesso editoriale documentato. Non è ancora stato approvato alcun estratto per la pubblicazione. La ricerca preliminare delle traduzioni riutilizzabili in italiano, francese e spagnolo resta documentata nel README, con le lacune aperte.
+`quotation-budget.json` misura il primo insieme locale per l'analisi critica: 442 associazioni, 421 estratti diversi, 4.047 parole contando le ripetizioni e 3.867 deduplicate; il passo più lungo di questo insieme ha 20 parole. Nessun numero è usato come soglia automatica di liceità. Restano da valutare necessità e proporzione di ogni passo e del complesso, insieme all'eventuale confronto con un testimone di accesso editoriale documentato. Non è ancora stato approvato alcun estratto per la pubblicazione. La ricerca preliminare delle traduzioni riutilizzabili in italiano, francese e spagnolo resta documentata nel README, con le lacune aperte.
 
 ## Modelli reali
 
@@ -83,13 +93,14 @@ Nessuna richiesta è stata inviata a terzi. Il prototipo locale verifica il comp
 
 Resta favorevole la valutazione preliminare di vedute di Minas Tirith, Fosso di Helm e Moria, per chiarire livelli, accessi e percorsi. I relativi capitoli non sono ancora stati analizzati in questa lettura: non sono state realizzate vedute o inventate disposizioni. Le immagini di catalogo dovranno essere quadri esistenti con fonte e riuso documentati; tema, filigrana e descrizioni quadrilingui restano da predisporre dopo la scelta editoriale.
 
-La prossima unità da leggere è I.9, *At the Sign of the Prancing Pony*, da pagina PDF 173. Il lavoro non è concluso: restano 54 capitoli, sei appendici, il completamento dei preliminari e la verifica di indici/mappe, oltre alla riconciliazione critica e geografica e alla revisione dei diritti. Il solo avanzamento di ricerca è pronto per Git; nessun contenuto del nuovo romanzo è stato pubblicato in Supabase o sul sito.
+La prossima unità da leggere è II.1, *Many Meetings*, pagine PDF 243–262. Il lavoro non è concluso: restano 50 capitoli, sei appendici, il completamento dei preliminari e la verifica di indici/mappe, oltre alla riconciliazione critica e geografica e alla revisione dei diritti. Gli avanzamenti verificati della ricerca vengono pubblicati nel branch `docs`; nessun contenuto del nuovo romanzo è stato pubblicato in Supabase o sul sito.
 
 ## Ripresa locale
 
 ```powershell
 python -X utf8 research/tolkien/prepare-corpus.py
 python -X utf8 research/tolkien/verify-analysis.py
+python -X utf8 research/tolkien/check-analysis-validation.py
 python -X utf8 research/tolkien/quotation-budget.py
 node research/tolkien/check-webmap-prototype.cjs
 ```

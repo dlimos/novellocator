@@ -87,7 +87,7 @@ L'eventuale pubblicazione delle citazioni richiede una valutazione documentata p
 
 Le vedute sarebbero utili per Minas Tirith, il Fosso di Helm e Moria, perché la disposizione di porte, livelli, accessi e percorsi può aiutare la lettura. Questa è una valutazione preliminare, non una ricostruzione verificata. Prima di realizzarle vanno letti integralmente i capitoli pertinenti, distinti testo e interpretazione e verificati i diritti delle fonti figurative. Nessuna veduta è stata realizzata.
 
-Aggiornamento del 28 ottobre: letti integralmente Prologo e capitoli I.1–I.8, con 286 associazioni in prima analisi, riscontri originali verificati sul testimone locale e introduzioni nelle quattro lingue. La lettura dell'intera opera e la riconciliazione dell'inventario non sono concluse. È stato verificato nel browser anche un prototipo isolato della Web Map con punti sintetici. Stato, limiti e verifiche sono descritti in [PROGRESS.md](PROGRESS.md). La ricerca non costituisce aggiunta completata del romanzo.
+Aggiornamento del 28 ottobre: letti integralmente Prologo e tutti i dodici capitoli del Libro I, con 442 associazioni in prima analisi, riscontri originali verificati sul testimone locale e introduzioni nelle quattro lingue. Il Libro II e gli altri quattro libri interni restano da leggere: non è completato il primo volume *The Fellowship of the Ring*. La lettura dell'intera opera e la riconciliazione dell'inventario non sono concluse. È stato verificato nel browser anche un prototipo isolato della Web Map con punti sintetici. Stato, limiti e verifiche sono descritti in [PROGRESS.md](PROGRESS.md). La ricerca non costituisce aggiunta completata del romanzo.
 
 ## Riscontri riproducibili
 
@@ -98,5 +98,6 @@ Aggiornamento del 28 ottobre: letti integralmente Prologo e capitoli I.1–I.8, 
 - `pdf-text-audit.json`: impronte SHA-256, metadati, conteggi e presenza delle intestazioni; il campo OCR resta nullo nel controllo puramente automatico. La valutazione della narrazione è esplicitata in `structure-audit.json` dopo il controllo delle sezioni e delle figure campione.
 - `check-pdf-text.py`: estrae il testo dei file locali in `work/tolkien/` e genera il rapporto senza salvare prose nel repository.
 - `check-structure.py`: verifica gli inizi dei capitoli e produce campioni visivi locali tramite pypdfium2, se disponibile.
+- `check-analysis-validation.py`: con il corpus locale disponibile, introduce un riscontro negativo temporaneo e verifica che un rifiuto non sostituisca gli output già verificati; non distribuisce o stampa citazioni del romanzo.
 
 La fattibilità tecnica è favorevole; la pubblicazione dell'atlante dipende ancora da diritti cartografici, integrazione e analisi dell'opera. È pronta soltanto la documentazione di ricerca.

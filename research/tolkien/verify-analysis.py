@@ -18,6 +18,7 @@ assert hashlib.sha256((WORK/'lotr-harpercollins-2005-candidate.pdf').read_bytes(
 units={unit['id']:unit for unit in manifest['units']}
 summaries=[]
 errors=[]
+enriched_outputs=[]
 for file in sorted((ROOT/'private').glob('*.json')):
     section=json.loads(file.read_text(encoding='utf-8'))
     unit=units[section['sectionId']]
@@ -47,8 +48,7 @@ for file in sorted((ROOT/'private').glob('*.json')):
                 'publicationStatus':section['quotationPublicationStatus']},
             'highlightVerification':'pending','geographicalVerification':'pending','mapPosition':None,**metadata})
     enriched={**section,'references':references}
-    (WORK/'analysis').mkdir(exist_ok=True)
-    (WORK/'analysis'/file.name).write_text(json.dumps(enriched,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    enriched_outputs.append((file.name,enriched))
     summaries.append({'sectionId':section['sectionId'],'completeRead':section['completeRead'],
         'references':len(references),'action':sum(ref['category']=='action' for ref in references),
         'mentioned':sum(ref['category']=='mentioned' for ref in references),
@@ -56,6 +56,10 @@ for file in sorted((ROOT/'private').glob('*.json')):
         'introductionsAvailable':['it','en','fr','es']})
 if errors:
     raise ValueError('Evidence not found verbatim after whitespace normalization: '+json.dumps(errors,ensure_ascii=False))
+# Do not replace any verified analysis output until every source check passes.
+(WORK/'analysis').mkdir(exist_ok=True)
+for name,enriched in enriched_outputs:
+    (WORK/'analysis'/name).write_text(json.dumps(enriched,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 review_dates={json.loads(file.read_text(encoding='utf-8'))['sectionId']:json.loads(file.read_text(encoding='utf-8'))['date'] for file in (ROOT/'private').glob('*.json')}
 for summary in summaries:
     unit=units[summary['sectionId']]
