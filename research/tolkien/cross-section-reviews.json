@@ -1,6 +1,6 @@
 {
   "date": "2026-10-29",
-  "scope": "Targeted original-text comparisons through IV.3; not a complete recurrence audit or approval for publication.",
+  "scope": "Targeted original-text comparisons through IV.7; not a complete recurrence audit or approval for publication.",
   "reviews": [
     {
       "id": "frodo-dream-orthanc",
@@ -889,6 +889,236 @@
       "findingIt": "IV.1 riproduce il dialogo ricordato sul risparmiare Gollum: il luogo è identificato attraverso la scena originale a Bag End, senza aggiungere il nome alla citazione. IV.3 riassume invece la decisione presa nel salotto e resta una menzione.",
       "dataDecision": "Preserve different functions of the same remote place: embedded-recalled-dialogue action versus reference summary, with the hobbits physically outside Mordor in both current scenes. The wording of the remembered speech in IV.1 is preserved as printed there; it is not silently replaced with the earlier I.2 wording.",
       "remaining": "Final publication necessity and indirect-highlight review pending."
+    },
+    {
+      "id": "ithilien-south-road-proposal-and-use",
+      "sources": [
+        {
+          "sectionId": "b4-c03",
+          "pdfPages": [
+            663,
+            665,
+            671
+          ]
+        },
+        {
+          "sectionId": "b4-c04",
+          "pdfPages": [
+            672,
+            673
+          ]
+        },
+        {
+          "sectionId": "b4-c07",
+          "pdfPages": [
+            725,
+            726
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "La strada meridionale è proposta in IV.3; la prima notte di IV.4 viene seguita a distanza e soltanto la seconda viene percorsa. In IV.7 vi rientrano presso l’incrocio.",
+      "dataDecision": "Keep proposed, off-road and on-road phases separate; actual soldier movement does not put the hobbits on the same road at the same time.",
+      "remaining": "Full recurrence reconciliation, map positions and publication rights remain pending."
+    },
+    {
+      "id": "ithilien-lake-and-refuge-watercourse",
+      "sources": [
+        {
+          "sectionId": "b4-c04",
+          "pdfPages": [
+            674,
+            675,
+            680
+          ]
+        },
+        {
+          "sectionId": "b4-c05",
+          "pdfPages": [
+            693,
+            697,
+            698
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "Lago, corso d’acqua e gola sono collegati esplicitamente dal narratore: il torrente presso il rifugio è lo stesso che esce dalla vasca a monte. Non ha qui un nome proprio.",
+      "dataDecision": "Record sameWatercourseAs relations without inventing a hydronym, exact route or duplicate river.",
+      "remaining": "Full recurrence reconciliation, map positions and publication rights remain pending."
+    },
+    {
+      "id": "henneth-annun-blind-and-visible-access",
+      "sources": [
+        {
+          "sectionId": "b4-c05",
+          "pdfPages": [
+            697,
+            698
+          ]
+        },
+        {
+          "sectionId": "b4-c06",
+          "pdfPages": [
+            707,
+            708,
+            710,
+            712
+          ]
+        },
+        {
+          "sectionId": "b4-c07",
+          "pdfPages": [
+            719
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "L’arrivo bendato lascia incerto il tracciato completo. IV.6 rivela il pianerottolo, due rampe e la piattaforma; alla partenza tutti e tre scelgono di essere bendati. La pozza descritta sotto il velo è quella in cui Gollum pesca.",
+      "dataDecision": "Preserve the same deep-bowl ID across mentioned then action, but do not reconstruct all blindfolded bends from the partially visible route.",
+      "remaining": "Full recurrence reconciliation, map positions and publication rights remain pending."
+    },
+    {
+      "id": "oliphaunt-tale-sighting-unknown-fate",
+      "sources": [
+        {
+          "sectionId": "b4-c03",
+          "pdfPages": [
+            670,
+            671
+          ]
+        },
+        {
+          "sectionId": "b4-c04",
+          "pdfPages": [
+            685,
+            686
+          ]
+        },
+        {
+          "sectionId": "b4-c05",
+          "pdfPages": [
+            699
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "Il contingente visto alla Porta non ha olifanti. Sam ne incontra uno reale durante lo scontro in Ithilien; i successivi rapporti di Faramir confermano che la sua sorte resta ignota.",
+      "dataDecision": "Do not convert a poem, an absent animal or an imagined army into a sighting; do not choose a terminal escape, drowning or death from explicit alternatives.",
+      "remaining": "Full recurrence reconciliation, map positions and publication rights remain pending."
+    },
+    {
+      "id": "boromir-boat-later-reported-sighting",
+      "sources": [
+        {
+          "sectionId": "b3-c01",
+          "pdfPages": [
+            440,
+            441,
+            442
+          ]
+        },
+        {
+          "sectionId": "b4-c05",
+          "pdfPages": [
+            690,
+            691,
+            692
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "La partenza della barca è seguita in III.1; IV.5 aggiunge il racconto di Faramir presso Osgiliath. Egli nega il sogno, Frodo ne discute la natura; l’arrivo al mare resta una conclusione, non un percorso seguito dal testimone.",
+      "dataDecision": "Retain reported-experience narrative level and uncertainty. Do not invent a witnessed fall passage, a boat carried overland or an eyewitness arrival at the Sea.",
+      "remaining": "Full recurrence reconciliation, map positions and publication rights remain pending."
+    },
+    {
+      "id": "crossroads-proposal-to-arrival",
+      "sources": [
+        {
+          "sectionId": "b4-c03",
+          "pdfPages": [
+            665
+          ]
+        },
+        {
+          "sectionId": "b4-c04",
+          "pdfPages": [
+            672
+          ]
+        },
+        {
+          "sectionId": "b4-c07",
+          "pdfPages": [
+            721,
+            725,
+            726
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "L’incrocio viene descritto e usato come meta prima dell’arrivo effettivo in IV.7. La strada sul fondo della valle è evitata; il percorso passa da ripari distinti prima di rientrare sulla via principale.",
+      "dataDecision": "Keep crossroads mentioned until IV.7 action, and separate roadside statue, fallen head and speculative vandalism episode.",
+      "remaining": "Full recurrence reconciliation, map positions and publication rights remain pending."
+    },
+    {
+      "id": "morgul-city-and-valley-name-progression",
+      "sources": [
+        {
+          "sectionId": "b3-c11",
+          "pdfPages": [
+            622
+          ]
+        },
+        {
+          "sectionId": "b4-c03",
+          "pdfPages": [
+            665,
+            666,
+            668
+          ]
+        },
+        {
+          "sectionId": "b4-c06",
+          "pdfPages": [
+            715,
+            716
+          ]
+        },
+        {
+          "sectionId": "b4-c07",
+          "pdfPages": [
+            718,
+            721
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "Minas Ithil e Minas Morgul sono la stessa città; Faramir corregge il vecchio nome e comunica Cirith Ungol ai due hobbit, che il narratore aveva già nominato. Imlad Morgul e le perifrasi della valle si chiariscono nel viaggio.",
+      "dataDecision": "Preserve original wording and reader/character knowledge by section. Distinguish city, valley, polluted stream, main pass and high secret way; no premature arrival.",
+      "remaining": "Full recurrence reconciliation, map positions and publication rights remain pending."
+    },
+    {
+      "id": "anborn-sighting-later-gollum-identification",
+      "sources": [
+        {
+          "sectionId": "b4-c05",
+          "pdfPages": [
+            696,
+            699
+          ]
+        },
+        {
+          "sectionId": "b4-c06",
+          "pdfPages": [
+            708,
+            709
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "Anborn prima riferisce una creatura che considera forse uno scoiattolo. Faramir collega poi il suo unico avvistamento serale a Gollum e lo mostra nella pozza. La forma intravista da Sam durante il cammino non è identificata con la stessa certezza.",
+      "dataDecision": "Add later identification metadata to Anborn’s tree episode; retain the witness’s original uncertainty and keep Sam’s fleeting glimpse unresolved.",
+      "remaining": "Full recurrence reconciliation, map positions and publication rights remain pending."
     }
   ],
   "quotationTextIncluded": false,

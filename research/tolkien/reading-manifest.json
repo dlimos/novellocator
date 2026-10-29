@@ -636,11 +636,13 @@
       "sha256": "dd10dc2ba20862ed975fe0758d838143e41cb715fec3339eb10efa8e2eed720b",
       "characters": 38045,
       "words": 7071,
-      "readStatus": "pending",
-      "inventoryStatus": "pending",
+      "readStatus": "complete",
+      "inventoryStatus": "first-manual-pass-reconciliation-pending",
       "kind": "chapter",
       "book": 4,
-      "chapter": 4
+      "chapter": 4,
+      "reviewDate": "2026-10-29",
+      "reviewNote": "Individual evidence checked against local source; reading status is a manual declaration, not inferred from matching quotes. Rights and geographical verification pending."
     },
     {
       "id": "b4-c05",
@@ -650,11 +652,13 @@
       "sha256": "4a724750e333b7ad711a89f939a4b595806c9b9e17188aa7b7208a3d9854417b",
       "characters": 54100,
       "words": 10369,
-      "readStatus": "pending",
-      "inventoryStatus": "pending",
+      "readStatus": "complete",
+      "inventoryStatus": "first-manual-pass-reconciliation-pending",
       "kind": "chapter",
       "book": 4,
-      "chapter": 5
+      "chapter": 5,
+      "reviewDate": "2026-10-29",
+      "reviewNote": "Individual evidence checked against local source; reading status is a manual declaration, not inferred from matching quotes. Rights and geographical verification pending."
     },
     {
       "id": "b4-c06",
@@ -664,11 +668,13 @@
       "sha256": "50a5878c6b5a1c9230635173a2b2db078370efb3903ddea0b153f87ee4658581",
       "characters": 28060,
       "words": 5264,
-      "readStatus": "pending",
-      "inventoryStatus": "pending",
+      "readStatus": "complete",
+      "inventoryStatus": "first-manual-pass-reconciliation-pending",
       "kind": "chapter",
       "book": 4,
-      "chapter": 6
+      "chapter": 6,
+      "reviewDate": "2026-10-29",
+      "reviewNote": "Individual evidence checked against local source; reading status is a manual declaration, not inferred from matching quotes. Rights and geographical verification pending."
     },
     {
       "id": "b4-c07",
@@ -678,11 +684,13 @@
       "sha256": "f66fa49c9cda322178faa947e75790356b167d977493364d2614b239e7c87c08",
       "characters": 23529,
       "words": 4329,
-      "readStatus": "pending",
-      "inventoryStatus": "pending",
+      "readStatus": "complete",
+      "inventoryStatus": "first-manual-pass-reconciliation-pending",
       "kind": "chapter",
       "book": 4,
-      "chapter": 7
+      "chapter": 7,
+      "reviewDate": "2026-10-29",
+      "reviewNote": "Individual evidence checked against local source; reading status is a manual declaration, not inferred from matching quotes. Rights and geographical verification pending."
     },
     {
       "id": "b4-c08",
