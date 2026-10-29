@@ -259,6 +259,96 @@
       ]
     },
     {
+      "sectionId": "b2-c06",
+      "completeRead": true,
+      "references": 49,
+      "action": 21,
+      "mentioned": 28,
+      "inventoryStatus": "first-manual-pass-reconciliation-pending",
+      "quotationRightsStatus": "pending",
+      "introductionsAvailable": [
+        "it",
+        "en",
+        "fr",
+        "es"
+      ]
+    },
+    {
+      "sectionId": "b2-c07",
+      "completeRead": true,
+      "references": 45,
+      "action": 25,
+      "mentioned": 20,
+      "inventoryStatus": "first-manual-pass-reconciliation-pending",
+      "quotationRightsStatus": "pending",
+      "introductionsAvailable": [
+        "it",
+        "en",
+        "fr",
+        "es"
+      ]
+    },
+    {
+      "sectionId": "b2-c08",
+      "completeRead": true,
+      "references": 59,
+      "action": 17,
+      "mentioned": 42,
+      "inventoryStatus": "first-manual-pass-reconciliation-pending",
+      "quotationRightsStatus": "pending",
+      "introductionsAvailable": [
+        "it",
+        "en",
+        "fr",
+        "es"
+      ]
+    },
+    {
+      "sectionId": "b2-c09",
+      "completeRead": true,
+      "references": 48,
+      "action": 18,
+      "mentioned": 30,
+      "inventoryStatus": "first-manual-pass-reconciliation-pending",
+      "quotationRightsStatus": "pending",
+      "introductionsAvailable": [
+        "it",
+        "en",
+        "fr",
+        "es"
+      ]
+    },
+    {
+      "sectionId": "b2-c10",
+      "completeRead": true,
+      "references": 46,
+      "action": 23,
+      "mentioned": 23,
+      "inventoryStatus": "first-manual-pass-reconciliation-pending",
+      "quotationRightsStatus": "pending",
+      "introductionsAvailable": [
+        "it",
+        "en",
+        "fr",
+        "es"
+      ]
+    },
+    {
+      "sectionId": "b3-c01",
+      "completeRead": true,
+      "references": 28,
+      "action": 11,
+      "mentioned": 17,
+      "inventoryStatus": "first-manual-pass-reconciliation-pending",
+      "quotationRightsStatus": "pending",
+      "introductionsAvailable": [
+        "it",
+        "en",
+        "fr",
+        "es"
+      ]
+    },
+    {
       "sectionId": "prologue",
       "completeRead": true,
       "references": 62,

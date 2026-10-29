@@ -311,17 +311,24 @@
     },
     {
       "id": "b2-c06",
-      "title": "´ LOTHLORIEN",
+      "title": "LOTHLÓRIEN",
       "pdfStart": 357,
       "pdfEnd": 376,
       "sha256": "5468f3c90f2135247aefb6632eadd699c8a9d5dcd2903835feeebae7c0eceafa",
       "characters": 50956,
       "words": 9585,
-      "readStatus": "pending",
-      "inventoryStatus": "pending",
+      "readStatus": "complete",
+      "inventoryStatus": "first-manual-pass-reconciliation-pending",
       "kind": "chapter",
       "book": 2,
-      "chapter": 6
+      "chapter": 6,
+      "titleVerification": {
+        "method": "visual-review",
+        "pdfPage": 357,
+        "rawExtractedTitle": "´ LOTHLORIEN"
+      },
+      "reviewDate": "2026-10-29",
+      "reviewNote": "Individual evidence checked against local source; reading status is a manual declaration, not inferred from matching quotes. Rights and geographical verification pending."
     },
     {
       "id": "b2-c07",
@@ -331,25 +338,34 @@
       "sha256": "f573c6bff466cdf8009886347e7b71393815a0b7f518c086a223a24c21cc7da7",
       "characters": 36692,
       "words": 7021,
-      "readStatus": "pending",
-      "inventoryStatus": "pending",
+      "readStatus": "complete",
+      "inventoryStatus": "first-manual-pass-reconciliation-pending",
       "kind": "chapter",
       "book": 2,
-      "chapter": 7
+      "chapter": 7,
+      "reviewDate": "2026-10-29",
+      "reviewNote": "Individual evidence checked against local source; reading status is a manual declaration, not inferred from matching quotes. Rights and geographical verification pending."
     },
     {
       "id": "b2-c08",
-      "title": "´ FAREWELL TO LORIEN",
+      "title": "FAREWELL TO LÓRIEN",
       "pdfStart": 391,
       "pdfEnd": 403,
       "sha256": "50c3504f4c0aea8156ca5f4182c4198ec95bbddbb819f0f8aa1d2263170187bc",
       "characters": 33411,
       "words": 6312,
-      "readStatus": "pending",
-      "inventoryStatus": "pending",
+      "readStatus": "complete",
+      "inventoryStatus": "first-manual-pass-reconciliation-pending",
       "kind": "chapter",
       "book": 2,
-      "chapter": 8
+      "chapter": 8,
+      "titleVerification": {
+        "method": "visual-review",
+        "pdfPage": 391,
+        "rawExtractedTitle": "´ FAREWELL TO LORIEN"
+      },
+      "reviewDate": "2026-10-29",
+      "reviewNote": "Individual evidence checked against local source; reading status is a manual declaration, not inferred from matching quotes. Rights and geographical verification pending."
     },
     {
       "id": "b2-c09",
@@ -359,11 +375,13 @@
       "sha256": "a369e35af5f70d9a9c71173007cf413551f34e46e0d251ff439190a8717260b0",
       "characters": 39137,
       "words": 7355,
-      "readStatus": "pending",
-      "inventoryStatus": "pending",
+      "readStatus": "complete",
+      "inventoryStatus": "first-manual-pass-reconciliation-pending",
       "kind": "chapter",
       "book": 2,
-      "chapter": 9
+      "chapter": 9,
+      "reviewDate": "2026-10-29",
+      "reviewNote": "Individual evidence checked against local source; reading status is a manual declaration, not inferred from matching quotes. Rights and geographical verification pending."
     },
     {
       "id": "b2-c10",
@@ -373,11 +391,13 @@
       "sha256": "e0ac64dfe7e55ae2e8ce20debdb3fd2a96061a05373a33ba3c1737fb7bc4decb",
       "characters": 33052,
       "words": 6337,
-      "readStatus": "pending",
-      "inventoryStatus": "pending",
+      "readStatus": "complete",
+      "inventoryStatus": "first-manual-pass-reconciliation-pending",
       "kind": "chapter",
       "book": 2,
-      "chapter": 10
+      "chapter": 10,
+      "reviewDate": "2026-10-29",
+      "reviewNote": "Individual evidence checked against local source; reading status is a manual declaration, not inferred from matching quotes. Rights and geographical verification pending."
     },
     {
       "id": "b3-c01",
@@ -387,11 +407,13 @@
       "sha256": "1fbfa24b9907adb97c4a1e0b569a4e23caa5345381f2c8b42377c24628385a8f",
       "characters": 18513,
       "words": 3489,
-      "readStatus": "pending",
-      "inventoryStatus": "pending",
+      "readStatus": "complete",
+      "inventoryStatus": "first-manual-pass-reconciliation-pending",
       "kind": "chapter",
       "book": 3,
-      "chapter": 1
+      "chapter": 1,
+      "reviewDate": "2026-10-29",
+      "reviewNote": "Individual evidence checked against local source; reading status is a manual declaration, not inferred from matching quotes. Rights and geographical verification pending."
     },
     {
       "id": "b3-c02",

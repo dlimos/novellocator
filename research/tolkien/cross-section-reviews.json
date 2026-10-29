@@ -1,6 +1,6 @@
 {
   "date": "2026-10-29",
-  "scope": "Targeted original-text comparisons through II.5; not a complete recurrence audit or approval for publication.",
+  "scope": "Targeted original-text comparisons through III.1; not a complete recurrence audit or approval for publication.",
   "reviews": [
     {
       "id": "frodo-dream-orthanc",
@@ -145,12 +145,129 @@
             355,
             356
           ]
+        },
+        {
+          "sectionId": "b2-c06",
+          "pdfPages": [
+            357,
+            358
+          ]
         }
       ],
       "status": "distinct-narrative-levels-checked",
-      "findingIt": "Il Mirrormere è prima una meta oltre i monti; in II.4 è scena nel canto di Durin, e in II.5 il registro narra la morte di Balin presso il lago. La Compagnia esce nella Dimrill Dale alla fine di II.5, ma questo non dimostra ancora una sua visita al lago. Il bacino alla porta occidentale è un luogo diverso.",
-      "dataDecision": "Keep mentioned in II.3, embedded-song action in II.4 and embedded-written-record action in II.5. Do not infer a present visit by Frodo or merge the western lake with Mirrormere.",
-      "remaining": "The next section must be read before assigning any present-day lake visit to the Company."
+      "findingIt": "Il Mirrormere è meta in II.3, scena nel canto di Durin in II.4 e scena della morte di Balin nel registro di II.5. Soltanto in II.6 Gimli, Frodo e Sam lasciano la strada per guardare nel lago; gli altri attendono. Il lago alla porta occidentale resta distinto.",
+      "dataDecision": "Preserve section-specific categories and narrative levels: mentioned, embedded-song action, embedded-written-record action and primary action. Record only the three evidenced visitors in II.6.",
+      "remaining": "Other later recurrences and fictional-map positions remain to be reviewed."
+    },
+    {
+      "id": "lorien-city-name-and-arrival",
+      "sources": [
+        {
+          "sectionId": "b2-c06",
+          "pdfPages": [
+            374,
+            375
+          ]
+        },
+        {
+          "sectionId": "b2-c07",
+          "pdfPages": [
+            377,
+            378
+          ]
+        },
+        {
+          "sectionId": "b2-c08",
+          "pdfPages": [
+            395,
+            397
+          ]
+        }
+      ],
+      "status": "targeted-original-continuity-checked",
+      "findingIt": "La città annunciata e vista da lontano in II.6 è nominata Caras Galadhon e raggiunta in II.7. L’uscita di II.8 ripercorre porta e ponte, poi porta a Egladil: non sovrapporre città, intero Naith e punta del congedo.",
+      "dataDecision": "Keep galadhrim-city identity; add explicit Caras Galadhon alias at II.7. Preserve mentioned in II.6 and action in II.7–II.8. Bridge, gates and haven remain distinct.",
+      "remaining": "No complete measured plan or final fictional-map coordinates."
+    },
+    {
+      "id": "nimrodel-climber-later-identification",
+      "sources": [
+        {
+          "sectionId": "b2-c06",
+          "pdfPages": [
+            369,
+            374
+          ]
+        },
+        {
+          "sectionId": "b2-c09",
+          "pdfPages": [
+            407,
+            408
+          ]
+        }
+      ],
+      "status": "targeted-original-continuity-checked",
+      "findingIt": "In II.6 Frodo e Haldir non identificano la creatura sull’albero. In II.9 Frodo e Sam sospettano Gollum e Aragorn conferma il pedinamento da Moria fino al Nimrodel e sulle acque. Non riscrivere l’incertezza della prima osservazione come riconoscimento immediato.",
+      "dataDecision": "Preserve the original uncertainty in II.6 and record Aragorn’s later confirmation separately. The approach at the eyot is primary action; the retrospective route is not a new fully developed scene at every earlier place.",
+      "remaining": "Later direct encounters and exact pursuit route still to read."
+    },
+    {
+      "id": "lorien-perceived-time",
+      "sources": [
+        {
+          "sectionId": "b2-c07",
+          "pdfPages": [
+            382
+          ]
+        },
+        {
+          "sectionId": "b2-c08",
+          "pdfPages": [
+            394
+          ]
+        },
+        {
+          "sectionId": "b2-c09",
+          "pdfPages": [
+            412,
+            413
+          ]
+        }
+      ],
+      "status": "targeted-original-continuity-checked",
+      "findingIt": "La permanenza è inizialmente percepita come alcuni giorni. Sam rileva lo scarto della luna; Legolas distingue tempo e cambiamento, Aragorn dice che una nuova luna è cresciuta e calata nel frattempo. La sensazione di un tempo diverso non prova un arresto del calendario.",
+      "dataDecision": "Keep section badges at narrative precision; do not impose exact dates yet or describe literal time travel. Compare the completed narrative with Appendix B later.",
+      "remaining": "Appendix B and a full chronology comparison remain unread."
+    },
+    {
+      "id": "amon-hen-seat-and-separate-glades",
+      "sources": [
+        {
+          "sectionId": "b2-c10",
+          "pdfPages": [
+            420,
+            423,
+            424,
+            429,
+            431
+          ]
+        },
+        {
+          "sectionId": "b3-c01",
+          "pdfPages": [
+            437,
+            438,
+            440,
+            441,
+            443
+          ]
+        }
+      ],
+      "status": "targeted-original-continuity-checked",
+      "findingIt": "II.10 mostra Frodo al seggio, Aragorn ancora in salita, il ritorno di Sam e lo sbarco dei due hobbit sulle pendici di Amon Lhaw. III.1 mostra poi Aragorn al seggio: vede poco, non le visioni di Frodo. La radura con la pietra, quella della morte di Boromir e la vicina riva della barella non sono Parth Galen.",
+      "dataDecision": "Assign Aragorn’s summit scene only to III.1, retain separate glade and shore IDs and preserve the lake continuity where Nen Hithoel is unnamed. No Frodo/Sam landing on Tol Brandir. Separate observed funeral departure from the later sea-voyage legend.",
+      "remaining": "Full recurrence and detailed fictional topography remain pending."
     }
   ],
   "quotationTextIncluded": false,

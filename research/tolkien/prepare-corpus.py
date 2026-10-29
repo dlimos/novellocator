@@ -45,6 +45,10 @@ for book, starts in enumerate(chapter_starts,1):
             # PDF 345 visually checked: extraction moves the accented final syllable.
             title_metadata={'titleVerification':{'method':'visual-review','pdfPage':345,'rawExtractedTitle':title}}
             title='THE BRIDGE OF KHAZAD-DÛM'
+        if book==2 and index in (5,7):
+            # PDF 357 and 391 visually checked: extraction detaches the acute accent.
+            title_metadata={'titleVerification':{'method':'visual-review','pdfPage':start,'rawExtractedTitle':title}}
+            title={5:'LOTHLÓRIEN',7:'FAREWELL TO LÓRIEN'}[index]
         unit(f'b{book}-c{index+1:02}',title,start,next_start-1,kind='chapter',book=book,chapter=index+1,**title_metadata)
 appendices=list(audit['appendicesStart'].items())
 for index,(letter,start) in enumerate(appendices):
