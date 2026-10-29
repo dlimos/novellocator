@@ -1,6 +1,6 @@
 {
   "date": "2026-10-29",
-  "scope": "Targeted original-text comparisons through III.3; not a complete recurrence audit or approval for publication.",
+  "scope": "Targeted original-text comparisons through III.6; not a complete recurrence audit or approval for publication.",
   "reviews": [
     {
       "id": "frodo-dream-orthanc",
@@ -330,6 +330,178 @@
       "findingIt": "III.2 contiene il riepilogo di Éomer e l’ispezione del rogo; III.3 mostra prigionia, accerchiamento, morte di Grishnákh, fuga e battaglia. Gli hobbit entrano nel bosco prima di vedere il duello finale: il narratore prosegue oltre il loro sguardo. La lite con cinque orchi uccisi è compatibile coi corpi trovati dai Cacciatori, ma la posizione esatta resta da riconciliare.",
       "dataDecision": "Keep current inspection separate from the battle scenes; do not turn Éomer’s summary into a detailed eyewitness account by the Hunters. Keep siege knoll, escape ground, last stand, burning site and tree camp distinct. Burial and burning remain summary mentions in III.3.",
       "remaining": "Exact correspondence of unnamed halts and sites unresolved; no complete battle-map reconstruction."
+    },
+    {
+      "id": "treebeard-forest-and-assembly-names",
+      "sources": [
+        {
+          "sectionId": "b3-c02",
+          "pdfPages": [
+            466
+          ]
+        },
+        {
+          "sectionId": "b3-c04",
+          "pdfPages": [
+            488,
+            494,
+            502
+          ]
+        },
+        {
+          "sectionId": "b3-c05",
+          "pdfPages": [
+            523
+          ]
+        }
+      ],
+      "status": "targeted-original-continuity-checked",
+      "findingIt": "Fangorn è il nome della foresta ma anche il nome elfico di Treebeard. Wellinghall è una sua dimora, Derndingle la conca della riunione. Treebeard precisa che Entmoot è l’assemblea, non il nome di un altro luogo.",
+      "dataDecision": "Disambiguate personal and place names. Keep Wellinghall and Derndingle separate; do not create an Entmoot location or count personal Fangorn occurrences as forest evidence.",
+      "remaining": "Other homes and exact fictional positions remain pending."
+    },
+    {
+      "id": "hobbit-stream-and-shelf-recurrence",
+      "sources": [
+        {
+          "sectionId": "b3-c03",
+          "pdfPages": [
+            482,
+            483
+          ]
+        },
+        {
+          "sectionId": "b3-c04",
+          "pdfPages": [
+            485,
+            486,
+            487
+          ]
+        },
+        {
+          "sectionId": "b3-c05",
+          "pdfPages": [
+            514,
+            515,
+            516,
+            523
+          ]
+        }
+      ],
+      "status": "targeted-original-continuity-checked",
+      "findingIt": "Alla fine di III.3 gli hobbit non bevono perché la sponda è troppo ripida. In III.4 bevono e bagnano i piedi più dentro il bosco, poi salgono sulla mensola. III.5 riconosce quel luogo dalle due impronte e Gandalf conferma che gli hobbit incontrarono Treebeard proprio sulla mensola.",
+      "dataDecision": "Keep outside escape bank, inside root-rest and shelf distinct. Assign the drinking scene only to III.4; current Hunters inspection and reunion belong to III.5.",
+      "remaining": "No metric route or complete forest plan established."
+    },
+    {
+      "id": "gandalf-fall-deep-battle-peak",
+      "sources": [
+        {
+          "sectionId": "b2-c05",
+          "pdfPages": [
+            354,
+            355
+          ]
+        },
+        {
+          "sectionId": "b3-c05",
+          "pdfPages": [
+            525,
+            526
+          ]
+        }
+      ],
+      "status": "targeted-original-continuity-checked",
+      "findingIt": "II.5 mostra la caduta ma non ciò che accade sotto il ponte. Il racconto di Gandalf in III.5 sviluppa acqua profonda, lotta, cunicoli anteriori ai Nani, scala, torre e scontro su Celebdil; il soccorso parte poi dalla vetta. Non sono scene già conosciute dai fuggitivi in II.5.",
+      "dataDecision": "Preserve the later embedded recollection, separate deep water from both external lakes and keep the Endless Stair distinct from the Company’s escape stairs. Preserve explicit Celebdil/Zirakzigil/Silvertine identity.",
+      "remaining": "Unmeasured depths and missing plan remain; no terrestrial coordinates."
+    },
+    {
+      "id": "sarn-gebir-winged-target-later-explanation",
+      "sources": [
+        {
+          "sectionId": "b2-c09",
+          "pdfPages": [
+            411,
+            412
+          ]
+        },
+        {
+          "sectionId": "b3-c03",
+          "pdfPages": [
+            475,
+            476
+          ]
+        },
+        {
+          "sectionId": "b3-c05",
+          "pdfPages": [
+            522
+          ]
+        }
+      ],
+      "status": "targeted-original-continuity-checked",
+      "findingIt": "In II.9 Legolas non sa cosa abbia colpito e Frodo esclude il Balrog. III.3 aggiunge notizie interessate degli orchi sui Nazgûl alati. In III.5 Legolas nomina il tiro sopra Sarn Gebir e Gandalf spiega che è morta la cavalcatura, mentre il Nazgûl sopravvive.",
+      "dataDecision": "Record later identification separately; do not replace the uncertainty of the original scene or claim a Ringwraith was killed.",
+      "remaining": "No exact shot coordinates or unnamed rider identity established."
+    },
+    {
+      "id": "gwaihir-last-eagle-sighting",
+      "sources": [
+        {
+          "sectionId": "b3-c02",
+          "pdfPages": [
+            447
+          ]
+        },
+        {
+          "sectionId": "b3-c05",
+          "pdfPages": [
+            519
+          ]
+        }
+      ],
+      "status": "targeted-original-continuity-checked",
+      "findingIt": "Gandalf identifica come Gwaihir l’aquila che Legolas dice di avere visto l’ultima volta quattro giorni prima sopra l’Emyn Muil, inviata a osservare il fiume. Questo non autorizza a nominare automaticamente ogni uccello lontano dei capitoli precedenti.",
+      "dataDecision": "Attach the explanation to the explicitly recalled last sighting, keeping earlier identification limits and the Orthanc rescue separate from the Celebdil rescue.",
+      "remaining": "Other bird observations require their own comparisons."
+    },
+    {
+      "id": "edoras-destination-and-arrival",
+      "sources": [
+        {
+          "sectionId": "b3-c02",
+          "pdfPages": [
+            463
+          ]
+        },
+        {
+          "sectionId": "b3-c05",
+          "pdfPages": [
+            524,
+            528,
+            529
+          ]
+        },
+        {
+          "sectionId": "b3-c06",
+          "pdfPages": [
+            531,
+            532,
+            533,
+            534,
+            536,
+            539,
+            547,
+            548,
+            549
+          ]
+        }
+      ],
+      "status": "targeted-original-continuity-checked",
+      "findingIt": "Meduseld e Edoras sono prima mete richieste da Éomer e Gandalf; III.6 mostra infine guado, porte, salita, sala e terrazza. Il consiglio privato e la ripresa di Théoden avvengono anche fuori dalla sala. Il rifugio di Dunharrow è ancora programmato, mentre il re parte a ovest.",
+      "dataDecision": "Keep mentioned in earlier sections and primary action on arrival. Separate city gates and hall doors, internal dais and exterior stair. Gimli rides with Gandalf in III.5 but with Éomer on Firefoot at the departure of III.6.",
+      "remaining": "Anonymous approach river and valley names require later verification; no completed refugee arrival at Dunharrow."
     }
   ],
   "quotationTextIncluded": false,
