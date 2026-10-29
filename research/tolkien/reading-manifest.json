@@ -503,11 +503,13 @@
       "sha256": "ef8afdb0888601a4c3c71a08de57f94b20dc5e3f3eaf6cd96b97a98c339204c9",
       "characters": 41827,
       "words": 7744,
-      "readStatus": "pending",
-      "inventoryStatus": "pending",
+      "readStatus": "complete",
+      "inventoryStatus": "first-manual-pass-reconciliation-pending",
       "kind": "chapter",
       "book": 3,
-      "chapter": 7
+      "chapter": 7,
+      "reviewDate": "2026-10-29",
+      "reviewNote": "Individual evidence checked against local source; reading status is a manual declaration, not inferred from matching quotes. Rights and geographical verification pending."
     },
     {
       "id": "b3-c08",
@@ -517,11 +519,13 @@
       "sha256": "17ca60fff11d36dbe03003cf8ee0bbc8f1bf1fe7a255c2ac8d32a61f8537182a",
       "characters": 43881,
       "words": 8094,
-      "readStatus": "pending",
-      "inventoryStatus": "pending",
+      "readStatus": "complete",
+      "inventoryStatus": "first-manual-pass-reconciliation-pending",
       "kind": "chapter",
       "book": 3,
-      "chapter": 8
+      "chapter": 8,
+      "reviewDate": "2026-10-29",
+      "reviewNote": "Individual evidence checked against local source; reading status is a manual declaration, not inferred from matching quotes. Rights and geographical verification pending."
     },
     {
       "id": "b3-c09",
@@ -531,11 +535,13 @@
       "sha256": "2a7145868709b2ff39786d04469f641bc57961132b6f856400cfa5d5beae52a7",
       "characters": 41963,
       "words": 7983,
-      "readStatus": "pending",
-      "inventoryStatus": "pending",
+      "readStatus": "complete",
+      "inventoryStatus": "first-manual-pass-reconciliation-pending",
       "kind": "chapter",
       "book": 3,
-      "chapter": 9
+      "chapter": 9,
+      "reviewDate": "2026-10-29",
+      "reviewNote": "Individual evidence checked against local source; reading status is a manual declaration, not inferred from matching quotes. Rights and geographical verification pending."
     },
     {
       "id": "b3-c10",
@@ -545,25 +551,34 @@
       "sha256": "9bedec7154ef5d4272287e077736a306110fecc6c4c9942e1c8d4442baa706fc",
       "characters": 30719,
       "words": 5793,
-      "readStatus": "pending",
-      "inventoryStatus": "pending",
+      "readStatus": "complete",
+      "inventoryStatus": "first-manual-pass-reconciliation-pending",
       "kind": "chapter",
       "book": 3,
-      "chapter": 10
+      "chapter": 10,
+      "reviewDate": "2026-10-29",
+      "reviewNote": "Individual evidence checked against local source; reading status is a manual declaration, not inferred from matching quotes. Rights and geographical verification pending."
     },
     {
       "id": "b3-c11",
-      "title": "´THE PALANTIR",
+      "title": "THE PALANTÍR",
       "pdfStart": 612,
       "pdfEnd": 624,
       "sha256": "a34f052dfcdaae40e20d1b449f50ea72fcef10bb17fc9fade64cc3a32f78e500",
       "characters": 34053,
       "words": 6410,
-      "readStatus": "pending",
-      "inventoryStatus": "pending",
+      "readStatus": "complete",
+      "inventoryStatus": "first-manual-pass-reconciliation-pending",
       "kind": "chapter",
       "book": 3,
-      "chapter": 11
+      "chapter": 11,
+      "titleVerification": {
+        "method": "visual-review",
+        "pdfPage": 612,
+        "rawExtractedTitle": "´THE PALANTIR"
+      },
+      "reviewDate": "2026-10-29",
+      "reviewNote": "Individual evidence checked against local source; reading status is a manual declaration, not inferred from matching quotes. Rights and geographical verification pending."
     },
     {
       "id": "b4-c01",

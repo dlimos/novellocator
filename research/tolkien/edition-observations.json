@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-29",
+  "sourceEdition": "HarperCollins 2005; Adobe Acrobat eBook May 2009; ISBN 9780061917806",
+  "sourcePdfSha256": "4e2fdba27a4dbc444e182bf10d25cfb6731294fd4215b449e38a190391ebf465",
+  "quotationTextIncluded": false,
+  "collationComplete": false,
+  "observations": [
+    {
+      "id": "aragorn-fangorn-remark",
+      "sectionId": "b3-c09",
+      "pdfPage": 586,
+      "printedPage": 562,
+      "method": "manual comparison of extracted prose with rendered PDF page",
+      "renderedPageSha256": "0c2500143175992598e66381133164f9b9ff167d548788a69d7066ac70321324",
+      "findingIt": "La pagina attribuisce ad Aragorn la negazione di un precedente ingresso nella terra appena discussa. Il passo va confrontato con l’ingresso narrato in III.5 e la successiva precisazione di Legolas sulla visita soltanto marginale in III.10.",
+      "decisionIt": "Non emendare il testo e non annullare la scena di III.5. Non dichiarare accertato un errore d’autore o di edizione: ambito del referente e ulteriore collazione restano pendenti.",
+      "researchChecks": [
+        {
+          "url": "https://www.hammondandscull.com/addenda/rings.html",
+          "checked": "2026-10-29",
+          "kind": "editors-anniversary-edition-corrigenda",
+          "result": "The consulted list does not settle this passage; this is not an exhaustive search of all critical commentary."
+        }
+      ],
+      "status": "source-reading-verified-interpretation-pending"
+    }
+  ]
+}

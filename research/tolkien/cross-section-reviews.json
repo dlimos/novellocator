@@ -1,6 +1,6 @@
 {
   "date": "2026-10-29",
-  "scope": "Targeted original-text comparisons through III.6; not a complete recurrence audit or approval for publication.",
+  "scope": "Targeted original-text comparisons through complete Book III; not a complete recurrence audit or approval for publication.",
   "reviews": [
     {
       "id": "frodo-dream-orthanc",
@@ -502,6 +502,256 @@
       "findingIt": "Meduseld e Edoras sono prima mete richieste da Éomer e Gandalf; III.6 mostra infine guado, porte, salita, sala e terrazza. Il consiglio privato e la ripresa di Théoden avvengono anche fuori dalla sala. Il rifugio di Dunharrow è ancora programmato, mentre il re parte a ovest.",
       "dataDecision": "Keep mentioned in earlier sections and primary action on arrival. Separate city gates and hall doors, internal dais and exterior stair. Gimli rides with Gandalf in III.5 but with Éomer on Firefoot at the departure of III.6.",
       "remaining": "Anonymous approach river and valley names require later verification; no completed refugee arrival at Dunharrow."
+    },
+    {
+      "id": "helms-deep-defences-and-cave-name",
+      "sources": [
+        {
+          "sectionId": "b3-c07",
+          "pdfPages": [
+            552,
+            553,
+            554,
+            555,
+            557,
+            559,
+            561,
+            562,
+            564,
+            565,
+            566
+          ]
+        },
+        {
+          "sectionId": "b3-c08",
+          "pdfPages": [
+            567,
+            569,
+            570,
+            571,
+            572
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "La diga esterna, il muro della gola, il condotto, la postierla occidentale, le porte e la scala posteriore hanno scene e funzioni distinte. Il soccorso è di Gandalf con Erkenbrand e uomini a piedi; Éomer ha difeso la posizione. Dopo la battaglia Gimli descrive le caverne e Gandalf le nomina Aglarond.",
+      "dataDecision": "Preserve individual fortification identities and narrative movements. Keep the cave name as an alias of the existing caves, not a new place; distinguish the described past visit and future promise from a current developed cave scene.",
+      "remaining": "No complete measured plan or fictional coordinates; source-based views remain to create."
+    },
+    {
+      "id": "isen-diversion-and-return",
+      "sources": [
+        {
+          "sectionId": "b3-c08",
+          "pdfPages": [
+            575,
+            576,
+            577
+          ]
+        },
+        {
+          "sectionId": "b3-c09",
+          "pdfPages": [
+            593,
+            595,
+            596
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "Il re attraversa un Isen quasi asciutto e lo sente tornare a scorrere durante il campo. Il racconto di Pippin spiega scavi, raccolta e rilascio delle acque contro Isengard e ripristino del fiume. Il vapore visto dal campo non è una nuova arma dimostrata di Saruman.",
+      "dataDecision": "Separate actual observations, characters’ hypotheses and later eyewitness account. Old lake, temporary flood and exposed ringplain are different states; do not duplicate the basin as independent geography.",
+      "remaining": "Exact waterworks, outlets and hydraulic measurements remain unknown."
+    },
+    {
+      "id": "lugburz-explicit-equivalence",
+      "sources": [
+        {
+          "sectionId": "b3-c03",
+          "pdfPages": [
+            470,
+            476
+          ]
+        },
+        {
+          "sectionId": "b3-c09",
+          "pdfPages": [
+            588
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "Gli orchi chiamano Lugbúrz il proprio centro di comando; Aragorn esplicita poi l’equivalenza con Barad-dûr. La lacuna nominale si risolve nel testo prima della lettura dell’appendice linguistica.",
+      "dataDecision": "Keep the original wording and original analysis ID in III.3, with canonicalPlaceId barad-dur and a separate later source for the equivalence. No new scene in the Dark Tower follows from the name equation.",
+      "remaining": "Global canonical-ID reconciliation is still pending; no duplicate public markers created."
+    },
+    {
+      "id": "orthanc-approach-and-visitor-levels",
+      "sources": [
+        {
+          "sectionId": "b3-c08",
+          "pdfPages": [
+            579,
+            580,
+            582
+          ]
+        },
+        {
+          "sectionId": "b3-c09",
+          "pdfPages": [
+            592,
+            593,
+            597,
+            598
+          ]
+        },
+        {
+          "sectionId": "b3-c10",
+          "pdfPages": [
+            600,
+            601,
+            602,
+            607,
+            608,
+            609
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "Arrivo alle porte, racconto dell’assalto e colloquio attuale appartengono a tempi diversi. Nel colloquio sei visitatori salgono alla porta, gli hobbit restano in basso, Saruman parla dalla balconata e il globo arriva da una finestra più alta. Non entrano nella torre e non salgono sulla piattaforma dei pinnacoli.",
+      "dataDecision": "Retain window, balcony, door, steps, summit and gate rubble as distinct spatial references. Do not treat the imaginary private alliance as a visit or the instructed Watchwood as already completed.",
+      "remaining": "Exact storeys and every interior room remain unverified."
+    },
+    {
+      "id": "orthanc-globe-identified-as-palantir",
+      "sources": [
+        {
+          "sectionId": "b3-c10",
+          "pdfPages": [
+            607,
+            608
+          ]
+        },
+        {
+          "sectionId": "b3-c11",
+          "pdfPages": [
+            615,
+            616,
+            617,
+            618,
+            619,
+            621,
+            622
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "Il globo raccolto da Pippin sotto Orthanc viene poi usato al campo di Dol Baran. Aragorn e Gandalf lo identificano come palantír: il campo fisico, le immagini remote e le antiche sedi delle pietre restano separati.",
+      "dataDecision": "Preserve the unknown object status at the first episode. Do not relocate Pippin to Barad-dûr or make Gandalf actually use the stone to see Fëanor. Historical stations stay mentioned.",
+      "remaining": "Other stone histories and Appendix comparisons remain to read."
+    },
+    {
+      "id": "departure-route-changes-and-fords",
+      "sources": [
+        {
+          "sectionId": "b3-c08",
+          "pdfPages": [
+            573,
+            575,
+            576
+          ]
+        },
+        {
+          "sectionId": "b3-c10",
+          "pdfPages": [
+            610,
+            611
+          ]
+        },
+        {
+          "sectionId": "b3-c11",
+          "pdfPages": [
+            612,
+            613,
+            619,
+            620,
+            621,
+            624
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "Il progetto di ritorno diretto a Edoras cambia: per il re vengono annunciati Fosso e Dunharrow. Gandalf e Pippin lasciano Dol Baran, attraversano i guadi e prendono la via orientale senza visitare Aglarond. Edoras e Minas Tirith sono ancora mete al termine del Libro III.",
+      "dataDecision": "Record the actual two-person crossing and the junction separately from announced future stops. Keep camp below Dol Baran distinct from the summit, and the wider route from a map measured on Earth.",
+      "remaining": "Book IV and subsequent chronological reunion still unread."
+    },
+    {
+      "id": "fangorn-remark-scope-unresolved",
+      "sources": [
+        {
+          "sectionId": "b3-c05",
+          "pdfPages": [
+            515,
+            516,
+            523
+          ]
+        },
+        {
+          "sectionId": "b3-c09",
+          "pdfPages": [
+            586
+          ]
+        },
+        {
+          "sectionId": "b3-c10",
+          "pdfPages": [
+            609
+          ]
+        }
+      ],
+      "status": "witness-verified-interpretation-pending",
+      "findingIt": "III.5 narra l’ingresso dei Cacciatori; III.9 attribuisce ad Aragorn una negazione che richiede di chiarirne l’ambito. Il PDF conferma visivamente testo e attribuzione. In III.10 Legolas dice di essere andato appena oltre il margine: è un limite di profondità esplicito per lui, non una soluzione automatica della frase di Aragorn.",
+      "dataDecision": "Keep all witness readings, flag the apparent tension and preserve the directly narrated III.5 entry. No silent correction or unverified editorial attribution.",
+      "remaining": "Further critical collation needed; consulted anniversary corrigenda do not settle the point."
+    },
+    {
+      "id": "huorn-name-and-moving-forest",
+      "sources": [
+        {
+          "sectionId": "b3-c04",
+          "pdfPages": [
+            511
+          ]
+        },
+        {
+          "sectionId": "b3-c07",
+          "pdfPages": [
+            565,
+            566
+          ]
+        },
+        {
+          "sectionId": "b3-c08",
+          "pdfPages": [
+            570,
+            571,
+            573,
+            577
+          ]
+        },
+        {
+          "sectionId": "b3-c09",
+          "pdfPages": [
+            589,
+            592,
+            595
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "Pippin vede forme in marcia senza identificarle; il bosco compare poi presso il Fosso. Gandalf nega di averlo creato e vengono visti gli Ent pastori. Il racconto degli hobbit introduce infine il nome Huorn e ne distingue ombra, movimento e rapporto con gli Ent.",
+      "dataDecision": "Preserve changing knowledge by section; do not claim that all early shapes were immediately recognised. Keep the fate of Orcs inside the wood uncertain where the narrator explicitly does so.",
+      "remaining": "Individual Huorn origins and exact movements remain unlocated."
     }
   ],
   "quotationTextIncluded": false,

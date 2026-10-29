@@ -49,6 +49,10 @@ for book, starts in enumerate(chapter_starts,1):
             # PDF 357 and 391 visually checked: extraction detaches the acute accent.
             title_metadata={'titleVerification':{'method':'visual-review','pdfPage':start,'rawExtractedTitle':title}}
             title={5:'LOTHLÓRIEN',7:'FAREWELL TO LÓRIEN'}[index]
+        if book==3 and index==10:
+            # PDF 612 visually checked: extraction puts the acute accent before THE.
+            title_metadata={'titleVerification':{'method':'visual-review','pdfPage':start,'rawExtractedTitle':title}}
+            title='THE PALANTÍR'
         unit(f'b{book}-c{index+1:02}',title,start,next_start-1,kind='chapter',book=book,chapter=index+1,**title_metadata)
 appendices=list(audit['appendicesStart'].items())
 for index,(letter,start) in enumerate(appendices):
