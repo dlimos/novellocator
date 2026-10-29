@@ -64,3 +64,10 @@ research/location-visibility/review/*.png
 # Public database snapshots and generated editorial SQL remain local.
 research/place-scenes/*-before.json
 research/place-scenes/*.sql
+
+# Gatsby editorial snapshots and publication payload stay local.
+research/gatsby-refinement/*.json
+research/gatsby-refinement/*.sql
+research/gatsby-refinement/live/
+research/gatsby-refinement/*.tmp
+research/gatsby-refinement/*.png
