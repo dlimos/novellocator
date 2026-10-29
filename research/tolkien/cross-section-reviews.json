@@ -1,6 +1,6 @@
 {
   "date": "2026-10-29",
-  "scope": "Targeted original-text comparisons through III.1; not a complete recurrence audit or approval for publication.",
+  "scope": "Targeted original-text comparisons through III.3; not a complete recurrence audit or approval for publication.",
   "reviews": [
     {
       "id": "frodo-dream-orthanc",
@@ -262,12 +262,74 @@
             441,
             443
           ]
+        },
+        {
+          "sectionId": "b3-c03",
+          "pdfPages": [
+            468
+          ]
         }
       ],
       "status": "targeted-original-continuity-checked",
-      "findingIt": "II.10 mostra Frodo al seggio, Aragorn ancora in salita, il ritorno di Sam e lo sbarco dei due hobbit sulle pendici di Amon Lhaw. III.1 mostra poi Aragorn al seggio: vede poco, non le visioni di Frodo. La radura con la pietra, quella della morte di Boromir e la vicina riva della barella non sono Parth Galen.",
+      "findingIt": "II.10 mostra Frodo al seggio, Aragorn ancora in salita, il ritorno di Sam e lo sbarco dei due hobbit sulle pendici di Amon Lhaw. III.1 mostra poi Aragorn al seggio: vede poco, non le visioni di Frodo. La radura con la pietra, quella della morte di Boromir e la vicina riva della barella non sono Parth Galen. Il ricordo di Pippin distingue inoltre un primo scontro nei boschi e un secondo attacco durante il ritorno; Pippin perde conoscenza prima della morte di Boromir.",
       "dataDecision": "Assign Aragorn’s summit scene only to III.1, retain separate glade and shore IDs and preserve the lake continuity where Nen Hithoel is unnamed. No Frodo/Sam landing on Tol Brandir. Separate observed funeral departure from the later sea-voyage legend.",
       "remaining": "Full recurrence and detailed fictional topography remain pending."
+    },
+    {
+      "id": "pippin-brooch-intent-and-recovery",
+      "sources": [
+        {
+          "sectionId": "b3-c02",
+          "pdfPages": [
+            448
+          ]
+        },
+        {
+          "sectionId": "b3-c03",
+          "pdfPages": [
+            473,
+            474
+          ]
+        }
+      ],
+      "status": "intent-and-viewpoint-checked",
+      "findingIt": "Aragorn ricava dalle impronte e dalla spilla l’intenzione di lasciare un segno. Il racconto successivo dal punto di vista di Pippin mostra la deviazione nella nebbia e il rilascio deliberato della spilla prima della ricattura.",
+      "dataDecision": "Keep pippin-brooch-track identity; distinguish Aragorn’s inferred intention from Pippin’s directly narrated action. Neither scene establishes Earth coordinates.",
+      "remaining": "Full cartographic route and other recurrent associations still pending."
+    },
+    {
+      "id": "orc-battle-reports-and-hobbit-viewpoint",
+      "sources": [
+        {
+          "sectionId": "b3-c02",
+          "pdfPages": [
+            445,
+            446,
+            461,
+            464,
+            465
+          ]
+        },
+        {
+          "sectionId": "b3-c03",
+          "pdfPages": [
+            468,
+            471,
+            477,
+            478,
+            479,
+            480,
+            481,
+            482,
+            483,
+            484
+          ]
+        }
+      ],
+      "status": "narrative-levels-and-limits-checked",
+      "findingIt": "III.2 contiene il riepilogo di Éomer e l’ispezione del rogo; III.3 mostra prigionia, accerchiamento, morte di Grishnákh, fuga e battaglia. Gli hobbit entrano nel bosco prima di vedere il duello finale: il narratore prosegue oltre il loro sguardo. La lite con cinque orchi uccisi è compatibile coi corpi trovati dai Cacciatori, ma la posizione esatta resta da riconciliare.",
+      "dataDecision": "Keep current inspection separate from the battle scenes; do not turn Éomer’s summary into a detailed eyewitness account by the Hunters. Keep siege knoll, escape ground, last stand, burning site and tree camp distinct. Burial and burning remain summary mentions in III.3.",
+      "remaining": "Exact correspondence of unnamed halts and sites unresolved; no complete battle-map reconstruction."
     }
   ],
   "quotationTextIncluded": false,

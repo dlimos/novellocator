@@ -6,7 +6,7 @@
 
 L'originale è stato suddiviso in 72 unità locali con pagine e impronte SHA-256: preliminari editoriali, Prologo, 62 capitoli, appendici A–F, indici e mappe. Questa preparazione non è marcata come lettura completata. `reading-manifest.json` registra separatamente lettura, primo inventario e verifiche successive.
 
-Sono stati letti integralmente il Prologo, tutti i dodici capitoli del Libro I (pagine PDF 45–240), tutti i dieci del Libro II (pagine PDF 243–432) e III.1 (pagine PDF 437–444). È completata la lettura narrativa di *The Fellowship of the Ring* e iniziata quella di *The Two Towers*: 23 dei 62 capitoli dell’opera. Non significa che siano complete l’analisi critica o la collazione dell’edizione. I preliminari editoriali sono stati consultati solo in parte: il relativo stato resta pendente. III.2–III.11, i libri IV–VI, le appendici e gli indici non sono dichiarati letti. Le sezioni lette conservano introduzioni narrative nelle quattro lingue, motivazioni individuali e riscontri originali.
+Sono stati letti integralmente il Prologo, tutti i dodici capitoli del Libro I (pagine PDF 45–240), tutti i dieci del Libro II (pagine PDF 243–432) e III.1–III.3 (pagine PDF 437–484). È completata la lettura narrativa di *The Fellowship of the Ring* e iniziata quella di *The Two Towers*: 25 dei 62 capitoli dell’opera. Non significa che siano complete l’analisi critica o la collazione dell’edizione. I preliminari editoriali sono stati consultati solo in parte: il relativo stato resta pendente. III.4–III.11, i libri IV–VI, le appendici e gli indici non sono dichiarati letti. Le sezioni lette conservano introduzioni narrative nelle quattro lingue, motivazioni individuali e riscontri originali.
 
 | Sezione | Associazioni in prima analisi | action | mentioned |
 | --- | ---: | ---: | ---: |
@@ -34,7 +34,9 @@ Sono stati letti integralmente il Prologo, tutti i dodici capitoli del Libro I (
 | II.9 | 48 | 18 | 30 |
 | II.10 | 46 | 23 | 23 |
 | III.1 | 28 | 11 | 17 |
-| Totale | 1016 | 423 | 593 |
+| III.2 | 54 | 22 | 32 |
+| III.3 | 36 | 22 | 14 |
+| Totale | 1106 | 467 | 639 |
 
 Questi sono conteggi dell'analisi, non marker approvati o conteggi pubblici. Comprendono ambientazioni senza posizione utile, sogni, visioni e luoghi dei canti intercalati esclusi dalla futura vista geografica. L'inventario è un primo passaggio manuale, non una certificazione di completezza. La corrispondenza delle citazioni al testo non sostituisce la revisione narrativa e geografica delle decisioni.
 
@@ -67,7 +69,10 @@ Le distinzioni già registrate includono:
 - II.10: Parth Galen, la radura con sorbi e pietra e il seggio in cima sono luoghi distinti. Le azioni remote viste da Frodo conservano quel livello; non sono sue tappe. Frodo e Sam sbarcano sulle pendici meridionali di Amon Lhaw, senza salire al suo seggio o raggiungere Mordor.
 - III.1: Aragorn raggiunge ora il seggio, ma non vede le visioni di Frodo. La morte di Boromir avviene in un’altra radura; la riva dove preparano la barca non coincide col campo. Il viaggio funebre fino al mare è una tradizione posteriore. I Tre Cacciatori iniziano l’inseguimento, senza un arrivo già compiuto a Rohan.
 
-`cross-section-reviews.json` documenta dieci riscontri puntuali fra sezioni: sogno di Orthanc, battaglia di Gandalf a Weathertop, ricostruzione del guado, portico del Consiglio, continuità degli ambienti di Moria, livelli del Mirrormere, identità e arrivo a Caras Galadhon, identificazione successiva di Gollum, percezione del tempo a Lórien e continuità del seggio e delle radure di Amon Hen. Questi controlli non sono una revisione completa di tutte le ricorrenze. Non modificano retroattivamente ciò che una sezione dimostra, né confondono la scena raccontata con il luogo del racconto.
+- III.2: uscita dall’Emyn Muil, soste nella pianura, incontro con Éomer e ricerca presso Fangorn sono scene distinte. Edoras e Meduseld restano mete. Identità del vecchio e causa della fuga dei cavalli rimangono congetture; l’albero non è dichiarato un Ent.
+- III.3: il punto di vista dei prigionieri conferma il gesto della spilla e distingue il primo scontro nei boschi dal secondo attacco a Boromir. Gli hobbit arrivano a Fangorn; la narrazione prosegue poi oltre ciò che vedono, fino al duello di Éomer con Uglúk. Accampamento sul poggio, luogo della fuga, rogo e albero dei Cacciatori non vengono fusi in un punto unico.
+
+`cross-section-reviews.json` documenta dodici riscontri puntuali fra sezioni: sogno di Orthanc, battaglia di Gandalf a Weathertop, ricostruzione del guado, portico del Consiglio, continuità degli ambienti di Moria, livelli del Mirrormere, identità e arrivo a Caras Galadhon, identificazione successiva di Gollum, percezione del tempo a Lórien e continuità del seggio e delle radure di Amon Hen, intenzione e ritrovamento della spilla, e livelli narrativi dello scontro presso Fangorn. Questi controlli non sono una revisione completa di tutte le ricorrenze. Non modificano retroattivamente ciò che una sezione dimostra, né confondono la scena raccontata con il luogo del racconto.
 
 La runa che compare a pagina PDF 211/stampata 187 non è restituita come testo dall'estrazione. È stata esaminata sulla pagina renderizzata: la figura è presente e la prosa ne propone una lettura esplicitamente incerta. Non è stata inventata una trascrizione né trasformato il segno in prova certa della presenza di Gandalf. Il campione rimane locale, escluso da Git; non è necessario eseguire OCR della narrazione.
 
@@ -83,7 +88,7 @@ I titoli di II.5, II.6 e II.8 avevano sillabe o accenti disordinati dall’estra
 
 Il testimone acquisito non viene presentato come testo aggiornato a ogni correzione successiva. Il controllo di tre punti segnalati da [Wayne G. Hammond e Christina Scull](https://www.hammondandscull.com/addenda/rings.html) mostra che conserva lezioni anteriori alle loro correzioni: nel Prologo, pagina stampata 8/PDF 32, e alle pagine stampate 367/PDF 391 e 373/PDF 397. Questo riscontro puntuale non è una collazione integrale; non sono state applicate correzioni silenziose alle citazioni. Le parti editoriali e l'indice sono accreditati separatamente agli autori indicati nel PDF.
 
-`quotation-budget.json` misura il primo insieme locale per l'analisi critica: 1.016 associazioni, 982 estratti diversi, 9.166 parole contando le ripetizioni e 8.898 deduplicate; il passo più lungo di questo insieme ha 20 parole. Il conteggio comprende la breve trascrizione visiva; non comprende immagini del libro. Nessun numero è usato come soglia automatica di liceità. Restano da valutare necessità e proporzione di ogni passo e del complesso, insieme all'eventuale confronto con un testimone di accesso editoriale documentato. Non è ancora stato approvato alcun estratto per la pubblicazione. La ricerca preliminare delle traduzioni riutilizzabili in italiano, francese e spagnolo resta documentata nel README, con le lacune aperte.
+`quotation-budget.json` misura il primo insieme locale per l'analisi critica: 1.106 associazioni, 1.071 estratti diversi, 9.980 parole contando le ripetizioni e 9.704 deduplicate; il passo più lungo di questo insieme ha 20 parole. Il conteggio comprende la breve trascrizione visiva; non comprende immagini del libro. Nessun numero è usato come soglia automatica di liceità. Restano da valutare necessità e proporzione di ogni passo e del complesso, insieme all'eventuale confronto con un testimone di accesso editoriale documentato. Non è ancora stato approvato alcun estratto per la pubblicazione. La ricerca preliminare delle traduzioni riutilizzabili in italiano, francese e spagnolo resta documentata nel README, con le lacune aperte.
 
 ## Modelli reali
 
@@ -127,7 +132,7 @@ La lettura di II.1–II.2 rende opportuna anche una veduta di Rivendell: terrazz
 
 La lettura di II.6–II.10 rende opportune vedute di Cerin Amroth, Caras Galadhon e del tratto di Nen Hithoel con Parth Galen e i due colli. Cerin Amroth ha due cerchi di alberi e il ripiano centrale; la città distingue fossato, ingresso a sud-ovest, prato della fontana, casa nel mallorn e conca dello Specchio. Il lago aiuta a distinguere le rive, l’isola non visitata e lo sbarco dei due hobbit. Gli Argonath possono avere una veduta distinta con iconografia del romanzo. Per III.1 occorre separare le due radure e la riva della cerimonia, mantenendo approssimate le distanze. Queste sono valutazioni fondate sulla lettura, non immagini realizzate; prospettiva e posizioni non documentate restano interpretative e separate dalla geografia terrestre.
 
-La prossima unità da leggere è III.2, *The Riders of Rohan*, pagine PDF 445–467. Il lavoro non è concluso: restano 39 capitoli, sei appendici, il completamento dei preliminari e la verifica di indici/mappe, oltre alla riconciliazione critica e geografica e alla revisione dei diritti. Gli avanzamenti verificati della ricerca vengono pubblicati nel branch `docs`; nessun contenuto del nuovo romanzo è stato pubblicato in Supabase o sul sito.
+La prossima unità da leggere è III.4, *Treebeard*, pagine PDF 485–511. Il lavoro non è concluso: restano 37 capitoli, sei appendici, il completamento dei preliminari e la verifica di indici/mappe, oltre alla riconciliazione critica e geografica e alla revisione dei diritti. Gli avanzamenti verificati della ricerca vengono pubblicati nel branch `docs`; nessun contenuto del nuovo romanzo è stato pubblicato in Supabase o sul sito.
 
 ## Ripresa locale
 
