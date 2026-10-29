@@ -1,6 +1,6 @@
 {
   "date": "2026-10-29",
-  "scope": "Targeted original-text comparisons through complete Book III; not a complete recurrence audit or approval for publication.",
+  "scope": "Targeted original-text comparisons through IV.3; not a complete recurrence audit or approval for publication.",
   "reviews": [
     {
       "id": "frodo-dream-orthanc",
@@ -752,6 +752,143 @@
       "findingIt": "Pippin vede forme in marcia senza identificarle; il bosco compare poi presso il Fosso. Gandalf nega di averlo creato e vengono visti gli Ent pastori. Il racconto degli hobbit introduce infine il nome Huorn e ne distingue ombra, movimento e rapporto con gli Ent.",
       "dataDecision": "Preserve changing knowledge by section; do not claim that all early shapes were immediately recognised. Keep the fate of Orcs inside the wood uncertain where the narrator explicitly does so.",
       "remaining": "Individual Huorn origins and exact movements remain unlocated."
+    },
+    {
+      "id": "emyn-muil-descent-and-marsh-entry",
+      "sources": [
+        {
+          "sectionId": "b2-c10",
+          "pdfPages": [
+            432
+          ]
+        },
+        {
+          "sectionId": "b4-c01",
+          "pdfPages": [
+            627,
+            634,
+            636,
+            643
+          ]
+        },
+        {
+          "sectionId": "b4-c02",
+          "pdfPages": [
+            644,
+            649,
+            651
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "L’approdo di II.10 precede i giorni sulle Emyn Muil. IV.1 narra discesa, deviazione a sud, cattura di Gollum e avvicinamento; IV.2 riconosce la precedente fenditura e mostra ingresso e attraversamento delle paludi. Il terreno attorno alla corda e la parete di Gollum sono distinti.",
+      "dataDecision": "Keep chapter-specific progression. Do not promote the projected marsh crossing of IV.1 to action, merge separate descents or infer an Earth position.",
+      "remaining": "Full map alignment and later regional extent reconciliation pending."
+    },
+    {
+      "id": "battle-plain-dagorlad-proposed-route",
+      "sources": [
+        {
+          "sectionId": "b4-c01",
+          "pdfPages": [
+            628
+          ]
+        },
+        {
+          "sectionId": "b4-c02",
+          "pdfPages": [
+            649,
+            652
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "La via alternativa su terreno duro a nord delle paludi, rimpianta in IV.1, viene descritta e nominata Dagorlad in IV.2. Non viene percorsa. Il breve resoconto della battaglia non è trasformato in una scena sviluppata.",
+      "dataDecision": "Retain battle-plain source ID and wording; link canonicalPlaceId=dagorlad with the later evidence. Category remains mentioned in both chapters.",
+      "remaining": "Regional boundary and historical narrative reconciliation pending."
+    },
+    {
+      "id": "black-gate-arrival-and-army-entry",
+      "sources": [
+        {
+          "sectionId": "b4-c01",
+          "pdfPages": [
+            640
+          ]
+        },
+        {
+          "sectionId": "b4-c02",
+          "pdfPages": [
+            658,
+            659
+          ]
+        },
+        {
+          "sectionId": "b4-c03",
+          "pdfPages": [
+            660,
+            663,
+            669,
+            670,
+            671
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "La Porta è meta nei primi due capitoli; il terzo mostra l’arrivo al riparo esterno e le attività nemiche. L’action della Porta e di Mordor riguarda guardie e armate entranti, non l’ingresso dei tre. A fine capitolo è concordata la partenza serale, non già compiuta.",
+      "dataDecision": "Keep projected destination versus observed scene separate, with explicit sceneActors. Do not read the chapter opening journey-completed formula as physical entry into Mordor.",
+      "remaining": "Formal local map coordinates and full later Gate recurrence review pending."
+    },
+    {
+      "id": "orthanc-confrontation-black-gate-synchronism",
+      "sources": [
+        {
+          "sectionId": "b3-c10",
+          "pdfPages": [
+            600,
+            601,
+            608
+          ]
+        },
+        {
+          "sectionId": "b4-c03",
+          "pdfPages": [
+            668
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "Il narratore sincronizza esplicitamente l’esitazione di Frodo con il confronto a Isengard e l’urto del palantír sulla scala. La scena parallela non dipende da una data ricostruita a memoria e non implica un viaggio o una visione fisica degli hobbit a Orthanc.",
+      "dataDecision": "Reuse orthanc-ball-struck-step identity and record parallel-primary-scene in IV.3; do not use the later Dol Baran stone episode as this synchronism.",
+      "remaining": "Full calendar reconciliation with Appendix B pending."
+    },
+    {
+      "id": "remembered-bag-end-dialogue-versus-summary",
+      "sources": [
+        {
+          "sectionId": "b1-c02",
+          "pdfPages": [
+            70,
+            83
+          ]
+        },
+        {
+          "sectionId": "b4-c01",
+          "pdfPages": [
+            639
+          ]
+        },
+        {
+          "sectionId": "b4-c03",
+          "pdfPages": [
+            668
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "IV.1 riproduce il dialogo ricordato sul risparmiare Gollum: il luogo è identificato attraverso la scena originale a Bag End, senza aggiungere il nome alla citazione. IV.3 riassume invece la decisione presa nel salotto e resta una menzione.",
+      "dataDecision": "Preserve different functions of the same remote place: embedded-recalled-dialogue action versus reference summary, with the hobbits physically outside Mordor in both current scenes. The wording of the remembered speech in IV.1 is preserved as printed there; it is not silently replaced with the earlier I.2 wording.",
+      "remaining": "Final publication necessity and indirect-highlight review pending."
     }
   ],
   "quotationTextIncluded": false,
