@@ -604,6 +604,51 @@
       ]
     },
     {
+      "sectionId": "b4-c08",
+      "completeRead": true,
+      "references": 40,
+      "action": 23,
+      "mentioned": 17,
+      "inventoryStatus": "first-manual-pass-reconciliation-pending",
+      "quotationRightsStatus": "pending",
+      "introductionsAvailable": [
+        "it",
+        "en",
+        "fr",
+        "es"
+      ]
+    },
+    {
+      "sectionId": "b4-c09",
+      "completeRead": true,
+      "references": 39,
+      "action": 17,
+      "mentioned": 22,
+      "inventoryStatus": "first-manual-pass-reconciliation-pending",
+      "quotationRightsStatus": "pending",
+      "introductionsAvailable": [
+        "it",
+        "en",
+        "fr",
+        "es"
+      ]
+    },
+    {
+      "sectionId": "b4-c10",
+      "completeRead": true,
+      "references": 40,
+      "action": 22,
+      "mentioned": 18,
+      "inventoryStatus": "first-manual-pass-reconciliation-pending",
+      "quotationRightsStatus": "pending",
+      "introductionsAvailable": [
+        "it",
+        "en",
+        "fr",
+        "es"
+      ]
+    },
+    {
       "sectionId": "prologue",
       "completeRead": true,
       "references": 62,

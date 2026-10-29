@@ -1,6 +1,6 @@
 {
   "date": "2026-10-29",
-  "scope": "Targeted original-text comparisons through IV.7; not a complete recurrence audit or approval for publication.",
+  "scope": "Targeted original-text comparisons through complete Book IV / The Two Towers; not a complete recurrence audit or approval for publication.",
   "reviews": [
     {
       "id": "frodo-dream-orthanc",
@@ -1119,6 +1119,225 @@
       "findingIt": "Anborn prima riferisce una creatura che considera forse uno scoiattolo. Faramir collega poi il suo unico avvistamento serale a Gollum e lo mostra nella pozza. La forma intravista da Sam durante il cammino non è identificata con la stessa certezza.",
       "dataDecision": "Add later identification metadata to Anborn’s tree episode; retain the witness’s original uncertainty and keep Sam’s fleeting glimpse unresolved.",
       "remaining": "Full recurrence reconciliation, map positions and publication rights remain pending."
+    },
+    {
+      "id": "morgul-bridge-hobbits-versus-departing-army",
+      "sources": [
+        {
+          "sectionId": "b4-c07",
+          "pdfPages": [
+            721,
+            726
+          ]
+        },
+        {
+          "sectionId": "b4-c08",
+          "pdfPages": [
+            727,
+            728,
+            730,
+            731
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "La valle osservata a distanza in IV.7 viene raggiunta in IV.8. Sam trattiene Frodo prima del ponte; l’armata passa invece dalla porta e attraversa il ponte, mentre i tre salgono a nord.",
+      "dataDecision": "Keep separate sceneActors and chapter-level categories for valley, city, gate and bridge. Do not place the hobbits inside Minas Morgul.",
+      "remaining": "Full recurrence audit, critical collation, map positions and quotation rights remain pending."
+    },
+    {
+      "id": "cirith-ungol-stairs-cleft-and-undergate",
+      "sources": [
+        {
+          "sectionId": "b4-c03",
+          "pdfPages": [
+            667,
+            668
+          ]
+        },
+        {
+          "sectionId": "b4-c08",
+          "pdfPages": [
+            732,
+            733,
+            734,
+            740
+          ]
+        },
+        {
+          "sectionId": "b4-c09",
+          "pdfPages": [
+            741,
+            747
+          ]
+        },
+        {
+          "sectionId": "b4-c10",
+          "pdfPages": [
+            757,
+            758,
+            760,
+            765,
+            766
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "La proposta si articola in scala dritta, scala a tornanti, tunnel e ultimo tratto al varco. Solo Sam raggiunge l’intaglio alla fine del libro, ma torna prima di scendere sul lato opposto; insegue poi gli Orchi fino alla porta inferiore e resta fuori.",
+      "dataDecision": "Preserve the main pass below, high secret way, final shallow steps, outer tower and underground gate as different sites; no complete crossing or tower entry by Sam yet.",
+      "remaining": "Full recurrence audit, critical collation, map positions and quotation rights remain pending."
+    },
+    {
+      "id": "shelob-gollum-plan-later-revealed",
+      "sources": [
+        {
+          "sectionId": "b4-c02",
+          "pdfPages": [
+            657,
+            658
+          ]
+        },
+        {
+          "sectionId": "b4-c07",
+          "pdfPages": [
+            723,
+            724,
+            725
+          ]
+        },
+        {
+          "sectionId": "b4-c08",
+          "pdfPages": [
+            737,
+            738,
+            739
+          ]
+        },
+        {
+          "sectionId": "b4-c09",
+          "pdfPages": [
+            747,
+            748,
+            749,
+            750
+          ]
+        },
+        {
+          "sectionId": "b4-c10",
+          "pdfPages": [
+            762,
+            763
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "Il riferimento a She viene risolto dal narratore in Shelob; la visita durante il sonno degli hobbit e l’attacco di Gollum diventano fatti narrati. I rapporti degli Orchi aggiungono la conoscenza del loro Sneak. Le prime ipotesi degli hobbit e gli itinerari delle altre assenze non diventano retroattivamente osservazioni certe.",
+      "dataDecision": "Keep narrator knowledge, reported patrol information and earlier guesses distinct. Do not invent a meeting room or follow an unshown route to the lair.",
+      "remaining": "Full recurrence audit, critical collation, map positions and quotation rights remain pending."
+    },
+    {
+      "id": "mirror-dark-cliff-recognised-after-sting",
+      "sources": [
+        {
+          "sectionId": "b2-c07",
+          "pdfPages": [
+            386
+          ]
+        },
+        {
+          "sectionId": "b4-c10",
+          "pdfPages": [
+            754,
+            755,
+            764,
+            766
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "Sam riconosce il volto di Frodo sotto la rupe nell’immagine vista nello Specchio. Il riconoscimento identifica la scena, ma non convalida la sua conclusione che Frodo sia morto: il finale chiarisce che è paralizzato e prigioniero.",
+      "dataDecision": "Keep mirror-dark-cliff as a vision ID, add the later depictsPlaceId and recognition source, preserve original wording and exclude a physical visit in II.7.",
+      "remaining": "Full recurrence audit, critical collation, map positions and quotation rights remain pending."
+    },
+    {
+      "id": "torech-blocked-branch-stone-door",
+      "sources": [
+        {
+          "sectionId": "b4-c09",
+          "pdfPages": [
+            743
+          ]
+        },
+        {
+          "sectionId": "b4-c10",
+          "pdfPages": [
+            760,
+            761,
+            765,
+            766
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "Il ramo trovato ostruito viene riconosciuto da Sam come via degli Orchi; egli scopre poi un blocco sagomato a porta con spazio sopra e lo scavalca. Inizialmente la corrispondenza è una sua deduzione nel buio.",
+      "dataDecision": "Retain candidateSamePlaceAs and confidence rather than an invented surveyed plan. The stone barrier is not smashed; the later barred metal Undergate is a separate obstacle.",
+      "remaining": "Full recurrence audit, critical collation, map positions and quotation rights remain pending."
+    },
+    {
+      "id": "frodo-sting-misjudgment-and-capture",
+      "sources": [
+        {
+          "sectionId": "b4-c09",
+          "pdfPages": [
+            749,
+            750,
+            751
+          ]
+        },
+        {
+          "sectionId": "b4-c10",
+          "pdfPages": [
+            752,
+            754,
+            755,
+            756,
+            759,
+            760,
+            764,
+            766
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "L’assalto e il ritardo di Sam precedono la scoperta del corpo avvolto. Sam combatte, libera Frodo dalla tela e prende l’Anello credendolo morto; gli Orchi lo portano via vivo. La camera superiore è ordinata, non ancora mostrata.",
+      "dataDecision": "Record actual combat, Ring transfer, capture and entry by the Orcs; do not publish death, burial, completed rescue or arrival in the top chamber as fact.",
+      "remaining": "Full recurrence audit, critical collation, map positions and quotation rights remain pending."
+    },
+    {
+      "id": "shelob-retreat-and-unknown-fate",
+      "sources": [
+        {
+          "sectionId": "b4-c09",
+          "pdfPages": [
+            744,
+            745,
+            749
+          ]
+        },
+        {
+          "sectionId": "b4-c10",
+          "pdfPages": [
+            752,
+            753,
+            754,
+            758
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "Gli occhi sono respinti nel tunnel, ma Shelob esce da un altro foro. Sam poi la ferisce e la costringe a rientrare; con l’Anello ne sente ancora il movimento sofferente. Il narratore non dice se muoia o guarisca.",
+      "dataDecision": "Separate the web outlet, upper side exit and unlocated blind passage; no asserted killing or future recovery.",
+      "remaining": "Full recurrence audit, critical collation, map positions and quotation rights remain pending."
     }
   ],
   "quotationTextIncluded": false,
