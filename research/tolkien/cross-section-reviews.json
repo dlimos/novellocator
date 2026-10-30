@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "scope": "Targeted original-text comparisons through V.7; not a complete recurrence audit or approval for publication.",
+  "scope": "Targeted original-text comparisons through the complete narrative (VI.9); apparatus reading and full recurrence audit remain separate.",
   "reviews": [
     {
       "id": "frodo-dream-orthanc",
@@ -1942,6 +1942,412 @@
       "status": "targeted-original-comparison-checked",
       "findingIt": "La Pietra viene mostrata ai sepolcri. Gandalf collega la disperazione alle visioni e Beregond conferma la luce nella camera sommitale; frequenza e contenuto restano in parte ricostruzioni.",
       "dataDecision": "Strengthen the documented association without converting inference into a fully narrated scene inside the secret chamber.",
+      "remaining": "Full recurrence, critical collation, chronology and rights review pending."
+    },
+    {
+      "id": "faramir-arrow-reassessment",
+      "sources": [
+        {
+          "sectionId": "b5-c04",
+          "pdfPages": [
+            845
+          ]
+        },
+        {
+          "sectionId": "b5-c08",
+          "pdfPages": [
+            888
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "Aragorn giudica la freccia probabilmente Southron e Imrahil ricorda il tipo, ma non l’ha conservata. Febbre e Ombra non dimostrano un dardo dei Nazgul.",
+      "dataDecision": "Retain earlier observer attribution as belief; add later medical reassessment.",
+      "remaining": "Full recurrence, critical collation, chronology and rights review pending."
+    },
+    {
+      "id": "merry-fourth-circle-rescue",
+      "sources": [
+        {
+          "sectionId": "b5-c06",
+          "pdfPages": [
+            869
+          ]
+        },
+        {
+          "sectionId": "b5-c08",
+          "pdfPages": [
+            882,
+            883,
+            884
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "Merry si separa dai portatori, si perde al quarto livello e viene trovato da Pippin; Gandalf lo trasporta alle Case.",
+      "dataDecision": "Keep bier procession, wrong turn, doorstep, sunlit wait and final carrying distinct.",
+      "remaining": "Full recurrence, critical collation, chronology and rights review pending."
+    },
+    {
+      "id": "garden-from-description-to-scenes",
+      "sources": [
+        {
+          "sectionId": "b5-c07",
+          "pdfPages": [
+            879
+          ]
+        },
+        {
+          "sectionId": "b5-c09",
+          "pdfPages": [
+            897
+          ]
+        },
+        {
+          "sectionId": "b6-c05",
+          "pdfPages": [
+            983,
+            985,
+            989
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "Il giardino prima descritto diventa luogo del ritrovo e poi della relazione fra Faramir e Éowyn.",
+      "dataDecision": "Maintain section-specific categories; no automatic action inherited by the descriptive reference.",
+      "remaining": "Full recurrence, critical collation, chronology and rights review pending."
+    },
+    {
+      "id": "dead-host-dismissed-at-pelargir",
+      "sources": [
+        {
+          "sectionId": "b5-c02",
+          "pdfPages": [
+            813
+          ]
+        },
+        {
+          "sectionId": "b5-c06",
+          "pdfPages": [
+            872
+          ]
+        },
+        {
+          "sectionId": "b5-c09",
+          "pdfPages": [
+            899,
+            900,
+            901
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "Il racconto sviluppa i guadi di Linhir, la presa della flotta e il congedo dei Morti a Pelargir. I rinforzi umani navigano poi verso Harlond.",
+      "dataDecision": "No Dead Army on the Pelennor; embedded witness scenes separate from present garden.",
+      "remaining": "Full recurrence, critical collation, chronology and rights review pending."
+    },
+    {
+      "id": "crossroads-head-restored",
+      "sources": [
+        {
+          "sectionId": "b4-c07",
+          "pdfPages": [
+            725,
+            726
+          ]
+        },
+        {
+          "sectionId": "b5-c10",
+          "pdfPages": [
+            908
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "I cavalieri ristabiliscono la testa ancora coronata di fiori sull’immagine vista da Frodo; distruggono la testa degli Orchi.",
+      "dataDecision": "Same monument, different states; no invented name for the represented king.",
+      "remaining": "Full recurrence, critical collation, chronology and rights review pending."
+    },
+    {
+      "id": "ithilien-ambush-same-cutting",
+      "sources": [
+        {
+          "sectionId": "b4-c04",
+          "pdfPages": [
+            674,
+            685
+          ]
+        },
+        {
+          "sectionId": "b5-c10",
+          "pdfPages": [
+            909,
+            910
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "Il narratore identifica il nuovo agguato col luogo della precedente imboscata di Faramir. Mablung avverte i capitani.",
+      "dataDecision": "Canonical link explicit; preserve distinct battles and actors.",
+      "remaining": "Full recurrence, critical collation, chronology and rights review pending."
+    },
+    {
+      "id": "sam-return-and-tower-entry",
+      "sources": [
+        {
+          "sectionId": "b4-c10",
+          "pdfPages": [
+            764,
+            765,
+            766
+          ]
+        },
+        {
+          "sectionId": "b6-c01",
+          "pdfPages": [
+            921,
+            922,
+            924,
+            927,
+            932,
+            933
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "Sam torna dalla porta sotterranea, scavalca la barriera, passa il crinale ed entra dal portale esterno. Il prigioniero è oltre scala, tetto, torretta e botola.",
+      "dataDecision": "Separate gates and floors; no direct underground entry or unobserved shortcut.",
+      "remaining": "Full recurrence, critical collation, chronology and rights review pending."
+    },
+    {
+      "id": "mordor-parallel-march-dates",
+      "sources": [
+        {
+          "sectionId": "b5-c05",
+          "pdfPages": [
+            857,
+            858
+          ]
+        },
+        {
+          "sectionId": "b5-c06",
+          "pdfPages": [
+            867
+          ]
+        },
+        {
+          "sectionId": "b6-c01",
+          "pdfPages": [
+            921
+          ]
+        },
+        {
+          "sectionId": "b6-c02",
+          "pdfPages": [
+            943
+          ]
+        },
+        {
+          "sectionId": "b6-c03",
+          "pdfPages": [
+            959
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "Il 14 marzo sincronizza Sam con partenza della flotta, marcia nella valle e Pippin; il 15 con Théoden morente. Il percorso dei due converge col diversivo dei capitani.",
+      "dataDecision": "Use explicit narrator synchronisms, keeping characters unaware of distant scenes.",
+      "remaining": "Full recurrence, critical collation, chronology and rights review pending."
+    },
+    {
+      "id": "ring-claim-detection-and-gollum-fall",
+      "sources": [
+        {
+          "sectionId": "b6-c03",
+          "pdfPages": [
+            966,
+            969,
+            970
+          ]
+        },
+        {
+          "sectionId": "b6-c04",
+          "pdfPages": [
+            972,
+            973,
+            974,
+            975
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "Prima l’Occhio guarda a nord; solo la rivendicazione dell’Anello rivela Frodo. Gollum cade con il dito, Sauron crolla e i soccorritori recuperano i due da un colle al piede del monte.",
+      "dataDecision": "No voluntary casting by Frodo, no rescue at the Crack, no Pippin death inferred from unconsciousness.",
+      "remaining": "Full recurrence, critical collation, chronology and rights review pending."
+    },
+    {
+      "id": "king-entry-crowning-and-sapling",
+      "sources": [
+        {
+          "sectionId": "b5-c08",
+          "pdfPages": [
+            885,
+            886
+          ]
+        },
+        {
+          "sectionId": "b6-c04",
+          "pdfPages": [
+            977,
+            978,
+            981
+          ]
+        },
+        {
+          "sectionId": "b6-c05",
+          "pdfPages": [
+            990,
+            991,
+            992,
+            995,
+            996,
+            997
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "Ingresso per curare, onore a Cormallen, coronazione esterna, scoperta sul monte, piantagione e nozze sono eventi distinti. Frodo porta la corona, Gandalf la impone.",
+      "dataDecision": "Do not merge ceremony locations or make renewed gates already present.",
+      "remaining": "Full recurrence, critical collation, chronology and rights review pending."
+    },
+    {
+      "id": "theoden-repatriation-and-caves-promise",
+      "sources": [
+        {
+          "sectionId": "b5-c06",
+          "pdfPages": [
+            867
+          ]
+        },
+        {
+          "sectionId": "b6-c05",
+          "pdfPages": [
+            993
+          ]
+        },
+        {
+          "sectionId": "b6-c06",
+          "pdfPages": [
+            999,
+            1000,
+            1001,
+            1002
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "Dalla sepoltura temporanea di Rath Dinen il corpo arriva al tumulo orientale di Edoras; Legolas visita poi le grotte con Gimli, mentre Fangorn resta il loro successivo progetto.",
+      "dataDecision": "Separate funeral stages and fulfilled versus proposed detours.",
+      "remaining": "Full recurrence, critical collation, chronology and rights review pending."
+    },
+    {
+      "id": "isengard-and-saruman-last-route",
+      "sources": [
+        {
+          "sectionId": "b3-c09",
+          "pdfPages": [
+            590,
+            591
+          ]
+        },
+        {
+          "sectionId": "b6-c06",
+          "pdfPages": [
+            1002,
+            1003,
+            1004,
+            1007,
+            1008
+          ]
+        },
+        {
+          "sectionId": "b6-c08",
+          "pdfPages": [
+            1042,
+            1043,
+            1044
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "Isengard ora è giardino; Treebeard ha lasciato andare Saruman. Il mendicante incontrato in Dunland diventa Sharkey e muore alla porta di Bag End, ucciso da Gríma.",
+      "dataDecision": "Maintain changing states, testimony and actual final scene; no Orthanc death.",
+      "remaining": "Full recurrence, critical collation, chronology and rights review pending."
+    },
+    {
+      "id": "shire-mirror-damage-and-repair",
+      "sources": [
+        {
+          "sectionId": "b2-c07",
+          "pdfPages": [
+            387,
+            390
+          ]
+        },
+        {
+          "sectionId": "b6-c07",
+          "pdfPages": [
+            1019
+          ]
+        },
+        {
+          "sectionId": "b6-c08",
+          "pdfPages": [
+            1040,
+            1041
+          ]
+        },
+        {
+          "sectionId": "b6-c09",
+          "pdfPages": [
+            1046,
+            1047
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "Il ritorno conferma i danni temuti da Sam e distingue cava, albero abbattuto e mulino nuovo. Ricostruzione e mallorn producono stati successivi, non annullano il trauma di Frodo.",
+      "dataDecision": "Keep original vision, observed damage and later works separate.",
+      "remaining": "Full recurrence, critical collation, chronology and rights review pending."
+    },
+    {
+      "id": "grey-havens-names-and-dream",
+      "sources": [
+        {
+          "sectionId": "b1-c08",
+          "pdfPages": [
+            159
+          ]
+        },
+        {
+          "sectionId": "b6-c06",
+          "pdfPages": [
+            1012
+          ]
+        },
+        {
+          "sectionId": "b6-c09",
+          "pdfPages": [
+            1052,
+            1053,
+            1054,
+            1055
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "Mithlond è esplicitamente nominata come Porti Grigi; Elrond mantiene il futuro incontro nella Contea. La visione di Frodo richiama il sogno da Tom, mentre Sam vede solo il mare e poi torna a casa.",
+      "dataDecision": "Resolve explicit place alias, retain different viewpoints and avoid a named western landing absent from the final passage.",
       "remaining": "Full recurrence, critical collation, chronology and rights review pending."
     }
   ],
