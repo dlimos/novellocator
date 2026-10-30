@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-29",
-  "scope": "Targeted original-text comparisons through complete Book IV / The Two Towers; not a complete recurrence audit or approval for publication.",
+  "date": "2026-10-30",
+  "scope": "Targeted original-text comparisons through V.2; not a complete recurrence audit or approval for publication.",
   "reviews": [
     {
       "id": "frodo-dream-orthanc",
@@ -1338,6 +1338,167 @@
       "findingIt": "Gli occhi sono respinti nel tunnel, ma Shelob esce da un altro foro. Sam poi la ferisce e la costringe a rientrare; con l’Anello ne sente ancora il movimento sofferente. Il narratore non dice se muoia o guarisca.",
       "dataDecision": "Separate the web outlet, upper side exit and unlocated blind passage; no asserted killing or future recovery.",
       "remaining": "Full recurrence audit, critical collation, map positions and quotation rights remain pending."
+    },
+    {
+      "id": "edoras-stop-and-minas-tirith-arrival",
+      "sources": [
+        {
+          "sectionId": "b3-c11",
+          "pdfPages": [
+            624
+          ]
+        },
+        {
+          "sectionId": "b5-c01",
+          "pdfPages": [
+            771,
+            772,
+            773,
+            775,
+            776
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "Le mete annunciate da Gandalf diventano il ricordo della sosta nella casa dorata e poi l’arrivo effettivo alla città. La cinta del Pelennor, il Grande Cancello e il settimo cancello sono tre accessi distinti.",
+      "dataDecision": "Keep the drowsy recollection’s indirect Edoras/Meduseld setting, and distinguish approach, outer repair gate and actual city entry.",
+      "remaining": "Full recurrence reconciliation, chronology, map positions and rights pending."
+    },
+    {
+      "id": "two-rohan-departures-after-dol-baran",
+      "sources": [
+        {
+          "sectionId": "b3-c11",
+          "pdfPages": [
+            613,
+            620,
+            624
+          ]
+        },
+        {
+          "sectionId": "b5-c01",
+          "pdfPages": [
+            771
+          ]
+        },
+        {
+          "sectionId": "b5-c02",
+          "pdfPages": [
+            797,
+            798,
+            799,
+            801,
+            803,
+            806
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "Il re segue Gandalf attraverso i guadi ma torna al Burg. Poi Théoden e Merry prendono le vie dei colli, mentre Aragorn attraversa la pianura e passa da Edoras a Dunharrow. Il percorso di Gandalf è ancora diverso.",
+      "dataDecision": "Track sceneActors and route phases individually; do not copy Gandalf’s speed, destinations or horse assignments to the other groups.",
+      "remaining": "Full recurrence reconciliation, chronology, map positions and rights pending."
+    },
+    {
+      "id": "denethor-chair-and-horn-encountered",
+      "sources": [
+        {
+          "sectionId": "b4-c05",
+          "pdfPages": [
+            691,
+            692
+          ]
+        },
+        {
+          "sectionId": "b5-c01",
+          "pdfPages": [
+            778,
+            779,
+            780
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "La sedia e le parti del corno riferite da Faramir vengono incontrate nella scena di Denethor. Pippin testimonia l’ultima difesa di Boromir, ma non il colloquio finale con Aragorn. Il Sovrintendente siede sotto il trono vuoto, non sul trono.",
+      "dataDecision": "Preserve mentioned-to-action progression for the chair, the distinct empty throne, and separate testimony from final death knowledge.",
+      "remaining": "Full recurrence reconciliation, chronology, map positions and rights pending."
+    },
+    {
+      "id": "moon-and-ithilien-parallel-journeys",
+      "sources": [
+        {
+          "sectionId": "b4-c06",
+          "pdfPages": [
+            707,
+            708
+          ]
+        },
+        {
+          "sectionId": "b4-c07",
+          "pdfPages": [
+            719,
+            720
+          ]
+        },
+        {
+          "sectionId": "b5-c01",
+          "pdfPages": [
+            772,
+            776
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "Il narratore collega la luna guardata da Pippin a quella vista da Frodo oltre Gondor, e pone l’arrivo al settimo cancello accanto al cammino di Frodo in Ithilien. Sono scene parallele, non visioni o incontri fra gli hobbit.",
+      "dataDecision": "Record explicit synchronisms without assigning an Earth date or reconstructing the full calendar before Appendix B.",
+      "remaining": "Full recurrence reconciliation, chronology, map positions and rights pending."
+    },
+    {
+      "id": "aragorn-stone-custody-and-burg-use",
+      "sources": [
+        {
+          "sectionId": "b3-c11",
+          "pdfPages": [
+            618,
+            619
+          ]
+        },
+        {
+          "sectionId": "b5-c02",
+          "pdfPages": [
+            800,
+            804,
+            805
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "La pietra affidata ad Aragorn viene usata nel Burg, in una camera alta dove si è ritirato con Halbarad. Il confronto è poi raccontato; egli dice di non avere parlato e di aver mostrato la spada. Orthanc è il nome di provenienza della pietra, non il luogo fisico della scena.",
+      "dataDecision": "Keep material custody, room setting and embedded retelling distinct from remote contact and the briefly summarised southern peril.",
+      "remaining": "Full recurrence reconciliation, chronology, map positions and rights pending."
+    },
+    {
+      "id": "lamedon-origin-versus-grey-company-route",
+      "sources": [
+        {
+          "sectionId": "b5-c01",
+          "pdfPages": [
+            794,
+            795
+          ]
+        },
+        {
+          "sectionId": "b5-c02",
+          "pdfPages": [
+            812,
+            813,
+            814
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "I paesi dei reparti arrivati a Minas Tirith sono menzioni di provenienza; il successivo cammino della Compagnia Grigia è invece azione in Morthond e Lamedon. Dol Amroth e Pelargir restano riferimenti e mete nel tratto qui letto.",
+      "dataDecision": "Never promote every troop origin to an action scene; actual arrival and travel require chapter-specific original evidence.",
+      "remaining": "Full recurrence reconciliation, chronology, map positions and rights pending."
     }
   ],
   "quotationTextIncluded": false,
