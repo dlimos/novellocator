@@ -679,6 +679,51 @@
       ]
     },
     {
+      "sectionId": "b5-c03",
+      "completeRead": true,
+      "references": 52,
+      "action": 26,
+      "mentioned": 26,
+      "inventoryStatus": "first-manual-pass-reconciliation-pending",
+      "quotationRightsStatus": "pending",
+      "introductionsAvailable": [
+        "it",
+        "en",
+        "fr",
+        "es"
+      ]
+    },
+    {
+      "sectionId": "b5-c04",
+      "completeRead": true,
+      "references": 79,
+      "action": 48,
+      "mentioned": 31,
+      "inventoryStatus": "first-manual-pass-reconciliation-pending",
+      "quotationRightsStatus": "pending",
+      "introductionsAvailable": [
+        "it",
+        "en",
+        "fr",
+        "es"
+      ]
+    },
+    {
+      "sectionId": "b5-c05",
+      "completeRead": true,
+      "references": 34,
+      "action": 17,
+      "mentioned": 17,
+      "inventoryStatus": "first-manual-pass-reconciliation-pending",
+      "quotationRightsStatus": "pending",
+      "introductionsAvailable": [
+        "it",
+        "en",
+        "fr",
+        "es"
+      ]
+    },
+    {
       "sectionId": "prologue",
       "completeRead": true,
       "references": 62,

@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "scope": "Targeted original-text comparisons through V.2; not a complete recurrence audit or approval for publication.",
+  "scope": "Targeted original-text comparisons through V.5; not a complete recurrence audit or approval for publication.",
   "reviews": [
     {
       "id": "frodo-dream-orthanc",
@@ -1499,6 +1499,247 @@
       "findingIt": "I paesi dei reparti arrivati a Minas Tirith sono menzioni di provenienza; il successivo cammino della Compagnia Grigia è invece azione in Morthond e Lamedon. Dol Amroth e Pelargir restano riferimenti e mete nel tratto qui letto.",
       "dataDecision": "Never promote every troop origin to an action scene; actual arrival and travel require chapter-specific original evidence.",
       "remaining": "Full recurrence reconciliation, chronology, map positions and rights pending."
+    },
+    {
+      "id": "muster-relocation-after-edoras-shadow",
+      "sources": [
+        {
+          "sectionId": "b5-c01",
+          "pdfPages": [
+            771
+          ]
+        },
+        {
+          "sectionId": "b5-c02",
+          "pdfPages": [
+            801,
+            802
+          ]
+        },
+        {
+          "sectionId": "b5-c03",
+          "pdfPages": [
+            817,
+            826,
+            827
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "Dunhere spiega il trasferimento del raduno da Edoras alla valle dopo l’ombra alata, su consiglio di Gandalf. Il re passa ancora da Edoras e aggiunge i ritardatari, ma la grande adunata è già avvenuta presso il fiume.",
+      "dataDecision": "Keep changing plans and actual muster sites distinct; do not count all camped riders on the upper Firienfeld.",
+      "remaining": "Full recurrence, critical collation, chronology and rights review pending."
+    },
+    {
+      "id": "dunharrow-approaches-stones-and-door-legend",
+      "sources": [
+        {
+          "sectionId": "b5-c02",
+          "pdfPages": [
+            810,
+            811
+          ]
+        },
+        {
+          "sectionId": "b5-c03",
+          "pdfPages": [
+            818,
+            819,
+            821,
+            822
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "La salita al Hold ha statue ai tornanti; sul pianoro stanno due file di pietre non scolpite che conducono al Dimholt. Il racconto di Brego e Baldor sviluppa una scena sulla soglia. Baldor scomparso non è un’identificazione esplicita del corpo in armatura incontrato da Aragorn.",
+      "dataDecision": "Separate switchback figures, plateau stone-lines, single pillar, outer Door and inner sealed door. Keep candidate identity of the dead man unresolved.",
+      "remaining": "Full recurrence, critical collation, chronology and rights review pending."
+    },
+    {
+      "id": "pippin-reinforcements-theoden-harrowdale-synchronism",
+      "sources": [
+        {
+          "sectionId": "b5-c01",
+          "pdfPages": [
+            794,
+            795
+          ]
+        },
+        {
+          "sectionId": "b5-c03",
+          "pdfPages": [
+            815
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "Il narratore pone l’arrivo di Imrahil visto da Pippin in parallelo alla discesa del re dai monti verso Harrowdale. Nessuno dei due hobbit vede la scena dell’altro.",
+      "dataDecision": "Use explicit juxtaposition as chronology evidence without inventing a meeting or an Earth date.",
+      "remaining": "Full recurrence, critical collation, chronology and rights review pending."
+    },
+    {
+      "id": "crossroads-sunset-and-citadel-darkness",
+      "sources": [
+        {
+          "sectionId": "b4-c07",
+          "pdfPages": [
+            726
+          ]
+        },
+        {
+          "sectionId": "b5-c04",
+          "pdfPages": [
+            832
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "Il breve sole che illumina la testa caduta è richiamato esplicitamente mentre Pippin e Beregond restano al buio sotto Mindolluin. È lo stesso momento narrativo, non luce che raggiunge tutte le postazioni.",
+      "dataDecision": "Preserve the parallel scene at the fallen head and the absence of light on the Pelennor; no physical Frodo visit to the city.",
+      "remaining": "Full recurrence, critical collation, chronology and rights review pending."
+    },
+    {
+      "id": "faramir-first-return-convoy-and-wounding",
+      "sources": [
+        {
+          "sectionId": "b4-c07",
+          "pdfPages": [
+            719
+          ]
+        },
+        {
+          "sectionId": "b5-c01",
+          "pdfPages": [
+            796
+          ]
+        },
+        {
+          "sectionId": "b5-c04",
+          "pdfPages": [
+            833,
+            834,
+            836,
+            841,
+            842,
+            844,
+            845
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "Il capitano atteso torna dopo Cair Andros ed è soccorso dai Nazgul; poi riparte, Gandalf rientra con altri feriti mentre lui resta in retroguardia, e solo più tardi Imrahil lo porta ferito alla città. Sono episodi distinti.",
+      "dataDecision": "Track separate event IDs and sceneActors; never fold the first ride, wounded wagons and sortie into a single rescue or infer Faramir’s death from body.",
+      "remaining": "Full recurrence, critical collation, chronology and rights review pending."
+    },
+    {
+      "id": "denethor-rooms-and-tomb-route",
+      "sources": [
+        {
+          "sectionId": "b5-c01",
+          "pdfPages": [
+            778,
+            782,
+            789
+          ]
+        },
+        {
+          "sectionId": "b5-c04",
+          "pdfPages": [
+            830,
+            835,
+            842,
+            845,
+            849,
+            850,
+            851
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "Grande sala, camera privata col braciere, camera alta sopra la sala e ambiente segreto presso la cima non sono un unico punto verificato. Il corteo passa poi dalla corte, dal sesto livello e da Fen Hollen fino a Rath Dinen; la pira è ordinata, non già accesa.",
+      "dataDecision": "Keep room identities provisional and the funerary route distinct from the Great Gate and Lampwrights’ Street. No secret-room activity or completed burning is invented.",
+      "remaining": "Full recurrence, critical collation, chronology and rights review pending."
+    },
+    {
+      "id": "rammas-repair-breach-and-rohirrim-entry",
+      "sources": [
+        {
+          "sectionId": "b5-c01",
+          "pdfPages": [
+            772,
+            773,
+            774
+          ]
+        },
+        {
+          "sectionId": "b5-c04",
+          "pdfPages": [
+            842,
+            843,
+            845
+          ]
+        },
+        {
+          "sectionId": "b5-c05",
+          "pdfPages": [
+            858,
+            860,
+            861
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "Il tratto riparato da Ingold sull’accesso da Rohan cade; i Rohirrim arrivano alla rovina del portale nord e usano anche una breccia più a est. Il Rammas resta distinto dal cancello cittadino rotto da Grond.",
+      "dataDecision": "Record contextually linked north entrance without a surveyed coordinate, retain the eastern Grimbold gap and separate the two walls.",
+      "remaining": "Full recurrence, critical collation, chronology and rights review pending."
+    },
+    {
+      "id": "pukel-men-comparison-and-ghan",
+      "sources": [
+        {
+          "sectionId": "b5-c03",
+          "pdfPages": [
+            818,
+            819
+          ]
+        },
+        {
+          "sectionId": "b5-c05",
+          "pdfPages": [
+            855,
+            856,
+            858
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "Merry paragona Ghan e gli altri ai Pukel-men. Il testo offre un’impressione e un’ipotesi sui modelli antichi, non statue animate o discendenza dimostrata. La guida dei Woses avviene nei boschi e sulla via nascosta, non nella carica.",
+      "dataDecision": "Preserve comparison and uncertainty, separate carved landmarks from living actors, and do not put Ghan on the Pelennor.",
+      "remaining": "Full recurrence, critical collation, chronology and rights review pending."
+    },
+    {
+      "id": "broken-gate-and-rohan-horn-two-viewpoints",
+      "sources": [
+        {
+          "sectionId": "b5-c04",
+          "pdfPages": [
+            851,
+            852,
+            853
+          ]
+        },
+        {
+          "sectionId": "b5-c05",
+          "pdfPages": [
+            861,
+            862
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "Pippin trova Gandalf alla Porta e il narratore mostra Grond e il confronto; Merry sente il boato dai campi e vede il re dare il segnale. I corni interrompono l’attesa senza una vittoria del Nazgul sul mago.",
+      "dataDecision": "Keep the city confrontation direct in V.4 and distant perception in V.5, with actual Rohirrim charge on the Pelennor only.",
+      "remaining": "Full recurrence, critical collation, chronology and rights review pending."
     }
   ],
   "quotationTextIncluded": false,
