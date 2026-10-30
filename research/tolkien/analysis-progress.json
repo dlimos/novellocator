@@ -724,6 +724,36 @@
       ]
     },
     {
+      "sectionId": "b5-c06",
+      "completeRead": true,
+      "references": 57,
+      "action": 28,
+      "mentioned": 29,
+      "inventoryStatus": "first-manual-pass-reconciliation-pending",
+      "quotationRightsStatus": "pending",
+      "introductionsAvailable": [
+        "it",
+        "en",
+        "fr",
+        "es"
+      ]
+    },
+    {
+      "sectionId": "b5-c07",
+      "completeRead": true,
+      "references": 28,
+      "action": 17,
+      "mentioned": 11,
+      "inventoryStatus": "first-manual-pass-reconciliation-pending",
+      "quotationRightsStatus": "pending",
+      "introductionsAvailable": [
+        "it",
+        "en",
+        "fr",
+        "es"
+      ]
+    },
+    {
       "sectionId": "prologue",
       "completeRead": true,
       "references": 62,

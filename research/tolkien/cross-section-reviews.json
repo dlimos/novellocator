@@ -1,6 +1,6 @@
 {
   "date": "2026-10-30",
-  "scope": "Targeted original-text comparisons through V.5; not a complete recurrence audit or approval for publication.",
+  "scope": "Targeted original-text comparisons through V.7; not a complete recurrence audit or approval for publication.",
   "reviews": [
     {
       "id": "frodo-dream-orthanc",
@@ -1739,6 +1739,209 @@
       "status": "targeted-original-comparison-checked",
       "findingIt": "Pippin trova Gandalf alla Porta e il narratore mostra Grond e il confronto; Merry sente il boato dai campi e vede il re dare il segnale. I corni interrompono l’attesa senza una vittoria del Nazgul sul mago.",
       "dataDecision": "Keep the city confrontation direct in V.4 and distant perception in V.5, with actual Rohirrim charge on the Pelennor only.",
+      "remaining": "Full recurrence, critical collation, chronology and rights review pending."
+    },
+    {
+      "id": "dernhelm-later-explicit-identity",
+      "sources": [
+        {
+          "sectionId": "b5-c03",
+          "pdfPages": [
+            826,
+            828
+          ]
+        },
+        {
+          "sectionId": "b5-c05",
+          "pdfPages": [
+            861
+          ]
+        },
+        {
+          "sectionId": "b5-c06",
+          "pdfPages": [
+            865
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "V.6 svela espressamente Éowyn dietro Dernhelm e richiama lo sguardo visto alla partenza. I capitoli precedenti mantengono il nome e la conoscenza disponibili in quel punto.",
+      "dataDecision": "Add later-resolution metadata, without inventing an earlier disclosure.",
+      "remaining": "Full recurrence, critical collation, chronology and rights review pending."
+    },
+    {
+      "id": "gate-withdrawal-and-gandalf-diversion",
+      "sources": [
+        {
+          "sectionId": "b5-c04",
+          "pdfPages": [
+            853
+          ]
+        },
+        {
+          "sectionId": "b5-c06",
+          "pdfPages": [
+            863
+          ]
+        },
+        {
+          "sectionId": "b5-c07",
+          "pdfPages": [
+            874,
+            875
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "Il capo nemico lascia la Porta; Gandalf sta per uscire ma Pippin lo richiama. Il mago sale a salvare Faramir e affida il comando a Imrahil.",
+      "dataDecision": "Do not put Gandalf at the duel or treat his staff as broken.",
+      "remaining": "Full recurrence, critical collation, chronology and rights review pending."
+    },
+    {
+      "id": "erech-dark-banner-and-harlond-revelation",
+      "sources": [
+        {
+          "sectionId": "b5-c02",
+          "pdfPages": [
+            813
+          ]
+        },
+        {
+          "sectionId": "b5-c06",
+          "pdfPages": [
+            871,
+            872
+          ]
+        },
+        {
+          "sectionId": "b5-c07",
+          "pdfPages": [
+            877
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "Il vessillo notturno di Erech non era leggibile; sulla nave ora mostra Albero, stelle e corona. La flotta è alleata: Denethor vede le vele nere ma ne trae una conclusione errata.",
+      "dataDecision": "Separate observation, interpretation and later identity; no enemy victory in the south inferred from black sails.",
+      "remaining": "Full recurrence, critical collation, chronology and rights review pending."
+    },
+    {
+      "id": "aragorn-eomer-promised-battlefield-meeting",
+      "sources": [
+        {
+          "sectionId": "b5-c02",
+          "pdfPages": [
+            803
+          ]
+        },
+        {
+          "sectionId": "b5-c06",
+          "pdfPages": [
+            872
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "L’auspicio di ritrovarsi viene realizzato sul campo: i due si parlano e si stringono le mani prima di tornare a combattere.",
+      "dataDecision": "Keep the actual meeting scene distinct from the earlier promise and do not infer a city coronation.",
+      "remaining": "Full recurrence, critical collation, chronology and rights review pending."
+    },
+    {
+      "id": "theoden-death-merry-and-eowyn-survival",
+      "sources": [
+        {
+          "sectionId": "b5-c06",
+          "pdfPages": [
+            864,
+            866,
+            867,
+            869
+          ]
+        },
+        {
+          "sectionId": "b5-c07",
+          "pdfPages": [
+            880,
+            881
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "Théoden sopravvive alla caduta prima di morire; Merry ed Éowyn collaborano contro il Nazgûl. Imrahil constata il respiro di lei. Gandalf vede poi Éomer presso i caduti, senza essere stato presente al duello.",
+      "dataDecision": "Keep separate times, life status and observers; no second corpse inferred from Éomer’s first reaction.",
+      "remaining": "Full recurrence, critical collation, chronology and rights review pending."
+    },
+    {
+      "id": "faramir-unlit-pyre-rescue-and-denethor-death",
+      "sources": [
+        {
+          "sectionId": "b5-c04",
+          "pdfPages": [
+            849,
+            850,
+            851
+          ]
+        },
+        {
+          "sectionId": "b5-c07",
+          "pdfPages": [
+            876,
+            877,
+            878,
+            879
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "La pira è ancora spenta quando Gandalf prende Faramir. Il padre accende poi il combustibile e muore nella casa; la cupola crolla durante l’allontanamento dei soccorritori.",
+      "dataDecision": "Separate threatened killing, rescue, ignition, death and collapse; no leap from the city wall.",
+      "remaining": "Full recurrence, critical collation, chronology and rights review pending."
+    },
+    {
+      "id": "funerary-route-return-and-sixth-circle-care",
+      "sources": [
+        {
+          "sectionId": "b5-c04",
+          "pdfPages": [
+            850,
+            851
+          ]
+        },
+        {
+          "sectionId": "b5-c07",
+          "pdfPages": [
+            875,
+            879,
+            880
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "Il ritorno passa da Rath Dinen alla porta che Beregond chiude; le Case sono nel sesto cerchio presso il muro sud. Gandalf osserva dalle mura vicine, gli altri conducono il ferito dentro.",
+      "dataDecision": "Keep tombs, Closed Door, Citadel gate, care buildings, garden and observation wall distinct; do not invent room coordinates.",
+      "remaining": "Full recurrence, critical collation, chronology and rights review pending."
+    },
+    {
+      "id": "denethor-secret-light-and-revealed-stone",
+      "sources": [
+        {
+          "sectionId": "b5-c04",
+          "pdfPages": [
+            849
+          ]
+        },
+        {
+          "sectionId": "b5-c07",
+          "pdfPages": [
+            877,
+            880,
+            881
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "La Pietra viene mostrata ai sepolcri. Gandalf collega la disperazione alle visioni e Beregond conferma la luce nella camera sommitale; frequenza e contenuto restano in parte ricostruzioni.",
+      "dataDecision": "Strengthen the documented association without converting inference into a fully narrated scene inside the secret chamber.",
       "remaining": "Full recurrence, critical collation, chronology and rights review pending."
     }
   ],
