@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-30",
-  "scope": "Targeted original-text comparisons through the complete narrative (VI.9); apparatus reading and full recurrence audit remain separate.",
+  "date": "2026-10-31",
+  "scope": "Targeted comparisons through all chapters and selected apparatus relations; not an audit of every association.",
   "reviews": [
     {
       "id": "frodo-dream-orthanc",
@@ -2349,6 +2349,139 @@
       "findingIt": "Mithlond è esplicitamente nominata come Porti Grigi; Elrond mantiene il futuro incontro nella Contea. La visione di Frodo richiama il sogno da Tom, mentre Sam vede solo il mare e poi torna a casa.",
       "dataDecision": "Resolve explicit place alias, retain different viewpoints and avoid a named western landing absent from the final passage.",
       "remaining": "Full recurrence, critical collation, chronology and rights review pending."
+    },
+    {
+      "id": "arvedui-narrative-versus-annal",
+      "sources": [
+        {
+          "sectionId": "appendix-a",
+          "pdfPages": [
+            1065,
+            1066
+          ]
+        },
+        {
+          "sectionId": "appendix-b",
+          "pdfPages": [
+            1110
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "A sviluppa soccorso, dono e naufragio; B registra morte e pietre perdute in una voce datata. Lo stesso evento non impone la stessa categoria narrativa.",
+      "dataDecision": "Preserve distinct narrative levels, source context and qualified certainty; do not infer Earth positions.",
+      "remaining": "Full recurrence, critical collation, geography and rights review pending."
+    },
+    {
+      "id": "sam-return-versus-later-tradition",
+      "sources": [
+        {
+          "sectionId": "b6-c09",
+          "pdfPages": [
+            1054,
+            1055
+          ]
+        },
+        {
+          "sectionId": "appendix-b",
+          "pdfPages": [
+            1120,
+            1121
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "Il romanzo termina col ritorno di Sam; l’ultimo viaggio ai Porti è una tradizione successiva dei Fairbairn. Non aggiungere retroattivamente una traversata osservata a VI.9.",
+      "dataDecision": "Preserve distinct narrative levels, source context and qualified certainty; do not infer Earth positions.",
+      "remaining": "Full recurrence, critical collation, geography and rights review pending."
+    },
+    {
+      "id": "fairbairn-genealogy-and-westmarch",
+      "sources": [
+        {
+          "sectionId": "appendix-c",
+          "pdfPages": [
+            1129
+          ]
+        },
+        {
+          "sectionId": "appendix-b",
+          "pdfPages": [
+            1121
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "Albero e annate concordano sul ramo di Elanor e Fastred, sul Westmarch e sulle Colline delle Torri. La genealogia non narra scene individuali nelle residenze elencate.",
+      "dataDecision": "Preserve distinct narrative levels, source context and qualified certainty; do not infer Earth positions.",
+      "remaining": "Full recurrence, critical collation, geography and rights review pending."
+    },
+    {
+      "id": "shire-calendar-and-postwar-dates",
+      "sources": [
+        {
+          "sectionId": "appendix-d",
+          "pdfPages": [
+            1135,
+            1136
+          ]
+        },
+        {
+          "sectionId": "appendix-b",
+          "pdfPages": [
+            1119,
+            1120
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "Le date del racconto usano il computo della Contea. L’apparato spiega scarti e feste, ma non autorizza a trasformare automaticamente ogni data in una data gregoriana.",
+      "dataDecision": "Preserve distinct narrative levels, source context and qualified certainty; do not infer Earth positions.",
+      "remaining": "Full recurrence, critical collation, geography and rights review pending."
+    },
+    {
+      "id": "translation-analogy-and-earth-inspiration",
+      "sources": [
+        {
+          "sectionId": "appendix-f",
+          "pdfPages": [
+            1158,
+            1160
+          ]
+        },
+        {
+          "sectionId": "editorial-preliminaries",
+          "pdfPages": [
+            22,
+            23
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "Winchester/Camelot è un’analogia e l’inglese antico del Rohan una convenzione linguistica; il ricordo del mulino è autobiografico. Nessuno dei passi assegna un indirizzo terrestre a Rivendell, Rohan o al mulino di Ted.",
+      "dataDecision": "Preserve distinct narrative levels, source context and qualified certainty; do not infer Earth positions.",
+      "remaining": "Full recurrence, critical collation, geography and rights review pending."
+    },
+    {
+      "id": "narya-origin-and-final-departure",
+      "sources": [
+        {
+          "sectionId": "appendix-b",
+          "pdfPages": [
+            1109
+          ]
+        },
+        {
+          "sectionId": "b6-c09",
+          "pdfPages": [
+            1054
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "L’Appendice racconta il dono di Narya da Círdan a Gandalf; il finale mostra Gandalf ai Porti nel congedo. Le scene sono separate nel tempo, non lo stesso arrivo.",
+      "dataDecision": "Preserve distinct narrative levels, source context and qualified certainty; do not infer Earth positions.",
+      "remaining": "Full recurrence, critical collation, geography and rights review pending."
     }
   ],
   "quotationTextIncluded": false,

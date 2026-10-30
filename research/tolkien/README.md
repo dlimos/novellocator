@@ -1,12 +1,12 @@
 # Il Signore degli Anelli: fattibilità e originale inglese
 
-Verifica del 27 ottobre 2026. Stato: ricerca preliminare, opera non importata.
+Ricerca avviata il 27 ottobre, aggiornata al 31 ottobre 2026. Lettura integrale e prima analisi terminate; revisione editoriale in corso, opera non importata.
 
 ## Esito
 
 Un atlante della Terra di Mezzo è tecnicamente realizzabile. La candidata più utile è la Web Map `16abf625a5704ebd90fff024e7d9c476`, con cartografia e itinerari separati. L'applicazione pubblica si carica nel browser senza login; i servizi REST interrogati sono accessibili anonimamente. Non è stata trovata una licenza esplicita che autorizzi il nostro riuso. L'accessibilità tecnica non chiude la verifica dei diritti.
 
-Sono stati scaricati e controllati tre PDF inglesi con testo estraibile senza OCR. Il volume unico è il candidato principale: 1.210 pagine PDF, tutti i 62 inizi di capitolo rilevati nella sequenza attesa, prologo e appendici A–F presenti. La verifica è strutturale e tecnica: non costituisce collazione integrale dell'edizione né analisi narrativa dei luoghi.
+Sono stati scaricati e controllati tre PDF inglesi con testo estraibile senza OCR. Il volume unico è il candidato principale: 1.210 pagine PDF, tutti i 62 inizi di capitolo nella sequenza attesa, prologo e appendici A–F presenti. Alla verifica strutturale iniziale sono seguiti la lettura integrale e il primo inventario documentati in [PROGRESS.md](PROGRESS.md). La collazione critica completa resta pendente.
 
 ## Cartografia ArcGIS
 
@@ -42,7 +42,7 @@ Il visualizzatore geografico corrente in `docs/app.js` costruisce marker WGS84. 
 
 Servono un percorso dati dedicato alle mappe fantasy e un controller che carichi la Web Map nel suo riferimento spaziale, conservando solo il contesto cartografico autorizzato e sovrapponendo marker editoriali nostri. Occorre gestire selezione per identità, capitoli, azione/menzione, numerazioni indipendenti, inquadratura iniziale sui luoghi dell'azione, errori dei servizi e attribuzioni. Street View e altre basi terrestri non sono pertinenti a queste posizioni.
 
-Prima della pubblicazione: prototipo locale con marker sintetici, prova di allineamento a più zoom, compatibilità del WKT nel SDK corrente, navigazione e layer su desktop/mobile, quindi controllo dei diritti. Questi test di integrazione restano da svolgere; la presente verifica non modifica il codice applicativo o Supabase.
+Prima della pubblicazione: prototipo locale con marker sintetici, prova di allineamento a più zoom, compatibilità del WKT nel SDK corrente, navigazione e layer su desktop/mobile, quindi controllo dei diritti. Il prototipo locale è stato realizzato e provato con ArcGIS 5.1, comprese selezione, categorie, numerazione e inquadratura; risultati e limiti sono in [PROGRESS.md](PROGRESS.md). Integrazione nel sito, mobile e accessibilità restano da completare. Il prototipo non modifica il codice applicativo o Supabase.
 
 ## PDF inglesi senza necessità di OCR
 
@@ -85,9 +85,9 @@ L'eventuale pubblicazione delle citazioni richiede una valutazione documentata p
 
 ## Vedute e analisi ancora pendenti
 
-Le vedute sarebbero utili per Minas Tirith, il Fosso di Helm e Moria, perché la disposizione di porte, livelli, accessi e percorsi può aiutare la lettura. Questa è una valutazione preliminare, non una ricostruzione verificata. Prima di realizzarle vanno letti integralmente i capitoli pertinenti, distinti testo e interpretazione e verificati i diritti delle fonti figurative. Nessuna veduta è stata realizzata.
+Le vedute sarebbero utili per Minas Tirith, il Fosso di Helm e Moria, perché la disposizione di porte, livelli, accessi e percorsi può aiutare la lettura. Questa è una valutazione preliminare, non una ricostruzione verificata. I capitoli pertinenti sono stati letti integralmente; restano da separare le scelte interpretative e da verificare i diritti delle fonti figurative. Nessuna veduta è stata realizzata.
 
-Aggiornamento del 30 ottobre: letti integralmente il Prologo e tutti i 62 capitoli dei sei Libri. La lettura narrativa dei tre volumi è completa. con 2.898 associazioni in prima analisi e introduzioni nelle quattro lingue. I riscontri originali sono controllati sul testimone locale; i paragrafi con ordine di estrazione anomalo alle pagine PDF 890 e 999 sono stati verificati anche visivamente. Restano la lettura completa degli apparati e le revisioni di ricorrenze, identificazioni, collazione e diritti. 83 confronti puntuali sono documentati in `cross-section-reviews.json`, senza dichiarare conclusa la revisione di tutte le associazioni. Le vedute sono valutate in [PROGRESS.md](PROGRESS.md), ma non sono state realizzate. Il romanzo non è stato importato nel catalogo o nel database.
+Aggiornamento del 31 ottobre: letta tutta l’edizione, compresi Prologo, 62 capitoli, sei appendici, preliminari, indici, tavole, mappe e colophon. Le 70 unità con testo analizzato hanno introduzioni in quattro lingue e 3.312 associazioni in prima analisi: 2.898 nel Prologo/capitoli, 404 nelle appendici e 10 riferimenti editoriali o autobiografici esclusi dai marker. Indici e mappe sono controlli di riferimento. I riscontri restano privati; sono pubblicati conteggi, metodo e impronte. Sono documentati 89 confronti puntuali, senza dichiarare conclusa la revisione di ogni associazione. Restano ricorrenze, alias, collazione, verifica geografica e diritti; il romanzo non è stato importato nel catalogo o nel database. Le vedute sono valutate in [PROGRESS.md](PROGRESS.md), ma non realizzate.
 
 ## Riscontri riproducibili
 
@@ -98,6 +98,7 @@ Aggiornamento del 30 ottobre: letti integralmente il Prologo e tutti i 62 capito
 - `pdf-text-audit.json`: impronte SHA-256, metadati, conteggi e presenza delle intestazioni; il campo OCR resta nullo nel controllo puramente automatico. La valutazione della narrazione è esplicitata in `structure-audit.json` dopo il controllo delle sezioni e delle figure campione.
 - `check-pdf-text.py`: estrae il testo dei file locali in `work/tolkien/` e genera il rapporto senza salvare prose nel repository.
 - `check-structure.py`: verifica gli inizi dei capitoli e produce campioni visivi locali tramite pypdfium2, se disponibile.
+- `apparatus-review.json`: metodo di lettura degli apparati, controlli visivi e pagine supplementari, senza testo o immagini del romanzo.
 - `check-analysis-validation.py`: con il corpus locale disponibile, controlla il rifiuto di testo estraneo alla fonte e, se presenti riscontri visivi, di un'impronta errata dell'immagine; nessun rifiuto deve sostituire gli output verificati. Non distribuisce o stampa citazioni del romanzo.
 
 La fattibilità tecnica è favorevole; la pubblicazione dell'atlante dipende ancora da diritti cartografici, integrazione e analisi dell'opera. È pronta soltanto la documentazione di ricerca.

@@ -1,10 +1,10 @@
 {
   "bookId": "lord-of-the-rings",
   "language": "en",
-  "date": "2026-10-27",
+  "date": "2026-10-31",
   "sourceEdition": "HarperCollins 2005; Adobe Acrobat eBook May 2009; ISBN 9780061917806",
   "sourcePdfSha256": "4e2fdba27a4dbc444e182bf10d25cfb6731294fd4215b449e38a190391ebf465",
-  "scope": "Complete corpus split for reading. Preparation does not certify a narrative read or any place association.",
+  "scope": "All 72 units manually read or visually inspected, plus all 30 supplemental pages. Reading completion does not certify complete critical, geographic, quotation-rights or recurrence reconciliation.",
   "units": [
     {
       "id": "editorial-preliminaries",
@@ -14,9 +14,11 @@
       "sha256": "29b0d82011001c1b36c5535eb9c34bc0bb6da7dfcb9c03984e44a05b947682eb",
       "characters": 39250,
       "words": 6681,
-      "readStatus": "pending",
-      "inventoryStatus": "pending",
-      "kind": "paratext"
+      "readStatus": "complete",
+      "inventoryStatus": "first-manual-pass-reconciliation-pending",
+      "kind": "paratext",
+      "reviewDate": "2026-10-31",
+      "reviewNote": "Individual evidence checked against local source; reading status is a manual declaration, not inferred from matching quotes. Rights and geographical verification pending."
     },
     {
       "id": "prologue",
@@ -1052,9 +1054,11 @@
       "sha256": "8fbf1b43744e942bef92ec4dcb5e47f7712fcfd989c9456d279f9c3756fce3df",
       "characters": 148685,
       "words": 27395,
-      "readStatus": "pending",
-      "inventoryStatus": "pending",
-      "kind": "appendix"
+      "readStatus": "complete",
+      "inventoryStatus": "first-manual-pass-reconciliation-pending",
+      "kind": "appendix",
+      "reviewDate": "2026-10-31",
+      "reviewNote": "Individual evidence checked against local source; reading status is a manual declaration, not inferred from matching quotes. Rights and geographical verification pending."
     },
     {
       "id": "appendix-b",
@@ -1064,9 +1068,11 @@
       "sha256": "5d7af403cbb8cb66dc3e1afcf66ad1e0c4c82f61fa08f53cf2903b16f5e907c1",
       "characters": 40508,
       "words": 7042,
-      "readStatus": "pending",
-      "inventoryStatus": "pending",
-      "kind": "appendix"
+      "readStatus": "complete",
+      "inventoryStatus": "first-manual-pass-reconciliation-pending",
+      "kind": "appendix",
+      "reviewDate": "2026-10-31",
+      "reviewNote": "Individual evidence checked against local source; reading status is a manual declaration, not inferred from matching quotes. Rights and geographical verification pending."
     },
     {
       "id": "appendix-c",
@@ -1076,9 +1082,11 @@
       "sha256": "4e67f3997f30ad79a9b62cc8e6dbf2a0ae112090c618a9e3dc1c66fbb1290eac",
       "characters": 2292,
       "words": 332,
-      "readStatus": "pending",
-      "inventoryStatus": "pending",
-      "kind": "appendix"
+      "readStatus": "complete",
+      "inventoryStatus": "first-manual-pass-reconciliation-pending",
+      "kind": "appendix",
+      "reviewDate": "2026-10-31",
+      "reviewNote": "Individual evidence checked against local source; reading status is a manual declaration, not inferred from matching quotes. Rights and geographical verification pending."
     },
     {
       "id": "appendix-d",
@@ -1088,9 +1096,11 @@
       "sha256": "535420b9e0177597b0e11c3e82429ba5ea953dba64496f72a8dd35030be2c98f",
       "characters": 19844,
       "words": 3455,
-      "readStatus": "pending",
-      "inventoryStatus": "pending",
-      "kind": "appendix"
+      "readStatus": "complete",
+      "inventoryStatus": "first-manual-pass-reconciliation-pending",
+      "kind": "appendix",
+      "reviewDate": "2026-10-31",
+      "reviewNote": "Individual evidence checked against local source; reading status is a manual declaration, not inferred from matching quotes. Rights and geographical verification pending."
     },
     {
       "id": "appendix-e",
@@ -1100,9 +1110,11 @@
       "sha256": "1d35d16334b4c43c017c30d2afd86b482504db18d18fd288c9ac4a7d4c9794ab",
       "characters": 33650,
       "words": 5956,
-      "readStatus": "pending",
-      "inventoryStatus": "pending",
-      "kind": "appendix"
+      "readStatus": "complete",
+      "inventoryStatus": "first-manual-pass-reconciliation-pending",
+      "kind": "appendix",
+      "reviewDate": "2026-10-31",
+      "reviewNote": "Individual evidence checked against local source; reading status is a manual declaration, not inferred from matching quotes. Rights and geographical verification pending."
     },
     {
       "id": "appendix-f",
@@ -1112,9 +1124,11 @@
       "sha256": "4c0b153b01fe6ff5eb22e902806d837ad3deedce57b7df9f054d8c3d6f4dce13",
       "characters": 38819,
       "words": 6826,
-      "readStatus": "pending",
-      "inventoryStatus": "pending",
-      "kind": "appendix"
+      "readStatus": "complete",
+      "inventoryStatus": "first-manual-pass-reconciliation-pending",
+      "kind": "appendix",
+      "reviewDate": "2026-10-31",
+      "reviewNote": "Individual evidence checked against local source; reading status is a manual declaration, not inferred from matching quotes. Rights and geographical verification pending."
     },
     {
       "id": "indexes",
@@ -1124,9 +1138,11 @@
       "sha256": "c80d3a680d413e2e2b5fd6f1c4222c6ee1cdd84cce932a10206e0391419cbe34",
       "characters": 141796,
       "words": 23689,
-      "readStatus": "pending",
-      "inventoryStatus": "pending",
-      "kind": "reference"
+      "readStatus": "complete",
+      "inventoryStatus": "reference-control-reviewed-not-narrative-inventory",
+      "kind": "reference",
+      "reviewDate": "2026-10-30",
+      "reviewNote": "Read all 4499 lines in contiguous 500-line batches 0–499 through 4000–4498. Visually checked two-column reading order on rendered PDF page 1185. Indexes are lookup and reconciliation aids, not proof of narrative action or an exhaustive chapter-place inventory. Their stated omissions and page-reference limits are retained."
     },
     {
       "id": "maps",
@@ -1136,10 +1152,53 @@
       "sha256": "d6fb5df323d52e88adcaa098664d41bc6ff78e2be6b89d784ee0c028893f2f44",
       "characters": 92,
       "words": 16,
-      "readStatus": "pending",
-      "inventoryStatus": "pending",
+      "readStatus": "complete",
+      "inventoryStatus": "reference-control-reviewed-not-narrative-inventory",
       "kind": "figure",
-      "visualReviewRequired": true
+      "visualReviewRequired": true,
+      "reviewDate": "2026-10-30",
+      "reviewNote": "Visually inspected all five maps on PDF pages 1203–1207, rendering the overview and four regional quadrants and rotating the landscape images upright. Map labels and relative relations are geographic support within the fictional world. No Earth coordinates, vector licence or permission to redistribute the printed maps is inferred."
     }
-  ]
+  ],
+  "supplementalReview": {
+    "date": "2026-10-31",
+    "pdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      24,
+      41,
+      42,
+      43,
+      44,
+      241,
+      242,
+      433,
+      434,
+      435,
+      436,
+      625,
+      626,
+      767,
+      768,
+      769,
+      770,
+      919,
+      920,
+      1056,
+      1208,
+      1209,
+      1210
+    ],
+    "readStatus": "complete",
+    "method": "Read extracted text of all pages outside the 72 units, including contents, part titles, final bibliography, copyright and publisher addresses. Visually inspected rendered pages 1–2: ring-device cover and blank verso.",
+    "finding": "Cover and imprint material are not additional chapters or narrative locations. Publisher office addresses are not imported as settings.",
+    "textPagesSha256": "d8b41694acca40709787e696e3664edb631f002cf6490d9bc398aebcdd174fb5"
+  },
+  "readingComplete": true,
+  "fullNovelAnalysisComplete": false
 }

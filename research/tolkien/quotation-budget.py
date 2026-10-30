@@ -12,7 +12,7 @@ for file in sorted((ROOT/'private').glob('*.json')):
         quote=re.sub(r'\s+',' ',quote).strip()
         records.append({'sectionId':section['sectionId'],'placeId':place,'pdfPage':page,
             'words':len(quote.split()),'textSha256':hashlib.sha256(quote.encode('utf-8')).hexdigest(),
-            'criticalPurpose':'Discuss the narrative role and spatial identification of this occurrence.',
+            'criticalPurpose':('Discuss textual history, autobiography and limits of geographical inference; this is not a fictional scene.' if section['sectionId']=='editorial-preliminaries' else 'Discuss the historical, genealogical or linguistic role and spatial identification of this apparatus reference.' if section['sectionId'].startswith('appendix-') else 'Discuss the narrative role and spatial identification of this occurrence.'),
             'necessityReview':'pending','proportionalityReview':'pending','publicationStatus':'analysis-only'})
 unique={record['textSha256']:record for record in records}
 result={'date':max(json.loads(file.read_text(encoding='utf-8'))['date'] for file in (ROOT/'private').glob('*.json')),

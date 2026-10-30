@@ -1,0 +1,288 @@
+{
+  "sourcePdfSha256": "4e2fdba27a4dbc444e182bf10d25cfb6731294fd4215b449e38a190391ebf465",
+  "reviews": [
+    {
+      "sectionId": "appendix-a",
+      "date": "2026-10-30",
+      "readStatus": "complete",
+      "inventoryStatus": "first-manual-pass-reconciliation-pending",
+      "pdfPages": "1057–1105",
+      "sourceUnitSha256": "8fbf1b43744e942bef92ec4dcb5e47f7712fcfd989c9456d279f9c3756fce3df",
+      "method": "Read all text in 245-line contiguous batches 0–244 through 2205–end; visually inspected 1087 and 1095 for displaced paragraph order and the dwarf genealogy on 1103.",
+      "finding": "Annals distinguish historical summaries from developed scenes: Arvedui and Lossoth, Earnur and Glorfindel, Thorongil at Umbar, Aragorn and Arwen, Helm and Freca, Thror and Nar, Azanulbizar and Gandalf with Thorin. Future deaths and traditions do not retroactively alter chapter evidence. Arwen dies on Cerin Amroth after Aragorn dies in the House of Kings. Gimli’s sea journey remains explicitly reported tradition.",
+      "remaining": "First individual apparatus witnesses now recorded and checked locally. Complete recurrence, alias, critical, geographic and rights reconciliation remains pending.",
+      "inventoryReviewDate": "2026-10-31"
+    },
+    {
+      "sectionId": "appendix-b",
+      "date": "2026-10-30",
+      "readStatus": "complete",
+      "inventoryStatus": "first-manual-pass-reconciliation-pending",
+      "pdfPages": "1106–1122",
+      "sourceUnitSha256": "5d7af403cbb8cb66dc3e1afcf66ad1e0c4c82f61fa08f53cf2903b16f5e907c1",
+      "method": "Read all text in 245-line contiguous batches through 735–end; visually checked 1115 table order.",
+      "finding": "Chronology dates and calendar basis checked, including 14–15 March synchronisms, 25 March fall, 8 April Cormallen, 1 May crowning, June sapling, summer funeral, 3 November battle, 1420 repairs and 1421 departure. Later Sam crossing is a tradition; Merry and Pippin’s last journey and Legolas’s sailing are later annal entries, not events of VI.9.",
+      "remaining": "First individual apparatus witnesses now recorded and checked locally. Complete recurrence, alias, critical, geographic and rights reconciliation remains pending.",
+      "inventoryReviewDate": "2026-10-31"
+    },
+    {
+      "sectionId": "appendix-c",
+      "date": "2026-10-30",
+      "readStatus": "complete",
+      "inventoryStatus": "first-manual-pass-reconciliation-pending",
+      "pdfPages": "1123–1129",
+      "sourceUnitSha256": "4e67f3997f30ad79a9b62cc8e6dbf2a0ae112090c618a9e3dc1c66fbb1290eac",
+      "method": "Read introductory text and extracted Bolger/Boffin entries; visually read all six trees 1124–1129, rendering at 1.8x and rotating landscape trees upright.",
+      "finding": "Family diagrams cover Baggins of Hobbiton, Bolger of Budgeford, Boffin of the Yale, Took of Great Smials, Brandybuck of Buckland and Samwise. Dates are Shire reckoning; underline means party guest. Residence in a tree or title alone does not prove an action scene.",
+      "remaining": "First individual apparatus witnesses now recorded and checked locally. Complete recurrence, alias, critical, geographic and rights reconciliation remains pending. Sixteen visual-only witnesses manually transcribed from the reviewed genealogy images with image integrity recorded; no OCR used.",
+      "inventoryReviewDate": "2026-10-31"
+    },
+    {
+      "sectionId": "appendix-d",
+      "date": "2026-10-30",
+      "readStatus": "complete",
+      "inventoryStatus": "first-manual-pass-reconciliation-pending",
+      "pdfPages": "1130–1136",
+      "sourceUnitSha256": "535420b9e0177597b0e11c3e82429ba5ea953dba64496f72a8dd35030be2c98f",
+      "method": "Read all text in contiguous batches and visually inspected complete calendar on 1130.",
+      "finding": "Thirty-day months, Yule/Lithe intercalations, weekday-free days, different era starts and March date conversion documented. Modern month labels are translation conventions, not straightforward Gregorian dates. Geographic examples are mostly mentions; Party Field and Buckland recurring commemorations need separate apparatus witnesses.",
+      "remaining": "First individual apparatus witnesses now recorded and checked locally. Complete recurrence, alias, critical, geographic and rights reconciliation remains pending.",
+      "inventoryReviewDate": "2026-10-31"
+    },
+    {
+      "sectionId": "appendix-e",
+      "date": "2026-10-30",
+      "readStatus": "complete",
+      "inventoryStatus": "first-manual-pass-reconciliation-pending",
+      "pdfPages": "1137–1150",
+      "sourceUnitSha256": "1d35d16334b4c43c017c30d2afd86b482504db18d18fd288c9ac4a7d4c9794ab",
+      "method": "Read all text in contiguous batches 0–189,190–434,435–end; visually inspected Tengwar 1143 and Angerthas signs/values 1148–1149.",
+      "finding": "Pronunciation, vowel length, stress, scripts, differing letter modes and translated names checked. Linguistic examples do not establish narrative scenes in the named places. Distinguish Moria/Eregion/Erebor writing traditions from actual journeys.",
+      "remaining": "First individual apparatus witnesses now recorded and checked locally. Complete recurrence, alias, critical, geographic and rights reconciliation remains pending.",
+      "inventoryReviewDate": "2026-10-31"
+    },
+    {
+      "sectionId": "appendix-f",
+      "date": "2026-10-30",
+      "readStatus": "complete",
+      "inventoryStatus": "first-manual-pass-reconciliation-pending",
+      "pdfPages": "1151–1162",
+      "sourceUnitSha256": "4c0b153b01fe6ff5eb22e902806d837ad3deedce57b7df9f054d8c3d6f4dce13",
+      "method": "Read all text in contiguous batches 0–139,140–384,385–end.",
+      "finding": "Language areas and translation principles checked. Rivendell/Imladris/Karningul and Moria/Khazad-dum/Phurunargian are explained; Dunland does not derive from Elvish dun west. The ancient-English linguistic treatment of Rohan expressly does not establish identity in culture or geography. Winchester/Camelot is an analogy, not Rivendell’s real model.",
+      "remaining": "First individual apparatus witnesses now recorded and checked locally. Complete recurrence, alias, critical, geographic and rights reconciliation remains pending.",
+      "inventoryReviewDate": "2026-10-31"
+    },
+    {
+      "sectionId": "editorial-preliminaries",
+      "date": "2026-10-30",
+      "readStatus": "complete",
+      "inventoryStatus": "first-manual-pass-reconciliation-pending",
+      "pdfPages": "8–23",
+      "sourceUnitSha256": "29b0d82011001c1b36c5535eb9c34bc0bb6da7dfcb9c03984e44a05b947682eb",
+      "method": "Read all text in contiguous batches 0–244,245–489,490–end.",
+      "finding": "Anderson’s textual history, Hammond and Scull’s anniversary note and Tolkien’s second-edition Foreword read. Distinguish authorial text from later editorial notes and abandoned drafts. Tolkien’s discarded epilogue is discussed, not part of this edition; no missing published epilogue inferred. Foreword childhood mill relation is autobiographical testimony, not a literal equivalence of fictional buildings and Earth addresses.",
+      "remaining": "First individual apparatus witnesses now recorded and checked locally. Complete recurrence, alias, critical, geographic and rights reconciliation remains pending.",
+      "inventoryReviewDate": "2026-10-31"
+    },
+    {
+      "sectionId": "indexes",
+      "date": "2026-10-30",
+      "readStatus": "complete",
+      "inventoryStatus": "reference-control-reviewed-not-narrative-inventory",
+      "pdfPages": "1163–1202",
+      "sourceUnitSha256": "c80d3a680d413e2e2b5fd6f1c4222c6ee1cdd84cce932a10206e0391419cbe34",
+      "method": "Read all 4499 lines in contiguous 500-line batches 0–499 through 4000–4498. Visually checked two-column reading order on rendered PDF page 1185.",
+      "finding": "Indexes are lookup and reconciliation aids, not proof of narrative action or an exhaustive chapter-place inventory. Their stated omissions and page-reference limits are retained.",
+      "remaining": "Reconcile against individual narrative witnesses; retain distinction between reference control and complete critical analysis."
+    },
+    {
+      "sectionId": "maps",
+      "date": "2026-10-30",
+      "readStatus": "complete",
+      "inventoryStatus": "reference-control-reviewed-not-narrative-inventory",
+      "pdfPages": "1203–1207",
+      "sourceUnitSha256": "d6fb5df323d52e88adcaa098664d41bc6ff78e2be6b89d784ee0c028893f2f44",
+      "method": "Visually inspected all five maps on PDF pages 1203–1207, rendering the overview and four regional quadrants and rotating the landscape images upright.",
+      "finding": "Map labels and relative relations are geographic support within the fictional world. No Earth coordinates, vector licence or permission to redistribute the printed maps is inferred.",
+      "remaining": "Reconcile against individual narrative witnesses; retain distinction between reference control and complete critical analysis."
+    }
+  ],
+  "supplementalReview": {
+    "date": "2026-10-31",
+    "pdfPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      24,
+      41,
+      42,
+      43,
+      44,
+      241,
+      242,
+      433,
+      434,
+      435,
+      436,
+      625,
+      626,
+      767,
+      768,
+      769,
+      770,
+      919,
+      920,
+      1056,
+      1208,
+      1209,
+      1210
+    ],
+    "readStatus": "complete",
+    "method": "Read extracted text of all pages outside the 72 units, including contents, part titles, final bibliography, copyright and publisher addresses. Visually inspected rendered pages 1–2: ring-device cover and blank verso.",
+    "finding": "Cover and imprint material are not additional chapters or narrative locations. Publisher office addresses are not imported as settings.",
+    "textPagesSha256": "d8b41694acca40709787e696e3664edb631f002cf6490d9bc398aebcdd174fb5"
+  },
+  "visualEvidence": [
+    {
+      "file": "page-1087-visual.png",
+      "sha256": "a924ec479c33f5fa7d1f0ee88c7f4b609135a170ebe988dc3524019fb822398f"
+    },
+    {
+      "file": "page-1095-visual.png",
+      "sha256": "4aaec35fdbe3693ac08adab3b25c552340f1a8359ba3e3640730eecdde9ef84a"
+    },
+    {
+      "file": "page-1103-visual.png",
+      "sha256": "0da5298ff9f270f0cf2505a131399063c33646d5ea533d73ba764231d50f6cb7"
+    },
+    {
+      "file": "page-1115-visual.png",
+      "sha256": "1540b3d3c9264183184908a02606546f05dc8c0c37488d7a799c57d4ab071e4f"
+    },
+    {
+      "file": "page-1124-visual.png",
+      "sha256": "8292ef2de46adfeeac5a8a10ea7bb778013be9438164453abafea6f638a3ad4a"
+    },
+    {
+      "file": "page-1125-visual.png",
+      "sha256": "53809cd1f1fb21a6cb544bd328f189a080a4ba3d1d31db76c277ff63172a1482"
+    },
+    {
+      "file": "page-1126-visual.png",
+      "sha256": "130ec31b545741acc4a3bc43f9c975c1cd054d3efdffc9553f1f01894dce014e"
+    },
+    {
+      "file": "page-1127-visual.png",
+      "sha256": "f526bba6cad0e09241771a90f7355a852d37de4167fa033319400b078f4f3d7a"
+    },
+    {
+      "file": "page-1128-visual.png",
+      "sha256": "8a31efcb05ceaddb8a2f251999d319f26647180b77c5027a2c91f6d3d70fb655"
+    },
+    {
+      "file": "page-1129-visual.png",
+      "sha256": "f5e85167d708c0c921af1242d08f9f71dfef7340007c174acba7e23c6fd3773f"
+    },
+    {
+      "file": "page-1130-visual.png",
+      "sha256": "83e7dd996a5d9fa5d52f5cb78ec3390c8ba2e5d6445c652d3d40cdf6e1148319"
+    },
+    {
+      "file": "page-1143-visual.png",
+      "sha256": "d8ab219a40b671a675ad91e5e00cf3340de1334a5ab194c3024d140e7b63eed2"
+    },
+    {
+      "file": "page-1148-visual.png",
+      "sha256": "9162682e03a43fe8597301b002b558a392e2898d7e0105d254f8506c3d7db459"
+    },
+    {
+      "file": "page-1149-visual.png",
+      "sha256": "e6846b6298664275298bbecf238d1c7eacc83ee00c19e6f64b3b3bed6f4d8d5e"
+    },
+    {
+      "file": "page-1185-visual.png",
+      "sha256": "8ad6efdbba7339b51d80ed84b14116491c19dcf3df78b259da82f17f0a5dfd8e"
+    },
+    {
+      "file": "page-1124-upright.png",
+      "sha256": "aa4adf992dbd634caec22b47112b72e73718ab37cf1c7519c010aa3050a29dcb"
+    },
+    {
+      "file": "page-1125-upright.png",
+      "sha256": "30b175c9aedcf5c09603fcf8429a698721ca7b6d17e076492e3216eb62e9cae7"
+    },
+    {
+      "file": "page-1126-upright.png",
+      "sha256": "9bc1615735eb7233cc96095254b1650c18135e6c321b1ce5266e214cdf2b41d0"
+    },
+    {
+      "file": "page-1127-upright.png",
+      "sha256": "7e36e9906015a52865085406618ca613139d4364511a5e24ce12844ac2129e11"
+    },
+    {
+      "file": "page-1128-upright.png",
+      "sha256": "1b7f07215ce508ef9acaa637d0c6bedda45e5b611808989b8f424dcf82b3394f"
+    },
+    {
+      "file": "page-1129-upright.png",
+      "sha256": "afbede97460cd56d50ca0ee15b85fb71bc6e776ee5ee7686cf3913d77ea50705"
+    },
+    {
+      "file": "page-1203-map-upright.png",
+      "sha256": "2aafc76e04ccdf776c8ab07cff23fc9df6fa6085ec22833efa33654ffeddb99a"
+    },
+    {
+      "file": "page-1204-map-upright.png",
+      "sha256": "478df1d5c2577bdd057e89e1d9e6fca3e4e86b7d98279948b8f43594cd2f77f1"
+    },
+    {
+      "file": "page-1205-map-upright.png",
+      "sha256": "0037b3a1fbcfdbe9f6cbbf26f5f72583f4cdafbd4adfb30b81c9df45f47beffc"
+    },
+    {
+      "file": "page-1206-map-upright.png",
+      "sha256": "97918ff65abbb331c28582a8a7ed329dcccc488c78a78afccb36cda12fcf9408"
+    },
+    {
+      "file": "page-1207-map-upright.png",
+      "sha256": "dcf09c9df5eca0cda4f4cafc74812c2abcdc9be9f324d07c658643550b71ab78"
+    },
+    {
+      "file": "page-1203-map.png",
+      "sha256": "258b23c878ff00d19a8c6458fadc85eaed69262f30d49d9c4b6a6a6e493a2570"
+    },
+    {
+      "file": "page-1204-map.png",
+      "sha256": "199404f5677321da82bfe854fa2c39be9d2022aef2d62fe131096ba0eebac9ae"
+    },
+    {
+      "file": "page-1205-map.png",
+      "sha256": "548601a5eeb308575b5ab2ee67e4f3287ea4b2307d3c021a07646274874c546e"
+    },
+    {
+      "file": "page-1206-map.png",
+      "sha256": "d5f5a903dc56a7f489de03df729e0d5da899f2becf934603efda9d0f38ff3ca7"
+    },
+    {
+      "file": "page-1207-map.png",
+      "sha256": "087d685bc37acdfc5f1f8dcb141421fa63380857a3a1740d628937543cf7f4c3"
+    },
+    {
+      "file": "page-1-front.png",
+      "sha256": "f2f58b510ee8d298cbd16d6c7cbd3b926f8921eb81109454653fa7117b6fd828"
+    },
+    {
+      "file": "page-2-front.png",
+      "sha256": "ab3882299f4af3507346d28f4e4c93b0c74ad5fe2953eab7c5b8098a77b980a9"
+    }
+  ],
+  "date": "2026-10-31",
+  "quotationTextIncluded": false,
+  "sourceImagesIncluded": false,
+  "fullNovelAnalysisComplete": false
+}

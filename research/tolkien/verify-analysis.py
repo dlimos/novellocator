@@ -13,6 +13,12 @@ pages={int(chunks[i]):chunks[i+1].strip() for i in range(1,len(chunks),2)}
 def norm(value):
     # Layout-only joining. Keep internal word hyphens and original ligatures.
     return re.sub(r'\s+',' ',value).strip()
+
+def printed_label(page):
+    if page >= 25:
+        return None
+    tail = re.sub(r'\s+', '', pages[page].splitlines()[-1])
+    return tail if re.fullmatch(r'[ivxlcdm]+', tail) else None
 manifest=json.loads((ROOT/'reading-manifest.json').read_text(encoding='utf-8'))
 assert hashlib.sha256((WORK/'lotr-harpercollins-2005-candidate.pdf').read_bytes()).hexdigest()==manifest['sourcePdfSha256'],'Source PDF changed'
 units={unit['id']:unit for unit in manifest['units']}
@@ -56,7 +62,8 @@ for file in sorted((ROOT/'private').glob('*.json')):
             'narrativeLevel':metadata.get('narrativeLevel','embedded-retelling' if section['sectionId']=='prologue' and category=='action' else 'primary' if category=='action' else 'reference'),
             'evidence':{'quote':norm(quote),'language':'en','type':'original','pdfPage':page,
                 'sourcePageSha256':hashlib.sha256(pages[page].encode('utf-8')).hexdigest(),
-                'printedPage':page-24,
+                'printedPage':page-24 if page >= 25 else None,
+                **({'printedPageLabel': label} if (label := printed_label(page)) else {}),
                 'sourceUrl':'https://go2train.co/wp-content/uploads/2025/11/The-Lord-of-the-Rings-by-J.R.R.-Tolkien.pdf',
                 'edition':manifest['sourceEdition'],'verificationStatus':verification,**visual_source,
                 'publicationStatus':section['quotationPublicationStatus']},

@@ -1,12 +1,12 @@
 # Avanzamento editoriale e tecnico
 
-30 ottobre 2026. Il romanzo non è stato importato né pubblicato nel catalogo.
+31 ottobre 2026. Il romanzo non è stato importato né pubblicato nel catalogo.
 
 ## Lettura e inventario
 
-L'originale è stato suddiviso in 72 unità locali con pagine e impronte SHA-256: preliminari editoriali, Prologo, 62 capitoli, appendici A–F, indici e mappe. Questa preparazione non è marcata come lettura completata. `reading-manifest.json` registra separatamente lettura, primo inventario e verifiche successive.
+L'originale è stato suddiviso in 72 unità locali con pagine e impronte SHA-256: preliminari editoriali, Prologo, 62 capitoli, appendici A–F, indici e mappe. La lettura manuale o visiva delle 72 unità è ora completa, insieme alle 30 pagine supplementari: copertina, titoli, indice iniziale, bibliografia e colophon. `reading-manifest.json` registra separatamente lettura, primo inventario e verifiche successive.
 
-Sono stati letti integralmente il Prologo e tutti i 62 capitoli dei sei Libri, fino a VI.9 (pagine PDF 25–40 e 45–1055, con le interruzioni editoriali fra i Libri). La lettura narrativa dei tre volumi è completa. Le introduzioni sono disponibili nelle quattro lingue, con primo inventario manuale, motivazioni individuali e riscontri originali controllati sul testimone locale. Questo risultato non chiude la collazione critica, la revisione di tutte le ricorrenze, la verifica geografica o i diritti delle citazioni. Appendici A–F, preliminari, indici e mappe sono il lavoro successivo; non sono marcati letti per il solo fatto di averne estratto il testo.
+Sono stati letti integralmente il Prologo e tutti i 62 capitoli dei sei Libri, fino a VI.9 (pagine PDF 25–40 e 45–1055, con le interruzioni editoriali fra i Libri). La lettura narrativa dei tre volumi è completa. Le introduzioni sono disponibili nelle quattro lingue, con primo inventario manuale, motivazioni individuali e riscontri originali controllati sul testimone locale. Questo risultato non chiude la collazione critica, la revisione di tutte le ricorrenze, la verifica geografica o i diritti delle citazioni. Sono stati letti integralmente anche preliminari e appendici A–F; indici, tavole e tutte e cinque le mappe finali sono stati controllati. Metodo e risultati sono in [apparatus-review.json](apparatus-review.json). Genealogie e alfabeti sono stati letti visivamente, senza OCR.
 
 | Sezione | Associazioni in prima analisi | action | mentioned |
 | --- | ---: | ---: | ---: |
@@ -73,9 +73,17 @@ Sono stati letti integralmente il Prologo e tutti i 62 capitoli dei sei Libri, f
 | VI.7 | 38 | 13 | 25 |
 | VI.8 | 67 | 36 | 31 |
 | VI.9 | 44 | 32 | 12 |
-| Totale | 2898 | 1385 | 1513 |
+| Totale Prologo e capitoli | 2898 | 1385 | 1513 |
+| Appendice A | 159 | 33 | 126 |
+| Appendice B | 125 | 5 | 120 |
+| Appendice C | 22 | 0 | 22 |
+| Appendice D | 19 | 2 | 17 |
+| Appendice E | 21 | 0 | 21 |
+| Appendice F | 58 | 0 | 58 |
+| Preliminari e prefazione | 10 | 0 | 10 |
+| Totale della prima analisi | 3312 | 1425 | 1887 |
 
-Questi sono conteggi dell'analisi, non marker approvati o conteggi pubblici. Comprendono ambientazioni senza posizione utile, sogni, visioni e luoghi dei canti intercalati esclusi dalla futura vista geografica. L'inventario è un primo passaggio manuale, non una certificazione di completezza. La corrispondenza delle citazioni al testo non sostituisce la revisione narrativa e geografica delle decisioni.
+Questi sono conteggi di associazioni sezione–luogo, non di luoghi distinti o marker approvati. I 10 riferimenti dei preliminari sono editoriali o autobiografici ed esclusi dai marker narrativi; i 404 delle appendici comprendono anche esempi linguistici e genealogie. Indici e mappe servono come controllo, senza generare automaticamente associazioni. Comprendono ambientazioni senza posizione utile, sogni, visioni e luoghi dei canti intercalati esclusi dalla futura vista geografica. L'inventario è un primo passaggio manuale, non una certificazione di completezza. La corrispondenza delle citazioni al testo non sostituisce la revisione narrativa e geografica delle decisioni.
 
 Le distinzioni già registrate includono:
 
@@ -158,7 +166,7 @@ I titoli di II.5, II.6, II.8 e III.11 avevano sillabe o accenti disordinati dall
 
 Il testimone acquisito non viene presentato come testo aggiornato a ogni correzione successiva. Il controllo di tre punti segnalati da [Wayne G. Hammond e Christina Scull](https://www.hammondandscull.com/addenda/rings.html) mostra che conserva lezioni anteriori alle loro correzioni: nel Prologo, pagina stampata 8/PDF 32, e alle pagine stampate 367/PDF 391 e 373/PDF 397. Questo riscontro puntuale non è una collazione integrale; non sono state applicate correzioni silenziose alle citazioni. Le parti editoriali e l'indice sono accreditati separatamente agli autori indicati nel PDF.
 
-`quotation-budget.json` misura il primo insieme locale per l'analisi critica: 2.898 associazioni, 2.844 estratti diversi, 22.983 parole contando le ripetizioni e 22.596 deduplicate; il passo più lungo di questo insieme ha 20 parole. Il conteggio comprende la breve trascrizione visiva; non comprende immagini del libro. Nessun numero è usato come soglia automatica di liceità. Restano da valutare necessità e proporzione di ogni passo e del complesso, insieme all'eventuale confronto con un testimone di accesso editoriale documentato. Non è ancora stato approvato alcun estratto per la pubblicazione. La ricerca preliminare delle traduzioni riutilizzabili in italiano, francese e spagnolo resta documentata nel README, con le lacune aperte.
+`quotation-budget.json` misura il primo insieme locale per l'analisi critica: 3.312 associazioni, 3.255 estratti diversi, 30.174 parole contando le ripetizioni e 29.743 deduplicate; il passo più lungo di questo insieme ha 20 parole. Il conteggio comprende la breve trascrizione visiva; non comprende immagini del libro. Nessun numero è usato come soglia automatica di liceità. Restano da valutare necessità e proporzione di ogni passo e del complesso, insieme all'eventuale confronto con un testimone di accesso editoriale documentato. Non è ancora stato approvato alcun estratto per la pubblicazione. La ricerca preliminare delle traduzioni riutilizzabili in italiano, francese e spagnolo resta documentata nel README, con le lacune aperte.
 
 La pagina PDF 586/stampata 562 è stata controllata anche visivamente per una frase attribuita ad Aragorn su Fangorn. Il testimone non è stato corretto: l’ingresso narrato in III.5 e la limitazione espressa poi da Legolas in III.10 restano registrati. `edition-observations.json` conserva il problema e lo stato pendente. La [lista dei corrigenda degli editori](https://www.hammondandscull.com/addenda/rings.html) consultata non risolve questo punto; non è dichiarata una collazione completa o una correzione autorevole già trovata.
 
@@ -196,7 +204,7 @@ La Web Map candidata non espone una licenza di riuso esplicita nei metadati veri
 
 Nessuna richiesta è stata inviata a terzi. Il prototipo locale verifica il comportamento tecnico e non costituisce autorizzazione alla pubblicazione della mappa.
 
-## Stato delle vedute e prossima lettura
+## Valutazione delle vedute
 
 La lettura di V.1 conferma l’utilità di una veduta di Minas Tirith: sette livelli, porte alternate, sperone roccioso, corte della fontana, sala e alloggio sono descritti con riscontri diretti. Il Fosso di Helm è stato ora letto in III.7–III.8: una veduta aiuterebbe a distinguere diga esterna, muro, rocca e accessi. Per Moria, ora sono stati letti II.4–II.5: tre vedute sarebbero utili, una esterna del lago e delle Porte di Durin, una della camera di Mazarbul e una del Second Hall con il ponte. Il testo descrive luce, colonne, porte e rapporto fra gli spazi, ma non una pianta completa: distinguere fenditura di fuoco e baratro, scala esterna e passaggi interni, e conservare le incertezze sulle quote espresse da Gandalf. Le vedute dovranno essere realistiche ed evocative; le posizioni sul disegno rimarranno interpretative. Non sono state realizzate immagini o inventate disposizioni. Le immagini di catalogo dovranno essere quadri esistenti con fonte e riuso documentati; tema, filigrana e descrizioni quadrilingui restano da predisporre dopo la scelta editoriale.
 
@@ -208,7 +216,7 @@ Wellinghall, Derndingle e Meduseld hanno ora riscontri sufficienti per valutare 
 
 La lettura dell’assedio e del racconto di Gimli sostiene ora vedute distinte del complesso del Fosso di Helm e di Aglarond. La prima deve separare diga esterna, conca, rocca, mura e gola, senza trasferire disposizione e rinforzi del film; la seconda può rendere acqua, cristalli e formazioni colorate come descritti, lasciando interpretativa la struttura non misurata. Anche Isengard richiede stati distinti: l’assetto industriale descritto, la rovina allagata e il terreno riemerso. Il Watchwood è soltanto annunciato in questo tratto e non è presentato come già realizzato. Nessuna di queste vedute è stata creata.
 
-La lettura narrativa è completa. Il lavoro non è concluso: restano sei appendici, il completamento dei preliminari e la verifica di indici/mappe, oltre alla riconciliazione critica e geografica e alla revisione dei diritti. Gli avanzamenti verificati della ricerca vengono pubblicati nel branch `docs`; nessun contenuto del nuovo romanzo è stato pubblicato in Supabase o sul sito.
+La lettura dell’edizione è completa. Restano la riconciliazione critica e geografica di tutte le associazioni, la revisione delle ricorrenze e dei diritti. Gli avanzamenti verificati della ricerca vengono pubblicati nel branch `docs`; nessun contenuto del nuovo romanzo è stato pubblicato in Supabase o sul sito.
 
 ## Ripresa locale
 
@@ -222,11 +230,11 @@ node research/tolkien/check-webmap-prototype.cjs
 
 Le dichiarazioni di lettura sono conservate da `prepare-corpus.py` solo se l'impronta della singola unità non cambia. Per ripetere la verifica narrativa servono i file locali ignorati; un clone Git conserva soltanto il metodo e i conteggi, non i riscontri integrali ancora in revisione.
 
-La lettura di IV.1–IV.3 suggerisce una veduta delle Paludi Morte e una del riparo davanti alla Porta Nera: canneti, pozze, terreno di passaggio e rapporto fra cavo, torri e strade hanno riscontri testuali. Per la parete delle Emyn Muil una veduta ravvicinata sarebbe utile soltanto se rendesse leggibili le due discese senza simulare una pianta certa. Le facce nelle acque e i punti sul disegno richiedono scelte interpretative esplicite. Nessuna di queste vedute è stata realizzata; la prossima lettura integrale riguarda gli apparati.
+La lettura di IV.1–IV.3 suggerisce una veduta delle Paludi Morte e una del riparo davanti alla Porta Nera: canneti, pozze, terreno di passaggio e rapporto fra cavo, torri e strade hanno riscontri testuali. Per la parete delle Emyn Muil una veduta ravvicinata sarebbe utile soltanto se rendesse leggibili le due discese senza simulare una pianta certa. Le facce nelle acque e i punti sul disegno richiedono scelte interpretative esplicite. Nessuna di queste vedute è stata realizzata; anche gli apparati sono stati ora letti integralmente.
 
 IV.5–IV.7 rendono opportuna anche una veduta realistica di Henneth Annûn, distinta fra tramonto al velo d’acqua e osservazione notturna della pozza. Arco, camera, piattaforma, pianerottolo e rampe hanno riscontri, ma il percorso segreto completo resta incerto. Per il crocevia sarebbe utile una veduta con anello d’alberi, vie, figura mutilata e testa al margine illuminata dal tramonto, senza attribuire un nome al re o mostrare come fatto il vandalismo precedente. Nessuna immagine è stata realizzata.
 
-La lettura completa del Libro IV rende utile una veduta della valle di Morgul con città, ponte, corso d’acqua e avvio del sentiero settentrionale, più una veduta delle scale e delle altezze finali. Per Torech Ungol occorre privilegiare un ambiente realistico e atmosferico con i soli rapporti documentati, senza fingere una pianta completa dei cunicoli; la porta inferiore va distinta dalla barriera di pietra interna. Nessuna veduta è stata realizzata. La prima lettura narrativa dei due volumi non chiude la revisione critica, geografica o dei diritti.
+La lettura completa del Libro IV rende utile una veduta della valle di Morgul con città, ponte, corso d’acqua e avvio del sentiero settentrionale, più una veduta delle scale e delle altezze finali. Per Torech Ungol occorre privilegiare un ambiente realistico e atmosferico con i soli rapporti documentati, senza fingere una pianta completa dei cunicoli; la porta inferiore va distinta dalla barriera di pietra interna. Nessuna veduta è stata realizzata. La prima lettura non chiude la revisione critica, geografica o dei diritti.
 
 V.2 rende opportune vedute distinte del campo di Dunharrow e dell’imbocco nel Dimholt, dell’uscita nella gola del Morthond e della collina di Erech. Pietra isolata del bosco, porta chiusa del corpo in armatura e globo semisepolto di Erech non sono lo stesso luogo. Le forme dei Morti vanno trattate come resa interpretativa, senza riprodurre come prova la versione cinematografica. Nessuna veduta è stata realizzata.
 
@@ -241,3 +249,28 @@ V.8–VI.9 sono stati letti integralmente. Il primo inventario separa le cure da
 Le pagine PDF 890 e 999 sono state anche renderizzate e lette visivamente per controllare due paragrafi spostati nell’ordine dell’estrazione. Nessun originale è stato corretto o pubblicato; immagini e inventari restano privati.
 
 Le nuove vedute opportune comprendono la Torre di Cirith Ungol (struttura esterna e percorso verso la prigione, senza fingere una pianta completa), il Morgai con i distinti ripari e le sorgenti, l’ascesa al Monte e la camera sotto il cratere, Cormallen, il giardino delle Case, il ritrovamento dell’Albero su Mindolluin, Isengard trasformata, Bywater e Hobbiton in momenti distinti di devastazione e ripresa e i Porti Grigi. I riscontri sono nei capitoli analizzati; geometrie non dimostrate restano interpretative. Nessuna veduta è stata realizzata.
+
+## Completamento della lettura degli apparati
+
+La lettura arriva al colophon: 72 unità e 30 pagine supplementari. Nell’Appendice A sono separati i racconti sviluppati (Arvedui, Aragorn e Arwen, Helm e Freca, Thrór e Nár, Azanulbizar, Gandalf e Thorin) dalle notizie di cronaca. Azog è ucciso da Dáin, senza trasferire la versione cinematografica. Le singole date di B non diventano automaticamente scene d’azione; alcune sequenze sviluppate della guerra del Nord hanno un riscontro distinto.
+
+Nelle genealogie, 16 riscontri figurativi sono stati trascritti manualmente e collegati all’impronta della tavola renderizzata. Famiglia, provenienza, matrimonio o trasferimento non bastano da soli a dimostrare una scena. D distingue calendari e consuetudini effettivamente descritte; E e F documentano pronuncia, scritture, lingue e traduzione dei nomi. Un esempio lessicale non crea una località autonoma. Winchester/Camelot e la resa linguistica del Rohan non autorizzano equivalenze geografiche terrestri.
+
+I preliminari distinguono Tolkien dagli autori delle note editoriali. Sono conservati i numeri romani quando disponibili, oltre alla pagina PDF, senza numeri stampati negativi. L’epilogo scartato non è una sezione mancante di questa edizione. L’indice dichiara limiti propri e non sostituisce la lettura dei capitoli. Le mappe finali sono state viste integralmente, senza ricavare automaticamente coordinate o un diritto di riuso.
+
+I 3.312 riscontri passano il controllo sul testo o, per le tavole, quello d’integrità delle immagini trascritte manualmente. Passano i due controlli negativi: citazione estranea e impronta visiva errata sono rifiutate senza sostituire gli output verificati. I confronti puntuali sono ora 89. Questi controlli non certificano la completezza critica dell’inventario.
+
+Il bilancio privato degli estratti registra 3.255 estratti distinti, 29.743 parole senza ripetizioni, massimo 20 parole per estratto. Nessuna soglia è considerata un’autorizzazione: necessità, proporzione e insieme degli estratti restano da valutare. Nessun testo del romanzo o immagine delle pagine è stato aggiunto a Git.
+
+Le appendici suggeriscono ulteriori vedute opzionali di Cerin Amroth in epoche distinte, della costa invernale di Forochel e della valle di Azanulbizar prima e dopo la battaglia. I racconti danno elementi di paesaggio e azione, senza una pianta misurata. Queste vedute non sono prioritarie rispetto alla vicenda principale e non sono state realizzate; prospettive e posizioni non dimostrate rimangono interpretative.
+
+## Esito della fattibilità e condizioni ancora aperte
+
+La prova tecnica ArcGIS è favorevole; il PDF originale completo è leggibile senza OCR e la prima lettura dell’edizione è terminata. Per pubblicare l’atlante restano questi lavori:
+
+- chiarire il riuso di cartografia, DEM, simboli e dati: i metadati pubblici della candidata non forniscono una licenza sufficiente;
+- riconciliare tutte le ricorrenze, gli alias e le categorie sui singoli passi; completare collazione e verifica delle fonti geografiche e dei modelli reali;
+- valutare individualmente e complessivamente citazioni originali e traduzioni autentiche; nelle altre tre lingue la ricerca preliminare non ha fornito una versione riutilizzabile verificata;
+- completare controller e adattatori per coordinate immaginarie, prove mobile/accessibilità, dati editoriali, quadro di catalogo, tema e filigrana, quindi importazione e verifica pubblica in Supabase.
+
+Il romanzo non è stato importato nel database né pubblicato nel catalogo. È pubblicata la ricerca verificata nel branch docs; fullNovelAnalysisComplete resta false.

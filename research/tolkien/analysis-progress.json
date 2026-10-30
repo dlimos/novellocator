@@ -1,8 +1,98 @@
 {
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "status": "in-progress",
   "fullNovelAnalysisComplete": false,
   "sections": [
+    {
+      "sectionId": "appendix-a",
+      "completeRead": true,
+      "references": 159,
+      "action": 33,
+      "mentioned": 126,
+      "inventoryStatus": "first-manual-pass-reconciliation-pending",
+      "quotationRightsStatus": "pending",
+      "introductionsAvailable": [
+        "it",
+        "en",
+        "fr",
+        "es"
+      ]
+    },
+    {
+      "sectionId": "appendix-b",
+      "completeRead": true,
+      "references": 125,
+      "action": 5,
+      "mentioned": 120,
+      "inventoryStatus": "first-manual-pass-reconciliation-pending",
+      "quotationRightsStatus": "pending",
+      "introductionsAvailable": [
+        "it",
+        "en",
+        "fr",
+        "es"
+      ]
+    },
+    {
+      "sectionId": "appendix-c",
+      "completeRead": true,
+      "references": 22,
+      "action": 0,
+      "mentioned": 22,
+      "inventoryStatus": "first-manual-pass-reconciliation-pending",
+      "quotationRightsStatus": "pending",
+      "introductionsAvailable": [
+        "it",
+        "en",
+        "fr",
+        "es"
+      ]
+    },
+    {
+      "sectionId": "appendix-d",
+      "completeRead": true,
+      "references": 19,
+      "action": 2,
+      "mentioned": 17,
+      "inventoryStatus": "first-manual-pass-reconciliation-pending",
+      "quotationRightsStatus": "pending",
+      "introductionsAvailable": [
+        "it",
+        "en",
+        "fr",
+        "es"
+      ]
+    },
+    {
+      "sectionId": "appendix-e",
+      "completeRead": true,
+      "references": 21,
+      "action": 0,
+      "mentioned": 21,
+      "inventoryStatus": "first-manual-pass-reconciliation-pending",
+      "quotationRightsStatus": "pending",
+      "introductionsAvailable": [
+        "it",
+        "en",
+        "fr",
+        "es"
+      ]
+    },
+    {
+      "sectionId": "appendix-f",
+      "completeRead": true,
+      "references": 58,
+      "action": 0,
+      "mentioned": 58,
+      "inventoryStatus": "first-manual-pass-reconciliation-pending",
+      "quotationRightsStatus": "pending",
+      "introductionsAvailable": [
+        "it",
+        "en",
+        "fr",
+        "es"
+      ]
+    },
     {
       "sectionId": "b1-c01",
       "completeRead": true,
@@ -924,6 +1014,21 @@
       "references": 44,
       "action": 32,
       "mentioned": 12,
+      "inventoryStatus": "first-manual-pass-reconciliation-pending",
+      "quotationRightsStatus": "pending",
+      "introductionsAvailable": [
+        "it",
+        "en",
+        "fr",
+        "es"
+      ]
+    },
+    {
+      "sectionId": "editorial-preliminaries",
+      "completeRead": true,
+      "references": 10,
+      "action": 0,
+      "mentioned": 10,
       "inventoryStatus": "first-manual-pass-reconciliation-pending",
       "quotationRightsStatus": "pending",
       "introductionsAvailable": [
