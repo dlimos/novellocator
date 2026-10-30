@@ -996,8 +996,8 @@
     {
       "sectionId": "b6-c08",
       "completeRead": true,
-      "references": 67,
-      "action": 36,
+      "references": 68,
+      "action": 37,
       "mentioned": 31,
       "inventoryStatus": "first-manual-pass-reconciliation-pending",
       "quotationRightsStatus": "pending",

@@ -2482,6 +2482,28 @@
       "findingIt": "L’Appendice racconta il dono di Narya da Círdan a Gandalf; il finale mostra Gandalf ai Porti nel congedo. Le scene sono separate nel tempo, non lo stesso arrivo.",
       "dataDecision": "Preserve distinct narrative levels, source context and qualified certainty; do not infer Earth positions.",
       "remaining": "Full recurrence, critical collation, geography and rights review pending."
+    },
+    {
+      "id": "lobelia-arrest-and-later-release",
+      "sources": [
+        {
+          "sectionId": "b6-c08",
+          "pdfPages": [
+            1037
+          ]
+        },
+        {
+          "sectionId": "b6-c09",
+          "pdfPages": [
+            1045,
+            1046
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "Young Tom sviluppa la scena dell’arresto di Lobelia nel vicolo; il racconto è attribuito a testimoni di Hobbiton. Il trasferimento ai Lockholes è riferito senza una scena interna alla prigione in VI.8. Liberazione e notizie successive appartengono a VI.9.",
+      "dataDecision": "Restore the embedded lane scene with its own original witness; do not assign an exact lane position or change the earlier prison mention into action.",
+      "remaining": "Full recurrence, geographic and rights reconciliation pending."
     }
   ],
   "quotationTextIncluded": false,

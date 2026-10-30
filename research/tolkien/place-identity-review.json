@@ -1,0 +1,1495 @@
+{
+  "date": "2026-10-31",
+  "sourcePdfSha256": "4e2fdba27a4dbc444e182bf10d25cfb6731294fd4215b449e38a190391ebf465",
+  "scope": "Fourteen manually checked identity groups and five explicit non-merges; not a complete reconciliation of the whole novel.",
+  "quotationTextIncluded": false,
+  "fullNovelAnalysisComplete": false,
+  "sameSectionPolicy": "Retain all original evidence rows. A canonical identity does not transfer category, scene, time, people, coordinates or visibility. Any future marker aggregation must use witnesses from the selected section.",
+  "groups": [
+    {
+      "reviewId": "rivendell-identity",
+      "canonicalPlaceId": "rivendell",
+      "analysisPlaceIds": [
+        "rivendell",
+        "imladris"
+      ],
+      "verifiedNameForms": [
+        "Rivendell",
+        "Imladris",
+        "Karningul"
+      ],
+      "decisionIt": "Identità esplicita della località; Winchester e Camelot restano analogie esterne.",
+      "sources": [
+        {
+          "sectionId": "appendix-f",
+          "pdfPage": 1158,
+          "sourcePageSha256": "ea8e2d175702899c4d1de391e3eaecad75b899cc9a6c7a1528000ee0b0e40031",
+          "textSha256": "b71e9f2674509c18f49576bb535ca29e5a14fbb752732ea834bae2f8c94aea68"
+        },
+        {
+          "sectionId": "appendix-f",
+          "pdfPage": 1158,
+          "sourcePageSha256": "ea8e2d175702899c4d1de391e3eaecad75b899cc9a6c7a1528000ee0b0e40031",
+          "textSha256": "e7032bd7b87bed80615477ac23d7223f1f1fad50bc3e857ce89f28763ed9d853"
+        }
+      ],
+      "affectedAssociations": [
+        {
+          "sectionId": "appendix-a",
+          "analysisPlaceId": "rivendell"
+        },
+        {
+          "sectionId": "appendix-b",
+          "analysisPlaceId": "rivendell"
+        },
+        {
+          "sectionId": "appendix-d",
+          "analysisPlaceId": "imladris"
+        },
+        {
+          "sectionId": "appendix-d",
+          "analysisPlaceId": "rivendell"
+        },
+        {
+          "sectionId": "appendix-f",
+          "analysisPlaceId": "rivendell"
+        },
+        {
+          "sectionId": "b1-c03",
+          "analysisPlaceId": "rivendell"
+        },
+        {
+          "sectionId": "b1-c05",
+          "analysisPlaceId": "rivendell"
+        },
+        {
+          "sectionId": "b1-c10",
+          "analysisPlaceId": "rivendell"
+        },
+        {
+          "sectionId": "b1-c11",
+          "analysisPlaceId": "rivendell"
+        },
+        {
+          "sectionId": "b1-c12",
+          "analysisPlaceId": "rivendell"
+        },
+        {
+          "sectionId": "b2-c01",
+          "analysisPlaceId": "rivendell"
+        },
+        {
+          "sectionId": "b2-c02",
+          "analysisPlaceId": "rivendell"
+        },
+        {
+          "sectionId": "b2-c03",
+          "analysisPlaceId": "rivendell"
+        },
+        {
+          "sectionId": "b2-c04",
+          "analysisPlaceId": "rivendell"
+        },
+        {
+          "sectionId": "b2-c06",
+          "analysisPlaceId": "rivendell"
+        },
+        {
+          "sectionId": "b2-c07",
+          "analysisPlaceId": "rivendell"
+        },
+        {
+          "sectionId": "b2-c10",
+          "analysisPlaceId": "rivendell"
+        },
+        {
+          "sectionId": "b3-c02",
+          "analysisPlaceId": "rivendell"
+        },
+        {
+          "sectionId": "b3-c03",
+          "analysisPlaceId": "rivendell"
+        },
+        {
+          "sectionId": "b3-c04",
+          "analysisPlaceId": "rivendell"
+        },
+        {
+          "sectionId": "b3-c05",
+          "analysisPlaceId": "rivendell"
+        },
+        {
+          "sectionId": "b3-c09",
+          "analysisPlaceId": "rivendell"
+        },
+        {
+          "sectionId": "b3-c11",
+          "analysisPlaceId": "rivendell"
+        },
+        {
+          "sectionId": "b4-c04",
+          "analysisPlaceId": "rivendell"
+        },
+        {
+          "sectionId": "b4-c05",
+          "analysisPlaceId": "rivendell"
+        },
+        {
+          "sectionId": "b4-c10",
+          "analysisPlaceId": "rivendell"
+        },
+        {
+          "sectionId": "b5-c02",
+          "analysisPlaceId": "rivendell"
+        },
+        {
+          "sectionId": "b5-c09",
+          "analysisPlaceId": "imladris"
+        },
+        {
+          "sectionId": "b6-c02",
+          "analysisPlaceId": "rivendell"
+        },
+        {
+          "sectionId": "b6-c04",
+          "analysisPlaceId": "rivendell"
+        },
+        {
+          "sectionId": "b6-c05",
+          "analysisPlaceId": "rivendell"
+        },
+        {
+          "sectionId": "b6-c06",
+          "analysisPlaceId": "rivendell"
+        },
+        {
+          "sectionId": "b6-c09",
+          "analysisPlaceId": "rivendell"
+        },
+        {
+          "sectionId": "prologue",
+          "analysisPlaceId": "rivendell"
+        }
+      ],
+      "status": "targeted-original-identity-checked",
+      "positionsVerified": false
+    },
+    {
+      "reviewId": "moria-identity",
+      "canonicalPlaceId": "moria",
+      "analysisPlaceIds": [
+        "moria",
+        "khazad-dum"
+      ],
+      "verifiedNameForms": [
+        "Moria",
+        "Khazad-dûm",
+        "Dwarrowdelf",
+        "Phurunargian"
+      ],
+      "decisionIt": "Nome elfico, nome nanico e forme della Lingua Comune della medesima città sotterranea; non unire le singole camere.",
+      "sources": [
+        {
+          "sectionId": "appendix-f",
+          "pdfPage": 1161,
+          "sourcePageSha256": "e0128d03dccd502e76c49369655f5d9941618db1f61a0f4684f21abe36cee9f9",
+          "textSha256": "b14883edf27d08e346d88122a997057b159d4f6b35509e84a8b46e9f0917cce0"
+        },
+        {
+          "sectionId": "appendix-f",
+          "pdfPage": 1161,
+          "sourcePageSha256": "e0128d03dccd502e76c49369655f5d9941618db1f61a0f4684f21abe36cee9f9",
+          "textSha256": "c7ee2a22ae9b2c0fd9724c547bd6b1a33b5d37714bab686dd809af6cdc89a9e9"
+        }
+      ],
+      "affectedAssociations": [
+        {
+          "sectionId": "appendix-a",
+          "analysisPlaceId": "khazad-dum"
+        },
+        {
+          "sectionId": "appendix-b",
+          "analysisPlaceId": "moria"
+        },
+        {
+          "sectionId": "appendix-e",
+          "analysisPlaceId": "moria"
+        },
+        {
+          "sectionId": "appendix-f",
+          "analysisPlaceId": "moria"
+        },
+        {
+          "sectionId": "b2-c02",
+          "analysisPlaceId": "moria"
+        },
+        {
+          "sectionId": "b2-c03",
+          "analysisPlaceId": "moria"
+        },
+        {
+          "sectionId": "b2-c04",
+          "analysisPlaceId": "moria"
+        },
+        {
+          "sectionId": "b2-c05",
+          "analysisPlaceId": "moria"
+        },
+        {
+          "sectionId": "b2-c06",
+          "analysisPlaceId": "moria"
+        },
+        {
+          "sectionId": "b2-c07",
+          "analysisPlaceId": "moria"
+        },
+        {
+          "sectionId": "b2-c08",
+          "analysisPlaceId": "moria"
+        },
+        {
+          "sectionId": "b2-c09",
+          "analysisPlaceId": "moria"
+        },
+        {
+          "sectionId": "b2-c10",
+          "analysisPlaceId": "moria"
+        },
+        {
+          "sectionId": "b3-c01",
+          "analysisPlaceId": "moria"
+        },
+        {
+          "sectionId": "b3-c02",
+          "analysisPlaceId": "moria"
+        },
+        {
+          "sectionId": "b3-c03",
+          "analysisPlaceId": "moria"
+        },
+        {
+          "sectionId": "b3-c04",
+          "analysisPlaceId": "moria"
+        },
+        {
+          "sectionId": "b3-c05",
+          "analysisPlaceId": "moria"
+        },
+        {
+          "sectionId": "b3-c07",
+          "analysisPlaceId": "moria"
+        },
+        {
+          "sectionId": "b3-c08",
+          "analysisPlaceId": "moria"
+        },
+        {
+          "sectionId": "b3-c09",
+          "analysisPlaceId": "moria"
+        },
+        {
+          "sectionId": "b4-c03",
+          "analysisPlaceId": "moria"
+        },
+        {
+          "sectionId": "b4-c04",
+          "analysisPlaceId": "moria"
+        },
+        {
+          "sectionId": "b4-c05",
+          "analysisPlaceId": "moria"
+        },
+        {
+          "sectionId": "b4-c09",
+          "analysisPlaceId": "moria"
+        },
+        {
+          "sectionId": "b6-c03",
+          "analysisPlaceId": "moria"
+        }
+      ],
+      "status": "targeted-original-identity-checked",
+      "positionsVerified": false
+    },
+    {
+      "reviewId": "grey-havens-identity",
+      "canonicalPlaceId": "grey-havens",
+      "analysisPlaceIds": [
+        "grey-havens",
+        "mithlond"
+      ],
+      "verifiedNameForms": [
+        "Grey Havens",
+        "Mithlond"
+      ],
+      "decisionIt": "Equivalenza esplicita all’arrivo; la banchina resta un sotto-luogo.",
+      "sources": [
+        {
+          "sectionId": "b6-c09",
+          "pdfPage": 1054,
+          "sourcePageSha256": "ff35d338ae98b561a561c63f1e4977ba2a686a034fa437035ef82d1d40d5d424",
+          "textSha256": "e8152bc6ab32ca99582ce22bea9f902569f47dd3ebfd44d0e8d3cbf38863bd11"
+        }
+      ],
+      "affectedAssociations": [
+        {
+          "sectionId": "appendix-a",
+          "analysisPlaceId": "grey-havens"
+        },
+        {
+          "sectionId": "appendix-b",
+          "analysisPlaceId": "grey-havens"
+        },
+        {
+          "sectionId": "b1-c02",
+          "analysisPlaceId": "grey-havens"
+        },
+        {
+          "sectionId": "b2-c02",
+          "analysisPlaceId": "grey-havens"
+        },
+        {
+          "sectionId": "b2-c03",
+          "analysisPlaceId": "grey-havens"
+        },
+        {
+          "sectionId": "b2-c06",
+          "analysisPlaceId": "grey-havens"
+        },
+        {
+          "sectionId": "b3-c11",
+          "analysisPlaceId": "grey-havens"
+        },
+        {
+          "sectionId": "b6-c09",
+          "analysisPlaceId": "mithlond"
+        },
+        {
+          "sectionId": "prologue",
+          "analysisPlaceId": "grey-havens"
+        }
+      ],
+      "status": "targeted-original-identity-checked",
+      "positionsVerified": false
+    },
+    {
+      "reviewId": "lorien-identity",
+      "canonicalPlaceId": "lorien",
+      "analysisPlaceIds": [
+        "lorien",
+        "lothlorien"
+      ],
+      "verifiedNameForms": [
+        "Lórien",
+        "Lothlórien",
+        "Golden Wood"
+      ],
+      "decisionIt": "Nome esteso, forma breve e appellativo nel medesimo itinerario; East Lórien è un territorio successivo distinto.",
+      "sources": [
+        {
+          "sectionId": "b2-c06",
+          "pdfPage": 365,
+          "sourcePageSha256": "623c66b387b33bc9dc79407a99c3849a2c2d43d436d91ab77f698328b8deaaad",
+          "textSha256": "4cee9ced4854263945c558b595036c14417c1332bf2934b793601aea3ab0ff81"
+        },
+        {
+          "sectionId": "b2-c06",
+          "pdfPage": 361,
+          "sourcePageSha256": "d88affc80b7b737f3ac8d202880dd448014cb34cbeeecf1365df794a67aed66a",
+          "textSha256": "d510244a94050fe441f0279755ba2902c6449574989afd5bb218c457ef2d16d0"
+        }
+      ],
+      "affectedAssociations": [
+        {
+          "sectionId": "appendix-b",
+          "analysisPlaceId": "lorien"
+        },
+        {
+          "sectionId": "appendix-f",
+          "analysisPlaceId": "lorien"
+        },
+        {
+          "sectionId": "b2-c01",
+          "analysisPlaceId": "lorien"
+        },
+        {
+          "sectionId": "b2-c02",
+          "analysisPlaceId": "lorien"
+        },
+        {
+          "sectionId": "b2-c06",
+          "analysisPlaceId": "lorien"
+        },
+        {
+          "sectionId": "b2-c07",
+          "analysisPlaceId": "lorien"
+        },
+        {
+          "sectionId": "b2-c08",
+          "analysisPlaceId": "lorien"
+        },
+        {
+          "sectionId": "b2-c09",
+          "analysisPlaceId": "lorien"
+        },
+        {
+          "sectionId": "b2-c10",
+          "analysisPlaceId": "lorien"
+        },
+        {
+          "sectionId": "b3-c01",
+          "analysisPlaceId": "lorien"
+        },
+        {
+          "sectionId": "b3-c02",
+          "analysisPlaceId": "lorien"
+        },
+        {
+          "sectionId": "b3-c04",
+          "analysisPlaceId": "lorien"
+        },
+        {
+          "sectionId": "b3-c05",
+          "analysisPlaceId": "lorien"
+        },
+        {
+          "sectionId": "b3-c06",
+          "analysisPlaceId": "lorien"
+        },
+        {
+          "sectionId": "b3-c11",
+          "analysisPlaceId": "lorien"
+        },
+        {
+          "sectionId": "b4-c01",
+          "analysisPlaceId": "lorien"
+        },
+        {
+          "sectionId": "b4-c02",
+          "analysisPlaceId": "lorien"
+        },
+        {
+          "sectionId": "b4-c05",
+          "analysisPlaceId": "lorien"
+        },
+        {
+          "sectionId": "b4-c08",
+          "analysisPlaceId": "lorien"
+        },
+        {
+          "sectionId": "b4-c09",
+          "analysisPlaceId": "lorien"
+        },
+        {
+          "sectionId": "b4-c10",
+          "analysisPlaceId": "lorien"
+        },
+        {
+          "sectionId": "b5-c08",
+          "analysisPlaceId": "lorien"
+        },
+        {
+          "sectionId": "b5-c09",
+          "analysisPlaceId": "lorien"
+        },
+        {
+          "sectionId": "b6-c02",
+          "analysisPlaceId": "lorien"
+        },
+        {
+          "sectionId": "b6-c03",
+          "analysisPlaceId": "lorien"
+        },
+        {
+          "sectionId": "b6-c05",
+          "analysisPlaceId": "lothlorien"
+        },
+        {
+          "sectionId": "b6-c06",
+          "analysisPlaceId": "lorien"
+        },
+        {
+          "sectionId": "b6-c09",
+          "analysisPlaceId": "lothlorien"
+        }
+      ],
+      "status": "targeted-original-identity-checked",
+      "positionsVerified": false
+    },
+    {
+      "reviewId": "silverlode-identity",
+      "canonicalPlaceId": "silverlode",
+      "analysisPlaceIds": [
+        "silverlode"
+      ],
+      "verifiedNameForms": [
+        "Silverlode",
+        "Celebrant"
+      ],
+      "decisionIt": "Celebrant qui è il fiume. Il Campo di Celebrant non è un suo alias.",
+      "sources": [
+        {
+          "sectionId": "b2-c06",
+          "pdfPage": 365,
+          "sourcePageSha256": "623c66b387b33bc9dc79407a99c3849a2c2d43d436d91ab77f698328b8deaaad",
+          "textSha256": "1ef7d8bf6d86e850abe4200d026625c5a4d4071eb899d4f840552303ddf96f85"
+        }
+      ],
+      "affectedAssociations": [
+        {
+          "sectionId": "appendix-f",
+          "analysisPlaceId": "silverlode"
+        },
+        {
+          "sectionId": "b2-c03",
+          "analysisPlaceId": "silverlode"
+        },
+        {
+          "sectionId": "b2-c06",
+          "analysisPlaceId": "silverlode"
+        },
+        {
+          "sectionId": "b2-c08",
+          "analysisPlaceId": "silverlode"
+        },
+        {
+          "sectionId": "b2-c09",
+          "analysisPlaceId": "silverlode"
+        },
+        {
+          "sectionId": "b6-c06",
+          "analysisPlaceId": "silverlode"
+        }
+      ],
+      "status": "targeted-original-identity-checked",
+      "positionsVerified": false
+    },
+    {
+      "reviewId": "lake-evendim-identity",
+      "canonicalPlaceId": "lake-evendim",
+      "analysisPlaceIds": [
+        "lake-evendim",
+        "nenuial"
+      ],
+      "verifiedNameForms": [
+        "Lake Evendim",
+        "Nenuial"
+      ],
+      "decisionIt": "Equivalenza dichiarata; le Hills of Evendim sono una regione distinta dal lago.",
+      "sources": [
+        {
+          "sectionId": "appendix-d",
+          "pdfPage": 1135,
+          "sourcePageSha256": "d2956ddafd59ccc950360deb5d284dd0ce55741dacc7c0fd8faf7a41752dec55",
+          "textSha256": "0216ef0778575517748a24b23dcd87913528ed0ac93cdec1187662e75f772aa0"
+        }
+      ],
+      "affectedAssociations": [
+        {
+          "sectionId": "appendix-a",
+          "analysisPlaceId": "lake-evendim"
+        },
+        {
+          "sectionId": "appendix-b",
+          "analysisPlaceId": "lake-evendim"
+        },
+        {
+          "sectionId": "appendix-d",
+          "analysisPlaceId": "nenuial"
+        },
+        {
+          "sectionId": "b2-c02",
+          "analysisPlaceId": "lake-evendim"
+        },
+        {
+          "sectionId": "b6-c07",
+          "analysisPlaceId": "lake-evendim"
+        }
+      ],
+      "status": "targeted-original-identity-checked",
+      "positionsVerified": false
+    },
+    {
+      "reviewId": "minas-tirith-identity",
+      "canonicalPlaceId": "minas-tirith",
+      "analysisPlaceIds": [
+        "minas-tirith",
+        "minas-anor"
+      ],
+      "verifiedNameForms": [
+        "Minas Tirith",
+        "Minas Anor"
+      ],
+      "decisionIt": "Rinominazione della città di Gondor. Conservare il nome e l’epoca di ciascun riscontro; non confondere altre torri omonime.",
+      "sources": [
+        {
+          "sectionId": "appendix-a",
+          "pdfPage": 1076,
+          "sourcePageSha256": "0f7514d26c070cf5a03570ff6ac25615ca9552c6be1f7a7151c496afbfbe424b",
+          "textSha256": "ce1fd8060438dab8ec24c082cf32ce3e7e3a4175f2ebf052a9c00579507eba73"
+        },
+        {
+          "sectionId": "appendix-a",
+          "pdfPage": 1076,
+          "sourcePageSha256": "0f7514d26c070cf5a03570ff6ac25615ca9552c6be1f7a7151c496afbfbe424b",
+          "textSha256": "cdb81986eab5e31ab3dd3876d9ed8e7b13c48206b558fd733d0fb9f58dcc639f"
+        }
+      ],
+      "affectedAssociations": [
+        {
+          "sectionId": "appendix-a",
+          "analysisPlaceId": "minas-anor"
+        },
+        {
+          "sectionId": "appendix-a",
+          "analysisPlaceId": "minas-tirith"
+        },
+        {
+          "sectionId": "appendix-b",
+          "analysisPlaceId": "minas-anor"
+        },
+        {
+          "sectionId": "appendix-b",
+          "analysisPlaceId": "minas-tirith"
+        },
+        {
+          "sectionId": "appendix-f",
+          "analysisPlaceId": "minas-tirith"
+        },
+        {
+          "sectionId": "b2-c02",
+          "analysisPlaceId": "minas-tirith"
+        },
+        {
+          "sectionId": "b2-c03",
+          "analysisPlaceId": "minas-tirith"
+        },
+        {
+          "sectionId": "b2-c06",
+          "analysisPlaceId": "minas-tirith"
+        },
+        {
+          "sectionId": "b2-c07",
+          "analysisPlaceId": "minas-tirith"
+        },
+        {
+          "sectionId": "b2-c08",
+          "analysisPlaceId": "minas-tirith"
+        },
+        {
+          "sectionId": "b2-c09",
+          "analysisPlaceId": "minas-tirith"
+        },
+        {
+          "sectionId": "b2-c10",
+          "analysisPlaceId": "minas-tirith"
+        },
+        {
+          "sectionId": "b3-c01",
+          "analysisPlaceId": "minas-tirith"
+        },
+        {
+          "sectionId": "b3-c02",
+          "analysisPlaceId": "minas-tirith"
+        },
+        {
+          "sectionId": "b3-c05",
+          "analysisPlaceId": "minas-tirith"
+        },
+        {
+          "sectionId": "b3-c06",
+          "analysisPlaceId": "minas-tirith"
+        },
+        {
+          "sectionId": "b3-c08",
+          "analysisPlaceId": "minas-tirith"
+        },
+        {
+          "sectionId": "b3-c11",
+          "analysisPlaceId": "minas-tirith"
+        },
+        {
+          "sectionId": "b4-c01",
+          "analysisPlaceId": "minas-tirith"
+        },
+        {
+          "sectionId": "b4-c04",
+          "analysisPlaceId": "minas-tirith"
+        },
+        {
+          "sectionId": "b4-c05",
+          "analysisPlaceId": "minas-tirith"
+        },
+        {
+          "sectionId": "b4-c06",
+          "analysisPlaceId": "minas-tirith"
+        },
+        {
+          "sectionId": "b5-c01",
+          "analysisPlaceId": "minas-tirith"
+        },
+        {
+          "sectionId": "b5-c02",
+          "analysisPlaceId": "minas-tirith"
+        },
+        {
+          "sectionId": "b5-c03",
+          "analysisPlaceId": "minas-tirith"
+        },
+        {
+          "sectionId": "b5-c05",
+          "analysisPlaceId": "minas-tirith"
+        },
+        {
+          "sectionId": "b5-c07",
+          "analysisPlaceId": "minas-tirith"
+        },
+        {
+          "sectionId": "b5-c08",
+          "analysisPlaceId": "minas-tirith"
+        },
+        {
+          "sectionId": "b5-c09",
+          "analysisPlaceId": "minas-tirith"
+        },
+        {
+          "sectionId": "b5-c10",
+          "analysisPlaceId": "minas-tirith"
+        },
+        {
+          "sectionId": "b6-c01",
+          "analysisPlaceId": "minas-tirith"
+        },
+        {
+          "sectionId": "b6-c04",
+          "analysisPlaceId": "minas-tirith"
+        },
+        {
+          "sectionId": "b6-c05",
+          "analysisPlaceId": "minas-tirith"
+        },
+        {
+          "sectionId": "b6-c06",
+          "analysisPlaceId": "minas-tirith"
+        },
+        {
+          "sectionId": "b6-c09",
+          "analysisPlaceId": "minas-tirith"
+        },
+        {
+          "sectionId": "prologue",
+          "analysisPlaceId": "minas-tirith"
+        }
+      ],
+      "status": "targeted-original-identity-checked",
+      "positionsVerified": false
+    },
+    {
+      "reviewId": "minas-morgul-identity",
+      "canonicalPlaceId": "minas-morgul",
+      "analysisPlaceIds": [
+        "minas-morgul",
+        "minas-ithil"
+      ],
+      "verifiedNameForms": [
+        "Minas Morgul",
+        "Minas Ithil"
+      ],
+      "decisionIt": "Rinominazione dopo la conquista: pagine contigue, non due città diverse. Non unire la città ai suoi singoli accessi.",
+      "sources": [
+        {
+          "sectionId": "appendix-a",
+          "pdfPage": 1075,
+          "sourcePageSha256": "69c77dfcc8a01ccf7709b35843f35bb483b6a67b8cd8d0338edddce088e18bb9",
+          "textSha256": "ede84ab39362a0121747f69d1d81335289bb473c9cc056241de0ecd773b89fe7"
+        },
+        {
+          "sectionId": "appendix-a",
+          "pdfPage": 1076,
+          "sourcePageSha256": "0f7514d26c070cf5a03570ff6ac25615ca9552c6be1f7a7151c496afbfbe424b",
+          "textSha256": "d16297953fcf057f2cd4fe4604e9182d1591f248ab9657c346a0d4eb83032e7f"
+        }
+      ],
+      "affectedAssociations": [
+        {
+          "sectionId": "appendix-a",
+          "analysisPlaceId": "minas-ithil"
+        },
+        {
+          "sectionId": "appendix-a",
+          "analysisPlaceId": "minas-morgul"
+        },
+        {
+          "sectionId": "appendix-b",
+          "analysisPlaceId": "minas-ithil"
+        },
+        {
+          "sectionId": "appendix-b",
+          "analysisPlaceId": "minas-morgul"
+        },
+        {
+          "sectionId": "b2-c02",
+          "analysisPlaceId": "minas-morgul"
+        },
+        {
+          "sectionId": "b2-c10",
+          "analysisPlaceId": "minas-morgul"
+        },
+        {
+          "sectionId": "b3-c11",
+          "analysisPlaceId": "minas-morgul"
+        },
+        {
+          "sectionId": "b4-c03",
+          "analysisPlaceId": "minas-morgul"
+        },
+        {
+          "sectionId": "b4-c05",
+          "analysisPlaceId": "minas-morgul"
+        },
+        {
+          "sectionId": "b4-c06",
+          "analysisPlaceId": "minas-morgul"
+        },
+        {
+          "sectionId": "b4-c07",
+          "analysisPlaceId": "minas-morgul"
+        },
+        {
+          "sectionId": "b4-c08",
+          "analysisPlaceId": "minas-morgul"
+        },
+        {
+          "sectionId": "b4-c10",
+          "analysisPlaceId": "minas-morgul"
+        },
+        {
+          "sectionId": "b5-c01",
+          "analysisPlaceId": "minas-morgul"
+        },
+        {
+          "sectionId": "b5-c04",
+          "analysisPlaceId": "minas-morgul"
+        },
+        {
+          "sectionId": "b5-c09",
+          "analysisPlaceId": "minas-morgul"
+        },
+        {
+          "sectionId": "b5-c10",
+          "analysisPlaceId": "minas-morgul"
+        },
+        {
+          "sectionId": "b6-c01",
+          "analysisPlaceId": "minas-morgul"
+        },
+        {
+          "sectionId": "b6-c05",
+          "analysisPlaceId": "minas-morgul"
+        }
+      ],
+      "status": "targeted-original-identity-checked",
+      "positionsVerified": false
+    },
+    {
+      "reviewId": "brandywine-identity",
+      "canonicalPlaceId": "brandywine",
+      "analysisPlaceIds": [
+        "brandywine"
+      ],
+      "verifiedNameForms": [
+        "Brandywine",
+        "Baranduin",
+        "Branda-nîn",
+        "Bralda-hîm"
+      ],
+      "decisionIt": "Forme del nome del fiume e gioco linguistico spiegati nell’Appendice; il ponte resta separato.",
+      "sources": [
+        {
+          "sectionId": "appendix-f",
+          "pdfPage": 1162,
+          "sourcePageSha256": "7d62b383fd4b0b53c0836888e6d31abe9079724d93039fb957a55b49a066f16c",
+          "textSha256": "9a96e2360e99c1b34ab501c31578d261cca1289ec8bef2b402f2c96c712073c6"
+        },
+        {
+          "sectionId": "appendix-f",
+          "pdfPage": 1162,
+          "sourcePageSha256": "7d62b383fd4b0b53c0836888e6d31abe9079724d93039fb957a55b49a066f16c",
+          "textSha256": "ec1f1f1258e1a2f98fb3b26abd18b932cadc98258896c9f28490be2def79e789"
+        }
+      ],
+      "affectedAssociations": [
+        {
+          "sectionId": "appendix-a",
+          "analysisPlaceId": "brandywine"
+        },
+        {
+          "sectionId": "appendix-b",
+          "analysisPlaceId": "brandywine"
+        },
+        {
+          "sectionId": "appendix-c",
+          "analysisPlaceId": "brandywine"
+        },
+        {
+          "sectionId": "appendix-f",
+          "analysisPlaceId": "brandywine"
+        },
+        {
+          "sectionId": "b1-c01",
+          "analysisPlaceId": "brandywine"
+        },
+        {
+          "sectionId": "b1-c02",
+          "analysisPlaceId": "brandywine"
+        },
+        {
+          "sectionId": "b1-c04",
+          "analysisPlaceId": "brandywine"
+        },
+        {
+          "sectionId": "b1-c05",
+          "analysisPlaceId": "brandywine"
+        },
+        {
+          "sectionId": "b1-c06",
+          "analysisPlaceId": "brandywine"
+        },
+        {
+          "sectionId": "b1-c08",
+          "analysisPlaceId": "brandywine"
+        },
+        {
+          "sectionId": "b1-c09",
+          "analysisPlaceId": "brandywine"
+        },
+        {
+          "sectionId": "b1-c10",
+          "analysisPlaceId": "brandywine"
+        },
+        {
+          "sectionId": "b1-c11",
+          "analysisPlaceId": "brandywine"
+        },
+        {
+          "sectionId": "b1-c12",
+          "analysisPlaceId": "brandywine"
+        },
+        {
+          "sectionId": "b2-c03",
+          "analysisPlaceId": "brandywine"
+        },
+        {
+          "sectionId": "b2-c08",
+          "analysisPlaceId": "brandywine"
+        },
+        {
+          "sectionId": "b6-c02",
+          "analysisPlaceId": "brandywine"
+        },
+        {
+          "sectionId": "b6-c07",
+          "analysisPlaceId": "brandywine"
+        },
+        {
+          "sectionId": "b6-c08",
+          "analysisPlaceId": "brandywine"
+        },
+        {
+          "sectionId": "prologue",
+          "analysisPlaceId": "brandywine"
+        }
+      ],
+      "status": "targeted-original-identity-checked",
+      "positionsVerified": false
+    },
+    {
+      "reviewId": "mirkwood-identity",
+      "canonicalPlaceId": "mirkwood",
+      "analysisPlaceIds": [
+        "mirkwood",
+        "greenwood"
+      ],
+      "verifiedNameForms": [
+        "Mirkwood",
+        "Greenwood the Great",
+        "Eryn Lasgalen"
+      ],
+      "decisionIt": "Nomi in epoche differenti del bosco. Il cambiamento non rende simultanei assetti e divisioni politiche.",
+      "sources": [
+        {
+          "sectionId": "appendix-b",
+          "pdfPage": 1109,
+          "sourcePageSha256": "c3c924b8c320e91e0863959a1b339b50eb7287acfacc2b765252c78525b9063c",
+          "textSha256": "b9e9e77f9ebe340df91a21837f015134f710de8f4796d3cb4ec95d7fe1de2a30"
+        },
+        {
+          "sectionId": "appendix-b",
+          "pdfPage": 1118,
+          "sourcePageSha256": "661f3767c9fcf982d1de6c2bf7c48d159413ef4e537f58cc1249030edeee2569",
+          "textSha256": "638985d818d20963a61ca81203cf26635124eb950925a909cb73b1810d222d1b"
+        }
+      ],
+      "affectedAssociations": [
+        {
+          "sectionId": "appendix-a",
+          "analysisPlaceId": "mirkwood"
+        },
+        {
+          "sectionId": "appendix-b",
+          "analysisPlaceId": "greenwood"
+        },
+        {
+          "sectionId": "appendix-b",
+          "analysisPlaceId": "mirkwood"
+        },
+        {
+          "sectionId": "appendix-f",
+          "analysisPlaceId": "mirkwood"
+        },
+        {
+          "sectionId": "b1-c02",
+          "analysisPlaceId": "mirkwood"
+        },
+        {
+          "sectionId": "b1-c03",
+          "analysisPlaceId": "mirkwood"
+        },
+        {
+          "sectionId": "b2-c01",
+          "analysisPlaceId": "mirkwood"
+        },
+        {
+          "sectionId": "b2-c02",
+          "analysisPlaceId": "mirkwood"
+        },
+        {
+          "sectionId": "b2-c03",
+          "analysisPlaceId": "mirkwood"
+        },
+        {
+          "sectionId": "b2-c06",
+          "analysisPlaceId": "mirkwood"
+        },
+        {
+          "sectionId": "b2-c08",
+          "analysisPlaceId": "mirkwood"
+        },
+        {
+          "sectionId": "b2-c09",
+          "analysisPlaceId": "mirkwood"
+        },
+        {
+          "sectionId": "b2-c10",
+          "analysisPlaceId": "mirkwood"
+        },
+        {
+          "sectionId": "b3-c02",
+          "analysisPlaceId": "mirkwood"
+        },
+        {
+          "sectionId": "b3-c04",
+          "analysisPlaceId": "mirkwood"
+        },
+        {
+          "sectionId": "b3-c06",
+          "analysisPlaceId": "mirkwood"
+        },
+        {
+          "sectionId": "b3-c07",
+          "analysisPlaceId": "mirkwood"
+        },
+        {
+          "sectionId": "b3-c08",
+          "analysisPlaceId": "mirkwood"
+        },
+        {
+          "sectionId": "b3-c10",
+          "analysisPlaceId": "mirkwood"
+        },
+        {
+          "sectionId": "b4-c05",
+          "analysisPlaceId": "mirkwood"
+        },
+        {
+          "sectionId": "b4-c06",
+          "analysisPlaceId": "mirkwood"
+        },
+        {
+          "sectionId": "b4-c09",
+          "analysisPlaceId": "mirkwood"
+        },
+        {
+          "sectionId": "b5-c01",
+          "analysisPlaceId": "mirkwood"
+        },
+        {
+          "sectionId": "b6-c05",
+          "analysisPlaceId": "mirkwood"
+        },
+        {
+          "sectionId": "b6-c06",
+          "analysisPlaceId": "mirkwood"
+        },
+        {
+          "sectionId": "prologue",
+          "analysisPlaceId": "mirkwood"
+        }
+      ],
+      "status": "targeted-original-identity-checked",
+      "positionsVerified": false
+    },
+    {
+      "reviewId": "azanulbizar-identity",
+      "canonicalPlaceId": "azanulbizar",
+      "analysisPlaceIds": [
+        "azanulbizar",
+        "nanduhirion"
+      ],
+      "verifiedNameForms": [
+        "Azanulbizar",
+        "Nanduhirion"
+      ],
+      "decisionIt": "Equivalenza dichiarata fra nomi della valle; battaglia e pire sono eventi e sotto-luoghi da non fondere automaticamente.",
+      "sources": [
+        {
+          "sectionId": "appendix-a",
+          "pdfPage": 1098,
+          "sourcePageSha256": "176eeb68ca0f3075a383f9e0370d48709f13e97b682b81fd7422f3ae10f9634e",
+          "textSha256": "a13847c3e41a80234d4c81b75ad9e9f8348a3dbc85b71f9d1989d73953e3c01b"
+        }
+      ],
+      "affectedAssociations": [
+        {
+          "sectionId": "appendix-a",
+          "analysisPlaceId": "nanduhirion"
+        },
+        {
+          "sectionId": "appendix-a",
+          "analysisPlaceId": "azanulbizar"
+        },
+        {
+          "sectionId": "appendix-b",
+          "analysisPlaceId": "azanulbizar"
+        }
+      ],
+      "status": "targeted-original-identity-checked",
+      "positionsVerified": false
+    },
+    {
+      "reviewId": "barrow-downs-identity",
+      "canonicalPlaceId": "barrow-downs",
+      "analysisPlaceIds": [
+        "barrow-downs",
+        "tyrn-gorthad"
+      ],
+      "verifiedNameForms": [
+        "Barrow-downs",
+        "Tyrn Gorthad"
+      ],
+      "decisionIt": "Equivalenza parentetica del territorio, non identità fra tutti i tumuli.",
+      "sources": [
+        {
+          "sectionId": "appendix-a",
+          "pdfPage": 1064,
+          "sourcePageSha256": "d9c67ee2d71d5dfea05bda57ba0bbbdaf5905e510b02828d1cee82e2302cf7e9",
+          "textSha256": "f5099249efcbc006578d2b1b153d4899d83a9dd9f813a806e684b983423cfbeb"
+        }
+      ],
+      "affectedAssociations": [
+        {
+          "sectionId": "appendix-a",
+          "analysisPlaceId": "barrow-downs"
+        },
+        {
+          "sectionId": "appendix-b",
+          "analysisPlaceId": "tyrn-gorthad"
+        },
+        {
+          "sectionId": "appendix-f",
+          "analysisPlaceId": "barrow-downs"
+        },
+        {
+          "sectionId": "b1-c06",
+          "analysisPlaceId": "barrow-downs"
+        },
+        {
+          "sectionId": "b1-c07",
+          "analysisPlaceId": "barrow-downs"
+        },
+        {
+          "sectionId": "b1-c08",
+          "analysisPlaceId": "barrow-downs"
+        },
+        {
+          "sectionId": "b1-c09",
+          "analysisPlaceId": "barrow-downs"
+        },
+        {
+          "sectionId": "b1-c10",
+          "analysisPlaceId": "barrow-downs"
+        },
+        {
+          "sectionId": "b1-c11",
+          "analysisPlaceId": "barrow-downs"
+        },
+        {
+          "sectionId": "b2-c02",
+          "analysisPlaceId": "barrow-downs"
+        },
+        {
+          "sectionId": "b3-c02",
+          "analysisPlaceId": "barrow-downs"
+        },
+        {
+          "sectionId": "b5-c01",
+          "analysisPlaceId": "barrow-downs"
+        },
+        {
+          "sectionId": "b5-c06",
+          "analysisPlaceId": "barrow-downs"
+        },
+        {
+          "sectionId": "b6-c07",
+          "analysisPlaceId": "barrow-downs"
+        }
+      ],
+      "status": "targeted-original-identity-checked",
+      "positionsVerified": false
+    },
+    {
+      "reviewId": "bridge-of-khazad-dum-identity",
+      "canonicalPlaceId": "bridge-of-khazad-dum",
+      "analysisPlaceIds": [
+        "bridge-of-khazad-dum",
+        "bridge-khazad-dum"
+      ],
+      "verifiedNameForms": [
+        "Bridge of Khazad-dûm"
+      ],
+      "decisionIt": "Stesso ponte della caduta di Gandalf; distinto da città, Second Hall e baratro.",
+      "sources": [
+        {
+          "sectionId": "b2-c05",
+          "pdfPage": 355,
+          "sourcePageSha256": "44e6abd9e2103f4e6d25f3f7503f7f36615589ba13f9950537ff5f204cb23bee",
+          "textSha256": "3976568575272a7c1746d7311ffc95c5465c95dd0649652dbe7e5f223fa4f73b"
+        },
+        {
+          "sectionId": "appendix-b",
+          "pdfPage": 1116,
+          "sourcePageSha256": "6dbdb4363c74e710e0e9d65d325dd297fa445f53aa748b3ee43b5ae673b18501",
+          "textSha256": "ac6d5ef46be43a500243f6b2ef522954d00986b0b7b50b4cc4847dff353e34af"
+        }
+      ],
+      "affectedAssociations": [
+        {
+          "sectionId": "appendix-b",
+          "analysisPlaceId": "bridge-khazad-dum"
+        },
+        {
+          "sectionId": "b2-c05",
+          "analysisPlaceId": "bridge-of-khazad-dum"
+        },
+        {
+          "sectionId": "b2-c07",
+          "analysisPlaceId": "bridge-of-khazad-dum"
+        }
+      ],
+      "status": "targeted-original-identity-checked",
+      "positionsVerified": false
+    },
+    {
+      "reviewId": "cormallen-identity",
+      "canonicalPlaceId": "cormallen",
+      "analysisPlaceIds": [
+        "cormallen",
+        "field-of-cormallen"
+      ],
+      "verifiedNameForms": [
+        "Cormallen",
+        "Field of Cormallen"
+      ],
+      "decisionIt": "Nome della località e forma estesa; tende, letti e luoghi della festa conservano identità proprie.",
+      "sources": [
+        {
+          "sectionId": "b6-c04",
+          "pdfPage": 972,
+          "sourcePageSha256": "c5825c25a1a8a67a88daa2e4f1e74e88f018277b9465516467052db712ef3d77",
+          "textSha256": "d18ad287efffb5d9b1d60c6c14c9488f0e3fd71aa2a92edec1d85419f18e715f",
+          "sourceRole": "Chapter title identifies the subject; does not by itself prove a narrative setting."
+        },
+        {
+          "sectionId": "appendix-b",
+          "pdfPage": 1119,
+          "sourcePageSha256": "741025c9a17df0528a83b110cdc6f798dd181796bd342958a2b62a2232135e11",
+          "textSha256": "a857ade6bc6759ceb8c5c1b9240d7458cd2bd2036fd5bea2fc8733c6adcc805d",
+          "sourceRole": "Explicit place designation in the dated account of the honours."
+        }
+      ],
+      "affectedAssociations": [
+        {
+          "sectionId": "appendix-b",
+          "analysisPlaceId": "cormallen"
+        },
+        {
+          "sectionId": "b6-c04",
+          "analysisPlaceId": "field-of-cormallen"
+        },
+        {
+          "sectionId": "b6-c05",
+          "analysisPlaceId": "field-of-cormallen"
+        },
+        {
+          "sectionId": "b6-c08",
+          "analysisPlaceId": "field-of-cormallen"
+        }
+      ],
+      "status": "targeted-original-identity-checked",
+      "positionsVerified": false
+    }
+  ],
+  "corrections": [
+    {
+      "sectionId": "appendix-a",
+      "previousAnalysisPlaceId": "celebrant",
+      "correctedAnalysisPlaceId": "field-of-celebrant",
+      "pdfPage": 1069,
+      "categoryUnchanged": true,
+      "sourceQuotationUnchanged": true
+    },
+    {
+      "sectionId": "appendix-b",
+      "previousAnalysisPlaceId": "celebrant",
+      "correctedAnalysisPlaceId": "field-of-celebrant",
+      "pdfPage": 1111,
+      "categoryUnchanged": true,
+      "sourceQuotationUnchanged": true
+    }
+  ],
+  "keepSeparate": [
+    {
+      "id": "field-celebrant-versus-river",
+      "keepSeparate": [
+        "field-of-celebrant",
+        "silverlode"
+      ],
+      "sources": [
+        {
+          "sectionId": "appendix-a",
+          "pdfPages": [
+            1069,
+            1088
+          ]
+        },
+        {
+          "sectionId": "b2-c06",
+          "pdfPages": [
+            365
+          ]
+        }
+      ],
+      "findingIt": "Il Campo è la terra fra Silverlode e Limlight; Celebrant è anche il nome elfico del Silverlode. Le due voci di A e B indicano esplicitamente il Campo, non il fiume."
+    },
+    {
+      "id": "two-harlond-ports",
+      "keepSeparate": [
+        "harlond",
+        "harlond-north"
+      ],
+      "sources": [
+        {
+          "sectionId": "appendix-a",
+          "pdfPages": [
+            1074,
+            1075
+          ]
+        },
+        {
+          "sectionId": "b5-c01",
+          "pdfPages": [
+            774
+          ]
+        },
+        {
+          "sectionId": "b5-c06",
+          "pdfPages": [
+            872
+          ]
+        }
+      ],
+      "findingIt": "Il porto del Lune nella campagna di Eärnur resta distinto dal porto sul fiume presso Minas Tirith."
+    },
+    {
+      "id": "east-lorien-not-entire-lorien",
+      "keepSeparate": [
+        "east-lorien",
+        "lorien"
+      ],
+      "sources": [
+        {
+          "sectionId": "appendix-b",
+          "pdfPages": [
+            1118
+          ]
+        }
+      ],
+      "findingIt": "East Lórien è il territorio del bosco meridionale assegnato a Celeborn dopo la guerra, non l’intero regno di Lórien."
+    },
+    {
+      "id": "lake-versus-evendim-hills",
+      "keepSeparate": [
+        "lake-evendim",
+        "hills-evendim"
+      ],
+      "sources": [
+        {
+          "sectionId": "appendix-d",
+          "pdfPages": [
+            1135
+          ]
+        },
+        {
+          "sectionId": "appendix-a",
+          "pdfPages": [
+            1075
+          ]
+        }
+      ],
+      "findingIt": "Evendim compare nel nome del lago e in quello delle colline: condividere il nome non significa condividere la geometria."
+    },
+    {
+      "id": "bridge-versus-city-of-moria",
+      "keepSeparate": [
+        "bridge-of-khazad-dum",
+        "moria"
+      ],
+      "sources": [
+        {
+          "sectionId": "b2-c05",
+          "pdfPages": [
+            355
+          ]
+        },
+        {
+          "sectionId": "appendix-f",
+          "pdfPages": [
+            1161
+          ]
+        }
+      ],
+      "findingIt": "Il ponte è interno al complesso e non un sinonimo di tutta Moria."
+    }
+  ],
+  "updatedAssociations": 233,
+  "restoredAssociations": [
+    {
+      "sectionId": "b6-c08",
+      "analysisPlaceId": "hobbiton-lane-lobelia-arrest",
+      "category": "action",
+      "pdfPage": 1037,
+      "narrativeLevel": "embedded-secondhand-retelling",
+      "exactPositionVerified": false
+    }
+  ]
+}
