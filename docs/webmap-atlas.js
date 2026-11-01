@@ -43,11 +43,12 @@
     }
     function fitExtent(points){
       if(!points.length)return editorial();
-      const minimumSpan=Math.min(initialExtent.xmax-initialExtent.xmin,initialExtent.ymax-initialExtent.ymin)/100;
+      const minimumSpan=Math.min(initialExtent.xmax-initialExtent.xmin,initialExtent.ymax-initialExtent.ymin)*.4;
       const xs=points.map(p=>p.x),ys=points.map(p=>p.y);
       const minX=Math.min(...xs),maxX=Math.max(...xs),minY=Math.min(...ys),maxY=Math.max(...ys);
-      const dx=Math.max(maxX-minX,minimumSpan)*.15,dy=Math.max(maxY-minY,minimumSpan)*.15;
-      return new Extent({xmin:minX-dx,xmax:maxX+dx,ymin:minY-dy,ymax:maxY+dy,spatialReference});
+      const dx=Math.max(maxX-minX,minimumSpan)*.65,dy=Math.max(maxY-minY,minimumSpan)*.65;
+      const centerX=(minX+maxX)/2,centerY=(minY+maxY)/2;
+      return new Extent({xmin:centerX-dx,xmax:centerX+dx,ymin:centerY-dy,ymax:centerY+dy,spatialReference});
     }
     function paint(){
       for(const layer of Object.values(layers))layer.removeAll();
