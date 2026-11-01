@@ -36,6 +36,7 @@ const options={container:{},portalItemId:'0123456789abcdef0123456789abcdef',spat
   await api.fit();assert(latestView.targets.at(-1).xmax>90000);
   await api.fit({actionOnly:true});assert(latestView.targets.at(-1).xmax<90000);
   api.setPlaces([{id:'a',category:'action',x:12000,y:34000}]);await handler({});assert.equal(selected,'a');
+  await api.fit({actionOnly:true});assert.ok(latestView.targets.at(-1).xmax-latestView.targets.at(-1).xmin>=40000,'A single place retains readable cartographic context');
   api.setPlaces([{id:'m',category:'mentioned',x:90000,y:90000}]);await api.fit({actionOnly:true});assert.equal(latestView.targets.at(-1).xmax,100000);
   assert.equal(api.getSelectedId(),null);assert.equal(await api.select('missing'),false);
   assert.throws(()=>validatePlaces([{...options.places[0],coords:[1,2]}]),/terrestrial/);

@@ -11,5 +11,20 @@
   "fourLanguageTranslationsExact": true,
   "themeExact": true,
   "arcgisPositionsAvailable": true,
-  "fullNovelAnalysisComplete": false
+  "fullNovelAnalysisComplete": false,
+  "rendererCommit": "e2526a4730b2116a6142a950c757f489f10a8f39",
+  "browserVerification": {
+    "publicCatalogueEntry": true,
+    "defaultAllPlaces": true,
+    "globalActionPlaces": 9,
+    "globalMentionedPlaces": 2,
+    "sectionSelection": true,
+    "independentLayerFilters": true,
+    "quotationOriginalEnglishWithPlaceHighlight": true,
+    "singleQuotationLanguageDisabled": true,
+    "sectionRetainedAcrossFourInterfaceLanguages": true,
+    "rendererVersion": "20261101-context",
+    "mobileViewport": "Not verified: viewport override did not change the actual browser dimensions.",
+    "imaginaryViews": "Assessed as useful for Moria, Minas Tirith and Helms Deep; not created."
+  }
 }
