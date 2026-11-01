@@ -1,6 +1,6 @@
 # Avanzamento editoriale e tecnico
 
-31 ottobre 2026. Il romanzo non è stato importato né pubblicato nel catalogo.
+1 novembre 2026. Il romanzo non è stato importato né pubblicato nel catalogo.
 
 ## Lettura e inventario
 
@@ -27,7 +27,7 @@ Sono stati letti integralmente il Prologo e tutti i 62 capitoli dei sei Libri, f
 | II.2 | 86 | 36 | 50 |
 | II.3 | 65 | 22 | 43 |
 | II.4 | 56 | 26 | 30 |
-| II.5 | 34 | 22 | 12 |
+| II.5 | 36 | 22 | 14 |
 | II.6 | 49 | 21 | 28 |
 | II.7 | 45 | 25 | 20 |
 | II.8 | 59 | 17 | 42 |
@@ -73,7 +73,7 @@ Sono stati letti integralmente il Prologo e tutti i 62 capitoli dei sei Libri, f
 | VI.7 | 38 | 13 | 25 |
 | VI.8 | 68 | 37 | 31 |
 | VI.9 | 44 | 32 | 12 |
-| Totale Prologo e capitoli | 2899 | 1386 | 1513 |
+| Totale Prologo e capitoli | 2901 | 1386 | 1515 |
 | Appendice A | 159 | 33 | 126 |
 | Appendice B | 125 | 5 | 120 |
 | Appendice C | 22 | 0 | 22 |
@@ -81,7 +81,7 @@ Sono stati letti integralmente il Prologo e tutti i 62 capitoli dei sei Libri, f
 | Appendice E | 21 | 0 | 21 |
 | Appendice F | 58 | 0 | 58 |
 | Preliminari e prefazione | 10 | 0 | 10 |
-| Totale della prima analisi | 3313 | 1426 | 1887 |
+| Totale della prima analisi | 3315 | 1426 | 1889 |
 
 Questi sono conteggi di associazioni sezione–luogo, non di luoghi distinti o marker approvati. I 10 riferimenti dei preliminari sono editoriali o autobiografici ed esclusi dai marker narrativi; i 404 delle appendici comprendono anche esempi linguistici e genealogie. Indici e mappe servono come controllo, senza generare automaticamente associazioni. Comprendono ambientazioni senza posizione utile, sogni, visioni e luoghi dei canti intercalati esclusi dalla futura vista geografica. L'inventario è un primo passaggio manuale, non una certificazione di completezza. La corrispondenza delle citazioni al testo non sostituisce la revisione narrativa e geografica delle decisioni.
 
@@ -166,7 +166,7 @@ I titoli di II.5, II.6, II.8 e III.11 avevano sillabe o accenti disordinati dall
 
 Il testimone acquisito non viene presentato come testo aggiornato a ogni correzione successiva. Il controllo di tre punti segnalati da [Wayne G. Hammond e Christina Scull](https://www.hammondandscull.com/addenda/rings.html) mostra che conserva lezioni anteriori alle loro correzioni: nel Prologo, pagina stampata 8/PDF 32, e alle pagine stampate 367/PDF 391 e 373/PDF 397. Questo riscontro puntuale non è una collazione integrale; non sono state applicate correzioni silenziose alle citazioni. Le parti editoriali e l'indice sono accreditati separatamente agli autori indicati nel PDF.
 
-`quotation-budget.json` misura il primo insieme locale per l'analisi critica: 3.313 associazioni, 3.256 estratti diversi, 30.187 parole contando le ripetizioni e 29.756 deduplicate; il passo più lungo di questo insieme ha 20 parole. Il conteggio comprende la breve trascrizione visiva; non comprende immagini del libro. Nessun numero è usato come soglia automatica di liceità. Restano da valutare necessità e proporzione di ogni passo e del complesso, insieme all'eventuale confronto con un testimone di accesso editoriale documentato. Non è ancora stato approvato alcun estratto per la pubblicazione. La ricerca preliminare delle traduzioni riutilizzabili in italiano, francese e spagnolo resta documentata nel README, con le lacune aperte.
+`quotation-budget.json` misura il primo insieme locale per l'analisi critica: 3.315 associazioni, 3.258 estratti diversi, 30.207 parole contando le ripetizioni e 29.776 deduplicate; il passo più lungo di questo insieme ha 20 parole. Il conteggio comprende la breve trascrizione visiva; non comprende immagini del libro. Nessun numero è usato come soglia automatica di liceità. Restano da valutare necessità e proporzione di ogni passo e del complesso, insieme all'eventuale confronto con un testimone di accesso editoriale documentato. Non è ancora stato approvato alcun estratto per la pubblicazione. La ricerca preliminare delle traduzioni riutilizzabili in italiano, francese e spagnolo resta documentata nel README, con le lacune aperte.
 
 La pagina PDF 586/stampata 562 è stata controllata anche visivamente per una frase attribuita ad Aragorn su Fangorn. Il testimone non è stato corretto: l’ingresso narrato in III.5 e la limitazione espressa poi da Legolas in III.10 restano registrati. `edition-observations.json` conserva il problema e lo stato pendente. La [lista dei corrigenda degli editori](https://www.hammondandscull.com/addenda/rings.html) consultata non risolve questo punto; non è dichiarata una collazione completa o una correzione autorevole già trovata.
 
@@ -258,9 +258,9 @@ Nelle genealogie, 16 riscontri figurativi sono stati trascritti manualmente e co
 
 I preliminari distinguono Tolkien dagli autori delle note editoriali. Sono conservati i numeri romani quando disponibili, oltre alla pagina PDF, senza numeri stampati negativi. L’epilogo scartato non è una sezione mancante di questa edizione. L’indice dichiara limiti propri e non sostituisce la lettura dei capitoli. Le mappe finali sono state viste integralmente, senza ricavare automaticamente coordinate o un diritto di riuso.
 
-I 3.313 riscontri passano il controllo sul testo o, per le tavole, quello d’integrità delle immagini trascritte manualmente. Passano i due controlli negativi: citazione estranea e impronta visiva errata sono rifiutate senza sostituire gli output verificati. I confronti puntuali sono ora 90. Questi controlli non certificano la completezza critica dell’inventario.
+I 3.315 riscontri passano il controllo sul testo o, per le tavole, quello d’integrità delle immagini trascritte manualmente. Passano i due controlli negativi: citazione estranea e impronta visiva errata sono rifiutate senza sostituire gli output verificati. I confronti puntuali sono ora 95. Questi controlli non certificano la completezza critica dell’inventario.
 
-Il bilancio privato degli estratti registra 3.256 estratti distinti, 29.756 parole senza ripetizioni, massimo 20 parole per estratto. Nessuna soglia è considerata un’autorizzazione: necessità, proporzione e insieme degli estratti restano da valutare. Nessun testo del romanzo o immagine delle pagine è stato aggiunto a Git.
+Il bilancio privato degli estratti registra 3.258 estratti distinti, 29.776 parole senza ripetizioni, massimo 20 parole per estratto. Nessuna soglia è considerata un’autorizzazione: necessità, proporzione e insieme degli estratti restano da valutare. Nessun testo del romanzo o immagine delle pagine è stato aggiunto a Git.
 
 Le appendici suggeriscono ulteriori vedute opzionali di Cerin Amroth in epoche distinte, della costa invernale di Forochel e della valle di Azanulbizar prima e dopo la battaglia. I racconti danno elementi di paesaggio e azione, senza una pianta misurata. Queste vedute non sono prioritarie rispetto alla vicenda principale e non sono state realizzate; prospettive e posizioni non dimostrate rimangono interpretative.
 
@@ -277,10 +277,26 @@ Il romanzo non è stato importato nel database né pubblicato nel catalogo. È p
 
 ## Prima riconciliazione delle identità geografiche
 
-[place-identity-review.json](place-identity-review.json) documenta 14 gruppi di identità verificati nell’originale e cinque casi da mantenere distinti. Sono state annotate 233 associazioni con un’identità canonica, conservando tutte le prove e le categorie proprie della sezione. Le varianti comprendono Rivendell/Imladris, Moria/Khazad-dûm, Mithlond/Porti Grigi, Lórien/Lothlórien, Nenuial/Lake Evendim e le rinominazioni di Minas Anor e Minas Ithil. Una rinominazione non rende contemporanei assetti o eventi di epoche differenti.
+[place-identity-review.json](place-identity-review.json) documenta ora 20 gruppi di identità verificati nell’originale e dieci casi da mantenere distinti. Sono state annotate 267 associazioni con un’identità canonica, conservando tutte le prove e le categorie proprie della sezione. Le varianti comprendono Rivendell/Imladris, Moria/Khazad-dûm, Mithlond/Porti Grigi, Lórien/Lothlórien, Nenuial/Lake Evendim e le rinominazioni di Minas Anor e Minas Ithil. Una rinominazione non rende contemporanei assetti o eventi di epoche differenti.
 
 Due chiavi imprecise delle appendici A e B erano chiamate Celebrant pur riferendosi esplicitamente al Campo di Celebrant. Ora identificano il Campo; il fiume Silverlode/Celebrant resta separato. Sono conservate le chiavi precedenti per tracciare la correzione. Restano distinti anche Harlond settentrionale e quello di Gondor, Lórien ed East Lórien, lago e colline di Evendim, ponte e città di Moria. Non sono state fuse camere, approdi o sotto-luoghi per la sola presenza di un nome comune.
 
-In VI.8 è stato recuperato l’episodio sviluppato dell’arresto di Lobelia: Young Tom lo riferisce come osservato da abitanti di Hobbiton. Il nuovo riscontro documenta la scena nel vicolo, senza inventarne una posizione precisa o un nome assente dalla citazione. Il precedente riferimento ai Lockholes resta menzione: essere trascinata verso una prigione non dimostra qui una scena al suo interno. Il totale sale quindi a 3.313 associazioni e i confronti puntuali a 90.
+In VI.8 è stato recuperato l’episodio sviluppato dell’arresto di Lobelia: Young Tom lo riferisce come osservato da abitanti di Hobbiton. Il nuovo riscontro documenta la scena nel vicolo, senza inventarne una posizione precisa o un nome assente dalla citazione. Il precedente riferimento ai Lockholes resta menzione: essere trascinata verso una prigione non dimostra qui una scena al suo interno. Il recupero precede la successiva verifica di Moria, riportata qui sotto.
 
 Questa verifica riguarda soltanto i gruppi e l’episodio elencati. Non è una revisione completa di tutte le ricorrenze: altri alias, sotto-luoghi e associazioni mancanti restano da controllare. L’identità canonica è una preparazione dei dati privati; nessuna aggregazione è stata applicata al sito o al database. Non trasferisce automaticamente azione, tempo, personaggi, coordinate o visibilità da una sezione a un’altra.
+
+## Riconciliazione mirata di Moria — 1 novembre
+
+[moria-route-review.json](moria-route-review.json) distingue i percorsi narrati in II.4, II.5 e nel ricordo di Gandalf in III.5. È una registrazione di continuità e rapporti spaziali, senza coordinate, quote rilevate o una planimetria misurata; non è una veduta finale.
+
+La sala del pernottamento è la Twenty-first Hall identificata dai personaggi, mentre la Second Hall è sotto il livello delle porte e la First Hall viene attraversata dopo il ponte, presso l’uscita. L’identificazione dei personaggi e le indicazioni di livello sono conservate come tali. L’arco orientale della Twenty-first Hall rimane una via proposta, non una tappa effettiva: durante l’attacco la fuga avviene dalla porta est della camera di Mazarbul. Porta della camera e arco del salone non sono lo stesso accesso.
+
+Restano distinti la camera e la tomba di Balin, la stanza del riposo e il pozzo di Pippin, la fenditura di fuoco e il baratro del ponte. La stanza a sinistra del bivio non dimostra un’esplorazione del ramo sinistro rifiutato. Il successivo viaggio nelle profondità e sulla Scala Infinita è narrato da Gandalf: non appartiene al percorso dei compagni che escono da Moria.
+
+Sono stati verificati anche i nomi delle tre cime: Celebdil/Zirakzigil/Silvertine, Fanuidhol/Bundushathûr/Cloudyhead e Caradhras/Baraz-inbar/Redhorn. Redhorn Pass/Redhorn Gate resta il valico, distinto dalla montagna. La vecchia chiave redhorn dell’Appendice A indicava esplicitamente il Pass e ora ha questa identità canonica, senza cambiare il testo o la categoria.
+
+L’invocazione di Udûn sul ponte ora ha una chiave propria, senza collocazione geografica. L’indice dell’edizione la distingue dalla regione di Mordor: non si usa la glossa per creare coordinate, né la scena di sorvolo di VI.4 per promuovere l’invocazione a luogo d’azione.
+
+In II.5 sono state recuperate due menzioni: il Silverlode nel frammento del registro e l’arco orientale proposto da Gandalf. Le scene già registrate conservano categorie e citazioni. Il totale è ora 3.315 associazioni (1.426 action e 1.889 mentioned), con 95 confronti puntuali. La riconciliazione delle identità comprende 20 gruppi, 267 associazioni annotate e dieci distinzioni esplicite.
+
+Sono passati il controllo dei riscontri originali, i due test di rifiuto e il controllo indipendente delle identità e dei percorsi: ogni nodo delle vie effettive ha un riscontro action nella propria sezione; i rami non percorsi restano mentioned. Il lavoro non costituisce una revisione completa di tutte le ricorrenze di Moria o dell’opera. Diritti, geografia, evidenziazioni delle citazioni e importazione restano pendenti.

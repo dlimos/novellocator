@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-31",
+  "date": "2026-11-01",
   "status": "in-progress",
   "fullNovelAnalysisComplete": false,
   "sections": [
@@ -336,9 +336,9 @@
     {
       "sectionId": "b2-c05",
       "completeRead": true,
-      "references": 34,
+      "references": 36,
       "action": 22,
-      "mentioned": 12,
+      "mentioned": 14,
       "inventoryStatus": "first-manual-pass-reconciliation-pending",
       "quotationRightsStatus": "pending",
       "introductionsAvailable": [

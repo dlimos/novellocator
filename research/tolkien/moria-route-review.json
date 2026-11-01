@@ -1,0 +1,156 @@
+{
+  "date": "2026-11-01",
+  "scope": "Targeted original-text reconciliation of Moria room continuity and route choices in II.4–II.5, plus Gandalf’s narrated pursuit in III.5. This is not an audit of all Moria references in all chapters.",
+  "method": "Manually revisited selected original passages on pages 307,336–339,343–348,352,355,526 and the Udun index distinction on 1200; existing full-reading declarations remain separate. Lexical retrieval supports chosen witnesses only.",
+  "sourcePdfSha256": "4e2fdba27a4dbc444e182bf10d25cfb6731294fd4215b449e38a190391ebf465",
+  "quotationTextIncluded": false,
+  "fullNovelAnalysisComplete": false,
+  "coordinateGeometryCreated": false,
+  "measuredPlanClaimed": false,
+  "actualRoutes": [
+    {
+      "sectionId": "b2-c04",
+      "narrativeLevel": "primary",
+      "nodes": [
+        "moria-three-way-junction",
+        "moria-well-guardroom",
+        "moria-three-way-junction",
+        "moria-right-rising-passage",
+        "twenty-first-hall",
+        "moria-north-corridor",
+        "chamber-of-mazarbul"
+      ],
+      "sourcePdfPages": [
+        336,
+        337,
+        338,
+        339,
+        343,
+        344
+      ],
+      "noteIt": "Il ritorno dal riposo al bivio è ricavato dalla continuità della scelta del ramo destro; non introduce distanze o svolte misurate."
+    },
+    {
+      "sectionId": "b2-c05",
+      "narrativeLevel": "primary",
+      "nodes": [
+        "chamber-of-mazarbul",
+        "mazarbul-east-door",
+        "mazarbul-escape-stair",
+        "moria-seven-stair-descent",
+        "moria-second-hall-entry-arch",
+        "moria-second-hall",
+        "bridge-of-khazad-dum",
+        "moria-east-exit-stair",
+        "moria-east-exit-passage",
+        "moria-first-hall",
+        "dimrill-gate",
+        "dimrill-dale"
+      ],
+      "sourcePdfPages": [
+        350,
+        351,
+        352,
+        353,
+        354,
+        355
+      ],
+      "noteIt": "Percorso effettivo distinto dall’uscita prima proposta attraverso il salone superiore. I numeri delle rampe e i livelli restano indicazioni del testo, non quote topografiche misurate."
+    },
+    {
+      "sectionId": "b3-c05",
+      "narrativeLevel": "embedded-recollection",
+      "nodes": [
+        "khazad-dum-bridge-chasm",
+        "moria-deep-water",
+        "moria-uttermost-foundations",
+        "moria-nameless-deep-tunnels",
+        "moria-secret-upward-ways",
+        "moria-endless-stair",
+        "durins-tower-celebdil",
+        "celebdil-peak-eyrie"
+      ],
+      "sourcePdfPages": [
+        525,
+        526
+      ],
+      "noteIt": "Gandalf racconta lotta e inseguimento. Aragorn, Legolas e Gimli restano nel luogo della conversazione; la Compagnia di II.5 non percorre questa via."
+    }
+  ],
+  "untravelledChoices": [
+    {
+      "sectionId": "b2-c04",
+      "analysisPlaceIds": [
+        "moria-junction-left-way",
+        "moria-junction-middle-way"
+      ],
+      "sourcePdfPages": [
+        336,
+        338
+      ]
+    },
+    {
+      "sectionId": "b2-c04",
+      "analysisPlaceIds": [
+        "moria-great-hall-east-arch"
+      ],
+      "sourcePdfPages": [
+        343
+      ]
+    },
+    {
+      "sectionId": "b2-c05",
+      "analysisPlaceIds": [
+        "moria-great-hall-east-arch"
+      ],
+      "sourcePdfPages": [
+        347
+      ]
+    }
+  ],
+  "partWholeRelationships": [
+    {
+      "part": "moria-guardroom-well",
+      "whole": "moria-well-guardroom"
+    },
+    {
+      "part": "balin-tomb",
+      "whole": "chamber-of-mazarbul"
+    },
+    {
+      "part": "mazarbul-west-door",
+      "whole": "chamber-of-mazarbul"
+    },
+    {
+      "part": "mazarbul-east-door",
+      "whole": "chamber-of-mazarbul"
+    },
+    {
+      "part": "moria-second-hall-fire-fissure",
+      "whole": "moria-second-hall"
+    },
+    {
+      "part": "durins-tower-celebdil",
+      "whole": "celebdil"
+    },
+    {
+      "part": "celebdil-peak-eyrie",
+      "whole": "celebdil"
+    }
+  ],
+  "restoredMentions": [
+    {
+      "sectionId": "b2-c05",
+      "analysisPlaceId": "silverlode",
+      "pdfPage": 346,
+      "category": "mentioned"
+    },
+    {
+      "sectionId": "b2-c05",
+      "analysisPlaceId": "moria-great-hall-east-arch",
+      "pdfPage": 347,
+      "category": "mentioned"
+    }
+  ],
+  "remaining": "Full recurrence audit, source collation, geometrical placement, original-language highlighting and quotation-rights review remain pending. No site or database import."
+}

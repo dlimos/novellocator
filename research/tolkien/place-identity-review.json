@@ -1,10 +1,10 @@
 {
-  "date": "2026-10-31",
+  "date": "2026-11-01",
   "sourcePdfSha256": "4e2fdba27a4dbc444e182bf10d25cfb6731294fd4215b449e38a190391ebf465",
-  "scope": "Fourteen manually checked identity groups and five explicit non-merges; not a complete reconciliation of the whole novel.",
+  "scope": "Twenty manually checked identity groups, an extended valley-name equivalence and ten explicit non-merges; not a complete reconciliation of the novel.",
   "quotationTextIncluded": false,
   "fullNovelAnalysisComplete": false,
-  "sameSectionPolicy": "Retain all original evidence rows. A canonical identity does not transfer category, scene, time, people, coordinates or visibility. Any future marker aggregation must use witnesses from the selected section.",
+  "sameSectionPolicy": "Retain all original evidence rows. A canonical identity does not transfer category, scene, time, people, coordinates or visibility. Any future marker aggregation must use witnesses from the selected section. Name strings alone are not mapping keys: use the reviewed section–record identity to disambiguate homonyms, ellipses and mountain/pass names.",
   "groups": [
     {
       "reviewId": "rivendell-identity",
@@ -558,6 +558,10 @@
         },
         {
           "sectionId": "b6-c06",
+          "analysisPlaceId": "silverlode"
+        },
+        {
+          "sectionId": "b2-c05",
           "analysisPlaceId": "silverlode"
         }
       ],
@@ -1144,11 +1148,13 @@
       "canonicalPlaceId": "azanulbizar",
       "analysisPlaceIds": [
         "azanulbizar",
-        "nanduhirion"
+        "nanduhirion",
+        "dimrill-dale"
       ],
       "verifiedNameForms": [
         "Azanulbizar",
-        "Nanduhirion"
+        "Nanduhirion",
+        "Dimrill Dale"
       ],
       "decisionIt": "Equivalenza dichiarata fra nomi della valle; battaglia e pire sono eventi e sotto-luoghi da non fondere automaticamente.",
       "sources": [
@@ -1157,6 +1163,12 @@
           "pdfPage": 1098,
           "sourcePageSha256": "176eeb68ca0f3075a383f9e0370d48709f13e97b682b81fd7422f3ae10f9634e",
           "textSha256": "a13847c3e41a80234d4c81b75ad9e9f8348a3dbc85b71f9d1989d73953e3c01b"
+        },
+        {
+          "sectionId": "b2-c03",
+          "pdfPage": 307,
+          "sourcePageSha256": "dd19b3a18ef6558089b4cc02e1cca894d1bbbf5d9c9c7f72d3a88865a179840c",
+          "textSha256": "91a50649e9a2331c3f0c92964b90c22266be6cc1939368d529c8a95d287fca9e"
         }
       ],
       "affectedAssociations": [
@@ -1171,6 +1183,26 @@
         {
           "sectionId": "appendix-b",
           "analysisPlaceId": "azanulbizar"
+        },
+        {
+          "sectionId": "b2-c03",
+          "analysisPlaceId": "dimrill-dale"
+        },
+        {
+          "sectionId": "b2-c04",
+          "analysisPlaceId": "dimrill-dale"
+        },
+        {
+          "sectionId": "b2-c05",
+          "analysisPlaceId": "dimrill-dale"
+        },
+        {
+          "sectionId": "b2-c06",
+          "analysisPlaceId": "dimrill-dale"
+        },
+        {
+          "sectionId": "b2-c08",
+          "analysisPlaceId": "dimrill-dale"
         }
       ],
       "status": "targeted-original-identity-checked",
@@ -1347,6 +1379,321 @@
       ],
       "status": "targeted-original-identity-checked",
       "positionsVerified": false
+    },
+    {
+      "reviewId": "chamber-of-mazarbul-identity",
+      "canonicalPlaceId": "chamber-of-mazarbul",
+      "analysisPlaceIds": [
+        "balin-tomb-chamber"
+      ],
+      "verifiedNameForms": [
+        "Chamber of Mazarbul",
+        "Chamber of Records"
+      ],
+      "decisionIt": "Continuità fra la stanza della tomba trovata in II.4 e quella identificata in II.5; tomba, porte e sala restano sotto-luoghi distinti.",
+      "sources": [
+        {
+          "sectionId": "b2-c04",
+          "pdfPage": 343,
+          "sourcePageSha256": "ea7098ed7c0c8f60cbd9767f3a337987e84249933f3f31e14622ae7ced437494",
+          "textSha256": "a70ded83580d6b609e9542c1212efbd09a8301d767325a75c107e756eaae900a"
+        },
+        {
+          "sectionId": "b2-c05",
+          "pdfPage": 345,
+          "sourcePageSha256": "3a9994e46c8b8c7829673373074eb9e6246e750a6441f981f0024bd51214eff6",
+          "textSha256": "f51bfd9bf4e9212fd610c869363893a94f83f245fbc7fc74477859facbf3a46a"
+        },
+        {
+          "sectionId": "b2-c05",
+          "pdfPage": 347,
+          "sourcePageSha256": "abc78999a02d59cf73fabc4840b0ea9c60416009b7d2372ce5c74217d68ba55f",
+          "textSha256": "7909be649df57e94ad6110f8700420312ba8b6112c67821f15f14ec29abd009c"
+        }
+      ],
+      "affectedAssociations": [
+        {
+          "sectionId": "b2-c04",
+          "analysisPlaceId": "balin-tomb-chamber"
+        },
+        {
+          "sectionId": "b2-c05",
+          "analysisPlaceId": "balin-tomb-chamber"
+        },
+        {
+          "sectionId": "b2-c07",
+          "analysisPlaceId": "balin-tomb-chamber"
+        }
+      ],
+      "status": "targeted-original-identity-checked",
+      "positionsVerified": false,
+      "reviewDate": "2026-11-01",
+      "verificationQualifier": "Identification voiced by Gimli and Gandalf; retain their qualified wording, not an independent archaeological determination."
+    },
+    {
+      "reviewId": "twenty-first-hall-identity",
+      "canonicalPlaceId": "twenty-first-hall",
+      "analysisPlaceIds": [
+        "moria-great-east-hall"
+      ],
+      "verifiedNameForms": [
+        "Twenty-first Hall",
+        "twentyfirst hall of North end"
+      ],
+      "decisionIt": "Il salone del pernottamento è identificato dai personaggi come Twenty-first Hall; non è la First Hall dell’uscita né la Second Hall della fenditura.",
+      "sources": [
+        {
+          "sectionId": "b2-c04",
+          "pdfPage": 339,
+          "sourcePageSha256": "d7894f480405500ae0da7840d61126cbea121bceff6722a382be749f31570f1d",
+          "textSha256": "1f0d1bedd5f066ab000ee9d40162961efb172fbfedd32608a47ce3a7f0bf6454"
+        },
+        {
+          "sectionId": "b2-c05",
+          "pdfPage": 347,
+          "sourcePageSha256": "abc78999a02d59cf73fabc4840b0ea9c60416009b7d2372ce5c74217d68ba55f",
+          "textSha256": "8b729169c9d11942db4e7907b2bf6f57351b02a9781ae6316613297bd757c23d"
+        }
+      ],
+      "affectedAssociations": [
+        {
+          "sectionId": "b2-c04",
+          "analysisPlaceId": "moria-great-east-hall"
+        },
+        {
+          "sectionId": "b2-c05",
+          "analysisPlaceId": "moria-great-east-hall"
+        }
+      ],
+      "status": "targeted-original-identity-checked",
+      "positionsVerified": false,
+      "reviewDate": "2026-11-01",
+      "verificationQualifier": "Character identification with narrative continuity. Seventh Level and relative elevation remain Gandalf’s stated inference, not surveyed coordinates."
+    },
+    {
+      "reviewId": "celebdil-identity",
+      "canonicalPlaceId": "celebdil",
+      "analysisPlaceIds": [
+        "celebdil",
+        "zirakzigil"
+      ],
+      "verifiedNameForms": [
+        "Celebdil",
+        "Zirakzigil",
+        "Silvertine"
+      ],
+      "decisionIt": "Nomi della stessa vetta; la torre e lo sperone della battaglia conservano identità proprie. Essere vista da valle non diventa un’ascensione.",
+      "sources": [
+        {
+          "sectionId": "b2-c03",
+          "pdfPage": 307,
+          "sourcePageSha256": "dd19b3a18ef6558089b4cc02e1cca894d1bbbf5d9c9c7f72d3a88865a179840c",
+          "textSha256": "2c504f031fd8d495b376e56be8ede91a0f3b45362f57a9726c306bd57d25c0e7"
+        },
+        {
+          "sectionId": "b3-c05",
+          "pdfPage": 526,
+          "sourcePageSha256": "c0a3ec70b044e01d228f3e00089555627ae3034c96a180ea8f14d9350ae44743",
+          "textSha256": "76dd834ed51a6b389689e08e9645fd51a74a9d6e964d121a5754d8843b6b59e0"
+        },
+        {
+          "sectionId": "b3-c05",
+          "pdfPage": 526,
+          "sourcePageSha256": "c0a3ec70b044e01d228f3e00089555627ae3034c96a180ea8f14d9350ae44743",
+          "textSha256": "03242195fd427961d9fa9fe2a9a60e91f7d695826a9a4bbb763d9137265ed6cf"
+        }
+      ],
+      "affectedAssociations": [
+        {
+          "sectionId": "b2-c03",
+          "analysisPlaceId": "celebdil"
+        },
+        {
+          "sectionId": "b2-c06",
+          "analysisPlaceId": "celebdil"
+        },
+        {
+          "sectionId": "b3-c05",
+          "analysisPlaceId": "celebdil"
+        },
+        {
+          "sectionId": "b6-c04",
+          "analysisPlaceId": "zirakzigil"
+        },
+        {
+          "sectionId": "b6-c06",
+          "analysisPlaceId": "celebdil"
+        }
+      ],
+      "status": "targeted-original-identity-checked",
+      "positionsVerified": false,
+      "reviewDate": "2026-11-01"
+    },
+    {
+      "reviewId": "fanuidhol-identity",
+      "canonicalPlaceId": "fanuidhol",
+      "analysisPlaceIds": [
+        "fanuidhol",
+        "bundushathur"
+      ],
+      "verifiedNameForms": [
+        "Fanuidhol",
+        "Bundushathûr",
+        "Cloudyhead"
+      ],
+      "decisionIt": "Equivalenze nell’elenco ordinato delle cime dato da Gimli. Non unire la montagna al colle del campo sottostante.",
+      "sources": [
+        {
+          "sectionId": "b2-c03",
+          "pdfPage": 307,
+          "sourcePageSha256": "dd19b3a18ef6558089b4cc02e1cca894d1bbbf5d9c9c7f72d3a88865a179840c",
+          "textSha256": "85c664378656869c7e84e433b5e57f78b4767e8ede4e3489d3542cd87f0aa010"
+        }
+      ],
+      "affectedAssociations": [
+        {
+          "sectionId": "b2-c03",
+          "analysisPlaceId": "fanuidhol"
+        },
+        {
+          "sectionId": "b2-c06",
+          "analysisPlaceId": "fanuidhol"
+        },
+        {
+          "sectionId": "b6-c06",
+          "analysisPlaceId": "fanuidhol"
+        }
+      ],
+      "status": "targeted-original-identity-checked",
+      "positionsVerified": false,
+      "reviewDate": "2026-11-01"
+    },
+    {
+      "reviewId": "caradhras-identity",
+      "canonicalPlaceId": "caradhras",
+      "analysisPlaceIds": [
+        "caradhras",
+        "baraz-inbar"
+      ],
+      "verifiedNameForms": [
+        "Caradhras",
+        "Barazinbar",
+        "Baraz-inbar",
+        "Redhorn"
+      ],
+      "decisionIt": "Nomi della montagna. Redhorn Pass e Redhorn Gate indicano il valico e restano distinti dalla vetta.",
+      "sources": [
+        {
+          "sectionId": "b2-c03",
+          "pdfPage": 307,
+          "sourcePageSha256": "dd19b3a18ef6558089b4cc02e1cca894d1bbbf5d9c9c7f72d3a88865a179840c",
+          "textSha256": "73d2765c6fbfaa33bb2242fb4a559880f467191e71c7cf4b868427172ee948f3"
+        }
+      ],
+      "affectedAssociations": [
+        {
+          "sectionId": "appendix-a",
+          "analysisPlaceId": "baraz-inbar"
+        },
+        {
+          "sectionId": "appendix-b",
+          "analysisPlaceId": "caradhras"
+        },
+        {
+          "sectionId": "appendix-e",
+          "analysisPlaceId": "caradhras"
+        },
+        {
+          "sectionId": "b2-c03",
+          "analysisPlaceId": "caradhras"
+        },
+        {
+          "sectionId": "b2-c04",
+          "analysisPlaceId": "caradhras"
+        },
+        {
+          "sectionId": "b2-c06",
+          "analysisPlaceId": "caradhras"
+        },
+        {
+          "sectionId": "b2-c07",
+          "analysisPlaceId": "caradhras"
+        },
+        {
+          "sectionId": "b4-c05",
+          "analysisPlaceId": "caradhras"
+        },
+        {
+          "sectionId": "b6-c06",
+          "analysisPlaceId": "caradhras"
+        }
+      ],
+      "status": "targeted-original-identity-checked",
+      "positionsVerified": false,
+      "reviewDate": "2026-11-01"
+    },
+    {
+      "reviewId": "redhorn-pass-identity",
+      "canonicalPlaceId": "redhorn-pass",
+      "analysisPlaceIds": [
+        "redhorn-pass",
+        "redhorn-gate",
+        "redhorn"
+      ],
+      "verifiedNameForms": [
+        "Redhorn Pass",
+        "Redhorn Gate"
+      ],
+      "decisionIt": "Il valico sotto Caradhras resta distinto dalla montagna. La vecchia chiave redhorn in A testimonia espressamente il Pass e viene ricondotta al valico, conservando il riscontro.",
+      "sources": [
+        {
+          "sectionId": "b2-c03",
+          "pdfPage": 307,
+          "sourcePageSha256": "dd19b3a18ef6558089b4cc02e1cca894d1bbbf5d9c9c7f72d3a88865a179840c",
+          "textSha256": "4ceecfbe37d612e69c3aa2aa125c11e4d674f225abc4d188c9cad8693d565ddd"
+        },
+        {
+          "sectionId": "appendix-a",
+          "pdfPage": 1067,
+          "sourcePageSha256": "381e3002ff4b89f5d708706356cf34928f35256b5b35c8f2cf4dec4206876853",
+          "textSha256": "2e40674734da457a3a88649118c6c919dbbbf0d6d44b5c255af64752a2aca7cd"
+        },
+        {
+          "sectionId": "appendix-a",
+          "pdfPage": 1097,
+          "sourcePageSha256": "9e2d85658bd3474db9654c8117f881a70736004eede6ad9ed52b4988a827e630",
+          "textSha256": "c70763dd083d2814472b1c2033708bc8997f25034acdb902c73de68cbef3cc1d"
+        }
+      ],
+      "affectedAssociations": [
+        {
+          "sectionId": "appendix-a",
+          "analysisPlaceId": "redhorn-pass"
+        },
+        {
+          "sectionId": "appendix-a",
+          "analysisPlaceId": "redhorn"
+        },
+        {
+          "sectionId": "appendix-b",
+          "analysisPlaceId": "redhorn-pass"
+        },
+        {
+          "sectionId": "b2-c03",
+          "analysisPlaceId": "redhorn-gate"
+        },
+        {
+          "sectionId": "b2-c04",
+          "analysisPlaceId": "redhorn-gate"
+        },
+        {
+          "sectionId": "b6-c06",
+          "analysisPlaceId": "redhorn-gate"
+        }
+      ],
+      "status": "targeted-original-identity-checked",
+      "positionsVerified": false,
+      "reviewDate": "2026-11-01"
     }
   ],
   "corrections": [
@@ -1363,6 +1710,14 @@
       "previousAnalysisPlaceId": "celebrant",
       "correctedAnalysisPlaceId": "field-of-celebrant",
       "pdfPage": 1111,
+      "categoryUnchanged": true,
+      "sourceQuotationUnchanged": true
+    },
+    {
+      "sectionId": "b2-c05",
+      "previousAnalysisPlaceId": "udun",
+      "correctedAnalysisPlaceId": "udun-invocation-unlocated",
+      "pdfPage": 354,
       "categoryUnchanged": true,
       "sourceQuotationUnchanged": true
     }
@@ -1479,9 +1834,122 @@
         }
       ],
       "findingIt": "Il ponte è interno al complesso e non un sinonimo di tutta Moria."
+    },
+    {
+      "id": "moria-three-halls",
+      "keepSeparate": [
+        "twenty-first-hall",
+        "moria-first-hall",
+        "moria-second-hall"
+      ],
+      "sources": [
+        {
+          "sectionId": "b2-c04",
+          "pdfPages": [
+            339,
+            343
+          ]
+        },
+        {
+          "sectionId": "b2-c05",
+          "pdfPages": [
+            347,
+            352,
+            355
+          ]
+        }
+      ],
+      "findingIt": "Pernottamento nella Twenty-first Hall, fuga nella Second Hall sotto il livello delle porte, poi salita e attraversamento della First Hall. Non sono tre nomi dello stesso ambiente."
+    },
+    {
+      "id": "guardroom-and-well",
+      "keepSeparate": [
+        "moria-well-guardroom",
+        "moria-guardroom-well"
+      ],
+      "sources": [
+        {
+          "sectionId": "b2-c04",
+          "pdfPages": [
+            336,
+            337,
+            338
+          ]
+        }
+      ],
+      "findingIt": "La stanza contiene la bocca del pozzo; non sono duplicati. La porta laterale a sinistra dell’arco non dimostra che sia stato percorso il ramo sinistro rifiutato."
+    },
+    {
+      "id": "moria-fire-fissure-versus-bridge-chasm",
+      "keepSeparate": [
+        "moria-second-hall-fire-fissure",
+        "khazad-dum-bridge-chasm"
+      ],
+      "sources": [
+        {
+          "sectionId": "b2-c05",
+          "pdfPages": [
+            352,
+            353,
+            354,
+            355
+          ]
+        }
+      ],
+      "findingIt": "La fenditura di fuoco ostacola gli inseguitori nella sala; il baratro è quello attraversato dal ponte. Non trasferire il fuoco alla geometria del baratro."
+    },
+    {
+      "id": "udun-invocation-versus-mordor-valley",
+      "keepSeparate": [
+        "udun-invocation-unlocated",
+        "udun"
+      ],
+      "sources": [
+        {
+          "sectionId": "b2-c05",
+          "pdfPages": [
+            354
+          ]
+        },
+        {
+          "sectionId": "b6-c02",
+          "pdfPages": [
+            952
+          ]
+        },
+        {
+          "sectionId": "b6-c04",
+          "pdfPages": [
+            974
+          ]
+        },
+        {
+          "sectionId": "indexes",
+          "pdfPages": [
+            1200
+          ]
+        }
+      ],
+      "findingIt": "L’indice distingue l’invocazione del ponte da una regione di Mordor. La categoria viene dalla scena primaria, non dall’indice; nessuna coordinata è assegnata all’invocazione."
+    },
+    {
+      "id": "caradhras-versus-pass",
+      "keepSeparate": [
+        "caradhras",
+        "redhorn-pass"
+      ],
+      "sources": [
+        {
+          "sectionId": "b2-c03",
+          "pdfPages": [
+            307
+          ]
+        }
+      ],
+      "findingIt": "La montagna dà il nome al valico, ma non coincide con esso."
     }
   ],
-  "updatedAssociations": 233,
+  "updatedAssociations": 267,
   "restoredAssociations": [
     {
       "sectionId": "b6-c08",
@@ -1490,6 +1958,18 @@
       "pdfPage": 1037,
       "narrativeLevel": "embedded-secondhand-retelling",
       "exactPositionVerified": false
+    },
+    {
+      "sectionId": "b2-c05",
+      "analysisPlaceId": "silverlode",
+      "category": "mentioned",
+      "pdfPage": 346
+    },
+    {
+      "sectionId": "b2-c05",
+      "analysisPlaceId": "moria-great-hall-east-arch",
+      "category": "mentioned",
+      "pdfPage": 347
     }
   ]
 }

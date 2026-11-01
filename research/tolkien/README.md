@@ -1,6 +1,6 @@
 # Il Signore degli Anelli: fattibilità e originale inglese
 
-Ricerca avviata il 27 ottobre, aggiornata al 31 ottobre 2026. Lettura integrale e prima analisi terminate; revisione editoriale in corso, opera non importata.
+Ricerca avviata il 27 ottobre, aggiornata al 1 novembre 2026. Lettura integrale completata; inventario e revisione editoriale in corso, opera non importata.
 
 ## Esito
 
@@ -87,9 +87,9 @@ L'eventuale pubblicazione delle citazioni richiede una valutazione documentata p
 
 Le vedute sarebbero utili per Minas Tirith, il Fosso di Helm e Moria, perché la disposizione di porte, livelli, accessi e percorsi può aiutare la lettura. Questa è una valutazione preliminare, non una ricostruzione verificata. I capitoli pertinenti sono stati letti integralmente; restano da separare le scelte interpretative e da verificare i diritti delle fonti figurative. Nessuna veduta è stata realizzata.
 
-Aggiornamento del 31 ottobre: letta tutta l’edizione, compresi Prologo, 62 capitoli, sei appendici, preliminari, indici, tavole, mappe e colophon. Le 70 unità con testo analizzato hanno introduzioni in quattro lingue e 3.313 associazioni in prima analisi: 2.899 nel Prologo/capitoli, 404 nelle appendici e 10 riferimenti editoriali o autobiografici esclusi dai marker. Indici e mappe sono controlli di riferimento. I riscontri restano privati; sono pubblicati conteggi, metodo e impronte. Sono documentati 90 confronti puntuali, senza dichiarare conclusa la revisione di ogni associazione. Restano ricorrenze, alias, collazione, verifica geografica e diritti; il romanzo non è stato importato nel catalogo o nel database. Le vedute sono valutate in [PROGRESS.md](PROGRESS.md), ma non realizzate.
+Stato al 1 novembre: letta tutta l’edizione, compresi Prologo, 62 capitoli, sei appendici, preliminari, indici, tavole, mappe e colophon. Le 70 unità con testo analizzato hanno introduzioni in quattro lingue e 3.315 associazioni in prima analisi: 2.901 nel Prologo/capitoli, 404 nelle appendici e 10 riferimenti editoriali o autobiografici esclusi dai marker. Indici e mappe sono controlli di riferimento. I riscontri restano privati; sono pubblicati conteggi, metodo e impronte. Sono documentati 95 confronti puntuali, senza dichiarare conclusa la revisione di ogni associazione. Restano ricorrenze, alias, collazione, verifica geografica e diritti; il romanzo non è stato importato nel catalogo o nel database. Le vedute sono valutate in [PROGRESS.md](PROGRESS.md), ma non realizzate.
 
-Prima riconciliazione: [place-identity-review.json](place-identity-review.json) registra 14 gruppi di alias, 233 associazioni annotate e cinque distinzioni da conservare. Sono state corrette due chiavi del Campo di Celebrant e recuperata la scena raccontata dell’arresto di Lobelia in VI.8. Il resto dell’inventario mantiene lo stato di revisione pendente.
+Prima riconciliazione: [place-identity-review.json](place-identity-review.json) registra 20 gruppi di alias, 267 associazioni annotate e dieci distinzioni da conservare. Sono state corrette due chiavi del Campo di Celebrant e recuperata la scena raccontata dell’arresto di Lobelia in VI.8. La verifica mirata di Moria distingue sale, porte, percorsi proposti, racconto di Gandalf e omonimia di Udûn; ha recuperato due menzioni in II.5. [moria-route-review.json](moria-route-review.json) conserva metodo e limiti. Il resto dell’inventario mantiene lo stato di revisione pendente.
 
 ## Riscontri riproducibili
 

@@ -1,7 +1,7 @@
 {
   "bookId": "lord-of-the-rings",
   "language": "en",
-  "date": "2026-10-31",
+  "date": "2026-11-01",
   "sourceEdition": "HarperCollins 2005; Adobe Acrobat eBook May 2009; ISBN 9780061917806",
   "sourcePdfSha256": "4e2fdba27a4dbc444e182bf10d25cfb6731294fd4215b449e38a190391ebf465",
   "scope": "All 72 units manually read or visually inspected, plus all 30 supplemental pages. Reading completion does not certify complete critical, geographic, quotation-rights or recurrence reconciliation.",
@@ -271,7 +271,7 @@
       "kind": "chapter",
       "book": 2,
       "chapter": 3,
-      "reviewDate": "2026-10-31",
+      "reviewDate": "2026-11-01",
       "reviewNote": "Individual evidence checked against local source; reading status is a manual declaration, not inferred from matching quotes. Rights and geographical verification pending."
     },
     {
@@ -287,7 +287,7 @@
       "kind": "chapter",
       "book": 2,
       "chapter": 4,
-      "reviewDate": "2026-10-31",
+      "reviewDate": "2026-11-01",
       "reviewNote": "Individual evidence checked against local source; reading status is a manual declaration, not inferred from matching quotes. Rights and geographical verification pending."
     },
     {
@@ -308,7 +308,7 @@
         "pdfPage": 345,
         "rawExtractedTitle": "ˆMTHE BRIDGE OF KHAZAD-DU"
       },
-      "reviewDate": "2026-10-31",
+      "reviewDate": "2026-11-01",
       "reviewNote": "Individual evidence checked against local source; reading status is a manual declaration, not inferred from matching quotes. Rights and geographical verification pending."
     },
     {
@@ -329,7 +329,7 @@
         "pdfPage": 357,
         "rawExtractedTitle": "´ LOTHLORIEN"
       },
-      "reviewDate": "2026-10-31",
+      "reviewDate": "2026-11-01",
       "reviewNote": "Individual evidence checked against local source; reading status is a manual declaration, not inferred from matching quotes. Rights and geographical verification pending."
     },
     {
@@ -345,7 +345,7 @@
       "kind": "chapter",
       "book": 2,
       "chapter": 7,
-      "reviewDate": "2026-10-31",
+      "reviewDate": "2026-11-01",
       "reviewNote": "Individual evidence checked against local source; reading status is a manual declaration, not inferred from matching quotes. Rights and geographical verification pending."
     },
     {
@@ -366,7 +366,7 @@
         "pdfPage": 391,
         "rawExtractedTitle": "´ FAREWELL TO LORIEN"
       },
-      "reviewDate": "2026-10-31",
+      "reviewDate": "2026-11-01",
       "reviewNote": "Individual evidence checked against local source; reading status is a manual declaration, not inferred from matching quotes. Rights and geographical verification pending."
     },
     {
@@ -478,7 +478,7 @@
       "kind": "chapter",
       "book": 3,
       "chapter": 5,
-      "reviewDate": "2026-10-31",
+      "reviewDate": "2026-11-01",
       "reviewNote": "Individual evidence checked against local source; reading status is a manual declaration, not inferred from matching quotes. Rights and geographical verification pending."
     },
     {
@@ -659,7 +659,7 @@
       "kind": "chapter",
       "book": 4,
       "chapter": 5,
-      "reviewDate": "2026-10-31",
+      "reviewDate": "2026-11-01",
       "reviewNote": "Individual evidence checked against local source; reading status is a manual declaration, not inferred from matching quotes. Rights and geographical verification pending."
     },
     {
@@ -963,7 +963,7 @@
       "kind": "chapter",
       "book": 6,
       "chapter": 4,
-      "reviewDate": "2026-10-31",
+      "reviewDate": "2026-11-01",
       "reviewNote": "Individual evidence checked against local source; reading status is a manual declaration, not inferred from matching quotes. Rights and geographical verification pending."
     },
     {
@@ -995,7 +995,7 @@
       "kind": "chapter",
       "book": 6,
       "chapter": 6,
-      "reviewDate": "2026-10-31",
+      "reviewDate": "2026-11-01",
       "reviewNote": "Individual evidence checked against local source; reading status is a manual declaration, not inferred from matching quotes. Rights and geographical verification pending."
     },
     {
@@ -1057,7 +1057,7 @@
       "readStatus": "complete",
       "inventoryStatus": "first-manual-pass-reconciliation-pending",
       "kind": "appendix",
-      "reviewDate": "2026-10-31",
+      "reviewDate": "2026-11-01",
       "reviewNote": "Individual evidence checked against local source; reading status is a manual declaration, not inferred from matching quotes. Rights and geographical verification pending."
     },
     {
@@ -1071,7 +1071,7 @@
       "readStatus": "complete",
       "inventoryStatus": "first-manual-pass-reconciliation-pending",
       "kind": "appendix",
-      "reviewDate": "2026-10-31",
+      "reviewDate": "2026-11-01",
       "reviewNote": "Individual evidence checked against local source; reading status is a manual declaration, not inferred from matching quotes. Rights and geographical verification pending."
     },
     {
@@ -1113,7 +1113,7 @@
       "readStatus": "complete",
       "inventoryStatus": "first-manual-pass-reconciliation-pending",
       "kind": "appendix",
-      "reviewDate": "2026-10-31",
+      "reviewDate": "2026-11-01",
       "reviewNote": "Individual evidence checked against local source; reading status is a manual declaration, not inferred from matching quotes. Rights and geographical verification pending."
     },
     {

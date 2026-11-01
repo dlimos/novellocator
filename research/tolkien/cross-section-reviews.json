@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-31",
+  "date": "2026-11-01",
   "scope": "Targeted comparisons through all chapters and selected apparatus relations; not an audit of every association.",
   "reviews": [
     {
@@ -2504,6 +2504,150 @@
       "findingIt": "Young Tom sviluppa la scena dell’arresto di Lobelia nel vicolo; il racconto è attribuito a testimoni di Hobbiton. Il trasferimento ai Lockholes è riferito senza una scena interna alla prigione in VI.8. Liberazione e notizie successive appartengono a VI.9.",
       "dataDecision": "Restore the embedded lane scene with its own original witness; do not assign an exact lane position or change the earlier prison mention into action.",
       "remaining": "Full recurrence, geographic and rights reconciliation pending."
+    },
+    {
+      "id": "moria-halls-and-untravelled-eastern-arch",
+      "sources": [
+        {
+          "sectionId": "b2-c04",
+          "pdfPages": [
+            339,
+            343
+          ]
+        },
+        {
+          "sectionId": "b2-c05",
+          "pdfPages": [
+            347,
+            352,
+            355
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "Il salone del pernottamento è identificato dai personaggi come Twenty-first Hall. Il ritorno proposto per l’arco orientale non viene eseguito: la fuga passa dalla porta est della camera, dalla Second Hall, dal ponte e poi dalla First Hall. I tre saloni restano distinti.",
+      "dataDecision": "Preserve independent place identity, narrative level and section-specific evidence. No coordinates or measured reconstruction inferred.",
+      "remaining": "Full recurrence, critical collation, geometry and rights review pending."
+    },
+    {
+      "id": "mazarbul-room-continuity-and-later-mention",
+      "sources": [
+        {
+          "sectionId": "b2-c04",
+          "pdfPages": [
+            343,
+            344
+          ]
+        },
+        {
+          "sectionId": "b2-c05",
+          "pdfPages": [
+            345,
+            347,
+            348
+          ]
+        },
+        {
+          "sectionId": "b2-c07",
+          "pdfPages": [
+            380
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "La camera della tomba resta la stessa nelle scene contigue di II.4–II.5; Gimli e Gandalf la identificano come Mazarbul. Il riferimento di II.7 ricorda il combattimento senza ambientare una nuova scena nella camera.",
+      "dataDecision": "Preserve independent place identity, narrative level and section-specific evidence. No coordinates or measured reconstruction inferred.",
+      "remaining": "Full recurrence, critical collation, geometry and rights review pending."
+    },
+    {
+      "id": "moria-fall-and-gandalf-recounted-ascent",
+      "sources": [
+        {
+          "sectionId": "b2-c05",
+          "pdfPages": [
+            355
+          ]
+        },
+        {
+          "sectionId": "b3-c05",
+          "pdfPages": [
+            525,
+            526
+          ]
+        },
+        {
+          "sectionId": "b6-c04",
+          "pdfPages": [
+            973
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "La Compagnia perde di vista Gandalf al ponte; III.5 sviluppa il successivo inseguimento sotto Moria e l’ascesa fino alla vetta. Il richiamo di VI.4 al trasporto da Zirakzigil è un ricordo breve. Non far percorrere la Scala Infinita ai compagni che fuggono dalle porte.",
+      "dataDecision": "Preserve independent place identity, narrative level and section-specific evidence. No coordinates or measured reconstruction inferred.",
+      "remaining": "Full recurrence, critical collation, geometry and rights review pending."
+    },
+    {
+      "id": "udun-invocation-and-mordor-region",
+      "sources": [
+        {
+          "sectionId": "b2-c05",
+          "pdfPages": [
+            354
+          ]
+        },
+        {
+          "sectionId": "b6-c02",
+          "pdfPages": [
+            952
+          ]
+        },
+        {
+          "sectionId": "b6-c04",
+          "pdfPages": [
+            974
+          ]
+        },
+        {
+          "sectionId": "indexes",
+          "pdfPages": [
+            1200
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "L’invocazione di Gandalf sul ponte e la valle di Mordor hanno riscontri distinti; l’indice conferma l’omonimia. La scena di sorvolo in VI.4 non autorizza action per l’invocazione, e l’indice non sostituisce il testo nella classificazione narrativa.",
+      "dataDecision": "Preserve independent place identity, narrative level and section-specific evidence. No coordinates or measured reconstruction inferred.",
+      "remaining": "Full recurrence, critical collation, geometry and rights review pending."
+    },
+    {
+      "id": "moria-mountain-names-and-redhorn-pass",
+      "sources": [
+        {
+          "sectionId": "b2-c03",
+          "pdfPages": [
+            307
+          ]
+        },
+        {
+          "sectionId": "b3-c05",
+          "pdfPages": [
+            526
+          ]
+        },
+        {
+          "sectionId": "appendix-a",
+          "pdfPages": [
+            1067,
+            1095,
+            1097
+          ]
+        }
+      ],
+      "status": "targeted-original-comparison-checked",
+      "findingIt": "Gimli esplicita i nomi delle tre cime e del valico; il racconto di Gandalf conferma Celebdil/Zirakzigil. Baraz-inbar è la montagna di Caradhras; la voce redhorn di A racconta invece l’attraversamento del Pass. Non fondere vetta e valico.",
+      "dataDecision": "Preserve independent place identity, narrative level and section-specific evidence. No coordinates or measured reconstruction inferred.",
+      "remaining": "Full recurrence, critical collation, geometry and rights review pending."
     }
   ],
   "quotationTextIncluded": false,
