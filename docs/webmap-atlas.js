@@ -23,17 +23,20 @@
   async function loadSDK(){
     await import('https://js.arcgis.com/5.1/index.js');
     return globalThis.$arcgis.import(['@arcgis/core/WebMap.js','@arcgis/core/views/MapView.js',
-      '@arcgis/core/layers/GraphicsLayer.js','@arcgis/core/Graphic.js','@arcgis/core/geometry/Extent.js']);
+      '@arcgis/core/layers/GraphicsLayer.js','@arcgis/core/Graphic.js','@arcgis/core/geometry/Extent.js',
+      '@arcgis/core/Map.js','@arcgis/core/layers/MediaLayer.js','@arcgis/core/layers/support/ImageElement.js',
+      '@arcgis/core/layers/support/ExtentAndRotationGeoreference.js']);
   }
   async function create({container,portalItemId,spatialReference,initialExtent,contextLayerIds,
-    places=[],onSelect=()=>{},load=loadSDK}){
-    if(!/^[a-f\d]{32}$/i.test(portalItemId))throw Error('Invalid Web Map id');
+    image,contextLabels=[],places=[],onSelect=()=>{},load=loadSDK}){
+    if(!image&&!/^[a-f\d]{32}$/i.test(portalItemId))throw Error('Invalid Web Map id');
+    if(image&&(!/^https:\/\//.test(image.url)||!(image.width>0&&image.height>0)))throw Error('Invalid image map');
     if(!spatialReference||!(typeof spatialReference.wkt==='string'&&spatialReference.wkt.trim()||Number.isInteger(spatialReference.wkid)))throw Error('Explicit spatial reference required');
     if(!initialExtent||!['xmin','ymin','xmax','ymax'].every(key=>Number.isFinite(initialExtent[key]))||
       initialExtent.xmax<=initialExtent.xmin||initialExtent.ymax<=initialExtent.ymin)throw Error('Finite nonempty editorial extent required');
-    if(!Array.isArray(contextLayerIds)||!contextLayerIds.length||contextLayerIds.some(id=>typeof id!=='string'||!id))throw Error('Explicit context layer allowlist required');
+    if(!image&&(!Array.isArray(contextLayerIds)||!contextLayerIds.length||contextLayerIds.some(id=>typeof id!=='string'||!id)))throw Error('Explicit context layer allowlist required');
     validatePlaces(places);
-    const [WebMap,MapView,GraphicsLayer,Graphic,Extent]=await load();
+    const [WebMap,MapView,GraphicsLayer,Graphic,Extent,ImageMap,MediaLayer,ImageElement,Georeference]=await load();
     let map,view,clickHandle,disposed=false,selectedId=null;
     const visible={action:true,mentioned:true},layers={},graphics=new Map();
     const editorial=()=>new Extent({...initialExtent,spatialReference});
@@ -62,17 +65,27 @@
         layers[place.category].add(marker);
         layers[place.category].add(new Graphic({geometry,attributes,symbol:{type:'text',text:label,color:'#ffffff',
           font:{family:'Arial',size:10,weight:'bold'},verticalAlignment:'middle',horizontalAlignment:'center'}}));
+        if(image&&place.name)layers[place.category].add(new Graphic({geometry,attributes,symbol:{type:'text',text:place.name,color:'#253c31',haloColor:'#f4efd9',haloSize:1.5,yoffset:-24,font:{family:'Georgia',size:10},verticalAlignment:'middle'}}));
         graphics.set(place.id,marker);
       }
     }
     let labelsForView=labels(places,visible);
     try{
+      if(image){
+        const extent=new Extent({xmin:0,ymin:-image.height,xmax:image.width,ymax:0,spatialReference});
+        const background=new MediaLayer({source:[new ImageElement({image:image.url,georeference:new Georeference({extent})})],title:image.attribution||'Cartography',copyright:image.attribution||''});
+        const context=new GraphicsLayer({id:'map-context',title:'Cartographic context'});
+        for(const label of contextLabels)context.add(new Graphic({geometry:{type:'point',x:label.x,y:label.y,spatialReference},symbol:{type:'text',text:label.name,color:'#594a37',haloColor:'#ece7ca',haloSize:1,font:{family:'Georgia',size:label.size||12},horizontalAlignment:'center'}}));
+        map=new ImageMap({basemap:null,layers:[background,context]});
+        await background.load();
+      }else{
       map=new WebMap({portalItem:{id:portalItemId}});await map.load();
       const available=new Set(map.layers.map(layer=>layer.id));
       for(const id of contextLayerIds)if(!available.has(id))throw Error('Missing context layer: '+id);
       // Remove original route/plot layers from this view, retaining only approved context.
       for(const layer of map.layers.toArray())if(!contextLayerIds.includes(layer.id))map.remove(layer);
       map.basemap=null;
+      }
       for(const category of Object.keys(colors)){
         layers[category]=new GraphicsLayer({id:'atlas-'+category,title:category});map.add(layers[category]);
       }
@@ -105,7 +118,7 @@
  const languages=['it','en','fr','es'];
  const choose=(value,locale)=>typeof value==='string'?value:value?.[locale]||value?.en||'';
  function validate(payload){
-  if(payload?.formatVersion!==1||!Array.isArray(payload.sections)||!payload.sections.length||!payload.map?.portalItemId)throw Error('Invalid Web Map atlas');
+  if(payload?.formatVersion!==1||!Array.isArray(payload.sections)||!payload.sections.length||(!payload.map?.portalItemId&&!payload.map?.image))throw Error('Invalid Web Map atlas');
   const ids=new Set(Object.keys(payload.places||{}));
   for(const section of payload.sections){
    for(const locale of languages)if(!section.introduction?.[locale]?.trim())throw Error('Section introduction missing');
@@ -125,6 +138,11 @@
   const response=await fetch(url,{headers:{apikey:config.publishableKey,Accept:'application/json'},cache:'no-store'});
   if(!response.ok)throw Error('Web Map atlas HTTP '+response.status);
   const rows=await response.json(),payload=validate(rows[0]?.metadata?.webmapAtlas);
+  if(payload.map.image){
+   const positions=payload.map.positions;
+   for(const id of Object.keys(payload.places))if(!positions?.[id]||![positions[id].x,positions[id].y].every(Number.isFinite))throw Error('Missing image position: '+id);
+   return adapt(payload,locale,positions);
+  }
   const features=await fetch(payload.map.pointService+'/query?'+new URLSearchParams({where:'1=1',outFields:'OBJECTID,Name',returnGeometry:'true',f:'json'})).then(r=>{if(!r.ok)throw Error('Map positions unavailable');return r.json()});
   if(features.error||!features.features?.length)throw Error('Map positions unavailable');
   const points=new Map(features.features.map(f=>[f.attributes.Name.normalize('NFC').trim(),f.geometry]));
@@ -156,7 +174,7 @@
  }
  class WebMapController{
   constructor(config,container,onSelect){this.config=config;this.container=container;this.onSelect=onSelect;this.visible={action:true,mentioned:true};this.geographic=false;}
-  points(chapter=this.chapter){return (chapter?.places||[]).map(id=>({id,...this.config.positions[id],category:chapter.placeCategories?.[id]||'action'}));}
+  points(chapter=this.chapter){return (chapter?.places||[]).map(id=>({id,...this.config.positions[id],name:chapter.placeNames?.[id],category:chapter.placeCategories?.[id]||'action'}));}
   visibleNumbers(chapter,visible){return root.AtlasWebMapRenderer.labels(this.points(chapter),visible);}
   async update(chapter,visible,selected){
    const changed=this.chapter?.id!==chapter.id;this.chapter=chapter;this.visible={...visible};this.selected=selected;

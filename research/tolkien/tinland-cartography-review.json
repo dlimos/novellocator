@@ -1,0 +1,135 @@
+{
+  "date": "2026-11-01",
+  "sourceCommit": "10ae96c42d903d0fb7e893d410d2588e8da1b606",
+  "sourceRepository": "https://github.com/Jean-Tinland/middle-earth",
+  "sourceImage": "https://raw.githubusercontent.com/Jean-Tinland/middle-earth/10ae96c42d903d0fb7e893d410d2588e8da1b606/assets/images/map/map.jpg",
+  "sourceLicense": "GPL-3.0; retain third-party compass attribution from upstream README",
+  "sourceDimensions": [
+    22800,
+    15600
+  ],
+  "publishedDimensions": [
+    7600,
+    5200
+  ],
+  "changes": "Resampled JPEG, quality 88; no generated geography. Own labels and numbered overlays. No upstream JS, landmark illustrations, icons, fonts or additional texture bundled. Original embedded compass retained and attributed to Freepik.",
+  "publishedSha256": "27458d74264a8ed3d0e51bea3d3de46a062e96aaaf3f6bbcc8e1681acd3cdc54",
+  "coordinates": "Local image units: width 1900, height 1300; X=19*percentX, Y=-13*percentY. ArcGIS wkid 3857 is only a renderer container; these are not Earth positions and must never be exported as such.",
+  "positions": [
+    {
+      "placeId": "hobbiton",
+      "sourceName": "Hobbiton",
+      "sourceKind": "city",
+      "sourcePercent": [
+        27.16,
+        24.02
+      ],
+      "precision": "Indicative position of whole named location, not individual interiors."
+    },
+    {
+      "placeId": "bree",
+      "sourceName": "Bree",
+      "sourceKind": "city",
+      "sourcePercent": [
+        32.37,
+        25.36
+      ],
+      "precision": "Indicative position of whole named location, not individual interiors."
+    },
+    {
+      "placeId": "amon-sul",
+      "sourceName": "Amon Sûl",
+      "sourceKind": "common-place",
+      "sourcePercent": [
+        36.17,
+        25.15
+      ],
+      "precision": "Indicative position of whole named location, not individual interiors."
+    },
+    {
+      "placeId": "isengard",
+      "sourceName": "Isengard",
+      "sourceKind": "city",
+      "sourcePercent": [
+        41.75,
+        51.74
+      ],
+      "precision": "Indicative position of whole named location, not individual interiors."
+    },
+    {
+      "placeId": "rivendell",
+      "sourceName": "Rivendell",
+      "sourceKind": "city",
+      "sourcePercent": [
+        45.63,
+        24.13
+      ],
+      "precision": "Indicative position of whole named location, not individual interiors."
+    },
+    {
+      "placeId": "moria",
+      "sourceName": "Moria",
+      "sourceKind": "region",
+      "sourcePercent": [
+        45.04,
+        34.72
+      ],
+      "precision": "Indicative position of whole named location, not individual interiors."
+    },
+    {
+      "placeId": "lorien",
+      "sourceName": "Lorien",
+      "sourceKind": "forest",
+      "sourcePercent": [
+        48.93,
+        37.95
+      ],
+      "precision": "Indicative position of whole named location, not individual interiors."
+    },
+    {
+      "placeId": "erebor",
+      "sourceName": "Erebor",
+      "sourceKind": "common-place",
+      "sourcePercent": [
+        61.56,
+        15.55
+      ],
+      "precision": "Indicative position of whole named location, not individual interiors."
+    },
+    {
+      "placeId": "tharbad",
+      "sourceName": "Tharbad",
+      "sourceKind": "city",
+      "sourcePercent": [
+        35.63,
+        36.79
+      ],
+      "precision": "Indicative position of whole named location, not individual interiors."
+    },
+    {
+      "placeId": "minas-tirith",
+      "sourceName": "Minas Tirith",
+      "sourceKind": "city",
+      "sourcePercent": [
+        58.56,
+        65.57
+      ],
+      "precision": "Indicative position of whole named location, not individual interiors."
+    },
+    {
+      "placeId": "parth-galen",
+      "sourceName": "Editorial image anchor near Amon Hen",
+      "sourcePercent": [
+        55.2,
+        56.3
+      ],
+      "precision": "Interpretative position at the northern foot of Amon Hen beside the western shore; not a surveyed coordinate or a source POI.",
+      "evidence": "Original English, II.9–II.10 and III.1; source map Amon Hen anchor [55.1,56.88].",
+      "sourcePoiReusedAsIdentity": false
+    }
+  ],
+  "narrativeDataChanged": false,
+  "sections": 70,
+  "references": 207,
+  "places": 11
+}

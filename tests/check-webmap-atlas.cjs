@@ -46,6 +46,13 @@ const options={container:{},portalItemId:'0123456789abcdef0123456789abcdef',spat
   assert.throws(()=>api.setPlaces([]),/disposed/);
   fail=true;await assert.rejects(create(options),/Unavailable/);assert.equal(destroyed,2);fail=false;
   await assert.rejects(create({...options,contextLayerIds:['absent']}),/Missing context/);assert.equal(destroyed,3);
+  class ImageMap extends Properties{constructor(props){super(props);this.layers=new Collection(...props.layers);latestMap=this;}add(layer){this.layers.push(layer);}}
+  class Media extends Properties{async load(){}}
+  const imageApi=await create({...options,portalItemId:undefined,contextLayerIds:undefined,image:{url:'https://example.test/map.jpg',width:1900,height:1300},contextLabels:[{name:'Region',x:500,y:-500}],load:async()=>[WebMap,View,Graphics,Properties,Properties,ImageMap,Media,Properties,Properties]});
+  assert.equal(latestMap.layers[0].source[0].image,'https://example.test/map.jpg');
+  assert.equal(latestMap.layers[0].source[0].georeference.extent.ymin,-1300);
+  assert.equal(latestMap.layers[1].graphics[0].symbol.text,'Region');
+  assert.deepEqual([...imageApi.getLabels()],[['m','C1'],['a','1'],['b','2']]);imageApi.destroy();
   console.log('PASS: local coordinates, context filtering, category numbering, selection, action-only initial fit, visible-layer fit and disposal. Mock SDK; separate browser verification is documented in PROGRESS.md.');
 })().catch(error=>{console.error(error);process.exitCode=1;});
 
