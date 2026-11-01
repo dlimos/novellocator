@@ -124,7 +124,7 @@
   const response=await fetch(url,{headers:{apikey:config.publishableKey,Accept:'application/json'},cache:'no-store'});
   if(!response.ok)throw Error('Web Map atlas HTTP '+response.status);
   const rows=await response.json(),payload=validate(rows[0]?.metadata?.webmapAtlas);
-  const features=await fetch(payload.map.pointService+'?'+new URLSearchParams({where:'1=1',outFields:'OBJECTID,Name',returnGeometry:'true',f:'json'})).then(r=>{if(!r.ok)throw Error('Map positions unavailable');return r.json()});
+  const features=await fetch(payload.map.pointService+'/query?'+new URLSearchParams({where:'1=1',outFields:'OBJECTID,Name',returnGeometry:'true',f:'json'})).then(r=>{if(!r.ok)throw Error('Map positions unavailable');return r.json()});
   if(features.error||!features.features?.length)throw Error('Map positions unavailable');
   const points=new Map(features.features.map(f=>[f.attributes.Name.normalize('NFC').trim(),f.geometry]));
   const positions={};
@@ -170,6 +170,7 @@
    this.renderer.highlight(this.selected);
    await this.renderer.fit({actionOnly:true});
    const credit=root.document?.getElementById('basemap-credits');if(credit)credit.textContent=' · '+this.config.attribution;
+   const osm=root.document?.getElementById('osm-credit');if(osm)osm.hidden=true;
    root.addEventListener?.('pagehide',()=>this.renderer?.destroy(),{once:true});
    return this.renderer.view;
   }
