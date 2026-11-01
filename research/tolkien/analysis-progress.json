@@ -786,8 +786,8 @@
     {
       "sectionId": "b5-c04",
       "completeRead": true,
-      "references": 79,
-      "action": 48,
+      "references": 80,
+      "action": 49,
       "mentioned": 31,
       "inventoryStatus": "first-manual-pass-reconciliation-pending",
       "quotationRightsStatus": "pending",
@@ -952,8 +952,8 @@
       "sectionId": "b6-c05",
       "completeRead": true,
       "references": 52,
-      "action": 23,
-      "mentioned": 29,
+      "action": 24,
+      "mentioned": 28,
       "inventoryStatus": "first-manual-pass-reconciliation-pending",
       "quotationRightsStatus": "pending",
       "introductionsAvailable": [

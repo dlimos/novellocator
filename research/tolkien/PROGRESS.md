@@ -1,6 +1,8 @@
 # Avanzamento editoriale e tecnico
 
-1 novembre 2026. Il romanzo non è stato importato né pubblicato nel catalogo.
+1 novembre 2026. **Prima edizione pubblicata nel catalogo, in Supabase e sul sito**: [apri il romanzo](https://dlimos.github.io/novellocator/atlas.html?book=lord-of-the-rings&lang=it). Comprende 70 sezioni con introduzioni nelle quattro lingue, 11 località principali e 207 riscontri originali. [Ambito, diritti, copertina e controlli](PUBLICATION.md); [verifica pubblica](publication-status.json). La revisione critica completa resta aperta.
+
+La cronaca seguente conserva anche gli stati precedenti alla pubblicazione: le vecchie indicazioni «non importato» e «diritti pendenti» descrivono quelle fasi e non lo stato della selezione pubblicata.
 
 ## Lettura e inventario
 
@@ -57,7 +59,7 @@ Sono stati letti integralmente il Prologo e tutti i 62 capitoli dei sei Libri, f
 | V.1 | 92 | 37 | 55 |
 | V.2 | 70 | 45 | 25 |
 | V.3 | 52 | 26 | 26 |
-| V.4 | 79 | 48 | 31 |
+| V.4 | 80 | 49 | 31 |
 | V.5 | 34 | 17 | 17 |
 | V.6 | 57 | 28 | 29 |
 | V.7 | 28 | 17 | 11 |
@@ -68,7 +70,7 @@ Sono stati letti integralmente il Prologo e tutti i 62 capitoli dei sei Libri, f
 | VI.2 | 49 | 28 | 21 |
 | VI.3 | 36 | 21 | 15 |
 | VI.4 | 41 | 23 | 18 |
-| VI.5 | 52 | 23 | 29 |
+| VI.5 | 52 | 24 | 28 |
 | VI.6 | 61 | 34 | 27 |
 | VI.7 | 38 | 13 | 25 |
 | VI.8 | 68 | 37 | 31 |
@@ -81,7 +83,7 @@ Sono stati letti integralmente il Prologo e tutti i 62 capitoli dei sei Libri, f
 | Appendice E | 21 | 0 | 21 |
 | Appendice F | 58 | 0 | 58 |
 | Preliminari e prefazione | 10 | 0 | 10 |
-| Totale della prima analisi | 3315 | 1426 | 1889 |
+| Totale della prima analisi | 3316 | 1428 | 1888 |
 
 Questi sono conteggi di associazioni sezione–luogo, non di luoghi distinti o marker approvati. I 10 riferimenti dei preliminari sono editoriali o autobiografici ed esclusi dai marker narrativi; i 404 delle appendici comprendono anche esempi linguistici e genealogie. Indici e mappe servono come controllo, senza generare automaticamente associazioni. Comprendono ambientazioni senza posizione utile, sogni, visioni e luoghi dei canti intercalati esclusi dalla futura vista geografica. L'inventario è un primo passaggio manuale, non una certificazione di completezza. La corrispondenza delle citazioni al testo non sostituisce la revisione narrativa e geografica delle decisioni.
 
@@ -300,3 +302,9 @@ L’invocazione di Udûn sul ponte ora ha una chiave propria, senza collocazione
 In II.5 sono state recuperate due menzioni: il Silverlode nel frammento del registro e l’arco orientale proposto da Gandalf. Le scene già registrate conservano categorie e citazioni. Il totale è ora 3.315 associazioni (1.426 action e 1.889 mentioned), con 95 confronti puntuali. La riconciliazione delle identità comprende 20 gruppi, 267 associazioni annotate e dieci distinzioni esplicite.
 
 Sono passati il controllo dei riscontri originali, i due test di rifiuto e il controllo indipendente delle identità e dei percorsi: ogni nodo delle vie effettive ha un riscontro action nella propria sezione; i rami non percorsi restano mentioned. Il lavoro non costituisce una revisione completa di tutte le ricorrenze di Moria o dell’opera. Diritti, geografia, evidenziazioni delle citazioni e importazione restano pendenti.
+
+## Riconciliazione mirata di Minas Tirith e pubblicazione
+
+[minas-tirith-setting-review.json](minas-tirith-setting-review.json) distingue sala, cortile e White Tower, le stanze delle Case di Guarigione e i diversi luoghi delle conversazioni presso le mura. Il riscontro di VI.5 documenta una scena nella camera di Éowyn; quello di V.4 documenta il trasporto di Faramir nella White Tower. Non si inventano indirizzi o piante misurate. Il totale aggiornato è 3.316 associazioni (1.428 action, 1.888 mentioned), con 23 gruppi di identità, 284 annotazioni e 15 distinzioni di non equivalenza. La collazione dell’intero inventario non è conclusa.
+
+La prima edizione pubblica usa una selezione distinta: 207 riscontri per 11 località principali. Il giudizio sui diritti della selezione e la consultazione remota dei servizi ArcGIS sono documentati in [PUBLICATION.md](PUBLICATION.md); non estendono automaticamente la pubblicabilità agli altri record privati. Sono state verificate identità dei dati remoti e disponibilità anonima dopo la pubblicazione.

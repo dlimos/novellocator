@@ -1,7 +1,7 @@
 {
   "date": "2026-11-01",
   "sourcePdfSha256": "4e2fdba27a4dbc444e182bf10d25cfb6731294fd4215b449e38a190391ebf465",
-  "scope": "Twenty manually checked identity groups, an extended valley-name equivalence and ten explicit non-merges; not a complete reconciliation of the novel.",
+  "scope": "Twenty-three targeted identity groups and fifteen explicit non-merges or unresolved exact-location identities; not a complete novel reconciliation.",
   "quotationTextIncluded": false,
   "fullNovelAnalysisComplete": false,
   "sameSectionPolicy": "Retain all original evidence rows. A canonical identity does not transfer category, scene, time, people, coordinates or visibility. Any future marker aggregation must use witnesses from the selected section. Name strings alone are not mapping keys: use the reviewed section–record identity to disambiguate homonyms, ellipses and mountain/pass names.",
@@ -1694,6 +1694,210 @@
       "status": "targeted-original-identity-checked",
       "positionsVerified": false,
       "reviewDate": "2026-11-01"
+    },
+    {
+      "reviewId": "minas-tirith-hall-of-kings-identity",
+      "canonicalPlaceId": "minas-tirith-hall-of-kings",
+      "analysisPlaceIds": [
+        "minas-tirith-stewards-great-hall",
+        "minas-tirith-hall-of-tower",
+        "minas-tirith-hall-of-kings"
+      ],
+      "verifiedNameForms": [
+        "Hall of the Kings",
+        "Hall of the Tower",
+        "Tower Hall"
+      ],
+      "decisionIt": "La continuità della sala, della sedia del Sovrintendente e del trono è corroborata dall’indice che raggruppa i nomi. Udienza, esposizione di Théoden e giudizi del re sono fasi diverse dello stesso ambiente.",
+      "sources": [
+        {
+          "sectionId": "b5-c01",
+          "pdfPage": 778,
+          "sourcePageSha256": "5c42a15df468425240a7068f8b9d1ec2760246d5c7debdebb9eaa8de7e0d7fa3",
+          "textSha256": "552f80ecfd433bba14082f4a2147a4479f6f2f6ac8e68f7d32ffeb22df7c371c"
+        },
+        {
+          "sectionId": "b5-c04",
+          "pdfPage": 830,
+          "sourcePageSha256": "c2496abc485ce3c41ffd5def0a51f54200f07f3ede3de3f3da6c60c609ed1e1c",
+          "textSha256": "6d50f9a1d75df89ce1fbeb493c2cf2f468240d2fb6601003632ad53f55144a59"
+        },
+        {
+          "sectionId": "b5-c08",
+          "pdfPage": 885,
+          "sourcePageSha256": "41041b31ab39b3e74ac6a8f77b545196a8e231eba95db3d47abed6579a7b8ec1",
+          "textSha256": "23b514bf3563171a4db81c0f08e8d460b96b7b029c05ddbebdc697340d2e832b"
+        },
+        {
+          "sectionId": "b6-c05",
+          "pdfPage": 992,
+          "sourcePageSha256": "a0cda7b6d7507b4b2224aec45b912e76d865eec7285ef78d1076f33b4ad1b7d9",
+          "textSha256": "d7cf967ebff66a4c61bbf577f6f2d3546d671fb4d44fa342a8f02fba19d21f8c"
+        },
+        {
+          "sectionId": "indexes",
+          "pdfPage": 1172,
+          "sourcePageSha256": "3addeb841970d3fd5b7e4251d0bc2032764fc94c3c60530a357d3b938839c84e",
+          "textSha256": "9aa6dc0a740eb0c0e56ee969c900721c96e79cdf7576c9742e5d96c8be88612c"
+        }
+      ],
+      "affectedAssociations": [
+        {
+          "sectionId": "b5-c01",
+          "analysisPlaceId": "minas-tirith-stewards-great-hall"
+        },
+        {
+          "sectionId": "b5-c04",
+          "analysisPlaceId": "minas-tirith-stewards-great-hall"
+        },
+        {
+          "sectionId": "b5-c08",
+          "analysisPlaceId": "minas-tirith-hall-of-tower"
+        },
+        {
+          "sectionId": "b6-c05",
+          "analysisPlaceId": "minas-tirith-hall-of-kings"
+        }
+      ],
+      "status": "targeted-original-identity-checked",
+      "positionsVerified": false,
+      "reviewDate": "2026-11-01",
+      "verificationQualifier": "Primary narrative scenes establish category; the editorial index corroborates the name equivalence only. No identity with Denethor’s private chambers is inferred."
+    },
+    {
+      "reviewId": "minas-tirith-court-fountain-identity",
+      "canonicalPlaceId": "minas-tirith-court-fountain",
+      "analysisPlaceIds": [
+        "minas-tirith-court-fountain",
+        "minas-tirith-fountain-court"
+      ],
+      "verifiedNameForms": [
+        "Court of the Fountain"
+      ],
+      "decisionIt": "La corte resta il medesimo luogo, mentre l’Albero morto viene rimosso e vi si pianta un altro esemplare. Non fondere la corte con l’alta radura di Mindolluin, dove cresceva il nuovo albero.",
+      "sources": [
+        {
+          "sectionId": "b5-c01",
+          "pdfPage": 777,
+          "sourcePageSha256": "604fefe3e985adc5ba0e2d322f00c4181eff005b2c8d58997c6d5dbcd4a9b9b8",
+          "textSha256": "c994b44403fa315c652c43581ea3757a693d52362b4ae274e700347084ce7a29"
+        },
+        {
+          "sectionId": "b5-c04",
+          "pdfPage": 850,
+          "sourcePageSha256": "833960d0c0b8cba53e42543b49d2ed9c9edd6f6413ab578d22fca174c39a0893",
+          "textSha256": "8a0dc241047768444679e4bcab5724006a64a50f0ab01ebe870b96524f41a4ce"
+        },
+        {
+          "sectionId": "b6-c05",
+          "pdfPage": 995,
+          "sourcePageSha256": "dbbe77af8b5c1875f1714b19f08d1007b0eb33d6859c1cc22ac102015967dd44",
+          "textSha256": "416f385fa7a76dc908c9f5bf272e14a5a52e2b6c78948cbd13f00032538f8e7b"
+        },
+        {
+          "sectionId": "b6-c05",
+          "pdfPage": 996,
+          "sourcePageSha256": "9e4605f65f68e36a07666ce19adfeda88d74e429e7c92ff49f08d95b36447564",
+          "textSha256": "a1dcfe73a49a49b0df1c8a7bbd0d381bd49a3d80260bafffbfca13027b016dfa"
+        }
+      ],
+      "affectedAssociations": [
+        {
+          "sectionId": "b5-c01",
+          "analysisPlaceId": "minas-tirith-court-fountain"
+        },
+        {
+          "sectionId": "b5-c04",
+          "analysisPlaceId": "minas-tirith-court-fountain"
+        },
+        {
+          "sectionId": "b6-c05",
+          "analysisPlaceId": "minas-tirith-fountain-court"
+        },
+        {
+          "sectionId": "b6-c06",
+          "analysisPlaceId": "minas-tirith-fountain-court"
+        }
+      ],
+      "status": "targeted-original-identity-checked",
+      "positionsVerified": false,
+      "reviewDate": "2026-11-01"
+    },
+    {
+      "reviewId": "minas-tirith-white-tower-identity",
+      "canonicalPlaceId": "minas-tirith-white-tower",
+      "analysisPlaceIds": [
+        "minas-tirith-white-tower",
+        "white-tower-minas-tirith",
+        "white-tower"
+      ],
+      "verifiedNameForms": [
+        "White Tower of Minas Tirith",
+        "Tower of Ecthelion"
+      ],
+      "decisionIt": "Nomi della Torre Bianca di Gondor. La chiave generica white-tower di A è riferita al ritiro di Denethor. La presenza di scene nelle camere della Torre non promuove automaticamente le vedute o menzioni degli altri capitoli.",
+      "sources": [
+        {
+          "sectionId": "b5-c01",
+          "pdfPage": 775,
+          "sourcePageSha256": "b42e86d68f3fc0213ed7171560348aa3202d983d58ec6eda22113196d5de2bb5",
+          "textSha256": "2abc1871e8c61a0d8ddbdc5d31fda0b2a7f2a4bfd023ff8ef66e43f14877a054"
+        },
+        {
+          "sectionId": "b5-c04",
+          "pdfPage": 845,
+          "sourcePageSha256": "336af35610aa7e509136e5c5d90ed0ea614aabe485966176357991dd067a11fb",
+          "textSha256": "81052c1e4aec4b12a564a10c1686a3b90a3827534f72d7e1f9cefb804dbacc45"
+        },
+        {
+          "sectionId": "indexes",
+          "pdfPage": 1201,
+          "sourcePageSha256": "bb02b0ef0b3dcaffcd95205f86df7e8e5fd1b5185b8d4892cb149d2ae0ff9bc2",
+          "textSha256": "5e4677bbc040c4186a5ec7ea40dc07286ec23e38045719e12cd351c6429b841b"
+        }
+      ],
+      "affectedAssociations": [
+        {
+          "sectionId": "appendix-a",
+          "analysisPlaceId": "white-tower"
+        },
+        {
+          "sectionId": "b3-c01",
+          "analysisPlaceId": "minas-tirith-white-tower"
+        },
+        {
+          "sectionId": "b3-c06",
+          "analysisPlaceId": "minas-tirith-white-tower"
+        },
+        {
+          "sectionId": "b4-c04",
+          "analysisPlaceId": "white-tower-minas-tirith"
+        },
+        {
+          "sectionId": "b5-c01",
+          "analysisPlaceId": "white-tower-minas-tirith"
+        },
+        {
+          "sectionId": "b5-c03",
+          "analysisPlaceId": "white-tower-minas-tirith"
+        },
+        {
+          "sectionId": "b5-c04",
+          "analysisPlaceId": "minas-tirith-white-tower"
+        },
+        {
+          "sectionId": "b5-c07",
+          "analysisPlaceId": "minas-tirith-white-tower"
+        },
+        {
+          "sectionId": "b5-c08",
+          "analysisPlaceId": "minas-tirith-white-tower"
+        }
+      ],
+      "status": "targeted-original-identity-checked",
+      "positionsVerified": false,
+      "reviewDate": "2026-11-01",
+      "verificationQualifier": "The Hall beneath the Tower and the upper chambers remain separately identified components. No universal geometry is inferred for every occurrence of the word tower."
     }
   ],
   "corrections": [
@@ -1718,6 +1922,38 @@
       "previousAnalysisPlaceId": "udun",
       "correctedAnalysisPlaceId": "udun-invocation-unlocated",
       "pdfPage": 354,
+      "categoryUnchanged": true,
+      "sourceQuotationUnchanged": true
+    },
+    {
+      "sectionId": "b5-c08",
+      "previousAnalysisPlaceId": "houses-of-healing-warden-consultation",
+      "correctedAnalysisPlaceId": "houses-of-healing-warden-consultation-unlocated",
+      "pdfPage": 894,
+      "categoryUnchanged": true,
+      "sourceQuotationUnchanged": true
+    },
+    {
+      "sectionId": "b6-c05",
+      "previousAnalysisPlaceId": "houses-of-healing-warden-consultation",
+      "correctedAnalysisPlaceId": "houses-of-healing-warden-east-window-room",
+      "pdfPage": 983,
+      "categoryUnchanged": true,
+      "sourceQuotationUnchanged": true
+    },
+    {
+      "sectionId": "b5-c09",
+      "previousAnalysisPlaceId": "houses-of-healing-southern-wall-seat",
+      "correctedAnalysisPlaceId": "houses-of-healing-south-wall-conversation",
+      "pdfPage": 897,
+      "categoryUnchanged": true,
+      "sourceQuotationUnchanged": true
+    },
+    {
+      "sectionId": "b6-c05",
+      "previousAnalysisPlaceId": "houses-of-healing-southern-wall-seat",
+      "correctedAnalysisPlaceId": "houses-of-healing-wall-walk-faramir-eowyn",
+      "pdfPage": 985,
       "categoryUnchanged": true,
       "sourceQuotationUnchanged": true
     }
@@ -1947,9 +2183,135 @@
         }
       ],
       "findingIt": "La montagna dà il nome al valico, ma non coincide con esso."
+    },
+    {
+      "id": "healing-consultations-no-room-identity",
+      "keepSeparate": [
+        "houses-of-healing-warden-consultation-unlocated",
+        "houses-of-healing-warden-east-window-room"
+      ],
+      "status": "identity-not-established",
+      "sources": [
+        {
+          "sectionId": "b5-c08",
+          "pdfPages": [
+            894
+          ]
+        },
+        {
+          "sectionId": "b6-c05",
+          "pdfPages": [
+            982,
+            983
+          ]
+        }
+      ],
+      "findingIt": "Consultare la stessa persona non identifica lo stesso locale. V.8 non nomina una camera; VI.5 descrive la finestra del Custode."
+    },
+    {
+      "id": "faramir-tower-bed-versus-hospital-room",
+      "keepSeparate": [
+        "faramir-white-tower-sickbed",
+        "houses-of-healing-faramir-room"
+      ],
+      "status": "distinct-settings-supported",
+      "sources": [
+        {
+          "sectionId": "b5-c04",
+          "pdfPages": [
+            845,
+            850
+          ]
+        },
+        {
+          "sectionId": "b5-c07",
+          "pdfPages": [
+            878,
+            879
+          ]
+        },
+        {
+          "sectionId": "b5-c08",
+          "pdfPages": [
+            889
+          ]
+        }
+      ],
+      "findingIt": "Faramir passa dalla Torre alla casa funeraria e viene poi portato alle Case di Guarigione. La continuità del paziente non identifica la sua posizione."
+    },
+    {
+      "id": "tower-hall-versus-private-chambers",
+      "keepSeparate": [
+        "minas-tirith-hall-of-kings",
+        "denethor-private-brazier-chamber",
+        "denethor-secret-summit-room"
+      ],
+      "status": "distinct-setting-scopes-supported-no-full-plan",
+      "sources": [
+        {
+          "sectionId": "b5-c01",
+          "pdfPages": [
+            778
+          ]
+        },
+        {
+          "sectionId": "b5-c04",
+          "pdfPages": [
+            835,
+            842,
+            845
+          ]
+        }
+      ],
+      "findingIt": "La grande sala non equivale alla camera privata del braciere o alla camera segreta sotto la sommità. Non è stabilita qui una pianta completa o l’identità fra la camera privata e l’altra camera alta."
+    },
+    {
+      "id": "healing-wall-conversations-no-exact-point",
+      "keepSeparate": [
+        "houses-of-healing-south-wall-conversation",
+        "houses-of-healing-wall-walk-faramir-eowyn"
+      ],
+      "status": "exact-point-identity-not-established",
+      "sources": [
+        {
+          "sectionId": "b5-c09",
+          "pdfPages": [
+            897
+          ]
+        },
+        {
+          "sectionId": "b6-c05",
+          "pdfPages": [
+            985,
+            986,
+            987,
+            988
+          ]
+        }
+      ],
+      "findingIt": "Una sosta guarda a sud, le altre scene guardano a est. Non sono documentati una panchina o lo stesso punto preciso delle mura; non si dichiara neppure dimostrata la loro distanza."
+    },
+    {
+      "id": "fountain-court-versus-mountain-hallow",
+      "keepSeparate": [
+        "minas-tirith-court-fountain",
+        "mindolluin-kings-hallow"
+      ],
+      "status": "distinct-settings-supported",
+      "sources": [
+        {
+          "sectionId": "b6-c05",
+          "pdfPages": [
+            994,
+            995,
+            996
+          ]
+        }
+      ],
+      "findingIt": "La nuova pianta viene trovata sul monte e trasportata alla corte. Il luogo di crescita del germoglio e quello della piantagione sono distinti."
     }
   ],
-  "updatedAssociations": 267,
+  "updatedAssociations": 284,
   "restoredAssociations": [
     {
       "sectionId": "b6-c08",
@@ -1970,6 +2332,25 @@
       "analysisPlaceId": "moria-great-hall-east-arch",
       "category": "mentioned",
       "pdfPage": 347
+    },
+    {
+      "sectionId": "b5-c04",
+      "analysisPlaceId": "minas-tirith-white-tower",
+      "category": "action",
+      "pdfPage": 845
+    }
+  ],
+  "categoryChanges": [
+    {
+      "sectionId": "b6-c05",
+      "analysisPlaceId": "houses-of-healing-eowyn-room",
+      "previousCategory": "mentioned",
+      "category": "action",
+      "previousPdfPage": 984,
+      "pdfPage": 982,
+      "previousQuotationSha256": "c23c698f1a5a9b2bcbfba913b80ba2ca8a65dee80249b64ef2dd06bfe8de3d91",
+      "quotationSha256": "4b013071a5bd96ea6e03aaa5de60726e021cc67a30abf65f6c2cc9c2615949f6",
+      "reasonIt": "All’inizio della sezione Éowyn si alza dal letto e le donne la vestono e le sostengono il braccio; poi va dal Custode. La scena al capezzale stabilisce l’azione nella sua camera per continuità della degenza. Il successivo discorso sulla finestra a est non prova un trasferimento in una nuova stanza."
     }
   ]
 }

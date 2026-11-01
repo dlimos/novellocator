@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-01",
+  "bookId": "lord-of-the-rings",
+  "publicationStatus": "published",
+  "publicUrl": "https://dlimos.github.io/novellocator/atlas.html?book=lord-of-the-rings&lang=it",
+  "sections": 70,
+  "mappedPlaces": 11,
+  "sectionPlaceReferences": 207,
+  "payloadExact": true,
+  "presentationExact": true,
+  "fourLanguageTranslationsExact": true,
+  "themeExact": true,
+  "arcgisPositionsAvailable": true,
+  "fullNovelAnalysisComplete": false
+}

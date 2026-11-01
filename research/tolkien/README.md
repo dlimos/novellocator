@@ -1,10 +1,10 @@
 # Il Signore degli Anelli: fattibilità e originale inglese
 
-Ricerca avviata il 27 ottobre, aggiornata al 1 novembre 2026. Lettura integrale completata; inventario e revisione editoriale in corso, opera non importata.
+Ricerca avviata il 27 ottobre, aggiornata al 1 novembre 2026. Lettura integrale completata; **prima edizione pubblicata**, con inventario critico completo ancora in revisione. [Apri il romanzo](https://dlimos.github.io/novellocator/atlas.html?book=lord-of-the-rings&lang=it). [Ambito della pubblicazione e diritti](PUBLICATION.md). Le sezioni seguenti conservano la documentazione della ricerca, comprese le limitazioni rilevate nelle fasi precedenti.
 
 ## Esito
 
-Un atlante della Terra di Mezzo è tecnicamente realizzabile. La candidata più utile è la Web Map `16abf625a5704ebd90fff024e7d9c476`, con cartografia e itinerari separati. L'applicazione pubblica si carica nel browser senza login; i servizi REST interrogati sono accessibili anonimamente. Non è stata trovata una licenza esplicita che autorizzi il nostro riuso. L'accessibilità tecnica non chiude la verifica dei diritti.
+Un atlante della Terra di Mezzo è tecnicamente realizzabile. La candidata più utile è la Web Map `16abf625a5704ebd90fff024e7d9c476`, con cartografia e itinerari separati. L'applicazione pubblica si carica nel browser senza login; i servizi REST interrogati sono accessibili anonimamente. La consultazione remota dei servizi pubblici, con attribuzione e senza redistribuzione della cartografia, è stata valutata separatamente secondo i termini ArcGIS: si veda PUBLICATION.md. Questo non dichiara liberamente riutilizzabile ogni opera sottostante.
 
 Sono stati scaricati e controllati tre PDF inglesi con testo estraibile senza OCR. Il volume unico è il candidato principale: 1.210 pagine PDF, tutti i 62 inizi di capitolo nella sequenza attesa, prologo e appendici A–F presenti. Alla verifica strutturale iniziale sono seguiti la lettura integrale e il primo inventario documentati in [PROGRESS.md](PROGRESS.md). La collazione critica completa resta pendente.
 

@@ -2,12 +2,12 @@
   "date": "2026-11-01",
   "edition": "HarperCollins 2005; Adobe Acrobat eBook May 2009; ISBN 9780061917806",
   "language": "en",
-  "associations": 3315,
-  "uniqueExtracts": 3258,
-  "wordsCountingRepeatedExtracts": 30207,
-  "wordsDeduplicated": 29776,
+  "associations": 3316,
+  "uniqueExtracts": 3259,
+  "wordsCountingRepeatedExtracts": 30224,
+  "wordsDeduplicated": 29793,
   "maxSingleExtractWords": 20,
-  "status": "No excerpts cleared for publication. Counts are for editorial review; no numerical threshold is treated as a legal safe harbour.",
+  "status": "Full private inventory not cleared as a whole. The separate 207-extract public selection is assessed in publication-quotation-review.json; no numerical threshold is treated as a legal safe harbour.",
   "records": [
     {
       "sectionId": "appendix-a",
@@ -28159,6 +28159,17 @@
       "publicationStatus": "analysis-only"
     },
     {
+      "sectionId": "b5-c04",
+      "placeId": "minas-tirith-white-tower",
+      "pdfPage": 845,
+      "words": 9,
+      "textSha256": "038bab9ad50ffc40672072fef29507193663f46c8427148de2126525a7e0e3f8",
+      "criticalPurpose": "Discuss the narrative role and spatial identification of this occurrence.",
+      "necessityReview": "pending",
+      "proportionalityReview": "pending",
+      "publicationStatus": "analysis-only"
+    },
+    {
       "sectionId": "b5-c05",
       "placeId": "eilenach-beacon-woods-camp",
       "pdfPage": 854,
@@ -29601,7 +29612,7 @@
     },
     {
       "sectionId": "b5-c08",
-      "placeId": "houses-of-healing-warden-consultation",
+      "placeId": "houses-of-healing-warden-consultation-unlocated",
       "pdfPage": 894,
       "words": 5,
       "textSha256": "b0dc0bd51b1d8c394ebb1299cf994d66a8ac618a239bd789e1ae7a3680e3668b",
@@ -29931,7 +29942,7 @@
     },
     {
       "sectionId": "b5-c09",
-      "placeId": "houses-of-healing-southern-wall-seat",
+      "placeId": "houses-of-healing-south-wall-conversation",
       "pdfPage": 897,
       "words": 6,
       "textSha256": "9444030b70ea0576485b669bdcebee898362c7ebd9a53d303f0936185c78d5be",
@@ -32813,7 +32824,7 @@
     },
     {
       "sectionId": "b6-c05",
-      "placeId": "houses-of-healing-warden-consultation",
+      "placeId": "houses-of-healing-warden-east-window-room",
       "pdfPage": 983,
       "words": 7,
       "textSha256": "94cc0e91ffab5b508e2410aa3e7a1716f6af5a1fec67f34fef3a7ad5dd555249",
@@ -32847,9 +32858,9 @@
     {
       "sectionId": "b6-c05",
       "placeId": "houses-of-healing-eowyn-room",
-      "pdfPage": 984,
-      "words": 6,
-      "textSha256": "c23c698f1a5a9b2bcbfba913b80ba2ca8a65dee80249b64ef2dd06bfe8de3d91",
+      "pdfPage": 982,
+      "words": 14,
+      "textSha256": "4b013071a5bd96ea6e03aaa5de60726e021cc67a30abf65f6c2cc9c2615949f6",
       "criticalPurpose": "Discuss the narrative role and spatial identification of this occurrence.",
       "necessityReview": "pending",
       "proportionalityReview": "pending",
@@ -32857,7 +32868,7 @@
     },
     {
       "sectionId": "b6-c05",
-      "placeId": "houses-of-healing-southern-wall-seat",
+      "placeId": "houses-of-healing-wall-walk-faramir-eowyn",
       "pdfPage": 985,
       "words": 8,
       "textSha256": "abe094f159af91ad7e781bd41ee3b0bc37ea7870616e872be077d22261ac0aef",

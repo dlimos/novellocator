@@ -21,7 +21,7 @@ result={'date':max(json.loads(file.read_text(encoding='utf-8'))['date'] for file
     'wordsCountingRepeatedExtracts':sum(record['words'] for record in records),
     'wordsDeduplicated':sum(record['words'] for record in unique.values()),
     'maxSingleExtractWords':max(record['words'] for record in records),
-    'status':'No excerpts cleared for publication. Counts are for editorial review; no numerical threshold is treated as a legal safe harbour.',
+    'status':'Full private inventory not cleared as a whole. The separate 207-extract public selection is assessed in publication-quotation-review.json; no numerical threshold is treated as a legal safe harbour.',
     'records':records}
 (ROOT/'quotation-budget.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 print({key:value for key,value in result.items() if key!='records'})

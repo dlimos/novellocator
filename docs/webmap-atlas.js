@@ -138,7 +138,7 @@
  function adapt(payload,locale,positions){
   validate(payload);
   const labels=payload.labels[locale]||payload.labels.en;
-  const book={...payload.book,title:choose(payload.book.title,locale),subtitle:choose(payload.book.subtitle,locale),mapType:'webmap',sidebarTitle:labels.sections,help:labels.help,sidebarNote:labels.note,footerHtml:labels.footerHtml,webmap:{...payload.map,positions,attribution:payload.map.attribution},initialView:{center:[0,0],zoom:4}};
+  const book={...payload.book,title:choose(payload.book.title,locale),subtitle:choose(payload.book.subtitle,locale),description:labels.note,unit:({it:'sezione',en:'section',fr:'section',es:'sección'})[locale]||'section',mapType:'webmap',sidebarTitle:labels.sections,help:labels.help,sidebarNote:labels.note,footerHtml:labels.footerHtml,webmap:{...payload.map,positions,attribution:payload.map.attribution},initialView:{center:[0,0],zoom:4}};
   const places=Object.fromEntries(Object.entries(payload.places).map(([id,p])=>[id,{...p,name:choose(p.names,locale),area:labels.world,kind:'site',status:'',note:labels.precision,method:labels.mapMethod,checked:payload.checked,positionSource:{url:payload.map.projectUrl,label:payload.map.attribution}}]));
   const chapters=payload.sections.map(section=>{
    const chapter={id:section.id,title:section.title,text:section.introduction[locale]||section.introduction.en,time:choose(section.time,locale)||undefined,people:choose(section.people,locale)||undefined,setting:labels.world,places:[],placeText:[],placeCategories:{},placeSources:{},placeExcerpts:{},placeKinds:{},placeNames:{},citations:[],unlocatedPlaces:[],links:[],note:section.references.length?undefined:labels.empty};
