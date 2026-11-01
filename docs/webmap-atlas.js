@@ -117,6 +117,11 @@
  'use strict';
  const languages=['it','en','fr','es'];
  const choose=(value,locale)=>typeof value==='string'?value:value?.[locale]||value?.en||'';
+ function discussionText(value,locale){
+  const groups={'embedded-retelling':'story','historical-retelling':'story','embedded-memory':'memory','recalled-dialogue':'memory','recalled-scene':'memory','mirror-vision':'vision','remote-vision':'vision','song':'song','funeral-song':'song','reported-experience':'report'};
+  const labels={it:{story:'Scena di un racconto intercalato.',memory:'Scena di un ricordo.',vision:'Scena di una visione.',song:'Scena rappresentata in un canto.',report:'Esperienza raccontata da un personaggio.'},en:{story:'Scene in an embedded story.',memory:'Scene in a memory.',vision:'Scene in a vision.',song:'Scene represented in a song.',report:'Experience reported by a character.'},fr:{story:'Scène d’un récit enchâssé.',memory:'Scène d’un souvenir.',vision:'Scène d’une vision.',song:'Scène représentée dans un chant.',report:'Expérience racontée par un personnage.'},es:{story:'Escena de un relato intercalado.',memory:'Escena de un recuerdo.',vision:'Escena de una visión.',song:'Escena representada en un canto.',report:'Experiencia narrada por un personaje.'}};
+  return choose(value,locale).replace(/\s*\[([a-z-]+)\]/g,(_,key)=>' '+(labels[locale]||labels.en)[groups[key]]).replace(/ undefined/g,'');
+ }
  function validate(payload){
   if(payload?.formatVersion!==1||!Array.isArray(payload.sections)||!payload.sections.length||(!payload.map?.portalItemId&&!payload.map?.image))throw Error('Invalid Web Map atlas');
   const ids=new Set(Object.keys(payload.places||{}));
@@ -165,7 +170,7 @@
    const chapter={id:section.id,title:section.title,text:section.introduction[locale]||section.introduction.en,time:choose(section.time,locale)||undefined,people:choose(section.people,locale)||undefined,setting:labels.world,places:[],placeText:[],placeCategories:{},placeSources:{},placeExcerpts:{},placeKinds:{},placeNames:{},citations:[],unlocatedPlaces:[],links:[],note:section.references.length?undefined:labels.empty};
    for(const ref of section.references){
     chapter.places.push(ref.placeId);chapter.placeCategories[ref.placeId]=ref.category;
-    chapter.placeText.push(chapter.text+' '+choose(ref.discussion,locale));
+    chapter.placeText.push(chapter.text+' '+discussionText(ref.discussion,locale));
     chapter.placeSources[ref.placeId]={label:ref.original?.attribution||ref.bibliographicReference};
     if(ref.original)chapter.placeExcerpts[ref.placeId]={original:ref.original,translations:{}};
     chapter.placeKinds[ref.placeId]=places[ref.placeId].kind;chapter.placeNames[ref.placeId]=places[ref.placeId].name;
