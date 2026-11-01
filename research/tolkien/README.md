@@ -1,5 +1,7 @@
 # Il Signore degli Anelli: fattibilità e originale inglese
 
+**Aggiornamento del 2 novembre 2026:** [pubblicate 159 località](https://dlimos.github.io/novellocator/atlas.html?book=lord-of-the-rings&lang=it), con 1.236 associazioni nelle 70 sezioni. [Ambito, controlli e citazioni ancora in revisione](MAP-SCOPE-REVIEW.md).
+
 Ricerca avviata il 27 ottobre, aggiornata al 1 novembre 2026. Lettura integrale completata; **prima edizione pubblicata**, con inventario critico completo ancora in revisione. [Apri il romanzo](https://dlimos.github.io/novellocator/atlas.html?book=lord-of-the-rings&lang=it). [Ambito della pubblicazione e diritti](PUBLICATION.md). Le sezioni seguenti conservano la documentazione della ricerca, comprese le limitazioni rilevate nelle fasi precedenti.
 
 ## Esito

@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-01",
+  "scope": "Review of the existing whole-edition inventory for independently mappable surface locations; no further interior reconstruction. Not a new full rereading or certification of complete critical inventory.",
+  "sectionsReviewed": 70,
+  "analysisIdentitiesScreened": 1530,
+  "mappedPlaceCandidates": 177,
+  "sourcePoiPositions": 159,
+  "interpretativeSurfaceAnchors": 18,
+  "sectionPlaceAssociations": 1388,
+  "action": 293,
+  "mentioned": 1095,
+  "narrativeCorrections": 43,
+  "mordorActionSections": [
+    "b2-c02",
+    "b2-c10",
+    "b4-c03",
+    "b6-c01",
+    "b6-c02",
+    "b6-c03",
+    "b6-c04"
+  ],
+  "publicationStatus": "published-selection-159",
+  "publicationBlock": null,
+  "fullNovelAnalysisComplete": false,
+  "sourceIntegrityCheck": "Every retained witness was rechecked against its own source page.",
+  "unmappedPolicy": "No room, proposed route, unnamed roadside stop or unsupported position is converted into a map pin; retain excluded and unresolved records in the private analysis.",
+  "defaultPreview": {
+    "places": 159,
+    "sectionPlaceAssociations": 1236,
+    "action": 239,
+    "mentioned": 997,
+    "interpretativeCandidatesDisplayed": false,
+    "status": "private-preview-of-published-selection"
+  },
+  "publicationDate": "2026-11-02",
+  "publishedSelection": {
+    "places": 159,
+    "sections": 70,
+    "sectionPlaceAssociations": 1236,
+    "actionAssociations": 239,
+    "mentionedAssociations": 997,
+    "globalActionPlaces": 87,
+    "globalMentionedPlaces": 72,
+    "publishedOriginalExtracts": 197,
+    "originalsPendingPublicationHeldInAnalysis": 1039,
+    "interpretativeCandidatesExcluded": 18,
+    "url": "https://dlimos.github.io/novellocator/atlas.html?book=lord-of-the-rings&lang=it"
+  }
+}

@@ -1,5 +1,9 @@
 # Avanzamento editoriale e tecnico
 
+**Aggiornamento pubblico del 2 novembre 2026:** [159 località sulla mappa](https://dlimos.github.io/novellocator/atlas.html?book=lord-of-the-rings&lang=it), 70 sezioni e 1.236 associazioni (239 azione, 997 menzioni). La vista globale distingue 87 luoghi dell’azione e 72 citati. Mordor è azione in VI.2 con riscontro originale specifico. Le 18 posizioni interpretative ancora da confermare restano escluse. Sono visibili 197 estratti valutati per il riuso; 1.039 originali verificati per l’analisi non sono ancora riprodotti pubblicamente. La revisione critica integrale resta aperta. [Registro pubblico](publication-status.json) · [Revisione cartografica](MAP-SCOPE-REVIEW.md).
+
+**Cartografia aggiornata:** la mappa pubblica usa ora il disegno di Jean Tinland. [Fonte, coordinate e controlli](tinland-cartography-review.json). La sostituzione conserva le 70 sezioni e i 207 riscontri; il precedente servizio ArcGIS non viene più usato per i punti. Le note sulla mappa precedente rimangono come cronaca della ricerca.
+
 1 novembre 2026. **Prima edizione pubblicata nel catalogo, in Supabase e sul sito**: [apri il romanzo](https://dlimos.github.io/novellocator/atlas.html?book=lord-of-the-rings&lang=it). Comprende 70 sezioni con introduzioni nelle quattro lingue, 11 località principali e 207 riscontri originali. [Ambito, diritti, copertina e controlli](PUBLICATION.md); [verifica pubblica](publication-status.json). La revisione critica completa resta aperta.
 
 La cronaca seguente conserva anche gli stati precedenti alla pubblicazione: le vecchie indicazioni «non importato» e «diritti pendenti» descrivono quelle fasi e non lo stato della selezione pubblicata.
