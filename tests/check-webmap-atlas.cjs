@@ -63,4 +63,16 @@ const options={container:{},portalItemId:'0123456789abcdef0123456789abcdef',spat
  const bad=structuredClone(payload);delete bad.sections[0].introduction.fr;assert.throws(()=>context.WebMapAtlasData.validate(bad),/introduction/);
  const pending=structuredClone(payload);pending.sections[0].references[0].original.verificationStatus='pending';assert.throws(()=>context.WebMapAtlasData.validate(pending),/Unreviewed/);
  console.log('PASS: Web Map multilingual adapter, optional independent badges, category preservation and rejected unverified excerpts.');
+ payload.map.pointService='https://example.test/FeatureServer/1';
+ context.fetch=async url=>{
+  const target=new URL(url);
+  if(target.pathname==='/rest/v1/book_maps')return {ok:true,json:async()=>[{metadata:{webmapAtlas:payload}}]};
+  assert.equal(target.pathname,'/FeatureServer/1/query');
+  assert.equal(target.searchParams.get('outFields'),'OBJECTID,Name');
+  return {ok:true,json:async()=>({features:[{attributes:{Name:'A'},geometry:{x:2,y:3}},{attributes:{Name:'M'},geometry:{x:9,y:10}}]})};
+ };
+ context.WebMapAtlasData.load('synthetic','it',{enabled:true,url:'https://example.test',publishableKey:'test-only'}).then(data=>{
+  assert.equal(data.book.webmap.positions.a.x,2);
+  console.log('PASS: public loader queries feature geometry through /query with only names and object IDs.');
+ }).catch(error=>{console.error(error);process.exitCode=1;});
 }
