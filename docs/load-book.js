@@ -21,10 +21,12 @@ function startEngine(source){
   }else{const label=document.createElement('span');label.textContent=t('Imaginary views');nav.appendChild(label);}
   if(imaginary){const alternate=document.createElement('a'),target=new URL('atlas.html',location.href);target.searchParams.set('book',bookId);target.searchParams.set('lang',window.atlasI18n.locale);alternate.href=target.href;alternate.textContent=t('Open geographic atlas');nav.appendChild(alternate);}
  }
- window.atlasData=window.atlasI18n.localizeData(window.atlasData);window.atlasDataSource=source;const engine=document.createElement('script');engine.src='app.js?v=20261028-location-contexts-2';document.head.appendChild(engine);
+ window.atlasData=window.atlasI18n.localizeData(window.atlasData);window.atlasDataSource=source;const engine=document.createElement('script');engine.src='app.js?v=20261101-webmap';document.head.appendChild(engine);
 }
 if(!/^[a-z0-9-]+$/.test(bookId)){document.getElementById('detail').textContent=window.atlasI18n.t('Titolo non valido.');}
-else if(entry?.mapType==='illustrated'){
+else if(entry?.mapType==='webmap'){
+ await window.WebMapAtlasData.load(bookId,window.atlasI18n.locale).then(data=>{window.atlasData=data;startEngine('supabase-webmap');}).catch(error=>{console.error('Web Map loading failed',error);connectionError();});
+}else if(entry?.mapType==='illustrated'){
  await window.IllustratedData.load(bookId).then(payload=>{window.atlasData=window.IllustratedAdapter.adapt(payload,window.atlasI18n.locale);startEngine('supabase-illustrated');}).catch(error=>{console.error('Illustrated loading failed',error);connectionError();});
 }else if(window.atlasSupabase?.enabled){
  await window.atlasSupabaseData.loadBook(bookId).then(({data,dictionary})=>{window.atlasData=data;window.atlasTranslations=dictionary;startEngine('supabase');}).catch(error=>{

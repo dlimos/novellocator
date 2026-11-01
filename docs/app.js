@@ -47,7 +47,7 @@ window.atlasData=applyGeographicReview(window.atlasData);
 window.atlasData=window.AtlasModes?window.AtlasModes.adapt(window.atlasData,new URLSearchParams(window.location.search).get('mode'),window.atlasI18n?.locale||'en'):window.IllustratedOverlay?.adapt(window.atlasData,window.atlasI18n?.locale||'en')||window.atlasData;
 const {locale,t}=window.atlasI18n??{locale:"it",t:key=>key};
 const {book,chapters,places:literaryPlaces}=window.atlasData;
-const isIllustrated=book.mapType==='illustrated';let illustratedMap=null;
+const isIllustrated=book.mapType==='illustrated'||book.mapType==='webmap';let illustratedMap=null;
 const basemaps=window.atlasBasemaps;
 let view=null, markerLayer=null, citedMarkerLayer=null, GraphicClass=null, ExtentClass=null;
 let current=0, selectedPlace=0, selectedCitation=-1, viewReady=false;
@@ -469,7 +469,7 @@ function drawMarkers(){
 function showMapError(message){const notice=document.getElementById('map-error');notice.textContent=t(message);notice.hidden=false}
 function navigate(target){if(!viewReady)return;return view.goTo(target,{animate:!reduced,duration:800}).catch(error=>{if(error.name!=='AbortError')console.error('Spostamento della mappa non riuscito',error)})}
 function overview(includeCitations=false){
- if(isIllustrated)return illustratedMap?.fit();
+ if(isIllustrated)return illustratedMap?.fit(book.mapType==='webmap'?{actionOnly:!includeCitations}:undefined);
 
  if(!viewReady||!ExtentClass)return;
  const chapter=activeChapter();
@@ -535,10 +535,10 @@ async function selectMapPoint(event){
 }
 async function initializeMap(){
  if(isIllustrated){
-  illustratedMap=new IllustratedMapController(book.illustration,document.getElementById('map'),id=>{const index=activeChapter().places.indexOf(id);if(index<0)return;selectPlace(index,false);showMapPopup(true);centerSelectedPlace(false)},geographic=>{updateLocationNumbers();document.getElementById('osm-credit').hidden=!geographic;document.getElementById('map-heading').textContent=(current<0?t('All places'):(book.literaryViews?'':number(activeChapter().id)+' · ')+activeChapter().title)+(geographic?' · '+book.illustration.geographyLabels.map:'');if(book.illustratedView?.preferIllustratedAnchors)renderLocation();});
+  illustratedMap=new (book.mapType==='webmap'?window.WebMapController:IllustratedMapController)(book.webmap||book.illustration,document.getElementById('map'),id=>{const index=activeChapter().places.indexOf(id);if(index<0)return;selectPlace(index,false);showMapPopup(true);centerSelectedPlace(false)},geographic=>{updateLocationNumbers();document.getElementById('osm-credit').hidden=!geographic;document.getElementById('map-heading').textContent=(current<0?t('All places'):(book.literaryViews?'':number(activeChapter().id)+' · ')+activeChapter().title)+(geographic?' · '+book.illustration.geographyLabels.map:'');if(book.illustratedView?.preferIllustratedAnchors)renderLocation();});
   await illustratedMap.update(activeChapter(),visibleLayers,activeChapter().places[selectedPlace]);
   updateLocationNumbers();
-  try{const nativeView=await illustratedMap.initialize();view=nativeView;viewReady=true;['overview','zoom-in','zoom-out'].forEach(id=>document.getElementById(id).disabled=false);document.getElementById('map-error').hidden=true;}catch(error){showMapError('The interactive map is unavailable. The illustrated map remains visible.');console.error(error)}
+  try{const nativeView=await illustratedMap.initialize();view=nativeView;viewReady=true;['overview','zoom-in','zoom-out'].forEach(id=>document.getElementById(id).disabled=false);document.getElementById('map-error').hidden=true;}catch(error){showMapError(book.mapType==='webmap'?'The interactive map is unavailable.':'The interactive map is unavailable. The illustrated map remains visible.');console.error(error)}
   return;
  }
 
