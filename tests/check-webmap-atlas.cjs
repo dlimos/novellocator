@@ -70,6 +70,11 @@ const options={container:{},portalItemId:'0123456789abcdef0123456789abcdef',spat
  }
  const bad=structuredClone(payload);delete bad.sections[0].introduction.fr;assert.throws(()=>context.WebMapAtlasData.validate(bad),/introduction/);
  const pending=structuredClone(payload);pending.sections[0].references[0].original.verificationStatus='pending';assert.throws(()=>context.WebMapAtlasData.validate(pending),/Unreviewed/);
+ const held=structuredClone(payload),heldRef=held.sections[0].references[0];delete heldRef.original;
+ heldRef.quotationPublicationStatus='pending';heldRef.originalEvidenceSha256='a'.repeat(64);heldRef.bibliographicReference='Test edition, chapter 1, page 2';
+ const heldData=context.WebMapAtlasData.adapt(held,'it',{a:{x:2,y:3},m:{x:9,y:10}});
+ assert.equal(heldData.chapters[0].placeExcerpts.a,undefined);assert.equal(heldData.chapters[0].placeSources.a.label,heldRef.bibliographicReference);
+ delete heldRef.originalEvidenceSha256;assert.throws(()=>context.WebMapAtlasData.validate(held),/Missing original evidence/);
  console.log('PASS: Web Map multilingual adapter, optional independent badges, category preservation and rejected unverified excerpts.');
  payload.map.pointService='https://example.test/FeatureServer/1';
  context.fetch=async url=>{

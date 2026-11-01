@@ -60,12 +60,12 @@
         const label=labelsForView.get(place.id);if(!label)continue;
         const geometry={type:'point',x:place.x,y:place.y,spatialReference};
         const attributes={placeId:place.id,category:place.category};
-        const marker=new Graphic({geometry,attributes,symbol:{type:'simple-marker',style:'circle',size:30,
+        const marker=new Graphic({geometry,attributes,symbol:{type:'simple-marker',style:['area','street','uncertain'].includes(place.kind)?'diamond':'circle',size:30,
           color:colors[place.category],outline:{color:selectedId===place.id?'#e8c565':'#ffffff',width:selectedId===place.id?3.5:2}}});
         layers[place.category].add(marker);
         layers[place.category].add(new Graphic({geometry,attributes,symbol:{type:'text',text:label,color:'#ffffff',
           font:{family:'Arial',size:10,weight:'bold'},verticalAlignment:'middle',horizontalAlignment:'center'}}));
-        if(image&&place.name)layers[place.category].add(new Graphic({geometry,attributes,symbol:{type:'text',text:place.name,color:'#253c31',haloColor:'#f4efd9',haloSize:1.5,yoffset:-24,font:{family:'Georgia',size:10},verticalAlignment:'middle'}}));
+        if(image&&place.name&&(places.length<=24||selectedId===place.id))layers[place.category].add(new Graphic({geometry,attributes,symbol:{type:'text',text:place.name,color:'#253c31',haloColor:'#f4efd9',haloSize:1.5,yoffset:-24,font:{family:'Georgia',size:10},verticalAlignment:'middle'}}));
         graphics.set(place.id,marker);
       }
     }
@@ -125,7 +125,9 @@
    const seen=new Set();
    for(const ref of section.references||[]){
     if(!ids.has(ref.placeId)||seen.has(ref.placeId)||!['action','mentioned'].includes(ref.category))throw Error('Invalid Web Map reference');
-    if(!ref.original?.quote?.trim()||ref.original.language!=='en'||ref.original.verificationStatus!=='verified'||!ref.original.rightsReviewId)throw Error('Unreviewed quotation');
+    if(ref.original){
+     if(!ref.original.quote?.trim()||ref.original.language!=='en'||ref.original.verificationStatus!=='verified'||!ref.original.rightsReviewId)throw Error('Unreviewed quotation');
+    }else if(ref.quotationPublicationStatus!=='pending'||!/^[a-f0-9]{64}$/.test(ref.originalEvidenceSha256||'')||!ref.bibliographicReference?.trim())throw Error('Missing original evidence record');
     seen.add(ref.placeId);
    }
   }
@@ -158,15 +160,15 @@
   validate(payload);
   const labels=payload.labels[locale]||payload.labels.en;
   const book={...payload.book,title:choose(payload.book.title,locale),subtitle:choose(payload.book.subtitle,locale),description:labels.note,unit:({it:'sezione',en:'section',fr:'section',es:'sección'})[locale]||'section',mapType:'webmap',sidebarTitle:labels.sections,help:labels.help,sidebarNote:labels.note,footerHtml:labels.footerHtml,webmap:{...payload.map,positions,attribution:payload.map.attribution},initialView:{center:[0,0],zoom:4}};
-  const places=Object.fromEntries(Object.entries(payload.places).map(([id,p])=>[id,{...p,name:choose(p.names,locale),area:labels.world,kind:'site',status:'',note:labels.precision,method:labels.mapMethod,checked:payload.checked,positionSource:{url:payload.map.projectUrl,label:payload.map.attribution}}]));
+  const places=Object.fromEntries(Object.entries(payload.places).map(([id,p])=>[id,{...p,name:choose(p.names,locale),area:labels.world,kind:p.kind||'site',status:'',note:labels.precision+(choose(p.positionNote,locale)?' '+choose(p.positionNote,locale):''),method:labels.mapMethod,checked:payload.checked,positionSource:{url:payload.map.projectUrl,label:payload.map.attribution}}]));
   const chapters=payload.sections.map(section=>{
    const chapter={id:section.id,title:section.title,text:section.introduction[locale]||section.introduction.en,time:choose(section.time,locale)||undefined,people:choose(section.people,locale)||undefined,setting:labels.world,places:[],placeText:[],placeCategories:{},placeSources:{},placeExcerpts:{},placeKinds:{},placeNames:{},citations:[],unlocatedPlaces:[],links:[],note:section.references.length?undefined:labels.empty};
    for(const ref of section.references){
     chapter.places.push(ref.placeId);chapter.placeCategories[ref.placeId]=ref.category;
     chapter.placeText.push(chapter.text+' '+choose(ref.discussion,locale));
-    chapter.placeSources[ref.placeId]={label:ref.original.attribution};
-    chapter.placeExcerpts[ref.placeId]={original:ref.original,translations:{}};
-    chapter.placeKinds[ref.placeId]='site';chapter.placeNames[ref.placeId]=places[ref.placeId].name;
+    chapter.placeSources[ref.placeId]={label:ref.original?.attribution||ref.bibliographicReference};
+    if(ref.original)chapter.placeExcerpts[ref.placeId]={original:ref.original,translations:{}};
+    chapter.placeKinds[ref.placeId]=places[ref.placeId].kind;chapter.placeNames[ref.placeId]=places[ref.placeId].name;
    }
    return chapter;
   });
@@ -174,7 +176,7 @@
  }
  class WebMapController{
   constructor(config,container,onSelect){this.config=config;this.container=container;this.onSelect=onSelect;this.visible={action:true,mentioned:true};this.geographic=false;}
-  points(chapter=this.chapter){return (chapter?.places||[]).map(id=>({id,...this.config.positions[id],name:chapter.placeNames?.[id],category:chapter.placeCategories?.[id]||'action'}));}
+  points(chapter=this.chapter){return (chapter?.places||[]).map(id=>({id,...this.config.positions[id],name:chapter.placeNames?.[id],kind:chapter.placeKinds?.[id],category:chapter.placeCategories?.[id]||'action'}));}
   visibleNumbers(chapter,visible){return root.AtlasWebMapRenderer.labels(this.points(chapter),visible);}
   async update(chapter,visible,selected){
    const changed=this.chapter?.id!==chapter.id;this.chapter=chapter;this.visible={...visible};this.selected=selected;

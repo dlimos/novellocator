@@ -84,7 +84,8 @@ for(const [book,[sections,places,references,language]]of Object.entries(books)){
 const html=fs.readFileSync('docs/atlas.html','utf8');for(const id of ['layer-markers','layer-action','layer-mentioned'])assert.match(html,new RegExp('id="'+id+'"'));
 const catalogue={window:{}};vm.runInNewContext(fs.readFileSync('docs/content/books.js','utf8'),catalogue);
 const survey=[];
-for(const {id:book}of catalogue.window.atlasCatalogue.books){
+// Image/Web Map datasets are loaded from book_maps and checked by check-webmap-atlas.cjs.
+for(const {id:book}of catalogue.window.atlasCatalogue.books.filter(book=>book.mapType!=='webmap')){
  const {run,elements}=setup(book,'en');let mixed=-1;
  const count=run('chapters.length');
  for(let i=-1;i<count;i++){
