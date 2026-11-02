@@ -12,9 +12,9 @@ class WebMap extends Properties{
 }
 class Graphics extends Properties{constructor(props){super(props);this.graphics=[];}add(graphic){this.graphics.push(graphic);}removeAll(){this.graphics=[];}}
 class View extends Properties{
-  constructor(props){super(props);latestView=this;this.targets=[];}
+  constructor(props){super(props);latestView=this;this.targets=[];this.handlers={};this.width=950;this.height=650;this.center={x:950,y:-650};this.resolution=2;this.scale=2000;}
   async when(){}
-  on(type,callback){handler=callback;return {remove(){removed++;}};}
+  on(type,callback){handler=callback;this.handlers[type]=callback;return {remove(){removed++;}};}
   async hitTest(){return {results:[{graphic:{attributes:{placeId:'a'}}}]};}
   async goTo(target){this.targets.push(target);}
   destroy(){destroyed++;}
@@ -48,11 +48,25 @@ const options={container:{},portalItemId:'0123456789abcdef0123456789abcdef',spat
   await assert.rejects(create({...options,contextLayerIds:['absent']}),/Missing context/);assert.equal(destroyed,3);
   class ImageMap extends Properties{constructor(props){super(props);this.layers=new Collection(...props.layers);latestMap=this;}add(layer){this.layers.push(layer);}}
   class Media extends Properties{async load(){}}
-  const imageApi=await create({...options,portalItemId:undefined,contextLayerIds:undefined,image:{url:'https://example.test/map.jpg',width:1900,height:1300},contextLabels:[{name:'Region',x:500,y:-500}],load:async()=>[WebMap,View,Graphics,Properties,Properties,ImageMap,Media,Properties,Properties]});
+  let enforce,frameRemoved=false;
+  const reactive={watch(read,callback){enforce=callback;return {remove(){frameRemoved=true;}};}};
+  const imageApi=await create({...options,portalItemId:undefined,contextLayerIds:undefined,image:{url:'https://example.test/map.jpg',width:1900,height:1300},contextLabels:[{name:'Region',x:500,y:-500}],load:async()=>[WebMap,View,Graphics,Properties,Properties,ImageMap,Media,Properties,Properties,reactive]});
   assert.equal(latestMap.layers[0].source[0].image,'https://example.test/map.jpg');
   assert.equal(latestMap.layers[0].source[0].georeference.extent.ymin,-1300);
   assert.equal(latestMap.layers[1].graphics[0].symbol.text,'Region');
-  assert.deepEqual([...imageApi.getLabels()],[['m','C1'],['a','1'],['b','2']]);imageApi.destroy();
+  assert.equal(latestView.extent.xmin,0);assert.equal(latestView.extent.xmax,1900);
+  assert.equal(latestView.extent.ymin,-1300);assert.equal(latestView.extent.ymax,0);
+  assert.deepEqual(latestView.padding,{top:0,bottom:0,left:0,right:0});
+  assert.equal(latestView.constraints.minScale,2000);
+  await imageApi.fit({actionOnly:true});assert.equal(latestView.targets.at(-1).xmax,1900,'Chapter changes retain the full image frame');
+  await imageApi.zoom(2);assert.equal(latestView.targets.at(-1).scale,2000,'Zoom out cannot exceed the image');
+  let stopped=0;latestView.handlers.drag({stopPropagation(){stopped++;}});
+  latestView.handlers['key-down']({key:'ArrowLeft',stopPropagation(){stopped++;}});assert.equal(stopped,2);
+  latestView.resolution=1;latestView.scale=1000;latestView.center={x:0,y:0};enforce();
+  assert.equal(latestView.center.x,475);assert.equal(latestView.center.y,-325,'Selection near an edge remains inside the map');
+  latestView.width=1300;latestView.height=950;enforce();
+  assert.equal(latestView.constraints.minScale,1300/950*1000,'Fullscreen/resizing recomputes the zoom-out limit');
+  assert.deepEqual([...imageApi.getLabels()],[['m','C1'],['a','1'],['b','2']]);imageApi.destroy();assert(frameRemoved);
   console.log('PASS: local coordinates, context filtering, category numbering, selection, action-only initial fit, visible-layer fit and disposal. Mock SDK; separate browser verification is documented in PROGRESS.md.');
 })().catch(error=>{console.error(error);process.exitCode=1;});
 

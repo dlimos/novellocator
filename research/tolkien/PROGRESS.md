@@ -312,3 +312,10 @@ Sono passati il controllo dei riscontri originali, i due test di rifiuto e il co
 [minas-tirith-setting-review.json](minas-tirith-setting-review.json) distingue sala, cortile e White Tower, le stanze delle Case di Guarigione e i diversi luoghi delle conversazioni presso le mura. Il riscontro di VI.5 documenta una scena nella camera di Éowyn; quello di V.4 documenta il trasporto di Faramir nella White Tower. Non si inventano indirizzi o piante misurate. Il totale aggiornato è 3.316 associazioni (1.428 action, 1.888 mentioned), con 23 gruppi di identità, 284 annotazioni e 15 distinzioni di non equivalenza. La collazione dell’intero inventario non è conclusa.
 
 La prima edizione pubblica usa una selezione distinta: 207 riscontri per 11 località principali. Il giudizio sui diritti della selezione e la consultazione remota dei servizi ArcGIS sono documentati in [PUBLICATION.md](PUBLICATION.md); non estendono automaticamente la pubblicabilità agli altri record privati. Sono state verificate identità dei dati remoti e disponibilità anonima dopo la pubblicazione.
+# Vincolo della cornice cartografica — 2 novembre 2026
+
+- Il renderer delle mappe su immagine usa l'intera estensione del disegno (Tolkien: X 0–1900, Y −1300–0), senza padding né inquadratura automatica sui punti del capitolo.
+- Riquadro proporzionato all'immagine, limite allo zoom indietro ricalcolato al ridimensionamento, centro vincolato ai bordi; trascinamento e spostamenti con frecce bloccati. Selezione, filtri e numerazione restano indipendenti dalla cornice.
+- «Inquadra i punti» ripristina il disegno completo per questa cartografia. Nessuna modifica ai contenuti del database: il vincolo deriva dalle dimensioni dell'immagine già pubblicate.
+- Verifiche: suite automatica completa; test specifici del renderer per estensione, limite di scala, ridimensionamento, blocco del pan e rilascio degli observer. Riscontro ArcGIS reale in anteprima: extent esatto [0, −1300, 1900, 0] su viewport 760 × 520.
+

@@ -25,7 +25,7 @@
     return globalThis.$arcgis.import(['@arcgis/core/WebMap.js','@arcgis/core/views/MapView.js',
       '@arcgis/core/layers/GraphicsLayer.js','@arcgis/core/Graphic.js','@arcgis/core/geometry/Extent.js',
       '@arcgis/core/Map.js','@arcgis/core/layers/MediaLayer.js','@arcgis/core/layers/support/ImageElement.js',
-      '@arcgis/core/layers/support/ExtentAndRotationGeoreference.js']);
+      '@arcgis/core/layers/support/ExtentAndRotationGeoreference.js','@arcgis/core/core/reactiveUtils.js']);
   }
   async function create({container,portalItemId,spatialReference,initialExtent,contextLayerIds,
     image,contextLabels=[],places=[],onSelect=()=>{},load=loadSDK}){
@@ -36,13 +36,35 @@
       initialExtent.xmax<=initialExtent.xmin||initialExtent.ymax<=initialExtent.ymin)throw Error('Finite nonempty editorial extent required');
     if(!image&&(!Array.isArray(contextLayerIds)||!contextLayerIds.length||contextLayerIds.some(id=>typeof id!=='string'||!id)))throw Error('Explicit context layer allowlist required');
     validatePlaces(places);
-    const [WebMap,MapView,GraphicsLayer,Graphic,Extent,ImageMap,MediaLayer,ImageElement,Georeference]=await load();
-    let map,view,clickHandle,disposed=false,selectedId=null;
+    const [WebMap,MapView,GraphicsLayer,Graphic,Extent,ImageMap,MediaLayer,ImageElement,Georeference,reactiveUtils]=await load();
+    let map,view,clickHandle,frameHandle,disposed=false,selectedId=null;
+    const navigationHandles=[];
+    let frameSize='',homeResolution=0;
+    const imageExtent=image?new Extent({xmin:0,ymin:-image.height,xmax:image.width,ymax:0,spatialReference}):null;
+    // Cover the viewport at home; matching aspect ratios show the exact full image.
+    // Other viewport shapes crop the image rather than exposing its empty exterior.
+    function enforceFrame(){
+      if(!image||disposed||!view.center||!(view.resolution>0)||!(view.scale>0))return;
+      if(['top','bottom','left','right'].some(side=>view.padding?.[side]))view.padding={top:0,bottom:0,left:0,right:0};
+      const width=Math.max(1,view.width),height=Math.max(1,view.height);
+      const resolution=Math.min(image.width/width,image.height/height);
+      const size=width+':'+height,keepHome=frameSize!==size&&homeResolution>0&&view.resolution>=homeResolution*.999;
+      frameSize=size;homeResolution=resolution;
+      view.constraints.minScale=resolution*view.scale/view.resolution;
+      if(keepHome||view.scale>view.constraints.minScale)view.scale=view.constraints.minScale;
+      const halfX=Math.min(view.resolution,resolution)*width/2;
+      const halfY=Math.min(view.resolution,resolution)*height/2;
+      const x=Math.max(halfX,Math.min(image.width-halfX,view.center.x));
+      const y=Math.max(-image.height+halfY,Math.min(-halfY,view.center.y));
+      if(Math.abs(x-view.center.x)>1e-7||Math.abs(y-view.center.y)>1e-7)
+        view.center={type:'point',x,y,spatialReference};
+    }
     const visible={action:true,mentioned:true},layers={},graphics=new Map();
     const editorial=()=>new Extent({...initialExtent,spatialReference});
     const assertLive=()=>{if(disposed)throw Error('Renderer disposed');};
     async function navigate(target){
-      try{await view.goTo(target);}catch(error){if(error.name!=='AbortError')throw error;}
+      try{await view.goTo(target,{animate:!image});}catch(error){if(error.name!=='AbortError')throw error;}
+      enforceFrame();
     }
     function fitExtent(points){
       if(!points.length)return editorial();
@@ -72,7 +94,7 @@
     let labelsForView=labels(places,visible);
     try{
       if(image){
-        const extent=new Extent({xmin:0,ymin:-image.height,xmax:image.width,ymax:0,spatialReference});
+        const extent=imageExtent;
         const background=new MediaLayer({source:[new ImageElement({image:image.url,georeference:new Georeference({extent})})],title:image.attribution||'Cartography',copyright:image.attribution||''});
         const context=new GraphicsLayer({id:'map-context',title:'Cartographic context'});
         for(const label of contextLabels)context.add(new Graphic({geometry:{type:'point',x:label.x,y:label.y,spatialReference},symbol:{type:'text',text:label.name,color:'#594a37',haloColor:'#ece7ca',haloSize:1,font:{family:'Georgia',size:label.size||12},horizontalAlignment:'center'}}));
@@ -90,10 +112,17 @@
         layers[category]=new GraphicsLayer({id:'atlas-'+category,title:category});map.add(layers[category]);
       }
       paint();
-      view=new MapView({container,map,spatialReference,extent:fitExtent(places.filter(p=>p.category==='action')),
-        ui:{components:[]},navigation:{mouseWheelZoomEnabled:false},padding:{top:55,bottom:35,left:20,right:20},popupEnabled:false,constraints:{rotationEnabled:false,snapToZoom:false},
+      view=new MapView({container,map,spatialReference,extent:imageExtent||fitExtent(places.filter(p=>p.category==='action')),
+        ui:{components:[]},navigation:{mouseWheelZoomEnabled:false},padding:image?{top:0,bottom:0,left:0,right:0}:{top:55,bottom:35,left:20,right:20},popupEnabled:false,constraints:{...(image?{geometry:imageExtent}:{}),rotationEnabled:false,snapToZoom:false},
         background:{color:'#ecf0f5'}});
       await view.when();
+      if(image){
+        frameHandle=reactiveUtils.watch(()=>[view.center?.x,view.center?.y,view.resolution,view.width,view.height,view.padding?.top,view.padding?.bottom,view.padding?.left,view.padding?.right],enforceFrame);
+        navigationHandles.push(view.on('drag',event=>event.stopPropagation()),view.on('key-down',event=>{
+          if(['ArrowUp','ArrowDown','ArrowLeft','ArrowRight'].includes(event.key))event.stopPropagation();
+        }));
+        enforceFrame();
+      }
       clickHandle=view.on('click',async event=>{
         const result=await view.hitTest(event,{include:Object.values(layers)});
         if(disposed)return;
@@ -105,10 +134,11 @@
         setPlaces(next){assertLive();validatePlaces(next);places=next;if(!places.some(place=>place.id===selectedId))selectedId=null;labelsForView=labels(places,visible);paint();},
         highlight(id){assertLive();selectedId=places.some(p=>p.id===id)?id:null;paint();},
         async select(id){assertLive();if(!graphics.has(id))return false;selectedId=id;paint();await navigate({center:graphics.get(id).geometry});return true;},
-        async fit({actionOnly=false}={}){assertLive();await navigate(fitExtent(places.filter(place=>visible[place.category]&&(!actionOnly||place.category==='action'))));},
-        destroy(){if(disposed)return;disposed=true;clickHandle?.remove();view.destroy();}
+        async fit({actionOnly=false}={}){assertLive();await navigate(imageExtent||fitExtent(places.filter(place=>visible[place.category]&&(!actionOnly||place.category==='action'))));},
+        async zoom(factor){assertLive();enforceFrame();await navigate({scale:image?Math.min(view.scale*factor,view.constraints.minScale):view.scale*factor});},
+        destroy(){if(disposed)return;disposed=true;clickHandle?.remove();frameHandle?.remove();navigationHandles.forEach(handle=>handle.remove());view.destroy();}
       };
-    }catch(error){disposed=true;clickHandle?.remove();if(view)view.destroy();else map?.destroy();throw error;}
+    }catch(error){disposed=true;clickHandle?.remove();frameHandle?.remove();navigationHandles.forEach(handle=>handle.remove());if(view)view.destroy();else map?.destroy();throw error;}
   }
   return {create,labels,validatePlaces};
 });
@@ -191,6 +221,14 @@
    if(changed)await this.renderer.fit({actionOnly:true});
   }
   async initialize(){
+   if(this.config.image){
+    const stage=this.container.closest?.('.map-wrap');
+    if(stage){
+     const ratio=this.config.image.width/this.config.image.height;
+     stage.classList.add('image-map-frame');stage.style.setProperty('--image-map-ratio',ratio);
+     stage.style.setProperty('--image-map-width',100*ratio+'dvh');stage.style.setProperty('--image-map-height',100/ratio+'vw');
+    }
+   }
    this.renderer=await root.AtlasWebMapRenderer.create({container:this.container,...this.config,places:this.points(),onSelect:this.onSelect});
    for(const category of ['action','mentioned'])this.renderer.setVisible(category,this.visible[category]);
    this.renderer.highlight(this.selected);
@@ -203,7 +241,7 @@
   allowGeographicSelection(){}
   focus(id){return this.renderer?.select(id);}
   fit(options){return this.renderer?.fit(options);}
-  zoom(factor){const view=this.renderer?.view;if(view)return view.goTo({scale:view.scale*factor},{animate:false}).catch(e=>{if(e.name!=='AbortError')throw e;});}
+  zoom(factor){return this.renderer?.zoom(factor);}
  }
  root.WebMapAtlasData={load,adapt,validate};root.WebMapController=WebMapController;
 })(typeof window==='object'?window:globalThis);

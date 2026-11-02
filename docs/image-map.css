@@ -1,0 +1,9 @@
+/* Keep the viewport proportional to the drawing: the full home extent fills it
+   exactly, without blank space outside the image or cropped map edges. */
+.map-wrap.image-map-frame{height:auto;aspect-ratio:var(--image-map-ratio);flex:none;overflow:hidden}
+.map-wrap.image-map-frame:fullscreen,.map-wrap.image-map-frame.map-expanded{
+  width:min(100vw,var(--image-map-width))!important;
+  height:min(100dvh,var(--image-map-height))!important;
+  margin:auto!important;
+}
+.map-wrap.image-map-frame::backdrop{background:#152d28}
