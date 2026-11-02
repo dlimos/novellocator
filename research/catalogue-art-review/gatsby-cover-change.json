@@ -1,0 +1,36 @@
+{
+  "patch": {
+    "src": "images/gatsby-stettheimer-fifth-avenue.jpg",
+    "alt": "The Cathedrals of Fifth Avenue by Florine Stettheimer, 1931",
+    "width": 3083,
+    "height": 3712,
+    "position": "center 70%"
+  },
+  "credit": {
+    "artist": "Florine Stettheimer",
+    "title": "The Cathedrals of Fifth Avenue",
+    "year": "1931",
+    "url": "https://www.metmuseum.org/art/collection/search/488735",
+    "reproduction": "Metropolitan Museum of Art donation to Wikimedia Commons",
+    "reproductionUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3b/The_Cathedrals_of_Fifth_Avenue_MET_DT11557.jpg",
+    "license": "CC0 1.0 — specific Commons reproduction donated by the Met",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:The_Cathedrals_of_Fifth_Avenue_MET_DT11557.jpg",
+    "checked": "2026-11-02",
+    "reuseNote": "Specific 2017 Commons file identifies a Met donation and CC0 dedication. The present Met page restricts downloads: this update uses the separately documented Commons reproduction, not an assumed blanket Met Open Access grant. Thematic editorial link: high society, marriage and conspicuous consumption; not an illustration of Fitzgerald or the year 1922."
+  },
+  "translations": {
+    "en": {
+      "The Cathedrals of Fifth Avenue by Florine Stettheimer, 1931": "The Cathedrals of Fifth Avenue by Florine Stettheimer, 1931"
+    },
+    "it": {
+      "The Cathedrals of Fifth Avenue by Florine Stettheimer, 1931": "Le cattedrali della Fifth Avenue di Florine Stettheimer, 1931"
+    },
+    "fr": {
+      "The Cathedrals of Fifth Avenue by Florine Stettheimer, 1931": "Les Cathédrales de la Cinquième Avenue de Florine Stettheimer, 1931"
+    },
+    "es": {
+      "The Cathedrals of Fifth Avenue by Florine Stettheimer, 1931": "Las catedrales de la Quinta Avenida de Florine Stettheimer, 1931"
+    }
+  },
+  "documentation": "## The Great Gatsby — Florine Stettheimer (2 November 2026)\n\nThe Cathedrals of Fifth Avenue, 1931, oil on canvas, Metropolitan Museum of Art, 53.24.4. Museum record: https://www.metmuseum.org/art/collection/search/488735\n\nUser-approved replacement for Bellows. Level 2: high society, marriage, luxury and conspicuous consumption, as discussed by the museum. It is not an illustration of Gatsby or Daisy. Full original 3083 × 3712 pixels retained unchanged; CSS position center 70% keeps the wedding and luxury details in the card.\n\nSpecific reproduction: https://commons.wikimedia.org/wiki/File:The_Cathedrals_of_Fifth_Avenue_MET_DT11557.jpg . The page identifies a donation from the Met and CC0 1.0, including CC0 in the file metadata; original upload 25 March 2017, 3.32 MB. Artist died in 1944; the ordinary life-plus-70 term has elapsed in Italy/EU. Do not infer a universal licence from the current museum page: it restricts image downloads. The source selected here is the specific Commons file with its documented dedication. Source file: https://upload.wikimedia.org/wikipedia/commons/3/3b/The_Cathedrals_of_Fifth_Avenue_MET_DT11557.jpg . Licence deed: https://creativecommons.org/publicdomain/zero/1.0/ .\n\nThe catalogue credit contains only artist, linked artwork title and year. Old Bellows file retained as archive. No change to Holden or other books.\n"
+}
