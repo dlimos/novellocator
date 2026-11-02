@@ -1,0 +1,121 @@
+[
+  {
+    "alt": "Strade di Dublino: un venditore di libri, di Walter Osborne, 1889",
+    "credit": "Fonte dell’immagineWalter Osborne · Dublin Streets: a Vendor of Books · 1889",
+    "id": "ulisse",
+    "image": "images/ulisse-osborne-books.jpg",
+    "source": "https://onlinecollection.nationalgallery.ie/objects/12378/dublin-streets-a-vendor-of-books"
+  },
+  {
+    "alt": "Il circolo di rue Royale, di James Tissot, 1866",
+    "credit": "Fonte dell’immagineJames Tissot · Le Cercle de la rue Royale · 1866",
+    "id": "proust",
+    "image": "images/proust-tissot-cercle.jpg",
+    "source": "https://www.musee-orsay.fr/en/artworks/le-cercle-de-la-rue-royale-160849"
+  },
+  {
+    "alt": "New York di George Bellows, 1911",
+    "credit": "Fonte dell’immagineGeorge Bellows · New York · 1911",
+    "id": "gatsby",
+    "image": "images/gatsby-bellows-new-york.jpg",
+    "source": "https://www.nga.gov/artworks/69392-new-york"
+  },
+  {
+    "alt": "Foresta tropicale con scimmie di Henri Rousseau, 1910",
+    "credit": "Fonte dell’immagineHenri Rousseau · Tropical Forest with Monkeys · 1910",
+    "id": "macondo",
+    "image": "images/macondo-rousseau.jpg",
+    "source": "https://www.nga.gov/artworks/61253-tropical-forest-monkeys"
+  },
+  {
+    "alt": "Neve a New York di Robert Henri, 1902",
+    "credit": "Fonte dell’immagineRobert Henri · Snow in New York · 1902",
+    "id": "holden",
+    "image": "images/holden-henri-snow.jpg",
+    "source": "https://www.nga.gov/artworks/42929-snow-new-york"
+  },
+  {
+    "alt": "Baleniere in mare, di J. M. W. Turner",
+    "credit": "Fonte dell’immagineJ. M. W. Turner · Whalers · 1845",
+    "id": "moby-dick",
+    "image": "images/moby-dick.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Whalers_MET_DP169567.jpg"
+  },
+  {
+    "alt": "Il Tamigi sotto Westminster di Claude Monet, circa 1871",
+    "credit": "Fonte dell’immagineClaude Monet · The Thames below Westminster · c. 1871",
+    "id": "orwell1984",
+    "image": "images/orwell1984-monet-westminster.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_The_Thames_below_Westminster.jpg"
+  },
+  {
+    "alt": "Don Chisciotte e la mula morta di Honoré Daumier, dopo il 1864",
+    "credit": "Fonte dell’immagineHonoré Daumier · Don Quixote and the Dead Mule · after 1864",
+    "id": "don-quijote",
+    "image": "images/don-quijote-daumier.jpg",
+    "source": "https://www.metmuseum.org/art/collection/search/436092"
+  },
+  {
+    "alt": "The Cotton Pickers di Winslow Homer, 1876",
+    "credit": "Fonte dell’immagineWinslow Homer · The Cotton Pickers · 1876",
+    "id": "sound-and-fury",
+    "image": "images/sound-and-fury-homer-cotton.jpg",
+    "source": "https://collections.lacma.org/object/79639"
+  },
+  {
+    "alt": "Ritratto di una sconosciuta di Ivan Kramskoj, 1883",
+    "credit": "Fonte dell’immagineIvan Kramskoi · Portrait of an Unknown Woman · 1883",
+    "id": "anna-karenina",
+    "image": "images/anna-karenina-kramskoy.jpg",
+    "source": "https://www.tretyakovgallery.ru/issues/ivan-kramskoy-neizvestnaya/"
+  },
+  {
+    "alt": "La Sonate à Kreutzer di René-Xavier Prinet, 1901",
+    "credit": "Fonte dell’immagineRené-Xavier Prinet · La Sonate à Kreutzer · 1901",
+    "id": "lolita",
+    "image": "images/lolita-prinet-kreutzer.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Prinet_-_Kreutzer_Sonata.jpg"
+  },
+  {
+    "alt": "Il primo ballo di Nataša Rostova, di Leonid Pasternak, 1893",
+    "credit": "Fonte dell’immagineLeonid Pasternak · Natasha Rostova’s first ball · c. 1893",
+    "id": "war-and-peace",
+    "image": "images/war-and-peace-pasternak-natasha.jpg",
+    "source": "https://ar.culture.ru/en/subject/pasternak-natasha-na-balu"
+  },
+  {
+    "alt": "Prospettiva Nevskij di notte di Nikolaj Jarošenko, 1875",
+    "credit": "Fonte dell’immagineNikolai Yaroshenko · Nevsky Prospekt at Night · 1875",
+    "id": "crime-and-punishment",
+    "image": "images/crime-and-punishment-yaroshenko-nevsky.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:%D0%9D%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D0%BF%D1%80%D0%BE%D1%81%D0%BF%D0%B5%D0%BA%D1%82_%D0%BD%D0%BE%D1%87%D1%8C%D1%8E-%D0%AF%D1%80%D0%BE%D1%88%D0%B5%D0%BD%D0%BA%D0%BE.jpg"
+  },
+  {
+    "alt": "Dolmen nella neve (Hünengrab im Schnee), Caspar David Friedrich, 1807",
+    "credit": "Fonte dell’immagineCaspar David Friedrich · Hünengrab im Schnee · 1807",
+    "id": "wuthering-heights",
+    "image": "images/wuthering-heights-friedrich.jpg",
+    "source": "https://skd-online-collection.skd.museum/Details/Index/241955"
+  },
+  {
+    "alt": "Thomas Gainsborough, La passeggiata mattutina (Mr e Mrs William Hallett), 1785",
+    "credit": "Fonte dell’immagineThomas Gainsborough · Mr and Mrs William Hallett (The Morning Walk) · 1785",
+    "id": "pride-and-prejudice",
+    "image": "images/pride-and-prejudice-gainsborough-morning-walk.jpg",
+    "source": "https://www.nationalgallery.org.uk/paintings/thomas-gainsborough-mr-and-mrs-william-hallett-the-morning-walk"
+  },
+  {
+    "alt": "The Thankful Poor di Henry Ossawa Tanner, 1894",
+    "credit": "Fonte dell’immagineHenry Ossawa Tanner · The Thankful Poor · 1894",
+    "id": "to-kill-a-mockingbird",
+    "image": "images/mockingbird-tanner-thankful-poor.jpg",
+    "source": "https://artbridgesfoundation.org/artworks/tanner-the-thankful-poor"
+  },
+  {
+    "alt": "Among the Sierra Nevada, California di Albert Bierstadt, 1868",
+    "credit": "Fonte dell’immagineAlbert Bierstadt · Among the Sierra Nevada, California · 1868",
+    "id": "lord-of-the-rings",
+    "image": "images/tolkien-bierstadt-sierra-nevada.jpg",
+    "source": "https://americanart.si.edu/artwork/among-sierra-nevada-california-2059"
+  }
+]
