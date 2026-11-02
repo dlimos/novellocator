@@ -38,7 +38,6 @@
     validatePlaces(places);
     const [WebMap,MapView,GraphicsLayer,Graphic,Extent,ImageMap,MediaLayer,ImageElement,Georeference,reactiveUtils]=await load();
     let map,view,clickHandle,frameHandle,disposed=false,selectedId=null;
-    const navigationHandles=[];
     let frameSize='',homeResolution=0;
     const imageExtent=image?new Extent({xmin:0,ymin:-image.height,xmax:image.width,ymax:0,spatialReference}):null;
     // Cover the viewport at home; matching aspect ratios show the exact full image.
@@ -118,9 +117,6 @@
       await view.when();
       if(image){
         frameHandle=reactiveUtils.watch(()=>[view.center?.x,view.center?.y,view.resolution,view.width,view.height,view.padding?.top,view.padding?.bottom,view.padding?.left,view.padding?.right],enforceFrame);
-        navigationHandles.push(view.on('drag',event=>event.stopPropagation()),view.on('key-down',event=>{
-          if(['ArrowUp','ArrowDown','ArrowLeft','ArrowRight'].includes(event.key))event.stopPropagation();
-        }));
         enforceFrame();
       }
       clickHandle=view.on('click',async event=>{
@@ -136,9 +132,9 @@
         async select(id){assertLive();if(!graphics.has(id))return false;selectedId=id;paint();await navigate({center:graphics.get(id).geometry});return true;},
         async fit({actionOnly=false}={}){assertLive();await navigate(imageExtent||fitExtent(places.filter(place=>visible[place.category]&&(!actionOnly||place.category==='action'))));},
         async zoom(factor){assertLive();enforceFrame();await navigate({scale:image?Math.min(view.scale*factor,view.constraints.minScale):view.scale*factor});},
-        destroy(){if(disposed)return;disposed=true;clickHandle?.remove();frameHandle?.remove();navigationHandles.forEach(handle=>handle.remove());view.destroy();}
+        destroy(){if(disposed)return;disposed=true;clickHandle?.remove();frameHandle?.remove();view.destroy();}
       };
-    }catch(error){disposed=true;clickHandle?.remove();frameHandle?.remove();navigationHandles.forEach(handle=>handle.remove());if(view)view.destroy();else map?.destroy();throw error;}
+    }catch(error){disposed=true;clickHandle?.remove();frameHandle?.remove();if(view)view.destroy();else map?.destroy();throw error;}
   }
   return {create,labels,validatePlaces};
 });

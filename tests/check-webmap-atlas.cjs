@@ -60,10 +60,13 @@ const options={container:{},portalItemId:'0123456789abcdef0123456789abcdef',spat
   assert.equal(latestView.constraints.minScale,2000);
   await imageApi.fit({actionOnly:true});assert.equal(latestView.targets.at(-1).xmax,1900,'Chapter changes retain the full image frame');
   await imageApi.zoom(2);assert.equal(latestView.targets.at(-1).scale,2000,'Zoom out cannot exceed the image');
-  let stopped=0;latestView.handlers.drag({stopPropagation(){stopped++;}});
-  latestView.handlers['key-down']({key:'ArrowLeft',stopPropagation(){stopped++;}});assert.equal(stopped,2);
+  assert.equal(latestView.handlers.drag,undefined,'Pan remains enabled');
+  assert.equal(latestView.handlers['key-down'],undefined,'Keyboard navigation remains enabled');
+  latestView.resolution=1;latestView.scale=1000;latestView.center={x:900,y:-600};enforce();
+  assert.deepEqual(latestView.center,{x:900,y:-600},'Pan inside the image is preserved');
   latestView.resolution=1;latestView.scale=1000;latestView.center={x:0,y:0};enforce();
   assert.equal(latestView.center.x,475);assert.equal(latestView.center.y,-325,'Selection near an edge remains inside the map');
+  latestView.center={x:3000,y:-3000};enforce();assert.equal(latestView.center.x,1425);assert.equal(latestView.center.y,-975,'Pan cannot expose the opposite image edges');
   latestView.width=1300;latestView.height=950;enforce();
   assert.equal(latestView.constraints.minScale,1300/950*1000,'Fullscreen/resizing recomputes the zoom-out limit');
   assert.deepEqual([...imageApi.getLabels()],[['m','C1'],['a','1'],['b','2']]);imageApi.destroy();assert(frameRemoved);
