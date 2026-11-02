@@ -1,0 +1,104 @@
+[
+  {
+    "alt": "Strade di Dublino: un venditore di libri, di Walter Osborne, 1889",
+    "credit": "Fonte dell’immagineWalter Osborne · Dublin Streets: a Vendor of Books · 1889",
+    "id": "ulisse",
+    "src": "images/ulisse-osborne-books.jpg"
+  },
+  {
+    "alt": "Il circolo di rue Royale, di James Tissot, 1866",
+    "credit": "Fonte dell’immagineJames Tissot · Le Cercle de la rue Royale · 1866",
+    "id": "proust",
+    "src": "images/proust-tissot-cercle.jpg"
+  },
+  {
+    "alt": "Le cattedrali della Fifth Avenue di Florine Stettheimer, 1931",
+    "credit": "Fonte dell’immagineFlorine Stettheimer · The Cathedrals of Fifth Avenue · 1931",
+    "id": "gatsby",
+    "src": "images/gatsby-stettheimer-fifth-avenue.jpg"
+  },
+  {
+    "alt": "Foresta tropicale con scimmie di Henri Rousseau, 1910",
+    "credit": "Fonte dell’immagineHenri Rousseau · Tropical Forest with Monkeys · 1910",
+    "id": "macondo",
+    "src": "images/macondo-rousseau.jpg"
+  },
+  {
+    "alt": "Neve a New York di Robert Henri, 1902",
+    "credit": "Fonte dell’immagineRobert Henri · Snow in New York · 1902",
+    "id": "holden",
+    "src": "images/holden-henri-snow.jpg"
+  },
+  {
+    "alt": "Baleniere in mare, di J. M. W. Turner",
+    "credit": "Fonte dell’immagineJ. M. W. Turner · Whalers · 1845",
+    "id": "moby-dick",
+    "src": "images/moby-dick.jpg"
+  },
+  {
+    "alt": "Il Tamigi sotto Westminster di Claude Monet, circa 1871",
+    "credit": "Fonte dell’immagineClaude Monet · The Thames below Westminster · c. 1871",
+    "id": "orwell1984",
+    "src": "images/orwell1984-monet-westminster.jpg"
+  },
+  {
+    "alt": "Don Chisciotte e la mula morta di Honoré Daumier, dopo il 1864",
+    "credit": "Fonte dell’immagineHonoré Daumier · Don Quixote and the Dead Mule · after 1864",
+    "id": "don-quijote",
+    "src": "images/don-quijote-daumier.jpg"
+  },
+  {
+    "alt": "The Cotton Pickers di Winslow Homer, 1876",
+    "credit": "Fonte dell’immagineWinslow Homer · The Cotton Pickers · 1876",
+    "id": "sound-and-fury",
+    "src": "images/sound-and-fury-homer-cotton.jpg"
+  },
+  {
+    "alt": "Ritratto di una sconosciuta di Ivan Kramskoj, 1883",
+    "credit": "Fonte dell’immagineIvan Kramskoi · Portrait of an Unknown Woman · 1883",
+    "id": "anna-karenina",
+    "src": "images/anna-karenina-kramskoy.jpg"
+  },
+  {
+    "alt": "La Sonate à Kreutzer di René-Xavier Prinet, 1901",
+    "credit": "Fonte dell’immagineRené-Xavier Prinet · La Sonate à Kreutzer · 1901",
+    "id": "lolita",
+    "src": "images/lolita-prinet-kreutzer.jpg"
+  },
+  {
+    "alt": "Il primo ballo di Nataša Rostova, di Leonid Pasternak, 1893",
+    "credit": "Fonte dell’immagineLeonid Pasternak · Natasha Rostova’s first ball · c. 1893",
+    "id": "war-and-peace",
+    "src": "images/war-and-peace-pasternak-natasha.jpg"
+  },
+  {
+    "alt": "Prospettiva Nevskij di notte di Nikolaj Jarošenko, 1875",
+    "credit": "Fonte dell’immagineNikolai Yaroshenko · Nevsky Prospekt at Night · 1875",
+    "id": "crime-and-punishment",
+    "src": "images/crime-and-punishment-yaroshenko-nevsky.jpg"
+  },
+  {
+    "alt": "Dolmen nella neve (Hünengrab im Schnee), Caspar David Friedrich, 1807",
+    "credit": "Fonte dell’immagineCaspar David Friedrich · Hünengrab im Schnee · 1807",
+    "id": "wuthering-heights",
+    "src": "images/wuthering-heights-friedrich.jpg"
+  },
+  {
+    "alt": "Thomas Gainsborough, La passeggiata mattutina (Mr e Mrs William Hallett), 1785",
+    "credit": "Fonte dell’immagineThomas Gainsborough · Mr and Mrs William Hallett (The Morning Walk) · 1785",
+    "id": "pride-and-prejudice",
+    "src": "images/pride-and-prejudice-gainsborough-morning-walk.jpg"
+  },
+  {
+    "alt": "The Thankful Poor di Henry Ossawa Tanner, 1894",
+    "credit": "Fonte dell’immagineHenry Ossawa Tanner · The Thankful Poor · 1894",
+    "id": "to-kill-a-mockingbird",
+    "src": "images/mockingbird-tanner-thankful-poor.jpg"
+  },
+  {
+    "alt": "Among the Sierra Nevada, California di Albert Bierstadt, 1868",
+    "credit": "Fonte dell’immagineAlbert Bierstadt · Among the Sierra Nevada, California · 1868",
+    "id": "lord-of-the-rings",
+    "src": "images/tolkien-bierstadt-sierra-nevada.jpg"
+  }
+]
