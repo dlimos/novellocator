@@ -80,6 +80,10 @@ const options={container:{},portalItemId:'0123456789abcdef0123456789abcdef',spat
  for(const locale of ['it','en','fr','es']){
   const data=context.WebMapAtlasData.adapt(payload,locale,{a:{x:2,y:3},m:{x:9,y:10}});
   assert.equal(data.chapters[0].text,text[locale]);assert.equal(data.chapters[0].people,undefined);assert.equal(data.chapters[0].time,undefined);
+  assert.equal(data.chapters[0].setting,undefined,'Missing section settings do not repeat the world name');
+  payload.sections[0].setting=text;
+  assert.equal(context.WebMapAtlasData.adapt(payload,locale,{a:{x:2,y:3},m:{x:9,y:10}}).chapters[0].setting,text[locale]);
+  delete payload.sections[0].setting;
   assert.equal(data.chapters[0].placeCategories.m,'mentioned');assert.equal(data.places.a.coords,undefined);
  }
  const bad=structuredClone(payload);delete bad.sections[0].introduction.fr;assert.throws(()=>context.WebMapAtlasData.validate(bad),/introduction/);

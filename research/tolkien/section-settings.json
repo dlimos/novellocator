@@ -1,0 +1,402 @@
+{
+  "date": "2026-11-02",
+  "basis": "Section-specific narrative introductions and reviewed section reading; original cartographic toponyms retained across interface languages. Labels orient the primary narrative, not embedded recollections or visions. This editorial field does not create or reclassify map associations. No geographic subtitle for the foreword or appendices D–F.",
+  "settings": {
+    "2": {
+      "it": "The Shire",
+      "en": "The Shire",
+      "fr": "The Shire",
+      "es": "The Shire"
+    },
+    "3": {
+      "it": "Hobbiton · Bag End",
+      "en": "Hobbiton · Bag End",
+      "fr": "Hobbiton · Bag End",
+      "es": "Hobbiton · Bag End"
+    },
+    "4": {
+      "it": "Bag End · The Shire",
+      "en": "Bag End · The Shire",
+      "fr": "Bag End · The Shire",
+      "es": "Bag End · The Shire"
+    },
+    "5": {
+      "it": "The Shire · Woody End",
+      "en": "The Shire · Woody End",
+      "fr": "The Shire · Woody End",
+      "es": "The Shire · Woody End"
+    },
+    "6": {
+      "it": "Woody End · The Marish",
+      "en": "Woody End · The Marish",
+      "fr": "Woody End · The Marish",
+      "es": "Woody End · The Marish"
+    },
+    "7": {
+      "it": "Brandywine · Crickhollow",
+      "en": "Brandywine · Crickhollow",
+      "fr": "Brandywine · Crickhollow",
+      "es": "Brandywine · Crickhollow"
+    },
+    "8": {
+      "it": "Old Forest · Withywindle",
+      "en": "Old Forest · Withywindle",
+      "fr": "Old Forest · Withywindle",
+      "es": "Old Forest · Withywindle"
+    },
+    "9": {
+      "it": "Old Forest",
+      "en": "Old Forest",
+      "fr": "Old Forest",
+      "es": "Old Forest"
+    },
+    "10": {
+      "it": "Barrow Downs",
+      "en": "Barrow Downs",
+      "fr": "Barrow Downs",
+      "es": "Barrow Downs"
+    },
+    "11": {
+      "it": "Bree",
+      "en": "Bree",
+      "fr": "Bree",
+      "es": "Bree"
+    },
+    "12": {
+      "it": "Bree",
+      "en": "Bree",
+      "fr": "Bree",
+      "es": "Bree"
+    },
+    "13": {
+      "it": "Bree · Weathertop",
+      "en": "Bree · Weathertop",
+      "fr": "Bree · Weathertop",
+      "es": "Bree · Weathertop"
+    },
+    "14": {
+      "it": "The Ford of Bruinen",
+      "en": "The Ford of Bruinen",
+      "fr": "The Ford of Bruinen",
+      "es": "The Ford of Bruinen"
+    },
+    "15": {
+      "it": "Rivendell",
+      "en": "Rivendell",
+      "fr": "Rivendell",
+      "es": "Rivendell"
+    },
+    "16": {
+      "it": "Rivendell",
+      "en": "Rivendell",
+      "fr": "Rivendell",
+      "es": "Rivendell"
+    },
+    "17": {
+      "it": "Eregion · Caradhras",
+      "en": "Eregion · Caradhras",
+      "fr": "Eregion · Caradhras",
+      "es": "Eregion · Caradhras"
+    },
+    "18": {
+      "it": "Moria",
+      "en": "Moria",
+      "fr": "Moria",
+      "es": "Moria"
+    },
+    "19": {
+      "it": "Moria",
+      "en": "Moria",
+      "fr": "Moria",
+      "es": "Moria"
+    },
+    "20": {
+      "it": "Lothlórien · Silverlode",
+      "en": "Lothlórien · Silverlode",
+      "fr": "Lothlórien · Silverlode",
+      "es": "Lothlórien · Silverlode"
+    },
+    "21": {
+      "it": "Lothlórien · Caras Galadhon",
+      "en": "Lothlórien · Caras Galadhon",
+      "fr": "Lothlórien · Caras Galadhon",
+      "es": "Lothlórien · Caras Galadhon"
+    },
+    "22": {
+      "it": "Lothlórien · Anduin",
+      "en": "Lothlórien · Anduin",
+      "fr": "Lothlórien · Anduin",
+      "es": "Lothlórien · Anduin"
+    },
+    "23": {
+      "it": "Anduin · Argonath",
+      "en": "Anduin · Argonath",
+      "fr": "Anduin · Argonath",
+      "es": "Anduin · Argonath"
+    },
+    "24": {
+      "it": "Parth Galen · Amon Hen",
+      "en": "Parth Galen · Amon Hen",
+      "fr": "Parth Galen · Amon Hen",
+      "es": "Parth Galen · Amon Hen"
+    },
+    "25": {
+      "it": "Amon Hen · Falls of Rauros",
+      "en": "Amon Hen · Falls of Rauros",
+      "fr": "Amon Hen · Falls of Rauros",
+      "es": "Amon Hen · Falls of Rauros"
+    },
+    "26": {
+      "it": "Rohan · Fangorn",
+      "en": "Rohan · Fangorn",
+      "fr": "Rohan · Fangorn",
+      "es": "Rohan · Fangorn"
+    },
+    "27": {
+      "it": "Eastemnet · Fangorn",
+      "en": "Eastemnet · Fangorn",
+      "fr": "Eastemnet · Fangorn",
+      "es": "Eastemnet · Fangorn"
+    },
+    "28": {
+      "it": "Fangorn",
+      "en": "Fangorn",
+      "fr": "Fangorn",
+      "es": "Fangorn"
+    },
+    "29": {
+      "it": "Fangorn",
+      "en": "Fangorn",
+      "fr": "Fangorn",
+      "es": "Fangorn"
+    },
+    "30": {
+      "it": "Edoras",
+      "en": "Edoras",
+      "fr": "Edoras",
+      "es": "Edoras"
+    },
+    "31": {
+      "it": "Helm’s Deep",
+      "en": "Helm’s Deep",
+      "fr": "Helm’s Deep",
+      "es": "Helm’s Deep"
+    },
+    "32": {
+      "it": "Rohan · Isengard",
+      "en": "Rohan · Isengard",
+      "fr": "Rohan · Isengard",
+      "es": "Rohan · Isengard"
+    },
+    "33": {
+      "it": "Isengard",
+      "en": "Isengard",
+      "fr": "Isengard",
+      "es": "Isengard"
+    },
+    "34": {
+      "it": "Isengard",
+      "en": "Isengard",
+      "fr": "Isengard",
+      "es": "Isengard"
+    },
+    "35": {
+      "it": "Isengard · Rohan",
+      "en": "Isengard · Rohan",
+      "fr": "Isengard · Rohan",
+      "es": "Isengard · Rohan"
+    },
+    "36": {
+      "it": "Emyn Muil",
+      "en": "Emyn Muil",
+      "fr": "Emyn Muil",
+      "es": "Emyn Muil"
+    },
+    "37": {
+      "it": "Dead Marshes",
+      "en": "Dead Marshes",
+      "fr": "Dead Marshes",
+      "es": "Dead Marshes"
+    },
+    "38": {
+      "it": "The Black Gate",
+      "en": "The Black Gate",
+      "fr": "The Black Gate",
+      "es": "The Black Gate"
+    },
+    "39": {
+      "it": "Ithilien",
+      "en": "Ithilien",
+      "fr": "Ithilien",
+      "es": "Ithilien"
+    },
+    "40": {
+      "it": "Ithilien · Henneth Annûn",
+      "en": "Ithilien · Henneth Annûn",
+      "fr": "Ithilien · Henneth Annûn",
+      "es": "Ithilien · Henneth Annûn"
+    },
+    "41": {
+      "it": "Henneth Annûn",
+      "en": "Henneth Annûn",
+      "fr": "Henneth Annûn",
+      "es": "Henneth Annûn"
+    },
+    "42": {
+      "it": "Ithilien · Cross-roads",
+      "en": "Ithilien · Cross-roads",
+      "fr": "Ithilien · Cross-roads",
+      "es": "Ithilien · Cross-roads"
+    },
+    "43": {
+      "it": "Minas Morgul · Cirith Ungol",
+      "en": "Minas Morgul · Cirith Ungol",
+      "fr": "Minas Morgul · Cirith Ungol",
+      "es": "Minas Morgul · Cirith Ungol"
+    },
+    "44": {
+      "it": "Cirith Ungol",
+      "en": "Cirith Ungol",
+      "fr": "Cirith Ungol",
+      "es": "Cirith Ungol"
+    },
+    "45": {
+      "it": "Cirith Ungol",
+      "en": "Cirith Ungol",
+      "fr": "Cirith Ungol",
+      "es": "Cirith Ungol"
+    },
+    "46": {
+      "it": "Minas Tirith",
+      "en": "Minas Tirith",
+      "fr": "Minas Tirith",
+      "es": "Minas Tirith"
+    },
+    "47": {
+      "it": "Dunharrow · Erech",
+      "en": "Dunharrow · Erech",
+      "fr": "Dunharrow · Erech",
+      "es": "Dunharrow · Erech"
+    },
+    "48": {
+      "it": "Dunharrow",
+      "en": "Dunharrow",
+      "fr": "Dunharrow",
+      "es": "Dunharrow"
+    },
+    "49": {
+      "it": "Minas Tirith",
+      "en": "Minas Tirith",
+      "fr": "Minas Tirith",
+      "es": "Minas Tirith"
+    },
+    "50": {
+      "it": "Drúadan Forest · Anórien",
+      "en": "Drúadan Forest · Anórien",
+      "fr": "Drúadan Forest · Anórien",
+      "es": "Drúadan Forest · Anórien"
+    },
+    "51": {
+      "it": "Pelennor Fields",
+      "en": "Pelennor Fields",
+      "fr": "Pelennor Fields",
+      "es": "Pelennor Fields"
+    },
+    "52": {
+      "it": "Minas Tirith",
+      "en": "Minas Tirith",
+      "fr": "Minas Tirith",
+      "es": "Minas Tirith"
+    },
+    "53": {
+      "it": "Minas Tirith",
+      "en": "Minas Tirith",
+      "fr": "Minas Tirith",
+      "es": "Minas Tirith"
+    },
+    "54": {
+      "it": "Minas Tirith",
+      "en": "Minas Tirith",
+      "fr": "Minas Tirith",
+      "es": "Minas Tirith"
+    },
+    "55": {
+      "it": "The Black Gate",
+      "en": "The Black Gate",
+      "fr": "The Black Gate",
+      "es": "The Black Gate"
+    },
+    "56": {
+      "it": "Cirith Ungol",
+      "en": "Cirith Ungol",
+      "fr": "Cirith Ungol",
+      "es": "Cirith Ungol"
+    },
+    "57": {
+      "it": "Mordor · Ephel Dúath",
+      "en": "Mordor · Ephel Dúath",
+      "fr": "Mordor · Ephel Dúath",
+      "es": "Mordor · Ephel Dúath"
+    },
+    "58": {
+      "it": "Mount Doom · Mordor",
+      "en": "Mount Doom · Mordor",
+      "fr": "Mount Doom · Mordor",
+      "es": "Mount Doom · Mordor"
+    },
+    "59": {
+      "it": "The Black Gate · Cormallen",
+      "en": "The Black Gate · Cormallen",
+      "fr": "The Black Gate · Cormallen",
+      "es": "The Black Gate · Cormallen"
+    },
+    "60": {
+      "it": "Minas Tirith",
+      "en": "Minas Tirith",
+      "fr": "Minas Tirith",
+      "es": "Minas Tirith"
+    },
+    "61": {
+      "it": "Edoras · Isengard · Rivendell",
+      "en": "Edoras · Isengard · Rivendell",
+      "fr": "Edoras · Isengard · Rivendell",
+      "es": "Edoras · Isengard · Rivendell"
+    },
+    "62": {
+      "it": "Bree · East Road",
+      "en": "Bree · East Road",
+      "fr": "Bree · East Road",
+      "es": "Bree · East Road"
+    },
+    "63": {
+      "it": "The Shire · Bywater",
+      "en": "The Shire · Bywater",
+      "fr": "The Shire · Bywater",
+      "es": "The Shire · Bywater"
+    },
+    "64": {
+      "it": "The Shire · Grey Havens",
+      "en": "The Shire · Grey Havens",
+      "fr": "The Shire · Grey Havens",
+      "es": "The Shire · Grey Havens"
+    },
+    "65": {
+      "it": "Arnor · Gondor · Rohan",
+      "en": "Arnor · Gondor · Rohan",
+      "fr": "Arnor · Gondor · Rohan",
+      "es": "Arnor · Gondor · Rohan"
+    },
+    "66": {
+      "it": "Beleriand · Eriador · Gondor",
+      "en": "Beleriand · Eriador · Gondor",
+      "fr": "Beleriand · Eriador · Gondor",
+      "es": "Beleriand · Eriador · Gondor"
+    },
+    "67": {
+      "it": "The Shire",
+      "en": "The Shire",
+      "fr": "The Shire",
+      "es": "The Shire"
+    }
+  }
+}
