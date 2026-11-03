@@ -16,18 +16,18 @@ for(const id of ['ulisse','proust','war-and-peace','moby-dick','gatsby','holden'
  const {ctx,elements,events,location}=setup(id,lang,true),data=ctx.window.atlasData;
  const expected=[...new Set(data.chapters.flatMap(c=>c.places))];
  assert.equal(vm.runInContext('current',ctx),-1);assert.equal(ctx.window.atlasState().place,1);
- assert.equal(elements['all-places'].attributes['aria-pressed'],'true');assert.equal(elements.previous.hidden,true);
+ assert.equal(elements['all-places'].attributes['aria-pressed'],'true');assert.doesNotMatch(elements.detail.innerHTML,/detail-nav|episode-source/);
  assert.ok(elements.detail.innerHTML.includes(ctx.window.atlasI18n.t('Whole novel')));
  vm.runInContext('drawMarkers();overview()',ctx);
  const graphicIds=vm.runInContext('graphics.filter(g=>g.symbol.type===\'simple-marker\').map(g=>g.attributes.placeIndex)',ctx);
  assert.equal(graphicIds.length,expected.length);assert.equal(new Set(graphicIds).size,expected.length);
  assert.equal(vm.runInContext('graphics.every(g=>g.attributes.chapterId===\'all\')',ctx),true);
  const extent=vm.runInContext('targets.at(-1)',ctx);assert.ok(extent.xmin>=-180&&extent.xmax<=180&&extent.ymin>=-85&&extent.ymax<=85);
- vm.runInContext('selectPlace(0)',ctx);const refs=elements['selected-location'].children.at(-1);
+ vm.runInContext('selectPlace(0)',ctx);assert.doesNotMatch(elements['selected-location'].innerHTML,/category-badge/);const refs=elements['selected-location'].children.at(-1);
  const occurrences=data.chapters.filter(c=>c.places.includes(expected[0])||(c.citations||[]).some(r=>r.placeId===expected[0]));assert.equal(refs.children.length,occurrences.length+1);
  assert.equal(refs.children[0].textContent,ctx.window.atlasI18n.t('Appears in'));
  refs.children[1].events.click();const sectionIndex=data.chapters.findIndex(c=>c.places.includes(expected[0]));
- assert.equal(vm.runInContext('current',ctx),sectionIndex);assert.equal(elements['all-places'].attributes['aria-pressed'],'false');assert.equal(elements.previous.hidden,false);
+ assert.equal(vm.runInContext('current',ctx),sectionIndex);assert.equal(elements['all-places'].attributes['aria-pressed'],'false');assert.doesNotMatch(elements.detail.innerHTML,/detail-nav|episode-source/);
  assert.equal(vm.runInContext('graphics.length',ctx),data.chapters[sectionIndex].places.length*2);
  elements['all-places'].events.click();assert.equal(location.hash,data.book.hashPrefix+'-all');
  assert.equal(vm.runInContext('graphics.length',ctx),expected.length*2);
@@ -87,8 +87,7 @@ for(const id of ['ulisse','proust','war-and-peace','moby-dick','gatsby','holden'
   for(let place=0;place<data.chapters[index].places.length;place++){
    vm.runInContext(`selectPlace(${place})`,ctx);
    assert.ok(!elements['selected-location'].innerHTML.includes('undefined'));
-   const category=data.chapters[index].placeCategories[data.chapters[index].places[place]];
-   assert.ok(elements['selected-location'].innerHTML.includes('category-'+category));
+   assert.doesNotMatch(elements['selected-location'].innerHTML,/category-badge/);
   }
   if(data.chapters[index].unlocatedPlaces.length)assert.ok(!elements['selected-location'].parentElement.children.at(-1).innerHTML.includes('<blockquote'),'No empty original-passage blocks for paraphrases');
  }
