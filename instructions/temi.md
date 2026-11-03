@@ -1,0 +1,9 @@
+# Identità visiva dei romanzi
+
+- Mantenere coerente la scala delle filigrane anche nei nuovi romanzi: simboli di circa 35–44 px su desktop, entro una tessera di 96 × 128 px con due righe sfalsate orizzontalmente di 48 px; su mobile usare una tessera di 72 × 96 px. Normalizzare l'ingombro effettivo del disegno SVG, non soltanto le dimensioni della tessera, senza ingrandire i nuovi simboli rispetto a quelli esistenti.
+
+- Per ogni nuovo romanzo confrontare la palette con quelle già pubblicate: il colore di fondo della pagina deve essere riconoscibile e motivato dall'ambientazione, dalle atmosfere o dai temi dell'opera. Evitare di ricadere sistematicamente su beige, avorio o verdi quasi identici. Coordinare fondo, pannelli, banner e filigrana, mantenendo un contrasto leggibile dei testi. Conservare il rosa di Proust e l'aspetto uniforme della home; i temi dei singoli romanzi restano locali e nel database, esclusi da Git.
+
+- Ogni romanzo, compresi quelli aggiunti in futuro, deve avere un simbolo specifico legato all'opera, usato come filigrana sullo sfondo della propria pagina, secondo il modello già presente nei romanzi attuali (per esempio la coda della balena per *Moby-Dick*). La filigrana deve essere discreta, riconoscibile e non compromettere la leggibilità di testi, controlli e mappa. Definirla nel CSS dedicato in `docs/themes/` e pubblicarla con il tema nel database `book_presentations`.
+
+- Ogni opera deve avere un CSS personalizzato, conservato localmente in `docs/themes/` (escluso da Git) e pubblicato nel database `book_presentations`. Il catalogo, le traduzioni editoriali, i riferimenti alle immagini e i crediti sono letti dal database. `docs/content/books.js`, `docs/content/book-translations.js` e `docs/images/CREDITS.md` sono sorgenti locali di importazione e backup, escluse da Git. Palette, tipografia e dettagli grafici devono richiamare il tema dell’opera, mantenendo leggibili i contenuti e riconoscibili le categorie della mappa.
