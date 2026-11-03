@@ -4,6 +4,9 @@ vm.runInNewContext(fs.readFileSync('tests/check-global-view.cjs','utf8').split("
 for(const locale of ['en','it','fr','es']){
  const {ctx,elements}=harness.module.exports('ulisse',locale);
  vm.runInContext("selectChapter(0,false);selectPlace(chapters[0].places.indexOf('tower'),false)",ctx);
+ ctx.reviewedDescription={status:'reviewed',texts:{en:'English description',it:'Descrizione italiana',fr:'Description française',es:'Descripción española'}};
+ const reviewed=vm.runInContext("locationPositionDescription({...literaryPlaces.tower,positionDescription:reviewedDescription})",ctx);
+ assert.ok(reviewed.includes(ctx.reviewedDescription.texts[locale]));
  const html=elements['selected-location'].innerHTML;
  assert.ok(html.includes('location-position'),locale+' tower description');
  assert.doesNotMatch(html,/location-evidence|WGS84|RPS 1027|Sources checked/);

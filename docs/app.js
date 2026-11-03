@@ -369,6 +369,8 @@ function locationNarrative(chapter,id,citation){
 }
 // Reuse only short, place-specific descriptions; technical notes remain in the data.
 function locationPositionDescription(place){
+ const summary=place.positionDescription;
+ if(summary?.status==='reviewed'){const text=summary.texts?.[locale];if(typeof text==='string'&&text.trim())return `<p class="location-position">${esc(text.trim())}</p>`;}
  const note=String(place.note||'').trim();
  if(!note||note.length>240||/(?:WGS84|coordinate|coordonn|coordenad|centroid|centroide|marker|marqueur|marcador|segnaposto|punto rappresentativo|representative point|punto representativo|point repr[ée]sentatif|precision|précision|precisión|precisione|source|sources|fuentes|fonti|mappa|map shows|la carte|el mapa|non localizza|does not (?:locate|establish|identify)|ne localise|no localiza)/i.test(note))return '';
  const normalized=note.toLocaleLowerCase();
@@ -384,7 +386,8 @@ function renderLocation(options={}){
  if(!isPopup)citationButtons.forEach((button,i)=>button.setAttribute('aria-pressed',String(i===selectedCitation)));
  const sceneHtml=locationNarrative(chapter,id,citation);
  const hasOutline=!!window.RegionalOutline?.geometry(place);
- target.innerHTML=`${place.area?.trim()?`<p class="location-address">${esc(place.area)}</p>`:''}${sceneHtml}${locationPositionDescription(place)}`;
+ const positionHtml=locationPositionDescription(place),reviewedPosition=place.positionDescription?.status==='reviewed'&&!!place.positionDescription.texts?.[locale]?.trim();
+ target.innerHTML=`${place.area?.trim()?`<p class="location-address">${esc(place.area)}</p>`:''}${reviewedPosition?positionHtml+(sceneHtml.includes('location-review-status')?sceneHtml:''):sceneHtml+positionHtml}`;
  if(!isIllustrated&&!hasOutline&&place.geographicReview?.precision!=='region')target.innerHTML+=`<div class="street-view-action"><a class="street-view-link" id="street-view-link" href="${esc(streetViewUrl(place))}" target="_blank" rel="noopener noreferrer" aria-label="${esc(t('Apri Street View in una nuova finestra')+': '+place.name)}">Google Street View <span aria-hidden="true">↗</span></a><p class="street-view-note">${esc(t('Google mostra il panorama disponibile più vicino: può essere spostato rispetto al punto e dipende dalla copertura.'))}</p></div>`;
  if(isPopup&&options.chapter)target.innerHTML=`<p class="detail-eyebrow">${esc(number(chapter.id)+' · '+chapter.title)}</p>`+target.innerHTML;
  const quote=!citation&&chapter.placeQuotes?.[id];
