@@ -5,10 +5,11 @@ for(const locale of ['en','it','fr','es']){
  const {ctx}=harness.module.exports('crime-and-punishment',locale);
  const run=s=>vm.runInContext(s,ctx);
  const html=run("renderExcerpts(chapters[0].placeExcerpts.stolyarny,'Passage from the novel',[literaryPlaces.stolyarny])");
+ assert.match(html,/<section class="original-excerpt"><h3 class="excerpt-heading">/);assert.doesNotMatch(html,/<details|<summary/);
  for(const language of ['ru','en','fr'])assert.ok(html.includes(`value="${language}"`));
  assert.ok(!html.includes('value="it"')&&!html.includes('disabled aria-disabled'));
  const id=html.match(/data-quotation-id="(\d+)"/)[1],body={},summary={};
- const select={dataset:{quotationId:id},value:'fr',closest:()=>({querySelector:s=>s==='summary'?summary:body})};
+ const select={dataset:{quotationId:id},value:'fr',closest:()=>({querySelector:s=>s==='.excerpt-heading'?summary:body})};
  ctx.pickerTest=select;run('changeQuotationLanguage(pickerTest)');
  assert.ok(body.innerHTML.includes('lang="fr"')&&body.innerHTML.includes('Victor Derély'));
  assert.ok(!body.innerHTML.includes('lang="en"')&&!body.innerHTML.includes('lang="ru"'));
