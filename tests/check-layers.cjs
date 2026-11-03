@@ -54,9 +54,9 @@ for(const [book,[sections,places,references,language]]of Object.entries(books)){
  if(book==='moby-dick'){assert.equal(Object.keys(all).length,276);assert.deepEqual(Array.from(all.gibraltar.coords),[35.97388888888889,-5.516111111111111]);for(const id of ['england','java','sumatra','wapping'])assert.ok(data.citedPlaces[id],id+' restored as a citation')}
  for(const lang of ['en','it','fr','es']){
   const {ctx,elements,location,run}=setup(book,lang),d=ctx.window.atlasData;
-  const index=d.chapters.findIndex(c=>c.citations.length);run('selectChapter('+index+',false,false)');
+  const index=d.chapters.findIndex(c=>c.citations.length);d.chapters[index].note='General map notice';run('selectChapter('+index+',false,false)');assert.doesNotMatch(elements.detail.innerHTML,/General map notice/);
   assert.equal(elements['citation-locations'].children.length,d.chapters[index].citations.length+d.chapters[index].places.filter(id=>d.chapters[index].placeCategories?.[id]==='mentioned').length);
-  run('citationButtons')[0].events.click();assert.equal(ctx.window.atlasState().citation,0);assert.match(elements['selected-location'].innerHTML,/category-mentioned/);
+  run('citationButtons')[0].events.click();assert.equal(ctx.window.atlasState().citation,0);assert.doesNotMatch(elements['selected-location'].innerHTML,/category-badge/);
   const group=d.chapters[index].citations[0].excerpt,passage=group.original.language===lang?group.original:group.translations?.[lang]||group.original;
   const expected='lang="'+passage.language+'"';
   assert.ok(elements['selected-location'].children.some(c=>c.innerHTML.includes(expected)));

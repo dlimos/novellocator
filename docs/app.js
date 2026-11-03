@@ -170,7 +170,6 @@ document.getElementById('book-author').textContent=book.author.toUpperCase()+' �
 document.querySelector('meta[name="description"]').content=book.description;
 document.getElementById('chapter-list-title').textContent=book.sidebarTitle||'Capitoli';
 document.getElementById('chapter-help').textContent=book.help||t('Scegli un capitolo per esplorarne i luoghi.');
-document.getElementById('book-note-text').textContent=book.sidebarNote||'';
 document.getElementById('atlas-workspace').setAttribute('aria-label',t('Atlante')+': '+book.title);
 // Source links are curated editorial content from the book metadata.
 const textSourceUrls=new Set();
@@ -334,7 +333,7 @@ let placeButtons=[],citationButtons=[];
 function renderDetail(){
  const chapter=activeChapter();
  const eyebrow=book.literaryViews?esc(t('Imaginary views')):current<0?esc(t('Whole novel'))+' · '+new Set([...globalPlaceIds,...globalCitations.map(reference=>reference.placeId)]).size+' '+esc(t('mapped places')):esc(book.unit.toUpperCase())+' '+number(chapter.id)+' '+t('DI')+' '+chapters.length+(chapter.english&&chapter.english!==chapter.title?' · '+esc(chapter.english):'');
- document.getElementById('detail').innerHTML=`<div><p class="detail-eyebrow">${eyebrow}</p><h2>${esc(chapter.title)}</h2>${sectionBadges(chapter)}</div><div class="detail-text"><p>${esc(chapter.text)}</p><h3 class="locations-heading">${t('Luoghi')} <span>${chapter.places.filter(id=>placeCategory(id)==='action').length}</span></h3><div class="location-buttons" id="episode-locations" aria-label="${t('Luoghi')}"></div><div id="selected-location" aria-live="polite"></div>${chapter.note?`<p class="episode-note">${esc(chapter.note)}</p>`:''}</div>`;
+ document.getElementById('detail').innerHTML=`<div><p class="detail-eyebrow">${eyebrow}</p><h2>${esc(chapter.title)}</h2>${sectionBadges(chapter)}</div><div class="detail-text"><p>${esc(chapter.text)}</p><h3 class="locations-heading">${t('Luoghi')} <span>${chapter.places.filter(id=>placeCategory(id)==='action').length}</span></h3><div class="location-buttons" id="episode-locations" aria-label="${t('Luoghi')}"></div><div id="selected-location" aria-live="polite"></div>${chapter.note&&book.mapType==='webmap'&&!chapter.places.length&&!activeCitations().length?`<p class="episode-note">${esc(chapter.note)}</p>`:''}</div>`;
  const locations=document.getElementById('episode-locations');
  placeButtons=[];citationButtons=[];
  const citations=activeCitations(),mentionedCount=chapter.places.filter(id=>placeCategory(id)==='mentioned').length+citations.length;
