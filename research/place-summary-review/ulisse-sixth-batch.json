@@ -1,0 +1,402 @@
+[
+  {
+    "book": "ulisse",
+    "id": "america",
+    "collection": "cited",
+    "name": "Americas",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "a8d1cf97505410249f942c6baed787e20af8a3cfc13ea3ef1ad526633487b566",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "America figures in accounts of emigration and news arriving in Dublin.",
+        "it": "L’America compare nei racconti di emigrazione e nelle notizie che arrivano a Dublino.",
+        "fr": "L’Amérique apparaît dans les récits d’émigration et les nouvelles arrivant à Dublin.",
+        "es": "América aparece en relatos de emigración y noticias que llegan a Dublín."
+      }
+    }
+  },
+  {
+    "book": "ulisse",
+    "id": "amsterdam",
+    "collection": "cited",
+    "name": "Amsterdam",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "252d6a98fb85e691bb6f7e446b0baa65e0c673916756b9c6a6fbc743648a4c41",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Amsterdam is mentioned as the home of the composer Jan Pieterszoon Sweelinck.",
+        "it": "Amsterdam è citata come città del compositore Jan Pieterszoon Sweelinck.",
+        "fr": "Amsterdam est citée comme ville du compositeur Jan Pieterszoon Sweelinck.",
+        "es": "Ámsterdam se menciona como ciudad del compositor Jan Pieterszoon Sweelinck."
+      }
+    }
+  },
+  {
+    "book": "ulisse",
+    "id": "austria",
+    "collection": "cited",
+    "name": "Austria",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "394d399d4aa7af5e415a8ff62a0d122658da3c8dba3e0303a0cbb0593a72662a",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Lower Austria appears in Mr Deasy’s notes about the emperor’s horses.",
+        "it": "La Bassa Austria compare negli appunti del signor Deasy sui cavalli dell’imperatore.",
+        "fr": "La Basse-Autriche apparaît dans les notes de M. Deasy sur les chevaux de l’empereur.",
+        "es": "La Baja Austria aparece en las notas del señor Deasy sobre los caballos del emperador."
+      }
+    }
+  },
+  {
+    "book": "ulisse",
+    "id": "babylon",
+    "collection": "cited",
+    "name": "Babylon",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "67d3ad50d19643d3611cf1304304b3a1460b6dfabdfc22756cfedb9b8725dc73",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Babylon passes through Bloom’s thoughts alongside pyramids and other ancient monuments.",
+        "it": "Babilonia attraversa i pensieri di Bloom insieme alle piramidi e ad altri monumenti antichi.",
+        "fr": "Babylone traverse les pensées de Bloom aux côtés des pyramides et d’autres monuments antiques.",
+        "es": "Babilonia cruza los pensamientos de Bloom junto a las pirámides y otros monumentos antiguos."
+      }
+    }
+  },
+  {
+    "book": "ulisse",
+    "id": "belgium",
+    "collection": "cited",
+    "name": "Belgium",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "4c6d84c447ff148e5ee78a2c5c9575ed45500602e9d96077575d4c3a0bf10576",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Belgium appears among the destinations served by steamship agents at the Dublin docks.",
+        "it": "Il Belgio compare tra le destinazioni servite dagli agenti delle navi a vapore nei docks di Dublino.",
+        "fr": "La Belgique figure parmi les destinations desservies par les agents de vapeurs des docks de Dublin.",
+        "es": "Bélgica figura entre los destinos atendidos por agentes de vapores en los muelles de Dublín."
+      }
+    }
+  },
+  {
+    "book": "ulisse",
+    "id": "black-sea",
+    "collection": "cited",
+    "name": "Black Sea",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "5fe304df07a92fdac6be833ffa9d0078d09f5a4f125c202d7ffc0ac4a549efb9",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The sailor includes the Black Sea in his account of voyages.",
+        "it": "Il marinaio include il Mar Nero nel racconto dei suoi viaggi.",
+        "fr": "Le marin inclut la mer Noire dans le récit de ses voyages.",
+        "es": "El marinero incluye el mar Negro en el relato de sus viajes."
+      }
+    }
+  },
+  {
+    "book": "ulisse",
+    "id": "brittany",
+    "collection": "cited",
+    "name": "Brittany",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "edfdab9725887f386e5d739b08d5ff854077f76c0216e409bb1426235090ec36",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Brittany appears in the long list through the name of St Ives of Brittany.",
+        "it": "La Bretagna compare nella lunga enumerazione attraverso il nome di sant’Ivo di Bretagna.",
+        "fr": "La Bretagne apparaît dans la longue énumération par le nom de saint Yves de Bretagne.",
+        "es": "Bretaña aparece en la larga enumeración mediante el nombre de san Ivo de Bretaña."
+      }
+    }
+  },
+  {
+    "book": "ulisse",
+    "id": "budapest",
+    "collection": "cited",
+    "name": "Budapest",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "0c21dd5afcd3941372214b40bf7b352bc17814e651e30f45bdbb7206ca172d3e",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Budapest is listed among the places associated with Rudolph Bloom’s movements.",
+        "it": "Budapest è elencata fra i luoghi associati agli spostamenti di Rudolph Bloom.",
+        "fr": "Budapest figure parmi les lieux associés aux déplacements de Rudolph Bloom.",
+        "es": "Budapest figura entre los lugares asociados a los desplazamientos de Rudolph Bloom."
+      }
+    }
+  },
+  {
+    "book": "ulisse",
+    "id": "canada",
+    "collection": "cited",
+    "name": "Canada",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "6e3c40efef0a1ca9a6604ae4676030121492b0ccd10a086588b5814991b1d338",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The characters refer to a court case known as the Canada swindle.",
+        "it": "I personaggi parlano di un processo noto come la truffa del Canada.",
+        "fr": "Les personnages évoquent un procès connu comme l’escroquerie du Canada.",
+        "es": "Los personajes mencionan un juicio conocido como la estafa de Canadá."
+      }
+    }
+  },
+  {
+    "book": "ulisse",
+    "id": "cork",
+    "collection": "cited",
+    "name": "Cork",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "e317bf16622dcec0b4c705f379b91bc4dde58a8033b93f266b936a689bde4380",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Cork enters the conversation when the mourners ask after people from the city.",
+        "it": "Cork entra nella conversazione quando i partecipanti al funerale chiedono notizie delle persone della città.",
+        "fr": "Cork entre dans la conversation lorsque les personnes en deuil demandent des nouvelles de la ville.",
+        "es": "Cork entra en la conversación cuando los asistentes al funeral preguntan por la gente de la ciudad."
+      }
+    }
+  },
+  {
+    "book": "ulisse",
+    "id": "germany",
+    "collection": "cited",
+    "name": "Germany",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "681dd3608f999a117384fb18b9d842470324aa8c0e3831eb771954f7d43d6683",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The Gordon Bennett race in Germany is mentioned in the mourners’ conversation.",
+        "it": "La corsa Gordon Bennett in Germania è menzionata nella conversazione dei partecipanti al funerale.",
+        "fr": "La course Gordon Bennett en Allemagne est évoquée dans la conversation du cortège funèbre.",
+        "es": "La carrera Gordon Bennett en Alemania se menciona en la conversación de los asistentes al funeral."
+      }
+    }
+  },
+  {
+    "book": "ulisse",
+    "id": "holland",
+    "collection": "cited",
+    "name": "Holland",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "586ababa36676f53b8e33c7210551823e786d8e277f3e278b99ceaef8c63d4b6",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Holland is listed among the shipping destinations linked to Dublin’s transit sheds.",
+        "it": "L’Olanda è elencata fra le destinazioni marittime collegate ai magazzini di transito di Dublino.",
+        "fr": "La Hollande figure parmi les destinations maritimes liées aux entrepôts de transit de Dublin.",
+        "es": "Holanda figura entre los destinos marítimos vinculados a los almacenes de tránsito de Dublín."
+      }
+    }
+  },
+  {
+    "book": "ulisse",
+    "id": "hungary",
+    "collection": "cited",
+    "name": "Hungary",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "0f6e629d35f88d89d54c14518ab9e100e495bd9f48cc34661bd90222d76cacfd",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Hungary appears in Rudolph Virag’s notice of his change of name to Bloom.",
+        "it": "L’Ungheria compare nell’avviso con cui Rudolph Virag annuncia il cambio del nome in Bloom.",
+        "fr": "La Hongrie apparaît dans l’avis par lequel Rudolph Virag annonce son changement de nom en Bloom.",
+        "es": "Hungría aparece en el aviso por el que Rudolph Virag anuncia su cambio de nombre a Bloom."
+      }
+    }
+  },
+  {
+    "book": "ulisse",
+    "id": "jerusalem",
+    "collection": "cited",
+    "name": "Jerusalem",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "6734a4d4187c2d460954c19c9f4c3caeca39dd093891649a3d5409e2cfad5965",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The traditional wish to return to Jerusalem recalls Bloom’s father and his Haggadah.",
+        "it": "Il tradizionale augurio di tornare a Gerusalemme richiama a Bloom suo padre e la sua Haggadah.",
+        "fr": "Le souhait traditionnel de revenir à Jérusalem rappelle à Bloom son père et sa Haggadah.",
+        "es": "El deseo tradicional de regresar a Jerusalén recuerda a Bloom a su padre y su Hagadá."
+      }
+    }
+  },
+  {
+    "book": "ulisse",
+    "id": "monte-carlo",
+    "collection": "cited",
+    "name": "Monte Carlo",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "7b4745fa3d49b1b503a20d186245633a5a8a43db96969dd038b27cd5c5f1273d",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Monte Carlo appears in the imagined calculation of a scheme to break the bank.",
+        "it": "Monte Carlo compare nel calcolo immaginario di un sistema per sbancare il casinò.",
+        "fr": "Monte-Carlo apparaît dans le calcul imaginaire d’un système pour faire sauter la banque.",
+        "es": "Montecarlo aparece en el cálculo imaginario de un sistema para hacer saltar la banca."
+      }
+    }
+  },
+  {
+    "book": "ulisse",
+    "id": "naples",
+    "collection": "cited",
+    "name": "Naples",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "1cba83ccc34bfa8d8d8038a4c8f6c4b41676cfdafcc6ec575be6fe77332553de",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The bay of Naples figures in the catalogue of distant places contemplated in Ithaca.",
+        "it": "Il golfo di Napoli compare nel catalogo di luoghi lontani contemplati in Itaca.",
+        "fr": "La baie de Naples figure dans le catalogue des lieux lointains évoqués dans Ithaque.",
+        "es": "La bahía de Nápoles figura en el catálogo de lugares lejanos contemplados en Ítaca."
+      }
+    }
+  },
+  {
+    "book": "ulisse",
+    "id": "palestine",
+    "collection": "cited",
+    "name": "Palestine",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "247cde43a4c18fcc1e9c8d4600c652f64f30a11a0c98efcb5599ac157d28b3d3",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Palestine appears in the title Stephen gives to a story, alongside a reference to Mount Pisgah.",
+        "it": "La Palestina compare nel titolo che Stephen dà a un racconto, insieme a un riferimento al monte Pisgah.",
+        "fr": "La Palestine apparaît dans le titre que Stephen donne à un récit, avec une référence au mont Pisgah.",
+        "es": "Palestina aparece en el título que Stephen da a un relato, junto a una referencia al monte Pisgah."
+      }
+    }
+  },
+  {
+    "book": "ulisse",
+    "id": "pacific",
+    "collection": "cited",
+    "name": "Pacific Ocean",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "c7e594cffc4350a19a73a7188207b1c6824a1b754b730209fa21734fba87ae3e",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The Pacific appears in the reflection on water and the ocean’s immense depth.",
+        "it": "Il Pacifico compare nella riflessione sull’acqua e sull’immensa profondità dell’oceano.",
+        "fr": "Le Pacifique apparaît dans la réflexion sur l’eau et l’immense profondeur de l’océan.",
+        "es": "El Pacífico aparece en la reflexión sobre el agua y la inmensa profundidad del océano."
+      }
+    }
+  },
+  {
+    "book": "ulisse",
+    "id": "ronda",
+    "collection": "cited",
+    "name": "Ronda",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "244887b9cf9507bf049c70703b00599494804d1c1e30c14737dfc4d6eac4b670",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Molly recalls Ronda and its old windows among her memories of Spain.",
+        "it": "Molly ricorda Ronda e le sue vecchie finestre fra le memorie della Spagna.",
+        "fr": "Molly se rappelle Ronda et ses vieilles fenêtres parmi ses souvenirs d’Espagne.",
+        "es": "Molly recuerda Ronda y sus viejas ventanas entre sus recuerdos de España."
+      }
+    }
+  },
+  {
+    "book": "ulisse",
+    "id": "russia",
+    "collection": "cited",
+    "name": "Russia",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "d7638e693adbcb1b5943408219d38aa73a4614568150ed2a00ee7dfd219dde49",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The sailor claims to have seen Russia while recounting the places he has visited.",
+        "it": "Il marinaio sostiene di aver visto la Russia mentre racconta i luoghi visitati.",
+        "fr": "Le marin affirme avoir vu la Russie en racontant les lieux qu’il a visités.",
+        "es": "El marinero afirma haber visto Rusia al contar los lugares que ha visitado."
+      }
+    }
+  }
+]
