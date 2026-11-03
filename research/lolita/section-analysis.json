@@ -26,7 +26,8 @@
     "sectionReviewsCompleted": 71,
     "completeReadingAndSectionReview": true,
     "fullyCollatedQuotationDataset": false,
-    "completeBookAddition": false
+    "completeBookAddition": false,
+    "asOf": "2026-10-13"
   },
   "editorialBiography": {
     "viewerPage": 213,
@@ -2286,5 +2287,18 @@
       "unlocatedSettingsIncludedInNotes": true,
       "associationEvidenceStatus": "draft-requires-individual-collation"
     }
-  ]
+  ],
+  "latestGeographicalReview": {
+    "reviewedAt": "2026-11-02",
+    "publishedAt": "2026-11-03",
+    "record": "FINAL-REVIEW.md",
+    "manifest": "final-review.json",
+    "publication": "final-publication.json",
+    "geographicalSections": 71,
+    "mappedAssociations": 358,
+    "readerFacingUnlocatedAssociations": 101,
+    "readerFacingOriginalEvidenceGaps": 0,
+    "translationCoverageCompleted": false,
+    "historicalCoverageFields": "The original coverage and section collation statuses describe the review dated 13 October; the latest geographic result is recorded here and in the final manifest."
+  }
 }

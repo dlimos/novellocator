@@ -1,0 +1,42 @@
+{
+  "bookId": "lolita",
+  "checkedAt": "2026-11-03T20:06:36.203Z",
+  "databasePublication": "verified-via-public-anonymous-api",
+  "browserPublication": "Supabase SQL Editor; 19 protected transfer chunks; atomic final transaction; four additional reader-facing afterword originals verified separately",
+  "editorNetworkResponse": "Final SQL Editor response failed to fetch; subsequent complete public API comparison verifies the committed result.",
+  "reviewedSections": 71,
+  "mappedAssociations": 358,
+  "readerFacingUnlocatedAssociations": 101,
+  "readerFacingAssociations": 459,
+  "readerFacingOriginalEvidenceGaps": 0,
+  "mappedOriginalEvidenceGaps": 0,
+  "afterwordMappedAssociations": 21,
+  "afterwordAdditionalOriginals": 4,
+  "relationalOriginalExcerpts": 209,
+  "preservedUnlocatedRecords": 341,
+  "changedRowsVerified": 675,
+  "editorialNotice": null,
+  "editorialStatus": "reviewed",
+  "sqlSha256": "b4f9b304b4c6a955299057610a085fb7d95d0fef1053be32ab95bf5cb20615c0",
+  "translationCoverage": {
+    "en": "verified-original",
+    "it": "original-fallback; translation-not-completed",
+    "fr": "original-fallback; translation-not-completed",
+    "es": "original-fallback; translation-not-completed"
+  },
+  "githubPublication": "published-to-docs",
+  "afterwordExactSqlVerification": {
+    "originalRecords": 4,
+    "editorialTranslations": 12,
+    "readerFacingAssociations": 459,
+    "reviewMetadataExact": true
+  },
+  "validation": {
+    "lolitaFinalReview": "passed; PostgreSQL twice, browser chunk transport, concurrency and rollback",
+    "lolitaAfterwordReader": "passed; PostgreSQL twice, 101 visible originals and highlights",
+    "typecheck": "passed",
+    "presentation": "passed",
+    "generalSuite": "failed: pre-existing Gatsby static catalogue image expectation",
+    "databaseBackupImporter": "blocked by 250kB single-row limit for expanded Lolita books metadata; actual publication used protected transfer chunks"
+  }
+}

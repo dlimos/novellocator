@@ -1,5 +1,12 @@
 # Lolita: citazioni dalla copia PDF scelta dall’utente
 
+Aggiornamento del 3 novembre 2026: [revisione finale](FINAL-REVIEW.md).
+Il rapporto del 17 ottobre riportato sotto resta storico. I passi geografici
+visibili della postfazione sono ora disponibili dal distinto testimone a
+immagini, confrontato visivamente; le attribuzioni distinguono le sue pagine
+da quelle del PDF. Sono stati risolti anche il richiamo al Mirana in I.21 e
+i tagli che rendevano incomprensibili alcuni estratti.
+
 17 ottobre 2026. Fonte esclusiva degli estratti: `Lolita-Vladimir-Nabokov.pdf`,
 283 pagine, SHA-256
 `9950fc89e4a03b5ade99076aa29c70be416fe8e8b8348086ec80b2b84794e7ee`.

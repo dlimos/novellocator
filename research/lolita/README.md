@@ -1,5 +1,14 @@
 # Lolita: analisi della fonte scelta dall’utente
 
+Aggiornamento del 3 novembre 2026: [chiusura della verifica geografica](FINAL-REVIEW.md).
+Verificate e pubblicate le 358 associazioni cartografiche e i 101 riferimenti
+senza coordinate ancora mostrati dal renderer pubblico: nessun passaggio
+originale manca fra questi 459 riferimenti. La postfazione usa il testimone
+a immagini collazionato separatamente. Restano dichiarati i limiti editoriali
+delle copie e l’assenza di traduzioni riutilizzabili verificate; non si dichiara
+completata la copertura delle traduzioni. I rapporti datati qui sotto conservano
+la cronologia precedente e sono superati dall’esito in `final-publication.json`.
+
 Aggiornamento del 17 ottobre 2026: [citazioni dal testo nativo dell’ultimo PDF](QUOTATIONS.md).
 411 associazioni documentate, originale inglese nelle schede e selettore autonomo;
 nessun OCR per questi estratti. La postfazione non è nel PDF e resta senza nuovi
