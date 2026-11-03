@@ -1,0 +1,402 @@
+[
+  {
+    "book": "ulisse",
+    "id": "africa",
+    "collection": "cited",
+    "name": "Africa",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "52d9d79369ca4d00b99278166e22007fbd5068a38e1ee5fb11676a2a31565c3d",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "South Africa appears in Bloom’s extravagant appeal to the soldiers in Circe.",
+        "it": "Il Sudafrica compare nell’appello stravagante di Bloom ai soldati nel Circe.",
+        "fr": "L’Afrique du Sud apparaît dans l’appel extravagant de Bloom aux soldats dans Circé.",
+        "es": "Sudáfrica aparece en la extravagante apelación de Bloom a los soldados en Circe."
+      }
+    }
+  },
+  {
+    "book": "ulisse",
+    "id": "asia",
+    "collection": "cited",
+    "name": "Asia",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "420dd7d19056dd1c4e4229b99057ea11642139eaf95fc162c31491a8010350c9",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Asia is evoked in Molly’s reflections on the spread of religious beliefs.",
+        "it": "L’Asia è evocata nelle riflessioni di Molly sulla diffusione delle credenze religiose.",
+        "fr": "L’Asie est évoquée dans les réflexions de Molly sur la diffusion des croyances religieuses.",
+        "es": "Asia aparece en las reflexiones de Molly sobre la difusión de las creencias religiosas."
+      }
+    }
+  },
+  {
+    "book": "ulisse",
+    "id": "atlantic",
+    "collection": "cited",
+    "name": "Atlantic Ocean",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "cf354561602f3ca384c92ef35caac45d3421c18285d59d2280da5629a669756d",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Molly recalls a visit of the Atlantic fleet in her memories of Gibraltar.",
+        "it": "Molly ricorda una visita della flotta atlantica nei suoi ricordi di Gibilterra.",
+        "fr": "Molly se souvient d’une visite de la flotte de l’Atlantique dans ses souvenirs de Gibraltar.",
+        "es": "Molly recuerda una visita de la flota del Atlántico entre sus recuerdos de Gibraltar."
+      }
+    }
+  },
+  {
+    "book": "ulisse",
+    "id": "berlin",
+    "collection": "cited",
+    "name": "Berlin",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "0efca6687cbd512797557d8efc79f4f7735157c93b5071c468f7dd9153892603",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "A Berlin address appears in the advertisement Bloom reads about a land scheme.",
+        "it": "Un indirizzo di Berlino compare nell’annuncio che Bloom legge su un progetto fondiario.",
+        "fr": "Une adresse de Berlin apparaît dans l’annonce que Bloom lit au sujet d’un projet foncier.",
+        "es": "Una dirección de Berlín aparece en el anuncio que lee Bloom sobre un proyecto de tierras."
+      }
+    }
+  },
+  {
+    "book": "ulisse",
+    "id": "china",
+    "collection": "cited",
+    "name": "China",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "cb7c5cca390e0e81ec4b78cd36fa34f93c7cde75e0676e39f2712ea62417033d",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "China appears in Bloom’s thoughts about religious conversion and in his later reflections on food.",
+        "it": "La Cina compare nei pensieri di Bloom sulle conversioni religiose e nelle sue riflessioni sul cibo.",
+        "fr": "La Chine apparaît dans les pensées de Bloom sur les conversions religieuses puis sur la nourriture.",
+        "es": "China aparece en los pensamientos de Bloom sobre conversiones religiosas y después sobre la comida."
+      }
+    }
+  },
+  {
+    "book": "ulisse",
+    "id": "egypt",
+    "collection": "cited",
+    "name": "Egypt",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "bc1687c3147785ee1f01ebd9b22e30cf27a5ad4b0b51485b00aa0c6de3c89010",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The biblical image of the fleshpots of Egypt passes through Stephen’s and Bloom’s thoughts.",
+        "it": "L’immagine biblica delle pentole d’Egitto attraversa i pensieri di Stephen e Bloom.",
+        "fr": "L’image biblique des marmites d’Égypte traverse les pensées de Stephen et de Bloom.",
+        "es": "La imagen bíblica de las ollas de Egipto cruza los pensamientos de Stephen y Bloom."
+      }
+    }
+  },
+  {
+    "book": "ulisse",
+    "id": "europe",
+    "collection": "cited",
+    "name": "Europe",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "44ee6ee2b208cf485c3d985f93c89abd8e2fb332004378dbe717d53db9fe2ee4",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Stephen imagines a mission to Europe in a reflection that invokes the Irish saint Columbanus.",
+        "it": "Stephen immagina una missione in Europa in una riflessione che evoca il santo irlandese Colombano.",
+        "fr": "Stephen imagine une mission en Europe dans une réflexion qui évoque le saint irlandais Colomban.",
+        "es": "Stephen imagina una misión a Europa en una reflexión que evoca al santo irlandés Columbano."
+      }
+    }
+  },
+  {
+    "book": "ulisse",
+    "id": "france",
+    "collection": "cited",
+    "name": "France",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "57319caaacb6b37c43bf517ba17f2c897bdaf8f3c29d95d8629d3d10ef18820a",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "France enters Stephen’s thoughts through the remembered words about a soldier of France.",
+        "it": "La Francia entra nei pensieri di Stephen attraverso parole ricordate su un soldato di Francia.",
+        "fr": "La France entre dans les pensées de Stephen par des paroles qu’il se remémore sur un soldat de France.",
+        "es": "Francia aparece en los pensamientos de Stephen mediante unas palabras recordadas sobre un soldado de Francia."
+      }
+    }
+  },
+  {
+    "book": "ulisse",
+    "id": "gibraltar-territory",
+    "collection": "cited",
+    "name": "Gibraltar",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "5c958432626c4324b58131aa96739da1e0c35f91d4e437b277e526384d1215cc",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Gibraltar recurs in memories connected with Molly’s life before Dublin.",
+        "it": "Gibilterra ritorna nei ricordi legati alla vita di Molly prima di Dublino.",
+        "fr": "Gibraltar revient dans les souvenirs liés à la vie de Molly avant Dublin.",
+        "es": "Gibraltar reaparece en los recuerdos ligados a la vida de Molly antes de Dublín."
+      }
+    }
+  },
+  {
+    "book": "ulisse",
+    "id": "greece",
+    "collection": "cited",
+    "name": "Greece",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "18db09333e246109eb81b1f73ed9f70c318983b85074a097d392a730cc47f61d",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Greece enters Bloom’s thoughts as he looks at a picture of naked nymphs.",
+        "it": "La Grecia entra nei pensieri di Bloom mentre guarda un’immagine di ninfe nude.",
+        "fr": "La Grèce traverse les pensées de Bloom lorsqu’il regarde une image de nymphes nues.",
+        "es": "Grecia aparece en los pensamientos de Bloom mientras mira una imagen de ninfas desnudas."
+      }
+    }
+  },
+  {
+    "book": "ulisse",
+    "id": "india",
+    "collection": "cited",
+    "name": "India",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "542f51abc8067a758eae807611544344261e358db83c4bf2914b9772a57eec30",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "India is named in a ceremonial catalogue of royal titles.",
+        "it": "L’India è nominata in una solenne enumerazione di titoli regali.",
+        "fr": "L’Inde est nommée dans une énumération solennelle de titres royaux.",
+        "es": "La India aparece en una enumeración solemne de títulos reales."
+      }
+    }
+  },
+  {
+    "book": "ulisse",
+    "id": "italy",
+    "collection": "cited",
+    "name": "Italy",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "8513ec5c839751746cb7af244585222f3ad037e3ffe686a1056e616c4990fa74",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Stephen invokes painters of old Italy when discussing Shakespeare’s presence in his plays.",
+        "it": "Stephen evoca i pittori dell’antica Italia discutendo della presenza di Shakespeare nelle proprie opere.",
+        "fr": "Stephen évoque les peintres de l’Italie ancienne en discutant de la présence de Shakespeare dans ses pièces.",
+        "es": "Stephen evoca a los pintores de la antigua Italia al hablar de la presencia de Shakespeare en sus obras."
+      }
+    }
+  },
+  {
+    "book": "ulisse",
+    "id": "london-city",
+    "collection": "cited",
+    "name": "London",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "3c167975becd1856692f1f3c61b6cbae2d483b8575b86c55aea11231ba643995",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Bloom recalls his father’s stories about waiting outside the Adelphi in London.",
+        "it": "Bloom ricorda i racconti del padre sull’attesa davanti all’Adelphi di Londra.",
+        "fr": "Bloom se rappelle les récits de son père sur l’attente devant l’Adelphi à Londres.",
+        "es": "Bloom recuerda los relatos de su padre sobre la espera ante el Adelphi de Londres."
+      }
+    }
+  },
+  {
+    "book": "ulisse",
+    "id": "madrid",
+    "collection": "cited",
+    "name": "Madrid",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "f005bf1356f751365c3c8c5212ef7513252f1f3865fe533f1a2e674fbc73fb99",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Madrid appears in Bloom’s thoughts through the song In Old Madrid.",
+        "it": "Madrid compare nei pensieri di Bloom attraverso la canzone In Old Madrid.",
+        "fr": "Madrid apparaît dans les pensées de Bloom à travers la chanson In Old Madrid.",
+        "es": "Madrid aparece en los pensamientos de Bloom a través de la canción In Old Madrid."
+      }
+    }
+  },
+  {
+    "book": "ulisse",
+    "id": "mediterranean",
+    "collection": "cited",
+    "name": "Mediterranean Sea",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "3a702092777c91c5884e920d01425fa3eb7613a4afb1c4abf33cf6af1bd48910",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The Mediterranean is named in Bloom’s thoughts about goods arriving from Spain and Gibraltar.",
+        "it": "Il Mediterraneo è nominato nei pensieri di Bloom sulle merci provenienti da Spagna e Gibilterra.",
+        "fr": "La Méditerranée est nommée dans les pensées de Bloom sur les marchandises venant d’Espagne et de Gibraltar.",
+        "es": "El Mediterráneo aparece en los pensamientos de Bloom sobre mercancías llegadas de España y Gibraltar."
+      }
+    }
+  },
+  {
+    "book": "ulisse",
+    "id": "nile",
+    "collection": "cited",
+    "name": "Nile",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "f6e5f8f1c0ba3f9c483188d7620853ca863a214560cf21c566016043883a9e28",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The Nile appears in a biblical allusion to an infant saved from its waters.",
+        "it": "Il Nilo compare in un’allusione biblica a un bambino salvato dalle sue acque.",
+        "fr": "Le Nil apparaît dans une allusion biblique à un enfant sauvé de ses eaux.",
+        "es": "El Nilo aparece en una alusión bíblica a un niño salvado de sus aguas."
+      }
+    }
+  },
+  {
+    "book": "ulisse",
+    "id": "rome",
+    "collection": "cited",
+    "name": "Rome",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "8690258f2aa501e6f8e30009d3e6cdccadffb9d9b621872571bdb4bdfabf0a34",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "O’Connell’s heart buried in Rome is mentioned during the journey to the cemetery.",
+        "it": "Il cuore di O’Connell sepolto a Roma è menzionato durante il viaggio verso il cimitero.",
+        "fr": "Le cœur d’O’Connell enterré à Rome est évoqué pendant le trajet vers le cimetière.",
+        "es": "El corazón de O’Connell enterrado en Roma se menciona durante el viaje al cementerio."
+      }
+    }
+  },
+  {
+    "book": "ulisse",
+    "id": "spain",
+    "collection": "cited",
+    "name": "Spain",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "a6920642ce9d8ebdba3d76d92ad56c127cc97f89d0e3e43bce3746958bb37608",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Spain comes to Bloom’s mind through Málaga raisins and memories of Molly.",
+        "it": "La Spagna viene in mente a Bloom attraverso l’uva passa di Malaga e i ricordi di Molly.",
+        "fr": "L’Espagne vient à l’esprit de Bloom par les raisins de Malaga et les souvenirs de Molly.",
+        "es": "España acude a la mente de Bloom a través de las pasas de Málaga y los recuerdos de Molly."
+      }
+    }
+  },
+  {
+    "book": "ulisse",
+    "id": "thames",
+    "collection": "cited",
+    "name": "River Thames",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "2f2226e27f74b22b49deb635e4c190759fd26ceef9beeb6a392279847f64cb2c",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The Thames embankment appears in the description of hungry loiterers.",
+        "it": "Il lungofiume del Tamigi compare nella descrizione di vagabondi affamati.",
+        "fr": "Les quais de la Tamise apparaissent dans la description de rôdeurs affamés.",
+        "es": "El terraplén del Támesis aparece en la descripción de merodeadores hambrientos."
+      }
+    }
+  },
+  {
+    "book": "ulisse",
+    "id": "vienna",
+    "collection": "cited",
+    "name": "Vienna",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "b4c23bdce87b2c7b2af7ced66bca893c164b33e0eb2e951b6f30c843e5af669f",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Vienna appears in Bloom’s recollection of his father’s stories about the actress Ristori.",
+        "it": "Vienna compare nel ricordo dei racconti del padre di Bloom sull’attrice Ristori.",
+        "fr": "Vienne apparaît dans le souvenir des récits du père de Bloom sur l’actrice Ristori.",
+        "es": "Viena aparece en el recuerdo de los relatos del padre de Bloom sobre la actriz Ristori."
+      }
+    }
+  }
+]
