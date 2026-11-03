@@ -367,13 +367,13 @@ function locationNarrative(chapter,id,citation){
  const messages=review?.reason==='source-unavailable'?{it:'La copia verificata non contiene il testo originale di questa sezione.',en:'The verified copy does not contain this section’s original text.',fr:'La copie vérifiée ne contient pas le texte original de cette section.',es:'La copia verificada no contiene el texto original de esta sección.'}:{it:'Riscontro narrativo in verifica. Il riferimento resta provvisorio.',en:'Narrative evidence under review. This reference remains provisional.',fr:'Preuve narrative en cours de vérification. Cette référence reste provisoire.',es:'Prueba narrativa en revisión. Esta referencia sigue siendo provisional.'};
  return '<p class="episode-note location-review-status" data-narrative-status="pending">'+esc(messages[locale]||messages.en)+'</p>';
 }
-// Keep the short position status visible; collect precision notes at their source.
-function positionNotesHtml(place){
- const normalize=value=>String(value||'').trim().replace(/[\s.·]+$/g,'').toLocaleLowerCase();
- const seen=new Set([normalize(place.status)]);
- return [place.note,place.method].filter(value=>{
-  const key=normalize(value);if(!key||seen.has(key))return false;seen.add(key);return true;
- }).map(value=>`<p>${esc(value)}</p>`).join('');
+// Reuse only short, place-specific descriptions; technical notes remain in the data.
+function locationPositionDescription(place){
+ const note=String(place.note||'').trim();
+ if(!note||note.length>240||/(?:WGS84|coordinate|coordonn|coordenad|centroid|centroide|marker|marqueur|marcador|segnaposto|punto rappresentativo|representative point|punto representativo|point repr[ée]sentatif|precision|précision|precisión|precisione|source|sources|fuentes|fonti|mappa|map shows|la carte|el mapa|non localizza|does not (?:locate|establish|identify)|ne localise|no localiza)/i.test(note))return '';
+ const normalized=note.toLocaleLowerCase();
+ if(Object.values(allLiteraryPlaces).filter(item=>String(item.note||'').trim().toLocaleLowerCase()===normalized).length>1)return '';
+ return `<p class="location-position">${esc(t(note))}</p>`;
 }
 function renderLocation(options={}){
  const target=options.target||document.getElementById('selected-location'),isPopup=target===document.getElementById('map-popup-content');
@@ -383,17 +383,9 @@ function renderLocation(options={}){
  if(!isPopup)placeButtons.forEach((button,i)=>button.setAttribute('aria-pressed',String(i===selectedPlace&&selectedCitation<0)));
  if(!isPopup)citationButtons.forEach((button,i)=>button.setAttribute('aria-pressed',String(i===selectedCitation)));
  const sceneHtml=locationNarrative(chapter,id,citation);
- const decimals=Number.isInteger(place.coordinateDecimals)&&place.coordinateDecimals>=0&&place.coordinateDecimals<=8?place.coordinateDecimals:place.positionSource.recordId||place.positionSource.councilRecord?6:4;
- const geographicPlace=place.geographic&&(!place.imagePresentation||illustratedMap?.geographic);
- const presentation=!geographicPlace&&place.imagePresentation||place;
  const hasOutline=!!window.RegionalOutline?.geometry(place);
- const coordinateText=hasOutline?t('Regional outline · no exact position'):isIllustrated&&!geographicPlace?'':place.coords.map(n=>n.toFixed(decimals)).join(', ');
- if(isIllustrated){
-  target.innerHTML=`${sceneHtml}<details class="location-evidence"><summary>${t('Posizione e fonti')}</summary>${book.literaryViews?'':positionNotesHtml({...presentation,status:''})}<p>${esc(narrativeSource?.label||'')}</p>${geographicPlace?`<p class="coordinates">WGS84 · ${coordinateText}</p>${publicSourceLink(place.positionSource)}`:''}</details>`;
- }else{
- target.innerHTML=`${place.area?.trim()?`<p class="location-address">${esc(place.area)}</p>`:''}${sceneHtml}<p class="today"><strong>${esc(place.status)}.</strong> </p><details class="location-evidence"><summary>${t('Posizione e fonti')}</summary>${positionNotesHtml(place)}<p class="coordinates">${hasOutline?'':'WGS84 · '}${coordinateText}<br>${t('Verifica delle fonti')}: ${esc(new Date(place.checked+"T12:00:00").toLocaleDateString(locale,{day:"numeric",month:"long",year:"numeric"}))}</p><span>${esc(narrativeSource?.label||'')}</span><br>${publicSourceLink(place.positionSource)}${place.additionalSource?`<br>${publicSourceLink(place.additionalSource)}`:''}</details>`;
- if(!hasOutline&&place.geographicReview?.precision!=='region')target.innerHTML+=`<div class="street-view-action"><a class="street-view-link" id="street-view-link" href="${esc(streetViewUrl(place))}" target="_blank" rel="noopener noreferrer" aria-label="${esc(t('Apri Street View in una nuova finestra')+': '+place.name)}">Google Street View <span aria-hidden="true">↗</span></a><p class="street-view-note">${esc(t('Google mostra il panorama disponibile più vicino: può essere spostato rispetto al punto e dipende dalla copertura.'))}</p></div>`;
- }
+ target.innerHTML=`${place.area?.trim()?`<p class="location-address">${esc(place.area)}</p>`:''}${sceneHtml}${locationPositionDescription(place)}`;
+ if(!isIllustrated&&!hasOutline&&place.geographicReview?.precision!=='region')target.innerHTML+=`<div class="street-view-action"><a class="street-view-link" id="street-view-link" href="${esc(streetViewUrl(place))}" target="_blank" rel="noopener noreferrer" aria-label="${esc(t('Apri Street View in una nuova finestra')+': '+place.name)}">Google Street View <span aria-hidden="true">↗</span></a><p class="street-view-note">${esc(t('Google mostra il panorama disponibile più vicino: può essere spostato rispetto al punto e dipende dalla copertura.'))}</p></div>`;
  if(isPopup&&options.chapter)target.innerHTML=`<p class="detail-eyebrow">${esc(number(chapter.id)+' · '+chapter.title)}</p>`+target.innerHTML;
  const quote=!citation&&chapter.placeQuotes?.[id];
  const excerpt=citation?.excerpt||chapter.placeExcerpts?.[id];
