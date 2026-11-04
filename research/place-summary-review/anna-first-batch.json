@@ -1,0 +1,1142 @@
+[
+  {
+    "book": "anna-karenina",
+    "id": "russia",
+    "collection": "core",
+    "name": "Russia",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "6a8b1b11a287729e92ce88ba3490e0fa05fc2c6c39196eb033b75de6cce044cd",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Oblonsky's political opinions about Russia conveniently echo his private difficulties.",
+        "it": "Le opinioni politiche di Oblonskij sulla Russia rispecchiano comodamente le sue difficoltà private.",
+        "fr": "Les opinions politiques d'Oblonski sur la Russie reflètent commodément ses difficultés privées.",
+        "es": "Las opiniones políticas de Oblonski sobre Rusia reflejan convenientemente sus problemas privados."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "wiesbaden",
+    "collection": "core",
+    "name": "Wiesbaden",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "5f292b93e5ff3824a02a3987ba06eba3576660a4003f96037e7224ac65c9e7e1",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Oblonsky reads a newspaper report of Count Beust's journey to Wiesbaden.",
+        "it": "Oblonskij legge sul giornale la notizia del viaggio del conte Beust a Wiesbaden.",
+        "fr": "Oblonski lit dans le journal la nouvelle du voyage du comte Beust à Wiesbaden.",
+        "es": "Oblonski lee en el periódico la noticia del viaje del conde Beust a Wiesbaden."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "penza",
+    "collection": "core",
+    "name": "Penza governorate",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "fb19d32591f0438350b266ef31ed64386942b7c28eb37af1590dced842cad9bd",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Information from Penza's provincial administration appears in Oblonsky's office business.",
+        "it": "Un'informazione dall'amministrazione provinciale di Penza compare nelle pratiche dell'ufficio di Oblonskij.",
+        "fr": "Une information de l'administration provinciale de Penza apparaît dans les affaires du bureau d'Oblonski.",
+        "es": "Una información de la administración provincial de Penza aparece entre los asuntos de la oficina de Oblonski."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "baltic",
+    "collection": "core",
+    "name": "Baltic Sea",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "402761630eb790e53e9dfa6dc58c80aab0d453f614dfd6706928aa966beda30b",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The account of the Shcherbatsky family recalls the young son's drowning in the Baltic.",
+        "it": "Il ritratto della famiglia Ščerbackij ricorda il giovane figlio annegato nel Baltico.",
+        "fr": "Le portrait de la famille Chtcherbatski rappelle la noyade du jeune fils dans la Baltique.",
+        "es": "El retrato de la familia Shcherbatski recuerda al hijo joven ahogado en el Báltico."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "kharkov",
+    "collection": "core",
+    "name": "Kharkov (Kharkiv)",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "e2be36ff6c1a8cecd71ef4415f0cf36d5192d52b17a9719a707ea8bb9f0f5aa4",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The professor debating with Koznyshev has travelled from Kharkov to clarify their disagreement.",
+        "it": "Il professore che discute con Koznyšev è venuto da Charkiv per chiarire il loro disaccordo.",
+        "fr": "Le professeur qui débat avec Koznychev est venu de Kharkiv pour éclaircir leur désaccord.",
+        "es": "El profesor que debate con Koznyshev ha venido de Járkov para aclarar su desacuerdo."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "flensburg",
+    "collection": "core",
+    "name": "Flensburg (oyster provenance)",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "80e9d014934ee5dbe1afebc61c172ef8468ca5f542627fb9ebe8d10e8707bdc7",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "At the restaurant, Flensburg identifies the oysters offered instead of those from Ostend.",
+        "it": "Al ristorante, Flensburg indica le ostriche offerte al posto di quelle di Ostenda.",
+        "fr": "Au restaurant, Flensbourg désigne les huîtres proposées à la place de celles d'Ostende.",
+        "es": "En el restaurante, Flensburgo identifica las ostras ofrecidas en lugar de las de Ostende."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "ostend",
+    "collection": "core",
+    "name": "Ostend (oyster provenance)",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "aec9e9983b20e484434eb157ee985a4e346e1f0730c6ffe93d1176bc7fbad274",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The waiter explains that Ostend oysters are unavailable.",
+        "it": "Il cameriere spiega che le ostriche di Ostenda non sono disponibili.",
+        "fr": "Le serveur explique que les huîtres d'Ostende ne sont pas disponibles.",
+        "es": "El camarero explica que no hay ostras de Ostende."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "tver",
+    "collection": "core",
+    "name": "Tver",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "ede57a25a380bd6b6781bacfedaf0350756dfb74c492ac94f475589935a8446f",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Oblonsky recalls meeting Vronsky at Tver during a recruitment assignment.",
+        "it": "Oblonskij ricorda di aver conosciuto Vronskij a Tver' durante un incarico di reclutamento.",
+        "fr": "Oblonski rappelle avoir rencontré Vronski à Tver lors d'une mission de recrutement.",
+        "es": "Oblonski recuerda haber conocido a Vronski en Tver durante una misión de reclutamiento."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "nice",
+    "collection": "core",
+    "name": "Nice",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "5563810a4340d603eceb80df5210b6c2f344d28ba0bcf120cea50af94189faca",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The recollection of a winter in Nice evokes homesickness for the Russian countryside.",
+        "it": "Il ricordo di un inverno a Nizza richiama la nostalgia per la campagna russa.",
+        "fr": "Le souvenir d'un hiver à Nice évoque la nostalgie de la campagne russe.",
+        "es": "El recuerdo de un invierno en Niza evoca la nostalgia del campo ruso."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "babylon",
+    "collection": "core",
+    "name": "Babylon (comparison)",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "8a9549b4faf1ace5d2e5933f49ee52eab21999fd9dd48c1f191030a5f4e60f1a",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Moscow is teasingly called a corrupt Babylon in conversation with Levin.",
+        "it": "Mosca viene scherzosamente paragonata a una Babilonia corrotta nella conversazione con Levin.",
+        "fr": "Moscou est malicieusement comparée à une Babylone corrompue dans la conversation avec Lévine.",
+        "es": "Moscú es comparada en broma con una Babilonia corrupta en la conversación con Levin."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "switzerland",
+    "collection": "core",
+    "name": "Switzerland",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "df4501aacc8e3aacbfb3529fc7fa7e2d49eef4ea6eac7e4415770092980c20ae",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Anna compares the happiness of youth to the blue haze over Swiss mountains.",
+        "it": "Anna paragona la felicità della giovinezza alla foschia azzurra sui monti svizzeri.",
+        "fr": "Anna compare le bonheur de la jeunesse à la brume bleue des montagnes suisses.",
+        "es": "Anna compara la felicidad de la juventud con la bruma azul de las montañas suizas."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "kiev",
+    "collection": "core",
+    "name": "Kiev (Kyiv)",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "2c5875d486ff7f0f3fa0f2fb3ab91a5a65b4e3d3c4a433a84e426282f7434629",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Nikolai introduces Kritsky as an old friend from Kyiv.",
+        "it": "Nikolaj presenta Krickij come un vecchio amico di Kiev.",
+        "fr": "Nikolaï présente Kritski comme un vieil ami de Kyiv.",
+        "es": "Nikolái presenta a Kritski como un viejo amigo de Kiev."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "bolshaya-morskaya",
+    "collection": "core",
+    "name": "Bolshaya Morskaya Street",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "968a62f1de588fd1f19cad6036ba1f0e96b2f7d15478db197ee799ec17bd3668",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Vronsky has left his apartment on Morskaya to his companion Petritsky.",
+        "it": "Vronskij ha lasciato l'appartamento sulla Morskaja al compagno Petrickij.",
+        "fr": "Vronski a laissé son appartement de la Morskaïa à son camarade Petritski.",
+        "es": "Vronski ha dejado su apartamento de Morskaya a su compañero Petritski."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "soden",
+    "collection": "core",
+    "name": "Soden (Bad Soden am Taunus)",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "fb8e16c47c05df98b6940d49e4a0f9455b95cba724ec3530e84eeed53a615789",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Kitty's father credits Soden with helping her recover, though he finds the place gloomy.",
+        "it": "Il padre di Kitty attribuisce a Soden la sua ripresa, pur trovando triste il luogo.",
+        "fr": "Le père de Kitty attribue à Soden son rétablissement, tout en trouvant l'endroit triste.",
+        "es": "El padre de Kitty atribuye a Soden su recuperación, aunque encuentra triste el lugar."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "moscow",
+    "collection": "core",
+    "name": "Moscow",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "b3a17d86bfef8f1998c83e5672468b5d9d8220d7b8062bc477ba9234e680cd4b",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "After returning from Moscow, Anna finds Lydia Ivanovna's circle intolerably false.",
+        "it": "Dopo il ritorno da Mosca, Anna trova insopportabilmente falso il circolo di Lidija Ivanovna.",
+        "fr": "Après son retour de Moscou, Anna trouve le cercle de Lydia Ivanovna insupportablement faux.",
+        "es": "Tras regresar de Moscú, Anna encuentra insoportablemente falso el círculo de Lidia Ivánovna."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "petersburg",
+    "collection": "core",
+    "name": "Saint Petersburg",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "5df71e35140b48b9571d4663fce0c18210dedac2e905db166025360107f312ce",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Anna's Petersburg society is divided into official, pious and fashionable circles.",
+        "it": "La società pietroburghese di Anna si divide in circoli ufficiali, devoti e mondani.",
+        "fr": "La société pétersbourgeoise d'Anna se partage en cercles officiels, pieux et mondains.",
+        "es": "La sociedad petersburguesa de Anna se divide en círculos oficiales, piadosos y mundanos."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "europe",
+    "collection": "core",
+    "name": "Europe",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "c4777e68f8ffbe95ba819691bb557e08335e883a4ae98f69346e8e97d356bc7b",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "A guest praises Karenin as one of Europe's exceptional statesmen.",
+        "it": "Un'ospite elogia Karenin come uno dei rari grandi uomini di Stato d'Europa.",
+        "fr": "Une invitée présente Karénine comme l'un des rares grands hommes d'État d'Europe.",
+        "es": "Una invitada elogia a Karenin como uno de los pocos grandes estadistas de Europa."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "krasnoe",
+    "collection": "core",
+    "name": "Krasnoye Selo and racecourse area",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "fe6643fd900bdba29457fe57a964854e9b23dec46f9106ec95f2c15390e44192",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The day of the Krasnoe races begins with Vronsky carefully watching his weight and breakfast.",
+        "it": "Il giorno delle corse di Krasnoe inizia con Vronskij attento al peso e alla colazione.",
+        "fr": "Le jour des courses de Krasnoïé commence avec Vronski surveillant son poids et son déjeuner.",
+        "es": "El día de las carreras de Krásnoie comienza con Vronski vigilando su peso y su desayuno."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "peterhof",
+    "collection": "core",
+    "name": "Peterhof",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "b51741239f4c29c76f5f1f269acaf71016b866ad219f9c744e2394068a9be8bc",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Vronsky's promised visit to Bryansky is located ten versts from Peterhof.",
+        "it": "La visita promessa da Vronskij a Brjanskij viene situata a dieci verste da Peterhof.",
+        "fr": "La visite promise de Vronski à Brianski est située à dix verstes de Peterhof.",
+        "es": "La visita prometida por Vronski a Brianski se sitúa a diez verstas de Peterhof."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "china",
+    "collection": "core",
+    "name": "China",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "9c367efa1e10b8a4e01b05a79a65d2deddb5f1de520fae766658b8c040f614a8",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Lydia Ivanovna sends Karenin a traveller's pamphlet about China and asks him to receive its author.",
+        "it": "Lidija Ivanovna invia a Karenin un opuscolo di viaggio sulla Cina e gli chiede di riceverne l'autore.",
+        "fr": "Lydia Ivanovna envoie à Karénine une brochure de voyage sur la Chine et lui demande d'en recevoir l'auteur.",
+        "es": "Lidia Ivánovna envía a Karenin un folleto de viajes sobre China y le pide que reciba a su autor."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "england",
+    "collection": "core",
+    "name": "England",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "882f3d1c48e85bcf64b6e18dffae59f4a6351cfc4a20fef1305a9149c85750b2",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "England's cavalry history is invoked to defend the value and dangers of military racing.",
+        "it": "La storia della cavalleria inglese è richiamata per difendere il valore e i rischi delle corse militari.",
+        "fr": "L'histoire de la cavalerie anglaise est invoquée pour défendre la valeur et les dangers des courses militaires.",
+        "es": "La historia de la caballería inglesa se invoca para defender el valor y los riesgos de las carreras militares."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "paris",
+    "collection": "core",
+    "name": "Paris",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "fd011f0c91fbcd453ef2bf4f00c16aeeb733b99c7b6cc5dbb050ff1cf92dfc72",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Kitty's elegant summer dress has been ordered from Paris.",
+        "it": "L'elegante abito estivo di Kitty è stato ordinato a Parigi.",
+        "fr": "La robe d'été élégante de Kitty a été commandée à Paris.",
+        "es": "El elegante vestido de verano de Kitty ha sido encargado en París."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "karlsbad",
+    "collection": "core",
+    "name": "Karlsbad (Karlovy Vary)",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "23749dc4ccd506864b33303ea2d7c318fe308ced50fe4c32b34fbc78a6941407",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Kitty's father leaves for Karlsbad, leaving her at the spa with her mother.",
+        "it": "Il padre di Kitty parte per Karlsbad, lasciandola alle terme con la madre.",
+        "fr": "Le père de Kitty part pour Karlsbad, la laissant aux eaux avec sa mère.",
+        "es": "El padre de Kitty parte hacia Karlsbad y la deja en el balneario con su madre."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "frankfurt",
+    "collection": "core",
+    "name": "Frankfurt am Main",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "66374da1b9acfb8d023a7a8a2c14cf9e99d838c602691958cd2d2c9de332c200",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The Moscow colonel proudly wears a ready-made coat bought in Frankfurt.",
+        "it": "Il colonnello moscovita sfoggia un soprabito confezionato acquistato a Francoforte.",
+        "fr": "Le colonel moscovite arbore un manteau de confection acheté à Francfort.",
+        "es": "El coronel moscovita luce un abrigo de confección comprado en Fráncfort."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "menton",
+    "collection": "core",
+    "name": "Menton",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "5e416da0a5ad10e87a6f24b40710dbb488faa7ac6b41818ee1a72720df7097f4",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "A conversation identifies Menton as Varenka's home with Madame Stahl.",
+        "it": "Una conversazione indica Mentone come dimora di Varen'ka con Madame Stahl.",
+        "fr": "Une conversation situe à Menton la résidence de Varenka auprès de Madame Stahl.",
+        "es": "Una conversación sitúa en Menton la residencia de Varenka con Madame Stahl."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "germany",
+    "collection": "core",
+    "name": "Germany",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "e662b104525783a76fc121311799ae624df53402166ef26538a94759c5f03d11",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Marya Yevgenyevna counters the prince's boredom by praising Germany's many interests.",
+        "it": "Mar'ja Evgen'evna risponde alla noia del principe elogiando gli interessi offerti dalla Germania.",
+        "fr": "Maria Evguénievna répond à l'ennui du prince en vantant les attraits de l'Allemagne.",
+        "es": "María Evguénievna responde al aburrimiento del príncipe elogiando los atractivos de Alemania."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "turkey",
+    "collection": "core",
+    "name": "Turkey",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "dcb786b16c3db70aa7e26bd982cfa952cd53a10e007e4e063dcb143441343f16",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Sviyazhsky's political outlook compares Russia's supposed decline with Turkey's.",
+        "it": "La visione politica di Svijažskij paragona il presunto declino russo a quello della Turchia.",
+        "fr": "Les vues politiques de Sviajski comparent le déclin supposé de la Russie à celui de la Turquie.",
+        "es": "La visión política de Sviazhski compara el supuesto declive ruso con el de Turquía."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "poland",
+    "collection": "core",
+    "name": "Poland",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "b0b873f9fbc6ad30602222e767d0849d8a010eef3895ad829a9c5289879ea225",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Sviyazhsky recommends a magazine article reassessing responsibility for Poland's partition.",
+        "it": "Svijažskij segnala un articolo che riconsidera le responsabilità della spartizione della Polonia.",
+        "fr": "Sviajski recommande un article réexaminant les responsabilités du partage de la Pologne.",
+        "es": "Sviazhski recomienda un artículo que revisa las responsabilidades del reparto de Polonia."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "mulhouse",
+    "collection": "core",
+    "name": "Mulhouse",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "c21aa11582cfe5bda684ebea49007277fb6b864995c6be88e0fcf8f646ab8ecf",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Mulhouse is dismissed in a proposal to travel instead to Paris.",
+        "it": "Mulhouse è liquidata in una proposta di andare invece a Parigi.",
+        "fr": "Mulhouse est écartée dans une proposition de partir plutôt à Paris.",
+        "es": "Mulhouse se descarta en una propuesta de ir en cambio a París."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "india",
+    "collection": "core",
+    "name": "India",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "c3ace435dc4f4f4490f5fa050457c0d0cefd224a6c92ba9aa2f58702ac53a76a",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The prince's remembered entertainments include riding an elephant in India.",
+        "it": "Fra i divertimenti ricordati del principe compare un giro in elefante in India.",
+        "fr": "Les divertissements évoqués du prince comprennent une promenade à dos d'éléphant en Inde.",
+        "es": "Entre las diversiones recordadas del príncipe figura un paseo en elefante en la India."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "spain",
+    "collection": "core",
+    "name": "Spain",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "40eeaf92b4492ec6c8f5b8f1fbbbe1216617711d39bf7f7be08c84398ec9c2a6",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The prince's Spanish adventures are recalled through serenades and a mandolin-playing woman.",
+        "it": "Le avventure spagnole del principe sono ricordate attraverso serenate e una suonatrice di mandolino.",
+        "fr": "Les aventures espagnoles du prince sont évoquées par des sérénades et une joueuse de mandoline.",
+        "es": "Las aventuras españolas del príncipe se evocan mediante serenatas y una mujer que tocaba la mandolina."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "rhine",
+    "collection": "core",
+    "name": "Rhine",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "1569f2cbd2a73f97d5dd7f8e950c0ac714fcec7b43b32a1f978c80e44aa4989f",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The Rhine becomes an example in the dinner guests' argument over national cultures.",
+        "it": "Il Reno diventa un esempio nella disputa degli ospiti sulle culture nazionali.",
+        "fr": "Le Rhin devient un exemple dans la dispute des convives sur les cultures nationales.",
+        "es": "El Rin se convierte en ejemplo en la discusión de los invitados sobre las culturas nacionales."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "rome",
+    "collection": "core",
+    "name": "Rome",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "7f41feebd1dff38ec9794d71d97bb82c5aa7915308fcbd14a1c482ecb2c0b050",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "In her fever, Anna imagines withdrawing to Rome with her children.",
+        "it": "Nella febbre, Anna immagina di ritirarsi a Roma con i figli.",
+        "fr": "Dans sa fièvre, Anna imagine se retirer à Rome avec ses enfants.",
+        "es": "En su fiebre, Anna imagina retirarse a Roma con sus hijos."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "tashkent",
+    "collection": "core",
+    "name": "Tashkent",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "eeeb812db75e07288e8bd4a3da9bcf9737b9c9c1e319b37e6cf834e0a4680ef6",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Anna reports Vronsky's wish to say goodbye before his intended departure for Tashkent.",
+        "it": "Anna riferisce il desiderio di Vronskij di congedarsi prima della prevista partenza per Taškent.",
+        "fr": "Anna rapporte le souhait de Vronski de prendre congé avant son départ prévu pour Tachkent.",
+        "es": "Anna comunica el deseo de Vronski de despedirse antes de su prevista partida hacia Taskent."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "italy",
+    "collection": "core",
+    "name": "Italy",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "140c0695b7c1b834230cbf66a14ba039cddac45b9161cb9abe699483c47b90ca",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Vronsky proposes going to Italy so that Anna can recover.",
+        "it": "Vronskij propone di andare in Italia perché Anna possa ristabilirsi.",
+        "fr": "Vronski propose de partir en Italie pour qu'Anna se rétablisse.",
+        "es": "Vronski propone ir a Italia para que Anna se recupere."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "arbat",
+    "collection": "core",
+    "name": "Arbat",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "a14e19a3cb1f5c631e769eccbd6ce3fcb8dd8b3654818634898ef370da017e08",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Kitty recalls the decisive moment when she silently accepted Levin at the Arbat house.",
+        "it": "Kitty ricorda il momento decisivo in cui accettò silenziosamente Levin nella casa dell'Arbat.",
+        "fr": "Kitty se rappelle le moment décisif où elle accepta silencieusement Lévine dans la maison de l'Arbat.",
+        "es": "Kitty recuerda el momento decisivo en que aceptó en silencio a Levin en la casa del Arbat."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "corso",
+    "collection": "core",
+    "name": "Via del Corso, Rome",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "74936453e02dcabafddb95acd1f7c3949e6c9692cb0c41d0168577cdef55596b",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Anna tells Yashvin she watched races on Rome's Corso instead of the Russian races.",
+        "it": "Anna racconta a Jašvin di aver assistito alle corse sul Corso di Roma anziché a quelle russe.",
+        "fr": "Anna raconte à Iachvine avoir assisté aux courses du Corso de Rome plutôt qu'aux courses russes.",
+        "es": "Anna cuenta a Yashvin que vio las carreras del Corso de Roma en lugar de las rusas."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "france",
+    "collection": "core",
+    "name": "France",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "12b7ec0062a0b4aae4a51adfff9f537b3cf89ece6a8dee2a55efe938d2809375",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Koznyshev recalls Varenka's contrast between French and Russian attitudes to middle age.",
+        "it": "Koznyšev ricorda il confronto di Varen'ka fra gli atteggiamenti francesi e russi verso la mezza età.",
+        "fr": "Koznychev se rappelle le contraste établi par Varenka entre les attitudes françaises et russes envers l'âge mûr.",
+        "es": "Koznyshev recuerda el contraste de Varenka entre las actitudes francesas y rusas ante la madurez."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "usa",
+    "collection": "core",
+    "name": "United States",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "f5f98862c18f665d139141224a483838fb941dc75fd7f06a6b5b1eafe8c6817f",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Anna redirects a dinner conversation about abuses of power in the United States.",
+        "it": "Anna cambia argomento durante una conversazione a tavola sugli abusi delle autorità negli Stati Uniti.",
+        "fr": "Anna détourne une conversation à table sur les abus de pouvoir aux États-Unis.",
+        "es": "Anna cambia de tema durante una conversación de sobremesa sobre abusos de poder en Estados Unidos."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "vienna",
+    "collection": "core",
+    "name": "Vienna exhibition",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "86d236d693999cbd756afd6be49336dacbe797e43b1e15d680c4bec2edbde4dc",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Sviyazhsky recalls a wire-binding machine seen at the Vienna exhibition.",
+        "it": "Svijažskij ricorda una macchina che lega con filo metallico vista all'esposizione di Vienna.",
+        "fr": "Sviajski se rappelle une machine à lier au fil métallique vue à l'exposition de Vienne.",
+        "es": "Sviazhski recuerda una máquina que ata con alambre vista en la exposición de Viena."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "crimea",
+    "collection": "core",
+    "name": "Crimea",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "14ac75093f88cb794b8d2e89d79f8b01e1f2fe7d27a5b71f45a02028bf0c2c24",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Some nobles arriving for the provincial elections have travelled from Crimea.",
+        "it": "Alcuni nobili giunti alle elezioni provinciali provengono dalla Crimea.",
+        "fr": "Certains nobles venus aux élections provinciales arrivent de Crimée.",
+        "es": "Algunos nobles llegados para las elecciones provinciales proceden de Crimea."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "kazan",
+    "collection": "core",
+    "name": "Kazan governorate",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "db028e635400bf4df630802976a852e2e5962ade4090251e154862a991af8e3f",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "A reply locates the village of Vozdrema in Kazan province.",
+        "it": "Una risposta situa il villaggio di Vozdrema nella provincia di Kazan'.",
+        "fr": "Une réponse situe le village de Vozdrema dans la province de Kazan.",
+        "es": "Una respuesta sitúa el pueblo de Vozdrema en la provincia de Kazán."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "voz-dvizhenka",
+    "collection": "core",
+    "name": "Vozdvizhenka Street",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "1ee1041ca2a3d3cfc6c2903eceeaa0ed3a1c6d74936a1266d9722353f982013e",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Levin recalls the costly carriage journey from Vozdvizhenka to Sivtsev Vrazhek through melting snow.",
+        "it": "Levin ricorda il costoso tragitto in carrozza da Vozdviženka a Sivcev Vražek nella neve sciolta.",
+        "fr": "Lévine évoque le coûteux trajet en voiture de Vozdvijenka à Sivtsev Vrajek dans la neige fondue.",
+        "es": "Levin recuerda el costoso trayecto en coche de Vozdvizhenka a Sívtsev Vrázhek entre la nieve derretida."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "sivtsev",
+    "collection": "core",
+    "name": "Sivtsev Vrazhek Lane",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "020792529f866162d1cf7b3f04be97eda836ed1cf465718e0d8db53211efe3b0",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Sivtsev Vrazhek is the destination in Levin's reflection on expensive short journeys across Moscow.",
+        "it": "Sivcev Vražek è la destinazione nella riflessione di Levin sui costosi brevi spostamenti moscoviti.",
+        "fr": "Sivtsev Vrajek est la destination dans la réflexion de Lévine sur les coûteux petits trajets moscovites.",
+        "es": "Sívtsev Vrázhek es el destino en la reflexión de Levin sobre los costosos trayectos cortos por Moscú."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "montenegro",
+    "collection": "core",
+    "name": "Montenegro",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "f9f7a805a913386e5211dee760f084d12c5025a0c8cbafb84e17010ac0899331",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Katavasov greets Levin with a question about the Montenegrins and their reputation as warriors.",
+        "it": "Katavasov accoglie Levin con una domanda sui montenegrini e sulla loro fama guerriera.",
+        "fr": "Katavassov accueille Lévine par une question sur les Monténégrins et leur réputation guerrière.",
+        "es": "Katavásov recibe a Levin con una pregunta sobre los montenegrinos y su fama guerrera."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "herzegovina",
+    "collection": "core",
+    "name": "Herzegovina",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "4e5ec98341c5b76ce6e74b49ade9774406991c76e279330676814fec5787cda4",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Herzegovina joins society news and politics in the conversation at Lvov's home.",
+        "it": "L'Erzegovina si affianca alle notizie mondane e politiche nella conversazione in casa L'vov.",
+        "fr": "L'Herzégovine se mêle aux nouvelles mondaines et politiques dans la conversation chez Lvov.",
+        "es": "Herzegovina se mezcla con las noticias sociales y políticas en la conversación en casa de Lvov."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "baden",
+    "collection": "core",
+    "name": "Baden-Baden",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "1e0df3a240e1a92018450de990b14a5039873f171dc142b046f7dd74740fcd94",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Pyotr Oblonsky recalls a summer in Baden when he felt young again.",
+        "it": "Pëtr Oblonskij ricorda un'estate a Baden in cui si sentiva di nuovo giovane.",
+        "fr": "Piotr Oblonski évoque un été à Baden où il se sentait de nouveau jeune.",
+        "es": "Piotr Oblonski recuerda un verano en Baden en que volvió a sentirse joven."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "helsinki",
+    "collection": "core",
+    "name": "Helsingfors (Helsinki)",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "096675429d8a46934239a1c3267d066a4adff8ad995576a7d1c8a8e75ea90bce",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Vronsky brings up Helsingfors in conversation while looking toward Anna.",
+        "it": "Vronskij richiama Helsingfors nella conversazione mentre guarda Anna.",
+        "fr": "Vronski évoque Helsingfors dans la conversation en regardant Anna.",
+        "es": "Vronski menciona Helsingfors en la conversación mientras mira a Anna."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "znamenka",
+    "collection": "core",
+    "name": "Znamenka Street",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "7f37d312a589e81c92020f4410936912818db9b5df5561d3a796b513fb834e49",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Anna gives Znamenka and the Oblonskys' home as her destination.",
+        "it": "Anna indica come destinazione Znamenka e la casa degli Oblonskij.",
+        "fr": "Anna donne pour destination Znamenka et la maison des Oblonski.",
+        "es": "Anna indica como destino Znamenka y la casa de los Oblonski."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "troitsa",
+    "collection": "core",
+    "name": "Trinity monastery (Troitsa)",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "30bc5f0b6efca5a0123181444ed52b2c8f726dfcb049c99ff191243cd576f0b7",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Anna remembers travelling to the Trinity monastery with her aunt at seventeen.",
+        "it": "Anna ricorda il viaggio al monastero della Trinità con la zia a diciassette anni.",
+        "fr": "Anna se rappelle son voyage au monastère de la Trinité avec sa tante à dix-sept ans.",
+        "es": "Anna recuerda su viaje al monasterio de la Trinidad con su tía a los diecisiete años."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "mytishchi",
+    "collection": "core",
+    "name": "Mytishchi wells area",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "e6c5d83c8ab867bca78129cee321bad4c274b971afb9c681509a527c0ed58ea2",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The wells of Mytishchi and pancakes trigger Anna's memories of an earlier journey.",
+        "it": "I pozzi di Mytišči e le frittelle risvegliano in Anna i ricordi di un antico viaggio.",
+        "fr": "Les puits de Mytichtchi et les crêpes réveillent chez Anna le souvenir d'un ancien voyage.",
+        "es": "Los pozos de Mytishchi y las tortitas despiertan en Anna recuerdos de un antiguo viaje."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "volga",
+    "collection": "core",
+    "name": "Volga",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "8fbee386ef8f4d9346b483815a496ea0723a543d0e9e5c1f849dcce39f14504f",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Travel advertisements for the Volga enter Anna's thoughts about the suffering shared by strangers.",
+        "it": "Gli annunci di viaggio sul Volga entrano nei pensieri di Anna sulla sofferenza comune agli sconosciuti.",
+        "fr": "Les annonces de voyage sur la Volga entrent dans les pensées d'Anna sur la souffrance partagée des inconnus.",
+        "es": "Los anuncios de viajes por el Volga entran en los pensamientos de Anna sobre el sufrimiento compartido de los desconocidos."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "obiralovka",
+    "collection": "core",
+    "name": "Obiralovka (modern Zheleznodorozhny area)",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "8a6dfb485b03f141af5959089cad8575c73d8cb4f89d35e09623347a4e0e701a",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Pyotr asks Anna whether he should buy the ticket to Obiralovka.",
+        "it": "Pëtr chiede ad Anna se debba acquistare il biglietto fino a Obiralovka.",
+        "fr": "Piotr demande à Anna s'il doit acheter le billet jusqu'à Obiralovka.",
+        "es": "Piotr pregunta a Anna si debe comprar el billete hasta Obirálovka."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "serbia",
+    "collection": "core",
+    "name": "Serbia",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "6a2bc61d1654d2db1dec7564fdc265dc852e7f837c6016df5e558de62417ac2b",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The Serbian war has become the cause animating concerts, dinners and public enthusiasm.",
+        "it": "La guerra serba è diventata la causa che anima concerti, cene ed entusiasmo pubblico.",
+        "fr": "La guerre serbe est devenue la cause qui anime concerts, dîners et enthousiasme public.",
+        "es": "La guerra serbia se ha convertido en la causa que anima conciertos, cenas y entusiasmo público."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "samara",
+    "collection": "core",
+    "name": "Samara region",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "fc4bb4b5c98906ef647b3903769b75c1518bc206ddfc677602f1d3ddacef04a6",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The famine in Samara is recalled among public causes displaced by the Slavic question.",
+        "it": "La carestia di Samara è ricordata fra le cause pubbliche soppiantate dalla questione slava.",
+        "fr": "La famine de Samara est rappelée parmi les causes publiques supplantées par la question slave.",
+        "es": "La hambruna de Samara se recuerda entre las causas públicas desplazadas por la cuestión eslava."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "kursk",
+    "collection": "core",
+    "name": "Kursk",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "aff0f94454a4f3249746b3165b6ca26131881982229c2a90d14e676e1040d131",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The Kursk railway names the Moscow station where volunteers gather before departure.",
+        "it": "La ferrovia di Kursk dà il nome alla stazione moscovita dove i volontari si radunano prima della partenza.",
+        "fr": "La ligne de Koursk donne son nom à la gare moscovite où se réunissent les volontaires avant le départ.",
+        "es": "La línea de Kursk da nombre a la estación moscovita donde se reúnen los voluntarios antes de partir."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "khiva",
+    "collection": "core",
+    "name": "Khiva",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "4f25c2b7b5b93011993cd385fc7d9398795c7d96871ce532e664af2f5b8dd285",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Levin cites the Khiva campaign among causes that can attract restless volunteers.",
+        "it": "Levin cita la campagna di Khiva fra le cause capaci di attirare volontari irrequieti.",
+        "fr": "Lévine cite la campagne de Khiva parmi les causes pouvant attirer des volontaires désœuvrés.",
+        "es": "Levin cita la campaña de Jiva entre las causas capaces de atraer a voluntarios inquietos."
+      }
+    }
+  }
+]
