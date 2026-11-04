@@ -1,0 +1,22 @@
+[
+  {
+    "book": "gatsby",
+    "id": "murray",
+    "collection": "core",
+    "name": "Murray Hill Hotel · former site",
+    "noteHash": "df4643326035630b51bebc571a702c33",
+    "positionSource": "e556a3d4bdf7a08d6831fceec23eb644bb90362393d3b2d6de51128f820cc5af",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Nick’s evening walk passes the former Murray Hill Hotel, which stood on Park Avenue.",
+        "it": "La passeggiata serale di Nick passa presso il vecchio Murray Hill Hotel, che si trovava su Park Avenue.",
+        "fr": "La promenade du soir de Nick passe près de l’ancien Murray Hill Hotel, situé sur Park Avenue.",
+        "es": "El paseo nocturno de Nick pasa por el antiguo Murray Hill Hotel, que estaba en Park Avenue."
+      }
+    }
+  }
+]
