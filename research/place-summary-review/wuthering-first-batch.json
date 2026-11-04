@@ -1,0 +1,342 @@
+[
+  {
+    "book": "wuthering-heights",
+    "id": "gimmerton",
+    "collection": "cited",
+    "name": "Gimmerton and its kirk · Yorkshire context",
+    "noteHash": "4a344c3020e647d3f0c3395b3b552fd4",
+    "positionSource": "55b4f8cbf2bef530645edd588305b9e4a711bf7400c0ff678b511e2d0c04cea7",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Gimmerton is the fictional village near the two houses; Nelly goes there for a doctor and a parson.",
+        "it": "Gimmerton è il villaggio immaginario vicino alle due case; Nelly vi va a chiamare il medico e il pastore.",
+        "fr": "Gimmerton est le village fictif proche des deux maisons ; Nelly s’y rend pour chercher le médecin et le pasteur.",
+        "es": "Gimmerton es la aldea ficticia próxima a las dos casas; Nelly va allí en busca del médico y el pastor."
+      }
+    }
+  },
+  {
+    "book": "wuthering-heights",
+    "id": "gimmerton",
+    "collection": "core",
+    "name": "Gimmerton and its kirk · Yorkshire context",
+    "noteHash": "4a344c3020e647d3f0c3395b3b552fd4",
+    "positionSource": "55b4f8cbf2bef530645edd588305b9e4a711bf7400c0ff678b511e2d0c04cea7",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Gimmerton is the fictional village near the two houses; Nelly goes there for a doctor and a parson.",
+        "it": "Gimmerton è il villaggio immaginario vicino alle due case; Nelly vi va a chiamare il medico e il pastore.",
+        "fr": "Gimmerton est le village fictif proche des deux maisons ; Nelly s’y rend pour chercher le médecin et le pasteur.",
+        "es": "Gimmerton es la aldea ficticia próxima a las dos casas; Nelly va allí en busca del médico y el pastor."
+      }
+    }
+  },
+  {
+    "book": "wuthering-heights",
+    "id": "grange",
+    "collection": "cited",
+    "name": "Thrushcross Grange · disputed Ponden Hall inspiration",
+    "noteHash": "813c2c6d5e671a069cf991570c7733d3",
+    "positionSource": "bdb81d9c663b3f44b2dd0c1ac743bab8542acdc2ec05669f46c74442c22643b8",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Ponden Hall is a proposed but disputed inspiration for Thrushcross Grange, the Linton family’s fictional home.",
+        "it": "Ponden Hall è una proposta d’ispirazione discussa per Thrushcross Grange, la casa immaginaria della famiglia Linton.",
+        "fr": "Ponden Hall est une source d’inspiration proposée mais contestée pour Thrushcross Grange, demeure fictive des Linton.",
+        "es": "Ponden Hall es una inspiración propuesta pero discutida para Thrushcross Grange, la casa ficticia de los Linton."
+      }
+    }
+  },
+  {
+    "book": "wuthering-heights",
+    "id": "grange",
+    "collection": "core",
+    "name": "Thrushcross Grange · disputed Ponden Hall inspiration",
+    "noteHash": "813c2c6d5e671a069cf991570c7733d3",
+    "positionSource": "bdb81d9c663b3f44b2dd0c1ac743bab8542acdc2ec05669f46c74442c22643b8",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Ponden Hall is a proposed but disputed inspiration for Thrushcross Grange, the Linton family’s fictional home.",
+        "it": "Ponden Hall è una proposta d’ispirazione discussa per Thrushcross Grange, la casa immaginaria della famiglia Linton.",
+        "fr": "Ponden Hall est une source d’inspiration proposée mais contestée pour Thrushcross Grange, demeure fictive des Linton.",
+        "es": "Ponden Hall es una inspiración propuesta pero discutida para Thrushcross Grange, la casa ficticia de los Linton."
+      }
+    }
+  },
+  {
+    "book": "wuthering-heights",
+    "id": "heights",
+    "collection": "cited",
+    "name": "Wuthering Heights · Top Withens inspiration",
+    "noteHash": "537cd9e210cd28e6f3bf744212c25384",
+    "positionSource": "accd8f98b6fb0292837395a539d434b56acdc875620c26aa9e2e469c9df2e88b",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The ruins of Top Withens have been proposed as an inspiration for Wuthering Heights, Heathcliff’s fictional home.",
+        "it": "Le rovine di Top Withens sono state proposte come ispirazione per Wuthering Heights, la casa immaginaria di Heathcliff.",
+        "fr": "Les ruines de Top Withens ont été proposées comme inspiration pour Wuthering Heights, demeure fictive de Heathcliff.",
+        "es": "Las ruinas de Top Withens se han propuesto como inspiración para Wuthering Heights, la casa ficticia de Heathcliff."
+      }
+    }
+  },
+  {
+    "book": "wuthering-heights",
+    "id": "heights",
+    "collection": "core",
+    "name": "Wuthering Heights · Top Withens inspiration",
+    "noteHash": "537cd9e210cd28e6f3bf744212c25384",
+    "positionSource": "accd8f98b6fb0292837395a539d434b56acdc875620c26aa9e2e469c9df2e88b",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The ruins of Top Withens have been proposed as an inspiration for Wuthering Heights, Heathcliff’s fictional home.",
+        "it": "Le rovine di Top Withens sono state proposte come ispirazione per Wuthering Heights, la casa immaginaria di Heathcliff.",
+        "fr": "Les ruines de Top Withens ont été proposées comme inspiration pour Wuthering Heights, demeure fictive de Heathcliff.",
+        "es": "Las ruinas de Top Withens se han propuesto como inspiración para Wuthering Heights, la casa ficticia de Heathcliff."
+      }
+    }
+  },
+  {
+    "book": "wuthering-heights",
+    "id": "moorland",
+    "collection": "cited",
+    "name": "Moorland, paths and Blackhorse marsh · Yorkshire context",
+    "noteHash": "4a344c3020e647d3f0c3395b3b552fd4",
+    "positionSource": "55b4f8cbf2bef530645edd588305b9e4a711bf7400c0ff678b511e2d0c04cea7",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The Yorkshire moors frame the exposed paths and marshes crossed by the characters between the houses.",
+        "it": "Le brughiere dello Yorkshire fanno da sfondo ai sentieri esposti e alle paludi attraversate dai personaggi fra le case.",
+        "fr": "Les landes du Yorkshire forment le cadre des chemins exposés et des marais traversés entre les maisons.",
+        "es": "Los páramos de Yorkshire enmarcan los caminos expuestos y las ciénagas que los personajes cruzan entre las casas."
+      }
+    }
+  },
+  {
+    "book": "wuthering-heights",
+    "id": "moorland",
+    "collection": "core",
+    "name": "Moorland, paths and Blackhorse marsh · Yorkshire context",
+    "noteHash": "4a344c3020e647d3f0c3395b3b552fd4",
+    "positionSource": "55b4f8cbf2bef530645edd588305b9e4a711bf7400c0ff678b511e2d0c04cea7",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The Yorkshire moors frame the exposed paths and marshes crossed by the characters between the houses.",
+        "it": "Le brughiere dello Yorkshire fanno da sfondo ai sentieri esposti e alle paludi attraversate dai personaggi fra le case.",
+        "fr": "Les landes du Yorkshire forment le cadre des chemins exposés et des marais traversés entre les maisons.",
+        "es": "Los páramos de Yorkshire enmarcan los caminos expuestos y las ciénagas que los personajes cruzan entre las casas."
+      }
+    }
+  },
+  {
+    "book": "wuthering-heights",
+    "id": "atlantic",
+    "collection": "cited",
+    "name": "Atlantic Ocean · comparison",
+    "noteHash": "b0ba8c1540582d5cf6be76b559fb0b90",
+    "positionSource": "0336bb64b35c7dd3de5cd30c52a4beb47b933bf93f621e691ed95b93008f3539",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Isabella compares the distance from her home to being separated from it by the Atlantic.",
+        "it": "Isabella paragona la distanza da casa alla separazione imposta dall’Atlantico.",
+        "fr": "Isabella compare la distance de sa maison à une séparation par l’Atlantique.",
+        "es": "Isabella compara la distancia de su casa con una separación por el Atlántico."
+      }
+    }
+  },
+  {
+    "book": "wuthering-heights",
+    "id": "china",
+    "collection": "cited",
+    "name": "China · imagined origin",
+    "noteHash": "6cf82841d2d04961960706379760dd8d",
+    "positionSource": "c1ed7c87877330c58d2c0ed79c603381a21d81c1fa3f99557816065e1e2ffbab",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Nelly imagines the emperor of China as a fanciful possible father for Heathcliff.",
+        "it": "Nelly immagina l’imperatore della Cina come possibile padre fantastico di Heathcliff.",
+        "fr": "Nelly imagine l’empereur de Chine comme un père possible et fantaisiste de Heathcliff.",
+        "es": "Nelly imagina al emperador de China como un posible y fantasioso padre de Heathcliff."
+      }
+    }
+  },
+  {
+    "book": "wuthering-heights",
+    "id": "england",
+    "collection": "cited",
+    "name": "England",
+    "noteHash": "6cf82841d2d04961960706379760dd8d",
+    "positionSource": "91bf1e98a798f3349b1664bd7678e1aee61d122bd786cc9243fed8c9e98afd49",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Lockwood praises the remoteness of his new Yorkshire surroundings within England.",
+        "it": "Lockwood apprezza l’isolamento del suo nuovo ambiente nello Yorkshire, in Inghilterra.",
+        "fr": "Lockwood apprécie l’isolement de son nouvel environnement dans le Yorkshire, en Angleterre.",
+        "es": "Lockwood aprecia el aislamiento de su nuevo entorno en Yorkshire, Inglaterra."
+      }
+    }
+  },
+  {
+    "book": "wuthering-heights",
+    "id": "india",
+    "collection": "cited",
+    "name": "India · imagined origin",
+    "noteHash": "6cf82841d2d04961960706379760dd8d",
+    "positionSource": "6bab6a2c6d37eb691bd5a595dffaba20f5288e8045e314ed2b39bd977eb67e8f",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Nelly playfully suggests an Indian queen as a possible mother in Heathcliff’s imagined ancestry.",
+        "it": "Nelly suggerisce per gioco una regina indiana come possibile madre nell’ascendenza immaginaria di Heathcliff.",
+        "fr": "Nelly suggère par jeu une reine indienne comme mère possible dans l’ascendance imaginée de Heathcliff.",
+        "es": "Nelly sugiere en broma una reina india como posible madre en la ascendencia imaginada de Heathcliff."
+      }
+    }
+  },
+  {
+    "book": "wuthering-heights",
+    "id": "lees",
+    "collection": "cited",
+    "name": "The Lees · Yorkshire context",
+    "noteHash": "4a344c3020e647d3f0c3395b3b552fd4",
+    "positionSource": "55b4f8cbf2bef530645edd588305b9e4a711bf7400c0ff678b511e2d0c04cea7",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Hareton takes cattle to the Lees while Heathcliff remains at Wuthering Heights.",
+        "it": "Hareton porta il bestiame ai Lees mentre Heathcliff resta a Wuthering Heights.",
+        "fr": "Hareton mène du bétail aux Lees tandis que Heathcliff reste à Wuthering Heights.",
+        "es": "Hareton lleva ganado a los Lees mientras Heathcliff permanece en Wuthering Heights."
+      }
+    }
+  },
+  {
+    "book": "wuthering-heights",
+    "id": "liverpool",
+    "collection": "cited",
+    "name": "Liverpool",
+    "noteHash": "12c33c33631e700ce1ad4d3e06303ff9",
+    "positionSource": "5dbfe7ca583f7fadead784f3b2f4bf9a0159b43e2ceb08a6f6c6a4a6147a36d3",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Mr Earnshaw finds the young Heathcliff homeless in the streets of Liverpool and brings him home.",
+        "it": "Il signor Earnshaw trova il giovane Heathcliff senza casa nelle strade di Liverpool e lo porta con sé.",
+        "fr": "M. Earnshaw trouve le jeune Heathcliff sans foyer dans les rues de Liverpool et l’emmène chez lui.",
+        "es": "El señor Earnshaw encuentra al joven Heathcliff sin hogar en las calles de Liverpool y lo lleva consigo."
+      }
+    }
+  },
+  {
+    "book": "wuthering-heights",
+    "id": "london",
+    "collection": "cited",
+    "name": "London and its unspecified vicinity",
+    "noteHash": "12c33c33631e700ce1ad4d3e06303ff9",
+    "positionSource": "8f52dd3f60182f75f924f4b39f0beb3af9aa83e52b618740c518a617c877c15c",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Lockwood invokes London to explain how completely lost he feels on the moors.",
+        "it": "Lockwood evoca Londra per spiegare quanto si senta smarrito sulle brughiere.",
+        "fr": "Lockwood évoque Londres pour expliquer combien il se sent perdu sur les landes.",
+        "es": "Lockwood evoca Londres para explicar lo perdido que se siente en los páramos."
+      }
+    }
+  },
+  {
+    "book": "wuthering-heights",
+    "id": "penistone",
+    "collection": "cited",
+    "name": "Penistone Crags and Fairy Cave · Ponden Kirk inspiration",
+    "noteHash": "94462d2a25ca3be84862c54b507f6966",
+    "positionSource": "5e045359ed49f1679b73ffa1a2447584be65e8615b752a684472ef63e38ef3b8",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Ponden Kirk is a proposed inspiration for Penistone Crags and the Fairy Cave of the novel.",
+        "it": "Ponden Kirk è una proposta d’ispirazione per Penistone Crags e la Grotta delle Fate del romanzo.",
+        "fr": "Ponden Kirk est une source d’inspiration proposée pour Penistone Crags et la grotte des Fées du roman.",
+        "es": "Ponden Kirk es una posible inspiración para Penistone Crags y la cueva de las Hadas de la novela."
+      }
+    }
+  },
+  {
+    "book": "wuthering-heights",
+    "id": "spain",
+    "collection": "cited",
+    "name": "Spain · conjectured origin",
+    "noteHash": "6cf82841d2d04961960706379760dd8d",
+    "positionSource": "8ad0b8a3bff5e52dd5424627ce7f8bd96dcfc1144f03503905eac55299a214c5",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "A suggestion that Heathcliff may be Spanish belongs to the characters’ conjectures about his origins.",
+        "it": "L’ipotesi che Heathcliff possa essere spagnolo appartiene alle congetture dei personaggi sulle sue origini.",
+        "fr": "L’idée que Heathcliff pourrait être espagnol appartient aux suppositions des personnages sur ses origines.",
+        "es": "La idea de que Heathcliff pueda ser español pertenece a las conjeturas de los personajes sobre sus orígenes."
+      }
+    }
+  }
+]
