@@ -1,0 +1,162 @@
+[
+  {
+    "book": "proust",
+    "id": "england",
+    "collection": "cited",
+    "name": "England",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "585ddd54adf6e525b630a0be9fea35211124b398062debfdc13fa86257242340",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The king of England is mentioned among the family connections of a member of Parisian society.",
+        "it": "Il re d’Inghilterra è nominato fra i legami familiari di una figura della società parigina.",
+        "fr": "Le roi d’Angleterre est nommé parmi les liens familiaux d’une figure de la société parisienne.",
+        "es": "El rey de Inglaterra se menciona entre los vínculos familiares de una figura de la sociedad parisina."
+      }
+    }
+  },
+  {
+    "book": "proust",
+    "id": "france",
+    "collection": "cited",
+    "name": "France",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "57319caaacb6b37c43bf517ba17f2c897bdaf8f3c29d95d8629d3d10ef18820a",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The princes of the House of France enter a conversation between Swann and the narrator’s great-aunt.",
+        "it": "I principi della casa di Francia entrano in una conversazione fra Swann e la prozia del narratore.",
+        "fr": "Les princes de la maison de France entrent dans une conversation entre Swann et la grand-tante du narrateur.",
+        "es": "Los príncipes de la casa de Francia aparecen en una conversación entre Swann y la tía abuela del narrador."
+      }
+    }
+  },
+  {
+    "book": "proust",
+    "id": "hungary",
+    "collection": "cited",
+    "name": "Hungary",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "0f6e629d35f88d89d54c14518ab9e100e495bd9f48cc34661bd90222d76cacfd",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The queen of Hungary is named in an enumeration of aristocratic family ties.",
+        "it": "La regina d’Ungheria è nominata in un’enumerazione di legami familiari aristocratici.",
+        "fr": "La reine de Hongrie est nommée dans une énumération de liens familiaux aristocratiques.",
+        "es": "La reina de Hungría se menciona en una enumeración de vínculos familiares aristocráticos."
+      }
+    }
+  },
+  {
+    "book": "proust",
+    "id": "naples",
+    "collection": "cited",
+    "name": "Naples",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "1cba83ccc34bfa8d8d8038a4c8f6c4b41676cfdafcc6ec575be6fe77332553de",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The queen of Naples is invoked in a comparison about aristocratic titles and names.",
+        "it": "La regina di Napoli è evocata in un paragone sui titoli e sui nomi aristocratici.",
+        "fr": "La reine de Naples est évoquée dans une comparaison sur les titres et les noms aristocratiques.",
+        "es": "La reina de Nápoles se evoca en una comparación sobre títulos y nombres aristocráticos."
+      }
+    }
+  },
+  {
+    "book": "proust",
+    "id": "palestine",
+    "collection": "cited",
+    "name": "Palestine",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "247cde43a4c18fcc1e9c8d4600c652f64f30a11a0c98efcb5599ac157d28b3d3",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Palestine is recalled among places where scholars recognised settings of ancient scenes.",
+        "it": "La Palestina è ricordata fra i luoghi in cui gli studiosi riconoscevano ambientazioni di scene antiche.",
+        "fr": "La Palestine est évoquée parmi les lieux où des savants reconnaissaient des cadres de scènes antiques.",
+        "es": "Palestina se recuerda entre los lugares donde los estudiosos reconocían escenarios de escenas antiguas."
+      }
+    }
+  },
+  {
+    "book": "proust",
+    "id": "poland",
+    "collection": "cited",
+    "name": "Poland",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "2acfbb94266d5cbc4c00c2fa6c430084281e3dfd6785bb880fa13a69f9a9f92d",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "A portrait of the king of Poland is mentioned among the pictures in an aristocratic salon.",
+        "it": "Un ritratto del re di Polonia è menzionato fra i quadri di un salotto aristocratico.",
+        "fr": "Un portrait du roi de Pologne est mentionné parmi les tableaux d’un salon aristocratique.",
+        "es": "Un retrato del rey de Polonia se menciona entre los cuadros de un salón aristocrático."
+      }
+    }
+  },
+  {
+    "book": "proust",
+    "id": "russia",
+    "collection": "cited",
+    "name": "Russia",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "d7638e693adbcb1b5943408219d38aa73a4614568150ed2a00ee7dfd219dde49",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The narrator compares the position of Jewish communities in Russia and Romania with that in Paris.",
+        "it": "Il narratore paragona la condizione delle comunità ebraiche in Russia e Romania a quella di Parigi.",
+        "fr": "Le narrateur compare la situation des communautés juives en Russie et en Roumanie à celle de Paris.",
+        "es": "El narrador compara la situación de las comunidades judías en Rusia y Rumanía con la de París."
+      }
+    }
+  },
+  {
+    "book": "proust",
+    "id": "venice",
+    "collection": "cited",
+    "name": "Venice",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "0cf0fa5ae60c2ca393639897f5cd6a8658da87d286dcc6fd089be2b369614744",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Venice returns in memories of the narrator’s past journeys and of the people he knew there.",
+        "it": "Venezia ritorna nei ricordi dei viaggi passati del narratore e delle persone incontrate.",
+        "fr": "Venise revient dans les souvenirs des voyages passés du narrateur et des personnes qu’il y a connues.",
+        "es": "Venecia reaparece en los recuerdos de los viajes pasados del narrador y de las personas que conoció allí."
+      }
+    }
+  }
+]
