@@ -1,0 +1,182 @@
+[
+  {
+    "book": "orwell1984",
+    "id": "amersham",
+    "collection": "core",
+    "name": "Amersham",
+    "noteHash": "fa37a9168ded461ea071f922eb9e6de7",
+    "positionSource": "d5f789b3b451080982213cf0f535c1547709f88f6619bb7d940d8f18c9a12f98",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "In Parsons’s account, his daughter and her companions hand a stranger to the patrols at Amersham.",
+        "it": "Nel racconto di Parsons, la figlia e le compagne consegnano uno sconosciuto alle pattuglie ad Amersham.",
+        "fr": "Dans le récit de Parsons, sa fille et ses camarades livrent un inconnu aux patrouilles à Amersham.",
+        "es": "En el relato de Parsons, su hija y sus compañeras entregan a un desconocido a las patrullas en Amersham."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "berkhamsted",
+    "collection": "core",
+    "name": "Berkhamsted",
+    "noteHash": "fa37a9168ded461ea071f922eb9e6de7",
+    "positionSource": "5d2548d787961cce2a0486147ed4d28ffb4679a02c2a8da73ce4cf2a04d5a6f2",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Parsons describes his daughter pursuing a stranger during an outing near Berkhamsted.",
+        "it": "Parsons racconta che sua figlia ha inseguito uno sconosciuto durante un’uscita vicino a Berkhamsted.",
+        "fr": "Parsons raconte que sa fille a poursuivi un inconnu lors d’une sortie près de Berkhamsted.",
+        "es": "Parsons cuenta que su hija persiguió a un desconocido durante una excursión cerca de Berkhamsted."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "hyde",
+    "collection": "core",
+    "name": "Hyde Park",
+    "noteHash": "fa37a9168ded461ea071f922eb9e6de7",
+    "positionSource": "351fe8ab21c3eafead384fa0f301a972717d1a9b9bd3e2e502594d3f5b8f8a68",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "An elderly pub-goer remembers the Sunday speakers he used to hear in Hyde Park.",
+        "it": "Un anziano avventore ricorda gli oratori che ascoltava la domenica a Hyde Park.",
+        "fr": "Un vieux client du pub se souvient des orateurs qu’il écoutait le dimanche à Hyde Park.",
+        "es": "Un anciano del pub recuerda a los oradores que escuchaba los domingos en Hyde Park."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "kent",
+    "collection": "core",
+    "name": "Kent",
+    "noteHash": "fa37a9168ded461ea071f922eb9e6de7",
+    "positionSource": "101336313ae938730bcd64937302efa664d33bf2d18177fac7b2e4c81e5e7e8a",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Winston remembers losing his way with Katharine during a walk in Kent, near a chalk quarry.",
+        "it": "Winston ricorda di essersi perso con Katharine durante una passeggiata nel Kent, vicino a una cava di gesso.",
+        "fr": "Winston se souvient s’être égaré avec Katharine lors d’une promenade dans le Kent, près d’une carrière de craie.",
+        "es": "Winston recuerda haberse perdido con Katharine durante un paseo por Kent, cerca de una cantera de creta."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "london",
+    "collection": "core",
+    "name": "London",
+    "noteHash": "fa37a9168ded461ea071f922eb9e6de7",
+    "positionSource": "64d3bd80a7c8b7e3566583ad72b13faa6d59866e107ca5409741cc7186a368c3",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Winston lives in London, the city from which the novel follows his work, memories and resistance.",
+        "it": "Winston vive a Londra, la città da cui il romanzo segue il suo lavoro, i suoi ricordi e la sua resistenza.",
+        "fr": "Winston vit à Londres, ville depuis laquelle le roman suit son travail, ses souvenirs et sa résistance.",
+        "es": "Winston vive en Londres, la ciudad desde la que la novela sigue su trabajo, sus recuerdos y su resistencia."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "mediterranean",
+    "collection": "core",
+    "name": "Mediterranean Sea",
+    "noteHash": "fa37a9168ded461ea071f922eb9e6de7",
+    "positionSource": "1a8e7ce2b7f9cdb181c7bd7d750b4c1c43485036069d0ea922a172e99e88b762",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Winston’s diary recalls a propaganda film in which refugees are bombed at sea in the Mediterranean.",
+        "it": "Il diario di Winston ricorda un film di propaganda in cui profughi vengono bombardati nel Mediterraneo.",
+        "fr": "Le journal de Winston évoque un film de propagande montrant des réfugiés bombardés en Méditerranée.",
+        "es": "El diario de Winston recuerda una película de propaganda que muestra refugiados bombardeados en el Mediterráneo."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "shaftesbury",
+    "collection": "core",
+    "name": "Shaftesbury Avenue",
+    "noteHash": "fa37a9168ded461ea071f922eb9e6de7",
+    "positionSource": "7891e417e5227786308aa227dd88b76c8e4da44118c84329021e141c1d8fe1c4",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "An elderly man recalls colliding with a well-dressed passer-by on Shaftesbury Avenue.",
+        "it": "Un anziano ricorda di essersi scontrato con un passante elegante in Shaftesbury Avenue.",
+        "fr": "Un vieil homme se souvient d’avoir heurté un passant élégant sur Shaftesbury Avenue.",
+        "es": "Un anciano recuerda haber chocado con un transeúnte elegante en Shaftesbury Avenue."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "stepney",
+    "collection": "core",
+    "name": "Stepney",
+    "noteHash": "fa37a9168ded461ea071f922eb9e6de7",
+    "positionSource": "3c598c1502823b2e782a3aad7cde5a3c89a5954a78d8d77c3db75fd5f73485bb",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "A report of a bombed cinema in Stepney leads into an account of a mass funeral.",
+        "it": "La notizia di un cinema bombardato a Stepney introduce il racconto di un funerale collettivo.",
+        "fr": "Le récit d’un cinéma bombardé à Stepney mène à celui de funérailles collectives.",
+        "es": "La noticia de un cine bombardeado en Stepney introduce el relato de un funeral colectivo."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "victory",
+    "collection": "core",
+    "name": "Victory Square · Trafalgar Square model",
+    "noteHash": "a3d961274e9de03477ee220d448994a4",
+    "positionSource": "3373a33c0e82e6db3d007b93a8fdf815dac59b4185d70e502c18066109b045a7",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Trafalgar Square is an inferred model for fictional Victory Square, where Winston and Julia arrange to meet.",
+        "it": "Trafalgar Square è un modello ipotizzato della immaginaria Piazza della Vittoria, dove Winston e Julia concordano di incontrarsi.",
+        "fr": "Trafalgar Square est un modèle supposé de la place de la Victoire fictive, où Winston et Julia conviennent de se retrouver.",
+        "es": "Trafalgar Square es un modelo supuesto de la ficticia Plaza de la Victoria, donde Winston y Julia acuerdan encontrarse."
+      }
+    }
+  }
+]
