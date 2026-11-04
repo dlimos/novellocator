@@ -1,0 +1,642 @@
+[
+  {
+    "book": "orwell1984",
+    "id": "africa",
+    "collection": "cited",
+    "name": "Africa",
+    "noteHash": "fa37a9168ded461ea071f922eb9e6de7",
+    "positionSource": "9d58e832eb99cf225f3a7208f60b26ca1115b096459ebbd598e83b4b94aab499",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "An official prediction about North Africa is rewritten after a different offensive occurs.",
+        "it": "Una previsione ufficiale sull’Africa settentrionale viene riscritta dopo un’offensiva diversa.",
+        "fr": "Une prévision officielle sur l’Afrique du Nord est réécrite après une offensive différente.",
+        "es": "Una previsión oficial sobre el norte de África se reescribe después de una ofensiva distinta."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "americas",
+    "collection": "cited",
+    "name": "Americas",
+    "noteHash": "fa37a9168ded461ea071f922eb9e6de7",
+    "positionSource": "05c00ec1fc35f9b0528d7fc0dc4f995734a10fec550796435e2b170bbf441cdd",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The Americas are described as part of fictional Oceania in the political book Winston reads.",
+        "it": "Le Americhe sono descritte come parte dell’immaginaria Oceania nel libro politico letto da Winston.",
+        "fr": "Les Amériques sont décrites comme partie de l’Océania fictive dans le livre politique lu par Winston.",
+        "es": "Las Américas se describen como parte de la Oceanía ficticia en el libro político que lee Winston."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "asia",
+    "collection": "cited",
+    "name": "Asia",
+    "noteHash": "fa37a9168ded461ea071f922eb9e6de7",
+    "positionSource": "4fc8377f24e817e8914ffff6df59c6f399322cefaa6221a6dcd7898fa760fa57",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "A propaganda film shows columns of Eurasian soldiers described as coming from Asia.",
+        "it": "Un film di propaganda mostra colonne di soldati eurasiatici descritti come provenienti dall’Asia.",
+        "fr": "Un film de propagande montre des colonnes de soldats eurasiens décrits comme venant d’Asie.",
+        "es": "Una película de propaganda muestra columnas de soldados euroasiáticos descritos como procedentes de Asia."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "atlantic",
+    "collection": "cited",
+    "name": "Atlantic Ocean",
+    "noteHash": "fa37a9168ded461ea071f922eb9e6de7",
+    "positionSource": "4a9d5abeeb2ec75e347b5511d8a0adc4f9faef9dfa3256fe96d7f6115b49286b",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The Atlantic islands, including the British Isles, are listed as part of Oceania.",
+        "it": "Le isole atlantiche, comprese le isole britanniche, sono elencate come parte dell’Oceania.",
+        "fr": "Les îles de l’Atlantique, dont les îles Britanniques, figurent parmi les territoires d’Océania.",
+        "es": "Las islas del Atlántico, incluidas las islas británicas, figuran entre los territorios de Oceanía."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "brazzaville",
+    "collection": "cited",
+    "name": "Brazzaville",
+    "noteHash": "fa37a9168ded461ea071f922eb9e6de7",
+    "positionSource": "cb24a4a9fd8d423246011a2c0de1cede808c44f666446e880ec44e0c969308f9",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Brazzaville is named both in war reports about the Congo and in the book’s account of disputed regions.",
+        "it": "Brazzaville è nominata sia nelle notizie di guerra sul Congo sia nel resoconto delle regioni contese.",
+        "fr": "Brazzaville est nommée dans les nouvelles de guerre sur le Congo et dans le récit des régions disputées.",
+        "es": "Brazzaville se menciona tanto en las noticias de guerra sobre el Congo como en el relato de las regiones disputadas."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "ceylon",
+    "collection": "cited",
+    "name": "Ceylon · Sri Lanka",
+    "noteHash": "fa37a9168ded461ea071f922eb9e6de7",
+    "positionSource": "8dd1cfe9321fa5000918f8b4e4e821d2e71c98a324856c86b7f7b69b9d945fcb",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Ceylon is one of the territories said to change hands in the perpetual war.",
+        "it": "Ceylon è uno dei territori che, secondo il racconto, passano di mano nella guerra perpetua.",
+        "fr": "Ceylan est l’un des territoires qui, selon le récit, changent de mains dans la guerre perpétuelle.",
+        "es": "Ceilán es uno de los territorios que, según el relato, cambian de manos en la guerra perpetua."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "china",
+    "collection": "cited",
+    "name": "China",
+    "noteHash": "fa37a9168ded461ea071f922eb9e6de7",
+    "positionSource": "fb79ce081b7fdcb424b79d6681f68dfe7c789831bf44949305cf389e5892ec8e",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "A comparison with Chinese rice spirit introduces the taste and smell of Victory Gin.",
+        "it": "Un paragone con un’acquavite cinese di riso introduce il sapore e l’odore del Gin della Vittoria.",
+        "fr": "Une comparaison avec une eau-de-vie de riz chinoise introduit le goût et l’odeur du gin de la Victoire.",
+        "es": "Una comparación con un aguardiente chino de arroz introduce el sabor y el olor de la Ginebra de la Victoria."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "darwin",
+    "collection": "cited",
+    "name": "Darwin",
+    "noteHash": "fa37a9168ded461ea071f922eb9e6de7",
+    "positionSource": "8376382458f13e04b0178fc2643032906fa74293626fbe37075884e58e3c1cb8",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Darwin is named as one corner of the broad region contested by the superstates.",
+        "it": "Darwin è nominata come uno degli angoli della vasta regione contesa dai superstati.",
+        "fr": "Darwin est nommée comme l’un des angles de la vaste région disputée par les super-États.",
+        "es": "Darwin se menciona como una de las esquinas de la amplia región disputada por los superestados."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "egypt",
+    "collection": "cited",
+    "name": "Egypt",
+    "noteHash": "fa37a9168ded461ea071f922eb9e6de7",
+    "positionSource": "daea8580796480a9e409b58451447134c72a2c4d32e04c2c14f1b53436e00640",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Egypt is named among territories that may change hands without shifting the main frontiers.",
+        "it": "L’Egitto è nominato fra i territori che possono passare di mano senza spostare le frontiere principali.",
+        "fr": "L’Égypte est citée parmi les territoires qui peuvent changer de mains sans déplacer les frontières principales.",
+        "es": "Egipto se menciona entre los territorios que pueden cambiar de manos sin desplazar las fronteras principales."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "england",
+    "collection": "cited",
+    "name": "England",
+    "noteHash": "fa37a9168ded461ea071f922eb9e6de7",
+    "positionSource": "23abfac10a29edf3507145857a7939df0ad2cceff77591deeccbca29867dffee",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Winston remembers England as an earlier name for the country now called Airstrip One.",
+        "it": "Winston ricorda l’Inghilterra come un precedente nome del paese ora chiamato Pista Uno.",
+        "fr": "Winston se souvient de l’Angleterre comme d’un ancien nom du pays désormais appelé Airstrip One.",
+        "es": "Winston recuerda Inglaterra como un antiguo nombre del país ahora llamado Pista de Aterrizaje Uno."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "europe",
+    "collection": "cited",
+    "name": "Europe",
+    "noteHash": "fa37a9168ded461ea071f922eb9e6de7",
+    "positionSource": "f4e033b370eaa74949b9fb690b55eefeda6aaca498009c880eb59055cabb35d1",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "A procession of prisoners on a screen changes from Asian to European faces during the broadcast.",
+        "it": "Durante la trasmissione, una colonna di prigionieri sullo schermo passa da volti asiatici a volti europei.",
+        "fr": "Pendant la diffusion, une colonne de prisonniers à l’écran passe de visages asiatiques à des visages européens.",
+        "es": "Durante la emisión, una columna de prisioneros en la pantalla pasa de rostros asiáticos a europeos."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "france",
+    "collection": "cited",
+    "name": "France",
+    "noteHash": "fa37a9168ded461ea071f922eb9e6de7",
+    "positionSource": "6626218667a2f113e3604701b4909b89204b8ffb8964ed80218434c737b76844",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The political book discusses the hypothetical conquest of the area once known as France.",
+        "it": "Il libro politico discute l’ipotetica conquista dell’area un tempo chiamata Francia.",
+        "fr": "Le livre politique discute de la conquête hypothétique de la région autrefois appelée France.",
+        "es": "El libro político trata la conquista hipotética de la zona antes conocida como Francia."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "germany",
+    "collection": "cited",
+    "name": "Germany",
+    "noteHash": "fa37a9168ded461ea071f922eb9e6de7",
+    "positionSource": "16cb685983ebc3bbf459bf6ba1dc88c3d030300b1233995034e5d76289a85b12",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The same discussion considers Germany alongside France in a hypothetical conquest.",
+        "it": "La stessa discussione considera la Germania insieme alla Francia in un’ipotetica conquista.",
+        "fr": "La même discussion envisage l’Allemagne avec la France dans une conquête hypothétique.",
+        "es": "La misma discusión considera Alemania junto con Francia en una conquista hipotética."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "hong-kong",
+    "collection": "cited",
+    "name": "Hong Kong",
+    "noteHash": "fa37a9168ded461ea071f922eb9e6de7",
+    "positionSource": "4eaba3cc16ed95c4e7d2579af5a4ae2798316fc1ddfb82b0404f50a1912b712e",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Hong Kong marks an eastern corner of the broad region contested by the three powers.",
+        "it": "Hong Kong segna un angolo orientale della vasta regione contesa dalle tre potenze.",
+        "fr": "Hong Kong marque un angle oriental de la vaste région disputée par les trois puissances.",
+        "es": "Hong Kong marca una esquina oriental de la amplia región disputada por las tres potencias."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "india",
+    "collection": "cited",
+    "name": "India",
+    "noteHash": "fa37a9168ded461ea071f922eb9e6de7",
+    "positionSource": "ab483d7d72af0d236d871cd94a321149c1f872ce7417120368848f631d78b7c2",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "A newsflash announces a claimed victory in southern India.",
+        "it": "Un notiziario annuncia una presunta vittoria nell’India meridionale.",
+        "fr": "Un bulletin annonce une victoire présumée dans le sud de l’Inde.",
+        "es": "Un boletín anuncia una presunta victoria en el sur de la India."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "indonesia",
+    "collection": "cited",
+    "name": "Indonesian Archipelago",
+    "noteHash": "fa37a9168ded461ea071f922eb9e6de7",
+    "positionSource": "f7016d88b678c9026395ebc55df72fefacb37ca531c32a5cb78e616524e6974c",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The Indonesian Archipelago is named among regions whose labour is exploited by the powers.",
+        "it": "L’arcipelago indonesiano è nominato fra le regioni la cui manodopera viene sfruttata dalle potenze.",
+        "fr": "L’archipel indonésien est cité parmi les régions dont la main-d’œuvre est exploitée par les puissances.",
+        "es": "El archipiélago indonesio se cita entre las regiones cuya mano de obra explotan las potencias."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "iran",
+    "collection": "cited",
+    "name": "Persia · Iran",
+    "noteHash": "fa37a9168ded461ea071f922eb9e6de7",
+    "positionSource": "a1b2fb0773c36e467e15b08e27af6f2b12e16f7524f0d6b72293dbea132391f1",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Persia is listed among the changing territories discussed in the political book.",
+        "it": "La Persia è elencata fra i territori mutevoli discussi nel libro politico.",
+        "fr": "La Perse figure parmi les territoires changeants évoqués dans le livre politique.",
+        "es": "Persia figura entre los territorios cambiantes tratados en el libro político."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "japan",
+    "collection": "cited",
+    "name": "Japan",
+    "noteHash": "fa37a9168ded461ea071f922eb9e6de7",
+    "positionSource": "c6bf206aec6734027a394fd11d88a67a917ba097b6a02b65f9152363c7dfa62d",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The Japanese islands are included in the novel’s account of the fictional state of Eastasia.",
+        "it": "Le isole giapponesi sono incluse nel resoconto dello stato immaginario di Estasia.",
+        "fr": "Les îles japonaises sont incluses dans le récit de l’État fictif d’Estasia.",
+        "es": "Las islas japonesas se incluyen en el relato del Estado ficticio de Asia Oriental."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "java",
+    "collection": "cited",
+    "name": "Java",
+    "noteHash": "fa37a9168ded461ea071f922eb9e6de7",
+    "positionSource": "26ee4ad59de127e8bb0d69b12f35d998d0ae86fb21d48a620df969a88870b993",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Java is one of the islands named in the account of territory changing hands.",
+        "it": "Giava è una delle isole nominate nel racconto dei territori che passano di mano.",
+        "fr": "Java est l’une des îles nommées dans le récit des territoires qui changent de mains.",
+        "es": "Java es una de las islas nombradas en el relato de territorios que cambian de manos."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "london",
+    "collection": "cited",
+    "name": "London",
+    "noteHash": "fa37a9168ded461ea071f922eb9e6de7",
+    "positionSource": "64d3bd80a7c8b7e3566583ad72b13faa6d59866e107ca5409741cc7186a368c3",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Winston believes London has kept its name even though the country has been renamed.",
+        "it": "Winston ritiene che Londra abbia conservato il proprio nome anche se il paese è stato rinominato.",
+        "fr": "Winston croit que Londres a conservé son nom même si le pays a été rebaptisé.",
+        "es": "Winston cree que Londres ha conservado su nombre aunque el país haya sido rebautizado."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "mediterranean",
+    "collection": "cited",
+    "name": "Mediterranean Sea",
+    "noteHash": "fa37a9168ded461ea071f922eb9e6de7",
+    "positionSource": "1a8e7ce2b7f9cdb181c7bd7d750b4c1c43485036069d0ea922a172e99e88b762",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The northern Mediterranean shore is named in an account of shifting wartime frontiers.",
+        "it": "La sponda settentrionale del Mediterraneo è nominata nel racconto di frontiere di guerra mutevoli.",
+        "fr": "La rive nord de la Méditerranée est citée dans le récit de frontières de guerre mouvantes.",
+        "es": "La costa septentrional del Mediterráneo se menciona en un relato de fronteras de guerra cambiantes."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "mongolia",
+    "collection": "cited",
+    "name": "Mongolia",
+    "noteHash": "fa37a9168ded461ea071f922eb9e6de7",
+    "positionSource": "86f9f537d459267f805b465e7bef85c614f96e34567d88e1d2d1fee84e2e5dd0",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Mongolia appears in the description of Eastasia’s uncertain and changing western extent.",
+        "it": "La Mongolia compare nella descrizione dell’estensione occidentale incerta e mutevole di Estasia.",
+        "fr": "La Mongolie apparaît dans la description de l’étendue occidentale incertaine et mouvante de l’Estasia.",
+        "es": "Mongolia aparece en la descripción de la extensión occidental incierta y cambiante de Asia Oriental."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "pacific",
+    "collection": "cited",
+    "name": "Pacific Ocean",
+    "noteHash": "fa37a9168ded461ea071f922eb9e6de7",
+    "positionSource": "7fffc1af4dcc90e21ec3a4797751ab9315804ac2874cacd8099d6fcbb1744ef9",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The Pacific is described as part of the oceanic expanse protecting Oceania.",
+        "it": "Il Pacifico è descritto come parte della distesa oceanica che protegge l’Oceania.",
+        "fr": "Le Pacifique est décrit comme une partie de l’étendue océanique protégeant l’Océania.",
+        "es": "El Pacífico se describe como parte de la extensión oceánica que protege Oceanía."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "paris",
+    "collection": "cited",
+    "name": "Paris",
+    "noteHash": "fa37a9168ded461ea071f922eb9e6de7",
+    "positionSource": "73b0e73d2af447ce11000fb10dcfb1f61ff61af181c72c51dc31b0e3055b846f",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Winston imagines ordinary life continuing in the streets of Paris beyond the frontiers.",
+        "it": "Winston immagina la vita quotidiana continuare nelle strade di Parigi oltre le frontiere.",
+        "fr": "Winston imagine la vie ordinaire continuer dans les rues de Paris au-delà des frontières.",
+        "es": "Winston imagina que la vida cotidiana continúa en las calles de París al otro lado de las fronteras."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "portugal",
+    "collection": "cited",
+    "name": "Portugal",
+    "noteHash": "fa37a9168ded461ea071f922eb9e6de7",
+    "positionSource": "f12c73d7588b56d02ed5ae98b52f62e150650468551d4b69d6219097714ba33e",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Portugal marks the western end of the European and Asian landmass attributed to Eurasia.",
+        "it": "Il Portogallo segna l’estremità occidentale della massa euroasiatica attribuita all’Eurasia.",
+        "fr": "Le Portugal marque l’extrémité occidentale de la masse eurasiatique attribuée à l’Eurasia.",
+        "es": "Portugal marca el extremo occidental de la masa euroasiática atribuida a Eurasia."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "russia",
+    "collection": "cited",
+    "name": "Russia",
+    "noteHash": "fa37a9168ded461ea071f922eb9e6de7",
+    "positionSource": "d301fa1bae220050bf2887af198d5c4498cfbf985f23a29bd808e7dd2ddd8276",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The fictional history describes the absorption of Europe by Russia as part of Eurasia’s formation.",
+        "it": "La storia immaginaria descrive l’assorbimento dell’Europa da parte della Russia nella formazione dell’Eurasia.",
+        "fr": "L’histoire fictive décrit l’absorption de l’Europe par la Russie dans la formation de l’Eurasia.",
+        "es": "La historia ficticia describe la absorción de Europa por Rusia en la formación de Eurasia."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "shoreditch",
+    "collection": "cited",
+    "name": "Shoreditch",
+    "noteHash": "fa37a9168ded461ea071f922eb9e6de7",
+    "positionSource": "aadc3595468acc135974c8c26f2f9f7e9ea4360325656a5d8c8f9c624f0d6be9",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Shoreditch is named in the last line of an old nursery rhyme remembered by Charrington.",
+        "it": "Shoreditch è nominata nell’ultimo verso di una vecchia filastrocca ricordata da Charrington.",
+        "fr": "Shoreditch est nommé dans le dernier vers d’une vieille comptine dont Charrington se souvient.",
+        "es": "Shoreditch se nombra en el último verso de una vieja canción infantil que recuerda Charrington."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "south-america",
+    "collection": "cited",
+    "name": "South America",
+    "noteHash": "fa37a9168ded461ea071f922eb9e6de7",
+    "positionSource": "cc5b705284b4317e3a4cffde9ff01e32a33ddb8884eb1e24fb4d0bbd5f831406",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "South Americans are mentioned in the political book’s description of the Party’s leadership.",
+        "it": "I sudamericani sono menzionati nella descrizione della dirigenza del Partito nel libro politico.",
+        "fr": "Les Sud-Américains sont mentionnés dans la description de la direction du Parti dans le livre politique.",
+        "es": "Los sudamericanos se mencionan en la descripción de la dirigencia del Partido en el libro político."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "tangier",
+    "collection": "cited",
+    "name": "Tangier",
+    "noteHash": "fa37a9168ded461ea071f922eb9e6de7",
+    "positionSource": "13cb0211469e77df5b7859487f9cb2d52b5724a43a05e0862a9b5400bee2b861",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Tangier is named as the northwestern corner of the region disputed by the superstates.",
+        "it": "Tangeri è nominata come l’angolo nord-occidentale della regione contesa dai superstati.",
+        "fr": "Tanger est nommée comme l’angle nord-ouest de la région disputée par les super-États.",
+        "es": "Tánger se menciona como la esquina noroeste de la región disputada por los superestados."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "tibet",
+    "collection": "cited",
+    "name": "Tibet",
+    "noteHash": "fa37a9168ded461ea071f922eb9e6de7",
+    "positionSource": "596f1bde5b87e4d4801774de72977da6c008749cfda2f56e226d266c7d1b7cd9",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Tibet is mentioned in the description of Eastasia’s fluctuating territory.",
+        "it": "Il Tibet è menzionato nella descrizione del territorio mutevole di Estasia.",
+        "fr": "Le Tibet est mentionné dans la description du territoire mouvant de l’Estasia.",
+        "es": "El Tíbet se menciona en la descripción del territorio cambiante de Asia Oriental."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "us",
+    "collection": "cited",
+    "name": "United States",
+    "noteHash": "fa37a9168ded461ea071f922eb9e6de7",
+    "positionSource": "e414fb40e9833bbd9a1334dcc99d8f3c8718d7918e1b71c71f62875110a59d63",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The fictional history links the United States to the formation of Oceania.",
+        "it": "La storia immaginaria collega gli Stati Uniti alla formazione dell’Oceania.",
+        "fr": "L’histoire fictive relie les États-Unis à la formation de l’Océania.",
+        "es": "La historia ficticia vincula los Estados Unidos con la formación de Oceanía."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "victory",
+    "collection": "cited",
+    "name": "Victory Square · Trafalgar Square model",
+    "noteHash": "a3d961274e9de03477ee220d448994a4",
+    "positionSource": "3373a33c0e82e6db3d007b93a8fdf815dac59b4185d70e502c18066109b045a7",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "In the remembered rhyme, St Martin’s is located beside the gallery in fictional Victory Square.",
+        "it": "Nel ricordo della filastrocca, St Martin’s si trova accanto alla galleria nell’immaginaria Piazza della Vittoria.",
+        "fr": "Dans le souvenir de la comptine, St Martin’s se trouve près de la galerie sur la place de la Victoire fictive.",
+        "es": "En el recuerdo de la canción infantil, St Martin’s está junto a la galería en la ficticia Plaza de la Victoria."
+      }
+    }
+  }
+]
