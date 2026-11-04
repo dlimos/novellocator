@@ -1,0 +1,402 @@
+[
+  {
+    "book": "orwell1984",
+    "id": "argentina",
+    "collection": "cited",
+    "name": "Argentina",
+    "noteHash": "fa37a9168ded461ea071f922eb9e6de7",
+    "positionSource": "6ecd0835efb017a6e4707f29d411ea2b7d2ae7994d19169ffb293129e8f95cc6",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The plains of Argentina appear in a comparison with the life imposed on the proles.",
+        "it": "Le pianure dell’Argentina compaiono in un paragone con la vita imposta ai prolet.",
+        "fr": "Les plaines d’Argentine apparaissent dans une comparaison avec la vie imposée aux prolétaires.",
+        "es": "Las llanuras de Argentina aparecen en una comparación con la vida impuesta a los proles."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "australia",
+    "collection": "cited",
+    "name": "Australia",
+    "noteHash": "fa37a9168ded461ea071f922eb9e6de7",
+    "positionSource": "5b5efc453c795afbc54dcd5ae7739e726eff0fc9fa6f8d3d3cce072de59160d6",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The Australian desert is named as a location of hidden experimental stations in the book within the novel.",
+        "it": "Il deserto australiano è nominato come sede di stazioni sperimentali nascoste nel libro dentro il romanzo.",
+        "fr": "Le désert australien est nommé comme lieu de stations expérimentales cachées dans le livre enchâssé dans le roman.",
+        "es": "El desierto australiano se menciona como lugar de estaciones experimentales ocultas en el libro dentro de la novela."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "bering",
+    "collection": "cited",
+    "name": "Bering Strait",
+    "noteHash": "fa37a9168ded461ea071f922eb9e6de7",
+    "positionSource": "c2f3071cce1cb3b00ba35ca8bbbf6f7ebb10d5f1a57e223e02dec2e5196b6e16",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The Bering Strait is used to describe the eastern reach of fictional Eurasia.",
+        "it": "Lo stretto di Bering serve a descrivere l’estensione orientale dell’immaginaria Eurasia.",
+        "fr": "Le détroit de Béring sert à décrire l’étendue orientale de l’Eurasia fictive.",
+        "es": "El estrecho de Bering sirve para describir la extensión oriental de la Eurasia ficticia."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "berlin",
+    "collection": "cited",
+    "name": "Berlin",
+    "noteHash": "fa37a9168ded461ea071f922eb9e6de7",
+    "positionSource": "b016fd59fa963f4341c9ee8db66735e27265090bc032f3835a04d32dfbcc6721",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Winston imagines ordinary people in Berlin and other cities beyond the frontiers.",
+        "it": "Winston immagina le persone comuni a Berlino e in altre città oltre le frontiere.",
+        "fr": "Winston imagine les gens ordinaires à Berlin et dans d’autres villes au-delà des frontières.",
+        "es": "Winston imagina a la gente corriente en Berlín y en otras ciudades al otro lado de las fronteras."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "brazil",
+    "collection": "cited",
+    "name": "Brazil",
+    "noteHash": "fa37a9168ded461ea071f922eb9e6de7",
+    "positionSource": "fcd906f7c85b089f4af032e286f6e3404423f567e28d331b09102056a129e027",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Brazilian forests are named among the places said to conceal research stations.",
+        "it": "Le foreste brasiliane sono nominate fra i luoghi che ospiterebbero stazioni di ricerca nascoste.",
+        "fr": "Les forêts brésiliennes sont citées parmi les lieux qui abriteraient des stations de recherche secrètes.",
+        "es": "Los bosques brasileños se citan entre los lugares que albergarían estaciones secretas de investigación."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "britain",
+    "collection": "cited",
+    "name": "Great Britain",
+    "noteHash": "fa37a9168ded461ea071f922eb9e6de7",
+    "positionSource": "eb7a55f65a4686976b1be0efa17a3d81fad72c77c554798df9836dcc6ac59005",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Winston remembers that Airstrip One was once called Britain or England.",
+        "it": "Winston ricorda che Pista Uno un tempo si chiamava Gran Bretagna o Inghilterra.",
+        "fr": "Winston se souvient que l’Airstrip One s’appelait autrefois Grande-Bretagne ou Angleterre.",
+        "es": "Winston recuerda que Pista de Aterrizaje Uno se llamaba antes Gran Bretaña o Inglaterra."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "canada",
+    "collection": "cited",
+    "name": "Canada",
+    "noteHash": "fa37a9168ded461ea071f922eb9e6de7",
+    "positionSource": "464ce8209d857b15eee66437aba326ec2f246e6ff0561201f20416e89643fcd2",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "A forced confession claims that Party members flew from a secret airfield in Canada.",
+        "it": "Una confessione forzata sostiene che alcuni membri del Partito siano partiti da un aeroporto segreto in Canada.",
+        "fr": "Des aveux forcés prétendent que des membres du Parti sont partis d’un aérodrome secret au Canada.",
+        "es": "Una confesión forzada afirma que unos miembros del Partido salieron de un aeródromo secreto en Canadá."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "clement",
+    "collection": "cited",
+    "name": "St Clement Danes",
+    "noteHash": "d0638ffd44e7e301714fa7c1ea1e10f5",
+    "positionSource": "1a4d62c09c5bca65a8f77d5807fdb26ec78f592320f6cce0ff5f1afc9bca0687",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The former church of St Clement Danes is remembered when Winston hears an old nursery rhyme.",
+        "it": "L’antica chiesa di St Clement Danes è ricordata quando Winston ascolta una vecchia filastrocca.",
+        "fr": "L’ancienne église St Clement Danes est évoquée lorsque Winston entend une vieille comptine.",
+        "es": "La antigua iglesia de St Clement Danes se recuerda cuando Winston escucha una vieja canción infantil."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "colchester",
+    "collection": "cited",
+    "name": "Colchester",
+    "noteHash": "fa37a9168ded461ea071f922eb9e6de7",
+    "positionSource": "4d78c7a0d84b9b7494038f543468f38161ace76328505110a8c8727310805ddc",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Winston associates an early childhood memory of sheltering underground with an atomic bomb at Colchester.",
+        "it": "Winston associa un ricordo infantile di rifugio sotterraneo a una bomba atomica caduta su Colchester.",
+        "fr": "Winston associe un souvenir d’enfance dans un abri souterrain à une bombe atomique tombée sur Colchester.",
+        "es": "Winston asocia un recuerdo infantil de refugiarse bajo tierra con una bomba atómica caída en Colchester."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "congo-mouth",
+    "collection": "cited",
+    "name": "Congo river mouth",
+    "noteHash": "fa37a9168ded461ea071f922eb9e6de7",
+    "positionSource": "df8254cc75bd8416eae64883a09458f5d2ee586769d7d979383c62f313158d31",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "A bulletin and Winston’s thoughts place a possible battlefield near the mouth of the Congo.",
+        "it": "Un bollettino e i pensieri di Winston collocano un possibile campo di battaglia vicino alla foce del Congo.",
+        "fr": "Un bulletin et les pensées de Winston situent un champ de bataille possible près de l’embouchure du Congo.",
+        "es": "Un boletín y los pensamientos de Winston sitúan un posible campo de batalla cerca de la desembocadura del Congo."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "faroe",
+    "collection": "cited",
+    "name": "Faroe Islands",
+    "noteHash": "fa37a9168ded461ea071f922eb9e6de7",
+    "positionSource": "366637795aad9f995031d50ce6de9ec31359a0625730af44e95e21c027f1778a",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "A floating fortress is reported to be anchored between Iceland and the Faroe Islands.",
+        "it": "Una fortezza galleggiante viene descritta come ancorata tra l’Islanda e le isole Fær Øer.",
+        "fr": "Une forteresse flottante est annoncée au mouillage entre l’Islande et les îles Féroé.",
+        "es": "Se anuncia que una fortaleza flotante está fondeada entre Islandia y las islas Feroe."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "iceland",
+    "collection": "cited",
+    "name": "Iceland",
+    "noteHash": "fa37a9168ded461ea071f922eb9e6de7",
+    "positionSource": "a85c55c4091e6a11afc4226a05ddab13681e597734b1f08193fe07a7bcf75d17",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The location of a reported floating fortress is described in relation to Iceland and the Faroes.",
+        "it": "La posizione di una fortezza galleggiante annunciata è descritta rispetto all’Islanda e alle Fær Øer.",
+        "fr": "La position d’une forteresse flottante annoncée est décrite par rapport à l’Islande et aux Féroé.",
+        "es": "La posición de una fortaleza flotante anunciada se describe en relación con Islandia y las Feroe."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "indian-ocean",
+    "collection": "cited",
+    "name": "Indian Ocean",
+    "noteHash": "fa37a9168ded461ea071f922eb9e6de7",
+    "positionSource": "004f425558b0ee0b5e978167749be30bca6f1d61a592a45d684884549bc3b797",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "A fabricated war hero is said to have died over the Indian Ocean carrying dispatches.",
+        "it": "Si dice che un eroe di guerra inventato sia morto sopra l’Oceano Indiano mentre trasportava dispacci.",
+        "fr": "Un héros de guerre inventé est censé être mort au-dessus de l’océan Indien en transportant des dépêches.",
+        "es": "Se dice que un héroe de guerra inventado murió sobre el océano Índico mientras llevaba despachos."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "kinshasa",
+    "collection": "cited",
+    "name": "Leopoldville · Kinshasa",
+    "noteHash": "fa37a9168ded461ea071f922eb9e6de7",
+    "positionSource": "18b8b269630ec9bad005d06f83e63378f01f9017c34f180f01d712694cb10b1d",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Leopoldville, now Kinshasa, is named as threatened in a report about the Congo front.",
+        "it": "Leopoldville, oggi Kinshasa, è indicata come minacciata in una notizia sul fronte del Congo.",
+        "fr": "Léopoldville, aujourd’hui Kinshasa, est dite menacée dans une information sur le front du Congo.",
+        "es": "Leopoldville, hoy Kinsasa, aparece amenazada en una noticia sobre el frente del Congo."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "malabar",
+    "collection": "cited",
+    "name": "Malabar Coast",
+    "noteHash": "fa37a9168ded461ea071f922eb9e6de7",
+    "positionSource": "9998cfd61db33bc2ee027a99e413fa799fb5e624e1e69fb858a2b209e8269ad2",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "A newsflash claims a victory on the Malabar front in southern India.",
+        "it": "Un notiziario annuncia una vittoria sul fronte del Malabar nell’India meridionale.",
+        "fr": "Un bulletin annonce une victoire sur le front du Malabar dans le sud de l’Inde.",
+        "es": "Un boletín anuncia una victoria en el frente de Malabar, en el sur de la India."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "martin",
+    "collection": "cited",
+    "name": "St Martin-in-the-Fields",
+    "noteHash": "d0638ffd44e7e301714fa7c1ea1e10f5",
+    "positionSource": "b2701f34d5c2e652ee310e6d3bd6c313776a19cf3bb9767e8ce7aece98d4dd85",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "St Martin’s is remembered through a nursery rhyme and associated with fictional Victory Square.",
+        "it": "St Martin’s è ricordata in una filastrocca e associata all’immaginaria Piazza della Vittoria.",
+        "fr": "St Martin’s est évoquée dans une comptine et associée à la place de la Victoire fictive.",
+        "es": "St Martin’s se recuerda en una canción infantil y se asocia con la ficticia Plaza de la Victoria."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "new-york",
+    "collection": "cited",
+    "name": "New York City",
+    "noteHash": "fa37a9168ded461ea071f922eb9e6de7",
+    "positionSource": "fefd3908a266fc02eb13ad57ede664037ec35f1678e9bc58026aa848ad3994b5",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "A photograph taken at a Party function in New York contradicts a later official account.",
+        "it": "Una fotografia scattata a una riunione del Partito a New York contraddice una successiva versione ufficiale.",
+        "fr": "Une photographie prise lors d’une réunion du Parti à New York contredit une version officielle ultérieure.",
+        "es": "Una fotografía tomada en una reunión del Partido en Nueva York contradice una versión oficial posterior."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "paddington",
+    "collection": "cited",
+    "name": "Paddington station",
+    "noteHash": "d0638ffd44e7e301714fa7c1ea1e10f5",
+    "positionSource": "6365ac4af05aa53a1a57c5c02bdfa498d5d5326df516738abc3930c7688c09d0",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Julia tells Winston to begin his journey to their meeting at Paddington Station.",
+        "it": "Julia dice a Winston di iniziare il viaggio verso il loro incontro dalla stazione di Paddington.",
+        "fr": "Julia dit à Winston de commencer son trajet vers leur rendez-vous à la gare de Paddington.",
+        "es": "Julia dice a Winston que comience el viaje hacia su encuentro en la estación de Paddington."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "pancras",
+    "collection": "cited",
+    "name": "St Pancras station",
+    "noteHash": "d0638ffd44e7e301714fa7c1ea1e10f5",
+    "positionSource": "c18734069546fa3d372f795d538ec65c59c55603851d25d90c49b79f8c3455d0",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Winston wanders through poor streets north and east of the former St Pancras Station.",
+        "it": "Winston vaga per strade povere a nord e a est dell’ex stazione di St Pancras.",
+        "fr": "Winston erre dans des rues pauvres au nord et à l’est de l’ancienne gare de St Pancras.",
+        "es": "Winston vaga por calles pobres al norte y al este de la antigua estación de St Pancras."
+      }
+    }
+  },
+  {
+    "book": "orwell1984",
+    "id": "siberia",
+    "collection": "cited",
+    "name": "Siberia",
+    "noteHash": "fa37a9168ded461ea071f922eb9e6de7",
+    "positionSource": "b8e74193ce8007cb2fb4b98663ead6611dd6b5763cd805f3ed23dda61508d487",
+    "narrativeSource": "4bcec1d2f4dafdc5e260b4d8adb6926ac3886d7e96eb5ca4247871e43858844d",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "A coerced confession alleges a secret meeting with Eurasian officers somewhere in Siberia.",
+        "it": "Una confessione estorta sostiene che si sia svolto un incontro segreto con ufficiali eurasiatici in Siberia.",
+        "fr": "Des aveux extorqués allèguent une rencontre secrète avec des officiers eurasiens en Sibérie.",
+        "es": "Una confesión obtenida bajo coacción alega un encuentro secreto con oficiales euroasiáticos en Siberia."
+      }
+    }
+  }
+]
