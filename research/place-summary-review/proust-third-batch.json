@@ -1,0 +1,282 @@
+[
+  {
+    "book": "proust",
+    "id": "algeciras",
+    "collection": "cited",
+    "name": "Algeciras",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "95aec37f600169a260292fcf27a0af0bcb0f600804f4bef1ae55dfc3f0a920cf",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "A letter mentions that the narrator’s father may give up a planned journey to Algeciras.",
+        "it": "Una lettera riferisce che il padre del narratore potrebbe rinunciare a un viaggio previsto ad Algeciras.",
+        "fr": "Une lettre indique que le père du narrateur pourrait renoncer à un voyage prévu à Algésiras.",
+        "es": "Una carta señala que el padre del narrador podría renunciar a un viaje previsto a Algeciras."
+      }
+    }
+  },
+  {
+    "book": "proust",
+    "id": "amiens",
+    "collection": "cited",
+    "name": "Amiens",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "7ebf02f85804622c92ff657fe355556eea7a901d44c66be6455372b43c4e3255",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The cathedral of Amiens is among the churches mentioned in conversation at the Verdurins’.",
+        "it": "La cattedrale di Amiens è tra le chiese nominate durante una conversazione dai Verdurin.",
+        "fr": "La cathédrale d’Amiens figure parmi les églises évoquées lors d’une conversation chez les Verdurin.",
+        "es": "La catedral de Amiens figura entre las iglesias mencionadas durante una conversación en casa de los Verdurin."
+      }
+    }
+  },
+  {
+    "book": "proust",
+    "id": "bavaria",
+    "collection": "cited",
+    "name": "Bavaria",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "ea18014bc9a7199f9103d023dd92bc545d4766e9abbd27404a5620720fcd15d1",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Swann considers renting a Bavarian royal castle while Odette wants to attend the Bayreuth season.",
+        "it": "Swann pensa di affittare un castello reale bavarese mentre Odette desidera assistere alla stagione di Bayreuth.",
+        "fr": "Swann envisage de louer un château royal bavarois alors qu’Odette veut assister à la saison de Bayreuth.",
+        "es": "Swann piensa alquilar un castillo real bávaro mientras Odette desea asistir a la temporada de Bayreuth."
+      }
+    }
+  },
+  {
+    "book": "proust",
+    "id": "bayreuth",
+    "collection": "cited",
+    "name": "Bayreuth",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "36bbbd8dae26144be44482f906a552010ac94a2981dcd1fcf2b9958ac2d209c4",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Odette’s wish to attend the Bayreuth season provokes Swann’s anxious thoughts.",
+        "it": "Il desiderio di Odette di assistere alla stagione di Bayreuth suscita i pensieri inquieti di Swann.",
+        "fr": "Le désir d’Odette d’assister à la saison de Bayreuth suscite les pensées inquiètes de Swann.",
+        "es": "El deseo de Odette de asistir a la temporada de Bayreuth provoca los pensamientos inquietos de Swann."
+      }
+    }
+  },
+  {
+    "book": "proust",
+    "id": "chartres",
+    "collection": "cited",
+    "name": "Chartres",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "425406d4432f9dfe960625d862d9f6e0761aaabdc5d5564af6375ea76ef71371",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The narrator’s grandmother prefers an artistic image of Chartres Cathedral to an ordinary photograph.",
+        "it": "La nonna del narratore preferisce un’immagine artistica della cattedrale di Chartres a una semplice fotografia.",
+        "fr": "La grand-mère du narrateur préfère une image artistique de la cathédrale de Chartres à une photographie ordinaire.",
+        "es": "La abuela del narrador prefiere una imagen artística de la catedral de Chartres a una fotografía corriente."
+      }
+    }
+  },
+  {
+    "book": "proust",
+    "id": "compiegne",
+    "collection": "cited",
+    "name": "Compiègne",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "829562f0cc0e38493e02a758aa08ec093f99cebb50a2ecb1e8fdc09ff0e2cd7e",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The Verdurins take Odette to the forest at Compiègne to admire sunsets.",
+        "it": "I Verdurin portano Odette nella foresta di Compiègne per ammirare i tramonti.",
+        "fr": "Les Verdurin emmènent Odette dans la forêt de Compiègne pour admirer les couchers de soleil.",
+        "es": "Los Verdurin llevan a Odette al bosque de Compiègne para admirar los atardeceres."
+      }
+    }
+  },
+  {
+    "book": "proust",
+    "id": "constantinople",
+    "collection": "cited",
+    "name": "Istanbul",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "8634c17ff151221784baef8f212dd0a857f9a9219e08e5942bf502231e4d3dcc",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Constantinople is included in the Verdurins’ long Mediterranean journey.",
+        "it": "Costantinopoli è inclusa nel lungo viaggio mediterraneo dei Verdurin.",
+        "fr": "Constantinople figure dans le long voyage méditerranéen des Verdurin.",
+        "es": "Constantinopla figura en el largo viaje mediterráneo de los Verdurin."
+      }
+    }
+  },
+  {
+    "book": "proust",
+    "id": "dresden",
+    "collection": "cited",
+    "name": "Dresden",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "a9b439bd4129758ab60dea2ee814a3b7f36d564dcea154d8c2b1ef93bae5d186",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Swann thinks of returning to Dresden while researching paintings attributed to Vermeer.",
+        "it": "Swann pensa di tornare a Dresda mentre studia dipinti attribuiti a Vermeer.",
+        "fr": "Swann songe à retourner à Dresde pendant ses recherches sur des tableaux attribués à Vermeer.",
+        "es": "Swann piensa regresar a Dresde mientras estudia pinturas atribuidas a Vermeer."
+      }
+    }
+  },
+  {
+    "book": "proust",
+    "id": "egypt",
+    "collection": "cited",
+    "name": "Egypt",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "bc1687c3147785ee1f01ebd9b22e30cf27a5ad4b0b51485b00aa0c6de3c89010",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Odette’s proposed journey to Egypt with Forcheville arouses Swann’s jealousy.",
+        "it": "Il viaggio in Egitto progettato da Odette con Forcheville suscita la gelosia di Swann.",
+        "fr": "Le voyage en Égypte projeté par Odette avec Forcheville suscite la jalousie de Swann.",
+        "es": "El viaje a Egipto proyectado por Odette con Forcheville despierta los celos de Swann."
+      }
+    }
+  },
+  {
+    "book": "proust",
+    "id": "florence",
+    "collection": "cited",
+    "name": "Florence",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "8cc59b64269c939c1ba3bb1f168348ed96b85acc0cc7552167d26f3c9cbaa0a8",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Renaissance Florence is evoked as the setting of the documents used to study Botticelli’s art.",
+        "it": "La Firenze rinascimentale è evocata come contesto dei documenti usati per studiare l’arte di Botticelli.",
+        "fr": "La Florence de la Renaissance est évoquée comme cadre des documents utilisés pour étudier l’art de Botticelli.",
+        "es": "La Florencia renacentista se evoca como contexto de los documentos usados para estudiar el arte de Botticelli."
+      }
+    }
+  },
+  {
+    "book": "proust",
+    "id": "milan",
+    "collection": "cited",
+    "name": "Milan",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "65ec9470bc8d9ec37b650bf150efe3e2cb3538f4c0da2f6ef174b3e0edcd5b74",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The steps of Milan Cathedral are compared with the stairs of a church tower.",
+        "it": "I gradini del duomo di Milano sono confrontati con quelli di un campanile.",
+        "fr": "Les marches du dôme de Milan sont comparées à celles d’un clocher.",
+        "es": "Los escalones de la catedral de Milán se comparan con los de un campanario."
+      }
+    }
+  },
+  {
+    "book": "proust",
+    "id": "menton",
+    "collection": "cited",
+    "name": "Menton",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "4b40578de0494eeec3190f9b85ad26c202c77d1e34810d0933c451a1043bcfc3",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Menton is the home of two women whose distance briefly quiets the narrator’s suspicions.",
+        "it": "Menton è la città in cui vivono due donne la cui lontananza placa per poco i sospetti del narratore.",
+        "fr": "Menton est la ville où vivent deux femmes dont l’éloignement apaise brièvement les soupçons du narrateur.",
+        "es": "Menton es la ciudad donde viven dos mujeres cuya lejanía calma brevemente las sospechas del narrador."
+      }
+    }
+  },
+  {
+    "book": "proust",
+    "id": "rouen",
+    "collection": "cited",
+    "name": "Rouen",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "63b7f4b8197a97a4ffc1c78ccb17de7b5dbdaba37f2af2269485f45021bafa83",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The booksellers’ portal of Rouen Cathedral is recalled in a comparison with street trades.",
+        "it": "Il portale dei Librai della cattedrale di Rouen è ricordato in un confronto con i mestieri ambulanti.",
+        "fr": "Le portail des Libraires de la cathédrale de Rouen est rappelé dans une comparaison avec les métiers ambulants.",
+        "es": "El portal de los Libreros de la catedral de Ruan se recuerda en una comparación con los oficios ambulantes."
+      }
+    }
+  },
+  {
+    "book": "proust",
+    "id": "ulm",
+    "collection": "cited",
+    "name": "Ulm",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "b92204efeeb6705b76e0d1ea2674db495978f473ca7f1860c339bb1ac0fa010d",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Ulm is named in a discussion of battles that later commanders might imitate.",
+        "it": "Ulm è nominata in una discussione sulle battaglie che i comandanti successivi potrebbero imitare.",
+        "fr": "Ulm est nommée dans une discussion sur les batailles que de futurs chefs pourraient imiter.",
+        "es": "Ulm se menciona en una conversación sobre batallas que futuros mandos podrían imitar."
+      }
+    }
+  }
+]
