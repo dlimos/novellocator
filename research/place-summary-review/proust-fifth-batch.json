@@ -1,0 +1,502 @@
+[
+  {
+    "book": "proust",
+    "id": "africa",
+    "collection": "cited",
+    "name": "Africa",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "52d9d79369ca4d00b99278166e22007fbd5068a38e1ee5fb11676a2a31565c3d",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "An oasis in Africa serves as a comparison for the imagined atmosphere of the Faubourg Saint-Germain.",
+        "it": "Un’oasi africana serve da paragone per l’atmosfera immaginata del Faubourg Saint-Germain.",
+        "fr": "Une oasis africaine sert de comparaison à l’atmosphère imaginée du faubourg Saint-Germain.",
+        "es": "Un oasis africano sirve de comparación para la atmósfera imaginada del faubourg Saint-Germain."
+      }
+    }
+  },
+  {
+    "book": "proust",
+    "id": "europe",
+    "collection": "cited",
+    "name": "Europe",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "44ee6ee2b208cf485c3d985f93c89abd8e2fb332004378dbe717d53db9fe2ee4",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The narrator imagines appreciation of Bergotte spreading across Europe and beyond.",
+        "it": "Il narratore immagina l’apprezzamento per Bergotte diffondersi in Europa e oltre.",
+        "fr": "Le narrateur imagine l’admiration pour Bergotte se répandre en Europe et au-delà.",
+        "es": "El narrador imagina que el aprecio por Bergotte se extiende por Europa y más allá."
+      }
+    }
+  },
+  {
+    "book": "proust",
+    "id": "fontainebleau",
+    "collection": "cited",
+    "name": "Fontainebleau",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "2ab43f595831b4253c55fcba6d23b36b1b3daee8cba070cbe77c518ea3ffd4ca",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "A stay at Fontainebleau is mentioned in a conversation about health cures.",
+        "it": "Un soggiorno a Fontainebleau è menzionato in una conversazione sulle cure di salute.",
+        "fr": "Un séjour à Fontainebleau est évoqué dans une conversation sur les cures de santé.",
+        "es": "Una estancia en Fontainebleau se menciona en una conversación sobre curas de salud."
+      }
+    }
+  },
+  {
+    "book": "proust",
+    "id": "frankfurt",
+    "collection": "cited",
+    "name": "Frankfurt",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "9e26a8d2218158f9b1bc0c8b66ef7856a581b60f6bb561ea1658b97b06e3bb09",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Frankfurt appears in the title of a story read within the Verdurins’ circle.",
+        "it": "Francoforte compare nel titolo di un racconto letto nel piccolo gruppo dei Verdurin.",
+        "fr": "Francfort apparaît dans le titre d’un récit lu dans le petit clan des Verdurin.",
+        "es": "Fráncfort aparece en el título de un relato leído en el círculo de los Verdurin."
+      }
+    }
+  },
+  {
+    "book": "proust",
+    "id": "greece",
+    "collection": "cited",
+    "name": "Greece",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "18db09333e246109eb81b1f73ed9f70c318983b85074a097d392a730cc47f61d",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The queen of Greece is mentioned during a conversation about society news.",
+        "it": "La regina di Grecia è nominata durante una conversazione sulle notizie mondane.",
+        "fr": "La reine de Grèce est évoquée pendant une conversation sur les nouvelles mondaines.",
+        "es": "La reina de Grecia se menciona durante una conversación sobre noticias de sociedad."
+      }
+    }
+  },
+  {
+    "book": "proust",
+    "id": "india",
+    "collection": "cited",
+    "name": "India",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "542f51abc8067a758eae807611544344261e358db83c4bf2914b9772a57eec30",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "A piece of Indian cashmere worn as a head covering appears in a childhood memory.",
+        "it": "Un tessuto di cashmere dell’India usato come copricapo compare in un ricordo d’infanzia.",
+        "fr": "Un cachemire des Indes porté autour de la tête apparaît dans un souvenir d’enfance.",
+        "es": "Una prenda de cachemira de la India usada como tocado aparece en un recuerdo de infancia."
+      }
+    }
+  },
+  {
+    "book": "proust",
+    "id": "italy",
+    "collection": "cited",
+    "name": "Italy",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "8513ec5c839751746cb7af244585222f3ad037e3ffe686a1056e616c4990fa74",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Swann brings the young narrator photographs of artworks from his journeys to Italy.",
+        "it": "Swann porta al giovane narratore fotografie di opere d’arte dai suoi viaggi in Italia.",
+        "fr": "Swann rapporte au jeune narrateur des photographies d’œuvres d’art de ses voyages en Italie.",
+        "es": "Swann trae al joven narrador fotografías de obras de arte de sus viajes a Italia."
+      }
+    }
+  },
+  {
+    "book": "proust",
+    "id": "jerusalem",
+    "collection": "cited",
+    "name": "Jerusalem",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "6734a4d4187c2d460954c19c9f4c3caeca39dd093891649a3d5409e2cfad5965",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The rose of Jerusalem is named in an image of spring flowers and butterflies.",
+        "it": "La rosa di Gerusalemme è nominata in un’immagine di fiori primaverili e farfalle.",
+        "fr": "La rose de Jérusalem est nommée dans une image de fleurs printanières et de papillons.",
+        "es": "La rosa de Jerusalén aparece en una imagen de flores primaverales y mariposas."
+      }
+    }
+  },
+  {
+    "book": "proust",
+    "id": "london",
+    "collection": "cited",
+    "name": "London",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "3c167975becd1856692f1f3c61b6cbae2d483b8575b86c55aea11231ba643995",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The director of the Balbec hotel is said to be known in London as well as Monte Carlo.",
+        "it": "Si dice che il direttore dell’albergo di Balbec sia conosciuto a Londra come a Monte Carlo.",
+        "fr": "Le directeur de l’hôtel de Balbec serait connu à Londres aussi bien qu’à Monte-Carlo.",
+        "es": "Se dice que el director del hotel de Balbec es conocido en Londres y en Montecarlo."
+      }
+    }
+  },
+  {
+    "book": "proust",
+    "id": "madrid",
+    "collection": "cited",
+    "name": "Madrid",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "f005bf1356f751365c3c8c5212ef7513252f1f3865fe533f1a2e674fbc73fb99",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Madrid appears among cities compared to Paris in a reflection on society and politics.",
+        "it": "Madrid compare tra le città accostate a Parigi in una riflessione su società e politica.",
+        "fr": "Madrid figure parmi les villes rapprochées de Paris dans une réflexion sur la société et la politique.",
+        "es": "Madrid figura entre las ciudades comparadas con París en una reflexión sobre sociedad y política."
+      }
+    }
+  },
+  {
+    "book": "proust",
+    "id": "monte-carlo",
+    "collection": "cited",
+    "name": "Monte Carlo",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "7b4745fa3d49b1b503a20d186245633a5a8a43db96969dd038b27cd5c5f1273d",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Odette’s admiration for Monte Carlo contrasts with Swann’s taste for Holland.",
+        "it": "L’ammirazione di Odette per Monte Carlo contrasta con il gusto di Swann per l’Olanda.",
+        "fr": "L’admiration d’Odette pour Monte-Carlo contraste avec le goût de Swann pour la Hollande.",
+        "es": "La admiración de Odette por Montecarlo contrasta con el gusto de Swann por Holanda."
+      }
+    }
+  },
+  {
+    "book": "proust",
+    "id": "nile",
+    "collection": "cited",
+    "name": "Nile",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "f6e5f8f1c0ba3f9c483188d7620853ca863a214560cf21c566016043883a9e28",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Beds shaped like boats evoke the Nile and the biblical story of Moses.",
+        "it": "Letti a forma di barca evocano il Nilo e la storia biblica di Mosè.",
+        "fr": "Des lits en forme de bateau évoquent le Nil et l’histoire biblique de Moïse.",
+        "es": "Unas camas con forma de barca evocan el Nilo y la historia bíblica de Moisés."
+      }
+    }
+  },
+  {
+    "book": "proust",
+    "id": "nineveh",
+    "collection": "cited",
+    "name": "Nineveh",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "c605999e80da110c7a8027127ff3b485720aacc2c4f12ce7a7efb1d90bf28bb5",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The desolation of Nineveh supplies an image for Swann’s troubled memory.",
+        "it": "La desolazione di Ninive offre un’immagine per il ricordo tormentato di Swann.",
+        "fr": "La désolation de Ninive fournit une image pour le souvenir tourmenté de Swann.",
+        "es": "La desolación de Nínive ofrece una imagen para el recuerdo atormentado de Swann."
+      }
+    }
+  },
+  {
+    "book": "proust",
+    "id": "normandy",
+    "collection": "cited",
+    "name": "Normandy",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "ff3be0e838e1d75850a7c6dbdc6df27d5c875150057107711afeebcd5228af62",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The narrator remembers eighteenth-century houses and a Gothic spire in a Norman town near Balbec.",
+        "it": "Il narratore ricorda dimore settecentesche e una guglia gotica in una città normanna vicina a Balbec.",
+        "fr": "Le narrateur se souvient d’hôtels du XVIIIe siècle et d’une flèche gothique dans une ville normande proche de Balbec.",
+        "es": "El narrador recuerda mansiones del siglo XVIII y una aguja gótica en una ciudad normanda cercana a Balbec."
+      }
+    }
+  },
+  {
+    "book": "proust",
+    "id": "ny",
+    "collection": "cited",
+    "name": "New York City",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "f534adddbe8a93cc36bf48fe8eeb3d2832b636af200cb4cca66c42d84b78e7b7",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Françoise confuses York ham with New York, producing a misunderstanding about its name.",
+        "it": "Françoise confonde il prosciutto di York con New York, creando un equivoco sul nome.",
+        "fr": "Françoise confond le jambon d’York avec New York, créant un malentendu sur son nom.",
+        "es": "Françoise confunde el jamón de York con Nueva York, creando un equívoco sobre su nombre."
+      }
+    }
+  },
+  {
+    "book": "proust",
+    "id": "portugal",
+    "collection": "cited",
+    "name": "Portugal",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "16379f7f41b9608b35d90915c811fd4d50ee471d17fe8ba015690b6e0af2a57e",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Françoise mentions the queen of Portugal in a conversation revealing her royalist sympathies.",
+        "it": "Françoise nomina la regina del Portogallo in una conversazione che rivela le sue simpatie monarchiche.",
+        "fr": "Françoise nomme la reine de Portugal dans une conversation révélant ses sympathies royalistes.",
+        "es": "Françoise menciona a la reina de Portugal en una conversación que revela sus simpatías monárquicas."
+      }
+    }
+  },
+  {
+    "book": "proust",
+    "id": "red-sea",
+    "collection": "cited",
+    "name": "Red Sea",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "b71608fdf132c435228995d6c5828758e342bfea4834274b0acbd86ca34400a3",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The Red Sea is evoked in a comparison between theatre spectators and the biblical crossing.",
+        "it": "Il Mar Rosso è evocato in un paragone tra gli spettatori a teatro e l’attraversamento biblico.",
+        "fr": "La mer Rouge est évoquée dans une comparaison entre les spectateurs du théâtre et la traversée biblique.",
+        "es": "El mar Rojo se evoca en una comparación entre el público del teatro y la travesía bíblica."
+      }
+    }
+  },
+  {
+    "book": "proust",
+    "id": "rome",
+    "collection": "cited",
+    "name": "Rome",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "8690258f2aa501e6f8e30009d3e6cdccadffb9d9b621872571bdb4bdfabf0a34",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "A Parisian dome reminds the narrator of Piranesi’s views of Rome.",
+        "it": "Una cupola parigina ricorda al narratore le vedute di Roma di Piranesi.",
+        "fr": "Un dôme parisien rappelle au narrateur les vues de Rome de Piranèse.",
+        "es": "Una cúpula parisina recuerda al narrador las vistas de Roma de Piranesi."
+      }
+    }
+  },
+  {
+    "book": "proust",
+    "id": "sahara",
+    "collection": "cited",
+    "name": "Sahara",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "85d14041149b7068c8c7f98d56853aefb63f7ed7db06f24eba642d7d55192ae9",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "The Sahara appears in a playful comparison between a drawing room and a lion’s imagined freedom.",
+        "it": "Il Sahara compare in un paragone giocoso tra un salotto e la libertà immaginata di un leone.",
+        "fr": "Le Sahara apparaît dans une comparaison ludique entre un salon et la liberté imaginée d’un lion.",
+        "es": "El Sahara aparece en una comparación lúdica entre un salón y la libertad imaginada de un león."
+      }
+    }
+  },
+  {
+    "book": "proust",
+    "id": "spain",
+    "collection": "cited",
+    "name": "Spain",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "a6920642ce9d8ebdba3d76d92ad56c127cc97f89d0e3e43bce3746958bb37608",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "A conversation turns to Saint-Simon’s account of his embassy to Spain.",
+        "it": "Una conversazione si sofferma sul racconto di Saint-Simon della sua ambasciata in Spagna.",
+        "fr": "Une conversation porte sur le récit par Saint-Simon de son ambassade en Espagne.",
+        "es": "Una conversación se detiene en el relato de Saint-Simon sobre su embajada en España."
+      }
+    }
+  },
+  {
+    "book": "proust",
+    "id": "switzerland",
+    "collection": "cited",
+    "name": "Switzerland",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "a9e37ca9fae98708ebdc603b86529fb15912c0948ea95af080071bcba794fd85",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Old Swiss buildings at the foot of a mountain enter a comparison with Parisian architecture.",
+        "it": "Antichi edifici svizzeri ai piedi di una montagna entrano in un paragone con l’architettura parigina.",
+        "fr": "D’anciens bâtiments suisses au pied d’une montagne entrent dans une comparaison avec l’architecture parisienne.",
+        "es": "Antiguos edificios suizos al pie de una montaña entran en una comparación con la arquitectura parisina."
+      }
+    }
+  },
+  {
+    "book": "proust",
+    "id": "thames",
+    "collection": "cited",
+    "name": "River Thames",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "2f2226e27f74b22b49deb635e4c190759fd26ceef9beeb6a392279847f64cb2c",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Odette refers to the English expression for a condescending manner by invoking the Thames.",
+        "it": "Odette richiama il Tamigi parlando dell’espressione inglese per un atteggiamento condiscendente.",
+        "fr": "Odette évoque la Tamise en parlant du mot anglais désignant une attitude condescendante.",
+        "es": "Odette evoca el Támesis al hablar de la expresión inglesa para una actitud condescendiente."
+      }
+    }
+  },
+  {
+    "book": "proust",
+    "id": "trieste",
+    "collection": "cited",
+    "name": "Trieste",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "e734d73477280f8da847c9db2dd324975f86aaf2e96d5a2033464d0933e820bb",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Trieste is recalled as a place where Albertine’s older friend spent some of her happiest years.",
+        "it": "Trieste è ricordata come luogo in cui l’amica più anziana di Albertine ha trascorso alcuni dei suoi anni migliori.",
+        "fr": "Trieste est évoquée comme le lieu où l’amie plus âgée d’Albertine a passé certaines de ses plus belles années.",
+        "es": "Trieste se recuerda como el lugar donde la amiga mayor de Albertine pasó algunos de sus mejores años."
+      }
+    }
+  },
+  {
+    "book": "proust",
+    "id": "versailles-city",
+    "collection": "cited",
+    "name": "Versailles",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "c186f2529573db4821022e1002bd20cc77de5472aec5d6253b3512ee7ab4f285",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Life at Versailles is used to compare the ceremonial habits of the court and the narrator’s household.",
+        "it": "La vita a Versailles è usata per paragonare le abitudini cerimoniali della corte e della casa del narratore.",
+        "fr": "La vie à Versailles sert à comparer les habitudes cérémonielles de la cour et de la maison du narrateur.",
+        "es": "La vida en Versalles sirve para comparar las costumbres ceremoniales de la corte y de la casa del narrador."
+      }
+    }
+  },
+  {
+    "book": "proust",
+    "id": "vienna",
+    "collection": "cited",
+    "name": "Vienna",
+    "noteHash": "dae0590e001380267e5264352d7b9d92",
+    "positionSource": "b4c23bdce87b2c7b2af7ced66bca893c164b33e0eb2e951b6f30c843e5af669f",
+    "narrativeSource": null,
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-03",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "An ambassador recalls Bergotte’s visit to Vienna and the difficulties of inviting him.",
+        "it": "Un ambasciatore ricorda la visita di Bergotte a Vienna e le difficoltà nell’invitarlo.",
+        "fr": "Un ambassadeur rappelle la visite de Bergotte à Vienne et la difficulté de l’inviter.",
+        "es": "Un embajador recuerda la visita de Bergotte a Viena y las dificultades para invitarlo."
+      }
+    }
+  }
+]
