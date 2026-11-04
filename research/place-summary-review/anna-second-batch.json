@@ -1,0 +1,242 @@
+[
+  {
+    "book": "anna-karenina",
+    "id": "bologoe",
+    "collection": "core",
+    "name": "Bologoye",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "24b3a94c17b8f62bac62df51b592a69f7106a1e880dee8b650a2338a78c341ba",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Vronsky recalls getting out at Bologoye and speaking to Anna during their train journey.",
+        "it": "Vronskij ricorda di essere sceso a Bologoe e di aver parlato con Anna durante il viaggio in treno.",
+        "fr": "Vronski se souvient être descendu à Bologoïe et avoir parlé à Anna pendant leur voyage en train.",
+        "es": "Vronski recuerda haber bajado en Bologoye y hablado con Anna durante su viaje en tren."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "bolshoi",
+    "collection": "core",
+    "name": "Bolshoi Theatre",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "e54e3b05cbd04d884e033fb503eb02d83769e3d18bff3bbf938d2a611004fa60",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Oblonsky visits a ballet rehearsal at the Bolshoi Theatre and gives Chibisova coral beads.",
+        "it": "Oblonskij visita una prova di balletto al Teatro Bolshoi e regala a Čibisova una collana di corallo.",
+        "fr": "Oblonski assiste à une répétition de ballet au Bolchoï et offre des perles de corail à Tchibissova.",
+        "es": "Oblonski visita un ensayo de ballet en el Bolshói y regala cuentas de coral a Chibísova."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "gazetny",
+    "collection": "core",
+    "name": "Gazetny Lane",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "58df407a48d10ae9b57e1f07d1f808b9a02a0706ed066d1872fc9b4c7796dd9a",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Karenin encounters Oblonsky and Dolly at the corner of Gazetny Lane in Moscow.",
+        "it": "Karenin incontra Oblonskij e Dolly all’angolo di Gazetny Lane a Mosca.",
+        "fr": "Karénine rencontre Oblonski et Dolly à l’angle de la ruelle Gazetny à Moscou.",
+        "es": "Karenin se encuentra con Oblonski y Dolly en la esquina del callejón Gazetny de Moscú."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "kislovka",
+    "collection": "core",
+    "name": "Kislovka (Kislovsky lanes area)",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "f6a6c316efd2feb443a3f910d8e496ff54370bcbc7e0530b96b4c7e2cbf9c7ad",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Levin walks through the Kislovka lanes before returning to wait at his hotel.",
+        "it": "Levin percorre i vicoli di Kislovka prima di tornare ad aspettare in albergo.",
+        "fr": "Lévine traverse les ruelles de Kislovka avant de retourner attendre à son hôtel.",
+        "es": "Levin recorre los callejones de Kislovka antes de volver a esperar a su hotel."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "kissingen",
+    "collection": "core",
+    "name": "Bad Kissingen",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "4445a708417cebfd197d08e621ae80df5eea784747d7a4e36b6a482125555314",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Prince Shcherbatsky visits Russian acquaintances at Kissingen during his stay abroad.",
+        "it": "Il principe Ščerbackij visita conoscenti russi a Kissingen durante il soggiorno all’estero.",
+        "fr": "Le prince Chtcherbatski rend visite à des connaissances russes à Kissingen pendant son séjour à l’étranger.",
+        "es": "El príncipe Shcherbatski visita a conocidos rusos en Kissingen durante su estancia en el extranjero."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "moscow-zoo",
+    "collection": "core",
+    "name": "Moscow Zoological Garden",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "e2be024c5ca0d7faf62a920a252fade136747da18626e4648a94080d629bc2c5",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Oblonsky tells Levin that Kitty may be skating at the Moscow Zoological Garden.",
+        "it": "Oblonskij dice a Levin che Kitty potrebbe pattinare al Giardino zoologico di Mosca.",
+        "fr": "Oblonski dit à Lévine que Kitty patine peut-être au Jardin zoologique de Moscou.",
+        "es": "Oblonski dice a Levin que Kitty quizá esté patinando en el Jardín Zoológico de Moscú."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "naples",
+    "collection": "core",
+    "name": "Naples",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "1ebafbdf18eb7df2e3027cb8f36cd1264c2dd9712e98ee7f06c05474240d52ab",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "In conversation about Italy, the prince compares Naples and Sorrento with his longing for the Russian countryside.",
+        "it": "Parlando dell’Italia, il principe accosta Napoli e Sorrento alla propria nostalgia della campagna russa.",
+        "fr": "Parlant de l’Italie, le prince évoque Naples et Sorrente face à sa nostalgie de la campagne russe.",
+        "es": "Al hablar de Italia, el príncipe menciona Nápoles y Sorrento frente a su nostalgia del campo ruso."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "nevsky",
+    "collection": "core",
+    "name": "Nevsky Prospekt",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "be2ebba6c383c9378c0660e1dd48264e1f46a9917482b4d452b58b129d968e80",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "After returning to Petersburg, Karenin rides along the deserted Nevsky Prospekt.",
+        "it": "Dopo il ritorno a Pietroburgo, Karenin percorre il Nevskij deserto in carrozza.",
+        "fr": "Après son retour à Pétersbourg, Karénine longe la perspective Nevski déserte en voiture.",
+        "es": "Tras volver a Petersburgo, Karenin recorre en carruaje la desierta avenida Nevski."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "nikitskaya",
+    "collection": "core",
+    "name": "Nikitskaya Street (representative area)",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "e0b4f974abccd2ccd5ac11f820ce38593352a7f8d1965ca5ab17177c7c8c1138",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Levin takes a cab to Nikitskaya while thinking about meeting a scholar.",
+        "it": "Levin prende una carrozza per Nikitskaya pensando all’incontro con uno studioso.",
+        "fr": "Lévine prend une voiture pour Nikitskaïa en pensant à sa rencontre avec un savant.",
+        "es": "Levin toma un coche hacia Nikítskaya mientras piensa en su encuentro con un estudioso."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "okhotny",
+    "collection": "core",
+    "name": "Okhotny Ryad",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "f34e8a79bf6fdb815e702ecae72ced1955543a7cf1304cec13becc841cd73dbe",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Oblonsky selects fish and asparagus at Okhotny Ryad for a meal.",
+        "it": "Oblonskij sceglie pesce e asparagi a Okhotny Ryad per un pranzo.",
+        "fr": "Oblonski choisit du poisson et des asperges à Okhotny Riad pour un repas.",
+        "es": "Oblonski elige pescado y espárragos en Ojotni Riad para una comida."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "sorrento",
+    "collection": "core",
+    "name": "Sorrento",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "eb7272fdf21f3cc838c6ac25d05446281cc9b9be1118438ed4d09e305bdf758a",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Sorrento is mentioned with Naples as a pleasant but temporary destination in a conversation about homesickness.",
+        "it": "Sorrento è nominata insieme a Napoli come meta piacevole ma temporanea in una conversazione sulla nostalgia di casa.",
+        "fr": "Sorrente est évoquée avec Naples comme destination agréable mais passagère dans une conversation sur la nostalgie.",
+        "es": "Sorrento se menciona junto con Nápoles como destino agradable pero pasajero en una conversación sobre la nostalgia."
+      }
+    }
+  },
+  {
+    "book": "anna-karenina",
+    "id": "venice",
+    "collection": "core",
+    "name": "Venice",
+    "noteHash": "951f6f4b920475ed79173748ceceaa1d",
+    "positionSource": "e853daae2ec4ccfc89f9018eceb4acdfaf0fb7b23b929cbe1f722c34eaac0e32",
+    "narrativeSource": "9e6a3af469c4744dc9f69d7fc0aab5bc92dacf21e5bfc7a2daa9f62eaa936807",
+    "description": {
+      "status": "reviewed",
+      "reviewedAt": "2026-11-04",
+      "basis": "existing geographic and literary sources associated with this place",
+      "texts": {
+        "en": "Venice is one of the cities Anna and Vronsky visit during their journey through Europe.",
+        "it": "Venezia è una delle città visitate da Anna e Vronskij durante il loro viaggio in Europa.",
+        "fr": "Venise est l’une des villes visitées par Anna et Vronski pendant leur voyage en Europe.",
+        "es": "Venecia es una de las ciudades que Anna y Vronski visitan durante su viaje por Europa."
+      }
+    }
+  }
+]
