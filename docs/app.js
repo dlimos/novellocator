@@ -54,6 +54,11 @@ let current=0, selectedPlace=0, selectedCitation=-1, viewReady=false;
 const allLiteraryPlaces={...window.atlasData.citedPlaces,...literaryPlaces};
 const regionLegend=document.getElementById('regional-outline-legend');
 if(regionLegend){regionLegend.hidden=!Object.values(allLiteraryPlaces).some(place=>place.regionalOutline);regionLegend.textContent=t('Dashed outline: documented geographical region, not the town boundary.');}
+let selectedCandidate=-1;
+const alternativeLabels={it:['Modelli proposti','★ Modelli proposti: identificazioni discusse'],en:['Proposed models','★ Proposed models: disputed identifications'],fr:['Modèles proposés','★ Modèles proposés : identifications contestées'],es:['Modelos propuestos','★ Modelos propuestos: identificaciones discutidas']};
+function candidates(place){return Array.isArray(place?.alternativeModels)?place.alternativeModels.filter(p=>Array.isArray(p.coords)&&p.coords.length===2&&p.coords.every(Number.isFinite)):[];}
+function candidateBounds(place){const p=candidates(place);if(!p.length)return null;const xs=p.map(x=>x.coords[1]),ys=p.map(x=>x.coords[0]);return {xmin:Math.min(...xs)-.002,xmax:Math.max(...xs)+.002,ymin:Math.min(...ys)-.002,ymax:Math.max(...ys)+.002,spatialReference:{wkid:4326}};}
+if(regionLegend&&Object.values(allLiteraryPlaces).some(p=>candidates(p).length)){regionLegend.hidden=false;regionLegend.textContent+=(regionLegend.textContent?' · ':'')+(alternativeLabels[locale]||alternativeLabels.en)[1];}
 const layerQuery=new URLSearchParams(window.location.search).get('layers');
 const visibleLayers={action:layerQuery===null||layerQuery.split(',').includes('action'),mentioned:layerQuery===null||layerQuery.split(',').includes('mentioned')};
 const markerColors={action:'#19665c',mentioned:'#99502d'};
@@ -223,6 +228,7 @@ chapterPicker.addEventListener('keydown',event=>{
 });
 document.addEventListener?.('pointerdown',event=>{if(!chapterPicker.contains?.(event.target))closeChapterMenu();});
 function selectChapter(index,move=true,updateHash=true){
+ selectedCandidate=-1;
  if(!Number.isInteger(index)||index<0||index>=chapters.length)return;
  closeMapPopup();
  current=index;selectedPlace=0;selectedCitation=-1;
@@ -239,6 +245,7 @@ function selectChapter(index,move=true,updateHash=true){
  if(window.innerWidth<=700)list.children[current].scrollIntoView({behavior:reduced?'instant':'smooth',block:'nearest',inline:'center'});
 }
 function selectAllPlaces(move=true,updateHash=true){
+ selectedCandidate=-1;
  closeMapPopup();
  current=-1;selectedPlace=visibleLayers.action?globalPlaceIds.findIndex(hasAction):-1;selectedCitation=-1;
  if(selectedPlace<0)selectedPlace=globalPlaceIds.findIndex(id=>visibleLayers[hasAction(id)?'action':'mentioned']);
@@ -388,8 +395,9 @@ function renderLocation(options={}){
  const hasOutline=!!window.RegionalOutline?.geometry(place);
  const positionHtml=locationPositionDescription(place),reviewedPosition=place.positionDescription?.status==='reviewed'&&!!place.positionDescription.texts?.[locale]?.trim();
  target.innerHTML=`${place.area?.trim()?`<p class="location-address">${esc(place.area)}</p>`:''}${reviewedPosition?positionHtml+(sceneHtml.includes('location-review-status')?sceneHtml:''):sceneHtml+positionHtml}`;
- if(!isIllustrated&&!hasOutline&&place.geographicReview?.precision!=='region')target.innerHTML+=`<div class="street-view-action"><a class="street-view-link" id="street-view-link" href="${esc(streetViewUrl(place))}" target="_blank" rel="noopener noreferrer" aria-label="${esc(t('Apri Street View in una nuova finestra')+': '+place.name)}">Google Street View <span aria-hidden="true">↗</span></a><p class="street-view-note">${esc(t('Google mostra il panorama disponibile più vicino: può essere spostato rispetto al punto e dipende dalla copertura.'))}</p></div>`;
+ if(!isIllustrated&&!candidates(place).length&&!hasOutline&&place.geographicReview?.precision!=='region')target.innerHTML+=`<div class="street-view-action"><a class="street-view-link" id="street-view-link" href="${esc(streetViewUrl(place))}" target="_blank" rel="noopener noreferrer" aria-label="${esc(t('Apri Street View in una nuova finestra')+': '+place.name)}">Google Street View <span aria-hidden="true">↗</span></a><p class="street-view-note">${esc(t('Google mostra il panorama disponibile più vicino: può essere spostato rispetto al punto e dipende dalla copertura.'))}</p></div>`;
  if(isPopup&&options.chapter)target.innerHTML=`<p class="detail-eyebrow">${esc(number(chapter.id)+' · '+chapter.title)}</p>`+target.innerHTML;
+ const alternatives=candidates(place);if(alternatives.length){const list=document.createElement('div');list.className='global-references';const title=document.createElement('h3');title.textContent=(alternativeLabels[locale]||alternativeLabels.en)[0];list.appendChild(title);alternatives.forEach((candidate,i)=>{const button=document.createElement('button');button.type='button';button.className='section-link';button.textContent='★ '+(candidate.names?.[locale]||candidate.name);button.setAttribute('aria-pressed',String(selectedCandidate===i));button.addEventListener('click',()=>{selectedCandidate=i;renderLocation(options);drawMarkers();if(viewReady)navigate({center:[candidate.coords[1],candidate.coords[0]],zoom:place.zoom});});list.appendChild(button);const description=candidate.descriptions?.[locale];if(description){const p=document.createElement('p');p.textContent=description;list.appendChild(p);}if(candidate.source?.url){const a=document.createElement('a');a.href=candidate.source.url;a.target='_blank';a.rel='noopener noreferrer';a.textContent=candidate.source.label||candidate.source.url;list.appendChild(a);}});target.appendChild(list);}
  const quote=!citation&&chapter.placeQuotes?.[id];
  const excerpt=citation?.excerpt||chapter.placeExcerpts?.[id];
  const evidence=document.createElement('div');const passage=renderExcerpts(excerpt||(quote?{original:{quote,language:book.originalLanguage||'en',type:'original',attribution:narrativeSource?.label||[book.author,book.title,chapter.title].join(' · '),url:narrativeSource?.url}}:null),'Passage from the novel',[place]);evidence.innerHTML=passage;target.appendChild(evidence);
@@ -402,16 +410,17 @@ function centerSelectedPlace(zoomToPlace=true){
 
  if(!viewReady)return;
  const id=activeCitations()[selectedCitation]?.placeId||activeChapter().places[selectedPlace],place=allLiteraryPlaces[id];
- const boundary=window.RegionalOutline?.bounds(place);if(boundary&&ExtentClass){navigate(new ExtentClass(boundary).expand(1.15));return;}
+ const alternative=selectedCandidate>=0?candidates(place)[selectedCandidate]:null;if(alternative){navigate({center:[alternative.coords[1],alternative.coords[0]],...(zoomToPlace?{zoom:place.zoom}:{})});return;}
+ const boundary=candidateBounds(place)||window.RegionalOutline?.bounds(place);if(boundary&&ExtentClass){navigate(new ExtentClass(boundary).expand(1.15));return;}
  if(place)navigate({center:[place.coords[1],place.coords[0]],...(zoomToPlace?{zoom:place.zoom}:{})});
 }
 function selectPlace(index,move=true){
  const chapter=activeChapter();if(!Number.isInteger(index)||index<0||index>=chapter.places.length)return;
  if(isIllustrated)illustratedMap?.allowGeographicSelection();
- selectedPlace=index;selectedCitation=-1;renderLocation();drawMarkers();
+ selectedPlace=index;selectedCitation=-1;selectedCandidate=-1;renderLocation();drawMarkers();
  if(move)centerSelectedPlace();
 }
-function selectCitation(index,move=true){const citation=activeCitations()[index];if(!citation||!Number.isInteger(index))return;selectedCitation=index;renderLocation();drawMarkers();if(move)centerSelectedPlace();}
+function selectCitation(index,move=true){const citation=activeCitations()[index];if(!citation||!Number.isInteger(index))return;selectedCitation=index;selectedCandidate=-1;renderLocation();drawMarkers();if(move)centerSelectedPlace();}
 // Display numbers depend on visible markers; source indices remain stable for selection.
 function visibleMarkerNumbers(){
  const next={action:1,mentioned:1};
@@ -447,6 +456,7 @@ function drawMarkers(){
  activeChapter().places.forEach((id,index)=>{
   if(numbers.places[index]==null)return;
   const place=literaryPlaces[id],active=(index===selectedPlace&&selectedCitation<0)||(current<0&&activeCitations()[selectedCitation]?.placeId===id),category=placeCategory(id),layer=category==='mentioned'&&citedMarkerLayer?citedMarkerLayer:markerLayer;
+  const alternatives=candidates(place);if(alternatives.length){alternatives.forEach((candidate,candidateIndex)=>{const geometry={type:'point',longitude:candidate.coords[1],latitude:candidate.coords[0],spatialReference:{wkid:4326}},attributes={placeIndex:index,candidateIndex,chapterId:activeChapter().id,category};layer.add(new GraphicClass({geometry,attributes,symbol:{type:'simple-marker',style:'path',path:'M0,-15 L3.5,-5 L14,-5 L5.5,1.5 L9,12 L0,6 L-9,12 L-5.5,1.5 L-14,-5 L-3.5,-5 Z',size:32,color:markerColors[category],outline:{color:active&&selectedCandidate===candidateIndex?'#e8c565':'#ffffff',width:2}}}));layer.add(new GraphicClass({geometry,attributes,symbol:{type:'text',text:String(numbers.places[index]),color:'#ffffff',font:{family:'Arial',size:9,weight:'bold'},verticalAlignment:'middle',horizontalAlignment:'center'}}));});return;}
   const regional=window.RegionalOutline?.graphics(place,numbers.places[index],markerColors[category],active,{placeIndex:index,chapterId:activeChapter().id,category});
   if(regional){for(const graphic of regional)layer.add(new GraphicClass(graphic));return;}
   const geometry={type:'point',longitude:place.coords[1],latitude:place.coords[0],spatialReference:{wkid:4326}};
@@ -455,7 +465,7 @@ function drawMarkers(){
   layer.add(new GraphicClass({geometry,attributes,symbol:{type:'simple-marker',style:approximate?'diamond':'circle',size:approximate?31:28,color:markerColors[category],outline:{color:active?'#e8c565':'#ffffff',width:active?3.5:2}}}));
   layer.add(new GraphicClass({geometry,attributes,symbol:{type:'text',text:String(numbers.places[index]),color:'#ffffff',font:{family:'Arial',size:current<0?10:12,weight:'bold'},verticalAlignment:'middle',horizontalAlignment:'center'}}));
  });
- if(citedMarkerLayer)activeCitations().forEach((reference,index)=>{if(numbers.citations[index]==null)return;if(current<0&&visibleLayers.action&&globalChapter.places.includes(reference.placeId)&&placeCategory(reference.placeId)==='action')return;const place=allLiteraryPlaces[reference.placeId],active=index===selectedCitation,approximate=['area','uncertain','street'].includes(place.kind),geometry={type:'point',longitude:place.coords[1],latitude:place.coords[0],spatialReference:{wkid:4326}},attributes={citationIndex:index,chapterId:activeChapter().id,category:'mentioned'};const regional=window.RegionalOutline?.graphics(place,numbers.citations[index],markerColors.mentioned,active,attributes);if(regional){for(const graphic of regional)citedMarkerLayer.add(new GraphicClass(graphic));return;}citedMarkerLayer.add(new GraphicClass({geometry,attributes,symbol:{type:'simple-marker',style:approximate?'diamond':'circle',size:approximate?31:28,color:markerColors.mentioned,outline:{color:active?'#e8c565':'#ffffff',width:active?3.5:2}}}));citedMarkerLayer.add(new GraphicClass({geometry,attributes,symbol:{type:'text',text:String(numbers.citations[index]),color:'#ffffff',font:{family:'Arial',size:10,weight:'bold'},verticalAlignment:'middle',horizontalAlignment:'center'}}));});
+ if(citedMarkerLayer)activeCitations().forEach((reference,index)=>{if(numbers.citations[index]==null)return;if(current<0&&visibleLayers.action&&globalChapter.places.includes(reference.placeId)&&placeCategory(reference.placeId)==='action')return;const place=allLiteraryPlaces[reference.placeId],active=index===selectedCitation,approximate=['area','uncertain','street'].includes(place.kind),geometry={type:'point',longitude:place.coords[1],latitude:place.coords[0],spatialReference:{wkid:4326}},attributes={citationIndex:index,chapterId:activeChapter().id,category:'mentioned'};const alternatives=candidates(place);if(alternatives.length){alternatives.forEach((candidate,candidateIndex)=>{const point={type:'point',longitude:candidate.coords[1],latitude:candidate.coords[0],spatialReference:{wkid:4326}},attrs={...attributes,candidateIndex};citedMarkerLayer.add(new GraphicClass({geometry:point,attributes:attrs,symbol:{type:'simple-marker',style:'path',path:'M0,-15 L3.5,-5 L14,-5 L5.5,1.5 L9,12 L0,6 L-9,12 L-5.5,1.5 L-14,-5 L-3.5,-5 Z',size:32,color:markerColors.mentioned,outline:{color:active&&selectedCandidate===candidateIndex?'#e8c565':'#ffffff',width:2}}}));citedMarkerLayer.add(new GraphicClass({geometry:point,attributes:attrs,symbol:{type:'text',text:String(numbers.citations[index]),color:'#ffffff',font:{family:'Arial',size:9,weight:'bold'},verticalAlignment:'middle',horizontalAlignment:'center'}}));});return;}const regional=window.RegionalOutline?.graphics(place,numbers.citations[index],markerColors.mentioned,active,attributes);if(regional){for(const graphic of regional)citedMarkerLayer.add(new GraphicClass(graphic));return;}citedMarkerLayer.add(new GraphicClass({geometry,attributes,symbol:{type:'simple-marker',style:approximate?'diamond':'circle',size:approximate?31:28,color:markerColors.mentioned,outline:{color:active?'#e8c565':'#ffffff',width:active?3.5:2}}}));citedMarkerLayer.add(new GraphicClass({geometry,attributes,symbol:{type:'text',text:String(numbers.citations[index]),color:'#ffffff',font:{family:'Arial',size:10,weight:'bold'},verticalAlignment:'middle',horizontalAlignment:'center'}}));});
 }
 function showMapError(message){const notice=document.getElementById('map-error');notice.textContent=t(message);notice.hidden=false}
 function navigate(target){if(!viewReady)return;return view.goTo(target,{animate:!reduced,duration:800}).catch(error=>{if(error.name!=='AbortError')console.error('Spostamento della mappa non riuscito',error)})}
@@ -469,8 +479,8 @@ function overview(includeCitations=false){
  let points=overviewIds.filter(id=>visibleLayers[placeCategory(id)]&&(includeMentions||placeCategory(id)==='action')).map(id=>literaryPlaces[id]);
  if(visibleLayers.mentioned&&includeMentions)points.push(...activeCitations().map(reference=>allLiteraryPlaces[reference.placeId]));
  if(!points.length){navigate(chapter.initialView||book.initialView);return;}
- if(points.length===1){const boundary=window.RegionalOutline?.bounds(points[0]);if(boundary){navigate(new ExtentClass(boundary).expand(1.15));return;}navigate({center:[points[0].coords[1],points[0].coords[0]],zoom:points[0].zoom});return}
- const extents=points.map(p=>window.RegionalOutline?.bounds(p)||{xmin:p.coords[1],xmax:p.coords[1],ymin:p.coords[0],ymax:p.coords[0]});
+ if(points.length===1){const boundary=candidateBounds(points[0])||window.RegionalOutline?.bounds(points[0]);if(boundary){navigate(new ExtentClass(boundary).expand(1.15));return;}navigate({center:[points[0].coords[1],points[0].coords[0]],zoom:points[0].zoom});return}
+ const extents=points.map(p=>candidateBounds(p)||window.RegionalOutline?.bounds(p)||{xmin:p.coords[1],xmax:p.coords[1],ymin:p.coords[0],ymax:p.coords[0]});
  const longitudes=extents.flatMap(e=>[e.xmin,e.xmax]),latitudes=extents.flatMap(e=>[e.ymin,e.ymax]);
  const xmin=Math.min(...longitudes),xmax=Math.max(...longitudes),ymin=Math.min(...latitudes),ymax=Math.max(...latitudes);
  const marginX=Math.max(.002,(xmax-xmin)*.18),marginY=Math.max(.002,(ymax-ymin)*.18);
@@ -521,6 +531,8 @@ async function selectMapPoint(event){
   if(!result){closeMapPopup();return;}
   const attributes=result.graphic.attributes;
   if(Number.isInteger(attributes.citationIndex))selectCitation(attributes.citationIndex,false);else selectPlace(attributes.placeIndex,false);
+  selectedCandidate=Number.isInteger(attributes.candidateIndex)?attributes.candidateIndex:-1;
+  if(selectedCandidate>=0)drawMarkers();
   showMapPopup(true,false);centerSelectedPlace();
  }catch(error){if(error.name!=='AbortError')console.error('Selezione del luogo non disponibile',error)}
 }

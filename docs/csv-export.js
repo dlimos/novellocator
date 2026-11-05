@@ -14,7 +14,8 @@
   return [q?.language||locale,q?.quote||'',q?.attribution||'',q?.rightsNote||''];
  }
  function build(data,kind,locale='en'){
-  const rows=[(headings[locale]||headings.en).concat(selectedHeadings[locale]||selectedHeadings.en)],labels=categories[locale]||categories.en;
+  const alternativeHeading={it:'Modelli proposti (JSON)',en:'Proposed models (JSON)',fr:'Modèles proposés (JSON)',es:'Modelos propuestos (JSON)'};
+  const rows=[(headings[locale]||headings.en).concat(selectedHeadings[locale]||selectedHeadings.en,[alternativeHeading[locale]||alternativeHeading.en])],labels=categories[locale]||categories.en;
   for(const chapter of data.sourceChapters||data.chapters){
    const references=kind==='citations'?(chapter.citations||[]):(chapter.places||[]).map((id,index)=>({placeId:id,category:chapter.placeCategories?.[id]||'action',scene:chapter.placeText[index],narrativeDescription:chapter.placeNarrativeDescriptions?.[id],excerpt:chapter.placeExcerpts?.[id]}));
    for(const ref of references){
@@ -23,9 +24,9 @@
     const legacy=chapter.placeQuotes?.[ref.placeId],source=chapter.placeSources?.[ref.placeId]||p.narrativeSource;
     const group=ref.excerpt||(legacy?{original:{quote:legacy,language:data.book.originalLanguage||'en',attribution:source?.label||'',url:source?.url}}:null);
     const description=ref.narrativeDescription?.status==='reviewed'?(ref.narrativeDescription.texts?.[locale]||ref.narrativeDescription.texts?.en):ref.scene?.trim()||ref.text?.trim()||'';
-    rows.push([chapter.id,chapter.title,p.name,p.area,labels[ref.category==='mentioned'?1:0],p.regionalOutline?'':p.coords?.[0],p.regionalOutline?'':p.coords?.[1],p.regionalOutline?'polyline':p.kind,description,q?.language,q?.quote||legacy||'',q?.attribution||source?.label,p.positionSource?.url,p.method,p.note,p.checked].concat(selectedColumns(group,locale)));
+    rows.push([chapter.id,chapter.title,p.name,p.area,labels[ref.category==='mentioned'?1:0],p.regionalOutline||p.alternativeModels?.length?'':p.coords?.[0],p.regionalOutline||p.alternativeModels?.length?'':p.coords?.[1],p.alternativeModels?.length?'multipoint':p.regionalOutline?'polyline':p.kind,description,q?.language,q?.quote||legacy||'',q?.attribution||source?.label,p.positionSource?.url,p.method,p.note,p.checked].concat(selectedColumns(group,locale),[p.alternativeModels?.length?JSON.stringify(p.alternativeModels.map(candidate=>({name:candidate.names?.[locale]||candidate.name,coords:candidate.coords,description:candidate.descriptions?.[locale]||candidate.descriptions?.en,source:candidate.source,positionSource:candidate.positionSource}))):'']));
    }
-   if(kind!=='citations')for(const p of chapter.unlocatedPlaces||[])if(!p.illustratedOnly)rows.push([chapter.id,chapter.title,p.name,'',labels[p.category==='mentioned'?1:0],'','','',p.text,p.language||data.book.originalLanguage||'en',p.quote,p.attribution||'','','','',''].concat(selectedColumns(p.excerpt||{original:{...p,language:p.language||data.book.originalLanguage||'en'},translations:p.translations},locale)));
+   if(kind!=='citations')for(const p of chapter.unlocatedPlaces||[])if(!p.illustratedOnly)rows.push([chapter.id,chapter.title,p.name,'',labels[p.category==='mentioned'?1:0],'','','',p.text,p.language||data.book.originalLanguage||'en',p.quote,p.attribution||'','','','',''].concat(selectedColumns(p.excerpt||{original:{...p,language:p.language||data.book.originalLanguage||'en'},translations:p.translations},locale),['']));
   }
   return '\ufeff'+rows.map(row=>row.map(value=>'"'+String(value??'').replaceAll('"','""')+'"').join(',')).join('\r\n')+'\r\n';
  }
