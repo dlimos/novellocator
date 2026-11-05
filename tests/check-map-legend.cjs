@@ -1,0 +1,16 @@
+const fs=require('fs'),vm=require('vm'),assert=require('node:assert/strict');
+const ctx={};vm.runInNewContext(fs.readFileSync('docs/map-legend.js','utf8'),ctx);
+const types=data=>Array.from(ctx.AtlasMapLegend.types(data)).sort();
+const data={book:{mapType:'geographic'},places:{site:{kind:'building'},area:{kind:'area'},unused:{kind:'building',alternativeModels:[{coords:[1,2]}]}},chapters:[{places:['site','area'],placeCategories:{area:'mentioned'}}]};
+assert.deepEqual(types(data),['action','circle','diamond','mentioned','selected']);
+data.places.site.alternativeModels=[{coords:[1,2]}];
+assert.deepEqual(types(data),['action','diamond','mentioned','selected','star']);
+data.places.area.regionalOutline={paths:[[[1,2],[2,3]]]};
+assert.deepEqual(types(data),['action','mentioned','region','selected','star']);
+data.book.mapType='illustrated';
+assert.deepEqual(types(data),['action','circle','diamond','mentioned','selected']);
+data.chapters=[];assert.deepEqual(types(data),[]);
+const rows=['action','mentioned','star','region'].map(key=>({hidden:false,getAttribute:()=>key}));
+const legend={hidden:false,querySelectorAll:()=>rows};
+ctx.AtlasMapLegend.render(data,{querySelector:()=>legend});assert(legend.hidden);assert(rows.every(row=>row.hidden));
+console.log('PASS: legend shows only symbols used by mapped novel associations; unused places, regional geometry, alternatives, illustrated mode and empty data handled.');

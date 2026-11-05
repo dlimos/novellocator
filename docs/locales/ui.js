@@ -571,3 +571,69 @@ for(const [lang,label]of Object.entries({en:'Dashed outline: documented geograph
 for(const [lang,label]of Object.entries({en:'Novel settings',it:'Scenari del romanzo',fr:'Décors du roman',es:'Escenarios de la novela'}))window.atlasLocaleData.messages[lang]['Imaginary views']=label;
 for(const [lang,label]of Object.entries({en:'{model} — inspiration for {place}',it:'{model} — città ispiratrice di {place}',fr:'{model} — ville inspiratrice de {place}',es:'{model} — ciudad inspiradora de {place}'}))window.atlasLocaleData.messages[lang]['{model} — inspiration for {place}']=label;
 for(const [lang,values]of Object.entries({en:['View','Views','All documented places in the selected literary view.','No illustrated places in this view.'],it:['Veduta','vedute','Tutti i luoghi documentati nella veduta letteraria selezionata.','Nessun luogo illustrato in questa veduta.'],fr:['Vue','vues','Tous les lieux documentés dans la vue littéraire sélectionnée.','Aucun lieu illustré dans cette vue.'],es:['Vista','vistas','Todos los lugares documentados en la vista literaria seleccionada.','No hay lugares ilustrados en esta vista.']}))['View','Views','All documented places in the selected literary view.','No illustrated places in this view.'].forEach((key,index)=>window.atlasLocaleData.messages[lang][key]=values[index]);
+
+// Complete map legend, shared by every novel.
+Object.assign(window.atlasLocaleData.messages.en, {
+  "Map legend": "Map legend",
+  "Scenes narrated in this place. Numbers: 1, 2, 3…": "Scenes narrated in this place. Numbers: 1, 2, 3…",
+  "Places mentioned without a scene set there. Numbers: C1, C2, C3…": "Places mentioned without a scene set there. Numbers: C1, C2, C3…",
+  "Circle": "Circle",
+  "Building or historical site.": "Building or historical site.",
+  "Diamond": "Diamond",
+  "Street, geographical area or approximate position.": "Street, geographical area or approximate position.",
+  "Star": "Star",
+  "Real place proposed as a model for a literary setting, with a disputed identification. Stars sharing a number are alternative candidates for one literary place.": "Real place proposed as a model for a literary setting, with a disputed identification. Stars sharing a number are alternative candidates for one literary place.",
+  "Dashed outline": "Dashed outline",
+  "Documented geographical region. It does not mark the precise position or boundaries of an imaginary town.": "Documented geographical region. It does not mark the precise position or boundaries of an imaginary town.",
+  "Gold border": "Gold border",
+  "Currently selected place or proposed model.": "Currently selected place or proposed model.",
+  "Colour indicates narrative function; shape indicates the type of geographical reference.": "Colour indicates narrative function; shape indicates the type of geographical reference."
+});
+Object.assign(window.atlasLocaleData.messages.it, {
+  "Map legend": "Legenda della mappa",
+  "Scenes narrated in this place. Numbers: 1, 2, 3…": "Scene narrate in questo luogo. Numeri: 1, 2, 3…",
+  "Places mentioned without a scene set there. Numbers: C1, C2, C3…": "Luoghi menzionati senza una scena ambientata lì. Numeri: C1, C2, C3…",
+  "Circle": "Cerchio",
+  "Building or historical site.": "Edificio o sito storico.",
+  "Diamond": "Rombo",
+  "Street, geographical area or approximate position.": "Strada, area geografica o posizione approssimativa.",
+  "Star": "Stella",
+  "Real place proposed as a model for a literary setting, with a disputed identification. Stars sharing a number are alternative candidates for one literary place.": "Luogo reale proposto come modello di un’ambientazione letteraria, con identificazione discussa. Le stelle con lo stesso numero indicano ipotesi alternative per un unico luogo del romanzo.",
+  "Dashed outline": "Contorno tratteggiato",
+  "Documented geographical region. It does not mark the precise position or boundaries of an imaginary town.": "Regione geografica documentata. Non indica la posizione precisa né i confini di una località immaginaria.",
+  "Gold border": "Bordo dorato",
+  "Currently selected place or proposed model.": "Luogo o modello proposto attualmente selezionato.",
+  "Colour indicates narrative function; shape indicates the type of geographical reference.": "Il colore indica la funzione narrativa; la forma indica il tipo di riferimento geografico."
+});
+Object.assign(window.atlasLocaleData.messages.fr, {
+  "Map legend": "Légende de la carte",
+  "Scenes narrated in this place. Numbers: 1, 2, 3…": "Scènes racontées dans ce lieu. Numéros : 1, 2, 3…",
+  "Places mentioned without a scene set there. Numbers: C1, C2, C3…": "Lieux mentionnés sans scène située sur place. Numéros : C1, C2, C3…",
+  "Circle": "Cercle",
+  "Building or historical site.": "Bâtiment ou site historique.",
+  "Diamond": "Losange",
+  "Street, geographical area or approximate position.": "Rue, zone géographique ou position approximative.",
+  "Star": "Étoile",
+  "Real place proposed as a model for a literary setting, with a disputed identification. Stars sharing a number are alternative candidates for one literary place.": "Lieu réel proposé comme modèle d’un cadre littéraire, dont l’identification est discutée. Les étoiles portant le même numéro indiquent des hypothèses alternatives pour un seul lieu du roman.",
+  "Dashed outline": "Contour en pointillés",
+  "Documented geographical region. It does not mark the precise position or boundaries of an imaginary town.": "Région géographique documentée. Il n’indique ni la position précise ni les limites d’une localité imaginaire.",
+  "Gold border": "Bordure dorée",
+  "Currently selected place or proposed model.": "Lieu ou modèle proposé actuellement sélectionné.",
+  "Colour indicates narrative function; shape indicates the type of geographical reference.": "La couleur indique la fonction narrative ; la forme indique le type de référence géographique."
+});
+Object.assign(window.atlasLocaleData.messages.es, {
+  "Map legend": "Leyenda del mapa",
+  "Scenes narrated in this place. Numbers: 1, 2, 3…": "Escenas narradas en este lugar. Números: 1, 2, 3…",
+  "Places mentioned without a scene set there. Numbers: C1, C2, C3…": "Lugares mencionados sin una escena ambientada allí. Números: C1, C2, C3…",
+  "Circle": "Círculo",
+  "Building or historical site.": "Edificio o sitio histórico.",
+  "Diamond": "Rombo",
+  "Street, geographical area or approximate position.": "Calle, área geográfica o posición aproximada.",
+  "Star": "Estrella",
+  "Real place proposed as a model for a literary setting, with a disputed identification. Stars sharing a number are alternative candidates for one literary place.": "Lugar real propuesto como modelo de un escenario literario, cuya identificación es discutida. Las estrellas con el mismo número indican hipótesis alternativas para un único lugar de la novela.",
+  "Dashed outline": "Contorno discontinuo",
+  "Documented geographical region. It does not mark the precise position or boundaries of an imaginary town.": "Región geográfica documentada. No indica la posición precisa ni los límites de una localidad imaginaria.",
+  "Gold border": "Borde dorado",
+  "Currently selected place or proposed model.": "Lugar o modelo propuesto seleccionado actualmente.",
+  "Colour indicates narrative function; shape indicates the type of geographical reference.": "El color indica la función narrativa; la forma indica el tipo de referencia geográfica."
+});

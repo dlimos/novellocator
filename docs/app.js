@@ -54,13 +54,11 @@ const basemaps=window.atlasBasemaps;
 let view=null, markerLayer=null, citedMarkerLayer=null, GraphicClass=null, ExtentClass=null;
 let current=0, selectedPlace=0, selectedCitation=-1, viewReady=false;
 const allLiteraryPlaces={...window.atlasData.citedPlaces,...literaryPlaces};
-const regionLegend=document.getElementById('regional-outline-legend');
-if(regionLegend){regionLegend.hidden=!Object.values(allLiteraryPlaces).some(place=>place.regionalOutline);regionLegend.textContent=t('Dashed outline: documented geographical region, not the town boundary.');}
+window.AtlasMapLegend?.render(window.atlasData);
 let selectedCandidate=-1;
 const alternativeLabels={it:['Modelli proposti','★ Modelli proposti: identificazioni discusse'],en:['Proposed models','★ Proposed models: disputed identifications'],fr:['Modèles proposés','★ Modèles proposés : identifications contestées'],es:['Modelos propuestos','★ Modelos propuestos: identificaciones discutidas']};
 function candidates(place){return Array.isArray(place?.alternativeModels)?place.alternativeModels.filter(p=>Array.isArray(p.coords)&&p.coords.length===2&&p.coords.every(Number.isFinite)&&Math.abs(p.coords[0])<=90&&Math.abs(p.coords[1])<=180):[];}
 function candidateBounds(place){const p=candidates(place);if(!p.length)return null;const xs=p.map(x=>x.coords[1]),ys=p.map(x=>x.coords[0]);return {xmin:Math.min(...xs)-.002,xmax:Math.max(...xs)+.002,ymin:Math.min(...ys)-.002,ymax:Math.max(...ys)+.002,spatialReference:{wkid:4326}};}
-if(regionLegend&&Object.values(allLiteraryPlaces).some(p=>candidates(p).length)){regionLegend.hidden=false;regionLegend.textContent=(Object.values(allLiteraryPlaces).some(p=>p.regionalOutline)?regionLegend.textContent+' · ':'')+(alternativeLabels[locale]||alternativeLabels.en)[1];}
 const layerQuery=new URLSearchParams(window.location.search).get('layers');
 const visibleLayers={action:layerQuery===null||layerQuery.split(',').includes('action'),mentioned:layerQuery===null||layerQuery.split(',').includes('mentioned')};
 const markerColors={action:'#19665c',mentioned:'#99502d'};
