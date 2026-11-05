@@ -1,6 +1,6 @@
 # Interfaccia e navigazione dell’atlante
 
-- **Legenda completa e pertinente al romanzo:** spiegare colori, numerazione, cerchio, rombo, stelle, contorno tratteggiato e selezione, mostrando soltanto le voci dei simboli effettivamente usati nelle associazioni visibili del romanzo nella modalità aperta. Non mostrare voci per schede archiviate o punti esclusi dall’atlante. Applicare la stessa regola nelle quattro lingue e su schermi piccoli.
+- **Legenda completa e pertinente al romanzo:** tenerla chiusa all’apertura ed espandibile con un clic sul titolo «Legenda della mappa»; spiegare colori, numerazione, cerchio, rombo, stelle, contorno tratteggiato e selezione, mostrando soltanto le voci dei simboli effettivamente usati nelle associazioni visibili del romanzo nella modalità aperta. Non mostrare voci per schede archiviate o punti esclusi dall’atlante. Applicare la stessa regola nelle quattro lingue e su schermi piccoli.
 
 - **Più modelli proposti per un luogo:** mostrare le ipotesi documentate con stelle sulla mappa e una sola voce e scheda per il luogo letterario, conservando la stessa numerazione e la categoria narrativa. Ogni stella deve essere selezionabile e identificare il candidato, con spiegazione della controversia e riferimenti alle fonti. La legenda deve spiegare la simbologia; inquadratura, layer, popup, esportazioni e quattro lingue devono conservare tutte le ipotesi senza presentarle come identificazioni accertate. Applicare anche ai dati del database e a tutti i romanzi presenti e futuri.
 
