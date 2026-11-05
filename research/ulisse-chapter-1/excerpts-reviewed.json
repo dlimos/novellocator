@@ -1,0 +1,40 @@
+[
+  {
+    "id": "1:core:tower:original",
+    "reference": "1:core:tower",
+    "quote": "He pointed his finger in friendly jest and went over to the parapet, laughing to himself. Stephen Dedalus stepped up, followed him wearily halfway and sat down on the edge of the gunrest, watching him still as he propped his mirror on the parapet, dipped the brush in the bowl and lathered cheeks and neck.",
+    "highlightTerms": [
+      "parapet",
+      "gunrest"
+    ],
+    "words": 55
+  },
+  {
+    "id": "1:core:forty:original",
+    "reference": "1:core:forty",
+    "quote": "He capered before them down towards the fortyfoot hole, fluttering his winglike hands, leaping nimbly, Mercury’s hat quivering in the fresh wind that bore back to them his brief birdlike cries.\n\n[…]\n\nThey followed the winding path down to the creek. Buck Mulligan stood on a stone, in shirtsleeves, his unclipped tie rippling over his shoulder. A young man clinging to a spur of rock near him, moved slowly frogwise his green legs in the deep jelly of the water.",
+    "highlightTerms": [
+      "fortyfoot hole",
+      "creek"
+    ],
+    "words": 80
+  },
+  {
+    "id": "1:core:dundrum:original",
+    "reference": "1:core:dundrum",
+    "quote": "—That’s folk, he said very earnestly, for your book, Haines. Five lines of text and ten pages of notes about the folk and the fishgods of Dundrum. Printed by the weird sisters in the year of the big wind.",
+    "highlightTerms": [
+      "Dundrum"
+    ],
+    "words": 39
+  },
+  {
+    "id": "1:core:library:original",
+    "reference": "1:core:library",
+    "quote": "—Seriously, Dedalus. I’m stony. Hurry out to your school kip and bring us back some money. Today the bards must drink and junket. Ireland expects that every man this day will do his duty.\n\n—That reminds me, Haines said, rising, that I have to visit your national library today.\n\n—Our swim first, Buck Mulligan said.",
+    "highlightTerms": [
+      "national library"
+    ],
+    "words": 55
+  }
+]
