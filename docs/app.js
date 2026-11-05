@@ -43,9 +43,10 @@ function applyGeographicReview(input){
  }
  return data;
 }
-window.atlasData=window.AtlasMentionPolicy.apply(applyGeographicReview(window.atlasData));
+window.atlasData=applyGeographicReview(window.atlasData);
+window.atlasData=window.AtlasMentionPolicy?.apply(window.atlasData)||window.atlasData;
 window.atlasData=window.AtlasModes?window.AtlasModes.adapt(window.atlasData,new URLSearchParams(window.location.search).get('mode'),window.atlasI18n?.locale||'en'):window.IllustratedOverlay?.adapt(window.atlasData,window.atlasI18n?.locale||'en')||window.atlasData;
-window.atlasData=window.AtlasMentionPolicy.apply(window.atlasData);
+window.atlasData=window.AtlasMentionPolicy?.apply(window.atlasData)||window.atlasData;
 const {locale,t}=window.atlasI18n??{locale:"it",t:key=>key};
 const {book,chapters,places:literaryPlaces}=window.atlasData;
 const isIllustrated=book.mapType==='illustrated'||book.mapType==='webmap';let illustratedMap=null;
