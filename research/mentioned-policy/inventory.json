@@ -1,0 +1,3802 @@
+[
+  {
+    "book": "anna-karenina",
+    "id": "china",
+    "name": "China",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "anna-karenina",
+    "id": "england",
+    "name": "England",
+    "reason": "country",
+    "mentions": 6,
+    "actions": 0
+  },
+  {
+    "book": "anna-karenina",
+    "id": "europe",
+    "name": "Europe",
+    "reason": "continent",
+    "mentions": 11,
+    "actions": 0
+  },
+  {
+    "book": "anna-karenina",
+    "id": "france",
+    "name": "France",
+    "reason": "country",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "anna-karenina",
+    "id": "frankfurt",
+    "name": "Frankfurt am Main",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "anna-karenina",
+    "id": "germany",
+    "name": "Germany",
+    "reason": "country",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "anna-karenina",
+    "id": "helsinki",
+    "name": "Helsingfors (Helsinki)",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "anna-karenina",
+    "id": "india",
+    "name": "India",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "anna-karenina",
+    "id": "italy",
+    "name": "Italy",
+    "reason": "country",
+    "mentions": 3,
+    "actions": 0
+  },
+  {
+    "book": "anna-karenina",
+    "id": "kiev",
+    "name": "Kiev (Kyiv)",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "anna-karenina",
+    "id": "montenegro",
+    "name": "Montenegro",
+    "reason": "country",
+    "mentions": 3,
+    "actions": 0
+  },
+  {
+    "book": "anna-karenina",
+    "id": "moscow",
+    "name": "Moscow",
+    "reason": "famousCity",
+    "mentions": 76,
+    "actions": 3
+  },
+  {
+    "book": "anna-karenina",
+    "id": "naples",
+    "name": "Naples",
+    "reason": "famousCity",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "anna-karenina",
+    "id": "nice",
+    "name": "Nice",
+    "reason": "famousCity",
+    "mentions": 3,
+    "actions": 0
+  },
+  {
+    "book": "anna-karenina",
+    "id": "paris",
+    "name": "Paris",
+    "reason": "famousCity",
+    "mentions": 7,
+    "actions": 0
+  },
+  {
+    "book": "anna-karenina",
+    "id": "petersburg",
+    "name": "Saint Petersburg",
+    "reason": "famousCity",
+    "mentions": 63,
+    "actions": 6
+  },
+  {
+    "book": "anna-karenina",
+    "id": "poland",
+    "name": "Poland",
+    "reason": "country",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "anna-karenina",
+    "id": "rome",
+    "name": "Rome",
+    "reason": "famousCity",
+    "mentions": 4,
+    "actions": 0
+  },
+  {
+    "book": "anna-karenina",
+    "id": "russia",
+    "name": "Russia",
+    "reason": "country",
+    "mentions": 34,
+    "actions": 0
+  },
+  {
+    "book": "anna-karenina",
+    "id": "serbia",
+    "name": "Serbia",
+    "reason": "country",
+    "mentions": 6,
+    "actions": 0
+  },
+  {
+    "book": "anna-karenina",
+    "id": "spain",
+    "name": "Spain",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "anna-karenina",
+    "id": "switzerland",
+    "name": "Switzerland",
+    "reason": "country",
+    "mentions": 3,
+    "actions": 0
+  },
+  {
+    "book": "anna-karenina",
+    "id": "turkey",
+    "name": "Turkey",
+    "reason": "country",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "anna-karenina",
+    "id": "usa",
+    "name": "United States",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "anna-karenina",
+    "id": "venice",
+    "name": "Venice",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "crime-and-punishment",
+    "id": "africa",
+    "name": "Africa",
+    "reason": "continent",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "crime-and-punishment",
+    "id": "africa",
+    "name": "Africa",
+    "reason": "continent",
+    "mentions": 0,
+    "actions": 0
+  },
+  {
+    "book": "crime-and-punishment",
+    "id": "berlin",
+    "name": "Berlin",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "crime-and-punishment",
+    "id": "berlin",
+    "name": "Berlin",
+    "reason": "famousCity",
+    "mentions": 0,
+    "actions": 0
+  },
+  {
+    "book": "crime-and-punishment",
+    "id": "egypt",
+    "name": "Egypt",
+    "reason": "country",
+    "mentions": 3,
+    "actions": 0
+  },
+  {
+    "book": "crime-and-punishment",
+    "id": "egypt",
+    "name": "Egypt",
+    "reason": "country",
+    "mentions": 0,
+    "actions": 0
+  },
+  {
+    "book": "crime-and-punishment",
+    "id": "jerusalem",
+    "name": "Jerusalem",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "crime-and-punishment",
+    "id": "jerusalem",
+    "name": "Jerusalem",
+    "reason": "famousCity",
+    "mentions": 0,
+    "actions": 0
+  },
+  {
+    "book": "crime-and-punishment",
+    "id": "moscow",
+    "name": "Moscow",
+    "reason": "famousCity",
+    "mentions": 3,
+    "actions": 0
+  },
+  {
+    "book": "crime-and-punishment",
+    "id": "moscow",
+    "name": "Moscow",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "crime-and-punishment",
+    "id": "paris",
+    "name": "Paris",
+    "reason": "famousCity",
+    "mentions": 3,
+    "actions": 0
+  },
+  {
+    "book": "crime-and-punishment",
+    "id": "paris",
+    "name": "Paris",
+    "reason": "famousCity",
+    "mentions": 0,
+    "actions": 0
+  },
+  {
+    "book": "crime-and-punishment",
+    "id": "petersburg",
+    "name": "Saint Petersburg",
+    "reason": "famousCity",
+    "mentions": 25,
+    "actions": 0
+  },
+  {
+    "book": "crime-and-punishment",
+    "id": "petersburg",
+    "name": "Saint Petersburg",
+    "reason": "famousCity",
+    "mentions": 0,
+    "actions": 0
+  },
+  {
+    "book": "crime-and-punishment",
+    "id": "switzerland",
+    "name": "Switzerland",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "crime-and-punishment",
+    "id": "switzerland",
+    "name": "Switzerland",
+    "reason": "country",
+    "mentions": 0,
+    "actions": 0
+  },
+  {
+    "book": "don-quijote",
+    "id": "africa",
+    "name": "África",
+    "reason": "continent",
+    "mentions": 5,
+    "actions": 0
+  },
+  {
+    "book": "don-quijote",
+    "id": "algiers",
+    "name": "Argel",
+    "reason": "famousCity",
+    "mentions": 6,
+    "actions": 0
+  },
+  {
+    "book": "don-quijote",
+    "id": "algiers",
+    "name": "Argel",
+    "reason": "famousCity",
+    "mentions": 0,
+    "actions": 2
+  },
+  {
+    "book": "don-quijote",
+    "id": "arabia",
+    "name": "Arabia",
+    "reason": "country",
+    "mentions": 4,
+    "actions": 0
+  },
+  {
+    "book": "don-quijote",
+    "id": "armenia",
+    "name": "Armenia",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "don-quijote",
+    "id": "asia",
+    "name": "Asia",
+    "reason": "continent",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "don-quijote",
+    "id": "athens",
+    "name": "Atenas",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "don-quijote",
+    "id": "austria",
+    "name": "Austria",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "don-quijote",
+    "id": "barcelona",
+    "name": "Barcelona",
+    "reason": "famousCity",
+    "mentions": 4,
+    "actions": 0
+  },
+  {
+    "book": "don-quijote",
+    "id": "barcelona",
+    "name": "Barcelona",
+    "reason": "famousCity",
+    "mentions": 0,
+    "actions": 2
+  },
+  {
+    "book": "don-quijote",
+    "id": "britain",
+    "name": "Gran Bretaña",
+    "reason": "country",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "don-quijote",
+    "id": "china",
+    "name": "China",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "don-quijote",
+    "id": "constantinople",
+    "name": "Constantinopla",
+    "reason": "famousCity",
+    "mentions": 3,
+    "actions": 0
+  },
+  {
+    "book": "don-quijote",
+    "id": "constantinople",
+    "name": "Constantinopla",
+    "reason": "famousCity",
+    "mentions": 0,
+    "actions": 1
+  },
+  {
+    "book": "don-quijote",
+    "id": "cyprus",
+    "name": "Chipre",
+    "reason": "country",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "don-quijote",
+    "id": "denmark",
+    "name": "Dinamarca",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "don-quijote",
+    "id": "egypt",
+    "name": "Egipto",
+    "reason": "country",
+    "mentions": 4,
+    "actions": 0
+  },
+  {
+    "book": "don-quijote",
+    "id": "england",
+    "name": "Inglaterra",
+    "reason": "country",
+    "mentions": 7,
+    "actions": 0
+  },
+  {
+    "book": "don-quijote",
+    "id": "ethiopia",
+    "name": "Etiopía",
+    "reason": "country",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "don-quijote",
+    "id": "europe",
+    "name": "Europa",
+    "reason": "continent",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "don-quijote",
+    "id": "florence",
+    "name": "Florencia",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "don-quijote",
+    "id": "florence",
+    "name": "Florencia",
+    "reason": "famousCity",
+    "mentions": 0,
+    "actions": 2
+  },
+  {
+    "book": "don-quijote",
+    "id": "france",
+    "name": "Francia",
+    "reason": "country",
+    "mentions": 18,
+    "actions": 0
+  },
+  {
+    "book": "don-quijote",
+    "id": "france",
+    "name": "Francia",
+    "reason": "country",
+    "mentions": 0,
+    "actions": 1
+  },
+  {
+    "book": "don-quijote",
+    "id": "germany",
+    "name": "Alemania",
+    "reason": "country",
+    "mentions": 4,
+    "actions": 0
+  },
+  {
+    "book": "don-quijote",
+    "id": "germany",
+    "name": "Alemania",
+    "reason": "country",
+    "mentions": 0,
+    "actions": 1
+  },
+  {
+    "book": "don-quijote",
+    "id": "granada",
+    "name": "Granada",
+    "reason": "famousCity",
+    "mentions": 3,
+    "actions": 0
+  },
+  {
+    "book": "don-quijote",
+    "id": "granada",
+    "name": "Granada",
+    "reason": "famousCity",
+    "mentions": 0,
+    "actions": 1
+  },
+  {
+    "book": "don-quijote",
+    "id": "greece",
+    "name": "Grecia",
+    "reason": "country",
+    "mentions": 7,
+    "actions": 0
+  },
+  {
+    "book": "don-quijote",
+    "id": "india",
+    "name": "India",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "don-quijote",
+    "id": "italy",
+    "name": "Italia",
+    "reason": "country",
+    "mentions": 6,
+    "actions": 0
+  },
+  {
+    "book": "don-quijote",
+    "id": "italy",
+    "name": "Italia",
+    "reason": "country",
+    "mentions": 0,
+    "actions": 2
+  },
+  {
+    "book": "don-quijote",
+    "id": "jerusalem",
+    "name": "Jerusalén",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "don-quijote",
+    "id": "libya",
+    "name": "Libia",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "don-quijote",
+    "id": "lisbon",
+    "name": "Lisboa",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "don-quijote",
+    "id": "london",
+    "name": "Londres",
+    "reason": "famousCity",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "don-quijote",
+    "id": "madrid",
+    "name": "Madrid",
+    "reason": "famousCity",
+    "mentions": 13,
+    "actions": 0
+  },
+  {
+    "book": "don-quijote",
+    "id": "madrid",
+    "name": "Madrid",
+    "reason": "famousCity",
+    "mentions": 0,
+    "actions": 1
+  },
+  {
+    "book": "don-quijote",
+    "id": "malta",
+    "name": "Malta",
+    "reason": "country",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "don-quijote",
+    "id": "mexico",
+    "name": "Méjico",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "don-quijote",
+    "id": "milan",
+    "name": "Milán",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "don-quijote",
+    "id": "milan",
+    "name": "Milán",
+    "reason": "famousCity",
+    "mentions": 0,
+    "actions": 1
+  },
+  {
+    "book": "don-quijote",
+    "id": "naples",
+    "name": "Nápoles",
+    "reason": "famousCity",
+    "mentions": 7,
+    "actions": 0
+  },
+  {
+    "book": "don-quijote",
+    "id": "paris",
+    "name": "París",
+    "reason": "famousCity",
+    "mentions": 3,
+    "actions": 0
+  },
+  {
+    "book": "don-quijote",
+    "id": "persia",
+    "name": "Persia",
+    "reason": "country",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "don-quijote",
+    "id": "portugal",
+    "name": "Portugal",
+    "reason": "country",
+    "mentions": 6,
+    "actions": 0
+  },
+  {
+    "book": "don-quijote",
+    "id": "rome",
+    "name": "Roma",
+    "reason": "famousCity",
+    "mentions": 11,
+    "actions": 0
+  },
+  {
+    "book": "don-quijote",
+    "id": "seville",
+    "name": "Sevilla",
+    "reason": "famousCity",
+    "mentions": 14,
+    "actions": 0
+  },
+  {
+    "book": "don-quijote",
+    "id": "seville",
+    "name": "Sevilla",
+    "reason": "famousCity",
+    "mentions": 0,
+    "actions": 1
+  },
+  {
+    "book": "don-quijote",
+    "id": "spain",
+    "name": "España",
+    "reason": "country",
+    "mentions": 40,
+    "actions": 0
+  },
+  {
+    "book": "don-quijote",
+    "id": "toledo",
+    "name": "Toledo",
+    "reason": "famousCity",
+    "mentions": 8,
+    "actions": 0
+  },
+  {
+    "book": "don-quijote",
+    "id": "toledo",
+    "name": "Toledo",
+    "reason": "famousCity",
+    "mentions": 0,
+    "actions": 2
+  },
+  {
+    "book": "don-quijote",
+    "id": "tunis",
+    "name": "Túnez",
+    "reason": "country",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "don-quijote",
+    "id": "valencia",
+    "name": "Valencia",
+    "reason": "famousCity",
+    "mentions": 5,
+    "actions": 0
+  },
+  {
+    "book": "don-quijote",
+    "id": "valencia",
+    "name": "Valencia",
+    "reason": "famousCity",
+    "mentions": 0,
+    "actions": 1
+  },
+  {
+    "book": "don-quijote",
+    "id": "venice",
+    "name": "Venecia",
+    "reason": "famousCity",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "gatsby",
+    "id": "boston",
+    "name": "Boston",
+    "reason": "famousCity",
+    "mentions": 0,
+    "actions": 1
+  },
+  {
+    "book": "gatsby",
+    "id": "canada",
+    "name": "Canada",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "gatsby",
+    "id": "chicago",
+    "name": "Chicago",
+    "reason": "famousCity",
+    "mentions": 5,
+    "actions": 0
+  },
+  {
+    "book": "gatsby",
+    "id": "chicago",
+    "name": "Chicago",
+    "reason": "famousCity",
+    "mentions": 0,
+    "actions": 1
+  },
+  {
+    "book": "gatsby",
+    "id": "detroit",
+    "name": "Detroit",
+    "reason": "famousCity",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "gatsby",
+    "id": "england",
+    "name": "England",
+    "reason": "country",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "gatsby",
+    "id": "france",
+    "name": "France",
+    "reason": "country",
+    "mentions": 5,
+    "actions": 0
+  },
+  {
+    "book": "gatsby",
+    "id": "georgia",
+    "name": "Georgia · United States",
+    "reason": "state",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "gatsby",
+    "id": "germany",
+    "name": "Germany",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "gatsby",
+    "id": "louisiana",
+    "name": "Louisiana",
+    "reason": "state",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "gatsby",
+    "id": "maine",
+    "name": "Maine",
+    "reason": "state",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "gatsby",
+    "id": "marseilles",
+    "name": "Marseilles · Marseille",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "gatsby",
+    "id": "minnesota",
+    "name": "Minnesota",
+    "reason": "state",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "gatsby",
+    "id": "montana",
+    "name": "Montana",
+    "reason": "state",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "gatsby",
+    "id": "montenegro",
+    "name": "Montenegro",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "gatsby",
+    "id": "montreal",
+    "name": "Montreal",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "gatsby",
+    "id": "nevada",
+    "name": "Nevada",
+    "reason": "state",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "gatsby",
+    "id": "newjersey",
+    "name": "New Jersey",
+    "reason": "state",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "gatsby",
+    "id": "neworleans",
+    "name": "New Orleans",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "gatsby",
+    "id": "northdakota",
+    "name": "North Dakota",
+    "reason": "state",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "gatsby",
+    "id": "oxford",
+    "name": "Oxford",
+    "reason": "famousCity",
+    "mentions": 4,
+    "actions": 0
+  },
+  {
+    "book": "gatsby",
+    "id": "paris",
+    "name": "Paris",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "gatsby",
+    "id": "philadelphia",
+    "name": "Philadelphia",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "gatsby",
+    "id": "rome",
+    "name": "Rome",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "gatsby",
+    "id": "sanfrancisco",
+    "name": "San Francisco",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "gatsby",
+    "id": "venice",
+    "name": "Venice",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "gatsby",
+    "id": "washington",
+    "name": "Washington, D.C.",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "gatsby",
+    "id": "wisconsin",
+    "name": "Wisconsin",
+    "reason": "state",
+    "mentions": 0,
+    "actions": 1
+  },
+  {
+    "book": "holden",
+    "id": "africa",
+    "name": "Africa",
+    "reason": "continent",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "holden",
+    "id": "california",
+    "name": "California",
+    "reason": "state",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "holden",
+    "id": "chicago",
+    "name": "Chicago",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "holden",
+    "id": "china",
+    "name": "China",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "holden",
+    "id": "connecticut",
+    "name": "Connecticut",
+    "reason": "state",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "holden",
+    "id": "florida",
+    "name": "Florida",
+    "reason": "state",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "holden",
+    "id": "london",
+    "name": "London · film setting",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "holden",
+    "id": "maine",
+    "name": "Maine",
+    "reason": "state",
+    "mentions": 1,
+    "actions": 3
+  },
+  {
+    "book": "holden",
+    "id": "massachusetts",
+    "name": "Massachusetts",
+    "reason": "state",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "holden",
+    "id": "newhampshire",
+    "name": "New Hampshire",
+    "reason": "state",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "holden",
+    "id": "seattle",
+    "name": "Seattle · Washington",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "holden",
+    "id": "shanghai",
+    "name": "Shanghai",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "holden",
+    "id": "southamerica",
+    "name": "South America",
+    "reason": "continent",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "holden",
+    "id": "vermont",
+    "name": "Vermont",
+    "reason": "state",
+    "mentions": 1,
+    "actions": 1
+  },
+  {
+    "book": "lolita",
+    "id": "alabama",
+    "name": "Alabama",
+    "reason": "state",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "lolita",
+    "id": "alaska",
+    "name": "Alaska",
+    "reason": "state",
+    "mentions": 3,
+    "actions": 0
+  },
+  {
+    "book": "lolita",
+    "id": "algiers",
+    "name": "Algiers",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "lolita",
+    "id": "arizona",
+    "name": "Arizona",
+    "reason": "state",
+    "mentions": 3,
+    "actions": 0
+  },
+  {
+    "book": "lolita",
+    "id": "arkansas",
+    "name": "Arkansas",
+    "reason": "state",
+    "mentions": 1,
+    "actions": 1
+  },
+  {
+    "book": "lolita",
+    "id": "bahamas",
+    "name": "Bahamas",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "lolita",
+    "id": "boston",
+    "name": "Boston",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "lolita",
+    "id": "california",
+    "name": "California",
+    "reason": "state",
+    "mentions": 10,
+    "actions": 3
+  },
+  {
+    "book": "lolita",
+    "id": "canada",
+    "name": "Canada",
+    "reason": "country",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "lolita",
+    "id": "chicago",
+    "name": "Chicago",
+    "reason": "famousCity",
+    "mentions": 5,
+    "actions": 0
+  },
+  {
+    "book": "lolita",
+    "id": "chile",
+    "name": "Chile",
+    "reason": "country",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "lolita",
+    "id": "colorado",
+    "name": "Colorado",
+    "reason": "state",
+    "mentions": 1,
+    "actions": 2
+  },
+  {
+    "book": "lolita",
+    "id": "england",
+    "name": "England",
+    "reason": "country",
+    "mentions": 6,
+    "actions": 0
+  },
+  {
+    "book": "lolita",
+    "id": "florence",
+    "name": "Florence",
+    "reason": "famousCity",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "lolita",
+    "id": "florida",
+    "name": "Florida",
+    "reason": "state",
+    "mentions": 3,
+    "actions": 0
+  },
+  {
+    "book": "lolita",
+    "id": "france",
+    "name": "France",
+    "reason": "country",
+    "mentions": 3,
+    "actions": 1
+  },
+  {
+    "book": "lolita",
+    "id": "geneva",
+    "name": "Geneva",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "lolita",
+    "id": "georgia",
+    "name": "Georgia",
+    "reason": "state",
+    "mentions": 0,
+    "actions": 1
+  },
+  {
+    "book": "lolita",
+    "id": "greece",
+    "name": "Greece",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "lolita",
+    "id": "idaho",
+    "name": "Idaho",
+    "reason": "state",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "lolita",
+    "id": "india",
+    "name": "India",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "lolita",
+    "id": "indiana",
+    "name": "Indiana",
+    "reason": "state",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "lolita",
+    "id": "italy",
+    "name": "Italy",
+    "reason": "country",
+    "mentions": 3,
+    "actions": 0
+  },
+  {
+    "book": "lolita",
+    "id": "kansas",
+    "name": "Kansas",
+    "reason": "state",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "lolita",
+    "id": "lebanon",
+    "name": "Lebanon",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "lolita",
+    "id": "london",
+    "name": "London",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "lolita",
+    "id": "los-angeles",
+    "name": "Los Angeles",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "lolita",
+    "id": "louisiana",
+    "name": "Louisiana",
+    "reason": "state",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "lolita",
+    "id": "lyon",
+    "name": "Lyon",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "lolita",
+    "id": "maine",
+    "name": "Maine",
+    "reason": "state",
+    "mentions": 3,
+    "actions": 0
+  },
+  {
+    "book": "lolita",
+    "id": "massachusetts",
+    "name": "Massachusetts",
+    "reason": "state",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "lolita",
+    "id": "michigan",
+    "name": "Michigan",
+    "reason": "state",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "lolita",
+    "id": "minnesota",
+    "name": "Minnesota",
+    "reason": "state",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "lolita",
+    "id": "mississippi",
+    "name": "Mississippi",
+    "reason": "state",
+    "mentions": 0,
+    "actions": 1
+  },
+  {
+    "book": "lolita",
+    "id": "missouri",
+    "name": "Missouri",
+    "reason": "state",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "lolita",
+    "id": "montreal",
+    "name": "Montreal",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "lolita",
+    "id": "naples",
+    "name": "Naples",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "lolita",
+    "id": "nebraska",
+    "name": "Nebraska",
+    "reason": "state",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "lolita",
+    "id": "nevada",
+    "name": "Nevada",
+    "reason": "state",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "lolita",
+    "id": "new-hampshire",
+    "name": "New Hampshire",
+    "reason": "state",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "lolita",
+    "id": "new-mexico",
+    "name": "New Mexico",
+    "reason": "state",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "lolita",
+    "id": "new-orleans",
+    "name": "New Orleans",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "lolita",
+    "id": "new-york",
+    "name": "New York",
+    "reason": "famousCity",
+    "mentions": 11,
+    "actions": 1
+  },
+  {
+    "book": "lolita",
+    "id": "new-york-state",
+    "name": "New York State",
+    "reason": "state",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "lolita",
+    "id": "ohio",
+    "name": "Ohio",
+    "reason": "state",
+    "mentions": 4,
+    "actions": 0
+  },
+  {
+    "book": "lolita",
+    "id": "oklahoma",
+    "name": "Oklahoma",
+    "reason": "state",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "lolita",
+    "id": "oregon",
+    "name": "Oregon",
+    "reason": "state",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "lolita",
+    "id": "paris",
+    "name": "Paris",
+    "reason": "famousCity",
+    "mentions": 6,
+    "actions": 3
+  },
+  {
+    "book": "lolita",
+    "id": "pennsylvania",
+    "name": "Pennsylvania",
+    "reason": "state",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "lolita",
+    "id": "philadelphia",
+    "name": "Philadelphia",
+    "reason": "famousCity",
+    "mentions": 4,
+    "actions": 0
+  },
+  {
+    "book": "lolita",
+    "id": "portugal",
+    "name": "Portugal",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "lolita",
+    "id": "russia",
+    "name": "Russia",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "lolita",
+    "id": "st-petersburg",
+    "name": "St. Petersburg",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "lolita",
+    "id": "switzerland",
+    "name": "Switzerland",
+    "reason": "country",
+    "mentions": 4,
+    "actions": 0
+  },
+  {
+    "book": "lolita",
+    "id": "tennessee",
+    "name": "Tennessee",
+    "reason": "state",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "lolita",
+    "id": "texas",
+    "name": "Texas",
+    "reason": "state",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "lolita",
+    "id": "united-states",
+    "name": "United States",
+    "reason": "country",
+    "mentions": 3,
+    "actions": 0
+  },
+  {
+    "book": "lolita",
+    "id": "utah",
+    "name": "Utah",
+    "reason": "state",
+    "mentions": 0,
+    "actions": 1
+  },
+  {
+    "book": "lolita",
+    "id": "venice",
+    "name": "Venice",
+    "reason": "famousCity",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "lolita",
+    "id": "vermont",
+    "name": "Vermont",
+    "reason": "state",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "lolita",
+    "id": "vienna",
+    "name": "Vienna",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "lolita",
+    "id": "virginia",
+    "name": "Virginia",
+    "reason": "state",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "lolita",
+    "id": "wyoming",
+    "name": "Wyoming",
+    "reason": "state",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "afghanistan",
+    "name": "Afghanistan",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "africa",
+    "name": "Africa",
+    "reason": "continent",
+    "mentions": 6,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "alabama",
+    "name": "Alabama",
+    "reason": "state",
+    "mentions": 4,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "america",
+    "name": "Americas",
+    "reason": "continent",
+    "mentions": 4,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "amsterdam",
+    "name": "Amsterdam",
+    "reason": "famousCity",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "arkansas",
+    "name": "Arkansas",
+    "reason": "state",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "asia",
+    "name": "Asia",
+    "reason": "continent",
+    "mentions": 3,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "australia",
+    "name": "Australia",
+    "reason": "country",
+    "mentions": 3,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "bolivia",
+    "name": "Bolivia",
+    "reason": "country",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "bombay",
+    "name": "Mumbai",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "boston",
+    "name": "Boston",
+    "reason": "famousCity",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "bremen",
+    "name": "Bremen",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "canada",
+    "name": "Canada",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "cape-verde",
+    "name": "Cape Verde",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "capetown",
+    "name": "Cape Town",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "chile",
+    "name": "Chile",
+    "reason": "country",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "china",
+    "name": "China",
+    "reason": "country",
+    "mentions": 6,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "cologne",
+    "name": "Cologne",
+    "reason": "famousCity",
+    "mentions": 3,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "connecticut",
+    "name": "Connecticut",
+    "reason": "state",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "constantinople",
+    "name": "Istanbul",
+    "reason": "famousCity",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "copenhagen",
+    "name": "Copenhagen",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "cuba",
+    "name": "Cuba",
+    "reason": "country",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "egypt",
+    "name": "Egypt",
+    "reason": "country",
+    "mentions": 3,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "england",
+    "name": "England",
+    "reason": "country",
+    "mentions": 9,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "europe",
+    "name": "Europe",
+    "reason": "continent",
+    "mentions": 4,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "fiji",
+    "name": "Fiji",
+    "reason": "country",
+    "mentions": 4,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "france",
+    "name": "France",
+    "reason": "country",
+    "mentions": 5,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "frankfurt",
+    "name": "Frankfurt",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "greece",
+    "name": "Greece",
+    "reason": "country",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "holland",
+    "name": "Holland",
+    "reason": "country",
+    "mentions": 3,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "iceland",
+    "name": "Iceland",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "illinois",
+    "name": "Illinois",
+    "reason": "state",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "india",
+    "name": "India",
+    "reason": "country",
+    "mentions": 4,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "italy",
+    "name": "Italy",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "japan",
+    "name": "Japan",
+    "reason": "country",
+    "mentions": 10,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "lima",
+    "name": "Lima",
+    "reason": "famousCity",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "lima",
+    "name": "Lima",
+    "reason": "famousCity",
+    "mentions": 0,
+    "actions": 1
+  },
+  {
+    "book": "moby-dick",
+    "id": "london",
+    "name": "London",
+    "reason": "famousCity",
+    "mentions": 11,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "louisiana",
+    "name": "Louisiana",
+    "reason": "state",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "massachusetts",
+    "name": "Massachusetts",
+    "reason": "state",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "mecca",
+    "name": "Mecca",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "mexico",
+    "name": "Mexico",
+    "reason": "country",
+    "mentions": 3,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "michigan-state",
+    "name": "Michigan",
+    "reason": "state",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "mississippi-state",
+    "name": "Mississippi",
+    "reason": "state",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "missouri-state",
+    "name": "Missouri",
+    "reason": "state",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "myanmar",
+    "name": "Myanmar",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "netherlands",
+    "name": "Netherlands",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "new-hampshire",
+    "name": "New Hampshire",
+    "reason": "state",
+    "mentions": 3,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "new-york-state",
+    "name": "New York",
+    "reason": "famousCity",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "new-zealand",
+    "name": "New Zealand",
+    "reason": "country",
+    "mentions": 4,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "ny",
+    "name": "New York City",
+    "reason": "famousCity",
+    "mentions": 3,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "ohio-state",
+    "name": "Ohio",
+    "reason": "state",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "oregon",
+    "name": "Oregon",
+    "reason": "state",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "paris",
+    "name": "Paris",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "peru",
+    "name": "Peru",
+    "reason": "country",
+    "mentions": 4,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "philippines",
+    "name": "Philippines",
+    "reason": "country",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "poland",
+    "name": "Poland",
+    "reason": "country",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "portugal",
+    "name": "Portugal",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "quito",
+    "name": "Quito",
+    "reason": "famousCity",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "rome",
+    "name": "Rome",
+    "reason": "famousCity",
+    "mentions": 5,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "scotland",
+    "name": "Scotland",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "seychelles",
+    "name": "Seychelles",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "south-america",
+    "name": "South America",
+    "reason": "continent",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "spain",
+    "name": "Spain",
+    "reason": "country",
+    "mentions": 4,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "sri-lanka",
+    "name": "Sri Lanka",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "sydney",
+    "name": "Sydney",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "tennessee",
+    "name": "Tennessee",
+    "reason": "state",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "texas",
+    "name": "Texas",
+    "reason": "state",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "thailand",
+    "name": "Thailand",
+    "reason": "country",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "usa",
+    "name": "United States",
+    "reason": "country",
+    "mentions": 8,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "venice",
+    "name": "Venice",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "vermont",
+    "name": "Vermont",
+    "reason": "state",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "moby-dick",
+    "id": "virginia",
+    "name": "Virginia",
+    "reason": "state",
+    "mentions": 4,
+    "actions": 0
+  },
+  {
+    "book": "orwell1984",
+    "id": "africa",
+    "name": "Africa",
+    "reason": "continent",
+    "mentions": 4,
+    "actions": 0
+  },
+  {
+    "book": "orwell1984",
+    "id": "americas",
+    "name": "Americas",
+    "reason": "continent",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "orwell1984",
+    "id": "argentina",
+    "name": "Argentina",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "orwell1984",
+    "id": "asia",
+    "name": "Asia",
+    "reason": "continent",
+    "mentions": 3,
+    "actions": 0
+  },
+  {
+    "book": "orwell1984",
+    "id": "australia",
+    "name": "Australia",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "orwell1984",
+    "id": "berlin",
+    "name": "Berlin",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "orwell1984",
+    "id": "brazil",
+    "name": "Brazil",
+    "reason": "country",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "orwell1984",
+    "id": "britain",
+    "name": "Great Britain",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "orwell1984",
+    "id": "canada",
+    "name": "Canada",
+    "reason": "country",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "orwell1984",
+    "id": "ceylon",
+    "name": "Ceylon · Sri Lanka",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "orwell1984",
+    "id": "china",
+    "name": "China",
+    "reason": "country",
+    "mentions": 5,
+    "actions": 0
+  },
+  {
+    "book": "orwell1984",
+    "id": "egypt",
+    "name": "Egypt",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "orwell1984",
+    "id": "england",
+    "name": "England",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "orwell1984",
+    "id": "europe",
+    "name": "Europe",
+    "reason": "continent",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "orwell1984",
+    "id": "france",
+    "name": "France",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "orwell1984",
+    "id": "germany",
+    "name": "Germany",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "orwell1984",
+    "id": "hong-kong",
+    "name": "Hong Kong",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "orwell1984",
+    "id": "iceland",
+    "name": "Iceland",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "orwell1984",
+    "id": "india",
+    "name": "India",
+    "reason": "country",
+    "mentions": 4,
+    "actions": 0
+  },
+  {
+    "book": "orwell1984",
+    "id": "iran",
+    "name": "Persia · Iran",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "orwell1984",
+    "id": "japan",
+    "name": "Japan",
+    "reason": "country",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "orwell1984",
+    "id": "london",
+    "name": "London",
+    "reason": "famousCity",
+    "mentions": 5,
+    "actions": 0
+  },
+  {
+    "book": "orwell1984",
+    "id": "london",
+    "name": "London",
+    "reason": "famousCity",
+    "mentions": 0,
+    "actions": 6
+  },
+  {
+    "book": "orwell1984",
+    "id": "mongolia",
+    "name": "Mongolia",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "orwell1984",
+    "id": "new-york",
+    "name": "New York City",
+    "reason": "famousCity",
+    "mentions": 3,
+    "actions": 0
+  },
+  {
+    "book": "orwell1984",
+    "id": "paris",
+    "name": "Paris",
+    "reason": "famousCity",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "orwell1984",
+    "id": "portugal",
+    "name": "Portugal",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "orwell1984",
+    "id": "russia",
+    "name": "Russia",
+    "reason": "country",
+    "mentions": 4,
+    "actions": 0
+  },
+  {
+    "book": "orwell1984",
+    "id": "south-america",
+    "name": "South America",
+    "reason": "continent",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "orwell1984",
+    "id": "tibet",
+    "name": "Tibet",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "orwell1984",
+    "id": "us",
+    "name": "United States",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "pride-and-prejudice",
+    "id": "birmingham",
+    "name": "Birmingham",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "pride-and-prejudice",
+    "id": "england",
+    "name": "England",
+    "reason": "country",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "pride-and-prejudice",
+    "id": "great-britain",
+    "name": "Great Britain",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "pride-and-prejudice",
+    "id": "liverpool",
+    "name": "Liverpool",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "pride-and-prejudice",
+    "id": "london",
+    "name": "London",
+    "reason": "famousCity",
+    "mentions": 38,
+    "actions": 0
+  },
+  {
+    "book": "pride-and-prejudice",
+    "id": "london",
+    "name": "London",
+    "reason": "famousCity",
+    "mentions": 0,
+    "actions": 3
+  },
+  {
+    "book": "pride-and-prejudice",
+    "id": "oxford",
+    "name": "Oxford",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "pride-and-prejudice",
+    "id": "scotland",
+    "name": "Scotland",
+    "reason": "country",
+    "mentions": 3,
+    "actions": 0
+  },
+  {
+    "book": "proust",
+    "id": "africa",
+    "name": "Africa",
+    "reason": "continent",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "proust",
+    "id": "america",
+    "name": "Americas",
+    "reason": "continent",
+    "mentions": 6,
+    "actions": 0
+  },
+  {
+    "book": "proust",
+    "id": "amsterdam",
+    "name": "Amsterdam",
+    "reason": "famousCity",
+    "mentions": 4,
+    "actions": 0
+  },
+  {
+    "book": "proust",
+    "id": "asia",
+    "name": "Asia",
+    "reason": "continent",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "proust",
+    "id": "athens",
+    "name": "Athens",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "proust",
+    "id": "austria",
+    "name": "Austria",
+    "reason": "country",
+    "mentions": 5,
+    "actions": 0
+  },
+  {
+    "book": "proust",
+    "id": "belgium",
+    "name": "Belgium",
+    "reason": "country",
+    "mentions": 4,
+    "actions": 0
+  },
+  {
+    "book": "proust",
+    "id": "berlin",
+    "name": "Berlin",
+    "reason": "famousCity",
+    "mentions": 5,
+    "actions": 0
+  },
+  {
+    "book": "proust",
+    "id": "canada",
+    "name": "Canada",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "proust",
+    "id": "china",
+    "name": "China",
+    "reason": "country",
+    "mentions": 6,
+    "actions": 0
+  },
+  {
+    "book": "proust",
+    "id": "constantinople",
+    "name": "Istanbul",
+    "reason": "famousCity",
+    "mentions": 3,
+    "actions": 0
+  },
+  {
+    "book": "proust",
+    "id": "dresden",
+    "name": "Dresden",
+    "reason": "famousCity",
+    "mentions": 4,
+    "actions": 0
+  },
+  {
+    "book": "proust",
+    "id": "egypt",
+    "name": "Egypt",
+    "reason": "country",
+    "mentions": 5,
+    "actions": 0
+  },
+  {
+    "book": "proust",
+    "id": "england",
+    "name": "England",
+    "reason": "country",
+    "mentions": 6,
+    "actions": 0
+  },
+  {
+    "book": "proust",
+    "id": "europe",
+    "name": "Europe",
+    "reason": "continent",
+    "mentions": 6,
+    "actions": 0
+  },
+  {
+    "book": "proust",
+    "id": "florence",
+    "name": "Florence",
+    "reason": "famousCity",
+    "mentions": 3,
+    "actions": 0
+  },
+  {
+    "book": "proust",
+    "id": "france",
+    "name": "France",
+    "reason": "country",
+    "mentions": 7,
+    "actions": 0
+  },
+  {
+    "book": "proust",
+    "id": "frankfurt",
+    "name": "Frankfurt",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "proust",
+    "id": "germany",
+    "name": "Germany",
+    "reason": "country",
+    "mentions": 6,
+    "actions": 0
+  },
+  {
+    "book": "proust",
+    "id": "greece",
+    "name": "Greece",
+    "reason": "country",
+    "mentions": 5,
+    "actions": 0
+  },
+  {
+    "book": "proust",
+    "id": "holland",
+    "name": "Holland",
+    "reason": "country",
+    "mentions": 4,
+    "actions": 0
+  },
+  {
+    "book": "proust",
+    "id": "hungary",
+    "name": "Hungary",
+    "reason": "country",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "proust",
+    "id": "india",
+    "name": "India",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "proust",
+    "id": "italy",
+    "name": "Italy",
+    "reason": "country",
+    "mentions": 6,
+    "actions": 0
+  },
+  {
+    "book": "proust",
+    "id": "japan",
+    "name": "Japan",
+    "reason": "country",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "proust",
+    "id": "jerusalem",
+    "name": "Jerusalem",
+    "reason": "famousCity",
+    "mentions": 5,
+    "actions": 0
+  },
+  {
+    "book": "proust",
+    "id": "london",
+    "name": "London",
+    "reason": "famousCity",
+    "mentions": 4,
+    "actions": 0
+  },
+  {
+    "book": "proust",
+    "id": "madrid",
+    "name": "Madrid",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "proust",
+    "id": "milan",
+    "name": "Milan",
+    "reason": "famousCity",
+    "mentions": 4,
+    "actions": 0
+  },
+  {
+    "book": "proust",
+    "id": "naples",
+    "name": "Naples",
+    "reason": "famousCity",
+    "mentions": 5,
+    "actions": 0
+  },
+  {
+    "book": "proust",
+    "id": "nice",
+    "name": "Nice",
+    "reason": "famousCity",
+    "mentions": 5,
+    "actions": 0
+  },
+  {
+    "book": "proust",
+    "id": "ny",
+    "name": "New York City",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "proust",
+    "id": "palestine",
+    "name": "Palestine",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "proust",
+    "id": "poland",
+    "name": "Poland",
+    "reason": "country",
+    "mentions": 4,
+    "actions": 0
+  },
+  {
+    "book": "proust",
+    "id": "portugal",
+    "name": "Portugal",
+    "reason": "country",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "proust",
+    "id": "rome",
+    "name": "Rome",
+    "reason": "famousCity",
+    "mentions": 6,
+    "actions": 0
+  },
+  {
+    "book": "proust",
+    "id": "russia",
+    "name": "Russia",
+    "reason": "country",
+    "mentions": 4,
+    "actions": 0
+  },
+  {
+    "book": "proust",
+    "id": "scotland",
+    "name": "Scotland",
+    "reason": "country",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "proust",
+    "id": "spain",
+    "name": "Spain",
+    "reason": "country",
+    "mentions": 6,
+    "actions": 0
+  },
+  {
+    "book": "proust",
+    "id": "switzerland",
+    "name": "Switzerland",
+    "reason": "country",
+    "mentions": 3,
+    "actions": 0
+  },
+  {
+    "book": "proust",
+    "id": "venice",
+    "name": "Venice",
+    "reason": "famousCity",
+    "mentions": 6,
+    "actions": 0
+  },
+  {
+    "book": "proust",
+    "id": "vienna",
+    "name": "Vienna",
+    "reason": "famousCity",
+    "mentions": 4,
+    "actions": 0
+  },
+  {
+    "book": "sound-and-fury",
+    "id": "boston",
+    "name": "Boston",
+    "reason": "famousCity",
+    "mentions": 0,
+    "actions": 1
+  },
+  {
+    "book": "sound-and-fury",
+    "id": "canada",
+    "name": "Canada",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "sound-and-fury",
+    "id": "chicago",
+    "name": "Chicago",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "sound-and-fury",
+    "id": "china",
+    "name": "China",
+    "reason": "country",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "sound-and-fury",
+    "id": "egypt",
+    "name": "Egypt",
+    "reason": "country",
+    "mentions": 3,
+    "actions": 0
+  },
+  {
+    "book": "sound-and-fury",
+    "id": "england",
+    "name": "England",
+    "reason": "country",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "sound-and-fury",
+    "id": "france",
+    "name": "France",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "sound-and-fury",
+    "id": "georgia",
+    "name": "Georgia",
+    "reason": "state",
+    "mentions": 0,
+    "actions": 1
+  },
+  {
+    "book": "sound-and-fury",
+    "id": "glasgow",
+    "name": "Glasgow, Scotland",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "sound-and-fury",
+    "id": "havana",
+    "name": "Havana, Cuba",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "sound-and-fury",
+    "id": "kentucky",
+    "name": "Kentucky",
+    "reason": "state",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "sound-and-fury",
+    "id": "kentucky",
+    "name": "Kentucky",
+    "reason": "state",
+    "mentions": 0,
+    "actions": 1
+  },
+  {
+    "book": "sound-and-fury",
+    "id": "maine",
+    "name": "Maine",
+    "reason": "state",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "sound-and-fury",
+    "id": "massachusetts",
+    "name": "Massachusetts",
+    "reason": "state",
+    "mentions": 0,
+    "actions": 1
+  },
+  {
+    "book": "sound-and-fury",
+    "id": "mexico",
+    "name": "Mexico",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "sound-and-fury",
+    "id": "mexico",
+    "name": "Mexico",
+    "reason": "country",
+    "mentions": 0,
+    "actions": 1
+  },
+  {
+    "book": "sound-and-fury",
+    "id": "mississippi",
+    "name": "Mississippi",
+    "reason": "state",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "sound-and-fury",
+    "id": "mississippi",
+    "name": "Mississippi",
+    "reason": "state",
+    "mentions": 0,
+    "actions": 1
+  },
+  {
+    "book": "sound-and-fury",
+    "id": "new-orleans",
+    "name": "New Orleans",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "sound-and-fury",
+    "id": "new-york",
+    "name": "New York",
+    "reason": "famousCity",
+    "mentions": 3,
+    "actions": 0
+  },
+  {
+    "book": "sound-and-fury",
+    "id": "nicaragua",
+    "name": "Nicaragua",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "sound-and-fury",
+    "id": "oklahoma",
+    "name": "Oklahoma",
+    "reason": "state",
+    "mentions": 0,
+    "actions": 1
+  },
+  {
+    "book": "sound-and-fury",
+    "id": "paris",
+    "name": "Paris",
+    "reason": "famousCity",
+    "mentions": 0,
+    "actions": 1
+  },
+  {
+    "book": "sound-and-fury",
+    "id": "pennsylvania",
+    "name": "Pennsylvania",
+    "reason": "state",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "sound-and-fury",
+    "id": "russia",
+    "name": "Russia",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "sound-and-fury",
+    "id": "south-carolina",
+    "name": "South Carolina",
+    "reason": "state",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "sound-and-fury",
+    "id": "spain",
+    "name": "Spain",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "sound-and-fury",
+    "id": "united-states",
+    "name": "United States",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "sound-and-fury",
+    "id": "virginia",
+    "name": "Virginia",
+    "reason": "state",
+    "mentions": 0,
+    "actions": 1
+  },
+  {
+    "book": "sound-and-fury",
+    "id": "washington",
+    "name": "Washington, D.C.",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "sound-and-fury",
+    "id": "washington",
+    "name": "Washington, D.C.",
+    "reason": "famousCity",
+    "mentions": 0,
+    "actions": 1
+  },
+  {
+    "book": "to-kill-a-mockingbird",
+    "id": "alabama",
+    "name": "Alabama",
+    "reason": "state",
+    "mentions": 8,
+    "actions": 0
+  },
+  {
+    "book": "to-kill-a-mockingbird",
+    "id": "alaska",
+    "name": "Alaska",
+    "reason": "state",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "to-kill-a-mockingbird",
+    "id": "birmingham",
+    "name": "Birmingham",
+    "reason": "famousCity",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "to-kill-a-mockingbird",
+    "id": "boston",
+    "name": "Boston",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "to-kill-a-mockingbird",
+    "id": "egypt",
+    "name": "Egypt",
+    "reason": "country",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "to-kill-a-mockingbird",
+    "id": "england",
+    "name": "England",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "to-kill-a-mockingbird",
+    "id": "ethiopia",
+    "name": "Ethiopia",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "to-kill-a-mockingbird",
+    "id": "germany",
+    "name": "Germany",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "to-kill-a-mockingbird",
+    "id": "jamaica",
+    "name": "Jamaica",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "to-kill-a-mockingbird",
+    "id": "mississippi",
+    "name": "Mississippi",
+    "reason": "state",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "to-kill-a-mockingbird",
+    "id": "new-orleans",
+    "name": "New Orleans",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "to-kill-a-mockingbird",
+    "id": "philadelphia",
+    "name": "Philadelphia",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "to-kill-a-mockingbird",
+    "id": "united-states",
+    "name": "United States",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "to-kill-a-mockingbird",
+    "id": "washington",
+    "name": "Washington, D.C.",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "ulisse",
+    "id": "africa",
+    "name": "Africa",
+    "reason": "continent",
+    "mentions": 3,
+    "actions": 0
+  },
+  {
+    "book": "ulisse",
+    "id": "america",
+    "name": "Americas",
+    "reason": "continent",
+    "mentions": 5,
+    "actions": 0
+  },
+  {
+    "book": "ulisse",
+    "id": "amsterdam",
+    "name": "Amsterdam",
+    "reason": "famousCity",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "ulisse",
+    "id": "asia",
+    "name": "Asia",
+    "reason": "continent",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "ulisse",
+    "id": "athens",
+    "name": "Athens",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "ulisse",
+    "id": "austria",
+    "name": "Austria",
+    "reason": "country",
+    "mentions": 3,
+    "actions": 0
+  },
+  {
+    "book": "ulisse",
+    "id": "belfast",
+    "name": "Belfast",
+    "reason": "famousCity",
+    "mentions": 6,
+    "actions": 0
+  },
+  {
+    "book": "ulisse",
+    "id": "belgium",
+    "name": "Belgium",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "ulisse",
+    "id": "berlin",
+    "name": "Berlin",
+    "reason": "famousCity",
+    "mentions": 4,
+    "actions": 0
+  },
+  {
+    "book": "ulisse",
+    "id": "budapest",
+    "name": "Budapest",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "ulisse",
+    "id": "canada",
+    "name": "Canada",
+    "reason": "country",
+    "mentions": 4,
+    "actions": 0
+  },
+  {
+    "book": "ulisse",
+    "id": "chile",
+    "name": "Chile",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "ulisse",
+    "id": "china",
+    "name": "China",
+    "reason": "country",
+    "mentions": 6,
+    "actions": 0
+  },
+  {
+    "book": "ulisse",
+    "id": "egypt",
+    "name": "Egypt",
+    "reason": "country",
+    "mentions": 10,
+    "actions": 0
+  },
+  {
+    "book": "ulisse",
+    "id": "england",
+    "name": "England",
+    "reason": "country",
+    "mentions": 10,
+    "actions": 0
+  },
+  {
+    "book": "ulisse",
+    "id": "europe",
+    "name": "Europe",
+    "reason": "continent",
+    "mentions": 8,
+    "actions": 0
+  },
+  {
+    "book": "ulisse",
+    "id": "florence",
+    "name": "Florence",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "ulisse",
+    "id": "france",
+    "name": "France",
+    "reason": "country",
+    "mentions": 4,
+    "actions": 0
+  },
+  {
+    "book": "ulisse",
+    "id": "germany",
+    "name": "Germany",
+    "reason": "country",
+    "mentions": 3,
+    "actions": 0
+  },
+  {
+    "book": "ulisse",
+    "id": "greece",
+    "name": "Greece",
+    "reason": "country",
+    "mentions": 5,
+    "actions": 0
+  },
+  {
+    "book": "ulisse",
+    "id": "holland",
+    "name": "Holland",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "ulisse",
+    "id": "hungary",
+    "name": "Hungary",
+    "reason": "country",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "ulisse",
+    "id": "india",
+    "name": "India",
+    "reason": "country",
+    "mentions": 3,
+    "actions": 0
+  },
+  {
+    "book": "ulisse",
+    "id": "italy",
+    "name": "Italy",
+    "reason": "country",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "ulisse",
+    "id": "jerusalem",
+    "name": "Jerusalem",
+    "reason": "famousCity",
+    "mentions": 4,
+    "actions": 0
+  },
+  {
+    "book": "ulisse",
+    "id": "london-city",
+    "name": "London",
+    "reason": "famousCity",
+    "mentions": 10,
+    "actions": 0
+  },
+  {
+    "book": "ulisse",
+    "id": "madrid",
+    "name": "Madrid",
+    "reason": "famousCity",
+    "mentions": 3,
+    "actions": 0
+  },
+  {
+    "book": "ulisse",
+    "id": "milan",
+    "name": "Milan",
+    "reason": "famousCity",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "ulisse",
+    "id": "naples",
+    "name": "Naples",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "ulisse",
+    "id": "ny",
+    "name": "New York City",
+    "reason": "famousCity",
+    "mentions": 4,
+    "actions": 0
+  },
+  {
+    "book": "ulisse",
+    "id": "palestine",
+    "name": "Palestine",
+    "reason": "country",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "ulisse",
+    "id": "paris",
+    "name": "Paris",
+    "reason": "famousCity",
+    "mentions": 10,
+    "actions": 0
+  },
+  {
+    "book": "ulisse",
+    "id": "peru",
+    "name": "Peru",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "ulisse",
+    "id": "portugal",
+    "name": "Portugal",
+    "reason": "country",
+    "mentions": 3,
+    "actions": 0
+  },
+  {
+    "book": "ulisse",
+    "id": "rome",
+    "name": "Rome",
+    "reason": "famousCity",
+    "mentions": 7,
+    "actions": 0
+  },
+  {
+    "book": "ulisse",
+    "id": "russia",
+    "name": "Russia",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "ulisse",
+    "id": "spain",
+    "name": "Spain",
+    "reason": "country",
+    "mentions": 7,
+    "actions": 0
+  },
+  {
+    "book": "ulisse",
+    "id": "venice",
+    "name": "Venice",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "ulisse",
+    "id": "vienna",
+    "name": "Vienna",
+    "reason": "famousCity",
+    "mentions": 4,
+    "actions": 0
+  },
+  {
+    "book": "war-and-peace",
+    "id": "africa",
+    "name": "Africa",
+    "reason": "continent",
+    "mentions": 4,
+    "actions": 0
+  },
+  {
+    "book": "war-and-peace",
+    "id": "america",
+    "name": "Americas",
+    "reason": "continent",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "war-and-peace",
+    "id": "austria",
+    "name": "Austria",
+    "reason": "country",
+    "mentions": 12,
+    "actions": 0
+  },
+  {
+    "book": "war-and-peace",
+    "id": "berlin",
+    "name": "Berlin",
+    "reason": "famousCity",
+    "mentions": 3,
+    "actions": 0
+  },
+  {
+    "book": "war-and-peace",
+    "id": "china",
+    "name": "China",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "war-and-peace",
+    "id": "copenhagen",
+    "name": "Copenhagen",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "war-and-peace",
+    "id": "dresden",
+    "name": "Dresden",
+    "reason": "famousCity",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "war-and-peace",
+    "id": "england",
+    "name": "England",
+    "reason": "country",
+    "mentions": 6,
+    "actions": 0
+  },
+  {
+    "book": "war-and-peace",
+    "id": "europe",
+    "name": "Europe",
+    "reason": "continent",
+    "mentions": 9,
+    "actions": 0
+  },
+  {
+    "book": "war-and-peace",
+    "id": "france",
+    "name": "France",
+    "reason": "country",
+    "mentions": 10,
+    "actions": 0
+  },
+  {
+    "book": "war-and-peace",
+    "id": "germany",
+    "name": "Germany",
+    "reason": "country",
+    "mentions": 3,
+    "actions": 0
+  },
+  {
+    "book": "war-and-peace",
+    "id": "greece",
+    "name": "Greece",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "war-and-peace",
+    "id": "italy",
+    "name": "Italy",
+    "reason": "country",
+    "mentions": 7,
+    "actions": 0
+  },
+  {
+    "book": "war-and-peace",
+    "id": "jerusalem",
+    "name": "Jerusalem",
+    "reason": "famousCity",
+    "mentions": 4,
+    "actions": 0
+  },
+  {
+    "book": "war-and-peace",
+    "id": "kyiv",
+    "name": "Kyiv",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "war-and-peace",
+    "id": "london",
+    "name": "London",
+    "reason": "famousCity",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "war-and-peace",
+    "id": "madrid",
+    "name": "Madrid",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "war-and-peace",
+    "id": "mexico",
+    "name": "Mexico",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "war-and-peace",
+    "id": "moscow",
+    "name": "Moscow",
+    "reason": "famousCity",
+    "mentions": 3,
+    "actions": 3
+  },
+  {
+    "book": "war-and-peace",
+    "id": "naples",
+    "name": "Naples",
+    "reason": "famousCity",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "war-and-peace",
+    "id": "paris",
+    "name": "Paris",
+    "reason": "famousCity",
+    "mentions": 11,
+    "actions": 0
+  },
+  {
+    "book": "war-and-peace",
+    "id": "petersburg",
+    "name": "Saint Petersburg",
+    "reason": "famousCity",
+    "mentions": 4,
+    "actions": 2
+  },
+  {
+    "book": "war-and-peace",
+    "id": "poland",
+    "name": "Poland",
+    "reason": "country",
+    "mentions": 8,
+    "actions": 0
+  },
+  {
+    "book": "war-and-peace",
+    "id": "rome",
+    "name": "Rome",
+    "reason": "famousCity",
+    "mentions": 3,
+    "actions": 0
+  },
+  {
+    "book": "war-and-peace",
+    "id": "russia",
+    "name": "Russia",
+    "reason": "country",
+    "mentions": 16,
+    "actions": 0
+  },
+  {
+    "book": "war-and-peace",
+    "id": "spain",
+    "name": "Spain",
+    "reason": "country",
+    "mentions": 3,
+    "actions": 0
+  },
+  {
+    "book": "war-and-peace",
+    "id": "switzerland",
+    "name": "Switzerland",
+    "reason": "country",
+    "mentions": 4,
+    "actions": 0
+  },
+  {
+    "book": "war-and-peace",
+    "id": "vienna",
+    "name": "Vienna",
+    "reason": "famousCity",
+    "mentions": 6,
+    "actions": 0
+  },
+  {
+    "book": "war-and-peace",
+    "id": "vienna",
+    "name": "Vienna",
+    "reason": "famousCity",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "wuthering-heights",
+    "id": "china",
+    "name": "China · imagined origin",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "wuthering-heights",
+    "id": "england",
+    "name": "England",
+    "reason": "country",
+    "mentions": 6,
+    "actions": 0
+  },
+  {
+    "book": "wuthering-heights",
+    "id": "india",
+    "name": "India · imagined origin",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  },
+  {
+    "book": "wuthering-heights",
+    "id": "liverpool",
+    "name": "Liverpool",
+    "reason": "famousCity",
+    "mentions": 2,
+    "actions": 0
+  },
+  {
+    "book": "wuthering-heights",
+    "id": "london",
+    "name": "London and its unspecified vicinity",
+    "reason": "famousCity",
+    "mentions": 6,
+    "actions": 0
+  },
+  {
+    "book": "wuthering-heights",
+    "id": "spain",
+    "name": "Spain · conjectured origin",
+    "reason": "country",
+    "mentions": 1,
+    "actions": 0
+  }
+]
