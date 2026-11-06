@@ -1,4 +1,6 @@
-# Ulisse, I: Telemaco — verifica del 5 novembre 2026
+# Ulisse, I: Telemaco — verifica del 5–6 novembre 2026
+
+**Aggiornamento 6 novembre:** le indicazioni «da aggiungere/verificare» nella tabella storica del 5 novembre sono superate, per gli undici riferimenti elencati nel supplemento in fondo, dalla loro verifica e pubblicazione. L'atlante pubblico ora mostra 2 luoghi d'azione e 13 luoghi citati. La revisione resta parziale per le dieci lacune geografiche e per le traduzioni, conservate anche nel database.
 
 La lettura dell'intero episodio è stata svolta sulla trascrizione della prima edizione del 1922, dall'incipit fino a «Usurper»: https://en.wikisource.org/wiki/Ulysses_(1922)/Chapter_1 (versione indicata dalla pagina: oldid=11518819). La verifica riguarda esclusivamente l'episodio I. Non è una revisione integrale del romanzo. Sono state lette le istruzioni analisi-opere, citazioni e atlante.
 
@@ -83,3 +85,41 @@ La ricerca non ha trovato una traduzione di pubblico dominio verificata dei quat
 ## Verifiche
 
 `npx tsx research/ulisse-chapter-1/check.ts`: esecuzione di SQL e vincoli in PGlite, ripetibilità del primo aggiornamento, ricostruzione dei quattro record, categorie e termini effettivamente presenti nei passi. Verifica pubblica dal browser interno: capitolo I mostra due luoghi d'azione e due luoghi citati, attribuzione 1922 e ripiego inglese dichiarato. La verifica delle menzioni ancora pendenti non è completata e non viene presentata come pubblicata.
+
+## Supplemento del 6 novembre: undici nuove menzioni pubblicate
+
+`continue.sql`, applicato dal SQL Editor nel browser interno, aggiunge esclusivamente associazioni `mentioned`, ciascuna con estratto originale, fonte geografica, motivazione narrativa e descrizione nelle quattro lingue. I testi completi, le coordinate, i metodi e i termini da evidenziare sono in `continue-records.json`.
+
+| Riferimento | Fonte della posizione e precisione | Parole del passo |
+| --- | --- | ---: |
+| Baia di Dublino | https://en.wikipedia.org/wiki/Dublin_Bay, riferimento rappresentativo della baia | 68 |
+| Bray Head | https://www.npws.ie/protected-sites/sac/000714, riferimento dell'area protetta sul promontorio del Wicklow, non della vetta | 47 |
+| Clongowes | https://en.wikipedia.org/wiki/Clongowes_Wood_College, riferimento al campus; identità/indirizzo corroborati da https://www.isc.co.uk/schools/republic-of-ireland/co-kildare/clane/clongowes-wood-college-sj/ | 53 |
+| Muglins | https://www.irishlights.ie/tourism/our-lighthouses/muglins.aspx, posizione del segnale sugli scogli, non della vela; nel 1904 il segnale non era ancora luminoso | 42 |
+| Bullock Harbour | https://en.wikipedia.org/wiki/Bullock_Harbour e piano comunale già citato, riferimento al bacino portuale | 53 |
+| Westmeath | https://www.geonames.org/2960972/county-westmeath.html, riferimento alla contea; non un indirizzo dei Bannon | 38 |
+| Mater | https://hospitalsdatabase.lshtm.ac.uk/hospital.php?hospno=975, riferimento storico al sito su Eccles Street; non al moderno Mater Private | 51 |
+| Dottyville | https://en.wikipedia.org/wiki/St._Brendan%27s_Hospital,_Dublin, riferimento al sito dell'asilo; identità documentata da https://www.dib.ie/biography/norman-conolly-a6233 | 31 |
+| Elsinore | https://whc.unesco.org/en/list/696, coordinate di Kronborg, esplicitamente un modello del castello letterario; rapporto documentato dal museo https://kronborg.dk/en/knowledge/who-is-hamlet | 32 |
+| Imboccatura del porto di Kingstown | https://www.irishlights.ie/media/12547/gla-aton-review-2010-15.pdf, riferimento fisso al faro sul lato orientale dell'ingresso, non posizione del piroscafo; identità storica https://www.dublinportarchive.com/collection/dun-laoghaire-harbour/ | 47 |
+| Magdalen | https://en.wikipedia.org/wiki/Magdalen_College,_Oxford, riferimento al collegio; il testo nomina l'affiliazione di Ades ma non prova che gli alloggi di Kempthorpe siano nel collegio: categoria prudenziale `mentioned` | 84 |
+
+Totale nuovo lotto: 546 parole; totale dei 15 blocchi visibili verificati: 775 parole, dall'originale inglese del 1922. La selezione conserva passi comprensibili e proporzionati alla singola funzione geografica, senza imporre un numero meccanico di righe. Le lunghezze da 31 a 84 parole sono valutate sul senso del passo, non sul numero di righe sul dispositivo. Le descrizioni spiegano ciò che le citazioni da sole non dimostrano, per esempio il rapporto con il modello Kronborg o la precisione territoriale di Westmeath.
+
+La Biblioteca nazionale aveva una descrizione globale che richiamava impropriamente la discussione shakespeariana dell'episodio IX anche nella scheda dell'episodio I. È stata sostituita nelle quattro lingue con una descrizione geografica del palazzo su Kildare Street, accanto a Leinster House. Fonti: https://www.nli.ie/visit/getting-here e https://www.nli.ie/about-us/our-history. Il passo del capitolo I continua a documentare la visita progettata da Haines.
+
+`labels.sql` aggiunge nomi geografici tradotti IT/FR/ES per baia, porto, modello, asilo e Biblioteca, senza sostituire traduzioni preesistenti. Questi sono testi redazionali dell'atlante, non traduzioni del romanzo.
+
+Verifiche locali: SQL in PGlite con vincoli e ricostruzione, ripetibilità dell'intero lotto, 15 associazioni visibili attese, categoria e grassetto pertinenti, descrizioni IT/EN/FR/ES. Verifiche pubbliche nel browser interno: tutti gli undici nuovi passi più la Biblioteca hanno citazione e grassetto; nessun collegamento al testo del romanzo nelle schede; tutte le 33 descrizioni nuove nelle tre lingue non originali sono state confrontate con i dati pubblicati (`public-checks.json`, `locale-checks.json`). La tendina resta disabilitata sull'inglese quando è la sola versione autentica verificata.
+
+## Lacune residue e ricerche con esito incompleto
+
+Sono registrate in `gaps.json` e in `books.metadata.chapterOneReview` con stato `partial`, riscontri originali e motivazioni. Restano: coordinate storiche di Ship e Lalouette, identificazione del Richmond accanto al Mater, le due case ricordate, la scuola richiamata indirettamente, il molo non identificato, una geometria utile della Corrente del Golfo, Calvary e Olivet. Non sono posizioni dichiarate completate, né nuovi punti arbitrari.
+
+Ship: l'indirizzo storico 5 Lower Abbey Street è corroborato da https://www.riverrun.org.uk/JJD2_Small.pdf e https://www.irishgenealogy.ie/2016-family-history/learning-resources/sean-mac-diarmada.html. Lalouette: Thom's 1904 riporta 68 Marlborough Street (https://conor-mccabe.com/wp-content/uploads/2023/01/thoms-1904-street-directory.pdf). Le richieste di geocodifica dei due indirizzi non hanno restituito un risultato verificabile con gli strumenti disponibili. Una ricerca senza risultato non prova l'assenza del luogo.
+
+Richmond: la precedente ipotesi di ospedale chirurgico richiede verifica; le annotazioni di Gifford reperite tramite ricerca propongono anche l'asilo. Non è stato creato un secondo punto su quella sola ipotesi. Dottyville, invece, è documentato indipendentemente dalla biografia di Norman.
+
+Sandycove è già rappresentata dalla torre e dal luogo di balneazione; la menzione dell'origine del latte resta nell'inventario senza duplicare il territorio. Oxford come città famosa resta esclusa dalla vista; il collegio esplicitamente nominato Magdalen è un riferimento distinto. Le tre associazioni escluse già archiviate (Parigi, Atene, Inghilterra) sono conservate.
+
+Traduzioni: la ricerca aggiuntiva ha trovato la copia dell'episodio di Rossi nel catalogo del Museo Joyce di Trieste (https://museojoycetrieste.it/en/online-catalogue/), mentre la cronologia dello stesso museo parla di traduzione di una parte dell'episodio (https://museojoycetrieste.it/en/james-joyce-and-trieste/chronology/). Estensione effettiva, corrispondenze e diritti restano non verificati: non si dichiara l'episodio integralmente disponibile e riutilizzabile. Le ricerche biografiche non hanno identificato con sicurezza le date del traduttore Alberto Rossi; sono stati esclusi gli omonimi pittore e autore contemporaneo. Il ripiego sull'originale resta esplicito per tutti i passi e non equivale a copertura quadrilingue delle citazioni.
