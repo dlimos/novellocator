@@ -9,7 +9,7 @@ git('merge-base','--is-ancestor',head,remote)
 env=os.environ.copy()
 env['GIT_INDEX_FILE']=str(root/'research/ulisse-chapter-1/publication-index')
 git('read-tree',remote,env=env)
-files=['REVIEW.md','prepare.cjs','publish.sql','position.sql','check.ts','excerpts-reviewed.json','publish-git.py','continue.cjs','continue.sql','continue-records.json','gaps.cjs','gaps.json','gaps.sql','labels.cjs','labels.sql','public-checks.json','locale-checks.json']
+files=['REVIEW.md','prepare.cjs','publish.sql','position.sql','check.ts','excerpts-reviewed.json','publish-git.py','continue.cjs','continue.sql','continue-records.json','gaps.cjs','gaps.json','gaps.sql','labels.cjs','labels.sql','public-checks.json','locale-checks.json','addresses.cjs','addresses.sql','addresses-records.json','check-address-coordinate.py','address-coordinate-check.json','address-public-checks.json']
 for name in files:
  path='research/ulisse-chapter-1/'+name
  blob=git('hash-object','-w','--stdin',input=(root/path).read_bytes()).decode().strip()
@@ -18,7 +18,7 @@ path='research/ulisse-capitolo-1-revisione-preliminare.md'
 blob=git('hash-object','-w','--stdin',input=(root/path).read_bytes()).decode().strip()
 git('update-index','--add','--cacheinfo','100644',blob,path,env=env)
 tree=git('write-tree',env=env).decode().strip()
-commit=git('commit-tree',tree,'-p',remote,'-m','Document and publish eleven further Telemachus geographical references').decode().strip()
+commit=git('commit-tree',tree,'-p',remote,'-m','Add verified historical-site references for The Ship and Lalouette’s in Telemachus').decode().strip()
 git('update-ref','refs/heads/docs',commit,head)
 print(commit)
 print(git('push','origin','docs').decode())

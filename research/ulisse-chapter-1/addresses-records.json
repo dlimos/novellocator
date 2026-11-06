@@ -1,0 +1,79 @@
+[
+  {
+    "id": "ship",
+    "name": "The Ship",
+    "area": "5 Lower Abbey Street · Dublin",
+    "coords": [
+      53.34867,
+      -6.258728
+    ],
+    "geo": "https://ie.near-place.com/ladbrokes-5-lower-abbey-street-dublin",
+    "additional": "https://www.riverrun.org.uk/JJD2_Small.pdf",
+    "sources": [
+      "https://www.irishgenealogy.ie/2016-family-history/learning-resources/sean-mac-diarmada.html",
+      "https://www.revenue.ie/en/corporate/documents/statistics/excise/register-of-bookmaking-offices.pdf"
+    ],
+    "method": "Historical address 5 Lower Abbey Street established by Gunn, Hart and Beck, James Joyce’s Dublin, map 12 (PDF page 44), and Irish Genealogy. Position is the published coordinate of the modern civic address, corroborated against the guide’s street map; approximate reference for the historical plot, not a surveyed coordinate or a claim that the original tavern survives.",
+    "precision": {
+      "type": "historical-site-reference",
+      "basis": "Modern civic address matched to a historical topographical map",
+      "originalCoordinate": [
+        53.3486704,
+        -6.2587275
+      ],
+      "originalBuildingSurvival": "Not established"
+    },
+    "terms": [
+      "The Ship"
+    ],
+    "quote": "—We’ll see you again, Haines said, turning as Stephen walked up the path and smiling at wild Irish.\n\nHorn of a bull, hoof of a horse, smile of a Saxon.\n\n—The Ship, Buck Mulligan cried. Half twelve.\n\n—Good, Stephen said.\n\nHe walked along the upwardcurving path.",
+    "texts": {
+      "it": "The Ship era un albergo e una taverna al 5 di Lower Abbey Street. Alla fine dell’episodio Mulligan vi dà appuntamento a Stephen per mezzogiorno e mezzo.",
+      "en": "The Ship was a hotel and tavern at 5 Lower Abbey Street. At the end of the episode Mulligan arranges to meet Stephen there at half past twelve.",
+      "fr": "The Ship était un hôtel et une taverne au 5 Lower Abbey Street. À la fin de l’épisode, Mulligan y donne rendez-vous à Stephen à midi et demi.",
+      "es": "The Ship era un hotel y una taberna en el número 5 de Lower Abbey Street. Al final del episodio Mulligan cita allí a Stephen a las doce y media."
+    }
+  },
+  {
+    "id": "lalouette",
+    "name": "Lalouette’s",
+    "area": "68 Marlborough Street · Dublin",
+    "coords": [
+      53.352058,
+      -6.25948
+    ],
+    "geo": "https://data.smartdublin.ie/dataset/f1dd00f0-5914-4b97-b66e-0dbb4bcb510c/resource/f0288278-32e4-4117-803e-9ac10b83a882/download/251218-rps-master-2022-2028_for-gis.csv",
+    "additional": "https://www.buildingsofireland.ie/buildings-search/building/50010236/school-of-culinary-arts-and-food-technology-66-74-cathal-brugha-street-marlborough-street-dublin-1-dublin",
+    "sources": [
+      "https://conor-mccabe.com/wp-content/uploads/2023/01/thoms-1904-street-directory.pdf",
+      "https://james-joyce.ru/ulysses/LastPink.pdf",
+      "https://www.dublincity.ie/sites/default/files/2026-01/volume-3.pdf",
+      "https://www.riverrun.org.uk/JJD2_Small.pdf"
+    ],
+    "method": "Thom’s 1904 directory and the contemporary Lalouette advertisement identify 68 Marlborough Street. Dublin City Council’s 2005–2011 RPS, entry 5119, places no. 68 in the College of Catering site (66–72 Marlborough Street). NIAH 50010236 dates the replacement college to 1938–39. Current DCC RPS CSV entry 1331 locates that compound at Irish Grid E315949.03 N234923.958; transformed from EPSG:29903 to EPSG:4326 with pyproj, yielding 53.3520579375438,-6.259480078764796. Approximate reference to the replacement complex containing the historical site, not the footprint or entrance of the lost no. 68 building.",
+    "precision": {
+      "type": "historical-site-area",
+      "basis": "Later college complex containing the former numbered plots; original individual plot not separately surveyed",
+      "originalBuildingSurvival": "Replaced by the college built in 1938–39",
+      "sourceRecord": "Dublin City Council RPS 1331",
+      "sourceCrs": "EPSG:29903",
+      "sourceEasting": 315949.03,
+      "sourceNorthing": 234923.958,
+      "targetCrs": "EPSG:4326",
+      "unroundedCoordinate": [
+        53.3520579375438,
+        -6.259480078764796
+      ]
+    },
+    "terms": [
+      "Lalouette’s"
+    ],
+    "quote": "You crossed her last wish in death and yet you sulk with me because I don’t whinge like some hired mute from Lalouette’s. Absurd! I suppose I did say it. I didn’t mean to offend the memory of your mother.",
+    "texts": {
+      "it": "Lalouette’s era l’impresa funebre al 68 di Marlborough Street evocata da Mulligan parlando del lutto di Stephen. Il sito storico si trova nell’area del College of Catering, costruito nel 1938–39.",
+      "en": "Lalouette’s was the funeral establishment at 68 Marlborough Street that Mulligan evokes while speaking of Stephen’s mourning. Its historical site lies within the area of the College of Catering, built in 1938–39.",
+      "fr": "Lalouette’s était l’entreprise de pompes funèbres du 68 Marlborough Street évoquée par Mulligan à propos du deuil de Stephen. Son emplacement historique se trouve dans l’enceinte du College of Catering, construit en 1938–39.",
+      "es": "Lalouette’s era la funeraria del número 68 de Marlborough Street que Mulligan evoca al hablar del duelo de Stephen. Su emplazamiento histórico se encuentra en el recinto del College of Catering, construido en 1938–39."
+    }
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "sourceRecord": {
+    "RPS_ID": "1331",
+    "STREET_NUMBER": "",
+    "Post Code": "Dublin 1",
+    "Address Full": "Cathal Brugha Street/ 66-72 Marlborough Street, Dublin 1",
+    "DESCRIPTION": "Dublin College of Catering",
+    "SECONDARY_DESCRIPTION": "",
+    "IG_EASTING": "315949.03",
+    "IG_NORTHING": "234923.958"
+  },
+  "sourceCrs": "EPSG:29903",
+  "targetCrs": "EPSG:4326",
+  "latitude": 53.3520579375438,
+  "longitude": -6.259480078764796,
+  "transformation": "Inverse of Irish Grid + TM75 to WGS 84 (2) (with axis order normalized for visualization)",
+  "limitation": "Area of later college complex, not a surveyed coordinate of the former no. 68 plot."
+}

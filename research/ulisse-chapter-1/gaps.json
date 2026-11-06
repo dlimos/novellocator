@@ -17,28 +17,20 @@
     "dottyville",
     "elsinore-model",
     "kingstown-harbour",
-    "magdalen"
+    "magdalen",
+    "ship",
+    "lalouette"
   ],
+  "addressResolution": {
+    "date": "2026-11-06",
+    "ids": [
+      "ship",
+      "lalouette"
+    ],
+    "precision": "Ship: modern civic address matched to historical map. Lalouette: area of replacement college complex, not original building.",
+    "records": "research/ulisse-chapter-1/addresses-records.json"
+  },
   "pending": [
-    {
-      "id": "ship",
-      "category": "mentioned",
-      "evidence": "That fellow I was with in the Ship last night",
-      "reason": "Address 5 Lower Abbey Street confirmed by the topographical guide and Irish Genealogy; no independently verified coordinate for the historical plot. A modern geocoding request did not return a usable result.",
-      "sources": [
-        "https://www.riverrun.org.uk/JJD2_Small.pdf",
-        "https://www.irishgenealogy.ie/2016-family-history/learning-resources/sean-mac-diarmada.html"
-      ]
-    },
-    {
-      "id": "lalouette",
-      "category": "mentioned",
-      "evidence": "You crossed her last wish in death and yet you sulk with me because I don’t whinge like some hired mute from Lalouette’s.",
-      "reason": "Thom’s 1904 directory lists the establishment at 68 Marlborough Street. Historical plot coordinate not independently verified; failed modern geocoding is not an absence-of-place finding.",
-      "sources": [
-        "https://conor-mccabe.com/wp-content/uploads/2023/01/thoms-1904-street-directory.pdf"
-      ]
-    },
     {
       "id": "richmond",
       "category": "mentioned",

@@ -1,0 +1,90 @@
+[
+  {
+    "language": "it",
+    "id": "ship",
+    "description": true,
+    "quote": true,
+    "highlight": true,
+    "attribution": true,
+    "originalOnly": true,
+    "noNovelLink": true,
+    "coordinate": true
+  },
+  {
+    "language": "it",
+    "id": "lalouette",
+    "description": true,
+    "quote": true,
+    "highlight": true,
+    "attribution": true,
+    "originalOnly": true,
+    "noNovelLink": true,
+    "coordinate": true
+  },
+  {
+    "language": "en",
+    "id": "ship",
+    "description": true,
+    "quote": true,
+    "highlight": true,
+    "attribution": true,
+    "originalOnly": true,
+    "noNovelLink": true,
+    "coordinate": true
+  },
+  {
+    "language": "en",
+    "id": "lalouette",
+    "description": true,
+    "quote": true,
+    "highlight": true,
+    "attribution": true,
+    "originalOnly": true,
+    "noNovelLink": true,
+    "coordinate": true
+  },
+  {
+    "language": "fr",
+    "id": "ship",
+    "description": true,
+    "quote": true,
+    "highlight": true,
+    "attribution": true,
+    "originalOnly": true,
+    "noNovelLink": true,
+    "coordinate": true
+  },
+  {
+    "language": "fr",
+    "id": "lalouette",
+    "description": true,
+    "quote": true,
+    "highlight": true,
+    "attribution": true,
+    "originalOnly": true,
+    "noNovelLink": true,
+    "coordinate": true
+  },
+  {
+    "language": "es",
+    "id": "ship",
+    "description": true,
+    "quote": true,
+    "highlight": true,
+    "attribution": true,
+    "originalOnly": true,
+    "noNovelLink": true,
+    "coordinate": true
+  },
+  {
+    "language": "es",
+    "id": "lalouette",
+    "description": true,
+    "quote": true,
+    "highlight": true,
+    "attribution": true,
+    "originalOnly": true,
+    "noNovelLink": true,
+    "coordinate": true
+  }
+]
