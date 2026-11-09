@@ -18,3 +18,11 @@ Aggiornamento: 9 novembre 2026. La verifica non è conclusa. Priorità: coordina
 - [Scheda generale delle versioni](../ulisse/STATO-TRADUZIONI.md): edizioni e problemi di riuso. I passi del capitolo non sono ancora allineati alle tre traduzioni né pubblicati con questa verifica.
 
 Restano da acquisire i dati correnti Supabase, completare la lettura e l'inventario dei luoghi geograficamente collocabili, controllare le coordinate una per una e i passi originali, poi le tre traduzioni. La connessione diretta a Supabase ha restituito errore DNS il 9 novembre; nessun dato del sito è stato modificato. Le altre menzioni e i luoghi esclusi non sono ancora censiti qui. I luoghi senza coordinate restano non prioritari per la selezione di citazioni, secondo l'indicazione dell'utente.
+
+## Aggiornamento: riscontro del database pubblico
+
+Il 9 novembre 2026 è stata acquisita una lettura delle tabelle pubbliche Supabase e ricostruito il romanzo con l'adattatore del sito. Per il capitolo 12 risultano ancora `stoney`, `green` e `kiernan` fra i luoghi dell'azione e 18 associazioni citate. La citazione generale inglese usa l'incontro di Stoneybatter; `kiernan` ha un passo inglese, ma non traduzioni; `green` non ha un passo specifico in `placeExcerpts`. I dati effettivamente mostrati dal sito e l'eventuale ripiego devono essere verificati separatamente. La presenza del testo nel database non certifica la correttezza di ogni trascrizione. Non sono stati modificati né il database né il sito.
+
+È stata acquisita la [trascrizione della prima edizione, capitolo 12](https://en.wikisource.org/wiki/Ulysses_(1922)/Chapter_12), completa dall'incontro su Arbour Hill fino alla partenza di Bloom. È disponibile per la rilettura, che rimane pendente per le parti non ancora esaminate; l'acquisizione del testo non equivale alla lettura completa. La trascrizione Wikisource presenta possibili refusi: per ciascun estratto verificare anche la pagina della scansione prima di dichiararlo controllato.
+
+Il precedente errore DNS era legato al percorso di rete diretto; la lettura pubblica è riuscita attraverso il collegamento disponibile il 9 novembre. Restano da controllare l'inventario completo dei luoghi e relative coordinate, le citazioni specifiche, le traduzioni, il riuso e la pubblicazione delle modifiche ai dati.
