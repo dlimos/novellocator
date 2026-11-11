@@ -1,0 +1,59 @@
+[
+  {
+    "id": "clongowes",
+    "ref": "3:core:clongowes",
+    "category": "action",
+    "ord": 5,
+    "quote": "I would try. I am not a strong swimmer. Water cold soft. When I put my face into it in the basin at Clongowes. Can’t see! Who’s behind me? Out quickly, quickly!",
+    "terms": [
+      "Clongowes"
+    ],
+    "scene": "In a brief recollected scene Stephen puts his face in water at Clongowes and feels fear; the campus is the geographic location, not a separate interior.",
+    "coords": [
+      53.310917,
+      -6.683444
+    ],
+    "texts": {
+      "it": "Collegio gesuita presso Clane, nella contea di Kildare, frequentato da Stephen negli anni di scuola.",
+      "en": "The Jesuit college near Clane, County Kildare, attended by Stephen in his schooldays.",
+      "fr": "Collège jésuite près de Clane, dans le comté de Kildare, fréquenté par Stephen pendant ses années d’école.",
+      "es": "Colegio jesuita cerca de Clane, en el condado de Kildare, al que asistió Stephen durante sus años escolares."
+    }
+  },
+  {
+    "id": "ship",
+    "ref": "3:core:ship",
+    "category": "mentioned",
+    "ord": 6,
+    "quote": "I mustn’t forget his letter for the press. And after? The Ship, half twelve. By the way go easy with that money like a good young imbecile. Yes, I must.",
+    "terms": [
+      "The Ship"
+    ],
+    "scene": "Stephen remembers the planned half-past-twelve meeting at The Ship; he is still on the strand and no scene at the tavern is narrated here.",
+    "coords": [
+      53.34867,
+      -6.258728
+    ],
+    "texts": {
+      "it": "The Ship era un albergo e una taverna al 5 di Lower Abbey Street; il punto fa riferimento al sito dell’indirizzo storico.",
+      "en": "The Ship was a hotel and tavern at 5 Lower Abbey Street; the point refers to the site of that historical address.",
+      "fr": "The Ship était un hôtel et une taverne au 5 Lower Abbey Street ; le point indique le site de cette adresse historique.",
+      "es": "The Ship era un hotel y una taberna en el número 5 de Lower Abbey Street; el punto señala el sitio de esa dirección histórica."
+    }
+  },
+  {
+    "id": "tower",
+    "ref": "3:core:tower",
+    "category": "mentioned",
+    "ord": 7,
+    "quote": "Turning, he scanned the shore south, his feet sinking again slowly in new sockets. The cold domed room of the tower waits. Through the barbacans the shafts of light are moving ever, slowly ever as my feet are sinking, creeping duskward over the dial floor. Blue dusk, nightfall, deep blue night.",
+    "terms": [
+      "tower"
+    ],
+    "scene": "Stephen thinks of the tower while looking south from the strand; the present scene remains on the shore.",
+    "coords": [
+      53.288656,
+      -6.113632
+    ]
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "id": "hodges-figgis-1904",
+    "name": "Hodges Figgis · 104 Grafton Street",
+    "area": "104 Grafton Street · Dublin",
+    "lat": 53.3431618,
+    "lon": -6.2597599,
+    "kind": "historical",
+    "category": "action",
+    "ordinal": 8,
+    "geo": "https://www.openstreetmap.org/way/260269663",
+    "secondary": "https://catalogue.nli.ie/Record/vtls000511742",
+    "scene": "Stephen recalls looking at a woman outside the shop window on Monday, a brief remembered scene; the marker represents the historic address, not the present branch.",
+    "quote": "What she? The virgin at Hodges Figgis’ window on Monday looking in for one of the alphabet books you were going to write. Keen glance you gave her. Wrist through the braided jesse of her sunshade. She lives in Leeson park with a grief and kickshaws, a lady of letters.",
+    "term": "Hodges Figgis’",
+    "method": "OpenStreetMap building for present-day 104 Grafton Street; NLI invoice and UCD historical photograph document the bookshop at the same civic address. Approximate address reference; no claim of the original shopfront surviving.",
+    "texts": {
+      "it": "Nel 1904 la libreria Hodges Figgis si trovava al 104 di Grafton Street. Il punto indica il sito dell’indirizzo storico, non la sede attuale.",
+      "en": "In 1904 Hodges Figgis stood at 104 Grafton Street. The point marks the site of the historical address, not the present shop.",
+      "fr": "En 1904, la librairie Hodges Figgis se trouvait au 104 Grafton Street. Le point indique le site de l’adresse historique, et non la librairie actuelle.",
+      "es": "En 1904 la librería Hodges Figgis estaba en el número 104 de Grafton Street. El punto señala el lugar de la dirección histórica, no la librería actual."
+    }
+  },
+  {
+    "id": "strasburg-terrace",
+    "name": "Strasburg Terrace",
+    "area": "Irishtown · Dublin",
+    "lat": 53.3400566,
+    "lon": -6.2219122,
+    "kind": "street",
+    "category": "mentioned",
+    "ordinal": 9,
+    "geo": "https://www.openstreetmap.org/way/370708001",
+    "secondary": "https://www.riverrun.org.uk/JJD2.pdf",
+    "scene": "Stephen weighs visiting his aunt and remembers his father mentioning her on Strasburg Terrace; no specific aunt’s house is geographically identified.",
+    "quote": "His pace slackened. Here. Am I going to aunt Sara’s or not? My consubstantial father’s voice. Did you see anything of your artist brother Stephen lately? No? Sure he’s not down in Strasburg terrace with his aunt Sally? Couldn’t he fly a bit higher than that, eh?",
+    "term": "Strasburg terrace",
+    "method": "OpenStreetMap representative coordinate of the named street; Gunn, Hart and Beck map 6 identifies Strasburg Terrace. The point does not identify the cottage or a particular house.",
+    "texts": {
+      "it": "Breve strada di Irishtown indicata nella guida topografica di Joyce. Il punto rappresenta la strada, senza attribuire un numero civico alla casa della zia.",
+      "en": "A short street in Irishtown identified in the Joyce topographical guide. The point represents the street, without assigning a house number to Stephen’s aunt.",
+      "fr": "Courte rue d’Irishtown figurant dans le guide topographique de Joyce. Le point représente la rue, sans attribuer de numéro à la maison de la tante.",
+      "es": "Calle corta de Irishtown identificada en la guía topográfica de Joyce. El punto representa la calle sin atribuir un número a la casa de la tía."
+    }
+  }
+]
