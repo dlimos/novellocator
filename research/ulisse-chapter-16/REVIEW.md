@@ -22,3 +22,27 @@ Tra le associazioni citate nel database compaiono anche località generiche e pa
 ## Lavoro ancora necessario
 
 Rileggere integralmente l'episodio e completare il censimento, verificare la trasposizione della mappa storica e tutte le coordinate pertinenti, aggiornare i passi originali delle associazioni coordinate, e infine allineare e verificare le tre traduzioni ammissibili. L'eventuale riuso delle versioni protette e della copia spagnola con divieto di distribuzione esterna rimane da valutare separatamente. Nessuna modifica al database o al sito è stata eseguita con questa verifica parziale.
+
+## Aggiornamento del 10–11 novembre 2026
+
+La lettura dell'episodio originale è stata ripresa lungo tutto il testo, dall'uscita da Nighttown al dialogo presso Lower Gardiner Street. Il censimento geografico e l'esame critico di tutti i riferimenti rimangono incompleti: la lettura non equivale alla verifica finale delle associazioni.
+
+La risposta pubblica e la pagina del capitolo sono state verificate dopo l'aggiornamento: i luoghi dell'azione visibili sono sei. I quattro preesistenti hanno ora un originale pertinente, incluso Amiens Street Station, che prima non aveva un passo specifico. Sono state aggiunte le seguenti associazioni, entrambe con originale inglese:
+
+| Luogo geografico | Funzione narrativa | Coordinate | Lingue del passo | Stato/note |
+| --- | --- | --- | ---: | --- |
+| Store Street | Azione: i due vi svoltano dopo la stazione e il Dock Tavern | 53.34972, −6.25222 | 1 (en) | Visibile; punto rappresentativo della via, non posizione esatta dei personaggi. [Fonte geografica](https://en.wikipedia.org/wiki/Store_Street); percorso storico nella mappa 30 della guida citata sopra. |
+| Beresford Place | Azione: attraversata a braccetto dopo il ricovero | 53.348561, −6.255137 | 1 (en) | Visibile; punto di riferimento già esistente per un edificio della via, non una misurazione dello spostamento. [Fonte NIAH del record](https://www.buildingsofireland.ie/niah/search.jsp?type=record&county=DU&regno=50010301); mappa 32 della guida. |
+
+L'inserimento ha inizialmente rivelato una mancanza nei campi legacy della sezione che impediva di ricostruire il romanzo; è stata corretta la configurazione della sola sezione XVI e la pagina pubblica è tornata a caricarsi, mostrando sei luoghi d'azione. Le traduzioni non sono state inserite.
+
+### Altri riscontri geografici da completare
+
+- **Custom House**: i due passano dietro all'edificio. [NIAH 50010133](https://www.buildingsofireland.ie/buildings-search/building/50010133/custom-house-custom-house-quay-beresford-place-dublin-1-co-dublin) identifica l'edificio; [European Heritage Awards](https://europeanheritageawards-archive.eu/laureates-1978-2022/detail/custom-house-dublin) ne fornisce una posizione rappresentativa. Coordinata da trasformare e verificare, nessuna associazione inserita.
+- **Loop Line bridge**: attraversano sotto il ponte e incontrano Corley; la coordinata 53.3480, −6.2546 della [fonte geografica](https://en.wikipedia.org/wiki/Loopline_Bridge) rappresenta il ponte sul fiume, non necessariamente il punto sotto le arcate della scena. La localizzazione va precisata prima dell'inserimento.
+- **Trieste**: il marinaio descrive una specifica aggressione in un postribolo; la categoria `mentioned` già in database va riesaminata come possibile azione raccontata. Il punto cittadino rappresentativo non identifica l'edificio e l'attendibilità del racconto è dubbia nel romanzo. Non è stata cambiata la categoria.
+- **Brazen Head**: Corley lo indica come possibilità di alloggio. La guida di Gunn, Hart e Beck segnala che la sua indicazione di Winetavern Street è errata rispetto al sito storico di Lower Bridge Street, confermato da [NIAH 50080525](https://www.buildingsofireland.ie/buildings-search/building/50080525/the-brazen-head-19-20-bridge-street-lower-dublin-8-dublin). Posizione da verificare prima dell'inserimento; non correggere il testo di Joyce.
+- **Carrigaloe**: il marinaio la indica come sua provenienza; [Mapcarta/OpenStreetMap](https://mapcarta.com/18277104) propone un punto rappresentativo 51.86907, −8.32452. La corrispondenza e le altre menzioni nautiche richiedono ancora verifica.
+- **Babilonia**: il passo esistente allude metaforicamente a Londra come «modern Babylon»; non prova di per sé una menzione geografica dell'antica città. L'associazione pubblica va riesaminata senza eliminare dati automaticamente.
+
+Le traduzioni del percorso iniziale sono state localizzate nella copia De Angelis, pp. 789–790, Morel, tomo II, pp. 346–347, e nella copia spagnola PruébaT, p. 540. Il francese usa «Castor Street», «Castor Lane» e «Montmorency Street»: sono forme dell'edizione e non vanno corrette nei passi. Il confronto visivo ha riguardato queste pagine, non tutte le citazioni del capitolo. Le questioni di riuso e la valutazione complessiva rimangono nella [scheda delle versioni](../ulisse/STATO-TRADUZIONI.md).
