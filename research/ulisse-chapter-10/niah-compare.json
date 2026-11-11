@@ -1,0 +1,287 @@
+[
+  {
+    "id": "gardiner",
+    "name": "St Francis Xavier presbytery",
+    "reg": 50010877,
+    "easting": 315920,
+    "northing": 235605,
+    "lat": 53.35818,
+    "lon": -6.259666,
+    "old": [
+      53.358133,
+      -6.260184
+    ],
+    "distance_m": 34.7,
+    "url": "https://www.buildingsofireland.ie/buildings-search/?query=50010877"
+  },
+  {
+    "id": "aldborough",
+    "name": "Aldborough House",
+    "reg": 50010082,
+    "easting": 316696,
+    "northing": 235287,
+    "lat": 53.355154,
+    "lon": -6.248134,
+    "old": [
+      53.355152,
+      -6.248138
+    ],
+    "distance_m": 0.3,
+    "url": "https://www.buildingsofireland.ie/buildings-search/?query=50010082"
+  },
+  {
+    "id": "newcomen",
+    "name": "Newcomen Bridge",
+    "reg": 50010063,
+    "easting": 316949,
+    "northing": 235444,
+    "lat": 53.356508,
+    "lon": -6.244279,
+    "old": [
+      53.356532,
+      -6.244251
+    ],
+    "distance_m": 3.2,
+    "url": "https://www.buildingsofireland.ie/buildings-search/?query=50010063"
+  },
+  {
+    "id": "ivy",
+    "name": "Ivy Church / St Barnabas",
+    "reg": 50120235,
+    "easting": 317100,
+    "northing": 235676,
+    "lat": 53.358558,
+    "lon": -6.241926,
+    "old": [
+      53.35856,
+      -6.241929
+    ],
+    "distance_m": 0.3,
+    "url": "https://www.buildingsofireland.ie/buildings-search/?query=50120235"
+  },
+  {
+    "id": "annesley",
+    "name": "Annesley Bridge",
+    "reg": 50120203,
+    "easting": 317308,
+    "northing": 235938,
+    "lat": 53.360865,
+    "lon": -6.238707,
+    "old": [
+      53.360858,
+      -6.238719
+    ],
+    "distance_m": 1.1,
+    "url": "https://www.buildingsofireland.ie/buildings-search/?query=50120203"
+  },
+  {
+    "id": "grafton",
+    "name": "Thornton’s",
+    "reg": 50920061,
+    "easting": 315881,
+    "northing": 233654,
+    "lat": 53.340667,
+    "lon": -6.260965,
+    "old": [
+      53.340677,
+      -6.260964
+    ],
+    "distance_m": 1.1,
+    "url": "https://www.buildingsofireland.ie/buildings-search/?query=50920061"
+  },
+  {
+    "id": "trinitygate",
+    "name": "Trinity College entrance",
+    "reg": 50020376,
+    "easting": 316006,
+    "northing": 234080,
+    "lat": 53.344466,
+    "lon": -6.258934,
+    "old": [
+      53.344457,
+      -6.258953
+    ],
+    "distance_m": 1.6,
+    "url": "https://www.buildingsofireland.ie/buildings-search/?query=50020376"
+  },
+  {
+    "id": "abbey",
+    "name": "St Mary’s Abbey · chapter house",
+    "reg": 50060660,
+    "easting": 315308,
+    "northing": 234398,
+    "lat": 53.347474,
+    "lon": -6.269293,
+    "old": [
+      53.347475,
+      -6.269304
+    ],
+    "distance_m": 0.7,
+    "url": "https://www.buildingsofireland.ie/buildings-search/?query=50060660"
+  },
+  {
+    "id": "merchants",
+    "name": "Merchants’ Arch",
+    "reg": 50020156,
+    "easting": 315745,
+    "northing": 234237,
+    "lat": 53.345933,
+    "lon": -6.262793,
+    "old": [
+      53.345951,
+      -6.26281
+    ],
+    "distance_m": 2.3,
+    "url": "https://www.buildingsofireland.ie/buildings-search/?query=50020156"
+  },
+  {
+    "id": "dillon",
+    "name": "Dillon’s auctionrooms",
+    "reg": 50010328,
+    "easting": 315877,
+    "northing": 234393,
+    "lat": 53.347305,
+    "lon": -6.260755,
+    "old": [
+      53.347301,
+      -6.260726
+    ],
+    "distance_m": 2.0,
+    "url": "https://www.buildingsofireland.ie/buildings-search/?query=50010328"
+  },
+  {
+    "id": "kernan",
+    "name": "Crimmins’s",
+    "reg": 50080297,
+    "easting": 313877,
+    "northing": 233856,
+    "lat": 53.342916,
+    "lon": -6.290965,
+    "old": [
+      53.342933,
+      -6.290972
+    ],
+    "distance_m": 2.0,
+    "url": "https://www.buildingsofireland.ie/buildings-search/?query=50080297"
+  },
+  {
+    "id": "bloody",
+    "name": "Bloody Bridge",
+    "reg": 50060353,
+    "easting": 314328,
+    "northing": 234292,
+    "lat": 53.346734,
+    "lon": -6.28404,
+    "old": [
+      53.346746,
+      -6.284039
+    ],
+    "distance_m": 1.3,
+    "url": "https://www.buildingsofireland.ie/buildings-search/?query=50060353"
+  },
+  {
+    "id": "parkgate",
+    "name": "Park Gate",
+    "reg": 50060017,
+    "easting": 313467,
+    "northing": 234459,
+    "lat": 53.348419,
+    "lon": -6.296902,
+    "old": [
+      53.348,
+      -6.2937
+    ],
+    "distance_m": 217.6,
+    "url": "https://www.buildingsofireland.ie/buildings-search/?query=50060017"
+  },
+  {
+    "id": "kingsbridge",
+    "name": "King’s Bridge",
+    "reg": 50080033,
+    "easting": 313807,
+    "northing": 234358,
+    "lat": 53.347439,
+    "lon": -6.291835,
+    "old": [
+      53.347396,
+      -6.291824
+    ],
+    "distance_m": 4.9,
+    "url": "https://www.buildingsofireland.ie/buildings-search/?query=50080033"
+  },
+  {
+    "id": "fourcourts",
+    "name": "Four Courts",
+    "reg": 50070269,
+    "easting": 315033,
+    "northing": 234232,
+    "lat": 53.346043,
+    "lon": -6.273481,
+    "old": [
+      53.34606,
+      -6.273443
+    ],
+    "distance_m": 3.1,
+    "url": "https://www.buildingsofireland.ie/buildings-search/?query=50070269"
+  },
+  {
+    "id": "ormond",
+    "name": "Ormond Hotel",
+    "reg": 50070289,
+    "easting": 315329,
+    "northing": 234241,
+    "lat": 53.346059,
+    "lon": -6.269035,
+    "old": [
+      53.346058,
+      -6.268986
+    ],
+    "distance_m": 3.3,
+    "url": "https://www.buildingsofireland.ie/buildings-search/?query=50070289"
+  },
+  {
+    "id": "grattan",
+    "name": "Grattan / Essex Bridge",
+    "reg": 50060361,
+    "easting": 315418,
+    "northing": 234200,
+    "lat": 53.345672,
+    "lon": -6.267714,
+    "old": [
+      53.345691,
+      -6.267734
+    ],
+    "distance_m": 2.5,
+    "url": "https://www.buildingsofireland.ie/buildings-search/?query=50060361"
+  },
+  {
+    "id": "cityhall",
+    "name": "City Hall",
+    "reg": 50910009,
+    "easting": 315460,
+    "northing": 233998,
+    "lat": 53.343848,
+    "lon": -6.267158,
+    "old": [
+      53.343848,
+      -6.267159
+    ],
+    "distance_m": 0.1,
+    "url": "https://www.buildingsofireland.ie/buildings-search/?query=50910009"
+  },
+  {
+    "id": "mountbridge",
+    "name": "The Grand Canal bridge",
+    "reg": 50100535,
+    "easting": 317264,
+    "northing": 233340,
+    "lat": 53.337543,
+    "lon": -6.240329,
+    "old": [
+      53.337541,
+      -6.24032
+    ],
+    "distance_m": 0.6,
+    "url": "https://www.buildingsofireland.ie/buildings-search/?query=50100535"
+  }
+]

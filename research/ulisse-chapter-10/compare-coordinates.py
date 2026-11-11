@@ -1,0 +1,7 @@
+import runpy,json,math,pathlib
+p=pathlib.Path('research/ulisse-chapter-10'); grid=runpy.run_path(str(p/'convert-grid.py'))['grid'];d=json.loads(pathlib.Path('research/page-consistency-audit/live/ulisse.json').read_text(encoding='utf-8'))['data']; rows=[('gardiner',50010877,315920,235605),('aldborough',50010082,316696,235287),('newcomen',50010063,316949,235444),('ivy',50120235,317100,235676),('annesley',50120203,317308,235938),('grafton',50920061,315881,233654),('trinitygate',50020376,316006,234080),('abbey',50060660,315308,234398),('merchants',50020156,315745,234237),('dillon',50010328,315877,234393),('kernan',50080297,313877,233856),('bloody',50060353,314328,234292),('parkgate',50060017,313467,234459),('kingsbridge',50080033,313807,234358),('fourcourts',50070269,315033,234232),('ormond',50070289,315329,234241),('grattan',50060361,315418,234200),('cityhall',50910009,315460,233998),('mountbridge',50100535,317264,233340)]
+out=[]
+for id,reg,e,n in rows:
+ old=d['places'][id]['coords'];lat,lon=grid(e,n); dist=math.hypot((lat-old[0])*111195,(lon-old[1])*111195*math.cos(math.radians(lat)));out.append({'id':id,'name':d['places'][id]['name'],'reg':reg,'easting':e,'northing':n,'lat':round(lat,6),'lon':round(lon,6),'old':old,'distance_m':round(dist,1),'url':'https://www.buildingsofireland.ie/buildings-search/?query='+str(reg)})
+(p/'niah-compare.json').write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding='utf8')
+for x in out:print(x['id'],x['reg'],x['lat'],x['lon'],x['distance_m'])
