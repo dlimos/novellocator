@@ -1,6 +1,6 @@
 # Proust: testi integrali nelle tre lingue — 14 novembre 2026
 
-La ricerca ha acquisito sette volumi inglesi e sette volumi spagnoli per consultazione locale. Non ha acquisito una versione italiana integrale ad accesso libero autenticata. **La copertura multilingue delle 169 associazioni non è completata e non sono state pubblicate nuove traduzioni in questa fase.** L’utente ha escluso acquisti e accessi bibliotecari con account; la ricerca è limitata alle fonti aperte.
+Sono ora acquisiti per consultazione locale sette volumi inglesi, sette spagnoli e tutti i sette volumi italiani nell’AZW3 fornito direttamente dall’utente. Il file italiano risolve la precedente mancanza di una copia integrale disponibile per il lavoro. **La copertura multilingue delle 169 associazioni non è completata e non sono state pubblicate nuove traduzioni in questa fase.** L’utente ha escluso acquisti e accessi bibliotecari con account; la ricerca web rimane limitata alle fonti aperte. La copia privata italiana non viene presentata come fonte web aperta.
 
 ## Inglese: ciclo completo disponibile
 
@@ -30,7 +30,29 @@ Il [repertorio universitario PHTE](https://phte.upf.edu/dhte/frances/proust-marc
 
 Educ.ar ha schede dei volumi con fonte BIDI/Bajalibros e licenza del portale BY-NC-SA. I tentativi di accesso diretto e download dal computer sono scaduti per timeout. La licenza della scheda non è stata estesa alla traduzione del libro.
 
-## Italiano: nessun ciclo aperto autenticato acquisito
+## Italiano: ciclo integrale fornito dall’utente
+
+Il file AZW3 è stato letto localmente senza modificare l’originale. Il colophon identifica **Newton Compton, prima edizione ebook luglio 2011, ISBN 9788854125810**, © 1990, 2009, e attribuisce distintamente le traduzioni. Questi dati provengono dalla copia, non da un’attribuzione ipotizzata tramite cataloghi. Per il volume III il colophon indica **Maurizio Grasso**.
+
+| Volume | Titolo nella copia | Traduttore dichiarato | Parole del testo estratto, circa |
+|---|---|---|---:|
+| I | Dalla parte di Swann | Paolo Pinto; Un amore di Swann: Eurialo De Michelis | 159.516 |
+| II | All’ombra delle fanciulle in fiore | Maura Del Serra | 194.732 |
+| III | I Guermantes | Maurizio Grasso | 216.942 |
+| IV | Sodoma e Gomorra | Giovanni Marchi | 200.463 |
+| V | La Prigioniera | Giovanna Parisse | 153.125 |
+| VI | Albertine scomparsa | Rita Stajano | 106.008 |
+| VII | Il Tempo ritrovato | Giuseppe Grasso | 136.899 |
+
+Tutti i 96 elementi della spine risultano presenti e leggibili. Sono stati controllati la successione dei sette volumi, gli inizi e le conclusioni; prefazioni, postfazione e note editoriali sono separati dal testo usato per cercare i passi. Questo attesta l’integrità strutturale della copia, **non una collazione parola per parola con una stampa**. Hash SHA-256 dell’AZW3: `a36fbd702a7b4eb8781521c901c2d108c849dff66ae8a3ec881cc44c4f5326e5`.
+
+La concordanza locale offre candidati lessicali per tutte le 169 associazioni. Per le **prime 28 associazioni** (25 del volume I e 3 del II) è stato verificato il corrispondente narrativo FR/IT, estratto letteralmente e corredato di localizzatore XHTML e termini da evidenziare. Le 28 associazioni usano 25 estratti distinti, per 1.761 parole contando anche le ripetizioni. **Restano 141 corrispondenze italiane da verificare**; la presenza di un candidato lessicale non equivale a un allineamento approvato.
+
+Esempi di varianti autentiche: «Reine Marguerite» è «Regina Margherita»; «Jardin d’Acclimatation» è «Giardino zoologico»; «Ulm» è «Ulma». La copia legge «Notre Dame de Laghetti» nel dialogo della medaglia, ma «Notre-Dame de Laghet» nel riferimento precedente: la discrepanza è registrata, senza correggere silenziosamente la trascrizione. I selettori di estrazione controllano il testo letterale nella copia, compresi refusi e punteggiatura.
+
+La consegna del file consente il lavoro di confronto e non è una licenza di redistribuzione. Gli estratti non sono stati pubblicati: restano da completare allineamento e valutazione del riuso del singolo passo e dell’insieme secondo le istruzioni del progetto. Il libro completo, i testi estratti e l’indice dei paragrafi restano locali.
+
+### Ricerche aperte precedenti alla consegna del file
 
 - [Liber Liber](https://liberliber.it/autori/autori-p/marcel-proust/) offre La precauzione inutile, descritta dalla fonte come versione ridotta del quinto volume: non sostituisce La Prisonnière integrale né l’intero ciclo.
 - LaRecherche.it offre il romanzo in francese e la traduzione italiana del solo incipit; il frontespizio di La Prisonnière lo dichiara. Non è un’intera traduzione italiana.
@@ -41,7 +63,7 @@ Educ.ar ha schede dei volumi con fonte BIDI/Bajalibros e licenza del portale BY-
 - L’[editore Newton Compton](https://www.newtoncompton.com/libro/alla-ricerca-del-tempo-perduto/edizione/ebook/9788854125810) documenta un ebook integrale con tutti e sette i libri, ma a pagamento. L’utente ha chiesto di proseguire con sole fonti aperte: nessun acquisto effettuato.
 - Il catalogo storico MLOL di Villa Dora include l’ISBN dell’ebook completo, ma non è stato verificato un prestito attualmente disponibile e l’utente non dispone di un account bibliotecario. Nessun accesso riservato tentato.
 
-La conclusione è circoscritta: **non è stata reperita una fonte italiana aperta integrale, attribuita e verificabile nelle risorse consultate**. Non si afferma che una simile fonte non possa esistere. Non si sostituiscono le versioni editoriali con traduzioni generate o con un collage di citazioni.
+La ricerca web precedente non aveva reperito una fonte italiana aperta integrale, attribuita e verificabile nelle risorse consultate. Non dimostra che una simile fonte non esista. La copia ora fornita dall’utente risolve l’accesso al testo per il lavoro, senza cambiare l’esito storico della ricerca aperta. Non si sostituiscono le versioni editoriali con traduzioni generate o con un collage di citazioni.
 
 ## Artefatti e stato
 

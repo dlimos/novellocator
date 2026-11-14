@@ -8,10 +8,10 @@
   "fullVolumeFilesAcquired": {
     "en": 7,
     "es": 7,
-    "it": 0
+    "it": 7
   },
   "newTranslationsPublished": 0,
-  "scope": "Ricerca di testi integrali e preparazione del confronto; copertura multilingue delle citazioni NON completata",
+  "scope": "Acquisizione di testi integrali e preparazione del confronto; copertura multilingue delle citazioni NON completata",
   "sourceTextRedistributed": false,
   "englishCandidates": {
     "selectedAssociations": 169,
@@ -21,13 +21,35 @@
     "counterexample": "Allée de la Reine-Marguerite: vecchio candidato EN riguarda un altro passo dello stesso volume; non importare automaticamente."
   },
   "constraintsFromUser": [
-    "Solo fonti ad accesso libero",
+    "Solo fonti ad accesso libero per la ricerca web",
     "Nessun acquisto",
-    "Nessun accesso bibliotecario MLOL disponibile"
+    "Nessun accesso bibliotecario MLOL disponibile",
+    "Copia italiana AZW3 fornita direttamente dall’utente"
   ],
   "blockers": [
-    "Italiano: nessuna copia integrale aperta e attribuita acquisita.",
+    "Italiano: allineamento e valutazione del riuso degli estratti da completare.",
     "Spagnolo: identità di traduttore/edizione e riuso della copia da verificare.",
     "Allineamento puntuale delle citazioni ancora incompleto, anche in inglese."
-  ]
+  ],
+  "italianSource": {
+    "isbn": "9788854125810",
+    "publisher": "Newton Compton",
+    "edition": "Prima edizione ebook: luglio 2011",
+    "sourceSha256": "a36fbd702a7b4eb8781521c901c2d108c849dff66ae8a3ec881cc44c4f5326e5",
+    "providedByUser": true,
+    "openWebSource": false,
+    "volumes": 7,
+    "allSpineItemsExist": true,
+    "spineItems": 96,
+    "structuralCheckComplete": true,
+    "wordForWordCollation": false
+  },
+  "italianAlignment": {
+    "selectedAssociations": 169,
+    "withLexicalCandidates": 169,
+    "semanticallyReviewed": 28,
+    "remainingToReview": 141,
+    "published": 0,
+    "sourceTypoPreserved": "Notre Dame de Laghetti nella copia; nessuna correzione silenziosa."
+  }
 }
