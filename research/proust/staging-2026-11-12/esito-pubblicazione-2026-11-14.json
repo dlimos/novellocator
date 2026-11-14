@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-14",
+  "result": "Success. No rows returned",
+  "transactionEnd": "COMMIT",
+  "productionCommitted": true,
+  "changes": 730,
+  "deletes": 0,
+  "sqlSha256": "0cffecc366246843ef423d4817f11e6f810d7f7b72591b5c35593ac007ff3826",
+  "snapshot": "snapshot-produzione-2026-11-14.csv",
+  "tables": [
+    {
+      "table": "books",
+      "before": 1,
+      "after": 1,
+      "equalsTarget": true
+    },
+    {
+      "table": "content_translations",
+      "before": 1638,
+      "after": 1638,
+      "equalsTarget": true
+    },
+    {
+      "table": "excerpts",
+      "before": 275,
+      "after": 424,
+      "equalsTarget": true
+    },
+    {
+      "table": "place_descriptions",
+      "before": 90,
+      "after": 217,
+      "equalsTarget": true
+    },
+    {
+      "table": "place_references",
+      "before": 264,
+      "after": 412,
+      "equalsTarget": true
+    },
+    {
+      "table": "places",
+      "before": 90,
+      "after": 202,
+      "equalsTarget": true
+    },
+    {
+      "table": "sections",
+      "before": 7,
+      "after": 7,
+      "equalsTarget": true
+    },
+    {
+      "table": "sources",
+      "before": 143,
+      "after": 289,
+      "equalsTarget": true
+    },
+    {
+      "table": "unlocated_settings",
+      "before": 0,
+      "after": 0,
+      "equalsTarget": true
+    }
+  ],
+  "allTablesEqualVerifiedTarget": true,
+  "preservedPublishedPoints": 90,
+  "preservedTranslations": true,
+  "scope": "Solo righe Proust indicate dal piano; perimetro e lacune nel dossier."
+}

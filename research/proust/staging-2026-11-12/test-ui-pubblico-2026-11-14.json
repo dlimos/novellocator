@@ -1,0 +1,104 @@
+{
+  "date": "2026-11-14",
+  "scope": "Sito pubblico dopo COMMIT Supabase",
+  "site": "https://dlimos.github.io/novellocator/atlas.html?book=proust&lang=it",
+  "volumesNavigated": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "mapApplicationInSevenVolumes": true,
+  "languages": [
+    "it",
+    "en",
+    "fr",
+    "es"
+  ],
+  "edenCorrectionHighlightAttributionAllFourLanguages": true,
+  "trocaderoContextShownFourLanguages": true,
+  "nonSelectedOccurrenceExplicitlyDistinguished": true,
+  "csv": [
+    {
+      "language": "it",
+      "type": "places",
+      "rows": 93,
+      "columns": 21,
+      "textLinksFiltered": true,
+      "file": "pubblico-places-it-2026-11-14.csv",
+      "sha256": "2e33cf2afbaa0aff52ba9e05b47874a03a95347b9c88a330b2bbca67da63714a"
+    },
+    {
+      "language": "it",
+      "type": "citations",
+      "rows": 161,
+      "columns": 21,
+      "textLinksFiltered": true,
+      "file": "pubblico-citations-it-2026-11-14.csv",
+      "sha256": "23d8a7c7bd27a0da6bdc994034dad10c3fb9e107203991d0a10af1cd629ad7a2"
+    },
+    {
+      "language": "en",
+      "type": "places",
+      "rows": 93,
+      "columns": 21,
+      "textLinksFiltered": true,
+      "file": "pubblico-places-en-2026-11-14.csv",
+      "sha256": "14143809801e72f8b50a1e52150c29d69627e67c3b557c374bf6056db85e1300"
+    },
+    {
+      "language": "en",
+      "type": "citations",
+      "rows": 161,
+      "columns": 21,
+      "textLinksFiltered": true,
+      "file": "pubblico-citations-en-2026-11-14.csv",
+      "sha256": "c009c73d9edfbc1d9155b8d9000f15587e3a1bac64583a3b288ee56daaecf0c2"
+    },
+    {
+      "language": "fr",
+      "type": "places",
+      "rows": 93,
+      "columns": 21,
+      "textLinksFiltered": true,
+      "file": "pubblico-places-fr-2026-11-14.csv",
+      "sha256": "51e5bf82760909507735d8605918666edf2a43c4a600b5c421035ee170a00db6"
+    },
+    {
+      "language": "fr",
+      "type": "citations",
+      "rows": 161,
+      "columns": 21,
+      "textLinksFiltered": true,
+      "file": "pubblico-citations-fr-2026-11-14.csv",
+      "sha256": "aba79cae1d987bbe41362d0e7a74f3e6427316a8d1ed038e3072f726190e469c"
+    },
+    {
+      "language": "es",
+      "type": "places",
+      "rows": 93,
+      "columns": 21,
+      "textLinksFiltered": true,
+      "file": "pubblico-places-es-2026-11-14.csv",
+      "sha256": "892d4e0fffa681c40f902904c97455eeb52e4aed6f4b540d104391b87874c030"
+    },
+    {
+      "language": "es",
+      "type": "citations",
+      "rows": 161,
+      "columns": 21,
+      "textLinksFiltered": true,
+      "file": "pubblico-citations-es-2026-11-14.csv",
+      "sha256": "dc904f1250721952c13653caa8cda14a887a67eb93a386320cab5194a2d2d204"
+    }
+  ],
+  "limits": [
+    "Non verifica manuale individuale di tutte le schede live.",
+    "Nuovi estratti letterari esclusivamente FR; traduzioni IT/EN/ES non aggiunte.",
+    "19 dubbi narrativi conservati separatamente; ruoli finali dell’Excel preservati come richiesto.",
+    "Lacuna preesistente 7:core:boulevards fuori batch."
+  ]
+}
