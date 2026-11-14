@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-14",
+  "requestedLanguages": [
+    "it",
+    "en",
+    "es"
+  ],
+  "fullVolumeFilesAcquired": {
+    "en": 7,
+    "es": 7,
+    "it": 0
+  },
+  "newTranslationsPublished": 0,
+  "scope": "Ricerca di testi integrali e preparazione del confronto; copertura multilingue delle citazioni NON completata",
+  "sourceTextRedistributed": false,
+  "englishCandidates": {
+    "selectedAssociations": 169,
+    "withPriorCandidate": 120,
+    "withAtLeastOneLexicallyMatchedCandidate": 115,
+    "allSemanticallyReviewed": false,
+    "counterexample": "Allée de la Reine-Marguerite: vecchio candidato EN riguarda un altro passo dello stesso volume; non importare automaticamente."
+  },
+  "constraintsFromUser": [
+    "Solo fonti ad accesso libero",
+    "Nessun acquisto",
+    "Nessun accesso bibliotecario MLOL disponibile"
+  ],
+  "blockers": [
+    "Italiano: nessuna copia integrale aperta e attribuita acquisita.",
+    "Spagnolo: identità di traduttore/edizione e riuso della copia da verificare.",
+    "Allineamento puntuale delle citazioni ancora incompleto, anche in inglese."
+  ]
+}
