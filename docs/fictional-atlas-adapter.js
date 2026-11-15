@@ -1,5 +1,58 @@
 /* Adapt an illustrated dataset to the shared chapter atlas contract. */
 (function(root){
+ function verifiedPassage(record,index,source,translation=false){
+  if(!record?.quote?.trim())return null;
+  const edition=index.sources?.[record.source_id]||{};
+  const credit=[edition.author||'Gabriel García Márquez',edition.title||index.title,
+   translation&&edition.translator&&edition.translator!=='—'?'trad. '+edition.translator:null,
+   edition.publisher_year&&edition.publisher_year!=='NON_SPECIFICATO'?edition.publisher_year:null,
+   'cap. '+source.chapter,
+   translation?String(record.position||'').split(';')[0]:'p. '+String(record.page||'')].filter(Boolean).join(' · ');
+  return {quote:record.quote,language:record.language,type:translation?'translation':'original',
+   attribution:credit,verificationStatus:'verified'};
+ }
+ function verifiedExcerpt(source,index){
+  const original=verifiedPassage(source.original,index,source);
+  const en=verifiedPassage(source.translations?.en,index,source,true);
+  const it=verifiedPassage(source.translations?.it,index,source,true);
+  return {original,translations:Object.fromEntries([['en',en],['it',it]].filter(([,passage])=>!!passage))};
+ }
+ function attachMultilingualIndex(model,payload){
+  const index=payload.novelLocatorMultilingual;
+  if(index?.audit?.status!=='PUBLISHED_VERIFIED'||!index.references||!index.places)return;
+  const links={
+   'krakow':['P_CRACOVIA'],'regional-town':['P_MACONDO'],
+   'house':['P_BUENDIA_HOUSE'],'river-first':['P_RIO_MACONDO'],'river-later':['P_RIO_MACONDO'],
+   'plaza':['P_PLAZA'],'church':['P_IGLESIA'],'cemetery':['P_CEMENTERIO'],
+   'school':['P_ESCUELA'],'hotel':['P_HOTEL_JACOB'],
+   'turcos':['P_CALLE_TURCOS'],'crespi':['P_ALMACEN_CRESPI'],
+   'catarino':['P_TIENDA_CATARINO'],'station':['P_ESTACION_MACONDO'],
+   'foreign-compound':['P_CIUDAD_BANANERA'],'banana-fields':['P_PLANTACIONES'],
+   'bookstore':['P_LIBRERIA_CATALAN'],'petra':['P_PETRA_HOUSE'],
+   'lab':['P_LABORATORIO'],'gold-workshop':['P_TALLER_AURELIANO'],
+   'melquiades-room':['P_CUARTO_MELQUIADES'],'neerlandia':['P_NEERLANDIA'],
+   'swamp-route':['P_CAMINO_CIENAGA'],'sierra':['P_SIERRA'],
+   'meme-convent':['P_CONVENTO_MEME']
+  };
+  const byChapterPlace=new Map();
+  model.multilingualReferences=Object.entries(index.references).map(([referenceId,ref])=>{
+   const place=index.places[ref.place_id]||{};
+   const item={referenceId,chapter:Number(ref.chapter),placeId:ref.place_id,
+    name:place.name||ref.place_name_original,placeSurface:ref.place_name_original,
+    aliases:String(place.variants||'').split(/\s+\/\s+/).filter(Boolean),
+    category:ref.category,excerpt:verifiedExcerpt(ref,index)};
+   byChapterPlace.set(item.chapter+':'+item.placeId,item);
+   return item;
+  }).sort((a,b)=>a.chapter-b.chapter||a.name.localeCompare(b.name));
+  model.book.sourceChapterEpochs=payload.chapterEpochs;
+  for(const chapter of model.chapters)for(const illustratedId of chapter.places){
+   const candidateIds=links[illustratedId]||['P_'+illustratedId.replace(/-/g,'_').toUpperCase()];
+   const found=candidateIds.map(id=>byChapterPlace.get(chapter.id+':'+id)).find(Boolean);
+   if(!found||!found.excerpt.original)continue;
+   chapter.placeExcerpts[illustratedId]=found.excerpt;
+   chapter.placeSources[illustratedId]={label:found.excerpt.original.attribution};
+  }
+ }
  function adapt(payload,locale='en'){
   const text=payload.ui[locale]||payload.ui.en, labels={en:{chapter:'Chapter',unit:'chapter',period:'Illustrated period',sidebar:'Chapters',note:'The images show broad narrative periods, not exact plans. Locations follow the selected chapter; their positions in the drawing are interpretative.',source:'Original Spanish text'},it:{chapter:'Capitolo',unit:'capitolo',period:'Periodo illustrato',sidebar:'Capitoli',note:'Le immagini mostrano periodi narrativi ampi, non planimetrie esatte. I luoghi seguono il capitolo scelto; le posizioni nel disegno sono interpretative.',source:'Testo originale spagnolo'},fr:{chapter:'Chapitre',unit:'chapitre',period:'Période illustrée',sidebar:'Chapitres',note:'Les images représentent de grandes périodes narratives, pas des plans exacts. Les lieux suivent le chapitre choisi ; leurs positions sont interprétatives.',source:'Texte original espagnol'},es:{chapter:'Capítulo',unit:'capítulo',period:'Periodo ilustrado',sidebar:'Capítulos',note:'Las imágenes representan periodos narrativos amplios, no planos exactos. Los lugares siguen el capítulo elegido; sus posiciones son interpretativas.',source:'Texto original en español'}}[locale];
   if(!Array.isArray(payload.chapterRanges)||payload.chapterRanges.length!==payload.chapterEpochs?.length)throw Error('Chapter structure missing');
@@ -31,6 +84,7 @@
    if(!c.places.length&&!c.excerpt&&records.length)c.excerpt={original:{quote:records[0].source.quote,language:'es',type:'original',attribution:attribution(records[0])},translations:{}};
    model.chapters.push(c);
   });
+  attachMultilingualIndex(model,payload);
   return model;
  }
  root.IllustratedAdapter={adapt};
