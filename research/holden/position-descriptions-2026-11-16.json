@@ -1,0 +1,534 @@
+{
+  "bookId": "holden",
+  "date": "2026-11-16",
+  "scope": "Position-specific editorial descriptions, not source-text quotations or full chapter narrative verification.",
+  "originalNovel": "J. D. Salinger, The Catcher in the Rye",
+  "localeKeys": [
+    "it",
+    "en",
+    "fr",
+    "es"
+  ],
+  "records": [
+    {
+      "placeId": "africa",
+      "status": "reviewed",
+      "texts": {
+        "it": "Continente nominato nel compito di storia che Holden ha consegnato al professor Spencer, poi discusso durante la visita d’addio.",
+        "en": "Continent mentioned in the history examination Holden handed to Mr Spencer and that they discuss during his farewell visit.",
+        "fr": "Continent mentionné dans le devoir d’histoire que Holden a remis au professeur Spencer, puis évoqué lors de sa visite d’adieu.",
+        "es": "Continente mencionado en el examen de historia que Holden entregó al profesor Spencer y que comentan durante su visita de despedida."
+      }
+    },
+    {
+      "placeId": "amnh",
+      "status": "reviewed",
+      "texts": {
+        "it": "Museo vicino a Central Park dove Holden torna pensando alle visite dell’infanzia; arriva all’ingresso ma decide di non entrare.",
+        "en": "Museum beside Central Park that Holden approaches while remembering childhood visits; he reaches the entrance but decides not to go in.",
+        "fr": "Musée voisin de Central Park dont Holden s’approche en repensant aux visites de son enfance ; il arrive à l’entrée, mais décide de ne pas entrer.",
+        "es": "Museo junto a Central Park al que Holden se acerca recordando las visitas de su infancia; llega a la entrada, pero decide no entrar."
+      }
+    },
+    {
+      "placeId": "annapolis",
+      "status": "reviewed",
+      "texts": {
+        "it": "Città del Maryland scelta come ambientazione di un film che D.B. potrebbe scrivere; Holden reagisce con insofferenza alla notizia.",
+        "en": "Maryland city proposed as the setting of a film D.B. might write; the news irritates Holden.",
+        "fr": "Ville du Maryland choisie comme cadre d’un film que D.B. pourrait écrire ; cette nouvelle exaspère Holden.",
+        "es": "Ciudad de Maryland elegida como escenario de una película que D.B. podría escribir; la noticia irrita a Holden."
+      }
+    },
+    {
+      "placeId": "astor",
+      "status": "reviewed",
+      "texts": {
+        "it": "Cinema di Broadway nominato tra le sale affollate della domenica; Holden passa nella zona senza assistere a uno spettacolo.",
+        "en": "Broadway cinema named among the crowded Sunday movie houses; Holden passes through the area without attending a screening.",
+        "fr": "Cinéma de Broadway cité parmi les salles bondées du dimanche ; Holden passe dans le quartier sans assister à une séance.",
+        "es": "Cine de Broadway citado entre las salas abarrotadas del domingo; Holden pasa por la zona sin entrar a ver una película."
+      }
+    },
+    {
+      "placeId": "biltmore",
+      "status": "reviewed",
+      "texts": {
+        "it": "Albergo di Manhattan dove Holden dà appuntamento a Sally e la incontra sotto il celebre orologio della hall.",
+        "en": "Manhattan hotel where Holden arranges to meet Sally and waits for her beneath the lobby’s famous clock.",
+        "fr": "Hôtel de Manhattan où Holden donne rendez-vous à Sally et l’attend sous la célèbre horloge du hall.",
+        "es": "Hotel de Manhattan donde Holden queda con Sally y la espera bajo el famoso reloj del vestíbulo."
+      }
+    },
+    {
+      "placeId": "broadway",
+      "status": "reviewed",
+      "texts": {
+        "it": "Grande arteria di Manhattan dove Holden cerca e compra il disco destinato a Phoebe, tra la folla domenicale diretta ai cinema.",
+        "en": "Major Manhattan thoroughfare where Holden finds and buys a record for Phoebe amid Sunday crowds heading to the cinemas.",
+        "fr": "Grande artère de Manhattan où Holden trouve et achète un disque pour Phoebe, parmi la foule du dimanche qui se presse vers les cinémas.",
+        "es": "Gran avenida de Manhattan donde Holden busca y compra un disco para Phoebe entre la multitud dominical que acude a los cines."
+      }
+    },
+    {
+      "placeId": "buffalo",
+      "status": "reviewed",
+      "texts": {
+        "it": "Città dello Stato di New York da cui provengono alcuni amici degli Antolini, ospitati dalla coppia prima dell’arrivo di Holden.",
+        "en": "City in New York State where friends of the Antolinis come from; the couple had entertained them before Holden’s arrival.",
+        "fr": "Ville de l’État de New York d’où viennent des amis des Antolini, reçus par le couple avant l’arrivée de Holden.",
+        "es": "Ciudad del estado de Nueva York de la que proceden unos amigos de los Antolini, invitados por la pareja antes de que llegue Holden."
+      }
+    },
+    {
+      "placeId": "california",
+      "status": "reviewed",
+      "texts": {
+        "it": "Stato verso cui il padre di Holden deve volare: Phoebe ne parla durante il loro incontro notturno nell’appartamento.",
+        "en": "State Holden’s father is due to fly to; Phoebe mentions the trip during their nighttime conversation at home.",
+        "fr": "État vers lequel le père de Holden doit prendre l’avion ; Phoebe évoque ce voyage pendant leur conversation nocturne à la maison.",
+        "es": "Estado al que debe volar el padre de Holden; Phoebe menciona el viaje durante su conversación nocturna en casa."
+      }
+    },
+    {
+      "placeId": "cape",
+      "status": "reviewed",
+      "texts": {
+        "it": "Penisola del Massachusetts dove Jane Gallagher trascorreva le estati prima di conoscere Holden.",
+        "en": "Massachusetts peninsula where Jane Gallagher used to spend her summers before meeting Holden.",
+        "fr": "Péninsule du Massachusetts où Jane Gallagher passait ses étés avant de connaître Holden.",
+        "es": "Península de Massachusetts donde Jane Gallagher solía pasar los veranos antes de conocer a Holden."
+      }
+    },
+    {
+      "placeId": "carousel",
+      "status": "reviewed",
+      "texts": {
+        "it": "Giostra di Central Park sulla quale Phoebe sale due volte mentre Holden la osserva dalla panchina, anche quando comincia a piovere.",
+        "en": "Central Park carousel that Phoebe rides twice while Holden watches from a bench, even after the rain begins.",
+        "fr": "Manège de Central Park sur lequel Phoebe monte deux fois, sous le regard de Holden assis sur un banc, même lorsque la pluie commence.",
+        "es": "Tiovivo de Central Park al que Phoebe sube dos veces mientras Holden la observa desde un banco, incluso cuando empieza a llover."
+      }
+    },
+    {
+      "placeId": "chicago",
+      "status": "reviewed",
+      "texts": {
+        "it": "Città dalla quale provengono le due suore con cui Holden fa colazione e parla di libri e letteratura.",
+        "en": "City the two nuns come from; Holden meets them over breakfast and talks with them about books and literature.",
+        "fr": "Ville d’origine des deux religieuses que Holden rencontre au petit déjeuner et avec lesquelles il parle de livres et de littérature.",
+        "es": "Ciudad de origen de las dos monjas que Holden conoce durante el desayuno y con las que habla de libros y literatura."
+      }
+    },
+    {
+      "placeId": "china",
+      "status": "reviewed",
+      "texts": {
+        "it": "Paese richiamato nella conversazione con Carl Luce al Wicker Bar, tra osservazioni sulla sua compagna e ipotesi di viaggio.",
+        "en": "Country mentioned in Holden’s conversation with Carl Luce at the Wicker Bar, amid remarks about Luce’s partner and imagined travel.",
+        "fr": "Pays évoqué pendant la conversation de Holden avec Carl Luce au Wicker Bar, à propos de la compagne de Luce et de voyages imaginés.",
+        "es": "País mencionado en la conversación de Holden con Carl Luce en el Wicker Bar, entre comentarios sobre la pareja de Luce y viajes imaginados."
+      }
+    },
+    {
+      "placeId": "choate",
+      "status": "reviewed",
+      "texts": {
+        "it": "Scuola del Connecticut frequentata da Al Pike, il ragazzo che Holden ricorda come accompagnatore di Jane a un ballo.",
+        "en": "Connecticut school attended by Al Pike, whom Holden remembers accompanying Jane to a dance.",
+        "fr": "École du Connecticut fréquentée par Al Pike, qui, dans les souvenirs de Holden, accompagnait Jane à un bal.",
+        "es": "Escuela de Connecticut a la que asistía Al Pike, a quien Holden recuerda como acompañante de Jane en un baile."
+      }
+    },
+    {
+      "placeId": "connecticut",
+      "status": "reviewed",
+      "texts": {
+        "it": "Stato citato come possibile provenienza di un cliente nel modo stereotipato di salutare ricordato durante la scena al Wicker Bar.",
+        "en": "State used as a possible customer’s home in a stereotyped greeting described during the Wicker Bar scene.",
+        "fr": "État cité comme lieu d’origine possible d’un client dans une formule de salutation stéréotypée évoquée au Wicker Bar.",
+        "es": "Estado citado como posible lugar de procedencia de un cliente en un saludo estereotipado evocado en el Wicker Bar."
+      }
+    },
+    {
+      "placeId": "elmo",
+      "status": "reviewed",
+      "texts": {
+        "it": "Storico locale notturno di Manhattan che Holden menziona per confrontarlo con la Lavender Room dell’albergo.",
+        "en": "Historic Manhattan nightclub Holden mentions when comparing it with the hotel’s Lavender Room.",
+        "fr": "Ancienne boîte de nuit de Manhattan que Holden évoque pour la comparer à la Lavender Room de l’hôtel.",
+        "es": "Histórico club nocturno de Manhattan que Holden menciona al compararlo con la Lavender Room del hotel."
+      }
+    },
+    {
+      "placeId": "fifth",
+      "status": "reviewed",
+      "texts": {
+        "it": "Avenue di Manhattan che Holden percorre durante la sua ultima giornata a New York; ricorda anche Phoebe che la attraversava per andare al parco.",
+        "en": "Manhattan avenue Holden walks along on his last day in New York; he also remembers Phoebe crossing it on her way to the park.",
+        "fr": "Avenue de Manhattan que Holden parcourt lors de sa dernière journée à New York ; il se souvient aussi de Phoebe la traversant pour aller au parc.",
+        "es": "Avenida de Manhattan que Holden recorre durante su último día en Nueva York; también recuerda a Phoebe cruzándola camino del parque."
+      }
+    },
+    {
+      "placeId": "florida",
+      "status": "reviewed",
+      "texts": {
+        "it": "Stato evocato in una battuta sui saluti convenzionali dei locali notturni, durante la serata al Wicker Bar.",
+        "en": "State mentioned in a joke about formulaic nightclub greetings during the evening at the Wicker Bar.",
+        "fr": "État évoqué dans une plaisanterie sur les salutations convenues des boîtes de nuit, pendant la soirée au Wicker Bar.",
+        "es": "Estado aludido en una broma sobre los saludos rutinarios de los clubes nocturnos durante la velada en el Wicker Bar."
+      }
+    },
+    {
+      "placeId": "gloucester",
+      "status": "reviewed",
+      "texts": {
+        "it": "Località costiera del Massachusetts dove la signora Morrow ha una casa estiva e invita Holden a farle visita.",
+        "en": "Coastal Massachusetts town where Mrs Morrow has a summer home and invites Holden to visit.",
+        "fr": "Ville côtière du Massachusetts où Mme Morrow possède une maison d’été et invite Holden à venir.",
+        "es": "Localidad costera de Massachusetts donde la señora Morrow tiene una casa de verano e invita a Holden a visitarla."
+      }
+    },
+    {
+      "placeId": "grand",
+      "status": "reviewed",
+      "texts": {
+        "it": "Stazione di Manhattan dove Holden lascia i bagagli e, dopo la visita agli Antolini, cerca di dormire nella sala d’attesa.",
+        "en": "Manhattan railway terminal where Holden leaves his luggage and later tries to sleep in the waiting room after visiting the Antolinis.",
+        "fr": "Gare de Manhattan où Holden dépose ses bagages, puis tente de dormir dans la salle d’attente après sa visite chez les Antolini.",
+        "es": "Estación de Manhattan donde Holden deja su equipaje y más tarde intenta dormir en la sala de espera tras visitar a los Antolini."
+      }
+    },
+    {
+      "placeId": "holland",
+      "status": "reviewed",
+      "texts": {
+        "it": "Tunnel tra Manhattan e il New Jersey che Holden pensa di raggiungere per chiedere un passaggio verso ovest, senza poi realizzare il progetto.",
+        "en": "Tunnel connecting Manhattan and New Jersey that Holden considers reaching to hitchhike west, a plan he never carries out.",
+        "fr": "Tunnel reliant Manhattan au New Jersey que Holden envisage de rejoindre pour faire de l’auto-stop vers l’ouest, sans jamais réaliser ce projet.",
+        "es": "Túnel que une Manhattan con Nueva Jersey al que Holden piensa llegar para hacer autostop hacia el oeste, aunque nunca lleva a cabo el plan."
+      }
+    },
+    {
+      "placeId": "hollywood",
+      "status": "reviewed",
+      "texts": {
+        "it": "Quartiere di Los Angeles dove D.B. lavora per il cinema; anche Sunny lo indica come luogo da cui proviene.",
+        "en": "Los Angeles district where D.B. works in the film industry; Sunny also names it as the place she comes from.",
+        "fr": "Quartier de Los Angeles où D.B. travaille pour le cinéma ; Sunny dit également en être originaire.",
+        "es": "Barrio de Los Ángeles donde D.B. trabaja en el cine; Sunny también dice proceder de allí."
+      }
+    },
+    {
+      "placeId": "lexington",
+      "status": "reviewed",
+      "texts": {
+        "it": "Avenue di Manhattan percorsa dalla madre di Holden per comprare la cena a Phoebe. All’alba Holden vi prende la metropolitana.",
+        "en": "Manhattan avenue where Holden’s mother shops for Phoebe’s dinner. At dawn, Holden takes the subway from here.",
+        "fr": "Avenue de Manhattan parcourue par la mère de Holden pour acheter le dîner de Phoebe. À l’aube, Holden y prend le métro.",
+        "es": "Avenida de Manhattan por la que camina la madre de Holden para comprar la cena de Phoebe. Al amanecer, Holden toma allí el metro."
+      }
+    },
+    {
+      "placeId": "london",
+      "status": "reviewed",
+      "texts": {
+        "it": "Città in cui è ambientata una parte del film visto da Holden: appartiene alla vicenda sullo schermo, non al suo viaggio.",
+        "en": "City featured in the film Holden watches; it belongs to the story on screen, not to his travels.",
+        "fr": "Ville où se déroule une partie du film que regarde Holden ; elle appartient à l’histoire projetée, non à son voyage.",
+        "es": "Ciudad en la que transcurre parte de la película que ve Holden; pertenece a la historia de la pantalla, no a su viaje."
+      }
+    },
+    {
+      "placeId": "madison",
+      "status": "reviewed",
+      "texts": {
+        "it": "Avenue di Manhattan dove Holden aspetta un autobus dopo aver lasciato il Wicker Bar, ma alla fine decide di proseguire a piedi.",
+        "en": "Manhattan avenue where Holden waits for a bus after leaving the Wicker Bar, then decides to continue on foot.",
+        "fr": "Avenue de Manhattan où Holden attend un bus après avoir quitté le Wicker Bar, avant de décider de continuer à pied.",
+        "es": "Avenida de Manhattan donde Holden espera un autobús tras salir del Wicker Bar, pero finalmente decide seguir a pie."
+      }
+    },
+    {
+      "placeId": "maine",
+      "status": "reviewed",
+      "texts": {
+        "it": "Stato legato ai ricordi estivi di Holden: l’amicizia con Jane, il fratello Allie e un episodio d’infanzia con Bobby Fallon.",
+        "en": "State associated with Holden’s summer memories of Jane, his brother Allie and a childhood incident involving Bobby Fallon.",
+        "fr": "État associé aux souvenirs d’été de Holden : Jane, son frère Allie et un épisode d’enfance avec Bobby Fallon.",
+        "es": "Estado ligado a los recuerdos estivales de Holden: Jane, su hermano Allie y un episodio de infancia con Bobby Fallon."
+      }
+    },
+    {
+      "placeId": "massachusetts",
+      "status": "reviewed",
+      "texts": {
+        "it": "Stato che Holden propone a Sally come meta di una fuga in automobile, immaginando di lasciare New York insieme.",
+        "en": "State Holden suggests to Sally as a destination for a road trip, imagining that they will leave New York together.",
+        "fr": "État que Holden propose à Sally comme destination d’une escapade en voiture, en imaginant qu’ils quitteront New York ensemble.",
+        "es": "Estado que Holden propone a Sally como destino de una escapada en coche, imaginando que abandonarán Nueva York juntos."
+      }
+    },
+    {
+      "placeId": "met",
+      "status": "reviewed",
+      "texts": {
+        "it": "Museo sulla Fifth Avenue dove Holden, in attesa di Phoebe, accompagna due bambini alle mummie egizie.",
+        "en": "Museum on Fifth Avenue where Holden, while waiting for Phoebe, guides two children to the Egyptian mummies.",
+        "fr": "Musée de la Cinquième Avenue où Holden, en attendant Phoebe, conduit deux enfants jusqu’aux momies égyptiennes.",
+        "es": "Museo de la Quinta Avenida donde Holden, mientras espera a Phoebe, acompaña a dos niños hasta las momias egipcias."
+      }
+    },
+    {
+      "placeId": "newhampshire",
+      "status": "reviewed",
+      "texts": {
+        "it": "Stato in cui Carl Luce ipotizza che si trovi una sua precedente ragazza, durante il colloquio con Holden al Wicker Bar.",
+        "en": "State where Carl Luce speculates that a former girlfriend may be, during his conversation with Holden at the Wicker Bar.",
+        "fr": "État où Carl Luce suppose que pourrait se trouver une ancienne petite amie, pendant sa conversation avec Holden au Wicker Bar.",
+        "es": "Estado donde Carl Luce supone que podría estar una antigua novia, durante su conversación con Holden en el Wicker Bar."
+      }
+    },
+    {
+      "placeId": "newyorker",
+      "status": "reviewed",
+      "texts": {
+        "it": "Albergo di Manhattan la cui orchestra viene menzionata fra le possibili alternative per la serata di Holden.",
+        "en": "Manhattan hotel whose orchestra is mentioned as one possible choice for Holden’s evening.",
+        "fr": "Hôtel de Manhattan dont l’orchestre est évoqué parmi les possibilités pour la soirée de Holden.",
+        "es": "Hotel de Manhattan cuya orquesta se menciona como una posible opción para la noche de Holden."
+      }
+    },
+    {
+      "placeId": "norwalk",
+      "status": "reviewed",
+      "texts": {
+        "it": "Città del Connecticut in cui i genitori di Holden partecipano a una festa mentre lui torna di nascosto nell’appartamento di famiglia.",
+        "en": "Connecticut city where Holden’s parents attend a party while he secretly returns to the family apartment.",
+        "fr": "Ville du Connecticut où les parents de Holden assistent à une soirée pendant qu’il rentre en cachette dans l’appartement familial.",
+        "es": "Ciudad de Connecticut donde los padres de Holden asisten a una fiesta mientras él regresa a escondidas al apartamento familiar."
+      }
+    },
+    {
+      "placeId": "paramount",
+      "status": "reviewed",
+      "texts": {
+        "it": "Cinema di Broadway citato durante la passeggiata domenicale di Holden, quando la folla si accalca davanti alle sale.",
+        "en": "Broadway cinema mentioned during Holden’s Sunday walk, when crowds gather outside the movie houses.",
+        "fr": "Cinéma de Broadway cité pendant la promenade dominicale de Holden, alors que la foule se presse devant les salles.",
+        "es": "Cine de Broadway mencionado durante el paseo dominical de Holden, cuando la multitud se agolpa ante las salas."
+      }
+    },
+    {
+      "placeId": "park",
+      "status": "reviewed",
+      "texts": {
+        "it": "Parco di Manhattan dove Holden cerca Phoebe, parla con una bambina sui pattini e torna, nell’ultima giornata, con la sorella.",
+        "en": "Manhattan park where Holden looks for Phoebe, speaks with a young skater and returns with his sister on his final day in the city.",
+        "fr": "Parc de Manhattan où Holden cherche Phoebe, parle avec une jeune patineuse et revient avec sa sœur lors de son dernier jour en ville.",
+        "es": "Parque de Manhattan donde Holden busca a Phoebe, habla con una niña que patina y regresa con su hermana en su último día en la ciudad."
+      }
+    },
+    {
+      "placeId": "penn",
+      "status": "reviewed",
+      "texts": {
+        "it": "Storica stazione ferroviaria di Manhattan in cui Holden arriva con il treno da Pencey, prima di prendere un taxi e cercare un albergo.",
+        "en": "Historic Manhattan railway station where Holden arrives from Pencey before taking a cab and looking for a hotel.",
+        "fr": "Ancienne gare de Manhattan où Holden arrive de Pencey avant de prendre un taxi et de chercher un hôtel.",
+        "es": "Histórica estación ferroviaria de Manhattan a la que Holden llega desde Pencey antes de tomar un taxi y buscar un hotel."
+      }
+    },
+    {
+      "placeId": "pond",
+      "status": "reviewed",
+      "texts": {
+        "it": "Laghetto meridionale di Central Park dei cui anatroccoli Holden si preoccupa più volte; vi arriva di notte dopo aver lasciato il bar.",
+        "en": "Pond at the southern end of Central Park whose ducks repeatedly preoccupy Holden; he reaches it at night after leaving the bar.",
+        "fr": "Étang au sud de Central Park dont les canards préoccupent Holden à plusieurs reprises ; il s’y rend de nuit après avoir quitté le bar.",
+        "es": "Estanque al sur de Central Park cuyos patos preocupan repetidamente a Holden; llega allí de noche después de salir del bar."
+      }
+    },
+    {
+      "placeId": "radio",
+      "status": "reviewed",
+      "texts": {
+        "it": "Teatro di Manhattan dove Holden assiste a uno spettacolo natalizio e a un film; le tre turiste conosciute in albergo progettano di visitarlo.",
+        "en": "Manhattan theatre where Holden watches a Christmas stage show and a film; the three tourists he meets at the hotel also plan to visit.",
+        "fr": "Salle de spectacle de Manhattan où Holden assiste à un spectacle de Noël et à un film ; les trois touristes rencontrées à l’hôtel prévoient aussi de s’y rendre.",
+        "es": "Teatro de Manhattan donde Holden ve un espectáculo navideño y una película; las tres turistas que conoce en el hotel también planean visitarlo."
+      }
+    },
+    {
+      "placeId": "rink",
+      "status": "reviewed",
+      "texts": {
+        "it": "Pista di pattinaggio del Rockefeller Center dove Holden e Sally trascorrono parte del loro appuntamento, prima di litigare.",
+        "en": "Rockefeller Center ice rink where Holden and Sally spend part of their date before their argument.",
+        "fr": "Patinoire du Rockefeller Center où Holden et Sally passent une partie de leur rendez-vous avant leur dispute.",
+        "es": "Pista de hielo del Rockefeller Center donde Holden y Sally pasan parte de su cita antes de discutir."
+      }
+    },
+    {
+      "placeId": "seattle",
+      "status": "reviewed",
+      "texts": {
+        "it": "Città di provenienza delle tre turiste che Holden incontra e con cui balla nella Lavender Room.",
+        "en": "Home city of the three tourists Holden meets and dances with in the Lavender Room.",
+        "fr": "Ville d’origine des trois touristes que Holden rencontre et avec lesquelles il danse à la Lavender Room.",
+        "es": "Ciudad de origen de las tres turistas que Holden conoce y con las que baila en la Lavender Room."
+      }
+    },
+    {
+      "placeId": "shanghai",
+      "status": "reviewed",
+      "texts": {
+        "it": "Città cinese indicata da Carl Luce come luogo d’origine della donna di cui parla con Holden al Wicker Bar.",
+        "en": "Chinese city Carl Luce names as the home of the woman he discusses with Holden at the Wicker Bar.",
+        "fr": "Ville chinoise que Carl Luce désigne comme lieu d’origine de la femme dont il parle avec Holden au Wicker Bar.",
+        "es": "Ciudad china que Carl Luce señala como lugar de origen de la mujer de la que habla con Holden en el Wicker Bar."
+      }
+    },
+    {
+      "placeId": "southamerica",
+      "status": "reviewed",
+      "texts": {
+        "it": "Continente che Holden inventa come meta di un imminente viaggio per declinare l’invito estivo della signora Morrow.",
+        "en": "Continent Holden invents as the destination of an upcoming trip to turn down Mrs Morrow’s summer invitation.",
+        "fr": "Continent que Holden invente comme destination d’un prochain voyage pour décliner l’invitation estivale de Mme Morrow.",
+        "es": "Continente que Holden inventa como destino de un próximo viaje para rechazar la invitación de verano de la señora Morrow."
+      }
+    },
+    {
+      "placeId": "stanford",
+      "status": "reviewed",
+      "texts": {
+        "it": "Incrocio tra Broadway e la 65ª Strada dove Holden colloca lo Stanford Arms Hotel, indirizzo dato per Faith Cavendish, che chiama senza incontrarla.",
+        "en": "Intersection of Broadway and 65th Street where Holden places the Stanford Arms Hotel, Faith Cavendish’s stated address; he calls but never meets her.",
+        "fr": "Croisement de Broadway et de la 65e Rue où Holden situe le Stanford Arms Hotel, l’adresse donnée pour Faith Cavendish, qu’il appelle sans la rencontrer.",
+        "es": "Cruce de Broadway y la calle 65 donde Holden sitúa el Stanford Arms Hotel, dirección indicada para Faith Cavendish, a quien llama sin llegar a verla."
+      }
+    },
+    {
+      "placeId": "stork",
+      "status": "reviewed",
+      "texts": {
+        "it": "Celebre locale notturno di Manhattan evocato da Holden come termine di confronto con la Lavender Room, senza recarvisi.",
+        "en": "Famous Manhattan nightclub Holden uses as a point of comparison with the Lavender Room, without going there.",
+        "fr": "Célèbre boîte de nuit de Manhattan que Holden prend comme point de comparaison avec la Lavender Room, sans s’y rendre.",
+        "es": "Famoso club nocturno de Manhattan que Holden utiliza para comparar la Lavender Room, sin llegar a visitarlo."
+      }
+    },
+    {
+      "placeId": "street54",
+      "status": "reviewed",
+      "texts": {
+        "it": "Strada di Manhattan dove si trova il Wicker Bar, nel fittizio Seton Hotel. Holden vi incontra Carl Luce e resta a bere dopo che l’amico se ne va.",
+        "en": "Manhattan street where the Wicker Bar is located inside the fictional Seton Hotel. Holden meets Carl Luce there and keeps drinking after his friend leaves.",
+        "fr": "Rue de Manhattan où se trouve le Wicker Bar, dans l’hôtel fictif Seton. Holden y retrouve Carl Luce et continue de boire après son départ.",
+        "es": "Calle de Manhattan donde está el Wicker Bar, en el ficticio hotel Seton. Holden se reúne allí con Carl Luce y sigue bebiendo después de que su amigo se marche."
+      }
+    },
+    {
+      "placeId": "street71",
+      "status": "reviewed",
+      "texts": {
+        "it": "Strada di Manhattan dove vive la famiglia Caulfield. Holden entra di nascosto nell’appartamento e ritrova la sorella Phoebe.",
+        "en": "Manhattan street where the Caulfield family lives. Holden slips into their apartment and reunites with his sister Phoebe.",
+        "fr": "Rue de Manhattan où vit la famille Caulfield. Holden entre en cachette dans l’appartement et retrouve sa sœur Phoebe.",
+        "es": "Calle de Manhattan donde vive la familia Caulfield. Holden entra a escondidas en el apartamento y se reencuentra con su hermana Phoebe."
+      }
+    },
+    {
+      "placeId": "sutton",
+      "status": "reviewed",
+      "texts": {
+        "it": "Strada dell’East Side dove si trova l’appartamento degli Antolini, presso i quali Holden cerca ospitalità prima di ripartire all’alba.",
+        "en": "East Side street where the Antolinis live. Holden seeks shelter at their apartment before leaving at dawn.",
+        "fr": "Rue de l’East Side où vivent les Antolini. Holden trouve refuge dans leur appartement avant de repartir à l’aube.",
+        "es": "Calle del East Side donde viven los Antolini. Holden busca refugio en su apartamento antes de marcharse al amanecer."
+      }
+    },
+    {
+      "placeId": "taft",
+      "status": "reviewed",
+      "texts": {
+        "it": "Albergo di Manhattan della cui orchestra Holden chiede informazioni al tassista, mentre cerca un posto in cui trascorrere la serata.",
+        "en": "Manhattan hotel whose orchestra Holden asks the cab driver about while looking for somewhere to spend the evening.",
+        "fr": "Hôtel de Manhattan dont Holden demande des nouvelles de l’orchestre au chauffeur de taxi, alors qu’il cherche où passer la soirée.",
+        "es": "Hotel de Manhattan por cuya orquesta Holden pregunta al taxista mientras busca dónde pasar la noche."
+      }
+    },
+    {
+      "placeId": "tennis",
+      "status": "reviewed",
+      "texts": {
+        "it": "Circolo di Forest Hills dove Holden seguiva i campionati nazionali di tennis e giocava con i coniugi Antolini.",
+        "en": "Forest Hills tennis club where Holden used to attend the national championships and play with Mr and Mrs Antolini.",
+        "fr": "Club de tennis de Forest Hills où Holden assistait aux championnats nationaux et jouait avec M. et Mme Antolini.",
+        "es": "Club de tenis de Forest Hills donde Holden asistía a los campeonatos nacionales y jugaba con el matrimonio Antolini."
+      }
+    },
+    {
+      "placeId": "trenton",
+      "status": "reviewed",
+      "texts": {
+        "it": "Città del New Jersey dove la signora Morrow sale sul treno diretto a New York e incontra Holden.",
+        "en": "New Jersey city where Mrs Morrow boards the New York-bound train and meets Holden.",
+        "fr": "Ville du New Jersey où Mme Morrow monte dans le train pour New York et rencontre Holden.",
+        "es": "Ciudad de Nueva Jersey donde la señora Morrow sube al tren con destino a Nueva York y conoce a Holden."
+      }
+    },
+    {
+      "placeId": "vermont",
+      "status": "reviewed",
+      "texts": {
+        "it": "Stato citato sia nella fuga in automobile proposta a Sally sia nel ricordo del discorso scolastico di Richard Kinsella sulla fattoria paterna.",
+        "en": "State mentioned both in the road trip Holden proposes to Sally and in his memory of Richard Kinsella’s school speech about his father’s farm.",
+        "fr": "État évoqué à la fois dans la fugue en voiture proposée à Sally et dans le souvenir du discours scolaire de Richard Kinsella sur la ferme paternelle.",
+        "es": "Estado mencionado tanto en el viaje en coche que Holden propone a Sally como en su recuerdo del discurso escolar de Richard Kinsella sobre la granja paterna."
+      }
+    },
+    {
+      "placeId": "village",
+      "status": "reviewed",
+      "texts": {
+        "it": "Quartiere di Manhattan dove Holden raggiunge il locale di Ernie. Più tardi cita un conoscente che potrebbe prestargli un’automobile.",
+        "en": "Manhattan neighbourhood Holden visits to reach Ernie’s nightclub; later he mentions an acquaintance there who might lend him a car.",
+        "fr": "Quartier de Manhattan où Holden se rend au club d’Ernie ; il évoque plus tard une connaissance du quartier qui pourrait lui prêter une voiture.",
+        "es": "Barrio de Manhattan al que Holden va para llegar al local de Ernie; más tarde menciona a un conocido de allí que podría prestarle un coche."
+      }
+    },
+    {
+      "placeId": "westpoint",
+      "status": "reviewed",
+      "texts": {
+        "it": "Accademia militare nello Stato di New York a cui appartiene un cadetto ricordato da Holden durante la conversazione su Sally.",
+        "en": "Military academy in New York State associated with a cadet Holden mentions while talking about Sally.",
+        "fr": "Académie militaire de l’État de New York liée à un cadet que Holden évoque en parlant de Sally.",
+        "es": "Academia militar del estado de Nueva York relacionada con un cadete que Holden menciona al hablar de Sally."
+      }
+    },
+    {
+      "placeId": "yellowstone",
+      "status": "reviewed",
+      "texts": {
+        "it": "Parco nazionale in cui i coniugi Spencer avevano acquistato una coperta navajo, che il professore mostra con orgoglio a Holden.",
+        "en": "National park where the Spencers bought a Navajo blanket that the teacher proudly shows Holden.",
+        "fr": "Parc national où les époux Spencer avaient acheté une couverture navajo que le professeur montre fièrement à Holden.",
+        "es": "Parque nacional donde los Spencer compraron una manta navajo que el profesor muestra con orgullo a Holden."
+      }
+    },
+    {
+      "placeId": "zoo",
+      "status": "reviewed",
+      "texts": {
+        "it": "Giardino zoologico di Central Park visitato da Holden e Phoebe prima di raggiungere la giostra; si fermano a osservare i leoni marini e gli orsi.",
+        "en": "Central Park zoo that Holden and Phoebe visit before reaching the carousel, stopping to watch the sea lions and bears.",
+        "fr": "Zoo de Central Park que Holden et Phoebe visitent avant de rejoindre le manège, en s’arrêtant devant les otaries et les ours.",
+        "es": "Zoológico de Central Park que Holden y Phoebe visitan antes de llegar al tiovivo, deteniéndose ante los leones marinos y los osos."
+      }
+    }
+  ]
+}
