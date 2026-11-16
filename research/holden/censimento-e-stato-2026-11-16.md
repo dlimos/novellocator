@@ -13,6 +13,7 @@
 - Dopo le riclassificazioni documentate: **31 associazioni `action` e 51 `mentioned`**.
 - 35 registrazioni di ambientazioni senza coordinate; molte riguardano interni narrativi e devono restare in archivio senza diventare posizioni autonome.
 - **52/52 descrizioni brevi specifiche** delle posizioni caricate in `place_descriptions.metadata.positionDescription`, complete in **it/en/fr/es**; preservati indirizzi, coordinate, fonti, precisioni e avvertenze precedenti.
+  - Backup: [`position-descriptions-2026-11-16.json`](position-descriptions-2026-11-16.json), con le 52 descrizioni complete per lingua, senza citazioni del romanzo.
 - **0/82 associazioni con `excerpts` autentici** registrati; le 82 descrizioni `scene_text` sono parafrasi redazionali, non passi del romanzo. Anche le 35 registrazioni non localizzate hanno il campo citazione vuoto.
 - Nessuna nuova posizione geografica è stata pubblicata durante questo aggiornamento: l'aggiunta richiede una collazione del passo, la verifica geografica e la valutazione del riuso.
 
