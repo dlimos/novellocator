@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-16",
+  "date": "2026-11-17",
   "requestedLanguages": [
     "it",
     "en",
@@ -18,7 +18,15 @@
     "withPriorCandidate": 120,
     "withAtLeastOneLexicallyMatchedCandidate": 115,
     "allSemanticallyReviewed": false,
-    "counterexample": "Allée de la Reine-Marguerite: vecchio candidato EN riguarda un altro passo dello stesso volume; non importare automaticamente."
+    "counterexample": "Allée de la Reine-Marguerite: vecchio candidato EN riguarda un altro passo dello stesso volume; non importare automaticamente.",
+    "withSourceMatchedCandidate": 118,
+    "narrativeAlignmentsReviewed": 115,
+    "finalReadabilityReviewComplete": false,
+    "wrongSceneCandidatesRejected": [
+      "proust-review-v1-v1-noms-de-pays-16",
+      "proust-review-v5-i-038",
+      "proust-review-v6-v6-03-003"
+    ]
   },
   "constraintsFromUser": [
     "Solo fonti ad accesso libero per la ricerca web",
@@ -27,8 +35,8 @@
     "Copia italiana AZW3 fornita direttamente dall’utente"
   ],
   "blockers": [
-    "Spagnolo: identità di traduttore/edizione e riuso della copia da verificare.",
-    "Allineamento puntuale delle citazioni ancora incompleto, anche in inglese."
+    "Spagnolo: attribuzione inferita per campioni in sei volumi; volume IV ancora non identificato. Riuso e allineamento puntuale da verificare.",
+    "Allineamento puntuale delle citazioni ancora incompleto, anche in inglese; leggibilità finale da rifinire."
   ],
   "italianSource": {
     "isbn": "9788854125810",
@@ -51,5 +59,23 @@
     "published": 169,
     "sourceTypoPreserved": "Notre Dame de Laghetti nella copia; nessuna correzione silenziosa."
   },
-  "italianPublicationProof": "esito-pubblicazione-italiano.json"
+  "italianPublicationProof": "esito-pubblicazione-italiano.json",
+  "spanishAttribution": {
+    "inferredFromOfficialPreviewSamples": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7
+    ],
+    "unresolvedVolumes": [
+      4
+    ],
+    "wholeVolumeCollated": false,
+    "newSpanishQuotationsPublished": 0,
+    "proof": "riscontro-anteprime-es-2026-11-17.json",
+    "rightsAndAlignmentPending": true,
+    "volume4": "La copia disponibile differisce dalla traduzione Berges dell’anteprima ufficiale."
+  }
 }

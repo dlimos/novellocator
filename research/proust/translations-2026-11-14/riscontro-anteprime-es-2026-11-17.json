@@ -1,0 +1,770 @@
+{
+  "date": "2026-11-17",
+  "method": "Parole Unicode NFKC/casefold, ricomposizione sillabazioni a fine riga. Campioni contigui >=18 parole nelle prime 30000 parole locali. Accenti conservati; punteggiatura non confrontata.",
+  "scope": "Identificazione per campioni iniziali; non collazione integrale, non verifica dei diritti, nessuna pubblicazione di nuove citazioni.",
+  "volumes": [
+    {
+      "volume": 1,
+      "officialPreview": "https://www.alianzaeditorial.es/primer_capitulo/en-busca-del-tiempo-perdido-1.pdf",
+      "previewSha256": "949c3546f6f7f91f1ec8b2c084b07f0fb7f0a623715b68bd52fbefa6c9a5f922",
+      "pdfPages": 21,
+      "translatorOfOfficialEdition": "Pedro Salinas",
+      "matchedPages": [
+        {
+          "pdfPage": 9,
+          "longestConsecutiveMatchingWords": 53,
+          "localFirstWord": 77,
+          "sampleSha256": "1de4f0afaa2dc556e8d394d223c55b95c77044ab7cd2b33ef3fdf1ade0bd85d3",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 10,
+          "longestConsecutiveMatchingWords": 153,
+          "localFirstWord": 294,
+          "sampleSha256": "46872c9989af1005691a7951b38f119435ed90515f7f8265cdd2bf29c89ecfc1",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 11,
+          "longestConsecutiveMatchingWords": 76,
+          "localFirstWord": 714,
+          "sampleSha256": "2a472a25a8fa8a0d69d5eaa8d5880e786dfd797ec08987e243d013a72b236218",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 12,
+          "longestConsecutiveMatchingWords": 110,
+          "localFirstWord": 1154,
+          "sampleSha256": "c00147d4adcbe5a88de7296258cd4f2cda3ccf607a2b2f10c9d4cd9330fcab4a",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 13,
+          "longestConsecutiveMatchingWords": 57,
+          "localFirstWord": 1391,
+          "sampleSha256": "75410bc8f06cc2e25a74cb10b27986a7430c999700cdc90a93a7740bff3651b9",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 14,
+          "longestConsecutiveMatchingWords": 70,
+          "localFirstWord": 1706,
+          "sampleSha256": "ec44a3730b6c2594d6fd3f9d75496fff6a7183a86d33b3d5954aaa1056082b80",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 15,
+          "longestConsecutiveMatchingWords": 100,
+          "localFirstWord": 2000,
+          "sampleSha256": "bed1ecbbf7697fb8543b066a7cba1f5b9285b9c90164a4e58f1c44f7f8586fe0",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 16,
+          "longestConsecutiveMatchingWords": 194,
+          "localFirstWord": 2376,
+          "sampleSha256": "6a9c5fdeb1a60d10d1c7ac6547ca523c6830f56d03e31a1bd1d6a5f2525611f1",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 17,
+          "longestConsecutiveMatchingWords": 214,
+          "localFirstWord": 2580,
+          "sampleSha256": "8a62afb559214763d3114dbaf48fa49bde3cca13b7dee560fc46e6e1a78f56d9",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 18,
+          "longestConsecutiveMatchingWords": 167,
+          "localFirstWord": 2987,
+          "sampleSha256": "3352b4df18fa769e6498a4a171c0894c3d22e9e97c55a819f8f6a7f2a9248b73",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 19,
+          "longestConsecutiveMatchingWords": 78,
+          "localFirstWord": 3415,
+          "sampleSha256": "a307db72351b361dfbbf27145a9e7ac1b11cf420461832c7e50b11551000f0c6",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 20,
+          "longestConsecutiveMatchingWords": 72,
+          "localFirstWord": 3611,
+          "sampleSha256": "0db5121c23339c2766ea24b9b058d348ec6c32bc777ffb5152c9779e17305c68",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 21,
+          "longestConsecutiveMatchingWords": 131,
+          "localFirstWord": 4004,
+          "sampleSha256": "c1d00dc6128c6cec0213fc92b9865997ff5d64f120146232b57b89393c4398a5",
+          "localAndPreviewMatchExactNormalizedWords": true
+        }
+      ],
+      "attributionOfUncreditedIntegralCopy": "INFERENZA DA CAMPIONI",
+      "wholeVolumeCollated": false,
+      "translationReuseAuthorizedByThisComparison": false,
+      "finding": "Attribuzione della copia integrale inferita dai campioni iniziali coincidenti con l’anteprima ufficiale attribuita. Non attestata identità di tutta l’edizione."
+    },
+    {
+      "volume": 2,
+      "officialPreview": "https://www.alianzaeditorial.es/primer_capitulo/en-busca-del-tiempo-perdido-2.pdf",
+      "previewSha256": "041efd8e72c01a3f6f18cc67e0023d67f4534759743ab3c8903505dae2332fe6",
+      "pdfPages": 20,
+      "translatorOfOfficialEdition": "Pedro Salinas",
+      "matchedPages": [
+        {
+          "pdfPage": 7,
+          "longestConsecutiveMatchingWords": 72,
+          "localFirstWord": 88,
+          "sampleSha256": "601fe6219f492b1bb96aca0eda51372a1f6d08a5766bc10c669e0951288c2666",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 8,
+          "longestConsecutiveMatchingWords": 55,
+          "localFirstWord": 518,
+          "sampleSha256": "705b2ec7fbea5a0f59886ec9fa5672f30868d4b155e6f2d4d2b094bd2fce4fec",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 9,
+          "longestConsecutiveMatchingWords": 65,
+          "localFirstWord": 711,
+          "sampleSha256": "cee99595ec4417aae3b452285131931dfe2fdc691653024ff34b7663094adca4",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 10,
+          "longestConsecutiveMatchingWords": 93,
+          "localFirstWord": 1143,
+          "sampleSha256": "bfe85a1639d6bcae31e2bef37f5b3841e482251148a32378c9debe9d2553018b",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 11,
+          "longestConsecutiveMatchingWords": 77,
+          "localFirstWord": 1312,
+          "sampleSha256": "549bf1ca52decbfd3087edd398010ddf8f1299c3d3e057c7e3b2b55d1f3c7d7d",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 12,
+          "longestConsecutiveMatchingWords": 32,
+          "localFirstWord": 1601,
+          "sampleSha256": "fa0070afc20342fb6084101a435250cda6f862810bf0f58797ab41e10c1cfedf",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 13,
+          "longestConsecutiveMatchingWords": 79,
+          "localFirstWord": 1927,
+          "sampleSha256": "46dee510db6c4ea4f091942bd5c988c61c240cced96b626c3e0cd076e0a6ab01",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 14,
+          "longestConsecutiveMatchingWords": 86,
+          "localFirstWord": 2224,
+          "sampleSha256": "530094a7e4cb95a656ed0d6d209df38496f33aabeb4a3c90f004c1e7be1b9f84",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 15,
+          "longestConsecutiveMatchingWords": 80,
+          "localFirstWord": 2571,
+          "sampleSha256": "698e4e310f4d2473058c2b5c8439520954becd3f93373cf0479723169d00b285",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 16,
+          "longestConsecutiveMatchingWords": 59,
+          "localFirstWord": 2984,
+          "sampleSha256": "c6e5f07eee7bcd35eea004f786f06ae7c928f4a41d55c540d391bdaeeefcd804",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 17,
+          "longestConsecutiveMatchingWords": 55,
+          "localFirstWord": 3334,
+          "sampleSha256": "8f4a8aba5b9899c1a03df9c1eaf5d48338eb78a95e94af5989c1f035cd1dac27",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 18,
+          "longestConsecutiveMatchingWords": 68,
+          "localFirstWord": 3482,
+          "sampleSha256": "4d813268cf77371e36d634a4bacb7a3654837d3270c32a5cf13ddc2fb7345447",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 19,
+          "longestConsecutiveMatchingWords": 107,
+          "localFirstWord": 3961,
+          "sampleSha256": "744e0aae1d706a759ff041796a3ac94a110a8bb545fc21d196e962c4af5ca3d4",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 20,
+          "longestConsecutiveMatchingWords": 58,
+          "localFirstWord": 4279,
+          "sampleSha256": "ad187cb2358c2bb6925bd544a53ae20e7577b72144ddd6cf9e93d77e3340d532",
+          "localAndPreviewMatchExactNormalizedWords": true
+        }
+      ],
+      "attributionOfUncreditedIntegralCopy": "INFERENZA DA CAMPIONI",
+      "wholeVolumeCollated": false,
+      "translationReuseAuthorizedByThisComparison": false,
+      "finding": "Attribuzione della copia integrale inferita dai campioni iniziali coincidenti con l’anteprima ufficiale attribuita. Non attestata identità di tutta l’edizione."
+    },
+    {
+      "volume": 3,
+      "officialPreview": "https://www.alianzaeditorial.es/primer_capitulo/en-busca-del-tiempo-perdido-3.pdf",
+      "previewSha256": "22807e760fcb4be48f3b02bc826ddea36988c3ab5de233f499c4acb1e37f23f2",
+      "pdfPages": 21,
+      "translatorOfOfficialEdition": "Pedro Salinas; José María Quiroga Plà",
+      "matchedPages": [
+        {
+          "pdfPage": 9,
+          "longestConsecutiveMatchingWords": 106,
+          "localFirstWord": 152,
+          "sampleSha256": "62aa1144eb1e72f7a9964495bdb1cbb981f76b5f8f5ac83811497ebe4a5eabe3",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 10,
+          "longestConsecutiveMatchingWords": 153,
+          "localFirstWord": 410,
+          "sampleSha256": "005b300faebb9b528867b236a58b1a9f23b0fc97e12fd66af36f894a0719e446",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 11,
+          "longestConsecutiveMatchingWords": 65,
+          "localFirstWord": 746,
+          "sampleSha256": "9f9d6163e9e8a0d6c4ae2f85be0e24be8bb80bd923763f8ec857d69db04e83c2",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 12,
+          "longestConsecutiveMatchingWords": 83,
+          "localFirstWord": 1130,
+          "sampleSha256": "0186d036ff2f6977858e6274de74195aa1563ab9c70e8f8b3460205ecc3e8f41",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 13,
+          "longestConsecutiveMatchingWords": 209,
+          "localFirstWord": 1269,
+          "sampleSha256": "fccfd776daefbd7c9f2615a753f60394709bd10a7dc6a2b9686e27d06f3da2d0",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 14,
+          "longestConsecutiveMatchingWords": 245,
+          "localFirstWord": 1533,
+          "sampleSha256": "db7ec3123e34c9819dcdf18eef0dc3c4b8842a4ad96e27d28c0309793deb765f",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 15,
+          "longestConsecutiveMatchingWords": 105,
+          "localFirstWord": 1929,
+          "sampleSha256": "8f29123b7ecad7d5efd1661743cbf03f220ee71f332a16e88567e2d3954d190f",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 16,
+          "longestConsecutiveMatchingWords": 240,
+          "localFirstWord": 2178,
+          "sampleSha256": "6fed1d39e584c2c61d25c44327206444bf859c85ed4bb16292fa780fac69cc8e",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 17,
+          "longestConsecutiveMatchingWords": 77,
+          "localFirstWord": 2523,
+          "sampleSha256": "e685bc30c04c1654e764c469b1e1e7249fc6f79f9330de15e1a63e795295a749",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 18,
+          "longestConsecutiveMatchingWords": 261,
+          "localFirstWord": 2802,
+          "sampleSha256": "1eafa0c5d172e86618704b97bb6144bd1b28611f5f86371e5cbf84dc19071ac5",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 19,
+          "longestConsecutiveMatchingWords": 119,
+          "localFirstWord": 3124,
+          "sampleSha256": "e2d9c51b60b09070325278dea918b978ca35b689168d6081c19b285184773af1",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 20,
+          "longestConsecutiveMatchingWords": 91,
+          "localFirstWord": 3510,
+          "sampleSha256": "9e86231bb279f436faf5a5e92fc31337f87bd210bb7b9e9fcb16a7b8d8fbf7f8",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 21,
+          "longestConsecutiveMatchingWords": 121,
+          "localFirstWord": 3845,
+          "sampleSha256": "e83300d6b897c038f92b12e4799e8206d55d00d6715f0882716b1710b5d98ee8",
+          "localAndPreviewMatchExactNormalizedWords": true
+        }
+      ],
+      "attributionOfUncreditedIntegralCopy": "INFERENZA DA CAMPIONI",
+      "wholeVolumeCollated": false,
+      "translationReuseAuthorizedByThisComparison": false,
+      "finding": "Attribuzione della copia integrale inferita dai campioni iniziali coincidenti con l’anteprima ufficiale attribuita. Non attestata identità di tutta l’edizione."
+    },
+    {
+      "volume": 4,
+      "officialPreview": "https://www.alianzaeditorial.es/primer_capitulo/en-busca-del-tiempo-perdido-4-sodoma-y-gomorra.pdf",
+      "previewSha256": "693e80edb430d693e7b7d0a1db0c37bfa9a0c9bf039e8eca470b435ce3f3beeb",
+      "pdfPages": 21,
+      "translatorOfOfficialEdition": "Consuelo Berges",
+      "matchedPages": [
+        {
+          "pdfPage": 13,
+          "longestConsecutiveMatchingWords": 22,
+          "localFirstWord": 2186,
+          "sampleSha256": "8fc47ae56b3b3e257957cf18c32879849d3ae25672c72e7f0ba0cb354ed872f0",
+          "localAndPreviewMatchExactNormalizedWords": true
+        }
+      ],
+      "attributionOfUncreditedIntegralCopy": "NON RISOLTA",
+      "wholeVolumeCollated": false,
+      "translationReuseAuthorizedByThisComparison": false,
+      "finding": "Il confronto del paragrafo iniziale mostra una traduzione diversa da Berges; il singolo segmento di 22 parole non giustifica l’attribuzione. Copia integrale ancora non identificata."
+    },
+    {
+      "volume": 5,
+      "officialPreview": "https://www.alianzaeditorial.es/primer_capitulo/en-busca-del-tiempo-perdido-5-la-prisionera.pdf",
+      "previewSha256": "3d2186f50f7ca0cdb9f363638bf191180697e34e74661a00848348661a9a68bb",
+      "pdfPages": 21,
+      "translatorOfOfficialEdition": "Consuelo Berges",
+      "matchedPages": [
+        {
+          "pdfPage": 3,
+          "longestConsecutiveMatchingWords": 89,
+          "localFirstWord": 76,
+          "sampleSha256": "6bb3eae3ba816f847f5ef33432678e244689dcfc8df00a71d570fe5e8f7c075c",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 4,
+          "longestConsecutiveMatchingWords": 124,
+          "localFirstWord": 274,
+          "sampleSha256": "3b35ebf6deee7c16038fbccede6a82f39a35d572fc9d3acab130d5557cc0db55",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 5,
+          "longestConsecutiveMatchingWords": 178,
+          "localFirstWord": 574,
+          "sampleSha256": "a634a30899e29867aec3262af8e6e84310ac4414f228d44b6b7c65d49f6c4d51",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 6,
+          "longestConsecutiveMatchingWords": 91,
+          "localFirstWord": 876,
+          "sampleSha256": "7649cf7425ab596b79739585a4d4d2ec16f7198b0f8f811ce76ab1845643f5d9",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 7,
+          "longestConsecutiveMatchingWords": 125,
+          "localFirstWord": 1263,
+          "sampleSha256": "949e7afff7fcbb37a73315e3643f952463809754fe5e0f27015f0af22f96dded",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 8,
+          "longestConsecutiveMatchingWords": 120,
+          "localFirstWord": 1447,
+          "sampleSha256": "e5011b2ebadaf4540d0e38c9c9a18b0cccdf06f821d495544347943728501f1f",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 9,
+          "longestConsecutiveMatchingWords": 94,
+          "localFirstWord": 1957,
+          "sampleSha256": "eefdd387415872cdb37477a24fdcfd259b96454c9c5de4167becdc102d52e3ab",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 10,
+          "longestConsecutiveMatchingWords": 151,
+          "localFirstWord": 2238,
+          "sampleSha256": "e4ec83ee8c897269afd524642f82261560462ef255c15b231942c1873a99283e",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 11,
+          "longestConsecutiveMatchingWords": 118,
+          "localFirstWord": 2562,
+          "sampleSha256": "530ddde449aaa6348ddfab8d42abf363a3a255cc5f944e583c6dfe7ea5554068",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 12,
+          "longestConsecutiveMatchingWords": 135,
+          "localFirstWord": 2741,
+          "sampleSha256": "4009fbf1a6e852b45aa9a3818e0e3ddccfd59044cc8579f225ecd8d7fa9c6bfc",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 13,
+          "longestConsecutiveMatchingWords": 108,
+          "localFirstWord": 3062,
+          "sampleSha256": "4c6c6183eda91e8b2fab5993def262ecd52e4d1c269139551ff41540e4493c4b",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 14,
+          "longestConsecutiveMatchingWords": 249,
+          "localFirstWord": 3339,
+          "sampleSha256": "42e51c2da0910a3a2495b92cd0c834a71e648b85df8ea7775c044e4e924616e3",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 15,
+          "longestConsecutiveMatchingWords": 197,
+          "localFirstWord": 3646,
+          "sampleSha256": "d0293eeff95484d8a3d7bcf9120fadb790b79adfe825a85df204259bf9435009",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 16,
+          "longestConsecutiveMatchingWords": 125,
+          "localFirstWord": 3899,
+          "sampleSha256": "d5ba198c27d037ba47ad3aef22be639c14bf2e5f12ddc80603c73e8e17d30859",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 17,
+          "longestConsecutiveMatchingWords": 168,
+          "localFirstWord": 4180,
+          "sampleSha256": "2af1d43066297f6ae90e73c02bfdc630b24fcc66f8106854ee8c26a0d8d4f03f",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 18,
+          "longestConsecutiveMatchingWords": 77,
+          "localFirstWord": 4473,
+          "sampleSha256": "b9e7890bfa35b82485492452a7a576889cfa73eb47f9ce85197991a29da8378b",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 19,
+          "longestConsecutiveMatchingWords": 90,
+          "localFirstWord": 4960,
+          "sampleSha256": "e2d5388f8ac183751cc7b3790d889f343c331dee3fd10e70b994fe7e32fe6779",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 20,
+          "longestConsecutiveMatchingWords": 81,
+          "localFirstWord": 5268,
+          "sampleSha256": "391629bbd2c1a812cf97bccf0ea6575eaf68e081df192240a624608b8f9b6e52",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 21,
+          "longestConsecutiveMatchingWords": 181,
+          "localFirstWord": 5462,
+          "sampleSha256": "36c9aac5110b4ee368961fa17f3fb28dd27e9c110365023ff65043aa97b68de3",
+          "localAndPreviewMatchExactNormalizedWords": true
+        }
+      ],
+      "attributionOfUncreditedIntegralCopy": "INFERENZA DA CAMPIONI",
+      "wholeVolumeCollated": false,
+      "translationReuseAuthorizedByThisComparison": false,
+      "finding": "Attribuzione della copia integrale inferita dai campioni iniziali coincidenti con l’anteprima ufficiale attribuita. Non attestata identità di tutta l’edizione."
+    },
+    {
+      "volume": 6,
+      "officialPreview": "https://www.alianzaeditorial.es/primer_capitulo/en-busca-del-tiempo-perdido-6-la-fugitiva.pdf",
+      "previewSha256": "ae096abbcedecdcecb3c53d209534b542eb976f880d82f5ee2258713f21b46c1",
+      "pdfPages": 21,
+      "translatorOfOfficialEdition": "Consuelo Berges",
+      "matchedPages": [
+        {
+          "pdfPage": 5,
+          "longestConsecutiveMatchingWords": 168,
+          "localFirstWord": 72,
+          "sampleSha256": "faf3565a647e419ccc2ea5c4c527fbe3f06497cd2a3a1641d67ae782183a3123",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 6,
+          "longestConsecutiveMatchingWords": 224,
+          "localFirstWord": 240,
+          "sampleSha256": "2643b5f6f0acc699b5b1ec2d269371993bc7c39038f346be7f21bf125d3199d9",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 7,
+          "longestConsecutiveMatchingWords": 190,
+          "localFirstWord": 640,
+          "sampleSha256": "4aa57248d6b09824a44b625ead662d9b3388f9ac083d2570373ba057bc039894",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 8,
+          "longestConsecutiveMatchingWords": 163,
+          "localFirstWord": 957,
+          "sampleSha256": "9cdc5c02ecb88c3548ad397efe86c897d859fdce894ba4e4640da2dc677ae683",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 9,
+          "longestConsecutiveMatchingWords": 325,
+          "localFirstWord": 1137,
+          "sampleSha256": "c1cccaa0065d582cf38bad73eaa7ad05e01de0399559da952cfcf4bf78068a50",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 10,
+          "longestConsecutiveMatchingWords": 220,
+          "localFirstWord": 1462,
+          "sampleSha256": "d05082ebc24a5326d14ac397dbed44c1ec297f92a8b5a8a4ee4e4202b5d006c4",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 11,
+          "longestConsecutiveMatchingWords": 105,
+          "localFirstWord": 2008,
+          "sampleSha256": "5b2ba6d603cc3f1073dfe53e247f5120694e6608040be2ddca8ea68fb665c583",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 12,
+          "longestConsecutiveMatchingWords": 239,
+          "localFirstWord": 2176,
+          "sampleSha256": "29023075820b643339964fed0836d4491ebca46524a369b7f265fcdbef8e015a",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 13,
+          "longestConsecutiveMatchingWords": 341,
+          "localFirstWord": 2415,
+          "sampleSha256": "747aada2c7205487e3e2e072db89a238529cd92822dc1ed1acdc2cfa3f43b203",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 14,
+          "longestConsecutiveMatchingWords": 242,
+          "localFirstWord": 2757,
+          "sampleSha256": "dbe8029e643a457b2a221828ec352fabdf89f889d40a8a646c3d9482be8a1546",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 15,
+          "longestConsecutiveMatchingWords": 131,
+          "localFirstWord": 3130,
+          "sampleSha256": "9ea908f4faba2e5c656dfe730b4e27a49e10c917ef99082c2d2268caf3dc4cdc",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 16,
+          "longestConsecutiveMatchingWords": 321,
+          "localFirstWord": 3394,
+          "sampleSha256": "c12ca0f222f96b43e4c7bc0d67dc00b33eeda64065d38ee8a2f003468587f907",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 17,
+          "longestConsecutiveMatchingWords": 205,
+          "localFirstWord": 3716,
+          "sampleSha256": "d130e83e1485e03f38cdaf5031598cca2ad863b08321b0056172d6ef14a4c0cf",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 18,
+          "longestConsecutiveMatchingWords": 315,
+          "localFirstWord": 4037,
+          "sampleSha256": "90607a26929d3224265d9e5adc27e13ee2ae37565f839b31f3f5b1bde35e4186",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 19,
+          "longestConsecutiveMatchingWords": 159,
+          "localFirstWord": 4400,
+          "sampleSha256": "37a0cfb051eaa4378514e2a052cf25750b729c89bbd1af57cd1eb63abfdb7b25",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 20,
+          "longestConsecutiveMatchingWords": 159,
+          "localFirstWord": 4816,
+          "sampleSha256": "26f7bceb3972fefddc51cdcd650f8377eb977f329d37e1e5c5f1bb7e8605bb8d",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 21,
+          "longestConsecutiveMatchingWords": 63,
+          "localFirstWord": 4995,
+          "sampleSha256": "576c2d1e4635c5689cecfc6dfedc38323dfea33236e19acb3037a7ac272dcc08",
+          "localAndPreviewMatchExactNormalizedWords": true
+        }
+      ],
+      "attributionOfUncreditedIntegralCopy": "INFERENZA DA CAMPIONI",
+      "wholeVolumeCollated": false,
+      "translationReuseAuthorizedByThisComparison": false,
+      "finding": "Attribuzione della copia integrale inferita dai campioni iniziali coincidenti con l’anteprima ufficiale attribuita. Non attestata identità di tutta l’edizione."
+    },
+    {
+      "volume": 7,
+      "officialPreview": "https://www.alianzaeditorial.es/primer_capitulo/en-busca-del-tiempo-perdido-7-el-tiempo-recobrado.pdf",
+      "previewSha256": "7e1b5bd5661702fc6ff46210aaf906f0bbd0ee977792b7287809104d5015204f",
+      "pdfPages": 21,
+      "translatorOfOfficialEdition": "Consuelo Berges",
+      "matchedPages": [
+        {
+          "pdfPage": 3,
+          "longestConsecutiveMatchingWords": 82,
+          "localFirstWord": 170,
+          "sampleSha256": "46cbd4e795ffc003c99513998c14c0487fd4503179c3077e37832b14ac61bc3f",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 4,
+          "longestConsecutiveMatchingWords": 260,
+          "localFirstWord": 297,
+          "sampleSha256": "303ca7f20741661620309dad5b67e576ee02126293c2304a20ccea09e097e576",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 5,
+          "longestConsecutiveMatchingWords": 169,
+          "localFirstWord": 740,
+          "sampleSha256": "509df43dee6a71b1d0435dda6ee713bf449c47a0db9e926403ad54db6301e094",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 6,
+          "longestConsecutiveMatchingWords": 95,
+          "localFirstWord": 1060,
+          "sampleSha256": "861b83acf24f92a848ad25246d45562ff62602965d885b6768287869da72028c",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 7,
+          "longestConsecutiveMatchingWords": 130,
+          "localFirstWord": 1371,
+          "sampleSha256": "31500de8bc5b08ed0a399f61d6767392334aebbc19aa884119c85172203adb95",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 8,
+          "longestConsecutiveMatchingWords": 83,
+          "localFirstWord": 1556,
+          "sampleSha256": "9d86c4d85e1a151b7ec4ba0bf1dccf00891f4855fc083d51bd9d0c9031ec693a",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 9,
+          "longestConsecutiveMatchingWords": 88,
+          "localFirstWord": 1842,
+          "sampleSha256": "486d532bf06b8244d8de143fc661b7132c3f089cb6955f2559a7977364f19e12",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 10,
+          "longestConsecutiveMatchingWords": 159,
+          "localFirstWord": 2234,
+          "sampleSha256": "d10a846936f043f88081864d4631c11ac35a9129341e0142774c60e770405ad1",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 11,
+          "longestConsecutiveMatchingWords": 70,
+          "localFirstWord": 2477,
+          "sampleSha256": "9eeb7839973958842a98267cee8ac95e87e6b7d19708dd38dc3d6cd1fd9dce49",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 12,
+          "longestConsecutiveMatchingWords": 218,
+          "localFirstWord": 2820,
+          "sampleSha256": "e6fc0ccaf2a68fb79ba0f3bdc0bbfd8118a0613b7763988f9553a4bf44049bf6",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 13,
+          "longestConsecutiveMatchingWords": 157,
+          "localFirstWord": 3056,
+          "sampleSha256": "a5b9b934eae8db9e9fe44d7269c0e2e30f600f28f5efc848eb70c3dd01af2ed6",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 14,
+          "longestConsecutiveMatchingWords": 138,
+          "localFirstWord": 3375,
+          "sampleSha256": "15a332ee9fda7b90f8f26be72bec02e8da537668c1ff1ad51400ce4b45e75cdb",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 15,
+          "longestConsecutiveMatchingWords": 138,
+          "localFirstWord": 3675,
+          "sampleSha256": "eb4b477e26905206798b6fa5443943810e6f0f7e39a8d0b7689439e1e9a8db97",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 16,
+          "longestConsecutiveMatchingWords": 70,
+          "localFirstWord": 4039,
+          "sampleSha256": "8dd6d228fa965a4a5598cdded0f63f39d01d8df2b4e4ead257214a9fe63c8f00",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 17,
+          "longestConsecutiveMatchingWords": 246,
+          "localFirstWord": 4196,
+          "sampleSha256": "de3b822073096c50fdc5e4e17c1c8a11187a4cb967a984988d13a1adf7d66150",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 18,
+          "longestConsecutiveMatchingWords": 100,
+          "localFirstWord": 4442,
+          "sampleSha256": "2f4e968a0e2cf7a5fadafebbe431235d6b40c4d057b90c652249f6043d01f27a",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 19,
+          "longestConsecutiveMatchingWords": 121,
+          "localFirstWord": 4886,
+          "sampleSha256": "df573aba3b8deeae42672c9b4a14de9b0e38fdd21783c5beb839334375ee934f",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 20,
+          "longestConsecutiveMatchingWords": 114,
+          "localFirstWord": 5138,
+          "sampleSha256": "8136198ba051114155204268ea280d8cccdd05f92611365da35226459bfbb3db",
+          "localAndPreviewMatchExactNormalizedWords": true
+        },
+        {
+          "pdfPage": 21,
+          "longestConsecutiveMatchingWords": 103,
+          "localFirstWord": 5421,
+          "sampleSha256": "16350244e2bc93f973f1c5c1711e69fc2b96fb393cd5a1927203b821c739a05d",
+          "localAndPreviewMatchExactNormalizedWords": true
+        }
+      ],
+      "attributionOfUncreditedIntegralCopy": "INFERENZA DA CAMPIONI",
+      "wholeVolumeCollated": false,
+      "translationReuseAuthorizedByThisComparison": false,
+      "finding": "Attribuzione della copia integrale inferita dai campioni iniziali coincidenti con l’anteprima ufficiale attribuita. Non attestata identità di tutta l’edizione."
+    }
+  ]
+}

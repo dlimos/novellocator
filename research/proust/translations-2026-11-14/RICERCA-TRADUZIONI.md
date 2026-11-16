@@ -70,3 +70,23 @@ La ricerca web precedente non aveva reperito una fonte italiana aperta integrale
 ## Artefatti e stato
 
 `FONTI-21-VOLUMI.csv` distingue tutte le 21 combinazioni volume/lingua, con URL, acquisizione, attribuzione, hash, limiti e stato dell’importazione. `STATO-RICERCA.json` contiene il riepilogo. Le copie integrali e gli audit dei candidati restano locali nella stessa cartella, senza pubblicazione dei testi. Il dataset FR pubblicato e i suoi identificativi non sono modificati da questo lavoro.
+
+## Riscontro spagnolo del 17 novembre 2026
+
+Sono state confrontate le sette anteprime gratuite ufficiali Alianza, ciascuna con frontespizio e colophon attribuiti, con le copie integrali PruébaT già acquisite. L’identità della copia è un’inferenza da campioni iniziali, non una collazione integrale né la verifica dei diritti. Il [rapporto dei campioni](riscontro-anteprime-es-2026-11-17.json) registra URL, hash, pagine e lunghezza dei segmenti coincidenti, senza redistribuire i testi.
+
+| Volume | Traduttore dell’anteprima Alianza | Pagine con almeno un segmento coincidente di 18 parole | Esito sulla copia PruébaT |
+|---|---|---:|---|
+| 1 | Pedro Salinas | 13 | Attribuzione inferita dai campioni |
+| 2 | Pedro Salinas | 14 | Attribuzione inferita dai campioni |
+| 3 | Pedro Salinas; José María Quiroga Plà | 13 | Attribuzione inferita dai campioni |
+| 4 | Consuelo Berges | 1 | Attribuzione non risolta: apertura diversa da Berges |
+| 5 | Consuelo Berges | 19 | Attribuzione inferita dai campioni |
+| 6 | Consuelo Berges | 17 | Attribuzione inferita dai campioni |
+| 7 | Consuelo Berges | 19 | Attribuzione inferita dai campioni |
+
+Il volume IV richiede un controllo distinto: l’apertura locale comincia «Se sabe que mucho antes», mentre l’edizione Berges ha un diverso testo iniziale. Il solo segmento comune di 22 parole non consente di attribuire l’intero volume a Berges. Per gli altri sei volumi i riscontri attraversano da 13 a 19 pagine delle anteprime; le attribuzioni inferite sono Salinas per I–II, Salinas/Quiroga Plà per III, Berges per V–VII. Non si estende questa evidenza a una presunta identità editoriale integrale.
+
+Nessun nuovo estratto ES è stato pubblicato: rimangono da completare l’allineamento ai passi FR, la selezione leggibile, le evidenziazioni e la valutazione del riuso. Le anteprime ufficiali non sono licenze di riutilizzo. Restano documentate le restrizioni della copia PruébaT.
+
+In inglese l’audit locale distingue ora 118 associazioni con almeno un candidato riscontrato nel testo e 115 corrispondenze narrative riesaminate; tre vecchi candidati riguardano scene diverse e sono respinti. Questi numeri non sono estratti pronti o pubblicati: il contesto finale deve ancora essere rifinito.
