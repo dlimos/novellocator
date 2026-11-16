@@ -41,6 +41,19 @@
     view.placeKinds[id]=data.places[id].kind;view.placeNames[id]=data.places[id].name;
     view.placeSources[id]=selected.placeSources?.[id];view.placeExcerpts[id]=selected.placeExcerpts[id];
     view.placeOccurrences[id]=relevant.map(section=>({sectionId:section.id,title:section.title,category:section.placeCategories?.[id]||'action',excerpt:section.placeExcerpts[id]}));
+    // The imaginary panorama can have a verified passage of its own. Keep the
+    // original chapter occurrences untouched and never replace a complete
+    // indexed translation pair with a different narrative excerpt.
+    const extraId=config.verifiedViewPassageLinks?.[epoch.id+':'+id];
+    const supplement=config.verifiedViewPassages?.[extraId];
+    const prior=view.placeExcerpts[id];
+    if(data.book.id==='macondo'&&supplement?.verificationStatus==='verified'&&
+       supplement.original?.quote?.trim()&&
+       supplement.translations?.it?.quote?.trim()&&supplement.translations?.en?.quote?.trim()&&
+       !(prior?.translations?.it?.quote?.trim()&&prior?.translations?.en?.quote?.trim())){
+      view.placeExcerpts[id]={original:supplement.original,translations:supplement.translations};
+      view.placeSources[id]={label:supplement.original.attribution};
+    }
    }
    return view;
   });
