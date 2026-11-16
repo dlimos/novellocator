@@ -328,34 +328,6 @@ function renderExcerpts(excerpts,heading,places=[]){
  quotationControls.set(id,{records,places,heading});
  return `<section class="original-excerpt"><h3 class="excerpt-heading">${esc(t(heading))}</h3><label class="quotation-language" for="quotation-language-${id}">${esc(t('Quotation language'))}<select id="quotation-language-${id}" class="quotation-language-select" data-quotation-id="${id}" ${records.length===1?'disabled aria-disabled="true"':''}>${records.map(item=>`<option value="${esc(item.language)}" ${item.language===selected.language?'selected':''}>${esc(t(excerptLanguageNames[item.language]||item.language))}</option>`).join('')}</select></label><div class="quotation-body" aria-live="polite">${quotationBody(selected,places)}</div></section>`;
 }
-function renderMultilingualIndex(chapter){
- const records=window.atlasData.multilingualReferences;
- if(!Array.isArray(records)||!records.length)return;
- const words={
-  it:{title:'Citazioni multilingue',chapter:'Capitolo',hint:'Testi spagnoli e traduzioni pubblicate in inglese e italiano. I luoghi senza coordinate sono documentati qui, senza creare punti sulla mappa.',none:'Nessuna citazione per questo capitolo.',category:{AZIONE:'Azione',MENZIONE:'Menzione',RICORDO:'Ricordo',PROGETTO:'Progetto'}},
-  en:{title:'Multilingual quotations',chapter:'Chapter',hint:'Spanish text with published English and Italian translations. Places without coordinates appear here without adding map markers.',none:'No quotations for this chapter.',category:{AZIONE:'Action',MENZIONE:'Mention',RICORDO:'Recollection',PROGETTO:'Plan'}},
-  fr:{title:'Citations multilingues',chapter:'Chapitre',hint:'Texte espagnol et traductions publiées en anglais et italien. Les lieux sans coordonnées figurent ici, sans repère sur la carte.',none:'Aucune citation pour ce chapitre.',category:{AZIONE:'Action',MENZIONE:'Mention',RICORDO:'Souvenir',PROGETTO:'Projet'}},
-  es:{title:'Citas multilingües',chapter:'Capítulo',hint:'Texto español y traducciones publicadas en inglés e italiano. Los lugares sin coordenadas figuran aquí sin nuevos marcadores en el mapa.',none:'No hay citas de este capítulo.',category:{AZIONE:'Acción',MENZIONE:'Mención',RICORDO:'Recuerdo',PROGETTO:'Proyecto'}}
- }[locale]||{title:'Multilingual quotations',chapter:'Chapter',hint:'Spanish, English and Italian text.',none:'No quotations.',category:{}};
- const chaptersWithRecords=[...new Set(records.map(item=>item.chapter))].sort((a,b)=>a-b);
- const preferred=book.literaryViews?(book.sourceChapterEpochs||[]).indexOf(chapter.mapEpoch)+1:Number(chapter.id);
- const selected=chaptersWithRecords.includes(preferred)?preferred:chaptersWithRecords[0];
- const section=document.createElement('section');
- section.className='multilingual-index';
- section.innerHTML=`<div class="multilingual-header"><div><h3>${esc(words.title)} <span class="multilingual-count">${records.length}</span></h3><p>${esc(words.hint)}</p></div><label class="multilingual-chapter-picker" for="multilingual-chapter">${esc(words.chapter)}<select id="multilingual-chapter">${chaptersWithRecords.map(n=>`<option value="${n}" ${n===selected?'selected':''}>${esc(words.chapter)} ${n}</option>`).join('')}</select></label></div><div class="multilingual-list"></div>`;
- const list=section.querySelector('.multilingual-list');
- const fill=(number)=>{
-  const chosen=records.filter(item=>item.chapter===number);
-  list.innerHTML=chosen.length?chosen.map(item=>{
-   const cat=words.category[item.category]||item.category||'';
-   const placeTerms=[{name:item.placeSurface||item.name,aliases:[item.name,...(item.aliases||[])]}];
-   return `<details class="location-evidence multilingual-item" data-reference-id="${esc(item.referenceId)}"><summary><span>${esc(item.name)}</span><small>${esc(cat)}</small></summary>${renderExcerpts(item.excerpt,'Passage from the novel',placeTerms)}</details>`;
-  }).join(''):`<p>${esc(words.none)}</p>`;
- };
- section.querySelector('select').addEventListener('change',event=>fill(Number(event.target.value)));
- fill(selected);
- document.getElementById('selected-location').parentElement.appendChild(section);
-}
 function unlocatedPlacesForDisplay(chapter){
  // These invented institutions and non-geographic spaces remain in the audit.
  // A literary setting with a documented real area can instead receive a mapped
@@ -387,7 +359,6 @@ function renderDetail(){
   section.innerHTML=`<h3>${esc(t('Locations without verified coordinates'))}</h3>${unlocatedPlaces.map(item=>`<details class="location-evidence"><summary>${esc(item.name)}</summary><p>${esc(item.text)}</p>${renderExcerpts(item.excerpt||{original:{...item,language:item.language||book.originalLanguage||'en',type:'original',attribution:item.attribution||[book.author,book.title,chapter.title].join(' · ')},translations:item.translations||{}},'Passage from the novel',[item])}</details>`).join('')}`;
   document.getElementById('selected-location').parentElement.appendChild(section);
  }
- renderMultilingualIndex(chapter);
 }
 // Legacy category explanations are editorial evidence, never scene descriptions.
 function isGenericLocationDescription(value){
