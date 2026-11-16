@@ -26,7 +26,15 @@
     const sameEpoch=occurrences.filter(section=>section.mapEpoch===index);
     const relevant=data.book.nativeEpochViews&&sameEpoch.length?sameEpoch:occurrences;
     const action=relevant.find(section=>section.placeCategories?.[id]!=='mentioned');
-    const selected=action||relevant[0];
+    // A panorama represents a narrative period, not a single chapter. Within
+    // the same period and category, prefer a passage with verified published
+    // translations while retaining all chapter-specific source occurrences.
+    const comparable=action?relevant.filter(section=>section.placeCategories?.[id]!=='mentioned'):relevant;
+    const translated=data.book.id==='macondo'?comparable.find(section=>{
+     const passage=section.placeExcerpts?.[id];
+     return passage?.translations?.it?.quote?.trim()&&passage?.translations?.en?.quote?.trim();
+    }):null;
+    const selected=translated||action||relevant[0];
     const viewDescription=data.book.illustratedView?.notes?.[locale]?.[id]||data.book.illustratedView?.notes?.en?.[id];
     view.placeNarrativeDescriptions[id]=viewDescription?undefined:selected.placeNarrativeDescriptions?.[id];view.places.push(id);view.placeText.push(viewDescription||selected.placeText[selected.places.indexOf(id)]);
     view.placeCategories[id]=data.book.nativeEpochViews&&!sameEpoch.length?'mentioned':action?'action':'mentioned';
