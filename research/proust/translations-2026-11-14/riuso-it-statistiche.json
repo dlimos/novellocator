@@ -1,0 +1,74 @@
+{
+  "associations": 169,
+  "distinctQuoteStrings": 144,
+  "wordsIncludingRepeated": 10495,
+  "sourceWordsUnion": 8541,
+  "volumeWords": 1167685,
+  "volumeStats": [
+    {
+      "volume": 1,
+      "associations": 25,
+      "volumeWords": 159516,
+      "wordsIncludingRepeated": 1512,
+      "sourceWordsUnion": 1330,
+      "percentageSourceUnion": 0.8338,
+      "longestExcerptWords": 99
+    },
+    {
+      "volume": 2,
+      "associations": 3,
+      "volumeWords": 194732,
+      "wordsIncludingRepeated": 249,
+      "sourceWordsUnion": 249,
+      "percentageSourceUnion": 0.1279,
+      "longestExcerptWords": 106
+    },
+    {
+      "volume": 3,
+      "associations": 42,
+      "volumeWords": 216942,
+      "wordsIncludingRepeated": 2788,
+      "sourceWordsUnion": 1754,
+      "percentageSourceUnion": 0.8085,
+      "longestExcerptWords": 162
+    },
+    {
+      "volume": 4,
+      "associations": 14,
+      "volumeWords": 200463,
+      "wordsIncludingRepeated": 459,
+      "sourceWordsUnion": 431,
+      "percentageSourceUnion": 0.215,
+      "longestExcerptWords": 76
+    },
+    {
+      "volume": 5,
+      "associations": 23,
+      "volumeWords": 153125,
+      "wordsIncludingRepeated": 1284,
+      "sourceWordsUnion": 1273,
+      "percentageSourceUnion": 0.8313,
+      "longestExcerptWords": 121
+    },
+    {
+      "volume": 6,
+      "associations": 24,
+      "volumeWords": 106008,
+      "wordsIncludingRepeated": 1612,
+      "sourceWordsUnion": 1409,
+      "percentageSourceUnion": 1.3291,
+      "longestExcerptWords": 171
+    },
+    {
+      "volume": 7,
+      "associations": 38,
+      "volumeWords": 136899,
+      "wordsIncludingRepeated": 2591,
+      "sourceWordsUnion": 2095,
+      "percentageSourceUnion": 1.5303,
+      "longestExcerptWords": 163
+    }
+  ],
+  "copyrightBasis": "Valutazione editoriale specifica art.70, non pubblico dominio o licenza",
+  "permissionFromRightsHolderClaimed": false
+}

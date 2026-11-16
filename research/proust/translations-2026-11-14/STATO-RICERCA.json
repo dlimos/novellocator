@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-14",
+  "date": "2026-11-16",
   "requestedLanguages": [
     "it",
     "en",
@@ -10,8 +10,8 @@
     "es": 7,
     "it": 7
   },
-  "newTranslationsPublished": 0,
-  "scope": "Acquisizione di testi integrali e preparazione del confronto; copertura multilingue delle citazioni NON completata",
+  "newTranslationsPublished": 169,
+  "scope": "169 associazioni del dataset con traduzione italiana pubblicata e verificata. Inglese e spagnolo ancora incompleti; non completata l’intera copertura multilingue o di tutte le associazioni Proust preesistenti.",
   "sourceTextRedistributed": false,
   "englishCandidates": {
     "selectedAssociations": 169,
@@ -27,7 +27,6 @@
     "Copia italiana AZW3 fornita direttamente dall’utente"
   ],
   "blockers": [
-    "Italiano: allineamento e valutazione del riuso degli estratti da completare.",
     "Spagnolo: identità di traduttore/edizione e riuso della copia da verificare.",
     "Allineamento puntuale delle citazioni ancora incompleto, anche in inglese."
   ],
@@ -47,9 +46,10 @@
   "italianAlignment": {
     "selectedAssociations": 169,
     "withLexicalCandidates": 169,
-    "semanticallyReviewed": 28,
-    "remainingToReview": 141,
-    "published": 0,
+    "semanticallyReviewed": 169,
+    "remainingToReview": 0,
+    "published": 169,
     "sourceTypoPreserved": "Notre Dame de Laghetti nella copia; nessuna correzione silenziosa."
-  }
+  },
+  "italianPublicationProof": "esito-pubblicazione-italiano.json"
 }

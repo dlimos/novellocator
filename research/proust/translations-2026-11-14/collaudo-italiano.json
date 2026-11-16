@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "constraints": true,
+  "all169Reconstructed": true,
+  "highlights": true,
+  "originalsAndPreviousTranslationsUnchanged": true,
+  "idempotence": true,
+  "transactionRollback": true,
+  "changedSnapshotRejected": true,
+  "otherBookUnchanged": true,
+  "insertSources": 2,
+  "insertExcerpts": 169,
+  "updates": 0,
+  "deletes": 0,
+  "productionSqlBytes": 410693
+}

@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-16",
+  "status": "PASS",
+  "publicSite": "https://dlimos.github.io/novellocator/atlas.html?book=proust&lang=it",
+  "perVolumeSampleItalianAndTranslatorAndHighlight": {
+    "1": "Éden Théâtre / Eurialo De Michelis",
+    "2": "Jardin d’Acclimatation / Maura Del Serra",
+    "3": "Angers / Maurizio Grasso",
+    "4": "Bolbec / Giovanni Marchi",
+    "5": "Amsterdam / Giovanna Parisse",
+    "6": "Bourges / Rita Stajano",
+    "7": "Tansonville / Giuseppe Grasso; riferimento indiretto quella dimora"
+  },
+  "quoteLanguageIndependentFromEnglishUI": true,
+  "frenchOriginalAndAuthorizedEdenCorrectionPreserved": true,
+  "csv": [
+    {
+      "kind": "places",
+      "rows": 93,
+      "italianRows": 78,
+      "frenchFallbackRows": 15,
+      "novelTextUrls": false,
+      "preexistingMissingExcerpt": [
+        {
+          "section": "7",
+          "place": "Grands Boulevards · riferimento in boulevard des Italiens"
+        }
+      ]
+    },
+    {
+      "kind": "citations",
+      "rows": 161,
+      "italianRows": 92,
+      "frenchFallbackRows": 69,
+      "novelTextUrls": false,
+      "preexistingMissingExcerpt": []
+    }
+  ],
+  "all169SelectedItalianTextsAndAttributionsFoundInCsv": true,
+  "screenshot": "italiano-pubblicato.jpg",
+  "scope": "169 associazioni del dataset, non tutte le associazioni Proust preesistenti. Lacuna preesistente 7:core:boulevards conservata."
+}
