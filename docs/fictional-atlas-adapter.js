@@ -70,6 +70,15 @@
   for(const p of payload.places){if(p.x===null&&!geographicPlaces[p.id])continue;model.places[p.id]={name:p.names[locale],area:text.town,kind:p.kind==='site'?'site':'area',status:text.position,note:text.mapped,method:labels.note,checked:'2026-10-10',narrativeSource:{label:labels.source},positionSource:{label:labels.period},role:p.role};if(geographicPlaces[p.id])Object.assign(model.places[p.id],{geographic:true,area:geographicPlaces[p.id].areas?.[locale]||geographicPlaces[p.id].areas?.en||'',coords:geographicPlaces[p.id].coords,zoom:geographicPlaces[p.id].zoom,kind:'area',note:geographyLabels.note,method:geographyLabels.note,positionSource:geographicPlaces[p.id].source});}
   for(const [id,geo]of Object.entries(geographicPlaces))if(model.places[id]&&geo.precision==='region')Object.assign(model.places[id],{kind:'uncertain',note:geo.notes?.[locale]||geo.notes?.en||geographyLabels.note,method:geo.notes?.[locale]||geo.notes?.en||geographyLabels.note,narrativeSource:geo.narrativeSource||model.places[id].narrativeSource});
   for(const [id,geo]of Object.entries(geographicPlaces))if(model.places[id]&&geo.scope==='real-literary-model')Object.assign(model.places[id],{kind:'area',name:geo.names?.[locale]||geo.names?.en||model.places[id].name,note:geo.notes?.[locale]||geo.notes?.en,method:geo.methods?.[locale]||geo.methods?.en,narrativeSource:geo.narrativeSource||model.places[id].narrativeSource});
+  // Geographically documented place rationales are displayed under the place name.
+  // Keep image-map coordinates and existing literary-model descriptions untouched.
+  for(const [id,geo] of Object.entries(geographicPlaces)){
+   const description=geo.positionDescription;
+   if(model.places[id]&&description?.status==='reviewed'&&['it','en','fr','es'].every(lang=>typeof description.texts?.[lang]==='string'&&description.texts[lang].trim())){
+    model.places[id].positionDescription=description;
+    if(!model.places[id].area?.trim())model.places[id].area=model.places[id].name;
+   }
+  }
   payload.chapterRanges.forEach(([start,end],i)=>{
    const records=payload.places.filter(p=>(geographicPlaces[p.id]?.pages||p.source.pages).some(page=>page>=start&&page<=end)),epoch=payload.chapterEpochs[i];
    const introduction=payload.chapterIntroductions?.[i]?.[locale]||payload.chapterIntroductions?.[i]?.en;
