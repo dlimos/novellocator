@@ -35,6 +35,7 @@
    'meme-convent':['P_CONVENTO_MEME']
   };
   const byChapterPlace=new Map();
+  const byReferenceId=new Map();
   model.multilingualReferences=Object.entries(index.references).map(([referenceId,ref])=>{
    const place=index.places[ref.place_id]||{};
    const item={referenceId,chapter:Number(ref.chapter),placeId:ref.place_id,
@@ -42,12 +43,18 @@
     aliases:String(place.variants||'').split(/\s+\/\s+/).filter(Boolean),
     category:ref.category,excerpt:verifiedExcerpt(ref,index)};
    byChapterPlace.set(item.chapter+':'+item.placeId,item);
+   byReferenceId.set(item.referenceId,item);
    return item;
   }).sort((a,b)=>a.chapter-b.chapter||a.name.localeCompare(b.name));
   model.book.sourceChapterEpochs=payload.chapterEpochs;
   for(const chapter of model.chapters)for(const illustratedId of chapter.places){
    const candidateIds=links[illustratedId]||['P_'+illustratedId.replace(/-/g,'_').toUpperCase()];
-   const found=candidateIds.map(id=>byChapterPlace.get(chapter.id+':'+id)).find(Boolean);
+   // A few image-only sites are described by an excerpt indexed under a
+   // neighbouring literary referent. Use these links only after editorial
+   // comparison of the Spanish passage with both published translations.
+   const reviewedLink=payload.illustratedPassageLinks?.[chapter.id+':'+illustratedId];
+   const specific=reviewedLink?.status==='verified'?byReferenceId.get(reviewedLink.reference_id):null;
+   const found=(specific?.chapter===chapter.id?specific:null)||candidateIds.map(id=>byChapterPlace.get(chapter.id+':'+id)).find(Boolean);
    if(!found||!found.excerpt.original)continue;
    chapter.placeExcerpts[illustratedId]=found.excerpt;
    chapter.placeSources[illustratedId]={label:found.excerpt.original.attribution};
