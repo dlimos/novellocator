@@ -36,7 +36,7 @@
     "Copia italiana AZW3 fornita direttamente dall’utente"
   ],
   "blockers": [
-    "99 ES IV–VII ancora esclusi: repertorio UNLP riporta Menasché morto nel 1959, incompatibile col termine ordinario vita +70 trascorso nel 2026; Berges protetta. Nessuna fonte alternativa riutilizzabile reperita nelle nuove interrogazioni, nessun permesso ottenuto.",
+    "99 ES IV–VII: PruébaT non dimostra diritti di riuso delle traduzioni protette. Educ.ar dichiara libri aperti e CC BY-NC-SA, ma i quattro PDF collegati riservano la riproduzione a Vi-Da Global S.A.; ambito della licenza per le traduzioni da chiarire. Bozza di richiesta pronta, non inviata. Fonte gratuita integrale già trovata; non è una lacuna di accesso ai 169 passi.",
     "Controllo visivo EN/ES pendente: contesto dell’app conferma browser interno aperto sull’atlante Proust EN, ma i comandi di lettura/interazione non sono esposti. Dati ed esportatore pubblico già verificati."
   ],
   "italianSource": {
@@ -122,5 +122,15 @@
     "publicExporterAll70Check": "PASS",
     "browserUi": "PENDING: browser interno aperto secondo il contesto dell’app; controlli di interazione/lettura non disponibili",
     "proof": "esito-pubblicazione-spagnolo.json"
+  },
+  "spanishAlternativeLicenceReview": {
+    "provider": "Educ.ar / BIDI-Bajalibros",
+    "openBooksDeclarationFound": true,
+    "conflictingPdfCopyrightReservation": true,
+    "translatorLicenceScopeConfirmed": false,
+    "proof": "riscontro-licenze-educ-2026-11-17.json",
+    "draftPrepared": true,
+    "draftSent": false,
+    "newSpanishPublished": 0
   }
 }

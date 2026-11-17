@@ -1,0 +1,106 @@
+{
+  "date": "2026-11-17",
+  "scope": "Nuova verifica delle fonti aperte, non importazione di citazioni",
+  "educOpenBooksDeclarationUrl": "https://www.educ.ar/recursos/151931/",
+  "educOpenBooksDeclaration": "La presentazione afferma che i testi della biblioteca possono essere divisi, ricreati, distribuiti e pubblicati grazie a licenze aperte. È più di una semplice etichetta CC del portale.",
+  "licenceLabelsObserved": "CC BY-NC-SA nelle schede specifiche IV, V, VII e nella raccolta comprendente VI",
+  "licenceVersionVerified": false,
+  "translatorRightsLicenceConfirmed": false,
+  "conflictingStatementObservedInAllFourPdfs": true,
+  "records": [
+    {
+      "volume": 4,
+      "title": "Sodoma y Gomorra",
+      "resourceUrl": "https://www.educ.ar/recursos/152643",
+      "pdfUrl": "https://backend.educ.ar/refactor_resource/get-attachment/3677",
+      "isbn": "978-987-678-266-1",
+      "pdfPagesReportedByWebTool": 284,
+      "reservationLocation": "p. 2 del PDF secondo il testo estratto dal servizio web",
+      "publisherAndCopyright": "Vi-Da Global S.A.",
+      "pdfFrontMatterReadViaWeb": true,
+      "translatorNamedInConsultedColophon": false,
+      "pdfReservation": "Riproduzione totale o parziale riservata senza autorizzazione scritta del titolare; inclusi fotocopia e trattamento informatico. Parafrasi dell’avviso, non licenza aggiunta.",
+      "localPdfAcquired": false,
+      "visualPdfCheck": false,
+      "fullPdfLiteraryIntegrityChecked": false,
+      "all169AlignedAgainstThisCopy": false
+    },
+    {
+      "volume": 5,
+      "title": "La prisionera",
+      "resourceUrl": "https://www.educ.ar/recursos/152524/la-prisionera%2C-de-marcel-proust",
+      "pdfUrl": "https://backend.educ.ar/refactor_resource/get-attachment/3482",
+      "isbn": "978-987-678-265-4",
+      "reservationLocation": "Colophon prima del romanzo, nessuna pagina numerata inventata",
+      "publisherAndCopyright": "Vi-Da Global S.A.",
+      "pdfFrontMatterReadViaWeb": true,
+      "translatorNamedInConsultedColophon": false,
+      "pdfReservation": "Riproduzione totale o parziale riservata senza autorizzazione scritta del titolare; inclusi fotocopia e trattamento informatico. Parafrasi dell’avviso, non licenza aggiunta.",
+      "localPdfAcquired": false,
+      "visualPdfCheck": false,
+      "fullPdfLiteraryIntegrityChecked": false,
+      "all169AlignedAgainstThisCopy": false
+    },
+    {
+      "volume": 6,
+      "title": "La fugitiva",
+      "resourceUrl": null,
+      "collectionUrl": "https://www.educ.ar/recursos/151395/seguimos-leyendo",
+      "pdfUrl": "https://backend.educ.ar/refactor_resource/get-attachment/3395",
+      "isbn": "978-987-678-264-7",
+      "reservationLocation": "Colophon prima del romanzo, nessuna pagina numerata inventata",
+      "publisherAndCopyright": "Vi-Da Global S.A.",
+      "pdfFrontMatterReadViaWeb": true,
+      "translatorNamedInConsultedColophon": false,
+      "pdfReservation": "Riproduzione totale o parziale riservata senza autorizzazione scritta del titolare; inclusi fotocopia e trattamento informatico. Parafrasi dell’avviso, non licenza aggiunta.",
+      "localPdfAcquired": false,
+      "visualPdfCheck": false,
+      "fullPdfLiteraryIntegrityChecked": false,
+      "all169AlignedAgainstThisCopy": false
+    },
+    {
+      "volume": 7,
+      "title": "El tiempo recobrado",
+      "resourceUrl": "https://www.educ.ar/recursos/152271/el-tiempo-recobrado-de-marcel-proust",
+      "pdfUrl": "https://backend.educ.ar/refactor_resource/get-attachment/3107",
+      "isbn": null,
+      "reservationLocation": "Colophon prima del romanzo, campo ISBN privo di valore nel testo consultato",
+      "publisherAndCopyright": "Vi-Da Global S.A.",
+      "pdfFrontMatterReadViaWeb": true,
+      "translatorNamedInConsultedColophon": false,
+      "pdfReservation": "Riproduzione totale o parziale riservata senza autorizzazione scritta del titolare; inclusi fotocopia e trattamento informatico. Parafrasi dell’avviso, non licenza aggiunta.",
+      "localPdfAcquired": false,
+      "visualPdfCheck": false,
+      "fullPdfLiteraryIntegrityChecked": false,
+      "all169AlignedAgainstThisCopy": false
+    }
+  ],
+  "localDownloadAttempts": [
+    {
+      "url": "https://www.educ.ar/recursos/151931/",
+      "outcome": "timeout di connessione; nessun file acquisito"
+    },
+    {
+      "url": "https://www.educ.ar/recursos/152271/el-tiempo-recobrado-de-marcel-proust",
+      "outcome": "timeout di connessione; nessun file acquisito"
+    },
+    {
+      "url": "https://backend.educ.ar/refactor_resource/get-attachment/3482",
+      "outcome": "timeout di connessione; nessun file acquisito"
+    },
+    {
+      "url": "https://backend.educ.ar/refactor_resource/get-attachment/3395",
+      "outcome": "timeout di connessione; nessun file acquisito"
+    }
+  ],
+  "webAccessOutcome": "Dopo i timeout, il servizio web ha reso leggibile il testo dei quattro colophon; screenshot non disponibili per cache miss. Nessun controllo TLS o restrizione aggirati.",
+  "decision": "PENDENTE: chiarire quale licenza si applica alle traduzioni e risolvere il contrasto con il colophon; non usare automaticamente la CC generica né affermare che il solo avviso impedisca ogni citazione di legge. Nessun permesso del titolare rivendicato.",
+  "draft": "RICHIESTA-CHIARIMENTO-LICENZA-ES.txt",
+  "draftSent": false,
+  "publicationDelta": {
+    "newSources": 0,
+    "newExcerpts": 0,
+    "publishedSpanishRemains": 70,
+    "pendingSpanishRemains": 99
+  }
+}

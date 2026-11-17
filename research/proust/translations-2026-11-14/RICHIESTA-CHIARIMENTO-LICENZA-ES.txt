@@ -1,0 +1,40 @@
+BORRADOR PARA REVISIÓN. NO ENVIADO.
+
+Destinatario: Educ.ar — info@educar.gob.ar
+Dirección publicada en el pie de las fichas de recursos de Educ.ar.
+Asunto: Alcance de la licencia de cuatro traducciones de Proust en «Seguimos leyendo»
+
+Hola:
+
+Estoy preparando citas para Novel Locator, un atlas literario de consulta gratuita que relaciona lugares de novelas con mapas, descripciones y análisis de su función narrativa. No se pretende redistribuir los libros completos.
+
+Las fichas de «Sodoma y Gomorra», «La prisionera», «La fugitiva» y «El tiempo recobrado», procedentes de BIDI/Bajalibros, indican una licencia Creative Commons Atribución–No Comercial–Compartir Igual. Además, la presentación de la biblioteca afirma que sus textos se pueden reutilizar y publicar. Sin embargo, los PDF enlazados contienen una reserva de reproducción total o parcial y atribuyen el copyright a Vi-Da Global S.A., sin identificar a los traductores en el colofón consultado.
+
+¿Podrían aclarar por escrito lo siguiente?
+
+1. ¿La licencia CC indicada en cada ficha se aplica también al texto de la traducción del libro enlazado, y no solamente a la descripción del recurso? ¿Qué versión de la licencia corresponde?
+2. ¿Qué traductor, edición y titular de los derechos corresponden a cada uno de esos cuatro PDF? ¿Hay un acuerdo de licencia que permita el uso propuesto fuera del portal y fuera de Argentina?
+3. ¿Se permite reproducir los siguientes pasajes breves, con atribución completa, en las fichas geográfico-literarias del atlas y en un CSV que conserva lugar, volumen y función narrativa?
+
+Texto de origen             Pasajes   Palabras aproximadas con repeticiones   Pasaje más largo
+Sodoma y Gomorra              14                       539                           77
+La prisionera                23                     1.360                           97
+La fugitiva                  23                     1.383                          153
+El tiempo recobrado          39                     3.043                          179
+Total                        99                     6.325
+
+Estas cantidades describen las selecciones de trabajo actuales; no pretenden constituir umbrales de autorización. Los pasajes se seleccionaron para explicar referencias geográficas concretas y comparar versiones lingüísticas de una misma escena. No reconstruyen capítulos consecutivos. Una escena asociada al sexto volumen francés aparece al comienzo del séptimo en la versión española; por eso el recuento por texto de origen difiere del de las secciones francesas.
+
+El atlas conserva autor, título, traductor y procedencia de cada cita; puede añadir la mención y el enlace a la licencia que indiquen. Las fichas presentan la referencia bibliográfica como texto y no enlazan directamente al PDF del libro. Los términos de la licencia y la procedencia se documentarían también en el expediente de investigación y en los metadatos de los extractos. Se pueden facilitar los identificadores y las posiciones de las citas para una revisión concreta, sin publicar por adelantado los pasajes pendientes.
+
+Referencias consultadas:
+https://www.educ.ar/recursos/151931/
+https://www.educ.ar/recursos/152643
+https://www.educ.ar/recursos/152524/la-prisionera%2C-de-marcel-proust
+https://www.educ.ar/recursos/152271/el-tiempo-recobrado-de-marcel-proust
+https://backend.educ.ar/refactor_resource/get-attachment/3677
+https://backend.educ.ar/refactor_resource/get-attachment/3482
+https://backend.educ.ar/refactor_resource/get-attachment/3395
+https://backend.educ.ar/refactor_resource/get-attachment/3107
+
+Gracias por su ayuda.
