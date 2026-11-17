@@ -333,6 +333,7 @@ function unlocatedPlacesForDisplay(chapter){
  // These invented institutions and non-geographic spaces remain in the audit.
  // A literary setting with a documented real area can instead receive a mapped
  // representative point; its fictional nature does not prevent that mapping.
+ if(book.geographicReview?.unlocatedSettingsReview?.display==='analysis-only')return [];
  const hidden=new Set(book.hiddenUnlocatedPlaceIds||[]);
  return (chapter.unlocatedPlaces||[]).filter(item=>item.displayInAtlas!==false&&item.geographicRelevance!=='none'&&!hidden.has(item.id));
 }

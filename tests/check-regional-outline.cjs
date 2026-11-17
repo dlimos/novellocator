@@ -36,6 +36,9 @@ for(const [id,place]of [['kentucky',stateShape],['nyu',{name:'New York Universit
 const published=adapter.window.atlasContent.reconstruct({tables},'holden').data;
 assert.equal(published.places.kentucky.coords,null);assert.equal(published.places.nyu.coords,null);
 assert.equal(api.geometry(published.places.kentucky).type,'polyline');assert.equal(api.geometry(published.places.nyu),null);
+ctx.book={geographicReview:{unlocatedSettingsReview:{display:'analysis-only'}}};
+vm.runInContext(source.slice(source.indexOf('function unlocatedPlacesForDisplay('),source.indexOf('// Source-indexed references')),ctx);
+assert.equal(ctx.unlocatedPlacesForDisplay({unlocatedPlaces:[{name:'Pencey Prep'}]}).length,0);
 (async()=>{const {PGlite}=require('@electric-sql/pglite'),db=new PGlite();await db.exec('create table books(id text primary key,metadata jsonb);create table content_translations(book_id text,language text,source_hash text,source_text text,translated_text text,primary key(book_id,language,source_hash));');
 const original={sentinel:7,geographicReview:{regionalPlaces:[{id:'regional-ramsdale',categories:{11:'action'},place:{coords:[43,-71.5],kind:'uncertain'}},{id:'untouched',place:{coords:[1,2]}}]}};
 await db.query('insert into books values($1,$2),($3,$4)',['lolita',original,'other',{sentinel:9}]);const sql=fs.readFileSync('research/lolita/publish-ramsdale-outline.sql','utf8');await db.exec(sql);await db.exec(sql);
