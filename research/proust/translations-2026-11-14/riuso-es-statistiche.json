@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-17",
+  "perVolume": [
+    {
+      "volume": 1,
+      "associations": 25,
+      "sourceWordsIncludingFrontMatter": 170197,
+      "sourceWordsUnion": 1593,
+      "quotedWordsIncludingRepeated": 1975,
+      "longestExcerptWords": 151
+    },
+    {
+      "volume": 2,
+      "associations": 3,
+      "sourceWordsIncludingFrontMatter": 216107,
+      "sourceWordsUnion": 251,
+      "quotedWordsIncludingRepeated": 251,
+      "longestExcerptWords": 125
+    },
+    {
+      "volume": 3,
+      "associations": 42,
+      "sourceWordsIncludingFrontMatter": 242367,
+      "sourceWordsUnion": 2050,
+      "quotedWordsIncludingRepeated": 2914,
+      "longestExcerptWords": 168
+    }
+  ],
+  "distinctQuoteStrings": 57,
+  "quotedWordsIncludingRepeated": 5140,
+  "sourceWordsUnion": 3894,
+  "sourcesInserted": 8,
+  "excerptsInserted": 70,
+  "updates": 0,
+  "deletes": 0,
+  "rightsPendingNotInserted": 99
+}

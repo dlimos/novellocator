@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-17",
+  "status": "PASS",
+  "scope": "Esportatore JavaScript effettivamente pubblicato eseguito su snapshot API pubblico; non download mediante UI né controllo visivo del browser.",
+  "all70QuotesAndCreditsFoundInExport": true,
+  "publicScriptHashes": {
+    "content-adapter.js": "affa5e0458ff9ce1147620292b3c49965bc3d9d5e4fbe3f931458fc23b11fe74",
+    "csv-export.js": "7b79b0ec2c3a47cb34e7dd1cf1915b98a6bb6212a6933a50ffe28279b659c541"
+  },
+  "browserUiStatus": "PENDING: controllo browser interno non disponibile dopo aggiornamento strumenti; comando di apertura in coda.",
+  "unchangedLegacyGap": "7:core:boulevards, fuori dal lotto"
+}

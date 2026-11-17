@@ -10,8 +10,8 @@
     "es": 7,
     "it": 7
   },
-  "newTranslationsPublished": 338,
-  "scope": "169 associazioni del dataset con IT ed EN pubblicati e verificati nei dati. IT verificato anche nella UI; controllo visivo EN pendente perché il browser interno non è controllabile. ES incompleto; non completata l’intera copertura multilingue né tutte le associazioni Proust preesistenti.",
+  "newTranslationsPublished": 408,
+  "scope": "Lotto di 169 associazioni: FR/IT/EN pubblicati su 169, ES su 70 (I–III). 99 ES IV–VII allineati ma non pubblicati per diritti. IT verificato anche in UI; controllo visivo EN/ES nel browser interno pendente. Copertura multilingue incompleta; altre associazioni Proust fuori ambito.",
   "sourceTextRedistributed": false,
   "englishCandidates": {
     "selectedAssociations": 169,
@@ -26,7 +26,8 @@
       "proust-review-v1-v1-noms-de-pays-16",
       "proust-review-v5-i-038",
       "proust-review-v6-v6-03-003"
-    ]
+    ],
+    "historicalAuditSupersededBy": "englishAlignment: 169 finali verificati e pubblicati; i vecchi candidati non sono lo stato finale"
   },
   "constraintsFromUser": [
     "Solo fonti ad accesso libero per la ricerca web",
@@ -35,8 +36,8 @@
     "Copia italiana AZW3 fornita direttamente dall’utente"
   ],
   "blockers": [
-    "Spagnolo: attribuzione inferita per campioni in sei volumi; volume IV ancora non identificato. Riuso e allineamento puntuale da verificare.",
-    "Controllo visivo EN nel browser interno pendente: strumento di controllo non disponibile; i dati e il codice dell’esportatore pubblico sono verificati."
+    "99 passi ES IV–VII: diritti della versione Menasché non accertati e Berges protetta; nessuna base sufficiente individuata per pubblicare in blocco questi estratti. Ricerca di fonti riutilizzabili ancora aperta.",
+    "Controllo visivo EN/ES nel browser interno pendente: apertura in coda e comandi non disponibili. Dati ed esportatore pubblico verificati separatamente."
   ],
   "italianSource": {
     "isbn": "9788854125810",
@@ -69,14 +70,18 @@
       6,
       7
     ],
-    "unresolvedVolumes": [
+    "unresolvedVolumes": [],
+    "wholeVolumeCollated": false,
+    "newSpanishQuotationsPublished": 70,
+    "proof": "riscontro-anteprime-es-2026-11-17.json",
+    "rightsAndAlignmentPending": false,
+    "volume4": "Menasché; primo capitolo adattato da Quiroga Plà. Inferenza da cinque tratti diagnostici confrontati con Petersen 2019 e Barege 2023, non credito dichiarato nella copia.",
+    "inferredFromDiagnosticPrimaryResearch": [
       4
     ],
-    "wholeVolumeCollated": false,
-    "newSpanishQuotationsPublished": 0,
-    "proof": "riscontro-anteprime-es-2026-11-17.json",
-    "rightsAndAlignmentPending": true,
-    "volume4": "La copia disponibile differisce dalla traduzione Berges dell’anteprima ufficiale."
+    "volume4Proof": "riscontro-attribuzione-es4-2026-11-17.json",
+    "rightsPendingAssociations": 99,
+    "alignmentPendingAssociations": 0
   },
   "englishAlignment": {
     "selectedAssociations": 169,
@@ -90,5 +95,30 @@
     "publicExporterAll169Check": "PASS",
     "browserUi": "PENDING: apertura interna in coda e controllo non disponibile",
     "proof": "esito-pubblicazione-inglese.json"
+  },
+  "spanishAlignment": {
+    "selectedAssociations": 169,
+    "narrativeAlignmentsReviewed": 169,
+    "readabilityReviewed": 169,
+    "literalSourceSegmentsVerified": 169,
+    "published": 70,
+    "publishedByAssociationVolume": {
+      "1": 25,
+      "2": 3,
+      "3": 42
+    },
+    "rightsPendingNotPublished": 99,
+    "sourceVolumeDiffersFromAssociation": [
+      {
+        "associationIndex": 114,
+        "associationVolume": 6,
+        "sourceVolume": 7,
+        "status": "Non pubblicato; stesso passo narrativo, confine delle edizioni postume diverso"
+      }
+    ],
+    "publicApiRowByRowCheck": "PASS",
+    "publicExporterAll70Check": "PASS",
+    "browserUi": "PENDING: browser interno, comando di apertura in coda e controllo non disponibile",
+    "proof": "esito-pubblicazione-spagnolo.json"
   }
 }

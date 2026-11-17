@@ -1,0 +1,74 @@
+{
+  "date": "2026-11-17",
+  "volume": 4,
+  "copySha256": "75b4a9738f012c170b1a33859c42ae372f0c5b390a0dbfd4ee0005adb560752d",
+  "translatorAttribution": "Marcelo Menasché; primo capitolo adattato dalla traduzione di José María Quiroga Plà",
+  "attributionType": "INFERITA da tratti testuali distintivi confrontati con ricerca accademica primaria; NON dichiarata nell’EPUB",
+  "historicalEdition": "Santiago Rueda, Buenos Aires, 1945; copia digitale specifica non identificata con una stampa",
+  "officialBergesPreviewRejected": true,
+  "wholeVolumeCollated": false,
+  "deathYearVerified": false,
+  "publicDomainClaimed": false,
+  "rightsReviewPending": true,
+  "primaryResearch": [
+    {
+      "url": "https://ddd.uab.cat/pub/1611/1611_a2019n13/1611_a2019n13a2.pdf",
+      "consultedViaWeb": true,
+      "localCopyAvailable": true
+    },
+    {
+      "url": "https://dialnet.unirioja.es/descarga/articulo/9385485.pdf",
+      "consultedViaWeb": true,
+      "localCopyAvailable": false
+    }
+  ],
+  "diagnostics": [
+    {
+      "diagnosticText": "arbustillo",
+      "occurrences": 1,
+      "sourceCharacterOffsetsWhitespaceNormalized": [
+        1943
+      ],
+      "evidence": "Variante del primo capitolo identificata nell’analisi Petersen 2019, discussione del lavoro di Menasché: adattamento Menasché della traduzione Quiroga Plà."
+    },
+    {
+      "diagnosticText": "cerrados a medias",
+      "occurrences": 1,
+      "sourceCharacterOffsetsWhitespaceNormalized": [
+        2330
+      ],
+      "evidence": "Seconda variante del primo capitolo descritta da Petersen 2019."
+    },
+    {
+      "diagnosticText": "la gente entendida",
+      "occurrences": 1,
+      "sourceCharacterOffsetsWhitespaceNormalized": [
+        760503
+      ],
+      "evidence": "Barege 2023, paragrafo 46, variante caratteristica attribuita a Menasché, con rinvio a Santiago Rueda 1980 [1945], pp. 237–238."
+    },
+    {
+      "diagnosticText": "comprendí que usted era de los nuestros",
+      "occurrences": 1,
+      "sourceCharacterOffsetsWhitespaceNormalized": [
+        760616
+      ],
+      "evidence": "Stesso passo distintivo nel paragrafo 46 di Barege 2023."
+    },
+    {
+      "diagnosticText": "manfichismo",
+      "occurrences": 1,
+      "sourceCharacterOffsetsWhitespaceNormalized": [
+        611441
+      ],
+      "evidence": "Barege 2023, nota 31, scelta di Menasché per je-m’enfichisme, p. 192 dell’edizione citata."
+    }
+  ],
+  "caveats": [
+    "Il fornitore della copia attribuisce solo Proust, non il traduttore.",
+    "La data 1947 del decesso e 1927 dell’edizione in un portale secondario non sono accertate e non vengono adottate.",
+    "Altre riproduzioni digitali dichiarano Salinas per questo volume: credito incoerente con la storia editoriale, non usato automaticamente.",
+    "Non si riproducono gli apparati o le note del romanzo; i riscontri sono analisi d’identità della versione.",
+    "Studi consultati mediante strumento web. Download Python interrotto da verifica del certificato TLS; nessun controllo TLS disabilitato."
+  ]
+}

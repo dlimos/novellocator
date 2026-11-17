@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-17",
+  "narrativeAlignmentsReviewed": 169,
+  "readabilityReviewed": 169,
+  "literalSourceSegmentsVerified": 169,
+  "highlightsPresentInLiteralText": 169,
+  "allAttributionsInferredAndLabelled": true,
+  "published": 70,
+  "rightsPendingNotPublished": 99,
+  "byAssociationVolume": {
+    "1": 25,
+    "2": 3,
+    "3": 42,
+    "4": 14,
+    "5": 23,
+    "6": 24,
+    "7": 38
+  },
+  "sourceAndAssociationVolumeDifferAtIndices": [
+    114
+  ],
+  "wholeCorpusCollated": false,
+  "browserVisualQaComplete": false,
+  "allFourLanguagesComplete": false
+}
