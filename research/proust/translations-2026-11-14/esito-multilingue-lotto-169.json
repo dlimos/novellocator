@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-17",
+  "scope": "Lotto 169, non tutte le associazioni Proust",
+  "fourLanguagesPerAssociation": 169,
+  "newTranslationsPublished": 507,
+  "spanishPublished": 169,
+  "spanishWordsIncludingRepeated": 11465,
+  "spanishDistinctQuoteStrings": 147,
+  "databaseCounts": {
+    "books": 1,
+    "sections": 7,
+    "places": 202,
+    "sources": 322,
+    "place_descriptions": 217,
+    "place_references": 412,
+    "excerpts": 931,
+    "unlocated_settings": 0,
+    "content_translations": 1638
+  },
+  "allPreviousRowsPreserved": true,
+  "geographyUnchanged": true,
+  "suspended114NotImported": true,
+  "apiVerification": "PASS",
+  "publicExporterVerification": "PASS",
+  "englishSpanishBrowserVisualQa": "PENDING",
+  "rightsDossier": "RIUSO-SPAGNOLO-99.md"
+}

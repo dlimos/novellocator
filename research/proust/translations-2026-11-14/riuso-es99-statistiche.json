@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-17",
+  "perSourceVolume": [
+    {
+      "sourceVolume": 4,
+      "associations": 14,
+      "sourceWordsIncludingFrontMatter": 205343,
+      "sourceWordsUnion": 494,
+      "quotedWordsIncludingRepeated": 539,
+      "longestExcerptWords": 77
+    },
+    {
+      "sourceVolume": 5,
+      "associations": 23,
+      "sourceWordsIncludingFrontMatter": 154280,
+      "sourceWordsUnion": 1294,
+      "quotedWordsIncludingRepeated": 1360,
+      "longestExcerptWords": 97
+    },
+    {
+      "sourceVolume": 6,
+      "associations": 23,
+      "sourceWordsIncludingFrontMatter": 104129,
+      "sourceWordsUnion": 1338,
+      "quotedWordsIncludingRepeated": 1383,
+      "longestExcerptWords": 153
+    },
+    {
+      "sourceVolume": 7,
+      "associations": 39,
+      "sourceWordsIncludingFrontMatter": 138919,
+      "sourceWordsUnion": 2410,
+      "quotedWordsIncludingRepeated": 3043,
+      "longestExcerptWords": 179
+    }
+  ],
+  "distinctQuoteStrings": 90,
+  "quotedWordsIncludingRepeated": 6325,
+  "sourceWordsUnion": 5536,
+  "sourcesInserted": 14,
+  "excerptsInserted": 99,
+  "updates": 0,
+  "deletes": 0,
+  "previousSpanishPreserved": 70
+}

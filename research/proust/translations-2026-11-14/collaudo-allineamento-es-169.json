@@ -5,8 +5,8 @@
   "literalSourceSegmentsVerified": 169,
   "highlightsPresentInLiteralText": 169,
   "allAttributionsInferredAndLabelled": true,
-  "published": 70,
-  "rightsPendingNotPublished": 99,
+  "published": 169,
+  "rightsPendingNotPublished": 0,
   "byAssociationVolume": {
     "1": 25,
     "2": 3,
@@ -21,5 +21,7 @@
   ],
   "wholeCorpusCollated": false,
   "browserVisualQaComplete": false,
-  "allFourLanguagesComplete": false
+  "allFourLanguagesComplete": true,
+  "allFourLanguagesCompleteScope": "Solo disponibilità dei passi del lotto 169; non controllo visivo EN/ES o altre associazioni Proust",
+  "rightsReviewOfProtectedExcerpts": "RIUSO-SPAGNOLO-99.md; nessun PD o permesso individuale rivendicato"
 }

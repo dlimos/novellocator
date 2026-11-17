@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "date": "2026-11-17",
+  "mode": "commit",
+  "capturedAt": "2026-11-17T21:47:05.567Z",
+  "snapshot": "snapshot-pubblicato-es99-2026-11-17.json",
+  "allNineTablesEqualToExpected": true,
+  "tables": {
+    "books": {
+      "rowCount": 1,
+      "equalToExpected": true
+    },
+    "content_translations": {
+      "rowCount": 1638,
+      "equalToExpected": true
+    },
+    "excerpts": {
+      "rowCount": 931,
+      "equalToExpected": true
+    },
+    "place_descriptions": {
+      "rowCount": 217,
+      "equalToExpected": true
+    },
+    "place_references": {
+      "rowCount": 412,
+      "equalToExpected": true
+    },
+    "places": {
+      "rowCount": 202,
+      "equalToExpected": true
+    },
+    "sections": {
+      "rowCount": 7,
+      "equalToExpected": true
+    },
+    "sources": {
+      "rowCount": 322,
+      "equalToExpected": true
+    },
+    "unlocated_settings": {
+      "rowCount": 0,
+      "equalToExpected": true
+    }
+  },
+  "sqlSha256": "68e24637be3913d40b6bb8e6f2740ca9d283b07d612ef0ca3d65fc95936fee37",
+  "spanishExcerpts": 169,
+  "newlyPublished": 99,
+  "existingRowsPreserved": true,
+  "noGeographicChanges": true,
+  "otherLanguagesUnchanged": true
+}

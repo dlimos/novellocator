@@ -1,5 +1,7 @@
 # Proust spagnolo: testi, attribuzioni e perimetro del riuso — 17 novembre 2026
 
+**Stato finale: pubblicati 169 ES del lotto.** Questo documento conserva la cronologia della ricerca e del primo rilascio parziale. La decisione corrente per i successivi 99 brani è nel [dossier specifico](RIUSO-SPAGNOLO-99.md): riuso critico circoscritto, dichiarazioni del fornitore e restrizioni conservate, senza pubblico dominio o permesso individuale inventati. Prove in `esito-pubblicazione-spagnolo99.json` e `verifica-esportatore-es169-2026-11-17.json`. Controllo visivo EN/ES interno pendente.
+
 Sono stati reperiti i sette EPUB integrali della Biblioteca PruébaT / Fundación Carlos Slim, senza acquisto o account. ZIP, manifest, spine, inizi e finali sono stati controllati; questo non equivale a una collazione parola per parola con una stampa. Sono stati allineati narrativamente tutti i 169 corrispondenti dei passi FR del lotto, rifiniti i contesti e verificata la ricostruzione letterale delle porzioni, con sola normalizzazione degli spazi e omissioni esplicite. La verifica testuale non basta per autorizzarne la pubblicazione.
 
 ## Traduzioni e copia digitale

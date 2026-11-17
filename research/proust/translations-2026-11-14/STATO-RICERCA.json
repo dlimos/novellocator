@@ -10,8 +10,8 @@
     "es": 7,
     "it": 7
   },
-  "newTranslationsPublished": 408,
-  "scope": "Lotto di 169 associazioni: FR/IT/EN pubblicati su 169, ES su 70 (I–III). 99 ES IV–VII allineati ma non pubblicati per diritti. IT verificato anche in UI; controllo visivo EN/ES nel browser interno pendente. Copertura multilingue incompleta; altre associazioni Proust fuori ambito.",
+  "newTranslationsPublished": 507,
+  "scope": "Lotto di 169 associazioni: FR/IT/EN/ES pubblicati e verificati nei dati, 169 per lingua; esportatore EN/ES verificato, IT già verificato anche in UI. Controllo visivo EN/ES interno pendente. Non certifica le altre associazioni Proust fuori dal lotto.",
   "sourceTextRedistributed": false,
   "englishCandidates": {
     "selectedAssociations": 169,
@@ -36,8 +36,7 @@
     "Copia italiana AZW3 fornita direttamente dall’utente"
   ],
   "blockers": [
-    "99 ES IV–VII: PruébaT non dimostra diritti di riuso delle traduzioni protette. Educ.ar dichiara libri aperti e CC BY-NC-SA, ma i quattro PDF collegati riservano la riproduzione a Vi-Da Global S.A.; ambito della licenza per le traduzioni da chiarire. Bozza di richiesta pronta, non inviata. Fonte gratuita integrale già trovata; non è una lacuna di accesso ai 169 passi.",
-    "Controllo visivo EN/ES pendente: contesto dell’app conferma browser interno aperto sull’atlante Proust EN, ma i comandi di lettura/interazione non sono esposti. Dati ed esportatore pubblico già verificati."
+    "Controllo visivo EN/ES nel browser interno pendente: pagina aperta nel contesto dell’app, comandi di lettura/interazione non esposti. Dati ed esportatore verificati separatamente."
   ],
   "italianSource": {
     "isbn": "9788854125810",
@@ -72,7 +71,7 @@
     ],
     "unresolvedVolumes": [],
     "wholeVolumeCollated": false,
-    "newSpanishQuotationsPublished": 70,
+    "newSpanishQuotationsPublished": 169,
     "proof": "riscontro-anteprime-es-2026-11-17.json",
     "rightsAndAlignmentPending": false,
     "volume4": "Menasché; primo capitolo adattato da Quiroga Plà. Inferenza da cinque tratti diagnostici confrontati con Petersen 2019 e Barege 2023, non credito dichiarato nella copia.",
@@ -80,10 +79,12 @@
       4
     ],
     "volume4Proof": "riscontro-attribuzione-es4-2026-11-17.json",
-    "rightsPendingAssociations": 99,
+    "rightsPendingAssociations": 0,
     "alignmentPendingAssociations": 0,
     "volume4RightsEvidence": "riscontro-menasche-diritti-2026-11-17.json",
-    "volume4DeathYearReportedByAcademicSource": 1959
+    "volume4DeathYearReportedByAcademicSource": 1959,
+    "protectedTranslationReuseDecision": "Riuso critico circoscritto con valutazione singola e aggregata; dichiarazione di apertura Educ.ar e riserva copyright documentate; nessun permesso individuale né pubblico dominio delle traduzioni IV–VII rivendicati.",
+    "rightsReviewProof": "RIUSO-SPAGNOLO-99.md"
   },
   "englishAlignment": {
     "selectedAssociations": 169,
@@ -103,25 +104,31 @@
     "narrativeAlignmentsReviewed": 169,
     "readabilityReviewed": 169,
     "literalSourceSegmentsVerified": 169,
-    "published": 70,
+    "published": 169,
     "publishedByAssociationVolume": {
       "1": 25,
       "2": 3,
-      "3": 42
+      "3": 42,
+      "4": 14,
+      "5": 23,
+      "6": 24,
+      "7": 38
     },
-    "rightsPendingNotPublished": 99,
+    "rightsPendingNotPublished": 0,
     "sourceVolumeDiffersFromAssociation": [
       {
         "associationIndex": 114,
         "associationVolume": 6,
         "sourceVolume": 7,
-        "status": "Non pubblicato; stesso passo narrativo, confine delle edizioni postume diverso"
+        "status": "Pubblicato: associazione VI FR conservata, attribuzione al VII della fonte ES"
       }
     ],
     "publicApiRowByRowCheck": "PASS",
     "publicExporterAll70Check": "PASS",
     "browserUi": "PENDING: browser interno aperto secondo il contesto dell’app; controlli di interazione/lettura non disponibili",
-    "proof": "esito-pubblicazione-spagnolo.json"
+    "proof": "esito-pubblicazione-spagnolo99.json",
+    "publicExporterAll169Check": "PASS",
+    "previousSpanishExcerptsPreserved": 70
   },
   "spanishAlternativeLicenceReview": {
     "provider": "Educ.ar / BIDI-Bajalibros",
@@ -131,6 +138,9 @@
     "proof": "riscontro-licenze-educ-2026-11-17.json",
     "draftPrepared": true,
     "draftSent": false,
-    "newSpanishPublished": 0
-  }
+    "newSpanishPublished": 99,
+    "decision": "La riserva di copyright non esclude automaticamente una concessione separata o l’eccezione di citazione. Proceduto per i 99 soli estratti criticamente motivati; limiti della CC e attribuzioni conservati nel dossier.",
+    "finalQuotationReview": "RIUSO-SPAGNOLO-99.md"
+  },
+  "unchangedLegacyGapOutsideBatch": "7:core:boulevards"
 }
