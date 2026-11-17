@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-17",
+  "source": {
+    "author": "Carlos Adam",
+    "title": "Bibliografía y documentos de Ezequiel Martínez Estrada",
+    "publisher": "Universidad Nacional de La Plata, Facultad de Humanidades y Ciencias de la Educación",
+    "year": 1968,
+    "catalogueUrl": "https://sedici.unlp.edu.ar/handle/10915/147682",
+    "pdfUrl": "https://sedici.unlp.edu.ar/bitstream/handle/10915/147682/Documento_completo.pdf?sequence=1",
+    "sha256": "bad1647f3445a4b77fddd9aaa513838703deb2c3e511923cb75ac2c4943bba68",
+    "pdfPages": 260,
+    "printedPage": 117,
+    "pdfPageOneBased": 121
+  },
+  "finding": "MENASCHÉ, Marcelo (1911-1959), 681.",
+  "visualInspectionOfPrintedPage": true,
+  "sourceClass": "Repertorio accademico primario; non registro civile",
+  "deathYearReported": 1959,
+  "previousUnsupported1947NotAdopted": true,
+  "translationPublicDomainClaimed": false,
+  "ordinaryLife70ConsequenceIfYearConfirmed": "Con il 1959 riportato dal repertorio, il termine ordinario vita +70 non è trascorso nel 2026. Nessuna importazione dei passi Menasché.",
+  "birthYearVariant": "Il 1911 della stampa differisce dal 1913 riportato da altro repertorio; non uniformare silenziosamente i dati biografici.",
+  "archiveSearches": [
+    {
+      "url": "https://archive.org/advancedsearch.php?q=creator%3A%28Proust%29+AND+%28title%3A%28Guermantes%29+OR+title%3A%28Sodoma%29%29+AND+language%3Aspa&output=json&rows=100&fl%5B%5D=identifier&fl%5B%5D=title&fl%5B%5D=date&fl%5B%5D=access-restricted-item&fl%5B%5D=description",
+      "name": "archive-es-quiroga",
+      "numFound": 0,
+      "reusableQuirogaCopyLocated": false,
+      "scope": "Sola interrogazione, non assenza dimostrata da tutto il catalogo."
+    },
+    {
+      "url": "https://archive.org/advancedsearch.php?q=%28creator%3A%28Proust%29+OR+creator%3A%28Quiroga%29%29+AND+year%3A%5B1931+TO+1933%5D&output=json&rows=100&fl%5B%5D=identifier&fl%5B%5D=title&fl%5B%5D=date&fl%5B%5D=access-restricted-item&fl%5B%5D=description",
+      "name": "archive-es-1932",
+      "numFound": 14,
+      "reusableQuirogaCopyLocated": false,
+      "scope": "Sola interrogazione, non assenza dimostrata da tutto il catalogo."
+    }
+  ],
+  "quiroga1932Search": {
+    "historicalVersionDocumented": true,
+    "primaryResearchUrl": "https://sflgc.org/acte/thomas-barege-un-ping-pong-transatlantique-les-traductions-de-proust-en-espagnol/",
+    "volume": "El mundo de Guermantes II + Sodoma y Gomorra I",
+    "reusableCopyLocated": false,
+    "selectedPassageStillNotImported": "Combray IV, indice associazione 75; non attribuire automaticamente a Quiroga l’adattamento Menasché già reperito."
+  },
+  "databaseMutationsThisFollowup": 0,
+  "publishedSpanishRemains": 70,
+  "spanishPendingRemains": 99
+}

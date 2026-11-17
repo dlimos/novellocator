@@ -7,7 +7,6 @@
   "historicalEdition": "Santiago Rueda, Buenos Aires, 1945; copia digitale specifica non identificata con una stampa",
   "officialBergesPreviewRejected": true,
   "wholeVolumeCollated": false,
-  "deathYearVerified": false,
   "publicDomainClaimed": false,
   "rightsReviewPending": true,
   "primaryResearch": [
@@ -70,5 +69,11 @@
     "Altre riproduzioni digitali dichiarano Salinas per questo volume: credito incoerente con la storia editoriale, non usato automaticamente.",
     "Non si riproducono gli apparati o le note del romanzo; i riscontri sono analisi d’identità della versione.",
     "Studi consultati mediante strumento web. Download Python interrotto da verifica del certificato TLS; nessun controllo TLS disabilitato."
-  ]
+  ],
+  "deathYearEvidence": {
+    "reportedYear": 1959,
+    "source": "riscontro-menasche-diritti-2026-11-17.json",
+    "sourceClass": "Repertorio accademico primario, non registro civile",
+    "page": 117
+  }
 }

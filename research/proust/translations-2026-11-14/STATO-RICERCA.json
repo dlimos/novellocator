@@ -36,8 +36,8 @@
     "Copia italiana AZW3 fornita direttamente dall’utente"
   ],
   "blockers": [
-    "99 passi ES IV–VII: diritti della versione Menasché non accertati e Berges protetta; nessuna base sufficiente individuata per pubblicare in blocco questi estratti. Ricerca di fonti riutilizzabili ancora aperta.",
-    "Controllo visivo EN/ES nel browser interno pendente: apertura in coda e comandi non disponibili. Dati ed esportatore pubblico verificati separatamente."
+    "99 ES IV–VII ancora esclusi: repertorio UNLP riporta Menasché morto nel 1959, incompatibile col termine ordinario vita +70 trascorso nel 2026; Berges protetta. Nessuna fonte alternativa riutilizzabile reperita nelle nuove interrogazioni, nessun permesso ottenuto.",
+    "Controllo visivo EN/ES pendente: contesto dell’app conferma browser interno aperto sull’atlante Proust EN, ma i comandi di lettura/interazione non sono esposti. Dati ed esportatore pubblico già verificati."
   ],
   "italianSource": {
     "isbn": "9788854125810",
@@ -81,7 +81,9 @@
     ],
     "volume4Proof": "riscontro-attribuzione-es4-2026-11-17.json",
     "rightsPendingAssociations": 99,
-    "alignmentPendingAssociations": 0
+    "alignmentPendingAssociations": 0,
+    "volume4RightsEvidence": "riscontro-menasche-diritti-2026-11-17.json",
+    "volume4DeathYearReportedByAcademicSource": 1959
   },
   "englishAlignment": {
     "selectedAssociations": 169,
@@ -93,7 +95,7 @@
     "totalEnglishExcerptsInDatabase": 175,
     "publicApiRowByRowCheck": "PASS",
     "publicExporterAll169Check": "PASS",
-    "browserUi": "PENDING: apertura interna in coda e controllo non disponibile",
+    "browserUi": "PENDING: browser interno aperto secondo il contesto dell’app; controlli di interazione/lettura non disponibili",
     "proof": "esito-pubblicazione-inglese.json"
   },
   "spanishAlignment": {
@@ -118,7 +120,7 @@
     ],
     "publicApiRowByRowCheck": "PASS",
     "publicExporterAll70Check": "PASS",
-    "browserUi": "PENDING: browser interno, comando di apertura in coda e controllo non disponibile",
+    "browserUi": "PENDING: browser interno aperto secondo il contesto dell’app; controlli di interazione/lettura non disponibili",
     "proof": "esito-pubblicazione-spagnolo.json"
   }
 }
