@@ -67,7 +67,7 @@ function reconstruct(bundle, id) {
                     c.placeSources[placeId] = source(r.source_id);
                 const excerpt = group(s.id, r.id);
                 if (excerpt)
-                    c.placeExcerpts[placeId] = excerpt;
+                    (c.placeExcerpts ??= {})[placeId] = excerpt;
             }
             else
                 c.citations.push({ ...metadata, ...(typeof r.scene_text === 'string' && r.scene_text.trim() ? { scene: r.scene_text } : {}), placeId, category: r.category, excerpt: group(s.id, r.id) });

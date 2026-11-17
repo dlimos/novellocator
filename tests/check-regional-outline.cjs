@@ -29,6 +29,9 @@ const adapter={window:{}};vm.createContext(adapter);vm.runInContext(fs.readFileS
 const tables=Object.fromEntries(adapter.window.atlasContent.tables.map(table=>[table,[]]));
 tables.books.push({id:'holden',title:'The Catcher in the Rye',author:'J. D. Salinger',metadata:{}});
 tables.sources.push({id:'src',book_id:'holden',url:'https://example.org/',label:'Evidence',metadata:{}});
+tables.sections.push({id:1,book_id:'holden',ordinal:1,title:'Chapter 1',metadata:{text:'A test chapter'},legacy_fields:['places','placeText','placeCategories']});
+tables.place_references.push({id:'1:core:kentucky',book_id:'holden',section_id:1,place_id:'kentucky',collection:'core',ordinal:0,category:'mentioned',scene_text:'Kentucky appears in a film.',source_id:null,metadata:{}});
+tables.excerpts.push({id:'1:core:kentucky:original',book_id:'holden',section_id:1,reference_id:'1:core:kentucky',slot:'original',language:'en',type:'original',quote:'Kentucky',attribution:'J. D. Salinger',text_source_id:'src',rights_source_id:'src',metadata:{}});
 for(const [id,place]of [['kentucky',stateShape],['nyu',{name:'New York University',coords:null,kind:'uncertain',geometry:{type:'Unresolved'}}]]){
  tables.places.push({book_id:'holden',id,latitude:null,longitude:null});
  tables.place_descriptions.push({book_id:'holden',place_id:id,collection:'core',name:place.name,area:'',kind:place.kind,zoom:6,checked:'2026-11-17',status:'reviewed',note:'',method:'documented',position_source_id:'src',narrative_source_id:null,additional_source_id:null,metadata:{geometry:place.geometry}});
@@ -36,6 +39,7 @@ for(const [id,place]of [['kentucky',stateShape],['nyu',{name:'New York Universit
 const published=adapter.window.atlasContent.reconstruct({tables},'holden').data;
 assert.equal(published.places.kentucky.coords,null);assert.equal(published.places.nyu.coords,null);
 assert.equal(api.geometry(published.places.kentucky).type,'polyline');assert.equal(api.geometry(published.places.nyu),null);
+assert.equal(published.chapters[0].placeExcerpts.kentucky.original.quote,'Kentucky');
 ctx.book={geographicReview:{unlocatedSettingsReview:{display:'analysis-only'}}};
 vm.runInContext(source.slice(source.indexOf('function unlocatedPlacesForDisplay('),source.indexOf('// Source-indexed references')),ctx);
 assert.equal(ctx.unlocatedPlacesForDisplay({unlocatedPlaces:[{name:'Pencey Prep'}]}).length,0);
