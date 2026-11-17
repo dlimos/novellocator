@@ -4,9 +4,10 @@
   const result=new Set(),illustrated=['illustrated','webmap'].includes(data.book.mapType);
   function visit(place,category,kind){
    if(!place)return;
+   if(!illustrated&&!place.coords&&!place.regionalOutline?.paths?.length&&place.geometry?.type!=='MultiLineString'&&!place.alternativeModels?.length)return;
    result.add(category);result.add('selected');
    if(!illustrated&&place.alternativeModels?.some(p=>Array.isArray(p.coords)&&p.coords.length===2&&p.coords.every(Number.isFinite)&&Math.abs(p.coords[0])<=90&&Math.abs(p.coords[1])<=180)){result.add('star');return;}
-   if(!illustrated&&place.regionalOutline?.paths?.length){result.add('region');return;}
+   if(!illustrated&&(place.regionalOutline?.paths?.length||place.geometry?.type==='MultiLineString')){result.add('region');return;}
    result.add(['area','street','uncertain'].includes(kind||place.kind)?'diamond':'circle');
   }
   for(const chapter of data.chapters){

@@ -5,7 +5,7 @@ export type Bundle={formatVersion:1;tables:Record<typeof tables[number],Row[]>};
 export interface Source extends Obj {url:string;label?:string}
 export interface Passage extends Obj {quote:string;language:string;type:'original'|'translation';attribution:string;url:string;rightsUrl:string}
 export interface Excerpt {original:Passage;translations:Record<string,Passage>}
-interface Place extends Obj {name:string;area:string;coords:[number,number];zoom:number;kind:string;checked:string;status:string;note:string;method:string;positionSource:Source;narrativeSource?:Source;additionalSource?:Source}
+interface Place extends Obj {name:string;area:string;coords:[number,number]|null;zoom:number;kind:string;checked:string;status:string;note:string;method:string;positionSource:Source;narrativeSource?:Source;additionalSource?:Source}
 interface Citation extends Obj {placeId:string;category:string;excerpt:Excerpt}
 interface Section extends Obj {id:number;title:string;places:string[];placeText:string[];placeCategories?:Record<string,string>;placeSources?:Record<string,Source>;placeRoles?:Record<string,string>;placeQuotes?:Record<string,string>;placeExcerpts?:Record<string,Excerpt>;placeNarrativeDescriptions?:Record<string,Obj>;excerpts?:Excerpt;citations?:Citation[];unlocatedPlaces?:Array<Obj&{name:string;text:string;quote:string;url:string}>}
 export interface Dataset {book:Obj&{id:string;title:string;author:string};chapters:Section[];places:Record<string,Place>;citedPlaces:Record<string,Place>}
@@ -17,9 +17,20 @@ export function reconstruct(bundle:Bundle,id:string):{data:Dataset;dictionary:Di
  const book=own('books')[0];if(!book)throw new Error(`Unknown book: ${id}`);
  const sourceMap=new Map(own('sources').map(s=>[s.id,s]));
  function source(sourceId:unknown):Source{const s=sourceMap.get(sourceId as string);if(!s)throw new Error(`Missing source: ${sourceId}`);return {...s.metadata as Obj,url:s.url as string,...(s.label!==null?{label:s.label as string}:{})};}
- const coords=new Map(own('places').map(p=>{if(p.latitude===null||p.longitude===null)throw new Error(`Place ${id}/${p.id} needs its dedicated map renderer; it cannot be exported as WGS84.`);return [p.id,[p.latitude,p.longitude]];}));
+ const coords=new Map(own('places').map(p=>{
+  if(p.latitude===null||p.longitude===null){
+   if(p.latitude!==null||p.longitude!==null)throw new Error(`Incomplete coordinates for ${id}/${p.id}`);
+   return [p.id,null];
+  }
+  return [p.id,[p.latitude,p.longitude]];
+ }));
  const data:Dataset={book:{...book.metadata as Obj,id:book.id as string,title:book.title as string,author:book.author as string},chapters:[],places:{},citedPlaces:{}};
- for(const p of own('place_descriptions')){const place={...p.metadata as Obj,name:p.name,area:p.area,kind:p.kind,zoom:p.zoom,checked:p.checked instanceof Date?p.checked.toISOString().slice(0,10):String(p.checked).slice(0,10),status:p.status,note:p.note,method:p.method,coords:coords.get(p.place_id),positionSource:source(p.position_source_id),...(p.narrative_source_id?{narrativeSource:source(p.narrative_source_id)}:{}),...(p.additional_source_id?{additionalSource:source(p.additional_source_id)}:{})} as Place;(p.collection==='core'?data.places:data.citedPlaces)[p.place_id as string]=place;}
+ for(const p of own('place_descriptions')){
+  const metadata=p.metadata as Obj,coordinates=coords.get(p.place_id),shape=metadata.geometry as Obj|undefined;
+  if(coordinates===undefined||coordinates===null&&!['MultiLineString','Unresolved'].includes(String(shape?.type)))throw new Error(`Place ${id}/${p.place_id} has no renderable or explicitly unresolved geometry`);
+  const place={...metadata,name:p.name,area:p.area,kind:p.kind,zoom:p.zoom,checked:p.checked instanceof Date?p.checked.toISOString().slice(0,10):String(p.checked).slice(0,10),status:p.status,note:p.note,method:p.method,coords:coordinates,positionSource:source(p.position_source_id),...(p.narrative_source_id?{narrativeSource:source(p.narrative_source_id)}:{}),...(p.additional_source_id?{additionalSource:source(p.additional_source_id)}:{})} as Place;
+  (p.collection==='core'?data.places:data.citedPlaces)[p.place_id as string]=place;
+ }
  function group(sectionId:unknown,refId:unknown):Excerpt|undefined{
   const rows=own('excerpts').filter(q=>q.section_id===sectionId&&q.reference_id===refId);if(!rows.length)return undefined;
   const result={translations:{}} as Excerpt;

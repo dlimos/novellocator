@@ -25,7 +25,7 @@ async function main(){
   assert.equal((await db.query("select * from public.sections where book_id='gatsby'")).rows.length,9);await db.exec(sql);
   // Geographical updates affect exported coordinates without changing sources.
   await db.exec("update public.places set latitude=53.3 where book_id='ulisse' and id='tower'");
-  const changed=await db.query<Row>('select * from public.places');const exportBundle={...imported,tables:{...imported.tables,places:changed.rows}};assert.equal(reconstruct(exportBundle,'ulisse').data.places.tower.coords[0],53.3);await db.exec(sql);
+  const changed=await db.query<Row>('select * from public.places');const exportBundle={...imported,tables:{...imported.tables,places:changed.rows}};assert.equal(reconstruct(exportBundle,'ulisse').data.places.tower.coords?.[0],53.3);await db.exec(sql);
   // Invalid geographic positions, dangling references and inconsistent categories fail.
   await assert.rejects(db.exec("update public.places set latitude=200 where book_id='ulisse' and id='tower'"));
   await assert.rejects(db.exec("update public.place_references set place_id='missing' where book_id='ulisse' and id='1:core:tower'"));

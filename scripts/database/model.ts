@@ -32,11 +32,12 @@ export function normalize(inputs:ReturnType<typeof loadInputs>):Bundle {
    if(!src)return null;if(!/^https?:\/\//.test(src.url))throw new Error(`Invalid source in ${id}`);
    const sourceId=hash(canonical(src));if(!sourceIds.has(sourceId)){sourceIds.add(sourceId);bundle.tables.sources.push({book_id:id,id:sourceId,url:src.url,label:src.label??null,metadata:without(src,['url','label'])});}return sourceId;
   }
-  const placeIds=new Map<string,[number,number]>();
+  const placeIds=new Map<string,[number,number]|null>();
   for(const [collection,places] of Object.entries({core:data.places,cited:data.citedPlaces||{}}))for(const [placeId,p]of Object.entries(places)){
-   if(!p.coords.every(Number.isFinite)||Math.abs(p.coords[0])>90||Math.abs(p.coords[1])>180)throw new Error(`Invalid coordinates: ${id}/${placeId}`);
+   if(p.coords){if(!p.coords.every(Number.isFinite)||Math.abs(p.coords[0])>90||Math.abs(p.coords[1])>180)throw new Error(`Invalid coordinates: ${id}/${placeId}`);}
+   else if(!['MultiLineString','Unresolved'].includes(String((p.geometry as Obj|undefined)?.type)))throw new Error(`Missing geometry: ${id}/${placeId}`);
    if(placeIds.has(placeId)){if(canonical(placeIds.get(placeId))!==canonical(p.coords))throw new Error(`Conflicting place coordinates: ${id}/${placeId}`);}
-   else{placeIds.set(placeId,p.coords);bundle.tables.places.push({book_id:id,id:placeId,latitude:p.coords[0],longitude:p.coords[1]});}
+   else{placeIds.set(placeId,p.coords);bundle.tables.places.push({book_id:id,id:placeId,latitude:p.coords?.[0]??null,longitude:p.coords?.[1]??null});}
    bundle.tables.place_descriptions.push({book_id:id,place_id:placeId,collection,name:p.name,area:p.area,kind:p.kind,zoom:p.zoom,checked:p.checked,status:p.status,note:p.note,method:p.method,position_source_id:source(p.positionSource)!,narrative_source_id:source(p.narrativeSource),additional_source_id:source(p.additionalSource),metadata:without(p,['coords','name','area','kind','zoom','checked','status','note','method','positionSource','narrativeSource','additionalSource'])});
   }
   function excerpts(sectionId:number,referenceId:string|null,group:Excerpt){

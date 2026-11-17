@@ -12,11 +12,20 @@ function reconstruct(bundle, id) {
     const sourceMap = new Map(own('sources').map(s => [s.id, s]));
     function source(sourceId) { const s = sourceMap.get(sourceId); if (!s)
         throw new Error(`Missing source: ${sourceId}`); return { ...s.metadata, url: s.url, ...(s.label !== null ? { label: s.label } : {}) }; }
-    const coords = new Map(own('places').map(p => { if (p.latitude === null || p.longitude === null)
-        throw new Error(`Place ${id}/${p.id} needs its dedicated map renderer; it cannot be exported as WGS84.`); return [p.id, [p.latitude, p.longitude]]; }));
+    const coords = new Map(own('places').map(p => {
+        if (p.latitude === null || p.longitude === null) {
+            if (p.latitude !== null || p.longitude !== null)
+                throw new Error(`Incomplete coordinates for ${id}/${p.id}`);
+            return [p.id, null];
+        }
+        return [p.id, [p.latitude, p.longitude]];
+    }));
     const data = { book: { ...book.metadata, id: book.id, title: book.title, author: book.author }, chapters: [], places: {}, citedPlaces: {} };
     for (const p of own('place_descriptions')) {
-        const place = { ...p.metadata, name: p.name, area: p.area, kind: p.kind, zoom: p.zoom, checked: p.checked instanceof Date ? p.checked.toISOString().slice(0, 10) : String(p.checked).slice(0, 10), status: p.status, note: p.note, method: p.method, coords: coords.get(p.place_id), positionSource: source(p.position_source_id), ...(p.narrative_source_id ? { narrativeSource: source(p.narrative_source_id) } : {}), ...(p.additional_source_id ? { additionalSource: source(p.additional_source_id) } : {}) };
+        const metadata = p.metadata, coordinates = coords.get(p.place_id), shape = metadata.geometry;
+        if (coordinates === undefined || coordinates === null && !['MultiLineString', 'Unresolved'].includes(String(shape?.type)))
+            throw new Error(`Place ${id}/${p.place_id} has no renderable or explicitly unresolved geometry`);
+        const place = { ...metadata, name: p.name, area: p.area, kind: p.kind, zoom: p.zoom, checked: p.checked instanceof Date ? p.checked.toISOString().slice(0, 10) : String(p.checked).slice(0, 10), status: p.status, note: p.note, method: p.method, coords: coordinates, positionSource: source(p.position_source_id), ...(p.narrative_source_id ? { narrativeSource: source(p.narrative_source_id) } : {}), ...(p.additional_source_id ? { additionalSource: source(p.additional_source_id) } : {}) };
         (p.collection === 'core' ? data.places : data.citedPlaces)[p.place_id] = place;
     }
     function group(sectionId, refId) {
