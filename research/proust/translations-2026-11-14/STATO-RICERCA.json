@@ -142,5 +142,31 @@
     "decision": "La riserva di copyright non esclude automaticamente una concessione separata o l’eccezione di citazione. Proceduto per i 99 soli estratti criticamente motivati; limiti della CC e attribuzioni conservati nel dossier.",
     "finalQuotationReview": "RIUSO-SPAGNOLO-99.md"
   },
-  "unchangedLegacyGapOutsideBatch": "7:core:boulevards"
+  "unchangedLegacyGapOutsideBatch": "7:core:boulevards",
+  "publicQuotationRendererCheck": {
+    "status": "PASS",
+    "associations": 169,
+    "interfaceLocales": 4,
+    "defaults": 676,
+    "switches": 2704,
+    "allTextsAndCreditsLiteral": true,
+    "allHighlightTermsRendered": true,
+    "quotationLanguageIndependent": true,
+    "realBrowserUsed": false,
+    "proof": "verifica-renderer-pubblico-2026-11-17.json"
+  },
+  "followupHighlightCorrection": {
+    "excerptId": "7:core:proust-geo-2cd2c95856a1c9e7:es",
+    "changedField": "metadata.highlightTerms",
+    "before": [
+      "Trouville"
+    ],
+    "after": [
+      "Trouvillenada"
+    ],
+    "quoteUnchanged": true,
+    "attributionUnchanged": true,
+    "updatedRows": 1,
+    "proof": "esito-pubblicazione-grassetto.json"
+  }
 }

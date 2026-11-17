@@ -23,5 +23,31 @@
   "apiVerification": "PASS",
   "publicExporterVerification": "PASS",
   "englishSpanishBrowserVisualQa": "PENDING",
-  "rightsDossier": "RIUSO-SPAGNOLO-99.md"
+  "rightsDossier": "RIUSO-SPAGNOLO-99.md",
+  "publicQuotationRendererCheck": {
+    "status": "PASS",
+    "associations": 169,
+    "interfaceLocales": 4,
+    "defaults": 676,
+    "switches": 2704,
+    "allTextsAndCreditsLiteral": true,
+    "allHighlightTermsRendered": true,
+    "quotationLanguageIndependent": true,
+    "realBrowserUsed": false,
+    "proof": "verifica-renderer-pubblico-2026-11-17.json"
+  },
+  "followupHighlightCorrection": {
+    "excerptId": "7:core:proust-geo-2cd2c95856a1c9e7:es",
+    "changedField": "metadata.highlightTerms",
+    "before": [
+      "Trouville"
+    ],
+    "after": [
+      "Trouvillenada"
+    ],
+    "quoteUnchanged": true,
+    "attributionUnchanged": true,
+    "updatedRows": 1,
+    "proof": "esito-pubblicazione-grassetto.json"
+  }
 }

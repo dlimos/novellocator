@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "date": "2026-11-17",
+  "mode": "commit",
+  "capturedAt": "2026-11-17T21:57:35.661Z",
+  "snapshot": "snapshot-renderer-pubblicato-2026-11-17.json",
+  "allNineTablesEqualToExpected": true,
+  "tables": {
+    "books": {
+      "rowCount": 1,
+      "equalToExpected": true
+    },
+    "sections": {
+      "rowCount": 7,
+      "equalToExpected": true
+    },
+    "places": {
+      "rowCount": 202,
+      "equalToExpected": true
+    },
+    "sources": {
+      "rowCount": 322,
+      "equalToExpected": true
+    },
+    "place_descriptions": {
+      "rowCount": 217,
+      "equalToExpected": true
+    },
+    "place_references": {
+      "rowCount": 412,
+      "equalToExpected": true
+    },
+    "excerpts": {
+      "rowCount": 931,
+      "equalToExpected": true
+    },
+    "unlocated_settings": {
+      "rowCount": 0,
+      "equalToExpected": true
+    },
+    "content_translations": {
+      "rowCount": 1638,
+      "equalToExpected": true
+    }
+  },
+  "sqlSha256": "6d45cf8936b9e6013352891f93ac6541710a6e8cf62a32f717b5709207d8a0d0",
+  "spanishExcerpts": 169,
+  "newlyPublished": 0,
+  "updatedHighlightTerms": 1,
+  "allOtherRowsPreserved": true,
+  "onlyOneHighlightFieldUpdated": true,
+  "allTextsAndAttributionsPreserved": true,
+  "noGeographicChanges": true,
+  "otherLanguagesUnchanged": true
+}

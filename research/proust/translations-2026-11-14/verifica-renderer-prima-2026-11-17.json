@@ -1,0 +1,68 @@
+{
+  "date": "2026-11-17",
+  "status": "FAIL",
+  "scope": "Verifica funzionale del codice pubblico delle citazioni su snapshot API reale; controlli eventi/select simulati, nessun browser o impaginazione verificati.",
+  "snapshot": "snapshot-renderer-pre-2026-11-17.json",
+  "associations": 169,
+  "interfaceLocales": 4,
+  "defaults": 676,
+  "switches": 2704,
+  "passages": 2704,
+  "expectedLanguages": [
+    "en",
+    "es",
+    "fr",
+    "it"
+  ],
+  "literalTextsAndCreditsPreserved": true,
+  "independentQuotationLanguage": true,
+  "noNovelTextLinks": true,
+  "translatedInterfaceLabelsChecked": false,
+  "browserVisualQa": "PENDING: comandi del browser interno non disponibili",
+  "publicScriptHashes": {
+    "app.js": "150919f1e95046527e223c009592a0a9dc2ebf273651a017d0db352ee514f369",
+    "content-adapter.js": "affa5e0458ff9ce1147620292b3c49965bc3d9d5e4fbe3f931458fc23b11fe74"
+  },
+  "failures": [
+    {
+      "interfaceLocale": "en",
+      "referenceId": "7:core:proust-geo-2cd2c95856a1c9e7",
+      "excerptId": "7:core:proust-geo-2cd2c95856a1c9e7:es",
+      "language": "es",
+      "issue": "highlight-not-rendered",
+      "terms": [
+        "Trouville"
+      ]
+    },
+    {
+      "interfaceLocale": "es",
+      "referenceId": "7:core:proust-geo-2cd2c95856a1c9e7",
+      "excerptId": "7:core:proust-geo-2cd2c95856a1c9e7:es",
+      "language": "es",
+      "issue": "highlight-not-rendered",
+      "terms": [
+        "Trouville"
+      ]
+    },
+    {
+      "interfaceLocale": "fr",
+      "referenceId": "7:core:proust-geo-2cd2c95856a1c9e7",
+      "excerptId": "7:core:proust-geo-2cd2c95856a1c9e7:es",
+      "language": "es",
+      "issue": "highlight-not-rendered",
+      "terms": [
+        "Trouville"
+      ]
+    },
+    {
+      "interfaceLocale": "it",
+      "referenceId": "7:core:proust-geo-2cd2c95856a1c9e7",
+      "excerptId": "7:core:proust-geo-2cd2c95856a1c9e7:es",
+      "language": "es",
+      "issue": "highlight-not-rendered",
+      "terms": [
+        "Trouville"
+      ]
+    }
+  ]
+}

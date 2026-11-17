@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "constraints": true,
+  "correctedExcerptReconstructed": true,
+  "highlights": true,
+  "textsAndAttributionsUnchanged": true,
+  "onlyOneHighlightTermUpdated": true,
+  "idempotence": true,
+  "transactionRollback": true,
+  "changedSnapshotRejected": true,
+  "otherBookUnchanged": true,
+  "insertSources": 0,
+  "insertExcerpts": 0,
+  "updates": 1,
+  "deletes": 0,
+  "productionSqlBytes": 11864
+}

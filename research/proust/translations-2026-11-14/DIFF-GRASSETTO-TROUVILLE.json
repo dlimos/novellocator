@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-17",
+  "book": "proust",
+  "excerptId": "7:core:proust-geo-2cd2c95856a1c9e7:es",
+  "language": "es",
+  "place": "Trouville-sur-Mer",
+  "path": "metadata.highlightTerms",
+  "before": [
+    "Trouville"
+  ],
+  "after": [
+    "Trouvillenada"
+  ],
+  "reason": "La copia fonde toponimo e parola successiva. Il renderer pubblico evidenzia parole intere; conservata la forma completa autentica senza correggere o separare il testo.",
+  "quoteUnchanged": true,
+  "attributionUnchanged": true,
+  "allOtherMetadataUnchanged": true,
+  "geographyUnchanged": true,
+  "insertedRows": 0,
+  "updatedRows": 1,
+  "deletedRows": 0,
+  "state": "Pubblicato e verificato con API e renderer pubblico il 2026-11-17; controllo visivo interno pendente"
+}
