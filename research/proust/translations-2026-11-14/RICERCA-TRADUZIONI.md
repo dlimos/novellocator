@@ -1,6 +1,6 @@
-# Proust: testi integrali nelle tre lingue — aggiornamento 16 novembre 2026
+# Proust: testi integrali nelle tre lingue — aggiornamento 17 novembre 2026
 
-Sono acquisiti per consultazione locale sette volumi inglesi, sette spagnoli e tutti i sette volumi italiani nell’AZW3 fornito direttamente dall’utente. Il 16 novembre sono state **pubblicate in Supabase e verificate le 169 traduzioni italiane dei passi FR selezionati nel dataset**. Inglese e spagnolo rimangono da completare: la copertura nelle quattro lingue non è conclusa. Il perimetro italiano è quello delle 169 associazioni aggregate dello staging, non di ogni associazione Proust preesistente. La copia privata italiana non è una fonte web aperta e non viene redistribuita.
+Sono acquisiti per consultazione locale sette volumi inglesi, sette spagnoli e tutti i sette volumi italiani nell’AZW3 fornito direttamente dall’utente. Il 16 novembre sono state **pubblicate in Supabase e verificate le 169 traduzioni italiane dei passi FR selezionati nel dataset**. Il 17 novembre sono state pubblicate anche le **169 traduzioni inglesi**, verificate riga per riga nei dati pubblici e nel codice effettivo dell’esportatore. Il controllo visivo EN nel browser interno resta pendente perché lo strumento di controllo non è disponibile; lo spagnolo è da completare. La copertura nelle quattro lingue non è conclusa. Il perimetro italiano è quello delle 169 associazioni aggregate dello staging, non di ogni associazione Proust preesistente. La copia privata italiana non è una fonte web aperta e non viene redistribuita.
 
 ## Inglese: ciclo completo disponibile
 
@@ -18,7 +18,7 @@ La [pagina autore di Project Gutenberg Australia](https://gutenberg.net.au/plusf
 
 La [licenza PGA](https://gutenberg.net.au/licence.html) distingue il pubblico dominio in Australia dalle verifiche negli altri territori. Precisa inoltre che PGA non mantiene i testi conformi a una particolare edizione cartacea. Le date storiche in tabella non identificano quindi un singolo esemplare cartaceo della trascrizione acquisita. Il file I segnala interventi su virgolette e punteggiatura: non attribuirli automaticamente alla stampa del 1922. Per gli estratti occorrono allineamento alla citazione FR selezionata, controllo delle varianti e attribuzione della versione effettiva.
 
-Gli audit precedenti locali offrono candidati EN per 120 delle 169 associazioni; per 115 esiste almeno un candidato con riscontro lessicale nella copia integrale acquisita. Questi numeri **non sono traduzioni approvate**. Esempio verificato: il vecchio candidato dell’Allée de la Reine-Marguerite traduce un altro passo dello stesso volume, mentre il testo corrispondente alla prima citazione FR scelta si trova altrove nel medesimo libro. L’identità del luogo non basta per trasferire la traduzione.
+Nella fase iniziale gli audit precedenti locali offrivano candidati EN per 120 delle 169 associazioni; per 115 esiste almeno un candidato con riscontro lessicale nella copia integrale acquisita. Questi numeri **non sono traduzioni approvate**. Esempio verificato: il vecchio candidato dell’Allée de la Reine-Marguerite traduce un altro passo dello stesso volume, mentre il testo corrispondente alla prima citazione FR scelta si trova altrove nel medesimo libro. L’identità del luogo non basta per trasferire la traduzione.
 
 ## Spagnolo: sette file aperti, edizione e traduttori da accertare
 
@@ -90,3 +90,13 @@ Il volume IV richiede un controllo distinto: l’apertura locale comincia «Se s
 Nessun nuovo estratto ES è stato pubblicato: rimangono da completare l’allineamento ai passi FR, la selezione leggibile, le evidenziazioni e la valutazione del riuso. Le anteprime ufficiali non sono licenze di riutilizzo. Restano documentate le restrizioni della copia PruébaT.
 
 In inglese l’audit locale distingue ora 118 associazioni con almeno un candidato riscontrato nel testo e 115 corrispondenze narrative riesaminate; tre vecchi candidati riguardano scene diverse e sono respinti. Questi numeri non sono estratti pronti o pubblicati: il contesto finale deve ancora essere rifinito.
+
+## Rilascio inglese del 17 novembre 2026
+
+Pubblicati 169 estratti EN e 9 fonti bibliografiche; zero UPDATE e DELETE. I 169 estratti italiani, i sei inglesi precedenti, gli originali FR e tutte le righe preesistenti delle nove tabelle rimangono identici. Il confronto riga per riga con l’API pubblica è PASS: 762 estratti totali (175 EN, 169 IT, 418 FR), 300 fonti, 202 luoghi e 412 riferimenti. Le 114 schede sospese restano escluse. L’esito è in `esito-pubblicazione-inglese.json`.
+
+Sono stati letti i 169 estratti finali e riscontrati i segmenti letterali nelle copie, con evidenziazioni autentiche, attribuzioni e sottosezioni. I candidati errati di Allée de la Reine-Marguerite, Trocadéro V e Piazzetta VI sono stati sostituiti dalla medesima scena FR. Il [dossier inglese](RIUSO-INGLESE.md) distingue traduzione storica, interventi della copia, territorio e valutazione del singolo riuso e dell’insieme. Le 145 stringhe distinte contengono 12.345 parole contando le ripetizioni; l’unione dei segmenti della fonte è circa 9.892 parole.
+
+Collaudo isolato PASS per vincoli, ricostruzione delle 169 traduzioni, evidenziazioni, idempotenza, rollback, rifiuto dello snapshot cambiato e conservazione di un altro libro. La prova nativa Supabase con rollback e il successivo commit hanno usato lo stesso piano. Il controllo del codice effettivamente pubblicato di adattatore ed esportatore ha trovato tutti i 169 testi e le attribuzioni nei CSV ricostruiti dai dati pubblici. Questo controllo **non è** un download tramite interfaccia o una verifica visiva.
+
+**Verifica visiva EN ancora pendente:** durante il collaudo gli strumenti per interagire con il browser interno sono stati rimossi dalla sessione. Il comando per aprire l’atlante nel pannello interno restituisce `queued`; non è stato possibile osservare l’esito. Non si dichiarano verificati selettori, grassetto, cambio lingua o download mediante UI inglese. L’utente ha richiesto il browser interno. Restano inoltre la vecchia lacuna fuori lotto `7:core:boulevards` e il completamento dello spagnolo.

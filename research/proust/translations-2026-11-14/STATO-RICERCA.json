@@ -10,8 +10,8 @@
     "es": 7,
     "it": 7
   },
-  "newTranslationsPublished": 169,
-  "scope": "169 associazioni del dataset con traduzione italiana pubblicata e verificata. Inglese e spagnolo ancora incompleti; non completata l’intera copertura multilingue o di tutte le associazioni Proust preesistenti.",
+  "newTranslationsPublished": 338,
+  "scope": "169 associazioni del dataset con IT ed EN pubblicati e verificati nei dati. IT verificato anche nella UI; controllo visivo EN pendente perché il browser interno non è controllabile. ES incompleto; non completata l’intera copertura multilingue né tutte le associazioni Proust preesistenti.",
   "sourceTextRedistributed": false,
   "englishCandidates": {
     "selectedAssociations": 169,
@@ -36,7 +36,7 @@
   ],
   "blockers": [
     "Spagnolo: attribuzione inferita per campioni in sei volumi; volume IV ancora non identificato. Riuso e allineamento puntuale da verificare.",
-    "Allineamento puntuale delle citazioni ancora incompleto, anche in inglese; leggibilità finale da rifinire."
+    "Controllo visivo EN nel browser interno pendente: strumento di controllo non disponibile; i dati e il codice dell’esportatore pubblico sono verificati."
   ],
   "italianSource": {
     "isbn": "9788854125810",
@@ -77,5 +77,18 @@
     "proof": "riscontro-anteprime-es-2026-11-17.json",
     "rightsAndAlignmentPending": true,
     "volume4": "La copia disponibile differisce dalla traduzione Berges dell’anteprima ufficiale."
+  },
+  "englishAlignment": {
+    "selectedAssociations": 169,
+    "narrativeAlignmentsReviewed": 169,
+    "readabilityReviewed": 169,
+    "literalSourceSegmentsVerified": 169,
+    "published": 169,
+    "previousEnglishExcerptsPreserved": 6,
+    "totalEnglishExcerptsInDatabase": 175,
+    "publicApiRowByRowCheck": "PASS",
+    "publicExporterAll169Check": "PASS",
+    "browserUi": "PENDING: apertura interna in coda e controllo non disponibile",
+    "proof": "esito-pubblicazione-inglese.json"
   }
 }

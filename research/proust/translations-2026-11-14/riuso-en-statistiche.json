@@ -1,0 +1,68 @@
+{
+  "date": "2026-11-17",
+  "perVolume": [
+    {
+      "volume": 1,
+      "associations": 25,
+      "sourceWordsIncludingFrontMatter": 195966,
+      "sourceWordsUnion": 1836,
+      "quotedWordsIncludingRepeated": 2252,
+      "longestExcerptWords": 165
+    },
+    {
+      "volume": 2,
+      "associations": 3,
+      "sourceWordsIncludingFrontMatter": 236493,
+      "sourceWordsUnion": 277,
+      "quotedWordsIncludingRepeated": 277,
+      "longestExcerptWords": 135
+    },
+    {
+      "volume": 3,
+      "associations": 42,
+      "sourceWordsIncludingFrontMatter": 257718,
+      "sourceWordsUnion": 2126,
+      "quotedWordsIncludingRepeated": 3014,
+      "longestExcerptWords": 195
+    },
+    {
+      "volume": 4,
+      "associations": 14,
+      "sourceWordsIncludingFrontMatter": 230175,
+      "sourceWordsUnion": 540,
+      "quotedWordsIncludingRepeated": 572,
+      "longestExcerptWords": 85
+    },
+    {
+      "volume": 5,
+      "associations": 23,
+      "sourceWordsIncludingFrontMatter": 177062,
+      "sourceWordsUnion": 1505,
+      "quotedWordsIncludingRepeated": 1597,
+      "longestExcerptWords": 110
+    },
+    {
+      "volume": 6,
+      "associations": 24,
+      "sourceWordsIncludingFrontMatter": 119598,
+      "sourceWordsUnion": 1499,
+      "quotedWordsIncludingRepeated": 1690,
+      "longestExcerptWords": 150
+    },
+    {
+      "volume": 7,
+      "associations": 38,
+      "sourceWordsIncludingFrontMatter": 137766,
+      "sourceWordsUnion": 2109,
+      "quotedWordsIncludingRepeated": 2943,
+      "longestExcerptWords": 168
+    }
+  ],
+  "distinctQuoteStrings": 145,
+  "quotedWordsIncludingRepeated": 12345,
+  "sourceWordsUnion": 9892,
+  "sourcesInserted": 9,
+  "excerptsInserted": 169,
+  "updates": 0,
+  "deletes": 0
+}
