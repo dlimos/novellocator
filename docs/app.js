@@ -407,6 +407,21 @@ function renderLocation(options={}){
  const quote=!citation&&chapter.placeQuotes?.[id];
  const excerpt=citation?.excerpt||chapter.placeExcerpts?.[id];
  const evidence=document.createElement('div');const passage=renderExcerpts(excerpt||(quote?{original:{quote,language:book.originalLanguage||'en',type:'original',attribution:narrativeSource?.label||[book.author,book.title,chapter.title].join(' · '),url:narrativeSource?.url}}:null),'Passage from the novel',[place]);evidence.innerHTML=passage;target.appendChild(evidence);
+ // Several fictional interiors may share one regional outline. Keep each
+ // verified passage accessible without inventing overlapping map markers.
+ const relatedRegionalPassages=(chapter.unlocatedPlaces||[]).filter(item=>
+  item.mappedPlaceId===id&&item.excerpt?.original?.quote?.trim()&&item.excerpt.original.quote!==excerpt?.original?.quote);
+ if(relatedRegionalPassages.length){
+  const related=document.createElement('section');related.className='regional-related-passages';
+  const title=document.createElement('h3');title.className='locations-heading';
+  title.textContent=({it:'Altre ambientazioni nella stessa regione',en:'Other settings in the same region',es:'Otros escenarios de la misma región',fr:'Autres lieux dans la même région'})[locale]||'Other settings in the same region';
+  related.appendChild(title);
+  for(const item of relatedRegionalPassages){
+   const name=document.createElement('p');name.className='location-address';name.textContent=item.name;related.appendChild(name);
+   const block=document.createElement('div');block.innerHTML=renderExcerpts(item.excerpt,'Passage from the novel',[item]);related.appendChild(block);
+  }
+  target.appendChild(related);
+ }
  if(current<0||isPopup){const references=document.createElement('div');references.className='global-references';const heading=document.createElement('h3');heading.textContent=t('Appears in');references.appendChild(heading);chapters.forEach((section,index)=>{const placeIndex=section.places.indexOf(id),citationIndex=(section.citations||[]).findIndex(reference=>reference.placeId===id);if(placeIndex<0&&citationIndex<0)return;const button=document.createElement('button');button.type='button';button.className='section-link';button.textContent=number(section.id)+' · '+section.title+' · '+t(placeIndex>=0&&section.placeCategories?.[id]!=='mentioned'?'Action locations':'Mentioned locations');button.addEventListener('click',()=>{if(isPopup){showMapPopup(true,false,{chapterIndex:index,placeId:id});return;}selectChapter(index,false);if(placeIndex>=0)selectPlace(placeIndex);else selectCitation(citationIndex)});references.appendChild(button)});target.appendChild(references);}
  if(!isIllustrated){const link=isPopup?target.querySelector?.('.street-view-link'):document.getElementById('street-view-link');if(link)link.onclick=openStreetView;}
  if(!isPopup&&!document.getElementById('map-place-popup').hidden)showMapPopup();
