@@ -1,0 +1,396 @@
+{
+  "date": "2026-11-18",
+  "retrievedAt": "2026-11-18T20:09:06.468614+00:00",
+  "scope": "All Proust published geographical associations plus both imaginary views, using current anonymous API and exact public adapters and rendering functions. Presence/coverage and rendered text checks; not a new full-source collation or visual browser test.",
+  "database": {
+    "associations": 412,
+    "excerpts": 931
+  },
+  "summary": {
+    "it": {
+      "geographic": {
+        "associations": 254,
+        "distinctPlaces": 162,
+        "withOriginal": 253,
+        "withFourLanguages": 169,
+        "byLanguage": {
+          "it": 169,
+          "en": 169,
+          "fr": 253,
+          "es": 169
+        },
+        "missingOriginal": [
+          {
+            "section": 7,
+            "place": "boulevards",
+            "name": "Grands Boulevards · riferimento in boulevard des Italiens"
+          }
+        ],
+        "noDisplayedDescription": 0,
+        "withPositionDescription": 254,
+        "withNarrativeDescription": 49,
+        "narrativePending": 0,
+        "visibleNarrativeUntranslated": 0,
+        "visiblePositionUntranslated": 0,
+        "quotationHighlightIssues": 23
+      },
+      "imaginary": {
+        "associations": 5,
+        "distinctPlaces": 5,
+        "withOriginal": 5,
+        "withFourLanguages": 3,
+        "byLanguage": {
+          "it": 3,
+          "en": 3,
+          "fr": 5,
+          "es": 3
+        },
+        "missingOriginal": [],
+        "noDisplayedDescription": 0,
+        "withPositionDescription": 5,
+        "withNarrativeDescription": 5,
+        "narrativePending": 0,
+        "visibleNarrativeUntranslated": 0,
+        "visiblePositionUntranslated": 0,
+        "quotationHighlightIssues": 0
+      }
+    },
+    "en": {
+      "geographic": {
+        "associations": 254,
+        "distinctPlaces": 162,
+        "withOriginal": 253,
+        "withFourLanguages": 169,
+        "byLanguage": {
+          "it": 169,
+          "en": 169,
+          "fr": 253,
+          "es": 169
+        },
+        "missingOriginal": [
+          {
+            "section": 7,
+            "place": "boulevards",
+            "name": "Grands Boulevards · Boulevard des Italiens reference"
+          }
+        ],
+        "noDisplayedDescription": 0,
+        "withPositionDescription": 254,
+        "withNarrativeDescription": 49,
+        "narrativePending": 0,
+        "visibleNarrativeUntranslated": 0,
+        "visiblePositionUntranslated": 0,
+        "quotationHighlightIssues": 23
+      },
+      "imaginary": {
+        "associations": 5,
+        "distinctPlaces": 5,
+        "withOriginal": 5,
+        "withFourLanguages": 3,
+        "byLanguage": {
+          "it": 3,
+          "en": 3,
+          "fr": 5,
+          "es": 3
+        },
+        "missingOriginal": [],
+        "noDisplayedDescription": 0,
+        "withPositionDescription": 5,
+        "withNarrativeDescription": 5,
+        "narrativePending": 0,
+        "visibleNarrativeUntranslated": 0,
+        "visiblePositionUntranslated": 0,
+        "quotationHighlightIssues": 0
+      }
+    },
+    "fr": {
+      "geographic": {
+        "associations": 254,
+        "distinctPlaces": 162,
+        "withOriginal": 253,
+        "withFourLanguages": 169,
+        "byLanguage": {
+          "it": 169,
+          "en": 169,
+          "fr": 253,
+          "es": 169
+        },
+        "missingOriginal": [
+          {
+            "section": 7,
+            "place": "boulevards",
+            "name": "Grands Boulevards · repère boulevard des Italiens"
+          }
+        ],
+        "noDisplayedDescription": 0,
+        "withPositionDescription": 254,
+        "withNarrativeDescription": 49,
+        "narrativePending": 0,
+        "visibleNarrativeUntranslated": 0,
+        "visiblePositionUntranslated": 0,
+        "quotationHighlightIssues": 23
+      },
+      "imaginary": {
+        "associations": 5,
+        "distinctPlaces": 5,
+        "withOriginal": 5,
+        "withFourLanguages": 3,
+        "byLanguage": {
+          "it": 3,
+          "en": 3,
+          "fr": 5,
+          "es": 3
+        },
+        "missingOriginal": [],
+        "noDisplayedDescription": 0,
+        "withPositionDescription": 5,
+        "withNarrativeDescription": 5,
+        "narrativePending": 0,
+        "visibleNarrativeUntranslated": 0,
+        "visiblePositionUntranslated": 0,
+        "quotationHighlightIssues": 0
+      }
+    },
+    "es": {
+      "geographic": {
+        "associations": 254,
+        "distinctPlaces": 162,
+        "withOriginal": 253,
+        "withFourLanguages": 169,
+        "byLanguage": {
+          "it": 169,
+          "en": 169,
+          "fr": 253,
+          "es": 169
+        },
+        "missingOriginal": [
+          {
+            "section": 7,
+            "place": "boulevards",
+            "name": "Grands Boulevards · referencia en boulevard des Italiens"
+          }
+        ],
+        "noDisplayedDescription": 0,
+        "withPositionDescription": 254,
+        "withNarrativeDescription": 49,
+        "narrativePending": 0,
+        "visibleNarrativeUntranslated": 0,
+        "visiblePositionUntranslated": 0,
+        "quotationHighlightIssues": 23
+      },
+      "imaginary": {
+        "associations": 5,
+        "distinctPlaces": 5,
+        "withOriginal": 5,
+        "withFourLanguages": 3,
+        "byLanguage": {
+          "it": 3,
+          "en": 3,
+          "fr": 5,
+          "es": 3
+        },
+        "missingOriginal": [],
+        "noDisplayedDescription": 0,
+        "withPositionDescription": 5,
+        "withNarrativeDescription": 5,
+        "narrativePending": 0,
+        "visibleNarrativeUntranslated": 0,
+        "visiblePositionUntranslated": 0,
+        "quotationHighlightIssues": 0
+      }
+    }
+  },
+  "publicScriptHashes": {
+    "content-adapter.js": "c7704da15d4b2b9482b56ea24d9d4fc99edb62a8e3723af21044167766f0c4bd",
+    "supabase-data.js": "175be7f6074649465c1584b3e41e91abd74b8842a24fc4da95bac1b597a91833",
+    "mentioned-policy.js": "1e474af370bd17c9040e1a79d2f8ef2febee9be9e36dd4856abeaba210f91f70",
+    "illustrated-overlay.js": "ceda33c8887e13e207ed46a6855564d9f9e5946750e1925b7756b6aa43929b21",
+    "atlas-modes.js": "9f5fe80a3ddff1c9bb2f1a6257b6c5da948fd0afc83377c5a49c881a47b5392a",
+    "i18n.js": "00cc3e20935226435cb219eace01aef6ee9c57912a5625db631ba8d7c1495231",
+    "app.js": "2734c029f43640d81547ae1e24d122d28b484bc124347f064cf97cc621f5deca"
+  },
+  "imaginary": [
+    {
+      "sectionId": "combray",
+      "placeId": "church",
+      "name": "Saint-Hilaire",
+      "sourceReferenceId": "1:core:church",
+      "languages": [
+        "en",
+        "es",
+        "fr",
+        "it"
+      ],
+      "missingLanguages": [],
+      "hasOriginal": true,
+      "narrativeVisible": false,
+      "sourceOccurrences": [
+        {
+          "sectionId": 1,
+          "languages": [
+            "en",
+            "es",
+            "fr",
+            "it"
+          ]
+        },
+        {
+          "sectionId": 7,
+          "languages": [
+            "en",
+            "es",
+            "fr",
+            "it"
+          ]
+        }
+      ]
+    },
+    {
+      "sectionId": "combray",
+      "placeId": "garden",
+      "name": "Parco di Tansonville",
+      "sourceReferenceId": "1:core:garden",
+      "languages": [
+        "en",
+        "es",
+        "fr",
+        "it"
+      ],
+      "missingLanguages": [],
+      "hasOriginal": true,
+      "narrativeVisible": false,
+      "sourceOccurrences": [
+        {
+          "sectionId": 1,
+          "languages": [
+            "en",
+            "es",
+            "fr",
+            "it"
+          ]
+        },
+        {
+          "sectionId": 7,
+          "languages": [
+            "en",
+            "es",
+            "fr",
+            "it"
+          ]
+        }
+      ]
+    },
+    {
+      "sectionId": "combray",
+      "placeId": "leonie",
+      "name": "Casa di tante Léonie",
+      "sourceReferenceId": "1:core:leonie",
+      "languages": [
+        "fr"
+      ],
+      "missingLanguages": [
+        "it",
+        "en",
+        "es"
+      ],
+      "hasOriginal": true,
+      "narrativeVisible": false,
+      "sourceOccurrences": [
+        {
+          "sectionId": 1,
+          "languages": [
+            "fr"
+          ]
+        }
+      ]
+    },
+    {
+      "sectionId": "balbec",
+      "placeId": "hotel",
+      "name": "Grand Hôtel di Balbec",
+      "sourceReferenceId": "2:core:hotel",
+      "languages": [
+        "en",
+        "es",
+        "fr",
+        "it"
+      ],
+      "missingLanguages": [],
+      "hasOriginal": true,
+      "narrativeVisible": false,
+      "sourceOccurrences": [
+        {
+          "sectionId": 2,
+          "languages": [
+            "en",
+            "es",
+            "fr",
+            "it"
+          ]
+        },
+        {
+          "sectionId": 4,
+          "languages": [
+            "en",
+            "es",
+            "fr",
+            "it"
+          ]
+        },
+        {
+          "sectionId": 7,
+          "languages": [
+            "en",
+            "es",
+            "fr",
+            "it"
+          ]
+        }
+      ]
+    },
+    {
+      "sectionId": "balbec",
+      "placeId": "promenade",
+      "name": "Lungomare di Balbec",
+      "sourceReferenceId": "2:core:promenade",
+      "languages": [
+        "fr"
+      ],
+      "missingLanguages": [
+        "it",
+        "en",
+        "es"
+      ],
+      "hasOriginal": true,
+      "narrativeVisible": false,
+      "sourceOccurrences": [
+        {
+          "sectionId": 2,
+          "languages": [
+            "fr"
+          ]
+        },
+        {
+          "sectionId": 4,
+          "languages": [
+            "fr"
+          ]
+        }
+      ]
+    }
+  ],
+  "nativeDatabaseCrosscheck": {
+    "associations": 412,
+    "excerpts": 931,
+    "descriptions": 217,
+    "descriptionsWithFourReviewedLanguages": 217,
+    "associationsWithoutFrench": 1
+  },
+  "limits": [
+    "Read-only audit: no content changes",
+    "Not browser visual QA",
+    "Stored reviewed status is not a new verification against external sources",
+    "No new full-text collation of pre-existing quotations",
+    "254 visible volume-place associations, not 254 distinct places; five imaginary positions reuse stored references"
+  ]
+}
