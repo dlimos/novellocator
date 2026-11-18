@@ -1,5 +1,21 @@
 # Proust — versioni e perimetro del riuso, aggiornamento 17 novembre 2026
 
+## Aggiornamento di copertura — 18 novembre 2026
+
+Le correzioni pubblicate e verificate su tutte le posizioni visibili estendono il lotto originario: **249/249 associazioni geografiche visibili e 5/5 posizioni nelle vedute con citazioni FR/IT/EN/ES**, oltre alle descrizioni nelle quattro lingue. Le 169 associazioni del lotto Excel restano identiche. Le dichiarazioni precedenti di 99 ES pendenti sono cronologia superata dai rilasci documentati; la verifica visiva del browser resta distinta dai controlli funzionali eseguiti. Inventario e prove nel [rilascio aggiornato](../coverage-2026-11-18/RILASCIO-CORREZIONI.md).
+
+Il repertorio generale delle versioni è integrato dalle seguenti fonti, impiegate per il problema di redazione del volume VI. La disponibilità di un passo autentico nelle quattro lingue non implica la disponibilità integrale di ogni redazione in ciascuna traduzione.
+
+| Lingua | Opera/edizione e traduttore | Testo integrale disponibile | Pubblico dominio e restrizioni | Fonti e verifiche |
+|---|---|---|---|---|
+| FR | Proust, *Albertine disparue*, BNR marzo 2018; base Québec/Gallimard 1946–1947 e revisione con edizioni moderne | Testo completo online; riscontrati scena del battistero e colophon. Download diretto HTTP 403, nessuna nuova acquisizione integrale locale dichiarata | Originale Proust distinto da apparati e condizioni specifiche BNR; riprodotte soltanto parole del romanzo | [Dossier della variante](../coverage-2026-11-18/SANMARCO-RISOLTO.md); non edizione diplomatica del 1925 |
+| EN | Proust tradotto da David Spurr nel saggio *Architecture and Modern Literature*, University of Michigan Press, 2012, p. 176; attribuzione dalla nota generale alle traduzioni p. 255 | Studio completo online; **nessuna nuova traduzione integrale del romanzo acquisita**. Un singolo corrispondente autentico della scena mancante nella copia Scott Moncrieff | Traduzione protetta, 16 parole con omissione iniziale e finalità critica documentata. CC BY-NC-ND dichiarata nella copia del capitolo distinta dal copyright dell’edizione; nessuna licenza commerciale generale o autorizzazione individuale attestata | [Fonte, attribuzione e riuso](../coverage-2026-11-18/SANMARCO-RISOLTO.md). Il credito pubblico identifica Spurr e lo studio; nessuna traduzione redazionale attribuita a Moncrieff |
+
+La copertura verificata riguarda le posizioni attualmente visibili, non una nuova analisi integrale di tutte le occorrenze della Ricerca. Le associazioni archiviate per evidenza inadeguata restano nel database con motivazione. Il [dossier di riuso aggiornato](../coverage-2026-11-18/CORREZIONI-E-RIUSO.md) valuta anche l’aggregato dei nuovi estratti e di quelli preesistenti.
+
+## Documentazione del lotto originario e cronologia
+
+
 **Stato corrente del lotto: 169/169 associazioni con FR, IT, EN ed ES pubblicati.** La cronologia dei rilasci parziali e delle ricerche è conservata sotto; per IV–VII vale la valutazione circoscritta nel dossier dei 99, non un nuovo permesso generale. Dati ed esportatore verificati; controllo visivo EN/ES interno pendente.
 
 Questa scheda riguarda il batch aggregato di 169 associazioni. Il primo rilascio del 14 novembre aggiungeva soltanto testi letterari francesi; il 16 novembre sono state pubblicate anche le 169 traduzioni italiane corrispondenti e il 17 novembre le 169 inglesi (verificate nei dati; controllo visivo EN pendente). Sono stati pubblicati anche 70 ES I–III il 17 novembre; 99 ES restano pendenti per diritti e il controllo visivo EN/ES è distinto dai dati verificati. Le descrizioni e le note contestuali sono prosa redazionale, distinta dai brani di Proust. Le traduzioni preesistenti restano intatte. Inventario aggiornato delle versioni e prova del rilascio in [RICERCA-TRADUZIONI.md](../translations-2026-11-14/RICERCA-TRADUZIONI.md).

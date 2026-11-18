@@ -2,10 +2,10 @@
 
 18 novembre 2026. Piano circoscritto alle associazioni precedenti al lotto Excel. Stato: importazione applicata e risultato integrale verificato tramite API pubblica; pubblicazione del frontend e verifica del deploy documentate nel [rapporto di rilascio](RILASCIO-CORREZIONI.md).
 
-## Modifiche preparate
+## Modifiche pubblicate
 
-- 79 gruppi di passi FR/IT/EN/ES selezionati e confrontati nel contesto: 237 traduzioni aggiunte, due nuovi originali FR (Grands Boulevards VII e rue Montalivet V), 77 originali preesistenti ricontestualizzati conservando i rispettivi identificativi. Il diff privato conserva ogni riga precedente completa.
-- 22 dei 23 problemi di grassetto precedenti sono corretti tramite forme autentiche del testo, anche indirette. L’ultimo appartiene al caso San Marco VI ancora pendente, non viene dichiarato risolto.
+- 80 gruppi di passi FR/IT/EN/ES selezionati e confrontati nel contesto: 240 traduzioni aggiunte, due nuovi originali FR (Grands Boulevards VII e rue Montalivet V), 78 originali preesistenti ricontestualizzati conservando i rispettivi identificativi. Il diff privato conserva ogni riga precedente completa.
+- Tutti i 23 problemi di grassetto precedenti sono corretti tramite forme autentiche, anche indirette; San Marco usa ora la scena del battistero riscontrata in fonti alternative.
 - Sei associazioni improprie sono archiviate con metadati e motivazione, senza cancellarne righe o estratti: Montalivet I, Baviera III/IV/V/VII e Chartres VII. Il primo caso deriva da un passo del volume V; gli altri dai titoli/nomi di personaggi. Non si afferma una nuova analisi integrale che escluda ogni possibile riferimento alternativo in quei volumi. Si archivia l’associazione fondata sulla precedente evidenza inadeguata. I riferimenti geografici validi di Baviera e Chartres negli altri volumi restano visibili.
 - Rue Montalivet è associata correttamente al volume V come menzione retrospettiva di Brichot; il `place_id` geografico resta lo stesso. La residenza di Swann sul quai d’Orléans è classificata `mentioned`: il passo riferisce dove abita, non narra una scena lì.
 - Le cinque schede delle due vedute mostrano il riepilogo letterario. Due riepiloghi (campanile di Saint-Hilaire e sentieri di Tansonville) sono riallineati ai passi effettivamente selezionati nelle quattro lingue. Le descrizioni dei modelli reali restano nella modalità geografica.
@@ -36,7 +36,7 @@ L’insieme comprende anche gli estratti già pubblicati: sono valutate ripetizi
 | IT | 3 | 11 | 769 | 2361 | 1.0883% |
 | IT | 4 | 14 | 816 | 1183 | 0.5901% |
 | IT | 5 | 9 | 488 | 1606 | 1.0488% |
-| IT | 6 | 6 | 472 | 1881 | 1.7744% |
+| IT | 6 | 7 | 503 | 1912 | 1.8036% |
 | IT | 7 | 12 | 751 | 2513 | 1.8357% |
 | EN | 1 | 15 | 1138 | 2927 | 1.4936% |
 | EN | 2 | 12 | 864 | 1250 | 0.5286% |
@@ -50,14 +50,16 @@ L’insieme comprende anche gli estratti già pubblicati: sono valutate ripetizi
 | ES | 3 | 11 | 749 | 2753 | 1.1359% |
 | ES | 4 | 14 | 771 | 1190 | 0.5795% |
 | ES | 5 | 9 | 522 | 1652 | 1.0708% |
-| ES | 6 | 6 | 536 | 1934 | 1.8573% |
+| ES | 6 | 7 | 568 | 1966 | 1.888% |
 | ES | 7 | 12 | 753 | 2789 | 2.0076% |
+
+Il singolo frammento EN di Spurr (16 parole) è valutato separatamente e non viene diviso per la lunghezza della copia Scott Moncrieff. Fonte e attribuzione aggiuntive sono nel [dossier San Marco](SANMARCO-RISOLTO.md).
 
 I dati dettagliati e i limiti dell’unione sono in [RIUSO-AGGREGATO.json](RIUSO-AGGREGATO.json).
 
-## Lacuna conservata: basilica di San Marco, volume VI
+## San Marco VI: problema di edizione risolto
 
-Il precedente estratto descrive il campanile separato, non l’ingresso nella basilica. È conservato integralmente nei dati con verifica pendente; la posizione resta censita e non viene eliminata. La scena del battistero è presente nelle copie IT/ES, ma non nelle copie storiche FR/EN consultate. La ricerca ha confrontato Wikisource, Bibliotheca Augustana e la copia derivata Wikisource di Oeuvres; nessun passo di un altro volume viene spacciato per il corrispondente del VI. Restano da verificare un originale della redazione che contiene la scena e una traduzione inglese autentica corrispondente, con attribuzione e riuso documentati. I riscontri critici trovati non sono dichiarati collazione di un’edizione primaria. Il ripiego francese inadeguato non è trasformato in una citazione verificata aggiungendo il grassetto.
+La ricerca successiva ha reperito il francese pertinente nella BNR e la versione inglese autentica pubblicata da David Spurr, da distinguere dalla copia Scott Moncrieff e da un’edizione inglese integrale del romanzo. Le corrispondenti frasi IT/ES sono riscontrate nelle copie complete già acquisite. Il precedente estratto del campanile è conservato nei metadati e sostituito nella scheda, senza cambiare luogo o identificativo. Il [dossier](SANMARCO-RISOLTO.md) documenta i riscontri e il riuso.
 
 ## Controlli distinti
 

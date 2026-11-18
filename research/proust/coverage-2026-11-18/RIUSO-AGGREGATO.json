@@ -1,5 +1,5 @@
 {
-  "scope": "All stored translation excerpts after the planned addition, including pre-existing passages and repetitions. String union where located; all unlocated distinct segments counted in full as a conservative upper bound. Counts do not imply new collation of old excerpts or establish an automatic legal threshold. Headers in source denominators retained; XML poetry excluded from the old IT text extraction is counted among unlocated segments.",
+  "scope": "All stored translation excerpts after the planned addition, including pre-existing passages and repetitions. String union where located; all unlocated distinct segments counted in full as a conservative upper bound. Counts do not imply new collation of old excerpts or establish an automatic legal threshold. Headers in source denominators retained; XML poetry excluded from the old IT text extraction is counted among unlocated segments. Final live result; the single Spurr translation is assessed separately, not divided by the Scott Moncrieff source length.",
   "rows": [
     {
       "language": "it",
@@ -79,16 +79,16 @@
     {
       "language": "it",
       "volume": 6,
-      "addedExcerpts": 6,
-      "addedWordsWithRepetition": 472,
-      "allStoredExcerpts": 30,
-      "allWordsWithRepetition": 2084,
-      "locatedUnionWords": 1881,
+      "addedExcerpts": 7,
+      "addedWordsWithRepetition": 503,
+      "allStoredExcerpts": 31,
+      "allWordsWithRepetition": 2115,
+      "locatedUnionWords": 1912,
       "unlocatedDistinctSegments": 0,
       "unlocatedDistinctWordsUpperBound": 0,
-      "unionConservativeUpperBoundWords": 1881,
+      "unionConservativeUpperBoundWords": 1912,
       "copyWordCount": 106008,
-      "percentageUpperBound": 1.7744,
+      "percentageUpperBound": 1.8036,
       "longestAddedExcerpt": 145
     },
     {
@@ -289,16 +289,16 @@
     {
       "language": "es",
       "volume": 6,
-      "addedExcerpts": 6,
-      "addedWordsWithRepetition": 536,
-      "allStoredExcerpts": 30,
-      "allWordsWithRepetition": 1979,
-      "locatedUnionWords": 1874,
+      "addedExcerpts": 7,
+      "addedWordsWithRepetition": 568,
+      "allStoredExcerpts": 31,
+      "allWordsWithRepetition": 2011,
+      "locatedUnionWords": 1906,
       "unlocatedDistinctSegments": 1,
       "unlocatedDistinctWordsUpperBound": 60,
-      "unionConservativeUpperBoundWords": 1934,
+      "unionConservativeUpperBoundWords": 1966,
       "copyWordCount": 104129,
-      "percentageUpperBound": 1.8573,
+      "percentageUpperBound": 1.888,
       "longestAddedExcerpt": 155
     },
     {
@@ -316,5 +316,15 @@
       "percentageUpperBound": 2.0076,
       "longestAddedExcerpt": 172
     }
-  ]
+  ],
+  "separateCriticalStudyTranslation": {
+    "authorAndTranslator": "David Spurr",
+    "work": "Architecture and Modern Literature",
+    "publisher": "University of Michigan Press",
+    "year": 2012,
+    "quotedWords": 16,
+    "distinctExcerpts": 1,
+    "wholeNovelTranslationClaimed": false,
+    "assessment": "SANMARCO-RISOLTO.md; authentic published translation, one clause showing mother’s gesture in baptistery; no study commentary or apparatus reproduced"
+  }
 }

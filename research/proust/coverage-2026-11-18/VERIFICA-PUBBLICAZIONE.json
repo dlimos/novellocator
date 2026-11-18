@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-18",
+  "branch": "docs",
+  "frontendCommit": "6c7e0e82ae866961d127640631995c9f94bd4be0",
+  "database": {
+    "exactNineTablesVerified": true,
+    "counts": {
+      "books": 1,
+      "sections": 7,
+      "places": 202,
+      "sources": 324,
+      "place_descriptions": 217,
+      "place_references": 413,
+      "excerpts": 1173,
+      "unlocated_settings": 0,
+      "content_translations": 1638
+    },
+    "retrievedAt": "2026-11-18T21:44:29.611248+00:00"
+  },
+  "publicScriptHashes": {
+    "content-adapter.js": "c7704da15d4b2b9482b56ea24d9d4fc99edb62a8e3723af21044167766f0c4bd",
+    "supabase-data.js": "175be7f6074649465c1584b3e41e91abd74b8842a24fc4da95bac1b597a91833",
+    "mentioned-policy.js": "2c3a630f2298a5bae01fa5c1e8ee63e8dd6f67c02e3039ec8d283968f7643aab",
+    "illustrated-overlay.js": "ceda33c8887e13e207ed46a6855564d9f9e5946750e1925b7756b6aa43929b21",
+    "atlas-modes.js": "8df737d38ab354c5762563dd00e0212f0841da5efe3eeab5893d8c65227c3ac2",
+    "i18n.js": "00cc3e20935226435cb219eace01aef6ee9c57912a5625db631ba8d7c1495231",
+    "app.js": "2734c029f43640d81547ae1e24d122d28b484bc124347f064cf97cc621f5deca",
+    "csv-export.js": "397a5605687f8dfdf905524dbb8a2fe7b8ca5f44b40e88ddf5722c140995110b",
+    "atlas.html": "3b05f33bb6c8a8699b73b31412de292698fb0fb3ae868c6f10115c71a165a0dc"
+  },
+  "deployedFrontendMatchesCommit": true,
+  "browserVisualQaPerformed": false,
+  "functionalCheck": "PASS: 1016 defaults, 4064 quotation-language changes, 16 CSV exports, 4 interface locales, 249 geographical associations and 5 imaginary positions. Actual public code and API data, simulated DOM.",
+  "allVisibleQuotationsFourLanguages": true,
+  "allVisibleDescriptionsFourLanguages": true
+}

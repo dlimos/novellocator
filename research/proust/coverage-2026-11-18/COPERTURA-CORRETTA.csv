@@ -168,7 +168,7 @@ geographic,5,proust-geo-e39a3fd1fd500034,"Place d’Armes, Versailles",5:cited:p
 geographic,5,proust-geo-be33b03c76c3b385,Saint-André-des-Champs — chiesa/portale romanzesco,5:cited:proust-geo-be33b03c76c3b385,en|es|fr|it,,verificato,presente,presente,presente,presente,False,
 geographic,5,trocadero,Trocadéro · area del palazzo storico,5:cited:trocadero,en|es|fr|it,,verificato,presente,presente,presente,presente,False,
 geographic,6,boulogne,Bois de Boulogne,6:core:boulogne,en|es|fr|it,,verificato,presente,presente,presente,presente,False,
-geographic,6,sanmarco,Basilica di San Marco,6:core:sanmarco,,it|en|fr|es,pendente: variante di edizione,presente,presente,presente,presente,False,
+geographic,6,sanmarco,Basilica di San Marco,6:core:sanmarco,en|es|fr|it,,verificato,presente,presente,presente,presente,False,
 geographic,6,canal,Canal Grande,6:core:canal,en|es|fr|it,,verificato,presente,presente,presente,presente,False,
 geographic,6,schiavoni,Scuola di San Giorgio degli Schiavoni,6:core:schiavoni,en|es|fr|it,,verificato,presente,presente,presente,presente,False,
 geographic,6,scrovegni,Cappella degli Scrovegni,6:core:scrovegni,en|es|fr|it,,verificato,presente,presente,presente,presente,False,

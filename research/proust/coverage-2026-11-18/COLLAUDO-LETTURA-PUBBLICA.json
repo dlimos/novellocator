@@ -1,0 +1,178 @@
+{
+  "status": "PASS",
+  "defaults": 1016,
+  "switches": 4064,
+  "empty": 0,
+  "csvs": 16,
+  "scope": "Actual public rendering, language event handlers and CSV export code executed with simulated DOM; visual browser QA not performed.",
+  "summary": {
+    "it": {
+      "geographic": {
+        "associations": 249,
+        "distinctPlaces": 162,
+        "withOriginal": 249,
+        "withFourLanguages": 249,
+        "byLanguage": {
+          "it": 249,
+          "en": 249,
+          "fr": 249,
+          "es": 249
+        },
+        "missingOriginal": [],
+        "noDisplayedDescription": 0,
+        "withPositionDescription": 249,
+        "withNarrativeDescription": 49,
+        "narrativePending": 0,
+        "visibleNarrativeUntranslated": 0,
+        "visiblePositionUntranslated": 0,
+        "quotationHighlightIssues": 0
+      },
+      "imaginary": {
+        "associations": 5,
+        "distinctPlaces": 5,
+        "withOriginal": 5,
+        "withFourLanguages": 5,
+        "byLanguage": {
+          "it": 5,
+          "en": 5,
+          "fr": 5,
+          "es": 5
+        },
+        "missingOriginal": [],
+        "noDisplayedDescription": 0,
+        "withPositionDescription": 0,
+        "withNarrativeDescription": 5,
+        "narrativePending": 0,
+        "visibleNarrativeUntranslated": 0,
+        "visiblePositionUntranslated": 0,
+        "quotationHighlightIssues": 0
+      }
+    },
+    "en": {
+      "geographic": {
+        "associations": 249,
+        "distinctPlaces": 162,
+        "withOriginal": 249,
+        "withFourLanguages": 249,
+        "byLanguage": {
+          "it": 249,
+          "en": 249,
+          "fr": 249,
+          "es": 249
+        },
+        "missingOriginal": [],
+        "noDisplayedDescription": 0,
+        "withPositionDescription": 249,
+        "withNarrativeDescription": 49,
+        "narrativePending": 0,
+        "visibleNarrativeUntranslated": 0,
+        "visiblePositionUntranslated": 0,
+        "quotationHighlightIssues": 0
+      },
+      "imaginary": {
+        "associations": 5,
+        "distinctPlaces": 5,
+        "withOriginal": 5,
+        "withFourLanguages": 5,
+        "byLanguage": {
+          "it": 5,
+          "en": 5,
+          "fr": 5,
+          "es": 5
+        },
+        "missingOriginal": [],
+        "noDisplayedDescription": 0,
+        "withPositionDescription": 0,
+        "withNarrativeDescription": 5,
+        "narrativePending": 0,
+        "visibleNarrativeUntranslated": 0,
+        "visiblePositionUntranslated": 0,
+        "quotationHighlightIssues": 0
+      }
+    },
+    "fr": {
+      "geographic": {
+        "associations": 249,
+        "distinctPlaces": 162,
+        "withOriginal": 249,
+        "withFourLanguages": 249,
+        "byLanguage": {
+          "it": 249,
+          "en": 249,
+          "fr": 249,
+          "es": 249
+        },
+        "missingOriginal": [],
+        "noDisplayedDescription": 0,
+        "withPositionDescription": 249,
+        "withNarrativeDescription": 49,
+        "narrativePending": 0,
+        "visibleNarrativeUntranslated": 0,
+        "visiblePositionUntranslated": 0,
+        "quotationHighlightIssues": 0
+      },
+      "imaginary": {
+        "associations": 5,
+        "distinctPlaces": 5,
+        "withOriginal": 5,
+        "withFourLanguages": 5,
+        "byLanguage": {
+          "it": 5,
+          "en": 5,
+          "fr": 5,
+          "es": 5
+        },
+        "missingOriginal": [],
+        "noDisplayedDescription": 0,
+        "withPositionDescription": 0,
+        "withNarrativeDescription": 5,
+        "narrativePending": 0,
+        "visibleNarrativeUntranslated": 0,
+        "visiblePositionUntranslated": 0,
+        "quotationHighlightIssues": 0
+      }
+    },
+    "es": {
+      "geographic": {
+        "associations": 249,
+        "distinctPlaces": 162,
+        "withOriginal": 249,
+        "withFourLanguages": 249,
+        "byLanguage": {
+          "it": 249,
+          "en": 249,
+          "fr": 249,
+          "es": 249
+        },
+        "missingOriginal": [],
+        "noDisplayedDescription": 0,
+        "withPositionDescription": 249,
+        "withNarrativeDescription": 49,
+        "narrativePending": 0,
+        "visibleNarrativeUntranslated": 0,
+        "visiblePositionUntranslated": 0,
+        "quotationHighlightIssues": 0
+      },
+      "imaginary": {
+        "associations": 5,
+        "distinctPlaces": 5,
+        "withOriginal": 5,
+        "withFourLanguages": 5,
+        "byLanguage": {
+          "it": 5,
+          "en": 5,
+          "fr": 5,
+          "es": 5
+        },
+        "missingOriginal": [],
+        "noDisplayedDescription": 0,
+        "withPositionDescription": 0,
+        "withNarrativeDescription": 5,
+        "narrativePending": 0,
+        "visibleNarrativeUntranslated": 0,
+        "visiblePositionUntranslated": 0,
+        "quotationHighlightIssues": 0
+      }
+    }
+  }
+}
