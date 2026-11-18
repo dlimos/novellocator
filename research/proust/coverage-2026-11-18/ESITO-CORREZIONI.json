@@ -1,0 +1,309 @@
+{
+  "date": "2026-11-18",
+  "status": "CORRECTIONS_APPLIED_ONE_SOURCE_EDITION_GAP_RETAINED",
+  "database": {
+    "exactNineTablesVerified": true,
+    "verifiedAt": "2026-11-18T21:36:31.035168+00:00",
+    "counts": {
+      "books": 1,
+      "sections": 7,
+      "places": 202,
+      "sources": 322,
+      "place_descriptions": 217,
+      "place_references": 413,
+      "excerpts": 1170,
+      "unlocated_settings": 0,
+      "content_translations": 1638
+    },
+    "nativeRollbackAndCommit": {
+      "rollback": {
+        "status": "PASS",
+        "rows": [
+          {
+            "language": "en",
+            "total": 254,
+            "pending": 0
+          },
+          {
+            "language": "es",
+            "total": 248,
+            "pending": 0
+          },
+          {
+            "language": "fr",
+            "total": 420,
+            "pending": 1
+          },
+          {
+            "language": "it",
+            "total": 248,
+            "pending": 0
+          }
+        ]
+      },
+      "commit": {
+        "status": "PASS",
+        "rows": [
+          {
+            "language": "en",
+            "total": 254,
+            "pending": 0
+          },
+          {
+            "language": "es",
+            "total": 248,
+            "pending": 0
+          },
+          {
+            "language": "fr",
+            "total": 420,
+            "pending": 1
+          },
+          {
+            "language": "it",
+            "total": 248,
+            "pending": 0
+          }
+        ]
+      }
+    }
+  },
+  "changes": {
+    "newTranslations": 237,
+    "newFrenchOriginals": 2,
+    "recontextualizedFrenchOriginals": 77,
+    "pendingOriginals": 1,
+    "archivedAssociationsRetainedInStorage": 6,
+    "properVolumeAssociationInserted": 1,
+    "originalBatch169Unchanged": true,
+    "suspended114NotImported": true,
+    "geographicalIdentitiesCoordinatesAndDescriptionsUnchanged": true
+  },
+  "coverage": {
+    "it": {
+      "geographic": {
+        "associations": 249,
+        "distinctPlaces": 162,
+        "withOriginal": 248,
+        "withFourLanguages": 248,
+        "byLanguage": {
+          "it": 248,
+          "en": 248,
+          "fr": 248,
+          "es": 248
+        },
+        "missingOriginal": [
+          {
+            "section": 6,
+            "place": "sanmarco",
+            "name": "Basilica di San Marco"
+          }
+        ],
+        "noDisplayedDescription": 0,
+        "withPositionDescription": 249,
+        "withNarrativeDescription": 48,
+        "narrativePending": 1,
+        "visibleNarrativeUntranslated": 0,
+        "visiblePositionUntranslated": 0,
+        "quotationHighlightIssues": 0
+      },
+      "imaginary": {
+        "associations": 5,
+        "distinctPlaces": 5,
+        "withOriginal": 5,
+        "withFourLanguages": 5,
+        "byLanguage": {
+          "it": 5,
+          "en": 5,
+          "fr": 5,
+          "es": 5
+        },
+        "missingOriginal": [],
+        "noDisplayedDescription": 0,
+        "withPositionDescription": 0,
+        "withNarrativeDescription": 5,
+        "narrativePending": 0,
+        "visibleNarrativeUntranslated": 0,
+        "visiblePositionUntranslated": 0,
+        "quotationHighlightIssues": 0
+      }
+    },
+    "en": {
+      "geographic": {
+        "associations": 249,
+        "distinctPlaces": 162,
+        "withOriginal": 248,
+        "withFourLanguages": 248,
+        "byLanguage": {
+          "it": 248,
+          "en": 248,
+          "fr": 248,
+          "es": 248
+        },
+        "missingOriginal": [
+          {
+            "section": 6,
+            "place": "sanmarco",
+            "name": "San Marco basilica"
+          }
+        ],
+        "noDisplayedDescription": 0,
+        "withPositionDescription": 249,
+        "withNarrativeDescription": 48,
+        "narrativePending": 1,
+        "visibleNarrativeUntranslated": 0,
+        "visiblePositionUntranslated": 0,
+        "quotationHighlightIssues": 0
+      },
+      "imaginary": {
+        "associations": 5,
+        "distinctPlaces": 5,
+        "withOriginal": 5,
+        "withFourLanguages": 5,
+        "byLanguage": {
+          "it": 5,
+          "en": 5,
+          "fr": 5,
+          "es": 5
+        },
+        "missingOriginal": [],
+        "noDisplayedDescription": 0,
+        "withPositionDescription": 0,
+        "withNarrativeDescription": 5,
+        "narrativePending": 0,
+        "visibleNarrativeUntranslated": 0,
+        "visiblePositionUntranslated": 0,
+        "quotationHighlightIssues": 0
+      }
+    },
+    "fr": {
+      "geographic": {
+        "associations": 249,
+        "distinctPlaces": 162,
+        "withOriginal": 248,
+        "withFourLanguages": 248,
+        "byLanguage": {
+          "it": 248,
+          "en": 248,
+          "fr": 248,
+          "es": 248
+        },
+        "missingOriginal": [
+          {
+            "section": 6,
+            "place": "sanmarco",
+            "name": "Basilique Saint-Marc"
+          }
+        ],
+        "noDisplayedDescription": 0,
+        "withPositionDescription": 249,
+        "withNarrativeDescription": 48,
+        "narrativePending": 1,
+        "visibleNarrativeUntranslated": 0,
+        "visiblePositionUntranslated": 0,
+        "quotationHighlightIssues": 0
+      },
+      "imaginary": {
+        "associations": 5,
+        "distinctPlaces": 5,
+        "withOriginal": 5,
+        "withFourLanguages": 5,
+        "byLanguage": {
+          "it": 5,
+          "en": 5,
+          "fr": 5,
+          "es": 5
+        },
+        "missingOriginal": [],
+        "noDisplayedDescription": 0,
+        "withPositionDescription": 0,
+        "withNarrativeDescription": 5,
+        "narrativePending": 0,
+        "visibleNarrativeUntranslated": 0,
+        "visiblePositionUntranslated": 0,
+        "quotationHighlightIssues": 0
+      }
+    },
+    "es": {
+      "geographic": {
+        "associations": 249,
+        "distinctPlaces": 162,
+        "withOriginal": 248,
+        "withFourLanguages": 248,
+        "byLanguage": {
+          "it": 248,
+          "en": 248,
+          "fr": 248,
+          "es": 248
+        },
+        "missingOriginal": [
+          {
+            "section": 6,
+            "place": "sanmarco",
+            "name": "Basílica de San Marcos"
+          }
+        ],
+        "noDisplayedDescription": 0,
+        "withPositionDescription": 249,
+        "withNarrativeDescription": 48,
+        "narrativePending": 1,
+        "visibleNarrativeUntranslated": 0,
+        "visiblePositionUntranslated": 0,
+        "quotationHighlightIssues": 0
+      },
+      "imaginary": {
+        "associations": 5,
+        "distinctPlaces": 5,
+        "withOriginal": 5,
+        "withFourLanguages": 5,
+        "byLanguage": {
+          "it": 5,
+          "en": 5,
+          "fr": 5,
+          "es": 5
+        },
+        "missingOriginal": [],
+        "noDisplayedDescription": 0,
+        "withPositionDescription": 0,
+        "withNarrativeDescription": 5,
+        "narrativePending": 0,
+        "visibleNarrativeUntranslated": 0,
+        "visiblePositionUntranslated": 0,
+        "quotationHighlightIssues": 0
+      }
+    }
+  },
+  "checks": {
+    "database": {
+      "status": "PASS",
+      "constraints": true,
+      "exactNineTables": true,
+      "transactionRollback": true,
+      "idempotence": true,
+      "changedSnapshotRejected": true,
+      "otherBookUnchanged": true,
+      "existingBatch169Preserved": true,
+      "geographicalCoordinatesAndIdentitiesUnchanged": true,
+      "changes": 327,
+      "sqlBytes": 1153836,
+      "remainingUncollatedReference": "6:core:sanmarco"
+    },
+    "renderingAndExport": {
+      "status": "PASS",
+      "defaults": 1012,
+      "switches": 4048,
+      "empty": 4,
+      "csvs": 16,
+      "scope": "Actual public rendering, language event handlers and CSV export code executed with simulated DOM; visual browser QA not performed."
+    }
+  },
+  "publication": {
+    "branch": "docs",
+    "frontendDeployment": "Verify deployed hashes after push; see VERIFICA-PUBBLICAZIONE.json when available."
+  },
+  "limits": [
+    "One unresolved edition-dependent quotation: San Marco, volume VI. Position retained; inadequate quote pending and excluded from reader display/export.",
+    "No browser visual QA performed. Functional rendering/events/CSV checks use actual public code with simulated DOM.",
+    "This scoped collation does not replace a new full-text analysis of the entire work."
+  ]
+}

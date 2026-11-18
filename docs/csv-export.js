@@ -20,8 +20,9 @@
    const references=kind==='citations'?(chapter.citations||[]):(chapter.places||[]).map((id,index)=>({placeId:id,category:chapter.placeCategories?.[id]||'action',scene:chapter.placeText[index],narrativeDescription:chapter.placeNarrativeDescriptions?.[id],excerpt:chapter.placeExcerpts?.[id]}));
    for(const ref of references){
     const p=(kind==='citations'?data.citedPlaces?.[ref.placeId]:null)||data.places[ref.placeId]||data.citedPlaces?.[ref.placeId];if(!p)throw new Error('Missing CSV place: '+ref.placeId);
-    const q=ref.excerpt?.original;
-    const legacy=chapter.placeQuotes?.[ref.placeId],source=chapter.placeSources?.[ref.placeId]||p.narrativeSource;
+    const valid=q=>q?.quote?.trim()&&!['pending','rejected'].includes(q.verificationStatus);
+    const q=valid(ref.excerpt?.original)?ref.excerpt.original:null;
+    const legacy=ref.excerpt?null:chapter.placeQuotes?.[ref.placeId],source=chapter.placeSources?.[ref.placeId]||p.narrativeSource;
     const group=ref.excerpt||(legacy?{original:{quote:legacy,language:data.book.originalLanguage||'en',attribution:source?.label||'',url:source?.url}}:null);
     const description=ref.narrativeDescription?.status==='reviewed'?(ref.narrativeDescription.texts?.[locale]||ref.narrativeDescription.texts?.en):ref.scene?.trim()||ref.text?.trim()||'';
     const isOutline=!!p.regionalOutline||p.geometry?.type==='MultiLineString';

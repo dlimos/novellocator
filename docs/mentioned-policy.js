@@ -15,9 +15,10 @@
  function apply(input){
   const all={...input.citedPlaces,...input.places};
   function section(chapter){
+   const archived=id=>chapter.placeNarrativeDescriptions?.[id]?.geographicRelevance==='none';
    const excluded=id=>!!reason(all[id]);
-   const indices=(chapter.places||[]).map((id,i)=>chapter.placeCategories?.[id]==='mentioned'&&excluded(id)?-1:i).filter(i=>i>=0);
-   const c={...chapter,places:indices.map(i=>chapter.places[i]),placeText:indices.map(i=>chapter.placeText?.[i]),citations:(chapter.citations||[]).filter(r=>r.category==='action'||!excluded(r.placeId)),unlocatedPlaces:(chapter.unlocatedPlaces||[]).filter(p=>p.category==='action'||!reason(p))};
+   const indices=(chapter.places||[]).map((id,i)=>archived(id)||(chapter.placeCategories?.[id]==='mentioned'&&excluded(id))?-1:i).filter(i=>i>=0);
+   const c={...chapter,places:indices.map(i=>chapter.places[i]),placeText:indices.map(i=>chapter.placeText?.[i]),citations:(chapter.citations||[]).filter(r=>r.geographicRelevance!=='none'&&(r.category==='action'||!excluded(r.placeId))),unlocatedPlaces:(chapter.unlocatedPlaces||[]).filter(p=>p.category==='action'||!reason(p))};
    const keep=new Set(c.places);
    if(c.overviewPlaces)c.overviewPlaces=c.overviewPlaces.filter(id=>keep.has(id));
    for(const key of ['placeCategories','placeKinds','placeNames','placeExcerpts','placeSources','placeQuotes','placeNarrativeDescriptions','placeOccurrences'])if(c[key])c[key]=Object.fromEntries(Object.entries(c[key]).filter(([id])=>keep.has(id)).map(([id,value])=>[id,key==='placeOccurrences'&&Array.isArray(value)?value.filter(r=>r.category==='action'||!excluded(id)):value]));

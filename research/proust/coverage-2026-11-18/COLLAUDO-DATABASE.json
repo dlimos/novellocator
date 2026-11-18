@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "constraints": true,
+  "exactNineTables": true,
+  "transactionRollback": true,
+  "idempotence": true,
+  "changedSnapshotRejected": true,
+  "otherBookUnchanged": true,
+  "existingBatch169Preserved": true,
+  "geographicalCoordinatesAndIdentitiesUnchanged": true,
+  "changes": 327,
+  "sqlBytes": 1153836,
+  "remainingUncollatedReference": "6:core:sanmarco"
+}

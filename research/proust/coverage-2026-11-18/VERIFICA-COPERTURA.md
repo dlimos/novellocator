@@ -1,5 +1,7 @@
 # Proust — verifica estesa di citazioni e descrizioni
 
+> Stato storico prima delle correzioni. Consultare il [rilascio successivo](RILASCIO-CORREZIONI.md) e l’[inventario aggiornato](COPERTURA-CORRETTA.csv).
+
 Verifica del 18 novembre 2026. Lettura anonima delle API effettivamente usate dal sito e controllo incrociato in Supabase. Esecuzione degli adattatori e delle funzioni pubbliche di selezione, evidenziazione e rendering delle descrizioni/citazioni, con DOM simulato. Nessuna modifica ai dati o al sito; nessun controllo visivo nel browser.
 
 ## Perimetro e copertura

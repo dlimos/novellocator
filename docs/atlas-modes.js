@@ -85,7 +85,13 @@
   data.book.atlasMode=imaginary?'imaginary':'geographic';
   if(imaginary){
    for(const place of Object.values({...data.citedPlaces,...data.places})){
-    if(place.imagePresentation){Object.assign(place,place.imagePresentation);place.name=place.name.split(' · ')[0];}
+    if(place.imagePresentation){
+     Object.assign(place,place.imagePresentation);
+     // In the drawing, describe the literary setting. The real model's
+     // reviewed position description remains available in geographic mode.
+     delete place.positionDescription;
+     place.name=place.name.split(' · ')[0];
+    }
     delete place.coords;delete place.regionalOutline;delete place.geographic;delete place.imagePresentation;
    }
    for(const chapter of data.chapters)chapter.placeNames=Object.fromEntries(chapter.places.map(id=>[id,data.places[id]?.name||data.citedPlaces[id]?.name]));
