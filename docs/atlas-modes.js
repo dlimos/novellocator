@@ -34,7 +34,9 @@
      const passage=section.placeExcerpts?.[id];
      return passage?.translations?.it?.quote?.trim()&&passage?.translations?.en?.quote?.trim();
     }):null;
-    const selected=translated||action||relevant[0];
+    const preferredId=data.book.illustratedView?.preferredSections?.[epoch.id+':'+id];
+    const preferred=Number.isInteger(preferredId)?relevant.find(section=>section.id===preferredId):null;
+    const selected=preferred||translated||action||relevant[0];
     const viewDescription=data.book.illustratedView?.notes?.[locale]?.[id]||data.book.illustratedView?.notes?.en?.[id];
     view.placeNarrativeDescriptions[id]=viewDescription?undefined:selected.placeNarrativeDescriptions?.[id];view.places.push(id);view.placeText.push(viewDescription||selected.placeText[selected.places.indexOf(id)]);
     view.placeCategories[id]=data.book.nativeEpochViews&&!sameEpoch.length?'mentioned':action?'action':'mentioned';
