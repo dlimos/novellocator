@@ -1,0 +1,142 @@
+{
+  "version": 1,
+  "checked": "2026-11-19",
+  "width": 1536,
+  "height": 1024,
+  "preferIllustratedAnchors": true,
+  "offerGeography": true,
+  "sectionViews": {"1": 3, "3": 2, "4": 0, "13": 2, "15": 1, "17": 0, "18": 0},
+  "placeOrder": ["bloom-door", "bloom-stairs", "bloom-kitchen", "bloom-bedroom", "bloom-garden", "nighttown", "bella", "beaver", "leahy", "strand", "boulders", "nausicaa", "tower", "forty", "dublin-bay"],
+  "views": [
+    {
+      "id": "eccles-home",
+      "image": "images/ulisse/eccles-street.webp",
+      "names": {"it": "La casa dei Bloom · 7 Eccles Street", "en": "The Bloom home · 7 Eccles Street", "fr": "La maison des Bloom · 7 Eccles Street", "es": "La casa de los Bloom · 7 Eccles Street"},
+      "notes": {
+        "it": "Dalla cucina alla camera da letto, gli spazi domestici attraversati da Leopold e Molly Bloom. La sezione dell’edificio ricostruisce narrativamente i luoghi, senza pretendere di riprodurre una pianta documentata.",
+        "en": "From kitchen to bedroom, the domestic spaces inhabited by Leopold and Molly Bloom. The cutaway interprets these places narratively; it is not a documented floor plan.",
+        "fr": "De la cuisine à la chambre, les espaces domestiques de Leopold et Molly Bloom. La coupe de la maison les reconstitue librement ; ce n’est pas un plan d’architecte documenté.",
+        "es": "De la cocina al dormitorio, los espacios domésticos de Leopold y Molly Bloom. La sección de la casa es una interpretación narrativa, no un plano documentado."
+      },
+      "positions": {"bloom-door": [0.20, 0.69], "bloom-stairs": [0.37, 0.60], "bloom-kitchen": [0.62, 0.72], "bloom-bedroom": [0.69, 0.35], "bloom-garden": [0.92, 0.73]}
+    },
+    {
+      "id": "nighttown",
+      "image": "images/ulisse/nighttown.webp",
+      "names": {"it": "Nighttown · La Dublino allucinata", "en": "Nighttown · Hallucinatory Dublin", "fr": "Nighttown · Dublin hallucinée", "es": "Nighttown · Dublín alucinado"},
+      "notes": {
+        "it": "Vicoli, insegne e apparizioni dell’episodio Circe: Bloom e Stephen entrano nel quartiere notturno, dove la città si mescola alla visione teatrale.",
+        "en": "Lanes, lamps and apparitions from Circe: Bloom and Stephen enter the nighttime quarter, where the city blurs into a theatrical vision.",
+        "fr": "Ruelles, réverbères et apparitions de Circé : Bloom et Stephen pénètrent dans le quartier nocturne où la ville se confond avec une vision théâtrale.",
+        "es": "Callejones, faroles y apariciones de Circe: Bloom y Stephen entran en el barrio nocturno, donde la ciudad se confunde con la visión teatral."
+      },
+      "positions": {"nighttown": [0.15, 0.48], "bella": [0.72, 0.68], "beaver": [0.91, 0.75]}
+    },
+    {
+      "id": "sandymount-shore",
+      "image": "images/ulisse/sandymount.webp",
+      "names": {"it": "Sandymount · La spiaggia", "en": "Sandymount · The strand", "fr": "Sandymount · La grève", "es": "Sandymount · La playa"},
+      "notes": {
+        "it": "La distesa di sabbia unisce due episodi lontani: il cammino di Stephen in Proteus e la scena di Bloom e Gerty in Nausicaa.",
+        "en": "The open strand joins two separate episodes: Stephen’s walk in Proteus and Bloom and Gerty’s scene in Nausicaa.",
+        "fr": "L’étendue de sable relie deux épisodes : la promenade de Stephen dans Protée et la scène de Bloom et Gerty dans Nausicaa.",
+        "es": "La extensa playa enlaza dos episodios: el paseo de Stephen en Proteo y la escena de Bloom y Gerty en Nausícaa."
+      },
+      "positions": {"leahy": [0.15, 0.63], "strand": [0.50, 0.54], "boulders": [0.63, 0.73], "nausicaa": [0.87, 0.67]}
+    },
+    {
+      "id": "martello-tower",
+      "image": "images/ulisse/martello-tower.webp",
+      "names": {"it": "La torre Martello di Sandycove", "en": "Sandycove Martello Tower", "fr": "La tour Martello de Sandycove", "es": "La torre Martello de Sandycove"},
+      "notes": {
+        "it": "La torre dove si apre Ulisse: Buck Mulligan sul tetto, Stephen all’interno e, ai piedi del promontorio, il mare del Forty Foot.",
+        "en": "The tower where Ulysses opens: Buck Mulligan on the parapet, Stephen inside and the sea at Forty Foot below.",
+        "fr": "La tour où s’ouvre Ulysse : Buck Mulligan sur la terrasse, Stephen à l’intérieur et, en contrebas, la mer de Forty Foot.",
+        "es": "La torre donde comienza Ulises: Buck Mulligan en el parapeto, Stephen en el interior y, abajo, el mar de Forty Foot."
+      },
+      "positions": {"tower": [0.75, 0.44], "forty": [0.17, 0.71], "dublin-bay": [0.28, 0.32]}
+    }
+  ],
+  "names": {
+    "it": {"bloom-door": "La porta di casa", "bloom-stairs": "La scala", "bloom-kitchen": "La cucina", "bloom-bedroom": "La camera di Molly", "bloom-garden": "Il giardino sul retro"},
+    "en": {"bloom-door": "The front door", "bloom-stairs": "The staircase", "bloom-kitchen": "The kitchen", "bloom-bedroom": "Molly’s bedroom", "bloom-garden": "The back garden"},
+    "fr": {"bloom-door": "La porte d’entrée", "bloom-stairs": "L’escalier", "bloom-kitchen": "La cuisine", "bloom-bedroom": "La chambre de Molly", "bloom-garden": "Le jardin arrière"},
+    "es": {"bloom-door": "La puerta de entrada", "bloom-stairs": "La escalera", "bloom-kitchen": "La cocina", "bloom-bedroom": "El dormitorio de Molly", "bloom-garden": "El jardín trasero"}
+  },
+  "notes": {
+    "it": {
+      "bloom-door": "Soglia del numero 7 di Eccles Street: Bloom cerca la chiave di casa al ritorno con Stephen.",
+      "bloom-stairs": "Scala che collega la stanza di Molly alla cucina. Scendendo, Bloom sente la moglie chiedergli di scaldare la teiera.",
+      "bloom-kitchen": "Qui Bloom prepara la colazione di Molly e si occupa del tè, mentre pensa ai rognoni che vorrebbe mangiare.",
+      "bloom-bedroom": "Camera in cui Molly ripercorre la giornata e pensa alla richiesta insolita del marito di ricevere la colazione a letto.",
+      "bloom-garden": "Giardino dietro la casa: Bloom esce dalla porta posteriore, ascolta i rumori del giardino vicino e osserva la menta lungo il muro.",
+      "nighttown": "Ingresso di Nighttown da Mabbot Street, fra binari di tram, segnali e case dai portoni spalancati.",
+      "bella": "Casa di Bella Cohen, dove la vicenda di Circe assume la forma di un delirio scenico.",
+      "beaver": "Strada del quartiere notturno percorsa dai personaggi, tra impalcature, buio e incontri inquietanti.",
+      "leahy": "Gradini di Leahy’s Terrace: punto d’accesso alla spiaggia nel cammino di Stephen e nell’ambientazione di Nausicaa.",
+      "strand": "Distesa sabbiosa dove Stephen cammina assorto nei propri pensieri nell’episodio Proteus.",
+      "boulders": "Scogliera di massi lungo la spiaggia; elemento della topografia costiera attraversata dallo sguardo di Stephen.",
+      "nausicaa": "Tratto di spiaggia in cui Bloom osserva Gerty MacDowell durante la serata di Nausicaa.",
+      "tower": "Torre costiera di Sandycove: ospita Stephen, Buck Mulligan e Haines nell’apertura del romanzo.",
+      "forty": "Luogo di balneazione sotto la torre, verso cui Mulligan scende per fare il bagno.",
+      "dublin-bay": "La baia di Dublino si stende oltre le rocce di Sandycove, sullo sfondo della scena iniziale."
+    },
+    "en": {
+      "bloom-door": "Threshold of 7 Eccles Street: returning with Stephen, Bloom searches for his latchkey.",
+      "bloom-stairs": "The stairs between Molly’s room and the kitchen. As Bloom goes down, she calls for him to scald the teapot.",
+      "bloom-kitchen": "Bloom prepares Molly’s breakfast and tea here while thinking about the kidney he would like to eat.",
+      "bloom-bedroom": "The room where Molly recalls her day and ponders her husband’s unusual request for breakfast in bed.",
+      "bloom-garden": "Bloom steps out the back door, listens for sounds from the neighbouring garden and notices the mint by the wall.",
+      "nighttown": "The Mabbot Street entrance to Nighttown, with tram rails, warning lights and grimy open doorways.",
+      "bella": "Bella Cohen’s house, where Circe develops into a theatrical delirium.",
+      "beaver": "A street in the nighttime quarter, with scaffolding, darkness and uneasy encounters.",
+      "leahy": "Steps at Leahy’s Terrace, leading down to the beach in Stephen’s walk and the setting of Nausicaa.",
+      "strand": "The sandy expanse where Stephen walks, absorbed in thought, in Proteus.",
+      "boulders": "A line of large stones on the shore, part of the coastal landscape Stephen surveys.",
+      "nausicaa": "The stretch of shore where Bloom watches Gerty MacDowell during the evening of Nausicaa.",
+      "tower": "Sandycove’s coastal tower, home to Stephen, Buck Mulligan and Haines at the start of the novel.",
+      "forty": "The bathing place below the tower, where Mulligan goes down to swim.",
+      "dublin-bay": "Dublin Bay extends beyond the Sandycove rocks, forming the backdrop to the opening scene."
+    },
+    "fr": {
+      "bloom-door": "Seuil du 7 Eccles Street : de retour avec Stephen, Bloom cherche sa clef.",
+      "bloom-stairs": "L’escalier relie la chambre de Molly à la cuisine. En descendant, Bloom l’entend demander d’ébouillanter la théière.",
+      "bloom-kitchen": "Bloom prépare ici le petit déjeuner et le thé de Molly, tout en pensant aux rognons qu’il aimerait manger.",
+      "bloom-bedroom": "La chambre où Molly repense à la journée et à la demande inhabituelle de son mari : déjeuner au lit.",
+      "bloom-garden": "Bloom sort par la porte arrière, écoute le jardin voisin et observe la menthe qui pousse contre le mur.",
+      "nighttown": "Entrée de Nighttown par Mabbot Street, entre voies de tramway, signaux et portes béantes.",
+      "bella": "La maison de Bella Cohen, où Circé se transforme en délire théâtral.",
+      "beaver": "Rue du quartier nocturne, entre échafaudages, obscurité et rencontres inquiétantes.",
+      "leahy": "Marches de Leahy’s Terrace donnant sur la plage, dans la promenade de Stephen et le décor de Nausicaa.",
+      "strand": "L’étendue de sable où Stephen marche, perdu dans ses pensées, dans Protée.",
+      "boulders": "Alignement de gros rochers du rivage, dans le paysage côtier observé par Stephen.",
+      "nausicaa": "Partie de la grève où Bloom regarde Gerty MacDowell au cours de la soirée de Nausicaa.",
+      "tower": "Tour de Sandycove où résident Stephen, Buck Mulligan et Haines au début du roman.",
+      "forty": "Lieu de baignade sous la tour, où Mulligan descend nager.",
+      "dublin-bay": "La baie de Dublin s’étend au-delà des rochers de Sandycove, en arrière-plan de la première scène."
+    },
+    "es": {
+      "bloom-door": "Umbral del número 7 de Eccles Street: al regresar con Stephen, Bloom busca la llave de la casa.",
+      "bloom-stairs": "La escalera une el dormitorio de Molly con la cocina. Al bajar, Bloom la oye pedirle que escalde la tetera.",
+      "bloom-kitchen": "Bloom prepara aquí el desayuno y el té de Molly mientras piensa en los riñones que le gustaría comer.",
+      "bloom-bedroom": "El dormitorio donde Molly recuerda el día y la insólita petición de su marido: desayunar en la cama.",
+      "bloom-garden": "Bloom sale por la puerta trasera, escucha el jardín vecino y observa la menta que crece junto al muro.",
+      "nighttown": "Entrada a Nighttown por Mabbot Street, entre vías de tranvía, señales y puertas abiertas.",
+      "bella": "Casa de Bella Cohen, donde Circe se convierte en un delirio teatral.",
+      "beaver": "Calle del barrio nocturno, entre andamios, oscuridad y encuentros inquietantes.",
+      "leahy": "Escalones de Leahy’s Terrace que descienden a la playa, en el paseo de Stephen y el escenario de Nausícaa.",
+      "strand": "La extensión arenosa por la que Stephen camina, absorto en sus pensamientos, en Proteo.",
+      "boulders": "Fila de grandes piedras en la orilla, parte del paisaje costero que contempla Stephen.",
+      "nausicaa": "Tramo de playa donde Bloom observa a Gerty MacDowell durante la tarde de Nausícaa.",
+      "tower": "Torre costera de Sandycove donde viven Stephen, Buck Mulligan y Haines al principio de la novela.",
+      "forty": "Lugar de baño al pie de la torre, adonde Mulligan baja para nadar.",
+      "dublin-bay": "La bahía de Dublín se extiende más allá de las rocas de Sandycove, al fondo de la escena inicial."
+    }
+  },
+  "labels": {
+    "it": {"alt": "Quattro vedute illustrate dei luoghi di Ulisse.", "area": "Dublino e Sandycove", "back": "Torna alla veduta", "view": "Veduta", "empty": "Nessun luogo visibile per questa veduta e i filtri selezionati.", "method": "I punti identificano elementi della ricostruzione visiva, non nuove coordinate geografiche. Ogni citazione documenta il contesto narrativo; forme e distanze sono interpretative.", "notice": "Queste vedute letterarie interpretano la casa dei Bloom, Nighttown, Sandymount e la torre Martello. Non sono ricostruzioni architettoniche o topografiche in scala; la mappa geografica rimane separata.", "caption": "Veduta letteraria · ricostruzione interpretativa", "reference": "Passaggio contestuale dall’opera.", "geographic": "Mappa geografica"},
+    "en": {"alt": "Four illustrated literary views of settings in Ulysses.", "area": "Dublin and Sandycove", "back": "Back to view", "view": "View", "empty": "No places shown for this view and the selected filters.", "method": "Markers identify features of the illustration, not new geographic coordinates. Each quotation documents the narrative setting; shapes and distances are interpretative.", "notice": "These literary views interpret the Bloom home, Nighttown, Sandymount and the Martello Tower. They are not scale architectural or topographical reconstructions; the geographical atlas remains separate.", "caption": "Literary view · interpretative reconstruction", "reference": "Contextual passage from the novel.", "geographic": "Geographic map"},
+    "fr": {"alt": "Quatre vues littéraires illustrées des lieux d’Ulysse.", "area": "Dublin et Sandycove", "back": "Retour à la vue", "view": "Vue", "empty": "Aucun lieu visible pour cette vue et ces filtres.", "method": "Les points désignent des éléments de l’illustration, sans ajouter de coordonnées géographiques. Les citations attestent le contexte narratif ; les formes et distances sont interprétatives.", "notice": "Ces vues interprètent la maison des Bloom, Nighttown, Sandymount et la tour Martello. Il ne s’agit pas de plans ou de cartes à l’échelle ; l’atlas géographique reste distinct.", "caption": "Vue littéraire · reconstitution interprétative", "reference": "Passage contextuel du roman.", "geographic": "Carte géographique"},
+    "es": {"alt": "Cuatro vistas literarias ilustradas de escenarios de Ulises.", "area": "Dublín y Sandycove", "back": "Volver a la vista", "view": "Vista", "empty": "No hay lugares visibles para esta vista y los filtros elegidos.", "method": "Los puntos indican elementos de la ilustración, sin añadir coordenadas geográficas. Las citas documentan el contexto narrativo; formas y distancias son interpretativas.", "notice": "Estas vistas interpretan la casa de los Bloom, Nighttown, Sandymount y la torre Martello. No son planos ni mapas a escala; el atlas geográfico permanece separado.", "caption": "Vista literaria · reconstrucción interpretativa", "reference": "Pasaje contextual de la novela.", "geographic": "Mapa geográfico"}
+  }
+}
