@@ -86,13 +86,13 @@
   delete data.book.geographicReview;
   data.book.atlasMode=imaginary?'imaginary':'geographic';
   if(imaginary){
-   for(const place of Object.values({...data.citedPlaces,...data.places})){
+   for(const [id,place] of Object.entries({...data.citedPlaces,...data.places})){
     if(place.imagePresentation){
      Object.assign(place,place.imagePresentation);
      // In the drawing, describe the literary setting. The real model's
      // reviewed position description remains available in geographic mode.
      delete place.positionDescription;
-     place.name=place.name.split(' · ')[0];
+     place.name=data.book.illustratedView?.names?.[locale]?.[id]||place.name.split(' · ')[0];
     }
     delete place.coords;delete place.regionalOutline;delete place.geographic;delete place.imagePresentation;
    }
