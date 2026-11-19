@@ -1,0 +1,218 @@
+{
+  "version": 1,
+  "checked": "2026-11-19",
+  "width": 1586,
+  "height": 992,
+  "offerGeography": true,
+  "preferIllustratedAnchors": true,
+  "placeOrder": [
+    "mansions", "truth", "prole-streets", "prole-pub", "charrington-shop", "charrington-room", "charrington-yard", "golden", "country-clearing"
+  ],
+  "views": [
+    {
+      "id": "airstrip-one",
+      "image": "images/orwell1984/airstrip-one-panorama.jpg",
+      "names": {
+        "it": "Londra di Pista Prima",
+        "en": "London in Airstrip One",
+        "fr": "Londres de la Piste d'atterrissage n° 1",
+        "es": "Londres de la Franja Aérea 1"
+      },
+      "notes": {
+        "it": "Lo sguardo passa dagli Appartamenti della Vittoria al Ministero della Verità che sovrasta la città. Le dimensioni e il rapporto visivo fra i due edifici sono ricostruiti artisticamente.",
+        "en": "The view moves from Victory Mansions to the Ministry of Truth towering over the city. The buildings' scale and visual relationship are artistic reconstructions.",
+        "fr": "La vue passe de la Résidence de la Victoire au ministère de la Vérité dominant la ville. L'échelle et le rapport visuel entre les bâtiments relèvent de la reconstitution artistique.",
+        "es": "La vista pasa de las Casas de la Victoria al Ministerio de la Verdad que domina la ciudad. Las dimensiones y la relación visual entre ambos edificios son una reconstrucción artística."
+      },
+      "positions": {
+        "mansions": [0.13, 0.48],
+        "truth": [0.74, 0.29]
+      }
+    },
+    {
+      "id": "prole-quarter",
+      "image": "images/orwell1984/charrington-panorama.jpg",
+      "names": {
+        "it": "Il quartiere dei prolet e la bottega di Charrington",
+        "en": "The prole quarter and Charrington's shop",
+        "fr": "Le quartier des prolétaires et la boutique de Charrington",
+        "es": "El barrio de los proles y la tienda de Charrington"
+      },
+      "notes": {
+        "it": "Strade, pub, bottega di oggetti usati e camera al piano superiore richiamano le esplorazioni di Winston e gli incontri con Julia. Gli ambienti sono accostati in una composizione d'insieme, non in una pianta documentaria.",
+        "en": "Streets, pub, second-hand shop and upstairs room recall Winston's walks and his meetings with Julia. The settings are assembled in one composition, not a documentary street plan.",
+        "fr": "Rues, pub, boutique de brocante et chambre à l'étage évoquent les promenades de Winston et ses rencontres avec Julia. Les lieux sont réunis dans une même composition, et non sur un plan documentaire.",
+        "es": "Calles, taberna, tienda de objetos usados y habitación del piso superior evocan los paseos de Winston y sus encuentros con Julia. Los espacios se reúnen en una composición, no en un plano documental."
+      },
+      "positions": {
+        "prole-streets": [0.39, 0.77],
+        "prole-pub": [0.12, 0.57],
+        "charrington-shop": [0.63, 0.59],
+        "charrington-room": [0.71, 0.16],
+        "charrington-yard": [0.94, 0.54]
+      }
+    },
+    {
+      "id": "golden-country",
+      "image": "images/orwell1984/golden-country-panorama.jpg",
+      "names": {
+        "it": "Il Paese Dorato e la radura",
+        "en": "The Golden Country and the clearing",
+        "fr": "Le Pays doré et la clairière",
+        "es": "El País Dorado y el claro del bosque"
+      },
+      "notes": {
+        "it": "Il pascolo luminoso dei sogni di Winston incontra la radura campestre dei suoi appuntamenti con Julia. Sono due luoghi narrativi distinti, riuniti qui soltanto per affinità di paesaggio e atmosfera.",
+        "en": "The sunlit pasture of Winston's dreams meets the country clearing where he sees Julia. These are distinct narrative settings, brought together here only by their related landscape and atmosphere.",
+        "fr": "Le pâturage lumineux des rêves de Winston rencontre la clairière où il retrouve Julia. Ces deux lieux narratifs distincts sont réunis ici uniquement par leur paysage et leur atmosphère.",
+        "es": "El prado luminoso de los sueños de Winston se encuentra con el claro campestre donde ve a Julia. Son dos escenarios narrativos distintos, reunidos aquí solo por su paisaje y atmósfera."
+      },
+      "positions": {
+        "golden": [0.2, 0.46],
+        "country-clearing": [0.71, 0.7]
+      }
+    }
+  ],
+  "names": {
+    "it": {
+      "mansions": "Appartamenti della Vittoria",
+      "truth": "Ministero della Verità",
+      "prole-streets": "Strade del quartiere dei prolet",
+      "prole-pub": "Pub dei prolet",
+      "charrington-shop": "Bottega di Charrington",
+      "charrington-room": "Camera sopra la bottega",
+      "charrington-yard": "Cortile sul retro",
+      "golden": "Paese Dorato",
+      "country-clearing": "Radura nel bosco"
+    },
+    "en": {
+      "mansions": "Victory Mansions",
+      "truth": "Ministry of Truth",
+      "prole-streets": "Streets in the prole quarter",
+      "prole-pub": "Prole pub",
+      "charrington-shop": "Charrington's shop",
+      "charrington-room": "Room above the shop",
+      "charrington-yard": "Rear courtyard",
+      "golden": "Golden Country",
+      "country-clearing": "Woodland clearing"
+    },
+    "fr": {
+      "mansions": "Résidence de la Victoire",
+      "truth": "Ministère de la Vérité",
+      "prole-streets": "Rues du quartier des prolétaires",
+      "prole-pub": "Pub des prolétaires",
+      "charrington-shop": "Boutique de Charrington",
+      "charrington-room": "Chambre au-dessus de la boutique",
+      "charrington-yard": "Cour arrière",
+      "golden": "Pays doré",
+      "country-clearing": "Clairière du bois"
+    },
+    "es": {
+      "mansions": "Casas de la Victoria",
+      "truth": "Ministerio de la Verdad",
+      "prole-streets": "Calles del barrio de los proles",
+      "prole-pub": "Taberna de los proles",
+      "charrington-shop": "Tienda de Charrington",
+      "charrington-room": "Habitación encima de la tienda",
+      "charrington-yard": "Patio trasero",
+      "golden": "País Dorado",
+      "country-clearing": "Claro del bosque"
+    }
+  },
+  "notes": {
+    "it": {
+      "mansions": "Condominio malridotto in cui abita Winston. Attraversa in fretta l'ingresso di vetro, senza impedire alla polvere di entrare con lui.",
+      "truth": "Imponente edificio bianco, sede del ministero in cui Winston riscrive documenti e notizie del passato.",
+      "prole-streets": "Vicolo e strade popolari a nord-est dell'antica stazione di St Pancras, attraversati da Winston alla ricerca di tracce del passato.",
+      "prole-pub": "Locale dei prolet dove Winston interroga un anziano sulla vita prima della Rivoluzione.",
+      "charrington-shop": "Negozio di oggetti usati dove Winston acquista un fermacarte di vetro e torna a osservare i frammenti della vita precedente al Partito.",
+      "charrington-room": "Stanza al piano superiore affittata da Winston: qui lui e Julia cercano un rifugio dalla sorveglianza.",
+      "charrington-yard": "Accesso posteriore sul vicolo, usato come percorso alternativo per entrare nella stanza senza passare dalla bottega.",
+      "golden": "Pascolo sognato da Winston, con un sentiero tra l'erba e un paesaggio aperto associato alla libertà.",
+      "country-clearing": "Radura appartata tra gli alberi in cui Winston incontra Julia, lontano dalle strade sorvegliate."
+    },
+    "en": {
+      "mansions": "Winston's decaying apartment block. He hurries through the glass entrance but cannot prevent dust from blowing in with him.",
+      "truth": "Huge white ministry building where Winston alters documents and records of the past.",
+      "prole-streets": "Working-class streets northeast of the old St Pancras station, explored by Winston in search of traces of the past.",
+      "prole-pub": "A prole pub where Winston questions an old man about life before the Revolution.",
+      "charrington-shop": "Second-hand shop where Winston buys a glass paperweight and encounters relics of life before the Party.",
+      "charrington-room": "Upstairs room rented by Winston, where he and Julia seek refuge from surveillance.",
+      "charrington-yard": "A rear entry opening onto an alley, used as an alternative route to the upstairs room.",
+      "golden": "An open pasture in Winston's dream, crossed by a grassy path and associated with freedom.",
+      "country-clearing": "Secluded woodland clearing where Winston meets Julia away from the watched streets."
+    },
+    "fr": {
+      "mansions": "Immeuble délabré où habite Winston. Il franchit rapidement les portes vitrées sans empêcher la poussière d'entrer avec lui.",
+      "truth": "Immense bâtiment blanc abritant le ministère où Winston modifie les documents et les archives du passé.",
+      "prole-streets": "Rues populaires au nord-est de l'ancienne gare de St Pancras, explorées par Winston à la recherche des traces du passé.",
+      "prole-pub": "Pub des prolétaires où Winston interroge un vieil homme sur la vie avant la Révolution.",
+      "charrington-shop": "Boutique d'objets anciens où Winston achète un presse-papiers en verre et découvre des vestiges du monde d'avant le Parti.",
+      "charrington-room": "Chambre à l'étage louée par Winston, où Julia et lui cherchent un refuge à l'abri de la surveillance.",
+      "charrington-yard": "Entrée arrière donnant sur une ruelle, empruntée pour accéder discrètement à la chambre.",
+      "golden": "Pâturage rêvé par Winston, traversé par un sentier dans l'herbe et associé à la liberté.",
+      "country-clearing": "Clairière isolée où Winston rencontre Julia, loin des rues surveillées."
+    },
+    "es": {
+      "mansions": "Bloque de viviendas deteriorado en el que vive Winston. Cruza deprisa la entrada acristalada sin evitar que entre polvo con él.",
+      "truth": "Enorme edificio blanco que alberga el ministerio donde Winston altera documentos y registros del pasado.",
+      "prole-streets": "Calles populares al nordeste de la antigua estación de St Pancras, recorridas por Winston en busca de huellas del pasado.",
+      "prole-pub": "Taberna de los proles donde Winston pregunta a un anciano cómo era la vida antes de la Revolución.",
+      "charrington-shop": "Tienda de objetos usados donde Winston compra un pisapapeles de cristal y descubre restos del mundo anterior al Partido.",
+      "charrington-room": "Habitación del piso superior alquilada por Winston, donde él y Julia buscan refugio de la vigilancia.",
+      "charrington-yard": "Entrada trasera que da a un callejón, utilizada como acceso alternativo a la habitación.",
+      "golden": "Prado de los sueños de Winston, atravesado por un sendero entre la hierba y asociado con la libertad.",
+      "country-clearing": "Claro apartado entre los árboles donde Winston se encuentra con Julia, lejos de las calles vigiladas."
+    }
+  },
+  "labels": {
+    "it": {
+      "alt": "Tre vedute letterarie interpretative di Londra, del quartiere dei prolet e del paesaggio campestre di 1984.",
+      "area": "Spazi letterari",
+      "back": "Torna alla veduta",
+      "view": "Veduta",
+      "empty": "Nessun luogo visibile con questi filtri.",
+      "method": "Il marker indica un elemento di un'illustrazione generata con IA; la citazione rimanda al capitolo originale. Forma, distanze e posizione nel disegno sono interpretative.",
+      "notice": "Le tre vedute accostano scene di momenti diversi. Le distanze e gli edifici non sono in scala; il Paese Dorato sognato e la radura visitata da Winston sono luoghi distinti. I marker nell'immagine non sono coordinate geografiche.",
+      "caption": "Veduta pittorica interpretativa · non in scala",
+      "reference": "Un riferimento documentato.",
+      "geographic": "Atlante geografico"
+    },
+    "en": {
+      "alt": "Three interpretative literary panoramas of London, the prole quarter and the countryside in Nineteen Eighty-Four.",
+      "area": "Literary spaces",
+      "back": "Back to view",
+      "view": "View",
+      "empty": "No visible places with these filters.",
+      "method": "A marker identifies an element of an AI-generated illustration; its quotation belongs to its original chapter. Shapes, distances and drawing positions are interpretative.",
+      "notice": "The three views assemble scenes from different moments. Buildings and distances are not to scale; Winston's dreamed Golden Country and the visited clearing are distinct places. Image markers are not geographical coordinates.",
+      "caption": "Interpretative painting · not to scale",
+      "reference": "A documented reference.",
+      "geographic": "Geographic atlas"
+    },
+    "fr": {
+      "alt": "Trois vues littéraires interprétatives de Londres, du quartier des prolétaires et de la campagne dans 1984.",
+      "area": "Espaces littéraires",
+      "back": "Retour à la vue",
+      "view": "Vue",
+      "empty": "Aucun lieu visible avec ces filtres.",
+      "method": "Un repère identifie un élément d'une illustration générée par IA ; sa citation conserve son chapitre d'origine. Formes, distances et positions dessinées sont interprétatives.",
+      "notice": "Les vues réunissent des scènes de moments différents. Bâtiments et distances ne sont pas à l'échelle ; le Pays doré rêvé et la clairière visitée sont deux lieux distincts. Les repères ne sont pas des coordonnées géographiques.",
+      "caption": "Vue picturale interprétative · sans échelle",
+      "reference": "Une référence attestée.",
+      "geographic": "Atlas géographique"
+    },
+    "es": {
+      "alt": "Tres vistas literarias interpretativas de Londres, el barrio de los proles y el campo de 1984.",
+      "area": "Espacios literarios",
+      "back": "Volver a la vista",
+      "view": "Vista",
+      "empty": "No hay lugares visibles con estos filtros.",
+      "method": "Un marcador identifica un elemento de una ilustración generada con IA; la cita mantiene su capítulo original. Formas, distancias y posiciones dibujadas son interpretativas.",
+      "notice": "Las vistas reúnen escenas de momentos diferentes. Los edificios y las distancias no están a escala; el País Dorado soñado y el claro visitado son lugares distintos. Los marcadores no son coordenadas geográficas.",
+      "caption": "Vista pictórica interpretativa · sin escala",
+      "reference": "Una referencia documentada.",
+      "geographic": "Atlas geográfico"
+    }
+  }
+}
