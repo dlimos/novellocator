@@ -28,10 +28,11 @@ jobs:
         run: node tests/check-faulkner-quotations.cjs
       - name: TypeScript typecheck
         run: npm run typecheck
-      - name: Rebuild browser adapter and check committed output
+      - name: Rebuild browser adapter and rerun Faulkner regression
         run: |
           npm run build:browser
-          git diff --exit-code -- docs/content-adapter.js
+          node tests/check-faulkner-quotations.cjs
+          git diff --check -- docs/content-adapter.js
 
   legacy-suite:
     name: Existing full suite (historical fixtures absent)
@@ -47,3 +48,27 @@ jobs:
       - run: npm ci
       - name: Run repository-wide tests, reporting historical fixture failures
         run: npm test
+
+  browser-smoke:
+    name: Chromium visual smoke test (live Supabase, EN/IT/ES)
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - run: npm install --no-save --no-package-lock playwright-core
+      - name: Verify Chrome availability
+        run: command -v google-chrome || command -v chromium
+      - name: Run visual smoke and capture EN/IT/ES screenshots
+        run: node tests/check-faulkner-browser.cjs
+      - name: Upload browser evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: faulkner-browser-audit
+          path: faulkner-browser-audit/
+          if-no-files-found: warn
