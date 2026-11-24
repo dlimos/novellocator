@@ -13,7 +13,7 @@ function applyGeographicReview(input){
  for(const chapter of data.chapters)for(const item of chapter.unlocatedPlaces){
   const key=item.id||item.name;
   if(review.coveredSettings?.[chapter.id]?.[key]){item.displayInAtlas=false;item.mappedPlaceId=review.coveredSettings[chapter.id][key];}
-  if(review.unlocatedNote)item.text=review.unlocatedNote;
+  if(review.unlocatedNote&&!item.rev23Multilingual)item.text=review.unlocatedNote;
   if(hidden.has(key))item.displayInAtlas=false;
   const region=(review.regionalPlaces||[]).find(record=>(record.keys||[]).includes(key));
   if(!region)continue;
@@ -333,9 +333,14 @@ function unlocatedPlacesForDisplay(chapter){
  // These invented institutions and non-geographic spaces remain in the audit.
  // A literary setting with a documented real area can instead receive a mapped
  // representative point; its fictional nature does not prevent that mapping.
- if(book.geographicReview?.unlocatedSettingsReview?.display==='analysis-only')return [];
  const hidden=new Set(book.hiddenUnlocatedPlaceIds||[]);
- return (chapter.unlocatedPlaces||[]).filter(item=>item.displayInAtlas!==false&&item.geographicRelevance!=='none'&&!hidden.has(item.id));
+ const entries=chapter.unlocatedPlaces||[];
+ // Faulkner keeps general reconstruction hypotheses in the audit, but makes
+ // its 73 verified narrative references available without invented map pins.
+ if(book.geographicReview?.unlocatedSettingsReview?.display==='analysis-only'){
+  return entries.filter(item=>item.rev23Multilingual===true&&item.excerpt?.original?.quote?.trim()&&!hidden.has(item.id));
+ }
+ return entries.filter(item=>item.displayInAtlas!==false&&item.geographicRelevance!=='none'&&!hidden.has(item.id));
 }
 // Source-indexed references stay stable when buttons move into category groups.
 let placeButtons=[],citationButtons=[];
