@@ -33,7 +33,8 @@ const stop=()=>new Promise(resolve=>server.close(resolve));
    const errors=[];
    page.on('pageerror',err=>errors.push(String(err).slice(0,300)));
    try{
-    const base=(process.env.FAULKNER_BASE_URL||('http://127.0.0.1:'+port)).replace(/\\/$/,'');
+    const rawBase=process.env.FAULKNER_BASE_URL||('http://127.0.0.1:'+port);
+    const base=rawBase.endsWith('/')?rawBase.slice(0,-1):rawBase;
     const url=base+'/atlas.html?book=sound-and-fury&lang='+lang+'&audit='+Date.now();
     await page.goto(url,{waitUntil:'domcontentloaded',timeout:30000});
     await page.waitForFunction(()=>window.atlasData?.book?.id==='sound-and-fury'&&document.querySelector('#detail .detail-text'),null,{timeout:90000});
