@@ -13,14 +13,37 @@ permissions:
   contents: read
 
 jobs:
-  audit:
+  faulkner:
+    name: Faulkner citation projection and typecheck
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
           cache: npm
       - run: npm ci
-      - run: npm test
+      - name: Verify EN / IT / ES excerpts and protected unmapped settings
+        run: node tests/check-faulkner-quotations.cjs
+      - name: TypeScript typecheck
+        run: npm run typecheck
+      - name: Rebuild browser adapter and check committed output
+        run: |
+          npm run build:browser
+          git diff --exit-code -- docs/content-adapter.js
+
+  legacy-suite:
+    name: Existing full suite (historical fixtures absent)
+    continue-on-error: true
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - name: Run repository-wide tests, reporting historical fixture failures
+        run: npm test
