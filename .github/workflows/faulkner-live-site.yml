@@ -1,0 +1,42 @@
+name: Faulkner published-site visual verification
+
+on:
+  push:
+    branches: [docs]
+    paths:
+      - 'docs/**'
+      - 'tests/check-faulkner-browser.cjs'
+      - '.github/workflows/faulkner-live-site.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  published-visual:
+    name: Production Chromium EN/IT/ES visual audit
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - run: npm install --no-save --no-package-lock playwright-core
+      - name: Check published site and installed browser
+        run: |
+          command -v google-chrome || command -v chromium
+          curl -fsSI 'https://dlimos.github.io/novellocator/atlas.html'
+      - name: Test production pages against Supabase in English, Italian and Spanish
+        env:
+          FAULKNER_BASE_URL: https://dlimos.github.io/novellocator
+        run: node tests/check-faulkner-browser.cjs
+      - name: Upload production visual evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: faulkner-production-screenshots
+          path: faulkner-browser-audit/
+          if-no-files-found: warn
