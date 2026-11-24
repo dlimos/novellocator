@@ -35,6 +35,10 @@ function reconstruct(bundle, id) {
         const result = { translations: {} };
         for (const q of rows) {
             const passage = { ...q.metadata, quote: q.quote, language: q.language, type: q.type, attribution: q.attribution, url: source(q.text_source_id).url, rightsUrl: source(q.rights_source_id).url };
+            if (id === 'sound-and-fury' && q.slot === 'original') {
+                const preferred = q.metadata?.geoCitationTransferRev23;
+                if (typeof preferred?.shortEnglishFromWorkbook === 'string') passage.quote = preferred.shortEnglishFromWorkbook;
+            }
             if (q.slot === 'original')
                 result.original = passage;
             else
@@ -73,8 +77,48 @@ function reconstruct(bundle, id) {
                 c.citations.push({ ...metadata, ...(typeof r.scene_text === 'string' && r.scene_text.trim() ? { scene: r.scene_text } : {}), placeId, category: r.category, excerpt: group(s.id, r.id) });
         }
         for (const u of own('unlocated_settings').filter(u => u.section_id === s.id).sort((a, b) => Number(a.ordinal) - Number(b.ordinal)))
-            c.unlocatedPlaces.push({ ...u.metadata, name: u.name, text: u.description, quote: u.quote, url: source(u.source_id).url });
+            c.unlocatedPlaces.push({ ...u.metadata, name: u.name, text: u.description, quote: u.quote, url: source(u.source_id).url, settingOrdinal: Number(u.ordinal) });
         data.chapters.push(c);
+    }
+    // Faulkner REV23: preserve original database records and expose the selected
+    // trilingual passages in an unmapped literary-reference section.
+    if (id === 'sound-and-fury') {
+        const review = data.book.geoReconciliationRev22, transfer = data.book.geoCitationTransferRev23;
+        const links = review?.references, registry = transfer?.citations;
+        if (Array.isArray(links) && registry) {
+            const byId = new Map(own('excerpts').map(e => [String(e.id), e]));
+            const chapters = new Map(data.chapters.map(c => [Number(c.id), c]));
+            function selected(excerptId, exact) {
+                if (typeof excerptId !== 'string' || typeof exact !== 'string' || !exact.trim()) return undefined;
+                const row = byId.get(excerptId);
+                if (!row) return undefined;
+                return { ...row.metadata, quote: exact, language: row.language, type: row.type,
+                    attribution: row.attribution, url: source(row.text_source_id).url,
+                    rightsUrl: source(row.rights_source_id).url };
+            }
+            for (const link of links) {
+                if (link.target === 'place_references') continue;
+                const key = String(link.refId || ''), entry = registry[key];
+                if (!entry) continue;
+                const chapter = chapters.get(Number(entry.section));
+                if (!chapter?.unlocatedPlaces) continue;
+                const en = selected(entry.englishExcerptId, entry.shortOriginal),
+                    it = selected(entry.italianExcerptId, entry.shortItalian),
+                    es = selected(entry.spanishExcerptId, entry.shortSpanish);
+                if (!en || !it || !es) continue;
+                const existing = link.target === 'unlocated_settings'
+                    ? chapter.unlocatedPlaces.find(item => item.settingOrdinal === Number(link.ordinal))
+                    : undefined;
+                const label = String(entry.placeIdWorkbook || key).replace(/^PL-/, '').replaceAll('_', ' ').toLowerCase();
+                chapter.unlocatedPlaces.push({
+                    id: 'rev23:' + key,
+                    name: existing?.name || label.charAt(0).toUpperCase() + label.slice(1),
+                    text: existing?.text || 'Riferimento geografico nel capitolo senza localizzazione puntuale.',
+                    quote: en.quote, url: en.url, excerpt: { original: en, translations: { it, es } },
+                    rev23Multilingual: true, referenceId: key, displayInAtlas: true
+                });
+            }
+        }
     }
     const dictionary = {};
     for (const row of own('content_translations')) {
