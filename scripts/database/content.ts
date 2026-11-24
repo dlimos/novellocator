@@ -70,7 +70,7 @@ export function reconstruct(bundle:Bundle,id:string):{data:Dataset;dictionary:Di
     const label=String(entry.placeIdWorkbook||key).replace(/^PL-/,'').replaceAll('_',' ').toLowerCase();
     chapter.unlocatedPlaces.push({
      id:'rev23:'+key,name:existing?.name||label.charAt(0).toUpperCase()+label.slice(1),
-     text:existing?.text||'Riferimento geografico nel capitolo senza localizzazione puntuale.',
+     text:existing?.text||'Geographical reference in this section without a verified pinpoint location.',
      quote:en.quote,url:en.url,excerpt:{original:en,translations:{it,es}},
      rev23Multilingual:true,referenceId:key,displayInAtlas:true
     });
