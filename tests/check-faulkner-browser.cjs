@@ -66,7 +66,9 @@ const stop=()=>new Promise(resolve=>server.close(resolve));
     assert(quote.trim().length>7,'Selected passage must contain real text');
     const filename='faulkner-browser-audit/faulkner-'+lang+'.png';
     await page.screenshot({path:filename,fullPage:false});
-    console.log('PASS browser '+lang+' '+JSON.stringify({...snapshot,visible,quoteLength:quote.length,screenshot:filename,errors:errors.slice(0,3)}));
+    const detailImage='faulkner-browser-audit/faulkner-detail-'+lang+'.png';
+    await details.first().screenshot({path:detailImage});
+    console.log('PASS browser '+lang+' '+JSON.stringify({...snapshot,visible,quoteLength:quote.length,screenshot:filename,detailScreenshot:detailImage,errors:errors.slice(0,3)}));
    }catch(error){
     const file='faulkner-browser-audit/faulkner-'+lang+'-failure.png';
     await page.screenshot({path:file,fullPage:false}).catch(()=>{});
