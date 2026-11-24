@@ -50,6 +50,20 @@ const stop=()=>new Promise(resolve=>server.close(resolve));
     assert.equal(snapshot.panoramas,2,'Keep exactly the two existing panoramas');
     assert.equal(snapshot.counts.reduce((a,b)=>a+b,0),73,'73 non-cartographic reference rows');
     assert.equal(snapshot.nonMapped,73,'Every curated record must have EN/IT/ES');
+    const actualLabels=await page.evaluate(()=>{
+      const records=window.atlasData.chapters.flatMap(c=>c.unlocatedPlaces||[]).filter(x=>x.rev23Multilingual===true);
+      const first=records.find(x=>x.referenceId==='RF-01-COMPSON_PASTURE');
+      const regional=records.find(x=>x.referenceId==='RF-03-JEFFERSON');
+      return {name:first?.name,text:first?.text,regionalText:regional?.text};
+    });
+    const languageExpect={
+      en:{name:'Compson pasture and golf course',description:'The former pasture has become a golf course;',regional:'Geographical reference in this section'},
+      it:{name:'Pascolo dei Compson e campo da golf',description:'Il vecchio pascolo è diventato un campo da golf;',regional:'Riferimento geografico nella sezione'},
+      es:{name:'Pastizal de los Compson y campo de golf',description:'El antiguo pastizal se ha convertido en un campo de golf;',regional:'Referencia geográfica de la sección'}
+    }[lang];
+    assert.equal(actualLabels.name,languageExpect.name,'Curated setting title localized');
+    assert(actualLabels.text?.startsWith(languageExpect.description),'Curated setting description localized');
+    assert(actualLabels.regionalText?.startsWith(languageExpect.regional),'Regional setting fallback localized');
     assert.equal(snapshot.mismatch,0);
     const first=snapshot.counts.findIndex(n=>n>0);assert(first>=0);
     await page.evaluate(index=>window.selectChapter(index,false,false),first);
@@ -66,6 +80,10 @@ const stop=()=>new Promise(resolve=>server.close(resolve));
     assert.equal(await block.getAttribute('lang'),lang,'Language switch updates visible quotation');
     const quote=await block.innerText();
     assert(quote.trim().length>7,'Selected passage must contain real text');
+    const credit=await details.first().locator('.excerpt-credit').innerText();
+    const creditTitles={en:'The Sound and the Fury',it:'L’urlo e il furore',es:'El sonido y la furia'};
+    assert(credit.includes(creditTitles[lang]),'Edition credit must match the language and source');
+    assert(!/contextual quote|section [1-4]/i.test(credit),'Credits must not show import placeholder text');
     const filename='faulkner-browser-audit/faulkner-'+lang+'.png';
     await page.screenshot({path:filename,fullPage:false});
     const detailImage='faulkner-browser-audit/faulkner-detail-'+lang+'.png';
