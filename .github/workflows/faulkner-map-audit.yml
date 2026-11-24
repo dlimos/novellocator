@@ -45,6 +45,8 @@ jobs:
       - run: npm install --no-save --no-package-lock playwright-core
       - name: Verify English Italian Spanish microlocation titles, descriptions and passages
         run: node tests/check-faulkner-browser.cjs
+      - name: Verify both retained panoramas render in the browser
+        run: node tests/check-faulkner-panorama.cjs
       - uses: actions/upload-artifact@v4
         if: always()
         with:
