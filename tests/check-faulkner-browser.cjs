@@ -35,7 +35,7 @@ const stop=()=>new Promise(resolve=>server.close(resolve));
    try{
     const url='http://127.0.0.1:'+port+'/atlas.html?book=sound-and-fury&lang='+lang;
     await page.goto(url,{waitUntil:'domcontentloaded',timeout:30000});
-    await page.waitForFunction(()=>window.atlasData?.book?.id==='sound-and-fury'&&document.querySelector('#detail .detail-text'),{timeout:90000});
+    await page.waitForFunction(()=>window.atlasData?.book?.id==='sound-and-fury'&&document.querySelector('#detail .detail-text'),null,{timeout:90000});
     const snapshot=await page.evaluate(()=>{
      const d=window.atlasData;
      return {book:d.book.id,chapters:d.chapters.length,
@@ -45,7 +45,7 @@ const stop=()=>new Promise(resolve=>server.close(resolve));
       mismatch:d.chapters.flatMap(c=>c.unlocatedPlaces||[]).filter(v=>v.rev23Multilingual===true&&!v.id.startsWith('rev23:')).length};
     });
     assert.equal(snapshot.book,'sound-and-fury');
-    assert.equal(snapshot.panormas??snapshot.panoramas,2,'Keep exactly the two existing panoramas');
+    assert.equal(snapshot.panoramas,2,'Keep exactly the two existing panoramas');
     assert.equal(snapshot.counts.reduce((a,b)=>a+b,0),73,'73 non-cartographic reference rows');
     assert.equal(snapshot.nonMapped,73,'Every curated record must have EN/IT/ES');
     assert.equal(snapshot.mismatch,0);
