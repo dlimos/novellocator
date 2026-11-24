@@ -34,7 +34,7 @@ export function reconstruct(bundle:Bundle,id:string):{data:Dataset;dictionary:Di
  function group(sectionId:unknown,refId:unknown):Excerpt|undefined{
   const rows=own('excerpts').filter(q=>q.section_id===sectionId&&q.reference_id===refId);if(!rows.length)return undefined;
   const result={translations:{}} as Excerpt;
-  for(const q of rows){const passage={...q.metadata as Obj,quote:q.quote,language:q.language,type:q.type,attribution:q.attribution,url:source(q.text_source_id).url,rightsUrl:source(q.rights_source_id).url} as Passage;if(q.slot==='original')result.original=passage;else result.translations[q.slot as string]=passage;}return result;
+  for(const q of rows){const passage={...q.metadata as Obj,quote:q.quote,language:q.language,type:q.type,attribution:q.attribution,url:source(q.text_source_id).url,rightsUrl:source(q.rights_source_id).url} as Passage;if(id==='sound-and-fury'&&q.slot==='original'){const preferred=(q.metadata as Obj)?.geoCitationTransferRev23 as Obj|undefined;if(typeof preferred?.shortEnglishFromWorkbook==='string')passage.quote=preferred.shortEnglishFromWorkbook;}if(q.slot==='original')result.original=passage;else result.translations[q.slot as string]=passage;}return result;
  }
  for(const s of own('sections').sort((a,b)=>Number(a.ordinal)-Number(b.ordinal))){
   const c={...s.metadata as Obj,id:s.id,title:s.title} as Section,fields=s.legacy_fields as string[];
@@ -44,8 +44,38 @@ export function reconstruct(bundle:Bundle,id:string):{data:Dataset;dictionary:Di
    if(r.collection==='core'){c.places.push(placeId);c.placeText.push(r.scene_text as string);if(metadata.narrativeDescription){c.placeNarrativeDescriptions??={};(c.placeNarrativeDescriptions as Record<string,unknown>)[placeId]=metadata.narrativeDescription;}if(metadata.explicitCategory)c.placeCategories![placeId]=r.category as string;if(metadata.role!==undefined)c.placeRoles![placeId]=metadata.role as string;if(metadata.quote!==undefined)c.placeQuotes![placeId]=metadata.quote as string;if(r.source_id)c.placeSources![placeId]=source(r.source_id);const excerpt=group(s.id,r.id);if(excerpt)(c.placeExcerpts??={})[placeId]=excerpt;}
    else c.citations!.push({...metadata,...(typeof r.scene_text==='string'&&r.scene_text.trim()?{scene:r.scene_text}:{}),placeId,category:r.category as string,excerpt:group(s.id,r.id)!});
   }
-  for(const u of own('unlocated_settings').filter(u=>u.section_id===s.id).sort((a,b)=>Number(a.ordinal)-Number(b.ordinal)))c.unlocatedPlaces!.push({...u.metadata as Obj,name:u.name as string,text:u.description as string,quote:u.quote as string,url:source(u.source_id).url});
+  for(const u of own('unlocated_settings').filter(u=>u.section_id===s.id).sort((a,b)=>Number(a.ordinal)-Number(b.ordinal)))c.unlocatedPlaces!.push({...u.metadata as Obj,name:u.name as string,text:u.description as string,quote:u.quote as string,url:source(u.source_id).url,settingOrdinal:Number(u.ordinal)});
   data.chapters.push(c);
+ }
+ // Faulkner REV23: retain existing database evidence while exposing selected short
+ // trilingual excerpts for references without a terrestrial point.
+ if(id==='sound-and-fury'){
+  const review=data.book.geoReconciliationRev22 as Obj|undefined,transfer=data.book.geoCitationTransferRev23 as Obj|undefined;
+  const links=review?.references as Obj[]|undefined,registry=transfer?.citations as Record<string,Obj>|undefined;
+  if(Array.isArray(links)&&registry){
+   const byId=new Map(own('excerpts').map(e=>[String(e.id),e]));
+   const chapters=new Map(data.chapters.map(c=>[Number(c.id),c]));
+   function selected(excerptId:unknown,exact:unknown):Passage|undefined{
+    if(typeof excerptId!=='string'||typeof exact!=='string'||!exact.trim())return undefined;
+    const row=byId.get(excerptId);if(!row)return undefined;
+    return {...row.metadata as Obj,quote:exact,language:row.language as string,type:row.type as 'original'|'translation',attribution:row.attribution as string,url:source(row.text_source_id).url,rightsUrl:source(row.rights_source_id).url} as Passage;
+   }
+   for(const link of links){
+    if(link.target==='place_references')continue;
+    const key=String(link.refId||''),entry=registry[key];if(!entry)continue;
+    const chapter=chapters.get(Number(entry.section));if(!chapter?.unlocatedPlaces)continue;
+    const en=selected(entry.englishExcerptId,entry.shortOriginal),it=selected(entry.italianExcerptId,entry.shortItalian),es=selected(entry.spanishExcerptId,entry.shortSpanish);
+    if(!en||!it||!es)continue;
+    const existing=link.target==='unlocated_settings'?chapter.unlocatedPlaces.find(item=>item.settingOrdinal===Number(link.ordinal)):undefined;
+    const label=String(entry.placeIdWorkbook||key).replace(/^PL-/,'').replaceAll('_',' ').toLowerCase();
+    chapter.unlocatedPlaces.push({
+     id:'rev23:'+key,name:existing?.name||label.charAt(0).toUpperCase()+label.slice(1),
+     text:existing?.text||'Riferimento geografico nel capitolo senza localizzazione puntuale.',
+     quote:en.quote,url:en.url,excerpt:{original:en,translations:{it,es}},
+     rev23Multilingual:true,referenceId:key,displayInAtlas:true
+    });
+   }
+  }
  }
  const dictionary:Dictionary={};for(const row of own('content_translations')){dictionary[row.language as string]??={};dictionary[row.language as string][row.source_text as string]=row.translated_text as string;}return {data,dictionary};
 }
