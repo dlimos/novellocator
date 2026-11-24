@@ -19,6 +19,28 @@ The archive omits all fourteen lines of the Burlador sonnet to Sancho after its 
 
 Il testo primario è l'[edizione digitale Project Gutenberg #2000](https://www.gutenberg.org/ebooks/2000). La BNE descrive [la carta del 1780 di Tomás López](https://www.bne.es/es/colecciones/cervantes/mapa-porcion-reyno-espana) come la prima a rappresentare la rotta e i luoghi delle avventure: è un riferimento storico utile per leggere la tradizione cartografica, non una prova di coordinate precise o di un percorso letterale. Ogni posizione sulle panoramiche va mantenuta separata dalle coordinate geografiche, e le vedute dovranno conservare i riferimenti alle sezioni e ai passi verificati.
 
+## Scene illustrate — 24 novembre 2026
+
+La proposta panoramica ha lasciato posto a quattro inquadrature all’altezza dei personaggi. Ciascuna rappresenta un episodio e ha un solo punto illustrato. Le quattro posizioni sono interne alle immagini e prive di coordinate terrestri.
+
+| Scena e capitolo | Riscontro e funzione narrativa | Limite della ricostruzione |
+| --- | --- | --- |
+| L’assalto ai mulini, I.8 | Sancio riconosce i mulini e prova ad avvertire Don Chisciotte. Il seguito narra l’assalto nello stesso campo. | Il paesaggio e il gruppo di mulini sono interpretativi. Il luogo esatto resta indeterminato. |
+| La penitenza nella Sierra Morena, I.25 | Il cavaliere sceglie il luogo della penitenza ai piedi di un’altura. Nello stesso capitolo Sancio parte su Ronzinante. | Lo sperone, il ruscello e il gesto del cavaliere compongono una scena interpretativa. La posizione precisa del ritiro resta indeterminata. |
+| La discesa nella grotta di Montesinos, II.22 | Sancio e il giovane accompagnatore danno corda a Don Chisciotte mentre scende nella caverna. | L’immagine interpreta l’imboccatura. La visione raccontata da Don Chisciotte appartiene a II.23. |
+| Il duello sulla spiaggia di Barcellona, II.64 | Il cavaliere con la luna sullo scudo raggiunge Don Chisciotte sulla spiaggia e lo sfida. Il duello segue nello stesso capitolo. | La sfida è ambientata su una spiaggia senza nome a Barcellona. Il porto sullo sfondo è interpretativo. |
+
+I quattro passi spagnoli sono stati riscontrati nel corpus acquisito. Per ciascuno sono indicati il capitolo, la fonte e la forma testuale evidenziata. I dodici passi in traduzione derivano dai capitoli corrispondenti delle edizioni qui sotto. In caso di omissione interna il segno […] separa due segmenti del medesimo passo.
+
+| Lingua | Opera, edizione e traduttore | Testo integrale disponibile | Pubblico dominio e restrizioni | Fonti e verifiche |
+| --- | --- | --- | --- | --- |
+| Spagnolo | *Don Quijote de la Mancha*, Cervantes, trascrizione Project Gutenberg #2000, 1999, revisione HTML 2010 | Sì, con l’integrazione di I.52 descritta sopra | Testo storico in pubblico dominio. L’edizione a stampa alla base della trascrizione non è identificata. | [Project Gutenberg #2000](https://www.gutenberg.org/ebooks/2000) e copia GITenberg acquisita. |
+| Italiano | *L’ingegnoso idalgo Don Chisciotte della Mancia*, Bartolommeo Gamba, revisione Francesco Ambrosoli, Andrea Ubicini, 1841 | Sì, in due volumi | Traduzione e revisione ottocentesche in pubblico dominio. Si riprendono brevi porzioni del testo storico trascritto, con credito all’edizione e alla fonte digitale. | [Volume I](https://it.wikisource.org/wiki/Don_Chisciotte_della_Mancia), [volume II](https://it.wikisource.org/wiki/Don_Chisciotte_della_Mancia_Vol._2). |
+| Inglese | *Don Quixote*, John Ormsby, 1885, edizione digitale Standard Ebooks | Sì | Traduzione storica in pubblico dominio. Standard Ebooks dichiara il proprio lavoro editoriale CC0. | [Testo integrale](https://standardebooks.org/ebooks/miguel-de-cervantes-saavedra/don-quixote/john-ormsby/text), [colophon digitale](https://standardebooks.org/ebooks/miguel-de-cervantes-saavedra/don-quixote/john-ormsby/text/imprint). |
+| Francese | *L’Ingénieux Hidalgo Don Quichotte de la Manche*, Louis Viardot, J.-J. Dubochet, 1836–1837 | Sì, in due tomi | Traduzione ottocentesca in pubblico dominio. Si riprendono brevi porzioni del testo storico trascritto, con credito all’edizione e alla fonte digitale. | [Indice e testo Wikisource](https://fr.wikisource.org/wiki/L%E2%80%99Ing%C3%A9nieux_Hidalgo_Don_Quichotte_de_la_Manche). |
+
+Ogni estratto dà il contesto minimo per leggere la scena. Il file [di pubblicazione Supabase](../../database/updates/20261124-don-quijote-scenes.sql) registra i sedici passi, le descrizioni e le posizioni nelle immagini. Le immagini in [docs/images/don-quijote](../../docs/images/don-quijote/) sono state create per l’atlante con lo strumento ImageGen integrato. Le [istruzioni di generazione](imagegen-prompts.json) includono il ritocco della grotta per aderire al momento narrato.
+
 ## Sources and distinctions
 
 - [Gutenberg #2000](https://www.gutenberg.org/ebooks/2000) and [acquired GITenberg HTML](https://raw.githubusercontent.com/GITenberg/Don-Quijote_2000/master/2000-h/2000-h.htm): textual evidence.
